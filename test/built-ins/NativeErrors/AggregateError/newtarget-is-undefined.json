@@ -1,0 +1,175 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 538,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 392,
+      "end": 425,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 396,
+          "end": 424,
+          "id": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 399,
+            "name": "obj"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 402,
+            "end": 424,
+            "callee": {
+              "type": "Identifier",
+              "start": 402,
+              "end": 416,
+              "name": "AggregateError"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 417,
+                "end": 419,
+                "elements": []
+              },
+              {
+                "type": "Literal",
+                "start": 421,
+                "end": 423,
+                "value": "",
+                "raw": "''"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 427,
+      "end": 498,
+      "expression": {
+        "type": "CallExpression",
+        "start": 427,
+        "end": 497,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 427,
+          "end": 443,
+          "object": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 433,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 443,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 444,
+            "end": 470,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 444,
+              "end": 465,
+              "object": {
+                "type": "Identifier",
+                "start": 444,
+                "end": 450,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 451,
+                "end": 465,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 466,
+                "end": 469,
+                "name": "obj"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 472,
+            "end": 496,
+            "object": {
+              "type": "Identifier",
+              "start": 472,
+              "end": 486,
+              "name": "AggregateError"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 487,
+              "end": 496,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 499,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 499,
+        "end": 536,
+        "callee": {
+          "type": "Identifier",
+          "start": 499,
+          "end": 505,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 506,
+            "end": 535,
+            "left": {
+              "type": "Identifier",
+              "start": 506,
+              "end": 509,
+              "name": "obj"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 521,
+              "end": 535,
+              "name": "AggregateError"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

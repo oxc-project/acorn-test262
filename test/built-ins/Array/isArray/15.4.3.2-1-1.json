@@ -1,0 +1,88 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 336,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 249,
+      "end": 335,
+      "expression": {
+        "type": "CallExpression",
+        "start": 249,
+        "end": 334,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 249,
+          "end": 265,
+          "object": {
+            "type": "Identifier",
+            "start": 249,
+            "end": 255,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 256,
+            "end": 265,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 266,
+            "end": 285,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 266,
+              "end": 279,
+              "object": {
+                "type": "Identifier",
+                "start": 266,
+                "end": 271,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 272,
+                "end": 279,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 280,
+                "end": 284,
+                "value": true,
+                "raw": "true"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 287,
+            "end": 292,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 294,
+            "end": 333,
+            "value": "Array.isArray(true) must return false",
+            "raw": "'Array.isArray(true) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

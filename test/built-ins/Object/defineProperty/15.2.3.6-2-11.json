@@ -1,0 +1,143 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 428,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 288,
+      "end": 301,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 292,
+          "end": 300,
+          "id": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 295,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 298,
+            "end": 300,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 302,
+      "end": 343,
+      "expression": {
+        "type": "CallExpression",
+        "start": 302,
+        "end": 342,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 302,
+          "end": 323,
+          "object": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 308,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 323,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 324,
+            "end": 327,
+            "name": "obj"
+          },
+          {
+            "type": "Identifier",
+            "start": 329,
+            "end": 337,
+            "name": "Infinity"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 339,
+            "end": 341,
+            "properties": []
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 345,
+      "end": 427,
+      "expression": {
+        "type": "CallExpression",
+        "start": 345,
+        "end": 426,
+        "callee": {
+          "type": "Identifier",
+          "start": 345,
+          "end": 351,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 352,
+            "end": 382,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 352,
+              "end": 370,
+              "object": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 355,
+                "name": "obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 370,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 381,
+                "value": "Infinity",
+                "raw": "\"Infinity\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 384,
+            "end": 425,
+            "value": "obj.hasOwnProperty(\"Infinity\") !== true",
+            "raw": "'obj.hasOwnProperty(\"Infinity\") !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

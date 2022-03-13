@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 393,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 287,
+      "end": 298,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 291,
+          "end": 297,
+          "id": {
+            "type": "Identifier",
+            "start": 291,
+            "end": 292,
+            "name": "o"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 295,
+            "end": 297,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 299,
+      "end": 345,
+      "id": {
+        "type": "Identifier",
+        "start": 308,
+        "end": 309,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 312,
+        "end": 345,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 314,
+            "end": 327,
+            "expression": {
+              "type": "Literal",
+              "start": 314,
+              "end": 326,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 328,
+            "end": 344,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 335,
+              "end": 343,
+              "left": {
+                "type": "ThisExpression",
+                "start": 335,
+                "end": 339
+              },
+              "operator": "===",
+              "right": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 343,
+                "name": "o"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 345,
+      "end": 346
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 348,
+      "end": 392,
+      "expression": {
+        "type": "CallExpression",
+        "start": 348,
+        "end": 391,
+        "callee": {
+          "type": "Identifier",
+          "start": 348,
+          "end": 354,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 355,
+            "end": 366,
+            "callee": {
+              "type": "CallExpression",
+              "start": 355,
+              "end": 364,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 355,
+                "end": 361,
+                "object": {
+                  "type": "Identifier",
+                  "start": 355,
+                  "end": 356,
+                  "name": "f"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 357,
+                  "end": 361,
+                  "name": "bind"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 362,
+                  "end": 363,
+                  "name": "o"
+                }
+              ],
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 368,
+            "end": 390,
+            "value": "f.bind(o)() !== true",
+            "raw": "'f.bind(o)() !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

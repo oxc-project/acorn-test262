@@ -1,0 +1,114 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 694,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 610,
+      "end": 693,
+      "expression": {
+        "type": "CallExpression",
+        "start": 610,
+        "end": 692,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 610,
+          "end": 623,
+          "object": {
+            "type": "Identifier",
+            "start": 610,
+            "end": 616,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 617,
+            "end": 623,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 624,
+            "end": 633,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 635,
+            "end": 683,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 641,
+              "end": 683,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 645,
+                  "end": 681,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 645,
+                    "end": 680,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 649,
+                      "end": 663,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 649,
+                        "end": 653,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 654,
+                        "end": 663,
+                        "name": "Segmenter"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 664,
+                        "end": 673,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 675,
+                        "end": 679,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 685,
+            "end": 691,
+            "value": "null",
+            "raw": "'null'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

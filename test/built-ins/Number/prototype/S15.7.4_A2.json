@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 493,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 360,
+      "end": 492,
+      "expression": {
+        "type": "CallExpression",
+        "start": 360,
+        "end": 491,
+        "callee": {
+          "type": "Identifier",
+          "start": 360,
+          "end": 366,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 370,
+            "end": 418,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 370,
+              "end": 400,
+              "object": {
+                "type": "MemberExpression",
+                "start": 370,
+                "end": 386,
+                "object": {
+                  "type": "Identifier",
+                  "start": 370,
+                  "end": 376,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 377,
+                  "end": 386,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 387,
+                "end": 400,
+                "name": "isPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 401,
+                "end": 417,
+                "object": {
+                  "type": "Identifier",
+                  "start": 401,
+                  "end": 407,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 408,
+                  "end": 417,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 489,
+            "value": "Object.prototype.isPrototypeOf(Number.prototype) must return true",
+            "raw": "'Object.prototype.isPrototypeOf(Number.prototype) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,194 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 625,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 407,
+      "end": 473,
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 414,
+          "end": 425,
+          "local": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 425,
+            "name": "Scouts"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 431,
+        "end": 472,
+        "value": "./export-expname-from-string-binding.js",
+        "raw": "\"./export-expname-from-string-binding.js\""
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 474,
+      "end": 531,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 483,
+          "end": 493,
+          "local": {
+            "type": "Literal",
+            "start": 483,
+            "end": 486,
+            "value": "☿",
+            "raw": "\"☿\""
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 493,
+            "name": "Ami"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 501,
+        "end": 530,
+        "value": "./export-expname_FIXTURE.js",
+        "raw": "\"./export-expname_FIXTURE.js\""
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 533,
+      "end": 574,
+      "expression": {
+        "type": "CallExpression",
+        "start": 533,
+        "end": 573,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 533,
+          "end": 549,
+          "object": {
+            "type": "Identifier",
+            "start": 533,
+            "end": 539,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 540,
+            "end": 549,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 550,
+            "end": 561,
+            "object": {
+              "type": "Identifier",
+              "start": 550,
+              "end": 556,
+              "name": "Scouts"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 557,
+              "end": 560,
+              "value": "☿",
+              "raw": "\"☿\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 563,
+            "end": 572,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 575,
+      "end": 624,
+      "expression": {
+        "type": "CallExpression",
+        "start": 575,
+        "end": 623,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 575,
+          "end": 591,
+          "object": {
+            "type": "Identifier",
+            "start": 575,
+            "end": 581,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 591,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 592,
+            "end": 602,
+            "object": {
+              "type": "Identifier",
+              "start": 592,
+              "end": 598,
+              "name": "Scouts"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 599,
+              "end": 602,
+              "name": "Ami"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 604,
+            "end": 622,
+            "object": {
+              "type": "Identifier",
+              "start": 604,
+              "end": 614,
+              "name": "globalThis"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 615,
+              "end": 622,
+              "name": "Mercury"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

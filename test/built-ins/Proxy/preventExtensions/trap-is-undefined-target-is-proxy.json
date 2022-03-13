@@ -1,0 +1,195 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 918,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 704,
+      "end": 765,
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 711,
+          "end": 718,
+          "local": {
+            "type": "Identifier",
+            "start": 716,
+            "end": 718,
+            "name": "ns"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 724,
+        "end": 764,
+        "value": "./trap-is-undefined-target-is-proxy.js",
+        "raw": "\"./trap-is-undefined-target-is-proxy.js\""
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 767,
+      "end": 800,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 771,
+          "end": 799,
+          "id": {
+            "type": "Identifier",
+            "start": 771,
+            "end": 779,
+            "name": "nsTarget"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 782,
+            "end": 799,
+            "callee": {
+              "type": "Identifier",
+              "start": 786,
+              "end": 791,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 792,
+                "end": 794,
+                "name": "ns"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 796,
+                "end": 798,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 801,
+      "end": 872,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 805,
+          "end": 871,
+          "id": {
+            "type": "Identifier",
+            "start": 805,
+            "end": 812,
+            "name": "nsProxy"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 815,
+            "end": 871,
+            "callee": {
+              "type": "Identifier",
+              "start": 819,
+              "end": 824,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 825,
+                "end": 833,
+                "name": "nsTarget"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 835,
+                "end": 870,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 839,
+                    "end": 867,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 839,
+                      "end": 856,
+                      "name": "preventExtensions"
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 858,
+                      "end": 867,
+                      "name": "undefined"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 874,
+      "end": 917,
+      "expression": {
+        "type": "CallExpression",
+        "start": 874,
+        "end": 916,
+        "callee": {
+          "type": "Identifier",
+          "start": 874,
+          "end": 880,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 881,
+            "end": 915,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 881,
+              "end": 906,
+              "object": {
+                "type": "Identifier",
+                "start": 881,
+                "end": 888,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 889,
+                "end": 906,
+                "name": "preventExtensions"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 907,
+                "end": 914,
+                "name": "nsProxy"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

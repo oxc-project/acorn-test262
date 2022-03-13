@@ -1,0 +1,53 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1920,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1577,
+      "end": 1919,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1577,
+        "end": 1918,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 1577,
+          "end": 1585,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 1578,
+            "end": 1584,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 1578,
+                "end": 1579,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 1580,
+                "end": 1584,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1589,
+            "end": 1916,
+            "value": "assert.sameValue(    f, undefined, \"Initialized binding created prior to evaluation\"  );    try {    throw null;  } catch (f) {if (true) function f() { return 123; }}    assert.sameValue(    typeof f,    \"function\",    \"binding value is updated following evaluation\"  );  assert.sameValue(f(), 123);",
+            "raw": "'assert.sameValue(\\\n    f, undefined, \"Initialized binding created prior to evaluation\"\\\n  );\\\n  \\\n  try {\\\n    throw null;\\\n  } catch (f) {if (true) function f() { return 123; }}\\\n  \\\n  assert.sameValue(\\\n    typeof f,\\\n    \"function\",\\\n    \"binding value is updated following evaluation\"\\\n  );\\\n  assert.sameValue(f(), 123);'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

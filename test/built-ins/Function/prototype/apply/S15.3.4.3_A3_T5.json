@@ -1,0 +1,244 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 697,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 383,
+      "end": 453,
+      "id": {
+        "type": "Identifier",
+        "start": 392,
+        "end": 399,
+        "name": "FACTORY"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 402,
+        "end": 453,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 406,
+            "end": 451,
+            "expression": {
+              "type": "CallExpression",
+              "start": 406,
+              "end": 450,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 406,
+                "end": 448,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 406,
+                  "end": 442,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 406,
+                    "end": 414,
+                    "name": "Function"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 415,
+                      "end": 441,
+                      "value": "this.feat=\"in da haus\"",
+                      "raw": "\"this.feat=\\\"in da haus\\\"\""
+                    }
+                  ],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 443,
+                  "end": 448,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 455,
+      "end": 477,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 459,
+          "end": 476,
+          "id": {
+            "type": "Identifier",
+            "start": 459,
+            "end": 462,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 465,
+            "end": 476,
+            "callee": {
+              "type": "Identifier",
+              "start": 469,
+              "end": 476,
+              "name": "FACTORY"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 479,
+      "end": 584,
+      "expression": {
+        "type": "CallExpression",
+        "start": 479,
+        "end": 583,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 479,
+          "end": 495,
+          "object": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 485,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 486,
+            "end": 495,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 496,
+            "end": 508,
+            "object": {
+              "type": "ThisExpression",
+              "start": 496,
+              "end": 500
+            },
+            "property": {
+              "type": "Literal",
+              "start": 501,
+              "end": 507,
+              "value": "feat",
+              "raw": "\"feat\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 510,
+            "end": 522,
+            "value": "in da haus",
+            "raw": "\"in da haus\""
+          },
+          {
+            "type": "Literal",
+            "start": 524,
+            "end": 582,
+            "value": "The value of this[\"feat\"] is expected to be \"in da haus\"",
+            "raw": "'The value of this[\"feat\"] is expected to be \"in da haus\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 585,
+      "end": 696,
+      "expression": {
+        "type": "CallExpression",
+        "start": 585,
+        "end": 695,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 585,
+          "end": 601,
+          "object": {
+            "type": "Identifier",
+            "start": 585,
+            "end": 591,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 592,
+            "end": 601,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 602,
+            "end": 617,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 609,
+              "end": 617,
+              "object": {
+                "type": "Identifier",
+                "start": 609,
+                "end": 612,
+                "name": "obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 613,
+                "end": 617,
+                "name": "feat"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 619,
+            "end": 630,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          },
+          {
+            "type": "Literal",
+            "start": 632,
+            "end": 694,
+            "value": "The value of `typeof obj.feat` is expected to be \"undefined\"",
+            "raw": "'The value of `typeof obj.feat` is expected to be \"undefined\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

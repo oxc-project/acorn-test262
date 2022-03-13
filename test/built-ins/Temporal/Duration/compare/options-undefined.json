@@ -1,0 +1,339 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 601,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 264,
+      "end": 307,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 270,
+          "end": 306,
+          "id": {
+            "type": "Identifier",
+            "start": 270,
+            "end": 279,
+            "name": "duration1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 282,
+            "end": 306,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 286,
+              "end": 303,
+              "object": {
+                "type": "Identifier",
+                "start": 286,
+                "end": 294,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 295,
+                "end": 303,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 304,
+                "end": 305,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 308,
+      "end": 355,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 314,
+          "end": 354,
+          "id": {
+            "type": "Identifier",
+            "start": 314,
+            "end": 323,
+            "name": "duration2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 326,
+            "end": 354,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 330,
+              "end": 347,
+              "object": {
+                "type": "Identifier",
+                "start": 330,
+                "end": 338,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 339,
+                "end": 347,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 348,
+                "end": 349,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 353,
+                "value": 12,
+                "raw": "12"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 356,
+      "end": 472,
+      "expression": {
+        "type": "CallExpression",
+        "start": 356,
+        "end": 471,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 356,
+          "end": 369,
+          "object": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 362,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 363,
+            "end": 369,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 370,
+            "end": 380,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 382,
+            "end": 435,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 388,
+              "end": 435,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 388,
+                "end": 413,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 388,
+                  "end": 405,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 388,
+                    "end": 396,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 397,
+                    "end": 405,
+                    "name": "Duration"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 406,
+                  "end": 413,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 414,
+                  "end": 423,
+                  "name": "duration1"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 425,
+                  "end": 434,
+                  "name": "duration2"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 437,
+            "end": 470,
+            "value": "default relativeTo is undefined",
+            "raw": "\"default relativeTo is undefined\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 473,
+      "end": 600,
+      "expression": {
+        "type": "CallExpression",
+        "start": 473,
+        "end": 599,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 473,
+          "end": 486,
+          "object": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 479,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 480,
+            "end": 486,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 487,
+            "end": 497,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 499,
+            "end": 563,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 505,
+              "end": 563,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 505,
+                "end": 530,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 505,
+                  "end": 522,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 505,
+                    "end": 513,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 514,
+                    "end": 522,
+                    "name": "Duration"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 523,
+                  "end": 530,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 531,
+                  "end": 540,
+                  "name": "duration1"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 542,
+                  "end": 551,
+                  "name": "duration2"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 553,
+                  "end": 562,
+                  "name": "undefined"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 565,
+            "end": 598,
+            "value": "default relativeTo is undefined",
+            "raw": "\"default relativeTo is undefined\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

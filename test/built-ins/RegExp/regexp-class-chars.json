@@ -1,0 +1,308 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 919,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 692,
+      "end": 733,
+      "expression": {
+        "type": "CallExpression",
+        "start": 692,
+        "end": 732,
+        "callee": {
+          "type": "Identifier",
+          "start": 692,
+          "end": 698,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 699,
+            "end": 714,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 699,
+              "end": 709,
+              "object": {
+                "type": "Literal",
+                "start": 699,
+                "end": 704,
+                "value": {},
+                "raw": "/[/]/",
+                "regex": {
+                  "pattern": "[/]",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 705,
+                "end": 709,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 710,
+                "end": 713,
+                "value": "/",
+                "raw": "\"/\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 716,
+            "end": 731,
+            "value": "Forward slash",
+            "raw": "\"Forward slash\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 734,
+      "end": 792,
+      "expression": {
+        "type": "CallExpression",
+        "start": 734,
+        "end": 791,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 734,
+          "end": 750,
+          "object": {
+            "type": "Identifier",
+            "start": 734,
+            "end": 740,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 741,
+            "end": 750,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 751,
+            "end": 766,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 751,
+              "end": 761,
+              "object": {
+                "type": "Literal",
+                "start": 751,
+                "end": 756,
+                "value": {},
+                "raw": "/[/]/",
+                "regex": {
+                  "pattern": "[/]",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 757,
+                "end": 761,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 762,
+                "end": 765,
+                "value": "x",
+                "raw": "\"x\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 768,
+            "end": 773,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 775,
+            "end": 790,
+            "value": "Forward slash",
+            "raw": "\"Forward slash\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 794,
+      "end": 847,
+      "expression": {
+        "type": "CallExpression",
+        "start": 794,
+        "end": 846,
+        "callee": {
+          "type": "Identifier",
+          "start": 794,
+          "end": 800,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 801,
+            "end": 817,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 801,
+              "end": 812,
+              "object": {
+                "type": "Literal",
+                "start": 801,
+                "end": 807,
+                "value": {},
+                "raw": "/[//]/",
+                "regex": {
+                  "pattern": "[//]",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 808,
+                "end": 812,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 813,
+                "end": 816,
+                "value": "/",
+                "raw": "\"/\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 819,
+            "end": 845,
+            "value": "Forward slash - repeated",
+            "raw": "\"Forward slash - repeated\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 848,
+      "end": 918,
+      "expression": {
+        "type": "CallExpression",
+        "start": 848,
+        "end": 917,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 848,
+          "end": 864,
+          "object": {
+            "type": "Identifier",
+            "start": 848,
+            "end": 854,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 855,
+            "end": 864,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 865,
+            "end": 881,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 865,
+              "end": 876,
+              "object": {
+                "type": "Literal",
+                "start": 865,
+                "end": 871,
+                "value": {},
+                "raw": "/[//]/",
+                "regex": {
+                  "pattern": "[//]",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 872,
+                "end": 876,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 877,
+                "end": 880,
+                "value": "x",
+                "raw": "\"x\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 883,
+            "end": 888,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 890,
+            "end": 916,
+            "value": "Forward slash - repeated",
+            "raw": "\"Forward slash - repeated\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

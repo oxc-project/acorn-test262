@@ -1,0 +1,399 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 720,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 461,
+      "end": 508,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 465,
+          "end": 507,
+          "id": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 472,
+            "name": "OSymbol"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 475,
+            "end": 507,
+            "object": {
+              "type": "MemberExpression",
+              "start": 475,
+              "end": 500,
+              "object": {
+                "type": "CallExpression",
+                "start": 475,
+                "end": 493,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 475,
+                  "end": 491,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 475,
+                    "end": 479,
+                    "name": "$262"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 480,
+                    "end": 491,
+                    "name": "createRealm"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 494,
+                "end": 500,
+                "name": "global"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 501,
+              "end": 507,
+              "name": "Symbol"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 509,
+      "end": 543,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 513,
+          "end": 542,
+          "id": {
+            "type": "Identifier",
+            "start": 513,
+            "end": 519,
+            "name": "parent"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 522,
+            "end": 542,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 522,
+              "end": 532,
+              "object": {
+                "type": "Identifier",
+                "start": 522,
+                "end": 528,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 529,
+                "end": 532,
+                "name": "for"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 533,
+                "end": 541,
+                "value": "parent",
+                "raw": "'parent'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 544,
+      "end": 577,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 548,
+          "end": 576,
+          "id": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 553,
+            "name": "child"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 556,
+            "end": 576,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 556,
+              "end": 567,
+              "object": {
+                "type": "Identifier",
+                "start": 556,
+                "end": 563,
+                "name": "OSymbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 564,
+                "end": 567,
+                "name": "for"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 568,
+                "end": 575,
+                "value": "child",
+                "raw": "'child'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 579,
+      "end": 624,
+      "expression": {
+        "type": "CallExpression",
+        "start": 579,
+        "end": 623,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 579,
+          "end": 598,
+          "object": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 585,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 586,
+            "end": 598,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 599,
+            "end": 609,
+            "object": {
+              "type": "Identifier",
+              "start": 599,
+              "end": 605,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 606,
+              "end": 609,
+              "name": "for"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 611,
+            "end": 622,
+            "object": {
+              "type": "Identifier",
+              "start": 611,
+              "end": 618,
+              "name": "OSymbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 619,
+              "end": 622,
+              "name": "for"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 625,
+      "end": 673,
+      "expression": {
+        "type": "CallExpression",
+        "start": 625,
+        "end": 672,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 625,
+          "end": 641,
+          "object": {
+            "type": "Identifier",
+            "start": 625,
+            "end": 631,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 632,
+            "end": 641,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 642,
+            "end": 648,
+            "name": "parent"
+          },
+          {
+            "type": "CallExpression",
+            "start": 650,
+            "end": 671,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 650,
+              "end": 661,
+              "object": {
+                "type": "Identifier",
+                "start": 650,
+                "end": 657,
+                "name": "OSymbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 658,
+                "end": 661,
+                "name": "for"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 662,
+                "end": 670,
+                "value": "parent",
+                "raw": "'parent'"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 674,
+      "end": 719,
+      "expression": {
+        "type": "CallExpression",
+        "start": 674,
+        "end": 718,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 674,
+          "end": 690,
+          "object": {
+            "type": "Identifier",
+            "start": 674,
+            "end": 680,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 681,
+            "end": 690,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 691,
+            "end": 710,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 691,
+              "end": 701,
+              "object": {
+                "type": "Identifier",
+                "start": 691,
+                "end": 697,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 698,
+                "end": 701,
+                "name": "for"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 702,
+                "end": 709,
+                "value": "child",
+                "raw": "'child'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 712,
+            "end": 717,
+            "name": "child"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

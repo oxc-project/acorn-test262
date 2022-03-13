@@ -1,0 +1,317 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 585,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 282,
+      "end": 312,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 288,
+          "end": 311,
+          "id": {
+            "type": "ObjectPattern",
+            "start": 288,
+            "end": 300,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 290,
+                "end": 298,
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 290,
+                  "end": 298,
+                  "name": "Duration"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "Identifier",
+                  "start": 290,
+                  "end": 298,
+                  "name": "Duration"
+                }
+              }
+            ]
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 303,
+            "end": 311,
+            "name": "Temporal"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 314,
+      "end": 354,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 320,
+          "end": 353,
+          "id": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 334,
+            "name": "durationString"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 337,
+            "end": 353,
+            "value": "PT0.084000159S",
+            "raw": "'PT0.084000159S'"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 355,
+      "end": 402,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 361,
+          "end": 401,
+          "id": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 369,
+            "name": "duration"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 372,
+            "end": 401,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 372,
+              "end": 385,
+              "object": {
+                "type": "Identifier",
+                "start": 372,
+                "end": 380,
+                "name": "Duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 381,
+                "end": 385,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 386,
+                "end": 400,
+                "name": "durationString"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 403,
+      "end": 481,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 409,
+          "end": 480,
+          "id": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 424,
+            "name": "precisionString"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 427,
+            "end": 480,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 427,
+              "end": 444,
+              "object": {
+                "type": "Identifier",
+                "start": 427,
+                "end": 435,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 436,
+                "end": 444,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 445,
+                "end": 479,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 449,
+                    "end": 477,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 449,
+                      "end": 461,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 463,
+                      "end": 477,
+                      "value": "milliseconds",
+                      "raw": "'milliseconds'"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 483,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 483,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 483,
+          "end": 499,
+          "object": {
+            "type": "Identifier",
+            "start": 483,
+            "end": 489,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 499,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 500,
+            "end": 514,
+            "name": "durationString"
+          },
+          {
+            "type": "CallExpression",
+            "start": 516,
+            "end": 535,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 516,
+              "end": 533,
+              "object": {
+                "type": "Identifier",
+                "start": 516,
+                "end": 524,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 533,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 538,
+      "end": 584,
+      "expression": {
+        "type": "CallExpression",
+        "start": 538,
+        "end": 583,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 538,
+          "end": 554,
+          "object": {
+            "type": "Identifier",
+            "start": 538,
+            "end": 544,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 545,
+            "end": 554,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 555,
+            "end": 570,
+            "name": "precisionString"
+          },
+          {
+            "type": "Literal",
+            "start": 572,
+            "end": 582,
+            "value": "PT0.084S",
+            "raw": "\"PT0.084S\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

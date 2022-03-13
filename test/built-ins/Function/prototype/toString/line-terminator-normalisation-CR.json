@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 744,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 518,
+      "end": 596,
+      "id": {
+        "type": "Identifier",
+        "start": 532,
+        "end": 533,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 546,
+          "end": 547,
+          "name": "x"
+        },
+        {
+          "type": "Identifier",
+          "start": 560,
+          "end": 561,
+          "name": "y"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 574,
+        "end": 596,
+        "body": [
+          {
+            "type": "EmptyStatement",
+            "start": 581,
+            "end": 582
+          },
+          {
+            "type": "EmptyStatement",
+            "start": 588,
+            "end": 589
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 607,
+      "end": 743,
+      "expression": {
+        "type": "CallExpression",
+        "start": 607,
+        "end": 742,
+        "callee": {
+          "type": "Identifier",
+          "start": 607,
+          "end": 637,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 638,
+            "end": 639,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 641,
+            "end": 741,
+            "value": "function\r// a\rf\r// b\r(\r// c\rx\r// d\r,\r// e\ry\r// f\r)\r// g\r{\r// h\r;\r// i\r;\r// j\r}",
+            "raw": "\"function\\r// a\\rf\\r// b\\r(\\r// c\\rx\\r// d\\r,\\r// e\\ry\\r// f\\r)\\r// g\\r{\\r// h\\r;\\r// i\\r;\\r// j\\r}\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

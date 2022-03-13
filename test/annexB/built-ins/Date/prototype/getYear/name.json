@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 818,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 684,
+      "end": 817,
+      "expression": {
+        "type": "CallExpression",
+        "start": 684,
+        "end": 816,
+        "callee": {
+          "type": "Identifier",
+          "start": 684,
+          "end": 698,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 699,
+            "end": 721,
+            "object": {
+              "type": "MemberExpression",
+              "start": 699,
+              "end": 713,
+              "object": {
+                "type": "Identifier",
+                "start": 699,
+                "end": 703,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 704,
+                "end": 713,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 714,
+              "end": 721,
+              "name": "getYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 723,
+            "end": 729,
+            "value": "name",
+            "raw": "\"name\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 731,
+            "end": 815,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 735,
+                "end": 752,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 735,
+                  "end": 745,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 747,
+                  "end": 752,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 756,
+                "end": 771,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 756,
+                  "end": 764,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 766,
+                  "end": 771,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 775,
+                "end": 793,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 775,
+                  "end": 787,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 789,
+                  "end": 793,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 797,
+                "end": 813,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 797,
+                  "end": 802,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 804,
+                  "end": 813,
+                  "value": "getYear",
+                  "raw": "\"getYear\""
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

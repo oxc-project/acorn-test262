@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 610,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 402,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 401,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 323,
+          "end": 339,
+          "object": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 339,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 340,
+            "end": 348,
+            "operator": "+",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 341,
+              "end": 348,
+              "expression": {
+                "type": "Literal",
+                "start": 342,
+                "end": 347,
+                "value": "0xd",
+                "raw": "\"0xd\""
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 350,
+            "end": 352,
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "type": "Literal",
+            "start": 354,
+            "end": 400,
+            "value": "The value of `+(\"0xd\")` is expected to be 13",
+            "raw": "'The value of `+(\"0xd\")` is expected to be 13'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 403,
+      "end": 471,
+      "expression": {
+        "type": "CallExpression",
+        "start": 403,
+        "end": 470,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 403,
+          "end": 419,
+          "object": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 409,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 419,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 420,
+            "end": 433,
+            "callee": {
+              "type": "Identifier",
+              "start": 420,
+              "end": 426,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 427,
+                "end": 432,
+                "value": "0xD",
+                "raw": "\"0xD\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 435,
+            "end": 437,
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "type": "Literal",
+            "start": 439,
+            "end": 469,
+            "value": "Number(\"0xD\") must return 13",
+            "raw": "'Number(\"0xD\") must return 13'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 472,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 472,
+        "end": 539,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 472,
+          "end": 488,
+          "object": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 478,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 488,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 489,
+            "end": 502,
+            "callee": {
+              "type": "Identifier",
+              "start": 489,
+              "end": 495,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 496,
+                "end": 501,
+                "value": "0Xd",
+                "raw": "\"0Xd\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 504,
+            "end": 506,
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "type": "Literal",
+            "start": 508,
+            "end": 538,
+            "value": "Number(\"0Xd\") must return 13",
+            "raw": "'Number(\"0Xd\") must return 13'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 541,
+      "end": 609,
+      "expression": {
+        "type": "CallExpression",
+        "start": 541,
+        "end": 608,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 541,
+          "end": 557,
+          "object": {
+            "type": "Identifier",
+            "start": 541,
+            "end": 547,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 557,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 558,
+            "end": 571,
+            "callee": {
+              "type": "Identifier",
+              "start": 558,
+              "end": 564,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 565,
+                "end": 570,
+                "value": "0XD",
+                "raw": "\"0XD\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 573,
+            "end": 575,
+            "value": 13,
+            "raw": "13"
+          },
+          {
+            "type": "Literal",
+            "start": 577,
+            "end": 607,
+            "value": "Number(\"0XD\") must return 13",
+            "raw": "'Number(\"0XD\") must return 13'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

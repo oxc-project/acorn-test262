@@ -1,0 +1,294 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 722,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 340,
+      "end": 381,
+      "expression": {
+        "type": "CallExpression",
+        "start": 340,
+        "end": 380,
+        "callee": {
+          "type": "Identifier",
+          "start": 340,
+          "end": 361,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 362,
+            "end": 366,
+            "name": "Date"
+          },
+          {
+            "type": "Literal",
+            "start": 368,
+            "end": 379,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "TryStatement",
+      "start": 383,
+      "end": 540,
+      "block": {
+        "type": "BlockStatement",
+        "start": 387,
+        "end": 440,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 391,
+            "end": 438,
+            "expression": {
+              "type": "CallExpression",
+              "start": 391,
+              "end": 437,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 391,
+                "end": 407,
+                "object": {
+                  "type": "Identifier",
+                  "start": 391,
+                  "end": 397,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 398,
+                  "end": 407,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 408,
+                  "end": 429,
+                  "operator": "delete",
+                  "prefix": true,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 415,
+                    "end": 429,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 415,
+                      "end": 419,
+                      "name": "Date"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 420,
+                      "end": 429,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 431,
+                  "end": 436,
+                  "value": false,
+                  "raw": "false"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 441,
+        "end": 540,
+        "param": {
+          "type": "Identifier",
+          "start": 448,
+          "end": 449,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 451,
+          "end": 540,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 455,
+              "end": 504,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 459,
+                "end": 484,
+                "left": {
+                  "type": "Identifier",
+                  "start": 459,
+                  "end": 460,
+                  "name": "e"
+                },
+                "operator": "instanceof",
+                "right": {
+                  "type": "Identifier",
+                  "start": 472,
+                  "end": 484,
+                  "name": "Test262Error"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 486,
+                "end": 504,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 492,
+                    "end": 500,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 498,
+                      "end": 499,
+                      "name": "e"
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            },
+            {
+              "type": "ExpressionStatement",
+              "start": 507,
+              "end": 538,
+              "expression": {
+                "type": "CallExpression",
+                "start": 507,
+                "end": 537,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 507,
+                  "end": 513,
+                  "name": "assert"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 514,
+                    "end": 536,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 514,
+                      "end": 515,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 527,
+                      "end": 536,
+                      "name": "TypeError"
+                    }
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 542,
+      "end": 675,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 546,
+        "end": 579,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "CallExpression",
+          "start": 547,
+          "end": 579,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 547,
+            "end": 566,
+            "object": {
+              "type": "Identifier",
+              "start": 547,
+              "end": 551,
+              "name": "Date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 552,
+              "end": 566,
+              "name": "hasOwnProperty"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 567,
+              "end": 578,
+              "value": "prototype",
+              "raw": "'prototype'"
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 581,
+        "end": 675,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 585,
+            "end": 673,
+            "argument": {
+              "type": "NewExpression",
+              "start": 591,
+              "end": 672,
+              "callee": {
+                "type": "Identifier",
+                "start": 595,
+                "end": 607,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 608,
+                  "end": 671,
+                  "value": "#2: The Date.prototype property has the attributes DontDelete",
+                  "raw": "'#2: The Date.prototype property has the attributes DontDelete'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

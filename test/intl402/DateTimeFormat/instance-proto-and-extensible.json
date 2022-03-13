@@ -1,0 +1,240 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 652,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 303,
+      "end": 339,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 307,
+          "end": 338,
+          "id": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 310,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 313,
+            "end": 338,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 317,
+              "end": 336,
+              "object": {
+                "type": "Identifier",
+                "start": 317,
+                "end": 321,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 322,
+                "end": 336,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 341,
+      "end": 390,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 345,
+          "end": 389,
+          "id": {
+            "type": "Identifier",
+            "start": 345,
+            "end": 360,
+            "name": "actualPrototype"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 363,
+            "end": 389,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 363,
+              "end": 384,
+              "object": {
+                "type": "Identifier",
+                "start": 363,
+                "end": 369,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 370,
+                "end": 384,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 385,
+                "end": 388,
+                "name": "obj"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 391,
+      "end": 551,
+      "expression": {
+        "type": "CallExpression",
+        "start": 391,
+        "end": 550,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 391,
+          "end": 407,
+          "object": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 397,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 407,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 408,
+            "end": 423,
+            "name": "actualPrototype"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 425,
+            "end": 454,
+            "object": {
+              "type": "MemberExpression",
+              "start": 425,
+              "end": 444,
+              "object": {
+                "type": "Identifier",
+                "start": 425,
+                "end": 429,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 430,
+                "end": 444,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 445,
+              "end": 454,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 456,
+            "end": 549,
+            "value": "Prototype of object constructed by Intl.DateTimeFormat isn't Intl.DateTimeFormat.prototype.",
+            "raw": "\"Prototype of object constructed by Intl.DateTimeFormat isn't Intl.DateTimeFormat.prototype.\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 553,
+      "end": 651,
+      "expression": {
+        "type": "CallExpression",
+        "start": 553,
+        "end": 650,
+        "callee": {
+          "type": "Identifier",
+          "start": 553,
+          "end": 559,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 560,
+            "end": 584,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 560,
+              "end": 579,
+              "object": {
+                "type": "Identifier",
+                "start": 560,
+                "end": 566,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 567,
+                "end": 579,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 580,
+                "end": 583,
+                "name": "obj"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 586,
+            "end": 649,
+            "value": "Object constructed by Intl.DateTimeFormat must be extensible.",
+            "raw": "\"Object constructed by Intl.DateTimeFormat must be extensible.\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

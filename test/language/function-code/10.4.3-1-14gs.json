@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 442,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 314,
+      "end": 371,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 318,
+          "end": 370,
+          "id": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 319,
+            "name": "f"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 322,
+            "end": 370,
+            "callee": {
+              "type": "Identifier",
+              "start": 322,
+              "end": 330,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 331,
+                "end": 369,
+                "value": "\"use strict\";\nreturn typeof this;",
+                "raw": "\"\\\"use strict\\\";\\nreturn typeof this;\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 372,
+      "end": 441,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 376,
+        "end": 395,
+        "left": {
+          "type": "CallExpression",
+          "start": 376,
+          "end": 379,
+          "callee": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 377,
+            "name": "f"
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 384,
+          "end": 395,
+          "value": "undefined",
+          "raw": "\"undefined\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 397,
+        "end": 441,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 403,
+            "end": 439,
+            "argument": {
+              "type": "Literal",
+              "start": 409,
+              "end": 438,
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

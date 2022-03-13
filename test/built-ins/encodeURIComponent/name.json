@@ -1,0 +1,162 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 935,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 725,
+      "end": 789,
+      "expression": {
+        "type": "CallExpression",
+        "start": 725,
+        "end": 788,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 725,
+          "end": 741,
+          "object": {
+            "type": "Identifier",
+            "start": 725,
+            "end": 731,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 732,
+            "end": 741,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 742,
+            "end": 765,
+            "object": {
+              "type": "Identifier",
+              "start": 742,
+              "end": 760,
+              "name": "encodeURIComponent"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 761,
+              "end": 765,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 767,
+            "end": 787,
+            "value": "encodeURIComponent",
+            "raw": "\"encodeURIComponent\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 791,
+      "end": 839,
+      "expression": {
+        "type": "CallExpression",
+        "start": 791,
+        "end": 838,
+        "callee": {
+          "type": "Identifier",
+          "start": 791,
+          "end": 810,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 811,
+            "end": 829,
+            "name": "encodeURIComponent"
+          },
+          {
+            "type": "Literal",
+            "start": 831,
+            "end": 837,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 840,
+      "end": 886,
+      "expression": {
+        "type": "CallExpression",
+        "start": 840,
+        "end": 885,
+        "callee": {
+          "type": "Identifier",
+          "start": 840,
+          "end": 857,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 858,
+            "end": 876,
+            "name": "encodeURIComponent"
+          },
+          {
+            "type": "Literal",
+            "start": 878,
+            "end": 884,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 887,
+      "end": 934,
+      "expression": {
+        "type": "CallExpression",
+        "start": 887,
+        "end": 933,
+        "callee": {
+          "type": "Identifier",
+          "start": 887,
+          "end": 905,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 906,
+            "end": 924,
+            "name": "encodeURIComponent"
+          },
+          {
+            "type": "Literal",
+            "start": 926,
+            "end": 932,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

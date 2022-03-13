@@ -1,0 +1,293 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 820,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 505,
+      "end": 577,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 509,
+          "end": 576,
+          "id": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 519,
+            "name": "descriptor"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 522,
+            "end": 576,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 522,
+              "end": 553,
+              "object": {
+                "type": "Identifier",
+                "start": 522,
+                "end": 528,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 529,
+                "end": 553,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 554,
+                "end": 567,
+                "object": {
+                  "type": "Identifier",
+                  "start": 554,
+                  "end": 557,
+                  "name": "Map"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 558,
+                  "end": 567,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 569,
+                "end": 575,
+                "value": "size",
+                "raw": "'size'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 579,
+      "end": 686,
+      "expression": {
+        "type": "CallExpression",
+        "start": 579,
+        "end": 685,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 579,
+          "end": 595,
+          "object": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 585,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 586,
+            "end": 595,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 596,
+            "end": 615,
+            "object": {
+              "type": "MemberExpression",
+              "start": 596,
+              "end": 610,
+              "object": {
+                "type": "Identifier",
+                "start": 596,
+                "end": 606,
+                "name": "descriptor"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 607,
+                "end": 610,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 611,
+              "end": 615,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 619,
+            "end": 629,
+            "value": "get size",
+            "raw": "'get size'"
+          },
+          {
+            "type": "Literal",
+            "start": 633,
+            "end": 683,
+            "value": "The value of `descriptor.get.name` is `get size`",
+            "raw": "'The value of `descriptor.get.name` is `get size`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 688,
+      "end": 732,
+      "expression": {
+        "type": "CallExpression",
+        "start": 688,
+        "end": 731,
+        "callee": {
+          "type": "Identifier",
+          "start": 688,
+          "end": 707,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 708,
+            "end": 722,
+            "object": {
+              "type": "Identifier",
+              "start": 708,
+              "end": 718,
+              "name": "descriptor"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 719,
+              "end": 722,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 724,
+            "end": 730,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 733,
+      "end": 775,
+      "expression": {
+        "type": "CallExpression",
+        "start": 733,
+        "end": 774,
+        "callee": {
+          "type": "Identifier",
+          "start": 733,
+          "end": 750,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 751,
+            "end": 765,
+            "object": {
+              "type": "Identifier",
+              "start": 751,
+              "end": 761,
+              "name": "descriptor"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 762,
+              "end": 765,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 767,
+            "end": 773,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 776,
+      "end": 819,
+      "expression": {
+        "type": "CallExpression",
+        "start": 776,
+        "end": 818,
+        "callee": {
+          "type": "Identifier",
+          "start": 776,
+          "end": 794,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 795,
+            "end": 809,
+            "object": {
+              "type": "Identifier",
+              "start": 795,
+              "end": 805,
+              "name": "descriptor"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 806,
+              "end": 809,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 811,
+            "end": 817,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

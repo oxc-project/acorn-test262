@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 424,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 312,
+      "end": 358,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 316,
+          "end": 357,
+          "id": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 320,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 323,
+            "end": 357,
+            "callee": {
+              "type": "Identifier",
+              "start": 327,
+              "end": 331,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 332,
+                "end": 340,
+                "name": "Infinity"
+              },
+              {
+                "type": "Literal",
+                "start": 342,
+                "end": 343,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 345,
+                "end": 347,
+                "value": 70,
+                "raw": "70"
+              },
+              {
+                "type": "Literal",
+                "start": 349,
+                "end": 350,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 352,
+                "end": 353,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 355,
+                "end": 356,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 359,
+      "end": 423,
+      "expression": {
+        "type": "CallExpression",
+        "start": 359,
+        "end": 422,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 359,
+          "end": 372,
+          "object": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 365,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 372,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 373,
+            "end": 383,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 385,
+            "end": 421,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 396,
+              "end": 421,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 400,
+                  "end": 419,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 400,
+                    "end": 418,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 400,
+                      "end": 416,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 400,
+                        "end": 404,
+                        "name": "date"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 405,
+                        "end": 416,
+                        "name": "toISOString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

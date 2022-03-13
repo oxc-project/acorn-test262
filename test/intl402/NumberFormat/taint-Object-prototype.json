@@ -1,0 +1,225 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 584,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 332,
+      "end": 367,
+      "expression": {
+        "type": "CallExpression",
+        "start": 332,
+        "end": 366,
+        "callee": {
+          "type": "Identifier",
+          "start": 332,
+          "end": 347,
+          "name": "taintProperties"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 348,
+            "end": 365,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 349,
+                "end": 364,
+                "value": "localeMatcher",
+                "raw": "\"localeMatcher\""
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 369,
+      "end": 467,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 373,
+          "end": 466,
+          "id": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 379,
+            "name": "locale"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 382,
+            "end": 466,
+            "object": {
+              "type": "CallExpression",
+              "start": 382,
+              "end": 459,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 382,
+                "end": 457,
+                "object": {
+                  "type": "NewExpression",
+                  "start": 382,
+                  "end": 441,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 386,
+                    "end": 403,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 386,
+                      "end": 390,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 391,
+                      "end": 403,
+                      "name": "NumberFormat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 404,
+                      "end": 413,
+                      "name": "undefined"
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "start": 415,
+                      "end": 440,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 416,
+                          "end": 439,
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 416,
+                            "end": 429,
+                            "name": "localeMatcher"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "start": 431,
+                            "end": 439,
+                            "value": "lookup",
+                            "raw": "\"lookup\""
+                          },
+                          "kind": "init"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 442,
+                  "end": 457,
+                  "name": "resolvedOptions"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 460,
+              "end": 466,
+              "name": "locale"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 468,
+      "end": 583,
+      "expression": {
+        "type": "CallExpression",
+        "start": 468,
+        "end": 582,
+        "callee": {
+          "type": "Identifier",
+          "start": 468,
+          "end": 474,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 475,
+            "end": 526,
+            "callee": {
+              "type": "Identifier",
+              "start": 475,
+              "end": 518,
+              "name": "isCanonicalizedStructurallyValidLanguageTag"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 519,
+                "end": 525,
+                "name": "locale"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 528,
+            "end": 581,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 528,
+              "end": 575,
+              "left": {
+                "type": "Literal",
+                "start": 528,
+                "end": 566,
+                "value": "NumberFormat returns invalid locale ",
+                "raw": "\"NumberFormat returns invalid locale \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 569,
+                "end": 575,
+                "name": "locale"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 578,
+              "end": 581,
+              "value": ".",
+              "raw": "\".\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

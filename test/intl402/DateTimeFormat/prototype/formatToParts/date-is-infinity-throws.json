@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 924,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 701,
+      "end": 746,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 705,
+          "end": 745,
+          "id": {
+            "type": "Identifier",
+            "start": 705,
+            "end": 708,
+            "name": "dtf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 711,
+            "end": 745,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 715,
+              "end": 734,
+              "object": {
+                "type": "Identifier",
+                "start": 715,
+                "end": 719,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 720,
+                "end": 734,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 735,
+                "end": 744,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 736,
+                    "end": 743,
+                    "value": "pt-BR",
+                    "raw": "\"pt-BR\""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 748,
+      "end": 834,
+      "expression": {
+        "type": "CallExpression",
+        "start": 748,
+        "end": 833,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 748,
+          "end": 761,
+          "object": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 754,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 755,
+            "end": 761,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 762,
+            "end": 772,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 774,
+            "end": 819,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 785,
+              "end": 819,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 789,
+                  "end": 817,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 789,
+                    "end": 816,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 789,
+                      "end": 806,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 789,
+                        "end": 792,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 793,
+                        "end": 806,
+                        "name": "formatToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 807,
+                        "end": 815,
+                        "name": "Infinity"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 821,
+            "end": 832,
+            "value": "+Infinity",
+            "raw": "\"+Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 836,
+      "end": 923,
+      "expression": {
+        "type": "CallExpression",
+        "start": 836,
+        "end": 922,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 836,
+          "end": 849,
+          "object": {
+            "type": "Identifier",
+            "start": 836,
+            "end": 842,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 843,
+            "end": 849,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 850,
+            "end": 860,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 862,
+            "end": 908,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 873,
+              "end": 908,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 877,
+                  "end": 906,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 877,
+                    "end": 905,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 877,
+                      "end": 894,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 877,
+                        "end": 880,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 881,
+                        "end": 894,
+                        "name": "formatToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 895,
+                        "end": 904,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 896,
+                          "end": 904,
+                          "name": "Infinity"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 910,
+            "end": 921,
+            "value": "-Infinity",
+            "raw": "\"-Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

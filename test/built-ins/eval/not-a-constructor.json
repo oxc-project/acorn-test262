@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 855,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 676,
+      "end": 762,
+      "expression": {
+        "type": "CallExpression",
+        "start": 676,
+        "end": 761,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 676,
+          "end": 692,
+          "object": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 682,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 683,
+            "end": 692,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 693,
+            "end": 712,
+            "callee": {
+              "type": "Identifier",
+              "start": 693,
+              "end": 706,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 707,
+                "end": 711,
+                "name": "eval"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 714,
+            "end": 719,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 721,
+            "end": 760,
+            "value": "isConstructor(eval) must return false",
+            "raw": "'isConstructor(eval) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 764,
+      "end": 853,
+      "expression": {
+        "type": "CallExpression",
+        "start": 764,
+        "end": 852,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 764,
+          "end": 777,
+          "object": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 770,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 771,
+            "end": 777,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 778,
+            "end": 787,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 789,
+            "end": 814,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 795,
+              "end": 814,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 799,
+                  "end": 812,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 799,
+                    "end": 811,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 803,
+                      "end": 807,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 808,
+                        "end": 810,
+                        "value": "",
+                        "raw": "''"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 816,
+            "end": 851,
+            "value": "`new eval('')` throws TypeError",
+            "raw": "'`new eval(\\'\\')` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

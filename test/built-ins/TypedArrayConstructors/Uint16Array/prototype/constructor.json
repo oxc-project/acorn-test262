@@ -1,0 +1,213 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 933,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 695,
+      "end": 760,
+      "expression": {
+        "type": "CallExpression",
+        "start": 695,
+        "end": 759,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 695,
+          "end": 711,
+          "object": {
+            "type": "Identifier",
+            "start": 695,
+            "end": 701,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 702,
+            "end": 711,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 712,
+            "end": 745,
+            "object": {
+              "type": "MemberExpression",
+              "start": 712,
+              "end": 733,
+              "object": {
+                "type": "Identifier",
+                "start": 712,
+                "end": 723,
+                "name": "Uint16Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 724,
+                "end": 733,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 734,
+              "end": 745,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 747,
+            "end": 758,
+            "name": "Uint16Array"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 762,
+      "end": 820,
+      "expression": {
+        "type": "CallExpression",
+        "start": 762,
+        "end": 819,
+        "callee": {
+          "type": "Identifier",
+          "start": 762,
+          "end": 781,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 782,
+            "end": 803,
+            "object": {
+              "type": "Identifier",
+              "start": 782,
+              "end": 793,
+              "name": "Uint16Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 794,
+              "end": 803,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 805,
+            "end": 818,
+            "value": "constructor",
+            "raw": "\"constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 821,
+      "end": 874,
+      "expression": {
+        "type": "CallExpression",
+        "start": 821,
+        "end": 873,
+        "callee": {
+          "type": "Identifier",
+          "start": 821,
+          "end": 835,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 836,
+            "end": 857,
+            "object": {
+              "type": "Identifier",
+              "start": 836,
+              "end": 847,
+              "name": "Uint16Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 848,
+              "end": 857,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 859,
+            "end": 872,
+            "value": "constructor",
+            "raw": "\"constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 875,
+      "end": 932,
+      "expression": {
+        "type": "CallExpression",
+        "start": 875,
+        "end": 931,
+        "callee": {
+          "type": "Identifier",
+          "start": 875,
+          "end": 893,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 894,
+            "end": 915,
+            "object": {
+              "type": "Identifier",
+              "start": 894,
+              "end": 905,
+              "name": "Uint16Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 906,
+              "end": 915,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 917,
+            "end": 930,
+            "value": "constructor",
+            "raw": "\"constructor\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

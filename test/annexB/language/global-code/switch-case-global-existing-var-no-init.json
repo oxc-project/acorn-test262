@@ -1,0 +1,128 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 767,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 680,
+      "end": 692,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 684,
+          "end": 691,
+          "id": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 685,
+            "name": "f"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 688,
+            "end": 691,
+            "value": 123,
+            "raw": "123"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 693,
+      "end": 718,
+      "expression": {
+        "type": "CallExpression",
+        "start": 693,
+        "end": 717,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 693,
+          "end": 709,
+          "object": {
+            "type": "Identifier",
+            "start": 693,
+            "end": 699,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 700,
+            "end": 709,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 710,
+            "end": 711,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 713,
+            "end": 716,
+            "value": 123,
+            "raw": "123"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "SwitchStatement",
+      "start": 720,
+      "end": 766,
+      "discriminant": {
+        "type": "Literal",
+        "start": 728,
+        "end": 729,
+        "value": 1,
+        "raw": "1"
+      },
+      "cases": [
+        {
+          "type": "SwitchCase",
+          "start": 735,
+          "end": 764,
+          "consequent": [
+            {
+              "type": "FunctionDeclaration",
+              "start": 747,
+              "end": 764,
+              "id": {
+                "type": "Identifier",
+                "start": 756,
+                "end": 757,
+                "name": "f"
+              },
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 760,
+                "end": 764,
+                "body": []
+              }
+            }
+          ],
+          "test": {
+            "type": "Literal",
+            "start": 740,
+            "end": 741,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "script"
+}

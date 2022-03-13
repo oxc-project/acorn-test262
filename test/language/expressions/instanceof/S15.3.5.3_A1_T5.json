@@ -1,0 +1,155 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 686,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 375,
+      "end": 387,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 379,
+          "end": 386,
+          "id": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 386,
+            "name": "FACTORY"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 433,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 388,
+        "end": 432,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 388,
+          "end": 395,
+          "name": "FACTORY"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 398,
+          "end": 432,
+          "callee": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 406,
+            "name": "Function"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 407,
+              "end": 413,
+              "value": "name",
+              "raw": "\"name\""
+            },
+            {
+              "type": "Literal",
+              "start": 414,
+              "end": 431,
+              "value": "this.name=name;",
+              "raw": "\"this.name=name;\""
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 445,
+      "end": 685,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 449,
+        "end": 485,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 449,
+          "end": 477,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 450,
+            "end": 476,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 450,
+              "end": 456,
+              "operator": "void",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 455,
+                "end": 456,
+                "value": 0,
+                "raw": "0"
+              }
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 469,
+              "end": 476,
+              "name": "FACTORY"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 480,
+          "end": 485,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 487,
+        "end": 685,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 491,
+            "end": 683,
+            "argument": {
+              "type": "NewExpression",
+              "start": 497,
+              "end": 682,
+              "callee": {
+                "type": "Identifier",
+                "start": 501,
+                "end": 513,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 514,
+                  "end": 681,
+                  "value": "#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false",
+                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,237 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 613,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 325,
+      "end": 479,
+      "expression": {
+        "type": "CallExpression",
+        "start": 325,
+        "end": 478,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 325,
+          "end": 341,
+          "object": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 341,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 345,
+            "end": 397,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 352,
+              "end": 397,
+              "object": {
+                "type": "MemberExpression",
+                "start": 352,
+                "end": 384,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 352,
+                  "end": 374,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 352,
+                    "end": 360,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 361,
+                    "end": 374,
+                    "name": "PlainMonthDay"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 375,
+                  "end": 384,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 385,
+                "end": 397,
+                "name": "getISOFields"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 401,
+            "end": 411,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 415,
+            "end": 476,
+            "value": "`typeof PlainMonthDay.prototype.getISOFields` is `function`",
+            "raw": "\"`typeof PlainMonthDay.prototype.getISOFields` is `function`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 481,
+      "end": 612,
+      "expression": {
+        "type": "CallExpression",
+        "start": 481,
+        "end": 611,
+        "callee": {
+          "type": "Identifier",
+          "start": 481,
+          "end": 495,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 496,
+            "end": 528,
+            "object": {
+              "type": "MemberExpression",
+              "start": 496,
+              "end": 518,
+              "object": {
+                "type": "Identifier",
+                "start": 496,
+                "end": 504,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 505,
+                "end": 518,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 519,
+              "end": 528,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 530,
+            "end": 544,
+            "value": "getISOFields",
+            "raw": "\"getISOFields\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 546,
+            "end": 610,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 550,
+                "end": 564,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 550,
+                  "end": 558,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 560,
+                  "end": 564,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 568,
+                "end": 585,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 568,
+                  "end": 578,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 580,
+                  "end": 585,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 589,
+                "end": 607,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 589,
+                  "end": 601,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 603,
+                  "end": 607,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

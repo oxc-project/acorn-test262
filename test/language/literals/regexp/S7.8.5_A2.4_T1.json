@@ -1,0 +1,158 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 502,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 345,
+      "end": 417,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 349,
+        "end": 372,
+        "left": {
+          "type": "MemberExpression",
+          "start": 349,
+          "end": 361,
+          "object": {
+            "type": "Literal",
+            "start": 349,
+            "end": 354,
+            "value": {},
+            "raw": "/,\\;/",
+            "regex": {
+              "pattern": ",\\;",
+              "flags": ""
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 355,
+            "end": 361,
+            "name": "source"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 366,
+          "end": 372,
+          "value": ",\\;",
+          "raw": "\",\\\\;\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 374,
+        "end": 417,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 378,
+            "end": 415,
+            "argument": {
+              "type": "NewExpression",
+              "start": 384,
+              "end": 414,
+              "callee": {
+                "type": "Identifier",
+                "start": 388,
+                "end": 400,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 401,
+                  "end": 413,
+                  "value": "#1: /,\\;/",
+                  "raw": "'#1: /,\\\\;/'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 429,
+      "end": 501,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 433,
+        "end": 456,
+        "left": {
+          "type": "MemberExpression",
+          "start": 433,
+          "end": 445,
+          "object": {
+            "type": "Literal",
+            "start": 433,
+            "end": 438,
+            "value": {},
+            "raw": "/ \\ /",
+            "regex": {
+              "pattern": " \\ ",
+              "flags": ""
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 445,
+            "name": "source"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 450,
+          "end": 456,
+          "value": " \\ ",
+          "raw": "\" \\\\ \""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 458,
+        "end": 501,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 462,
+            "end": 499,
+            "argument": {
+              "type": "NewExpression",
+              "start": 468,
+              "end": 498,
+              "callee": {
+                "type": "Identifier",
+                "start": 472,
+                "end": 484,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 485,
+                  "end": 497,
+                  "value": "#2: / \\ /",
+                  "raw": "'#2: / \\\\ /'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

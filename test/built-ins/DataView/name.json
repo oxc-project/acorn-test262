@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 482,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 274,
+      "end": 366,
+      "expression": {
+        "type": "CallExpression",
+        "start": 274,
+        "end": 365,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 274,
+          "end": 290,
+          "object": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 280,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 290,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 291,
+            "end": 304,
+            "object": {
+              "type": "Identifier",
+              "start": 291,
+              "end": 299,
+              "name": "DataView"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 300,
+              "end": 304,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 306,
+            "end": 316,
+            "value": "DataView",
+            "raw": "\"DataView\""
+          },
+          {
+            "type": "Literal",
+            "start": 318,
+            "end": 364,
+            "value": "The value of `DataView.name` is `'DataView'`",
+            "raw": "\"The value of `DataView.name` is `'DataView'`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 368,
+      "end": 406,
+      "expression": {
+        "type": "CallExpression",
+        "start": 368,
+        "end": 405,
+        "callee": {
+          "type": "Identifier",
+          "start": 368,
+          "end": 387,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 388,
+            "end": 396,
+            "name": "DataView"
+          },
+          {
+            "type": "Literal",
+            "start": 398,
+            "end": 404,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 407,
+      "end": 443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 407,
+        "end": 442,
+        "callee": {
+          "type": "Identifier",
+          "start": 407,
+          "end": 424,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 425,
+            "end": 433,
+            "name": "DataView"
+          },
+          {
+            "type": "Literal",
+            "start": 435,
+            "end": 441,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 444,
+      "end": 481,
+      "expression": {
+        "type": "CallExpression",
+        "start": 444,
+        "end": 480,
+        "callee": {
+          "type": "Identifier",
+          "start": 444,
+          "end": 462,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 463,
+            "end": 471,
+            "name": "DataView"
+          },
+          {
+            "type": "Literal",
+            "start": 473,
+            "end": 479,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

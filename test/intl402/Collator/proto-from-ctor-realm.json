@@ -1,0 +1,1509 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2445,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1181,
+      "end": 1219,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1185,
+          "end": 1218,
+          "id": {
+            "type": "Identifier",
+            "start": 1185,
+            "end": 1190,
+            "name": "other"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 1193,
+            "end": 1218,
+            "object": {
+              "type": "CallExpression",
+              "start": 1193,
+              "end": 1211,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1193,
+                "end": 1209,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1193,
+                  "end": 1197,
+                  "name": "$262"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1198,
+                  "end": 1209,
+                  "name": "createRealm"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1212,
+              "end": 1218,
+              "name": "global"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1220,
+      "end": 1257,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1224,
+          "end": 1256,
+          "id": {
+            "type": "Identifier",
+            "start": 1224,
+            "end": 1233,
+            "name": "newTarget"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1236,
+            "end": 1256,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1240,
+              "end": 1254,
+              "object": {
+                "type": "Identifier",
+                "start": 1240,
+                "end": 1245,
+                "name": "other"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1246,
+                "end": 1254,
+                "name": "Function"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1258,
+      "end": 1266,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1262,
+          "end": 1265,
+          "id": {
+            "type": "Identifier",
+            "start": 1262,
+            "end": 1265,
+            "name": "col"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1268,
+      "end": 1300,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1268,
+        "end": 1299,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1268,
+          "end": 1287,
+          "object": {
+            "type": "Identifier",
+            "start": 1268,
+            "end": 1277,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1278,
+            "end": 1287,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 1290,
+          "end": 1299,
+          "name": "undefined"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1301,
+      "end": 1355,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1301,
+        "end": 1354,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1301,
+          "end": 1304,
+          "name": "col"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1307,
+          "end": 1354,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1307,
+            "end": 1324,
+            "object": {
+              "type": "Identifier",
+              "start": 1307,
+              "end": 1314,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1315,
+              "end": 1324,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 1325,
+              "end": 1338,
+              "object": {
+                "type": "Identifier",
+                "start": 1325,
+                "end": 1329,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1330,
+                "end": 1338,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 1340,
+              "end": 1342,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 1344,
+              "end": 1353,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1356,
+      "end": 1468,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1356,
+        "end": 1467,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1356,
+          "end": 1372,
+          "object": {
+            "type": "Identifier",
+            "start": 1356,
+            "end": 1362,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1363,
+            "end": 1372,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1373,
+            "end": 1399,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1373,
+              "end": 1394,
+              "object": {
+                "type": "Identifier",
+                "start": 1373,
+                "end": 1379,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1380,
+                "end": 1394,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1395,
+                "end": 1398,
+                "name": "col"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1401,
+            "end": 1430,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1401,
+              "end": 1420,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1401,
+                "end": 1411,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1401,
+                  "end": 1406,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1407,
+                  "end": 1411,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1412,
+                "end": 1420,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1421,
+              "end": 1430,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1432,
+            "end": 1466,
+            "value": "newTarget.prototype is undefined",
+            "raw": "'newTarget.prototype is undefined'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1470,
+      "end": 1497,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1470,
+        "end": 1496,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1470,
+          "end": 1489,
+          "object": {
+            "type": "Identifier",
+            "start": 1470,
+            "end": 1479,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1480,
+            "end": 1489,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1492,
+          "end": 1496,
+          "value": null,
+          "raw": "null"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1498,
+      "end": 1552,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1498,
+        "end": 1551,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1498,
+          "end": 1501,
+          "name": "col"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1504,
+          "end": 1551,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1504,
+            "end": 1521,
+            "object": {
+              "type": "Identifier",
+              "start": 1504,
+              "end": 1511,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1512,
+              "end": 1521,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 1522,
+              "end": 1535,
+              "object": {
+                "type": "Identifier",
+                "start": 1522,
+                "end": 1526,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1527,
+                "end": 1535,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 1537,
+              "end": 1539,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 1541,
+              "end": 1550,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1553,
+      "end": 1660,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1553,
+        "end": 1659,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1553,
+          "end": 1569,
+          "object": {
+            "type": "Identifier",
+            "start": 1553,
+            "end": 1559,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1560,
+            "end": 1569,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1570,
+            "end": 1596,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1570,
+              "end": 1591,
+              "object": {
+                "type": "Identifier",
+                "start": 1570,
+                "end": 1576,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1577,
+                "end": 1591,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1592,
+                "end": 1595,
+                "name": "col"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1598,
+            "end": 1627,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1598,
+              "end": 1617,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1598,
+                "end": 1608,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1598,
+                  "end": 1603,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1604,
+                  "end": 1608,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1609,
+                "end": 1617,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1618,
+              "end": 1627,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1629,
+            "end": 1658,
+            "value": "newTarget.prototype is null",
+            "raw": "'newTarget.prototype is null'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1662,
+      "end": 1689,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1662,
+        "end": 1688,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1662,
+          "end": 1681,
+          "object": {
+            "type": "Identifier",
+            "start": 1662,
+            "end": 1671,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1672,
+            "end": 1681,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1684,
+          "end": 1688,
+          "value": true,
+          "raw": "true"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1690,
+      "end": 1744,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1690,
+        "end": 1743,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1690,
+          "end": 1693,
+          "name": "col"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1696,
+          "end": 1743,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1696,
+            "end": 1713,
+            "object": {
+              "type": "Identifier",
+              "start": 1696,
+              "end": 1703,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1704,
+              "end": 1713,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 1714,
+              "end": 1727,
+              "object": {
+                "type": "Identifier",
+                "start": 1714,
+                "end": 1718,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1719,
+                "end": 1727,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 1729,
+              "end": 1731,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 1733,
+              "end": 1742,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1745,
+      "end": 1857,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1745,
+        "end": 1856,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1745,
+          "end": 1761,
+          "object": {
+            "type": "Identifier",
+            "start": 1745,
+            "end": 1751,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1752,
+            "end": 1761,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1762,
+            "end": 1788,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1762,
+              "end": 1783,
+              "object": {
+                "type": "Identifier",
+                "start": 1762,
+                "end": 1768,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1769,
+                "end": 1783,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1784,
+                "end": 1787,
+                "name": "col"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1790,
+            "end": 1819,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1790,
+              "end": 1809,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1790,
+                "end": 1800,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1790,
+                  "end": 1795,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1796,
+                  "end": 1800,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1801,
+                "end": 1809,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1810,
+              "end": 1819,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1821,
+            "end": 1855,
+            "value": "newTarget.prototype is a Boolean",
+            "raw": "'newTarget.prototype is a Boolean'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1859,
+      "end": 1884,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1859,
+        "end": 1883,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1859,
+          "end": 1878,
+          "object": {
+            "type": "Identifier",
+            "start": 1859,
+            "end": 1868,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1869,
+            "end": 1878,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1881,
+          "end": 1883,
+          "value": "",
+          "raw": "''"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1885,
+      "end": 1939,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1885,
+        "end": 1938,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1885,
+          "end": 1888,
+          "name": "col"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1891,
+          "end": 1938,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1891,
+            "end": 1908,
+            "object": {
+              "type": "Identifier",
+              "start": 1891,
+              "end": 1898,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1899,
+              "end": 1908,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 1909,
+              "end": 1922,
+              "object": {
+                "type": "Identifier",
+                "start": 1909,
+                "end": 1913,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1914,
+                "end": 1922,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 1924,
+              "end": 1926,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 1928,
+              "end": 1937,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1940,
+      "end": 2051,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1940,
+        "end": 2050,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1940,
+          "end": 1956,
+          "object": {
+            "type": "Identifier",
+            "start": 1940,
+            "end": 1946,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1947,
+            "end": 1956,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1957,
+            "end": 1983,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1957,
+              "end": 1978,
+              "object": {
+                "type": "Identifier",
+                "start": 1957,
+                "end": 1963,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1964,
+                "end": 1978,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1979,
+                "end": 1982,
+                "name": "col"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1985,
+            "end": 2014,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1985,
+              "end": 2004,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1985,
+                "end": 1995,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1985,
+                  "end": 1990,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1991,
+                  "end": 1995,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1996,
+                "end": 2004,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2005,
+              "end": 2014,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2016,
+            "end": 2049,
+            "value": "newTarget.prototype is a String",
+            "raw": "'newTarget.prototype is a String'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2053,
+      "end": 2084,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2053,
+        "end": 2083,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 2053,
+          "end": 2072,
+          "object": {
+            "type": "Identifier",
+            "start": 2053,
+            "end": 2062,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2063,
+            "end": 2072,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2075,
+          "end": 2083,
+          "callee": {
+            "type": "Identifier",
+            "start": 2075,
+            "end": 2081,
+            "name": "Symbol"
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2085,
+      "end": 2139,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2085,
+        "end": 2138,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2085,
+          "end": 2088,
+          "name": "col"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2091,
+          "end": 2138,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2091,
+            "end": 2108,
+            "object": {
+              "type": "Identifier",
+              "start": 2091,
+              "end": 2098,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2099,
+              "end": 2108,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 2109,
+              "end": 2122,
+              "object": {
+                "type": "Identifier",
+                "start": 2109,
+                "end": 2113,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2114,
+                "end": 2122,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 2124,
+              "end": 2126,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 2128,
+              "end": 2137,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2140,
+      "end": 2251,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2140,
+        "end": 2250,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2140,
+          "end": 2156,
+          "object": {
+            "type": "Identifier",
+            "start": 2140,
+            "end": 2146,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2147,
+            "end": 2156,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2157,
+            "end": 2183,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2157,
+              "end": 2178,
+              "object": {
+                "type": "Identifier",
+                "start": 2157,
+                "end": 2163,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2164,
+                "end": 2178,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2179,
+                "end": 2182,
+                "name": "col"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 2185,
+            "end": 2214,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2185,
+              "end": 2204,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2185,
+                "end": 2195,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2185,
+                  "end": 2190,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2191,
+                  "end": 2195,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2196,
+                "end": 2204,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2205,
+              "end": 2214,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2216,
+            "end": 2249,
+            "value": "newTarget.prototype is a Symbol",
+            "raw": "'newTarget.prototype is a Symbol'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2253,
+      "end": 2277,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2253,
+        "end": 2276,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 2253,
+          "end": 2272,
+          "object": {
+            "type": "Identifier",
+            "start": 2253,
+            "end": 2262,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2263,
+            "end": 2272,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 2275,
+          "end": 2276,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2278,
+      "end": 2332,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2278,
+        "end": 2331,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2278,
+          "end": 2281,
+          "name": "col"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2284,
+          "end": 2331,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2284,
+            "end": 2301,
+            "object": {
+              "type": "Identifier",
+              "start": 2284,
+              "end": 2291,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2292,
+              "end": 2301,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 2302,
+              "end": 2315,
+              "object": {
+                "type": "Identifier",
+                "start": 2302,
+                "end": 2306,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2307,
+                "end": 2315,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 2317,
+              "end": 2319,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 2321,
+              "end": 2330,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2333,
+      "end": 2444,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2333,
+        "end": 2443,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2333,
+          "end": 2349,
+          "object": {
+            "type": "Identifier",
+            "start": 2333,
+            "end": 2339,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2340,
+            "end": 2349,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2350,
+            "end": 2376,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2350,
+              "end": 2371,
+              "object": {
+                "type": "Identifier",
+                "start": 2350,
+                "end": 2356,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2357,
+                "end": 2371,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2372,
+                "end": 2375,
+                "name": "col"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 2378,
+            "end": 2407,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2378,
+              "end": 2397,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2378,
+                "end": 2388,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2378,
+                  "end": 2383,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2384,
+                  "end": 2388,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2389,
+                "end": 2397,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2398,
+              "end": 2407,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2409,
+            "end": 2442,
+            "value": "newTarget.prototype is a Number",
+            "raw": "'newTarget.prototype is a Number'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

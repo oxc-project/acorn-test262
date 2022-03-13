@@ -1,0 +1,115 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2346,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 2212,
+      "end": 2253,
+      "id": {
+        "type": "Identifier",
+        "start": 2221,
+        "end": 2223,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 2226,
+        "end": 2253,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 2230,
+            "end": 2251,
+            "argument": {
+              "type": "FunctionExpression",
+              "start": 2237,
+              "end": 2250,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2248,
+                "end": 2250,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2295,
+      "end": 2344,
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 2302,
+        "end": 2344,
+        "id": {
+          "type": "Identifier",
+          "start": 2308,
+          "end": 2309,
+          "name": "C"
+        },
+        "superClass": {
+          "type": "CallExpression",
+          "start": 2318,
+          "end": 2341,
+          "callee": {
+            "type": "Identifier",
+            "start": 2318,
+            "end": 2320,
+            "name": "fn"
+          },
+          "arguments": [
+            {
+              "type": "AwaitExpression",
+              "start": 2321,
+              "end": 2340,
+              "argument": {
+                "type": "FunctionExpression",
+                "start": 2327,
+                "end": 2340,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 2338,
+                  "end": 2340,
+                  "body": []
+                }
+              }
+            }
+          ],
+          "optional": false
+        },
+        "body": {
+          "type": "ClassBody",
+          "start": 2342,
+          "end": 2344,
+          "body": []
+        }
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2344,
+      "end": 2345
+    }
+  ],
+  "sourceType": "module"
+}

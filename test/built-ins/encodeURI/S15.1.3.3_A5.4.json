@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 379,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 260,
+      "end": 378,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 264,
+        "end": 286,
+        "left": {
+          "type": "MemberExpression",
+          "start": 264,
+          "end": 280,
+          "object": {
+            "type": "Identifier",
+            "start": 264,
+            "end": 273,
+            "name": "encodeURI"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 280,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 285,
+          "end": 286,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 288,
+        "end": 378,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 292,
+            "end": 376,
+            "argument": {
+              "type": "NewExpression",
+              "start": 298,
+              "end": 375,
+              "callee": {
+                "type": "Identifier",
+                "start": 302,
+                "end": 314,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 315,
+                  "end": 374,
+                  "left": {
+                    "type": "Literal",
+                    "start": 315,
+                    "end": 353,
+                    "value": "#1: encodeURI.length === 1. Actual: ",
+                    "raw": "'#1: encodeURI.length === 1. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 356,
+                    "end": 374,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 357,
+                      "end": 373,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 357,
+                        "end": 366,
+                        "name": "encodeURI"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 367,
+                        "end": 373,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

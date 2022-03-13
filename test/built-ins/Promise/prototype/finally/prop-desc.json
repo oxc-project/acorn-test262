@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 756,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 544,
+      "end": 607,
+      "expression": {
+        "type": "CallExpression",
+        "start": 544,
+        "end": 606,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 544,
+          "end": 560,
+          "object": {
+            "type": "Identifier",
+            "start": 544,
+            "end": 550,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 551,
+            "end": 560,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 561,
+            "end": 593,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 568,
+              "end": 593,
+              "object": {
+                "type": "MemberExpression",
+                "start": 568,
+                "end": 585,
+                "object": {
+                  "type": "Identifier",
+                  "start": 568,
+                  "end": 575,
+                  "name": "Promise"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 576,
+                  "end": 585,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 586,
+                "end": 593,
+                "name": "finally"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 595,
+            "end": 605,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 609,
+      "end": 659,
+      "expression": {
+        "type": "CallExpression",
+        "start": 609,
+        "end": 658,
+        "callee": {
+          "type": "Identifier",
+          "start": 609,
+          "end": 628,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 629,
+            "end": 646,
+            "object": {
+              "type": "Identifier",
+              "start": 629,
+              "end": 636,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 637,
+              "end": 646,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 648,
+            "end": 657,
+            "value": "finally",
+            "raw": "'finally'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 660,
+      "end": 705,
+      "expression": {
+        "type": "CallExpression",
+        "start": 660,
+        "end": 704,
+        "callee": {
+          "type": "Identifier",
+          "start": 660,
+          "end": 674,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 675,
+            "end": 692,
+            "object": {
+              "type": "Identifier",
+              "start": 675,
+              "end": 682,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 683,
+              "end": 692,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 694,
+            "end": 703,
+            "value": "finally",
+            "raw": "'finally'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 706,
+      "end": 755,
+      "expression": {
+        "type": "CallExpression",
+        "start": 706,
+        "end": 754,
+        "callee": {
+          "type": "Identifier",
+          "start": 706,
+          "end": 724,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 725,
+            "end": 742,
+            "object": {
+              "type": "Identifier",
+              "start": 725,
+              "end": 732,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 733,
+              "end": 742,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 744,
+            "end": 753,
+            "value": "finally",
+            "raw": "'finally'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,139 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 427,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 294,
+      "end": 317,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 298,
+          "end": 316,
+          "id": {
+            "type": "Identifier",
+            "start": 298,
+            "end": 299,
+            "name": "g"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 302,
+            "end": 316,
+            "id": null,
+            "expression": false,
+            "generator": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 314,
+              "end": 316,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 319,
+      "end": 355,
+      "expression": {
+        "type": "CallExpression",
+        "start": 319,
+        "end": 354,
+        "callee": {
+          "type": "Identifier",
+          "start": 319,
+          "end": 338,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 339,
+            "end": 340,
+            "name": "g"
+          },
+          {
+            "type": "Literal",
+            "start": 342,
+            "end": 353,
+            "value": "prototype",
+            "raw": "'prototype'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 356,
+      "end": 387,
+      "expression": {
+        "type": "CallExpression",
+        "start": 356,
+        "end": 386,
+        "callee": {
+          "type": "Identifier",
+          "start": 356,
+          "end": 370,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 371,
+            "end": 372,
+            "name": "g"
+          },
+          {
+            "type": "Literal",
+            "start": 374,
+            "end": 385,
+            "value": "prototype",
+            "raw": "'prototype'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 426,
+      "expression": {
+        "type": "CallExpression",
+        "start": 388,
+        "end": 425,
+        "callee": {
+          "type": "Identifier",
+          "start": 388,
+          "end": 409,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 410,
+            "end": 411,
+            "name": "g"
+          },
+          {
+            "type": "Literal",
+            "start": 413,
+            "end": 424,
+            "value": "prototype",
+            "raw": "'prototype'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

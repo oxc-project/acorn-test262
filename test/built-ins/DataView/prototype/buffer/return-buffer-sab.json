@@ -1,0 +1,149 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 618,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 507,
+      "end": 545,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 511,
+          "end": 544,
+          "id": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 517,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 520,
+            "end": 544,
+            "callee": {
+              "type": "Identifier",
+              "start": 524,
+              "end": 541,
+              "name": "SharedArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 542,
+                "end": 543,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 546,
+      "end": 579,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 550,
+          "end": 578,
+          "id": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 552,
+            "name": "dv"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 555,
+            "end": 578,
+            "callee": {
+              "type": "Identifier",
+              "start": 559,
+              "end": 567,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 568,
+                "end": 574,
+                "name": "buffer"
+              },
+              {
+                "type": "Literal",
+                "start": 576,
+                "end": 577,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 581,
+      "end": 617,
+      "expression": {
+        "type": "CallExpression",
+        "start": 581,
+        "end": 616,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 581,
+          "end": 597,
+          "object": {
+            "type": "Identifier",
+            "start": 581,
+            "end": 587,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 588,
+            "end": 597,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 598,
+            "end": 607,
+            "object": {
+              "type": "Identifier",
+              "start": 598,
+              "end": 600,
+              "name": "dv"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 601,
+              "end": 607,
+              "name": "buffer"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 609,
+            "end": 615,
+            "name": "buffer"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

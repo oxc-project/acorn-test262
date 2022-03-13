@@ -1,0 +1,52 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 467,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 337,
+      "end": 354,
+      "expression": {
+        "type": "CallExpression",
+        "start": 337,
+        "end": 353,
+        "callee": {
+          "type": "Identifier",
+          "start": 337,
+          "end": 351,
+          "name": "$DONOTEVALUATE"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 356,
+      "end": 410,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 363,
+        "end": 409,
+        "value": "./instn-resolve-order-depth-child_FIXTURE.js",
+        "raw": "'./instn-resolve-order-depth-child_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 411,
+      "end": 466,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 418,
+        "end": 465,
+        "value": "./instn-resolve-order-depth-syntax_FIXTURE.js",
+        "raw": "'./instn-resolve-order-depth-syntax_FIXTURE.js'"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

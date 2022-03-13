@@ -1,0 +1,230 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 496,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 325,
+      "end": 397,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 331,
+          "end": 396,
+          "id": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 339,
+            "name": "instance"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 342,
+            "end": 396,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 342,
+              "end": 370,
+              "object": {
+                "type": "MemberExpression",
+                "start": 342,
+                "end": 365,
+                "object": {
+                  "type": "Identifier",
+                  "start": 342,
+                  "end": 350,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 351,
+                  "end": 365,
+                  "name": "PlainYearMonth"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 366,
+                "end": 370,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 371,
+                "end": 395,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 373,
+                    "end": 383,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 373,
+                      "end": 377,
+                      "name": "year"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 379,
+                      "end": 383,
+                      "value": 2000,
+                      "raw": "2000"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 385,
+                    "end": 393,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 385,
+                      "end": 390,
+                      "name": "month"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 392,
+                      "end": 393,
+                      "value": 5,
+                      "raw": "5"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 398,
+      "end": 433,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 404,
+          "end": 432,
+          "id": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 410,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 413,
+            "end": 432,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 413,
+              "end": 425,
+              "object": {
+                "type": "Identifier",
+                "start": 413,
+                "end": 421,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 422,
+                "end": 425,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 426,
+                "end": 431,
+                "value": "P3M",
+                "raw": "\"P3M\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 434,
+      "end": 495,
+      "expression": {
+        "type": "CallExpression",
+        "start": 434,
+        "end": 494,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 434,
+          "end": 470,
+          "object": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 449,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 450,
+            "end": 470,
+            "name": "assertPlainYearMonth"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 471,
+            "end": 477,
+            "name": "result"
+          },
+          {
+            "type": "Literal",
+            "start": 479,
+            "end": 483,
+            "value": 2000,
+            "raw": "2000"
+          },
+          {
+            "type": "Literal",
+            "start": 485,
+            "end": 486,
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "type": "Literal",
+            "start": 488,
+            "end": 493,
+            "value": "M08",
+            "raw": "\"M08\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 877,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 666,
+      "end": 732,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 670,
+          "end": 731,
+          "id": {
+            "type": "Identifier",
+            "start": 670,
+            "end": 678,
+            "name": "thenable"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 681,
+            "end": 731,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 685,
+                "end": 729,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 685,
+                  "end": 689,
+                  "name": "then"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 691,
+                  "end": 729,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 700,
+                      "end": 707,
+                      "name": "resolve"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 709,
+                    "end": 729,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 715,
+                        "end": 725,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 715,
+                          "end": 724,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 715,
+                            "end": 722,
+                            "name": "resolve"
+                          },
+                          "arguments": [],
+                          "optional": false
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 734,
+      "end": 833,
+      "id": {
+        "type": "Identifier",
+        "start": 743,
+        "end": 751,
+        "name": "executor"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 752,
+          "end": 759,
+          "name": "resolve"
+        },
+        {
+          "type": "Identifier",
+          "start": 761,
+          "end": 767,
+          "name": "reject"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 769,
+        "end": 833,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 773,
+            "end": 791,
+            "expression": {
+              "type": "CallExpression",
+              "start": 773,
+              "end": 790,
+              "callee": {
+                "type": "Identifier",
+                "start": 773,
+                "end": 780,
+                "name": "resolve"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 781,
+                  "end": 789,
+                  "name": "thenable"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 794,
+            "end": 831,
+            "argument": {
+              "type": "NewExpression",
+              "start": 800,
+              "end": 830,
+              "callee": {
+                "type": "Identifier",
+                "start": 804,
+                "end": 809,
+                "name": "Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 810,
+                  "end": 829,
+                  "value": "ignored exception",
+                  "raw": "\"ignored exception\""
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 835,
+      "end": 876,
+      "expression": {
+        "type": "CallExpression",
+        "start": 835,
+        "end": 875,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 835,
+          "end": 861,
+          "object": {
+            "type": "NewExpression",
+            "start": 835,
+            "end": 856,
+            "callee": {
+              "type": "Identifier",
+              "start": 839,
+              "end": 846,
+              "name": "Promise"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 847,
+                "end": 855,
+                "name": "executor"
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 857,
+            "end": 861,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 862,
+            "end": 867,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 869,
+            "end": 874,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

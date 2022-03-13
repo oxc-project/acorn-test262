@@ -1,0 +1,298 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 779,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 347,
+      "end": 392,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 351,
+          "end": 391,
+          "id": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 352,
+            "name": "f"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 355,
+            "end": 391,
+            "callee": {
+              "type": "Identifier",
+              "start": 359,
+              "end": 367,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 368,
+                "end": 384,
+                "value": "arg1,arg2,arg3",
+                "raw": "\"arg1,arg2,arg3\""
+              },
+              {
+                "type": "Literal",
+                "start": 386,
+                "end": 390,
+                "value": null,
+                "raw": "null"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 394,
+      "end": 478,
+      "expression": {
+        "type": "CallExpression",
+        "start": 394,
+        "end": 477,
+        "callee": {
+          "type": "Identifier",
+          "start": 394,
+          "end": 400,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 401,
+            "end": 427,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 401,
+              "end": 417,
+              "object": {
+                "type": "Identifier",
+                "start": 401,
+                "end": 402,
+                "name": "f"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 403,
+                "end": 417,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 418,
+                "end": 426,
+                "value": "length",
+                "raw": "'length'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 429,
+            "end": 476,
+            "value": "f.hasOwnProperty('length') must return true",
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 479,
+      "end": 558,
+      "expression": {
+        "type": "CallExpression",
+        "start": 479,
+        "end": 557,
+        "callee": {
+          "type": "Identifier",
+          "start": 479,
+          "end": 485,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 486,
+            "end": 501,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 493,
+              "end": 501,
+              "object": {
+                "type": "Identifier",
+                "start": 493,
+                "end": 494,
+                "name": "f"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 495,
+                "end": 501,
+                "name": "length"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 503,
+            "end": 556,
+            "value": "The value of delete f.length is expected to be true",
+            "raw": "'The value of delete f.length is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 559,
+      "end": 664,
+      "expression": {
+        "type": "CallExpression",
+        "start": 559,
+        "end": 663,
+        "callee": {
+          "type": "Identifier",
+          "start": 559,
+          "end": 565,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 566,
+            "end": 593,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 567,
+              "end": 593,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 567,
+                "end": 583,
+                "object": {
+                  "type": "Identifier",
+                  "start": 567,
+                  "end": 568,
+                  "name": "f"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 569,
+                  "end": 583,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 584,
+                  "end": 592,
+                  "value": "length",
+                  "raw": "'length'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 595,
+            "end": 662,
+            "value": "The value of !f.hasOwnProperty('length') is expected to be true",
+            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 665,
+      "end": 732,
+      "expression": {
+        "type": "CallExpression",
+        "start": 665,
+        "end": 731,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 665,
+          "end": 684,
+          "object": {
+            "type": "Identifier",
+            "start": 665,
+            "end": 671,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 672,
+            "end": 684,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 685,
+            "end": 693,
+            "object": {
+              "type": "Identifier",
+              "start": 685,
+              "end": 686,
+              "name": "f"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 687,
+              "end": 693,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 695,
+            "end": 696,
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "type": "Literal",
+            "start": 698,
+            "end": 730,
+            "value": "The value of f.length is not 3",
+            "raw": "'The value of f.length is not 3'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

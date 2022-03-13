@@ -1,0 +1,160 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 556,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 273,
+      "end": 325,
+      "expression": {
+        "type": "CallExpression",
+        "start": 273,
+        "end": 324,
+        "callee": {
+          "type": "Identifier",
+          "start": 273,
+          "end": 277,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 278,
+            "end": 323,
+            "value": "/*\u000b multi line \u000b comment \u000b*/",
+            "raw": "\"/*\\u000B multi line \\u000B comment \\u000B*/\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 337,
+      "end": 347,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 341,
+          "end": 346,
+          "id": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 342,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 345,
+            "end": 346,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 348,
+      "end": 407,
+      "expression": {
+        "type": "CallExpression",
+        "start": 348,
+        "end": 406,
+        "callee": {
+          "type": "Identifier",
+          "start": 348,
+          "end": 352,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 353,
+            "end": 405,
+            "value": "/*\u000b multi line \u000b comment \u000b x = 1;*/",
+            "raw": "\"/*\\u000B multi line \\u000B comment \\u000B x = 1;*/\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 408,
+      "end": 555,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 412,
+        "end": 419,
+        "left": {
+          "type": "Identifier",
+          "start": 412,
+          "end": 413,
+          "name": "x"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 418,
+          "end": 419,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 421,
+        "end": 555,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 425,
+            "end": 553,
+            "argument": {
+              "type": "NewExpression",
+              "start": 431,
+              "end": 552,
+              "callee": {
+                "type": "Identifier",
+                "start": 435,
+                "end": 447,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 448,
+                  "end": 551,
+                  "left": {
+                    "type": "Literal",
+                    "start": 448,
+                    "end": 545,
+                    "value": "#1: var x = 0; eval(\"/*\\u000B multi line \\u000B comment \\u000B x = 1;*/\"); x === 0. Actual: ",
+                    "raw": "'#1: var x = 0; eval(\"/*\\\\u000B multi line \\\\u000B comment \\\\u000B x = 1;*/\"); x === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 548,
+                    "end": 551,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 549,
+                      "end": 550,
+                      "name": "x"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

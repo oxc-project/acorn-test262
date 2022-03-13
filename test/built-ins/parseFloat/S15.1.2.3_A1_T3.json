@@ -1,0 +1,139 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 355,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 247,
+      "end": 305,
+      "expression": {
+        "type": "CallExpression",
+        "start": 247,
+        "end": 304,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 247,
+          "end": 263,
+          "object": {
+            "type": "Identifier",
+            "start": 247,
+            "end": 253,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 254,
+            "end": 263,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 264,
+            "end": 285,
+            "callee": {
+              "type": "Identifier",
+              "start": 264,
+              "end": 274,
+              "name": "parseFloat"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 275,
+                "end": 284,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 287,
+            "end": 290,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 292,
+            "end": 303,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 306,
+      "end": 354,
+      "expression": {
+        "type": "CallExpression",
+        "start": 306,
+        "end": 353,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 306,
+          "end": 322,
+          "object": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 312,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 322,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 323,
+            "end": 339,
+            "callee": {
+              "type": "Identifier",
+              "start": 323,
+              "end": 333,
+              "name": "parseFloat"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 334,
+                "end": 338,
+                "value": null,
+                "raw": "null"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 341,
+            "end": 344,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 346,
+            "end": 352,
+            "value": "null",
+            "raw": "\"null\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

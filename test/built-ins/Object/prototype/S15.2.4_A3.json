@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 444,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 329,
+      "end": 443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 329,
+        "end": 442,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 329,
+          "end": 342,
+          "object": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 335,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 342,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 343,
+            "end": 352,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 354,
+            "end": 390,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 365,
+              "end": 390,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 369,
+                  "end": 388,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 369,
+                    "end": 387,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 369,
+                      "end": 385,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 369,
+                        "end": 375,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 376,
+                        "end": 385,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 392,
+            "end": 441,
+            "value": "Object.prototype() throws a TypeError exception",
+            "raw": "'Object.prototype() throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

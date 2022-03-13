@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 692,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 382,
+      "end": 394,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 386,
+          "end": 393,
+          "id": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 393,
+            "name": "FACTORY"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 395,
+      "end": 440,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 395,
+        "end": 439,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 395,
+          "end": 402,
+          "name": "FACTORY"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 405,
+          "end": 439,
+          "callee": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 413,
+            "name": "Function"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 414,
+              "end": 420,
+              "value": "name",
+              "raw": "\"name\""
+            },
+            {
+              "type": "Literal",
+              "start": 421,
+              "end": 438,
+              "value": "this.name=name;",
+              "raw": "\"this.name=name;\""
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 452,
+      "end": 691,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 456,
+        "end": 491,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 456,
+          "end": 483,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 457,
+            "end": 482,
+            "left": {
+              "type": "Literal",
+              "start": 457,
+              "end": 462,
+              "value": false,
+              "raw": "false"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 475,
+              "end": 482,
+              "name": "FACTORY"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 486,
+          "end": 491,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 493,
+        "end": 691,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 497,
+            "end": 689,
+            "argument": {
+              "type": "NewExpression",
+              "start": 503,
+              "end": 688,
+              "callee": {
+                "type": "Identifier",
+                "start": 507,
+                "end": 519,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 520,
+                  "end": 687,
+                  "value": "#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false",
+                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

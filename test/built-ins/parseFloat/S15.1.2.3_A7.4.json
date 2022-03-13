@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 388,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 266,
+      "end": 387,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 270,
+        "end": 293,
+        "left": {
+          "type": "MemberExpression",
+          "start": 270,
+          "end": 287,
+          "object": {
+            "type": "Identifier",
+            "start": 270,
+            "end": 280,
+            "name": "parseFloat"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 287,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 292,
+          "end": 293,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 295,
+        "end": 387,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 299,
+            "end": 385,
+            "argument": {
+              "type": "NewExpression",
+              "start": 305,
+              "end": 384,
+              "callee": {
+                "type": "Identifier",
+                "start": 309,
+                "end": 321,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 322,
+                  "end": 383,
+                  "left": {
+                    "type": "Literal",
+                    "start": 322,
+                    "end": 361,
+                    "value": "#1: parseFloat.length === 1. Actual: ",
+                    "raw": "'#1: parseFloat.length === 1. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 364,
+                    "end": 383,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 365,
+                      "end": 382,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 365,
+                        "end": 375,
+                        "name": "parseFloat"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 376,
+                        "end": 382,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

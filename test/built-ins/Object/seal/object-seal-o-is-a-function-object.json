@@ -1,0 +1,224 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 416,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 229,
+      "end": 253,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 233,
+          "end": 252,
+          "id": {
+            "type": "Identifier",
+            "start": 233,
+            "end": 236,
+            "name": "fun"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 239,
+            "end": 252,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 250,
+              "end": 252,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 254,
+      "end": 294,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 258,
+          "end": 293,
+          "id": {
+            "type": "Identifier",
+            "start": 258,
+            "end": 266,
+            "name": "preCheck"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 269,
+            "end": 293,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 269,
+              "end": 288,
+              "object": {
+                "type": "Identifier",
+                "start": 269,
+                "end": 275,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 276,
+                "end": 288,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 289,
+                "end": 292,
+                "name": "fun"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 295,
+      "end": 312,
+      "expression": {
+        "type": "CallExpression",
+        "start": 295,
+        "end": 311,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 295,
+          "end": 306,
+          "object": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 301,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 306,
+            "name": "seal"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 307,
+            "end": 310,
+            "name": "fun"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 314,
+      "end": 352,
+      "expression": {
+        "type": "CallExpression",
+        "start": 314,
+        "end": 351,
+        "callee": {
+          "type": "Identifier",
+          "start": 314,
+          "end": 320,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 321,
+            "end": 329,
+            "name": "preCheck"
+          },
+          {
+            "type": "Literal",
+            "start": 331,
+            "end": 350,
+            "value": "preCheck !== true",
+            "raw": "'preCheck !== true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 353,
+      "end": 415,
+      "expression": {
+        "type": "CallExpression",
+        "start": 353,
+        "end": 414,
+        "callee": {
+          "type": "Identifier",
+          "start": 353,
+          "end": 359,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 360,
+            "end": 380,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 360,
+              "end": 375,
+              "object": {
+                "type": "Identifier",
+                "start": 360,
+                "end": 366,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 367,
+                "end": 375,
+                "name": "isSealed"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 376,
+                "end": 379,
+                "name": "fun"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 382,
+            "end": 413,
+            "value": "Object.isSealed(fun) !== true",
+            "raw": "'Object.isSealed(fun) !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

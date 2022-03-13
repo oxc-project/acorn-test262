@@ -1,0 +1,123 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 557,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 466,
+      "end": 500,
+      "id": {
+        "type": "Identifier",
+        "start": 475,
+        "end": 477,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 480,
+        "end": 500,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 482,
+            "end": 498,
+            "argument": {
+              "type": "Literal",
+              "start": 489,
+              "end": 497,
+              "value": "result",
+              "raw": "'result'"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 502,
+      "end": 556,
+      "expression": {
+        "type": "CallExpression",
+        "start": 502,
+        "end": 555,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 502,
+          "end": 518,
+          "object": {
+            "type": "Identifier",
+            "start": 502,
+            "end": 508,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 518,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 519,
+            "end": 536,
+            "expressions": [
+              {
+                "type": "CallExpression",
+                "start": 526,
+                "end": 530,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 526,
+                  "end": 528,
+                  "name": "fn"
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 520,
+                "end": 524,
+                "value": {
+                  "raw": "foo ",
+                  "cooked": "foo "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 531,
+                "end": 535,
+                "value": {
+                  "raw": " bar",
+                  "cooked": " bar"
+                },
+                "tail": true
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 538,
+            "end": 554,
+            "value": "foo result bar",
+            "raw": "'foo result bar'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,138 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2002,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 1897,
+      "end": 1946,
+      "id": {
+        "type": "Identifier",
+        "start": 1906,
+        "end": 1907,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "AssignmentPattern",
+          "start": 1908,
+          "end": 1942,
+          "left": {
+            "type": "ArrayPattern",
+            "start": 1908,
+            "end": 1937,
+            "elements": [
+              {
+                "type": "AssignmentPattern",
+                "start": 1910,
+                "end": 1935,
+                "left": {
+                  "type": "Identifier",
+                  "start": 1910,
+                  "end": 1911,
+                  "name": "x"
+                },
+                "right": {
+                  "type": "Identifier",
+                  "start": 1914,
+                  "end": 1935,
+                  "name": "unresolvableReference"
+                }
+              }
+            ]
+          },
+          "right": {
+            "type": "ArrayExpression",
+            "start": 1940,
+            "end": 1942,
+            "elements": []
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1944,
+        "end": 1946,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1948,
+      "end": 2001,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1948,
+        "end": 2000,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1948,
+          "end": 1961,
+          "object": {
+            "type": "Identifier",
+            "start": 1948,
+            "end": 1954,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1955,
+            "end": 1961,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1962,
+            "end": 1976,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1978,
+            "end": 1999,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1989,
+              "end": 1999,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1993,
+                  "end": 1997,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1993,
+                    "end": 1996,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1993,
+                      "end": 1994,
+                      "name": "f"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

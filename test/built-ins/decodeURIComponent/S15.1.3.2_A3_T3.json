@@ -1,0 +1,152 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 801,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 285,
+      "end": 517,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 289,
+        "end": 362,
+        "left": {
+          "type": "CallExpression",
+          "start": 289,
+          "end": 344,
+          "callee": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 307,
+            "name": "decodeURIComponent"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 308,
+              "end": 343,
+              "value": "%3B%2F%3F%3A%40%26%3D%2B%24%2C%23",
+              "raw": "\"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 349,
+          "end": 362,
+          "value": ";/?:@&=+$,#",
+          "raw": "\";/?:@&=+$,#\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 364,
+        "end": 517,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 368,
+            "end": 515,
+            "argument": {
+              "type": "NewExpression",
+              "start": 374,
+              "end": 514,
+              "callee": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 390,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 391,
+                  "end": 513,
+                  "value": "#1: decodeURIComponent(\"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\") equal \";/?:@&=+$,#\", not \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\"",
+                  "raw": "'#1: decodeURIComponent(\"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\") equal \";/?:@&=+$,#\", not \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\"'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 529,
+      "end": 800,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 533,
+        "end": 606,
+        "left": {
+          "type": "CallExpression",
+          "start": 533,
+          "end": 588,
+          "callee": {
+            "type": "Identifier",
+            "start": 533,
+            "end": 551,
+            "name": "decodeURIComponent"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 552,
+              "end": 587,
+              "value": "%3b%2f%3f%3a%40%26%3d%2b%24%2c%23",
+              "raw": "\"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 593,
+          "end": 606,
+          "value": ";/?:@&=+$,#",
+          "raw": "\";/?:@&=+$,#\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 608,
+        "end": 800,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 612,
+            "end": 798,
+            "argument": {
+              "type": "NewExpression",
+              "start": 618,
+              "end": 797,
+              "callee": {
+                "type": "Identifier",
+                "start": 622,
+                "end": 634,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 635,
+                  "end": 796,
+                  "value": "#2: decodeURIComponent(\"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\") equal \";/?:@&=+$,#\" or \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\", not \"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\"",
+                  "raw": "'#2: decodeURIComponent(\"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\") equal \";/?:@&=+$,#\" or \"%3B%2F%3F%3A%40%26%3D%2B%24%2C%23\", not \"%3b%2f%3f%3a%40%26%3d%2b%24%2c%23\"'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

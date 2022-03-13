@@ -1,0 +1,157 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 827,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 654,
+      "end": 705,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 660,
+          "end": 704,
+          "id": {
+            "type": "Identifier",
+            "start": 660,
+            "end": 667,
+            "name": "segment"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 670,
+            "end": 704,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 670,
+              "end": 700,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 670,
+                "end": 692,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 671,
+                  "end": 691,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 675,
+                    "end": 689,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 675,
+                      "end": 679,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 680,
+                      "end": 689,
+                      "name": "Segmenter"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": []
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 693,
+                "end": 700,
+                "name": "segment"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 701,
+                "end": 703,
+                "value": "",
+                "raw": "\"\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 706,
+      "end": 825,
+      "expression": {
+        "type": "CallExpression",
+        "start": 706,
+        "end": 824,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 706,
+          "end": 722,
+          "object": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 712,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 722,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 726,
+            "end": 751,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 733,
+              "end": 751,
+              "object": {
+                "type": "Identifier",
+                "start": 733,
+                "end": 740,
+                "name": "segment"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 741,
+                "end": 751,
+                "name": "containing"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 755,
+            "end": 765,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 769,
+            "end": 822,
+            "value": "typeof %Segments.prototype%.containing  is function",
+            "raw": "\"typeof %Segments.prototype%.containing  is function\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

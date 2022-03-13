@@ -1,0 +1,144 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 393,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 251,
+      "end": 264,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 255,
+          "end": 263,
+          "id": {
+            "type": "Identifier",
+            "start": 255,
+            "end": 258,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 261,
+            "end": 263,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 265,
+      "end": 308,
+      "expression": {
+        "type": "CallExpression",
+        "start": 265,
+        "end": 307,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 265,
+          "end": 286,
+          "object": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 271,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 286,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 287,
+            "end": 290,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 292,
+            "end": 302,
+            "value": "AB\n\\cd",
+            "raw": "\"AB\\n\\\\cd\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 304,
+            "end": 306,
+            "properties": []
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 310,
+      "end": 392,
+      "expression": {
+        "type": "CallExpression",
+        "start": 310,
+        "end": 391,
+        "callee": {
+          "type": "Identifier",
+          "start": 310,
+          "end": 316,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 317,
+            "end": 347,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 317,
+              "end": 335,
+              "object": {
+                "type": "Identifier",
+                "start": 317,
+                "end": 320,
+                "name": "obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 335,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 336,
+                "end": 346,
+                "value": "AB\n\\cd",
+                "raw": "\"AB\\n\\\\cd\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 349,
+            "end": 390,
+            "value": "obj.hasOwnProperty(\"AB\n\\cd\") !== true",
+            "raw": "'obj.hasOwnProperty(\"AB\\n\\\\cd\") !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

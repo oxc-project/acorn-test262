@@ -1,0 +1,103 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 406,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 317,
+      "end": 405,
+      "expression": {
+        "type": "CallExpression",
+        "start": 317,
+        "end": 404,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 317,
+          "end": 333,
+          "object": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 323,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 333,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 334,
+            "end": 365,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 334,
+              "end": 359,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 334,
+                "end": 347,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 335,
+                    "end": 340,
+                    "value": false,
+                    "raw": "false"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 342,
+                    "end": 346,
+                    "value": true,
+                    "raw": "true"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 359,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 360,
+                "end": 364,
+                "value": true,
+                "raw": "true"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 367,
+            "end": 368,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 370,
+            "end": 403,
+            "value": "[false, true].lastIndexOf(true)",
+            "raw": "'[false, true].lastIndexOf(true)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

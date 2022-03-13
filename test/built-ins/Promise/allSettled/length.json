@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 910,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 785,
+      "end": 909,
+      "expression": {
+        "type": "CallExpression",
+        "start": 785,
+        "end": 908,
+        "callee": {
+          "type": "Identifier",
+          "start": 785,
+          "end": 799,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 800,
+            "end": 818,
+            "object": {
+              "type": "Identifier",
+              "start": 800,
+              "end": 807,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 808,
+              "end": 818,
+              "name": "allSettled"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 820,
+            "end": 828,
+            "value": "length",
+            "raw": "'length'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 830,
+            "end": 907,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 834,
+                "end": 852,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 834,
+                  "end": 846,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 848,
+                  "end": 852,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 856,
+                "end": 871,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 856,
+                  "end": 864,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 866,
+                  "end": 871,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 875,
+                "end": 892,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 875,
+                  "end": 885,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 887,
+                  "end": 892,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 896,
+                "end": 904,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 896,
+                  "end": 901,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 903,
+                  "end": 904,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

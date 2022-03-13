@@ -1,0 +1,153 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 615,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 325,
+      "end": 561,
+      "id": {
+        "type": "Identifier",
+        "start": 334,
+        "end": 338,
+        "name": "test"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 339,
+          "end": 342,
+          "name": "arg"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 344,
+        "end": 561,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 396,
+            "end": 559,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 400,
+              "end": 427,
+              "left": {
+                "type": "UnaryExpression",
+                "start": 400,
+                "end": 411,
+                "operator": "typeof",
+                "prefix": true,
+                "argument": {
+                  "type": "ParenthesizedExpression",
+                  "start": 406,
+                  "end": 411,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 407,
+                    "end": 410,
+                    "name": "arg"
+                  }
+                }
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "start": 416,
+                "end": 427,
+                "value": "undefined",
+                "raw": "\"undefined\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 429,
+              "end": 559,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 435,
+                  "end": 555,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 441,
+                    "end": 554,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 445,
+                      "end": 457,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 458,
+                        "end": 553,
+                        "left": {
+                          "type": "Literal",
+                          "start": 458,
+                          "end": 537,
+                          "value": "#1: Function argument that isn't provided has a value of undefined. Actual: ",
+                          "raw": "'#1: Function argument that isn\\'t provided has a value of undefined. Actual: '"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "ParenthesizedExpression",
+                          "start": 540,
+                          "end": 553,
+                          "expression": {
+                            "type": "UnaryExpression",
+                            "start": 541,
+                            "end": 552,
+                            "operator": "typeof",
+                            "prefix": true,
+                            "argument": {
+                              "type": "ParenthesizedExpression",
+                              "start": 547,
+                              "end": 552,
+                              "expression": {
+                                "type": "Identifier",
+                                "start": 548,
+                                "end": 551,
+                                "name": "arg"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 563,
+      "end": 570,
+      "expression": {
+        "type": "CallExpression",
+        "start": 563,
+        "end": 569,
+        "callee": {
+          "type": "Identifier",
+          "start": 563,
+          "end": 567,
+          "name": "test"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

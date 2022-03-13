@@ -1,0 +1,47 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 260,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 235,
+      "end": 259,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 239,
+          "end": 258,
+          "id": {
+            "type": "Identifier",
+            "start": 239,
+            "end": 241,
+            "name": "re"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 244,
+            "end": 258,
+            "callee": {
+              "type": "Identifier",
+              "start": 248,
+              "end": 254,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 255,
+                "end": 257,
+                "value": "",
+                "raw": "\"\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

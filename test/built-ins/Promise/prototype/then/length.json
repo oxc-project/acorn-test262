@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 990,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 775,
+      "end": 826,
+      "expression": {
+        "type": "CallExpression",
+        "start": 775,
+        "end": 825,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 775,
+          "end": 791,
+          "object": {
+            "type": "Identifier",
+            "start": 775,
+            "end": 781,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 782,
+            "end": 791,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 792,
+            "end": 821,
+            "object": {
+              "type": "MemberExpression",
+              "start": 792,
+              "end": 814,
+              "object": {
+                "type": "MemberExpression",
+                "start": 792,
+                "end": 809,
+                "object": {
+                  "type": "Identifier",
+                  "start": 792,
+                  "end": 799,
+                  "name": "Promise"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 800,
+                  "end": 809,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 810,
+                "end": 814,
+                "name": "then"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 815,
+              "end": 821,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 823,
+            "end": 824,
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 828,
+      "end": 882,
+      "expression": {
+        "type": "CallExpression",
+        "start": 828,
+        "end": 881,
+        "callee": {
+          "type": "Identifier",
+          "start": 828,
+          "end": 847,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 848,
+            "end": 870,
+            "object": {
+              "type": "MemberExpression",
+              "start": 848,
+              "end": 865,
+              "object": {
+                "type": "Identifier",
+                "start": 848,
+                "end": 855,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 856,
+                "end": 865,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 866,
+              "end": 870,
+              "name": "then"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 872,
+            "end": 880,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 883,
+      "end": 935,
+      "expression": {
+        "type": "CallExpression",
+        "start": 883,
+        "end": 934,
+        "callee": {
+          "type": "Identifier",
+          "start": 883,
+          "end": 900,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 901,
+            "end": 923,
+            "object": {
+              "type": "MemberExpression",
+              "start": 901,
+              "end": 918,
+              "object": {
+                "type": "Identifier",
+                "start": 901,
+                "end": 908,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 909,
+                "end": 918,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 919,
+              "end": 923,
+              "name": "then"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 925,
+            "end": 933,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 936,
+      "end": 989,
+      "expression": {
+        "type": "CallExpression",
+        "start": 936,
+        "end": 988,
+        "callee": {
+          "type": "Identifier",
+          "start": 936,
+          "end": 954,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 955,
+            "end": 977,
+            "object": {
+              "type": "MemberExpression",
+              "start": 955,
+              "end": 972,
+              "object": {
+                "type": "Identifier",
+                "start": 955,
+                "end": 962,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 963,
+                "end": 972,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 973,
+              "end": 977,
+              "name": "then"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 979,
+            "end": 987,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

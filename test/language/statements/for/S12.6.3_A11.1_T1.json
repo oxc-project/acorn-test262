@@ -1,0 +1,251 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 595,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 390,
+      "end": 400,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 394,
+          "end": 399,
+          "id": {
+            "type": "Identifier",
+            "start": 394,
+            "end": 399,
+            "name": "__str"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 401,
+      "end": 409,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 401,
+        "end": 409,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 401,
+          "end": 406,
+          "name": "__str"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 407,
+          "end": 409,
+          "value": "",
+          "raw": "\"\""
+        }
+      }
+    },
+    {
+      "type": "ForStatement",
+      "start": 411,
+      "end": 489,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 415,
+        "end": 426,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 419,
+            "end": 426,
+            "id": {
+              "type": "Identifier",
+              "start": 419,
+              "end": 424,
+              "name": "index"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 425,
+              "end": 426,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 428,
+        "end": 436,
+        "left": {
+          "type": "Identifier",
+          "start": 428,
+          "end": 433,
+          "name": "index"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "start": 434,
+          "end": 436,
+          "value": 10,
+          "raw": "10"
+        }
+      },
+      "update": {
+        "type": "AssignmentExpression",
+        "start": 438,
+        "end": 446,
+        "operator": "+=",
+        "left": {
+          "type": "Identifier",
+          "start": 438,
+          "end": 443,
+          "name": "index"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 445,
+          "end": 446,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 448,
+        "end": 489,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 451,
+            "end": 472,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 455,
+              "end": 462,
+              "left": {
+                "type": "Identifier",
+                "start": 455,
+                "end": 460,
+                "name": "index"
+              },
+              "operator": "<",
+              "right": {
+                "type": "Literal",
+                "start": 461,
+                "end": 462,
+                "value": 5,
+                "raw": "5"
+              }
+            },
+            "consequent": {
+              "type": "ContinueStatement",
+              "start": 463,
+              "end": 472,
+              "label": null
+            },
+            "alternate": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 474,
+            "end": 487,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 474,
+              "end": 486,
+              "operator": "+=",
+              "left": {
+                "type": "Identifier",
+                "start": 474,
+                "end": 479,
+                "name": "__str"
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 481,
+                "end": 486,
+                "name": "index"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 491,
+      "end": 594,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 495,
+        "end": 510,
+        "left": {
+          "type": "Identifier",
+          "start": 495,
+          "end": 500,
+          "name": "__str"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 503,
+          "end": 510,
+          "value": "56789",
+          "raw": "\"56789\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 512,
+        "end": 594,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 515,
+            "end": 592,
+            "argument": {
+              "type": "NewExpression",
+              "start": 521,
+              "end": 591,
+              "callee": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 537,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 538,
+                  "end": 588,
+                  "left": {
+                    "type": "Literal",
+                    "start": 538,
+                    "end": 581,
+                    "value": "#1: __str === \"56789\". Actual:  __str ===",
+                    "raw": "'#1: __str === \"56789\". Actual:  __str ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 583,
+                    "end": 588,
+                    "name": "__str"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

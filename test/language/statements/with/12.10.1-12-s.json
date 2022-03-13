@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 405,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 264,
+      "end": 404,
+      "expression": {
+        "type": "CallExpression",
+        "start": 264,
+        "end": 403,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 264,
+          "end": 277,
+          "object": {
+            "type": "Identifier",
+            "start": 264,
+            "end": 270,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 271,
+            "end": 277,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 278,
+            "end": 289,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 291,
+            "end": 402,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 302,
+              "end": 402,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 308,
+                  "end": 400,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 308,
+                    "end": 399,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 308,
+                      "end": 312,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 313,
+                        "end": 398,
+                        "value": "          'use strict';           var o = {};           with (o) {}        ",
+                        "raw": "\"\\\n          'use strict'; \\\n          var o = {}; \\\n          with (o) {}\\\n        \""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

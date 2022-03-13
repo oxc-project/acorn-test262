@@ -1,0 +1,175 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 411,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 313,
+      "end": 378,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 317,
+          "end": 377,
+          "id": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 318,
+            "name": "i"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 321,
+            "end": 377,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 321,
+              "end": 353,
+              "object": {
+                "type": "MemberExpression",
+                "start": 321,
+                "end": 348,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 321,
+                  "end": 336,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 321,
+                    "end": 326,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 327,
+                    "end": 336,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 337,
+                  "end": 348,
+                  "name": "lastIndexOf"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 349,
+                "end": 353,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 354,
+                "end": 373,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 358,
+                    "end": 371,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 358,
+                      "end": 364,
+                      "name": "length"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 366,
+                      "end": 371,
+                      "value": false,
+                      "raw": "false"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "Literal",
+                "start": 375,
+                "end": 376,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 381,
+      "end": 410,
+      "expression": {
+        "type": "CallExpression",
+        "start": 381,
+        "end": 409,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 381,
+          "end": 397,
+          "object": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 387,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 397,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 398,
+            "end": 399,
+            "name": "i"
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 401,
+            "end": 403,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 402,
+              "end": 403,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 405,
+            "end": 408,
+            "value": "i",
+            "raw": "'i'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

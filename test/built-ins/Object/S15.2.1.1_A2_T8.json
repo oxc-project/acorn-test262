@@ -1,0 +1,264 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 721,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 404,
+      "end": 442,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 408,
+          "end": 441,
+          "id": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 412,
+            "name": "func"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 415,
+            "end": 441,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 426,
+              "end": 441,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 430,
+                  "end": 439,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 437,
+                    "end": 438,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 444,
+      "end": 545,
+      "expression": {
+        "type": "CallExpression",
+        "start": 444,
+        "end": 544,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 444,
+          "end": 460,
+          "object": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 450,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 460,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 461,
+            "end": 472,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 468,
+              "end": 472,
+              "name": "func"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 474,
+            "end": 484,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 486,
+            "end": 543,
+            "value": "The value of `typeof func` is expected to be \"function\"",
+            "raw": "'The value of `typeof func` is expected to be \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 547,
+      "end": 572,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 551,
+          "end": 571,
+          "id": {
+            "type": "Identifier",
+            "start": 551,
+            "end": 556,
+            "name": "n_obj"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 559,
+            "end": 571,
+            "callee": {
+              "type": "Identifier",
+              "start": 559,
+              "end": 565,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 566,
+                "end": 570,
+                "name": "func"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 574,
+      "end": 665,
+      "expression": {
+        "type": "CallExpression",
+        "start": 574,
+        "end": 664,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 574,
+          "end": 590,
+          "object": {
+            "type": "Identifier",
+            "start": 574,
+            "end": 580,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 581,
+            "end": 590,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 591,
+            "end": 596,
+            "name": "n_obj"
+          },
+          {
+            "type": "Identifier",
+            "start": 598,
+            "end": 602,
+            "name": "func"
+          },
+          {
+            "type": "Literal",
+            "start": 604,
+            "end": 663,
+            "value": "The value of n_obj is expected to equal the value of func",
+            "raw": "'The value of n_obj is expected to equal the value of func'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 666,
+      "end": 720,
+      "expression": {
+        "type": "CallExpression",
+        "start": 666,
+        "end": 719,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 666,
+          "end": 682,
+          "object": {
+            "type": "Identifier",
+            "start": 666,
+            "end": 672,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 673,
+            "end": 682,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 683,
+            "end": 690,
+            "callee": {
+              "type": "Identifier",
+              "start": 683,
+              "end": 688,
+              "name": "n_obj"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 692,
+            "end": 693,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 695,
+            "end": 718,
+            "value": "n_obj() must return 1",
+            "raw": "'n_obj() must return 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

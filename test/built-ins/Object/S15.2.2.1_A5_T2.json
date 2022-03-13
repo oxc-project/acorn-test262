@@ -1,0 +1,253 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 701,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 338,
+      "end": 352,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 342,
+          "end": 351,
+          "id": {
+            "type": "Identifier",
+            "start": 342,
+            "end": 345,
+            "name": "num"
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 348,
+            "end": 351,
+            "name": "NaN"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 354,
+      "end": 449,
+      "expression": {
+        "type": "CallExpression",
+        "start": 354,
+        "end": 448,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 354,
+          "end": 370,
+          "object": {
+            "type": "Identifier",
+            "start": 354,
+            "end": 360,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 370,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 371,
+            "end": 381,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 378,
+              "end": 381,
+              "name": "num"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 383,
+            "end": 391,
+            "value": "number",
+            "raw": "'number'"
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 447,
+            "value": "The value of `typeof num` is expected to be \"number\"",
+            "raw": "'The value of `typeof num` is expected to be \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 451,
+      "end": 479,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 455,
+          "end": 478,
+          "id": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 460,
+            "name": "n_obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 463,
+            "end": 478,
+            "callee": {
+              "type": "Identifier",
+              "start": 467,
+              "end": 473,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 474,
+                "end": 477,
+                "name": "num"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 481,
+      "end": 600,
+      "expression": {
+        "type": "CallExpression",
+        "start": 481,
+        "end": 599,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 481,
+          "end": 497,
+          "object": {
+            "type": "Identifier",
+            "start": 481,
+            "end": 487,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 488,
+            "end": 497,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 498,
+            "end": 515,
+            "object": {
+              "type": "Identifier",
+              "start": 498,
+              "end": 503,
+              "name": "n_obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 504,
+              "end": 515,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 517,
+            "end": 523,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 525,
+            "end": 598,
+            "value": "The value of n_obj.constructor is expected to equal the value of Number",
+            "raw": "'The value of n_obj.constructor is expected to equal the value of Number'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 601,
+      "end": 700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 601,
+        "end": 699,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 601,
+          "end": 617,
+          "object": {
+            "type": "Identifier",
+            "start": 601,
+            "end": 607,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 608,
+            "end": 617,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 618,
+            "end": 630,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 625,
+              "end": 630,
+              "name": "n_obj"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 632,
+            "end": 640,
+            "value": "object",
+            "raw": "'object'"
+          },
+          {
+            "type": "Literal",
+            "start": 642,
+            "end": 698,
+            "value": "The value of `typeof n_obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

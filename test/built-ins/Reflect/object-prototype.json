@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 460,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 321,
+      "end": 459,
+      "expression": {
+        "type": "CallExpression",
+        "start": 321,
+        "end": 458,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 321,
+          "end": 337,
+          "object": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 327,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 337,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 341,
+            "end": 371,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 341,
+              "end": 362,
+              "object": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 347,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 362,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 363,
+                "end": 370,
+                "name": "Reflect"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 375,
+            "end": 391,
+            "object": {
+              "type": "Identifier",
+              "start": 375,
+              "end": 381,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 382,
+              "end": 391,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 395,
+            "end": 456,
+            "value": "`Object.getPrototypeOf(Reflect)` returns `Object.prototype`",
+            "raw": "'`Object.getPrototypeOf(Reflect)` returns `Object.prototype`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

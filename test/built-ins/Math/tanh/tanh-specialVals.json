@@ -1,0 +1,507 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 743,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 203,
+      "end": 297,
+      "expression": {
+        "type": "CallExpression",
+        "start": 203,
+        "end": 296,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 203,
+          "end": 219,
+          "object": {
+            "type": "Identifier",
+            "start": 203,
+            "end": 209,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 210,
+            "end": 219,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 220,
+            "end": 234,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 220,
+              "end": 229,
+              "object": {
+                "type": "Identifier",
+                "start": 220,
+                "end": 224,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 225,
+                "end": 229,
+                "name": "tanh"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 230,
+                "end": 233,
+                "name": "NaN"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 236,
+            "end": 246,
+            "object": {
+              "type": "Identifier",
+              "start": 236,
+              "end": 242,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 243,
+              "end": 246,
+              "name": "NaN"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 250,
+            "end": 295,
+            "value": "Math.tanh produces incorrect output for NaN",
+            "raw": "\"Math.tanh produces incorrect output for NaN\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 298,
+      "end": 418,
+      "expression": {
+        "type": "CallExpression",
+        "start": 298,
+        "end": 417,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 298,
+          "end": 314,
+          "object": {
+            "type": "Identifier",
+            "start": 298,
+            "end": 304,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 314,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 315,
+            "end": 350,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 315,
+              "end": 324,
+              "object": {
+                "type": "Identifier",
+                "start": 315,
+                "end": 319,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 320,
+                "end": 324,
+                "name": "tanh"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 325,
+                "end": 349,
+                "object": {
+                  "type": "Identifier",
+                  "start": 325,
+                  "end": 331,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 332,
+                  "end": 349,
+                  "name": "NEGATIVE_INFINITY"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 352,
+            "end": 354,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 353,
+              "end": 354,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 358,
+            "end": 416,
+            "value": "Math.tanh should produce -1 for Number.NEGATIVE_INFINITY",
+            "raw": "\"Math.tanh should produce -1 for Number.NEGATIVE_INFINITY\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 419,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 419,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 419,
+          "end": 435,
+          "object": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 425,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 435,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 436,
+            "end": 471,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 436,
+              "end": 445,
+              "object": {
+                "type": "Identifier",
+                "start": 436,
+                "end": 440,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 441,
+                "end": 445,
+                "name": "tanh"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 446,
+                "end": 470,
+                "object": {
+                  "type": "Identifier",
+                  "start": 446,
+                  "end": 452,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 453,
+                  "end": 470,
+                  "name": "POSITIVE_INFINITY"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 473,
+            "end": 474,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 478,
+            "end": 535,
+            "value": "Math.tanh should produce 1 for Number.POSITIVE_INFINITY",
+            "raw": "\"Math.tanh should produce 1 for Number.POSITIVE_INFINITY\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 538,
+      "end": 640,
+      "expression": {
+        "type": "CallExpression",
+        "start": 538,
+        "end": 639,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 538,
+          "end": 554,
+          "object": {
+            "type": "Identifier",
+            "start": 538,
+            "end": 544,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 545,
+            "end": 554,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 555,
+            "end": 572,
+            "left": {
+              "type": "Literal",
+              "start": 555,
+              "end": 556,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 559,
+              "end": 572,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 559,
+                "end": 568,
+                "object": {
+                  "type": "Identifier",
+                  "start": 559,
+                  "end": 563,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 564,
+                  "end": 568,
+                  "name": "tanh"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 569,
+                  "end": 571,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 570,
+                    "end": 571,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 574,
+            "end": 598,
+            "object": {
+              "type": "Identifier",
+              "start": 574,
+              "end": 580,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 581,
+              "end": 598,
+              "name": "NEGATIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 602,
+            "end": 638,
+            "value": "Math.tanh should produce -0 for -0",
+            "raw": "\"Math.tanh should produce -0 for -0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 641,
+      "end": 742,
+      "expression": {
+        "type": "CallExpression",
+        "start": 641,
+        "end": 741,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 641,
+          "end": 657,
+          "object": {
+            "type": "Identifier",
+            "start": 641,
+            "end": 647,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 648,
+            "end": 657,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 658,
+            "end": 674,
+            "left": {
+              "type": "Literal",
+              "start": 658,
+              "end": 659,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 662,
+              "end": 674,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 662,
+                "end": 671,
+                "object": {
+                  "type": "Identifier",
+                  "start": 662,
+                  "end": 666,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 667,
+                  "end": 671,
+                  "name": "tanh"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 672,
+                  "end": 673,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 676,
+            "end": 700,
+            "object": {
+              "type": "Identifier",
+              "start": 676,
+              "end": 682,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 683,
+              "end": 700,
+              "name": "POSITIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 704,
+            "end": 740,
+            "value": "Math.tanh should produce +0 for +0",
+            "raw": "\"Math.tanh should produce +0 for +0\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

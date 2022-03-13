@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 951,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 694,
+      "end": 826,
+      "expression": {
+        "type": "CallExpression",
+        "start": 694,
+        "end": 825,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 694,
+          "end": 710,
+          "object": {
+            "type": "Identifier",
+            "start": 694,
+            "end": 700,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 701,
+            "end": 710,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 714,
+            "end": 752,
+            "callee": {
+              "type": "Identifier",
+              "start": 714,
+              "end": 727,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 728,
+                "end": 751,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 728,
+                  "end": 744,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 728,
+                    "end": 734,
+                    "name": "String"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 735,
+                    "end": 744,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 745,
+                  "end": 751,
+                  "name": "strike"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 756,
+            "end": 761,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 765,
+            "end": 823,
+            "value": "isConstructor(String.prototype.strike) must return false",
+            "raw": "'isConstructor(String.prototype.strike) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 828,
+      "end": 949,
+      "expression": {
+        "type": "CallExpression",
+        "start": 828,
+        "end": 948,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 828,
+          "end": 841,
+          "object": {
+            "type": "Identifier",
+            "start": 828,
+            "end": 834,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 835,
+            "end": 841,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 842,
+            "end": 851,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 853,
+            "end": 895,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 859,
+              "end": 895,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 863,
+                  "end": 893,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 863,
+                    "end": 892,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 867,
+                      "end": 890,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 867,
+                        "end": 883,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 867,
+                          "end": 873,
+                          "name": "String"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 874,
+                          "end": 883,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 884,
+                        "end": 890,
+                        "name": "strike"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 897,
+            "end": 947,
+            "value": "`new String.prototype.strike()` throws TypeError",
+            "raw": "'`new String.prototype.strike()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

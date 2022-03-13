@@ -1,0 +1,34 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 876,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 685,
+      "end": 875,
+      "expression": {
+        "type": "CallExpression",
+        "start": 685,
+        "end": 874,
+        "callee": {
+          "type": "Identifier",
+          "start": 685,
+          "end": 689,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 693,
+            "end": 872,
+            "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");",
+            "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,332 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1334,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 696,
+      "end": 806,
+      "expression": {
+        "type": "CallExpression",
+        "start": 696,
+        "end": 805,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 696,
+          "end": 712,
+          "object": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 702,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 712,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 716,
+            "end": 748,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 716,
+              "end": 742,
+              "object": {
+                "type": "Literal",
+                "start": 716,
+                "end": 724,
+                "value": "İ",
+                "raw": "\"\\u0130\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 725,
+                "end": 742,
+                "name": "toLocaleUpperCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 743,
+                "end": 747,
+                "value": "tr",
+                "raw": "\"tr\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 752,
+            "end": 760,
+            "value": "İ",
+            "raw": "\"\\u0130\""
+          },
+          {
+            "type": "Literal",
+            "start": 764,
+            "end": 803,
+            "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE",
+            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 865,
+      "end": 950,
+      "expression": {
+        "type": "CallExpression",
+        "start": 865,
+        "end": 949,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 865,
+          "end": 881,
+          "object": {
+            "type": "Identifier",
+            "start": 865,
+            "end": 871,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 872,
+            "end": 881,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 885,
+            "end": 912,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 885,
+              "end": 906,
+              "object": {
+                "type": "Literal",
+                "start": 885,
+                "end": 888,
+                "value": "I",
+                "raw": "\"I\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 889,
+                "end": 906,
+                "name": "toLocaleUpperCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 907,
+                "end": 911,
+                "value": "tr",
+                "raw": "\"tr\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 916,
+            "end": 919,
+            "value": "I",
+            "raw": "\"I\""
+          },
+          {
+            "type": "Literal",
+            "start": 923,
+            "end": 947,
+            "value": "LATIN CAPITAL LETTER I",
+            "raw": "\"LATIN CAPITAL LETTER I\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1053,
+      "end": 1141,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1053,
+        "end": 1140,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1053,
+          "end": 1069,
+          "object": {
+            "type": "Identifier",
+            "start": 1053,
+            "end": 1059,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1060,
+            "end": 1069,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1073,
+            "end": 1100,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1073,
+              "end": 1094,
+              "object": {
+                "type": "Literal",
+                "start": 1073,
+                "end": 1076,
+                "value": "i",
+                "raw": "\"i\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1077,
+                "end": 1094,
+                "name": "toLocaleUpperCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1095,
+                "end": 1099,
+                "value": "tr",
+                "raw": "\"tr\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1104,
+            "end": 1112,
+            "value": "İ",
+            "raw": "\"\\u0130\""
+          },
+          {
+            "type": "Literal",
+            "start": 1116,
+            "end": 1138,
+            "value": "LATIN SMALL LETTER I",
+            "raw": "\"LATIN SMALL LETTER I\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1237,
+      "end": 1333,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1237,
+        "end": 1332,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1237,
+          "end": 1253,
+          "object": {
+            "type": "Identifier",
+            "start": 1237,
+            "end": 1243,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1244,
+            "end": 1253,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1257,
+            "end": 1289,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1257,
+              "end": 1283,
+              "object": {
+                "type": "Literal",
+                "start": 1257,
+                "end": 1265,
+                "value": "ı",
+                "raw": "\"\\u0131\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1266,
+                "end": 1283,
+                "name": "toLocaleUpperCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1284,
+                "end": 1288,
+                "value": "tr",
+                "raw": "\"tr\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1293,
+            "end": 1296,
+            "value": "I",
+            "raw": "\"I\""
+          },
+          {
+            "type": "Literal",
+            "start": 1300,
+            "end": 1330,
+            "value": "LATIN SMALL LETTER DOTLESS I",
+            "raw": "\"LATIN SMALL LETTER DOTLESS I\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,302 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 781,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 470,
+      "end": 489,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 474,
+          "end": 488,
+          "id": {
+            "type": "Identifier",
+            "start": 474,
+            "end": 476,
+            "name": "m1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 479,
+            "end": 488,
+            "callee": {
+              "type": "Identifier",
+              "start": 483,
+              "end": 486,
+              "name": "Map"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 491,
+      "end": 613,
+      "expression": {
+        "type": "CallExpression",
+        "start": 491,
+        "end": 612,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 491,
+          "end": 507,
+          "object": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 497,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 498,
+            "end": 507,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 511,
+            "end": 536,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 511,
+              "end": 532,
+              "object": {
+                "type": "Identifier",
+                "start": 511,
+                "end": 517,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 518,
+                "end": 532,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 533,
+                "end": 535,
+                "name": "m1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 540,
+            "end": 553,
+            "object": {
+              "type": "Identifier",
+              "start": 540,
+              "end": 543,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 544,
+              "end": 553,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 557,
+            "end": 610,
+            "value": "`Object.getPrototypeOf(m1)` returns `Map.prototype`",
+            "raw": "\"`Object.getPrototypeOf(m1)` returns `Map.prototype`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 615,
+      "end": 656,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 619,
+          "end": 655,
+          "id": {
+            "type": "Identifier",
+            "start": 619,
+            "end": 621,
+            "name": "m2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 624,
+            "end": 655,
+            "callee": {
+              "type": "Identifier",
+              "start": 628,
+              "end": 631,
+              "name": "Map"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 632,
+                "end": 654,
+                "elements": [
+                  {
+                    "type": "ArrayExpression",
+                    "start": 636,
+                    "end": 642,
+                    "elements": [
+                      {
+                        "type": "Literal",
+                        "start": 637,
+                        "end": 638,
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 640,
+                        "end": 641,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ArrayExpression",
+                    "start": 646,
+                    "end": 652,
+                    "elements": [
+                      {
+                        "type": "Literal",
+                        "start": 647,
+                        "end": 648,
+                        "value": 2,
+                        "raw": "2"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 650,
+                        "end": 651,
+                        "value": 2,
+                        "raw": "2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 658,
+      "end": 780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 658,
+        "end": 779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 658,
+          "end": 674,
+          "object": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 664,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 665,
+            "end": 674,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 678,
+            "end": 703,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 678,
+              "end": 699,
+              "object": {
+                "type": "Identifier",
+                "start": 678,
+                "end": 684,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 685,
+                "end": 699,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 700,
+                "end": 702,
+                "name": "m2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 707,
+            "end": 720,
+            "object": {
+              "type": "Identifier",
+              "start": 707,
+              "end": 710,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 711,
+              "end": 720,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 724,
+            "end": 777,
+            "value": "`Object.getPrototypeOf(m2)` returns `Map.prototype`",
+            "raw": "\"`Object.getPrototypeOf(m2)` returns `Map.prototype`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

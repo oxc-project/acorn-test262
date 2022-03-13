@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 379,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 314,
+      "end": 378,
+      "expression": {
+        "type": "CallExpression",
+        "start": 314,
+        "end": 377,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 314,
+          "end": 330,
+          "object": {
+            "type": "Identifier",
+            "start": 314,
+            "end": 320,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 330,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 331,
+            "end": 351,
+            "callee": {
+              "type": "Identifier",
+              "start": 331,
+              "end": 337,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 338,
+                "end": 350,
+                "object": {
+                  "type": "Identifier",
+                  "start": 338,
+                  "end": 346,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 347,
+                  "end": 350,
+                  "name": "Now"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 353,
+            "end": 376,
+            "value": "[object Temporal.Now]",
+            "raw": "\"[object Temporal.Now]\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

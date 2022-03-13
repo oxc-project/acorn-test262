@@ -1,0 +1,269 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 774,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 477,
+      "end": 496,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 481,
+          "end": 495,
+          "id": {
+            "type": "Identifier",
+            "start": 481,
+            "end": 487,
+            "name": "called"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 490,
+            "end": 495,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 498,
+      "end": 561,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 502,
+          "end": 560,
+          "id": {
+            "type": "Identifier",
+            "start": 502,
+            "end": 511,
+            "name": "predicate"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 514,
+            "end": 560,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 525,
+              "end": 560,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 529,
+                  "end": 543,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 529,
+                    "end": 542,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 529,
+                      "end": 535,
+                      "name": "called"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 538,
+                      "end": 542,
+                      "value": true,
+                      "raw": "true"
+                    }
+                  }
+                },
+                {
+                  "type": "ReturnStatement",
+                  "start": 546,
+                  "end": 558,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 553,
+                    "end": 557,
+                    "value": true,
+                    "raw": "true"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 563,
+      "end": 600,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 567,
+          "end": 599,
+          "id": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 573,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 576,
+            "end": 599,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 576,
+              "end": 588,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 576,
+                "end": 578,
+                "elements": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 579,
+                "end": 588,
+                "name": "findIndex"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 589,
+                "end": 598,
+                "name": "predicate"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 602,
+      "end": 691,
+      "expression": {
+        "type": "CallExpression",
+        "start": 602,
+        "end": 690,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 602,
+          "end": 618,
+          "object": {
+            "type": "Identifier",
+            "start": 602,
+            "end": 608,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 609,
+            "end": 618,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 622,
+            "end": 628,
+            "name": "called"
+          },
+          {
+            "type": "Literal",
+            "start": 630,
+            "end": 635,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 639,
+            "end": 688,
+            "value": "[].findIndex(predicate) does not call predicate",
+            "raw": "'[].findIndex(predicate) does not call predicate'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 692,
+      "end": 773,
+      "expression": {
+        "type": "CallExpression",
+        "start": 692,
+        "end": 772,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 692,
+          "end": 708,
+          "object": {
+            "type": "Identifier",
+            "start": 692,
+            "end": 698,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 699,
+            "end": 708,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 712,
+            "end": 718,
+            "name": "result"
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 720,
+            "end": 722,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 721,
+              "end": 722,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 726,
+            "end": 770,
+            "value": "[].findIndex(predicate) returned undefined",
+            "raw": "'[].findIndex(predicate) returned undefined'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

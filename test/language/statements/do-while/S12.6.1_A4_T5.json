@@ -1,0 +1,227 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 591,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 329,
+      "end": 339,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 333,
+          "end": 338,
+          "id": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 334,
+            "name": "i"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 337,
+            "end": 338,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "LabeledStatement",
+      "start": 340,
+      "end": 565,
+      "body": {
+        "type": "BlockStatement",
+        "start": 347,
+        "end": 565,
+        "body": [
+          {
+            "type": "DoWhileStatement",
+            "start": 351,
+            "end": 501,
+            "body": {
+              "type": "BlockStatement",
+              "start": 354,
+              "end": 485,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 360,
+                  "end": 364,
+                  "expression": {
+                    "type": "UpdateExpression",
+                    "start": 360,
+                    "end": 363,
+                    "operator": "++",
+                    "prefix": false,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 360,
+                      "end": 361,
+                      "name": "i"
+                    }
+                  }
+                },
+                {
+                  "type": "IfStatement",
+                  "start": 369,
+                  "end": 481,
+                  "test": {
+                    "type": "BinaryExpression",
+                    "start": 374,
+                    "end": 381,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 374,
+                      "end": 375,
+                      "name": "i"
+                    },
+                    "operator": "==",
+                    "right": {
+                      "type": "Literal",
+                      "start": 379,
+                      "end": 381,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  },
+                  "consequent": {
+                    "type": "BlockStatement",
+                    "start": 384,
+                    "end": 481,
+                    "body": [
+                      {
+                        "type": "BreakStatement",
+                        "start": 392,
+                        "end": 405,
+                        "label": {
+                          "type": "Identifier",
+                          "start": 398,
+                          "end": 404,
+                          "name": "woohoo"
+                        }
+                      },
+                      {
+                        "type": "ThrowStatement",
+                        "start": 412,
+                        "end": 475,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 418,
+                          "end": 474,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 422,
+                            "end": 434,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 435,
+                              "end": 473,
+                              "value": "#1.1: \"break woohoo\" must break loop",
+                              "raw": "'#1.1: \"break woohoo\" must break loop'"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "alternate": null
+                }
+              ]
+            },
+            "test": {
+              "type": "Literal",
+              "start": 494,
+              "end": 498,
+              "value": true,
+              "raw": "true"
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 504,
+            "end": 563,
+            "argument": {
+              "type": "NewExpression",
+              "start": 510,
+              "end": 562,
+              "callee": {
+                "type": "Identifier",
+                "start": 514,
+                "end": 526,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 527,
+                  "end": 561,
+                  "value": "This code should be unreacheable",
+                  "raw": "'This code should be unreacheable'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "label": {
+        "type": "Identifier",
+        "start": 340,
+        "end": 346,
+        "name": "woohoo"
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 566,
+      "end": 590,
+      "expression": {
+        "type": "CallExpression",
+        "start": 566,
+        "end": 589,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 566,
+          "end": 582,
+          "object": {
+            "type": "Identifier",
+            "start": 566,
+            "end": 572,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 582,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 583,
+            "end": 584,
+            "name": "i"
+          },
+          {
+            "type": "Literal",
+            "start": 586,
+            "end": 588,
+            "value": 10,
+            "raw": "10"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

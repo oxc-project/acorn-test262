@@ -1,0 +1,168 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 387,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 249,
+      "end": 289,
+      "id": {
+        "type": "Identifier",
+        "start": 258,
+        "end": 268,
+        "name": "callbackfn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 271,
+        "end": 289,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 275,
+            "end": 287,
+            "argument": {
+              "type": "Literal",
+              "start": 282,
+              "end": 286,
+              "value": true,
+              "raw": "true"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 291,
+      "end": 329,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 295,
+          "end": 328,
+          "id": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 305,
+            "name": "testResult"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 308,
+            "end": 328,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 308,
+              "end": 316,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 308,
+                "end": 312,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 309,
+                    "end": 311,
+                    "value": 11,
+                    "raw": "11"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 313,
+                "end": 316,
+                "name": "map"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 317,
+                "end": 327,
+                "name": "callbackfn"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 331,
+      "end": 386,
+      "expression": {
+        "type": "CallExpression",
+        "start": 331,
+        "end": 385,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 331,
+          "end": 347,
+          "object": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 337,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 347,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 348,
+            "end": 361,
+            "object": {
+              "type": "Identifier",
+              "start": 348,
+              "end": 358,
+              "name": "testResult"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 359,
+              "end": 360,
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 363,
+            "end": 367,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 369,
+            "end": 384,
+            "value": "testResult[0]",
+            "raw": "'testResult[0]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

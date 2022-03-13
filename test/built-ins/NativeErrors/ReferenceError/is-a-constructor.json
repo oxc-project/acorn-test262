@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 848,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 718,
+      "end": 822,
+      "expression": {
+        "type": "CallExpression",
+        "start": 718,
+        "end": 821,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 718,
+          "end": 734,
+          "object": {
+            "type": "Identifier",
+            "start": 718,
+            "end": 724,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 725,
+            "end": 734,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 735,
+            "end": 764,
+            "callee": {
+              "type": "Identifier",
+              "start": 735,
+              "end": 748,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 749,
+                "end": 763,
+                "name": "ReferenceError"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 766,
+            "end": 770,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 772,
+            "end": 820,
+            "value": "isConstructor(ReferenceError) must return true",
+            "raw": "'isConstructor(ReferenceError) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 823,
+      "end": 844,
+      "expression": {
+        "type": "NewExpression",
+        "start": 823,
+        "end": 843,
+        "callee": {
+          "type": "Identifier",
+          "start": 827,
+          "end": 841,
+          "name": "ReferenceError"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

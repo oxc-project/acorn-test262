@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 904,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 687,
+      "end": 795,
+      "expression": {
+        "type": "CallExpression",
+        "start": 687,
+        "end": 794,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 687,
+          "end": 703,
+          "object": {
+            "type": "Identifier",
+            "start": 687,
+            "end": 693,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 694,
+            "end": 703,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 704,
+            "end": 734,
+            "callee": {
+              "type": "Identifier",
+              "start": 704,
+              "end": 717,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 718,
+                "end": 733,
+                "object": {
+                  "type": "Identifier",
+                  "start": 718,
+                  "end": 724,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 725,
+                  "end": 733,
+                  "name": "parseInt"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 736,
+            "end": 741,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 743,
+            "end": 793,
+            "value": "isConstructor(Number.parseInt) must return false",
+            "raw": "'isConstructor(Number.parseInt) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 797,
+      "end": 902,
+      "expression": {
+        "type": "CallExpression",
+        "start": 797,
+        "end": 901,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 797,
+          "end": 810,
+          "object": {
+            "type": "Identifier",
+            "start": 797,
+            "end": 803,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 804,
+            "end": 810,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 811,
+            "end": 820,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 822,
+            "end": 856,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 828,
+              "end": 856,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 832,
+                  "end": 854,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 832,
+                    "end": 853,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 836,
+                      "end": 851,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 836,
+                        "end": 842,
+                        "name": "Number"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 843,
+                        "end": 851,
+                        "name": "parseInt"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 858,
+            "end": 900,
+            "value": "`new Number.parseInt()` throws TypeError",
+            "raw": "'`new Number.parseInt()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

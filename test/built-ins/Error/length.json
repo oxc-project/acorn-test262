@@ -1,0 +1,204 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 451,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 242,
+      "end": 266,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 246,
+          "end": 265,
+          "id": {
+            "type": "Identifier",
+            "start": 246,
+            "end": 250,
+            "name": "err1"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 253,
+            "end": 265,
+            "callee": {
+              "type": "Identifier",
+              "start": 253,
+              "end": 258,
+              "name": "Error"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 259,
+                "end": 264,
+                "value": "err",
+                "raw": "\"err\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 267,
+      "end": 357,
+      "expression": {
+        "type": "CallExpression",
+        "start": 267,
+        "end": 356,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 267,
+          "end": 283,
+          "object": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 273,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 283,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 284,
+            "end": 307,
+            "object": {
+              "type": "MemberExpression",
+              "start": 284,
+              "end": 300,
+              "object": {
+                "type": "Identifier",
+                "start": 284,
+                "end": 288,
+                "name": "err1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 300,
+                "name": "constructor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 301,
+              "end": 307,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 309,
+            "end": 310,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 312,
+            "end": 355,
+            "value": "The value of err1.constructor.length is 1",
+            "raw": "'The value of err1.constructor.length is 1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 358,
+      "end": 450,
+      "expression": {
+        "type": "CallExpression",
+        "start": 358,
+        "end": 449,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 358,
+          "end": 374,
+          "object": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 364,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 374,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 375,
+            "end": 399,
+            "object": {
+              "type": "MemberExpression",
+              "start": 375,
+              "end": 392,
+              "object": {
+                "type": "Identifier",
+                "start": 375,
+                "end": 380,
+                "name": "Error"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 381,
+                "end": 392,
+                "name": "constructor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 393,
+              "end": 399,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 401,
+            "end": 402,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 404,
+            "end": 448,
+            "value": "The value of Error.constructor.length is 1",
+            "raw": "'The value of Error.constructor.length is 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

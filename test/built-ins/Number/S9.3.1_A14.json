@@ -1,0 +1,75 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 406,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 305,
+      "end": 405,
+      "expression": {
+        "type": "CallExpression",
+        "start": 305,
+        "end": 404,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 305,
+          "end": 321,
+          "object": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 311,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 312,
+            "end": 321,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 322,
+            "end": 343,
+            "callee": {
+              "type": "Identifier",
+              "start": 322,
+              "end": 328,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 329,
+                "end": 342,
+                "value": "+1234567890",
+                "raw": "\"+1234567890\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 345,
+            "end": 355,
+            "value": 1234567890,
+            "raw": "1234567890"
+          },
+          {
+            "type": "Literal",
+            "start": 357,
+            "end": 403,
+            "value": "Number(\"+1234567890\") must return 1234567890",
+            "raw": "'Number(\"+1234567890\") must return 1234567890'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,46 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 344,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 327,
+      "end": 343,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 333,
+          "end": 342,
+          "id": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 334,
+            "name": "x"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 337,
+            "end": 342,
+            "left": {
+              "type": "Identifier",
+              "start": 337,
+              "end": 338,
+              "name": "x"
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 341,
+              "end": 342,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        }
+      ],
+      "kind": "const"
+    }
+  ],
+  "sourceType": "script"
+}

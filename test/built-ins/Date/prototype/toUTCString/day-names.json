@@ -1,0 +1,596 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1047,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 221,
+      "end": 338,
+      "expression": {
+        "type": "CallExpression",
+        "start": 221,
+        "end": 337,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 221,
+          "end": 237,
+          "object": {
+            "type": "Identifier",
+            "start": 221,
+            "end": 227,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 228,
+            "end": 237,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 238,
+            "end": 269,
+            "value": "Sun, 23 Mar 2014 00:00:00 GMT",
+            "raw": "\"Sun, 23 Mar 2014 00:00:00 GMT\""
+          },
+          {
+            "type": "CallExpression",
+            "start": 288,
+            "end": 336,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 288,
+              "end": 334,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 288,
+                "end": 322,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 289,
+                  "end": 321,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 293,
+                    "end": 297,
+                    "name": "Date"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 298,
+                      "end": 320,
+                      "value": "2014-03-23T00:00:00Z",
+                      "raw": "\"2014-03-23T00:00:00Z\""
+                    }
+                  ]
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 334,
+                "name": "toUTCString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 339,
+      "end": 456,
+      "expression": {
+        "type": "CallExpression",
+        "start": 339,
+        "end": 455,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 339,
+          "end": 355,
+          "object": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 345,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 346,
+            "end": 355,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 356,
+            "end": 387,
+            "value": "Mon, 24 Mar 2014 00:00:00 GMT",
+            "raw": "\"Mon, 24 Mar 2014 00:00:00 GMT\""
+          },
+          {
+            "type": "CallExpression",
+            "start": 406,
+            "end": 454,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 406,
+              "end": 452,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 406,
+                "end": 440,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 407,
+                  "end": 439,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 411,
+                    "end": 415,
+                    "name": "Date"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 416,
+                      "end": 438,
+                      "value": "2014-03-24T00:00:00Z",
+                      "raw": "\"2014-03-24T00:00:00Z\""
+                    }
+                  ]
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 441,
+                "end": 452,
+                "name": "toUTCString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 457,
+      "end": 574,
+      "expression": {
+        "type": "CallExpression",
+        "start": 457,
+        "end": 573,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 457,
+          "end": 473,
+          "object": {
+            "type": "Identifier",
+            "start": 457,
+            "end": 463,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 473,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 474,
+            "end": 505,
+            "value": "Tue, 25 Mar 2014 00:00:00 GMT",
+            "raw": "\"Tue, 25 Mar 2014 00:00:00 GMT\""
+          },
+          {
+            "type": "CallExpression",
+            "start": 524,
+            "end": 572,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 524,
+              "end": 570,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 524,
+                "end": 558,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 525,
+                  "end": 557,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 529,
+                    "end": 533,
+                    "name": "Date"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 534,
+                      "end": 556,
+                      "value": "2014-03-25T00:00:00Z",
+                      "raw": "\"2014-03-25T00:00:00Z\""
+                    }
+                  ]
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 559,
+                "end": 570,
+                "name": "toUTCString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 575,
+      "end": 692,
+      "expression": {
+        "type": "CallExpression",
+        "start": 575,
+        "end": 691,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 575,
+          "end": 591,
+          "object": {
+            "type": "Identifier",
+            "start": 575,
+            "end": 581,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 591,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 592,
+            "end": 623,
+            "value": "Wed, 26 Mar 2014 00:00:00 GMT",
+            "raw": "\"Wed, 26 Mar 2014 00:00:00 GMT\""
+          },
+          {
+            "type": "CallExpression",
+            "start": 642,
+            "end": 690,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 642,
+              "end": 688,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 642,
+                "end": 676,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 643,
+                  "end": 675,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 647,
+                    "end": 651,
+                    "name": "Date"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 652,
+                      "end": 674,
+                      "value": "2014-03-26T00:00:00Z",
+                      "raw": "\"2014-03-26T00:00:00Z\""
+                    }
+                  ]
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 677,
+                "end": 688,
+                "name": "toUTCString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 693,
+      "end": 810,
+      "expression": {
+        "type": "CallExpression",
+        "start": 693,
+        "end": 809,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 693,
+          "end": 709,
+          "object": {
+            "type": "Identifier",
+            "start": 693,
+            "end": 699,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 700,
+            "end": 709,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 710,
+            "end": 741,
+            "value": "Thu, 27 Mar 2014 00:00:00 GMT",
+            "raw": "\"Thu, 27 Mar 2014 00:00:00 GMT\""
+          },
+          {
+            "type": "CallExpression",
+            "start": 760,
+            "end": 808,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 760,
+              "end": 806,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 760,
+                "end": 794,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 761,
+                  "end": 793,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 765,
+                    "end": 769,
+                    "name": "Date"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 770,
+                      "end": 792,
+                      "value": "2014-03-27T00:00:00Z",
+                      "raw": "\"2014-03-27T00:00:00Z\""
+                    }
+                  ]
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 795,
+                "end": 806,
+                "name": "toUTCString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 811,
+      "end": 928,
+      "expression": {
+        "type": "CallExpression",
+        "start": 811,
+        "end": 927,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 811,
+          "end": 827,
+          "object": {
+            "type": "Identifier",
+            "start": 811,
+            "end": 817,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 818,
+            "end": 827,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 828,
+            "end": 859,
+            "value": "Fri, 28 Mar 2014 00:00:00 GMT",
+            "raw": "\"Fri, 28 Mar 2014 00:00:00 GMT\""
+          },
+          {
+            "type": "CallExpression",
+            "start": 878,
+            "end": 926,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 878,
+              "end": 924,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 878,
+                "end": 912,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 879,
+                  "end": 911,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 883,
+                    "end": 887,
+                    "name": "Date"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 888,
+                      "end": 910,
+                      "value": "2014-03-28T00:00:00Z",
+                      "raw": "\"2014-03-28T00:00:00Z\""
+                    }
+                  ]
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 913,
+                "end": 924,
+                "name": "toUTCString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 929,
+      "end": 1046,
+      "expression": {
+        "type": "CallExpression",
+        "start": 929,
+        "end": 1045,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 929,
+          "end": 945,
+          "object": {
+            "type": "Identifier",
+            "start": 929,
+            "end": 935,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 936,
+            "end": 945,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 946,
+            "end": 977,
+            "value": "Sat, 29 Mar 2014 00:00:00 GMT",
+            "raw": "\"Sat, 29 Mar 2014 00:00:00 GMT\""
+          },
+          {
+            "type": "CallExpression",
+            "start": 996,
+            "end": 1044,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 996,
+              "end": 1042,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 996,
+                "end": 1030,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 997,
+                  "end": 1029,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1001,
+                    "end": 1005,
+                    "name": "Date"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 1006,
+                      "end": 1028,
+                      "value": "2014-03-29T00:00:00Z",
+                      "raw": "\"2014-03-29T00:00:00Z\""
+                    }
+                  ]
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1031,
+                "end": 1042,
+                "name": "toUTCString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 524,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 392,
+      "end": 437,
+      "expression": {
+        "type": "CallExpression",
+        "start": 392,
+        "end": 436,
+        "callee": {
+          "type": "Identifier",
+          "start": 392,
+          "end": 411,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 412,
+            "end": 419,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 421,
+            "end": 435,
+            "value": "isExtensible",
+            "raw": "'isExtensible'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 438,
+      "end": 478,
+      "expression": {
+        "type": "CallExpression",
+        "start": 438,
+        "end": 477,
+        "callee": {
+          "type": "Identifier",
+          "start": 438,
+          "end": 452,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 453,
+            "end": 460,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 462,
+            "end": 476,
+            "value": "isExtensible",
+            "raw": "'isExtensible'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 479,
+      "end": 523,
+      "expression": {
+        "type": "CallExpression",
+        "start": 479,
+        "end": 522,
+        "callee": {
+          "type": "Identifier",
+          "start": 479,
+          "end": 497,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 498,
+            "end": 505,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 507,
+            "end": 521,
+            "value": "isExtensible",
+            "raw": "'isExtensible'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

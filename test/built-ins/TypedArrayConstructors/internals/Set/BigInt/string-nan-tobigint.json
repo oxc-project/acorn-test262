@@ -1,0 +1,190 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2310,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 2061,
+      "end": 2309,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2061,
+        "end": 2308,
+        "callee": {
+          "type": "Identifier",
+          "start": 2061,
+          "end": 2097,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 2098,
+            "end": 2307,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 2107,
+                "end": 2109,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2111,
+              "end": 2307,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 2115,
+                  "end": 2142,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 2119,
+                      "end": 2141,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 2119,
+                        "end": 2129,
+                        "name": "typedArray"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 2132,
+                        "end": 2141,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 2136,
+                          "end": 2138,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 2139,
+                            "end": 2140,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2146,
+                  "end": 2304,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2146,
+                    "end": 2303,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2146,
+                      "end": 2159,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2146,
+                        "end": 2152,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2153,
+                        "end": 2159,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 2160,
+                        "end": 2171,
+                        "name": "SyntaxError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 2173,
+                        "end": 2236,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 2184,
+                          "end": 2236,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 2190,
+                              "end": 2232,
+                              "expression": {
+                                "type": "AssignmentExpression",
+                                "start": 2190,
+                                "end": 2231,
+                                "operator": "=",
+                                "left": {
+                                  "type": "MemberExpression",
+                                  "start": 2190,
+                                  "end": 2203,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 2190,
+                                    "end": 2200,
+                                    "name": "typedArray"
+                                  },
+                                  "property": {
+                                    "type": "Literal",
+                                    "start": 2201,
+                                    "end": 2202,
+                                    "value": 0,
+                                    "raw": "0"
+                                  },
+                                  "computed": true,
+                                  "optional": false
+                                },
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 2206,
+                                  "end": 2231,
+                                  "value": "definately not a number",
+                                  "raw": "\"definately not a number\""
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2238,
+                        "end": 2302,
+                        "value": "`typedArray[0] = \"definately not a number\"` throws SyntaxError",
+                        "raw": "'`typedArray[0] = \"definately not a number\"` throws SyntaxError'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,71 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 676,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 647,
+      "end": 675,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 647,
+        "end": 674,
+        "operator": "void",
+        "prefix": true,
+        "argument": {
+          "type": "ObjectExpression",
+          "start": 652,
+          "end": 674,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 656,
+              "end": 662,
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 656,
+                "end": 659,
+                "name": "foo"
+              },
+              "value": {
+                "type": "Literal",
+                "start": 661,
+                "end": 662,
+                "value": 0,
+                "raw": "0"
+              },
+              "kind": "init"
+            },
+            {
+              "type": "Property",
+              "start": 666,
+              "end": 672,
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 666,
+                "end": 669,
+                "name": "foo"
+              },
+              "value": {
+                "type": "Literal",
+                "start": 671,
+                "end": 672,
+                "value": 1,
+                "raw": "1"
+              },
+              "kind": "init"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

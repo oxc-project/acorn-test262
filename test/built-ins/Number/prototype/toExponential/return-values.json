@@ -1,0 +1,3396 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2888,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 239,
+      "end": 292,
+      "expression": {
+        "type": "CallExpression",
+        "start": 239,
+        "end": 291,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 239,
+          "end": 255,
+          "object": {
+            "type": "Identifier",
+            "start": 239,
+            "end": 245,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 246,
+            "end": 255,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 256,
+            "end": 282,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 256,
+              "end": 279,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 256,
+                "end": 265,
+                "expression": {
+                  "type": "Literal",
+                  "start": 257,
+                  "end": 264,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 266,
+                "end": 279,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 280,
+                "end": 281,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 284,
+            "end": 290,
+            "value": "1e+2",
+            "raw": "\"1e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 293,
+      "end": 348,
+      "expression": {
+        "type": "CallExpression",
+        "start": 293,
+        "end": 347,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 293,
+          "end": 309,
+          "object": {
+            "type": "Identifier",
+            "start": 293,
+            "end": 299,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 309,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 310,
+            "end": 336,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 310,
+              "end": 333,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 310,
+                "end": 319,
+                "expression": {
+                  "type": "Literal",
+                  "start": 311,
+                  "end": 318,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 320,
+                "end": 333,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 334,
+                "end": 335,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 338,
+            "end": 346,
+            "value": "1.2e+2",
+            "raw": "\"1.2e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 349,
+      "end": 405,
+      "expression": {
+        "type": "CallExpression",
+        "start": 349,
+        "end": 404,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 349,
+          "end": 365,
+          "object": {
+            "type": "Identifier",
+            "start": 349,
+            "end": 355,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 365,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 366,
+            "end": 392,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 366,
+              "end": 389,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 366,
+                "end": 375,
+                "expression": {
+                  "type": "Literal",
+                  "start": 367,
+                  "end": 374,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 376,
+                "end": 389,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 390,
+                "end": 391,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 394,
+            "end": 403,
+            "value": "1.23e+2",
+            "raw": "\"1.23e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 406,
+      "end": 463,
+      "expression": {
+        "type": "CallExpression",
+        "start": 406,
+        "end": 462,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 406,
+          "end": 422,
+          "object": {
+            "type": "Identifier",
+            "start": 406,
+            "end": 412,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 413,
+            "end": 422,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 423,
+            "end": 449,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 423,
+              "end": 446,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 423,
+                "end": 432,
+                "expression": {
+                  "type": "Literal",
+                  "start": 424,
+                  "end": 431,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 433,
+                "end": 446,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 447,
+                "end": 448,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 461,
+            "value": "1.235e+2",
+            "raw": "\"1.235e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 464,
+      "end": 522,
+      "expression": {
+        "type": "CallExpression",
+        "start": 464,
+        "end": 521,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 464,
+          "end": 480,
+          "object": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 470,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 471,
+            "end": 480,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 481,
+            "end": 507,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 481,
+              "end": 504,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 481,
+                "end": 490,
+                "expression": {
+                  "type": "Literal",
+                  "start": 482,
+                  "end": 489,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 491,
+                "end": 504,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 505,
+                "end": 506,
+                "value": 4,
+                "raw": "4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 509,
+            "end": 520,
+            "value": "1.2346e+2",
+            "raw": "\"1.2346e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 523,
+      "end": 582,
+      "expression": {
+        "type": "CallExpression",
+        "start": 523,
+        "end": 581,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 523,
+          "end": 539,
+          "object": {
+            "type": "Identifier",
+            "start": 523,
+            "end": 529,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 539,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 540,
+            "end": 566,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 540,
+              "end": 563,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 540,
+                "end": 549,
+                "expression": {
+                  "type": "Literal",
+                  "start": 541,
+                  "end": 548,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 550,
+                "end": 563,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 564,
+                "end": 565,
+                "value": 5,
+                "raw": "5"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 568,
+            "end": 580,
+            "value": "1.23456e+2",
+            "raw": "\"1.23456e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 583,
+      "end": 643,
+      "expression": {
+        "type": "CallExpression",
+        "start": 583,
+        "end": 642,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 583,
+          "end": 599,
+          "object": {
+            "type": "Identifier",
+            "start": 583,
+            "end": 589,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 590,
+            "end": 599,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 600,
+            "end": 626,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 600,
+              "end": 623,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 600,
+                "end": 609,
+                "expression": {
+                  "type": "Literal",
+                  "start": 601,
+                  "end": 608,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 610,
+                "end": 623,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 624,
+                "end": 625,
+                "value": 6,
+                "raw": "6"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 628,
+            "end": 641,
+            "value": "1.234560e+2",
+            "raw": "\"1.234560e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 644,
+      "end": 705,
+      "expression": {
+        "type": "CallExpression",
+        "start": 644,
+        "end": 704,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 644,
+          "end": 660,
+          "object": {
+            "type": "Identifier",
+            "start": 644,
+            "end": 650,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 660,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 661,
+            "end": 687,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 661,
+              "end": 684,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 661,
+                "end": 670,
+                "expression": {
+                  "type": "Literal",
+                  "start": 662,
+                  "end": 669,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 671,
+                "end": 684,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 685,
+                "end": 686,
+                "value": 7,
+                "raw": "7"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 703,
+            "value": "1.2345600e+2",
+            "raw": "\"1.2345600e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 706,
+      "end": 778,
+      "expression": {
+        "type": "CallExpression",
+        "start": 706,
+        "end": 777,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 706,
+          "end": 722,
+          "object": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 712,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 722,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 723,
+            "end": 750,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 723,
+              "end": 746,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 723,
+                "end": 732,
+                "expression": {
+                  "type": "Literal",
+                  "start": 724,
+                  "end": 731,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 733,
+                "end": 746,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 747,
+                "end": 749,
+                "value": 17,
+                "raw": "17"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 752,
+            "end": 776,
+            "value": "1.23456000000000003e+2",
+            "raw": "\"1.23456000000000003e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 779,
+      "end": 854,
+      "expression": {
+        "type": "CallExpression",
+        "start": 779,
+        "end": 853,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 779,
+          "end": 795,
+          "object": {
+            "type": "Identifier",
+            "start": 779,
+            "end": 785,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 786,
+            "end": 795,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 796,
+            "end": 823,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 796,
+              "end": 819,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 796,
+                "end": 805,
+                "expression": {
+                  "type": "Literal",
+                  "start": 797,
+                  "end": 804,
+                  "value": 123.456,
+                  "raw": "123.456"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 806,
+                "end": 819,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 820,
+                "end": 822,
+                "value": 20,
+                "raw": "20"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 825,
+            "end": 852,
+            "value": "1.23456000000000003070e+2",
+            "raw": "\"1.23456000000000003070e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 856,
+      "end": 911,
+      "expression": {
+        "type": "CallExpression",
+        "start": 856,
+        "end": 910,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 856,
+          "end": 872,
+          "object": {
+            "type": "Identifier",
+            "start": 856,
+            "end": 862,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 863,
+            "end": 872,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 873,
+            "end": 900,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 873,
+              "end": 897,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 873,
+                "end": 883,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 874,
+                  "end": 882,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 875,
+                    "end": 882,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 884,
+                "end": 897,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 898,
+                "end": 899,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 902,
+            "end": 909,
+            "value": "-1e+2",
+            "raw": "\"-1e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 912,
+      "end": 969,
+      "expression": {
+        "type": "CallExpression",
+        "start": 912,
+        "end": 968,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 912,
+          "end": 928,
+          "object": {
+            "type": "Identifier",
+            "start": 912,
+            "end": 918,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 919,
+            "end": 928,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 929,
+            "end": 956,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 929,
+              "end": 953,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 929,
+                "end": 939,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 930,
+                  "end": 938,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 931,
+                    "end": 938,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 940,
+                "end": 953,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 954,
+                "end": 955,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 958,
+            "end": 967,
+            "value": "-1.2e+2",
+            "raw": "\"-1.2e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 970,
+      "end": 1028,
+      "expression": {
+        "type": "CallExpression",
+        "start": 970,
+        "end": 1027,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 970,
+          "end": 986,
+          "object": {
+            "type": "Identifier",
+            "start": 970,
+            "end": 976,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 977,
+            "end": 986,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 987,
+            "end": 1014,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 987,
+              "end": 1011,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 987,
+                "end": 997,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 988,
+                  "end": 996,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 989,
+                    "end": 996,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 998,
+                "end": 1011,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1012,
+                "end": 1013,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1016,
+            "end": 1026,
+            "value": "-1.23e+2",
+            "raw": "\"-1.23e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1029,
+      "end": 1088,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1029,
+        "end": 1087,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1029,
+          "end": 1045,
+          "object": {
+            "type": "Identifier",
+            "start": 1029,
+            "end": 1035,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1036,
+            "end": 1045,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1046,
+            "end": 1073,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1046,
+              "end": 1070,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1046,
+                "end": 1056,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 1047,
+                  "end": 1055,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1048,
+                    "end": 1055,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1057,
+                "end": 1070,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1071,
+                "end": 1072,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1075,
+            "end": 1086,
+            "value": "-1.235e+2",
+            "raw": "\"-1.235e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1089,
+      "end": 1149,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1089,
+        "end": 1148,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1089,
+          "end": 1105,
+          "object": {
+            "type": "Identifier",
+            "start": 1089,
+            "end": 1095,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1096,
+            "end": 1105,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1106,
+            "end": 1133,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1106,
+              "end": 1130,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1106,
+                "end": 1116,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 1107,
+                  "end": 1115,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1108,
+                    "end": 1115,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1117,
+                "end": 1130,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1131,
+                "end": 1132,
+                "value": 4,
+                "raw": "4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1135,
+            "end": 1147,
+            "value": "-1.2346e+2",
+            "raw": "\"-1.2346e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1150,
+      "end": 1211,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1150,
+        "end": 1210,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1150,
+          "end": 1166,
+          "object": {
+            "type": "Identifier",
+            "start": 1150,
+            "end": 1156,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1157,
+            "end": 1166,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1167,
+            "end": 1194,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1167,
+              "end": 1191,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1167,
+                "end": 1177,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 1168,
+                  "end": 1176,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1169,
+                    "end": 1176,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1178,
+                "end": 1191,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1192,
+                "end": 1193,
+                "value": 5,
+                "raw": "5"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1196,
+            "end": 1209,
+            "value": "-1.23456e+2",
+            "raw": "\"-1.23456e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1212,
+      "end": 1274,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1212,
+        "end": 1273,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1212,
+          "end": 1228,
+          "object": {
+            "type": "Identifier",
+            "start": 1212,
+            "end": 1218,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1219,
+            "end": 1228,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1229,
+            "end": 1256,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1229,
+              "end": 1253,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1229,
+                "end": 1239,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 1230,
+                  "end": 1238,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1231,
+                    "end": 1238,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1240,
+                "end": 1253,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1254,
+                "end": 1255,
+                "value": 6,
+                "raw": "6"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1258,
+            "end": 1272,
+            "value": "-1.234560e+2",
+            "raw": "\"-1.234560e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1275,
+      "end": 1338,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1275,
+        "end": 1337,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1275,
+          "end": 1291,
+          "object": {
+            "type": "Identifier",
+            "start": 1275,
+            "end": 1281,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1282,
+            "end": 1291,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1292,
+            "end": 1319,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1292,
+              "end": 1316,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1292,
+                "end": 1302,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 1293,
+                  "end": 1301,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1294,
+                    "end": 1301,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1303,
+                "end": 1316,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1317,
+                "end": 1318,
+                "value": 7,
+                "raw": "7"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1321,
+            "end": 1336,
+            "value": "-1.2345600e+2",
+            "raw": "\"-1.2345600e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1339,
+      "end": 1413,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1339,
+        "end": 1412,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1339,
+          "end": 1355,
+          "object": {
+            "type": "Identifier",
+            "start": 1339,
+            "end": 1345,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1346,
+            "end": 1355,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1356,
+            "end": 1384,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1356,
+              "end": 1380,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1356,
+                "end": 1366,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 1357,
+                  "end": 1365,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1358,
+                    "end": 1365,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1367,
+                "end": 1380,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1381,
+                "end": 1383,
+                "value": 17,
+                "raw": "17"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1386,
+            "end": 1411,
+            "value": "-1.23456000000000003e+2",
+            "raw": "\"-1.23456000000000003e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1414,
+      "end": 1491,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1414,
+        "end": 1490,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1414,
+          "end": 1430,
+          "object": {
+            "type": "Identifier",
+            "start": 1414,
+            "end": 1420,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1421,
+            "end": 1430,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1431,
+            "end": 1459,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1431,
+              "end": 1455,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1431,
+                "end": 1441,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 1432,
+                  "end": 1440,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1433,
+                    "end": 1440,
+                    "value": 123.456,
+                    "raw": "123.456"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1442,
+                "end": 1455,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1456,
+                "end": 1458,
+                "value": 20,
+                "raw": "20"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1461,
+            "end": 1489,
+            "value": "-1.23456000000000003070e+2",
+            "raw": "\"-1.23456000000000003070e+2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1493,
+      "end": 1545,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1493,
+        "end": 1544,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1493,
+          "end": 1509,
+          "object": {
+            "type": "Identifier",
+            "start": 1493,
+            "end": 1499,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1500,
+            "end": 1509,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1510,
+            "end": 1535,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1510,
+              "end": 1532,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1510,
+                "end": 1518,
+                "expression": {
+                  "type": "Literal",
+                  "start": 1511,
+                  "end": 1517,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1519,
+                "end": 1532,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1533,
+                "end": 1534,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1537,
+            "end": 1543,
+            "value": "1e-4",
+            "raw": "\"1e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1546,
+      "end": 1600,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1546,
+        "end": 1599,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1546,
+          "end": 1562,
+          "object": {
+            "type": "Identifier",
+            "start": 1546,
+            "end": 1552,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1553,
+            "end": 1562,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1563,
+            "end": 1588,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1563,
+              "end": 1585,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1563,
+                "end": 1571,
+                "expression": {
+                  "type": "Literal",
+                  "start": 1564,
+                  "end": 1570,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1572,
+                "end": 1585,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1586,
+                "end": 1587,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1590,
+            "end": 1598,
+            "value": "1.0e-4",
+            "raw": "\"1.0e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1601,
+      "end": 1656,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1601,
+        "end": 1655,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1601,
+          "end": 1617,
+          "object": {
+            "type": "Identifier",
+            "start": 1601,
+            "end": 1607,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1608,
+            "end": 1617,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1618,
+            "end": 1643,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1618,
+              "end": 1640,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1618,
+                "end": 1626,
+                "expression": {
+                  "type": "Literal",
+                  "start": 1619,
+                  "end": 1625,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1627,
+                "end": 1640,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1641,
+                "end": 1642,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1645,
+            "end": 1654,
+            "value": "1.00e-4",
+            "raw": "\"1.00e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1657,
+      "end": 1713,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1657,
+        "end": 1712,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1657,
+          "end": 1673,
+          "object": {
+            "type": "Identifier",
+            "start": 1657,
+            "end": 1663,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1664,
+            "end": 1673,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1674,
+            "end": 1699,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1674,
+              "end": 1696,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1674,
+                "end": 1682,
+                "expression": {
+                  "type": "Literal",
+                  "start": 1675,
+                  "end": 1681,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1683,
+                "end": 1696,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1697,
+                "end": 1698,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1701,
+            "end": 1711,
+            "value": "1.000e-4",
+            "raw": "\"1.000e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1714,
+      "end": 1771,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1714,
+        "end": 1770,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1714,
+          "end": 1730,
+          "object": {
+            "type": "Identifier",
+            "start": 1714,
+            "end": 1720,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1721,
+            "end": 1730,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1731,
+            "end": 1756,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1731,
+              "end": 1753,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1731,
+                "end": 1739,
+                "expression": {
+                  "type": "Literal",
+                  "start": 1732,
+                  "end": 1738,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1740,
+                "end": 1753,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1754,
+                "end": 1755,
+                "value": 4,
+                "raw": "4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1758,
+            "end": 1769,
+            "value": "1.0000e-4",
+            "raw": "\"1.0000e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1772,
+      "end": 1842,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1772,
+        "end": 1841,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1772,
+          "end": 1788,
+          "object": {
+            "type": "Identifier",
+            "start": 1772,
+            "end": 1778,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1779,
+            "end": 1788,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1789,
+            "end": 1815,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1789,
+              "end": 1811,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1789,
+                "end": 1797,
+                "expression": {
+                  "type": "Literal",
+                  "start": 1790,
+                  "end": 1796,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1798,
+                "end": 1811,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1812,
+                "end": 1814,
+                "value": 16,
+                "raw": "16"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1817,
+            "end": 1840,
+            "value": "1.0000000000000000e-4",
+            "raw": "\"1.0000000000000000e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1843,
+      "end": 1914,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1843,
+        "end": 1913,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1843,
+          "end": 1859,
+          "object": {
+            "type": "Identifier",
+            "start": 1843,
+            "end": 1849,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1850,
+            "end": 1859,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1860,
+            "end": 1886,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1860,
+              "end": 1882,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1860,
+                "end": 1868,
+                "expression": {
+                  "type": "Literal",
+                  "start": 1861,
+                  "end": 1867,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1869,
+                "end": 1882,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1883,
+                "end": 1885,
+                "value": 17,
+                "raw": "17"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1888,
+            "end": 1912,
+            "value": "1.00000000000000005e-4",
+            "raw": "\"1.00000000000000005e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1915,
+      "end": 1987,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1915,
+        "end": 1986,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1915,
+          "end": 1931,
+          "object": {
+            "type": "Identifier",
+            "start": 1915,
+            "end": 1921,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1922,
+            "end": 1931,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1932,
+            "end": 1958,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1932,
+              "end": 1954,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 1932,
+                "end": 1940,
+                "expression": {
+                  "type": "Literal",
+                  "start": 1933,
+                  "end": 1939,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1941,
+                "end": 1954,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1955,
+                "end": 1957,
+                "value": 18,
+                "raw": "18"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1960,
+            "end": 1985,
+            "value": "1.000000000000000048e-4",
+            "raw": "\"1.000000000000000048e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1988,
+      "end": 2061,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1988,
+        "end": 2060,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1988,
+          "end": 2004,
+          "object": {
+            "type": "Identifier",
+            "start": 1988,
+            "end": 1994,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1995,
+            "end": 2004,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2005,
+            "end": 2031,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2005,
+              "end": 2027,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2005,
+                "end": 2013,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2006,
+                  "end": 2012,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2014,
+                "end": 2027,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2028,
+                "end": 2030,
+                "value": 19,
+                "raw": "19"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2033,
+            "end": 2059,
+            "value": "1.0000000000000000479e-4",
+            "raw": "\"1.0000000000000000479e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2062,
+      "end": 2136,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2062,
+        "end": 2135,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2062,
+          "end": 2078,
+          "object": {
+            "type": "Identifier",
+            "start": 2062,
+            "end": 2068,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2069,
+            "end": 2078,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2079,
+            "end": 2105,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2079,
+              "end": 2101,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2079,
+                "end": 2087,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2080,
+                  "end": 2086,
+                  "value": 0.0001,
+                  "raw": "0.0001"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2088,
+                "end": 2101,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2102,
+                "end": 2104,
+                "value": 20,
+                "raw": "20"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2107,
+            "end": 2134,
+            "value": "1.00000000000000004792e-4",
+            "raw": "\"1.00000000000000004792e-4\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2138,
+      "end": 2190,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2138,
+        "end": 2189,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2138,
+          "end": 2154,
+          "object": {
+            "type": "Identifier",
+            "start": 2138,
+            "end": 2144,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2145,
+            "end": 2154,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2155,
+            "end": 2180,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2155,
+              "end": 2177,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2155,
+                "end": 2163,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2156,
+                  "end": 2162,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2164,
+                "end": 2177,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2178,
+                "end": 2179,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2182,
+            "end": 2188,
+            "value": "1e+0",
+            "raw": "\"1e+0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2191,
+      "end": 2245,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2191,
+        "end": 2244,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2191,
+          "end": 2207,
+          "object": {
+            "type": "Identifier",
+            "start": 2191,
+            "end": 2197,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2198,
+            "end": 2207,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2208,
+            "end": 2233,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2208,
+              "end": 2230,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2208,
+                "end": 2216,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2209,
+                  "end": 2215,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2217,
+                "end": 2230,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2231,
+                "end": 2232,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2235,
+            "end": 2243,
+            "value": "1.0e+0",
+            "raw": "\"1.0e+0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2246,
+      "end": 2301,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2246,
+        "end": 2300,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2246,
+          "end": 2262,
+          "object": {
+            "type": "Identifier",
+            "start": 2246,
+            "end": 2252,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2253,
+            "end": 2262,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2263,
+            "end": 2288,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2263,
+              "end": 2285,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2263,
+                "end": 2271,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2264,
+                  "end": 2270,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2272,
+                "end": 2285,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2286,
+                "end": 2287,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2290,
+            "end": 2299,
+            "value": "1.00e+0",
+            "raw": "\"1.00e+0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2302,
+      "end": 2358,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2302,
+        "end": 2357,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2302,
+          "end": 2318,
+          "object": {
+            "type": "Identifier",
+            "start": 2302,
+            "end": 2308,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2309,
+            "end": 2318,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2319,
+            "end": 2344,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2319,
+              "end": 2341,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2319,
+                "end": 2327,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2320,
+                  "end": 2326,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2328,
+                "end": 2341,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2342,
+                "end": 2343,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2346,
+            "end": 2356,
+            "value": "9.999e-1",
+            "raw": "\"9.999e-1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2359,
+      "end": 2416,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2359,
+        "end": 2415,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2359,
+          "end": 2375,
+          "object": {
+            "type": "Identifier",
+            "start": 2359,
+            "end": 2365,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2366,
+            "end": 2375,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2376,
+            "end": 2401,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2376,
+              "end": 2398,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2376,
+                "end": 2384,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2377,
+                  "end": 2383,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2385,
+                "end": 2398,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2399,
+                "end": 2400,
+                "value": 4,
+                "raw": "4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2403,
+            "end": 2414,
+            "value": "9.9990e-1",
+            "raw": "\"9.9990e-1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2417,
+      "end": 2487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2417,
+        "end": 2486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2417,
+          "end": 2433,
+          "object": {
+            "type": "Identifier",
+            "start": 2417,
+            "end": 2423,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2424,
+            "end": 2433,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2434,
+            "end": 2460,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2434,
+              "end": 2456,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2434,
+                "end": 2442,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2435,
+                  "end": 2441,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2443,
+                "end": 2456,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2457,
+                "end": 2459,
+                "value": 16,
+                "raw": "16"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2462,
+            "end": 2485,
+            "value": "9.9990000000000001e-1",
+            "raw": "\"9.9990000000000001e-1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2488,
+      "end": 2559,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2488,
+        "end": 2558,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2488,
+          "end": 2504,
+          "object": {
+            "type": "Identifier",
+            "start": 2488,
+            "end": 2494,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2495,
+            "end": 2504,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2505,
+            "end": 2531,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2505,
+              "end": 2527,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2505,
+                "end": 2513,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2506,
+                  "end": 2512,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2514,
+                "end": 2527,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2528,
+                "end": 2530,
+                "value": 17,
+                "raw": "17"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2533,
+            "end": 2557,
+            "value": "9.99900000000000011e-1",
+            "raw": "\"9.99900000000000011e-1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2560,
+      "end": 2632,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2560,
+        "end": 2631,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2560,
+          "end": 2576,
+          "object": {
+            "type": "Identifier",
+            "start": 2560,
+            "end": 2566,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2567,
+            "end": 2576,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2577,
+            "end": 2603,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2577,
+              "end": 2599,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2577,
+                "end": 2585,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2578,
+                  "end": 2584,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2586,
+                "end": 2599,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2600,
+                "end": 2602,
+                "value": 18,
+                "raw": "18"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2605,
+            "end": 2630,
+            "value": "9.999000000000000110e-1",
+            "raw": "\"9.999000000000000110e-1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2633,
+      "end": 2706,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2633,
+        "end": 2705,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2633,
+          "end": 2649,
+          "object": {
+            "type": "Identifier",
+            "start": 2633,
+            "end": 2639,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2640,
+            "end": 2649,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2650,
+            "end": 2676,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2650,
+              "end": 2672,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2650,
+                "end": 2658,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2651,
+                  "end": 2657,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2659,
+                "end": 2672,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2673,
+                "end": 2675,
+                "value": 19,
+                "raw": "19"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2678,
+            "end": 2704,
+            "value": "9.9990000000000001101e-1",
+            "raw": "\"9.9990000000000001101e-1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2707,
+      "end": 2781,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2707,
+        "end": 2780,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2707,
+          "end": 2723,
+          "object": {
+            "type": "Identifier",
+            "start": 2707,
+            "end": 2713,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2714,
+            "end": 2723,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2724,
+            "end": 2750,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2724,
+              "end": 2746,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2724,
+                "end": 2732,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2725,
+                  "end": 2731,
+                  "value": 0.9999,
+                  "raw": "0.9999"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2733,
+                "end": 2746,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2747,
+                "end": 2749,
+                "value": 20,
+                "raw": "20"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2752,
+            "end": 2779,
+            "value": "9.99900000000000011013e-1",
+            "raw": "\"9.99900000000000011013e-1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2783,
+      "end": 2831,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2783,
+        "end": 2830,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2783,
+          "end": 2799,
+          "object": {
+            "type": "Identifier",
+            "start": 2783,
+            "end": 2789,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2790,
+            "end": 2799,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2800,
+            "end": 2821,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2800,
+              "end": 2818,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2800,
+                "end": 2804,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2801,
+                  "end": 2803,
+                  "value": 25,
+                  "raw": "25"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2805,
+                "end": 2818,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2819,
+                "end": 2820,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2823,
+            "end": 2829,
+            "value": "3e+1",
+            "raw": "\"3e+1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2832,
+      "end": 2887,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2832,
+        "end": 2886,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2832,
+          "end": 2848,
+          "object": {
+            "type": "Identifier",
+            "start": 2832,
+            "end": 2838,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2839,
+            "end": 2848,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2849,
+            "end": 2873,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2849,
+              "end": 2870,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 2849,
+                "end": 2856,
+                "expression": {
+                  "type": "Literal",
+                  "start": 2850,
+                  "end": 2855,
+                  "value": 12345,
+                  "raw": "12345"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2857,
+                "end": 2870,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2871,
+                "end": 2872,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2875,
+            "end": 2885,
+            "value": "1.235e+4",
+            "raw": "\"1.235e+4\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

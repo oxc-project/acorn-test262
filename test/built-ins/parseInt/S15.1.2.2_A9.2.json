@@ -1,0 +1,263 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 682,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 304,
+      "end": 418,
+      "expression": {
+        "type": "CallExpression",
+        "start": 304,
+        "end": 417,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 304,
+          "end": 320,
+          "object": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 310,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 311,
+            "end": 320,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 321,
+            "end": 354,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 321,
+              "end": 344,
+              "object": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 329,
+                "name": "parseInt"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 330,
+                "end": 344,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 345,
+                "end": 353,
+                "value": "length",
+                "raw": "'length'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 356,
+            "end": 360,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 362,
+            "end": 416,
+            "value": "parseInt.hasOwnProperty('length') must return true",
+            "raw": "'parseInt.hasOwnProperty(\\'length\\') must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 420,
+      "end": 443,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 420,
+        "end": 442,
+        "operator": "delete",
+        "prefix": true,
+        "argument": {
+          "type": "MemberExpression",
+          "start": 427,
+          "end": 442,
+          "object": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 435,
+            "name": "parseInt"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 436,
+            "end": 442,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 445,
+      "end": 561,
+      "expression": {
+        "type": "CallExpression",
+        "start": 445,
+        "end": 560,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 445,
+          "end": 461,
+          "object": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 451,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 461,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 462,
+            "end": 495,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 462,
+              "end": 485,
+              "object": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 470,
+                "name": "parseInt"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 471,
+                "end": 485,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 486,
+                "end": 494,
+                "value": "length",
+                "raw": "'length'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 497,
+            "end": 502,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 504,
+            "end": 559,
+            "value": "parseInt.hasOwnProperty('length') must return false",
+            "raw": "'parseInt.hasOwnProperty(\\'length\\') must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 562,
+      "end": 681,
+      "expression": {
+        "type": "CallExpression",
+        "start": 562,
+        "end": 680,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 562,
+          "end": 581,
+          "object": {
+            "type": "Identifier",
+            "start": 562,
+            "end": 568,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 569,
+            "end": 581,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 582,
+            "end": 597,
+            "object": {
+              "type": "Identifier",
+              "start": 582,
+              "end": 590,
+              "name": "parseInt"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 591,
+              "end": 597,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 599,
+            "end": 608,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 610,
+            "end": 679,
+            "value": "The value of parseInt.length is expected to not equal ``undefined``",
+            "raw": "'The value of parseInt.length is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

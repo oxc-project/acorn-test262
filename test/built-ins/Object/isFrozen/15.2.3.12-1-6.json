@@ -1,0 +1,195 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 388,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 223,
+      "end": 246,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 227,
+          "end": 245,
+          "id": {
+            "type": "Identifier",
+            "start": 227,
+            "end": 236,
+            "name": "sparseArr"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 239,
+            "end": 245,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 240,
+                "end": 241,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 243,
+                "end": 244,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 247,
+      "end": 272,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 247,
+        "end": 271,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 247,
+          "end": 263,
+          "object": {
+            "type": "Identifier",
+            "start": 247,
+            "end": 256,
+            "name": "sparseArr"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 257,
+            "end": 262,
+            "value": 10000,
+            "raw": "10000"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 266,
+          "end": 271,
+          "value": 10000,
+          "raw": "10000"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 274,
+      "end": 311,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 274,
+        "end": 310,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 274,
+          "end": 283,
+          "name": "sparseArr"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 286,
+          "end": 310,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 286,
+            "end": 299,
+            "object": {
+              "type": "Identifier",
+              "start": 286,
+              "end": 292,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 293,
+              "end": 299,
+              "name": "freeze"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 300,
+              "end": 309,
+              "name": "sparseArr"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 313,
+      "end": 387,
+      "expression": {
+        "type": "CallExpression",
+        "start": 313,
+        "end": 386,
+        "callee": {
+          "type": "Identifier",
+          "start": 313,
+          "end": 319,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 320,
+            "end": 346,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 320,
+              "end": 335,
+              "object": {
+                "type": "Identifier",
+                "start": 320,
+                "end": 326,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 327,
+                "end": 335,
+                "name": "isFrozen"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 336,
+                "end": 345,
+                "name": "sparseArr"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 348,
+            "end": 385,
+            "value": "Object.isFrozen(sparseArr) !== true",
+            "raw": "'Object.isFrozen(sparseArr) !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

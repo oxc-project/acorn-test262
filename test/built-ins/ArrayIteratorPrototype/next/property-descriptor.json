@@ -1,0 +1,189 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 606,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 393,
+      "end": 463,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 397,
+          "end": 462,
+          "id": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 415,
+            "name": "ArrayIteratorProto"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 418,
+            "end": 462,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 418,
+              "end": 439,
+              "object": {
+                "type": "Identifier",
+                "start": 418,
+                "end": 424,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 425,
+                "end": 439,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 440,
+                "end": 461,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 440,
+                  "end": 459,
+                  "object": {
+                    "type": "ArrayExpression",
+                    "start": 440,
+                    "end": 442,
+                    "elements": []
+                  },
+                  "property": {
+                    "type": "MemberExpression",
+                    "start": 443,
+                    "end": 458,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 443,
+                      "end": 449,
+                      "name": "Symbol"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 450,
+                      "end": 458,
+                      "name": "iterator"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 465,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 465,
+        "end": 512,
+        "callee": {
+          "type": "Identifier",
+          "start": 465,
+          "end": 484,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 485,
+            "end": 503,
+            "name": "ArrayIteratorProto"
+          },
+          {
+            "type": "Literal",
+            "start": 505,
+            "end": 511,
+            "value": "next",
+            "raw": "'next'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 514,
+      "end": 557,
+      "expression": {
+        "type": "CallExpression",
+        "start": 514,
+        "end": 556,
+        "callee": {
+          "type": "Identifier",
+          "start": 514,
+          "end": 528,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 529,
+            "end": 547,
+            "name": "ArrayIteratorProto"
+          },
+          {
+            "type": "Literal",
+            "start": 549,
+            "end": 555,
+            "value": "next",
+            "raw": "'next'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 558,
+      "end": 605,
+      "expression": {
+        "type": "CallExpression",
+        "start": 558,
+        "end": 604,
+        "callee": {
+          "type": "Identifier",
+          "start": 558,
+          "end": 576,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 577,
+            "end": 595,
+            "name": "ArrayIteratorProto"
+          },
+          {
+            "type": "Literal",
+            "start": 597,
+            "end": 603,
+            "value": "next",
+            "raw": "'next'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

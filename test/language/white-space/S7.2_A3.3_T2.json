@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 420,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 264,
+      "end": 274,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 268,
+          "end": 273,
+          "id": {
+            "type": "Identifier",
+            "start": 268,
+            "end": 269,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 272,
+            "end": 273,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 305,
+      "end": 419,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 309,
+        "end": 316,
+        "left": {
+          "type": "Identifier",
+          "start": 309,
+          "end": 310,
+          "name": "x"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 315,
+          "end": 316,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 318,
+        "end": 419,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 322,
+            "end": 417,
+            "argument": {
+              "type": "NewExpression",
+              "start": 328,
+              "end": 416,
+              "callee": {
+                "type": "Identifier",
+                "start": 332,
+                "end": 344,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 345,
+                  "end": 415,
+                  "left": {
+                    "type": "Literal",
+                    "start": 345,
+                    "end": 409,
+                    "value": "#1: var x = 0; //\u000bsingle\u000bline\u000bcomment\u000bx = 1; x === 0. Actual: ",
+                    "raw": "'#1: var x = 0; //\u000bsingle\u000bline\u000bcomment\u000bx = 1; x === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 412,
+                    "end": 415,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 413,
+                      "end": 414,
+                      "name": "x"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

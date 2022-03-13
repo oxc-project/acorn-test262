@@ -1,0 +1,134 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2116,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 2042,
+      "end": 2083,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2046,
+          "end": 2082,
+          "id": {
+            "type": "Identifier",
+            "start": 2046,
+            "end": 2047,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 2050,
+            "end": 2082,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2056,
+              "end": 2082,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 2058,
+                  "end": 2064,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 2062,
+                      "end": 2063,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 2062,
+                        "end": 2063,
+                        "name": "x"
+                      },
+                      "init": null
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2065,
+                  "end": 2080,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2065,
+                    "end": 2079,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 2065,
+                      "end": 2069,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2070,
+                        "end": 2078,
+                        "value": "var x;",
+                        "raw": "'var x;'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2085,
+      "end": 2115,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2085,
+        "end": 2114,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2085,
+          "end": 2098,
+          "object": {
+            "type": "Identifier",
+            "start": 2085,
+            "end": 2091,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2092,
+            "end": 2098,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2099,
+            "end": 2110,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "Identifier",
+            "start": 2112,
+            "end": 2113,
+            "name": "a"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

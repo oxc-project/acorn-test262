@@ -1,0 +1,128 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 417,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 312,
+      "end": 323,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 316,
+          "end": 322,
+          "id": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 322,
+            "name": "℘"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 324,
+      "end": 335,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 328,
+          "end": 334,
+          "id": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 334,
+            "name": "℮"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 336,
+      "end": 347,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 340,
+          "end": 346,
+          "id": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 346,
+            "name": "゛"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 348,
+      "end": 359,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 352,
+          "end": 358,
+          "id": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 358,
+            "name": "゜"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 393,
+      "end": 404,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 397,
+          "end": 403,
+          "id": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 403,
+            "name": "ᢅ"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 405,
+      "end": 416,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 409,
+          "end": 415,
+          "id": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 415,
+            "name": "ᢆ"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

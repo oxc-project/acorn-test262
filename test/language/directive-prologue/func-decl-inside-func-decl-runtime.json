@@ -1,0 +1,180 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 600,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 380,
+      "end": 587,
+      "id": {
+        "type": "Identifier",
+        "start": 389,
+        "end": 397,
+        "name": "testcase"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 400,
+        "end": 587,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 410,
+            "end": 423,
+            "expression": {
+              "type": "Literal",
+              "start": 410,
+              "end": 422,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          },
+          {
+            "type": "FunctionDeclaration",
+            "start": 432,
+            "end": 498,
+            "id": {
+              "type": "Identifier",
+              "start": 441,
+              "end": 444,
+              "name": "fun"
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 447,
+              "end": 498,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 461,
+                  "end": 488,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 461,
+                    "end": 487,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 461,
+                      "end": 480,
+                      "name": "test262unresolvable"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 483,
+                      "end": 487,
+                      "value": null,
+                      "raw": "null"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 508,
+            "end": 581,
+            "expression": {
+              "type": "CallExpression",
+              "start": 508,
+              "end": 580,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 508,
+                "end": 521,
+                "object": {
+                  "type": "Identifier",
+                  "start": 508,
+                  "end": 514,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 515,
+                  "end": 521,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 522,
+                  "end": 536,
+                  "name": "ReferenceError"
+                },
+                {
+                  "type": "FunctionExpression",
+                  "start": 538,
+                  "end": 579,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 549,
+                    "end": 579,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 563,
+                        "end": 569,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 563,
+                          "end": 568,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 563,
+                            "end": 566,
+                            "name": "fun"
+                          },
+                          "arguments": [],
+                          "optional": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 588,
+      "end": 599,
+      "expression": {
+        "type": "CallExpression",
+        "start": 588,
+        "end": 598,
+        "callee": {
+          "type": "Identifier",
+          "start": 588,
+          "end": 596,
+          "name": "testcase"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,127 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 566,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 451,
+      "end": 510,
+      "expression": {
+        "type": "CallExpression",
+        "start": 451,
+        "end": 509,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 451,
+          "end": 467,
+          "object": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 457,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 467,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 468,
+            "end": 497,
+            "callee": {
+              "type": "Identifier",
+              "start": 468,
+              "end": 472,
+              "name": "eval"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 473,
+                "end": 496,
+                "value": "async function f() {}",
+                "raw": "'async function f() {}'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 499,
+            "end": 508,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 511,
+      "end": 565,
+      "expression": {
+        "type": "CallExpression",
+        "start": 511,
+        "end": 564,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 511,
+          "end": 527,
+          "object": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 517,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 518,
+            "end": 527,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 528,
+            "end": 560,
+            "callee": {
+              "type": "Identifier",
+              "start": 528,
+              "end": 532,
+              "name": "eval"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 533,
+                "end": 559,
+                "value": "1; async function f() {}",
+                "raw": "'1; async function f() {}'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 562,
+            "end": 563,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

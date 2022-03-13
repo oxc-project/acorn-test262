@@ -1,0 +1,109 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 497,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 386,
+      "end": 496,
+      "expression": {
+        "type": "CallExpression",
+        "start": 386,
+        "end": 495,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 386,
+          "end": 399,
+          "object": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 392,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 393,
+            "end": 399,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 400,
+            "end": 409,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 411,
+            "end": 445,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 422,
+              "end": 445,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 426,
+                  "end": 443,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 426,
+                    "end": 442,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 426,
+                      "end": 436,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 426,
+                        "end": 431,
+                        "name": "Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 432,
+                        "end": 436,
+                        "name": "from"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 437,
+                        "end": 441,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 447,
+            "end": 494,
+            "value": "Array.from(null) throws a TypeError exception",
+            "raw": "'Array.from(null) throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

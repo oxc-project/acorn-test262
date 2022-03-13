@@ -1,0 +1,238 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 579,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 263,
+      "end": 288,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 267,
+          "end": 287,
+          "id": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 279,
+            "name": "__10_4_2_1_2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 282,
+            "end": 287,
+            "value": "str",
+            "raw": "\"str\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 289,
+      "end": 566,
+      "id": {
+        "type": "Identifier",
+        "start": 298,
+        "end": 306,
+        "name": "testcase"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 309,
+        "end": 566,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 323,
+            "end": 340,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 327,
+                "end": 339,
+                "id": {
+                  "type": "Identifier",
+                  "start": 327,
+                  "end": 332,
+                  "name": "_eval"
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 335,
+                  "end": 339,
+                  "name": "eval"
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 353,
+            "end": 379,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 357,
+                "end": 378,
+                "id": {
+                  "type": "Identifier",
+                  "start": 357,
+                  "end": 369,
+                  "name": "__10_4_2_1_2"
+                },
+                "init": {
+                  "type": "Literal",
+                  "start": 372,
+                  "end": 378,
+                  "value": "str1",
+                  "raw": "\"str1\""
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "FunctionDeclaration",
+            "start": 392,
+            "end": 541,
+            "id": {
+              "type": "Identifier",
+              "start": 401,
+              "end": 404,
+              "name": "foo"
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 407,
+              "end": 541,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 425,
+                  "end": 451,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 429,
+                      "end": 450,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 429,
+                        "end": 441,
+                        "name": "__10_4_2_1_2"
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "start": 444,
+                        "end": 450,
+                        "value": "str2",
+                        "raw": "\"str2\""
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 468,
+                  "end": 527,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 468,
+                    "end": 526,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 468,
+                      "end": 474,
+                      "name": "assert"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 475,
+                        "end": 508,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 475,
+                          "end": 480,
+                          "name": "_eval"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 481,
+                            "end": 507,
+                            "value": "'str' === __10_4_2_1_2",
+                            "raw": "\"\\'str\\' === __10_4_2_1_2\""
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 510,
+                        "end": 525,
+                        "value": "indirect eval",
+                        "raw": "'indirect eval'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 554,
+            "end": 560,
+            "expression": {
+              "type": "CallExpression",
+              "start": 554,
+              "end": 559,
+              "callee": {
+                "type": "Identifier",
+                "start": 554,
+                "end": 557,
+                "name": "foo"
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 567,
+      "end": 578,
+      "expression": {
+        "type": "CallExpression",
+        "start": 567,
+        "end": 577,
+        "callee": {
+          "type": "Identifier",
+          "start": 567,
+          "end": 575,
+          "name": "testcase"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

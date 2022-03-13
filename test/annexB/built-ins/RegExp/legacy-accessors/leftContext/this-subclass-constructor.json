@@ -1,0 +1,204 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 900,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 606,
+      "end": 638,
+      "id": {
+        "type": "Identifier",
+        "start": 612,
+        "end": 620,
+        "name": "MyRegExp"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 629,
+        "end": 635,
+        "name": "RegExp"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 636,
+        "end": 638,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 640,
+      "end": 776,
+      "expression": {
+        "type": "CallExpression",
+        "start": 640,
+        "end": 775,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 640,
+          "end": 653,
+          "object": {
+            "type": "Identifier",
+            "start": 640,
+            "end": 646,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 647,
+            "end": 653,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 657,
+            "end": 666,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 670,
+            "end": 713,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 682,
+              "end": 713,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 688,
+                  "end": 709,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 688,
+                    "end": 708,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 688,
+                      "end": 696,
+                      "name": "MyRegExp"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 697,
+                      "end": 708,
+                      "name": "leftContext"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 717,
+            "end": 773,
+            "value": "RegExp.leftContext getter throws for subclass receiver",
+            "raw": "\"RegExp.leftContext getter throws for subclass receiver\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 778,
+      "end": 899,
+      "expression": {
+        "type": "CallExpression",
+        "start": 778,
+        "end": 898,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 778,
+          "end": 791,
+          "object": {
+            "type": "Identifier",
+            "start": 778,
+            "end": 784,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 785,
+            "end": 791,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 795,
+            "end": 804,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 808,
+            "end": 845,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 820,
+              "end": 845,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 826,
+                  "end": 841,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 826,
+                    "end": 840,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 826,
+                      "end": 834,
+                      "name": "MyRegExp"
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 835,
+                      "end": 839,
+                      "value": "$`",
+                      "raw": "\"$`\""
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 849,
+            "end": 896,
+            "value": "RegExp.$` getter throws for subclass receiver",
+            "raw": "\"RegExp.$` getter throws for subclass receiver\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

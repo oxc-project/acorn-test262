@@ -1,0 +1,176 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 715,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 285,
+      "end": 698,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 289,
+          "end": 697,
+          "id": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 296,
+            "name": "evalStr"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 299,
+            "end": 697,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 299,
+              "end": 690,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 299,
+                "end": 681,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 299,
+                  "end": 603,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 299,
+                    "end": 560,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 299,
+                      "end": 483,
+                      "left": {
+                        "type": "BinaryExpression",
+                        "start": 299,
+                        "end": 441,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 299,
+                          "end": 369,
+                          "left": {
+                            "type": "BinaryExpression",
+                            "start": 299,
+                            "end": 339,
+                            "left": {
+                              "type": "Literal",
+                              "start": 299,
+                              "end": 312,
+                              "value": "//CHECK#1\n",
+                              "raw": "'//CHECK#1\\n'"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Literal",
+                              "start": 314,
+                              "end": 339,
+                              "value": "for (var x in this) {\n",
+                              "raw": "'for (var x in this) {\\n'"
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 341,
+                            "end": 369,
+                            "value": "  if ( x === 'NaN' ) {\n",
+                            "raw": "'  if ( x === \\'NaN\\' ) {\\n'"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 371,
+                          "end": 441,
+                          "value": "    throw new Test262Error(\"#1: 'NaN' have attribute DontEnum\");\n",
+                          "raw": "'    throw new Test262Error(\"#1: \\'NaN\\' have attribute DontEnum\");\\n'"
+                        }
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 443,
+                        "end": 483,
+                        "value": "  } else if ( x === 'Infinity' ) {\n",
+                        "raw": "'  } else if ( x === \\'Infinity\\' ) {\\n'"
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "start": 485,
+                      "end": 560,
+                      "value": "    throw new Test262Error(\"#1: 'Infinity' have attribute DontEnum\");\n",
+                      "raw": "'    throw new Test262Error(\"#1: \\'Infinity\\' have attribute DontEnum\");\\n'"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 562,
+                    "end": 603,
+                    "value": "  } else if ( x === 'undefined' ) {\n",
+                    "raw": "'  } else if ( x === \\'undefined\\' ) {\\n'"
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 605,
+                  "end": 681,
+                  "value": "    throw new Test262Error(\"#1: 'undefined' have attribute DontEnum\");\n",
+                  "raw": "'    throw new Test262Error(\"#1: \\'undefined\\' have attribute DontEnum\");\\n'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 683,
+                "end": 690,
+                "value": "  }\n",
+                "raw": "'  }\\n'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 692,
+              "end": 697,
+              "value": "}\n",
+              "raw": "'}\\n'"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 700,
+      "end": 714,
+      "expression": {
+        "type": "CallExpression",
+        "start": 700,
+        "end": 713,
+        "callee": {
+          "type": "Identifier",
+          "start": 700,
+          "end": 704,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 705,
+            "end": 712,
+            "name": "evalStr"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

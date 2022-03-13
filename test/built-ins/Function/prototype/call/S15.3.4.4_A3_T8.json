@@ -1,0 +1,202 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 611,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 405,
+      "end": 500,
+      "expression": {
+        "type": "CallExpression",
+        "start": 405,
+        "end": 499,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 405,
+          "end": 497,
+          "expression": {
+            "type": "FunctionExpression",
+            "start": 406,
+            "end": 496,
+            "id": {
+              "type": "Identifier",
+              "start": 415,
+              "end": 422,
+              "name": "FACTORY"
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 425,
+              "end": 496,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 429,
+                  "end": 494,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 429,
+                    "end": 493,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 429,
+                      "end": 482,
+                      "object": {
+                        "type": "ParenthesizedExpression",
+                        "start": 429,
+                        "end": 477,
+                        "expression": {
+                          "type": "FunctionExpression",
+                          "start": 430,
+                          "end": 476,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 441,
+                            "end": 476,
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 447,
+                                "end": 472,
+                                "expression": {
+                                  "type": "AssignmentExpression",
+                                  "start": 447,
+                                  "end": 472,
+                                  "operator": "=",
+                                  "left": {
+                                    "type": "MemberExpression",
+                                    "start": 447,
+                                    "end": 456,
+                                    "object": {
+                                      "type": "ThisExpression",
+                                      "start": 447,
+                                      "end": 451
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 452,
+                                      "end": 456,
+                                      "name": "feat"
+                                    },
+                                    "computed": false,
+                                    "optional": false
+                                  },
+                                  "right": {
+                                    "type": "Literal",
+                                    "start": 459,
+                                    "end": 472,
+                                    "value": "kamon beyba",
+                                    "raw": "\"kamon beyba\""
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 478,
+                        "end": 482,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 483,
+                        "end": 492,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 503,
+      "end": 610,
+      "expression": {
+        "type": "CallExpression",
+        "start": 503,
+        "end": 609,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 503,
+          "end": 519,
+          "object": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 509,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 519,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 520,
+            "end": 532,
+            "object": {
+              "type": "ThisExpression",
+              "start": 520,
+              "end": 524
+            },
+            "property": {
+              "type": "Literal",
+              "start": 525,
+              "end": 531,
+              "value": "feat",
+              "raw": "\"feat\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 534,
+            "end": 547,
+            "value": "kamon beyba",
+            "raw": "\"kamon beyba\""
+          },
+          {
+            "type": "Literal",
+            "start": 549,
+            "end": 608,
+            "value": "The value of this[\"feat\"] is expected to be \"kamon beyba\"",
+            "raw": "'The value of this[\"feat\"] is expected to be \"kamon beyba\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

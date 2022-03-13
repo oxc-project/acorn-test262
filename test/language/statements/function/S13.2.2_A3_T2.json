@@ -1,0 +1,321 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1377,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 620,
+      "end": 649,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 624,
+          "end": 648,
+          "id": {
+            "type": "Identifier",
+            "start": 624,
+            "end": 633,
+            "name": "__FACTORY"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 636,
+            "end": 648,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 646,
+              "end": 648,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 650,
+      "end": 672,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 650,
+        "end": 671,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 650,
+          "end": 669,
+          "object": {
+            "type": "Identifier",
+            "start": 650,
+            "end": 659,
+            "name": "__FACTORY"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 660,
+            "end": 669,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 670,
+          "end": 671,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 763,
+      "end": 954,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 767,
+        "end": 806,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 767,
+          "end": 793,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 774,
+            "end": 793,
+            "object": {
+              "type": "Identifier",
+              "start": 774,
+              "end": 783,
+              "name": "__FACTORY"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 784,
+              "end": 793,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 798,
+          "end": 806,
+          "value": "number",
+          "raw": "'number'"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 808,
+        "end": 954,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 811,
+            "end": 952,
+            "argument": {
+              "type": "NewExpression",
+              "start": 817,
+              "end": 951,
+              "callee": {
+                "type": "Identifier",
+                "start": 821,
+                "end": 833,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 834,
+                  "end": 950,
+                  "left": {
+                    "type": "Literal",
+                    "start": 834,
+                    "end": 921,
+                    "value": "#1: typeof __FACTORY.prototype === 'number'. Actual: typeof __FACTORY.prototype ===",
+                    "raw": "'#1: typeof __FACTORY.prototype === \\'number\\'. Actual: typeof __FACTORY.prototype ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 922,
+                    "end": 950,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 923,
+                      "end": 949,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "MemberExpression",
+                        "start": 930,
+                        "end": 949,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 930,
+                          "end": 939,
+                          "name": "__FACTORY"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 940,
+                          "end": 949,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1038,
+      "end": 1069,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1042,
+          "end": 1068,
+          "id": {
+            "type": "Identifier",
+            "start": 1042,
+            "end": 1050,
+            "name": "__device"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1053,
+            "end": 1068,
+            "callee": {
+              "type": "Identifier",
+              "start": 1057,
+              "end": 1066,
+              "name": "__FACTORY"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 1160,
+      "end": 1294,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 1164,
+        "end": 1207,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 1165,
+          "end": 1207,
+          "expression": {
+            "type": "CallExpression",
+            "start": 1166,
+            "end": 1206,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1166,
+              "end": 1196,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1166,
+                "end": 1182,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1166,
+                  "end": 1172,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1173,
+                  "end": 1182,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1183,
+                "end": 1196,
+                "name": "isPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1197,
+                "end": 1205,
+                "name": "__device"
+              }
+            ],
+            "optional": false
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1209,
+        "end": 1294,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1212,
+            "end": 1292,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1218,
+              "end": 1291,
+              "callee": {
+                "type": "Identifier",
+                "start": 1222,
+                "end": 1234,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1235,
+                  "end": 1290,
+                  "value": "#2: Object.prototype.isPrototypeOf(__device) === true",
+                  "raw": "'#2: Object.prototype.isPrototypeOf(__device) === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

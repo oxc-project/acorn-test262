@@ -1,0 +1,711 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 959,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 333,
+      "end": 389,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 339,
+          "end": 388,
+          "id": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 352,
+            "name": "AsyncFunction"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 355,
+            "end": 388,
+            "object": {
+              "type": "ParenthesizedExpression",
+              "start": 355,
+              "end": 376,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 356,
+                "end": 375,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": true,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 373,
+                  "end": 375,
+                  "body": []
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 377,
+              "end": 388,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 390,
+      "end": 445,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 396,
+          "end": 444,
+          "id": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 413,
+            "name": "GeneratorFunction"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 416,
+            "end": 444,
+            "object": {
+              "type": "ParenthesizedExpression",
+              "start": 416,
+              "end": 432,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 417,
+                "end": 431,
+                "id": null,
+                "expression": false,
+                "generator": true,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 429,
+                  "end": 431,
+                  "body": []
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 433,
+              "end": 444,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 446,
+      "end": 512,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 452,
+          "end": 511,
+          "id": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 474,
+            "name": "AsyncGeneratorFunction"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 477,
+            "end": 511,
+            "object": {
+              "type": "ParenthesizedExpression",
+              "start": 477,
+              "end": 499,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 478,
+                "end": 498,
+                "id": null,
+                "expression": false,
+                "generator": true,
+                "async": true,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 496,
+                  "end": 498,
+                  "body": []
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 500,
+              "end": 511,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 513,
+      "end": 958,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 518,
+        "end": 528,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 524,
+            "end": 528,
+            "id": {
+              "type": "Identifier",
+              "start": 524,
+              "end": 528,
+              "name": "ctor"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 532,
+        "end": 611,
+        "elements": [
+          {
+            "type": "Identifier",
+            "start": 536,
+            "end": 544,
+            "name": "Function"
+          },
+          {
+            "type": "Identifier",
+            "start": 548,
+            "end": 561,
+            "name": "AsyncFunction"
+          },
+          {
+            "type": "Identifier",
+            "start": 565,
+            "end": 582,
+            "name": "GeneratorFunction"
+          },
+          {
+            "type": "Identifier",
+            "start": 586,
+            "end": 608,
+            "name": "AsyncGeneratorFunction"
+          }
+        ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 613,
+        "end": 958,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 617,
+            "end": 699,
+            "expression": {
+              "type": "CallExpression",
+              "start": 617,
+              "end": 698,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 617,
+                "end": 630,
+                "object": {
+                  "type": "Identifier",
+                  "start": 617,
+                  "end": 623,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 624,
+                  "end": 630,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 631,
+                  "end": 642,
+                  "name": "SyntaxError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 644,
+                  "end": 667,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 650,
+                    "end": 667,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 650,
+                      "end": 654,
+                      "name": "ctor"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 655,
+                        "end": 662,
+                        "value": "#!\n_",
+                        "raw": "'#!\\n_'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 664,
+                        "end": 666,
+                        "value": "",
+                        "raw": "''"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 669,
+                  "end": 697,
+                  "expressions": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 672,
+                      "end": 681,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 672,
+                        "end": 676,
+                        "name": "ctor"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 677,
+                        "end": 681,
+                        "name": "name"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 670,
+                      "end": 670,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 682,
+                      "end": 696,
+                      "value": {
+                        "raw": " Call argument",
+                        "cooked": " Call argument"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 702,
+            "end": 776,
+            "expression": {
+              "type": "CallExpression",
+              "start": 702,
+              "end": 775,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 702,
+                "end": 715,
+                "object": {
+                  "type": "Identifier",
+                  "start": 702,
+                  "end": 708,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 709,
+                  "end": 715,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 716,
+                  "end": 727,
+                  "name": "SyntaxError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 729,
+                  "end": 748,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 735,
+                    "end": 748,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 735,
+                      "end": 739,
+                      "name": "ctor"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 740,
+                        "end": 747,
+                        "value": "#!\n_",
+                        "raw": "'#!\\n_'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 750,
+                  "end": 774,
+                  "expressions": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 753,
+                      "end": 762,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 753,
+                        "end": 757,
+                        "name": "ctor"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 758,
+                        "end": 762,
+                        "name": "name"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 751,
+                      "end": 751,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 763,
+                      "end": 773,
+                      "value": {
+                        "raw": " Call body",
+                        "cooked": " Call body"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 779,
+            "end": 870,
+            "expression": {
+              "type": "CallExpression",
+              "start": 779,
+              "end": 869,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 779,
+                "end": 792,
+                "object": {
+                  "type": "Identifier",
+                  "start": 779,
+                  "end": 785,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 786,
+                  "end": 792,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 793,
+                  "end": 804,
+                  "name": "SyntaxError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 806,
+                  "end": 833,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "NewExpression",
+                    "start": 812,
+                    "end": 833,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 816,
+                      "end": 820,
+                      "name": "ctor"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 821,
+                        "end": 828,
+                        "value": "#!\n_",
+                        "raw": "'#!\\n_'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 830,
+                        "end": 832,
+                        "value": "",
+                        "raw": "''"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 835,
+                  "end": 868,
+                  "expressions": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 838,
+                      "end": 847,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 838,
+                        "end": 842,
+                        "name": "ctor"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 843,
+                        "end": 847,
+                        "name": "name"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 836,
+                      "end": 836,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 848,
+                      "end": 867,
+                      "value": {
+                        "raw": " Construct argument",
+                        "cooked": " Construct argument"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 873,
+            "end": 956,
+            "expression": {
+              "type": "CallExpression",
+              "start": 873,
+              "end": 955,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 873,
+                "end": 886,
+                "object": {
+                  "type": "Identifier",
+                  "start": 873,
+                  "end": 879,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 880,
+                  "end": 886,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 887,
+                  "end": 898,
+                  "name": "SyntaxError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 900,
+                  "end": 923,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "NewExpression",
+                    "start": 906,
+                    "end": 923,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 910,
+                      "end": 914,
+                      "name": "ctor"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 915,
+                        "end": 922,
+                        "value": "#!\n_",
+                        "raw": "'#!\\n_'"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 925,
+                  "end": 954,
+                  "expressions": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 928,
+                      "end": 937,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 928,
+                        "end": 932,
+                        "name": "ctor"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 933,
+                        "end": 937,
+                        "name": "name"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 926,
+                      "end": 926,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 938,
+                      "end": 953,
+                      "value": {
+                        "raw": " Construct body",
+                        "cooked": " Construct body"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

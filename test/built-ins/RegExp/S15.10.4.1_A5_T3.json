@@ -1,0 +1,180 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 742,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 394,
+      "end": 696,
+      "block": {
+        "type": "BlockStatement",
+        "start": 398,
+        "end": 536,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 404,
+            "end": 534,
+            "argument": {
+              "type": "NewExpression",
+              "start": 410,
+              "end": 533,
+              "callee": {
+                "type": "Identifier",
+                "start": 414,
+                "end": 426,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 427,
+                  "end": 532,
+                  "left": {
+                    "type": "Literal",
+                    "start": 427,
+                    "end": 496,
+                    "value": "#1.1: new RegExp(\"\",eval(\"\\\"migr\\\"\")) throw SyntaxError. Actual: ",
+                    "raw": "'#1.1: new RegExp(\"\",eval(\"\\\\\"migr\\\\\"\")) throw SyntaxError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 499,
+                    "end": 532,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 500,
+                      "end": 531,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 504,
+                        "end": 510,
+                        "name": "RegExp"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 511,
+                          "end": 513,
+                          "value": "",
+                          "raw": "\"\""
+                        },
+                        {
+                          "type": "CallExpression",
+                          "start": 514,
+                          "end": 530,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 514,
+                            "end": 518,
+                            "name": "eval"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 519,
+                              "end": 529,
+                              "value": "\"migr\"",
+                              "raw": "\"\\\"migr\\\"\""
+                            }
+                          ],
+                          "optional": false
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 537,
+        "end": 696,
+        "param": {
+          "type": "Identifier",
+          "start": 544,
+          "end": 545,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 547,
+          "end": 696,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 551,
+              "end": 694,
+              "expression": {
+                "type": "CallExpression",
+                "start": 551,
+                "end": 693,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 551,
+                  "end": 567,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 551,
+                    "end": 557,
+                    "name": "assert"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 558,
+                    "end": 567,
+                    "name": "sameValue"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 573,
+                    "end": 597,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 573,
+                      "end": 574,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 586,
+                      "end": 597,
+                      "name": "SyntaxError"
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 603,
+                    "end": 607,
+                    "value": true,
+                    "raw": "true"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 613,
+                    "end": 689,
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

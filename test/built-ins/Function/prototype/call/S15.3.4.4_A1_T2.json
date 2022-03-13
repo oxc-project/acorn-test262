@@ -1,0 +1,312 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 958,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 499,
+      "end": 520,
+      "id": {
+        "type": "Identifier",
+        "start": 508,
+        "end": 515,
+        "name": "FACTORY"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 518,
+        "end": 520,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 522,
+      "end": 561,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 522,
+        "end": 560,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 522,
+          "end": 539,
+          "object": {
+            "type": "Identifier",
+            "start": 522,
+            "end": 529,
+            "name": "FACTORY"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 539,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 542,
+          "end": 560,
+          "object": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 550,
+            "name": "Function"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 551,
+            "end": 560,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 563,
+      "end": 585,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 567,
+          "end": 584,
+          "id": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 570,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 573,
+            "end": 584,
+            "callee": {
+              "type": "Identifier",
+              "start": 577,
+              "end": 584,
+              "name": "FACTORY"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 587,
+      "end": 696,
+      "expression": {
+        "type": "CallExpression",
+        "start": 587,
+        "end": 695,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 587,
+          "end": 603,
+          "object": {
+            "type": "Identifier",
+            "start": 587,
+            "end": 593,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 594,
+            "end": 603,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 604,
+            "end": 619,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 611,
+              "end": 619,
+              "object": {
+                "type": "Identifier",
+                "start": 611,
+                "end": 614,
+                "name": "obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 615,
+                "end": 619,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 621,
+            "end": 631,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 633,
+            "end": 694,
+            "value": "The value of `typeof obj.call` is expected to be \"function\"",
+            "raw": "'The value of `typeof obj.call` is expected to be \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "TryStatement",
+      "start": 698,
+      "end": 957,
+      "block": {
+        "type": "BlockStatement",
+        "start": 702,
+        "end": 833,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 706,
+            "end": 717,
+            "expression": {
+              "type": "CallExpression",
+              "start": 706,
+              "end": 716,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 706,
+                "end": 714,
+                "object": {
+                  "type": "Identifier",
+                  "start": 706,
+                  "end": 709,
+                  "name": "obj"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 710,
+                  "end": 714,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 720,
+            "end": 831,
+            "argument": {
+              "type": "NewExpression",
+              "start": 726,
+              "end": 830,
+              "callee": {
+                "type": "Identifier",
+                "start": 730,
+                "end": 742,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 743,
+                  "end": 829,
+                  "value": "#2: If the object does not have a [[Call]] property, a TypeError exception is thrown",
+                  "raw": "'#2: If the object does not have a [[Call]] property, a TypeError exception is thrown'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 834,
+        "end": 957,
+        "param": {
+          "type": "Identifier",
+          "start": 841,
+          "end": 842,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 844,
+          "end": 957,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 848,
+              "end": 955,
+              "expression": {
+                "type": "CallExpression",
+                "start": 848,
+                "end": 954,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 848,
+                  "end": 854,
+                  "name": "assert"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 855,
+                    "end": 877,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 855,
+                      "end": 856,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 868,
+                      "end": 877,
+                      "name": "TypeError"
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 879,
+                    "end": 953,
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

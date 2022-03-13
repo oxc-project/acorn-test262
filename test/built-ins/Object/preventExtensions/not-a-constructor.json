@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 961,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 696,
+      "end": 830,
+      "expression": {
+        "type": "CallExpression",
+        "start": 696,
+        "end": 829,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 696,
+          "end": 712,
+          "object": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 702,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 712,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 716,
+            "end": 755,
+            "callee": {
+              "type": "Identifier",
+              "start": 716,
+              "end": 729,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 730,
+                "end": 754,
+                "object": {
+                  "type": "Identifier",
+                  "start": 730,
+                  "end": 736,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 737,
+                  "end": 754,
+                  "name": "preventExtensions"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 759,
+            "end": 764,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 768,
+            "end": 827,
+            "value": "isConstructor(Object.preventExtensions) must return false",
+            "raw": "'isConstructor(Object.preventExtensions) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 832,
+      "end": 959,
+      "expression": {
+        "type": "CallExpression",
+        "start": 832,
+        "end": 958,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 832,
+          "end": 845,
+          "object": {
+            "type": "Identifier",
+            "start": 832,
+            "end": 838,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 839,
+            "end": 845,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 846,
+            "end": 855,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 857,
+            "end": 902,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 863,
+              "end": 902,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 867,
+                  "end": 900,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 867,
+                    "end": 899,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 871,
+                      "end": 895,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 871,
+                        "end": 877,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 878,
+                        "end": 895,
+                        "name": "preventExtensions"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 896,
+                        "end": 898,
+                        "properties": []
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 904,
+            "end": 957,
+            "value": "`new Object.preventExtensions({})` throws TypeError",
+            "raw": "'`new Object.preventExtensions({})` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

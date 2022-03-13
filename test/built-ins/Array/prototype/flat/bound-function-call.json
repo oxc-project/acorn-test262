@@ -1,0 +1,200 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 437,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 293,
+      "end": 318,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 297,
+          "end": 317,
+          "id": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 298,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 301,
+            "end": 317,
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "start": 305,
+                "end": 308,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 306,
+                    "end": 307,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 312,
+                "end": 315,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 313,
+                    "end": 314,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 319,
+      "end": 350,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 323,
+          "end": 349,
+          "id": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "actual"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 332,
+            "end": 349,
+            "callee": {
+              "type": "CallExpression",
+              "start": 332,
+              "end": 347,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 332,
+                "end": 344,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 332,
+                  "end": 339,
+                  "object": {
+                    "type": "ArrayExpression",
+                    "start": 332,
+                    "end": 334,
+                    "elements": []
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 335,
+                    "end": 339,
+                    "name": "flat"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 340,
+                  "end": 344,
+                  "name": "bind"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 345,
+                  "end": 346,
+                  "name": "a"
+                }
+              ],
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 352,
+      "end": 436,
+      "expression": {
+        "type": "CallExpression",
+        "start": 352,
+        "end": 435,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 352,
+          "end": 371,
+          "object": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 358,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 371,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 372,
+            "end": 378,
+            "name": "actual"
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 380,
+            "end": 386,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 381,
+                "end": 382,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 384,
+                "end": 385,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 388,
+            "end": 434,
+            "value": "The value of actual is expected to be [0, 1]",
+            "raw": "'The value of actual is expected to be [0, 1]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

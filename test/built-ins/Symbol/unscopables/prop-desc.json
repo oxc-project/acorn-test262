@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 588,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 401,
+      "end": 455,
+      "expression": {
+        "type": "CallExpression",
+        "start": 401,
+        "end": 454,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 401,
+          "end": 417,
+          "object": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 407,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 417,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 418,
+            "end": 443,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 425,
+              "end": 443,
+              "object": {
+                "type": "Identifier",
+                "start": 425,
+                "end": 431,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 432,
+                "end": 443,
+                "name": "unscopables"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 445,
+            "end": 453,
+            "value": "symbol",
+            "raw": "'symbol'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 456,
+      "end": 499,
+      "expression": {
+        "type": "CallExpression",
+        "start": 456,
+        "end": 498,
+        "callee": {
+          "type": "Identifier",
+          "start": 456,
+          "end": 475,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 476,
+            "end": 482,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 484,
+            "end": 497,
+            "value": "unscopables",
+            "raw": "'unscopables'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 500,
+      "end": 541,
+      "expression": {
+        "type": "CallExpression",
+        "start": 500,
+        "end": 540,
+        "callee": {
+          "type": "Identifier",
+          "start": 500,
+          "end": 517,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 518,
+            "end": 524,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 526,
+            "end": 539,
+            "value": "unscopables",
+            "raw": "'unscopables'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 542,
+      "end": 587,
+      "expression": {
+        "type": "CallExpression",
+        "start": 542,
+        "end": 586,
+        "callee": {
+          "type": "Identifier",
+          "start": 542,
+          "end": 563,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 564,
+            "end": 570,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 572,
+            "end": 585,
+            "value": "unscopables",
+            "raw": "'unscopables'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,800 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2108,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 427,
+      "end": 1151,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 431,
+          "end": 1150,
+          "id": {
+            "type": "Identifier",
+            "start": 431,
+            "end": 447,
+            "name": "hasUnicodeDigits"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 450,
+            "end": 1150,
+            "callee": {
+              "type": "Identifier",
+              "start": 454,
+              "end": 460,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 461,
+                "end": 1149,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 461,
+                  "end": 1118,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 461,
+                    "end": 1087,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 461,
+                      "end": 1017,
+                      "left": {
+                        "type": "BinaryExpression",
+                        "start": 461,
+                        "end": 986,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 461,
+                          "end": 975,
+                          "left": {
+                            "type": "BinaryExpression",
+                            "start": 461,
+                            "end": 901,
+                            "left": {
+                              "type": "BinaryExpression",
+                              "start": 461,
+                              "end": 827,
+                              "left": {
+                                "type": "BinaryExpression",
+                                "start": 461,
+                                "end": 753,
+                                "left": {
+                                  "type": "BinaryExpression",
+                                  "start": 461,
+                                  "end": 679,
+                                  "left": {
+                                    "type": "BinaryExpression",
+                                    "start": 461,
+                                    "end": 605,
+                                    "left": {
+                                      "type": "BinaryExpression",
+                                      "start": 461,
+                                      "end": 531,
+                                      "left": {
+                                        "type": "Literal",
+                                        "start": 461,
+                                        "end": 467,
+                                        "value": ".*([",
+                                        "raw": "'.*(['"
+                                      },
+                                      "operator": "+",
+                                      "right": {
+                                        "type": "Literal",
+                                        "start": 474,
+                                        "end": 531,
+                                        "value": "0-9٠-٩۰-۹߀-߉०-९",
+                                        "raw": "'0-9\\u0660-\\u0669\\u06F0-\\u06F9\\u07C0-\\u07C9\\u0966-\\u096F'"
+                                      }
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "type": "Literal",
+                                      "start": 538,
+                                      "end": 605,
+                                      "value": "০-৯੦-੯૦-૯୦-୯௦-௯",
+                                      "raw": "'\\u09E6-\\u09EF\\u0A66-\\u0A6F\\u0AE6-\\u0AEF\\u0B66-\\u0B6F\\u0BE6-\\u0BEF'"
+                                    }
+                                  },
+                                  "operator": "+",
+                                  "right": {
+                                    "type": "Literal",
+                                    "start": 612,
+                                    "end": 679,
+                                    "value": "౦-౯೦-೯൦-൯๐-๙໐-໙",
+                                    "raw": "'\\u0C66-\\u0C6F\\u0CE6-\\u0CEF\\u0D66-\\u0D6F\\u0E50-\\u0E59\\u0ED0-\\u0ED9'"
+                                  }
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 686,
+                                  "end": 753,
+                                  "value": "༠-༩၀-၉႐-႙០-៩᠐-᠙",
+                                  "raw": "'\\u0F20-\\u0F29\\u1040-\\u1049\\u1090-\\u1099\\u17E0-\\u17E9\\u1810-\\u1819'"
+                                }
+                              },
+                              "operator": "+",
+                              "right": {
+                                "type": "Literal",
+                                "start": 760,
+                                "end": 827,
+                                "value": "᥆-᥏᧐-᧙᪀-᪉᪐-᪙᭐-᭙",
+                                "raw": "'\\u1946-\\u194F\\u19D0-\\u19D9\\u1A80-\\u1A89\\u1A90-\\u1A99\\u1B50-\\u1B59'"
+                              }
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Literal",
+                              "start": 834,
+                              "end": 901,
+                              "value": "᮰-᮹᱀-᱉᱐-᱙꘠-꘩꣐-꣙",
+                              "raw": "'\\u1BB0-\\u1BB9\\u1C40-\\u1C49\\u1C50-\\u1C59\\uA620-\\uA629\\uA8D0-\\uA8D9'"
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 908,
+                            "end": 975,
+                            "value": "꤀-꤉꧐-꧙꩐-꩙꯰-꯹０-９",
+                            "raw": "'\\uA900-\\uA909\\uA9D0-\\uA9D9\\uAA50-\\uAA59\\uABF0-\\uABF9\\uFF10-\\uFF19'"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 982,
+                          "end": 986,
+                          "value": "]|",
+                          "raw": "']|'"
+                        }
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 993,
+                        "end": 1017,
+                        "value": "\ud801[\udca0-\udca9]|",
+                        "raw": "'\\uD801[\\uDCA0-\\uDCA9]|'"
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "start": 1024,
+                      "end": 1087,
+                      "value": "\ud804[\udc66-\udc6f\udcf0-\udcf9\udd36-\udd3f\uddd0-\uddd9]|",
+                      "raw": "'\\uD804[\\uDC66-\\uDC6F\\uDCF0-\\uDCF9\\uDD36-\\uDD3F\\uDDD0-\\uDDD9]|'"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 1094,
+                    "end": 1118,
+                    "value": "\ud805[\udec0-\udec9]|",
+                    "raw": "'\\uD805[\\uDEC0-\\uDEC9]|'"
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 1125,
+                  "end": 1149,
+                  "value": "\ud835[\udfce-\udfff])",
+                  "raw": "'\\uD835[\\uDFCE-\\uDFFF])'"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1153,
+      "end": 1193,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1157,
+          "end": 1192,
+          "id": {
+            "type": "Identifier",
+            "start": 1157,
+            "end": 1166,
+            "name": "formatter"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1169,
+            "end": 1192,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1173,
+              "end": 1190,
+              "object": {
+                "type": "Identifier",
+                "start": 1173,
+                "end": 1177,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1178,
+                "end": 1190,
+                "name": "NumberFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1194,
+      "end": 1235,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1198,
+          "end": 1234,
+          "id": {
+            "type": "Identifier",
+            "start": 1198,
+            "end": 1210,
+            "name": "formattedNaN"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1213,
+            "end": 1234,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1213,
+              "end": 1229,
+              "object": {
+                "type": "Identifier",
+                "start": 1213,
+                "end": 1222,
+                "name": "formatter"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1223,
+                "end": 1229,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1230,
+                "end": 1233,
+                "name": "NaN"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1236,
+      "end": 1287,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1240,
+          "end": 1286,
+          "id": {
+            "type": "Identifier",
+            "start": 1240,
+            "end": 1257,
+            "name": "formattedInfinity"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1260,
+            "end": 1286,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1260,
+              "end": 1276,
+              "object": {
+                "type": "Identifier",
+                "start": 1260,
+                "end": 1269,
+                "name": "formatter"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1270,
+                "end": 1276,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1277,
+                "end": 1285,
+                "name": "Infinity"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1288,
+      "end": 1348,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1292,
+          "end": 1347,
+          "id": {
+            "type": "Identifier",
+            "start": 1292,
+            "end": 1317,
+            "name": "formattedNegativeInfinity"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1320,
+            "end": 1347,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1320,
+              "end": 1336,
+              "object": {
+                "type": "Identifier",
+                "start": 1320,
+                "end": 1329,
+                "name": "formatter"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1330,
+                "end": 1336,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 1337,
+                "end": 1346,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1338,
+                  "end": 1346,
+                  "name": "Infinity"
+                }
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1350,
+      "end": 1463,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1350,
+        "end": 1462,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1350,
+          "end": 1369,
+          "object": {
+            "type": "Identifier",
+            "start": 1350,
+            "end": 1356,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1357,
+            "end": 1369,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1370,
+            "end": 1382,
+            "name": "formattedNaN"
+          },
+          {
+            "type": "Identifier",
+            "start": 1384,
+            "end": 1401,
+            "name": "formattedInfinity"
+          },
+          {
+            "type": "Literal",
+            "start": 1403,
+            "end": 1461,
+            "value": "Intl.NumberFormat formats NaN and Infinity the same way.",
+            "raw": "'Intl.NumberFormat formats NaN and Infinity the same way.'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1465,
+      "end": 1595,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1465,
+        "end": 1594,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1465,
+          "end": 1484,
+          "object": {
+            "type": "Identifier",
+            "start": 1465,
+            "end": 1471,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1472,
+            "end": 1484,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1485,
+            "end": 1497,
+            "name": "formattedNaN"
+          },
+          {
+            "type": "Identifier",
+            "start": 1499,
+            "end": 1524,
+            "name": "formattedNegativeInfinity"
+          },
+          {
+            "type": "Literal",
+            "start": 1526,
+            "end": 1593,
+            "value": "Intl.NumberFormat formats NaN and negative Infinity the same way.",
+            "raw": "'Intl.NumberFormat formats NaN and negative Infinity the same way.'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1597,
+      "end": 1737,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1597,
+        "end": 1736,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1597,
+          "end": 1616,
+          "object": {
+            "type": "Identifier",
+            "start": 1597,
+            "end": 1603,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1604,
+            "end": 1616,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1617,
+            "end": 1634,
+            "name": "formattedInfinity"
+          },
+          {
+            "type": "Identifier",
+            "start": 1636,
+            "end": 1661,
+            "name": "formattedNegativeInfinity"
+          },
+          {
+            "type": "Literal",
+            "start": 1663,
+            "end": 1735,
+            "value": "Intl.NumberFormat formats Infinity and negative Infinity the same way.",
+            "raw": "'Intl.NumberFormat formats Infinity and negative Infinity the same way.'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1739,
+      "end": 1848,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1739,
+        "end": 1847,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1739,
+          "end": 1755,
+          "object": {
+            "type": "Identifier",
+            "start": 1739,
+            "end": 1745,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1746,
+            "end": 1755,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1756,
+            "end": 1791,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1756,
+              "end": 1777,
+              "object": {
+                "type": "Identifier",
+                "start": 1756,
+                "end": 1772,
+                "name": "hasUnicodeDigits"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1773,
+                "end": 1777,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1778,
+                "end": 1790,
+                "name": "formattedNaN"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1793,
+            "end": 1798,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1800,
+            "end": 1846,
+            "value": "Intl.NumberFormat formats NaN using a digit.",
+            "raw": "'Intl.NumberFormat formats NaN using a digit.'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1850,
+      "end": 1969,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1850,
+        "end": 1968,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1850,
+          "end": 1866,
+          "object": {
+            "type": "Identifier",
+            "start": 1850,
+            "end": 1856,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1857,
+            "end": 1866,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1867,
+            "end": 1907,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1867,
+              "end": 1888,
+              "object": {
+                "type": "Identifier",
+                "start": 1867,
+                "end": 1883,
+                "name": "hasUnicodeDigits"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1884,
+                "end": 1888,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1889,
+                "end": 1906,
+                "name": "formattedInfinity"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1909,
+            "end": 1914,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1916,
+            "end": 1967,
+            "value": "Intl.NumberFormat formats Infinity using a digit.",
+            "raw": "'Intl.NumberFormat formats Infinity using a digit.'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1971,
+      "end": 2107,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1971,
+        "end": 2106,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1971,
+          "end": 1987,
+          "object": {
+            "type": "Identifier",
+            "start": 1971,
+            "end": 1977,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1978,
+            "end": 1987,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1988,
+            "end": 2036,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1988,
+              "end": 2009,
+              "object": {
+                "type": "Identifier",
+                "start": 1988,
+                "end": 2004,
+                "name": "hasUnicodeDigits"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2005,
+                "end": 2009,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2010,
+                "end": 2035,
+                "name": "formattedNegativeInfinity"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2038,
+            "end": 2043,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 2045,
+            "end": 2105,
+            "value": "Intl.NumberFormat formats negative Infinity using a digit.",
+            "raw": "'Intl.NumberFormat formats negative Infinity using a digit.'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

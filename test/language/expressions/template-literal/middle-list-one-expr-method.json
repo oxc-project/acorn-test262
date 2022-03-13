@@ -1,0 +1,189 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 608,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 490,
+      "end": 545,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 494,
+          "end": 544,
+          "id": {
+            "type": "Identifier",
+            "start": 494,
+            "end": 500,
+            "name": "object"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 503,
+            "end": 544,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 507,
+                "end": 542,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 507,
+                  "end": 509,
+                  "name": "fn"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 511,
+                  "end": 542,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 522,
+                    "end": 542,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 524,
+                        "end": 540,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 531,
+                          "end": 539,
+                          "value": "result",
+                          "raw": "'result'"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 547,
+      "end": 607,
+      "expression": {
+        "type": "CallExpression",
+        "start": 547,
+        "end": 606,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 547,
+          "end": 563,
+          "object": {
+            "type": "Identifier",
+            "start": 547,
+            "end": 553,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 563,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 564,
+            "end": 589,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 567,
+                "end": 568,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "CallExpression",
+                "start": 572,
+                "end": 583,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 572,
+                  "end": 581,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 572,
+                    "end": 578,
+                    "name": "object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 579,
+                    "end": 581,
+                    "name": "fn"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 565,
+                "end": 565,
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 569,
+                "end": 570,
+                "value": {
+                  "raw": " ",
+                  "cooked": " "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 584,
+                "end": 588,
+                "value": {
+                  "raw": " bar",
+                  "cooked": " bar"
+                },
+                "tail": true
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 591,
+            "end": 605,
+            "value": "0 result bar",
+            "raw": "'0 result bar'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,346 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 747,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 333,
+      "end": 470,
+      "expression": {
+        "type": "CallExpression",
+        "start": 333,
+        "end": 469,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 333,
+          "end": 349,
+          "object": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 339,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 349,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 353,
+            "end": 378,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 360,
+              "end": 378,
+              "object": {
+                "type": "MemberExpression",
+                "start": 360,
+                "end": 375,
+                "object": {
+                  "type": "Identifier",
+                  "start": 360,
+                  "end": 365,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 366,
+                  "end": 375,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 376,
+                "end": 378,
+                "name": "at"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 382,
+            "end": 392,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 396,
+            "end": 467,
+            "value": "The value of `typeof Array.prototype.at` is expected to be \"function\"",
+            "raw": "'The value of `typeof Array.prototype.at` is expected to be \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 472,
+      "end": 613,
+      "expression": {
+        "type": "CallExpression",
+        "start": 472,
+        "end": 612,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 472,
+          "end": 485,
+          "object": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 478,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 485,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 486,
+            "end": 495,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 497,
+            "end": 544,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 503,
+              "end": 544,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 507,
+                  "end": 542,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 507,
+                    "end": 541,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 507,
+                      "end": 530,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 507,
+                        "end": 525,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 507,
+                          "end": 522,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 507,
+                            "end": 512,
+                            "name": "Array"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 513,
+                            "end": 522,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 523,
+                          "end": 525,
+                          "name": "at"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 526,
+                        "end": 530,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 531,
+                        "end": 540,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 546,
+            "end": 611,
+            "value": "Array.prototype.at.call(undefined) throws a TypeError exception",
+            "raw": "'Array.prototype.at.call(undefined) throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 615,
+      "end": 746,
+      "expression": {
+        "type": "CallExpression",
+        "start": 615,
+        "end": 745,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 615,
+          "end": 628,
+          "object": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 621,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 622,
+            "end": 628,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 629,
+            "end": 638,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 640,
+            "end": 682,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 646,
+              "end": 682,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 650,
+                  "end": 680,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 650,
+                    "end": 679,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 650,
+                      "end": 673,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 650,
+                        "end": 668,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 650,
+                          "end": 665,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 650,
+                            "end": 655,
+                            "name": "Array"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 656,
+                            "end": 665,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 666,
+                          "end": 668,
+                          "name": "at"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 669,
+                        "end": 673,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 674,
+                        "end": 678,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 684,
+            "end": 744,
+            "value": "Array.prototype.at.call(null) throws a TypeError exception",
+            "raw": "'Array.prototype.at.call(null) throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

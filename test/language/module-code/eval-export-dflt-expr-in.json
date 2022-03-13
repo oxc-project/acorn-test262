@@ -1,0 +1,150 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 642,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 520,
+      "end": 540,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 524,
+          "end": 539,
+          "id": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 525,
+            "name": "x"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 528,
+            "end": 539,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 530,
+                "end": 537,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 530,
+                  "end": 531,
+                  "name": "x"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 533,
+                  "end": 537,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 542,
+      "end": 566,
+      "declaration": {
+        "type": "BinaryExpression",
+        "start": 557,
+        "end": 565,
+        "left": {
+          "type": "Literal",
+          "start": 557,
+          "end": 560,
+          "value": "x",
+          "raw": "'x'"
+        },
+        "operator": "in",
+        "right": {
+          "type": "Identifier",
+          "start": 564,
+          "end": 565,
+          "name": "x"
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 567,
+      "end": 613,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 574,
+          "end": 575,
+          "local": {
+            "type": "Identifier",
+            "start": 574,
+            "end": 575,
+            "name": "f"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 581,
+        "end": 612,
+        "value": "./eval-export-dflt-expr-in.js",
+        "raw": "'./eval-export-dflt-expr-in.js'"
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 615,
+      "end": 641,
+      "expression": {
+        "type": "CallExpression",
+        "start": 615,
+        "end": 640,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 615,
+          "end": 631,
+          "object": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 621,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 622,
+            "end": 631,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 632,
+            "end": 633,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 635,
+            "end": 639,
+            "value": true,
+            "raw": "true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

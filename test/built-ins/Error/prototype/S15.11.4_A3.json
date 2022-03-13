@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 396,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 310,
+      "end": 395,
+      "expression": {
+        "type": "CallExpression",
+        "start": 310,
+        "end": 394,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 310,
+          "end": 323,
+          "object": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 316,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 323,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 324,
+            "end": 333,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 335,
+            "end": 393,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 341,
+              "end": 393,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 345,
+                  "end": 363,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 345,
+                    "end": 362,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 345,
+                      "end": 360,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 345,
+                        "end": 350,
+                        "name": "Error"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 351,
+                        "end": 360,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ThrowStatement",
+                  "start": 366,
+                  "end": 391,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 372,
+                    "end": 390,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 376,
+                      "end": 388,
+                      "name": "Test262Error"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

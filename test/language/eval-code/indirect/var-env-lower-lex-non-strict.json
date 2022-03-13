@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 456,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 411,
+      "end": 455,
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "start": 415,
+          "end": 421,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 419,
+              "end": 420,
+              "id": {
+                "type": "Identifier",
+                "start": 419,
+                "end": 420,
+                "name": "x"
+              },
+              "init": null
+            }
+          ],
+          "kind": "let"
+        },
+        {
+          "type": "BlockStatement",
+          "start": 424,
+          "end": 453,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 430,
+              "end": 449,
+              "expression": {
+                "type": "CallExpression",
+                "start": 430,
+                "end": 448,
+                "callee": {
+                  "type": "ParenthesizedExpression",
+                  "start": 430,
+                  "end": 438,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 431,
+                    "end": 437,
+                    "expressions": [
+                      {
+                        "type": "Literal",
+                        "start": 431,
+                        "end": 432,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 433,
+                        "end": 437,
+                        "name": "eval"
+                      }
+                    ]
+                  }
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 439,
+                    "end": 447,
+                    "value": "var x;",
+                    "raw": "'var x;'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceType": "script"
+}

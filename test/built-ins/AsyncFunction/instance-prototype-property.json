@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 484,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 302,
+      "end": 325,
+      "id": {
+        "type": "Identifier",
+        "start": 317,
+        "end": 320,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 323,
+        "end": 325,
+        "body": []
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 325,
+      "end": 326
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 327,
+      "end": 407,
+      "expression": {
+        "type": "CallExpression",
+        "start": 327,
+        "end": 406,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 327,
+          "end": 343,
+          "object": {
+            "type": "Identifier",
+            "start": 327,
+            "end": 333,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 343,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 344,
+            "end": 357,
+            "object": {
+              "type": "Identifier",
+              "start": 344,
+              "end": 347,
+              "name": "foo"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 348,
+              "end": 357,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 359,
+            "end": 368,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 370,
+            "end": 405,
+            "value": "foo.prototype should be undefined",
+            "raw": "'foo.prototype should be undefined'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 408,
+      "end": 483,
+      "expression": {
+        "type": "CallExpression",
+        "start": 408,
+        "end": 482,
+        "callee": {
+          "type": "Identifier",
+          "start": 408,
+          "end": 414,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 415,
+            "end": 447,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 416,
+              "end": 447,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 416,
+                "end": 434,
+                "object": {
+                  "type": "Identifier",
+                  "start": 416,
+                  "end": 419,
+                  "name": "foo"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 420,
+                  "end": 434,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 435,
+                  "end": 446,
+                  "value": "prototype",
+                  "raw": "'prototype'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 449,
+            "end": 481,
+            "value": "foo.prototype should not exist",
+            "raw": "'foo.prototype should not exist'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

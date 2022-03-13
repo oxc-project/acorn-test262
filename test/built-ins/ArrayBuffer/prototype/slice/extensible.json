@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 516,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 515,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 514,
+        "callee": {
+          "type": "Identifier",
+          "start": 458,
+          "end": 464,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 465,
+            "end": 513,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 465,
+              "end": 484,
+              "object": {
+                "type": "Identifier",
+                "start": 465,
+                "end": 471,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 472,
+                "end": 484,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 485,
+                "end": 512,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 485,
+                  "end": 506,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 485,
+                    "end": 496,
+                    "name": "ArrayBuffer"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 497,
+                    "end": 506,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 507,
+                  "end": 512,
+                  "name": "slice"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,219 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 495,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 323,
+      "end": 346,
+      "id": {
+        "type": "Identifier",
+        "start": 332,
+        "end": 341,
+        "name": "__FACTORY"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 344,
+        "end": 346,
+        "body": []
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 346,
+      "end": 347
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 349,
+      "end": 410,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 349,
+        "end": 409,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 349,
+          "end": 379,
+          "object": {
+            "type": "MemberExpression",
+            "start": 349,
+            "end": 368,
+            "object": {
+              "type": "Identifier",
+              "start": 349,
+              "end": 358,
+              "name": "__FACTORY"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 359,
+              "end": 368,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 369,
+            "end": 379,
+            "name": "charCodeAt"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 382,
+          "end": 409,
+          "object": {
+            "type": "MemberExpression",
+            "start": 382,
+            "end": 398,
+            "object": {
+              "type": "Identifier",
+              "start": 382,
+              "end": 388,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 389,
+              "end": 398,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 409,
+            "name": "charCodeAt"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 412,
+      "end": 443,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 416,
+          "end": 442,
+          "id": {
+            "type": "Identifier",
+            "start": 416,
+            "end": 426,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 429,
+            "end": 442,
+            "callee": {
+              "type": "Identifier",
+              "start": 433,
+              "end": 442,
+              "name": "__FACTORY"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 445,
+      "end": 494,
+      "expression": {
+        "type": "CallExpression",
+        "start": 445,
+        "end": 493,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 445,
+          "end": 461,
+          "object": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 451,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 461,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 462,
+            "end": 487,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 462,
+              "end": 483,
+              "object": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 472,
+                "name": "__instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 473,
+                "end": 483,
+                "name": "charCodeAt"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 484,
+                "end": 486,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 485,
+                  "end": 486,
+                  "value": 1,
+                  "raw": "1"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 489,
+            "end": 492,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

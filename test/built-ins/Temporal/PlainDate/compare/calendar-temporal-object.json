@@ -1,0 +1,297 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1429,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1192,
+      "end": 1428,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1192,
+        "end": 1427,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1192,
+          "end": 1239,
+          "object": {
+            "type": "Identifier",
+            "start": 1192,
+            "end": 1207,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1208,
+            "end": 1239,
+            "name": "checkToTemporalCalendarFastPath"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 1240,
+            "end": 1426,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 1241,
+                "end": 1255,
+                "name": "temporalObject"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1260,
+              "end": 1426,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1264,
+                  "end": 1424,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1264,
+                    "end": 1423,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1264,
+                      "end": 1290,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 1264,
+                        "end": 1282,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1264,
+                          "end": 1272,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1273,
+                          "end": 1282,
+                          "name": "PlainDate"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1283,
+                        "end": 1290,
+                        "name": "compare"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 1296,
+                        "end": 1354,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 1298,
+                            "end": 1308,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1298,
+                              "end": 1302,
+                              "name": "year"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 1304,
+                              "end": 1308,
+                              "value": 2000,
+                              "raw": "2000"
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 1310,
+                            "end": 1318,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1310,
+                              "end": 1315,
+                              "name": "month"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 1317,
+                              "end": 1318,
+                              "value": 5,
+                              "raw": "5"
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 1320,
+                            "end": 1326,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1320,
+                              "end": 1323,
+                              "name": "day"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 1325,
+                              "end": 1326,
+                              "value": 2,
+                              "raw": "2"
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 1328,
+                            "end": 1352,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1328,
+                              "end": 1336,
+                              "name": "calendar"
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "start": 1338,
+                              "end": 1352,
+                              "name": "temporalObject"
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 1360,
+                        "end": 1418,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 1362,
+                            "end": 1372,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1362,
+                              "end": 1366,
+                              "name": "year"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 1368,
+                              "end": 1372,
+                              "value": 2001,
+                              "raw": "2001"
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 1374,
+                            "end": 1382,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1374,
+                              "end": 1379,
+                              "name": "month"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 1381,
+                              "end": 1382,
+                              "value": 6,
+                              "raw": "6"
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 1384,
+                            "end": 1390,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1384,
+                              "end": 1387,
+                              "name": "day"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 1389,
+                              "end": 1390,
+                              "value": 3,
+                              "raw": "3"
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 1392,
+                            "end": 1416,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1392,
+                              "end": 1400,
+                              "name": "calendar"
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "start": 1402,
+                              "end": 1416,
+                              "name": "temporalObject"
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,34 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 720,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 719,
+      "expression": {
+        "type": "CallExpression",
+        "start": 701,
+        "end": 718,
+        "callee": {
+          "type": "Identifier",
+          "start": 701,
+          "end": 709,
+          "name": "Function"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 710,
+            "end": 717,
+            "value": "\n-->",
+            "raw": "\"\\n-->\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

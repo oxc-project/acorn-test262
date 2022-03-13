@@ -1,0 +1,181 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 839,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 679,
+      "end": 695,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 683,
+          "end": 694,
+          "id": {
+            "type": "Identifier",
+            "start": 683,
+            "end": 684,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 687,
+            "end": 694,
+            "value": "outer",
+            "raw": "\"outer\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 697,
+      "end": 807,
+      "id": {
+        "type": "Identifier",
+        "start": 706,
+        "end": 731,
+        "name": "evalInPropertyInitializer"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ObjectPattern",
+          "start": 732,
+          "end": 770,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 733,
+              "end": 769,
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 733,
+                "end": 734,
+                "name": "a"
+              },
+              "value": {
+                "type": "AssignmentPattern",
+                "start": 736,
+                "end": 769,
+                "left": {
+                  "type": "Identifier",
+                  "start": 736,
+                  "end": 743,
+                  "name": "ignored"
+                },
+                "right": {
+                  "type": "CallExpression",
+                  "start": 746,
+                  "end": 769,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 746,
+                    "end": 750,
+                    "name": "eval"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 751,
+                      "end": 768,
+                      "value": "var x = 'inner'",
+                      "raw": "\"var x = 'inner'\""
+                    }
+                  ],
+                  "optional": false
+                }
+              },
+              "kind": "init"
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 772,
+        "end": 807,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 776,
+            "end": 805,
+            "expression": {
+              "type": "CallExpression",
+              "start": 776,
+              "end": 804,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 776,
+                "end": 792,
+                "object": {
+                  "type": "Identifier",
+                  "start": 776,
+                  "end": 782,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 783,
+                  "end": 792,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 793,
+                  "end": 794,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 796,
+                  "end": 803,
+                  "value": "inner",
+                  "raw": "\"inner\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 808,
+      "end": 838,
+      "expression": {
+        "type": "CallExpression",
+        "start": 808,
+        "end": 837,
+        "callee": {
+          "type": "Identifier",
+          "start": 808,
+          "end": 833,
+          "name": "evalInPropertyInitializer"
+        },
+        "arguments": [
+          {
+            "type": "ObjectExpression",
+            "start": 834,
+            "end": 836,
+            "properties": []
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,242 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 526,
+  "body": [
+    {
+      "type": "ForStatement",
+      "start": 365,
+      "end": 525,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 370,
+        "end": 383,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 374,
+            "end": 383,
+            "id": {
+              "type": "Identifier",
+              "start": 374,
+              "end": 375,
+              "name": "i"
+            },
+            "init": {
+              "type": "UnaryExpression",
+              "start": 378,
+              "end": 383,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 379,
+                "end": 383,
+                "value": 1000,
+                "raw": "1000"
+              }
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 385,
+        "end": 393,
+        "left": {
+          "type": "Identifier",
+          "start": 385,
+          "end": 386,
+          "name": "i"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "start": 389,
+          "end": 393,
+          "value": 1000,
+          "raw": "1000"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 395,
+        "end": 398,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 395,
+          "end": 396,
+          "name": "i"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 400,
+        "end": 525,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 404,
+            "end": 421,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 408,
+                "end": 420,
+                "id": {
+                  "type": "Identifier",
+                  "start": 408,
+                  "end": 409,
+                  "name": "x"
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 412,
+                  "end": 420,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 412,
+                    "end": 413,
+                    "name": "i"
+                  },
+                  "operator": "/",
+                  "right": {
+                    "type": "Literal",
+                    "start": 416,
+                    "end": 420,
+                    "value": 10,
+                    "raw": "10.0"
+                  }
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 424,
+            "end": 523,
+            "expression": {
+              "type": "CallExpression",
+              "start": 424,
+              "end": 522,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 424,
+                "end": 440,
+                "object": {
+                  "type": "Identifier",
+                  "start": 424,
+                  "end": 430,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 431,
+                  "end": 440,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 441,
+                  "end": 453,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 441,
+                    "end": 450,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 441,
+                      "end": 445,
+                      "name": "Math"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 446,
+                      "end": 450,
+                      "name": "ceil"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 451,
+                      "end": 452,
+                      "name": "x"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "UnaryExpression",
+                  "start": 455,
+                  "end": 470,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "CallExpression",
+                    "start": 456,
+                    "end": 470,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 456,
+                      "end": 466,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 456,
+                        "end": 460,
+                        "name": "Math"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 461,
+                        "end": 466,
+                        "name": "floor"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 467,
+                        "end": 469,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 468,
+                          "end": 469,
+                          "name": "x"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 472,
+                  "end": 521,
+                  "value": "Math.ceil(i / 10.0) must return -Math.floor(-x)",
+                  "raw": "'Math.ceil(i / 10.0) must return -Math.floor(-x)'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

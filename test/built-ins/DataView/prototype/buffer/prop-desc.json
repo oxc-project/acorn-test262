@@ -1,0 +1,292 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 807,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 544,
+      "end": 617,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 548,
+          "end": 616,
+          "id": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 552,
+            "name": "desc"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 555,
+            "end": 616,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 555,
+              "end": 586,
+              "object": {
+                "type": "Identifier",
+                "start": 555,
+                "end": 561,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 562,
+                "end": 586,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 587,
+                "end": 605,
+                "object": {
+                  "type": "Identifier",
+                  "start": 587,
+                  "end": 595,
+                  "name": "DataView"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 596,
+                  "end": 605,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 607,
+                "end": 615,
+                "value": "buffer",
+                "raw": "\"buffer\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 619,
+      "end": 657,
+      "expression": {
+        "type": "CallExpression",
+        "start": 619,
+        "end": 656,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 619,
+          "end": 635,
+          "object": {
+            "type": "Identifier",
+            "start": 619,
+            "end": 625,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 626,
+            "end": 635,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 636,
+            "end": 644,
+            "object": {
+              "type": "Identifier",
+              "start": 636,
+              "end": 640,
+              "name": "desc"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 641,
+              "end": 644,
+              "name": "set"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 646,
+            "end": 655,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 658,
+      "end": 704,
+      "expression": {
+        "type": "CallExpression",
+        "start": 658,
+        "end": 703,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 658,
+          "end": 674,
+          "object": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 664,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 665,
+            "end": 674,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 675,
+            "end": 690,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 682,
+              "end": 690,
+              "object": {
+                "type": "Identifier",
+                "start": 682,
+                "end": 686,
+                "name": "desc"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 687,
+                "end": 690,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 692,
+            "end": 702,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 706,
+      "end": 756,
+      "expression": {
+        "type": "CallExpression",
+        "start": 706,
+        "end": 755,
+        "callee": {
+          "type": "Identifier",
+          "start": 706,
+          "end": 725,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 726,
+            "end": 744,
+            "object": {
+              "type": "Identifier",
+              "start": 726,
+              "end": 734,
+              "name": "DataView"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 735,
+              "end": 744,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 754,
+            "value": "buffer",
+            "raw": "\"buffer\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 757,
+      "end": 806,
+      "expression": {
+        "type": "CallExpression",
+        "start": 757,
+        "end": 805,
+        "callee": {
+          "type": "Identifier",
+          "start": 757,
+          "end": 775,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 776,
+            "end": 794,
+            "object": {
+              "type": "Identifier",
+              "start": 776,
+              "end": 784,
+              "name": "DataView"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 785,
+              "end": 794,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 796,
+            "end": 804,
+            "value": "buffer",
+            "raw": "\"buffer\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

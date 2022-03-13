@@ -1,0 +1,215 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 696,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 335,
+      "end": 679,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 339,
+          "end": 678,
+          "id": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 346,
+            "name": "evalStr"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 349,
+            "end": 678,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 349,
+              "end": 671,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 349,
+                "end": 664,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 349,
+                  "end": 607,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 349,
+                    "end": 574,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 349,
+                      "end": 558,
+                      "left": {
+                        "type": "BinaryExpression",
+                        "start": 349,
+                        "end": 551,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 349,
+                          "end": 495,
+                          "left": {
+                            "type": "BinaryExpression",
+                            "start": 349,
+                            "end": 463,
+                            "left": {
+                              "type": "BinaryExpression",
+                              "start": 349,
+                              "end": 447,
+                              "left": {
+                                "type": "BinaryExpression",
+                                "start": 349,
+                                "end": 440,
+                                "left": {
+                                  "type": "BinaryExpression",
+                                  "start": 349,
+                                  "end": 389,
+                                  "left": {
+                                    "type": "Literal",
+                                    "start": 349,
+                                    "end": 362,
+                                    "value": "//CHECK#1\n",
+                                    "raw": "'//CHECK#1\\n'"
+                                  },
+                                  "operator": "+",
+                                  "right": {
+                                    "type": "Literal",
+                                    "start": 364,
+                                    "end": 389,
+                                    "value": "if ( NaN === null ) {\n",
+                                    "raw": "'if ( NaN === null ) {\\n'"
+                                  }
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 391,
+                                  "end": 440,
+                                  "value": "  throw new Test262Error(\"#1: NaN === null\");\n",
+                                  "raw": "'  throw new Test262Error(\"#1: NaN === null\");\\n'"
+                                }
+                              },
+                              "operator": "+",
+                              "right": {
+                                "type": "Literal",
+                                "start": 442,
+                                "end": 447,
+                                "value": "}\n",
+                                "raw": "'}\\n'"
+                              }
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Literal",
+                              "start": 450,
+                              "end": 463,
+                              "value": "//CHECK#2\n",
+                              "raw": "'//CHECK#2\\n'"
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 465,
+                            "end": 495,
+                            "value": "if ( Infinity === null ) {\n",
+                            "raw": "'if ( Infinity === null ) {\\n'"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 497,
+                          "end": 551,
+                          "value": "  throw new Test262Error(\"#2: Infinity === null\");\n",
+                          "raw": "'  throw new Test262Error(\"#2: Infinity === null\");\\n'"
+                        }
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 553,
+                        "end": 558,
+                        "value": "}\n",
+                        "raw": "'}\\n'"
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "start": 561,
+                      "end": 574,
+                      "value": "//CHECK#3\n",
+                      "raw": "'//CHECK#3\\n'"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 576,
+                    "end": 607,
+                    "value": "if ( undefined === null ) {\n",
+                    "raw": "'if ( undefined === null ) {\\n'"
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 609,
+                  "end": 664,
+                  "value": "  throw new Test262Error(\"#3: undefined === null\");\n",
+                  "raw": "'  throw new Test262Error(\"#3: undefined === null\");\\n'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 666,
+                "end": 671,
+                "value": "}\n",
+                "raw": "'}\\n'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 673,
+              "end": 678,
+              "value": ";\n",
+              "raw": "';\\n'"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 681,
+      "end": 695,
+      "expression": {
+        "type": "CallExpression",
+        "start": 681,
+        "end": 694,
+        "callee": {
+          "type": "Identifier",
+          "start": 681,
+          "end": 685,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 686,
+            "end": 693,
+            "name": "evalStr"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,1807 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2666,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 489,
+      "end": 669,
+      "id": {
+        "type": "Identifier",
+        "start": 498,
+        "end": 505,
+        "name": "isEqual"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 506,
+          "end": 508,
+          "name": "d1"
+        },
+        {
+          "type": "Identifier",
+          "start": 510,
+          "end": 512,
+          "name": "d2"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 514,
+        "end": 669,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 518,
+            "end": 667,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 522,
+              "end": 531,
+              "left": {
+                "type": "Identifier",
+                "start": 522,
+                "end": 524,
+                "name": "d1"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Identifier",
+                "start": 529,
+                "end": 531,
+                "name": "d2"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 533,
+              "end": 555,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 539,
+                  "end": 551,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 546,
+                    "end": 550,
+                    "value": true,
+                    "raw": "true"
+                  }
+                }
+              ]
+            },
+            "alternate": {
+              "type": "IfStatement",
+              "start": 561,
+              "end": 667,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 565,
+                "end": 614,
+                "left": {
+                  "type": "CallExpression",
+                  "start": 565,
+                  "end": 606,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 565,
+                    "end": 573,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 565,
+                      "end": 569,
+                      "name": "Math"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 570,
+                      "end": 573,
+                      "name": "abs"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 574,
+                      "end": 605,
+                      "left": {
+                        "type": "CallExpression",
+                        "start": 574,
+                        "end": 588,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 574,
+                          "end": 584,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 574,
+                            "end": 578,
+                            "name": "Date"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 579,
+                            "end": 584,
+                            "name": "parse"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 585,
+                            "end": 587,
+                            "name": "d1"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      "operator": "-",
+                      "right": {
+                        "type": "CallExpression",
+                        "start": 591,
+                        "end": 605,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 591,
+                          "end": 601,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 591,
+                            "end": 595,
+                            "name": "Date"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 596,
+                            "end": 601,
+                            "name": "parse"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 602,
+                            "end": 604,
+                            "name": "d2"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "optional": false
+                },
+                "operator": "<=",
+                "right": {
+                  "type": "Literal",
+                  "start": 610,
+                  "end": 614,
+                  "value": 1000,
+                  "raw": "1000"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 616,
+                "end": 638,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 622,
+                    "end": 634,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 629,
+                      "end": 633,
+                      "value": true,
+                      "raw": "true"
+                    }
+                  }
+                ]
+              },
+              "alternate": {
+                "type": "BlockStatement",
+                "start": 644,
+                "end": 667,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 650,
+                    "end": 663,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 657,
+                      "end": 662,
+                      "value": false,
+                      "raw": "false"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 671,
+      "end": 787,
+      "expression": {
+        "type": "CallExpression",
+        "start": 671,
+        "end": 786,
+        "callee": {
+          "type": "Identifier",
+          "start": 671,
+          "end": 677,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 681,
+            "end": 721,
+            "callee": {
+              "type": "Identifier",
+              "start": 681,
+              "end": 688,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 689,
+                "end": 695,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 689,
+                  "end": 693,
+                  "name": "Date"
+                },
+                "arguments": [],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 697,
+                "end": 720,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 697,
+                  "end": 718,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 697,
+                    "end": 709,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 698,
+                      "end": 708,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 702,
+                        "end": 706,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 710,
+                    "end": 718,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 725,
+            "end": 784,
+            "value": "isEqual(Date(), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 789,
+      "end": 907,
+      "expression": {
+        "type": "CallExpression",
+        "start": 789,
+        "end": 906,
+        "callee": {
+          "type": "Identifier",
+          "start": 789,
+          "end": 795,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 799,
+            "end": 840,
+            "callee": {
+              "type": "Identifier",
+              "start": 799,
+              "end": 806,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 807,
+                "end": 814,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 807,
+                  "end": 811,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 812,
+                    "end": 813,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 816,
+                "end": 839,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 816,
+                  "end": 837,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 816,
+                    "end": 828,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 817,
+                      "end": 827,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 821,
+                        "end": 825,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 829,
+                    "end": 837,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 844,
+            "end": 904,
+            "value": "isEqual(Date(1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 909,
+      "end": 1039,
+      "expression": {
+        "type": "CallExpression",
+        "start": 909,
+        "end": 1038,
+        "callee": {
+          "type": "Identifier",
+          "start": 909,
+          "end": 915,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 919,
+            "end": 966,
+            "callee": {
+              "type": "Identifier",
+              "start": 919,
+              "end": 926,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 927,
+                "end": 940,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 927,
+                  "end": 931,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 932,
+                    "end": 936,
+                    "value": 1970,
+                    "raw": "1970"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 938,
+                    "end": 939,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 942,
+                "end": 965,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 942,
+                  "end": 963,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 942,
+                    "end": 954,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 943,
+                      "end": 953,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 947,
+                        "end": 951,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 955,
+                    "end": 963,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 970,
+            "end": 1036,
+            "value": "isEqual(Date(1970, 1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1041,
+      "end": 1177,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1041,
+        "end": 1176,
+        "callee": {
+          "type": "Identifier",
+          "start": 1041,
+          "end": 1047,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1051,
+            "end": 1101,
+            "callee": {
+              "type": "Identifier",
+              "start": 1051,
+              "end": 1058,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1059,
+                "end": 1075,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1059,
+                  "end": 1063,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1064,
+                    "end": 1068,
+                    "value": 1970,
+                    "raw": "1970"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1070,
+                    "end": 1071,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1073,
+                    "end": 1074,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 1077,
+                "end": 1100,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1077,
+                  "end": 1098,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1077,
+                    "end": 1089,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 1078,
+                      "end": 1088,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1082,
+                        "end": 1086,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1090,
+                    "end": 1098,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1105,
+            "end": 1174,
+            "value": "isEqual(Date(1970, 1, 1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1179,
+      "end": 1321,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1179,
+        "end": 1320,
+        "callee": {
+          "type": "Identifier",
+          "start": 1179,
+          "end": 1185,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1189,
+            "end": 1242,
+            "callee": {
+              "type": "Identifier",
+              "start": 1189,
+              "end": 1196,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1197,
+                "end": 1216,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1197,
+                  "end": 1201,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1202,
+                    "end": 1206,
+                    "value": 1970,
+                    "raw": "1970"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1208,
+                    "end": 1209,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1211,
+                    "end": 1212,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1214,
+                    "end": 1215,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 1218,
+                "end": 1241,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1218,
+                  "end": 1239,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1218,
+                    "end": 1230,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 1219,
+                      "end": 1229,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1223,
+                        "end": 1227,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1231,
+                    "end": 1239,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1246,
+            "end": 1318,
+            "value": "isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1323,
+      "end": 1465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1323,
+        "end": 1464,
+        "callee": {
+          "type": "Identifier",
+          "start": 1323,
+          "end": 1329,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1333,
+            "end": 1386,
+            "callee": {
+              "type": "Identifier",
+              "start": 1333,
+              "end": 1340,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1341,
+                "end": 1360,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1341,
+                  "end": 1345,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1346,
+                    "end": 1350,
+                    "value": 1970,
+                    "raw": "1970"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1352,
+                    "end": 1353,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1355,
+                    "end": 1356,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1358,
+                    "end": 1359,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 1362,
+                "end": 1385,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1362,
+                  "end": 1383,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1362,
+                    "end": 1374,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 1363,
+                      "end": 1373,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1367,
+                        "end": 1371,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1375,
+                    "end": 1383,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1390,
+            "end": 1462,
+            "value": "isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1467,
+      "end": 1615,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1467,
+        "end": 1614,
+        "callee": {
+          "type": "Identifier",
+          "start": 1467,
+          "end": 1473,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1477,
+            "end": 1533,
+            "callee": {
+              "type": "Identifier",
+              "start": 1477,
+              "end": 1484,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1485,
+                "end": 1507,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1485,
+                  "end": 1489,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1490,
+                    "end": 1494,
+                    "value": 1970,
+                    "raw": "1970"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1496,
+                    "end": 1497,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1499,
+                    "end": 1500,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1502,
+                    "end": 1503,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1505,
+                    "end": 1506,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 1509,
+                "end": 1532,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1509,
+                  "end": 1530,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1509,
+                    "end": 1521,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 1510,
+                      "end": 1520,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1514,
+                        "end": 1518,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1522,
+                    "end": 1530,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1537,
+            "end": 1612,
+            "value": "isEqual(Date(1970, 1, 1, 1, 0), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1, 0), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1617,
+      "end": 1771,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1617,
+        "end": 1770,
+        "callee": {
+          "type": "Identifier",
+          "start": 1617,
+          "end": 1623,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1627,
+            "end": 1686,
+            "callee": {
+              "type": "Identifier",
+              "start": 1627,
+              "end": 1634,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1635,
+                "end": 1660,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1635,
+                  "end": 1639,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1640,
+                    "end": 1644,
+                    "value": 1970,
+                    "raw": "1970"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1646,
+                    "end": 1647,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1649,
+                    "end": 1650,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1652,
+                    "end": 1653,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1655,
+                    "end": 1656,
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1658,
+                    "end": 1659,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 1662,
+                "end": 1685,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1662,
+                  "end": 1683,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1662,
+                    "end": 1674,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 1663,
+                      "end": 1673,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1667,
+                        "end": 1671,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1675,
+                    "end": 1683,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1690,
+            "end": 1768,
+            "value": "isEqual(Date(1970, 1, 1, 1, 0, 0), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1, 0, 0), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1773,
+      "end": 1933,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1773,
+        "end": 1932,
+        "callee": {
+          "type": "Identifier",
+          "start": 1773,
+          "end": 1779,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1783,
+            "end": 1845,
+            "callee": {
+              "type": "Identifier",
+              "start": 1783,
+              "end": 1790,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1791,
+                "end": 1819,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1791,
+                  "end": 1795,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1796,
+                    "end": 1800,
+                    "value": 1970,
+                    "raw": "1970"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1802,
+                    "end": 1803,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1805,
+                    "end": 1806,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1808,
+                    "end": 1809,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1811,
+                    "end": 1812,
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1814,
+                    "end": 1815,
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1817,
+                    "end": 1818,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 1821,
+                "end": 1844,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1821,
+                  "end": 1842,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1821,
+                    "end": 1833,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 1822,
+                      "end": 1832,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1826,
+                        "end": 1830,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1834,
+                    "end": 1842,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1849,
+            "end": 1930,
+            "value": "isEqual(Date(1970, 1, 1, 1, 0, 0, 0), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(1970, 1, 1, 1, 0, 0, 0), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1935,
+      "end": 2071,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1935,
+        "end": 2070,
+        "callee": {
+          "type": "Identifier",
+          "start": 1935,
+          "end": 1941,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1945,
+            "end": 1995,
+            "callee": {
+              "type": "Identifier",
+              "start": 1945,
+              "end": 1952,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1953,
+                "end": 1969,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1953,
+                  "end": 1957,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "MemberExpression",
+                    "start": 1958,
+                    "end": 1968,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1958,
+                      "end": 1964,
+                      "name": "Number"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1965,
+                      "end": 1968,
+                      "name": "NaN"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 1971,
+                "end": 1994,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1971,
+                  "end": 1992,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1971,
+                    "end": 1983,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 1972,
+                      "end": 1982,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1976,
+                        "end": 1980,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1984,
+                    "end": 1992,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1999,
+            "end": 2068,
+            "value": "isEqual(Date(Number.NaN), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(Number.NaN), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2073,
+      "end": 2237,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2073,
+        "end": 2236,
+        "callee": {
+          "type": "Identifier",
+          "start": 2073,
+          "end": 2079,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2083,
+            "end": 2147,
+            "callee": {
+              "type": "Identifier",
+              "start": 2083,
+              "end": 2090,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 2091,
+                "end": 2121,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 2091,
+                  "end": 2095,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "MemberExpression",
+                    "start": 2096,
+                    "end": 2120,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2096,
+                      "end": 2102,
+                      "name": "Number"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2103,
+                      "end": 2120,
+                      "name": "POSITIVE_INFINITY"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 2123,
+                "end": 2146,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2123,
+                  "end": 2144,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 2123,
+                    "end": 2135,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 2124,
+                      "end": 2134,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 2128,
+                        "end": 2132,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2136,
+                    "end": 2144,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2151,
+            "end": 2234,
+            "value": "isEqual(Date(Number.POSITIVE_INFINITY), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(Number.POSITIVE_INFINITY), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2239,
+      "end": 2403,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2239,
+        "end": 2402,
+        "callee": {
+          "type": "Identifier",
+          "start": 2239,
+          "end": 2245,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2249,
+            "end": 2313,
+            "callee": {
+              "type": "Identifier",
+              "start": 2249,
+              "end": 2256,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 2257,
+                "end": 2287,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 2257,
+                  "end": 2261,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "MemberExpression",
+                    "start": 2262,
+                    "end": 2286,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2262,
+                      "end": 2268,
+                      "name": "Number"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2269,
+                      "end": 2286,
+                      "name": "NEGATIVE_INFINITY"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 2289,
+                "end": 2312,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2289,
+                  "end": 2310,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 2289,
+                    "end": 2301,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 2290,
+                      "end": 2300,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 2294,
+                        "end": 2298,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2302,
+                    "end": 2310,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2317,
+            "end": 2400,
+            "value": "isEqual(Date(Number.NEGATIVE_INFINITY), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(Number.NEGATIVE_INFINITY), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2405,
+      "end": 2539,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2405,
+        "end": 2538,
+        "callee": {
+          "type": "Identifier",
+          "start": 2405,
+          "end": 2411,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2415,
+            "end": 2464,
+            "callee": {
+              "type": "Identifier",
+              "start": 2415,
+              "end": 2422,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 2423,
+                "end": 2438,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 2423,
+                  "end": 2427,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 2428,
+                    "end": 2437,
+                    "name": "undefined"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 2440,
+                "end": 2463,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2440,
+                  "end": 2461,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 2440,
+                    "end": 2452,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 2441,
+                      "end": 2451,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 2445,
+                        "end": 2449,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2453,
+                    "end": 2461,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2468,
+            "end": 2536,
+            "value": "isEqual(Date(undefined), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(undefined), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2541,
+      "end": 2665,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2541,
+        "end": 2664,
+        "callee": {
+          "type": "Identifier",
+          "start": 2541,
+          "end": 2547,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2551,
+            "end": 2595,
+            "callee": {
+              "type": "Identifier",
+              "start": 2551,
+              "end": 2558,
+              "name": "isEqual"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 2559,
+                "end": 2569,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 2559,
+                  "end": 2563,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2564,
+                    "end": 2568,
+                    "value": null,
+                    "raw": "null"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "CallExpression",
+                "start": 2571,
+                "end": 2594,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2571,
+                  "end": 2592,
+                  "object": {
+                    "type": "ParenthesizedExpression",
+                    "start": 2571,
+                    "end": 2583,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 2572,
+                      "end": 2582,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 2576,
+                        "end": 2580,
+                        "name": "Date"
+                      },
+                      "arguments": []
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2584,
+                    "end": 2592,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2599,
+            "end": 2662,
+            "value": "isEqual(Date(null), (new Date()).toString()) must return true",
+            "raw": "'isEqual(Date(null), (new Date()).toString()) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

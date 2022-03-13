@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 466,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 313,
+      "end": 438,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 317,
+          "end": 437,
+          "id": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 320,
+            "name": "foo"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 323,
+            "end": 437,
+            "callee": {
+              "type": "Identifier",
+              "start": 327,
+              "end": 335,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 336,
+                "end": 436,
+                "value": "'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}",
+                "raw": "\"'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 451,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 451,
+        "end": 464,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 451,
+          "end": 459,
+          "object": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 454,
+            "name": "foo"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 459,
+            "name": "call"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 460,
+            "end": 463,
+            "name": "foo"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

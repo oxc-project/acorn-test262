@@ -1,0 +1,107 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 456,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 316,
+      "end": 455,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 320,
+        "end": 368,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 320,
+          "end": 359,
+          "left": {
+            "type": "ParenthesizedExpression",
+            "start": 320,
+            "end": 341,
+            "expression": {
+              "type": "SequenceExpression",
+              "start": 321,
+              "end": 340,
+              "expressions": [
+                {
+                  "type": "AssignmentExpression",
+                  "start": 321,
+                  "end": 336,
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 321,
+                    "end": 327,
+                    "name": "OBJECT"
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 330,
+                    "end": 336,
+                    "name": "Object"
+                  }
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 338,
+                  "end": 340,
+                  "properties": []
+                }
+              ]
+            }
+          },
+          "operator": "instanceof",
+          "right": {
+            "type": "Identifier",
+            "start": 353,
+            "end": 359,
+            "name": "OBJECT"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 364,
+          "end": 368,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 370,
+        "end": 455,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 374,
+            "end": 453,
+            "argument": {
+              "type": "NewExpression",
+              "start": 380,
+              "end": 452,
+              "callee": {
+                "type": "Identifier",
+                "start": 384,
+                "end": 396,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 397,
+                  "end": 451,
+                  "value": "#1: (OBJECT = Object, {}) instanceof OBJECT !== true",
+                  "raw": "'#1: (OBJECT = Object, {}) instanceof OBJECT !== true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

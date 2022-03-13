@@ -1,0 +1,256 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 727,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 546,
+      "end": 566,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 550,
+          "end": 565,
+          "id": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 555,
+            "name": "maxMs"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 558,
+            "end": 565,
+            "value": 8640000000000000,
+            "raw": "8.64e15"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 567,
+      "end": 589,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 571,
+          "end": 588,
+          "id": {
+            "type": "Identifier",
+            "start": 571,
+            "end": 575,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 578,
+            "end": 588,
+            "callee": {
+              "type": "Identifier",
+              "start": 582,
+              "end": 586,
+              "name": "Date"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 590,
+      "end": 606,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 594,
+          "end": 605,
+          "id": {
+            "type": "Identifier",
+            "start": 594,
+            "end": 605,
+            "name": "returnValue"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 608,
+      "end": 649,
+      "expression": {
+        "type": "CallExpression",
+        "start": 608,
+        "end": 648,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 608,
+          "end": 627,
+          "object": {
+            "type": "Identifier",
+            "start": 608,
+            "end": 614,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 627,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 628,
+            "end": 642,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 628,
+              "end": 640,
+              "object": {
+                "type": "Identifier",
+                "start": 628,
+                "end": 632,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 633,
+                "end": 640,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 644,
+            "end": 647,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 689,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 651,
+        "end": 688,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 651,
+          "end": 662,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 665,
+          "end": 688,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 665,
+            "end": 677,
+            "object": {
+              "type": "Identifier",
+              "start": 665,
+              "end": 669,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 670,
+              "end": 677,
+              "name": "setTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "BinaryExpression",
+              "start": 678,
+              "end": 687,
+              "left": {
+                "type": "Identifier",
+                "start": 678,
+                "end": 683,
+                "name": "maxMs"
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 686,
+                "end": 687,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 691,
+      "end": 726,
+      "expression": {
+        "type": "CallExpression",
+        "start": 691,
+        "end": 725,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 691,
+          "end": 707,
+          "object": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 697,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 707,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 708,
+            "end": 719,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 721,
+            "end": 724,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

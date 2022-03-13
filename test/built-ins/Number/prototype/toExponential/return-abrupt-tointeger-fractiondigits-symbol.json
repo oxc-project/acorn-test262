@@ -1,0 +1,141 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 539,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 449,
+      "end": 470,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 453,
+          "end": 469,
+          "id": {
+            "type": "Identifier",
+            "start": 453,
+            "end": 455,
+            "name": "fd"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 458,
+            "end": 469,
+            "callee": {
+              "type": "Identifier",
+              "start": 458,
+              "end": 464,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 465,
+                "end": 468,
+                "value": "1",
+                "raw": "\"1\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 472,
+      "end": 538,
+      "expression": {
+        "type": "CallExpression",
+        "start": 472,
+        "end": 537,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 472,
+          "end": 485,
+          "object": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 478,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 485,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 486,
+            "end": 495,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 497,
+            "end": 536,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 508,
+              "end": 536,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 512,
+                  "end": 534,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 512,
+                    "end": 533,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 512,
+                      "end": 529,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 512,
+                        "end": 515,
+                        "name": "NaN"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 516,
+                        "end": 529,
+                        "name": "toExponential"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 530,
+                        "end": 532,
+                        "name": "fd"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

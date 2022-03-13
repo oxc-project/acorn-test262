@@ -1,0 +1,271 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 722,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 458,
+      "end": 541,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 464,
+          "end": 540,
+          "id": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 468,
+            "name": "i32a"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 471,
+            "end": 540,
+            "callee": {
+              "type": "Identifier",
+              "start": 475,
+              "end": 485,
+              "name": "Int32Array"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 489,
+                "end": 538,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 493,
+                  "end": 504,
+                  "name": "ArrayBuffer"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 505,
+                    "end": 537,
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 505,
+                      "end": 533,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 505,
+                        "end": 515,
+                        "name": "Int32Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 516,
+                        "end": 533,
+                        "name": "BYTES_PER_ELEMENT"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "operator": "*",
+                    "right": {
+                      "type": "Literal",
+                      "start": 536,
+                      "end": 537,
+                      "value": 4,
+                      "raw": "4"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 543,
+      "end": 631,
+      "expression": {
+        "type": "CallExpression",
+        "start": 543,
+        "end": 630,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 543,
+          "end": 559,
+          "object": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 549,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 559,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 560,
+            "end": 586,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 560,
+              "end": 574,
+              "object": {
+                "type": "Identifier",
+                "start": 560,
+                "end": 567,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 568,
+                "end": 574,
+                "name": "notify"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 575,
+                "end": 579,
+                "name": "i32a"
+              },
+              {
+                "type": "Literal",
+                "start": 581,
+                "end": 582,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 584,
+                "end": 585,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 588,
+            "end": 589,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 591,
+            "end": 629,
+            "value": "Atomics.notify(i32a, 0, 0) returns 0",
+            "raw": "'Atomics.notify(i32a, 0, 0) returns 0'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 632,
+      "end": 720,
+      "expression": {
+        "type": "CallExpression",
+        "start": 632,
+        "end": 719,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 632,
+          "end": 648,
+          "object": {
+            "type": "Identifier",
+            "start": 632,
+            "end": 638,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 639,
+            "end": 648,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 649,
+            "end": 675,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 649,
+              "end": 663,
+              "object": {
+                "type": "Identifier",
+                "start": 649,
+                "end": 656,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 657,
+                "end": 663,
+                "name": "notify"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 664,
+                "end": 668,
+                "name": "i32a"
+              },
+              {
+                "type": "Literal",
+                "start": 670,
+                "end": 671,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 673,
+                "end": 674,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 677,
+            "end": 678,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 680,
+            "end": 718,
+            "value": "Atomics.notify(i32a, 0, 1) returns 0",
+            "raw": "'Atomics.notify(i32a, 0, 1) returns 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

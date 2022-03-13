@@ -1,0 +1,98 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 508,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 427,
+      "end": 507,
+      "expression": {
+        "type": "CallExpression",
+        "start": 427,
+        "end": 506,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 427,
+          "end": 443,
+          "object": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 433,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 443,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 444,
+            "end": 482,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 444,
+              "end": 465,
+              "object": {
+                "type": "Identifier",
+                "start": 444,
+                "end": 450,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 451,
+                "end": 465,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 466,
+                "end": 481,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 470,
+                  "end": 481,
+                  "name": "SyntaxError"
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 484,
+            "end": 505,
+            "object": {
+              "type": "Identifier",
+              "start": 484,
+              "end": 495,
+              "name": "SyntaxError"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 496,
+              "end": 505,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 940,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 730,
+      "end": 791,
+      "expression": {
+        "type": "CallExpression",
+        "start": 730,
+        "end": 790,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 730,
+          "end": 746,
+          "object": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 736,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 737,
+            "end": 746,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 747,
+            "end": 771,
+            "object": {
+              "type": "MemberExpression",
+              "start": 747,
+              "end": 766,
+              "object": {
+                "type": "Identifier",
+                "start": 747,
+                "end": 751,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 752,
+                "end": 766,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 767,
+              "end": 771,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 773,
+            "end": 789,
+            "value": "DateTimeFormat",
+            "raw": "\"DateTimeFormat\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 793,
+      "end": 842,
+      "expression": {
+        "type": "CallExpression",
+        "start": 793,
+        "end": 841,
+        "callee": {
+          "type": "Identifier",
+          "start": 793,
+          "end": 812,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 813,
+            "end": 832,
+            "object": {
+              "type": "Identifier",
+              "start": 813,
+              "end": 817,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 818,
+              "end": 832,
+              "name": "DateTimeFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 834,
+            "end": 840,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 843,
+      "end": 890,
+      "expression": {
+        "type": "CallExpression",
+        "start": 843,
+        "end": 889,
+        "callee": {
+          "type": "Identifier",
+          "start": 843,
+          "end": 860,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 861,
+            "end": 880,
+            "object": {
+              "type": "Identifier",
+              "start": 861,
+              "end": 865,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 866,
+              "end": 880,
+              "name": "DateTimeFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 882,
+            "end": 888,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 891,
+      "end": 939,
+      "expression": {
+        "type": "CallExpression",
+        "start": 891,
+        "end": 938,
+        "callee": {
+          "type": "Identifier",
+          "start": 891,
+          "end": 909,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 910,
+            "end": 929,
+            "object": {
+              "type": "Identifier",
+              "start": 910,
+              "end": 914,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 915,
+              "end": 929,
+              "name": "DateTimeFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 931,
+            "end": 937,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

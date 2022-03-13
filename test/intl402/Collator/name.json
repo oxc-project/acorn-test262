@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 886,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 706,
+      "end": 755,
+      "expression": {
+        "type": "CallExpression",
+        "start": 706,
+        "end": 754,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 706,
+          "end": 722,
+          "object": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 712,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 722,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 723,
+            "end": 741,
+            "object": {
+              "type": "MemberExpression",
+              "start": 723,
+              "end": 736,
+              "object": {
+                "type": "Identifier",
+                "start": 723,
+                "end": 727,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 728,
+                "end": 736,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 737,
+              "end": 741,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 743,
+            "end": 753,
+            "value": "Collator",
+            "raw": "\"Collator\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 757,
+      "end": 800,
+      "expression": {
+        "type": "CallExpression",
+        "start": 757,
+        "end": 799,
+        "callee": {
+          "type": "Identifier",
+          "start": 757,
+          "end": 776,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 777,
+            "end": 790,
+            "object": {
+              "type": "Identifier",
+              "start": 777,
+              "end": 781,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 782,
+              "end": 790,
+              "name": "Collator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 792,
+            "end": 798,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 801,
+      "end": 842,
+      "expression": {
+        "type": "CallExpression",
+        "start": 801,
+        "end": 841,
+        "callee": {
+          "type": "Identifier",
+          "start": 801,
+          "end": 818,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 819,
+            "end": 832,
+            "object": {
+              "type": "Identifier",
+              "start": 819,
+              "end": 823,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 824,
+              "end": 832,
+              "name": "Collator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 834,
+            "end": 840,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 843,
+      "end": 885,
+      "expression": {
+        "type": "CallExpression",
+        "start": 843,
+        "end": 884,
+        "callee": {
+          "type": "Identifier",
+          "start": 843,
+          "end": 861,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 862,
+            "end": 875,
+            "object": {
+              "type": "Identifier",
+              "start": 862,
+              "end": 866,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 867,
+              "end": 875,
+              "name": "Collator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 877,
+            "end": 883,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

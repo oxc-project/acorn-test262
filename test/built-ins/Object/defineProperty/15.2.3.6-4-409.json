@@ -1,0 +1,424 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 721,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 309,
+      "end": 436,
+      "expression": {
+        "type": "CallExpression",
+        "start": 309,
+        "end": 435,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 309,
+          "end": 330,
+          "object": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 315,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 330,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 331,
+            "end": 347,
+            "object": {
+              "type": "Identifier",
+              "start": 331,
+              "end": 337,
+              "name": "RegExp"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 338,
+              "end": 347,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 349,
+            "end": 355,
+            "value": "prop",
+            "raw": "\"prop\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 357,
+            "end": 434,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 361,
+                "end": 372,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 361,
+                  "end": 366,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 368,
+                  "end": 372,
+                  "value": 1001,
+                  "raw": "1001"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 376,
+                "end": 390,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 376,
+                  "end": 384,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 386,
+                  "end": 390,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 394,
+                "end": 410,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 394,
+                  "end": 404,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 406,
+                  "end": 410,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 414,
+                "end": 432,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 414,
+                  "end": 426,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 428,
+                  "end": 432,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 437,
+      "end": 463,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 441,
+          "end": 462,
+          "id": {
+            "type": "Identifier",
+            "start": 441,
+            "end": 447,
+            "name": "regObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 450,
+            "end": 462,
+            "callee": {
+              "type": "Identifier",
+              "start": 454,
+              "end": 460,
+              "name": "RegExp"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 465,
+      "end": 494,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 469,
+          "end": 493,
+          "id": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 485,
+            "name": "verifyEnumerable"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 488,
+            "end": 493,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForInStatement",
+      "start": 495,
+      "end": 575,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 500,
+        "end": 505,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 504,
+            "end": 505,
+            "id": {
+              "type": "Identifier",
+              "start": 504,
+              "end": 505,
+              "name": "p"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 509,
+        "end": 515,
+        "name": "regObj"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 517,
+        "end": 575,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 521,
+            "end": 573,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 525,
+              "end": 537,
+              "left": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 526,
+                "name": "p"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 531,
+                "end": 537,
+                "value": "prop",
+                "raw": "\"prop\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 539,
+              "end": 573,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 545,
+                  "end": 569,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 545,
+                    "end": 568,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 545,
+                      "end": 561,
+                      "name": "verifyEnumerable"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 564,
+                      "end": 568,
+                      "value": true,
+                      "raw": "true"
+                    }
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 577,
+      "end": 665,
+      "expression": {
+        "type": "CallExpression",
+        "start": 577,
+        "end": 664,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 577,
+          "end": 593,
+          "object": {
+            "type": "Identifier",
+            "start": 577,
+            "end": 583,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 584,
+            "end": 593,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 594,
+            "end": 623,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 594,
+              "end": 615,
+              "object": {
+                "type": "Identifier",
+                "start": 594,
+                "end": 600,
+                "name": "regObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 601,
+                "end": 615,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 616,
+                "end": 622,
+                "value": "prop",
+                "raw": "\"prop\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 625,
+            "end": 630,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 632,
+            "end": 663,
+            "value": "regObj.hasOwnProperty(\"prop\")",
+            "raw": "'regObj.hasOwnProperty(\"prop\")'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 666,
+      "end": 720,
+      "expression": {
+        "type": "CallExpression",
+        "start": 666,
+        "end": 719,
+        "callee": {
+          "type": "Identifier",
+          "start": 666,
+          "end": 672,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 673,
+            "end": 689,
+            "name": "verifyEnumerable"
+          },
+          {
+            "type": "Literal",
+            "start": 691,
+            "end": 718,
+            "value": "verifyEnumerable !== true",
+            "raw": "'verifyEnumerable !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

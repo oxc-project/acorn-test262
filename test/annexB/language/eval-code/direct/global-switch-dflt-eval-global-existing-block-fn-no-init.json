@@ -1,0 +1,73 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 749,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 600,
+      "end": 748,
+      "expression": {
+        "type": "CallExpression",
+        "start": 600,
+        "end": 747,
+        "callee": {
+          "type": "Identifier",
+          "start": 600,
+          "end": 604,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 608,
+            "end": 745,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 608,
+              "end": 733,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 608,
+                "end": 705,
+                "left": {
+                  "type": "Literal",
+                  "start": 608,
+                  "end": 688,
+                  "value": "assert.sameValue(f, undefined);    {    function f() {}  }switch (1) {",
+                  "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }switch (1) {'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 693,
+                  "end": 705,
+                  "value": "  default:",
+                  "raw": "'  default:'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 710,
+                "end": 733,
+                "value": "    function f() {  }",
+                "raw": "'    function f() {  }'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 738,
+              "end": 745,
+              "value": "}  ",
+              "raw": "'}\\\n  '"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

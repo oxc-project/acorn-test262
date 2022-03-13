@@ -1,0 +1,243 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 548,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 341,
+      "end": 366,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 345,
+          "end": 365,
+          "id": {
+            "type": "Identifier",
+            "start": 345,
+            "end": 352,
+            "name": "dateObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 355,
+            "end": 365,
+            "callee": {
+              "type": "Identifier",
+              "start": 359,
+              "end": 363,
+              "name": "Date"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 368,
+      "end": 426,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 368,
+        "end": 425,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 368,
+          "end": 379,
+          "object": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 375,
+            "name": "dateObj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 379,
+            "name": "get"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 382,
+          "end": 425,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 393,
+            "end": 425,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 397,
+                "end": 423,
+                "argument": {
+                  "type": "Literal",
+                  "start": 404,
+                  "end": 422,
+                  "value": "VerifyDateObject",
+                  "raw": "\"VerifyDateObject\""
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 428,
+      "end": 480,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 432,
+          "end": 479,
+          "id": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 438,
+            "name": "newObj"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 441,
+            "end": 479,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 441,
+              "end": 454,
+              "object": {
+                "type": "Identifier",
+                "start": 441,
+                "end": 447,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 448,
+                "end": 454,
+                "name": "create"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 455,
+                "end": 457,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 459,
+                "end": 478,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 463,
+                    "end": 476,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 463,
+                      "end": 467,
+                      "name": "prop"
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 469,
+                      "end": 476,
+                      "name": "dateObj"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 482,
+      "end": 547,
+      "expression": {
+        "type": "CallExpression",
+        "start": 482,
+        "end": 546,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 482,
+          "end": 498,
+          "object": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 488,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 498,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 499,
+            "end": 510,
+            "object": {
+              "type": "Identifier",
+              "start": 499,
+              "end": 505,
+              "name": "newObj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 506,
+              "end": 510,
+              "name": "prop"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 512,
+            "end": 530,
+            "value": "VerifyDateObject",
+            "raw": "\"VerifyDateObject\""
+          },
+          {
+            "type": "Literal",
+            "start": 532,
+            "end": 545,
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 350,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 314,
+      "end": 349,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 314,
+        "end": 348,
+        "operator": "void",
+        "prefix": true,
+        "argument": {
+          "type": "ObjectExpression",
+          "start": 319,
+          "end": 348,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 323,
+              "end": 329,
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 326,
+                "name": "foo"
+              },
+              "value": {
+                "type": "Literal",
+                "start": 328,
+                "end": 329,
+                "value": 1,
+                "raw": "1"
+              },
+              "kind": "init"
+            },
+            {
+              "type": "Property",
+              "start": 333,
+              "end": 346,
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 340,
+                "name": "foo"
+              },
+              "kind": "set",
+              "value": {
+                "type": "FunctionExpression",
+                "start": 340,
+                "end": 346,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 341,
+                    "end": 342,
+                    "name": "x"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 344,
+                  "end": 346,
+                  "body": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

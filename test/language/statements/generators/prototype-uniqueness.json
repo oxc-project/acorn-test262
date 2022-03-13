@@ -1,0 +1,113 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 356,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 280,
+      "end": 297,
+      "id": {
+        "type": "Identifier",
+        "start": 290,
+        "end": 292,
+        "name": "g1"
+      },
+      "expression": false,
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 295,
+        "end": 297,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 298,
+      "end": 315,
+      "id": {
+        "type": "Identifier",
+        "start": 308,
+        "end": 310,
+        "name": "g2"
+      },
+      "expression": false,
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 313,
+        "end": 315,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 317,
+      "end": 355,
+      "expression": {
+        "type": "CallExpression",
+        "start": 317,
+        "end": 354,
+        "callee": {
+          "type": "Identifier",
+          "start": 317,
+          "end": 323,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 324,
+            "end": 353,
+            "left": {
+              "type": "MemberExpression",
+              "start": 324,
+              "end": 336,
+              "object": {
+                "type": "Identifier",
+                "start": 324,
+                "end": 326,
+                "name": "g1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 327,
+                "end": 336,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "MemberExpression",
+              "start": 341,
+              "end": 353,
+              "object": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 343,
+                "name": "g2"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 344,
+                "end": 353,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

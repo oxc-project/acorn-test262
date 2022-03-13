@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 554,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 407,
+      "end": 444,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 411,
+          "end": 443,
+          "id": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 412,
+            "name": "p"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 415,
+            "end": 443,
+            "callee": {
+              "type": "Identifier",
+              "start": 419,
+              "end": 424,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 425,
+                "end": 427,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 429,
+                "end": 442,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 433,
+                    "end": 440,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 433,
+                      "end": 436,
+                      "name": "get"
+                    },
+                    "value": {
+                      "type": "ObjectExpression",
+                      "start": 438,
+                      "end": 440,
+                      "properties": []
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 446,
+      "end": 497,
+      "expression": {
+        "type": "CallExpression",
+        "start": 446,
+        "end": 496,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 446,
+          "end": 459,
+          "object": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 452,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 453,
+            "end": 459,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 460,
+            "end": 469,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 471,
+            "end": 495,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 482,
+              "end": 495,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 486,
+                  "end": 493,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 486,
+                    "end": 492,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 486,
+                      "end": 487,
+                      "name": "p"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 488,
+                      "end": 492,
+                      "name": "attr"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 499,
+      "end": 553,
+      "expression": {
+        "type": "CallExpression",
+        "start": 499,
+        "end": 552,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 499,
+          "end": 512,
+          "object": {
+            "type": "Identifier",
+            "start": 499,
+            "end": 505,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 506,
+            "end": 512,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 513,
+            "end": 522,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 524,
+            "end": 551,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 535,
+              "end": 551,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 539,
+                  "end": 549,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 539,
+                    "end": 548,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 539,
+                      "end": 540,
+                      "name": "p"
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 541,
+                      "end": 547,
+                      "value": "attr",
+                      "raw": "\"attr\""
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

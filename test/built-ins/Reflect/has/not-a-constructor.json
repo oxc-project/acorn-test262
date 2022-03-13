@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 893,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 692,
+      "end": 792,
+      "expression": {
+        "type": "CallExpression",
+        "start": 692,
+        "end": 791,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 692,
+          "end": 708,
+          "object": {
+            "type": "Identifier",
+            "start": 692,
+            "end": 698,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 699,
+            "end": 708,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 709,
+            "end": 735,
+            "callee": {
+              "type": "Identifier",
+              "start": 709,
+              "end": 722,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 723,
+                "end": 734,
+                "object": {
+                  "type": "Identifier",
+                  "start": 723,
+                  "end": 730,
+                  "name": "Reflect"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 731,
+                  "end": 734,
+                  "name": "has"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 737,
+            "end": 742,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 744,
+            "end": 790,
+            "value": "isConstructor(Reflect.has) must return false",
+            "raw": "'isConstructor(Reflect.has) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 794,
+      "end": 891,
+      "expression": {
+        "type": "CallExpression",
+        "start": 794,
+        "end": 890,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 794,
+          "end": 807,
+          "object": {
+            "type": "Identifier",
+            "start": 794,
+            "end": 800,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 801,
+            "end": 807,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 808,
+            "end": 817,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 819,
+            "end": 849,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 825,
+              "end": 849,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 829,
+                  "end": 847,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 829,
+                    "end": 846,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 833,
+                      "end": 844,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 833,
+                        "end": 840,
+                        "name": "Reflect"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 841,
+                        "end": 844,
+                        "name": "has"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 851,
+            "end": 889,
+            "value": "`new Reflect.has()` throws TypeError",
+            "raw": "'`new Reflect.has()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

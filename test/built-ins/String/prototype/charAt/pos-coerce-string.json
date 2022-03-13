@@ -1,0 +1,82 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 430,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 365,
+      "end": 429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 365,
+        "end": 428,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 365,
+          "end": 381,
+          "object": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 371,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 381,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 382,
+            "end": 422,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 382,
+              "end": 395,
+              "object": {
+                "type": "Literal",
+                "start": 382,
+                "end": 388,
+                "value": "abcd",
+                "raw": "'abcd'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 395,
+                "name": "charAt"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 396,
+                "end": 421,
+                "value": "   +00200.0000E-0002   ",
+                "raw": "'   +00200.0000E-0002   '"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 424,
+            "end": 427,
+            "value": "c",
+            "raw": "'c'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

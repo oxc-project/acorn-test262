@@ -1,0 +1,264 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 434,
+  "body": [
+    {
+      "type": "ForStatement",
+      "start": 257,
+      "end": 433,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 262,
+        "end": 271,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 266,
+            "end": 271,
+            "id": {
+              "type": "Identifier",
+              "start": 266,
+              "end": 267,
+              "name": "i"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 270,
+              "end": 271,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        ],
+        "kind": "let"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 273,
+        "end": 279,
+        "left": {
+          "type": "Identifier",
+          "start": 273,
+          "end": 274,
+          "name": "i"
+        },
+        "operator": "<=",
+        "right": {
+          "type": "Literal",
+          "start": 278,
+          "end": 279,
+          "value": 7,
+          "raw": "7"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 281,
+        "end": 284,
+        "operator": "++",
+        "prefix": true,
+        "argument": {
+          "type": "Identifier",
+          "start": 283,
+          "end": 284,
+          "name": "i"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 286,
+        "end": 433,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 290,
+            "end": 349,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 296,
+                "end": 348,
+                "id": {
+                  "type": "Identifier",
+                  "start": 296,
+                  "end": 305,
+                  "name": "plainDate"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 308,
+                  "end": 348,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 312,
+                    "end": 330,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 312,
+                      "end": 320,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 321,
+                      "end": 330,
+                      "name": "PlainDate"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 331,
+                      "end": 335,
+                      "value": 1976,
+                      "raw": "1976"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 337,
+                      "end": 339,
+                      "value": 11,
+                      "raw": "11"
+                    },
+                    {
+                      "type": "BinaryExpression",
+                      "start": 341,
+                      "end": 347,
+                      "left": {
+                        "type": "Literal",
+                        "start": 341,
+                        "end": 343,
+                        "value": 14,
+                        "raw": "14"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 346,
+                        "end": 347,
+                        "name": "i"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 352,
+            "end": 431,
+            "expression": {
+              "type": "CallExpression",
+              "start": 352,
+              "end": 430,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 352,
+                "end": 368,
+                "object": {
+                  "type": "Identifier",
+                  "start": 352,
+                  "end": 358,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 359,
+                  "end": 368,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 369,
+                  "end": 388,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 369,
+                    "end": 378,
+                    "name": "plainDate"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 379,
+                    "end": 388,
+                    "name": "dayOfWeek"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 390,
+                  "end": 391,
+                  "name": "i"
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 393,
+                  "end": 429,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 396,
+                      "end": 405,
+                      "name": "plainDate"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 426,
+                      "end": 427,
+                      "name": "i"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 394,
+                      "end": 394,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 406,
+                      "end": 424,
+                      "value": {
+                        "raw": " should be on day ",
+                        "cooked": " should be on day "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 428,
+                      "end": 428,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

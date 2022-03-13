@@ -1,0 +1,200 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 661,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 325,
+      "end": 469,
+      "expression": {
+        "type": "CallExpression",
+        "start": 325,
+        "end": 468,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 325,
+          "end": 341,
+          "object": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 341,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 345,
+            "end": 389,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 345,
+              "end": 374,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 345,
+                "end": 359,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 346,
+                  "end": 358,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 350,
+                    "end": 356,
+                    "name": "Number"
+                  },
+                  "arguments": []
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 360,
+                "end": 374,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 375,
+                "end": 388,
+                "value": "toPrecision",
+                "raw": "\"toPrecision\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 398,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 402,
+            "end": 466,
+            "value": "(new Number()).hasOwnProperty(\"toPrecision\") must return false",
+            "raw": "'(new Number()).hasOwnProperty(\"toPrecision\") must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 471,
+      "end": 660,
+      "expression": {
+        "type": "CallExpression",
+        "start": 471,
+        "end": 659,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 471,
+          "end": 487,
+          "object": {
+            "type": "Identifier",
+            "start": 471,
+            "end": 477,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 478,
+            "end": 487,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 491,
+            "end": 517,
+            "object": {
+              "type": "ParenthesizedExpression",
+              "start": 491,
+              "end": 505,
+              "expression": {
+                "type": "NewExpression",
+                "start": 492,
+                "end": 504,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 496,
+                  "end": 502,
+                  "name": "Number"
+                },
+                "arguments": []
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 506,
+              "end": 517,
+              "name": "toPrecision"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 521,
+            "end": 549,
+            "object": {
+              "type": "MemberExpression",
+              "start": 521,
+              "end": 537,
+              "object": {
+                "type": "Identifier",
+                "start": 521,
+                "end": 527,
+                "name": "Number"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 528,
+                "end": 537,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 538,
+              "end": 549,
+              "name": "toPrecision"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 657,
+            "value": "The value of (new Number()).toPrecision is expected to equal the value of Number.prototype.toPrecision",
+            "raw": "'The value of (new Number()).toPrecision is expected to equal the value of Number.prototype.toPrecision'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

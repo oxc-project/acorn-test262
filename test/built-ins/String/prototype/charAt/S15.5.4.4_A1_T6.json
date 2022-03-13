@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 768,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 482,
+      "end": 677,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 486,
+        "end": 522,
+        "left": {
+          "type": "CallExpression",
+          "start": 486,
+          "end": 514,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 486,
+            "end": 511,
+            "object": {
+              "type": "NewExpression",
+              "start": 486,
+              "end": 504,
+              "callee": {
+                "type": "Identifier",
+                "start": 490,
+                "end": 496,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 497,
+                  "end": 503,
+                  "value": "lego",
+                  "raw": "\"lego\""
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 505,
+              "end": 511,
+              "name": "charAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 512,
+              "end": 513,
+              "name": "x"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 519,
+          "end": 522,
+          "value": "l",
+          "raw": "\"l\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 524,
+        "end": 677,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 528,
+            "end": 675,
+            "argument": {
+              "type": "NewExpression",
+              "start": 534,
+              "end": 674,
+              "callee": {
+                "type": "Identifier",
+                "start": 538,
+                "end": 550,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 551,
+                  "end": 673,
+                  "left": {
+                    "type": "Literal",
+                    "start": 551,
+                    "end": 642,
+                    "value": "#1: var x; new String(\"lego\").charAt(x) === \"l\". Actual: new String(\"lego\").charAt(x) ===",
+                    "raw": "'#1: var x; new String(\"lego\").charAt(x) === \"l\". Actual: new String(\"lego\").charAt(x) ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 645,
+                    "end": 673,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 645,
+                      "end": 670,
+                      "object": {
+                        "type": "NewExpression",
+                        "start": 645,
+                        "end": 663,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 649,
+                          "end": 655,
+                          "name": "String"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 656,
+                            "end": 662,
+                            "value": "lego",
+                            "raw": "\"lego\""
+                          }
+                        ]
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 664,
+                        "end": 670,
+                        "name": "charAt"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 671,
+                        "end": 672,
+                        "name": "x"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 761,
+      "end": 767,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 765,
+          "end": 766,
+          "id": {
+            "type": "Identifier",
+            "start": 765,
+            "end": 766,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,325 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1203,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 673,
+      "end": 939,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 679,
+          "end": 938,
+          "id": {
+            "type": "Identifier",
+            "start": 679,
+            "end": 687,
+            "name": "expected"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 690,
+            "end": 938,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 694,
+                "end": 703,
+                "value": "get day",
+                "raw": "\"get day\""
+              },
+              {
+                "type": "Literal",
+                "start": 707,
+                "end": 724,
+                "value": "get day.valueOf",
+                "raw": "\"get day.valueOf\""
+              },
+              {
+                "type": "Literal",
+                "start": 728,
+                "end": 746,
+                "value": "call day.valueOf",
+                "raw": "\"call day.valueOf\""
+              },
+              {
+                "type": "Literal",
+                "start": 750,
+                "end": 761,
+                "value": "get month",
+                "raw": "\"get month\""
+              },
+              {
+                "type": "Literal",
+                "start": 824,
+                "end": 839,
+                "value": "get monthCode",
+                "raw": "\"get monthCode\""
+              },
+              {
+                "type": "Literal",
+                "start": 843,
+                "end": 867,
+                "value": "get monthCode.toString",
+                "raw": "\"get monthCode.toString\""
+              },
+              {
+                "type": "Literal",
+                "start": 871,
+                "end": 896,
+                "value": "call monthCode.toString",
+                "raw": "\"call monthCode.toString\""
+              },
+              {
+                "type": "Literal",
+                "start": 900,
+                "end": 910,
+                "value": "get year",
+                "raw": "\"get year\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 941,
+      "end": 1003,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 947,
+          "end": 1002,
+          "id": {
+            "type": "Identifier",
+            "start": 947,
+            "end": 955,
+            "name": "calendar"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 958,
+            "end": 1002,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 958,
+              "end": 1000,
+              "object": {
+                "type": "Identifier",
+                "start": 958,
+                "end": 973,
+                "name": "TemporalHelpers"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 974,
+                "end": 1000,
+                "name": "calendarMergeFieldsGetters"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1004,
+      "end": 1065,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1010,
+          "end": 1064,
+          "id": {
+            "type": "Identifier",
+            "start": 1010,
+            "end": 1018,
+            "name": "monthday"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1021,
+            "end": 1064,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1025,
+              "end": 1047,
+              "object": {
+                "type": "Identifier",
+                "start": 1025,
+                "end": 1033,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1034,
+                "end": 1047,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1048,
+                "end": 1049,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "Literal",
+                "start": 1051,
+                "end": 1053,
+                "value": 31,
+                "raw": "31"
+              },
+              {
+                "type": "Identifier",
+                "start": 1055,
+                "end": 1063,
+                "name": "calendar"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1066,
+      "end": 1092,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1066,
+        "end": 1091,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1066,
+          "end": 1079,
+          "object": {
+            "type": "Identifier",
+            "start": 1066,
+            "end": 1074,
+            "name": "monthday"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1075,
+            "end": 1079,
+            "name": "with"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ObjectExpression",
+            "start": 1080,
+            "end": 1090,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1082,
+                "end": 1088,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1082,
+                  "end": 1085,
+                  "name": "day"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1087,
+                  "end": 1088,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1094,
+      "end": 1202,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1094,
+        "end": 1201,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1094,
+          "end": 1113,
+          "object": {
+            "type": "Identifier",
+            "start": 1094,
+            "end": 1100,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1101,
+            "end": 1113,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1114,
+            "end": 1150,
+            "object": {
+              "type": "Identifier",
+              "start": 1114,
+              "end": 1122,
+              "name": "calendar"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1123,
+              "end": 1150,
+              "name": "mergeFieldsReturnOperations"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1152,
+            "end": 1160,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 1162,
+            "end": 1200,
+            "value": "getters called on mergeFields return",
+            "raw": "\"getters called on mergeFields return\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

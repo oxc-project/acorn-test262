@@ -1,0 +1,234 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 698,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 452,
+      "end": 483,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 452,
+        "end": 482,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 452,
+          "end": 478,
+          "object": {
+            "type": "MemberExpression",
+            "start": 452,
+            "end": 467,
+            "object": {
+              "type": "Identifier",
+              "start": 452,
+              "end": 457,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 458,
+              "end": 467,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 478,
+            "name": "myproperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 481,
+          "end": 482,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 484,
+      "end": 504,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 488,
+          "end": 503,
+          "id": {
+            "type": "Identifier",
+            "start": 488,
+            "end": 489,
+            "name": "x"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 492,
+            "end": 503,
+            "callee": {
+              "type": "Identifier",
+              "start": 496,
+              "end": 501,
+              "name": "Array"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 505,
+      "end": 588,
+      "expression": {
+        "type": "CallExpression",
+        "start": 505,
+        "end": 587,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 505,
+          "end": 521,
+          "object": {
+            "type": "Identifier",
+            "start": 505,
+            "end": 511,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 521,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 522,
+            "end": 534,
+            "object": {
+              "type": "Identifier",
+              "start": 522,
+              "end": 523,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 524,
+              "end": 534,
+              "name": "myproperty"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 536,
+            "end": 537,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 539,
+            "end": 586,
+            "value": "The value of x.myproperty is expected to be 1",
+            "raw": "'The value of x.myproperty is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 589,
+      "end": 697,
+      "expression": {
+        "type": "CallExpression",
+        "start": 589,
+        "end": 696,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 589,
+          "end": 605,
+          "object": {
+            "type": "Identifier",
+            "start": 589,
+            "end": 595,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 596,
+            "end": 605,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 606,
+            "end": 636,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 606,
+              "end": 622,
+              "object": {
+                "type": "Identifier",
+                "start": 606,
+                "end": 607,
+                "name": "x"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 608,
+                "end": 622,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 623,
+                "end": 635,
+                "value": "myproperty",
+                "raw": "'myproperty'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 638,
+            "end": 643,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 645,
+            "end": 695,
+            "value": "x.hasOwnProperty(\"myproperty\") must return false",
+            "raw": "'x.hasOwnProperty(\"myproperty\") must return false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

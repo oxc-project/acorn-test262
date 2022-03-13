@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 470,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 273,
+      "end": 346,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 277,
+        "end": 292,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 277,
+          "end": 282,
+          "expression": {
+            "type": "UnaryExpression",
+            "start": 278,
+            "end": 281,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "ObjectExpression",
+              "start": 279,
+              "end": 281,
+              "properties": []
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 287,
+          "end": 292,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 294,
+        "end": 346,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 298,
+            "end": 344,
+            "argument": {
+              "type": "NewExpression",
+              "start": 304,
+              "end": 343,
+              "callee": {
+                "type": "Identifier",
+                "start": 308,
+                "end": 320,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 321,
+                  "end": 342,
+                  "value": "#1: !({}) === false",
+                  "raw": "'#1: !({}) === false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 360,
+      "end": 469,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 364,
+        "end": 397,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 364,
+          "end": 387,
+          "operator": "!",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 365,
+            "end": 387,
+            "expression": {
+              "type": "FunctionExpression",
+              "start": 366,
+              "end": 386,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 376,
+                "end": 386,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 377,
+                    "end": 385,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 384,
+                      "end": 385,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 392,
+          "end": 397,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 399,
+        "end": 469,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 403,
+            "end": 467,
+            "argument": {
+              "type": "NewExpression",
+              "start": 409,
+              "end": 466,
+              "callee": {
+                "type": "Identifier",
+                "start": 413,
+                "end": 425,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 426,
+                  "end": 465,
+                  "value": "#2: !(function(){return 1}) === false",
+                  "raw": "'#2: !(function(){return 1}) === false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

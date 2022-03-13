@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 564,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 456,
+      "end": 493,
+      "expression": {
+        "type": "CallExpression",
+        "start": 456,
+        "end": 492,
+        "callee": {
+          "type": "Identifier",
+          "start": 456,
+          "end": 475,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 476,
+            "end": 483,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 485,
+            "end": 491,
+            "value": "race",
+            "raw": "'race'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 494,
+      "end": 526,
+      "expression": {
+        "type": "CallExpression",
+        "start": 494,
+        "end": 525,
+        "callee": {
+          "type": "Identifier",
+          "start": 494,
+          "end": 508,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 509,
+            "end": 516,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 518,
+            "end": 524,
+            "value": "race",
+            "raw": "'race'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 527,
+      "end": 563,
+      "expression": {
+        "type": "CallExpression",
+        "start": 527,
+        "end": 562,
+        "callee": {
+          "type": "Identifier",
+          "start": 527,
+          "end": 545,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 546,
+            "end": 553,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 555,
+            "end": 561,
+            "value": "race",
+            "raw": "'race'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,128 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 409,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 275,
+      "end": 342,
+      "id": {
+        "type": "Identifier",
+        "start": 284,
+        "end": 294,
+        "name": "callbackfn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 295,
+          "end": 298,
+          "name": "val"
+        },
+        {
+          "type": "Identifier",
+          "start": 300,
+          "end": 303,
+          "name": "idx"
+        },
+        {
+          "type": "Identifier",
+          "start": 305,
+          "end": 308,
+          "name": "obj"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 310,
+        "end": 342,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 314,
+            "end": 340,
+            "argument": {
+              "type": "Literal",
+              "start": 321,
+              "end": 339,
+              "value": "non-empty string",
+              "raw": "\"non-empty string\""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 344,
+      "end": 408,
+      "expression": {
+        "type": "CallExpression",
+        "start": 344,
+        "end": 407,
+        "callee": {
+          "type": "Identifier",
+          "start": 344,
+          "end": 350,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 351,
+            "end": 372,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 351,
+              "end": 360,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 351,
+                "end": 355,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 352,
+                    "end": 354,
+                    "value": 11,
+                    "raw": "11"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 360,
+                "name": "some"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 361,
+                "end": 371,
+                "name": "callbackfn"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 374,
+            "end": 406,
+            "value": "[11].some(callbackfn) !== true",
+            "raw": "'[11].some(callbackfn) !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

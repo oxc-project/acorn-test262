@@ -1,0 +1,46 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 805,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 775,
+      "end": 804,
+      "test": {
+        "type": "Literal",
+        "start": 779,
+        "end": 784,
+        "value": false,
+        "raw": "false"
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 786,
+        "end": 804,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 790,
+            "end": 802,
+            "expression": {
+              "type": "UpdateExpression",
+              "start": 790,
+              "end": 801,
+              "operator": "++",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 792,
+                "end": 801,
+                "name": "arguments"
+              }
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

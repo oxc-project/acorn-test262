@@ -1,0 +1,259 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 614,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 347,
+      "end": 358,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 351,
+          "end": 357,
+          "id": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 352,
+            "name": "x"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 355,
+            "end": 357,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 359,
+      "end": 365,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 363,
+          "end": 364,
+          "id": {
+            "type": "Identifier",
+            "start": 363,
+            "end": 364,
+            "name": "y"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 366,
+      "end": 487,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 370,
+        "end": 389,
+        "left": {
+          "type": "CallExpression",
+          "start": 370,
+          "end": 383,
+          "callee": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 374,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 375,
+              "end": 382,
+              "value": "y = x",
+              "raw": "\"y = x\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 388,
+          "end": 389,
+          "name": "x"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 391,
+        "end": 487,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 395,
+            "end": 485,
+            "argument": {
+              "type": "NewExpression",
+              "start": 401,
+              "end": 484,
+              "callee": {
+                "type": "Identifier",
+                "start": 405,
+                "end": 417,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 418,
+                  "end": 483,
+                  "left": {
+                    "type": "Literal",
+                    "start": 418,
+                    "end": 465,
+                    "value": "#1: var x = {}; eval(\"y = x\") === x. Actual: ",
+                    "raw": "'#1: var x = {}; eval(\"y = x\") === x. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 468,
+                    "end": 483,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 469,
+                      "end": 482,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 469,
+                        "end": 473,
+                        "name": "eval"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 474,
+                          "end": 481,
+                          "value": "y = x",
+                          "raw": "\"y = x\""
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 504,
+      "end": 613,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 508,
+        "end": 523,
+        "left": {
+          "type": "CallExpression",
+          "start": 508,
+          "end": 517,
+          "callee": {
+            "type": "Identifier",
+            "start": 508,
+            "end": 512,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 513,
+              "end": 516,
+              "value": "x",
+              "raw": "\"x\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 522,
+          "end": 523,
+          "name": "x"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 525,
+        "end": 613,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 529,
+            "end": 611,
+            "argument": {
+              "type": "NewExpression",
+              "start": 535,
+              "end": 610,
+              "callee": {
+                "type": "Identifier",
+                "start": 539,
+                "end": 551,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 552,
+                  "end": 609,
+                  "left": {
+                    "type": "Literal",
+                    "start": 552,
+                    "end": 595,
+                    "value": "#2: var x = {}; eval(\"x\") === x. Actual: ",
+                    "raw": "'#2: var x = {}; eval(\"x\") === x. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 598,
+                    "end": 609,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 599,
+                      "end": 608,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 599,
+                        "end": 603,
+                        "name": "eval"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 604,
+                          "end": 607,
+                          "value": "x",
+                          "raw": "\"x\""
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,126 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 478,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 335,
+      "end": 382,
+      "expression": {
+        "type": "CallExpression",
+        "start": 335,
+        "end": 381,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 335,
+          "end": 370,
+          "object": {
+            "type": "CallExpression",
+            "start": 335,
+            "end": 365,
+            "callee": {
+              "type": "Identifier",
+              "start": 335,
+              "end": 343,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 344,
+                "end": 364,
+                "value": "this.field=\"oil\"",
+                "raw": "\"this.field=\\\"oil\\\"\""
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 370,
+            "name": "call"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 371,
+            "end": 380,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 384,
+      "end": 477,
+      "expression": {
+        "type": "CallExpression",
+        "start": 384,
+        "end": 476,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 384,
+          "end": 400,
+          "object": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 390,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 400,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 401,
+            "end": 414,
+            "object": {
+              "type": "ThisExpression",
+              "start": 401,
+              "end": 405
+            },
+            "property": {
+              "type": "Literal",
+              "start": 406,
+              "end": 413,
+              "value": "field",
+              "raw": "\"field\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 416,
+            "end": 421,
+            "value": "oil",
+            "raw": "\"oil\""
+          },
+          {
+            "type": "Literal",
+            "start": 423,
+            "end": 475,
+            "value": "The value of this[\"field\"] is expected to be \"oil\"",
+            "raw": "'The value of this[\"field\"] is expected to be \"oil\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,484 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1600,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 461,
+      "end": 711,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 465,
+        "end": 527,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 466,
+          "end": 527,
+          "expression": {
+            "type": "CallExpression",
+            "start": 467,
+            "end": 526,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 467,
+              "end": 516,
+              "object": {
+                "type": "MemberExpression",
+                "start": 467,
+                "end": 501,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 467,
+                  "end": 483,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 467,
+                    "end": 473,
+                    "name": "String"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 474,
+                    "end": 483,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 484,
+                  "end": 501,
+                  "name": "toLocaleLowerCase"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 502,
+                "end": 516,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 517,
+                "end": 525,
+                "value": "length",
+                "raw": "'length'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 529,
+        "end": 711,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 533,
+            "end": 709,
+            "argument": {
+              "type": "NewExpression",
+              "start": 539,
+              "end": 708,
+              "callee": {
+                "type": "Identifier",
+                "start": 543,
+                "end": 555,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 556,
+                  "end": 707,
+                  "left": {
+                    "type": "Literal",
+                    "start": 556,
+                    "end": 645,
+                    "value": "#0: String.prototype.toLocaleLowerCase.hasOwnProperty('length') return true. Actual: ",
+                    "raw": "'#0: String.prototype.toLocaleLowerCase.hasOwnProperty(\\'length\\') return true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 648,
+                    "end": 707,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 648,
+                      "end": 697,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 648,
+                        "end": 682,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 648,
+                          "end": 664,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 648,
+                            "end": 654,
+                            "name": "String"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 655,
+                            "end": 664,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 665,
+                          "end": 682,
+                          "name": "toLocaleLowerCase"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 683,
+                        "end": 697,
+                        "name": "hasOwnProperty"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 698,
+                        "end": 706,
+                        "value": "length",
+                        "raw": "'length'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 886,
+      "end": 1074,
+      "test": {
+        "type": "CallExpression",
+        "start": 890,
+        "end": 955,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 890,
+          "end": 945,
+          "object": {
+            "type": "MemberExpression",
+            "start": 890,
+            "end": 924,
+            "object": {
+              "type": "MemberExpression",
+              "start": 890,
+              "end": 906,
+              "object": {
+                "type": "Identifier",
+                "start": 890,
+                "end": 896,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 897,
+                "end": 906,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 907,
+              "end": 924,
+              "name": "toLocaleLowerCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 925,
+            "end": 945,
+            "name": "propertyIsEnumerable"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 946,
+            "end": 954,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 957,
+        "end": 1074,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 961,
+            "end": 1072,
+            "argument": {
+              "type": "NewExpression",
+              "start": 967,
+              "end": 1071,
+              "callee": {
+                "type": "Identifier",
+                "start": 971,
+                "end": 983,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 984,
+                  "end": 1070,
+                  "value": "#1: String.prototype.toLocaleLowerCase.propertyIsEnumerable('length') return false",
+                  "raw": "'#1: String.prototype.toLocaleLowerCase.propertyIsEnumerable(\\'length\\') return false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1248,
+      "end": 1262,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1252,
+          "end": 1261,
+          "id": {
+            "type": "Identifier",
+            "start": 1252,
+            "end": 1257,
+            "name": "count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1260,
+            "end": 1261,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForInStatement",
+      "start": 1264,
+      "end": 1348,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 1269,
+        "end": 1274,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 1273,
+            "end": 1274,
+            "id": {
+              "type": "Identifier",
+              "start": 1273,
+              "end": 1274,
+              "name": "p"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 1278,
+        "end": 1312,
+        "object": {
+          "type": "MemberExpression",
+          "start": 1278,
+          "end": 1294,
+          "object": {
+            "type": "Identifier",
+            "start": 1278,
+            "end": 1284,
+            "name": "String"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1285,
+            "end": 1294,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 1295,
+          "end": 1312,
+          "name": "toLocaleLowerCase"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 1314,
+        "end": 1348,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 1318,
+            "end": 1346,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 1322,
+              "end": 1336,
+              "left": {
+                "type": "Identifier",
+                "start": 1322,
+                "end": 1323,
+                "name": "p"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 1328,
+                "end": 1336,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            },
+            "consequent": {
+              "type": "ExpressionStatement",
+              "start": 1338,
+              "end": 1346,
+              "expression": {
+                "type": "UpdateExpression",
+                "start": 1338,
+                "end": 1345,
+                "operator": "++",
+                "prefix": false,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1338,
+                  "end": 1343,
+                  "name": "count"
+                }
+              }
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1350,
+      "end": 1517,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1354,
+        "end": 1365,
+        "left": {
+          "type": "Identifier",
+          "start": 1354,
+          "end": 1359,
+          "name": "count"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1364,
+          "end": 1365,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1367,
+        "end": 1517,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1371,
+            "end": 1515,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1377,
+              "end": 1514,
+              "callee": {
+                "type": "Identifier",
+                "start": 1381,
+                "end": 1393,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1394,
+                  "end": 1513,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1394,
+                    "end": 1505,
+                    "value": "#2: count=0; for (p in String.prototype.toLocaleLowerCase){if (p===\"length\") count++;}; count === 0. Actual: ",
+                    "raw": "'#2: count=0; for (p in String.prototype.toLocaleLowerCase){if (p===\"length\") count++;}; count === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 1508,
+                    "end": 1513,
+                    "name": "count"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

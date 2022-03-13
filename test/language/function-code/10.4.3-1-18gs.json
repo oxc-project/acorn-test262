@@ -1,0 +1,65 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 387,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 298,
+      "end": 386,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 302,
+        "end": 340,
+        "left": {
+          "type": "CallExpression",
+          "start": 302,
+          "end": 331,
+          "callee": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 306,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 307,
+              "end": 330,
+              "value": "\"use strict\";\nthis",
+              "raw": "\"\\\"use strict\\\";\\nthis\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "ThisExpression",
+          "start": 336,
+          "end": 340
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 342,
+        "end": 386,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 348,
+            "end": 384,
+            "argument": {
+              "type": "Literal",
+              "start": 354,
+              "end": 383,
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,226 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 477,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 287,
+      "end": 326,
+      "id": {
+        "type": "Identifier",
+        "start": 296,
+        "end": 299,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 302,
+        "end": 326,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 306,
+            "end": 324,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 313,
+              "end": 323,
+              "object": {
+                "type": "Identifier",
+                "start": 313,
+                "end": 316,
+                "name": "bar"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 317,
+                "end": 323,
+                "name": "caller"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 327,
+      "end": 350,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 331,
+          "end": 349,
+          "id": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 334,
+            "name": "bar"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 337,
+            "end": 349,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 337,
+              "end": 345,
+              "object": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 340,
+                "name": "foo"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 345,
+                "name": "bind"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 346,
+                "end": 348,
+                "properties": []
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 352,
+      "end": 386,
+      "id": {
+        "type": "Identifier",
+        "start": 361,
+        "end": 364,
+        "name": "baz"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 367,
+        "end": 386,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 371,
+            "end": 384,
+            "argument": {
+              "type": "CallExpression",
+              "start": 378,
+              "end": 383,
+              "callee": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 381,
+                "name": "bar"
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 476,
+      "expression": {
+        "type": "CallExpression",
+        "start": 388,
+        "end": 475,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 388,
+          "end": 401,
+          "object": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 394,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 401,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 402,
+            "end": 411,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 413,
+            "end": 436,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 424,
+              "end": 436,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 428,
+                  "end": 434,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 428,
+                    "end": 433,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 428,
+                      "end": 431,
+                      "name": "baz"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 438,
+            "end": 474,
+            "value": "baz() throws a TypeError exception",
+            "raw": "'baz() throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

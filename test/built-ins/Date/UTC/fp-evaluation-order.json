@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 857,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 604,
+      "end": 738,
+      "expression": {
+        "type": "CallExpression",
+        "start": 604,
+        "end": 737,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 604,
+          "end": 620,
+          "object": {
+            "type": "Identifier",
+            "start": 604,
+            "end": 610,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 611,
+            "end": 620,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 621,
+            "end": 682,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 621,
+              "end": 629,
+              "object": {
+                "type": "Identifier",
+                "start": 621,
+                "end": 625,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 626,
+                "end": 629,
+                "name": "UTC"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 630,
+                "end": 634,
+                "value": 1970,
+                "raw": "1970"
+              },
+              {
+                "type": "Literal",
+                "start": 636,
+                "end": 637,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 639,
+                "end": 640,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 642,
+                "end": 653,
+                "value": 80063993375,
+                "raw": "80063993375"
+              },
+              {
+                "type": "Literal",
+                "start": 655,
+                "end": 657,
+                "value": 29,
+                "raw": "29"
+              },
+              {
+                "type": "Literal",
+                "start": 659,
+                "end": 660,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 662,
+                "end": 681,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 663,
+                  "end": 681,
+                  "value": 288230376151711740,
+                  "raw": "288230376151711740"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 684,
+            "end": 689,
+            "value": 29312,
+            "raw": "29312"
+          },
+          {
+            "type": "Literal",
+            "start": 691,
+            "end": 736,
+            "value": "order of operations / precision in MakeTime",
+            "raw": "'order of operations / precision in MakeTime'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 739,
+      "end": 856,
+      "expression": {
+        "type": "CallExpression",
+        "start": 739,
+        "end": 855,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 739,
+          "end": 755,
+          "object": {
+            "type": "Identifier",
+            "start": 739,
+            "end": 745,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 746,
+            "end": 755,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 756,
+            "end": 819,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 756,
+              "end": 764,
+              "object": {
+                "type": "Identifier",
+                "start": 756,
+                "end": 760,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 761,
+                "end": 764,
+                "name": "UTC"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 765,
+                "end": 769,
+                "value": 1970,
+                "raw": "1970"
+              },
+              {
+                "type": "Literal",
+                "start": 771,
+                "end": 772,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 774,
+                "end": 786,
+                "value": 213503982336,
+                "raw": "213503982336"
+              },
+              {
+                "type": "Literal",
+                "start": 788,
+                "end": 789,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 791,
+                "end": 792,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 794,
+                "end": 795,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 797,
+                "end": 818,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 798,
+                  "end": 818,
+                  "value": 18446744073709552000,
+                  "raw": "18446744073709552000"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 821,
+            "end": 829,
+            "value": 34447360,
+            "raw": "34447360"
+          },
+          {
+            "type": "Literal",
+            "start": 831,
+            "end": 854,
+            "value": "precision in MakeDate",
+            "raw": "'precision in MakeDate'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

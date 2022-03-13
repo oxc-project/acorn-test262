@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 315,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 229,
+      "end": 259,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 233,
+          "end": 258,
+          "id": {
+            "type": "Identifier",
+            "start": 233,
+            "end": 234,
+            "name": "f"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 237,
+            "end": 258,
+            "object": {
+              "type": "Identifier",
+              "start": 237,
+              "end": 243,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 244,
+              "end": 258,
+              "name": "defineProperty"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 261,
+      "end": 314,
+      "expression": {
+        "type": "CallExpression",
+        "start": 261,
+        "end": 313,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 261,
+          "end": 277,
+          "object": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 267,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 268,
+            "end": 277,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 278,
+            "end": 287,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 284,
+              "end": 287,
+              "expression": {
+                "type": "Identifier",
+                "start": 285,
+                "end": 286,
+                "name": "f"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 289,
+            "end": 299,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 301,
+            "end": 312,
+            "value": "typeof(f)",
+            "raw": "'typeof(f)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

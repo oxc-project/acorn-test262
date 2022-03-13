@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 402,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 328,
+      "end": 369,
+      "expression": {
+        "type": "CallExpression",
+        "start": 328,
+        "end": 368,
+        "callee": {
+          "type": "Identifier",
+          "start": 328,
+          "end": 345,
+          "name": "taintDataProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 346,
+            "end": 362,
+            "object": {
+              "type": "Identifier",
+              "start": 346,
+              "end": 352,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 353,
+              "end": 362,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 364,
+            "end": 367,
+            "value": "1",
+            "raw": "\"1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 370,
+      "end": 401,
+      "expression": {
+        "type": "NewExpression",
+        "start": 370,
+        "end": 400,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 374,
+          "end": 393,
+          "object": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 378,
+            "name": "Intl"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 393,
+            "name": "DateTimeFormat"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 394,
+            "end": 399,
+            "value": "und",
+            "raw": "\"und\""
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

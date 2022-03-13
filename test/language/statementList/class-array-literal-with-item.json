@@ -1,0 +1,45 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 932,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 916,
+      "end": 926,
+      "id": {
+        "type": "Identifier",
+        "start": 922,
+        "end": 923,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 924,
+        "end": 926,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 926,
+      "end": 931,
+      "expression": {
+        "type": "ArrayExpression",
+        "start": 926,
+        "end": 930,
+        "elements": [
+          {
+            "type": "Literal",
+            "start": 927,
+            "end": 929,
+            "value": 42,
+            "raw": "42"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

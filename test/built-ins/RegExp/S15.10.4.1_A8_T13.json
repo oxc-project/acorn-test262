@@ -1,0 +1,198 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 652,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 324,
+      "end": 606,
+      "block": {
+        "type": "BlockStatement",
+        "start": 328,
+        "end": 512,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 334,
+            "end": 510,
+            "argument": {
+              "type": "NewExpression",
+              "start": 340,
+              "end": 509,
+              "callee": {
+                "type": "Identifier",
+                "start": 344,
+                "end": 356,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 357,
+                  "end": 508,
+                  "left": {
+                    "type": "Literal",
+                    "start": 357,
+                    "end": 447,
+                    "value": "#1.1: new RegExp(\"1\", {toString:function(){throw \"intostr\";}}) throw \"intostr\". Actual: ",
+                    "raw": "'#1.1: new RegExp(\"1\", {toString:function(){throw \"intostr\";}}) throw \"intostr\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 450,
+                    "end": 508,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 451,
+                      "end": 507,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 455,
+                        "end": 461,
+                        "name": "RegExp"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 462,
+                          "end": 465,
+                          "value": "1",
+                          "raw": "\"1\""
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "start": 467,
+                          "end": 506,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 468,
+                              "end": 505,
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 468,
+                                "end": 476,
+                                "name": "toString"
+                              },
+                              "value": {
+                                "type": "FunctionExpression",
+                                "start": 477,
+                                "end": 505,
+                                "id": null,
+                                "expression": false,
+                                "generator": false,
+                                "async": false,
+                                "params": [],
+                                "body": {
+                                  "type": "BlockStatement",
+                                  "start": 487,
+                                  "end": 505,
+                                  "body": [
+                                    {
+                                      "type": "ThrowStatement",
+                                      "start": 488,
+                                      "end": 504,
+                                      "argument": {
+                                        "type": "Literal",
+                                        "start": 494,
+                                        "end": 503,
+                                        "value": "intostr",
+                                        "raw": "\"intostr\""
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "kind": "init"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 513,
+        "end": 606,
+        "param": {
+          "type": "Identifier",
+          "start": 520,
+          "end": 521,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 523,
+          "end": 606,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 527,
+              "end": 604,
+              "expression": {
+                "type": "CallExpression",
+                "start": 527,
+                "end": 603,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 527,
+                  "end": 543,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 527,
+                    "end": 533,
+                    "name": "assert"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 534,
+                    "end": 543,
+                    "name": "sameValue"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 544,
+                    "end": 545,
+                    "name": "e"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 547,
+                    "end": 556,
+                    "value": "intostr",
+                    "raw": "\"intostr\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 558,
+                    "end": 602,
+                    "value": "The value of e is expected to be \"intostr\"",
+                    "raw": "'The value of e is expected to be \"intostr\"'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

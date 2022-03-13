@@ -1,0 +1,197 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 522,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 281,
+      "end": 521,
+      "block": {
+        "type": "BlockStatement",
+        "start": 285,
+        "end": 375,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 289,
+            "end": 293,
+            "expression": {
+              "type": "UpdateExpression",
+              "start": 289,
+              "end": 292,
+              "operator": "--",
+              "prefix": false,
+              "argument": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 290,
+                "name": "x"
+              }
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 296,
+            "end": 371,
+            "argument": {
+              "type": "NewExpression",
+              "start": 302,
+              "end": 370,
+              "callee": {
+                "type": "Identifier",
+                "start": 306,
+                "end": 318,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 319,
+                  "end": 369,
+                  "left": {
+                    "type": "Literal",
+                    "start": 319,
+                    "end": 361,
+                    "value": "#1.1: x-- throw ReferenceError. Actual: ",
+                    "raw": "'#1.1: x-- throw ReferenceError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 364,
+                    "end": 369,
+                    "expression": {
+                      "type": "UpdateExpression",
+                      "start": 365,
+                      "end": 368,
+                      "operator": "--",
+                      "prefix": false,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 365,
+                        "end": 366,
+                        "name": "x"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 376,
+        "end": 521,
+        "param": {
+          "type": "Identifier",
+          "start": 383,
+          "end": 384,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 386,
+          "end": 521,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 390,
+              "end": 519,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 394,
+                "end": 432,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 394,
+                  "end": 423,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 395,
+                    "end": 422,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 395,
+                      "end": 396,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 408,
+                      "end": 422,
+                      "name": "ReferenceError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 428,
+                  "end": 432,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 434,
+                "end": 519,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 440,
+                    "end": 513,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 446,
+                      "end": 512,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 450,
+                        "end": 462,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 463,
+                          "end": 511,
+                          "left": {
+                            "type": "Literal",
+                            "start": 463,
+                            "end": 505,
+                            "value": "#1.2: x-- throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: x-- throw ReferenceError. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 508,
+                            "end": 511,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 509,
+                              "end": 510,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

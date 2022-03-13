@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 944,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 484,
+      "end": 588,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 488,
+        "end": 508,
+        "left": {
+          "type": "MemberExpression",
+          "start": 488,
+          "end": 494,
+          "object": {
+            "type": "ThisExpression",
+            "start": 488,
+            "end": 492
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 493,
+            "end": 494,
+            "name": "x"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 499,
+          "end": 508,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 510,
+        "end": 588,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 514,
+            "end": 586,
+            "argument": {
+              "type": "NewExpression",
+              "start": 520,
+              "end": 585,
+              "callee": {
+                "type": "Identifier",
+                "start": 524,
+                "end": 536,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 537,
+                  "end": 584,
+                  "left": {
+                    "type": "Literal",
+                    "start": 537,
+                    "end": 573,
+                    "value": "#1: this.x === undefined. Actual: ",
+                    "raw": "'#1: this.x === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 576,
+                    "end": 584,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 577,
+                      "end": 583,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 577,
+                        "end": 581
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 582,
+                        "end": 583,
+                        "name": "x"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 671,
+      "end": 680,
+      "expression": {
+        "type": "UpdateExpression",
+        "start": 671,
+        "end": 679,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "MemberExpression",
+          "start": 671,
+          "end": 677,
+          "object": {
+            "type": "ThisExpression",
+            "start": 671,
+            "end": 675
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 677,
+            "name": "x"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 770,
+      "end": 861,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 774,
+        "end": 789,
+        "left": {
+          "type": "Identifier",
+          "start": 774,
+          "end": 775,
+          "name": "x"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Identifier",
+          "start": 780,
+          "end": 789,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 791,
+        "end": 861,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 795,
+            "end": 859,
+            "argument": {
+              "type": "NewExpression",
+              "start": 801,
+              "end": 858,
+              "callee": {
+                "type": "Identifier",
+                "start": 805,
+                "end": 817,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 818,
+                  "end": 857,
+                  "value": "#2: this.x; this.x++; x !== undefined",
+                  "raw": "'#2: this.x; this.x++; x !== undefined'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

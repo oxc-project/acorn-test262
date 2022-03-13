@@ -1,0 +1,324 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 789,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 384,
+      "end": 454,
+      "expression": {
+        "type": "CallExpression",
+        "start": 384,
+        "end": 453,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 384,
+          "end": 400,
+          "object": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 390,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 400,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 404,
+            "end": 412,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 411,
+              "end": 412,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 416,
+            "end": 424,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 451,
+            "value": "typeof 1 === \"number\"",
+            "raw": "'typeof 1 === \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 456,
+      "end": 530,
+      "expression": {
+        "type": "CallExpression",
+        "start": 456,
+        "end": 529,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 456,
+          "end": 472,
+          "object": {
+            "type": "Identifier",
+            "start": 456,
+            "end": 462,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 463,
+            "end": 472,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 476,
+            "end": 486,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 483,
+              "end": 486,
+              "name": "NaN"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 490,
+            "end": 498,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 502,
+            "end": 527,
+            "value": "typeof NaN === \"number\"",
+            "raw": "'typeof NaN === \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 532,
+      "end": 616,
+      "expression": {
+        "type": "CallExpression",
+        "start": 532,
+        "end": 615,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 532,
+          "end": 548,
+          "object": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 538,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 539,
+            "end": 548,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 552,
+            "end": 567,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 559,
+              "end": 567,
+              "name": "Infinity"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 571,
+            "end": 579,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 583,
+            "end": 613,
+            "value": "typeof Infinity === \"number\"",
+            "raw": "'typeof Infinity === \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 618,
+      "end": 704,
+      "expression": {
+        "type": "CallExpression",
+        "start": 618,
+        "end": 703,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 618,
+          "end": 634,
+          "object": {
+            "type": "Identifier",
+            "start": 618,
+            "end": 624,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 625,
+            "end": 634,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 638,
+            "end": 654,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 645,
+              "end": 654,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 646,
+                "end": 654,
+                "name": "Infinity"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 658,
+            "end": 666,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 670,
+            "end": 701,
+            "value": "typeof -Infinity === \"number\"",
+            "raw": "'typeof -Infinity === \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 706,
+      "end": 788,
+      "expression": {
+        "type": "CallExpression",
+        "start": 706,
+        "end": 787,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 706,
+          "end": 722,
+          "object": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 712,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 722,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 726,
+            "end": 740,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 733,
+              "end": 740,
+              "object": {
+                "type": "Identifier",
+                "start": 733,
+                "end": 737,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 738,
+                "end": 740,
+                "name": "PI"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 744,
+            "end": 752,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 756,
+            "end": 785,
+            "value": "typeof Math.PI === \"number\"",
+            "raw": "'typeof Math.PI === \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

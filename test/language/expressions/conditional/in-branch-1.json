@@ -1,0 +1,350 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 750,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 488,
+      "end": 507,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 492,
+          "end": 506,
+          "id": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 502,
+            "name": "cond1Count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 505,
+            "end": 506,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 508,
+      "end": 527,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 512,
+          "end": 526,
+          "id": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 522,
+            "name": "cond2Count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 525,
+            "end": 526,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 528,
+      "end": 587,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 532,
+          "end": 586,
+          "id": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 537,
+            "name": "cond1"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 540,
+            "end": 586,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 551,
+              "end": 586,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 555,
+                  "end": 571,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 555,
+                    "end": 570,
+                    "operator": "+=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 555,
+                      "end": 565,
+                      "name": "cond1Count"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 569,
+                      "end": 570,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                },
+                {
+                  "type": "ReturnStatement",
+                  "start": 574,
+                  "end": 584,
+                  "argument": {
+                    "type": "ObjectExpression",
+                    "start": 581,
+                    "end": 583,
+                    "properties": []
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 588,
+      "end": 634,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 592,
+          "end": 633,
+          "id": {
+            "type": "Identifier",
+            "start": 592,
+            "end": 597,
+            "name": "cond2"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 600,
+            "end": 633,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 611,
+              "end": 633,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 615,
+                  "end": 631,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 615,
+                    "end": 630,
+                    "operator": "+=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 615,
+                      "end": 625,
+                      "name": "cond2Count"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 629,
+                      "end": 630,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 635,
+      "end": 682,
+      "init": {
+        "type": "ConditionalExpression",
+        "start": 640,
+        "end": 670,
+        "test": {
+          "type": "Literal",
+          "start": 640,
+          "end": 644,
+          "value": true,
+          "raw": "true"
+        },
+        "consequent": {
+          "type": "BinaryExpression",
+          "start": 647,
+          "end": 660,
+          "left": {
+            "type": "Literal",
+            "start": 647,
+            "end": 649,
+            "value": "",
+            "raw": "''"
+          },
+          "operator": "in",
+          "right": {
+            "type": "CallExpression",
+            "start": 653,
+            "end": 660,
+            "callee": {
+              "type": "Identifier",
+              "start": 653,
+              "end": 658,
+              "name": "cond1"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        },
+        "alternate": {
+          "type": "CallExpression",
+          "start": 663,
+          "end": 670,
+          "callee": {
+            "type": "Identifier",
+            "start": 663,
+            "end": 668,
+            "name": "cond2"
+          },
+          "arguments": [],
+          "optional": false
+        }
+      },
+      "test": {
+        "type": "Literal",
+        "start": 672,
+        "end": 677,
+        "value": false,
+        "raw": "false"
+      },
+      "update": null,
+      "body": {
+        "type": "EmptyStatement",
+        "start": 681,
+        "end": 682
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 684,
+      "end": 716,
+      "expression": {
+        "type": "CallExpression",
+        "start": 684,
+        "end": 715,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 684,
+          "end": 700,
+          "object": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 690,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 700,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 701,
+            "end": 711,
+            "name": "cond1Count"
+          },
+          {
+            "type": "Literal",
+            "start": 713,
+            "end": 714,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 717,
+      "end": 749,
+      "expression": {
+        "type": "CallExpression",
+        "start": 717,
+        "end": 748,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 717,
+          "end": 733,
+          "object": {
+            "type": "Identifier",
+            "start": 717,
+            "end": 723,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 724,
+            "end": 733,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 734,
+            "end": 744,
+            "name": "cond2Count"
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 747,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

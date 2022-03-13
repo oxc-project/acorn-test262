@@ -1,0 +1,310 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 565,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 218,
+      "end": 236,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 222,
+          "end": 235,
+          "id": {
+            "type": "Identifier",
+            "start": 222,
+            "end": 227,
+            "name": "threw"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 230,
+            "end": 235,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 238,
+      "end": 466,
+      "block": {
+        "type": "BlockStatement",
+        "start": 242,
+        "end": 273,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 246,
+            "end": 271,
+            "expression": {
+              "type": "CallExpression",
+              "start": 246,
+              "end": 270,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 246,
+                "end": 262,
+                "object": {
+                  "type": "Identifier",
+                  "start": 246,
+                  "end": 252,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 253,
+                  "end": 262,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 263,
+                  "end": 265,
+                  "properties": []
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 267,
+                  "end": 269,
+                  "properties": []
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 274,
+        "end": 466,
+        "param": {
+          "type": "Identifier",
+          "start": 280,
+          "end": 283,
+          "name": "err"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 285,
+          "end": 466,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 289,
+              "end": 302,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 289,
+                "end": 301,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 289,
+                  "end": 294,
+                  "name": "threw"
+                },
+                "right": {
+                  "type": "Literal",
+                  "start": 297,
+                  "end": 301,
+                  "value": true,
+                  "raw": "true"
+                }
+              }
+            },
+            {
+              "type": "IfStatement",
+              "start": 305,
+              "end": 464,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 309,
+                "end": 341,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 309,
+                  "end": 324,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 309,
+                    "end": 312,
+                    "name": "err"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 313,
+                    "end": 324,
+                    "name": "constructor"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Identifier",
+                  "start": 329,
+                  "end": 341,
+                  "name": "Test262Error"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 343,
+                "end": 464,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 349,
+                    "end": 460,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 355,
+                      "end": 459,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 359,
+                        "end": 364,
+                        "name": "Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 372,
+                          "end": 453,
+                          "left": {
+                            "type": "BinaryExpression",
+                            "start": 372,
+                            "end": 429,
+                            "left": {
+                              "type": "Literal",
+                              "start": 372,
+                              "end": 406,
+                              "value": "Expected a Test262Error, but a \"",
+                              "raw": "'Expected a Test262Error, but a \"'"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "MemberExpression",
+                              "start": 409,
+                              "end": 429,
+                              "object": {
+                                "type": "MemberExpression",
+                                "start": 409,
+                                "end": 424,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 409,
+                                  "end": 412,
+                                  "name": "err"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 413,
+                                  "end": 424,
+                                  "name": "constructor"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 425,
+                                "end": 429,
+                                "name": "name"
+                              },
+                              "computed": false,
+                              "optional": false
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 438,
+                            "end": 453,
+                            "value": "\" was thrown.",
+                            "raw": "'\" was thrown.'"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 468,
+      "end": 564,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 472,
+        "end": 487,
+        "left": {
+          "type": "Identifier",
+          "start": 472,
+          "end": 477,
+          "name": "threw"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 482,
+          "end": 487,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 489,
+        "end": 564,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 493,
+            "end": 562,
+            "argument": {
+              "type": "NewExpression",
+              "start": 499,
+              "end": 561,
+              "callee": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 508,
+                "name": "Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 509,
+                  "end": 560,
+                  "value": "Expected a Test262Error, but no error was thrown.",
+                  "raw": "'Expected a Test262Error, but no error was thrown.'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

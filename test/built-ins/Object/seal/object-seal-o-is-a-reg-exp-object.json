@@ -1,0 +1,220 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 428,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 227,
+      "end": 253,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 231,
+          "end": 252,
+          "id": {
+            "type": "Identifier",
+            "start": 231,
+            "end": 237,
+            "name": "regObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 240,
+            "end": 252,
+            "callee": {
+              "type": "Identifier",
+              "start": 244,
+              "end": 250,
+              "name": "RegExp"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 254,
+      "end": 297,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 258,
+          "end": 296,
+          "id": {
+            "type": "Identifier",
+            "start": 258,
+            "end": 266,
+            "name": "preCheck"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 269,
+            "end": 296,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 269,
+              "end": 288,
+              "object": {
+                "type": "Identifier",
+                "start": 269,
+                "end": 275,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 276,
+                "end": 288,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 289,
+                "end": 295,
+                "name": "regObj"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 298,
+      "end": 318,
+      "expression": {
+        "type": "CallExpression",
+        "start": 298,
+        "end": 317,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 298,
+          "end": 309,
+          "object": {
+            "type": "Identifier",
+            "start": 298,
+            "end": 304,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 309,
+            "name": "seal"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 310,
+            "end": 316,
+            "name": "regObj"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 320,
+      "end": 358,
+      "expression": {
+        "type": "CallExpression",
+        "start": 320,
+        "end": 357,
+        "callee": {
+          "type": "Identifier",
+          "start": 320,
+          "end": 326,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 327,
+            "end": 335,
+            "name": "preCheck"
+          },
+          {
+            "type": "Literal",
+            "start": 337,
+            "end": 356,
+            "value": "preCheck !== true",
+            "raw": "'preCheck !== true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 359,
+      "end": 427,
+      "expression": {
+        "type": "CallExpression",
+        "start": 359,
+        "end": 426,
+        "callee": {
+          "type": "Identifier",
+          "start": 359,
+          "end": 365,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 366,
+            "end": 389,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 366,
+              "end": 381,
+              "object": {
+                "type": "Identifier",
+                "start": 366,
+                "end": 372,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 381,
+                "name": "isSealed"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 382,
+                "end": 388,
+                "name": "regObj"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 391,
+            "end": 425,
+            "value": "Object.isSealed(regObj) !== true",
+            "raw": "'Object.isSealed(regObj) !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

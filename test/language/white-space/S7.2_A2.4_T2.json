@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 380,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 249,
+      "end": 379,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 253,
+        "end": 295,
+        "left": {
+          "type": "Literal",
+          "start": 253,
+          "end": 264,
+          "value": " str ing ",
+          "raw": "\" str ing \""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 269,
+          "end": 295,
+          "value": " str ing ",
+          "raw": "\"\\u0020str\\u0020ing\\u0020\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 297,
+        "end": 379,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 301,
+            "end": 377,
+            "argument": {
+              "type": "NewExpression",
+              "start": 307,
+              "end": 376,
+              "callee": {
+                "type": "Identifier",
+                "start": 311,
+                "end": 323,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 324,
+                  "end": 375,
+                  "value": "#1: \" str ing \" === \"\\u0020str\\u0020ing\\u0020\"",
+                  "raw": "'#1: \" str ing \" === \"\\\\u0020str\\\\u0020ing\\\\u0020\"'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

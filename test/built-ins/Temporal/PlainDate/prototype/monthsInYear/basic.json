@@ -1,0 +1,132 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 365,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 263,
+      "end": 318,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 269,
+          "end": 317,
+          "id": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 278,
+            "name": "plainDate"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 281,
+            "end": 317,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 285,
+              "end": 303,
+              "object": {
+                "type": "Identifier",
+                "start": 285,
+                "end": 293,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 294,
+                "end": 303,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 304,
+                "end": 308,
+                "value": 1976,
+                "raw": "1976"
+              },
+              {
+                "type": "Literal",
+                "start": 310,
+                "end": 312,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 314,
+                "end": 316,
+                "value": 18,
+                "raw": "18"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 319,
+      "end": 364,
+      "expression": {
+        "type": "CallExpression",
+        "start": 319,
+        "end": 363,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 319,
+          "end": 335,
+          "object": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 325,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 335,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 336,
+            "end": 358,
+            "object": {
+              "type": "Identifier",
+              "start": 336,
+              "end": 345,
+              "name": "plainDate"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 346,
+              "end": 358,
+              "name": "monthsInYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 362,
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

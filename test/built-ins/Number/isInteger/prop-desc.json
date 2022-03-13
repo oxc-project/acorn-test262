@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 630,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 510,
+      "end": 551,
+      "expression": {
+        "type": "CallExpression",
+        "start": 510,
+        "end": 550,
+        "callee": {
+          "type": "Identifier",
+          "start": 510,
+          "end": 529,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 530,
+            "end": 536,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 538,
+            "end": 549,
+            "value": "isInteger",
+            "raw": "\"isInteger\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 552,
+      "end": 588,
+      "expression": {
+        "type": "CallExpression",
+        "start": 552,
+        "end": 587,
+        "callee": {
+          "type": "Identifier",
+          "start": 552,
+          "end": 566,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 567,
+            "end": 573,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 575,
+            "end": 586,
+            "value": "isInteger",
+            "raw": "\"isInteger\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 589,
+      "end": 629,
+      "expression": {
+        "type": "CallExpression",
+        "start": 589,
+        "end": 628,
+        "callee": {
+          "type": "Identifier",
+          "start": 589,
+          "end": 607,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 608,
+            "end": 614,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 616,
+            "end": 627,
+            "value": "isInteger",
+            "raw": "\"isInteger\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

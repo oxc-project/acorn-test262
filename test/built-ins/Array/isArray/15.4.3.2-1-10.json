@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 349,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 246,
+      "end": 348,
+      "expression": {
+        "type": "CallExpression",
+        "start": 246,
+        "end": 347,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 246,
+          "end": 262,
+          "object": {
+            "type": "Identifier",
+            "start": 246,
+            "end": 252,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 253,
+            "end": 262,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 263,
+            "end": 290,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 263,
+              "end": 276,
+              "object": {
+                "type": "Identifier",
+                "start": 263,
+                "end": 268,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 269,
+                "end": 276,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 277,
+                "end": 289,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 281,
+                  "end": 287,
+                  "name": "RegExp"
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 292,
+            "end": 297,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 299,
+            "end": 346,
+            "value": "Array.isArray(new RegExp()) must return false",
+            "raw": "'Array.isArray(new RegExp()) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

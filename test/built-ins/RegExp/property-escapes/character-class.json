@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 484,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 339,
+      "end": 352,
+      "expression": {
+        "type": "Literal",
+        "start": 339,
+        "end": 351,
+        "value": {},
+        "raw": "/[\\p{Hex}]/u",
+        "regex": {
+          "pattern": "[\\p{Hex}]",
+          "flags": "u"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 354,
+      "end": 483,
+      "expression": {
+        "type": "CallExpression",
+        "start": 354,
+        "end": 482,
+        "callee": {
+          "type": "Identifier",
+          "start": 354,
+          "end": 360,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 364,
+            "end": 401,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 364,
+              "end": 388,
+              "object": {
+                "type": "Literal",
+                "start": 364,
+                "end": 383,
+                "value": {},
+                "raw": "/[\\p{Hex}\\P{Hex}]/u",
+                "regex": {
+                  "pattern": "[\\p{Hex}\\P{Hex}]",
+                  "flags": "u"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 384,
+                "end": 388,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 389,
+                "end": 400,
+                "value": "𝌆",
+                "raw": "'\\u{1D306}'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 405,
+            "end": 480,
+            "value": "multiple property escapes in a single character class should be supported",
+            "raw": "'multiple property escapes in a single character class should be supported'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

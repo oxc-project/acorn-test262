@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 863,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 675,
+      "end": 726,
+      "expression": {
+        "type": "CallExpression",
+        "start": 675,
+        "end": 725,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 675,
+          "end": 691,
+          "object": {
+            "type": "Identifier",
+            "start": 675,
+            "end": 681,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 682,
+            "end": 691,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 692,
+            "end": 712,
+            "object": {
+              "type": "MemberExpression",
+              "start": 692,
+              "end": 707,
+              "object": {
+                "type": "Identifier",
+                "start": 692,
+                "end": 698,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 699,
+                "end": 707,
+                "name": "isSealed"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 708,
+              "end": 712,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 714,
+            "end": 724,
+            "value": "isSealed",
+            "raw": "\"isSealed\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 728,
+      "end": 773,
+      "expression": {
+        "type": "CallExpression",
+        "start": 728,
+        "end": 772,
+        "callee": {
+          "type": "Identifier",
+          "start": 728,
+          "end": 747,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 748,
+            "end": 763,
+            "object": {
+              "type": "Identifier",
+              "start": 748,
+              "end": 754,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 755,
+              "end": 763,
+              "name": "isSealed"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 765,
+            "end": 771,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 774,
+      "end": 817,
+      "expression": {
+        "type": "CallExpression",
+        "start": 774,
+        "end": 816,
+        "callee": {
+          "type": "Identifier",
+          "start": 774,
+          "end": 791,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 792,
+            "end": 807,
+            "object": {
+              "type": "Identifier",
+              "start": 792,
+              "end": 798,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 799,
+              "end": 807,
+              "name": "isSealed"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 809,
+            "end": 815,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 818,
+      "end": 862,
+      "expression": {
+        "type": "CallExpression",
+        "start": 818,
+        "end": 861,
+        "callee": {
+          "type": "Identifier",
+          "start": 818,
+          "end": 836,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 837,
+            "end": 852,
+            "object": {
+              "type": "Identifier",
+              "start": 837,
+              "end": 843,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 844,
+              "end": 852,
+              "name": "isSealed"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 854,
+            "end": 860,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

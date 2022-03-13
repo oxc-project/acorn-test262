@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 879,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 682,
+      "end": 780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 682,
+        "end": 779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 682,
+          "end": 698,
+          "object": {
+            "type": "Identifier",
+            "start": 682,
+            "end": 688,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 689,
+            "end": 698,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 699,
+            "end": 724,
+            "callee": {
+              "type": "Identifier",
+              "start": 699,
+              "end": 712,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 713,
+                "end": 723,
+                "object": {
+                  "type": "Identifier",
+                  "start": 713,
+                  "end": 717,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 718,
+                  "end": 723,
+                  "name": "atanh"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 726,
+            "end": 731,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 733,
+            "end": 778,
+            "value": "isConstructor(Math.atanh) must return false",
+            "raw": "'isConstructor(Math.atanh) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 782,
+      "end": 877,
+      "expression": {
+        "type": "CallExpression",
+        "start": 782,
+        "end": 876,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 782,
+          "end": 795,
+          "object": {
+            "type": "Identifier",
+            "start": 782,
+            "end": 788,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 789,
+            "end": 795,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 796,
+            "end": 805,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 807,
+            "end": 836,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 813,
+              "end": 836,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 817,
+                  "end": 834,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 817,
+                    "end": 833,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 821,
+                      "end": 831,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 821,
+                        "end": 825,
+                        "name": "Math"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 826,
+                        "end": 831,
+                        "name": "atanh"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 838,
+            "end": 875,
+            "value": "`new Math.atanh()` throws TypeError",
+            "raw": "'`new Math.atanh()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

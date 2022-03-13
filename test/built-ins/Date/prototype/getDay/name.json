@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 908,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 698,
+      "end": 753,
+      "expression": {
+        "type": "CallExpression",
+        "start": 698,
+        "end": 752,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 698,
+          "end": 714,
+          "object": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 704,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 705,
+            "end": 714,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 715,
+            "end": 741,
+            "object": {
+              "type": "MemberExpression",
+              "start": 715,
+              "end": 736,
+              "object": {
+                "type": "MemberExpression",
+                "start": 715,
+                "end": 729,
+                "object": {
+                  "type": "Identifier",
+                  "start": 715,
+                  "end": 719,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 720,
+                  "end": 729,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 730,
+                "end": 736,
+                "name": "getDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 737,
+              "end": 741,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 743,
+            "end": 751,
+            "value": "getDay",
+            "raw": "\"getDay\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 755,
+      "end": 806,
+      "expression": {
+        "type": "CallExpression",
+        "start": 755,
+        "end": 805,
+        "callee": {
+          "type": "Identifier",
+          "start": 755,
+          "end": 774,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 775,
+            "end": 796,
+            "object": {
+              "type": "MemberExpression",
+              "start": 775,
+              "end": 789,
+              "object": {
+                "type": "Identifier",
+                "start": 775,
+                "end": 779,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 780,
+                "end": 789,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 790,
+              "end": 796,
+              "name": "getDay"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 798,
+            "end": 804,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 807,
+      "end": 856,
+      "expression": {
+        "type": "CallExpression",
+        "start": 807,
+        "end": 855,
+        "callee": {
+          "type": "Identifier",
+          "start": 807,
+          "end": 824,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 825,
+            "end": 846,
+            "object": {
+              "type": "MemberExpression",
+              "start": 825,
+              "end": 839,
+              "object": {
+                "type": "Identifier",
+                "start": 825,
+                "end": 829,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 830,
+                "end": 839,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 840,
+              "end": 846,
+              "name": "getDay"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 848,
+            "end": 854,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 857,
+      "end": 907,
+      "expression": {
+        "type": "CallExpression",
+        "start": 857,
+        "end": 906,
+        "callee": {
+          "type": "Identifier",
+          "start": 857,
+          "end": 875,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 876,
+            "end": 897,
+            "object": {
+              "type": "MemberExpression",
+              "start": 876,
+              "end": 890,
+              "object": {
+                "type": "Identifier",
+                "start": 876,
+                "end": 880,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 881,
+                "end": 890,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 891,
+              "end": 897,
+              "name": "getDay"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 899,
+            "end": 905,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,1922 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2105,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 291,
+      "end": 344,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 295,
+        "end": 307,
+        "left": {
+          "type": "Literal",
+          "start": 295,
+          "end": 298,
+          "value": "а",
+          "raw": "\"а\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 303,
+          "end": 307,
+          "value": "а",
+          "raw": "\"\\а\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 309,
+        "end": 344,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 313,
+            "end": 342,
+            "argument": {
+              "type": "NewExpression",
+              "start": 319,
+              "end": 341,
+              "callee": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 335,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 336,
+                  "end": 340,
+                  "value": "#а",
+                  "raw": "'#а'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 346,
+      "end": 399,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 350,
+        "end": 362,
+        "left": {
+          "type": "Literal",
+          "start": 350,
+          "end": 353,
+          "value": "б",
+          "raw": "\"б\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 358,
+          "end": 362,
+          "value": "б",
+          "raw": "\"\\б\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 364,
+        "end": 399,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 368,
+            "end": 397,
+            "argument": {
+              "type": "NewExpression",
+              "start": 374,
+              "end": 396,
+              "callee": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 390,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 391,
+                  "end": 395,
+                  "value": "#б",
+                  "raw": "'#б'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 401,
+      "end": 454,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 405,
+        "end": 417,
+        "left": {
+          "type": "Literal",
+          "start": 405,
+          "end": 408,
+          "value": "в",
+          "raw": "\"в\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 413,
+          "end": 417,
+          "value": "в",
+          "raw": "\"\\в\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 419,
+        "end": 454,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 423,
+            "end": 452,
+            "argument": {
+              "type": "NewExpression",
+              "start": 429,
+              "end": 451,
+              "callee": {
+                "type": "Identifier",
+                "start": 433,
+                "end": 445,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 446,
+                  "end": 450,
+                  "value": "#в",
+                  "raw": "'#в'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 456,
+      "end": 509,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 460,
+        "end": 472,
+        "left": {
+          "type": "Literal",
+          "start": 460,
+          "end": 463,
+          "value": "г",
+          "raw": "\"г\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 468,
+          "end": 472,
+          "value": "г",
+          "raw": "\"\\г\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 474,
+        "end": 509,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 478,
+            "end": 507,
+            "argument": {
+              "type": "NewExpression",
+              "start": 484,
+              "end": 506,
+              "callee": {
+                "type": "Identifier",
+                "start": 488,
+                "end": 500,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 501,
+                  "end": 505,
+                  "value": "#г",
+                  "raw": "'#г'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 511,
+      "end": 564,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 515,
+        "end": 527,
+        "left": {
+          "type": "Literal",
+          "start": 515,
+          "end": 518,
+          "value": "д",
+          "raw": "\"д\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 523,
+          "end": 527,
+          "value": "д",
+          "raw": "\"\\д\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 529,
+        "end": 564,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 533,
+            "end": 562,
+            "argument": {
+              "type": "NewExpression",
+              "start": 539,
+              "end": 561,
+              "callee": {
+                "type": "Identifier",
+                "start": 543,
+                "end": 555,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 556,
+                  "end": 560,
+                  "value": "#д",
+                  "raw": "'#д'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 566,
+      "end": 619,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 570,
+        "end": 582,
+        "left": {
+          "type": "Literal",
+          "start": 570,
+          "end": 573,
+          "value": "е",
+          "raw": "\"е\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 578,
+          "end": 582,
+          "value": "е",
+          "raw": "\"\\е\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 584,
+        "end": 619,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 588,
+            "end": 617,
+            "argument": {
+              "type": "NewExpression",
+              "start": 594,
+              "end": 616,
+              "callee": {
+                "type": "Identifier",
+                "start": 598,
+                "end": 610,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 611,
+                  "end": 615,
+                  "value": "#е",
+                  "raw": "'#е'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 621,
+      "end": 674,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 625,
+        "end": 637,
+        "left": {
+          "type": "Literal",
+          "start": 625,
+          "end": 628,
+          "value": "ж",
+          "raw": "\"ж\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 633,
+          "end": 637,
+          "value": "ж",
+          "raw": "\"\\ж\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 639,
+        "end": 674,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 643,
+            "end": 672,
+            "argument": {
+              "type": "NewExpression",
+              "start": 649,
+              "end": 671,
+              "callee": {
+                "type": "Identifier",
+                "start": 653,
+                "end": 665,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 666,
+                  "end": 670,
+                  "value": "#ж",
+                  "raw": "'#ж'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 676,
+      "end": 729,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 680,
+        "end": 692,
+        "left": {
+          "type": "Literal",
+          "start": 680,
+          "end": 683,
+          "value": "з",
+          "raw": "\"з\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 688,
+          "end": 692,
+          "value": "з",
+          "raw": "\"\\з\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 694,
+        "end": 729,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 698,
+            "end": 727,
+            "argument": {
+              "type": "NewExpression",
+              "start": 704,
+              "end": 726,
+              "callee": {
+                "type": "Identifier",
+                "start": 708,
+                "end": 720,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 721,
+                  "end": 725,
+                  "value": "#з",
+                  "raw": "'#з'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 731,
+      "end": 784,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 735,
+        "end": 747,
+        "left": {
+          "type": "Literal",
+          "start": 735,
+          "end": 738,
+          "value": "и",
+          "raw": "\"и\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 743,
+          "end": 747,
+          "value": "и",
+          "raw": "\"\\и\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 749,
+        "end": 784,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 753,
+            "end": 782,
+            "argument": {
+              "type": "NewExpression",
+              "start": 759,
+              "end": 781,
+              "callee": {
+                "type": "Identifier",
+                "start": 763,
+                "end": 775,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 776,
+                  "end": 780,
+                  "value": "#и",
+                  "raw": "'#и'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 786,
+      "end": 839,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 790,
+        "end": 802,
+        "left": {
+          "type": "Literal",
+          "start": 790,
+          "end": 793,
+          "value": "й",
+          "raw": "\"й\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 798,
+          "end": 802,
+          "value": "й",
+          "raw": "\"\\й\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 804,
+        "end": 839,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 808,
+            "end": 837,
+            "argument": {
+              "type": "NewExpression",
+              "start": 814,
+              "end": 836,
+              "callee": {
+                "type": "Identifier",
+                "start": 818,
+                "end": 830,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 831,
+                  "end": 835,
+                  "value": "#й",
+                  "raw": "'#й'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 841,
+      "end": 894,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 845,
+        "end": 857,
+        "left": {
+          "type": "Literal",
+          "start": 845,
+          "end": 848,
+          "value": "к",
+          "raw": "\"к\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 853,
+          "end": 857,
+          "value": "к",
+          "raw": "\"\\к\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 859,
+        "end": 894,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 863,
+            "end": 892,
+            "argument": {
+              "type": "NewExpression",
+              "start": 869,
+              "end": 891,
+              "callee": {
+                "type": "Identifier",
+                "start": 873,
+                "end": 885,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 886,
+                  "end": 890,
+                  "value": "#к",
+                  "raw": "'#к'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 896,
+      "end": 949,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 900,
+        "end": 912,
+        "left": {
+          "type": "Literal",
+          "start": 900,
+          "end": 903,
+          "value": "л",
+          "raw": "\"л\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 908,
+          "end": 912,
+          "value": "л",
+          "raw": "\"\\л\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 914,
+        "end": 949,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 918,
+            "end": 947,
+            "argument": {
+              "type": "NewExpression",
+              "start": 924,
+              "end": 946,
+              "callee": {
+                "type": "Identifier",
+                "start": 928,
+                "end": 940,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 941,
+                  "end": 945,
+                  "value": "#л",
+                  "raw": "'#л'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 951,
+      "end": 1004,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 955,
+        "end": 967,
+        "left": {
+          "type": "Literal",
+          "start": 955,
+          "end": 958,
+          "value": "м",
+          "raw": "\"м\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 963,
+          "end": 967,
+          "value": "м",
+          "raw": "\"\\м\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 969,
+        "end": 1004,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 973,
+            "end": 1002,
+            "argument": {
+              "type": "NewExpression",
+              "start": 979,
+              "end": 1001,
+              "callee": {
+                "type": "Identifier",
+                "start": 983,
+                "end": 995,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 996,
+                  "end": 1000,
+                  "value": "#м",
+                  "raw": "'#м'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1006,
+      "end": 1059,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1010,
+        "end": 1022,
+        "left": {
+          "type": "Literal",
+          "start": 1010,
+          "end": 1013,
+          "value": "н",
+          "raw": "\"н\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1018,
+          "end": 1022,
+          "value": "н",
+          "raw": "\"\\н\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1024,
+        "end": 1059,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1028,
+            "end": 1057,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1034,
+              "end": 1056,
+              "callee": {
+                "type": "Identifier",
+                "start": 1038,
+                "end": 1050,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1051,
+                  "end": 1055,
+                  "value": "#н",
+                  "raw": "'#н'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1061,
+      "end": 1114,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1065,
+        "end": 1077,
+        "left": {
+          "type": "Literal",
+          "start": 1065,
+          "end": 1068,
+          "value": "о",
+          "raw": "\"о\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1073,
+          "end": 1077,
+          "value": "о",
+          "raw": "\"\\о\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1079,
+        "end": 1114,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1083,
+            "end": 1112,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1089,
+              "end": 1111,
+              "callee": {
+                "type": "Identifier",
+                "start": 1093,
+                "end": 1105,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1106,
+                  "end": 1110,
+                  "value": "#о",
+                  "raw": "'#о'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1116,
+      "end": 1169,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1120,
+        "end": 1132,
+        "left": {
+          "type": "Literal",
+          "start": 1120,
+          "end": 1123,
+          "value": "п",
+          "raw": "\"п\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1128,
+          "end": 1132,
+          "value": "п",
+          "raw": "\"\\п\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1134,
+        "end": 1169,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1138,
+            "end": 1167,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1144,
+              "end": 1166,
+              "callee": {
+                "type": "Identifier",
+                "start": 1148,
+                "end": 1160,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1161,
+                  "end": 1165,
+                  "value": "#п",
+                  "raw": "'#п'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1171,
+      "end": 1224,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1175,
+        "end": 1187,
+        "left": {
+          "type": "Literal",
+          "start": 1175,
+          "end": 1178,
+          "value": "р",
+          "raw": "\"р\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1183,
+          "end": 1187,
+          "value": "р",
+          "raw": "\"\\р\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1189,
+        "end": 1224,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1193,
+            "end": 1222,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1199,
+              "end": 1221,
+              "callee": {
+                "type": "Identifier",
+                "start": 1203,
+                "end": 1215,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1216,
+                  "end": 1220,
+                  "value": "#р",
+                  "raw": "'#р'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1226,
+      "end": 1279,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1230,
+        "end": 1242,
+        "left": {
+          "type": "Literal",
+          "start": 1230,
+          "end": 1233,
+          "value": "с",
+          "raw": "\"с\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1238,
+          "end": 1242,
+          "value": "с",
+          "raw": "\"\\с\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1244,
+        "end": 1279,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1248,
+            "end": 1277,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1254,
+              "end": 1276,
+              "callee": {
+                "type": "Identifier",
+                "start": 1258,
+                "end": 1270,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1271,
+                  "end": 1275,
+                  "value": "#с",
+                  "raw": "'#с'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1281,
+      "end": 1334,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1285,
+        "end": 1297,
+        "left": {
+          "type": "Literal",
+          "start": 1285,
+          "end": 1288,
+          "value": "т",
+          "raw": "\"т\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1293,
+          "end": 1297,
+          "value": "т",
+          "raw": "\"\\т\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1299,
+        "end": 1334,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1303,
+            "end": 1332,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1309,
+              "end": 1331,
+              "callee": {
+                "type": "Identifier",
+                "start": 1313,
+                "end": 1325,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1326,
+                  "end": 1330,
+                  "value": "#т",
+                  "raw": "'#т'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1336,
+      "end": 1389,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1340,
+        "end": 1352,
+        "left": {
+          "type": "Literal",
+          "start": 1340,
+          "end": 1343,
+          "value": "у",
+          "raw": "\"у\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1348,
+          "end": 1352,
+          "value": "у",
+          "raw": "\"\\у\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1354,
+        "end": 1389,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1358,
+            "end": 1387,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1364,
+              "end": 1386,
+              "callee": {
+                "type": "Identifier",
+                "start": 1368,
+                "end": 1380,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1381,
+                  "end": 1385,
+                  "value": "#у",
+                  "raw": "'#у'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1391,
+      "end": 1444,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1395,
+        "end": 1407,
+        "left": {
+          "type": "Literal",
+          "start": 1395,
+          "end": 1398,
+          "value": "ф",
+          "raw": "\"ф\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1403,
+          "end": 1407,
+          "value": "ф",
+          "raw": "\"\\ф\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1409,
+        "end": 1444,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1413,
+            "end": 1442,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1419,
+              "end": 1441,
+              "callee": {
+                "type": "Identifier",
+                "start": 1423,
+                "end": 1435,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1436,
+                  "end": 1440,
+                  "value": "#ф",
+                  "raw": "'#ф'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1446,
+      "end": 1499,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1450,
+        "end": 1462,
+        "left": {
+          "type": "Literal",
+          "start": 1450,
+          "end": 1453,
+          "value": "х",
+          "raw": "\"х\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1458,
+          "end": 1462,
+          "value": "х",
+          "raw": "\"\\х\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1464,
+        "end": 1499,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1468,
+            "end": 1497,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1474,
+              "end": 1496,
+              "callee": {
+                "type": "Identifier",
+                "start": 1478,
+                "end": 1490,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1491,
+                  "end": 1495,
+                  "value": "#х",
+                  "raw": "'#х'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1501,
+      "end": 1554,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1505,
+        "end": 1517,
+        "left": {
+          "type": "Literal",
+          "start": 1505,
+          "end": 1508,
+          "value": "ц",
+          "raw": "\"ц\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1513,
+          "end": 1517,
+          "value": "ц",
+          "raw": "\"\\ц\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1519,
+        "end": 1554,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1523,
+            "end": 1552,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1529,
+              "end": 1551,
+              "callee": {
+                "type": "Identifier",
+                "start": 1533,
+                "end": 1545,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1546,
+                  "end": 1550,
+                  "value": "#ц",
+                  "raw": "'#ц'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1556,
+      "end": 1609,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1560,
+        "end": 1572,
+        "left": {
+          "type": "Literal",
+          "start": 1560,
+          "end": 1563,
+          "value": "ч",
+          "raw": "\"ч\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1568,
+          "end": 1572,
+          "value": "ч",
+          "raw": "\"\\ч\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1574,
+        "end": 1609,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1578,
+            "end": 1607,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1584,
+              "end": 1606,
+              "callee": {
+                "type": "Identifier",
+                "start": 1588,
+                "end": 1600,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1601,
+                  "end": 1605,
+                  "value": "#ч",
+                  "raw": "'#ч'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1611,
+      "end": 1664,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1615,
+        "end": 1627,
+        "left": {
+          "type": "Literal",
+          "start": 1615,
+          "end": 1618,
+          "value": "ш",
+          "raw": "\"ш\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1623,
+          "end": 1627,
+          "value": "ш",
+          "raw": "\"\\ш\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1629,
+        "end": 1664,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1633,
+            "end": 1662,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1639,
+              "end": 1661,
+              "callee": {
+                "type": "Identifier",
+                "start": 1643,
+                "end": 1655,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1656,
+                  "end": 1660,
+                  "value": "#ш",
+                  "raw": "'#ш'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1666,
+      "end": 1719,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1670,
+        "end": 1682,
+        "left": {
+          "type": "Literal",
+          "start": 1670,
+          "end": 1673,
+          "value": "щ",
+          "raw": "\"щ\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1678,
+          "end": 1682,
+          "value": "щ",
+          "raw": "\"\\щ\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1684,
+        "end": 1719,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1688,
+            "end": 1717,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1694,
+              "end": 1716,
+              "callee": {
+                "type": "Identifier",
+                "start": 1698,
+                "end": 1710,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1711,
+                  "end": 1715,
+                  "value": "#щ",
+                  "raw": "'#щ'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1721,
+      "end": 1774,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1725,
+        "end": 1737,
+        "left": {
+          "type": "Literal",
+          "start": 1725,
+          "end": 1728,
+          "value": "ъ",
+          "raw": "\"ъ\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1733,
+          "end": 1737,
+          "value": "ъ",
+          "raw": "\"\\ъ\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1739,
+        "end": 1774,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1743,
+            "end": 1772,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1749,
+              "end": 1771,
+              "callee": {
+                "type": "Identifier",
+                "start": 1753,
+                "end": 1765,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1766,
+                  "end": 1770,
+                  "value": "#ъ",
+                  "raw": "'#ъ'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1776,
+      "end": 1829,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1780,
+        "end": 1792,
+        "left": {
+          "type": "Literal",
+          "start": 1780,
+          "end": 1783,
+          "value": "ы",
+          "raw": "\"ы\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1788,
+          "end": 1792,
+          "value": "ы",
+          "raw": "\"\\ы\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1794,
+        "end": 1829,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1798,
+            "end": 1827,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1804,
+              "end": 1826,
+              "callee": {
+                "type": "Identifier",
+                "start": 1808,
+                "end": 1820,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1821,
+                  "end": 1825,
+                  "value": "#ы",
+                  "raw": "'#ы'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1831,
+      "end": 1884,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1835,
+        "end": 1847,
+        "left": {
+          "type": "Literal",
+          "start": 1835,
+          "end": 1838,
+          "value": "ь",
+          "raw": "\"ь\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1843,
+          "end": 1847,
+          "value": "ь",
+          "raw": "\"\\ь\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1849,
+        "end": 1884,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1853,
+            "end": 1882,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1859,
+              "end": 1881,
+              "callee": {
+                "type": "Identifier",
+                "start": 1863,
+                "end": 1875,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1876,
+                  "end": 1880,
+                  "value": "#ь",
+                  "raw": "'#ь'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1886,
+      "end": 1939,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1890,
+        "end": 1902,
+        "left": {
+          "type": "Literal",
+          "start": 1890,
+          "end": 1893,
+          "value": "э",
+          "raw": "\"э\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1898,
+          "end": 1902,
+          "value": "э",
+          "raw": "\"\\э\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1904,
+        "end": 1939,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1908,
+            "end": 1937,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1914,
+              "end": 1936,
+              "callee": {
+                "type": "Identifier",
+                "start": 1918,
+                "end": 1930,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1931,
+                  "end": 1935,
+                  "value": "#э",
+                  "raw": "'#э'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1941,
+      "end": 1994,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1945,
+        "end": 1957,
+        "left": {
+          "type": "Literal",
+          "start": 1945,
+          "end": 1948,
+          "value": "ю",
+          "raw": "\"ю\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1953,
+          "end": 1957,
+          "value": "ю",
+          "raw": "\"\\ю\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1959,
+        "end": 1994,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1963,
+            "end": 1992,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1969,
+              "end": 1991,
+              "callee": {
+                "type": "Identifier",
+                "start": 1973,
+                "end": 1985,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1986,
+                  "end": 1990,
+                  "value": "#ю",
+                  "raw": "'#ю'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1996,
+      "end": 2049,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2000,
+        "end": 2012,
+        "left": {
+          "type": "Literal",
+          "start": 2000,
+          "end": 2003,
+          "value": "я",
+          "raw": "\"я\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 2008,
+          "end": 2012,
+          "value": "я",
+          "raw": "\"\\я\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2014,
+        "end": 2049,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2018,
+            "end": 2047,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2024,
+              "end": 2046,
+              "callee": {
+                "type": "Identifier",
+                "start": 2028,
+                "end": 2040,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2041,
+                  "end": 2045,
+                  "value": "#я",
+                  "raw": "'#я'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2051,
+      "end": 2104,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2055,
+        "end": 2067,
+        "left": {
+          "type": "Literal",
+          "start": 2055,
+          "end": 2058,
+          "value": "ё",
+          "raw": "\"ё\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 2063,
+          "end": 2067,
+          "value": "ё",
+          "raw": "\"\\ё\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2069,
+        "end": 2104,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2073,
+            "end": 2102,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2079,
+              "end": 2101,
+              "callee": {
+                "type": "Identifier",
+                "start": 2083,
+                "end": 2095,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2096,
+                  "end": 2100,
+                  "value": "#ё",
+                  "raw": "'#ё'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

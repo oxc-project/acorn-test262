@@ -1,0 +1,120 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 705,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 357,
+      "end": 505,
+      "id": {
+        "type": "Identifier",
+        "start": 374,
+        "end": 375,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "AssignmentPattern",
+          "start": 394,
+          "end": 415,
+          "left": {
+            "type": "Identifier",
+            "start": 394,
+            "end": 395,
+            "name": "a"
+          },
+          "right": {
+            "type": "Literal",
+            "start": 414,
+            "end": 415,
+            "value": 0,
+            "raw": "0"
+          }
+        },
+        {
+          "type": "ObjectPattern",
+          "start": 434,
+          "end": 475,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 444,
+              "end": 465,
+              "method": false,
+              "shorthand": true,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 444,
+                "end": 445,
+                "name": "b"
+              },
+              "kind": "init",
+              "value": {
+                "type": "AssignmentPattern",
+                "start": 444,
+                "end": 465,
+                "left": {
+                  "type": "Identifier",
+                  "start": 444,
+                  "end": 445,
+                  "name": "b"
+                },
+                "right": {
+                  "type": "Literal",
+                  "start": 464,
+                  "end": 465,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 494,
+        "end": 505,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 518,
+      "end": 704,
+      "expression": {
+        "type": "CallExpression",
+        "start": 518,
+        "end": 703,
+        "callee": {
+          "type": "Identifier",
+          "start": 518,
+          "end": 548,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 549,
+            "end": 550,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 552,
+            "end": 702,
+            "value": "function /* a */ f /* b */ ( /* c */ a /* d */ = /* e */ 0 /* f */ , /* g */ { /* h */ b /* i */ = /* j */ 0 /* k */ } /* l */ ) /* m */ { /* n */ }",
+            "raw": "\"function /* a */ f /* b */ ( /* c */ a /* d */ = /* e */ 0 /* f */ , /* g */ { /* h */ b /* i */ = /* j */ 0 /* k */ } /* l */ ) /* m */ { /* n */ }\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

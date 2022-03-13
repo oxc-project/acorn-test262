@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 360,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 287,
+      "end": 359,
+      "expression": {
+        "type": "CallExpression",
+        "start": 287,
+        "end": 358,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 287,
+          "end": 300,
+          "object": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 293,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 300,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 301,
+            "end": 312,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 314,
+            "end": 357,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 325,
+              "end": 357,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 331,
+                  "end": 355,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 331,
+                    "end": 354,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 331,
+                      "end": 335,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 336,
+                        "end": 353,
+                        "value": "arguments = 42;",
+                        "raw": "'arguments = 42;'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

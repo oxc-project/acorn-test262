@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 610,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 502,
+      "end": 539,
+      "expression": {
+        "type": "CallExpression",
+        "start": 502,
+        "end": 538,
+        "callee": {
+          "type": "Identifier",
+          "start": 502,
+          "end": 521,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 522,
+            "end": 528,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 530,
+            "end": 537,
+            "value": "isNaN",
+            "raw": "\"isNaN\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 540,
+      "end": 572,
+      "expression": {
+        "type": "CallExpression",
+        "start": 540,
+        "end": 571,
+        "callee": {
+          "type": "Identifier",
+          "start": 540,
+          "end": 554,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 555,
+            "end": 561,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 563,
+            "end": 570,
+            "value": "isNaN",
+            "raw": "\"isNaN\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 573,
+      "end": 609,
+      "expression": {
+        "type": "CallExpression",
+        "start": 573,
+        "end": 608,
+        "callee": {
+          "type": "Identifier",
+          "start": 573,
+          "end": 591,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 592,
+            "end": 598,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 600,
+            "end": 607,
+            "value": "isNaN",
+            "raw": "\"isNaN\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

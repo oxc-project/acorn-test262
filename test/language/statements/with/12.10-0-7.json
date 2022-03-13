@@ -1,0 +1,194 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 419,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 265,
+      "end": 282,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 269,
+          "end": 281,
+          "id": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 270,
+            "name": "o"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 273,
+            "end": 281,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 274,
+                "end": 280,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 274,
+                  "end": 277,
+                  "name": "foo"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 279,
+                  "end": 280,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "WithStatement",
+      "start": 286,
+      "end": 314,
+      "object": {
+        "type": "Identifier",
+        "start": 292,
+        "end": 293,
+        "name": "o"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 295,
+        "end": 314,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 301,
+            "end": 310,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 301,
+              "end": 309,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 301,
+                "end": 304,
+                "name": "foo"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 307,
+                "end": 309,
+                "value": 42,
+                "raw": "42"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "TryStatement",
+      "start": 318,
+      "end": 418,
+      "block": {
+        "type": "BlockStatement",
+        "start": 322,
+        "end": 359,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 328,
+            "end": 332,
+            "expression": {
+              "type": "Identifier",
+              "start": 328,
+              "end": 331,
+              "name": "foo"
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 337,
+            "end": 355,
+            "argument": {
+              "type": "NewExpression",
+              "start": 343,
+              "end": 354,
+              "callee": {
+                "type": "Identifier",
+                "start": 347,
+                "end": 352,
+                "name": "Error"
+              },
+              "arguments": []
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 362,
+        "end": 418,
+        "param": {
+          "type": "Identifier",
+          "start": 369,
+          "end": 370,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 372,
+          "end": 418,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 378,
+              "end": 414,
+              "expression": {
+                "type": "CallExpression",
+                "start": 378,
+                "end": 413,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 378,
+                  "end": 384,
+                  "name": "assert"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 385,
+                    "end": 412,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 385,
+                      "end": 386,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 398,
+                      "end": 412,
+                      "name": "ReferenceError"
+                    }
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

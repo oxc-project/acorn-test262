@@ -1,0 +1,220 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 863,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 606,
+      "end": 666,
+      "expression": {
+        "type": "CallExpression",
+        "start": 606,
+        "end": 665,
+        "callee": {
+          "type": "Identifier",
+          "start": 606,
+          "end": 612,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 616,
+            "end": 634,
+            "left": {
+              "type": "MemberExpression",
+              "start": 616,
+              "end": 630,
+              "object": {
+                "type": "Identifier",
+                "start": 616,
+                "end": 622,
+                "name": "Number"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 623,
+                "end": 630,
+                "name": "EPSILON"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": ">",
+            "right": {
+              "type": "Literal",
+              "start": 633,
+              "end": 634,
+              "value": 0,
+              "raw": "0"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 638,
+            "end": 663,
+            "value": "value is greater than 0",
+            "raw": "\"value is greater than 0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 667,
+      "end": 741,
+      "expression": {
+        "type": "CallExpression",
+        "start": 667,
+        "end": 740,
+        "callee": {
+          "type": "Identifier",
+          "start": 667,
+          "end": 673,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 677,
+            "end": 702,
+            "left": {
+              "type": "MemberExpression",
+              "start": 677,
+              "end": 691,
+              "object": {
+                "type": "Identifier",
+                "start": 677,
+                "end": 683,
+                "name": "Number"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 684,
+                "end": 691,
+                "name": "EPSILON"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "<",
+            "right": {
+              "type": "Literal",
+              "start": 694,
+              "end": 702,
+              "value": 0.000001,
+              "raw": "0.000001"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 706,
+            "end": 738,
+            "value": "value is smaller than 0.000001",
+            "raw": "\"value is smaller than 0.000001\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 743,
+      "end": 782,
+      "expression": {
+        "type": "CallExpression",
+        "start": 743,
+        "end": 781,
+        "callee": {
+          "type": "Identifier",
+          "start": 743,
+          "end": 762,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 763,
+            "end": 769,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 771,
+            "end": 780,
+            "value": "EPSILON",
+            "raw": "\"EPSILON\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 783,
+      "end": 820,
+      "expression": {
+        "type": "CallExpression",
+        "start": 783,
+        "end": 819,
+        "callee": {
+          "type": "Identifier",
+          "start": 783,
+          "end": 800,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 801,
+            "end": 807,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 809,
+            "end": 818,
+            "value": "EPSILON",
+            "raw": "\"EPSILON\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 821,
+      "end": 862,
+      "expression": {
+        "type": "CallExpression",
+        "start": 821,
+        "end": 861,
+        "callee": {
+          "type": "Identifier",
+          "start": 821,
+          "end": 842,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 843,
+            "end": 849,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 851,
+            "end": 860,
+            "value": "EPSILON",
+            "raw": "\"EPSILON\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

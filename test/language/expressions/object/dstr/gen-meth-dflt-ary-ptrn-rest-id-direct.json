@@ -1,0 +1,373 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2223,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1970,
+      "end": 1988,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1974,
+          "end": 1987,
+          "id": {
+            "type": "Identifier",
+            "start": 1974,
+            "end": 1983,
+            "name": "callCount"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1986,
+            "end": 1987,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1989,
+      "end": 2127,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1993,
+          "end": 2126,
+          "id": {
+            "type": "Identifier",
+            "start": 1993,
+            "end": 1996,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1999,
+            "end": 2126,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 2003,
+                "end": 2124,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 2004,
+                  "end": 2010,
+                  "name": "method"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 2010,
+                  "end": 2124,
+                  "id": null,
+                  "expression": false,
+                  "generator": true,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "AssignmentPattern",
+                      "start": 2011,
+                      "end": 2023,
+                      "left": {
+                        "type": "ArrayPattern",
+                        "start": 2011,
+                        "end": 2017,
+                        "elements": [
+                          {
+                            "type": "RestElement",
+                            "start": 2012,
+                            "end": 2016,
+                            "argument": {
+                              "type": "Identifier",
+                              "start": 2015,
+                              "end": 2016,
+                              "name": "x"
+                            }
+                          }
+                        ]
+                      },
+                      "right": {
+                        "type": "ArrayExpression",
+                        "start": 2020,
+                        "end": 2023,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 2021,
+                            "end": 2022,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 2025,
+                    "end": 2124,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 2031,
+                        "end": 2056,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 2031,
+                          "end": 2055,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 2031,
+                            "end": 2037,
+                            "name": "assert"
+                          },
+                          "arguments": [
+                            {
+                              "type": "CallExpression",
+                              "start": 2038,
+                              "end": 2054,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 2038,
+                                "end": 2051,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 2038,
+                                  "end": 2043,
+                                  "name": "Array"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 2044,
+                                  "end": 2051,
+                                  "name": "isArray"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Identifier",
+                                  "start": 2052,
+                                  "end": 2053,
+                                  "name": "x"
+                                }
+                              ],
+                              "optional": false
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 2061,
+                        "end": 2089,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 2061,
+                          "end": 2088,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 2061,
+                            "end": 2080,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 2061,
+                              "end": 2067,
+                              "name": "assert"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 2068,
+                              "end": 2080,
+                              "name": "compareArray"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 2081,
+                              "end": 2082,
+                              "name": "x"
+                            },
+                            {
+                              "type": "ArrayExpression",
+                              "start": 2084,
+                              "end": 2087,
+                              "elements": [
+                                {
+                                  "type": "Literal",
+                                  "start": 2085,
+                                  "end": 2086,
+                                  "value": 1,
+                                  "raw": "1"
+                                }
+                              ]
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 2094,
+                        "end": 2120,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 2094,
+                          "end": 2119,
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 2094,
+                            "end": 2103,
+                            "name": "callCount"
+                          },
+                          "right": {
+                            "type": "BinaryExpression",
+                            "start": 2106,
+                            "end": 2119,
+                            "left": {
+                              "type": "Identifier",
+                              "start": 2106,
+                              "end": 2115,
+                              "name": "callCount"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Literal",
+                              "start": 2118,
+                              "end": 2119,
+                              "value": 1,
+                              "raw": "1"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2129,
+      "end": 2149,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2129,
+        "end": 2148,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2129,
+          "end": 2146,
+          "object": {
+            "type": "CallExpression",
+            "start": 2129,
+            "end": 2141,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2129,
+              "end": 2139,
+              "object": {
+                "type": "Identifier",
+                "start": 2129,
+                "end": 2132,
+                "name": "obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2133,
+                "end": 2139,
+                "name": "method"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2142,
+            "end": 2146,
+            "name": "next"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2150,
+      "end": 2222,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2150,
+        "end": 2221,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2150,
+          "end": 2166,
+          "object": {
+            "type": "Identifier",
+            "start": 2150,
+            "end": 2156,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2157,
+            "end": 2166,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2167,
+            "end": 2176,
+            "name": "callCount"
+          },
+          {
+            "type": "Literal",
+            "start": 2178,
+            "end": 2179,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 2181,
+            "end": 2220,
+            "value": "generator method invoked exactly once",
+            "raw": "'generator method invoked exactly once'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,247 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 612,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 428,
+      "end": 532,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 432,
+          "end": 531,
+          "id": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 439,
+            "name": "locales"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 442,
+            "end": 531,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 446,
+                "end": 516,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 446,
+                  "end": 449,
+                  "value": "0",
+                  "raw": "'0'"
+                },
+                "value": {
+                  "type": "ObjectExpression",
+                  "start": 451,
+                  "end": 516,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 453,
+                      "end": 515,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 453,
+                        "end": 461,
+                        "name": "toString"
+                      },
+                      "value": {
+                        "type": "FunctionExpression",
+                        "start": 463,
+                        "end": 515,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 474,
+                          "end": 515,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 476,
+                              "end": 497,
+                              "expression": {
+                                "type": "AssignmentExpression",
+                                "start": 476,
+                                "end": 496,
+                                "operator": "=",
+                                "left": {
+                                  "type": "MemberExpression",
+                                  "start": 476,
+                                  "end": 486,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 476,
+                                    "end": 483,
+                                    "name": "locales"
+                                  },
+                                  "property": {
+                                    "type": "Literal",
+                                    "start": 484,
+                                    "end": 485,
+                                    "value": 1,
+                                    "raw": "1"
+                                  },
+                                  "computed": true,
+                                  "optional": false
+                                },
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 489,
+                                  "end": 496,
+                                  "value": "pt-BR",
+                                  "raw": "'pt-BR'"
+                                }
+                              }
+                            },
+                            {
+                              "type": "ReturnStatement",
+                              "start": 498,
+                              "end": 513,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 505,
+                                "end": 512,
+                                "value": "en-US",
+                                "raw": "'en-US'"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 520,
+                "end": 529,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 520,
+                  "end": 526,
+                  "name": "length"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 528,
+                  "end": 529,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 534,
+      "end": 611,
+      "expression": {
+        "type": "CallExpression",
+        "start": 534,
+        "end": 610,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 534,
+          "end": 553,
+          "object": {
+            "type": "Identifier",
+            "start": 534,
+            "end": 540,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 541,
+            "end": 553,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 554,
+            "end": 587,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 554,
+              "end": 578,
+              "object": {
+                "type": "Identifier",
+                "start": 554,
+                "end": 558,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 559,
+                "end": 578,
+                "name": "getCanonicalLocales"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 579,
+                "end": 586,
+                "name": "locales"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 589,
+            "end": 609,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 591,
+                "end": 598,
+                "value": "en-US",
+                "raw": "\"en-US\""
+              },
+              {
+                "type": "Literal",
+                "start": 600,
+                "end": 607,
+                "value": "pt-BR",
+                "raw": "\"pt-BR\""
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

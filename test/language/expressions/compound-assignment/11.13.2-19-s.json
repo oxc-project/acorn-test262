@@ -1,0 +1,117 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 430,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 332,
+      "end": 352,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 336,
+          "end": 352,
+          "id": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 347,
+            "name": "_11_13_2_19"
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "start": 350,
+            "end": 352,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 351,
+              "end": 352,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 361,
+      "end": 379,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 361,
+        "end": 378,
+        "operator": "+=",
+        "left": {
+          "type": "Identifier",
+          "start": 361,
+          "end": 372,
+          "name": "_11_13_2_19"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 376,
+          "end": 378,
+          "value": 10,
+          "raw": "10"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 381,
+      "end": 429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 381,
+        "end": 428,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 381,
+          "end": 397,
+          "object": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 387,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 397,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 398,
+            "end": 409,
+            "name": "_11_13_2_19"
+          },
+          {
+            "type": "Literal",
+            "start": 411,
+            "end": 412,
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "type": "Literal",
+            "start": 414,
+            "end": 427,
+            "value": "_11_13_2_19",
+            "raw": "'_11_13_2_19'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

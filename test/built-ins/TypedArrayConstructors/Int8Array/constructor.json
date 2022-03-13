@@ -1,0 +1,67 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 336,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 254,
+      "end": 335,
+      "expression": {
+        "type": "CallExpression",
+        "start": 254,
+        "end": 334,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 254,
+          "end": 270,
+          "object": {
+            "type": "Identifier",
+            "start": 254,
+            "end": 260,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 270,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 271,
+            "end": 287,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 278,
+              "end": 287,
+              "name": "Int8Array"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 289,
+            "end": 299,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 301,
+            "end": 333,
+            "value": "typeof Int8Array is \"function\"",
+            "raw": "'typeof Int8Array is \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

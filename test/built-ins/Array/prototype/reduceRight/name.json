@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 990,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 751,
+      "end": 817,
+      "expression": {
+        "type": "CallExpression",
+        "start": 751,
+        "end": 816,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 751,
+          "end": 767,
+          "object": {
+            "type": "Identifier",
+            "start": 751,
+            "end": 757,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 758,
+            "end": 767,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 768,
+            "end": 800,
+            "object": {
+              "type": "MemberExpression",
+              "start": 768,
+              "end": 795,
+              "object": {
+                "type": "MemberExpression",
+                "start": 768,
+                "end": 783,
+                "object": {
+                  "type": "Identifier",
+                  "start": 768,
+                  "end": 773,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 774,
+                  "end": 783,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 784,
+                "end": 795,
+                "name": "reduceRight"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 796,
+              "end": 800,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 802,
+            "end": 815,
+            "value": "reduceRight",
+            "raw": "\"reduceRight\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 819,
+      "end": 876,
+      "expression": {
+        "type": "CallExpression",
+        "start": 819,
+        "end": 875,
+        "callee": {
+          "type": "Identifier",
+          "start": 819,
+          "end": 838,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 839,
+            "end": 866,
+            "object": {
+              "type": "MemberExpression",
+              "start": 839,
+              "end": 854,
+              "object": {
+                "type": "Identifier",
+                "start": 839,
+                "end": 844,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 845,
+                "end": 854,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 855,
+              "end": 866,
+              "name": "reduceRight"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 868,
+            "end": 874,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 877,
+      "end": 932,
+      "expression": {
+        "type": "CallExpression",
+        "start": 877,
+        "end": 931,
+        "callee": {
+          "type": "Identifier",
+          "start": 877,
+          "end": 894,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 895,
+            "end": 922,
+            "object": {
+              "type": "MemberExpression",
+              "start": 895,
+              "end": 910,
+              "object": {
+                "type": "Identifier",
+                "start": 895,
+                "end": 900,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 901,
+                "end": 910,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 911,
+              "end": 922,
+              "name": "reduceRight"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 924,
+            "end": 930,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 933,
+      "end": 989,
+      "expression": {
+        "type": "CallExpression",
+        "start": 933,
+        "end": 988,
+        "callee": {
+          "type": "Identifier",
+          "start": 933,
+          "end": 951,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 952,
+            "end": 979,
+            "object": {
+              "type": "MemberExpression",
+              "start": 952,
+              "end": 967,
+              "object": {
+                "type": "Identifier",
+                "start": 952,
+                "end": 957,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 958,
+                "end": 967,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 968,
+              "end": 979,
+              "name": "reduceRight"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 981,
+            "end": 987,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

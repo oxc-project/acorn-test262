@@ -1,0 +1,638 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2331,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 342,
+      "end": 386,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 346,
+          "end": 385,
+          "id": {
+            "type": "Identifier",
+            "start": 346,
+            "end": 354,
+            "name": "__constr"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 357,
+            "end": 385,
+            "object": {
+              "type": "MemberExpression",
+              "start": 357,
+              "end": 373,
+              "object": {
+                "type": "Identifier",
+                "start": 357,
+                "end": 363,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 364,
+                "end": 373,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 374,
+              "end": 385,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 388,
+      "end": 434,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 392,
+          "end": 433,
+          "id": {
+            "type": "Identifier",
+            "start": 392,
+            "end": 402,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 405,
+            "end": 433,
+            "callee": {
+              "type": "Identifier",
+              "start": 409,
+              "end": 417,
+              "name": "__constr"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 418,
+                "end": 432,
+                "value": "choosing one",
+                "raw": "\"choosing one\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 526,
+      "end": 744,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 530,
+        "end": 558,
+        "left": {
+          "type": "Identifier",
+          "start": 530,
+          "end": 540,
+          "name": "__instance"
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 544,
+          "end": 558,
+          "value": "choosing one",
+          "raw": "\"choosing one\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 560,
+        "end": 744,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 564,
+            "end": 742,
+            "argument": {
+              "type": "NewExpression",
+              "start": 570,
+              "end": 741,
+              "callee": {
+                "type": "Identifier",
+                "start": 574,
+                "end": 586,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 587,
+                  "end": 740,
+                  "left": {
+                    "type": "Literal",
+                    "start": 587,
+                    "end": 727,
+                    "value": "#0: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance ==\"choosing one\". Actual: __instance ==",
+                    "raw": "'#0: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance ==\"choosing one\". Actual: __instance =='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 730,
+                    "end": 740,
+                    "name": "__instance"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 918,
+      "end": 1172,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 922,
+        "end": 955,
+        "left": {
+          "type": "MemberExpression",
+          "start": 922,
+          "end": 944,
+          "object": {
+            "type": "Identifier",
+            "start": 922,
+            "end": 932,
+            "name": "__instance"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 933,
+            "end": 944,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 949,
+          "end": 955,
+          "name": "String"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 957,
+        "end": 1172,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 961,
+            "end": 1170,
+            "argument": {
+              "type": "NewExpression",
+              "start": 967,
+              "end": 1169,
+              "callee": {
+                "type": "Identifier",
+                "start": 971,
+                "end": 983,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 984,
+                  "end": 1168,
+                  "left": {
+                    "type": "Literal",
+                    "start": 984,
+                    "end": 1143,
+                    "value": "#1: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance.constructor === String. Actual: __instance.constructor ===",
+                    "raw": "'#1: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); __instance.constructor === String. Actual: __instance.constructor ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1146,
+                    "end": 1168,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1146,
+                      "end": 1156,
+                      "name": "__instance"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1157,
+                      "end": 1168,
+                      "name": "constructor"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1346,
+      "end": 1627,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 1350,
+        "end": 1395,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 1351,
+          "end": 1395,
+          "expression": {
+            "type": "CallExpression",
+            "start": 1352,
+            "end": 1394,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1352,
+              "end": 1382,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1352,
+                "end": 1368,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1352,
+                  "end": 1358,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1359,
+                  "end": 1368,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1369,
+                "end": 1382,
+                "name": "isPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1383,
+                "end": 1393,
+                "name": "__instance"
+              }
+            ],
+            "optional": false
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1397,
+        "end": 1627,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1401,
+            "end": 1625,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1407,
+              "end": 1624,
+              "callee": {
+                "type": "Identifier",
+                "start": 1411,
+                "end": 1423,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1424,
+                  "end": 1623,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1424,
+                    "end": 1578,
+                    "value": "#2: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); String.prototype.isPrototypeOf(__instance) return true. Actual: ",
+                    "raw": "'#2: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); String.prototype.isPrototypeOf(__instance) return true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 1581,
+                    "end": 1623,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1581,
+                      "end": 1611,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 1581,
+                        "end": 1597,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1581,
+                          "end": 1587,
+                          "name": "String"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1588,
+                          "end": 1597,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1598,
+                        "end": 1611,
+                        "name": "isPrototypeOf"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1612,
+                        "end": 1622,
+                        "name": "__instance"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1801,
+      "end": 1854,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1805,
+          "end": 1853,
+          "id": {
+            "type": "Identifier",
+            "start": 1805,
+            "end": 1823,
+            "name": "__to_string_result"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 1826,
+            "end": 1853,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 1826,
+              "end": 1847,
+              "left": {
+                "type": "Literal",
+                "start": 1826,
+                "end": 1836,
+                "value": "[object ",
+                "raw": "'[object '"
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 1839,
+                "end": 1847,
+                "value": "String",
+                "raw": "'String'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 1850,
+              "end": 1853,
+              "value": "]",
+              "raw": "']'"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1856,
+      "end": 1889,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 1856,
+        "end": 1888,
+        "operator": "delete",
+        "prefix": true,
+        "argument": {
+          "type": "MemberExpression",
+          "start": 1863,
+          "end": 1888,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1863,
+            "end": 1879,
+            "object": {
+              "type": "Identifier",
+              "start": 1863,
+              "end": 1869,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1870,
+              "end": 1879,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1880,
+            "end": 1888,
+            "name": "toString"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1891,
+      "end": 2248,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1895,
+        "end": 1939,
+        "left": {
+          "type": "CallExpression",
+          "start": 1895,
+          "end": 1916,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1895,
+            "end": 1914,
+            "object": {
+              "type": "Identifier",
+              "start": 1895,
+              "end": 1905,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1906,
+              "end": 1914,
+              "name": "toString"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 1921,
+          "end": 1939,
+          "name": "__to_string_result"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1941,
+        "end": 2248,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1945,
+            "end": 2246,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1951,
+              "end": 2245,
+              "callee": {
+                "type": "Identifier",
+                "start": 1955,
+                "end": 1967,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1968,
+                  "end": 2244,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 1968,
+                    "end": 2223,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 1968,
+                      "end": 2195,
+                      "left": {
+                        "type": "Literal",
+                        "start": 1968,
+                        "end": 2171,
+                        "value": "#3: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); delete String.prototype.toString; __instance.toString() === __to_string_result. Actual: __instance.toString() ===",
+                        "raw": "'#3: __constr = String.prototype.constructor; __instance = new __constr(\"choosing one\"); delete String.prototype.toString; __instance.toString() === __to_string_result. Actual: __instance.toString() ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "CallExpression",
+                        "start": 2174,
+                        "end": 2195,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 2174,
+                          "end": 2193,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2174,
+                            "end": 2184,
+                            "name": "__instance"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2185,
+                            "end": 2193,
+                            "name": "toString"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "start": 2198,
+                      "end": 2223,
+                      "value": " __to_string_result ===",
+                      "raw": "' __to_string_result ==='"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 2226,
+                    "end": 2244,
+                    "name": "__to_string_result"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

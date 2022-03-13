@@ -1,0 +1,486 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 900,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 448,
+      "end": 457,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 452,
+          "end": 456,
+          "id": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 456,
+            "name": "date"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 459,
+      "end": 500,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 459,
+        "end": 499,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 459,
+          "end": 463,
+          "name": "date"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 466,
+          "end": 499,
+          "callee": {
+            "type": "Identifier",
+            "start": 470,
+            "end": 474,
+            "name": "Date"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 475,
+              "end": 479,
+              "value": 1970,
+              "raw": "1970"
+            },
+            {
+              "type": "Literal",
+              "start": 481,
+              "end": 482,
+              "value": 8,
+              "raw": "8"
+            },
+            {
+              "type": "Literal",
+              "start": 484,
+              "end": 486,
+              "value": 10,
+              "raw": "10"
+            },
+            {
+              "type": "Literal",
+              "start": 488,
+              "end": 489,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 491,
+              "end": 492,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 494,
+              "end": 495,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 497,
+              "end": 498,
+              "value": 0,
+              "raw": "0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 502,
+      "end": 589,
+      "expression": {
+        "type": "CallExpression",
+        "start": 502,
+        "end": 588,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 502,
+          "end": 521,
+          "object": {
+            "type": "Identifier",
+            "start": 502,
+            "end": 508,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 521,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 525,
+            "end": 545,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 525,
+              "end": 537,
+              "object": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 529,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 530,
+                "end": 537,
+                "name": "setYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 538,
+                "end": 544,
+                "value": 275760,
+                "raw": "275760"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 547,
+            "end": 550,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 552,
+            "end": 586,
+            "value": "method return value (valid date)",
+            "raw": "'method return value (valid date)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 590,
+      "end": 679,
+      "expression": {
+        "type": "CallExpression",
+        "start": 590,
+        "end": 678,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 590,
+          "end": 609,
+          "object": {
+            "type": "Identifier",
+            "start": 590,
+            "end": 596,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 597,
+            "end": 609,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 613,
+            "end": 627,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 613,
+              "end": 625,
+              "object": {
+                "type": "Identifier",
+                "start": 613,
+                "end": 617,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 618,
+                "end": 625,
+                "name": "valueOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 629,
+            "end": 632,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 634,
+            "end": 676,
+            "value": "[[DateValue]] internal slot (valid date)",
+            "raw": "'[[DateValue]] internal slot (valid date)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 681,
+      "end": 722,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 681,
+        "end": 721,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 681,
+          "end": 685,
+          "name": "date"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 688,
+          "end": 721,
+          "callee": {
+            "type": "Identifier",
+            "start": 692,
+            "end": 696,
+            "name": "Date"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 697,
+              "end": 701,
+              "value": 1970,
+              "raw": "1970"
+            },
+            {
+              "type": "Literal",
+              "start": 703,
+              "end": 704,
+              "value": 8,
+              "raw": "8"
+            },
+            {
+              "type": "Literal",
+              "start": 706,
+              "end": 708,
+              "value": 14,
+              "raw": "14"
+            },
+            {
+              "type": "Literal",
+              "start": 710,
+              "end": 711,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 713,
+              "end": 714,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 716,
+              "end": 717,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 719,
+              "end": 720,
+              "value": 0,
+              "raw": "0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 724,
+      "end": 810,
+      "expression": {
+        "type": "CallExpression",
+        "start": 724,
+        "end": 809,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 724,
+          "end": 740,
+          "object": {
+            "type": "Identifier",
+            "start": 724,
+            "end": 730,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 740,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 744,
+            "end": 764,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 744,
+              "end": 756,
+              "object": {
+                "type": "Identifier",
+                "start": 744,
+                "end": 748,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 749,
+                "end": 756,
+                "name": "setYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 757,
+                "end": 763,
+                "value": 275760,
+                "raw": "275760"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 766,
+            "end": 769,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 771,
+            "end": 807,
+            "value": "method return value (invalid date)",
+            "raw": "'method return value (invalid date)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 811,
+      "end": 899,
+      "expression": {
+        "type": "CallExpression",
+        "start": 811,
+        "end": 898,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 811,
+          "end": 827,
+          "object": {
+            "type": "Identifier",
+            "start": 811,
+            "end": 817,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 818,
+            "end": 827,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 831,
+            "end": 845,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 831,
+              "end": 843,
+              "object": {
+                "type": "Identifier",
+                "start": 831,
+                "end": 835,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 836,
+                "end": 843,
+                "name": "valueOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 847,
+            "end": 850,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 852,
+            "end": 896,
+            "value": "[[DateValue]] internal slot (invalid date)",
+            "raw": "'[[DateValue]] internal slot (invalid date)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

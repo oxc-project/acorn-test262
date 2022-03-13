@@ -1,0 +1,160 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 751,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 351,
+      "end": 750,
+      "block": {
+        "type": "BlockStatement",
+        "start": 354,
+        "end": 535,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 357,
+            "end": 378,
+            "expression": {
+              "type": "BinaryExpression",
+              "start": 357,
+              "end": 377,
+              "left": {
+                "type": "ParenthesizedExpression",
+                "start": 357,
+                "end": 361,
+                "expression": {
+                  "type": "ObjectExpression",
+                  "start": 358,
+                  "end": 360,
+                  "properties": []
+                }
+              },
+              "operator": "instanceof",
+              "right": {
+                "type": "ThisExpression",
+                "start": 373,
+                "end": 377
+              }
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 380,
+            "end": 533,
+            "argument": {
+              "type": "NewExpression",
+              "start": 386,
+              "end": 532,
+              "callee": {
+                "type": "Identifier",
+                "start": 390,
+                "end": 402,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 403,
+                  "end": 531,
+                  "value": "#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator",
+                  "raw": "'#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 536,
+        "end": 750,
+        "param": {
+          "type": "Identifier",
+          "start": 542,
+          "end": 543,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 544,
+          "end": 750,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 548,
+              "end": 748,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 552,
+                "end": 583,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 552,
+                  "end": 574,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 552,
+                    "end": 553,
+                    "name": "e"
+                  },
+                  "operator": "instanceof",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 565,
+                    "end": 574,
+                    "name": "TypeError"
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 579,
+                  "end": 583,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 585,
+                "end": 748,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 591,
+                    "end": 744,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 597,
+                      "end": 743,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 601,
+                        "end": 613,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 614,
+                          "end": 742,
+                          "value": "#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator",
+                          "raw": "'#1: Only Function objects implement [[HasInstance]] and consequently can be proper ShiftExpression for The instanceof operator'"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

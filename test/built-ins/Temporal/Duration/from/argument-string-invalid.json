@@ -1,0 +1,286 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 615,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 234,
+      "end": 516,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 240,
+          "end": 515,
+          "id": {
+            "type": "Identifier",
+            "start": 240,
+            "end": 245,
+            "name": "tests"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 248,
+            "end": 515,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 252,
+                "end": 283,
+                "value": "P1Y1M1W1DT1H1M1.123456789123S",
+                "raw": "\"P1Y1M1W1DT1H1M1.123456789123S\""
+              },
+              {
+                "type": "Literal",
+                "start": 287,
+                "end": 294,
+                "value": "P0.5Y",
+                "raw": "\"P0.5Y\""
+              },
+              {
+                "type": "Literal",
+                "start": 298,
+                "end": 307,
+                "value": "P1Y0,5M",
+                "raw": "\"P1Y0,5M\""
+              },
+              {
+                "type": "Literal",
+                "start": 311,
+                "end": 322,
+                "value": "P1Y1M0.5W",
+                "raw": "\"P1Y1M0.5W\""
+              },
+              {
+                "type": "Literal",
+                "start": 326,
+                "end": 339,
+                "value": "P1Y1M1W0,5D",
+                "raw": "\"P1Y1M1W0,5D\""
+              },
+              {
+                "type": "Literal",
+                "start": 343,
+                "end": 361,
+                "value": "P1Y1M1W1DT0.5H5S",
+                "raw": "\"P1Y1M1W1DT0.5H5S\""
+              },
+              {
+                "type": "Literal",
+                "start": 365,
+                "end": 385,
+                "value": "P1Y1M1W1DT1.5H0,5M",
+                "raw": "\"P1Y1M1W1DT1.5H0,5M\""
+              },
+              {
+                "type": "Literal",
+                "start": 389,
+                "end": 411,
+                "value": "P1Y1M1W1DT1H0.5M0.5S",
+                "raw": "\"P1Y1M1W1DT1H0.5M0.5S\""
+              },
+              {
+                "type": "Literal",
+                "start": 415,
+                "end": 418,
+                "value": "P",
+                "raw": "\"P\""
+              },
+              {
+                "type": "Literal",
+                "start": 422,
+                "end": 426,
+                "value": "PT",
+                "raw": "\"PT\""
+              },
+              {
+                "type": "Literal",
+                "start": 430,
+                "end": 434,
+                "value": "-P",
+                "raw": "\"-P\""
+              },
+              {
+                "type": "Literal",
+                "start": 438,
+                "end": 443,
+                "value": "-PT",
+                "raw": "\"-PT\""
+              },
+              {
+                "type": "Literal",
+                "start": 447,
+                "end": 451,
+                "value": "+P",
+                "raw": "\"+P\""
+              },
+              {
+                "type": "Literal",
+                "start": 455,
+                "end": 460,
+                "value": "+PT",
+                "raw": "\"+PT\""
+              },
+              {
+                "type": "Literal",
+                "start": 464,
+                "end": 489,
+                "value": "P1Y1M1W1DT1H1M1.01Sjunk",
+                "raw": "\"P1Y1M1W1DT1H1M1.01Sjunk\""
+              },
+              {
+                "type": "Literal",
+                "start": 493,
+                "end": 501,
+                "value": "P-1Y1M",
+                "raw": "\"P-1Y1M\""
+              },
+              {
+                "type": "Literal",
+                "start": 505,
+                "end": 513,
+                "value": "P1Y-1M",
+                "raw": "\"P1Y-1M\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 518,
+      "end": 614,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 523,
+        "end": 534,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 529,
+            "end": 534,
+            "id": {
+              "type": "Identifier",
+              "start": 529,
+              "end": 534,
+              "name": "input"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 538,
+        "end": 543,
+        "name": "tests"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 545,
+        "end": 614,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 549,
+            "end": 612,
+            "expression": {
+              "type": "CallExpression",
+              "start": 549,
+              "end": 611,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 549,
+                "end": 562,
+                "object": {
+                  "type": "Identifier",
+                  "start": 549,
+                  "end": 555,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 556,
+                  "end": 562,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 563,
+                  "end": 573,
+                  "name": "RangeError"
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 575,
+                  "end": 610,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 581,
+                    "end": 610,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 581,
+                      "end": 603,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 581,
+                        "end": 598,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 581,
+                          "end": 589,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 590,
+                          "end": 598,
+                          "name": "Duration"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 599,
+                        "end": 603,
+                        "name": "from"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 604,
+                        "end": 609,
+                        "name": "input"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

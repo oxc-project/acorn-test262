@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 981,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 819,
+      "end": 832,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 823,
+          "end": 831,
+          "id": {
+            "type": "Identifier",
+            "start": 823,
+            "end": 825,
+            "name": "re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 828,
+            "end": 831,
+            "value": {},
+            "raw": "/./",
+            "regex": {
+              "pattern": ".",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 834,
+      "end": 868,
+      "expression": {
+        "type": "CallExpression",
+        "start": 834,
+        "end": 867,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 834,
+          "end": 850,
+          "object": {
+            "type": "Identifier",
+            "start": 834,
+            "end": 840,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 841,
+            "end": 850,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 851,
+            "end": 863,
+            "object": {
+              "type": "Identifier",
+              "start": 851,
+              "end": 853,
+              "name": "re"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 854,
+              "end": 863,
+              "name": "lastIndex"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 865,
+            "end": 866,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 870,
+      "end": 907,
+      "expression": {
+        "type": "CallExpression",
+        "start": 870,
+        "end": 906,
+        "callee": {
+          "type": "Identifier",
+          "start": 870,
+          "end": 889,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 890,
+            "end": 892,
+            "name": "re"
+          },
+          {
+            "type": "Literal",
+            "start": 894,
+            "end": 905,
+            "value": "lastIndex",
+            "raw": "'lastIndex'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 908,
+      "end": 940,
+      "expression": {
+        "type": "CallExpression",
+        "start": 908,
+        "end": 939,
+        "callee": {
+          "type": "Identifier",
+          "start": 908,
+          "end": 922,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 923,
+            "end": 925,
+            "name": "re"
+          },
+          {
+            "type": "Literal",
+            "start": 927,
+            "end": 938,
+            "value": "lastIndex",
+            "raw": "'lastIndex'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 941,
+      "end": 980,
+      "expression": {
+        "type": "CallExpression",
+        "start": 941,
+        "end": 979,
+        "callee": {
+          "type": "Identifier",
+          "start": 941,
+          "end": 962,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 963,
+            "end": 965,
+            "name": "re"
+          },
+          {
+            "type": "Literal",
+            "start": 967,
+            "end": 978,
+            "value": "lastIndex",
+            "raw": "'lastIndex'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

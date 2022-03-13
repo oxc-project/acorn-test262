@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 704,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 330,
+      "end": 343,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 334,
+          "end": 342,
+          "id": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 339,
+            "name": "__obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 340,
+            "end": 342,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 355,
+      "end": 522,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 359,
+        "end": 385,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 360,
+          "end": 385,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 361,
+            "end": 384,
+            "left": {
+              "type": "Identifier",
+              "start": 361,
+              "end": 366,
+              "name": "__obj"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 378,
+              "end": 384,
+              "name": "Object"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 387,
+        "end": 522,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 390,
+            "end": 520,
+            "argument": {
+              "type": "NewExpression",
+              "start": 396,
+              "end": 519,
+              "callee": {
+                "type": "Identifier",
+                "start": 400,
+                "end": 412,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 413,
+                  "end": 518,
+                  "value": "#1: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression",
+                  "raw": "'#1: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 534,
+      "end": 703,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 538,
+        "end": 566,
+        "left": {
+          "type": "MemberExpression",
+          "start": 538,
+          "end": 555,
+          "object": {
+            "type": "Identifier",
+            "start": 538,
+            "end": 543,
+            "name": "__obj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 544,
+            "end": 555,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 560,
+          "end": 566,
+          "name": "Object"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 568,
+        "end": 703,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 571,
+            "end": 701,
+            "argument": {
+              "type": "NewExpression",
+              "start": 577,
+              "end": 700,
+              "callee": {
+                "type": "Identifier",
+                "start": 581,
+                "end": 593,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 594,
+                  "end": 699,
+                  "value": "#2: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression",
+                  "raw": "'#2: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

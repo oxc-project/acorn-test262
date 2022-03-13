@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 620,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 308,
+      "end": 341,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 312,
+          "end": 340,
+          "id": {
+            "type": "Identifier",
+            "start": 312,
+            "end": 313,
+            "name": "x"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 316,
+            "end": 340,
+            "object": {
+              "type": "MemberExpression",
+              "start": 316,
+              "end": 330,
+              "object": {
+                "type": "Identifier",
+                "start": 316,
+                "end": 320,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 330,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 331,
+              "end": 340,
+              "name": "getUTCDay"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 342,
+      "end": 431,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 346,
+        "end": 353,
+        "left": {
+          "type": "Identifier",
+          "start": 346,
+          "end": 347,
+          "name": "x"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 352,
+          "end": 353,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 355,
+        "end": 390,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 359,
+            "end": 388,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 359,
+              "end": 387,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 359,
+                "end": 383,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 359,
+                  "end": 373,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 359,
+                    "end": 363,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 364,
+                    "end": 373,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 374,
+                  "end": 383,
+                  "name": "getUTCDay"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 386,
+                "end": 387,
+                "value": 2,
+                "raw": "2"
+              }
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 396,
+        "end": 431,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 400,
+            "end": 429,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 400,
+              "end": 428,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 400,
+                "end": 424,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 400,
+                  "end": 414,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 400,
+                    "end": 404,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 405,
+                    "end": 414,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 415,
+                  "end": 424,
+                  "name": "getUTCDay"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 427,
+                "end": 428,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 433,
+      "end": 573,
+      "expression": {
+        "type": "CallExpression",
+        "start": 433,
+        "end": 572,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 433,
+          "end": 452,
+          "object": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 439,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 440,
+            "end": 452,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 456,
+            "end": 480,
+            "object": {
+              "type": "MemberExpression",
+              "start": 456,
+              "end": 470,
+              "object": {
+                "type": "Identifier",
+                "start": 456,
+                "end": 460,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 461,
+                "end": 470,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 471,
+              "end": 480,
+              "name": "getUTCDay"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 484,
+            "end": 485,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 489,
+            "end": 570,
+            "value": "The value of Date.prototype.getUTCDay is expected to not equal the value of `x`",
+            "raw": "'The value of Date.prototype.getUTCDay is expected to not equal the value of `x`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

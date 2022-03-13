@@ -1,0 +1,432 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 785,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 385,
+      "end": 411,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 389,
+          "end": 410,
+          "id": {
+            "type": "Identifier",
+            "start": 389,
+            "end": 403,
+            "name": "templateObject"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 406,
+            "end": 410,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 412,
+      "end": 435,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 416,
+          "end": 434,
+          "id": {
+            "type": "Identifier",
+            "start": 416,
+            "end": 426,
+            "name": "threwError"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 429,
+            "end": 434,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 436,
+      "end": 494,
+      "expression": {
+        "type": "TaggedTemplateExpression",
+        "start": 436,
+        "end": 493,
+        "tag": {
+          "type": "ParenthesizedExpression",
+          "start": 436,
+          "end": 491,
+          "expression": {
+            "type": "FunctionExpression",
+            "start": 437,
+            "end": 490,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 446,
+                "end": 455,
+                "name": "parameter"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 457,
+              "end": 490,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 461,
+                  "end": 488,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 461,
+                    "end": 487,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 461,
+                      "end": 475,
+                      "name": "templateObject"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 478,
+                      "end": 487,
+                      "name": "parameter"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 491,
+          "end": 493,
+          "expressions": [],
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 492,
+              "end": 492,
+              "value": {
+                "raw": "",
+                "cooked": ""
+              },
+              "tail": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 496,
+      "end": 528,
+      "expression": {
+        "type": "CallExpression",
+        "start": 496,
+        "end": 527,
+        "callee": {
+          "type": "Identifier",
+          "start": 496,
+          "end": 502,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 503,
+            "end": 526,
+            "left": {
+              "type": "Identifier",
+              "start": 503,
+              "end": 517,
+              "name": "templateObject"
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 522,
+              "end": 526,
+              "value": null,
+              "raw": "null"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 530,
+      "end": 608,
+      "expression": {
+        "type": "CallExpression",
+        "start": 530,
+        "end": 607,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 530,
+          "end": 543,
+          "object": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 536,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 537,
+            "end": 543,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 544,
+            "end": 553,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 555,
+            "end": 606,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 566,
+              "end": 606,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 570,
+                  "end": 604,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 570,
+                    "end": 603,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 570,
+                      "end": 596,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 570,
+                        "end": 584,
+                        "name": "templateObject"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 585,
+                        "end": 596,
+                        "name": "test262Prop"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 599,
+                      "end": 603,
+                      "value": true,
+                      "raw": "true"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 610,
+      "end": 700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 610,
+        "end": 699,
+        "callee": {
+          "type": "Identifier",
+          "start": 610,
+          "end": 616,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 620,
+            "end": 652,
+            "left": {
+              "type": "MemberExpression",
+              "start": 620,
+              "end": 638,
+              "object": {
+                "type": "Identifier",
+                "start": 620,
+                "end": 634,
+                "name": "templateObject"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 635,
+                "end": 638,
+                "name": "raw"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "start": 643,
+              "end": 652,
+              "name": "undefined"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 655,
+            "end": 697,
+            "value": "Template object defines a `raw` property",
+            "raw": "'Template object defines a `raw` property'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 702,
+      "end": 784,
+      "expression": {
+        "type": "CallExpression",
+        "start": 702,
+        "end": 783,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 702,
+          "end": 715,
+          "object": {
+            "type": "Identifier",
+            "start": 702,
+            "end": 708,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 709,
+            "end": 715,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 716,
+            "end": 725,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 727,
+            "end": 782,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 738,
+              "end": 782,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 742,
+                  "end": 780,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 742,
+                    "end": 779,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 742,
+                      "end": 772,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 742,
+                        "end": 760,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 742,
+                          "end": 756,
+                          "name": "templateObject"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 757,
+                          "end": 760,
+                          "name": "raw"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 761,
+                        "end": 772,
+                        "name": "test262Prop"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 775,
+                      "end": 779,
+                      "value": true,
+                      "raw": "true"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

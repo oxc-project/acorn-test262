@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1069,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 935,
+      "end": 955,
+      "id": {
+        "type": "Identifier",
+        "start": 944,
+        "end": 950,
+        "name": "Custom"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 953,
+        "end": 955,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 957,
+      "end": 1038,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 961,
+          "end": 1037,
+          "id": {
+            "type": "Identifier",
+            "start": 961,
+            "end": 962,
+            "name": "p"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 965,
+            "end": 1037,
+            "callee": {
+              "type": "Identifier",
+              "start": 969,
+              "end": 974,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 975,
+                "end": 977,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 979,
+                "end": 1036,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 983,
+                    "end": 1034,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 983,
+                      "end": 997,
+                      "name": "getPrototypeOf"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 997,
+                      "end": 1034,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 1000,
+                        "end": 1034,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 1006,
+                            "end": 1030,
+                            "argument": {
+                              "type": "MemberExpression",
+                              "start": 1013,
+                              "end": 1029,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1013,
+                                "end": 1019,
+                                "name": "Custom"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1020,
+                                "end": 1029,
+                                "name": "prototype"
+                              },
+                              "computed": false,
+                              "optional": false
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1040,
+      "end": 1068,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1040,
+        "end": 1067,
+        "callee": {
+          "type": "Identifier",
+          "start": 1040,
+          "end": 1046,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 1047,
+            "end": 1066,
+            "left": {
+              "type": "Identifier",
+              "start": 1047,
+              "end": 1048,
+              "name": "p"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 1060,
+              "end": 1066,
+              "name": "Custom"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

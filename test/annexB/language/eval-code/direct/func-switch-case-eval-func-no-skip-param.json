@@ -1,0 +1,265 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1007,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 686,
+      "end": 702,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 690,
+          "end": 694,
+          "id": {
+            "type": "Identifier",
+            "start": 690,
+            "end": 694,
+            "name": "init"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 696,
+          "end": 701,
+          "id": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 701,
+            "name": "after"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 704,
+      "end": 842,
+      "expression": {
+        "type": "ParenthesizedExpression",
+        "start": 704,
+        "end": 841,
+        "expression": {
+          "type": "CallExpression",
+          "start": 705,
+          "end": 840,
+          "callee": {
+            "type": "FunctionExpression",
+            "start": 705,
+            "end": 835,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 714,
+                "end": 715,
+                "name": "f"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 717,
+              "end": 835,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 721,
+                  "end": 833,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 721,
+                    "end": 832,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 721,
+                      "end": 725,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 731,
+                        "end": 828,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 731,
+                          "end": 802,
+                          "left": {
+                            "type": "BinaryExpression",
+                            "start": 731,
+                            "end": 772,
+                            "left": {
+                              "type": "Literal",
+                              "start": 731,
+                              "end": 754,
+                              "value": "init = f;switch (1) {",
+                              "raw": "'init = f;switch (1) {'"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Literal",
+                              "start": 761,
+                              "end": 772,
+                              "value": "  case 1:",
+                              "raw": "'  case 1:'"
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 779,
+                            "end": 802,
+                            "value": "    function f() {  }",
+                            "raw": "'    function f() {  }'"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 809,
+                          "end": 828,
+                          "value": "}    after = f;",
+                          "raw": "'}\\\n    after = f;'"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 836,
+              "end": 839,
+              "value": 123,
+              "raw": "123"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 844,
+      "end": 917,
+      "expression": {
+        "type": "CallExpression",
+        "start": 844,
+        "end": 916,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 844,
+          "end": 860,
+          "object": {
+            "type": "Identifier",
+            "start": 844,
+            "end": 850,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 851,
+            "end": 860,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 861,
+            "end": 865,
+            "name": "init"
+          },
+          {
+            "type": "Literal",
+            "start": 867,
+            "end": 870,
+            "value": 123,
+            "raw": "123"
+          },
+          {
+            "type": "Literal",
+            "start": 872,
+            "end": 915,
+            "value": "binding is not initialized to `undefined`",
+            "raw": "'binding is not initialized to `undefined`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 918,
+      "end": 1006,
+      "expression": {
+        "type": "CallExpression",
+        "start": 918,
+        "end": 1005,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 918,
+          "end": 934,
+          "object": {
+            "type": "Identifier",
+            "start": 918,
+            "end": 924,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 925,
+            "end": 934,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 938,
+            "end": 950,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 945,
+              "end": 950,
+              "name": "after"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 952,
+            "end": 962,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 964,
+            "end": 1003,
+            "value": "value is updated following evaluation",
+            "raw": "'value is updated following evaluation'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

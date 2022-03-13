@@ -1,0 +1,51 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 699,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 575,
+      "end": 624,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 582,
+        "end": 623,
+        "value": "./eval-rqstd-abrupt-err-type_FIXTURE.js",
+        "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 625,
+      "end": 673,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 632,
+        "end": 672,
+        "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js",
+        "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ThrowStatement",
+      "start": 675,
+      "end": 698,
+      "argument": {
+        "type": "NewExpression",
+        "start": 681,
+        "end": 697,
+        "callee": {
+          "type": "Identifier",
+          "start": 685,
+          "end": 695,
+          "name": "RangeError"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "module"
+}

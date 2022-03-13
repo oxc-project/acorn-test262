@@ -1,0 +1,79 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 408,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 344,
+      "end": 407,
+      "expression": {
+        "type": "CallExpression",
+        "start": 344,
+        "end": 406,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 344,
+          "end": 360,
+          "object": {
+            "type": "Identifier",
+            "start": 344,
+            "end": 350,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 360,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 361,
+            "end": 398,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 361,
+              "end": 382,
+              "object": {
+                "type": "Identifier",
+                "start": 361,
+                "end": 367,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 382,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 383,
+                "end": 397,
+                "name": "ReferenceError"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 400,
+            "end": 405,
+            "name": "Error"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,413 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1137,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 864,
+      "end": 878,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 868,
+          "end": 877,
+          "id": {
+            "type": "Identifier",
+            "start": 868,
+            "end": 873,
+            "name": "count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 876,
+            "end": 877,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 879,
+      "end": 898,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 883,
+          "end": 897,
+          "id": {
+            "type": "Identifier",
+            "start": 883,
+            "end": 888,
+            "name": "scope"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 891,
+            "end": 897,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 892,
+                "end": 896,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 892,
+                  "end": 893,
+                  "name": "x"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 895,
+                  "end": 896,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "WithStatement",
+      "start": 900,
+      "end": 1082,
+      "object": {
+        "type": "Identifier",
+        "start": 906,
+        "end": 911,
+        "name": "scope"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 913,
+        "end": 1082,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 917,
+            "end": 1080,
+            "expression": {
+              "type": "CallExpression",
+              "start": 917,
+              "end": 1079,
+              "callee": {
+                "type": "ParenthesizedExpression",
+                "start": 917,
+                "end": 1077,
+                "expression": {
+                  "type": "FunctionExpression",
+                  "start": 918,
+                  "end": 1076,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 929,
+                    "end": 1076,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 935,
+                        "end": 948,
+                        "expression": {
+                          "type": "Literal",
+                          "start": 935,
+                          "end": 947,
+                          "value": "use strict",
+                          "raw": "\"use strict\""
+                        },
+                        "directive": "use strict"
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 953,
+                        "end": 1059,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 953,
+                          "end": 1058,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 953,
+                            "end": 966,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 953,
+                              "end": 959,
+                              "name": "assert"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 960,
+                              "end": 966,
+                              "name": "throws"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 967,
+                              "end": 981,
+                              "name": "ReferenceError"
+                            },
+                            {
+                              "type": "ArrowFunctionExpression",
+                              "start": 983,
+                              "end": 1057,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 989,
+                                "end": 1057,
+                                "body": [
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "start": 997,
+                                    "end": 1005,
+                                    "expression": {
+                                      "type": "UpdateExpression",
+                                      "start": 997,
+                                      "end": 1004,
+                                      "operator": "++",
+                                      "prefix": false,
+                                      "argument": {
+                                        "type": "Identifier",
+                                        "start": 997,
+                                        "end": 1002,
+                                        "name": "count"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "start": 1012,
+                                    "end": 1036,
+                                    "expression": {
+                                      "type": "AssignmentExpression",
+                                      "start": 1012,
+                                      "end": 1035,
+                                      "operator": "=",
+                                      "left": {
+                                        "type": "Identifier",
+                                        "start": 1012,
+                                        "end": 1013,
+                                        "name": "x"
+                                      },
+                                      "right": {
+                                        "type": "ParenthesizedExpression",
+                                        "start": 1016,
+                                        "end": 1035,
+                                        "expression": {
+                                          "type": "SequenceExpression",
+                                          "start": 1017,
+                                          "end": 1034,
+                                          "expressions": [
+                                            {
+                                              "type": "UnaryExpression",
+                                              "start": 1017,
+                                              "end": 1031,
+                                              "operator": "delete",
+                                              "prefix": true,
+                                              "argument": {
+                                                "type": "MemberExpression",
+                                                "start": 1024,
+                                                "end": 1031,
+                                                "object": {
+                                                  "type": "Identifier",
+                                                  "start": 1024,
+                                                  "end": 1029,
+                                                  "name": "scope"
+                                                },
+                                                "property": {
+                                                  "type": "Identifier",
+                                                  "start": 1030,
+                                                  "end": 1031,
+                                                  "name": "x"
+                                                },
+                                                "computed": false,
+                                                "optional": false
+                                              }
+                                            },
+                                            {
+                                              "type": "Literal",
+                                              "start": 1033,
+                                              "end": 1034,
+                                              "value": 2,
+                                              "raw": "2"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "start": 1043,
+                                    "end": 1051,
+                                    "expression": {
+                                      "type": "UpdateExpression",
+                                      "start": 1043,
+                                      "end": 1050,
+                                      "operator": "++",
+                                      "prefix": false,
+                                      "argument": {
+                                        "type": "Identifier",
+                                        "start": 1043,
+                                        "end": 1048,
+                                        "name": "count"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 1064,
+                        "end": 1072,
+                        "expression": {
+                          "type": "UpdateExpression",
+                          "start": 1064,
+                          "end": 1071,
+                          "operator": "++",
+                          "prefix": false,
+                          "argument": {
+                            "type": "Identifier",
+                            "start": 1064,
+                            "end": 1069,
+                            "name": "count"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1084,
+      "end": 1111,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1084,
+        "end": 1110,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1084,
+          "end": 1100,
+          "object": {
+            "type": "Identifier",
+            "start": 1084,
+            "end": 1090,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1091,
+            "end": 1100,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1101,
+            "end": 1106,
+            "name": "count"
+          },
+          {
+            "type": "Literal",
+            "start": 1108,
+            "end": 1109,
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1112,
+      "end": 1136,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1112,
+        "end": 1135,
+        "callee": {
+          "type": "Identifier",
+          "start": 1112,
+          "end": 1118,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1119,
+            "end": 1134,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 1120,
+              "end": 1134,
+              "expression": {
+                "type": "BinaryExpression",
+                "start": 1121,
+                "end": 1133,
+                "left": {
+                  "type": "Literal",
+                  "start": 1121,
+                  "end": 1124,
+                  "value": "x",
+                  "raw": "'x'"
+                },
+                "operator": "in",
+                "right": {
+                  "type": "Identifier",
+                  "start": 1128,
+                  "end": 1133,
+                  "name": "scope"
+                }
+              }
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

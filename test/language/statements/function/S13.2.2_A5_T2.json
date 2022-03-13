@@ -1,0 +1,1159 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2780,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 556,
+      "end": 649,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 560,
+          "end": 568,
+          "id": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 568,
+            "name": "__VOLUME"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 570,
+          "end": 575,
+          "id": {
+            "type": "Identifier",
+            "start": 570,
+            "end": 575,
+            "name": "__RED"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 577,
+          "end": 581,
+          "id": {
+            "type": "Identifier",
+            "start": 577,
+            "end": 581,
+            "name": "__ID"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 583,
+          "end": 591,
+          "id": {
+            "type": "Identifier",
+            "start": 583,
+            "end": 591,
+            "name": "__BOTTOM"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 593,
+          "end": 598,
+          "id": {
+            "type": "Identifier",
+            "start": 593,
+            "end": 598,
+            "name": "__TOP"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 600,
+          "end": 606,
+          "id": {
+            "type": "Identifier",
+            "start": 600,
+            "end": 606,
+            "name": "__LEFT"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 608,
+          "end": 617,
+          "id": {
+            "type": "Identifier",
+            "start": 608,
+            "end": 617,
+            "name": "__FACTORY"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 619,
+          "end": 624,
+          "id": {
+            "type": "Identifier",
+            "start": 619,
+            "end": 624,
+            "name": "color"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 626,
+          "end": 632,
+          "id": {
+            "type": "Identifier",
+            "start": 626,
+            "end": 632,
+            "name": "bottom"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 634,
+          "end": 638,
+          "id": {
+            "type": "Identifier",
+            "start": 634,
+            "end": 638,
+            "name": "left"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 640,
+          "end": 648,
+          "id": {
+            "type": "Identifier",
+            "start": 640,
+            "end": 648,
+            "name": "__device"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 662,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 651,
+        "end": 661,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 651,
+          "end": 659,
+          "name": "__VOLUME"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 660,
+          "end": 661,
+          "value": 8,
+          "raw": "8"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 663,
+      "end": 675,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 663,
+        "end": 674,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 663,
+          "end": 668,
+          "name": "__RED"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 669,
+          "end": 674,
+          "value": "red",
+          "raw": "\"red\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 676,
+      "end": 687,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 676,
+        "end": 686,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 676,
+          "end": 680,
+          "name": "__ID"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 681,
+          "end": 686,
+          "value": 12342,
+          "raw": "12342"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 688,
+      "end": 701,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 688,
+        "end": 700,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 688,
+          "end": 696,
+          "name": "__BOTTOM"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 697,
+          "end": 700,
+          "value": 1.1,
+          "raw": "1.1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 702,
+      "end": 712,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 702,
+        "end": 711,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 702,
+          "end": 707,
+          "name": "__TOP"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 708,
+          "end": 711,
+          "value": 0.1,
+          "raw": "0.1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 713,
+      "end": 724,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 713,
+        "end": 723,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 713,
+          "end": 719,
+          "name": "__LEFT"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 720,
+          "end": 723,
+          "value": 0.5,
+          "raw": "0.5"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 727,
+      "end": 873,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 727,
+        "end": 872,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 727,
+          "end": 736,
+          "name": "__FACTORY"
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 739,
+          "end": 872,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 748,
+              "end": 752,
+              "name": "arg1"
+            },
+            {
+              "type": "Identifier",
+              "start": 754,
+              "end": 758,
+              "name": "arg2"
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 759,
+            "end": 872,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 762,
+                "end": 783,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 762,
+                  "end": 782,
+                  "operator": "=",
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 762,
+                    "end": 773,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 762,
+                      "end": 766
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 767,
+                      "end": 773,
+                      "name": "volume"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 774,
+                    "end": 782,
+                    "name": "__VOLUME"
+                  }
+                }
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 785,
+                "end": 797,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 785,
+                  "end": 796,
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 785,
+                    "end": 790,
+                    "name": "color"
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 791,
+                    "end": 796,
+                    "name": "__RED"
+                  }
+                }
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 799,
+                "end": 812,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 799,
+                  "end": 811,
+                  "operator": "=",
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 799,
+                    "end": 806,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 799,
+                      "end": 803
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 804,
+                      "end": 806,
+                      "name": "id"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 807,
+                    "end": 811,
+                    "name": "arg1"
+                  }
+                }
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 814,
+                "end": 826,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 814,
+                  "end": 825,
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 814,
+                    "end": 820,
+                    "name": "bottom"
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 821,
+                    "end": 825,
+                    "name": "arg2"
+                  }
+                }
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 828,
+                "end": 850,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 828,
+                  "end": 849,
+                  "operator": "=",
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 828,
+                    "end": 836,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 828,
+                      "end": 832
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 833,
+                      "end": 836,
+                      "name": "top"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 837,
+                    "end": 849,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 837,
+                      "end": 846,
+                      "name": "arguments"
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 847,
+                      "end": 848,
+                      "value": 2,
+                      "raw": "2"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 852,
+                "end": 870,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 852,
+                  "end": 869,
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 852,
+                    "end": 856,
+                    "name": "left"
+                  },
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 857,
+                    "end": 869,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 857,
+                      "end": 866,
+                      "name": "arguments"
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 867,
+                      "end": 868,
+                      "value": 3,
+                      "raw": "3"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 875,
+      "end": 931,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 875,
+        "end": 930,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 875,
+          "end": 883,
+          "name": "__device"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 886,
+          "end": 930,
+          "callee": {
+            "type": "Identifier",
+            "start": 890,
+            "end": 899,
+            "name": "__FACTORY"
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 900,
+              "end": 904,
+              "name": "__ID"
+            },
+            {
+              "type": "Identifier",
+              "start": 906,
+              "end": 914,
+              "name": "__BOTTOM"
+            },
+            {
+              "type": "Identifier",
+              "start": 916,
+              "end": 921,
+              "name": "__TOP"
+            },
+            {
+              "type": "Identifier",
+              "start": 923,
+              "end": 929,
+              "name": "__LEFT"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1022,
+      "end": 1163,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1026,
+        "end": 1054,
+        "left": {
+          "type": "MemberExpression",
+          "start": 1026,
+          "end": 1040,
+          "object": {
+            "type": "Identifier",
+            "start": 1026,
+            "end": 1034,
+            "name": "__device"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1035,
+            "end": 1040,
+            "name": "color"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 1045,
+          "end": 1054,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1056,
+        "end": 1163,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1059,
+            "end": 1161,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1065,
+              "end": 1160,
+              "callee": {
+                "type": "Identifier",
+                "start": 1069,
+                "end": 1081,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1082,
+                  "end": 1159,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1082,
+                    "end": 1144,
+                    "value": "#1: __device.color === undefined. Actual: __device.color ===",
+                    "raw": "'#1: __device.color === undefined. Actual: __device.color ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1145,
+                    "end": 1159,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1145,
+                      "end": 1153,
+                      "name": "__device"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1154,
+                      "end": 1159,
+                      "name": "color"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1336,
+      "end": 1479,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1340,
+        "end": 1368,
+        "left": {
+          "type": "MemberExpression",
+          "start": 1340,
+          "end": 1355,
+          "object": {
+            "type": "Identifier",
+            "start": 1340,
+            "end": 1348,
+            "name": "__device"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1349,
+            "end": 1355,
+            "name": "volume"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 1360,
+          "end": 1368,
+          "name": "__VOLUME"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1370,
+        "end": 1479,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1373,
+            "end": 1477,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1379,
+              "end": 1476,
+              "callee": {
+                "type": "Identifier",
+                "start": 1383,
+                "end": 1395,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1396,
+                  "end": 1475,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1396,
+                    "end": 1459,
+                    "value": "#2: __device.volume === __VOLUME. Actual: __device.volume ===",
+                    "raw": "'#2: __device.volume === __VOLUME. Actual: __device.volume ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1460,
+                    "end": 1475,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1460,
+                      "end": 1468,
+                      "name": "__device"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1469,
+                      "end": 1475,
+                      "name": "volume"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1652,
+      "end": 1797,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1656,
+        "end": 1685,
+        "left": {
+          "type": "MemberExpression",
+          "start": 1656,
+          "end": 1671,
+          "object": {
+            "type": "Identifier",
+            "start": 1656,
+            "end": 1664,
+            "name": "__device"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1665,
+            "end": 1671,
+            "name": "bottom"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 1676,
+          "end": 1685,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1687,
+        "end": 1797,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1690,
+            "end": 1795,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1696,
+              "end": 1794,
+              "callee": {
+                "type": "Identifier",
+                "start": 1700,
+                "end": 1712,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1713,
+                  "end": 1793,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1713,
+                    "end": 1777,
+                    "value": "#3: __device.bottom === undefined. Actual: __device.bottom ===",
+                    "raw": "'#3: __device.bottom === undefined. Actual: __device.bottom ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1778,
+                    "end": 1793,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1778,
+                      "end": 1786,
+                      "name": "__device"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1787,
+                      "end": 1793,
+                      "name": "bottom"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1970,
+      "end": 2089,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1974,
+        "end": 1994,
+        "left": {
+          "type": "MemberExpression",
+          "start": 1974,
+          "end": 1985,
+          "object": {
+            "type": "Identifier",
+            "start": 1974,
+            "end": 1982,
+            "name": "__device"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1983,
+            "end": 1985,
+            "name": "id"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 1990,
+          "end": 1994,
+          "name": "__ID"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1996,
+        "end": 2089,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1999,
+            "end": 2087,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2005,
+              "end": 2086,
+              "callee": {
+                "type": "Identifier",
+                "start": 2009,
+                "end": 2021,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2022,
+                  "end": 2085,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2022,
+                    "end": 2073,
+                    "value": "#4: __device.id === __ID. Actual: __device.id ===",
+                    "raw": "'#4: __device.id === __ID. Actual: __device.id ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2074,
+                    "end": 2085,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2074,
+                      "end": 2082,
+                      "name": "__device"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2083,
+                      "end": 2085,
+                      "name": "id"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2262,
+      "end": 2399,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2266,
+        "end": 2293,
+        "left": {
+          "type": "MemberExpression",
+          "start": 2266,
+          "end": 2279,
+          "object": {
+            "type": "Identifier",
+            "start": 2266,
+            "end": 2274,
+            "name": "__device"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2275,
+            "end": 2279,
+            "name": "left"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 2284,
+          "end": 2293,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2295,
+        "end": 2399,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2298,
+            "end": 2397,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2304,
+              "end": 2396,
+              "callee": {
+                "type": "Identifier",
+                "start": 2308,
+                "end": 2320,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2321,
+                  "end": 2395,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2321,
+                    "end": 2381,
+                    "value": "#5: __device.left === undefined. Actual: __device.left ===",
+                    "raw": "'#5: __device.left === undefined. Actual: __device.left ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2382,
+                    "end": 2395,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2382,
+                      "end": 2390,
+                      "name": "__device"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2391,
+                      "end": 2395,
+                      "name": "left"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2572,
+      "end": 2697,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2576,
+        "end": 2598,
+        "left": {
+          "type": "MemberExpression",
+          "start": 2576,
+          "end": 2588,
+          "object": {
+            "type": "Identifier",
+            "start": 2576,
+            "end": 2584,
+            "name": "__device"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2585,
+            "end": 2588,
+            "name": "top"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 2593,
+          "end": 2598,
+          "name": "__TOP"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2600,
+        "end": 2697,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2603,
+            "end": 2695,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2609,
+              "end": 2694,
+              "callee": {
+                "type": "Identifier",
+                "start": 2613,
+                "end": 2625,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2626,
+                  "end": 2693,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2626,
+                    "end": 2680,
+                    "value": "#6: __device.top === __TOP. Actual: __device.top ===",
+                    "raw": "'#6: __device.top === __TOP. Actual: __device.top ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2681,
+                    "end": 2693,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2681,
+                      "end": 2689,
+                      "name": "__device"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2690,
+                      "end": 2693,
+                      "name": "top"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

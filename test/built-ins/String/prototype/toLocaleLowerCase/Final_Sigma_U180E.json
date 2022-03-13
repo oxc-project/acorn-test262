@@ -1,0 +1,446 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2392,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1159,
+      "end": 1309,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1159,
+        "end": 1308,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1159,
+          "end": 1175,
+          "object": {
+            "type": "Identifier",
+            "start": 1159,
+            "end": 1165,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1166,
+            "end": 1175,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1179,
+            "end": 1214,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1179,
+              "end": 1212,
+              "object": {
+                "type": "Literal",
+                "start": 1179,
+                "end": 1194,
+                "value": "A᠎Σ",
+                "raw": "\"A\\u180E\\u03A3\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1195,
+                "end": 1212,
+                "name": "toLocaleLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1218,
+            "end": 1233,
+            "value": "a᠎ς",
+            "raw": "\"a\\u180E\\u03C2\""
+          },
+          {
+            "type": "Literal",
+            "start": 1237,
+            "end": 1306,
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR",
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1310,
+      "end": 1498,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1310,
+        "end": 1497,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1310,
+          "end": 1326,
+          "object": {
+            "type": "Identifier",
+            "start": 1310,
+            "end": 1316,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1317,
+            "end": 1326,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1330,
+            "end": 1366,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1330,
+              "end": 1364,
+              "object": {
+                "type": "Literal",
+                "start": 1330,
+                "end": 1346,
+                "value": "A᠎ΣB",
+                "raw": "\"A\\u180E\\u03A3B\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1347,
+                "end": 1364,
+                "name": "toLocaleLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1370,
+            "end": 1386,
+            "value": "a᠎σb",
+            "raw": "\"a\\u180E\\u03C3b\""
+          },
+          {
+            "type": "Literal",
+            "start": 1390,
+            "end": 1495,
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by LATIN CAPITAL LETTER B",
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by LATIN CAPITAL LETTER B\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1548,
+      "end": 1710,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1548,
+        "end": 1709,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1548,
+          "end": 1564,
+          "object": {
+            "type": "Identifier",
+            "start": 1548,
+            "end": 1554,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1555,
+            "end": 1564,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1568,
+            "end": 1603,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1568,
+              "end": 1601,
+              "object": {
+                "type": "Literal",
+                "start": 1568,
+                "end": 1583,
+                "value": "AΣ᠎",
+                "raw": "\"A\\u03A3\\u180E\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1584,
+                "end": 1601,
+                "name": "toLocaleLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1607,
+            "end": 1622,
+            "value": "aς᠎",
+            "raw": "\"a\\u03C2\\u180E\""
+          },
+          {
+            "type": "Literal",
+            "start": 1626,
+            "end": 1707,
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR",
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1711,
+      "end": 1899,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1711,
+        "end": 1898,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1711,
+          "end": 1727,
+          "object": {
+            "type": "Identifier",
+            "start": 1711,
+            "end": 1717,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1718,
+            "end": 1727,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1731,
+            "end": 1767,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1731,
+              "end": 1765,
+              "object": {
+                "type": "Literal",
+                "start": 1731,
+                "end": 1747,
+                "value": "AΣ᠎B",
+                "raw": "\"A\\u03A3\\u180EB\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1748,
+                "end": 1765,
+                "name": "toLocaleLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1771,
+            "end": 1787,
+            "value": "aσ᠎b",
+            "raw": "\"a\\u03C3\\u180Eb\""
+          },
+          {
+            "type": "Literal",
+            "start": 1791,
+            "end": 1896,
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B",
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1962,
+      "end": 2163,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1962,
+        "end": 2162,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1962,
+          "end": 1978,
+          "object": {
+            "type": "Identifier",
+            "start": 1962,
+            "end": 1968,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1969,
+            "end": 1978,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1982,
+            "end": 2023,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1982,
+              "end": 2021,
+              "object": {
+                "type": "Literal",
+                "start": 1982,
+                "end": 2003,
+                "value": "A᠎Σ᠎",
+                "raw": "\"A\\u180E\\u03A3\\u180E\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2004,
+                "end": 2021,
+                "name": "toLocaleLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2027,
+            "end": 2048,
+            "value": "a᠎ς᠎",
+            "raw": "\"a\\u180E\\u03C2\\u180E\""
+          },
+          {
+            "type": "Literal",
+            "start": 2052,
+            "end": 2160,
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR",
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2164,
+      "end": 2391,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2164,
+        "end": 2390,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2164,
+          "end": 2180,
+          "object": {
+            "type": "Identifier",
+            "start": 2164,
+            "end": 2170,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2171,
+            "end": 2180,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2184,
+            "end": 2226,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2184,
+              "end": 2224,
+              "object": {
+                "type": "Literal",
+                "start": 2184,
+                "end": 2206,
+                "value": "A᠎Σ᠎B",
+                "raw": "\"A\\u180E\\u03A3\\u180EB\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2207,
+                "end": 2224,
+                "name": "toLocaleLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2230,
+            "end": 2252,
+            "value": "a᠎σ᠎b",
+            "raw": "\"a\\u180E\\u03C3\\u180Eb\""
+          },
+          {
+            "type": "Literal",
+            "start": 2256,
+            "end": 2388,
+            "value": "Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B",
+            "raw": "\"Sigma preceded by LATIN CAPITAL LETTER A, MONGOLIAN VOWEL SEPARATOR, followed by MONGOLIAN VOWEL SEPARATOR, LATIN CAPITAL LETTER B\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

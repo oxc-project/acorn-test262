@@ -1,0 +1,286 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 739,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 235,
+      "end": 254,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 239,
+          "end": 253,
+          "id": {
+            "type": "Identifier",
+            "start": 239,
+            "end": 246,
+            "name": "__ROBOT"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 247,
+            "end": 253,
+            "value": "C3PO",
+            "raw": "\"C3PO\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 256,
+      "end": 407,
+      "id": {
+        "type": "Identifier",
+        "start": 265,
+        "end": 271,
+        "name": "__FUNC"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 273,
+        "end": 407,
+        "body": [
+          {
+            "type": "FunctionDeclaration",
+            "start": 279,
+            "end": 332,
+            "id": {
+              "type": "Identifier",
+              "start": 288,
+              "end": 294,
+              "name": "__GUNC"
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 296,
+              "end": 332,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 306,
+                  "end": 326,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 313,
+                    "end": 325,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 313,
+                      "end": 322,
+                      "name": "arguments"
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 323,
+                      "end": 324,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "EmptyStatement",
+            "start": 332,
+            "end": 333
+          },
+          {
+            "type": "FunctionDeclaration",
+            "start": 338,
+            "end": 385,
+            "id": {
+              "type": "Identifier",
+              "start": 347,
+              "end": 353,
+              "name": "__HUNC"
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 355,
+              "end": 385,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 365,
+                  "end": 379,
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 372,
+                    "end": 378,
+                    "name": "__GUNC"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "EmptyStatement",
+            "start": 385,
+            "end": 386
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 391,
+            "end": 405,
+            "argument": {
+              "type": "Identifier",
+              "start": 398,
+              "end": 404,
+              "name": "__HUNC"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 407,
+      "end": 408
+    },
+    {
+      "type": "IfStatement",
+      "start": 499,
+      "end": 656,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 503,
+        "end": 534,
+        "left": {
+          "type": "CallExpression",
+          "start": 503,
+          "end": 522,
+          "callee": {
+            "type": "CallExpression",
+            "start": 503,
+            "end": 513,
+            "callee": {
+              "type": "CallExpression",
+              "start": 503,
+              "end": 511,
+              "callee": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 509,
+                "name": "__FUNC"
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 514,
+              "end": 521,
+              "name": "__ROBOT"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 527,
+          "end": 534,
+          "name": "__ROBOT"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 536,
+        "end": 656,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 539,
+            "end": 654,
+            "argument": {
+              "type": "NewExpression",
+              "start": 545,
+              "end": 653,
+              "callee": {
+                "type": "Identifier",
+                "start": 549,
+                "end": 561,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 562,
+                  "end": 652,
+                  "left": {
+                    "type": "Literal",
+                    "start": 562,
+                    "end": 632,
+                    "value": "#1: __FUNC()()(__ROBOT) === __ROBOT. Actual: __FUNC()()(__ROBOT) ===",
+                    "raw": "'#1: __FUNC()()(__ROBOT) === __ROBOT. Actual: __FUNC()()(__ROBOT) ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 633,
+                    "end": 652,
+                    "callee": {
+                      "type": "CallExpression",
+                      "start": 633,
+                      "end": 643,
+                      "callee": {
+                        "type": "CallExpression",
+                        "start": 633,
+                        "end": 641,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 633,
+                          "end": 639,
+                          "name": "__FUNC"
+                        },
+                        "arguments": [],
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 644,
+                        "end": 651,
+                        "name": "__ROBOT"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

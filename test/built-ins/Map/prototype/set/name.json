@@ -1,0 +1,273 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 608,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 359,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 359,
+        "end": 464,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 359,
+          "end": 375,
+          "object": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 365,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 375,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 379,
+            "end": 401,
+            "object": {
+              "type": "MemberExpression",
+              "start": 379,
+              "end": 396,
+              "object": {
+                "type": "MemberExpression",
+                "start": 379,
+                "end": 392,
+                "object": {
+                  "type": "Identifier",
+                  "start": 379,
+                  "end": 382,
+                  "name": "Map"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 383,
+                  "end": 392,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 393,
+                "end": 396,
+                "name": "set"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 397,
+              "end": 401,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 403,
+            "end": 408,
+            "value": "set",
+            "raw": "'set'"
+          },
+          {
+            "type": "Literal",
+            "start": 412,
+            "end": 462,
+            "value": "The value of `Map.prototype.set.name` is `\"set\"`",
+            "raw": "'The value of `Map.prototype.set.name` is `\"set\"`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 467,
+      "end": 514,
+      "expression": {
+        "type": "CallExpression",
+        "start": 467,
+        "end": 513,
+        "callee": {
+          "type": "Identifier",
+          "start": 467,
+          "end": 486,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 487,
+            "end": 504,
+            "object": {
+              "type": "MemberExpression",
+              "start": 487,
+              "end": 500,
+              "object": {
+                "type": "Identifier",
+                "start": 487,
+                "end": 490,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 491,
+                "end": 500,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 501,
+              "end": 504,
+              "name": "set"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 506,
+            "end": 512,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 515,
+      "end": 560,
+      "expression": {
+        "type": "CallExpression",
+        "start": 515,
+        "end": 559,
+        "callee": {
+          "type": "Identifier",
+          "start": 515,
+          "end": 532,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 533,
+            "end": 550,
+            "object": {
+              "type": "MemberExpression",
+              "start": 533,
+              "end": 546,
+              "object": {
+                "type": "Identifier",
+                "start": 533,
+                "end": 536,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 537,
+                "end": 546,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 547,
+              "end": 550,
+              "name": "set"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 552,
+            "end": 558,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 561,
+      "end": 607,
+      "expression": {
+        "type": "CallExpression",
+        "start": 561,
+        "end": 606,
+        "callee": {
+          "type": "Identifier",
+          "start": 561,
+          "end": 579,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 580,
+            "end": 597,
+            "object": {
+              "type": "MemberExpression",
+              "start": 580,
+              "end": 593,
+              "object": {
+                "type": "Identifier",
+                "start": 580,
+                "end": 583,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 584,
+                "end": 593,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 594,
+              "end": 597,
+              "name": "set"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 599,
+            "end": 605,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 473,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 322,
+      "end": 472,
+      "expression": {
+        "type": "CallExpression",
+        "start": 322,
+        "end": 471,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 322,
+          "end": 338,
+          "object": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 328,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 338,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 342,
+            "end": 390,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 342,
+              "end": 371,
+              "object": {
+                "type": "MemberExpression",
+                "start": 342,
+                "end": 356,
+                "object": {
+                  "type": "Identifier",
+                  "start": 342,
+                  "end": 346,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 347,
+                  "end": 356,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 357,
+                "end": 371,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 372,
+                "end": 389,
+                "value": "setMilliseconds",
+                "raw": "\"setMilliseconds\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 394,
+            "end": 398,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 402,
+            "end": 469,
+            "value": "Date.prototype.hasOwnProperty(\"setMilliseconds\") must return true",
+            "raw": "'Date.prototype.hasOwnProperty(\"setMilliseconds\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

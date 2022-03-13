@@ -1,0 +1,130 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2184,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 2040,
+      "end": 2081,
+      "id": {
+        "type": "Identifier",
+        "start": 2049,
+        "end": 2051,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 2054,
+        "end": 2081,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 2058,
+            "end": 2079,
+            "argument": {
+              "type": "FunctionExpression",
+              "start": 2065,
+              "end": 2078,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2076,
+                "end": 2078,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 2123,
+      "end": 2182,
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 2138,
+        "end": 2182,
+        "id": null,
+        "superClass": {
+          "type": "CallExpression",
+          "start": 2152,
+          "end": 2179,
+          "callee": {
+            "type": "Identifier",
+            "start": 2152,
+            "end": 2154,
+            "name": "fn"
+          },
+          "arguments": [
+            {
+              "type": "AwaitExpression",
+              "start": 2155,
+              "end": 2178,
+              "argument": {
+                "type": "ObjectExpression",
+                "start": 2161,
+                "end": 2178,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2163,
+                    "end": 2176,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2163,
+                      "end": 2171,
+                      "name": "function"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 2171,
+                      "end": 2176,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 2174,
+                        "end": 2176,
+                        "body": []
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "optional": false
+        },
+        "body": {
+          "type": "ClassBody",
+          "start": 2180,
+          "end": 2182,
+          "body": []
+        }
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2182,
+      "end": 2183
+    }
+  ],
+  "sourceType": "module"
+}

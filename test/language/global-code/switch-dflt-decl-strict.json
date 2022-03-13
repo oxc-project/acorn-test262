@@ -1,0 +1,183 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 640,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 486,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 486,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 486,
+          "end": 499,
+          "object": {
+            "type": "Identifier",
+            "start": 486,
+            "end": 492,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 493,
+            "end": 499,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 500,
+            "end": 514,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 516,
+            "end": 535,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 527,
+              "end": 535,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 531,
+                  "end": 533,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 531,
+                    "end": 532,
+                    "name": "f"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "SwitchStatement",
+      "start": 539,
+      "end": 586,
+      "discriminant": {
+        "type": "Literal",
+        "start": 547,
+        "end": 548,
+        "value": 1,
+        "raw": "1"
+      },
+      "cases": [
+        {
+          "type": "SwitchCase",
+          "start": 554,
+          "end": 584,
+          "consequent": [
+            {
+              "type": "FunctionDeclaration",
+              "start": 567,
+              "end": 584,
+              "id": {
+                "type": "Identifier",
+                "start": 576,
+                "end": 577,
+                "name": "f"
+              },
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 580,
+                "end": 584,
+                "body": []
+              }
+            }
+          ],
+          "test": null
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 588,
+      "end": 639,
+      "expression": {
+        "type": "CallExpression",
+        "start": 588,
+        "end": 638,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 588,
+          "end": 601,
+          "object": {
+            "type": "Identifier",
+            "start": 588,
+            "end": 594,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 595,
+            "end": 601,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 602,
+            "end": 616,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 618,
+            "end": 637,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 629,
+              "end": 637,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 633,
+                  "end": 635,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 633,
+                    "end": 634,
+                    "name": "f"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

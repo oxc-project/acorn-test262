@@ -1,0 +1,484 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1084,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 429,
+      "end": 753,
+      "block": {
+        "type": "BlockStatement",
+        "start": 433,
+        "end": 629,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 437,
+            "end": 457,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 441,
+                "end": 456,
+                "id": {
+                  "type": "Identifier",
+                  "start": 441,
+                  "end": 443,
+                  "name": "s1"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 446,
+                  "end": 456,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 450,
+                    "end": 454,
+                    "name": "Date"
+                  },
+                  "arguments": []
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 460,
+            "end": 498,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 460,
+              "end": 497,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 460,
+                "end": 470,
+                "object": {
+                  "type": "Identifier",
+                  "start": 460,
+                  "end": 462,
+                  "name": "s1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 463,
+                  "end": 470,
+                  "name": "valueOf"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "MemberExpression",
+                "start": 473,
+                "end": 497,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 473,
+                  "end": 489,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 473,
+                    "end": 479,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 480,
+                    "end": 489,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 490,
+                  "end": 497,
+                  "name": "valueOf"
+                },
+                "computed": false,
+                "optional": false
+              }
+            }
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 501,
+            "end": 523,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 505,
+                "end": 522,
+                "id": {
+                  "type": "Identifier",
+                  "start": 505,
+                  "end": 507,
+                  "name": "v1"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 510,
+                  "end": 522,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 510,
+                    "end": 520,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 510,
+                      "end": 512,
+                      "name": "s1"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 513,
+                      "end": 520,
+                      "name": "valueOf"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 526,
+            "end": 627,
+            "argument": {
+              "type": "NewExpression",
+              "start": 532,
+              "end": 626,
+              "callee": {
+                "type": "Identifier",
+                "start": 536,
+                "end": 548,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 549,
+                  "end": 625,
+                  "value": "#1: Number.prototype.valueOf on not a Number object should throw TypeError",
+                  "raw": "'#1: Number.prototype.valueOf on not a Number object should throw TypeError'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 630,
+        "end": 753,
+        "param": {
+          "type": "Identifier",
+          "start": 637,
+          "end": 638,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 640,
+          "end": 753,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 644,
+              "end": 751,
+              "expression": {
+                "type": "CallExpression",
+                "start": 644,
+                "end": 750,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 644,
+                  "end": 650,
+                  "name": "assert"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 651,
+                    "end": 673,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 651,
+                      "end": 652,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 664,
+                      "end": 673,
+                      "name": "TypeError"
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 675,
+                    "end": 749,
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "TryStatement",
+      "start": 755,
+      "end": 1083,
+      "block": {
+        "type": "BlockStatement",
+        "start": 759,
+        "end": 959,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 763,
+            "end": 783,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 767,
+                "end": 782,
+                "id": {
+                  "type": "Identifier",
+                  "start": 767,
+                  "end": 769,
+                  "name": "s2"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 772,
+                  "end": 782,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 776,
+                    "end": 780,
+                    "name": "Date"
+                  },
+                  "arguments": []
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 786,
+            "end": 826,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 786,
+              "end": 825,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 786,
+                "end": 798,
+                "object": {
+                  "type": "Identifier",
+                  "start": 786,
+                  "end": 788,
+                  "name": "s2"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 789,
+                  "end": 798,
+                  "name": "myValueOf"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "MemberExpression",
+                "start": 801,
+                "end": 825,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 801,
+                  "end": 817,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 801,
+                    "end": 807,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 808,
+                    "end": 817,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 818,
+                  "end": 825,
+                  "name": "valueOf"
+                },
+                "computed": false,
+                "optional": false
+              }
+            }
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 829,
+            "end": 853,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 833,
+                "end": 852,
+                "id": {
+                  "type": "Identifier",
+                  "start": 833,
+                  "end": 835,
+                  "name": "v2"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 838,
+                  "end": 852,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 838,
+                    "end": 850,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 838,
+                      "end": 840,
+                      "name": "s2"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 841,
+                      "end": 850,
+                      "name": "myValueOf"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 856,
+            "end": 957,
+            "argument": {
+              "type": "NewExpression",
+              "start": 862,
+              "end": 956,
+              "callee": {
+                "type": "Identifier",
+                "start": 866,
+                "end": 878,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 879,
+                  "end": 955,
+                  "value": "#2: Number.prototype.valueOf on not a Number object should throw TypeError",
+                  "raw": "'#2: Number.prototype.valueOf on not a Number object should throw TypeError'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 960,
+        "end": 1083,
+        "param": {
+          "type": "Identifier",
+          "start": 967,
+          "end": 968,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 970,
+          "end": 1083,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 974,
+              "end": 1081,
+              "expression": {
+                "type": "CallExpression",
+                "start": 974,
+                "end": 1080,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 974,
+                  "end": 980,
+                  "name": "assert"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 981,
+                    "end": 1003,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 981,
+                      "end": 982,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 994,
+                      "end": 1003,
+                      "name": "TypeError"
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1005,
+                    "end": 1079,
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,283 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 617,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 460,
+      "end": 480,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 464,
+          "end": 479,
+          "id": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 465,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 468,
+            "end": 479,
+            "callee": {
+              "type": "Identifier",
+              "start": 468,
+              "end": 474,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 475,
+                "end": 478,
+                "value": "1",
+                "raw": "'1'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 481,
+      "end": 492,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 485,
+          "end": 491,
+          "id": {
+            "type": "Identifier",
+            "start": 485,
+            "end": 486,
+            "name": "o"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 489,
+            "end": 491,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 493,
+      "end": 503,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 493,
+        "end": 502,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 493,
+          "end": 497,
+          "object": {
+            "type": "Identifier",
+            "start": 493,
+            "end": 494,
+            "name": "o"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 495,
+            "end": 496,
+            "name": "s"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 500,
+          "end": 502,
+          "value": 42,
+          "raw": "42"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 505,
+      "end": 534,
+      "expression": {
+        "type": "CallExpression",
+        "start": 505,
+        "end": 533,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 505,
+          "end": 527,
+          "object": {
+            "type": "Identifier",
+            "start": 505,
+            "end": 512,
+            "name": "Reflect"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 513,
+            "end": 527,
+            "name": "deleteProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 528,
+            "end": 529,
+            "name": "o"
+          },
+          {
+            "type": "Identifier",
+            "start": 531,
+            "end": 532,
+            "name": "s"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 536,
+      "end": 581,
+      "expression": {
+        "type": "CallExpression",
+        "start": 536,
+        "end": 580,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 536,
+          "end": 552,
+          "object": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 542,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 552,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 553,
+            "end": 572,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 553,
+              "end": 569,
+              "object": {
+                "type": "Identifier",
+                "start": 553,
+                "end": 554,
+                "name": "o"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 555,
+                "end": 569,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 570,
+                "end": 571,
+                "name": "s"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 574,
+            "end": 579,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 582,
+      "end": 616,
+      "expression": {
+        "type": "CallExpression",
+        "start": 582,
+        "end": 615,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 582,
+          "end": 598,
+          "object": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 588,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 589,
+            "end": 598,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 599,
+            "end": 603,
+            "object": {
+              "type": "Identifier",
+              "start": 599,
+              "end": 600,
+              "name": "o"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 601,
+              "end": 602,
+              "name": "s"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 605,
+            "end": 614,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

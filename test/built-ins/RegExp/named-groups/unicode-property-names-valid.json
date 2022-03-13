@@ -1,0 +1,3582 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 4210,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1046,
+      "end": 1113,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1050,
+          "end": 1112,
+          "id": {
+            "type": "Identifier",
+            "start": 1050,
+            "end": 1056,
+            "name": "string"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1059,
+            "end": 1112,
+            "value": "The quick brown fox jumped over the lazy dog's back",
+            "raw": "\"The quick brown fox jumped over the lazy dog's back\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1114,
+      "end": 1157,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1118,
+          "end": 1156,
+          "id": {
+            "type": "Identifier",
+            "start": 1118,
+            "end": 1125,
+            "name": "string2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1128,
+            "end": 1156,
+            "value": "It is a dog eat dog world.",
+            "raw": "\"It is a dog eat dog world.\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1159,
+      "end": 1176,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1163,
+          "end": 1175,
+          "id": {
+            "type": "Identifier",
+            "start": 1163,
+            "end": 1168,
+            "name": "match"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1171,
+            "end": 1175,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1178,
+      "end": 1253,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1178,
+        "end": 1252,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1178,
+          "end": 1194,
+          "object": {
+            "type": "Identifier",
+            "start": 1178,
+            "end": 1184,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1185,
+            "end": 1194,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1195,
+            "end": 1244,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1195,
+              "end": 1237,
+              "object": {
+                "type": "CallExpression",
+                "start": 1195,
+                "end": 1230,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1195,
+                  "end": 1207,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1195,
+                    "end": 1201,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1202,
+                    "end": 1207,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1208,
+                    "end": 1229,
+                    "value": {},
+                    "raw": "/(?<animal>fox|dog)/u",
+                    "regex": {
+                      "pattern": "(?<animal>fox|dog)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1231,
+                "end": 1237,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1238,
+              "end": 1244,
+              "name": "animal"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1246,
+            "end": 1251,
+            "value": "fox",
+            "raw": "\"fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1254,
+      "end": 1321,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1254,
+        "end": 1320,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1254,
+          "end": 1270,
+          "object": {
+            "type": "Identifier",
+            "start": 1254,
+            "end": 1260,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1261,
+            "end": 1270,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1271,
+            "end": 1312,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1271,
+              "end": 1307,
+              "object": {
+                "type": "CallExpression",
+                "start": 1271,
+                "end": 1300,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1271,
+                  "end": 1283,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1271,
+                    "end": 1277,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1278,
+                    "end": 1283,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1284,
+                    "end": 1299,
+                    "value": {},
+                    "raw": "/(?<the2>the)/u",
+                    "regex": {
+                      "pattern": "(?<the2>the)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1301,
+                "end": 1307,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1308,
+              "end": 1312,
+              "name": "the2"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1314,
+            "end": 1319,
+            "value": "the",
+            "raw": "\"the\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1323,
+      "end": 1379,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1323,
+        "end": 1378,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1323,
+          "end": 1328,
+          "name": "match"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1331,
+          "end": 1378,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1331,
+            "end": 1343,
+            "object": {
+              "type": "Identifier",
+              "start": 1331,
+              "end": 1337,
+              "name": "string"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1338,
+              "end": 1343,
+              "name": "match"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1344,
+              "end": 1377,
+              "value": {},
+              "raw": "/(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)/u",
+              "regex": {
+                "pattern": "(?<𝑓𝑜𝑥>fox).*(?<𝓓𝓸𝓰>dog)",
+                "flags": "u"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1380,
+      "end": 1425,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1380,
+        "end": 1424,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1380,
+          "end": 1396,
+          "object": {
+            "type": "Identifier",
+            "start": 1380,
+            "end": 1386,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1387,
+            "end": 1396,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1397,
+            "end": 1416,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1397,
+              "end": 1409,
+              "object": {
+                "type": "Identifier",
+                "start": 1397,
+                "end": 1402,
+                "name": "match"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1403,
+                "end": 1409,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1410,
+              "end": 1416,
+              "name": "𝑓𝑜𝑥"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1418,
+            "end": 1423,
+            "value": "fox",
+            "raw": "\"fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1426,
+      "end": 1471,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1426,
+        "end": 1470,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1426,
+          "end": 1442,
+          "object": {
+            "type": "Identifier",
+            "start": 1426,
+            "end": 1432,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1433,
+            "end": 1442,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1443,
+            "end": 1462,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1443,
+              "end": 1455,
+              "object": {
+                "type": "Identifier",
+                "start": 1443,
+                "end": 1448,
+                "name": "match"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1449,
+                "end": 1455,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1456,
+              "end": 1462,
+              "name": "𝓓𝓸𝓰"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1464,
+            "end": 1469,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1472,
+      "end": 1506,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1472,
+        "end": 1505,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1472,
+          "end": 1488,
+          "object": {
+            "type": "Identifier",
+            "start": 1472,
+            "end": 1478,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1479,
+            "end": 1488,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1489,
+            "end": 1497,
+            "object": {
+              "type": "Identifier",
+              "start": 1489,
+              "end": 1494,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 1495,
+              "end": 1496,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1499,
+            "end": 1504,
+            "value": "fox",
+            "raw": "\"fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1507,
+      "end": 1541,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1507,
+        "end": 1540,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1507,
+          "end": 1523,
+          "object": {
+            "type": "Identifier",
+            "start": 1507,
+            "end": 1513,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1514,
+            "end": 1523,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1524,
+            "end": 1532,
+            "object": {
+              "type": "Identifier",
+              "start": 1524,
+              "end": 1529,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 1530,
+              "end": 1531,
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1534,
+            "end": 1539,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1543,
+      "end": 1589,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1543,
+        "end": 1588,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1543,
+          "end": 1548,
+          "name": "match"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1551,
+          "end": 1588,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1551,
+            "end": 1563,
+            "object": {
+              "type": "Identifier",
+              "start": 1551,
+              "end": 1557,
+              "name": "string"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1558,
+              "end": 1563,
+              "name": "match"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1564,
+              "end": 1587,
+              "value": {},
+              "raw": "/(?<狸>fox).*(?<狗>dog)/u",
+              "regex": {
+                "pattern": "(?<狸>fox).*(?<狗>dog)",
+                "flags": "u"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1590,
+      "end": 1630,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1590,
+        "end": 1629,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1590,
+          "end": 1606,
+          "object": {
+            "type": "Identifier",
+            "start": 1590,
+            "end": 1596,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1597,
+            "end": 1606,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1607,
+            "end": 1621,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1607,
+              "end": 1619,
+              "object": {
+                "type": "Identifier",
+                "start": 1607,
+                "end": 1612,
+                "name": "match"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1613,
+                "end": 1619,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1620,
+              "end": 1621,
+              "name": "狸"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1623,
+            "end": 1628,
+            "value": "fox",
+            "raw": "\"fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1631,
+      "end": 1671,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1631,
+        "end": 1670,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1631,
+          "end": 1647,
+          "object": {
+            "type": "Identifier",
+            "start": 1631,
+            "end": 1637,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1638,
+            "end": 1647,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1648,
+            "end": 1662,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1648,
+              "end": 1660,
+              "object": {
+                "type": "Identifier",
+                "start": 1648,
+                "end": 1653,
+                "name": "match"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1654,
+                "end": 1660,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1661,
+              "end": 1662,
+              "name": "狗"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1664,
+            "end": 1669,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1672,
+      "end": 1706,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1672,
+        "end": 1705,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1672,
+          "end": 1688,
+          "object": {
+            "type": "Identifier",
+            "start": 1672,
+            "end": 1678,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1679,
+            "end": 1688,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1689,
+            "end": 1697,
+            "object": {
+              "type": "Identifier",
+              "start": 1689,
+              "end": 1694,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 1695,
+              "end": 1696,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1699,
+            "end": 1704,
+            "value": "fox",
+            "raw": "\"fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1707,
+      "end": 1741,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1707,
+        "end": 1740,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1707,
+          "end": 1723,
+          "object": {
+            "type": "Identifier",
+            "start": 1707,
+            "end": 1713,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1714,
+            "end": 1723,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1724,
+            "end": 1732,
+            "object": {
+              "type": "Identifier",
+              "start": 1724,
+              "end": 1729,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 1730,
+              "end": 1731,
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1734,
+            "end": 1739,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1743,
+      "end": 1826,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1743,
+        "end": 1825,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1743,
+          "end": 1759,
+          "object": {
+            "type": "Identifier",
+            "start": 1743,
+            "end": 1749,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1750,
+            "end": 1759,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1760,
+            "end": 1815,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1760,
+              "end": 1804,
+              "object": {
+                "type": "CallExpression",
+                "start": 1760,
+                "end": 1797,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1760,
+                  "end": 1772,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1760,
+                    "end": 1766,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1767,
+                    "end": 1772,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1773,
+                    "end": 1796,
+                    "value": {},
+                    "raw": "/(?<𝓑𝓻𝓸𝔀𝓷>brown)/u",
+                    "regex": {
+                      "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1798,
+                "end": 1804,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1805,
+              "end": 1815,
+              "name": "𝓑𝓻𝓸𝔀𝓷"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1817,
+            "end": 1824,
+            "value": "brown",
+            "raw": "\"brown\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1827,
+      "end": 1945,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1827,
+        "end": 1944,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1827,
+          "end": 1843,
+          "object": {
+            "type": "Identifier",
+            "start": 1827,
+            "end": 1833,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1834,
+            "end": 1843,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1844,
+            "end": 1934,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1844,
+              "end": 1888,
+              "object": {
+                "type": "CallExpression",
+                "start": 1844,
+                "end": 1881,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1844,
+                  "end": 1856,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1844,
+                    "end": 1850,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1851,
+                    "end": 1856,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1857,
+                    "end": 1880,
+                    "value": {},
+                    "raw": "/(?<𝓑𝓻𝓸𝔀𝓷>brown)/u",
+                    "regex": {
+                      "pattern": "(?<𝓑𝓻𝓸𝔀𝓷>brown)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1882,
+                "end": 1888,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1889,
+              "end": 1934,
+              "name": "𝓑𝓻𝓸𝔀𝓷"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1936,
+            "end": 1943,
+            "value": "brown",
+            "raw": "\"brown\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1946,
+      "end": 2064,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1946,
+        "end": 2063,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1946,
+          "end": 1962,
+          "object": {
+            "type": "Identifier",
+            "start": 1946,
+            "end": 1952,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1953,
+            "end": 1962,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1963,
+            "end": 2053,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1963,
+              "end": 2042,
+              "object": {
+                "type": "CallExpression",
+                "start": 1963,
+                "end": 2035,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1963,
+                  "end": 1975,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1963,
+                    "end": 1969,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1970,
+                    "end": 1975,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1976,
+                    "end": 2034,
+                    "value": {},
+                    "raw": "/(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)/u",
+                    "regex": {
+                      "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2036,
+                "end": 2042,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2043,
+              "end": 2053,
+              "name": "𝓑𝓻𝓸𝔀𝓷"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2055,
+            "end": 2062,
+            "value": "brown",
+            "raw": "\"brown\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2065,
+      "end": 2218,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2065,
+        "end": 2217,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2065,
+          "end": 2081,
+          "object": {
+            "type": "Identifier",
+            "start": 2065,
+            "end": 2071,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2072,
+            "end": 2081,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2082,
+            "end": 2207,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2082,
+              "end": 2161,
+              "object": {
+                "type": "CallExpression",
+                "start": 2082,
+                "end": 2154,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2082,
+                  "end": 2094,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2082,
+                    "end": 2088,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2089,
+                    "end": 2094,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2095,
+                    "end": 2153,
+                    "value": {},
+                    "raw": "/(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)/u",
+                    "regex": {
+                      "pattern": "(?<\\u{1d4d1}\\u{1d4fb}\\u{1d4f8}\\u{1d500}\\u{1d4f7}>brown)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2155,
+                "end": 2161,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2162,
+              "end": 2207,
+              "name": "𝓑𝓻𝓸𝔀𝓷"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2209,
+            "end": 2216,
+            "value": "brown",
+            "raw": "\"brown\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2219,
+      "end": 2352,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2219,
+        "end": 2351,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2219,
+          "end": 2235,
+          "object": {
+            "type": "Identifier",
+            "start": 2219,
+            "end": 2225,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2226,
+            "end": 2235,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2236,
+            "end": 2341,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2236,
+              "end": 2330,
+              "object": {
+                "type": "CallExpression",
+                "start": 2236,
+                "end": 2323,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2236,
+                  "end": 2248,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2236,
+                    "end": 2242,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2243,
+                    "end": 2248,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2249,
+                    "end": 2322,
+                    "value": {},
+                    "raw": "/(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)/u",
+                    "regex": {
+                      "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2324,
+                "end": 2330,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2331,
+              "end": 2341,
+              "name": "𝓑𝓻𝓸𝔀𝓷"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2343,
+            "end": 2350,
+            "value": "brown",
+            "raw": "\"brown\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2353,
+      "end": 2521,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2353,
+        "end": 2520,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2353,
+          "end": 2369,
+          "object": {
+            "type": "Identifier",
+            "start": 2353,
+            "end": 2359,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2360,
+            "end": 2369,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2370,
+            "end": 2510,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2370,
+              "end": 2464,
+              "object": {
+                "type": "CallExpression",
+                "start": 2370,
+                "end": 2457,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2370,
+                  "end": 2382,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2370,
+                    "end": 2376,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2377,
+                    "end": 2382,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2383,
+                    "end": 2456,
+                    "value": {},
+                    "raw": "/(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)/u",
+                    "regex": {
+                      "pattern": "(?<\\ud835\\udcd1\\ud835\\udcfb\\ud835\\udcf8\\ud835\\udd00\\ud835\\udcf7>brown)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2458,
+                "end": 2464,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2465,
+              "end": 2510,
+              "name": "𝓑𝓻𝓸𝔀𝓷"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2512,
+            "end": 2519,
+            "value": "brown",
+            "raw": "\"brown\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2523,
+      "end": 2617,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2523,
+        "end": 2616,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2523,
+          "end": 2539,
+          "object": {
+            "type": "Identifier",
+            "start": 2523,
+            "end": 2529,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2530,
+            "end": 2539,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2540,
+            "end": 2596,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2540,
+              "end": 2589,
+              "object": {
+                "type": "CallExpression",
+                "start": 2540,
+                "end": 2582,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2540,
+                  "end": 2552,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2540,
+                    "end": 2546,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2547,
+                    "end": 2552,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2553,
+                    "end": 2581,
+                    "value": {},
+                    "raw": "/(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)/u",
+                    "regex": {
+                      "pattern": "(?<𝖰𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2583,
+                "end": 2589,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2590,
+              "end": 2596,
+              "name": "𝖰𝖡𝖥"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2598,
+            "end": 2615,
+            "value": "quick brown fox",
+            "raw": "\"quick brown fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2618,
+      "end": 2719,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2618,
+        "end": 2718,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2618,
+          "end": 2634,
+          "object": {
+            "type": "Identifier",
+            "start": 2618,
+            "end": 2624,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2625,
+            "end": 2634,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2635,
+            "end": 2698,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2635,
+              "end": 2691,
+              "object": {
+                "type": "CallExpression",
+                "start": 2635,
+                "end": 2684,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2635,
+                  "end": 2647,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2635,
+                    "end": 2641,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2642,
+                    "end": 2647,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2648,
+                    "end": 2683,
+                    "value": {},
+                    "raw": "/(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
+                    "regex": {
+                      "pattern": "(?<𝖰𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2685,
+                "end": 2691,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2692,
+              "end": 2698,
+              "name": "𝖰𝖡𝖥"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2700,
+            "end": 2717,
+            "value": "quick brown fox",
+            "raw": "\"quick brown fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2720,
+      "end": 2821,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2720,
+        "end": 2820,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2720,
+          "end": 2736,
+          "object": {
+            "type": "Identifier",
+            "start": 2720,
+            "end": 2726,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2727,
+            "end": 2736,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2737,
+            "end": 2800,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2737,
+              "end": 2793,
+              "object": {
+                "type": "CallExpression",
+                "start": 2737,
+                "end": 2786,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2737,
+                  "end": 2749,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2737,
+                    "end": 2743,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2744,
+                    "end": 2749,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2750,
+                    "end": 2785,
+                    "value": {},
+                    "raw": "/(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)/u",
+                    "regex": {
+                      "pattern": "(?<𝖰\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2787,
+                "end": 2793,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2794,
+              "end": 2800,
+              "name": "𝖰𝖡𝖥"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2802,
+            "end": 2819,
+            "value": "quick brown fox",
+            "raw": "\"quick brown fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2822,
+      "end": 2930,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2822,
+        "end": 2929,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2822,
+          "end": 2838,
+          "object": {
+            "type": "Identifier",
+            "start": 2822,
+            "end": 2828,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2829,
+            "end": 2838,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2839,
+            "end": 2909,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2839,
+              "end": 2902,
+              "object": {
+                "type": "CallExpression",
+                "start": 2839,
+                "end": 2895,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2839,
+                  "end": 2851,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2839,
+                    "end": 2845,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2846,
+                    "end": 2851,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2852,
+                    "end": 2894,
+                    "value": {},
+                    "raw": "/(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
+                    "regex": {
+                      "pattern": "(?<𝖰\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2896,
+                "end": 2902,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2903,
+              "end": 2909,
+              "name": "𝖰𝖡𝖥"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2911,
+            "end": 2928,
+            "value": "quick brown fox",
+            "raw": "\"quick brown fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2931,
+      "end": 3032,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2931,
+        "end": 3031,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2931,
+          "end": 2947,
+          "object": {
+            "type": "Identifier",
+            "start": 2931,
+            "end": 2937,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2938,
+            "end": 2947,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2948,
+            "end": 3011,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2948,
+              "end": 3004,
+              "object": {
+                "type": "CallExpression",
+                "start": 2948,
+                "end": 2997,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2948,
+                  "end": 2960,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2948,
+                    "end": 2954,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2955,
+                    "end": 2960,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2961,
+                    "end": 2996,
+                    "value": {},
+                    "raw": "/(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)/u",
+                    "regex": {
+                      "pattern": "(?<\\u{1d5b0}𝖡𝖥>q\\w*\\W\\w*\\W\\w*)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2998,
+                "end": 3004,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3005,
+              "end": 3011,
+              "name": "𝖰𝖡𝖥"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3013,
+            "end": 3030,
+            "value": "quick brown fox",
+            "raw": "\"quick brown fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3033,
+      "end": 3141,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3033,
+        "end": 3140,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3033,
+          "end": 3049,
+          "object": {
+            "type": "Identifier",
+            "start": 3033,
+            "end": 3039,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3040,
+            "end": 3049,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3050,
+            "end": 3120,
+            "object": {
+              "type": "MemberExpression",
+              "start": 3050,
+              "end": 3113,
+              "object": {
+                "type": "CallExpression",
+                "start": 3050,
+                "end": 3106,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 3050,
+                  "end": 3062,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 3050,
+                    "end": 3056,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 3057,
+                    "end": 3062,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3063,
+                    "end": 3105,
+                    "value": {},
+                    "raw": "/(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
+                    "regex": {
+                      "pattern": "(?<\\u{1d5b0}𝖡\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3107,
+                "end": 3113,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3114,
+              "end": 3120,
+              "name": "𝖰𝖡𝖥"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3122,
+            "end": 3139,
+            "value": "quick brown fox",
+            "raw": "\"quick brown fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3142,
+      "end": 3250,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3142,
+        "end": 3249,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3142,
+          "end": 3158,
+          "object": {
+            "type": "Identifier",
+            "start": 3142,
+            "end": 3148,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3149,
+            "end": 3158,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3159,
+            "end": 3229,
+            "object": {
+              "type": "MemberExpression",
+              "start": 3159,
+              "end": 3222,
+              "object": {
+                "type": "CallExpression",
+                "start": 3159,
+                "end": 3215,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 3159,
+                  "end": 3171,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 3159,
+                    "end": 3165,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 3166,
+                    "end": 3171,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3172,
+                    "end": 3214,
+                    "value": {},
+                    "raw": "/(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)/u",
+                    "regex": {
+                      "pattern": "(?<\\u{1d5b0}\\u{1d5a1}𝖥>q\\w*\\W\\w*\\W\\w*)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3216,
+                "end": 3222,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3223,
+              "end": 3229,
+              "name": "𝖰𝖡𝖥"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3231,
+            "end": 3248,
+            "value": "quick brown fox",
+            "raw": "\"quick brown fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3251,
+      "end": 3366,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3251,
+        "end": 3365,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3251,
+          "end": 3267,
+          "object": {
+            "type": "Identifier",
+            "start": 3251,
+            "end": 3257,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3258,
+            "end": 3267,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3268,
+            "end": 3345,
+            "object": {
+              "type": "MemberExpression",
+              "start": 3268,
+              "end": 3338,
+              "object": {
+                "type": "CallExpression",
+                "start": 3268,
+                "end": 3331,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 3268,
+                  "end": 3280,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 3268,
+                    "end": 3274,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 3275,
+                    "end": 3280,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3281,
+                    "end": 3330,
+                    "value": {},
+                    "raw": "/(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)/u",
+                    "regex": {
+                      "pattern": "(?<\\u{1d5b0}\\u{1d5a1}\\u{1d5a5}>q\\w*\\W\\w*\\W\\w*)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3332,
+                "end": 3338,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3339,
+              "end": 3345,
+              "name": "𝖰𝖡𝖥"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3347,
+            "end": 3364,
+            "value": "quick brown fox",
+            "raw": "\"quick brown fox\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3368,
+      "end": 3437,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3368,
+        "end": 3436,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3368,
+          "end": 3384,
+          "object": {
+            "type": "Identifier",
+            "start": 3368,
+            "end": 3374,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3375,
+            "end": 3384,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3385,
+            "end": 3428,
+            "object": {
+              "type": "MemberExpression",
+              "start": 3385,
+              "end": 3422,
+              "object": {
+                "type": "CallExpression",
+                "start": 3385,
+                "end": 3415,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 3385,
+                  "end": 3397,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 3385,
+                    "end": 3391,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 3392,
+                    "end": 3397,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3398,
+                    "end": 3414,
+                    "value": {},
+                    "raw": "/(?<the𝟚>the)/u",
+                    "regex": {
+                      "pattern": "(?<the𝟚>the)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3416,
+                "end": 3422,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3423,
+              "end": 3428,
+              "name": "the𝟚"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3430,
+            "end": 3435,
+            "value": "the",
+            "raw": "\"the\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3438,
+      "end": 3514,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3438,
+        "end": 3513,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3438,
+          "end": 3454,
+          "object": {
+            "type": "Identifier",
+            "start": 3438,
+            "end": 3444,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3445,
+            "end": 3454,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3455,
+            "end": 3505,
+            "object": {
+              "type": "MemberExpression",
+              "start": 3455,
+              "end": 3499,
+              "object": {
+                "type": "CallExpression",
+                "start": 3455,
+                "end": 3492,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 3455,
+                  "end": 3467,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 3455,
+                    "end": 3461,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 3462,
+                    "end": 3467,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3468,
+                    "end": 3491,
+                    "value": {},
+                    "raw": "/(?<the\\u{1d7da}>the)/u",
+                    "regex": {
+                      "pattern": "(?<the\\u{1d7da}>the)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3493,
+                "end": 3499,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3500,
+              "end": 3505,
+              "name": "the𝟚"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3507,
+            "end": 3512,
+            "value": "the",
+            "raw": "\"the\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3515,
+      "end": 3594,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3515,
+        "end": 3593,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3515,
+          "end": 3531,
+          "object": {
+            "type": "Identifier",
+            "start": 3515,
+            "end": 3521,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3522,
+            "end": 3531,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3532,
+            "end": 3585,
+            "object": {
+              "type": "MemberExpression",
+              "start": 3532,
+              "end": 3579,
+              "object": {
+                "type": "CallExpression",
+                "start": 3532,
+                "end": 3572,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 3532,
+                  "end": 3544,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 3532,
+                    "end": 3538,
+                    "name": "string"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 3539,
+                    "end": 3544,
+                    "name": "match"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3545,
+                    "end": 3571,
+                    "value": {},
+                    "raw": "/(?<the\\ud835\\udfda>the)/u",
+                    "regex": {
+                      "pattern": "(?<the\\ud835\\udfda>the)",
+                      "flags": "u"
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3573,
+                "end": 3579,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3580,
+              "end": 3585,
+              "name": "the𝟚"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3587,
+            "end": 3592,
+            "value": "the",
+            "raw": "\"the\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3596,
+      "end": 3648,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 3596,
+        "end": 3647,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 3596,
+          "end": 3601,
+          "name": "match"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 3604,
+          "end": 3647,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 3604,
+            "end": 3617,
+            "object": {
+              "type": "Identifier",
+              "start": 3604,
+              "end": 3611,
+              "name": "string2"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3612,
+              "end": 3617,
+              "name": "match"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 3618,
+              "end": 3646,
+              "value": {},
+              "raw": "/(?<dog>dog)(.*?)(\\k<dog>)/u",
+              "regex": {
+                "pattern": "(?<dog>dog)(.*?)(\\k<dog>)",
+                "flags": "u"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3649,
+      "end": 3691,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3649,
+        "end": 3690,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3649,
+          "end": 3665,
+          "object": {
+            "type": "Identifier",
+            "start": 3649,
+            "end": 3655,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3656,
+            "end": 3665,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3666,
+            "end": 3682,
+            "object": {
+              "type": "MemberExpression",
+              "start": 3666,
+              "end": 3678,
+              "object": {
+                "type": "Identifier",
+                "start": 3666,
+                "end": 3671,
+                "name": "match"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3672,
+                "end": 3678,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3679,
+              "end": 3682,
+              "name": "dog"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3684,
+            "end": 3689,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3692,
+      "end": 3726,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3692,
+        "end": 3725,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3692,
+          "end": 3708,
+          "object": {
+            "type": "Identifier",
+            "start": 3692,
+            "end": 3698,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3699,
+            "end": 3708,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3709,
+            "end": 3717,
+            "object": {
+              "type": "Identifier",
+              "start": 3709,
+              "end": 3714,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 3715,
+              "end": 3716,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3719,
+            "end": 3724,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3727,
+      "end": 3763,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3727,
+        "end": 3762,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3727,
+          "end": 3743,
+          "object": {
+            "type": "Identifier",
+            "start": 3727,
+            "end": 3733,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3734,
+            "end": 3743,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3744,
+            "end": 3752,
+            "object": {
+              "type": "Identifier",
+              "start": 3744,
+              "end": 3749,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 3750,
+              "end": 3751,
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3754,
+            "end": 3761,
+            "value": " eat ",
+            "raw": "\" eat \""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3764,
+      "end": 3798,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3764,
+        "end": 3797,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3764,
+          "end": 3780,
+          "object": {
+            "type": "Identifier",
+            "start": 3764,
+            "end": 3770,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3771,
+            "end": 3780,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3781,
+            "end": 3789,
+            "object": {
+              "type": "Identifier",
+              "start": 3781,
+              "end": 3786,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 3787,
+              "end": 3788,
+              "value": 3,
+              "raw": "3"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3791,
+            "end": 3796,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3800,
+      "end": 3858,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 3800,
+        "end": 3857,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 3800,
+          "end": 3805,
+          "name": "match"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 3808,
+          "end": 3857,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 3808,
+            "end": 3821,
+            "object": {
+              "type": "Identifier",
+              "start": 3808,
+              "end": 3815,
+              "name": "string2"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3816,
+              "end": 3821,
+              "name": "match"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 3822,
+              "end": 3856,
+              "value": {},
+              "raw": "/(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)/u",
+              "regex": {
+                "pattern": "(?<𝓓𝓸𝓰>dog)(.*?)(\\k<𝓓𝓸𝓰>)",
+                "flags": "u"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3859,
+      "end": 3904,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3859,
+        "end": 3903,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3859,
+          "end": 3875,
+          "object": {
+            "type": "Identifier",
+            "start": 3859,
+            "end": 3865,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3866,
+            "end": 3875,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3876,
+            "end": 3895,
+            "object": {
+              "type": "MemberExpression",
+              "start": 3876,
+              "end": 3888,
+              "object": {
+                "type": "Identifier",
+                "start": 3876,
+                "end": 3881,
+                "name": "match"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3882,
+                "end": 3888,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3889,
+              "end": 3895,
+              "name": "𝓓𝓸𝓰"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3897,
+            "end": 3902,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3905,
+      "end": 3939,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3905,
+        "end": 3938,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3905,
+          "end": 3921,
+          "object": {
+            "type": "Identifier",
+            "start": 3905,
+            "end": 3911,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3912,
+            "end": 3921,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3922,
+            "end": 3930,
+            "object": {
+              "type": "Identifier",
+              "start": 3922,
+              "end": 3927,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 3928,
+              "end": 3929,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3932,
+            "end": 3937,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3940,
+      "end": 3976,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3940,
+        "end": 3975,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3940,
+          "end": 3956,
+          "object": {
+            "type": "Identifier",
+            "start": 3940,
+            "end": 3946,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3947,
+            "end": 3956,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3957,
+            "end": 3965,
+            "object": {
+              "type": "Identifier",
+              "start": 3957,
+              "end": 3962,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 3963,
+              "end": 3964,
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3967,
+            "end": 3974,
+            "value": " eat ",
+            "raw": "\" eat \""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3977,
+      "end": 4011,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3977,
+        "end": 4010,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3977,
+          "end": 3993,
+          "object": {
+            "type": "Identifier",
+            "start": 3977,
+            "end": 3983,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3984,
+            "end": 3993,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 3994,
+            "end": 4002,
+            "object": {
+              "type": "Identifier",
+              "start": 3994,
+              "end": 3999,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 4000,
+              "end": 4001,
+              "value": 3,
+              "raw": "3"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4004,
+            "end": 4009,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4013,
+      "end": 4061,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 4013,
+        "end": 4060,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 4013,
+          "end": 4018,
+          "name": "match"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 4021,
+          "end": 4060,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 4021,
+            "end": 4034,
+            "object": {
+              "type": "Identifier",
+              "start": 4021,
+              "end": 4028,
+              "name": "string2"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 4029,
+              "end": 4034,
+              "name": "match"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 4035,
+              "end": 4059,
+              "value": {},
+              "raw": "/(?<狗>dog)(.*?)(\\k<狗>)/u",
+              "regex": {
+                "pattern": "(?<狗>dog)(.*?)(\\k<狗>)",
+                "flags": "u"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4062,
+      "end": 4102,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4062,
+        "end": 4101,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4062,
+          "end": 4078,
+          "object": {
+            "type": "Identifier",
+            "start": 4062,
+            "end": 4068,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4069,
+            "end": 4078,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 4079,
+            "end": 4093,
+            "object": {
+              "type": "MemberExpression",
+              "start": 4079,
+              "end": 4091,
+              "object": {
+                "type": "Identifier",
+                "start": 4079,
+                "end": 4084,
+                "name": "match"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4085,
+                "end": 4091,
+                "name": "groups"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 4092,
+              "end": 4093,
+              "name": "狗"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4095,
+            "end": 4100,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4103,
+      "end": 4137,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4103,
+        "end": 4136,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4103,
+          "end": 4119,
+          "object": {
+            "type": "Identifier",
+            "start": 4103,
+            "end": 4109,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4110,
+            "end": 4119,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 4120,
+            "end": 4128,
+            "object": {
+              "type": "Identifier",
+              "start": 4120,
+              "end": 4125,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 4126,
+              "end": 4127,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4130,
+            "end": 4135,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4138,
+      "end": 4174,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4138,
+        "end": 4173,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4138,
+          "end": 4154,
+          "object": {
+            "type": "Identifier",
+            "start": 4138,
+            "end": 4144,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4145,
+            "end": 4154,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 4155,
+            "end": 4163,
+            "object": {
+              "type": "Identifier",
+              "start": 4155,
+              "end": 4160,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 4161,
+              "end": 4162,
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4165,
+            "end": 4172,
+            "value": " eat ",
+            "raw": "\" eat \""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4175,
+      "end": 4209,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4175,
+        "end": 4208,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4175,
+          "end": 4191,
+          "object": {
+            "type": "Identifier",
+            "start": 4175,
+            "end": 4181,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4182,
+            "end": 4191,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 4192,
+            "end": 4200,
+            "object": {
+              "type": "Identifier",
+              "start": 4192,
+              "end": 4197,
+              "name": "match"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 4198,
+              "end": 4199,
+              "value": 3,
+              "raw": "3"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4202,
+            "end": 4207,
+            "value": "dog",
+            "raw": "\"dog\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,1509 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2501,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1161,
+      "end": 1199,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1165,
+          "end": 1198,
+          "id": {
+            "type": "Identifier",
+            "start": 1165,
+            "end": 1170,
+            "name": "other"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 1173,
+            "end": 1198,
+            "object": {
+              "type": "CallExpression",
+              "start": 1173,
+              "end": 1191,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1173,
+                "end": 1189,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1173,
+                  "end": 1177,
+                  "name": "$262"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1178,
+                  "end": 1189,
+                  "name": "createRealm"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1192,
+              "end": 1198,
+              "name": "global"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1200,
+      "end": 1237,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1204,
+          "end": 1236,
+          "id": {
+            "type": "Identifier",
+            "start": 1204,
+            "end": 1213,
+            "name": "newTarget"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1216,
+            "end": 1236,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1220,
+              "end": 1234,
+              "object": {
+                "type": "Identifier",
+                "start": 1220,
+                "end": 1225,
+                "name": "other"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1226,
+                "end": 1234,
+                "name": "Function"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1238,
+      "end": 1246,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1242,
+          "end": 1245,
+          "id": {
+            "type": "Identifier",
+            "start": 1242,
+            "end": 1245,
+            "name": "dtf"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1248,
+      "end": 1280,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1248,
+        "end": 1279,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1248,
+          "end": 1267,
+          "object": {
+            "type": "Identifier",
+            "start": 1248,
+            "end": 1257,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1258,
+            "end": 1267,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 1270,
+          "end": 1279,
+          "name": "undefined"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1281,
+      "end": 1341,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1281,
+        "end": 1340,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1281,
+          "end": 1284,
+          "name": "dtf"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1287,
+          "end": 1340,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1287,
+            "end": 1304,
+            "object": {
+              "type": "Identifier",
+              "start": 1287,
+              "end": 1294,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1295,
+              "end": 1304,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 1305,
+              "end": 1324,
+              "object": {
+                "type": "Identifier",
+                "start": 1305,
+                "end": 1309,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1310,
+                "end": 1324,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 1326,
+              "end": 1328,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 1330,
+              "end": 1339,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1342,
+      "end": 1460,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1342,
+        "end": 1459,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1342,
+          "end": 1358,
+          "object": {
+            "type": "Identifier",
+            "start": 1342,
+            "end": 1348,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1349,
+            "end": 1358,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1359,
+            "end": 1385,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1359,
+              "end": 1380,
+              "object": {
+                "type": "Identifier",
+                "start": 1359,
+                "end": 1365,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1366,
+                "end": 1380,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1381,
+                "end": 1384,
+                "name": "dtf"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1387,
+            "end": 1422,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1387,
+              "end": 1412,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1387,
+                "end": 1397,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1387,
+                  "end": 1392,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1393,
+                  "end": 1397,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1398,
+                "end": 1412,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1413,
+              "end": 1422,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1424,
+            "end": 1458,
+            "value": "newTarget.prototype is undefined",
+            "raw": "'newTarget.prototype is undefined'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1462,
+      "end": 1489,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1462,
+        "end": 1488,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1462,
+          "end": 1481,
+          "object": {
+            "type": "Identifier",
+            "start": 1462,
+            "end": 1471,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1472,
+            "end": 1481,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1484,
+          "end": 1488,
+          "value": null,
+          "raw": "null"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1490,
+      "end": 1550,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1490,
+        "end": 1549,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1490,
+          "end": 1493,
+          "name": "dtf"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1496,
+          "end": 1549,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1496,
+            "end": 1513,
+            "object": {
+              "type": "Identifier",
+              "start": 1496,
+              "end": 1503,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1504,
+              "end": 1513,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 1514,
+              "end": 1533,
+              "object": {
+                "type": "Identifier",
+                "start": 1514,
+                "end": 1518,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1519,
+                "end": 1533,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 1535,
+              "end": 1537,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 1539,
+              "end": 1548,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1551,
+      "end": 1664,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1551,
+        "end": 1663,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1551,
+          "end": 1567,
+          "object": {
+            "type": "Identifier",
+            "start": 1551,
+            "end": 1557,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1558,
+            "end": 1567,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1568,
+            "end": 1594,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1568,
+              "end": 1589,
+              "object": {
+                "type": "Identifier",
+                "start": 1568,
+                "end": 1574,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1575,
+                "end": 1589,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1590,
+                "end": 1593,
+                "name": "dtf"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1596,
+            "end": 1631,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1596,
+              "end": 1621,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1596,
+                "end": 1606,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1596,
+                  "end": 1601,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1602,
+                  "end": 1606,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1607,
+                "end": 1621,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1622,
+              "end": 1631,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1633,
+            "end": 1662,
+            "value": "newTarget.prototype is null",
+            "raw": "'newTarget.prototype is null'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1666,
+      "end": 1694,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1666,
+        "end": 1693,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1666,
+          "end": 1685,
+          "object": {
+            "type": "Identifier",
+            "start": 1666,
+            "end": 1675,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1676,
+            "end": 1685,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1688,
+          "end": 1693,
+          "value": false,
+          "raw": "false"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1695,
+      "end": 1755,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1695,
+        "end": 1754,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1695,
+          "end": 1698,
+          "name": "dtf"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1701,
+          "end": 1754,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1701,
+            "end": 1718,
+            "object": {
+              "type": "Identifier",
+              "start": 1701,
+              "end": 1708,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1709,
+              "end": 1718,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 1719,
+              "end": 1738,
+              "object": {
+                "type": "Identifier",
+                "start": 1719,
+                "end": 1723,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1724,
+                "end": 1738,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 1740,
+              "end": 1742,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 1744,
+              "end": 1753,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1756,
+      "end": 1874,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1756,
+        "end": 1873,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1756,
+          "end": 1772,
+          "object": {
+            "type": "Identifier",
+            "start": 1756,
+            "end": 1762,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1763,
+            "end": 1772,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1773,
+            "end": 1799,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1773,
+              "end": 1794,
+              "object": {
+                "type": "Identifier",
+                "start": 1773,
+                "end": 1779,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1780,
+                "end": 1794,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1795,
+                "end": 1798,
+                "name": "dtf"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1801,
+            "end": 1836,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1801,
+              "end": 1826,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1801,
+                "end": 1811,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1801,
+                  "end": 1806,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1807,
+                  "end": 1811,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1812,
+                "end": 1826,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1827,
+              "end": 1836,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1838,
+            "end": 1872,
+            "value": "newTarget.prototype is a Boolean",
+            "raw": "'newTarget.prototype is a Boolean'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1876,
+      "end": 1904,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1876,
+        "end": 1903,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1876,
+          "end": 1895,
+          "object": {
+            "type": "Identifier",
+            "start": 1876,
+            "end": 1885,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1886,
+            "end": 1895,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1898,
+          "end": 1903,
+          "value": "str",
+          "raw": "'str'"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1905,
+      "end": 1965,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1905,
+        "end": 1964,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1905,
+          "end": 1908,
+          "name": "dtf"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1911,
+          "end": 1964,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1911,
+            "end": 1928,
+            "object": {
+              "type": "Identifier",
+              "start": 1911,
+              "end": 1918,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1919,
+              "end": 1928,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 1929,
+              "end": 1948,
+              "object": {
+                "type": "Identifier",
+                "start": 1929,
+                "end": 1933,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1934,
+                "end": 1948,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 1950,
+              "end": 1952,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 1954,
+              "end": 1963,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1966,
+      "end": 2083,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1966,
+        "end": 2082,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1966,
+          "end": 1982,
+          "object": {
+            "type": "Identifier",
+            "start": 1966,
+            "end": 1972,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1973,
+            "end": 1982,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1983,
+            "end": 2009,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1983,
+              "end": 2004,
+              "object": {
+                "type": "Identifier",
+                "start": 1983,
+                "end": 1989,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1990,
+                "end": 2004,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2005,
+                "end": 2008,
+                "name": "dtf"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 2011,
+            "end": 2046,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2011,
+              "end": 2036,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2011,
+                "end": 2021,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2011,
+                  "end": 2016,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2017,
+                  "end": 2021,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2022,
+                "end": 2036,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2037,
+              "end": 2046,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2048,
+            "end": 2081,
+            "value": "newTarget.prototype is a String",
+            "raw": "'newTarget.prototype is a String'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2085,
+      "end": 2116,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2085,
+        "end": 2115,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 2085,
+          "end": 2104,
+          "object": {
+            "type": "Identifier",
+            "start": 2085,
+            "end": 2094,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2095,
+            "end": 2104,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2107,
+          "end": 2115,
+          "callee": {
+            "type": "Identifier",
+            "start": 2107,
+            "end": 2113,
+            "name": "Symbol"
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2117,
+      "end": 2177,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2117,
+        "end": 2176,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2117,
+          "end": 2120,
+          "name": "dtf"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2123,
+          "end": 2176,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2123,
+            "end": 2140,
+            "object": {
+              "type": "Identifier",
+              "start": 2123,
+              "end": 2130,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2131,
+              "end": 2140,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 2141,
+              "end": 2160,
+              "object": {
+                "type": "Identifier",
+                "start": 2141,
+                "end": 2145,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2146,
+                "end": 2160,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 2162,
+              "end": 2164,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 2166,
+              "end": 2175,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2178,
+      "end": 2295,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2178,
+        "end": 2294,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2178,
+          "end": 2194,
+          "object": {
+            "type": "Identifier",
+            "start": 2178,
+            "end": 2184,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2185,
+            "end": 2194,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2195,
+            "end": 2221,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2195,
+              "end": 2216,
+              "object": {
+                "type": "Identifier",
+                "start": 2195,
+                "end": 2201,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2202,
+                "end": 2216,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2217,
+                "end": 2220,
+                "name": "dtf"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 2223,
+            "end": 2258,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2223,
+              "end": 2248,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2223,
+                "end": 2233,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2223,
+                  "end": 2228,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2229,
+                  "end": 2233,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2234,
+                "end": 2248,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2249,
+              "end": 2258,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2260,
+            "end": 2293,
+            "value": "newTarget.prototype is a Symbol",
+            "raw": "'newTarget.prototype is a Symbol'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2297,
+      "end": 2321,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2297,
+        "end": 2320,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 2297,
+          "end": 2316,
+          "object": {
+            "type": "Identifier",
+            "start": 2297,
+            "end": 2306,
+            "name": "newTarget"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2307,
+            "end": 2316,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 2319,
+          "end": 2320,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2322,
+      "end": 2382,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2322,
+        "end": 2381,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2322,
+          "end": 2325,
+          "name": "dtf"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2328,
+          "end": 2381,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2328,
+            "end": 2345,
+            "object": {
+              "type": "Identifier",
+              "start": 2328,
+              "end": 2335,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2336,
+              "end": 2345,
+              "name": "construct"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 2346,
+              "end": 2365,
+              "object": {
+                "type": "Identifier",
+                "start": 2346,
+                "end": 2350,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2351,
+                "end": 2365,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "ArrayExpression",
+              "start": 2367,
+              "end": 2369,
+              "elements": []
+            },
+            {
+              "type": "Identifier",
+              "start": 2371,
+              "end": 2380,
+              "name": "newTarget"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2383,
+      "end": 2500,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2383,
+        "end": 2499,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2383,
+          "end": 2399,
+          "object": {
+            "type": "Identifier",
+            "start": 2383,
+            "end": 2389,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2390,
+            "end": 2399,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2400,
+            "end": 2426,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2400,
+              "end": 2421,
+              "object": {
+                "type": "Identifier",
+                "start": 2400,
+                "end": 2406,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2407,
+                "end": 2421,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2422,
+                "end": 2425,
+                "name": "dtf"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 2428,
+            "end": 2463,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2428,
+              "end": 2453,
+              "object": {
+                "type": "MemberExpression",
+                "start": 2428,
+                "end": 2438,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2428,
+                  "end": 2433,
+                  "name": "other"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2434,
+                  "end": 2438,
+                  "name": "Intl"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2439,
+                "end": 2453,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2454,
+              "end": 2463,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2465,
+            "end": 2498,
+            "value": "newTarget.prototype is a Number",
+            "raw": "'newTarget.prototype is a Number'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

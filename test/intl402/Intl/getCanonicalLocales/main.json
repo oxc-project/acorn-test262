@@ -1,0 +1,534 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 795,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 416,
+      "end": 451,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 420,
+          "end": 450,
+          "id": {
+            "type": "Identifier",
+            "start": 420,
+            "end": 423,
+            "name": "gCL"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 426,
+            "end": 450,
+            "object": {
+              "type": "Identifier",
+              "start": 426,
+              "end": 430,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 431,
+              "end": 450,
+              "name": "getCanonicalLocales"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 453,
+      "end": 515,
+      "id": {
+        "type": "Identifier",
+        "start": 462,
+        "end": 473,
+        "name": "assertArray"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 474,
+          "end": 475,
+          "name": "l"
+        },
+        {
+          "type": "Identifier",
+          "start": 477,
+          "end": 478,
+          "name": "r"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 480,
+        "end": 515,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 484,
+            "end": 513,
+            "expression": {
+              "type": "CallExpression",
+              "start": 484,
+              "end": 512,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 484,
+                "end": 503,
+                "object": {
+                  "type": "Identifier",
+                  "start": 484,
+                  "end": 490,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 491,
+                  "end": 503,
+                  "name": "compareArray"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 504,
+                  "end": 505,
+                  "name": "l"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 507,
+                  "end": 508,
+                  "name": "r"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 510,
+                  "end": 511,
+                  "name": "r"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 517,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 517,
+        "end": 539,
+        "callee": {
+          "type": "Identifier",
+          "start": 517,
+          "end": 528,
+          "name": "assertArray"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 529,
+            "end": 534,
+            "callee": {
+              "type": "Identifier",
+              "start": 529,
+              "end": 532,
+              "name": "gCL"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 536,
+            "end": 538,
+            "elements": []
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 542,
+      "end": 579,
+      "expression": {
+        "type": "CallExpression",
+        "start": 542,
+        "end": 578,
+        "callee": {
+          "type": "Identifier",
+          "start": 542,
+          "end": 553,
+          "name": "assertArray"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 554,
+            "end": 566,
+            "callee": {
+              "type": "Identifier",
+              "start": 554,
+              "end": 557,
+              "name": "gCL"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 558,
+                "end": 565,
+                "value": "ab-cd",
+                "raw": "'ab-cd'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 568,
+            "end": 577,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 569,
+                "end": 576,
+                "value": "ab-CD",
+                "raw": "'ab-CD'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 581,
+      "end": 620,
+      "expression": {
+        "type": "CallExpression",
+        "start": 581,
+        "end": 619,
+        "callee": {
+          "type": "Identifier",
+          "start": 581,
+          "end": 592,
+          "name": "assertArray"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 593,
+            "end": 607,
+            "callee": {
+              "type": "Identifier",
+              "start": 593,
+              "end": 596,
+              "name": "gCL"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 597,
+                "end": 606,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 598,
+                    "end": 605,
+                    "value": "ab-cd",
+                    "raw": "'ab-cd'"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 609,
+            "end": 618,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 610,
+                "end": 617,
+                "value": "ab-CD",
+                "raw": "'ab-CD'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 622,
+      "end": 673,
+      "expression": {
+        "type": "CallExpression",
+        "start": 622,
+        "end": 672,
+        "callee": {
+          "type": "Identifier",
+          "start": 622,
+          "end": 633,
+          "name": "assertArray"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 634,
+            "end": 654,
+            "callee": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 637,
+              "name": "gCL"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 638,
+                "end": 653,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 639,
+                    "end": 646,
+                    "value": "ab-cd",
+                    "raw": "'ab-cd'"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 648,
+                    "end": 652,
+                    "value": "FF",
+                    "raw": "'FF'"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 656,
+            "end": 671,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 657,
+                "end": 664,
+                "value": "ab-CD",
+                "raw": "'ab-CD'"
+              },
+              {
+                "type": "Literal",
+                "start": 666,
+                "end": 670,
+                "value": "ff",
+                "raw": "'ff'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 675,
+      "end": 706,
+      "expression": {
+        "type": "CallExpression",
+        "start": 675,
+        "end": 705,
+        "callee": {
+          "type": "Identifier",
+          "start": 675,
+          "end": 686,
+          "name": "assertArray"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 687,
+            "end": 700,
+            "callee": {
+              "type": "Identifier",
+              "start": 687,
+              "end": 690,
+              "name": "gCL"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 691,
+                "end": 699,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 692,
+                    "end": 698,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Literal",
+                      "start": 692,
+                      "end": 695,
+                      "value": "a",
+                      "raw": "'a'"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 697,
+                      "end": 698,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 702,
+            "end": 704,
+            "elements": []
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 708,
+      "end": 733,
+      "expression": {
+        "type": "CallExpression",
+        "start": 708,
+        "end": 732,
+        "callee": {
+          "type": "Identifier",
+          "start": 708,
+          "end": 719,
+          "name": "assertArray"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 720,
+            "end": 727,
+            "callee": {
+              "type": "Identifier",
+              "start": 720,
+              "end": 723,
+              "name": "gCL"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 724,
+                "end": 726,
+                "properties": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 729,
+            "end": 731,
+            "elements": []
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 735,
+      "end": 794,
+      "expression": {
+        "type": "CallExpression",
+        "start": 735,
+        "end": 793,
+        "callee": {
+          "type": "Identifier",
+          "start": 735,
+          "end": 746,
+          "name": "assertArray"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 747,
+            "end": 771,
+            "callee": {
+              "type": "Identifier",
+              "start": 747,
+              "end": 750,
+              "name": "gCL"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 751,
+                "end": 770,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 752,
+                    "end": 769,
+                    "value": "th-th-u-nu-thai",
+                    "raw": "'th-th-u-nu-thai'"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 773,
+            "end": 792,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 774,
+                "end": 791,
+                "value": "th-TH-u-nu-thai",
+                "raw": "'th-TH-u-nu-thai'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

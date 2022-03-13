@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 969,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 732,
+      "end": 838,
+      "expression": {
+        "type": "CallExpression",
+        "start": 732,
+        "end": 837,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 732,
+          "end": 748,
+          "object": {
+            "type": "Identifier",
+            "start": 732,
+            "end": 738,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 739,
+            "end": 748,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 752,
+            "end": 770,
+            "object": {
+              "type": "MemberExpression",
+              "start": 752,
+              "end": 765,
+              "object": {
+                "type": "Identifier",
+                "start": 752,
+                "end": 758,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 759,
+                "end": 765,
+                "name": "assign"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 766,
+              "end": 770,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 774,
+            "end": 782,
+            "value": "assign",
+            "raw": "'assign'"
+          },
+          {
+            "type": "Literal",
+            "start": 786,
+            "end": 835,
+            "value": "The value of `Object.assign.name` is `\"assign\"`",
+            "raw": "'The value of `Object.assign.name` is `\"assign\"`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 840,
+      "end": 883,
+      "expression": {
+        "type": "CallExpression",
+        "start": 840,
+        "end": 882,
+        "callee": {
+          "type": "Identifier",
+          "start": 840,
+          "end": 859,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 860,
+            "end": 873,
+            "object": {
+              "type": "Identifier",
+              "start": 860,
+              "end": 866,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 867,
+              "end": 873,
+              "name": "assign"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 875,
+            "end": 881,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 884,
+      "end": 925,
+      "expression": {
+        "type": "CallExpression",
+        "start": 884,
+        "end": 924,
+        "callee": {
+          "type": "Identifier",
+          "start": 884,
+          "end": 901,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 902,
+            "end": 915,
+            "object": {
+              "type": "Identifier",
+              "start": 902,
+              "end": 908,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 909,
+              "end": 915,
+              "name": "assign"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 917,
+            "end": 923,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 926,
+      "end": 968,
+      "expression": {
+        "type": "CallExpression",
+        "start": 926,
+        "end": 967,
+        "callee": {
+          "type": "Identifier",
+          "start": 926,
+          "end": 944,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 945,
+            "end": 958,
+            "object": {
+              "type": "Identifier",
+              "start": 945,
+              "end": 951,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 952,
+              "end": 958,
+              "name": "assign"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 960,
+            "end": 966,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

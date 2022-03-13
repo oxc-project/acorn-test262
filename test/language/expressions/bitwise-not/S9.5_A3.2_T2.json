@@ -1,0 +1,166 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 397,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 235,
+      "end": 307,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 239,
+        "end": 253,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 239,
+          "end": 246,
+          "operator": "~",
+          "prefix": true,
+          "argument": {
+            "type": "Literal",
+            "start": 240,
+            "end": 246,
+            "value": 1.2345,
+            "raw": "1.2345"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "UnaryExpression",
+          "start": 251,
+          "end": 253,
+          "operator": "~",
+          "prefix": true,
+          "argument": {
+            "type": "Literal",
+            "start": 252,
+            "end": 253,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 255,
+        "end": 307,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 259,
+            "end": 305,
+            "argument": {
+              "type": "NewExpression",
+              "start": 265,
+              "end": 304,
+              "callee": {
+                "type": "Identifier",
+                "start": 269,
+                "end": 281,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 282,
+                  "end": 303,
+                  "value": "#1: ~1.2345 === ~1)",
+                  "raw": "'#1: ~1.2345 === ~1)'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 320,
+      "end": 396,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 324,
+        "end": 340,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 324,
+          "end": 332,
+          "operator": "~",
+          "prefix": true,
+          "argument": {
+            "type": "UnaryExpression",
+            "start": 325,
+            "end": 332,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 326,
+              "end": 332,
+              "value": 5.4321,
+              "raw": "5.4321"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "UnaryExpression",
+          "start": 337,
+          "end": 340,
+          "operator": "~",
+          "prefix": true,
+          "argument": {
+            "type": "UnaryExpression",
+            "start": 338,
+            "end": 340,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 339,
+              "end": 340,
+              "value": 5,
+              "raw": "5"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 342,
+        "end": 396,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 346,
+            "end": 394,
+            "argument": {
+              "type": "NewExpression",
+              "start": 352,
+              "end": 393,
+              "callee": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 368,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 369,
+                  "end": 392,
+                  "value": "#2: ~-5.4321 === ~-5)",
+                  "raw": "'#2: ~-5.4321 === ~-5)'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 377,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 301,
+      "end": 376,
+      "expression": {
+        "type": "CallExpression",
+        "start": 301,
+        "end": 375,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 301,
+          "end": 317,
+          "object": {
+            "type": "Identifier",
+            "start": 301,
+            "end": 307,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 317,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 318,
+            "end": 361,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 318,
+              "end": 359,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 319,
+                "end": 358,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 331,
+                  "end": 358,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 337,
+                      "end": 356,
+                      "argument": {
+                        "type": "UnaryExpression",
+                        "start": 344,
+                        "end": 355,
+                        "operator": "typeof",
+                        "prefix": true,
+                        "argument": {
+                          "type": "ThisExpression",
+                          "start": 351,
+                          "end": 355
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 363,
+            "end": 374,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

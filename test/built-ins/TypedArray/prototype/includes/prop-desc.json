@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 755,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 550,
+      "end": 597,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 554,
+          "end": 596,
+          "id": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 573,
+            "name": "TypedArrayPrototype"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 576,
+            "end": 596,
+            "object": {
+              "type": "Identifier",
+              "start": 576,
+              "end": 586,
+              "name": "TypedArray"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 587,
+              "end": 596,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 599,
+      "end": 652,
+      "expression": {
+        "type": "CallExpression",
+        "start": 599,
+        "end": 651,
+        "callee": {
+          "type": "Identifier",
+          "start": 599,
+          "end": 618,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 619,
+            "end": 638,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 640,
+            "end": 650,
+            "value": "includes",
+            "raw": "\"includes\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 653,
+      "end": 701,
+      "expression": {
+        "type": "CallExpression",
+        "start": 653,
+        "end": 700,
+        "callee": {
+          "type": "Identifier",
+          "start": 653,
+          "end": 667,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 668,
+            "end": 687,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 699,
+            "value": "includes",
+            "raw": "\"includes\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 702,
+      "end": 754,
+      "expression": {
+        "type": "CallExpression",
+        "start": 702,
+        "end": 753,
+        "callee": {
+          "type": "Identifier",
+          "start": 702,
+          "end": 720,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 721,
+            "end": 740,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 742,
+            "end": 752,
+            "value": "includes",
+            "raw": "\"includes\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

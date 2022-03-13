@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 803,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 675,
+      "end": 729,
+      "expression": {
+        "type": "CallExpression",
+        "start": 675,
+        "end": 728,
+        "callee": {
+          "type": "Identifier",
+          "start": 675,
+          "end": 695,
+          "name": "assertNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 696,
+            "end": 727,
+            "callee": {
+              "type": "Identifier",
+              "start": 700,
+              "end": 705,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 706,
+                "end": 722,
+                "id": null,
+                "expression": false,
+                "generator": true,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 720,
+                  "end": 722,
+                  "body": []
+                }
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 724,
+                "end": 726,
+                "properties": []
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 730,
+      "end": 802,
+      "expression": {
+        "type": "CallExpression",
+        "start": 730,
+        "end": 801,
+        "callee": {
+          "type": "Identifier",
+          "start": 730,
+          "end": 750,
+          "name": "assertNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 751,
+            "end": 800,
+            "object": {
+              "type": "NewExpression",
+              "start": 751,
+              "end": 794,
+              "callee": {
+                "type": "Identifier",
+                "start": 755,
+                "end": 760,
+                "name": "Proxy"
+              },
+              "arguments": [
+                {
+                  "type": "FunctionExpression",
+                  "start": 761,
+                  "end": 777,
+                  "id": null,
+                  "expression": false,
+                  "generator": true,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 775,
+                    "end": 777,
+                    "body": []
+                  }
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 779,
+                  "end": 793,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 781,
+                      "end": 791,
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 781,
+                        "end": 786,
+                        "name": "apply"
+                      },
+                      "kind": "init",
+                      "value": {
+                        "type": "FunctionExpression",
+                        "start": 786,
+                        "end": 791,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 789,
+                          "end": 791,
+                          "body": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 795,
+              "end": 800,
+              "name": "apply"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 445,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 296,
+      "end": 417,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 300,
+          "end": 416,
+          "id": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 303,
+            "name": "foo"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 306,
+            "end": 416,
+            "callee": {
+              "type": "Identifier",
+              "start": 306,
+              "end": 314,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 315,
+                "end": 415,
+                "value": "'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}",
+                "raw": "\"'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 430,
+      "end": 444,
+      "expression": {
+        "type": "CallExpression",
+        "start": 430,
+        "end": 443,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 430,
+          "end": 438,
+          "object": {
+            "type": "Identifier",
+            "start": 430,
+            "end": 433,
+            "name": "foo"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 438,
+            "name": "call"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 439,
+            "end": 442,
+            "name": "foo"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

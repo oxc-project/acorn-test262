@@ -1,0 +1,150 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 422,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 282,
+      "end": 325,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 288,
+          "end": 325,
+          "id": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 296,
+            "name": "Subclass"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 299,
+            "end": 325,
+            "id": null,
+            "superClass": {
+              "type": "Identifier",
+              "start": 313,
+              "end": 322,
+              "name": "TypeError"
+            },
+            "body": {
+              "type": "ClassBody",
+              "start": 323,
+              "end": 325,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 327,
+      "end": 354,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 333,
+          "end": 353,
+          "id": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 336,
+            "name": "sub"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 339,
+            "end": 353,
+            "callee": {
+              "type": "Identifier",
+              "start": 343,
+              "end": 351,
+              "name": "Subclass"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 355,
+      "end": 387,
+      "expression": {
+        "type": "CallExpression",
+        "start": 355,
+        "end": 386,
+        "callee": {
+          "type": "Identifier",
+          "start": 355,
+          "end": 361,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 362,
+            "end": 385,
+            "left": {
+              "type": "Identifier",
+              "start": 362,
+              "end": 365,
+              "name": "sub"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 377,
+              "end": 385,
+              "name": "Subclass"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 421,
+      "expression": {
+        "type": "CallExpression",
+        "start": 388,
+        "end": 420,
+        "callee": {
+          "type": "Identifier",
+          "start": 388,
+          "end": 394,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 395,
+            "end": 419,
+            "left": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 398,
+              "name": "sub"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 410,
+              "end": 419,
+              "name": "TypeError"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

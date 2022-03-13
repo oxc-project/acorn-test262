@@ -1,0 +1,228 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 781,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 461,
+      "end": 532,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 465,
+          "end": 531,
+          "id": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 475,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 478,
+            "end": 531,
+            "callee": {
+              "type": "Identifier",
+              "start": 478,
+              "end": 484,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 485,
+                "end": 524,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 486,
+                    "end": 523,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 486,
+                      "end": 494,
+                      "name": "toString"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 495,
+                      "end": 523,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 505,
+                        "end": 523,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 506,
+                            "end": 522,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 513,
+                              "end": 521,
+                              "value": "[a-c]*",
+                              "raw": "\"[a-c]*\""
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "Literal",
+                "start": 526,
+                "end": 530,
+                "value": "gm",
+                "raw": "\"gm\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 534,
+      "end": 671,
+      "expression": {
+        "type": "CallExpression",
+        "start": 534,
+        "end": 670,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 534,
+          "end": 550,
+          "object": {
+            "type": "Identifier",
+            "start": 534,
+            "end": 540,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 541,
+            "end": 550,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 554,
+            "end": 576,
+            "object": {
+              "type": "Identifier",
+              "start": 554,
+              "end": 564,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 565,
+              "end": 576,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 580,
+            "end": 586,
+            "name": "RegExp"
+          },
+          {
+            "type": "Literal",
+            "start": 590,
+            "end": 668,
+            "value": "The value of __instance.constructor is expected to equal the value of RegExp",
+            "raw": "'The value of __instance.constructor is expected to equal the value of RegExp'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 673,
+      "end": 780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 673,
+        "end": 779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 673,
+          "end": 689,
+          "object": {
+            "type": "Identifier",
+            "start": 673,
+            "end": 679,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 680,
+            "end": 689,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 690,
+            "end": 707,
+            "object": {
+              "type": "Identifier",
+              "start": 690,
+              "end": 700,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 701,
+              "end": 707,
+              "name": "source"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 709,
+            "end": 717,
+            "value": "[a-c]*",
+            "raw": "\"[a-c]*\""
+          },
+          {
+            "type": "Literal",
+            "start": 719,
+            "end": 778,
+            "value": "The value of __instance.source is expected to be \"[a-c]*\"",
+            "raw": "'The value of __instance.source is expected to be \"[a-c]*\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

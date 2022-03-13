@@ -1,0 +1,335 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1167,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 814,
+      "end": 837,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 818,
+          "end": 836,
+          "id": {
+            "type": "Identifier",
+            "start": 818,
+            "end": 820,
+            "name": "fn"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 823,
+            "end": 836,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 834,
+              "end": 836,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 838,
+      "end": 899,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 842,
+          "end": 898,
+          "id": {
+            "type": "Identifier",
+            "start": 842,
+            "end": 853,
+            "name": "cleanupSome"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 856,
+            "end": 898,
+            "object": {
+              "type": "MemberExpression",
+              "start": 856,
+              "end": 886,
+              "object": {
+                "type": "Identifier",
+                "start": 856,
+                "end": 876,
+                "name": "FinalizationRegistry"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 877,
+                "end": 886,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 887,
+              "end": 898,
+              "name": "cleanupSome"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 900,
+      "end": 956,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 904,
+          "end": 955,
+          "id": {
+            "type": "Identifier",
+            "start": 904,
+            "end": 924,
+            "name": "finalizationRegistry"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 927,
+            "end": 955,
+            "callee": {
+              "type": "Identifier",
+              "start": 931,
+              "end": 951,
+              "name": "FinalizationRegistry"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 952,
+                "end": 954,
+                "name": "fn"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 958,
+      "end": 981,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 962,
+          "end": 980,
+          "id": {
+            "type": "Identifier",
+            "start": 962,
+            "end": 964,
+            "name": "cb"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 967,
+            "end": 980,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 978,
+              "end": 980,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 983,
+      "end": 1055,
+      "expression": {
+        "type": "CallExpression",
+        "start": 983,
+        "end": 1054,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 983,
+          "end": 999,
+          "object": {
+            "type": "Identifier",
+            "start": 983,
+            "end": 989,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 990,
+            "end": 999,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1000,
+            "end": 1042,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1000,
+              "end": 1016,
+              "object": {
+                "type": "Identifier",
+                "start": 1000,
+                "end": 1011,
+                "name": "cleanupSome"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1012,
+                "end": 1016,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1017,
+                "end": 1037,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 1039,
+                "end": 1041,
+                "name": "cb"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1044,
+            "end": 1053,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1056,
+      "end": 1166,
+      "expression": {
+        "type": "SequenceExpression",
+        "start": 1056,
+        "end": 1165,
+        "expressions": [
+          {
+            "type": "CallExpression",
+            "start": 1056,
+            "end": 1127,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1056,
+              "end": 1072,
+              "object": {
+                "type": "Identifier",
+                "start": 1056,
+                "end": 1062,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1063,
+                "end": 1072,
+                "name": "sameValue"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1073,
+                "end": 1115,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1073,
+                  "end": 1089,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1073,
+                    "end": 1084,
+                    "name": "cleanupSome"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1085,
+                    "end": 1089,
+                    "name": "call"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1090,
+                    "end": 1110,
+                    "name": "finalizationRegistry"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 1112,
+                    "end": 1114,
+                    "name": "fn"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 1117,
+                "end": 1126,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1129,
+            "end": 1165,
+            "value": "reuse the same cleanup callback fn",
+            "raw": "'reuse the same cleanup callback fn'"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

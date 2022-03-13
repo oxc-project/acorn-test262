@@ -1,0 +1,404 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1136,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 835,
+      "end": 905,
+      "expression": {
+        "type": "CallExpression",
+        "start": 835,
+        "end": 904,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 835,
+          "end": 848,
+          "object": {
+            "type": "Identifier",
+            "start": 835,
+            "end": 841,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 842,
+            "end": 848,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 849,
+            "end": 859,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 861,
+            "end": 903,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 872,
+              "end": 903,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 876,
+                  "end": 901,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 876,
+                    "end": 900,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 876,
+                      "end": 896,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 876,
+                        "end": 882,
+                        "name": "String"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 883,
+                        "end": 896,
+                        "name": "fromCodePoint"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 897,
+                        "end": 899,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 898,
+                          "end": 899,
+                          "value": 1,
+                          "raw": "1"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 907,
+      "end": 980,
+      "expression": {
+        "type": "CallExpression",
+        "start": 907,
+        "end": 979,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 907,
+          "end": 920,
+          "object": {
+            "type": "Identifier",
+            "start": 907,
+            "end": 913,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 914,
+            "end": 920,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 921,
+            "end": 931,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 933,
+            "end": 978,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 944,
+              "end": 978,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 948,
+                  "end": 976,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 948,
+                    "end": 975,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 948,
+                      "end": 968,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 948,
+                        "end": 954,
+                        "name": "String"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 955,
+                        "end": 968,
+                        "name": "fromCodePoint"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 969,
+                        "end": 970,
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      {
+                        "type": "UnaryExpression",
+                        "start": 972,
+                        "end": 974,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 973,
+                          "end": 974,
+                          "value": 1,
+                          "raw": "1"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 982,
+      "end": 1057,
+      "expression": {
+        "type": "CallExpression",
+        "start": 982,
+        "end": 1056,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 982,
+          "end": 995,
+          "object": {
+            "type": "Identifier",
+            "start": 982,
+            "end": 988,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 989,
+            "end": 995,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 996,
+            "end": 1006,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1008,
+            "end": 1055,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1019,
+              "end": 1055,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1023,
+                  "end": 1053,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1023,
+                    "end": 1052,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1023,
+                      "end": 1043,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1023,
+                        "end": 1029,
+                        "name": "String"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1030,
+                        "end": 1043,
+                        "name": "fromCodePoint"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1044,
+                        "end": 1051,
+                        "value": 1114112,
+                        "raw": "1114112"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1059,
+      "end": 1135,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1059,
+        "end": 1134,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1059,
+          "end": 1072,
+          "object": {
+            "type": "Identifier",
+            "start": 1059,
+            "end": 1065,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1066,
+            "end": 1072,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1073,
+            "end": 1083,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1085,
+            "end": 1133,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1096,
+              "end": 1133,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1100,
+                  "end": 1131,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1100,
+                    "end": 1130,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1100,
+                      "end": 1120,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1100,
+                        "end": 1106,
+                        "name": "String"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1107,
+                        "end": 1120,
+                        "name": "fromCodePoint"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1121,
+                        "end": 1129,
+                        "name": "Infinity"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

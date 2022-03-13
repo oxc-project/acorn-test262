@@ -1,0 +1,147 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 507,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 344,
+      "end": 506,
+      "block": {
+        "type": "BlockStatement",
+        "start": 348,
+        "end": 365,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 352,
+            "end": 363,
+            "expression": {
+              "type": "NewExpression",
+              "start": 352,
+              "end": 362,
+              "callee": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 360,
+                "name": "eval"
+              },
+              "arguments": []
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 366,
+        "end": 506,
+        "param": {
+          "type": "Identifier",
+          "start": 373,
+          "end": 374,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 376,
+          "end": 506,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 380,
+              "end": 504,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 384,
+                "end": 417,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 384,
+                  "end": 408,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 385,
+                    "end": 407,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 385,
+                      "end": 386,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 398,
+                      "end": 407,
+                      "name": "TypeError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 413,
+                  "end": 417,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 419,
+                "end": 504,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 425,
+                    "end": 500,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 431,
+                      "end": 499,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 435,
+                        "end": 447,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 448,
+                          "end": 498,
+                          "left": {
+                            "type": "Literal",
+                            "start": 448,
+                            "end": 492,
+                            "value": "#1.2: new eval() throw TypeError. Actual: ",
+                            "raw": "'#1.2: new eval() throw TypeError. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 495,
+                            "end": 498,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 496,
+                              "end": 497,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

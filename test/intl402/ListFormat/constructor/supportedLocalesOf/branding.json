@@ -1,0 +1,352 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 681,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 377,
+      "end": 423,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 383,
+          "end": 422,
+          "id": {
+            "type": "Identifier",
+            "start": 383,
+            "end": 385,
+            "name": "fn"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 388,
+            "end": 422,
+            "object": {
+              "type": "MemberExpression",
+              "start": 388,
+              "end": 403,
+              "object": {
+                "type": "Identifier",
+                "start": 388,
+                "end": 392,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 393,
+                "end": 403,
+                "name": "ListFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 404,
+              "end": 422,
+              "name": "supportedLocalesOf"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 424,
+      "end": 553,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 430,
+          "end": 552,
+          "id": {
+            "type": "Identifier",
+            "start": 430,
+            "end": 440,
+            "name": "thisValues"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 443,
+            "end": 552,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 447,
+                "end": 456,
+                "name": "undefined"
+              },
+              {
+                "type": "Literal",
+                "start": 460,
+                "end": 464,
+                "value": null,
+                "raw": "null"
+              },
+              {
+                "type": "Literal",
+                "start": 468,
+                "end": 472,
+                "value": true,
+                "raw": "true"
+              },
+              {
+                "type": "Literal",
+                "start": 476,
+                "end": 478,
+                "value": "",
+                "raw": "\"\""
+              },
+              {
+                "type": "CallExpression",
+                "start": 482,
+                "end": 490,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 482,
+                  "end": 488,
+                  "name": "Symbol"
+                },
+                "arguments": [],
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 494,
+                "end": 495,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 499,
+                "end": 501,
+                "properties": []
+              },
+              {
+                "type": "MemberExpression",
+                "start": 505,
+                "end": 520,
+                "object": {
+                  "type": "Identifier",
+                  "start": 505,
+                  "end": 509,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 510,
+                  "end": 520,
+                  "name": "ListFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "MemberExpression",
+                "start": 524,
+                "end": 549,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 524,
+                  "end": 539,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 524,
+                    "end": 528,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 529,
+                    "end": 539,
+                    "name": "ListFormat"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 540,
+                  "end": 549,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 555,
+      "end": 680,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 560,
+        "end": 575,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 566,
+            "end": 575,
+            "id": {
+              "type": "Identifier",
+              "start": 566,
+              "end": 575,
+              "name": "thisValue"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 579,
+        "end": 589,
+        "name": "thisValues"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 591,
+        "end": 680,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 595,
+            "end": 629,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 601,
+                "end": 628,
+                "id": {
+                  "type": "Identifier",
+                  "start": 601,
+                  "end": 607,
+                  "name": "result"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 610,
+                  "end": 628,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 610,
+                    "end": 617,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 610,
+                      "end": 612,
+                      "name": "fn"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 613,
+                      "end": 617,
+                      "name": "call"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 618,
+                      "end": 627,
+                      "name": "thisValue"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 632,
+            "end": 678,
+            "expression": {
+              "type": "CallExpression",
+              "start": 632,
+              "end": 677,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 632,
+                "end": 648,
+                "object": {
+                  "type": "Identifier",
+                  "start": 632,
+                  "end": 638,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 639,
+                  "end": 648,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 649,
+                  "end": 670,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 649,
+                    "end": 662,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 649,
+                      "end": 654,
+                      "name": "Array"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 655,
+                      "end": 662,
+                      "name": "isArray"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 663,
+                      "end": 669,
+                      "name": "result"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 672,
+                  "end": 676,
+                  "value": true,
+                  "raw": "true"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

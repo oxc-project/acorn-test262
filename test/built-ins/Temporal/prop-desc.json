@@ -1,0 +1,164 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 422,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 277,
+      "end": 321,
+      "expression": {
+        "type": "CallExpression",
+        "start": 277,
+        "end": 320,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 277,
+          "end": 293,
+          "object": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 283,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 293,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 294,
+            "end": 309,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 301,
+              "end": 309,
+              "name": "Temporal"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 311,
+            "end": 319,
+            "value": "object",
+            "raw": "\"object\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 322,
+      "end": 421,
+      "expression": {
+        "type": "CallExpression",
+        "start": 322,
+        "end": 420,
+        "callee": {
+          "type": "Identifier",
+          "start": 322,
+          "end": 336,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 337,
+            "end": 341
+          },
+          {
+            "type": "Literal",
+            "start": 343,
+            "end": 353,
+            "value": "Temporal",
+            "raw": "\"Temporal\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 355,
+            "end": 419,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 359,
+                "end": 373,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 359,
+                  "end": 367,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 369,
+                  "end": 373,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 377,
+                "end": 394,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 377,
+                  "end": 387,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 389,
+                  "end": 394,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 398,
+                "end": 416,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 398,
+                  "end": 410,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 412,
+                  "end": 416,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

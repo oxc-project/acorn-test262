@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 325,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 277,
+      "end": 324,
+      "expression": {
+        "type": "CallExpression",
+        "start": 277,
+        "end": 323,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 277,
+          "end": 293,
+          "object": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 283,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 293,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 294,
+            "end": 317,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 294,
+              "end": 315,
+              "object": {
+                "type": "NewExpression",
+                "start": 294,
+                "end": 307,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 298,
+                  "end": 302,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 303,
+                    "end": 306,
+                    "name": "NaN"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 308,
+                "end": 315,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 319,
+            "end": 322,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,600 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2606,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 377,
+      "end": 394,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 381,
+          "end": 393,
+          "id": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 389,
+            "name": "BLUE_NUM"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 392,
+            "end": 393,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 395,
+      "end": 414,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 399,
+          "end": 413,
+          "id": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 407,
+            "name": "BLUE_STR"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 410,
+            "end": 413,
+            "value": "1",
+            "raw": "'1'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 415,
+      "end": 434,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 419,
+          "end": 433,
+          "id": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 429,
+            "name": "YELLOW_NUM"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 432,
+            "end": 433,
+            "value": 2,
+            "raw": "2"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 435,
+      "end": 456,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 439,
+          "end": 455,
+          "id": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 449,
+            "name": "YELLOW_STR"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 452,
+            "end": 455,
+            "value": "2",
+            "raw": "'2'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 457,
+      "end": 562,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 461,
+          "end": 561,
+          "id": {
+            "type": "Identifier",
+            "start": 461,
+            "end": 473,
+            "name": "__color__map"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 476,
+            "end": 561,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 480,
+                "end": 493,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 480,
+                  "end": 483,
+                  "name": "red"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 485,
+                  "end": 493,
+                  "value": 16711680,
+                  "raw": "0xff0000"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 497,
+                "end": 515,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 497,
+                  "end": 505,
+                  "name": "BLUE_NUM"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 507,
+                  "end": 515,
+                  "value": 255,
+                  "raw": "0x0000ff"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 519,
+                "end": 534,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 519,
+                  "end": 524,
+                  "name": "green"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 526,
+                  "end": 534,
+                  "value": 65280,
+                  "raw": "0x00ff00"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 538,
+                "end": 558,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 538,
+                  "end": 548,
+                  "name": "YELLOW_STR"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 550,
+                  "end": 558,
+                  "value": 16776960,
+                  "raw": "0xffff00"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 653,
+      "end": 948,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 657,
+        "end": 697,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 657,
+          "end": 688,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 664,
+            "end": 688,
+            "object": {
+              "type": "Identifier",
+              "start": 664,
+              "end": 676,
+              "name": "__color__map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 677,
+              "end": 687,
+              "name": "YELLOW_NUM"
+            },
+            "computed": true,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 693,
+          "end": 697,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 699,
+        "end": 948,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 703,
+            "end": 946,
+            "argument": {
+              "type": "NewExpression",
+              "start": 709,
+              "end": 945,
+              "callee": {
+                "type": "Identifier",
+                "start": 713,
+                "end": 725,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 731,
+                  "end": 941,
+                  "value": "#1: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM] === true;",
+                  "raw": "'#1: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM] === true;'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1121,
+      "end": 1485,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1125,
+        "end": 1163,
+        "left": {
+          "type": "MemberExpression",
+          "start": 1125,
+          "end": 1149,
+          "object": {
+            "type": "Identifier",
+            "start": 1125,
+            "end": 1137,
+            "name": "__color__map"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1138,
+            "end": 1148,
+            "name": "YELLOW_STR"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 1154,
+          "end": 1163,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1165,
+        "end": 1485,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1169,
+            "end": 1483,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1175,
+              "end": 1482,
+              "callee": {
+                "type": "Identifier",
+                "start": 1179,
+                "end": 1191,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1197,
+                  "end": 1478,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1197,
+                    "end": 1447,
+                    "value": "#2: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM]; __color__map[YELLOW_STR] === undefined. Actual: ",
+                    "raw": "'#2: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[YELLOW_NUM]; __color__map[YELLOW_STR] === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1454,
+                    "end": 1478,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1454,
+                      "end": 1466,
+                      "name": "__color__map"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1467,
+                      "end": 1477,
+                      "name": "YELLOW_STR"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1658,
+      "end": 1994,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1662,
+        "end": 1700,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 1662,
+          "end": 1691,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 1669,
+            "end": 1691,
+            "object": {
+              "type": "Identifier",
+              "start": 1669,
+              "end": 1681,
+              "name": "__color__map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1682,
+              "end": 1690,
+              "name": "BLUE_STR"
+            },
+            "computed": true,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1696,
+          "end": 1700,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1702,
+        "end": 1994,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1706,
+            "end": 1992,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1712,
+              "end": 1991,
+              "callee": {
+                "type": "Identifier",
+                "start": 1716,
+                "end": 1728,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1734,
+                  "end": 1987,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1734,
+                    "end": 1951,
+                    "value": "#3: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR] === true. Actual: ",
+                    "raw": "'#3: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR] === true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "UnaryExpression",
+                    "start": 1958,
+                    "end": 1987,
+                    "operator": "delete",
+                    "prefix": true,
+                    "argument": {
+                      "type": "MemberExpression",
+                      "start": 1965,
+                      "end": 1987,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1965,
+                        "end": 1977,
+                        "name": "__color__map"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1978,
+                        "end": 1986,
+                        "name": "BLUE_STR"
+                      },
+                      "computed": true,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2167,
+      "end": 2523,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2171,
+        "end": 2207,
+        "left": {
+          "type": "MemberExpression",
+          "start": 2171,
+          "end": 2193,
+          "object": {
+            "type": "Identifier",
+            "start": 2171,
+            "end": 2183,
+            "name": "__color__map"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2184,
+            "end": 2192,
+            "name": "BLUE_NUM"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 2198,
+          "end": 2207,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2209,
+        "end": 2523,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2213,
+            "end": 2521,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2219,
+              "end": 2520,
+              "callee": {
+                "type": "Identifier",
+                "start": 2223,
+                "end": 2235,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2241,
+                  "end": 2516,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2241,
+                    "end": 2487,
+                    "value": "#4: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR]; __color__map[BLUE_NUM] === undefined. Actual: ",
+                    "raw": "'#4: var BLUE_NUM=1; var BLUE_STR=\"1\"; var YELLOW_NUM=2; var YELLOW_STR=\"2\"; var __color__map = {red:0xFF0000, BLUE_NUM:0x0000FF, green:0x00FF00, YELLOW_STR:0xFFFF00}; delete __color__map[BLUE_STR]; __color__map[BLUE_NUM] === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2494,
+                    "end": 2516,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2494,
+                      "end": 2506,
+                      "name": "__color__map"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2507,
+                      "end": 2515,
+                      "name": "BLUE_NUM"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

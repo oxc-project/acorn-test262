@@ -1,0 +1,28 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 258,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 248,
+      "end": 257,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 252,
+          "end": 256,
+          "id": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 256,
+            "name": "eval"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 795,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 754,
+      "end": 794,
+      "expression": {
+        "type": "CallExpression",
+        "start": 754,
+        "end": 793,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 754,
+          "end": 770,
+          "object": {
+            "type": "Identifier",
+            "start": 754,
+            "end": 760,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 761,
+            "end": 770,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 771,
+            "end": 786,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 771,
+              "end": 780,
+              "object": {
+                "type": "Literal",
+                "start": 771,
+                "end": 775,
+                "value": {},
+                "raw": "/b/y",
+                "regex": {
+                  "pattern": "b",
+                  "flags": "y"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 776,
+                "end": 780,
+                "name": "exec"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 781,
+                "end": 785,
+                "value": "ab",
+                "raw": "'ab'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 788,
+            "end": 792,
+            "value": null,
+            "raw": "null"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

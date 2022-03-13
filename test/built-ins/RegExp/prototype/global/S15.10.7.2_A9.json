@@ -1,0 +1,278 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 717,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 321,
+      "end": 349,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 325,
+          "end": 348,
+          "id": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 329,
+            "name": "__re"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 332,
+            "end": 348,
+            "object": {
+              "type": "Identifier",
+              "start": 332,
+              "end": 338,
+              "name": "RegExp"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 339,
+              "end": 348,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 351,
+      "end": 457,
+      "expression": {
+        "type": "CallExpression",
+        "start": 351,
+        "end": 456,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 351,
+          "end": 367,
+          "object": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 357,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 367,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 368,
+            "end": 397,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 368,
+              "end": 387,
+              "object": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 372,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 387,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 388,
+                "end": 396,
+                "value": "global",
+                "raw": "'global'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 399,
+            "end": 403,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 405,
+            "end": 455,
+            "value": "__re.hasOwnProperty('global') must return true",
+            "raw": "'__re.hasOwnProperty(\\'global\\') must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 561,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 560,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 458,
+          "end": 474,
+          "object": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 464,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 474,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 475,
+            "end": 493,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 482,
+              "end": 493,
+              "object": {
+                "type": "Identifier",
+                "start": 482,
+                "end": 486,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 487,
+                "end": 493,
+                "name": "global"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 495,
+            "end": 499,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 501,
+            "end": 559,
+            "value": "The value of `delete __re.global` is expected to be true",
+            "raw": "'The value of `delete __re.global` is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 562,
+      "end": 670,
+      "expression": {
+        "type": "CallExpression",
+        "start": 562,
+        "end": 669,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 562,
+          "end": 578,
+          "object": {
+            "type": "Identifier",
+            "start": 562,
+            "end": 568,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 569,
+            "end": 578,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 579,
+            "end": 608,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 579,
+              "end": 598,
+              "object": {
+                "type": "Identifier",
+                "start": 579,
+                "end": 583,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 584,
+                "end": 598,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 599,
+                "end": 607,
+                "value": "global",
+                "raw": "'global'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 610,
+            "end": 615,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 617,
+            "end": 668,
+            "value": "__re.hasOwnProperty('global') must return false",
+            "raw": "'__re.hasOwnProperty(\\'global\\') must return false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

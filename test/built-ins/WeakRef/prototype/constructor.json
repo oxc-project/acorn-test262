@@ -1,0 +1,232 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 954,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 676,
+      "end": 737,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 680,
+          "end": 736,
+          "id": {
+            "type": "Identifier",
+            "start": 680,
+            "end": 686,
+            "name": "actual"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 689,
+            "end": 736,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 689,
+              "end": 721,
+              "object": {
+                "type": "MemberExpression",
+                "start": 689,
+                "end": 706,
+                "object": {
+                  "type": "Identifier",
+                  "start": 689,
+                  "end": 696,
+                  "name": "WeakRef"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 697,
+                  "end": 706,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 707,
+                "end": 721,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 722,
+                "end": 735,
+                "value": "constructor",
+                "raw": "'constructor'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 793,
+      "end": 953,
+      "test": {
+        "type": "Identifier",
+        "start": 797,
+        "end": 803,
+        "name": "actual"
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 805,
+        "end": 953,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 809,
+            "end": 951,
+            "expression": {
+              "type": "CallExpression",
+              "start": 809,
+              "end": 950,
+              "callee": {
+                "type": "Identifier",
+                "start": 809,
+                "end": 823,
+                "name": "verifyProperty"
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 824,
+                  "end": 841,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 824,
+                    "end": 831,
+                    "name": "WeakRef"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 832,
+                    "end": 841,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 843,
+                  "end": 856,
+                  "value": "constructor",
+                  "raw": "'constructor'"
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 858,
+                  "end": 949,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 864,
+                      "end": 878,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 864,
+                        "end": 869,
+                        "name": "value"
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 871,
+                        "end": 878,
+                        "name": "WeakRef"
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 884,
+                      "end": 898,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 884,
+                        "end": 892,
+                        "name": "writable"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 894,
+                        "end": 898,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 904,
+                      "end": 921,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 904,
+                        "end": 914,
+                        "name": "enumerable"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 916,
+                        "end": 921,
+                        "value": false,
+                        "raw": "false"
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 927,
+                      "end": 945,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 927,
+                        "end": 939,
+                        "name": "configurable"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 941,
+                        "end": 945,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

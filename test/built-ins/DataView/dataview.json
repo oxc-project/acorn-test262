@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 366,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 255,
+      "end": 293,
+      "expression": {
+        "type": "CallExpression",
+        "start": 255,
+        "end": 292,
+        "callee": {
+          "type": "Identifier",
+          "start": 255,
+          "end": 274,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 275,
+            "end": 279
+          },
+          {
+            "type": "Literal",
+            "start": 281,
+            "end": 291,
+            "value": "DataView",
+            "raw": "\"DataView\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 294,
+      "end": 327,
+      "expression": {
+        "type": "CallExpression",
+        "start": 294,
+        "end": 326,
+        "callee": {
+          "type": "Identifier",
+          "start": 294,
+          "end": 308,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 309,
+            "end": 313
+          },
+          {
+            "type": "Literal",
+            "start": 315,
+            "end": 325,
+            "value": "DataView",
+            "raw": "\"DataView\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 328,
+      "end": 365,
+      "expression": {
+        "type": "CallExpression",
+        "start": 328,
+        "end": 364,
+        "callee": {
+          "type": "Identifier",
+          "start": 328,
+          "end": 346,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 347,
+            "end": 351
+          },
+          {
+            "type": "Literal",
+            "start": 353,
+            "end": 363,
+            "value": "DataView",
+            "raw": "\"DataView\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

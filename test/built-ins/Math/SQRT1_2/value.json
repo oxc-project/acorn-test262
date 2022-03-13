@@ -1,0 +1,130 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 472,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 383,
+      "end": 431,
+      "expression": {
+        "type": "CallExpression",
+        "start": 383,
+        "end": 430,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 383,
+          "end": 399,
+          "object": {
+            "type": "Identifier",
+            "start": 383,
+            "end": 389,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 390,
+            "end": 399,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 400,
+            "end": 419,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 407,
+              "end": 419,
+              "object": {
+                "type": "Identifier",
+                "start": 407,
+                "end": 411,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 412,
+                "end": 419,
+                "name": "SQRT1_2"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 421,
+            "end": 429,
+            "value": "number",
+            "raw": "'number'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 432,
+      "end": 471,
+      "expression": {
+        "type": "CallExpression",
+        "start": 432,
+        "end": 470,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 432,
+          "end": 451,
+          "object": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 438,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 451,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 452,
+            "end": 464,
+            "object": {
+              "type": "Identifier",
+              "start": 452,
+              "end": 456,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 457,
+              "end": 464,
+              "name": "SQRT1_2"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 466,
+            "end": 469,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

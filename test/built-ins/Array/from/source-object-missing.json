@@ -1,0 +1,462 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 581,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 233,
+      "end": 258,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 237,
+          "end": 257,
+          "id": {
+            "type": "Identifier",
+            "start": 237,
+            "end": 242,
+            "name": "array"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 245,
+            "end": 257,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 246,
+                "end": 247,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 249,
+                "end": 250,
+                "value": 4,
+                "raw": "4"
+              },
+              null,
+              {
+                "type": "Literal",
+                "start": 254,
+                "end": 256,
+                "value": 16,
+                "raw": "16"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 259,
+      "end": 310,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 263,
+          "end": 309,
+          "id": {
+            "type": "Identifier",
+            "start": 263,
+            "end": 266,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 269,
+            "end": 309,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 273,
+                "end": 282,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 273,
+                  "end": 279,
+                  "name": "length"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 281,
+                  "end": 282,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 286,
+                "end": 290,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 286,
+                  "end": 287,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 289,
+                  "end": 290,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 294,
+                "end": 298,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 294,
+                  "end": 295,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 297,
+                  "end": 298,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 302,
+                "end": 307,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 302,
+                  "end": 303,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 305,
+                  "end": 307,
+                  "value": 16,
+                  "raw": "16"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 312,
+      "end": 349,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 316,
+          "end": 348,
+          "id": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 317,
+            "name": "a"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 320,
+            "end": 348,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 320,
+              "end": 335,
+              "object": {
+                "type": "MemberExpression",
+                "start": 320,
+                "end": 330,
+                "object": {
+                  "type": "Identifier",
+                  "start": 320,
+                  "end": 325,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 326,
+                  "end": 330,
+                  "name": "from"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 331,
+                "end": 335,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 336,
+                "end": 342,
+                "name": "Object"
+              },
+              {
+                "type": "Identifier",
+                "start": 344,
+                "end": 347,
+                "name": "obj"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 350,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 350,
+        "end": 440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 350,
+          "end": 366,
+          "object": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 356,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 366,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 367,
+            "end": 375,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 374,
+              "end": 375,
+              "name": "a"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 377,
+            "end": 385,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 387,
+            "end": 439,
+            "value": "The value of `typeof a` is expected to be \"object\"",
+            "raw": "'The value of `typeof a` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForStatement",
+      "start": 442,
+      "end": 580,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 447,
+        "end": 456,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 451,
+            "end": 456,
+            "id": {
+              "type": "Identifier",
+              "start": 451,
+              "end": 452,
+              "name": "j"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 455,
+              "end": 456,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 458,
+        "end": 470,
+        "left": {
+          "type": "Identifier",
+          "start": 458,
+          "end": 459,
+          "name": "j"
+        },
+        "operator": "<",
+        "right": {
+          "type": "MemberExpression",
+          "start": 462,
+          "end": 470,
+          "object": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 463,
+            "name": "a"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 470,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 472,
+        "end": 475,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 472,
+          "end": 473,
+          "name": "j"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 477,
+        "end": 580,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 481,
+            "end": 578,
+            "expression": {
+              "type": "CallExpression",
+              "start": 481,
+              "end": 577,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 481,
+                "end": 497,
+                "object": {
+                  "type": "Identifier",
+                  "start": 481,
+                  "end": 487,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 488,
+                  "end": 497,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 498,
+                  "end": 502,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 498,
+                    "end": 499,
+                    "name": "a"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 500,
+                    "end": 501,
+                    "name": "j"
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                {
+                  "type": "MemberExpression",
+                  "start": 504,
+                  "end": 512,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 504,
+                    "end": 509,
+                    "name": "array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 510,
+                    "end": 511,
+                    "name": "j"
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 514,
+                  "end": 576,
+                  "value": "The value of a[j] is expected to equal the value of array[j]",
+                  "raw": "'The value of a[j] is expected to equal the value of array[j]'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

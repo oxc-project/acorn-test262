@@ -1,0 +1,203 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2130,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1936,
+      "end": 2129,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1936,
+        "end": 2128,
+        "callee": {
+          "type": "Identifier",
+          "start": 1936,
+          "end": 1961,
+          "name": "testTypedArrayConversions"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1962,
+            "end": 1982,
+            "name": "byteConversionValues"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1984,
+            "end": 2127,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 1993,
+                "end": 1995,
+                "name": "TA"
+              },
+              {
+                "type": "Identifier",
+                "start": 1997,
+                "end": 2002,
+                "name": "value"
+              },
+              {
+                "type": "Identifier",
+                "start": 2004,
+                "end": 2012,
+                "name": "expected"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2014,
+              "end": 2127,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 2018,
+                  "end": 2047,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 2022,
+                      "end": 2046,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 2022,
+                        "end": 2028,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 2031,
+                        "end": 2046,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 2035,
+                          "end": 2037,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrayExpression",
+                            "start": 2038,
+                            "end": 2045,
+                            "elements": [
+                              {
+                                "type": "Identifier",
+                                "start": 2039,
+                                "end": 2044,
+                                "name": "value"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2051,
+                  "end": 2125,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2051,
+                    "end": 2124,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2051,
+                      "end": 2067,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2051,
+                        "end": 2057,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2058,
+                        "end": 2067,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 2068,
+                        "end": 2077,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 2068,
+                          "end": 2074,
+                          "name": "sample"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 2075,
+                          "end": 2076,
+                          "value": 0,
+                          "raw": "0"
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 2079,
+                        "end": 2087,
+                        "name": "expected"
+                      },
+                      {
+                        "type": "BinaryExpression",
+                        "start": 2089,
+                        "end": 2123,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 2089,
+                          "end": 2112,
+                          "left": {
+                            "type": "Identifier",
+                            "start": 2089,
+                            "end": 2094,
+                            "name": "value"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 2097,
+                            "end": 2112,
+                            "value": " converts to ",
+                            "raw": "\" converts to \""
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 2115,
+                          "end": 2123,
+                          "name": "expected"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

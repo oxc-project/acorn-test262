@@ -1,0 +1,623 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1421,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 451,
+      "end": 552,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 457,
+          "end": 551,
+          "id": {
+            "type": "Identifier",
+            "start": 457,
+            "end": 469,
+            "name": "matchSymbols"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 472,
+            "end": 551,
+            "callee": {
+              "type": "Identifier",
+              "start": 472,
+              "end": 483,
+              "name": "buildString"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 484,
+                "end": 550,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 488,
+                    "end": 506,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 488,
+                      "end": 502,
+                      "name": "loneCodePoints"
+                    },
+                    "value": {
+                      "type": "ArrayExpression",
+                      "start": 504,
+                      "end": 506,
+                      "elements": []
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 510,
+                    "end": 548,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 510,
+                      "end": 516,
+                      "name": "ranges"
+                    },
+                    "value": {
+                      "type": "ArrayExpression",
+                      "start": 518,
+                      "end": 548,
+                      "elements": [
+                        {
+                          "type": "ArrayExpression",
+                          "start": 524,
+                          "end": 544,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 525,
+                              "end": 533,
+                              "value": 66176,
+                              "raw": "0x010280"
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 535,
+                              "end": 543,
+                              "value": 66204,
+                              "raw": "0x01029C"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 553,
+      "end": 642,
+      "expression": {
+        "type": "CallExpression",
+        "start": 553,
+        "end": 641,
+        "callee": {
+          "type": "Identifier",
+          "start": 553,
+          "end": 572,
+          "name": "testPropertyEscapes"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 576,
+            "end": 599,
+            "value": {},
+            "raw": "/^\\p{Script=Lycian}+$/u",
+            "regex": {
+              "pattern": "^\\p{Script=Lycian}+$",
+              "flags": "u"
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 603,
+            "end": 615,
+            "name": "matchSymbols"
+          },
+          {
+            "type": "Literal",
+            "start": 619,
+            "end": 639,
+            "value": "\\p{Script=Lycian}",
+            "raw": "\"\\\\p{Script=Lycian}\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 643,
+      "end": 728,
+      "expression": {
+        "type": "CallExpression",
+        "start": 643,
+        "end": 727,
+        "callee": {
+          "type": "Identifier",
+          "start": 643,
+          "end": 662,
+          "name": "testPropertyEscapes"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 666,
+            "end": 687,
+            "value": {},
+            "raw": "/^\\p{Script=Lyci}+$/u",
+            "regex": {
+              "pattern": "^\\p{Script=Lyci}+$",
+              "flags": "u"
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 691,
+            "end": 703,
+            "name": "matchSymbols"
+          },
+          {
+            "type": "Literal",
+            "start": 707,
+            "end": 725,
+            "value": "\\p{Script=Lyci}",
+            "raw": "\"\\\\p{Script=Lyci}\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 729,
+      "end": 810,
+      "expression": {
+        "type": "CallExpression",
+        "start": 729,
+        "end": 809,
+        "callee": {
+          "type": "Identifier",
+          "start": 729,
+          "end": 748,
+          "name": "testPropertyEscapes"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 752,
+            "end": 771,
+            "value": {},
+            "raw": "/^\\p{sc=Lycian}+$/u",
+            "regex": {
+              "pattern": "^\\p{sc=Lycian}+$",
+              "flags": "u"
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 775,
+            "end": 787,
+            "name": "matchSymbols"
+          },
+          {
+            "type": "Literal",
+            "start": 791,
+            "end": 807,
+            "value": "\\p{sc=Lycian}",
+            "raw": "\"\\\\p{sc=Lycian}\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 811,
+      "end": 888,
+      "expression": {
+        "type": "CallExpression",
+        "start": 811,
+        "end": 887,
+        "callee": {
+          "type": "Identifier",
+          "start": 811,
+          "end": 830,
+          "name": "testPropertyEscapes"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 834,
+            "end": 851,
+            "value": {},
+            "raw": "/^\\p{sc=Lyci}+$/u",
+            "regex": {
+              "pattern": "^\\p{sc=Lyci}+$",
+              "flags": "u"
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 855,
+            "end": 867,
+            "name": "matchSymbols"
+          },
+          {
+            "type": "Literal",
+            "start": 871,
+            "end": 885,
+            "value": "\\p{sc=Lyci}",
+            "raw": "\"\\\\p{sc=Lyci}\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 890,
+      "end": 1072,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 896,
+          "end": 1071,
+          "id": {
+            "type": "Identifier",
+            "start": 896,
+            "end": 911,
+            "name": "nonMatchSymbols"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 914,
+            "end": 1071,
+            "callee": {
+              "type": "Identifier",
+              "start": 914,
+              "end": 925,
+              "name": "buildString"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 926,
+                "end": 1070,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 930,
+                    "end": 948,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 930,
+                      "end": 944,
+                      "name": "loneCodePoints"
+                    },
+                    "value": {
+                      "type": "ArrayExpression",
+                      "start": 946,
+                      "end": 948,
+                      "elements": []
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 952,
+                    "end": 1068,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 952,
+                      "end": 958,
+                      "name": "ranges"
+                    },
+                    "value": {
+                      "type": "ArrayExpression",
+                      "start": 960,
+                      "end": 1068,
+                      "elements": [
+                        {
+                          "type": "ArrayExpression",
+                          "start": 966,
+                          "end": 986,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 967,
+                              "end": 975,
+                              "value": 56320,
+                              "raw": "0x00DC00"
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 977,
+                              "end": 985,
+                              "value": 57343,
+                              "raw": "0x00DFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "start": 992,
+                          "end": 1012,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 993,
+                              "end": 1001,
+                              "value": 0,
+                              "raw": "0x000000"
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 1003,
+                              "end": 1011,
+                              "value": 56319,
+                              "raw": "0x00DBFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "start": 1018,
+                          "end": 1038,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 1019,
+                              "end": 1027,
+                              "value": 57344,
+                              "raw": "0x00E000"
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 1029,
+                              "end": 1037,
+                              "value": 66175,
+                              "raw": "0x01027F"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ArrayExpression",
+                          "start": 1044,
+                          "end": 1064,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 1045,
+                              "end": 1053,
+                              "value": 66205,
+                              "raw": "0x01029D"
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 1055,
+                              "end": 1063,
+                              "value": 1114111,
+                              "raw": "0x10FFFF"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1073,
+      "end": 1165,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1073,
+        "end": 1164,
+        "callee": {
+          "type": "Identifier",
+          "start": 1073,
+          "end": 1092,
+          "name": "testPropertyEscapes"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1096,
+            "end": 1119,
+            "value": {},
+            "raw": "/^\\P{Script=Lycian}+$/u",
+            "regex": {
+              "pattern": "^\\P{Script=Lycian}+$",
+              "flags": "u"
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 1123,
+            "end": 1138,
+            "name": "nonMatchSymbols"
+          },
+          {
+            "type": "Literal",
+            "start": 1142,
+            "end": 1162,
+            "value": "\\P{Script=Lycian}",
+            "raw": "\"\\\\P{Script=Lycian}\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1166,
+      "end": 1254,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1166,
+        "end": 1253,
+        "callee": {
+          "type": "Identifier",
+          "start": 1166,
+          "end": 1185,
+          "name": "testPropertyEscapes"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1189,
+            "end": 1210,
+            "value": {},
+            "raw": "/^\\P{Script=Lyci}+$/u",
+            "regex": {
+              "pattern": "^\\P{Script=Lyci}+$",
+              "flags": "u"
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 1214,
+            "end": 1229,
+            "name": "nonMatchSymbols"
+          },
+          {
+            "type": "Literal",
+            "start": 1233,
+            "end": 1251,
+            "value": "\\P{Script=Lyci}",
+            "raw": "\"\\\\P{Script=Lyci}\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1255,
+      "end": 1339,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1255,
+        "end": 1338,
+        "callee": {
+          "type": "Identifier",
+          "start": 1255,
+          "end": 1274,
+          "name": "testPropertyEscapes"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1278,
+            "end": 1297,
+            "value": {},
+            "raw": "/^\\P{sc=Lycian}+$/u",
+            "regex": {
+              "pattern": "^\\P{sc=Lycian}+$",
+              "flags": "u"
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 1301,
+            "end": 1316,
+            "name": "nonMatchSymbols"
+          },
+          {
+            "type": "Literal",
+            "start": 1320,
+            "end": 1336,
+            "value": "\\P{sc=Lycian}",
+            "raw": "\"\\\\P{sc=Lycian}\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1340,
+      "end": 1420,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1340,
+        "end": 1419,
+        "callee": {
+          "type": "Identifier",
+          "start": 1340,
+          "end": 1359,
+          "name": "testPropertyEscapes"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1363,
+            "end": 1380,
+            "value": {},
+            "raw": "/^\\P{sc=Lyci}+$/u",
+            "regex": {
+              "pattern": "^\\P{sc=Lyci}+$",
+              "flags": "u"
+            }
+          },
+          {
+            "type": "Identifier",
+            "start": 1384,
+            "end": 1399,
+            "name": "nonMatchSymbols"
+          },
+          {
+            "type": "Literal",
+            "start": 1403,
+            "end": 1417,
+            "value": "\\P{sc=Lyci}",
+            "raw": "\"\\\\P{sc=Lyci}\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

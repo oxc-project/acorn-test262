@@ -1,0 +1,132 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 431,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 306,
+      "end": 418,
+      "id": {
+        "type": "Identifier",
+        "start": 315,
+        "end": 323,
+        "name": "testcase"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 326,
+        "end": 418,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 336,
+            "end": 350,
+            "expression": {
+              "type": "Literal",
+              "start": 336,
+              "end": 349,
+              "value": "use strict ",
+              "raw": "\"use strict \""
+            },
+            "directive": "use strict "
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 359,
+            "end": 374,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 363,
+                "end": 373,
+                "id": {
+                  "type": "Identifier",
+                  "start": 363,
+                  "end": 369,
+                  "name": "public"
+                },
+                "init": {
+                  "type": "Literal",
+                  "start": 372,
+                  "end": 373,
+                  "value": 1,
+                  "raw": "1"
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 384,
+            "end": 412,
+            "expression": {
+              "type": "CallExpression",
+              "start": 384,
+              "end": 411,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 384,
+                "end": 400,
+                "object": {
+                  "type": "Identifier",
+                  "start": 384,
+                  "end": 390,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 391,
+                  "end": 400,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 401,
+                  "end": 407,
+                  "name": "public"
+                },
+                {
+                  "type": "Literal",
+                  "start": 409,
+                  "end": 410,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 419,
+      "end": 430,
+      "expression": {
+        "type": "CallExpression",
+        "start": 419,
+        "end": 429,
+        "callee": {
+          "type": "Identifier",
+          "start": 419,
+          "end": 427,
+          "name": "testcase"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

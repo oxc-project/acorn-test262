@@ -1,0 +1,34 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 542,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 532,
+      "end": 534,
+      "expression": {
+        "type": "Literal",
+        "start": 532,
+        "end": 534,
+        "value": "",
+        "raw": "''"
+      },
+      "directive": ""
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 539,
+      "end": 541,
+      "expression": {
+        "type": "Literal",
+        "start": 539,
+        "end": 541,
+        "value": "",
+        "raw": "''"
+      },
+      "directive": ""
+    }
+  ],
+  "sourceType": "script"
+}

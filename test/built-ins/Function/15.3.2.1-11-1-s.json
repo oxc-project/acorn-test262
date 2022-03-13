@@ -1,0 +1,103 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 389,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 306,
+      "end": 388,
+      "expression": {
+        "type": "CallExpression",
+        "start": 306,
+        "end": 387,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 306,
+          "end": 319,
+          "object": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 312,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 319,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 320,
+            "end": 331,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 333,
+            "end": 386,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 344,
+              "end": 386,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 348,
+                  "end": 384,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 348,
+                    "end": 383,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 348,
+                      "end": 356,
+                      "name": "Function"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 357,
+                        "end": 360,
+                        "value": "a",
+                        "raw": "'a'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 362,
+                        "end": 365,
+                        "value": "a",
+                        "raw": "'a'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 367,
+                        "end": 382,
+                        "value": "\"use strict\";",
+                        "raw": "'\"use strict\";'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,216 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 826,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 674,
+      "end": 709,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 678,
+          "end": 708,
+          "id": {
+            "type": "Identifier",
+            "start": 678,
+            "end": 689,
+            "name": "nonThenable"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 692,
+            "end": 708,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 696,
+                "end": 706,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 696,
+                  "end": 700,
+                  "name": "then"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 702,
+                  "end": 706,
+                  "value": null,
+                  "raw": "null"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 711,
+      "end": 825,
+      "expression": {
+        "type": "CallExpression",
+        "start": 711,
+        "end": 824,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 711,
+          "end": 810,
+          "object": {
+            "type": "CallExpression",
+            "start": 711,
+            "end": 805,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 711,
+              "end": 744,
+              "object": {
+                "type": "CallExpression",
+                "start": 711,
+                "end": 739,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 711,
+                  "end": 726,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 711,
+                    "end": 718,
+                    "name": "Promise"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 719,
+                    "end": 726,
+                    "name": "resolve"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 727,
+                    "end": 738,
+                    "name": "nonThenable"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 740,
+                "end": 744,
+                "name": "then"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 745,
+                "end": 804,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 754,
+                    "end": 759,
+                    "name": "value"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 761,
+                  "end": 804,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 765,
+                      "end": 802,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 765,
+                        "end": 801,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 765,
+                          "end": 781,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 765,
+                            "end": 771,
+                            "name": "assert"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 772,
+                            "end": 781,
+                            "name": "sameValue"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 782,
+                            "end": 787,
+                            "name": "value"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 789,
+                            "end": 800,
+                            "name": "nonThenable"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 806,
+            "end": 810,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 811,
+            "end": 816,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 818,
+            "end": 823,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

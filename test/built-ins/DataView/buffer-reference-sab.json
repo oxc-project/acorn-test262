@@ -1,0 +1,251 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 702,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 515,
+      "end": 553,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 519,
+          "end": 552,
+          "id": {
+            "type": "Identifier",
+            "start": 519,
+            "end": 525,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 528,
+            "end": 552,
+            "callee": {
+              "type": "Identifier",
+              "start": 532,
+              "end": 549,
+              "name": "SharedArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 550,
+                "end": 551,
+                "value": 8,
+                "raw": "8"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 555,
+      "end": 589,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 559,
+          "end": 588,
+          "id": {
+            "type": "Identifier",
+            "start": 559,
+            "end": 562,
+            "name": "dv1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 565,
+            "end": 588,
+            "callee": {
+              "type": "Identifier",
+              "start": 569,
+              "end": 577,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 578,
+                "end": 584,
+                "name": "buffer"
+              },
+              {
+                "type": "Literal",
+                "start": 586,
+                "end": 587,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 590,
+      "end": 624,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 594,
+          "end": 623,
+          "id": {
+            "type": "Identifier",
+            "start": 594,
+            "end": 597,
+            "name": "dv2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 600,
+            "end": 623,
+            "callee": {
+              "type": "Identifier",
+              "start": 604,
+              "end": 612,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 613,
+                "end": 619,
+                "name": "buffer"
+              },
+              {
+                "type": "Literal",
+                "start": 621,
+                "end": 622,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 626,
+      "end": 663,
+      "expression": {
+        "type": "CallExpression",
+        "start": 626,
+        "end": 662,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 626,
+          "end": 642,
+          "object": {
+            "type": "Identifier",
+            "start": 626,
+            "end": 632,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 633,
+            "end": 642,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 643,
+            "end": 653,
+            "object": {
+              "type": "Identifier",
+              "start": 643,
+              "end": 646,
+              "name": "dv1"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 647,
+              "end": 653,
+              "name": "buffer"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 655,
+            "end": 661,
+            "name": "buffer"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 664,
+      "end": 701,
+      "expression": {
+        "type": "CallExpression",
+        "start": 664,
+        "end": 700,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 664,
+          "end": 680,
+          "object": {
+            "type": "Identifier",
+            "start": 664,
+            "end": 670,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 680,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 681,
+            "end": 691,
+            "object": {
+              "type": "Identifier",
+              "start": 681,
+              "end": 684,
+              "name": "dv2"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 685,
+              "end": 691,
+              "name": "buffer"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 693,
+            "end": 699,
+            "name": "buffer"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,139 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 624,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 521,
+      "end": 565,
+      "expression": {
+        "type": "CallExpression",
+        "start": 521,
+        "end": 564,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 521,
+          "end": 537,
+          "object": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 527,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 528,
+            "end": 537,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 538,
+            "end": 552,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 538,
+              "end": 548,
+              "operator": "+",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 539,
+                "end": 548,
+                "expression": {
+                  "type": "Literal",
+                  "start": 540,
+                  "end": 547,
+                  "value": "12345",
+                  "raw": "'12345'"
+                }
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "Literal",
+              "start": 549,
+              "end": 552,
+              "value": 10,
+              "raw": "1e1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 554,
+            "end": 563,
+            "value": 123450,
+            "raw": "0.12345e6"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 567,
+      "end": 623,
+      "expression": {
+        "type": "CallExpression",
+        "start": 567,
+        "end": 622,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 567,
+          "end": 583,
+          "object": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 573,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 574,
+            "end": 583,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 587,
+            "end": 606,
+            "callee": {
+              "type": "Identifier",
+              "start": 587,
+              "end": 593,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 594,
+                "end": 605,
+                "value": ".12345e-3",
+                "raw": "\".12345e-3\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 610,
+            "end": 620,
+            "value": 0.00012345,
+            "raw": "0.00012345"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

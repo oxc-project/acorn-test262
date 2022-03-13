@@ -1,0 +1,138 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1932,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 1855,
+      "end": 1875,
+      "id": {
+        "type": "Identifier",
+        "start": 1864,
+        "end": 1865,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 1866,
+          "end": 1871,
+          "elements": [
+            {
+              "type": "ArrayPattern",
+              "start": 1867,
+              "end": 1870,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 1868,
+                  "end": 1869,
+                  "name": "x"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1873,
+        "end": 1875,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1877,
+      "end": 1931,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1877,
+        "end": 1930,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1877,
+          "end": 1890,
+          "object": {
+            "type": "Identifier",
+            "start": 1877,
+            "end": 1883,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1884,
+            "end": 1890,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1891,
+            "end": 1900,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1902,
+            "end": 1929,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1913,
+              "end": 1929,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1917,
+                  "end": 1927,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1917,
+                    "end": 1926,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1917,
+                      "end": 1918,
+                      "name": "f"
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "start": 1919,
+                        "end": 1925,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 1920,
+                            "end": 1924,
+                            "value": null,
+                            "raw": "null"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

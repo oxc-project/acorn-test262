@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 427,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 342,
+      "end": 426,
+      "expression": {
+        "type": "CallExpression",
+        "start": 342,
+        "end": 425,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 342,
+          "end": 355,
+          "object": {
+            "type": "Identifier",
+            "start": 342,
+            "end": 348,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 349,
+            "end": 355,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 356,
+            "end": 370,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 372,
+            "end": 424,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 383,
+              "end": 424,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 397,
+                  "end": 422,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 397,
+                    "end": 421,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 397,
+                      "end": 401,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 402,
+                        "end": 420,
+                        "value": "_11_13_2_4 += 1;",
+                        "raw": "\"_11_13_2_4 += 1;\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

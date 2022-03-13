@@ -1,0 +1,194 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 665,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 488,
+      "end": 546,
+      "expression": {
+        "type": "CallExpression",
+        "start": 488,
+        "end": 545,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 488,
+          "end": 501,
+          "object": {
+            "type": "Identifier",
+            "start": 488,
+            "end": 494,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 495,
+            "end": 501,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 502,
+            "end": 516,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 518,
+            "end": 544,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 529,
+              "end": 544,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 533,
+                  "end": 542,
+                  "expression": {
+                    "type": "UnaryExpression",
+                    "start": 533,
+                    "end": 541,
+                    "operator": "typeof",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 540,
+                      "end": 541,
+                      "name": "x"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 548,
+      "end": 569,
+      "expression": {
+        "type": "CallExpression",
+        "start": 548,
+        "end": 568,
+        "callee": {
+          "type": "Identifier",
+          "start": 548,
+          "end": 554,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 555,
+            "end": 567,
+            "left": {
+              "type": "Literal",
+              "start": 555,
+              "end": 561,
+              "value": "attr",
+              "raw": "'attr'"
+            },
+            "operator": "in",
+            "right": {
+              "type": "Identifier",
+              "start": 565,
+              "end": 567,
+              "name": "ns"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 571,
+      "end": 588,
+      "declaration": {
+        "type": "Literal",
+        "start": 586,
+        "end": 587,
+        "value": 3,
+        "raw": "3"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 589,
+      "end": 605,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 596,
+        "end": 605,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 600,
+            "end": 604,
+            "id": {
+              "type": "Identifier",
+              "start": 600,
+              "end": 604,
+              "name": "attr"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 606,
+      "end": 664,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 613,
+          "end": 614,
+          "local": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 614,
+            "name": "x"
+          }
+        },
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 616,
+          "end": 623,
+          "local": {
+            "type": "Identifier",
+            "start": 621,
+            "end": 623,
+            "name": "ns"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 629,
+        "end": 663,
+        "value": "./instn-named-bndng-dflt-star.js",
+        "raw": "'./instn-named-bndng-dflt-star.js'"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

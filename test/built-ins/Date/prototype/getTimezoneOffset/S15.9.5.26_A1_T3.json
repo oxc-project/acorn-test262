@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 666,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 321,
+      "end": 492,
+      "expression": {
+        "type": "CallExpression",
+        "start": 321,
+        "end": 491,
+        "callee": {
+          "type": "Identifier",
+          "start": 321,
+          "end": 327,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 331,
+            "end": 388,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 332,
+              "end": 388,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 332,
+                "end": 367,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 332,
+                  "end": 346,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 332,
+                    "end": 336,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 337,
+                    "end": 346,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 347,
+                  "end": 367,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 368,
+                  "end": 387,
+                  "value": "getTimezoneOffset",
+                  "raw": "'getTimezoneOffset'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 392,
+            "end": 489,
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getTimezoneOffset') is expected to be true",
+            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getTimezoneOffset\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 494,
+      "end": 619,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 499,
+        "end": 504,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 503,
+            "end": 504,
+            "id": {
+              "type": "Identifier",
+              "start": 503,
+              "end": 504,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 508,
+        "end": 522,
+        "object": {
+          "type": "Identifier",
+          "start": 508,
+          "end": 512,
+          "name": "Date"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 513,
+          "end": 522,
+          "name": "prototype"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 524,
+        "end": 619,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 528,
+            "end": 617,
+            "expression": {
+              "type": "CallExpression",
+              "start": 528,
+              "end": 616,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 528,
+                "end": 547,
+                "object": {
+                  "type": "Identifier",
+                  "start": 528,
+                  "end": 534,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 535,
+                  "end": 547,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 548,
+                  "end": 549,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 551,
+                  "end": 570,
+                  "value": "getTimezoneOffset",
+                  "raw": "\"getTimezoneOffset\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 572,
+                  "end": 615,
+                  "value": "The value of x is not \"getTimezoneOffset\"",
+                  "raw": "'The value of x is not \"getTimezoneOffset\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

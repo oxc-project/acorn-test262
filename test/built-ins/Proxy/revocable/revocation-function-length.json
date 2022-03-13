@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 823,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 566,
+      "end": 622,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 570,
+          "end": 621,
+          "id": {
+            "type": "Identifier",
+            "start": 570,
+            "end": 588,
+            "name": "revocationFunction"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 591,
+            "end": 621,
+            "object": {
+              "type": "CallExpression",
+              "start": 591,
+              "end": 614,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 591,
+                "end": 606,
+                "object": {
+                  "type": "Identifier",
+                  "start": 591,
+                  "end": 596,
+                  "name": "Proxy"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 597,
+                  "end": 606,
+                  "name": "revocable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 607,
+                  "end": 609,
+                  "properties": []
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 611,
+                  "end": 613,
+                  "properties": []
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 615,
+              "end": 621,
+              "name": "revoke"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 624,
+      "end": 671,
+      "expression": {
+        "type": "CallExpression",
+        "start": 624,
+        "end": 670,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 624,
+          "end": 640,
+          "object": {
+            "type": "Identifier",
+            "start": 624,
+            "end": 630,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 631,
+            "end": 640,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 641,
+            "end": 666,
+            "object": {
+              "type": "Identifier",
+              "start": 641,
+              "end": 659,
+              "name": "revocationFunction"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 660,
+              "end": 666,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 668,
+            "end": 669,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 673,
+      "end": 723,
+      "expression": {
+        "type": "CallExpression",
+        "start": 673,
+        "end": 722,
+        "callee": {
+          "type": "Identifier",
+          "start": 673,
+          "end": 692,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 693,
+            "end": 711,
+            "name": "revocationFunction"
+          },
+          {
+            "type": "Literal",
+            "start": 713,
+            "end": 721,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 724,
+      "end": 772,
+      "expression": {
+        "type": "CallExpression",
+        "start": 724,
+        "end": 771,
+        "callee": {
+          "type": "Identifier",
+          "start": 724,
+          "end": 741,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 742,
+            "end": 760,
+            "name": "revocationFunction"
+          },
+          {
+            "type": "Literal",
+            "start": 762,
+            "end": 770,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 773,
+      "end": 822,
+      "expression": {
+        "type": "CallExpression",
+        "start": 773,
+        "end": 821,
+        "callee": {
+          "type": "Identifier",
+          "start": 773,
+          "end": 791,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 792,
+            "end": 810,
+            "name": "revocationFunction"
+          },
+          {
+            "type": "Literal",
+            "start": 812,
+            "end": 820,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,117 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 399,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 285,
+      "end": 398,
+      "expression": {
+        "type": "CallExpression",
+        "start": 285,
+        "end": 397,
+        "callee": {
+          "type": "Identifier",
+          "start": 285,
+          "end": 295,
+          "name": "testOption"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 296,
+            "end": 315,
+            "object": {
+              "type": "Identifier",
+              "start": 296,
+              "end": 300,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 301,
+              "end": 315,
+              "name": "DateTimeFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 317,
+            "end": 332,
+            "value": "localeMatcher",
+            "raw": "\"localeMatcher\""
+          },
+          {
+            "type": "Literal",
+            "start": 334,
+            "end": 342,
+            "value": "string",
+            "raw": "\"string\""
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 344,
+            "end": 366,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 345,
+                "end": 353,
+                "value": "lookup",
+                "raw": "\"lookup\""
+              },
+              {
+                "type": "Literal",
+                "start": 355,
+                "end": 365,
+                "value": "best fit",
+                "raw": "\"best fit\""
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 368,
+            "end": 378,
+            "value": "best fit",
+            "raw": "\"best fit\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 380,
+            "end": 396,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 381,
+                "end": 395,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 381,
+                  "end": 389,
+                  "name": "noReturn"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 391,
+                  "end": 395,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,220 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 463,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 243,
+      "end": 351,
+      "expression": {
+        "type": "CallExpression",
+        "start": 243,
+        "end": 350,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 243,
+          "end": 259,
+          "object": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 259,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 260,
+            "end": 294,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 260,
+              "end": 288,
+              "object": {
+                "type": "MemberExpression",
+                "start": 260,
+                "end": 283,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 260,
+                  "end": 275,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 260,
+                    "end": 265,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 266,
+                    "end": 275,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 276,
+                  "end": 283,
+                  "name": "unshift"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 284,
+                "end": 288,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 289,
+                "end": 293,
+                "value": true,
+                "raw": "true"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 296,
+            "end": 297,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 299,
+            "end": 349,
+            "value": "Array.prototype.unshift.call(true) must return 0",
+            "raw": "'Array.prototype.unshift.call(true) must return 0'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 352,
+      "end": 462,
+      "expression": {
+        "type": "CallExpression",
+        "start": 352,
+        "end": 461,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 352,
+          "end": 368,
+          "object": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 358,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 368,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 369,
+            "end": 404,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 369,
+              "end": 397,
+              "object": {
+                "type": "MemberExpression",
+                "start": 369,
+                "end": 392,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 369,
+                  "end": 384,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 369,
+                    "end": 374,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 375,
+                    "end": 384,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 385,
+                  "end": 392,
+                  "name": "unshift"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 393,
+                "end": 397,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 398,
+                "end": 403,
+                "value": false,
+                "raw": "false"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 406,
+            "end": 407,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 409,
+            "end": 460,
+            "value": "Array.prototype.unshift.call(false) must return 0",
+            "raw": "'Array.prototype.unshift.call(false) must return 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

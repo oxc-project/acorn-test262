@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 888,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 746,
+      "end": 858,
+      "expression": {
+        "type": "CallExpression",
+        "start": 746,
+        "end": 857,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 746,
+          "end": 762,
+          "object": {
+            "type": "Identifier",
+            "start": 746,
+            "end": 752,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 753,
+            "end": 762,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 763,
+            "end": 796,
+            "callee": {
+              "type": "Identifier",
+              "start": 763,
+              "end": 776,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 777,
+                "end": 795,
+                "name": "AsyncArrowFunction"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 798,
+            "end": 802,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 804,
+            "end": 856,
+            "value": "isConstructor(AsyncArrowFunction) must return true",
+            "raw": "'isConstructor(AsyncArrowFunction) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 859,
+      "end": 884,
+      "expression": {
+        "type": "NewExpression",
+        "start": 859,
+        "end": 883,
+        "callee": {
+          "type": "Identifier",
+          "start": 863,
+          "end": 881,
+          "name": "AsyncArrowFunction"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

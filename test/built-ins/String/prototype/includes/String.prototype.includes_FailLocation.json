@@ -1,0 +1,96 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 396,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 319,
+      "end": 395,
+      "expression": {
+        "type": "CallExpression",
+        "start": 319,
+        "end": 394,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 319,
+          "end": 335,
+          "object": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 325,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 335,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 336,
+            "end": 359,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 336,
+              "end": 351,
+              "object": {
+                "type": "Literal",
+                "start": 336,
+                "end": 342,
+                "value": "word",
+                "raw": "'word'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 343,
+                "end": 351,
+                "name": "includes"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 352,
+                "end": 355,
+                "value": "o",
+                "raw": "'o'"
+              },
+              {
+                "type": "Literal",
+                "start": 357,
+                "end": 358,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 361,
+            "end": 366,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 368,
+            "end": 393,
+            "value": "\"word\".includes(\"o\", 3)",
+            "raw": "'\"word\".includes(\"o\", 3)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

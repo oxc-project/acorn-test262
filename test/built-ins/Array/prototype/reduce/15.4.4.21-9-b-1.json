@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 450,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 297,
+      "end": 346,
+      "id": {
+        "type": "Identifier",
+        "start": 306,
+        "end": 316,
+        "name": "callbackfn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 317,
+          "end": 324,
+          "name": "prevVal"
+        },
+        {
+          "type": "Identifier",
+          "start": 326,
+          "end": 332,
+          "name": "curVal"
+        },
+        {
+          "type": "Identifier",
+          "start": 334,
+          "end": 337,
+          "name": "idx"
+        },
+        {
+          "type": "Identifier",
+          "start": 339,
+          "end": 342,
+          "name": "obj"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 344,
+        "end": 346,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 348,
+      "end": 372,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 352,
+          "end": 371,
+          "id": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 355,
+            "name": "arr"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 358,
+            "end": 371,
+            "callee": {
+              "type": "Identifier",
+              "start": 362,
+              "end": 367,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 368,
+                "end": 370,
+                "value": 10,
+                "raw": "10"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 374,
+      "end": 449,
+      "expression": {
+        "type": "CallExpression",
+        "start": 374,
+        "end": 448,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 374,
+          "end": 390,
+          "object": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 380,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 390,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 391,
+            "end": 416,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 391,
+              "end": 401,
+              "object": {
+                "type": "Identifier",
+                "start": 391,
+                "end": 394,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 395,
+                "end": 401,
+                "name": "reduce"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 402,
+                "end": 412,
+                "name": "callbackfn"
+              },
+              {
+                "type": "Literal",
+                "start": 414,
+                "end": 415,
+                "value": 5,
+                "raw": "5"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 418,
+            "end": 419,
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "type": "Literal",
+            "start": 421,
+            "end": 447,
+            "value": "arr.reduce(callbackfn,5)",
+            "raw": "'arr.reduce(callbackfn,5)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,100 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 488,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 353,
+      "end": 487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 353,
+        "end": 486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 353,
+          "end": 369,
+          "object": {
+            "type": "Identifier",
+            "start": 353,
+            "end": 359,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 369,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 373,
+            "end": 413,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 373,
+              "end": 405,
+              "object": {
+                "type": "MemberExpression",
+                "start": 373,
+                "end": 391,
+                "object": {
+                  "type": "Identifier",
+                  "start": 373,
+                  "end": 381,
+                  "name": "Function"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 382,
+                  "end": 391,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 392,
+                "end": 405,
+                "name": "isPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 406,
+                "end": 412,
+                "name": "RegExp"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 417,
+            "end": 421,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 425,
+            "end": 484,
+            "value": "Function.prototype.isPrototypeOf(RegExp) must return true",
+            "raw": "'Function.prototype.isPrototypeOf(RegExp) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

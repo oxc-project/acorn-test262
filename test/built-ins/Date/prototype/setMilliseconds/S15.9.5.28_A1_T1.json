@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 661,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 319,
+      "end": 358,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 323,
+          "end": 357,
+          "id": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 324,
+            "name": "x"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 327,
+            "end": 357,
+            "object": {
+              "type": "MemberExpression",
+              "start": 327,
+              "end": 341,
+              "object": {
+                "type": "Identifier",
+                "start": 327,
+                "end": 331,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 332,
+                "end": 341,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 342,
+              "end": 357,
+              "name": "setMilliseconds"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 359,
+      "end": 460,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 363,
+        "end": 370,
+        "left": {
+          "type": "Identifier",
+          "start": 363,
+          "end": 364,
+          "name": "x"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 369,
+          "end": 370,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 372,
+        "end": 413,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 376,
+            "end": 411,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 376,
+              "end": 410,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 376,
+                "end": 406,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 376,
+                  "end": 390,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 376,
+                    "end": 380,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 381,
+                    "end": 390,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 391,
+                  "end": 406,
+                  "name": "setMilliseconds"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 409,
+                "end": 410,
+                "value": 2,
+                "raw": "2"
+              }
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 419,
+        "end": 460,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 423,
+            "end": 458,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 423,
+              "end": 457,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 423,
+                "end": 453,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 423,
+                  "end": 437,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 423,
+                    "end": 427,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 428,
+                    "end": 437,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 438,
+                  "end": 453,
+                  "name": "setMilliseconds"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 456,
+                "end": 457,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 462,
+      "end": 614,
+      "expression": {
+        "type": "CallExpression",
+        "start": 462,
+        "end": 613,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 462,
+          "end": 481,
+          "object": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 468,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 481,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 485,
+            "end": 515,
+            "object": {
+              "type": "MemberExpression",
+              "start": 485,
+              "end": 499,
+              "object": {
+                "type": "Identifier",
+                "start": 485,
+                "end": 489,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 490,
+                "end": 499,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 500,
+              "end": 515,
+              "name": "setMilliseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 519,
+            "end": 520,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 524,
+            "end": 611,
+            "value": "The value of Date.prototype.setMilliseconds is expected to not equal the value of `x`",
+            "raw": "'The value of Date.prototype.setMilliseconds is expected to not equal the value of `x`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

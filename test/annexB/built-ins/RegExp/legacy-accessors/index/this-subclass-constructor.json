@@ -1,0 +1,250 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 839,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 590,
+      "end": 622,
+      "id": {
+        "type": "Identifier",
+        "start": 596,
+        "end": 604,
+        "name": "MyRegExp"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 613,
+        "end": 619,
+        "name": "RegExp"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 620,
+        "end": 622,
+        "body": []
+      }
+    },
+    {
+      "type": "ForStatement",
+      "start": 624,
+      "end": 838,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 629,
+        "end": 638,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 633,
+            "end": 638,
+            "id": {
+              "type": "Identifier",
+              "start": 633,
+              "end": 634,
+              "name": "i"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 637,
+              "end": 638,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        ],
+        "kind": "let"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 640,
+        "end": 646,
+        "left": {
+          "type": "Identifier",
+          "start": 640,
+          "end": 641,
+          "name": "i"
+        },
+        "operator": "<=",
+        "right": {
+          "type": "Literal",
+          "start": 645,
+          "end": 646,
+          "value": 9,
+          "raw": "9"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 648,
+        "end": 651,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 648,
+          "end": 649,
+          "name": "i"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 653,
+        "end": 838,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 657,
+            "end": 682,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 663,
+                "end": 681,
+                "id": {
+                  "type": "Identifier",
+                  "start": 663,
+                  "end": 671,
+                  "name": "property"
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 674,
+                  "end": 681,
+                  "left": {
+                    "type": "Literal",
+                    "start": 674,
+                    "end": 677,
+                    "value": "$",
+                    "raw": "\"$\""
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 680,
+                    "end": 681,
+                    "name": "i"
+                  }
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 685,
+            "end": 836,
+            "expression": {
+              "type": "CallExpression",
+              "start": 685,
+              "end": 835,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 685,
+                "end": 698,
+                "object": {
+                  "type": "Identifier",
+                  "start": 685,
+                  "end": 691,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 692,
+                  "end": 698,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 704,
+                  "end": 713,
+                  "name": "TypeError"
+                },
+                {
+                  "type": "FunctionExpression",
+                  "start": 719,
+                  "end": 764,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 731,
+                    "end": 764,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 739,
+                        "end": 758,
+                        "expression": {
+                          "type": "MemberExpression",
+                          "start": 739,
+                          "end": 757,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 739,
+                            "end": 747,
+                            "name": "MyRegExp"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 748,
+                            "end": 756,
+                            "name": "property"
+                          },
+                          "computed": true,
+                          "optional": false
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "BinaryExpression",
+                  "start": 770,
+                  "end": 831,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 770,
+                    "end": 790,
+                    "left": {
+                      "type": "Literal",
+                      "start": 770,
+                      "end": 779,
+                      "value": "RegExp.",
+                      "raw": "\"RegExp.\""
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 782,
+                      "end": 790,
+                      "name": "property"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 793,
+                    "end": 831,
+                    "value": " getter throws for subclass receiver",
+                    "raw": "\" getter throws for subclass receiver\""
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

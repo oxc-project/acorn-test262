@@ -1,0 +1,119 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 488,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 332,
+      "end": 378,
+      "expression": {
+        "type": "CallExpression",
+        "start": 332,
+        "end": 377,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 332,
+          "end": 375,
+          "object": {
+            "type": "CallExpression",
+            "start": 332,
+            "end": 369,
+            "callee": {
+              "type": "Identifier",
+              "start": 332,
+              "end": 340,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 341,
+                "end": 368,
+                "value": "this.field=\"strawberry\"",
+                "raw": "\"this.field=\\\"strawberry\\\"\""
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 375,
+            "name": "apply"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 380,
+      "end": 487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 380,
+        "end": 486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 380,
+          "end": 396,
+          "object": {
+            "type": "Identifier",
+            "start": 380,
+            "end": 386,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 396,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 397,
+            "end": 410,
+            "object": {
+              "type": "ThisExpression",
+              "start": 397,
+              "end": 401
+            },
+            "property": {
+              "type": "Literal",
+              "start": 402,
+              "end": 409,
+              "value": "field",
+              "raw": "\"field\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 412,
+            "end": 424,
+            "value": "strawberry",
+            "raw": "\"strawberry\""
+          },
+          {
+            "type": "Literal",
+            "start": 426,
+            "end": 485,
+            "value": "The value of this[\"field\"] is expected to be \"strawberry\"",
+            "raw": "'The value of this[\"field\"] is expected to be \"strawberry\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,325 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 768,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 478,
+      "end": 495,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 482,
+          "end": 494,
+          "id": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 494,
+            "name": "actualStrict"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 496,
+      "end": 516,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 500,
+          "end": 515,
+          "id": {
+            "type": "Identifier",
+            "start": 500,
+            "end": 515,
+            "name": "actualNonStrict"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 518,
+      "end": 536,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 522,
+          "end": 535,
+          "id": {
+            "type": "Identifier",
+            "start": 522,
+            "end": 523,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 526,
+            "end": 535,
+            "value": "outside",
+            "raw": "'outside'"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "BlockStatement",
+      "start": 537,
+      "end": 643,
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "start": 541,
+          "end": 558,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 545,
+              "end": 557,
+              "id": {
+                "type": "Identifier",
+                "start": 545,
+                "end": 546,
+                "name": "x"
+              },
+              "init": {
+                "type": "Literal",
+                "start": 549,
+                "end": 557,
+                "value": "inside",
+                "raw": "'inside'"
+              }
+            }
+          ],
+          "kind": "let"
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 561,
+          "end": 594,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 561,
+            "end": 593,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 561,
+              "end": 576,
+              "name": "actualNonStrict"
+            },
+            "right": {
+              "type": "CallExpression",
+              "start": 579,
+              "end": 593,
+              "callee": {
+                "type": "ParenthesizedExpression",
+                "start": 579,
+                "end": 587,
+                "expression": {
+                  "type": "SequenceExpression",
+                  "start": 580,
+                  "end": 586,
+                  "expressions": [
+                    {
+                      "type": "Literal",
+                      "start": 580,
+                      "end": 581,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 582,
+                      "end": 586,
+                      "name": "eval"
+                    }
+                  ]
+                }
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 588,
+                  "end": 592,
+                  "value": "x;",
+                  "raw": "'x;'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 597,
+          "end": 641,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 597,
+            "end": 640,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 597,
+              "end": 609,
+              "name": "actualStrict"
+            },
+            "right": {
+              "type": "CallExpression",
+              "start": 612,
+              "end": 640,
+              "callee": {
+                "type": "ParenthesizedExpression",
+                "start": 612,
+                "end": 620,
+                "expression": {
+                  "type": "SequenceExpression",
+                  "start": 613,
+                  "end": 619,
+                  "expressions": [
+                    {
+                      "type": "Literal",
+                      "start": 613,
+                      "end": 614,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 615,
+                      "end": 619,
+                      "name": "eval"
+                    }
+                  ]
+                }
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 621,
+                  "end": 639,
+                  "value": "\"use strict\"; x;",
+                  "raw": "'\"use strict\"; x;'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 645,
+      "end": 709,
+      "expression": {
+        "type": "CallExpression",
+        "start": 645,
+        "end": 708,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 645,
+          "end": 661,
+          "object": {
+            "type": "Identifier",
+            "start": 645,
+            "end": 651,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 652,
+            "end": 661,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 662,
+            "end": 677,
+            "name": "actualNonStrict"
+          },
+          {
+            "type": "Literal",
+            "start": 679,
+            "end": 688,
+            "value": "outside",
+            "raw": "'outside'"
+          },
+          {
+            "type": "Literal",
+            "start": 690,
+            "end": 707,
+            "value": "non strict mode",
+            "raw": "'non strict mode'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 710,
+      "end": 767,
+      "expression": {
+        "type": "CallExpression",
+        "start": 710,
+        "end": 766,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 710,
+          "end": 726,
+          "object": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 716,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 717,
+            "end": 726,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 727,
+            "end": 739,
+            "name": "actualStrict"
+          },
+          {
+            "type": "Literal",
+            "start": 741,
+            "end": 750,
+            "value": "outside",
+            "raw": "'outside'"
+          },
+          {
+            "type": "Literal",
+            "start": 752,
+            "end": 765,
+            "value": "strict mode",
+            "raw": "'strict mode'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

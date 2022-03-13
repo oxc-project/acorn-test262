@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 473,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 323,
+      "end": 472,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 327,
+        "end": 362,
+        "left": {
+          "type": "CallExpression",
+          "start": 327,
+          "end": 348,
+          "callee": {
+            "type": "Identifier",
+            "start": 327,
+            "end": 331,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 332,
+              "end": 347,
+              "value": "while(false);",
+              "raw": "\"while(false);\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 353,
+          "end": 362,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 364,
+        "end": 472,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 368,
+            "end": 470,
+            "argument": {
+              "type": "NewExpression",
+              "start": 374,
+              "end": 469,
+              "callee": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 390,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 391,
+                  "end": 468,
+                  "left": {
+                    "type": "Literal",
+                    "start": 391,
+                    "end": 442,
+                    "value": "#1: eval(\"while(false);\") === undefined. Actual: ",
+                    "raw": "'#1: eval(\"while(false);\") === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 445,
+                    "end": 468,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 446,
+                      "end": 467,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 446,
+                        "end": 450,
+                        "name": "eval"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 451,
+                          "end": 466,
+                          "value": "while(false);",
+                          "raw": "\"while(false);\""
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 481,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 331,
+      "end": 480,
+      "expression": {
+        "type": "CallExpression",
+        "start": 331,
+        "end": 479,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 331,
+          "end": 347,
+          "object": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 337,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 347,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 351,
+            "end": 379,
+            "object": {
+              "type": "MemberExpression",
+              "start": 351,
+              "end": 367,
+              "object": {
+                "type": "Identifier",
+                "start": 351,
+                "end": 357,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 358,
+                "end": 367,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 368,
+              "end": 379,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 383,
+            "end": 389,
+            "name": "RegExp"
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 477,
+            "value": "The value of RegExp.prototype.constructor is expected to equal the value of RegExp",
+            "raw": "'The value of RegExp.prototype.constructor is expected to equal the value of RegExp'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

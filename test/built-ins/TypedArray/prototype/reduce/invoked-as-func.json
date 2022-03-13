@@ -1,0 +1,184 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 982,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 839,
+      "end": 880,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 843,
+          "end": 879,
+          "id": {
+            "type": "Identifier",
+            "start": 843,
+            "end": 849,
+            "name": "reduce"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 852,
+            "end": 879,
+            "object": {
+              "type": "MemberExpression",
+              "start": 852,
+              "end": 872,
+              "object": {
+                "type": "Identifier",
+                "start": 852,
+                "end": 862,
+                "name": "TypedArray"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 863,
+                "end": 872,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 873,
+              "end": 879,
+              "name": "reduce"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 882,
+      "end": 926,
+      "expression": {
+        "type": "CallExpression",
+        "start": 882,
+        "end": 925,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 882,
+          "end": 898,
+          "object": {
+            "type": "Identifier",
+            "start": 882,
+            "end": 888,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 889,
+            "end": 898,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 899,
+            "end": 912,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 906,
+              "end": 912,
+              "name": "reduce"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 914,
+            "end": 924,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 928,
+      "end": 981,
+      "expression": {
+        "type": "CallExpression",
+        "start": 928,
+        "end": 980,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 928,
+          "end": 941,
+          "object": {
+            "type": "Identifier",
+            "start": 928,
+            "end": 934,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 935,
+            "end": 941,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 942,
+            "end": 951,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 953,
+            "end": 979,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 964,
+              "end": 979,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 968,
+                  "end": 977,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 968,
+                    "end": 976,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 968,
+                      "end": 974,
+                      "name": "reduce"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

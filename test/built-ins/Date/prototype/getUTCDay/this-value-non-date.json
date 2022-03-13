@@ -1,0 +1,470 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 968,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 560,
+      "end": 601,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 564,
+          "end": 600,
+          "id": {
+            "type": "Identifier",
+            "start": 564,
+            "end": 573,
+            "name": "getUTCDay"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 576,
+            "end": 600,
+            "object": {
+              "type": "MemberExpression",
+              "start": 576,
+              "end": 590,
+              "object": {
+                "type": "Identifier",
+                "start": 576,
+                "end": 580,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 581,
+                "end": 590,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 591,
+              "end": 600,
+              "name": "getUTCDay"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 602,
+      "end": 652,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 606,
+          "end": 651,
+          "id": {
+            "type": "Identifier",
+            "start": 606,
+            "end": 610,
+            "name": "args"
+          },
+          "init": {
+            "type": "ParenthesizedExpression",
+            "start": 613,
+            "end": 651,
+            "expression": {
+              "type": "CallExpression",
+              "start": 614,
+              "end": 650,
+              "callee": {
+                "type": "FunctionExpression",
+                "start": 614,
+                "end": 648,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 625,
+                  "end": 648,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 629,
+                      "end": 646,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 636,
+                        "end": 645,
+                        "name": "arguments"
+                      }
+                    }
+                  ]
+                }
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 654,
+      "end": 701,
+      "expression": {
+        "type": "CallExpression",
+        "start": 654,
+        "end": 700,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 654,
+          "end": 670,
+          "object": {
+            "type": "Identifier",
+            "start": 654,
+            "end": 660,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 661,
+            "end": 670,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 671,
+            "end": 687,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 678,
+              "end": 687,
+              "name": "getUTCDay"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 699,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 703,
+      "end": 785,
+      "expression": {
+        "type": "CallExpression",
+        "start": 703,
+        "end": 784,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 703,
+          "end": 716,
+          "object": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 709,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 716,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 717,
+            "end": 726,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 728,
+            "end": 764,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 739,
+              "end": 764,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 743,
+                  "end": 762,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 743,
+                    "end": 761,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 743,
+                      "end": 757,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 743,
+                        "end": 752,
+                        "name": "getUTCDay"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 753,
+                        "end": 757,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 758,
+                        "end": 760,
+                        "properties": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 766,
+            "end": 783,
+            "value": "ordinary object",
+            "raw": "'ordinary object'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 787,
+      "end": 873,
+      "expression": {
+        "type": "CallExpression",
+        "start": 787,
+        "end": 872,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 787,
+          "end": 800,
+          "object": {
+            "type": "Identifier",
+            "start": 787,
+            "end": 793,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 794,
+            "end": 800,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 801,
+            "end": 810,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 812,
+            "end": 848,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 823,
+              "end": 848,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 827,
+                  "end": 846,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 827,
+                    "end": 845,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 827,
+                      "end": 841,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 827,
+                        "end": 836,
+                        "name": "getUTCDay"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 837,
+                        "end": 841,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "start": 842,
+                        "end": 844,
+                        "elements": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 850,
+            "end": 871,
+            "value": "array exotic object",
+            "raw": "'array exotic object'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 875,
+      "end": 967,
+      "expression": {
+        "type": "CallExpression",
+        "start": 875,
+        "end": 966,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 875,
+          "end": 888,
+          "object": {
+            "type": "Identifier",
+            "start": 875,
+            "end": 881,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 882,
+            "end": 888,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 889,
+            "end": 898,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 900,
+            "end": 938,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 911,
+              "end": 938,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 915,
+                  "end": 936,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 915,
+                    "end": 935,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 915,
+                      "end": 929,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 915,
+                        "end": 924,
+                        "name": "getUTCDay"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 925,
+                        "end": 929,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 930,
+                        "end": 934,
+                        "name": "args"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 940,
+            "end": 965,
+            "value": "arguments exotic object",
+            "raw": "'arguments exotic object'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

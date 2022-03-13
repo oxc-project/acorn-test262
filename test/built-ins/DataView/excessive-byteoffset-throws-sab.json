@@ -1,0 +1,232 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 787,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 594,
+      "end": 628,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 598,
+          "end": 627,
+          "id": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 600,
+            "name": "ab"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 603,
+            "end": 627,
+            "callee": {
+              "type": "Identifier",
+              "start": 607,
+              "end": 624,
+              "name": "SharedArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 625,
+                "end": 626,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 630,
+      "end": 700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 630,
+        "end": 699,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 630,
+          "end": 643,
+          "object": {
+            "type": "Identifier",
+            "start": 630,
+            "end": 636,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 637,
+            "end": 643,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 644,
+            "end": 654,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 656,
+            "end": 693,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 667,
+              "end": 693,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 671,
+                  "end": 691,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 671,
+                    "end": 690,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 675,
+                      "end": 683,
+                      "name": "DataView"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 684,
+                        "end": 686,
+                        "name": "ab"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 688,
+                        "end": 689,
+                        "value": 2,
+                        "raw": "2"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 695,
+            "end": 698,
+            "value": "2",
+            "raw": "\"2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 702,
+      "end": 786,
+      "expression": {
+        "type": "CallExpression",
+        "start": 702,
+        "end": 785,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 702,
+          "end": 715,
+          "object": {
+            "type": "Identifier",
+            "start": 702,
+            "end": 708,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 709,
+            "end": 715,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 716,
+            "end": 726,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 728,
+            "end": 772,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 739,
+              "end": 772,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 743,
+                  "end": 770,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 743,
+                    "end": 769,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 747,
+                      "end": 755,
+                      "name": "DataView"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 756,
+                        "end": 758,
+                        "name": "ab"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 760,
+                        "end": 768,
+                        "name": "Infinity"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 774,
+            "end": 784,
+            "value": "Infinity",
+            "raw": "\"Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

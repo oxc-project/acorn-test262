@@ -1,0 +1,103 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 472,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 267,
+      "end": 471,
+      "expression": {
+        "type": "CallExpression",
+        "start": 267,
+        "end": 470,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 267,
+          "end": 280,
+          "object": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 273,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 280,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 281,
+            "end": 292,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 294,
+            "end": 469,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 305,
+              "end": 469,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 311,
+                  "end": 467,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 315,
+                      "end": 466,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 315,
+                        "end": 316,
+                        "name": "f"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 319,
+                        "end": 466,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 319,
+                          "end": 327,
+                          "name": "Function"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 328,
+                            "end": 465,
+                            "value": "                      'use strict';                        var o = {};                       with (o) {};                    ",
+                            "raw": "\"\\\n                      \\'use strict\\';  \\\n                      var o = {}; \\\n                      with (o) {};\\\n                    \""
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

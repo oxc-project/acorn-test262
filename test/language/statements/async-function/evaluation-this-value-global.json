@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 424,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 323,
+      "end": 339,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 327,
+          "end": 338,
+          "id": {
+            "type": "Identifier",
+            "start": 327,
+            "end": 331,
+            "name": "glob"
+          },
+          "init": {
+            "type": "ThisExpression",
+            "start": 334,
+            "end": 338
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 340,
+      "end": 396,
+      "id": {
+        "type": "Identifier",
+        "start": 355,
+        "end": 358,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 361,
+        "end": 396,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 365,
+            "end": 394,
+            "expression": {
+              "type": "CallExpression",
+              "start": 365,
+              "end": 393,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 365,
+                "end": 381,
+                "object": {
+                  "type": "Identifier",
+                  "start": 365,
+                  "end": 371,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 372,
+                  "end": 381,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ThisExpression",
+                  "start": 382,
+                  "end": 386
+                },
+                {
+                  "type": "Identifier",
+                  "start": 388,
+                  "end": 392,
+                  "name": "glob"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 398,
+      "end": 423,
+      "expression": {
+        "type": "CallExpression",
+        "start": 398,
+        "end": 422,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 398,
+          "end": 408,
+          "object": {
+            "type": "CallExpression",
+            "start": 398,
+            "end": 403,
+            "callee": {
+              "type": "Identifier",
+              "start": 398,
+              "end": 401,
+              "name": "foo"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 408,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 409,
+            "end": 414,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 416,
+            "end": 421,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

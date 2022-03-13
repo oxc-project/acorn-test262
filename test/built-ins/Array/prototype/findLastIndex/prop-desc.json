@@ -1,0 +1,211 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 582,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 334,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 334,
+        "end": 464,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 334,
+          "end": 350,
+          "object": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 340,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 350,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 354,
+            "end": 390,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 361,
+              "end": 390,
+              "object": {
+                "type": "MemberExpression",
+                "start": 361,
+                "end": 376,
+                "object": {
+                  "type": "Identifier",
+                  "start": 361,
+                  "end": 366,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 367,
+                  "end": 376,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 377,
+                "end": 390,
+                "name": "findLastIndex"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 394,
+            "end": 404,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 408,
+            "end": 462,
+            "value": "`typeof Array.prototype.findLastIndex` is `function`",
+            "raw": "'`typeof Array.prototype.findLastIndex` is `function`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 467,
+      "end": 581,
+      "expression": {
+        "type": "CallExpression",
+        "start": 467,
+        "end": 580,
+        "callee": {
+          "type": "Identifier",
+          "start": 467,
+          "end": 481,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 482,
+            "end": 497,
+            "object": {
+              "type": "Identifier",
+              "start": 482,
+              "end": 487,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 488,
+              "end": 497,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 499,
+            "end": 514,
+            "value": "findLastIndex",
+            "raw": "\"findLastIndex\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 516,
+            "end": 579,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 520,
+                "end": 537,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 520,
+                  "end": 530,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 532,
+                  "end": 537,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 541,
+                "end": 555,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 541,
+                  "end": 549,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 551,
+                  "end": 555,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 559,
+                "end": 577,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 559,
+                  "end": 571,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 573,
+                  "end": 577,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

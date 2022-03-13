@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 655,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 451,
+      "end": 496,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 455,
+          "end": 495,
+          "id": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 461,
+            "name": "OArray"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 464,
+            "end": 495,
+            "object": {
+              "type": "MemberExpression",
+              "start": 464,
+              "end": 489,
+              "object": {
+                "type": "CallExpression",
+                "start": 464,
+                "end": 482,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 464,
+                  "end": 480,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 464,
+                    "end": 468,
+                    "name": "$262"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 469,
+                    "end": 480,
+                    "name": "createRealm"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 483,
+                "end": 489,
+                "name": "global"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 490,
+              "end": 495,
+              "name": "Array"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 497,
+      "end": 522,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 501,
+          "end": 521,
+          "id": {
+            "type": "Identifier",
+            "start": 501,
+            "end": 506,
+            "name": "array"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 509,
+            "end": 521,
+            "callee": {
+              "type": "Identifier",
+              "start": 513,
+              "end": 519,
+              "name": "OArray"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 524,
+      "end": 654,
+      "expression": {
+        "type": "CallExpression",
+        "start": 524,
+        "end": 653,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 524,
+          "end": 537,
+          "object": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 530,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 531,
+            "end": 537,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 538,
+            "end": 548,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 550,
+            "end": 593,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 561,
+              "end": 593,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 565,
+                  "end": 591,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 565,
+                    "end": 590,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 565,
+                      "end": 577,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 565,
+                        "end": 570,
+                        "name": "array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 571,
+                        "end": 577,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 580,
+                      "end": 590,
+                      "value": 4294967296,
+                      "raw": "4294967296"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 595,
+            "end": 652,
+            "value": "array.length = 4294967296 throws a RangeError exception",
+            "raw": "'array.length = 4294967296 throws a RangeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

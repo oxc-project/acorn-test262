@@ -1,0 +1,428 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 779,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 302,
+      "end": 453,
+      "expression": {
+        "type": "CallExpression",
+        "start": 302,
+        "end": 452,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 302,
+          "end": 318,
+          "object": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 308,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 318,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 322,
+            "end": 359,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 329,
+              "end": 359,
+              "object": {
+                "type": "MemberExpression",
+                "start": 329,
+                "end": 350,
+                "object": {
+                  "type": "Identifier",
+                  "start": 329,
+                  "end": 340,
+                  "name": "ShadowRealm"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 341,
+                  "end": 350,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 351,
+                "end": 359,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 363,
+            "end": 373,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 377,
+            "end": 450,
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 455,
+      "end": 483,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 461,
+          "end": 482,
+          "id": {
+            "type": "Identifier",
+            "start": 461,
+            "end": 462,
+            "name": "r"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 465,
+            "end": 482,
+            "callee": {
+              "type": "Identifier",
+              "start": 469,
+              "end": 480,
+              "name": "ShadowRealm"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 485,
+      "end": 531,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 491,
+          "end": 530,
+          "id": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 498,
+            "name": "wrapped"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 501,
+            "end": 530,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 501,
+              "end": 511,
+              "object": {
+                "type": "Identifier",
+                "start": 501,
+                "end": 502,
+                "name": "r"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 511,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 512,
+                "end": 529,
+                "value": "x => y => x * y",
+                "raw": "'x => y => x * y'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 532,
+      "end": 565,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 538,
+          "end": 564,
+          "id": {
+            "type": "Identifier",
+            "start": 538,
+            "end": 551,
+            "name": "nestedWrapped"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 554,
+            "end": 564,
+            "callee": {
+              "type": "Identifier",
+              "start": 554,
+              "end": 561,
+              "name": "wrapped"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 562,
+                "end": 563,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 566,
+      "end": 604,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 572,
+          "end": 603,
+          "id": {
+            "type": "Identifier",
+            "start": 572,
+            "end": 590,
+            "name": "otherNestedWrapped"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 593,
+            "end": 603,
+            "callee": {
+              "type": "Identifier",
+              "start": 593,
+              "end": 600,
+              "name": "wrapped"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 601,
+                "end": 602,
+                "value": 4,
+                "raw": "4"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 606,
+      "end": 650,
+      "expression": {
+        "type": "CallExpression",
+        "start": 606,
+        "end": 649,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 606,
+          "end": 622,
+          "object": {
+            "type": "Identifier",
+            "start": 606,
+            "end": 612,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 622,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 623,
+            "end": 644,
+            "callee": {
+              "type": "Identifier",
+              "start": 623,
+              "end": 641,
+              "name": "otherNestedWrapped"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 642,
+                "end": 643,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 646,
+            "end": 648,
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 689,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 688,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 651,
+          "end": 667,
+          "object": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 657,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 667,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 668,
+            "end": 684,
+            "callee": {
+              "type": "Identifier",
+              "start": 668,
+              "end": 681,
+              "name": "nestedWrapped"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 682,
+                "end": 683,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 686,
+            "end": 687,
+            "value": 6,
+            "raw": "6"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 691,
+      "end": 778,
+      "expression": {
+        "type": "CallExpression",
+        "start": 691,
+        "end": 777,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 691,
+          "end": 710,
+          "object": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 697,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 710,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 711,
+            "end": 724,
+            "name": "nestedWrapped"
+          },
+          {
+            "type": "Identifier",
+            "start": 726,
+            "end": 744,
+            "name": "otherNestedWrapped"
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 776,
+            "value": "new wrapping for each return",
+            "raw": "'new wrapping for each return'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

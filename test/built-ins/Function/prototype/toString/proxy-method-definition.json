@@ -1,0 +1,231 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 791,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 711,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 710,
+        "callee": {
+          "type": "Identifier",
+          "start": 651,
+          "end": 671,
+          "name": "assertNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 672,
+            "end": 709,
+            "callee": {
+              "type": "Identifier",
+              "start": 676,
+              "end": 681,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 682,
+                "end": 704,
+                "object": {
+                  "type": "ObjectExpression",
+                  "start": 682,
+                  "end": 697,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 684,
+                      "end": 695,
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 684,
+                        "end": 690,
+                        "name": "method"
+                      },
+                      "kind": "init",
+                      "value": {
+                        "type": "FunctionExpression",
+                        "start": 690,
+                        "end": 695,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 693,
+                          "end": 695,
+                          "body": []
+                        }
+                      }
+                    }
+                  ]
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 698,
+                  "end": 704,
+                  "name": "method"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 706,
+                "end": 708,
+                "properties": []
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 712,
+      "end": 790,
+      "expression": {
+        "type": "CallExpression",
+        "start": 712,
+        "end": 789,
+        "callee": {
+          "type": "Identifier",
+          "start": 712,
+          "end": 732,
+          "name": "assertNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 733,
+            "end": 788,
+            "object": {
+              "type": "NewExpression",
+              "start": 733,
+              "end": 782,
+              "callee": {
+                "type": "Identifier",
+                "start": 737,
+                "end": 742,
+                "name": "Proxy"
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 743,
+                  "end": 765,
+                  "object": {
+                    "type": "ObjectExpression",
+                    "start": 743,
+                    "end": 758,
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "start": 745,
+                        "end": 756,
+                        "method": true,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
+                          "type": "Identifier",
+                          "start": 745,
+                          "end": 751,
+                          "name": "method"
+                        },
+                        "kind": "init",
+                        "value": {
+                          "type": "FunctionExpression",
+                          "start": 751,
+                          "end": 756,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 754,
+                            "end": 756,
+                            "body": []
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 759,
+                    "end": 765,
+                    "name": "method"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 767,
+                  "end": 781,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 769,
+                      "end": 779,
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 769,
+                        "end": 774,
+                        "name": "apply"
+                      },
+                      "kind": "init",
+                      "value": {
+                        "type": "FunctionExpression",
+                        "start": 774,
+                        "end": 779,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 777,
+                          "end": 779,
+                          "body": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 783,
+              "end": 788,
+              "name": "apply"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,234 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 698,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 392,
+      "end": 434,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 396,
+          "end": 433,
+          "id": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 397,
+            "name": "x"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 400,
+            "end": 433,
+            "object": {
+              "type": "MemberExpression",
+              "start": 400,
+              "end": 426,
+              "object": {
+                "type": "MemberExpression",
+                "start": 400,
+                "end": 414,
+                "object": {
+                  "type": "Identifier",
+                  "start": 400,
+                  "end": 404,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 405,
+                  "end": 414,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 415,
+                "end": 426,
+                "name": "getFullYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 427,
+              "end": 433,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 435,
+      "end": 500,
+      "expression": {
+        "type": "CallExpression",
+        "start": 435,
+        "end": 499,
+        "callee": {
+          "type": "Identifier",
+          "start": 435,
+          "end": 452,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 453,
+            "end": 479,
+            "object": {
+              "type": "MemberExpression",
+              "start": 453,
+              "end": 467,
+              "object": {
+                "type": "Identifier",
+                "start": 453,
+                "end": 457,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 458,
+                "end": 467,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 468,
+              "end": 479,
+              "name": "getFullYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 481,
+            "end": 489,
+            "value": "length",
+            "raw": "\"length\""
+          },
+          {
+            "type": "Literal",
+            "start": 491,
+            "end": 495,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "Literal",
+            "start": 497,
+            "end": 498,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 502,
+      "end": 651,
+      "expression": {
+        "type": "CallExpression",
+        "start": 502,
+        "end": 650,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 502,
+          "end": 518,
+          "object": {
+            "type": "Identifier",
+            "start": 502,
+            "end": 508,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 518,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 522,
+            "end": 555,
+            "object": {
+              "type": "MemberExpression",
+              "start": 522,
+              "end": 548,
+              "object": {
+                "type": "MemberExpression",
+                "start": 522,
+                "end": 536,
+                "object": {
+                  "type": "Identifier",
+                  "start": 522,
+                  "end": 526,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 527,
+                  "end": 536,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 537,
+                "end": 548,
+                "name": "getFullYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 549,
+              "end": 555,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 559,
+            "end": 560,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 564,
+            "end": 648,
+            "value": "The value of Date.prototype.getFullYear.length is expected to equal the value of x",
+            "raw": "'The value of Date.prototype.getFullYear.length is expected to equal the value of x'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

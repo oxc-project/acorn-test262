@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 740,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 488,
+      "end": 499,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 492,
+          "end": 498,
+          "id": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 493,
+            "name": "o"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 496,
+            "end": 498,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 500,
+      "end": 616,
+      "expression": {
+        "type": "CallExpression",
+        "start": 500,
+        "end": 615,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 500,
+          "end": 516,
+          "object": {
+            "type": "Identifier",
+            "start": 500,
+            "end": 506,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 507,
+            "end": 516,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 520,
+            "end": 548,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 520,
+              "end": 545,
+              "object": {
+                "type": "Identifier",
+                "start": 520,
+                "end": 527,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 528,
+                "end": 545,
+                "name": "preventExtensions"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 546,
+                "end": 547,
+                "name": "o"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 550,
+            "end": 554,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 558,
+            "end": 613,
+            "value": "returns true after preventing extentions on an object",
+            "raw": "'returns true after preventing extentions on an object'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 617,
+      "end": 739,
+      "expression": {
+        "type": "CallExpression",
+        "start": 617,
+        "end": 738,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 617,
+          "end": 633,
+          "object": {
+            "type": "Identifier",
+            "start": 617,
+            "end": 623,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 624,
+            "end": 633,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 637,
+            "end": 665,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 637,
+              "end": 662,
+              "object": {
+                "type": "Identifier",
+                "start": 637,
+                "end": 644,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 645,
+                "end": 662,
+                "name": "preventExtensions"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 663,
+                "end": 664,
+                "name": "o"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 667,
+            "end": 671,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 675,
+            "end": 736,
+            "value": "returns true even if the object already prevents extentions",
+            "raw": "'returns true even if the object already prevents extentions'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

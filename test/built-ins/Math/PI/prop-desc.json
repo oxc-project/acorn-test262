@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 456,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 357,
+      "end": 389,
+      "expression": {
+        "type": "CallExpression",
+        "start": 357,
+        "end": 388,
+        "callee": {
+          "type": "Identifier",
+          "start": 357,
+          "end": 376,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 377,
+            "end": 381,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 383,
+            "end": 387,
+            "value": "PI",
+            "raw": "'PI'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 390,
+      "end": 420,
+      "expression": {
+        "type": "CallExpression",
+        "start": 390,
+        "end": 419,
+        "callee": {
+          "type": "Identifier",
+          "start": 390,
+          "end": 407,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 408,
+            "end": 412,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 414,
+            "end": 418,
+            "value": "PI",
+            "raw": "'PI'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 421,
+      "end": 455,
+      "expression": {
+        "type": "CallExpression",
+        "start": 421,
+        "end": 454,
+        "callee": {
+          "type": "Identifier",
+          "start": 421,
+          "end": 442,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 443,
+            "end": 447,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 449,
+            "end": 453,
+            "value": "PI",
+            "raw": "'PI'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

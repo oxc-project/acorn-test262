@@ -1,0 +1,489 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 764,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 343,
+      "end": 369,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 347,
+          "end": 368,
+          "id": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 352,
+            "name": "dec31"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 355,
+            "end": 368,
+            "value": 1483142400000,
+            "raw": "1483142400000"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 370,
+      "end": 402,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 374,
+          "end": 401,
+          "id": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 379,
+            "name": "dayMs"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 382,
+            "end": 401,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 382,
+              "end": 394,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 382,
+                "end": 389,
+                "left": {
+                  "type": "Literal",
+                  "start": 382,
+                  "end": 384,
+                  "value": 24,
+                  "raw": "24"
+                },
+                "operator": "*",
+                "right": {
+                  "type": "Literal",
+                  "start": 387,
+                  "end": 389,
+                  "value": 60,
+                  "raw": "60"
+                }
+              },
+              "operator": "*",
+              "right": {
+                "type": "Literal",
+                "start": 392,
+                "end": 394,
+                "value": 60,
+                "raw": "60"
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "Literal",
+              "start": 397,
+              "end": 401,
+              "value": 1000,
+              "raw": "1000"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 404,
+      "end": 482,
+      "expression": {
+        "type": "CallExpression",
+        "start": 404,
+        "end": 481,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 404,
+          "end": 420,
+          "object": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 410,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 420,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 421,
+            "end": 453,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 421,
+              "end": 451,
+              "object": {
+                "type": "NewExpression",
+                "start": 421,
+                "end": 436,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 425,
+                  "end": 429,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 430,
+                    "end": 435,
+                    "name": "dec31"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 437,
+                "end": 451,
+                "name": "getUTCFullYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 455,
+            "end": 459,
+            "value": 2016,
+            "raw": "2016"
+          },
+          {
+            "type": "Literal",
+            "start": 461,
+            "end": 480,
+            "value": "first millisecond",
+            "raw": "'first millisecond'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 483,
+      "end": 572,
+      "expression": {
+        "type": "CallExpression",
+        "start": 483,
+        "end": 571,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 483,
+          "end": 499,
+          "object": {
+            "type": "Identifier",
+            "start": 483,
+            "end": 489,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 499,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 503,
+            "end": 539,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 503,
+              "end": 537,
+              "object": {
+                "type": "NewExpression",
+                "start": 503,
+                "end": 522,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 507,
+                  "end": 511,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 512,
+                    "end": 521,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 512,
+                      "end": 517,
+                      "name": "dec31"
+                    },
+                    "operator": "-",
+                    "right": {
+                      "type": "Literal",
+                      "start": 520,
+                      "end": 521,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 523,
+                "end": 537,
+                "name": "getUTCFullYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 541,
+            "end": 545,
+            "value": 2016,
+            "raw": "2016"
+          },
+          {
+            "type": "Literal",
+            "start": 547,
+            "end": 569,
+            "value": "previous millisecond",
+            "raw": "'previous millisecond'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 573,
+      "end": 667,
+      "expression": {
+        "type": "CallExpression",
+        "start": 573,
+        "end": 666,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 573,
+          "end": 589,
+          "object": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 579,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 580,
+            "end": 589,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 593,
+            "end": 637,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 593,
+              "end": 635,
+              "object": {
+                "type": "NewExpression",
+                "start": 593,
+                "end": 620,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 597,
+                  "end": 601,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 602,
+                    "end": 619,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 602,
+                      "end": 615,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 602,
+                        "end": 607,
+                        "name": "dec31"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 610,
+                        "end": 615,
+                        "name": "dayMs"
+                      }
+                    },
+                    "operator": "-",
+                    "right": {
+                      "type": "Literal",
+                      "start": 618,
+                      "end": 619,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 621,
+                "end": 635,
+                "name": "getUTCFullYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 639,
+            "end": 643,
+            "value": 2016,
+            "raw": "2016"
+          },
+          {
+            "type": "Literal",
+            "start": 645,
+            "end": 664,
+            "value": "final millisecond",
+            "raw": "'final millisecond'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 668,
+      "end": 763,
+      "expression": {
+        "type": "CallExpression",
+        "start": 668,
+        "end": 762,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 668,
+          "end": 684,
+          "object": {
+            "type": "Identifier",
+            "start": 668,
+            "end": 674,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 675,
+            "end": 684,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 688,
+            "end": 728,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 688,
+              "end": 726,
+              "object": {
+                "type": "NewExpression",
+                "start": 688,
+                "end": 711,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 692,
+                  "end": 696,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 697,
+                    "end": 710,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 697,
+                      "end": 702,
+                      "name": "dec31"
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 705,
+                      "end": 710,
+                      "name": "dayMs"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 712,
+                "end": 726,
+                "name": "getUTCFullYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 730,
+            "end": 734,
+            "value": 2017,
+            "raw": "2017"
+          },
+          {
+            "type": "Literal",
+            "start": 736,
+            "end": 760,
+            "value": "subsequent millisecond",
+            "raw": "'subsequent millisecond'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

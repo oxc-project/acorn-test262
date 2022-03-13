@@ -1,0 +1,288 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 512,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 228,
+      "end": 293,
+      "id": {
+        "type": "Identifier",
+        "start": 237,
+        "end": 240,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 245,
+        "end": 293,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 251,
+            "end": 264,
+            "expression": {
+              "type": "Literal",
+              "start": 251,
+              "end": 263,
+              "value": "use strict",
+              "raw": "'use strict'"
+            },
+            "directive": "use strict"
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 269,
+            "end": 289,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 276,
+              "end": 288,
+              "operator": "typeof",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 282,
+                "end": 288,
+                "expression": {
+                  "type": "ThisExpression",
+                  "start": 283,
+                  "end": 287
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 298,
+      "end": 345,
+      "id": {
+        "type": "Identifier",
+        "start": 307,
+        "end": 310,
+        "name": "bar"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 315,
+        "end": 345,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 321,
+            "end": 341,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 328,
+              "end": 340,
+              "operator": "typeof",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 334,
+                "end": 340,
+                "expression": {
+                  "type": "ThisExpression",
+                  "start": 335,
+                  "end": 339
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 349,
+      "end": 374,
+      "id": {
+        "type": "Identifier",
+        "start": 358,
+        "end": 364,
+        "name": "foobar"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 369,
+        "end": 374,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 376,
+      "end": 443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 376,
+        "end": 442,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 376,
+          "end": 392,
+          "object": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 382,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 383,
+            "end": 392,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 393,
+            "end": 409,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 393,
+              "end": 401,
+              "object": {
+                "type": "Identifier",
+                "start": 393,
+                "end": 396,
+                "name": "foo"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 397,
+                "end": 401,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 402,
+                "end": 408,
+                "name": "foobar"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 411,
+            "end": 421,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 423,
+            "end": 441,
+            "value": "foo.call(foobar)",
+            "raw": "'foo.call(foobar)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 444,
+      "end": 511,
+      "expression": {
+        "type": "CallExpression",
+        "start": 444,
+        "end": 510,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 444,
+          "end": 460,
+          "object": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 450,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 460,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 461,
+            "end": 477,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 461,
+              "end": 469,
+              "object": {
+                "type": "Identifier",
+                "start": 461,
+                "end": 464,
+                "name": "bar"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 465,
+                "end": 469,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 470,
+                "end": 476,
+                "name": "foobar"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 479,
+            "end": 489,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 491,
+            "end": 509,
+            "value": "bar.call(foobar)",
+            "raw": "'bar.call(foobar)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

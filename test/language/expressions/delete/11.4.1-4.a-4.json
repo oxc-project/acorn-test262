@@ -1,0 +1,92 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 617,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 563,
+      "end": 582,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 567,
+          "end": 581,
+          "id": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 568,
+            "name": "d"
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "start": 571,
+            "end": 581,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 578,
+              "end": 581,
+              "name": "NaN"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 584,
+      "end": 616,
+      "expression": {
+        "type": "CallExpression",
+        "start": 584,
+        "end": 615,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 584,
+          "end": 600,
+          "object": {
+            "type": "Identifier",
+            "start": 584,
+            "end": 590,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 591,
+            "end": 600,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 601,
+            "end": 602,
+            "name": "d"
+          },
+          {
+            "type": "Literal",
+            "start": 604,
+            "end": 609,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 611,
+            "end": 614,
+            "value": "d",
+            "raw": "'d'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

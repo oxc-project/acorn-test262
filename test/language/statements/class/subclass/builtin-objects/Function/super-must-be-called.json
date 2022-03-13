@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 911,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 682,
+      "end": 730,
+      "id": {
+        "type": "Identifier",
+        "start": 688,
+        "end": 690,
+        "name": "Fn"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 699,
+        "end": 707,
+        "name": "Function"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 708,
+        "end": 730,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 712,
+            "end": 728,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 712,
+              "end": 723,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 723,
+              "end": 728,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 726,
+                "end": 728,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 732,
+      "end": 790,
+      "expression": {
+        "type": "CallExpression",
+        "start": 732,
+        "end": 789,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 732,
+          "end": 745,
+          "object": {
+            "type": "Identifier",
+            "start": 732,
+            "end": 738,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 739,
+            "end": 745,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 746,
+            "end": 760,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 762,
+            "end": 788,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 773,
+              "end": 788,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 777,
+                  "end": 786,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 777,
+                    "end": 785,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 781,
+                      "end": 783,
+                      "name": "Fn"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 792,
+      "end": 857,
+      "id": {
+        "type": "Identifier",
+        "start": 798,
+        "end": 801,
+        "name": "Fn2"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 810,
+        "end": 818,
+        "name": "Function"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 819,
+        "end": 857,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 823,
+            "end": 855,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 823,
+              "end": 834,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 834,
+              "end": 855,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 837,
+                "end": 855,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 843,
+                    "end": 851,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 843,
+                      "end": 850,
+                      "callee": {
+                        "type": "Super",
+                        "start": 843,
+                        "end": 848
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 859,
+      "end": 878,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 863,
+          "end": 877,
+          "id": {
+            "type": "Identifier",
+            "start": 863,
+            "end": 865,
+            "name": "fn"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 868,
+            "end": 877,
+            "callee": {
+              "type": "Identifier",
+              "start": 872,
+              "end": 875,
+              "name": "Fn2"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 879,
+      "end": 910,
+      "expression": {
+        "type": "CallExpression",
+        "start": 879,
+        "end": 909,
+        "callee": {
+          "type": "Identifier",
+          "start": 879,
+          "end": 885,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 886,
+            "end": 908,
+            "left": {
+              "type": "Identifier",
+              "start": 886,
+              "end": 888,
+              "name": "fn"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 900,
+              "end": 908,
+              "name": "Function"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

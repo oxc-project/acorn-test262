@@ -1,0 +1,53 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 699,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 538,
+      "end": 698,
+      "expression": {
+        "type": "CallExpression",
+        "start": 538,
+        "end": 697,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 538,
+          "end": 546,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 539,
+            "end": 545,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 539,
+                "end": 540,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 541,
+                "end": 545,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 550,
+            "end": 695,
+            "value": "assert.sameValue(f(), \"outer declaration\");{ function f() { return \"inner declaration\"; } }function f() {    return \"outer declaration\";  }",
+            "raw": "'assert.sameValue(f(), \"outer declaration\");{ function f() { return \"inner declaration\"; } }function f() {\\\n    return \"outer declaration\";\\\n  }'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

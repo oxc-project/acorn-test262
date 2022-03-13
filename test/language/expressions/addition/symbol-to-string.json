@@ -1,0 +1,127 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 471,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 397,
+      "end": 418,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 401,
+          "end": 417,
+          "id": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 402,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 405,
+            "end": 417,
+            "callee": {
+              "type": "Identifier",
+              "start": 405,
+              "end": 411,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 412,
+                "end": 416,
+                "value": "66",
+                "raw": "'66'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 419,
+      "end": 470,
+      "expression": {
+        "type": "CallExpression",
+        "start": 419,
+        "end": 469,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 419,
+          "end": 432,
+          "object": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 425,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 432,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 433,
+            "end": 442,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 444,
+            "end": 468,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 455,
+              "end": 468,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 459,
+                  "end": 466,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 459,
+                    "end": 465,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 459,
+                      "end": 460,
+                      "name": "s"
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "start": 463,
+                      "end": 465,
+                      "value": "",
+                      "raw": "''"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

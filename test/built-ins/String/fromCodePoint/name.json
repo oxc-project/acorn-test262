@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 647,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 365,
+      "end": 495,
+      "expression": {
+        "type": "CallExpression",
+        "start": 365,
+        "end": 494,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 365,
+          "end": 381,
+          "object": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 371,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 381,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 385,
+            "end": 410,
+            "object": {
+              "type": "MemberExpression",
+              "start": 385,
+              "end": 405,
+              "object": {
+                "type": "Identifier",
+                "start": 385,
+                "end": 391,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 392,
+                "end": 405,
+                "name": "fromCodePoint"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 406,
+              "end": 410,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 412,
+            "end": 427,
+            "value": "fromCodePoint",
+            "raw": "'fromCodePoint'"
+          },
+          {
+            "type": "Literal",
+            "start": 431,
+            "end": 492,
+            "value": "The value of `String.fromCodePoint.name` is \"fromCodePoint\"",
+            "raw": "'The value of `String.fromCodePoint.name` is \"fromCodePoint\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 497,
+      "end": 547,
+      "expression": {
+        "type": "CallExpression",
+        "start": 497,
+        "end": 546,
+        "callee": {
+          "type": "Identifier",
+          "start": 497,
+          "end": 516,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 517,
+            "end": 537,
+            "object": {
+              "type": "Identifier",
+              "start": 517,
+              "end": 523,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 524,
+              "end": 537,
+              "name": "fromCodePoint"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 539,
+            "end": 545,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 548,
+      "end": 596,
+      "expression": {
+        "type": "CallExpression",
+        "start": 548,
+        "end": 595,
+        "callee": {
+          "type": "Identifier",
+          "start": 548,
+          "end": 565,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 566,
+            "end": 586,
+            "object": {
+              "type": "Identifier",
+              "start": 566,
+              "end": 572,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 573,
+              "end": 586,
+              "name": "fromCodePoint"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 588,
+            "end": 594,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 597,
+      "end": 646,
+      "expression": {
+        "type": "CallExpression",
+        "start": 597,
+        "end": 645,
+        "callee": {
+          "type": "Identifier",
+          "start": 597,
+          "end": 615,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 616,
+            "end": 636,
+            "object": {
+              "type": "Identifier",
+              "start": 616,
+              "end": 622,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 623,
+              "end": 636,
+              "name": "fromCodePoint"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 638,
+            "end": 644,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

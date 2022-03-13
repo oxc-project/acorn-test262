@@ -1,0 +1,30 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 436,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 423,
+      "end": 435,
+      "expression": {
+        "type": "MetaProperty",
+        "start": 423,
+        "end": 434,
+        "meta": {
+          "type": "Identifier",
+          "start": 423,
+          "end": 429,
+          "name": "import"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 430,
+          "end": 434,
+          "name": "meta"
+        }
+      }
+    }
+  ],
+  "sourceType": "module"
+}

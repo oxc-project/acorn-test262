@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 417,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 303,
+      "end": 342,
+      "expression": {
+        "type": "CallExpression",
+        "start": 303,
+        "end": 341,
+        "callee": {
+          "type": "Identifier",
+          "start": 303,
+          "end": 322,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 331,
+            "end": 340,
+            "value": "entries",
+            "raw": "'entries'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 343,
+      "end": 377,
+      "expression": {
+        "type": "CallExpression",
+        "start": 343,
+        "end": 376,
+        "callee": {
+          "type": "Identifier",
+          "start": 343,
+          "end": 357,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 358,
+            "end": 364,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 366,
+            "end": 375,
+            "value": "entries",
+            "raw": "'entries'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 378,
+      "end": 416,
+      "expression": {
+        "type": "CallExpression",
+        "start": 378,
+        "end": 415,
+        "callee": {
+          "type": "Identifier",
+          "start": 378,
+          "end": 396,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 397,
+            "end": 403,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 405,
+            "end": 414,
+            "value": "entries",
+            "raw": "'entries'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

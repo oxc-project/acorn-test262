@@ -1,0 +1,183 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 400,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 230,
+      "end": 318,
+      "id": {
+        "type": "Identifier",
+        "start": 239,
+        "end": 242,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 244,
+        "end": 318,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 251,
+            "end": 268,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 255,
+                "end": 267,
+                "id": {
+                  "type": "Identifier",
+                  "start": 255,
+                  "end": 256,
+                  "name": "a"
+                },
+                "init": {
+                  "type": "ObjectExpression",
+                  "start": 259,
+                  "end": 267,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 260,
+                      "end": 266,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 260,
+                        "end": 261,
+                        "name": "a"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 264,
+                        "end": 266,
+                        "value": 10,
+                        "raw": "10"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "WithStatement",
+            "start": 274,
+            "end": 314,
+            "object": {
+              "type": "Identifier",
+              "start": 279,
+              "end": 280,
+              "name": "a"
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 281,
+              "end": 314,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 292,
+                  "end": 307,
+                  "argument": {
+                    "type": "ArrowFunctionExpression",
+                    "start": 299,
+                    "end": 306,
+                    "id": null,
+                    "expression": true,
+                    "generator": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "Identifier",
+                      "start": 305,
+                      "end": 306,
+                      "name": "a"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 322,
+      "end": 398,
+      "expression": {
+        "type": "CallExpression",
+        "start": 322,
+        "end": 397,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 322,
+          "end": 338,
+          "object": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 328,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 338,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 339,
+            "end": 346,
+            "callee": {
+              "type": "CallExpression",
+              "start": 339,
+              "end": 344,
+              "callee": {
+                "type": "Identifier",
+                "start": 339,
+                "end": 342,
+                "name": "foo"
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 348,
+            "end": 350,
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "type": "Literal",
+            "start": 352,
+            "end": 396,
+            "value": "Closure variable was captured incorrectly.",
+            "raw": "\"Closure variable was captured incorrectly.\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,114 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 464,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 309,
+      "end": 463,
+      "expression": {
+        "type": "CallExpression",
+        "start": 309,
+        "end": 462,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 309,
+          "end": 325,
+          "object": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 315,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 325,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 326,
+            "end": 379,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 326,
+              "end": 352,
+              "object": {
+                "type": "MemberExpression",
+                "start": 326,
+                "end": 347,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 326,
+                  "end": 342,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 326,
+                    "end": 332,
+                    "name": "String"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 333,
+                    "end": 342,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 343,
+                  "end": 347,
+                  "name": "trim"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 352,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 353,
+                "end": 378,
+                "value": 100000000000000000000,
+                "raw": "100000000000000000000.123"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 381,
+            "end": 404,
+            "value": "100000000000000000000",
+            "raw": "\"100000000000000000000\""
+          },
+          {
+            "type": "Literal",
+            "start": 406,
+            "end": 461,
+            "value": "String.prototype.trim.call(100000000000000000000.123)",
+            "raw": "'String.prototype.trim.call(100000000000000000000.123)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,183 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 701,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 528,
+      "end": 548,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 532,
+          "end": 547,
+          "id": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 547,
+            "name": "resolveFunction"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 549,
+      "end": 621,
+      "expression": {
+        "type": "NewExpression",
+        "start": 549,
+        "end": 620,
+        "callee": {
+          "type": "Identifier",
+          "start": 553,
+          "end": 560,
+          "name": "Promise"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 561,
+            "end": 619,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 570,
+                "end": 577,
+                "name": "resolve"
+              },
+              {
+                "type": "Identifier",
+                "start": 579,
+                "end": 585,
+                "name": "reject"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 587,
+              "end": 619,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 591,
+                  "end": 617,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 591,
+                    "end": 616,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 591,
+                      "end": 606,
+                      "name": "resolveFunction"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 609,
+                      "end": 616,
+                      "name": "resolve"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 623,
+      "end": 700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 623,
+        "end": 699,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 623,
+          "end": 639,
+          "object": {
+            "type": "Identifier",
+            "start": 623,
+            "end": 629,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 630,
+            "end": 639,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 640,
+            "end": 678,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 640,
+              "end": 661,
+              "object": {
+                "type": "Identifier",
+                "start": 640,
+                "end": 646,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 647,
+                "end": 661,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 662,
+                "end": 677,
+                "name": "resolveFunction"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 680,
+            "end": 698,
+            "object": {
+              "type": "Identifier",
+              "start": 680,
+              "end": 688,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 689,
+              "end": 698,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

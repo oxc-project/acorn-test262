@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 382,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 275,
+      "end": 381,
+      "expression": {
+        "type": "CallExpression",
+        "start": 275,
+        "end": 380,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 275,
+          "end": 288,
+          "object": {
+            "type": "Identifier",
+            "start": 275,
+            "end": 281,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 288,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 289,
+            "end": 300,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 302,
+            "end": 379,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 313,
+              "end": 379,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 317,
+                  "end": 342,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 317,
+                    "end": 341,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 317,
+                      "end": 327,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 317,
+                        "end": 321,
+                        "name": "JSON"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 322,
+                        "end": 327,
+                        "name": "parse"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 328,
+                        "end": 340,
+                        "value": "﻿1234",
+                        "raw": "'\\ufeff1234'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

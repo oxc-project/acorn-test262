@@ -1,0 +1,203 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 457,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 344,
+      "end": 376,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 348,
+          "end": 375,
+          "id": {
+            "type": "Identifier",
+            "start": 348,
+            "end": 349,
+            "name": "p"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 352,
+            "end": 375,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 352,
+              "end": 367,
+              "object": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 357,
+                "name": "Proxy"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 358,
+                "end": 367,
+                "name": "revocable"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 368,
+                "end": 370,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 372,
+                "end": 374,
+                "properties": []
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 378,
+      "end": 389,
+      "expression": {
+        "type": "CallExpression",
+        "start": 378,
+        "end": 388,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 378,
+          "end": 386,
+          "object": {
+            "type": "Identifier",
+            "start": 378,
+            "end": 379,
+            "name": "p"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 380,
+            "end": 386,
+            "name": "revoke"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 391,
+      "end": 456,
+      "expression": {
+        "type": "CallExpression",
+        "start": 391,
+        "end": 455,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 391,
+          "end": 404,
+          "object": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 397,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 404,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 405,
+            "end": 414,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 416,
+            "end": 454,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 427,
+              "end": 454,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 431,
+                  "end": 452,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 431,
+                    "end": 451,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 431,
+                      "end": 442,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 431,
+                        "end": 437,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 438,
+                        "end": 442,
+                        "name": "keys"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 443,
+                        "end": 450,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 443,
+                          "end": 444,
+                          "name": "p"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 445,
+                          "end": 450,
+                          "name": "proxy"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

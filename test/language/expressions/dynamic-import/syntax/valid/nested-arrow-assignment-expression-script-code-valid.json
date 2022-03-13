@@ -1,0 +1,90 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1303,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1224,
+      "end": 1235,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1228,
+          "end": 1234,
+          "id": {
+            "type": "Identifier",
+            "start": 1228,
+            "end": 1234,
+            "name": "smoosh"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1236,
+      "end": 1256,
+      "id": {
+        "type": "Identifier",
+        "start": 1245,
+        "end": 1251,
+        "name": "smoosh"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1254,
+        "end": 1256,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1259,
+      "end": 1302,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1263,
+          "end": 1301,
+          "id": {
+            "type": "Identifier",
+            "start": 1263,
+            "end": 1264,
+            "name": "f"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 1267,
+            "end": 1301,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "ImportExpression",
+              "start": 1273,
+              "end": 1301,
+              "source": {
+                "type": "Literal",
+                "start": 1280,
+                "end": 1300,
+                "value": "./empty_FIXTURE.js",
+                "raw": "'./empty_FIXTURE.js'"
+              }
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    }
+  ],
+  "sourceType": "script"
+}

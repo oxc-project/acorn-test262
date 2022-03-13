@@ -1,0 +1,59 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 381,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 350,
+      "end": 367,
+      "id": {
+        "type": "Identifier",
+        "start": 359,
+        "end": 362,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 365,
+        "end": 367,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 368,
+      "end": 380,
+      "expression": {
+        "type": "CallExpression",
+        "start": 368,
+        "end": 379,
+        "callee": {
+          "type": "Identifier",
+          "start": 368,
+          "end": 371,
+          "name": "foo"
+        },
+        "arguments": [
+          {
+            "type": "SpreadElement",
+            "start": 372,
+            "end": 377,
+            "argument": {
+              "type": "ArrayExpression",
+              "start": 375,
+              "end": 377,
+              "elements": []
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

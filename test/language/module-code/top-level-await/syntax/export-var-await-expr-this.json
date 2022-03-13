@@ -1,0 +1,113 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2115,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2048,
+      "end": 2078,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 2055,
+        "end": 2078,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2059,
+            "end": 2077,
+            "id": {
+              "type": "Identifier",
+              "start": 2059,
+              "end": 2064,
+              "name": "name1"
+            },
+            "init": {
+              "type": "AwaitExpression",
+              "start": 2067,
+              "end": 2077,
+              "argument": {
+                "type": "ThisExpression",
+                "start": 2073,
+                "end": 2077
+              }
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2079,
+      "end": 2114,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 2086,
+        "end": 2114,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2090,
+            "end": 2113,
+            "id": {
+              "type": "ObjectPattern",
+              "start": 2090,
+              "end": 2108,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 2092,
+                  "end": 2106,
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 2092,
+                    "end": 2093,
+                    "name": "x"
+                  },
+                  "kind": "init",
+                  "value": {
+                    "type": "AssignmentPattern",
+                    "start": 2092,
+                    "end": 2106,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 2092,
+                      "end": 2093,
+                      "name": "x"
+                    },
+                    "right": {
+                      "type": "AwaitExpression",
+                      "start": 2096,
+                      "end": 2106,
+                      "argument": {
+                        "type": "ThisExpression",
+                        "start": 2102,
+                        "end": 2106
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "init": {
+              "type": "ObjectExpression",
+              "start": 2111,
+              "end": 2113,
+              "properties": []
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    }
+  ],
+  "sourceType": "module"
+}

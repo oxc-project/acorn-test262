@@ -1,0 +1,146 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1197,
+  "body": [
+    {
+      "type": "WithStatement",
+      "start": 1079,
+      "end": 1196,
+      "object": {
+        "type": "ImportExpression",
+        "start": 1085,
+        "end": 1095,
+        "source": {
+          "type": "Literal",
+          "start": 1092,
+          "end": 1094,
+          "value": "",
+          "raw": "''"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 1097,
+        "end": 1196,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1103,
+            "end": 1150,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1103,
+              "end": 1149,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1103,
+                "end": 1119,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1103,
+                  "end": 1109,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1110,
+                  "end": 1119,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1120,
+                  "end": 1124,
+                  "name": "then"
+                },
+                {
+                  "type": "MemberExpression",
+                  "start": 1126,
+                  "end": 1148,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 1126,
+                    "end": 1143,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1126,
+                      "end": 1133,
+                      "name": "Promise"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1134,
+                      "end": 1143,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1144,
+                    "end": 1148,
+                    "name": "then"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1155,
+            "end": 1194,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1155,
+              "end": 1193,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1155,
+                "end": 1171,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1155,
+                  "end": 1161,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1162,
+                  "end": 1171,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1172,
+                  "end": 1183,
+                  "name": "constructor"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1185,
+                  "end": 1192,
+                  "name": "Promise"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

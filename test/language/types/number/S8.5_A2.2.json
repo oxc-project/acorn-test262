@@ -1,0 +1,217 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 543,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 304,
+      "end": 331,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 308,
+          "end": 330,
+          "id": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 309,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 312,
+            "end": 330,
+            "value": 9007199254740994,
+            "raw": "9007199254740994.0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 347,
+      "end": 371,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 351,
+          "end": 370,
+          "id": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 352,
+            "name": "y"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 355,
+            "end": 370,
+            "left": {
+              "type": "Literal",
+              "start": 355,
+              "end": 358,
+              "value": 1,
+              "raw": "1.0"
+            },
+            "operator": "-",
+            "right": {
+              "type": "BinaryExpression",
+              "start": 361,
+              "end": 370,
+              "left": {
+                "type": "Literal",
+                "start": 361,
+                "end": 362,
+                "value": 1,
+                "raw": "1"
+              },
+              "operator": "/",
+              "right": {
+                "type": "Literal",
+                "start": 363,
+                "end": 370,
+                "value": 65536,
+                "raw": "65536.0"
+              }
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 372,
+      "end": 386,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 376,
+          "end": 385,
+          "id": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 377,
+            "name": "z"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 380,
+            "end": 385,
+            "left": {
+              "type": "Identifier",
+              "start": 380,
+              "end": 381,
+              "name": "x"
+            },
+            "operator": "+",
+            "right": {
+              "type": "Identifier",
+              "start": 384,
+              "end": 385,
+              "name": "y"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 387,
+      "end": 401,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 391,
+          "end": 400,
+          "id": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 392,
+            "name": "d"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 395,
+            "end": 400,
+            "left": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 396,
+              "name": "z"
+            },
+            "operator": "-",
+            "right": {
+              "type": "Identifier",
+              "start": 399,
+              "end": 400,
+              "name": "x"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 403,
+      "end": 542,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 407,
+        "end": 414,
+        "left": {
+          "type": "Identifier",
+          "start": 407,
+          "end": 408,
+          "name": "d"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 413,
+          "end": 414,
+          "value": 2,
+          "raw": "2"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 415,
+        "end": 542,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 419,
+            "end": 540,
+            "argument": {
+              "type": "NewExpression",
+              "start": 425,
+              "end": 539,
+              "callee": {
+                "type": "Identifier",
+                "start": 429,
+                "end": 441,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 442,
+                  "end": 538,
+                  "value": "#1: var x = 9007199254740994.0; var y = 1.0 - 1/65536.0; var z = x + y; var d = z - x; d !== 2",
+                  "raw": "'#1: var x = 9007199254740994.0; var y = 1.0 - 1/65536.0; var z = x + y; var d = z - x; d !== 2'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

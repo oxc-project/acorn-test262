@@ -1,0 +1,210 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 712,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 419,
+      "end": 456,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 423,
+          "end": 455,
+          "id": {
+            "type": "Identifier",
+            "start": 423,
+            "end": 450,
+            "name": "itemsPoisonedSymbolIterator"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 453,
+            "end": 455,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 457,
+      "end": 547,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 457,
+        "end": 546,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 457,
+          "end": 501,
+          "object": {
+            "type": "Identifier",
+            "start": 457,
+            "end": 484,
+            "name": "itemsPoisonedSymbolIterator"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 485,
+            "end": 500,
+            "object": {
+              "type": "Identifier",
+              "start": 485,
+              "end": 491,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 492,
+              "end": 500,
+              "name": "iterator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 504,
+          "end": 546,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 515,
+            "end": 546,
+            "body": [
+              {
+                "type": "ThrowStatement",
+                "start": 519,
+                "end": 544,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 525,
+                  "end": 543,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 529,
+                    "end": 541,
+                    "name": "Test262Error"
+                  },
+                  "arguments": []
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 549,
+      "end": 711,
+      "expression": {
+        "type": "CallExpression",
+        "start": 549,
+        "end": 710,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 549,
+          "end": 562,
+          "object": {
+            "type": "Identifier",
+            "start": 549,
+            "end": 555,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 562,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 563,
+            "end": 575,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 577,
+            "end": 634,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 588,
+              "end": 634,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 592,
+                  "end": 632,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 592,
+                    "end": 631,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 592,
+                      "end": 602,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 592,
+                        "end": 597,
+                        "name": "Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 598,
+                        "end": 602,
+                        "name": "from"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 603,
+                        "end": 630,
+                        "name": "itemsPoisonedSymbolIterator"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 636,
+            "end": 709,
+            "value": "Array.from(itemsPoisonedSymbolIterator) throws a Test262Error exception",
+            "raw": "'Array.from(itemsPoisonedSymbolIterator) throws a Test262Error exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

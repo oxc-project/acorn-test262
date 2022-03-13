@@ -1,0 +1,199 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 935,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 343,
+      "end": 378,
+      "id": {
+        "type": "Identifier",
+        "start": 357,
+        "end": 358,
+        "name": "A"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 367,
+        "end": 378,
+        "body": []
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 402,
+      "end": 463,
+      "id": {
+        "type": "Identifier",
+        "start": 416,
+        "end": 417,
+        "name": "B"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 442,
+        "end": 443,
+        "name": "A"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 452,
+        "end": 463,
+        "body": []
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 487,
+      "end": 598,
+      "id": {
+        "type": "Identifier",
+        "start": 501,
+        "end": 502,
+        "name": "C"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 527,
+        "end": 528,
+        "name": "B"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 537,
+        "end": 598,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 547,
+            "end": 588,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 547,
+              "end": 548,
+              "name": "m"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 557,
+              "end": 588,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 577,
+                "end": 588,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 611,
+      "end": 684,
+      "expression": {
+        "type": "CallExpression",
+        "start": 611,
+        "end": 683,
+        "callee": {
+          "type": "Identifier",
+          "start": 611,
+          "end": 641,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 642,
+            "end": 643,
+            "name": "A"
+          },
+          {
+            "type": "Literal",
+            "start": 645,
+            "end": 682,
+            "value": "class /* a */ A /* b */ { /* c */ }",
+            "raw": "\"class /* a */ A /* b */ { /* c */ }\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 685,
+      "end": 784,
+      "expression": {
+        "type": "CallExpression",
+        "start": 685,
+        "end": 783,
+        "callee": {
+          "type": "Identifier",
+          "start": 685,
+          "end": 715,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 716,
+            "end": 717,
+            "name": "B"
+          },
+          {
+            "type": "Literal",
+            "start": 719,
+            "end": 782,
+            "value": "class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }",
+            "raw": "\"class /* a */ B /* b */ extends /* c */ A /* d */ { /* e */ }\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 785,
+      "end": 934,
+      "expression": {
+        "type": "CallExpression",
+        "start": 785,
+        "end": 933,
+        "callee": {
+          "type": "Identifier",
+          "start": 785,
+          "end": 815,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 816,
+            "end": 817,
+            "name": "C"
+          },
+          {
+            "type": "Literal",
+            "start": 819,
+            "end": 932,
+            "value": "class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }",
+            "raw": "\"class /* a */ C /* b */ extends /* c */ B /* d */ { /* e */ m /* f */ ( /* g */ ) /* h */ { /* i */ } /* j */ }\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

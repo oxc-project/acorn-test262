@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 396,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 326,
+      "end": 395,
+      "expression": {
+        "type": "CallExpression",
+        "start": 326,
+        "end": 394,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 326,
+          "end": 342,
+          "object": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 332,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 342,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 343,
+            "end": 363,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 343,
+              "end": 358,
+              "object": {
+                "type": "Literal",
+                "start": 343,
+                "end": 349,
+                "value": "word",
+                "raw": "'word'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 350,
+                "end": 358,
+                "name": "endsWith"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 359,
+                "end": 362,
+                "value": "d",
+                "raw": "'d'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 365,
+            "end": 369,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 371,
+            "end": 393,
+            "value": "\"word\".endsWith(\"d\")",
+            "raw": "'\"word\".endsWith(\"d\")'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

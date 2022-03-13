@@ -1,0 +1,359 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 952,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 358,
+      "end": 435,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 362,
+          "end": 434,
+          "id": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 372,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 375,
+            "end": 434,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 379,
+                "end": 432,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 379,
+                  "end": 387,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 389,
+                  "end": 432,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 400,
+                    "end": 432,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 406,
+                        "end": 428,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 413,
+                          "end": 427,
+                          "value": "function(){}",
+                          "raw": "\"function(){}\""
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 437,
+      "end": 479,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 437,
+        "end": 478,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 437,
+          "end": 453,
+          "object": {
+            "type": "Identifier",
+            "start": 437,
+            "end": 447,
+            "name": "__instance"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 448,
+            "end": 453,
+            "name": "slice"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 456,
+          "end": 478,
+          "object": {
+            "type": "MemberExpression",
+            "start": 456,
+            "end": 472,
+            "object": {
+              "type": "Identifier",
+              "start": 456,
+              "end": 462,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 463,
+              "end": 472,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 478,
+            "name": "slice"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 570,
+      "end": 869,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 574,
+        "end": 637,
+        "left": {
+          "type": "CallExpression",
+          "start": 574,
+          "end": 623,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 574,
+            "end": 610,
+            "object": {
+              "type": "CallExpression",
+              "start": 574,
+              "end": 604,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 574,
+                "end": 590,
+                "object": {
+                  "type": "Identifier",
+                  "start": 574,
+                  "end": 584,
+                  "name": "__instance"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 585,
+                  "end": 590,
+                  "name": "slice"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 591,
+                  "end": 600,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 592,
+                    "end": 600,
+                    "name": "Infinity"
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 602,
+                  "end": 603,
+                  "value": 8,
+                  "raw": "8"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 605,
+              "end": 610,
+              "name": "slice"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 611,
+              "end": 612,
+              "value": 1,
+              "raw": "1"
+            },
+            {
+              "type": "Identifier",
+              "start": 614,
+              "end": 622,
+              "name": "Infinity"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 628,
+          "end": 637,
+          "value": "unction",
+          "raw": "\"unction\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 639,
+        "end": 869,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 643,
+            "end": 867,
+            "argument": {
+              "type": "NewExpression",
+              "start": 649,
+              "end": 866,
+              "callee": {
+                "type": "Identifier",
+                "start": 653,
+                "end": 665,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 666,
+                  "end": 865,
+                  "left": {
+                    "type": "Literal",
+                    "start": 666,
+                    "end": 813,
+                    "value": "#1: __instance = function(){}; __instance.slice = String.prototype.slice; __instance.slice(-Infinity,8).slice(1,Infinity) === \"unction\". Actual: ",
+                    "raw": "'#1: __instance = function(){}; __instance.slice = String.prototype.slice; __instance.slice(-Infinity,8).slice(1,Infinity) === \"unction\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 816,
+                    "end": 865,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 816,
+                      "end": 852,
+                      "object": {
+                        "type": "CallExpression",
+                        "start": 816,
+                        "end": 846,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 816,
+                          "end": 832,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 816,
+                            "end": 826,
+                            "name": "__instance"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 827,
+                            "end": 832,
+                            "name": "slice"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 833,
+                            "end": 842,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Identifier",
+                              "start": 834,
+                              "end": 842,
+                              "name": "Infinity"
+                            }
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 844,
+                            "end": 845,
+                            "value": 8,
+                            "raw": "8"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 847,
+                        "end": 852,
+                        "name": "slice"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 853,
+                        "end": 854,
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 856,
+                        "end": 864,
+                        "name": "Infinity"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,185 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 934,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 836,
+      "end": 864,
+      "id": {
+        "type": "Identifier",
+        "start": 845,
+        "end": 848,
+        "name": "fn1"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 849,
+          "end": 860,
+          "elements": [
+            {
+              "type": "Identifier",
+              "start": 850,
+              "end": 851,
+              "name": "a"
+            },
+            {
+              "type": "AssignmentPattern",
+              "start": 853,
+              "end": 859,
+              "left": {
+                "type": "Identifier",
+                "start": 853,
+                "end": 854,
+                "name": "b"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 857,
+                "end": 859,
+                "value": 42,
+                "raw": "42"
+              }
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 862,
+        "end": 864,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 866,
+      "end": 895,
+      "id": {
+        "type": "Identifier",
+        "start": 875,
+        "end": 878,
+        "name": "fn2"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 879,
+          "end": 891,
+          "elements": [
+            {
+              "type": "AssignmentPattern",
+              "start": 880,
+              "end": 886,
+              "left": {
+                "type": "Identifier",
+                "start": 880,
+                "end": 881,
+                "name": "a"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 884,
+                "end": 886,
+                "value": 42,
+                "raw": "42"
+              }
+            },
+            {
+              "type": "Identifier",
+              "start": 888,
+              "end": 889,
+              "name": "b"
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 893,
+        "end": 895,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 897,
+      "end": 933,
+      "id": {
+        "type": "Identifier",
+        "start": 906,
+        "end": 909,
+        "name": "fn3"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 910,
+          "end": 929,
+          "elements": [
+            {
+              "type": "Identifier",
+              "start": 911,
+              "end": 912,
+              "name": "a"
+            },
+            null,
+            {
+              "type": "AssignmentPattern",
+              "start": 915,
+              "end": 920,
+              "left": {
+                "type": "Identifier",
+                "start": 915,
+                "end": 916,
+                "name": "b"
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 919,
+                "end": 920,
+                "name": "a"
+              }
+            },
+            {
+              "type": "AssignmentPattern",
+              "start": 922,
+              "end": 928,
+              "left": {
+                "type": "Identifier",
+                "start": 922,
+                "end": 923,
+                "name": "c"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 926,
+                "end": 928,
+                "value": 42,
+                "raw": "42"
+              }
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 931,
+        "end": 933,
+        "body": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

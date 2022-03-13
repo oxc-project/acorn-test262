@@ -1,0 +1,585 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1126,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 541,
+      "end": 554,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 545,
+          "end": 553,
+          "id": {
+            "type": "Identifier",
+            "start": 545,
+            "end": 546,
+            "name": "T"
+          },
+          "init": {
+            "type": "ThisExpression",
+            "start": 549,
+            "end": 553
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 556,
+      "end": 1125,
+      "expression": {
+        "type": "CallExpression",
+        "start": 556,
+        "end": 1124,
+        "callee": {
+          "type": "Identifier",
+          "start": 556,
+          "end": 592,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 593,
+            "end": 1123,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 602,
+                "end": 604,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 606,
+              "end": 1123,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 610,
+                  "end": 633,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 614,
+                      "end": 632,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 614,
+                        "end": 620,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 623,
+                        "end": 632,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 627,
+                          "end": 629,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 630,
+                            "end": 631,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 636,
+                  "end": 647,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 640,
+                      "end": 646,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 640,
+                        "end": 646,
+                        "name": "result"
+                      },
+                      "init": null
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 651,
+                  "end": 704,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 651,
+                    "end": 703,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 651,
+                      "end": 666,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 651,
+                        "end": 657,
+                        "name": "sample"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 658,
+                        "end": 666,
+                        "name": "findLast"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "FunctionExpression",
+                        "start": 667,
+                        "end": 702,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 678,
+                          "end": 702,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 684,
+                              "end": 698,
+                              "expression": {
+                                "type": "AssignmentExpression",
+                                "start": 684,
+                                "end": 697,
+                                "operator": "=",
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 684,
+                                  "end": 690,
+                                  "name": "result"
+                                },
+                                "right": {
+                                  "type": "ThisExpression",
+                                  "start": 693,
+                                  "end": 697
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 708,
+                  "end": 785,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 708,
+                    "end": 784,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 708,
+                      "end": 724,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 708,
+                        "end": 714,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 715,
+                        "end": 724,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 725,
+                        "end": 731,
+                        "name": "result"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 733,
+                        "end": 734,
+                        "name": "T"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 736,
+                        "end": 783,
+                        "value": "without thisArg, predicate this is the global",
+                        "raw": "\"without thisArg, predicate this is the global\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 789,
+                  "end": 803,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 789,
+                    "end": 802,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 789,
+                      "end": 795,
+                      "name": "result"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 798,
+                      "end": 802,
+                      "value": null,
+                      "raw": "null"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 806,
+                  "end": 870,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 806,
+                    "end": 869,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 806,
+                      "end": 821,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 806,
+                        "end": 812,
+                        "name": "sample"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 813,
+                        "end": 821,
+                        "name": "findLast"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "FunctionExpression",
+                        "start": 822,
+                        "end": 857,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 833,
+                          "end": 857,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 839,
+                              "end": 853,
+                              "expression": {
+                                "type": "AssignmentExpression",
+                                "start": 839,
+                                "end": 852,
+                                "operator": "=",
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 839,
+                                  "end": 845,
+                                  "name": "result"
+                                },
+                                "right": {
+                                  "type": "ThisExpression",
+                                  "start": 848,
+                                  "end": 852
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 859,
+                        "end": 868,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 874,
+                  "end": 960,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 874,
+                    "end": 959,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 874,
+                      "end": 890,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 874,
+                        "end": 880,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 881,
+                        "end": 890,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 891,
+                        "end": 897,
+                        "name": "result"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 899,
+                        "end": 900,
+                        "name": "T"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 902,
+                        "end": 958,
+                        "value": "predicate this is the global when thisArg is undefined",
+                        "raw": "\"predicate this is the global when thisArg is undefined\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 964,
+                  "end": 975,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 968,
+                      "end": 974,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 968,
+                        "end": 969,
+                        "name": "o"
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "start": 972,
+                        "end": 974,
+                        "properties": []
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 978,
+                  "end": 992,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 978,
+                    "end": 991,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 978,
+                      "end": 984,
+                      "name": "result"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 987,
+                      "end": 991,
+                      "value": null,
+                      "raw": "null"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 995,
+                  "end": 1051,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 995,
+                    "end": 1050,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 995,
+                      "end": 1010,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 995,
+                        "end": 1001,
+                        "name": "sample"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1002,
+                        "end": 1010,
+                        "name": "findLast"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "FunctionExpression",
+                        "start": 1011,
+                        "end": 1046,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 1022,
+                          "end": 1046,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 1028,
+                              "end": 1042,
+                              "expression": {
+                                "type": "AssignmentExpression",
+                                "start": 1028,
+                                "end": 1041,
+                                "operator": "=",
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 1028,
+                                  "end": 1034,
+                                  "name": "result"
+                                },
+                                "right": {
+                                  "type": "ThisExpression",
+                                  "start": 1037,
+                                  "end": 1041
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1048,
+                        "end": 1049,
+                        "name": "o"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1055,
+                  "end": 1121,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1055,
+                    "end": 1120,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1055,
+                      "end": 1071,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1055,
+                        "end": 1061,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1062,
+                        "end": 1071,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1072,
+                        "end": 1078,
+                        "name": "result"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1080,
+                        "end": 1081,
+                        "name": "o"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1083,
+                        "end": 1119,
+                        "value": "thisArg becomes the predicate this",
+                        "raw": "\"thisArg becomes the predicate this\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

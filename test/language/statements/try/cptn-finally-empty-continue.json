@@ -1,0 +1,92 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 716,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 559,
+      "end": 674,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 563,
+          "end": 673,
+          "id": {
+            "type": "Identifier",
+            "start": 563,
+            "end": 573,
+            "name": "completion"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 576,
+            "end": 673,
+            "callee": {
+              "type": "Identifier",
+              "start": 576,
+              "end": 580,
+              "name": "eval"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 581,
+                "end": 672,
+                "value": "for (var i = 0; i < 2; ++i) { if (i) { try {} finally { continue; } } 'bad completion'; }",
+                "raw": "\"for (var i = 0; i < 2; ++i) { if (i) { try {} finally { continue; } } 'bad completion'; }\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 675,
+      "end": 715,
+      "expression": {
+        "type": "CallExpression",
+        "start": 675,
+        "end": 714,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 675,
+          "end": 691,
+          "object": {
+            "type": "Identifier",
+            "start": 675,
+            "end": 681,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 682,
+            "end": 691,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 692,
+            "end": 702,
+            "name": "completion"
+          },
+          {
+            "type": "Identifier",
+            "start": 704,
+            "end": 713,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

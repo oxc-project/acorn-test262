@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 679,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 357,
+      "end": 431,
+      "expression": {
+        "type": "CallExpression",
+        "start": 357,
+        "end": 430,
+        "callee": {
+          "type": "Identifier",
+          "start": 357,
+          "end": 363,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 364,
+            "end": 389,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 364,
+              "end": 383,
+              "object": {
+                "type": "Identifier",
+                "start": 364,
+                "end": 370,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 371,
+                "end": 383,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 384,
+                "end": 388,
+                "name": "Intl"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 391,
+            "end": 429,
+            "value": "Built-in objects must be extensible.",
+            "raw": "\"Built-in objects must be extensible.\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 433,
+      "end": 565,
+      "expression": {
+        "type": "CallExpression",
+        "start": 433,
+        "end": 564,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 433,
+          "end": 449,
+          "object": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 439,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 440,
+            "end": 449,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 450,
+            "end": 477,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 450,
+              "end": 471,
+              "object": {
+                "type": "Identifier",
+                "start": 450,
+                "end": 456,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 457,
+                "end": 471,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 472,
+                "end": 476,
+                "name": "Intl"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 479,
+            "end": 495,
+            "object": {
+              "type": "Identifier",
+              "start": 479,
+              "end": 485,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 486,
+              "end": 495,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 514,
+            "end": 563,
+            "value": "The [[Prototype]] of Intl is %ObjectPrototype%.",
+            "raw": "\"The [[Prototype]] of Intl is %ObjectPrototype%.\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 567,
+      "end": 678,
+      "expression": {
+        "type": "CallExpression",
+        "start": 567,
+        "end": 677,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 567,
+          "end": 583,
+          "object": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 573,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 574,
+            "end": 583,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 584,
+            "end": 593,
+            "object": {
+              "type": "ThisExpression",
+              "start": 584,
+              "end": 588
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 589,
+              "end": 593,
+              "name": "Intl"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 595,
+            "end": 599,
+            "name": "Intl"
+          },
+          {
+            "type": "Literal",
+            "start": 618,
+            "end": 676,
+            "value": "%Intl% is accessible as a property of the global object.",
+            "raw": "\"%Intl% is accessible as a property of the global object.\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

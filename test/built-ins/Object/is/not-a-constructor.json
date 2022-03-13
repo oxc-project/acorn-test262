@@ -1,0 +1,194 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 893,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 692,
+      "end": 788,
+      "expression": {
+        "type": "CallExpression",
+        "start": 692,
+        "end": 787,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 692,
+          "end": 708,
+          "object": {
+            "type": "Identifier",
+            "start": 692,
+            "end": 698,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 699,
+            "end": 708,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 709,
+            "end": 733,
+            "callee": {
+              "type": "Identifier",
+              "start": 709,
+              "end": 722,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 723,
+                "end": 732,
+                "object": {
+                  "type": "Identifier",
+                  "start": 723,
+                  "end": 729,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 730,
+                  "end": 732,
+                  "name": "is"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 735,
+            "end": 740,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 742,
+            "end": 786,
+            "value": "isConstructor(Object.is) must return false",
+            "raw": "'isConstructor(Object.is) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 790,
+      "end": 891,
+      "expression": {
+        "type": "CallExpression",
+        "start": 790,
+        "end": 890,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 790,
+          "end": 803,
+          "object": {
+            "type": "Identifier",
+            "start": 790,
+            "end": 796,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 797,
+            "end": 803,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 804,
+            "end": 813,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 815,
+            "end": 847,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 821,
+              "end": 847,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 825,
+                  "end": 845,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 825,
+                    "end": 844,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 829,
+                      "end": 838,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 829,
+                        "end": 835,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 836,
+                        "end": 838,
+                        "name": "is"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 839,
+                        "end": 840,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 842,
+                        "end": 843,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 849,
+            "end": 889,
+            "value": "`new Object.is(0, 0)` throws TypeError",
+            "raw": "'`new Object.is(0, 0)` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

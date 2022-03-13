@@ -1,0 +1,194 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 803,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 565,
+      "end": 651,
+      "expression": {
+        "type": "CallExpression",
+        "start": 565,
+        "end": 650,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 565,
+          "end": 581,
+          "object": {
+            "type": "Identifier",
+            "start": 565,
+            "end": 571,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 572,
+            "end": 581,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 582,
+            "end": 606,
+            "object": {
+              "type": "Identifier",
+              "start": 582,
+              "end": 596,
+              "name": "ReferenceError"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 597,
+              "end": 606,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 608,
+            "end": 649,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 608,
+              "end": 629,
+              "object": {
+                "type": "Identifier",
+                "start": 608,
+                "end": 614,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 615,
+                "end": 629,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 630,
+                "end": 648,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 634,
+                  "end": 648,
+                  "name": "ReferenceError"
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 653,
+      "end": 702,
+      "expression": {
+        "type": "CallExpression",
+        "start": 653,
+        "end": 701,
+        "callee": {
+          "type": "Identifier",
+          "start": 653,
+          "end": 672,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 673,
+            "end": 687,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 700,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 703,
+      "end": 750,
+      "expression": {
+        "type": "CallExpression",
+        "start": 703,
+        "end": 749,
+        "callee": {
+          "type": "Identifier",
+          "start": 703,
+          "end": 720,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 721,
+            "end": 735,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "Literal",
+            "start": 737,
+            "end": 748,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 751,
+      "end": 802,
+      "expression": {
+        "type": "CallExpression",
+        "start": 751,
+        "end": 801,
+        "callee": {
+          "type": "Identifier",
+          "start": 751,
+          "end": 772,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 773,
+            "end": 787,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "Literal",
+            "start": 789,
+            "end": 800,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

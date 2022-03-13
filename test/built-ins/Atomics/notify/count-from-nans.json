@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 766,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 554,
+      "end": 643,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 560,
+          "end": 642,
+          "id": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 564,
+            "name": "i32a"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 567,
+            "end": 642,
+            "callee": {
+              "type": "Identifier",
+              "start": 571,
+              "end": 581,
+              "name": "Int32Array"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 585,
+                "end": 640,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 589,
+                  "end": 606,
+                  "name": "SharedArrayBuffer"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 607,
+                    "end": 639,
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 607,
+                      "end": 635,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 607,
+                        "end": 617,
+                        "name": "Int32Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 618,
+                        "end": 635,
+                        "name": "BYTES_PER_ELEMENT"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "operator": "*",
+                    "right": {
+                      "type": "Literal",
+                      "start": 638,
+                      "end": 639,
+                      "value": 4,
+                      "raw": "4"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 645,
+      "end": 765,
+      "expression": {
+        "type": "CallExpression",
+        "start": 645,
+        "end": 764,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 645,
+          "end": 657,
+          "object": {
+            "type": "Identifier",
+            "start": 645,
+            "end": 649,
+            "name": "NaNs"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 650,
+            "end": 657,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 658,
+            "end": 763,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 658,
+                "end": 661,
+                "name": "nan"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 665,
+              "end": 763,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 669,
+                  "end": 761,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 669,
+                    "end": 760,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 669,
+                      "end": 685,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 669,
+                        "end": 675,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 676,
+                        "end": 685,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 686,
+                        "end": 714,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 686,
+                          "end": 700,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 686,
+                            "end": 693,
+                            "name": "Atomics"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 694,
+                            "end": 700,
+                            "name": "notify"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 701,
+                            "end": 705,
+                            "name": "i32a"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 707,
+                            "end": 708,
+                            "value": 0,
+                            "raw": "0"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 710,
+                            "end": 713,
+                            "name": "nan"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 716,
+                        "end": 717,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 719,
+                        "end": 759,
+                        "value": "Atomics.notify(i32a, 0, nan) returns 0",
+                        "raw": "'Atomics.notify(i32a, 0, nan) returns 0'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,136 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 377,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 243,
+      "end": 376,
+      "expression": {
+        "type": "CallExpression",
+        "start": 243,
+        "end": 375,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 243,
+          "end": 256,
+          "object": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 256,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 257,
+            "end": 268,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 270,
+            "end": 374,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 281,
+              "end": 374,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 295,
+                  "end": 372,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 295,
+                    "end": 371,
+                    "callee": {
+                      "type": "ParenthesizedExpression",
+                      "start": 295,
+                      "end": 367,
+                      "expression": {
+                        "type": "FunctionExpression",
+                        "start": 296,
+                        "end": 366,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 305,
+                          "end": 308,
+                          "name": "fun"
+                        },
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 311,
+                          "end": 366,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 329,
+                              "end": 352,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 329,
+                                "end": 351,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 329,
+                                  "end": 333,
+                                  "name": "eval"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Literal",
+                                    "start": 334,
+                                    "end": 350,
+                                    "value": "arguments = 10",
+                                    "raw": "\"arguments = 10\""
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 368,
+                        "end": 370,
+                        "value": 30,
+                        "raw": "30"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

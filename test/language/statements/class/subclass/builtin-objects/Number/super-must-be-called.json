@@ -1,0 +1,223 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 803,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 623,
+      "end": 668,
+      "id": {
+        "type": "Identifier",
+        "start": 629,
+        "end": 630,
+        "name": "N"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 639,
+        "end": 645,
+        "name": "Number"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 646,
+        "end": 668,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 650,
+            "end": 666,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 650,
+              "end": 661,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 661,
+              "end": 666,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 664,
+                "end": 666,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 670,
+      "end": 727,
+      "expression": {
+        "type": "CallExpression",
+        "start": 670,
+        "end": 726,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 670,
+          "end": 683,
+          "object": {
+            "type": "Identifier",
+            "start": 670,
+            "end": 676,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 677,
+            "end": 683,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 684,
+            "end": 698,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 700,
+            "end": 725,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 711,
+              "end": 725,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 715,
+                  "end": 723,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 715,
+                    "end": 722,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 719,
+                      "end": 720,
+                      "name": "N"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 729,
+      "end": 791,
+      "id": {
+        "type": "Identifier",
+        "start": 735,
+        "end": 737,
+        "name": "N2"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 746,
+        "end": 752,
+        "name": "Number"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 753,
+        "end": 791,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 757,
+            "end": 789,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 757,
+              "end": 768,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 768,
+              "end": 789,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 771,
+                "end": 789,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 777,
+                    "end": 785,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 777,
+                      "end": 784,
+                      "callee": {
+                        "type": "Super",
+                        "start": 777,
+                        "end": 782
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 793,
+      "end": 802,
+      "expression": {
+        "type": "NewExpression",
+        "start": 793,
+        "end": 801,
+        "callee": {
+          "type": "Identifier",
+          "start": 797,
+          "end": 799,
+          "name": "N2"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

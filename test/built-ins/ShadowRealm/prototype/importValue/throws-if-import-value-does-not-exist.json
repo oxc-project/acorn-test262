@@ -1,0 +1,381 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2316,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1843,
+      "end": 2000,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1843,
+        "end": 1999,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1843,
+          "end": 1859,
+          "object": {
+            "type": "Identifier",
+            "start": 1843,
+            "end": 1849,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1850,
+            "end": 1859,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1863,
+            "end": 1903,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 1870,
+              "end": 1903,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1870,
+                "end": 1891,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1870,
+                  "end": 1881,
+                  "name": "ShadowRealm"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1882,
+                  "end": 1891,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1892,
+                "end": 1903,
+                "name": "importValue"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1907,
+            "end": 1917,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 1921,
+            "end": 1997,
+            "value": "This test must fail if ShadowRealm.prototype.importValue is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.importValue is not a function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2002,
+      "end": 2030,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2008,
+          "end": 2029,
+          "id": {
+            "type": "Identifier",
+            "start": 2008,
+            "end": 2009,
+            "name": "r"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2012,
+            "end": 2029,
+            "callee": {
+              "type": "Identifier",
+              "start": 2016,
+              "end": 2027,
+              "name": "ShadowRealm"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2032,
+      "end": 2315,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2032,
+        "end": 2314,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2032,
+          "end": 2300,
+          "object": {
+            "type": "CallExpression",
+            "start": 2032,
+            "end": 2292,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2032,
+              "end": 2087,
+              "object": {
+                "type": "CallExpression",
+                "start": 2032,
+                "end": 2079,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2032,
+                  "end": 2045,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2032,
+                    "end": 2033,
+                    "name": "r"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2034,
+                    "end": 2045,
+                    "name": "importValue"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2046,
+                    "end": 2073,
+                    "value": "./import-value_FIXTURE.js",
+                    "raw": "'./import-value_FIXTURE.js'"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 2075,
+                    "end": 2078,
+                    "value": "y",
+                    "raw": "'y'"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2083,
+                "end": 2087,
+                "name": "then"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 2093,
+                "end": 2158,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 2099,
+                  "end": 2158,
+                  "body": [
+                    {
+                      "type": "ThrowStatement",
+                      "start": 2107,
+                      "end": 2152,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 2113,
+                        "end": 2151,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 2117,
+                          "end": 2129,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 2130,
+                            "end": 2150,
+                            "value": "Expected rejection",
+                            "raw": "\"Expected rejection\""
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 2164,
+                "end": 2288,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 2164,
+                    "end": 2167,
+                    "name": "err"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 2171,
+                  "end": 2288,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 2179,
+                      "end": 2282,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 2179,
+                        "end": 2281,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 2179,
+                          "end": 2195,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2179,
+                            "end": 2185,
+                            "name": "assert"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2186,
+                            "end": 2195,
+                            "name": "sameValue"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "CallExpression",
+                            "start": 2196,
+                            "end": 2222,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 2196,
+                              "end": 2217,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 2196,
+                                "end": 2202,
+                                "name": "Object"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 2203,
+                                "end": 2217,
+                                "name": "getPrototypeOf"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "start": 2218,
+                                "end": 2221,
+                                "name": "err"
+                              }
+                            ],
+                            "optional": false
+                          },
+                          {
+                            "type": "MemberExpression",
+                            "start": 2224,
+                            "end": 2243,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 2224,
+                              "end": 2233,
+                              "name": "TypeError"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 2234,
+                              "end": 2243,
+                              "name": "prototype"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2245,
+                            "end": 2280,
+                            "value": "should be rejected with TypeError",
+                            "raw": "'should be rejected with TypeError'"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2296,
+            "end": 2300,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2301,
+            "end": 2306,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 2308,
+            "end": 2313,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 466,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 361,
+      "end": 395,
+      "expression": {
+        "type": "CallExpression",
+        "start": 361,
+        "end": 394,
+        "callee": {
+          "type": "Identifier",
+          "start": 361,
+          "end": 380,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 381,
+            "end": 385,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 387,
+            "end": 393,
+            "value": "LN10",
+            "raw": "'LN10'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 396,
+      "end": 428,
+      "expression": {
+        "type": "CallExpression",
+        "start": 396,
+        "end": 427,
+        "callee": {
+          "type": "Identifier",
+          "start": 396,
+          "end": 413,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 414,
+            "end": 418,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 420,
+            "end": 426,
+            "value": "LN10",
+            "raw": "'LN10'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 429,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 429,
+        "end": 464,
+        "callee": {
+          "type": "Identifier",
+          "start": 429,
+          "end": 450,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 451,
+            "end": 455,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 457,
+            "end": 463,
+            "value": "LN10",
+            "raw": "'LN10'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

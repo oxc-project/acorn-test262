@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 597,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 429,
+      "end": 486,
+      "expression": {
+        "type": "CallExpression",
+        "start": 429,
+        "end": 485,
+        "callee": {
+          "type": "Identifier",
+          "start": 429,
+          "end": 448,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 449,
+            "end": 456,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 458,
+            "end": 484,
+            "value": "getOwnPropertyDescriptor",
+            "raw": "'getOwnPropertyDescriptor'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 487,
+      "end": 539,
+      "expression": {
+        "type": "CallExpression",
+        "start": 487,
+        "end": 538,
+        "callee": {
+          "type": "Identifier",
+          "start": 487,
+          "end": 501,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 502,
+            "end": 509,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 511,
+            "end": 537,
+            "value": "getOwnPropertyDescriptor",
+            "raw": "'getOwnPropertyDescriptor'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 540,
+      "end": 596,
+      "expression": {
+        "type": "CallExpression",
+        "start": 540,
+        "end": 595,
+        "callee": {
+          "type": "Identifier",
+          "start": 540,
+          "end": 558,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 559,
+            "end": 566,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 568,
+            "end": 594,
+            "value": "getOwnPropertyDescriptor",
+            "raw": "'getOwnPropertyDescriptor'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

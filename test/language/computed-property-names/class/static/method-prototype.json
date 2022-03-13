@@ -1,0 +1,113 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 377,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 289,
+      "end": 376,
+      "expression": {
+        "type": "CallExpression",
+        "start": 289,
+        "end": 375,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 289,
+          "end": 302,
+          "object": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 295,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 296,
+            "end": 302,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 303,
+            "end": 312,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 314,
+            "end": 374,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 325,
+              "end": 374,
+              "body": [
+                {
+                  "type": "ClassDeclaration",
+                  "start": 329,
+                  "end": 372,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 335,
+                    "end": 336,
+                    "name": "C"
+                  },
+                  "superClass": null,
+                  "body": {
+                    "type": "ClassBody",
+                    "start": 337,
+                    "end": 372,
+                    "body": [
+                      {
+                        "type": "MethodDefinition",
+                        "start": 343,
+                        "end": 368,
+                        "static": true,
+                        "computed": true,
+                        "key": {
+                          "type": "Literal",
+                          "start": 351,
+                          "end": 362,
+                          "value": "prototype",
+                          "raw": "'prototype'"
+                        },
+                        "kind": "method",
+                        "value": {
+                          "type": "FunctionExpression",
+                          "start": 363,
+                          "end": 368,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 366,
+                            "end": 368,
+                            "body": []
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

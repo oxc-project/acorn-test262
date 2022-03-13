@@ -1,0 +1,145 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 469,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 284,
+      "end": 468,
+      "expression": {
+        "type": "CallExpression",
+        "start": 284,
+        "end": 467,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 284,
+          "end": 300,
+          "object": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 290,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 291,
+            "end": 300,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 304,
+            "end": 349,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 304,
+              "end": 325,
+              "object": {
+                "type": "Identifier",
+                "start": 304,
+                "end": 310,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 311,
+                "end": 325,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 326,
+                "end": 348,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 326,
+                  "end": 346,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 326,
+                    "end": 338,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 326,
+                      "end": 334,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 335,
+                      "end": 338,
+                      "name": "Now"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 339,
+                    "end": 346,
+                    "name": "instant"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 353,
+            "end": 379,
+            "object": {
+              "type": "MemberExpression",
+              "start": 353,
+              "end": 369,
+              "object": {
+                "type": "Identifier",
+                "start": 353,
+                "end": 361,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 362,
+                "end": 369,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 370,
+              "end": 379,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 383,
+            "end": 465,
+            "value": "Object.getPrototypeOf(Temporal.Now.instant()) returns Temporal.Instant.prototype",
+            "raw": "'Object.getPrototypeOf(Temporal.Now.instant()) returns Temporal.Instant.prototype'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

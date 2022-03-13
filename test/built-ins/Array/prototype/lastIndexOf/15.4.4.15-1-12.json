@@ -1,0 +1,234 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 444,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 253,
+      "end": 284,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 257,
+          "end": 283,
+          "id": {
+            "type": "Identifier",
+            "start": 257,
+            "end": 260,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 263,
+            "end": 283,
+            "callee": {
+              "type": "Identifier",
+              "start": 267,
+              "end": 273,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 274,
+                "end": 282,
+                "value": "afdasf",
+                "raw": "\"afdasf\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 285,
+      "end": 302,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 285,
+        "end": 301,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 285,
+          "end": 295,
+          "object": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 288,
+            "name": "obj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 295,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 298,
+          "end": 301,
+          "value": 100,
+          "raw": "100"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 303,
+      "end": 321,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 303,
+        "end": 320,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 303,
+          "end": 309,
+          "object": {
+            "type": "Identifier",
+            "start": 303,
+            "end": 306,
+            "name": "obj"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 307,
+            "end": 308,
+            "value": 1,
+            "raw": "1"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 312,
+          "end": 320,
+          "value": "afdasf",
+          "raw": "\"afdasf\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 442,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 323,
+          "end": 339,
+          "object": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 339,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 340,
+            "end": 387,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 340,
+              "end": 372,
+              "object": {
+                "type": "MemberExpression",
+                "start": 340,
+                "end": 367,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 340,
+                  "end": 355,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 340,
+                    "end": 345,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 346,
+                    "end": 355,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 356,
+                  "end": 367,
+                  "name": "lastIndexOf"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 372,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 373,
+                "end": 376,
+                "name": "obj"
+              },
+              {
+                "type": "Literal",
+                "start": 378,
+                "end": 386,
+                "value": "afdasf",
+                "raw": "\"afdasf\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 389,
+            "end": 390,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 392,
+            "end": 441,
+            "value": "Array.prototype.lastIndexOf.call(obj, \"afdasf\")",
+            "raw": "'Array.prototype.lastIndexOf.call(obj, \"afdasf\")'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 534,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 259,
+      "end": 319,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 259,
+        "end": 318,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 259,
+          "end": 287,
+          "object": {
+            "type": "MemberExpression",
+            "start": 259,
+            "end": 275,
+            "object": {
+              "type": "Identifier",
+              "start": 259,
+              "end": 265,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 266,
+              "end": 275,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 287,
+            "name": "toLowerCase"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 290,
+          "end": 318,
+          "object": {
+            "type": "MemberExpression",
+            "start": 290,
+            "end": 306,
+            "object": {
+              "type": "Identifier",
+              "start": 290,
+              "end": 296,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 297,
+              "end": 306,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 318,
+            "name": "toLowerCase"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 321,
+      "end": 533,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 325,
+        "end": 362,
+        "left": {
+          "type": "CallExpression",
+          "start": 325,
+          "end": 347,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 325,
+            "end": 345,
+            "object": {
+              "type": "Identifier",
+              "start": 325,
+              "end": 333,
+              "name": "Infinity"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 334,
+              "end": 345,
+              "name": "toLowerCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 352,
+          "end": 362,
+          "value": "infinity",
+          "raw": "\"infinity\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 364,
+        "end": 533,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 368,
+            "end": 531,
+            "argument": {
+              "type": "NewExpression",
+              "start": 374,
+              "end": 530,
+              "callee": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 390,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 391,
+                  "end": 529,
+                  "left": {
+                    "type": "Literal",
+                    "start": 391,
+                    "end": 504,
+                    "value": "#1: Number.prototype.toLowerCase = String.prototype.toLowerCase; Infinity.toLowerCase()=== \"infinity\". Actual: ",
+                    "raw": "'#1: Number.prototype.toLowerCase = String.prototype.toLowerCase; Infinity.toLowerCase()=== \"infinity\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 507,
+                    "end": 529,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 507,
+                      "end": 527,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 507,
+                        "end": 515,
+                        "name": "Infinity"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 516,
+                        "end": 527,
+                        "name": "toLowerCase"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

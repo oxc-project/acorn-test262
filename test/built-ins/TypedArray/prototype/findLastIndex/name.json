@@ -1,0 +1,223 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1036,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 833,
+      "end": 908,
+      "expression": {
+        "type": "CallExpression",
+        "start": 833,
+        "end": 907,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 833,
+          "end": 849,
+          "object": {
+            "type": "Identifier",
+            "start": 833,
+            "end": 839,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 840,
+            "end": 849,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 850,
+            "end": 889,
+            "object": {
+              "type": "MemberExpression",
+              "start": 850,
+              "end": 884,
+              "object": {
+                "type": "MemberExpression",
+                "start": 850,
+                "end": 870,
+                "object": {
+                  "type": "Identifier",
+                  "start": 850,
+                  "end": 860,
+                  "name": "TypedArray"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 861,
+                  "end": 870,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 871,
+                "end": 884,
+                "name": "findLastIndex"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 885,
+              "end": 889,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 891,
+            "end": 906,
+            "value": "findLastIndex",
+            "raw": "\"findLastIndex\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 910,
+      "end": 1035,
+      "expression": {
+        "type": "CallExpression",
+        "start": 910,
+        "end": 1034,
+        "callee": {
+          "type": "Identifier",
+          "start": 910,
+          "end": 924,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 925,
+            "end": 959,
+            "object": {
+              "type": "MemberExpression",
+              "start": 925,
+              "end": 945,
+              "object": {
+                "type": "Identifier",
+                "start": 925,
+                "end": 935,
+                "name": "TypedArray"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 936,
+                "end": 945,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 946,
+              "end": 959,
+              "name": "findLastIndex"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 961,
+            "end": 967,
+            "value": "name",
+            "raw": "\"name\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 969,
+            "end": 1033,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 973,
+                "end": 990,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 973,
+                  "end": 983,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 985,
+                  "end": 990,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 994,
+                "end": 1009,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 994,
+                  "end": 1002,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1004,
+                  "end": 1009,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1013,
+                "end": 1031,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1013,
+                  "end": 1025,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1027,
+                  "end": 1031,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

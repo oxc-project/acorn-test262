@@ -1,0 +1,174 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 552,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 372,
+      "end": 450,
+      "expression": {
+        "type": "CallExpression",
+        "start": 372,
+        "end": 449,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 372,
+          "end": 388,
+          "object": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 378,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 388,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 389,
+            "end": 404,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 389,
+              "end": 398,
+              "object": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 395,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 396,
+                "end": 398,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 399,
+                "end": 403,
+                "value": null,
+                "raw": "null"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 406,
+            "end": 411,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 413,
+            "end": 448,
+            "value": "`Object.is(null)` returns `false`",
+            "raw": "\"`Object.is(null)` returns `false`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 451,
+      "end": 551,
+      "expression": {
+        "type": "CallExpression",
+        "start": 451,
+        "end": 550,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 451,
+          "end": 467,
+          "object": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 457,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 467,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 468,
+            "end": 494,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 468,
+              "end": 477,
+              "object": {
+                "type": "Identifier",
+                "start": 468,
+                "end": 474,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 475,
+                "end": 477,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 478,
+                "end": 482,
+                "value": null,
+                "raw": "null"
+              },
+              {
+                "type": "Identifier",
+                "start": 484,
+                "end": 493,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 496,
+            "end": 501,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 503,
+            "end": 549,
+            "value": "`Object.is(null, undefined)` returns `false`",
+            "raw": "\"`Object.is(null, undefined)` returns `false`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

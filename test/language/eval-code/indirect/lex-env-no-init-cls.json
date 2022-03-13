@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 847,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 764,
+      "end": 846,
+      "expression": {
+        "type": "CallExpression",
+        "start": 764,
+        "end": 845,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 764,
+          "end": 777,
+          "object": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 770,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 771,
+            "end": 777,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 778,
+            "end": 792,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 794,
+            "end": 844,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 805,
+              "end": 844,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 809,
+                  "end": 842,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 809,
+                    "end": 841,
+                    "callee": {
+                      "type": "ParenthesizedExpression",
+                      "start": 809,
+                      "end": 817,
+                      "expression": {
+                        "type": "SequenceExpression",
+                        "start": 810,
+                        "end": 816,
+                        "expressions": [
+                          {
+                            "type": "Literal",
+                            "start": 810,
+                            "end": 811,
+                            "value": 0,
+                            "raw": "0"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 812,
+                            "end": 816,
+                            "name": "eval"
+                          }
+                        ]
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 818,
+                        "end": 840,
+                        "value": "typeof C; class C {}",
+                        "raw": "'typeof C; class C {}'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

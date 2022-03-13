@@ -1,0 +1,122 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 364,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 288,
+      "end": 304,
+      "id": {
+        "type": "Identifier",
+        "start": 297,
+        "end": 299,
+        "name": "cb"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 302,
+        "end": 304,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 305,
+      "end": 363,
+      "expression": {
+        "type": "CallExpression",
+        "start": 305,
+        "end": 362,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 305,
+          "end": 318,
+          "object": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 311,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 312,
+            "end": 318,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 319,
+            "end": 328,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 330,
+            "end": 361,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 341,
+              "end": 361,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 345,
+                  "end": 359,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 345,
+                    "end": 358,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 345,
+                      "end": 354,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 345,
+                        "end": 347,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 348,
+                        "end": 354,
+                        "name": "reduce"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 355,
+                        "end": 357,
+                        "name": "cb"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

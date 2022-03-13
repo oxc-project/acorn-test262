@@ -1,0 +1,38 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 469,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 444,
+      "end": 458,
+      "test": {
+        "type": "Literal",
+        "start": 448,
+        "end": 453,
+        "value": false,
+        "raw": "false"
+      },
+      "consequent": {
+        "type": "ExpressionStatement",
+        "start": 455,
+        "end": 458,
+        "expression": {
+          "type": "Identifier",
+          "start": 455,
+          "end": 458,
+          "name": "let"
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "BlockStatement",
+      "start": 466,
+      "end": 468,
+      "body": []
+    }
+  ],
+  "sourceType": "script"
+}

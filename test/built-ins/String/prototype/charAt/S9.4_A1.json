@@ -1,0 +1,296 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 627,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 342,
+      "end": 488,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 346,
+        "end": 378,
+        "left": {
+          "type": "CallExpression",
+          "start": 346,
+          "end": 370,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 346,
+            "end": 358,
+            "object": {
+              "type": "Literal",
+              "start": 346,
+              "end": 351,
+              "value": "abc",
+              "raw": "\"abc\""
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 352,
+              "end": 358,
+              "name": "charAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "MemberExpression",
+              "start": 359,
+              "end": 369,
+              "object": {
+                "type": "Identifier",
+                "start": 359,
+                "end": 365,
+                "name": "Number"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 366,
+                "end": 369,
+                "name": "NaN"
+              },
+              "computed": false,
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 375,
+          "end": 378,
+          "value": "a",
+          "raw": "\"a\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 380,
+        "end": 488,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 384,
+            "end": 486,
+            "argument": {
+              "type": "NewExpression",
+              "start": 390,
+              "end": 485,
+              "callee": {
+                "type": "Identifier",
+                "start": 394,
+                "end": 406,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 407,
+                  "end": 484,
+                  "left": {
+                    "type": "Literal",
+                    "start": 407,
+                    "end": 455,
+                    "value": "#1: \"abc\".charAt(Number.NaN) === \"a\". Actual: ",
+                    "raw": "'#1: \"abc\".charAt(Number.NaN) === \"a\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 458,
+                    "end": 484,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 459,
+                      "end": 483,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 459,
+                        "end": 471,
+                        "object": {
+                          "type": "Literal",
+                          "start": 459,
+                          "end": 464,
+                          "value": "abc",
+                          "raw": "\"abc\""
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 465,
+                          "end": 471,
+                          "name": "charAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "MemberExpression",
+                          "start": 472,
+                          "end": 482,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 472,
+                            "end": 478,
+                            "name": "Number"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 479,
+                            "end": 482,
+                            "name": "NaN"
+                          },
+                          "computed": false,
+                          "optional": false
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 501,
+      "end": 626,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 505,
+        "end": 530,
+        "left": {
+          "type": "CallExpression",
+          "start": 505,
+          "end": 522,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 505,
+            "end": 517,
+            "object": {
+              "type": "Literal",
+              "start": 505,
+              "end": 510,
+              "value": "abc",
+              "raw": "\"abc\""
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 511,
+              "end": 517,
+              "name": "charAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 518,
+              "end": 521,
+              "value": "x",
+              "raw": "\"x\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 527,
+          "end": 530,
+          "value": "a",
+          "raw": "\"a\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 532,
+        "end": 626,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 536,
+            "end": 624,
+            "argument": {
+              "type": "NewExpression",
+              "start": 542,
+              "end": 623,
+              "callee": {
+                "type": "Identifier",
+                "start": 546,
+                "end": 558,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 559,
+                  "end": 622,
+                  "left": {
+                    "type": "Literal",
+                    "start": 559,
+                    "end": 600,
+                    "value": "#2: \"abc\".charAt(\"x\") === \"a\". Actual: ",
+                    "raw": "'#2: \"abc\".charAt(\"x\") === \"a\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 603,
+                    "end": 622,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 604,
+                      "end": 621,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 604,
+                        "end": 616,
+                        "object": {
+                          "type": "Literal",
+                          "start": 604,
+                          "end": 609,
+                          "value": "abc",
+                          "raw": "\"abc\""
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 610,
+                          "end": 616,
+                          "name": "charAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 617,
+                          "end": 620,
+                          "value": "x",
+                          "raw": "\"x\""
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

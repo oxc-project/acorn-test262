@@ -1,0 +1,62 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 552,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 518,
+      "end": 551,
+      "block": {
+        "type": "BlockStatement",
+        "start": 522,
+        "end": 538,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 526,
+            "end": 536,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 526,
+              "end": 535,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 526,
+                "end": 531,
+                "name": "yield"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 534,
+                "end": 535,
+                "value": 0,
+                "raw": "0"
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 539,
+        "end": 551,
+        "param": {
+          "type": "Identifier",
+          "start": 546,
+          "end": 547,
+          "name": "_"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 549,
+          "end": 551,
+          "body": []
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,141 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 986,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 840,
+      "end": 868,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 844,
+          "end": 867,
+          "id": {
+            "type": "Identifier",
+            "start": 844,
+            "end": 846,
+            "name": "ab"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 849,
+            "end": 867,
+            "callee": {
+              "type": "Identifier",
+              "start": 853,
+              "end": 864,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 865,
+                "end": 866,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 870,
+      "end": 985,
+      "expression": {
+        "type": "CallExpression",
+        "start": 870,
+        "end": 984,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 870,
+          "end": 883,
+          "object": {
+            "type": "Identifier",
+            "start": 870,
+            "end": 876,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 877,
+            "end": 883,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 884,
+            "end": 894,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 896,
+            "end": 983,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 907,
+              "end": 983,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 951,
+                  "end": 981,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 951,
+                    "end": 980,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 951,
+                      "end": 962,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 951,
+                        "end": 953,
+                        "name": "ab"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 954,
+                        "end": 962,
+                        "name": "transfer"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 963,
+                        "end": 979,
+                        "value": 9007199254740992,
+                        "raw": "9007199254740992"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

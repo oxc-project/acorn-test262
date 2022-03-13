@@ -1,0 +1,112 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 315,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 248,
+      "end": 280,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 252,
+          "end": 279,
+          "id": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 253,
+            "name": "b"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 256,
+            "end": 279,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 256,
+              "end": 271,
+              "object": {
+                "type": "Identifier",
+                "start": 256,
+                "end": 262,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 263,
+                "end": 271,
+                "name": "isSealed"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 272,
+                "end": 278,
+                "name": "Number"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 282,
+      "end": 314,
+      "expression": {
+        "type": "CallExpression",
+        "start": 282,
+        "end": 313,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 282,
+          "end": 298,
+          "object": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 288,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 298,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 299,
+            "end": 300,
+            "name": "b"
+          },
+          {
+            "type": "Literal",
+            "start": 302,
+            "end": 307,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 309,
+            "end": 312,
+            "value": "b",
+            "raw": "'b'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

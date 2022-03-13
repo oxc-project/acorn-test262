@@ -1,0 +1,263 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 797,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 531,
+      "end": 606,
+      "expression": {
+        "type": "CallExpression",
+        "start": 531,
+        "end": 605,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 531,
+          "end": 547,
+          "object": {
+            "type": "Identifier",
+            "start": 531,
+            "end": 537,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 538,
+            "end": 547,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 548,
+            "end": 589,
+            "object": {
+              "type": "MemberExpression",
+              "start": 548,
+              "end": 569,
+              "object": {
+                "type": "Identifier",
+                "start": 548,
+                "end": 559,
+                "name": "ArrayBuffer"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 560,
+                "end": 569,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 570,
+              "end": 588,
+              "object": {
+                "type": "Identifier",
+                "start": 570,
+                "end": 576,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 577,
+                "end": 588,
+                "name": "toStringTag"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 591,
+            "end": 604,
+            "value": "ArrayBuffer",
+            "raw": "'ArrayBuffer'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 608,
+      "end": 671,
+      "expression": {
+        "type": "CallExpression",
+        "start": 608,
+        "end": 670,
+        "callee": {
+          "type": "Identifier",
+          "start": 608,
+          "end": 627,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 628,
+            "end": 649,
+            "object": {
+              "type": "Identifier",
+              "start": 628,
+              "end": 639,
+              "name": "ArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 640,
+              "end": 649,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 651,
+            "end": 669,
+            "object": {
+              "type": "Identifier",
+              "start": 651,
+              "end": 657,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 658,
+              "end": 669,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 672,
+      "end": 733,
+      "expression": {
+        "type": "CallExpression",
+        "start": 672,
+        "end": 732,
+        "callee": {
+          "type": "Identifier",
+          "start": 672,
+          "end": 689,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 690,
+            "end": 711,
+            "object": {
+              "type": "Identifier",
+              "start": 690,
+              "end": 701,
+              "name": "ArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 702,
+              "end": 711,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 713,
+            "end": 731,
+            "object": {
+              "type": "Identifier",
+              "start": 713,
+              "end": 719,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 720,
+              "end": 731,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 734,
+      "end": 796,
+      "expression": {
+        "type": "CallExpression",
+        "start": 734,
+        "end": 795,
+        "callee": {
+          "type": "Identifier",
+          "start": 734,
+          "end": 752,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 753,
+            "end": 774,
+            "object": {
+              "type": "Identifier",
+              "start": 753,
+              "end": 764,
+              "name": "ArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 765,
+              "end": 774,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 776,
+            "end": 794,
+            "object": {
+              "type": "Identifier",
+              "start": 776,
+              "end": 782,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 783,
+              "end": 794,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

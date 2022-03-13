@@ -1,0 +1,222 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 870,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 661,
+      "end": 722,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 667,
+          "end": 721,
+          "id": {
+            "type": "Identifier",
+            "start": 667,
+            "end": 671,
+            "name": "time"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 674,
+            "end": 721,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 678,
+              "end": 696,
+              "object": {
+                "type": "Identifier",
+                "start": 678,
+                "end": 686,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 687,
+                "end": 696,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 697,
+                "end": 699,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 701,
+                "end": 703,
+                "value": 34,
+                "raw": "34"
+              },
+              {
+                "type": "Literal",
+                "start": 705,
+                "end": 707,
+                "value": 56,
+                "raw": "56"
+              },
+              {
+                "type": "Literal",
+                "start": 709,
+                "end": 712,
+                "value": 987,
+                "raw": "987"
+              },
+              {
+                "type": "Literal",
+                "start": 714,
+                "end": 717,
+                "value": 650,
+                "raw": "650"
+              },
+              {
+                "type": "Literal",
+                "start": 719,
+                "end": 720,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 724,
+      "end": 786,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 730,
+          "end": 785,
+          "id": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 736,
+            "name": "string"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 739,
+            "end": 785,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 739,
+              "end": 752,
+              "object": {
+                "type": "Identifier",
+                "start": 739,
+                "end": 743,
+                "name": "time"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 744,
+                "end": 752,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 753,
+                "end": 784,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 755,
+                    "end": 782,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 755,
+                      "end": 777,
+                      "name": "fractionalSecondDigits"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 779,
+                      "end": 782,
+                      "value": 2.5,
+                      "raw": "2.5"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 787,
+      "end": 869,
+      "expression": {
+        "type": "CallExpression",
+        "start": 787,
+        "end": 868,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 787,
+          "end": 803,
+          "object": {
+            "type": "Identifier",
+            "start": 787,
+            "end": 793,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 794,
+            "end": 803,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 804,
+            "end": 810,
+            "name": "string"
+          },
+          {
+            "type": "Literal",
+            "start": 812,
+            "end": 825,
+            "value": "12:34:56.98",
+            "raw": "\"12:34:56.98\""
+          },
+          {
+            "type": "Literal",
+            "start": 827,
+            "end": 867,
+            "value": "fractionalSecondDigits 2.5 floors to 2",
+            "raw": "\"fractionalSecondDigits 2.5 floors to 2\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

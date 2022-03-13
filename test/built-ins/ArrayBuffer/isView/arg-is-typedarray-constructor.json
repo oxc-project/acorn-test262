@@ -1,0 +1,123 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 585,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 480,
+      "end": 584,
+      "expression": {
+        "type": "CallExpression",
+        "start": 480,
+        "end": 583,
+        "callee": {
+          "type": "Identifier",
+          "start": 480,
+          "end": 510,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 511,
+            "end": 582,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 520,
+                "end": 524,
+                "name": "ctor"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 526,
+              "end": 582,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 530,
+                  "end": 580,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 530,
+                    "end": 579,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 530,
+                      "end": 546,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 530,
+                        "end": 536,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 537,
+                        "end": 546,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 547,
+                        "end": 571,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 547,
+                          "end": 565,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 547,
+                            "end": 558,
+                            "name": "ArrayBuffer"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 559,
+                            "end": 565,
+                            "name": "isView"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 566,
+                            "end": 570,
+                            "name": "ctor"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 573,
+                        "end": 578,
+                        "value": false,
+                        "raw": "false"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,210 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 467,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 249,
+      "end": 272,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 253,
+          "end": 271,
+          "id": {
+            "type": "Identifier",
+            "start": 253,
+            "end": 257,
+            "name": "symA"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 260,
+            "end": 271,
+            "callee": {
+              "type": "Identifier",
+              "start": 260,
+              "end": 266,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 267,
+                "end": 270,
+                "value": "A",
+                "raw": "'A'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 273,
+      "end": 293,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 277,
+          "end": 292,
+          "id": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 281,
+            "name": "symB"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 284,
+            "end": 292,
+            "callee": {
+              "type": "Identifier",
+              "start": 284,
+              "end": 290,
+              "name": "Symbol"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 295,
+      "end": 380,
+      "expression": {
+        "type": "CallExpression",
+        "start": 295,
+        "end": 379,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 295,
+          "end": 314,
+          "object": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 301,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 314,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 315,
+            "end": 327,
+            "callee": {
+              "type": "Identifier",
+              "start": 315,
+              "end": 321,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 322,
+                "end": 326,
+                "name": "symA"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 329,
+            "end": 333,
+            "name": "symA"
+          },
+          {
+            "type": "Literal",
+            "start": 335,
+            "end": 378,
+            "value": "The value of `Object(symA)` is not `symA`",
+            "raw": "\"The value of `Object(symA)` is not `symA`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 381,
+      "end": 466,
+      "expression": {
+        "type": "CallExpression",
+        "start": 381,
+        "end": 465,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 381,
+          "end": 400,
+          "object": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 387,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 400,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 401,
+            "end": 413,
+            "callee": {
+              "type": "Identifier",
+              "start": 401,
+              "end": 407,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 408,
+                "end": 412,
+                "name": "symB"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 415,
+            "end": 419,
+            "name": "symB"
+          },
+          {
+            "type": "Literal",
+            "start": 421,
+            "end": 464,
+            "value": "The value of `Object(symB)` is not `symB`",
+            "raw": "\"The value of `Object(symB)` is not `symB`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

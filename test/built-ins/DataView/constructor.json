@@ -1,0 +1,67 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 415,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 331,
+      "end": 414,
+      "expression": {
+        "type": "CallExpression",
+        "start": 331,
+        "end": 413,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 331,
+          "end": 347,
+          "object": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 337,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 347,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 348,
+            "end": 363,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 355,
+              "end": 363,
+              "name": "DataView"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 365,
+            "end": 375,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 377,
+            "end": 412,
+            "value": "`typeof DataView` is `'function'`",
+            "raw": "\"`typeof DataView` is `'function'`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

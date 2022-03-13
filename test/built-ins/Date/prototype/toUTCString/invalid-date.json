@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 406,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 343,
+      "end": 405,
+      "expression": {
+        "type": "CallExpression",
+        "start": 343,
+        "end": 404,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 343,
+          "end": 359,
+          "object": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 349,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 359,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 360,
+            "end": 387,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 360,
+              "end": 385,
+              "object": {
+                "type": "NewExpression",
+                "start": 360,
+                "end": 373,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 364,
+                  "end": 368,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 369,
+                    "end": 372,
+                    "name": "NaN"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 374,
+                "end": 385,
+                "name": "toUTCString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 389,
+            "end": 403,
+            "value": "Invalid Date",
+            "raw": "\"Invalid Date\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

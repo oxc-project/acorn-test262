@@ -1,0 +1,174 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 454,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 327,
+      "end": 359,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 331,
+          "end": 358,
+          "id": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 337,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 340,
+            "end": 358,
+            "callee": {
+              "type": "Identifier",
+              "start": 344,
+              "end": 355,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 356,
+                "end": 357,
+                "value": 8,
+                "raw": "8"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 360,
+      "end": 397,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 364,
+          "end": 396,
+          "id": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 370,
+            "name": "sample"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 373,
+            "end": 396,
+            "callee": {
+              "type": "Identifier",
+              "start": 377,
+              "end": 385,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 386,
+                "end": 392,
+                "name": "buffer"
+              },
+              {
+                "type": "Literal",
+                "start": 394,
+                "end": 395,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 399,
+      "end": 453,
+      "expression": {
+        "type": "CallExpression",
+        "start": 399,
+        "end": 452,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 399,
+          "end": 412,
+          "object": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 405,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 406,
+            "end": 412,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 413,
+            "end": 422,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 424,
+            "end": 451,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 430,
+              "end": 451,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 430,
+                "end": 448,
+                "object": {
+                  "type": "Identifier",
+                  "start": 430,
+                  "end": 436,
+                  "name": "sample"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 437,
+                  "end": 448,
+                  "name": "setBigInt64"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 449,
+                  "end": 450,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

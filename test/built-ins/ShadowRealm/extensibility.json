@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 481,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 423,
+      "end": 480,
+      "expression": {
+        "type": "CallExpression",
+        "start": 423,
+        "end": 479,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 423,
+          "end": 439,
+          "object": {
+            "type": "Identifier",
+            "start": 423,
+            "end": 429,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 430,
+            "end": 439,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 440,
+            "end": 472,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 440,
+              "end": 459,
+              "object": {
+                "type": "Identifier",
+                "start": 440,
+                "end": 446,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 447,
+                "end": 459,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 460,
+                "end": 471,
+                "name": "ShadowRealm"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 474,
+            "end": 478,
+            "value": true,
+            "raw": "true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

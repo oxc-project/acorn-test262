@@ -1,0 +1,244 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 631,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 314,
+      "end": 398,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 320,
+          "end": 397,
+          "id": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 334,
+            "name": "invalidStrings"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 337,
+            "end": 397,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 341,
+                "end": 363,
+                "value": "2019-10-01T09:00:00Z",
+                "raw": "\"2019-10-01T09:00:00Z\""
+              },
+              {
+                "type": "Literal",
+                "start": 367,
+                "end": 394,
+                "value": "2019-10-01T09:00:00Z[UTC]",
+                "raw": "\"2019-10-01T09:00:00Z[UTC]\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 399,
+      "end": 449,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 405,
+          "end": 448,
+          "id": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 413,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 416,
+            "end": 448,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 420,
+              "end": 437,
+              "object": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 428,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 429,
+                "end": 437,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 438,
+                "end": 447,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 450,
+      "end": 630,
+      "expression": {
+        "type": "CallExpression",
+        "start": 450,
+        "end": 629,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 450,
+          "end": 472,
+          "object": {
+            "type": "Identifier",
+            "start": 450,
+            "end": 464,
+            "name": "invalidStrings"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 472,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 473,
+            "end": 628,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 474,
+                "end": 477,
+                "name": "arg"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 482,
+              "end": 628,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 486,
+                  "end": 626,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 486,
+                    "end": 625,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 486,
+                      "end": 499,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 486,
+                        "end": 492,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 493,
+                        "end": 499,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 505,
+                        "end": 515,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 521,
+                        "end": 552,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 527,
+                          "end": 552,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 527,
+                            "end": 547,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 527,
+                              "end": 535,
+                              "name": "instance"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 536,
+                              "end": 547,
+                              "name": "daysInMonth"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 548,
+                              "end": 551,
+                              "name": "arg"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 558,
+                        "end": 621,
+                        "value": "String with UTC designator should not be valid as a PlainDate",
+                        "raw": "\"String with UTC designator should not be valid as a PlainDate\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

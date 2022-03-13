@@ -1,0 +1,208 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 945,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 716,
+      "end": 820,
+      "expression": {
+        "type": "CallExpression",
+        "start": 716,
+        "end": 819,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 716,
+          "end": 732,
+          "object": {
+            "type": "Identifier",
+            "start": 716,
+            "end": 722,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 723,
+            "end": 732,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 733,
+            "end": 761,
+            "callee": {
+              "type": "Identifier",
+              "start": 733,
+              "end": 746,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 747,
+                "end": 760,
+                "object": {
+                  "type": "Identifier",
+                  "start": 747,
+                  "end": 757,
+                  "name": "TypedArray"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 758,
+                  "end": 760,
+                  "name": "of"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 763,
+            "end": 768,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 770,
+            "end": 818,
+            "value": "isConstructor(TypedArray.of) must return false",
+            "raw": "'isConstructor(TypedArray.of) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 822,
+      "end": 943,
+      "expression": {
+        "type": "CallExpression",
+        "start": 822,
+        "end": 942,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 822,
+          "end": 835,
+          "object": {
+            "type": "Identifier",
+            "start": 822,
+            "end": 828,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 829,
+            "end": 835,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 836,
+            "end": 845,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 847,
+            "end": 889,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 853,
+              "end": 889,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 857,
+                  "end": 887,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 857,
+                    "end": 886,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 861,
+                      "end": 874,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 861,
+                        "end": 871,
+                        "name": "TypedArray"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 872,
+                        "end": 874,
+                        "name": "of"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 875,
+                        "end": 876,
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 878,
+                        "end": 879,
+                        "value": 2,
+                        "raw": "2"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 881,
+                        "end": 882,
+                        "value": 3,
+                        "raw": "3"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 884,
+                        "end": 885,
+                        "value": 4,
+                        "raw": "4"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 891,
+            "end": 941,
+            "value": "`new TypedArray.of(1, 2, 3, 4)` throws TypeError",
+            "raw": "'`new TypedArray.of(1, 2, 3, 4)` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

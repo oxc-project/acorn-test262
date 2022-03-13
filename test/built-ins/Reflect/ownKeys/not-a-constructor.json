@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 917,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 696,
+      "end": 804,
+      "expression": {
+        "type": "CallExpression",
+        "start": 696,
+        "end": 803,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 696,
+          "end": 712,
+          "object": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 702,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 712,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 713,
+            "end": 743,
+            "callee": {
+              "type": "Identifier",
+              "start": 713,
+              "end": 726,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 727,
+                "end": 742,
+                "object": {
+                  "type": "Identifier",
+                  "start": 727,
+                  "end": 734,
+                  "name": "Reflect"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 735,
+                  "end": 742,
+                  "name": "ownKeys"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 745,
+            "end": 750,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 752,
+            "end": 802,
+            "value": "isConstructor(Reflect.ownKeys) must return false",
+            "raw": "'isConstructor(Reflect.ownKeys) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 806,
+      "end": 915,
+      "expression": {
+        "type": "CallExpression",
+        "start": 806,
+        "end": 914,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 806,
+          "end": 819,
+          "object": {
+            "type": "Identifier",
+            "start": 806,
+            "end": 812,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 813,
+            "end": 819,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 820,
+            "end": 829,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 831,
+            "end": 867,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 837,
+              "end": 867,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 841,
+                  "end": 865,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 841,
+                    "end": 864,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 845,
+                      "end": 860,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 845,
+                        "end": 852,
+                        "name": "Reflect"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 853,
+                        "end": 860,
+                        "name": "ownKeys"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 861,
+                        "end": 863,
+                        "properties": []
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 869,
+            "end": 913,
+            "value": "`new Reflect.ownKeys({})` throws TypeError",
+            "raw": "'`new Reflect.ownKeys({})` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

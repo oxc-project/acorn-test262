@@ -1,0 +1,244 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 791,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 315,
+      "end": 328,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 319,
+          "end": 327,
+          "id": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 322,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 325,
+            "end": 327,
+            "value": "",
+            "raw": "''"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 329,
+      "end": 463,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 333,
+        "end": 357,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 333,
+          "end": 344,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 339,
+            "end": 344,
+            "expression": {
+              "type": "Identifier",
+              "start": 340,
+              "end": 343,
+              "name": "str"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 349,
+          "end": 357,
+          "value": "string",
+          "raw": "'string'"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 358,
+        "end": 463,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 362,
+            "end": 461,
+            "argument": {
+              "type": "NewExpression",
+              "start": 368,
+              "end": 460,
+              "callee": {
+                "type": "Identifier",
+                "start": 372,
+                "end": 384,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 385,
+                  "end": 459,
+                  "left": {
+                    "type": "Literal",
+                    "start": 385,
+                    "end": 443,
+                    "value": "#1: var str = ''; typeof(str) === 'string'. Actual: ",
+                    "raw": "'#1: var str = \\'\\'; typeof(str) === \\'string\\'. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 446,
+                    "end": 459,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 447,
+                      "end": 458,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "ParenthesizedExpression",
+                        "start": 453,
+                        "end": 458,
+                        "expression": {
+                          "type": "Identifier",
+                          "start": 454,
+                          "end": 457,
+                          "name": "str"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 594,
+      "end": 607,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 598,
+          "end": 606,
+          "id": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 601,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 604,
+            "end": 606,
+            "value": "",
+            "raw": "\"\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 608,
+      "end": 730,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 612,
+        "end": 636,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 612,
+          "end": 623,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 618,
+            "end": 623,
+            "expression": {
+              "type": "Identifier",
+              "start": 619,
+              "end": 622,
+              "name": "str"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 628,
+          "end": 636,
+          "value": "string",
+          "raw": "\"string\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 637,
+        "end": 730,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 641,
+            "end": 728,
+            "argument": {
+              "type": "NewExpression",
+              "start": 647,
+              "end": 727,
+              "callee": {
+                "type": "Identifier",
+                "start": 651,
+                "end": 663,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 664,
+                  "end": 726,
+                  "left": {
+                    "type": "Literal",
+                    "start": 664,
+                    "end": 718,
+                    "value": "#2: var str = \"\"; typeof(str) === \"string\". Actual: ",
+                    "raw": "'#2: var str = \"\"; typeof(str) === \"string\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 721,
+                    "end": 726,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 722,
+                      "end": 725,
+                      "name": "str"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

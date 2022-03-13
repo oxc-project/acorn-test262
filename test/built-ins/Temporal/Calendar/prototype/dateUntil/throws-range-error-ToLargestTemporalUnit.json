@@ -1,0 +1,290 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 877,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 519,
+      "end": 562,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 523,
+          "end": 561,
+          "id": {
+            "type": "Identifier",
+            "start": 523,
+            "end": 526,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 529,
+            "end": 561,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 533,
+              "end": 550,
+              "object": {
+                "type": "Identifier",
+                "start": 533,
+                "end": 541,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 542,
+                "end": 550,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 551,
+                "end": 560,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 564,
+      "end": 876,
+      "expression": {
+        "type": "CallExpression",
+        "start": 564,
+        "end": 875,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 564,
+          "end": 659,
+          "object": {
+            "type": "ArrayExpression",
+            "start": 564,
+            "end": 651,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 565,
+                "end": 574,
+                "value": "invalid",
+                "raw": "\"invalid\""
+              },
+              {
+                "type": "Literal",
+                "start": 576,
+                "end": 582,
+                "value": "hour",
+                "raw": "\"hour\""
+              },
+              {
+                "type": "Literal",
+                "start": 584,
+                "end": 592,
+                "value": "minute",
+                "raw": "\"minute\""
+              },
+              {
+                "type": "Literal",
+                "start": 594,
+                "end": 602,
+                "value": "second",
+                "raw": "\"second\""
+              },
+              {
+                "type": "Literal",
+                "start": 604,
+                "end": 617,
+                "value": "millisecond",
+                "raw": "\"millisecond\""
+              },
+              {
+                "type": "Literal",
+                "start": 619,
+                "end": 632,
+                "value": "microsecond",
+                "raw": "\"microsecond\""
+              },
+              {
+                "type": "Literal",
+                "start": 638,
+                "end": 650,
+                "value": "nanosecond",
+                "raw": "\"nanosecond\""
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 652,
+            "end": 659,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 660,
+            "end": 874,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 669,
+                "end": 680,
+                "name": "largestUnit"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 682,
+              "end": 874,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 686,
+                  "end": 872,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 686,
+                    "end": 871,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 686,
+                      "end": 699,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 686,
+                        "end": 692,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 693,
+                        "end": 699,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 700,
+                        "end": 710,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "ArrowFunctionExpression",
+                        "start": 712,
+                        "end": 774,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "CallExpression",
+                          "start": 718,
+                          "end": 774,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 718,
+                            "end": 731,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 718,
+                              "end": 721,
+                              "name": "cal"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 722,
+                              "end": 731,
+                              "name": "dateUntil"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 732,
+                              "end": 744,
+                              "value": "2021-07-16",
+                              "raw": "\"2021-07-16\""
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 746,
+                              "end": 758,
+                              "value": "2022-03-04",
+                              "raw": "\"2022-03-04\""
+                            },
+                            {
+                              "type": "ObjectExpression",
+                              "start": 760,
+                              "end": 773,
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "start": 761,
+                                  "end": 772,
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 761,
+                                    "end": 772,
+                                    "name": "largestUnit"
+                                  },
+                                  "kind": "init",
+                                  "value": {
+                                    "type": "Identifier",
+                                    "start": 761,
+                                    "end": 772,
+                                    "name": "largestUnit"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 782,
+                        "end": 870,
+                        "value": "cal.dateUntil(\"2021-07-16\", \"2022-03-04\", {largestUnit}) throws a RangeError exception",
+                        "raw": "'cal.dateUntil(\"2021-07-16\", \"2022-03-04\", {largestUnit}) throws a RangeError exception'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

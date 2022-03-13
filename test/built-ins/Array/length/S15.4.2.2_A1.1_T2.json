@@ -1,0 +1,194 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 606,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 435,
+      "end": 488,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 435,
+        "end": 487,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 435,
+          "end": 459,
+          "object": {
+            "type": "MemberExpression",
+            "start": 435,
+            "end": 450,
+            "object": {
+              "type": "Identifier",
+              "start": 435,
+              "end": 440,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 441,
+              "end": 450,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 459,
+            "name": "toString"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 462,
+          "end": 487,
+          "object": {
+            "type": "MemberExpression",
+            "start": 462,
+            "end": 478,
+            "object": {
+              "type": "Identifier",
+              "start": 462,
+              "end": 468,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 469,
+              "end": 478,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 487,
+            "name": "toString"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 489,
+      "end": 510,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 493,
+          "end": 509,
+          "id": {
+            "type": "Identifier",
+            "start": 493,
+            "end": 494,
+            "name": "x"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 497,
+            "end": 509,
+            "callee": {
+              "type": "Identifier",
+              "start": 501,
+              "end": 506,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 507,
+                "end": 508,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 511,
+      "end": 605,
+      "expression": {
+        "type": "CallExpression",
+        "start": 511,
+        "end": 604,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 511,
+          "end": 527,
+          "object": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 517,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 518,
+            "end": 527,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 528,
+            "end": 540,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 528,
+              "end": 538,
+              "object": {
+                "type": "Identifier",
+                "start": 528,
+                "end": 529,
+                "name": "x"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 530,
+                "end": 538,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 542,
+            "end": 558,
+            "value": "[object Array]",
+            "raw": "\"[object Array]\""
+          },
+          {
+            "type": "Literal",
+            "start": 560,
+            "end": 603,
+            "value": "x.toString() must return \"[object Array]\"",
+            "raw": "'x.toString() must return \"[object Array]\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

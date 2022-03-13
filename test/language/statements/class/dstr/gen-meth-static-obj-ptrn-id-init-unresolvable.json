@@ -1,0 +1,195 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2872,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 2744,
+      "end": 2806,
+      "id": {
+        "type": "Identifier",
+        "start": 2750,
+        "end": 2751,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 2752,
+        "end": 2806,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 2756,
+            "end": 2804,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 2764,
+              "end": 2770,
+              "name": "method"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 2770,
+              "end": 2804,
+              "id": null,
+              "expression": false,
+              "generator": true,
+              "async": false,
+              "params": [
+                {
+                  "type": "ObjectPattern",
+                  "start": 2771,
+                  "end": 2800,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 2773,
+                      "end": 2798,
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 2773,
+                        "end": 2774,
+                        "name": "x"
+                      },
+                      "kind": "init",
+                      "value": {
+                        "type": "AssignmentPattern",
+                        "start": 2773,
+                        "end": 2798,
+                        "left": {
+                          "type": "Identifier",
+                          "start": 2773,
+                          "end": 2774,
+                          "name": "x"
+                        },
+                        "right": {
+                          "type": "Identifier",
+                          "start": 2777,
+                          "end": 2798,
+                          "name": "unresolvableReference"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2802,
+                "end": 2804,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2806,
+      "end": 2807
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2809,
+      "end": 2871,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2809,
+        "end": 2870,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2809,
+          "end": 2822,
+          "object": {
+            "type": "Identifier",
+            "start": 2809,
+            "end": 2815,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2816,
+            "end": 2822,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2823,
+            "end": 2837,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2839,
+            "end": 2869,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2850,
+              "end": 2869,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2854,
+                  "end": 2867,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2854,
+                    "end": 2866,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2854,
+                      "end": 2862,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2854,
+                        "end": 2855,
+                        "name": "C"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2856,
+                        "end": 2862,
+                        "name": "method"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 2863,
+                        "end": 2865,
+                        "properties": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

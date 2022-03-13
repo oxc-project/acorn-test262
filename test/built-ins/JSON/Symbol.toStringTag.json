@@ -1,0 +1,211 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 683,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 492,
+      "end": 543,
+      "expression": {
+        "type": "CallExpression",
+        "start": 492,
+        "end": 542,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 492,
+          "end": 508,
+          "object": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 498,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 499,
+            "end": 508,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 509,
+            "end": 533,
+            "object": {
+              "type": "Identifier",
+              "start": 509,
+              "end": 513,
+              "name": "JSON"
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 514,
+              "end": 532,
+              "object": {
+                "type": "Identifier",
+                "start": 514,
+                "end": 520,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 521,
+                "end": 532,
+                "name": "toStringTag"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 535,
+            "end": 541,
+            "value": "JSON",
+            "raw": "'JSON'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 545,
+      "end": 591,
+      "expression": {
+        "type": "CallExpression",
+        "start": 545,
+        "end": 590,
+        "callee": {
+          "type": "Identifier",
+          "start": 545,
+          "end": 564,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 565,
+            "end": 569,
+            "name": "JSON"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 571,
+            "end": 589,
+            "object": {
+              "type": "Identifier",
+              "start": 571,
+              "end": 577,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 578,
+              "end": 589,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 592,
+      "end": 636,
+      "expression": {
+        "type": "CallExpression",
+        "start": 592,
+        "end": 635,
+        "callee": {
+          "type": "Identifier",
+          "start": 592,
+          "end": 609,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 610,
+            "end": 614,
+            "name": "JSON"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 616,
+            "end": 634,
+            "object": {
+              "type": "Identifier",
+              "start": 616,
+              "end": 622,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 623,
+              "end": 634,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 637,
+      "end": 682,
+      "expression": {
+        "type": "CallExpression",
+        "start": 637,
+        "end": 681,
+        "callee": {
+          "type": "Identifier",
+          "start": 637,
+          "end": 655,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 656,
+            "end": 660,
+            "name": "JSON"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 662,
+            "end": 680,
+            "object": {
+              "type": "Identifier",
+              "start": 662,
+              "end": 668,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 669,
+              "end": 680,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

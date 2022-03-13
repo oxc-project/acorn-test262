@@ -1,0 +1,114 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 464,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 329,
+      "end": 349,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 333,
+          "end": 348,
+          "id": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 343,
+            "name": "_13_1_37_s"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 346,
+            "end": 348,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 350,
+      "end": 463,
+      "expression": {
+        "type": "CallExpression",
+        "start": 350,
+        "end": 462,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 350,
+          "end": 363,
+          "object": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 356,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 363,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 364,
+            "end": 375,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 377,
+            "end": 461,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 388,
+              "end": 461,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 402,
+                  "end": 459,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 402,
+                    "end": 458,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 402,
+                      "end": 406,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 407,
+                        "end": 457,
+                        "value": "'use strict'; _13_1_37_s.x = function eval() {};",
+                        "raw": "\"'use strict'; _13_1_37_s.x = function eval() {};\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

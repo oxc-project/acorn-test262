@@ -1,0 +1,159 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 541,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 428,
+      "end": 462,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 432,
+          "end": 461,
+          "id": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 433,
+            "name": "s"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 436,
+            "end": 461,
+            "callee": {
+              "type": "Identifier",
+              "start": 440,
+              "end": 446,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 447,
+                "end": 460,
+                "value": "hello world",
+                "raw": "\"hello world\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 464,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 464,
+        "end": 539,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 464,
+          "end": 480,
+          "object": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 470,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 471,
+            "end": 480,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 481,
+            "end": 503,
+            "object": {
+              "type": "Identifier",
+              "start": 481,
+              "end": 482,
+              "name": "s"
+            },
+            "property": {
+              "type": "BinaryExpression",
+              "start": 483,
+              "end": 502,
+              "left": {
+                "type": "CallExpression",
+                "start": 483,
+                "end": 498,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 483,
+                  "end": 491,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 483,
+                    "end": 487,
+                    "name": "Math"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 488,
+                    "end": 491,
+                    "name": "pow"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 492,
+                    "end": 493,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 495,
+                    "end": 497,
+                    "value": 32,
+                    "raw": "32"
+                  }
+                ],
+                "optional": false
+              },
+              "operator": "-",
+              "right": {
+                "type": "Literal",
+                "start": 501,
+                "end": 502,
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 505,
+            "end": 514,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 516,
+            "end": 538,
+            "value": "s[Math.pow(2, 32)-1]",
+            "raw": "'s[Math.pow(2, 32)-1]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,172 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 688,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 270,
+      "end": 316,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 274,
+          "end": 315,
+          "id": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 281,
+            "name": "aString"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 284,
+            "end": 315,
+            "callee": {
+              "type": "Identifier",
+              "start": 288,
+              "end": 294,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 295,
+                "end": 314,
+                "value": "test string probe",
+                "raw": "\"test string probe\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 407,
+      "end": 605,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 411,
+        "end": 445,
+        "left": {
+          "type": "CallExpression",
+          "start": 411,
+          "end": 439,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 411,
+            "end": 425,
+            "object": {
+              "type": "Identifier",
+              "start": 411,
+              "end": 418,
+              "name": "aString"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 419,
+              "end": 425,
+              "name": "search"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 426,
+              "end": 438,
+              "value": "string pro",
+              "raw": "\"string pro\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 444,
+          "end": 445,
+          "value": 5,
+          "raw": "5"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 447,
+        "end": 605,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 451,
+            "end": 603,
+            "argument": {
+              "type": "NewExpression",
+              "start": 457,
+              "end": 602,
+              "callee": {
+                "type": "Identifier",
+                "start": 461,
+                "end": 473,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 474,
+                  "end": 601,
+                  "left": {
+                    "type": "Literal",
+                    "start": 474,
+                    "end": 570,
+                    "value": "#1: var aString = new String(\"test string probe\"); aString.search(\"string pro\")=== 5. Actual: ",
+                    "raw": "'#1: var aString = new String(\"test string probe\"); aString.search(\"string pro\")=== 5. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 573,
+                    "end": 601,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 573,
+                      "end": 587,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 573,
+                        "end": 580,
+                        "name": "aString"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 581,
+                        "end": 587,
+                        "name": "search"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 588,
+                        "end": 600,
+                        "value": "string pro",
+                        "raw": "\"string pro\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,94 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 734,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 693,
+      "end": 733,
+      "id": {
+        "type": "Identifier",
+        "start": 699,
+        "end": 700,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 701,
+        "end": 733,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 705,
+            "end": 716,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 709,
+              "end": 711,
+              "name": "m"
+            },
+            "kind": "get",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 711,
+              "end": 716,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 714,
+                "end": 716,
+                "body": []
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 719,
+            "end": 731,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 723,
+              "end": 725,
+              "name": "m"
+            },
+            "kind": "set",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 725,
+              "end": 731,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 726,
+                  "end": 727,
+                  "name": "_"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 729,
+                "end": 731,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,244 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 585,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 243,
+      "end": 412,
+      "expression": {
+        "type": "CallExpression",
+        "start": 243,
+        "end": 411,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 243,
+          "end": 259,
+          "object": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 259,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 263,
+            "end": 316,
+            "left": {
+              "type": "CallExpression",
+              "start": 263,
+              "end": 297,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 263,
+                "end": 291,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 263,
+                  "end": 286,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 263,
+                    "end": 278,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 263,
+                      "end": 268,
+                      "name": "Array"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 269,
+                      "end": 278,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 279,
+                    "end": 286,
+                    "name": "reverse"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 287,
+                  "end": 291,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 292,
+                  "end": 296,
+                  "value": true,
+                  "raw": "true"
+                }
+              ],
+              "optional": false
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 309,
+              "end": 316,
+              "name": "Boolean"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 320,
+            "end": 324,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 328,
+            "end": 409,
+            "value": "The result of `(Array.prototype.reverse.call(true) instanceof Boolean)` is true",
+            "raw": "'The result of `(Array.prototype.reverse.call(true) instanceof Boolean)` is true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 413,
+      "end": 584,
+      "expression": {
+        "type": "CallExpression",
+        "start": 413,
+        "end": 583,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 413,
+          "end": 429,
+          "object": {
+            "type": "Identifier",
+            "start": 413,
+            "end": 419,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 420,
+            "end": 429,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 433,
+            "end": 487,
+            "left": {
+              "type": "CallExpression",
+              "start": 433,
+              "end": 468,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 433,
+                "end": 461,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 433,
+                  "end": 456,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 433,
+                    "end": 448,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 433,
+                      "end": 438,
+                      "name": "Array"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 439,
+                      "end": 448,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 449,
+                    "end": 456,
+                    "name": "reverse"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 457,
+                  "end": 461,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 462,
+                  "end": 467,
+                  "value": false,
+                  "raw": "false"
+                }
+              ],
+              "optional": false
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 480,
+              "end": 487,
+              "name": "Boolean"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 491,
+            "end": 495,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 499,
+            "end": 581,
+            "value": "The result of `(Array.prototype.reverse.call(false) instanceof Boolean)` is true",
+            "raw": "'The result of `(Array.prototype.reverse.call(false) instanceof Boolean)` is true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

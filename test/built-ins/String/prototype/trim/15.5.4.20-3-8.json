@@ -1,0 +1,81 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 317,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 247,
+      "end": 316,
+      "expression": {
+        "type": "CallExpression",
+        "start": 247,
+        "end": 315,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 247,
+          "end": 263,
+          "object": {
+            "type": "Identifier",
+            "start": 247,
+            "end": 253,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 254,
+            "end": 263,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 264,
+            "end": 281,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 264,
+              "end": 279,
+              "object": {
+                "type": "Literal",
+                "start": 264,
+                "end": 274,
+                "value": "\u0000\u0000",
+                "raw": "\"\\0\\u0000\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 275,
+                "end": 279,
+                "name": "trim"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 283,
+            "end": 293,
+            "value": "\u0000\u0000",
+            "raw": "\"\\0\\u0000\""
+          },
+          {
+            "type": "Literal",
+            "start": 295,
+            "end": 314,
+            "value": "\"\u0000\u0000\".trim()",
+            "raw": "'\"\\0\\u0000\".trim()'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

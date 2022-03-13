@@ -1,0 +1,258 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 716,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 327,
+      "end": 443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 327,
+        "end": 442,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 327,
+          "end": 343,
+          "object": {
+            "type": "Identifier",
+            "start": 327,
+            "end": 333,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 343,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 344,
+            "end": 378,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 344,
+              "end": 365,
+              "object": {
+                "type": "Identifier",
+                "start": 344,
+                "end": 350,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 351,
+                "end": 365,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 366,
+                "end": 377,
+                "value": "prototype",
+                "raw": "'prototype'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 380,
+            "end": 384,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 386,
+            "end": 441,
+            "value": "RegExp.hasOwnProperty('prototype') must return true",
+            "raw": "'RegExp.hasOwnProperty(\\'prototype\\') must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 445,
+      "end": 474,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 449,
+          "end": 473,
+          "id": {
+            "type": "Identifier",
+            "start": 449,
+            "end": 454,
+            "name": "__obj"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 457,
+            "end": 473,
+            "object": {
+              "type": "Identifier",
+              "start": 457,
+              "end": 463,
+              "name": "RegExp"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 464,
+              "end": 473,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 476,
+      "end": 552,
+      "expression": {
+        "type": "CallExpression",
+        "start": 476,
+        "end": 551,
+        "callee": {
+          "type": "Identifier",
+          "start": 476,
+          "end": 493,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 494,
+            "end": 500,
+            "name": "RegExp"
+          },
+          {
+            "type": "Literal",
+            "start": 502,
+            "end": 513,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          },
+          {
+            "type": "Literal",
+            "start": 515,
+            "end": 519,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 521,
+            "end": 550,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 531,
+              "end": 550,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 532,
+                  "end": 549,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 539,
+                    "end": 548,
+                    "value": "shifted",
+                    "raw": "\"shifted\""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 554,
+      "end": 669,
+      "expression": {
+        "type": "CallExpression",
+        "start": 554,
+        "end": 668,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 554,
+          "end": 570,
+          "object": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 560,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 561,
+            "end": 570,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 571,
+            "end": 587,
+            "object": {
+              "type": "Identifier",
+              "start": 571,
+              "end": 577,
+              "name": "RegExp"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 578,
+              "end": 587,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 589,
+            "end": 594,
+            "name": "__obj"
+          },
+          {
+            "type": "Literal",
+            "start": 596,
+            "end": 667,
+            "value": "The value of RegExp.prototype is expected to equal the value of __obj",
+            "raw": "'The value of RegExp.prototype is expected to equal the value of __obj'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

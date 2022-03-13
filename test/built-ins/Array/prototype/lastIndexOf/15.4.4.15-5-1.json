@@ -1,0 +1,242 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 423,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 253,
+      "end": 280,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 257,
+          "end": 279,
+          "id": {
+            "type": "Identifier",
+            "start": 257,
+            "end": 258,
+            "name": "a"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 261,
+            "end": 279,
+            "callee": {
+              "type": "Identifier",
+              "start": 265,
+              "end": 270,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 271,
+                "end": 272,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 274,
+                "end": 275,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 277,
+                "end": 278,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 282,
+      "end": 346,
+      "expression": {
+        "type": "CallExpression",
+        "start": 282,
+        "end": 345,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 282,
+          "end": 298,
+          "object": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 288,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 298,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 299,
+            "end": 320,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 299,
+              "end": 312,
+              "object": {
+                "type": "Identifier",
+                "start": 299,
+                "end": 300,
+                "name": "a"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 301,
+                "end": 312,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 313,
+                "end": 314,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 316,
+                "end": 319,
+                "value": "1",
+                "raw": "\"1\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 322,
+            "end": 323,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 325,
+            "end": 344,
+            "value": "\"1\" resolves to 1",
+            "raw": "'\"1\" resolves to 1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 347,
+      "end": 422,
+      "expression": {
+        "type": "CallExpression",
+        "start": 347,
+        "end": 421,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 347,
+          "end": 363,
+          "object": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 353,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 354,
+            "end": 363,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 364,
+            "end": 387,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 364,
+              "end": 377,
+              "object": {
+                "type": "Identifier",
+                "start": 364,
+                "end": 365,
+                "name": "a"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 366,
+                "end": 377,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 378,
+                "end": 379,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 381,
+                "end": 386,
+                "value": "one",
+                "raw": "\"one\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 389,
+            "end": 391,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 390,
+              "end": 391,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 420,
+            "value": "NaN string resolves to 01",
+            "raw": "'NaN string resolves to 01'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

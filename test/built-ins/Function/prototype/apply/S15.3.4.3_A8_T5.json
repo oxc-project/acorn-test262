@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 612,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 311,
+      "end": 611,
+      "block": {
+        "type": "BlockStatement",
+        "start": 315,
+        "end": 487,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 319,
+            "end": 361,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 323,
+                "end": 360,
+                "id": {
+                  "type": "Identifier",
+                  "start": 323,
+                  "end": 330,
+                  "name": "FACTORY"
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "start": 333,
+                  "end": 360,
+                  "object": {
+                    "type": "CallExpression",
+                    "start": 333,
+                    "end": 354,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 333,
+                      "end": 341,
+                      "name": "Function"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 342,
+                        "end": 353,
+                        "value": "this.p1=1",
+                        "raw": "\"this.p1=1\""
+                      }
+                    ],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 355,
+                    "end": 360,
+                    "name": "apply"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 364,
+            "end": 388,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 368,
+                "end": 387,
+                "id": {
+                  "type": "Identifier",
+                  "start": 368,
+                  "end": 371,
+                  "name": "obj"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 374,
+                  "end": 387,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 378,
+                    "end": 385,
+                    "name": "FACTORY"
+                  },
+                  "arguments": []
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 391,
+            "end": 485,
+            "argument": {
+              "type": "NewExpression",
+              "start": 397,
+              "end": 484,
+              "callee": {
+                "type": "Identifier",
+                "start": 401,
+                "end": 413,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 414,
+                  "end": 483,
+                  "value": "#1: Function.prototype.apply can't be used as [[Construct]] caller",
+                  "raw": "'#1: Function.prototype.apply can\\'t be used as [[Construct]] caller'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 488,
+        "end": 611,
+        "param": {
+          "type": "Identifier",
+          "start": 495,
+          "end": 496,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 498,
+          "end": 611,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 502,
+              "end": 609,
+              "expression": {
+                "type": "CallExpression",
+                "start": 502,
+                "end": 608,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 502,
+                  "end": 508,
+                  "name": "assert"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 509,
+                    "end": 531,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 509,
+                      "end": 510,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 522,
+                      "end": 531,
+                      "name": "TypeError"
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 533,
+                    "end": 607,
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,508 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2702,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 1851,
+      "end": 1909,
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 1858,
+          "end": 1865,
+          "local": {
+            "type": "Identifier",
+            "start": 1863,
+            "end": 1865,
+            "name": "ns"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 1871,
+        "end": 1908,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 1910,
+      "end": 1971,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 1919,
+          "end": 1925,
+          "local": {
+            "type": "Identifier",
+            "start": 1919,
+            "end": 1920,
+            "name": "c"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 1924,
+            "end": 1925,
+            "name": "b"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 1933,
+        "end": 1970,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 1972,
+      "end": 2033,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 1981,
+          "end": 1987,
+          "local": {
+            "type": "Identifier",
+            "start": 1981,
+            "end": 1982,
+            "name": "e"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 1986,
+            "end": 1987,
+            "name": "d"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 1995,
+        "end": 2032,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2034,
+      "end": 2095,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2043,
+          "end": 2049,
+          "local": {
+            "type": "Identifier",
+            "start": 2043,
+            "end": 2044,
+            "name": "g"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2048,
+            "end": 2049,
+            "name": "f"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2057,
+        "end": 2094,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2096,
+      "end": 2157,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2105,
+          "end": 2111,
+          "local": {
+            "type": "Identifier",
+            "start": 2105,
+            "end": 2106,
+            "name": "i"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2110,
+            "end": 2111,
+            "name": "h"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2119,
+        "end": 2156,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2158,
+      "end": 2219,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2167,
+          "end": 2173,
+          "local": {
+            "type": "Identifier",
+            "start": 2167,
+            "end": 2168,
+            "name": "k"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2172,
+            "end": 2173,
+            "name": "j"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2181,
+        "end": 2218,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2220,
+      "end": 2281,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2229,
+          "end": 2235,
+          "local": {
+            "type": "Identifier",
+            "start": 2229,
+            "end": 2230,
+            "name": "m"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2234,
+            "end": 2235,
+            "name": "l"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2243,
+        "end": 2280,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2282,
+      "end": 2343,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2291,
+          "end": 2297,
+          "local": {
+            "type": "Identifier",
+            "start": 2291,
+            "end": 2292,
+            "name": "o"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2296,
+            "end": 2297,
+            "name": "n"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2305,
+        "end": 2342,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2344,
+      "end": 2405,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2353,
+          "end": 2359,
+          "local": {
+            "type": "Identifier",
+            "start": 2353,
+            "end": 2354,
+            "name": "q"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2358,
+            "end": 2359,
+            "name": "p"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2367,
+        "end": 2404,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2406,
+      "end": 2467,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2415,
+          "end": 2421,
+          "local": {
+            "type": "Identifier",
+            "start": 2415,
+            "end": 2416,
+            "name": "s"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2420,
+            "end": 2421,
+            "name": "r"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2429,
+        "end": 2466,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2468,
+      "end": 2529,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2477,
+          "end": 2483,
+          "local": {
+            "type": "Identifier",
+            "start": 2477,
+            "end": 2478,
+            "name": "u"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2482,
+            "end": 2483,
+            "name": "t"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2491,
+        "end": 2528,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2530,
+      "end": 2591,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2539,
+          "end": 2545,
+          "local": {
+            "type": "Identifier",
+            "start": 2539,
+            "end": 2540,
+            "name": "w"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2544,
+            "end": 2545,
+            "name": "v"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2553,
+        "end": 2590,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2592,
+      "end": 2653,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 2601,
+          "end": 2607,
+          "local": {
+            "type": "Identifier",
+            "start": 2601,
+            "end": 2602,
+            "name": "y"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 2606,
+            "end": 2607,
+            "name": "x"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2615,
+        "end": 2652,
+        "value": "./instn-star-iee-cycle-2_FIXTURE.js",
+        "raw": "'./instn-star-iee-cycle-2_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2654,
+      "end": 2672,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 2661,
+        "end": 2672,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2665,
+            "end": 2671,
+            "id": {
+              "type": "Identifier",
+              "start": 2665,
+              "end": 2666,
+              "name": "z"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 2669,
+              "end": 2671,
+              "value": 23,
+              "raw": "23"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2674,
+      "end": 2701,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2674,
+        "end": 2700,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2674,
+          "end": 2690,
+          "object": {
+            "type": "Identifier",
+            "start": 2674,
+            "end": 2680,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2681,
+            "end": 2690,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2691,
+            "end": 2695,
+            "object": {
+              "type": "Identifier",
+              "start": 2691,
+              "end": 2693,
+              "name": "ns"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2694,
+              "end": 2695,
+              "name": "a"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2697,
+            "end": 2699,
+            "value": 23,
+            "raw": "23"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

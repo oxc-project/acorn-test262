@@ -1,0 +1,318 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 977,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 708,
+      "end": 786,
+      "expression": {
+        "type": "CallExpression",
+        "start": 708,
+        "end": 785,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 708,
+          "end": 724,
+          "object": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 714,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 724,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 725,
+            "end": 763,
+            "object": {
+              "type": "MemberExpression",
+              "start": 725,
+              "end": 758,
+              "object": {
+                "type": "MemberExpression",
+                "start": 725,
+                "end": 741,
+                "object": {
+                  "type": "Identifier",
+                  "start": 725,
+                  "end": 731,
+                  "name": "RegExp"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 732,
+                  "end": 741,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "MemberExpression",
+                "start": 742,
+                "end": 757,
+                "object": {
+                  "type": "Identifier",
+                  "start": 742,
+                  "end": 748,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 749,
+                  "end": 757,
+                  "name": "matchAll"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "computed": true,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 759,
+              "end": 763,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 765,
+            "end": 784,
+            "value": "[Symbol.matchAll]",
+            "raw": "'[Symbol.matchAll]'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 788,
+      "end": 851,
+      "expression": {
+        "type": "CallExpression",
+        "start": 788,
+        "end": 850,
+        "callee": {
+          "type": "Identifier",
+          "start": 788,
+          "end": 807,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 808,
+            "end": 841,
+            "object": {
+              "type": "MemberExpression",
+              "start": 808,
+              "end": 824,
+              "object": {
+                "type": "Identifier",
+                "start": 808,
+                "end": 814,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 815,
+                "end": 824,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 825,
+              "end": 840,
+              "object": {
+                "type": "Identifier",
+                "start": 825,
+                "end": 831,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 832,
+                "end": 840,
+                "name": "matchAll"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 843,
+            "end": 849,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 852,
+      "end": 913,
+      "expression": {
+        "type": "CallExpression",
+        "start": 852,
+        "end": 912,
+        "callee": {
+          "type": "Identifier",
+          "start": 852,
+          "end": 869,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 870,
+            "end": 903,
+            "object": {
+              "type": "MemberExpression",
+              "start": 870,
+              "end": 886,
+              "object": {
+                "type": "Identifier",
+                "start": 870,
+                "end": 876,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 877,
+                "end": 886,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 887,
+              "end": 902,
+              "object": {
+                "type": "Identifier",
+                "start": 887,
+                "end": 893,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 894,
+                "end": 902,
+                "name": "matchAll"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 905,
+            "end": 911,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 914,
+      "end": 976,
+      "expression": {
+        "type": "CallExpression",
+        "start": 914,
+        "end": 975,
+        "callee": {
+          "type": "Identifier",
+          "start": 914,
+          "end": 932,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 933,
+            "end": 966,
+            "object": {
+              "type": "MemberExpression",
+              "start": 933,
+              "end": 949,
+              "object": {
+                "type": "Identifier",
+                "start": 933,
+                "end": 939,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 940,
+                "end": 949,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 950,
+              "end": 965,
+              "object": {
+                "type": "Identifier",
+                "start": 950,
+                "end": 956,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 957,
+                "end": 965,
+                "name": "matchAll"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 968,
+            "end": 974,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

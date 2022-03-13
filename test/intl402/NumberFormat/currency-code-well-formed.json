@@ -1,0 +1,363 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 719,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 252,
+      "end": 379,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 256,
+          "end": 378,
+          "id": {
+            "type": "Identifier",
+            "start": 256,
+            "end": 279,
+            "name": "wellFormedCurrencyCodes"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 282,
+            "end": 378,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 288,
+                "end": 293,
+                "value": "BOB",
+                "raw": "\"BOB\""
+              },
+              {
+                "type": "Literal",
+                "start": 299,
+                "end": 304,
+                "value": "EUR",
+                "raw": "\"EUR\""
+              },
+              {
+                "type": "Literal",
+                "start": 310,
+                "end": 315,
+                "value": "usd",
+                "raw": "\"usd\""
+              },
+              {
+                "type": "Literal",
+                "start": 360,
+                "end": 365,
+                "value": "XdR",
+                "raw": "\"XdR\""
+              },
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 376,
+                "value": "xTs",
+                "raw": "\"xTs\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 381,
+      "end": 718,
+      "expression": {
+        "type": "CallExpression",
+        "start": 381,
+        "end": 717,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 381,
+          "end": 412,
+          "object": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 404,
+            "name": "wellFormedCurrencyCodes"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 412,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 413,
+            "end": 716,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 423,
+                "end": 427,
+                "name": "code"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 429,
+              "end": 716,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 501,
+                  "end": 584,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 505,
+                      "end": 583,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 505,
+                        "end": 511,
+                        "name": "format"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 514,
+                        "end": 583,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 518,
+                          "end": 535,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 518,
+                            "end": 522,
+                            "name": "Intl"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 523,
+                            "end": 535,
+                            "name": "NumberFormat"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrayExpression",
+                            "start": 536,
+                            "end": 545,
+                            "elements": [
+                              {
+                                "type": "Literal",
+                                "start": 537,
+                                "end": 544,
+                                "value": "de-de",
+                                "raw": "\"de-de\""
+                              }
+                            ]
+                          },
+                          {
+                            "type": "ObjectExpression",
+                            "start": 547,
+                            "end": 582,
+                            "properties": [
+                              {
+                                "type": "Property",
+                                "start": 548,
+                                "end": 565,
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "start": 548,
+                                  "end": 553,
+                                  "name": "style"
+                                },
+                                "value": {
+                                  "type": "Literal",
+                                  "start": 555,
+                                  "end": 565,
+                                  "value": "currency",
+                                  "raw": "\"currency\""
+                                },
+                                "kind": "init"
+                              },
+                              {
+                                "type": "Property",
+                                "start": 567,
+                                "end": 581,
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "start": 567,
+                                  "end": 575,
+                                  "name": "currency"
+                                },
+                                "value": {
+                                  "type": "Identifier",
+                                  "start": 577,
+                                  "end": 581,
+                                  "name": "code"
+                                },
+                                "kind": "init"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 589,
+                  "end": 714,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 589,
+                    "end": 713,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 589,
+                      "end": 605,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 589,
+                        "end": 595,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 596,
+                        "end": 605,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 606,
+                        "end": 639,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 606,
+                          "end": 630,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 606,
+                            "end": 628,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 606,
+                              "end": 612,
+                              "name": "format"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 613,
+                              "end": 628,
+                              "name": "resolvedOptions"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 631,
+                          "end": 639,
+                          "name": "currency"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 641,
+                        "end": 659,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 641,
+                          "end": 657,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 641,
+                            "end": 645,
+                            "name": "code"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 646,
+                            "end": 657,
+                            "name": "toUpperCase"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [],
+                        "optional": false
+                      },
+                      {
+                        "type": "BinaryExpression",
+                        "start": 661,
+                        "end": 712,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 661,
+                          "end": 679,
+                          "left": {
+                            "type": "Literal",
+                            "start": 661,
+                            "end": 672,
+                            "value": "Currency ",
+                            "raw": "\"Currency \""
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "start": 675,
+                            "end": 679,
+                            "name": "code"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 682,
+                          "end": 712,
+                          "value": " was not correctly accepted.",
+                          "raw": "\" was not correctly accepted.\""
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

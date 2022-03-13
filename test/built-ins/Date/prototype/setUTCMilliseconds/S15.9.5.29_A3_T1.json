@@ -1,0 +1,234 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 717,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 383,
+      "end": 432,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 387,
+          "end": 431,
+          "id": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 388,
+            "name": "x"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 391,
+            "end": 431,
+            "object": {
+              "type": "MemberExpression",
+              "start": 391,
+              "end": 424,
+              "object": {
+                "type": "MemberExpression",
+                "start": 391,
+                "end": 405,
+                "object": {
+                  "type": "Identifier",
+                  "start": 391,
+                  "end": 395,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 396,
+                  "end": 405,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 406,
+                "end": 424,
+                "name": "setUTCMilliseconds"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 425,
+              "end": 431,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 433,
+      "end": 505,
+      "expression": {
+        "type": "CallExpression",
+        "start": 433,
+        "end": 504,
+        "callee": {
+          "type": "Identifier",
+          "start": 433,
+          "end": 450,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 451,
+            "end": 484,
+            "object": {
+              "type": "MemberExpression",
+              "start": 451,
+              "end": 465,
+              "object": {
+                "type": "Identifier",
+                "start": 451,
+                "end": 455,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 456,
+                "end": 465,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 466,
+              "end": 484,
+              "name": "setUTCMilliseconds"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 486,
+            "end": 494,
+            "value": "length",
+            "raw": "\"length\""
+          },
+          {
+            "type": "Literal",
+            "start": 496,
+            "end": 500,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "Literal",
+            "start": 502,
+            "end": 503,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 507,
+      "end": 670,
+      "expression": {
+        "type": "CallExpression",
+        "start": 507,
+        "end": 669,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 507,
+          "end": 523,
+          "object": {
+            "type": "Identifier",
+            "start": 507,
+            "end": 513,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 514,
+            "end": 523,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 527,
+            "end": 567,
+            "object": {
+              "type": "MemberExpression",
+              "start": 527,
+              "end": 560,
+              "object": {
+                "type": "MemberExpression",
+                "start": 527,
+                "end": 541,
+                "object": {
+                  "type": "Identifier",
+                  "start": 527,
+                  "end": 531,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 532,
+                  "end": 541,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 542,
+                "end": 560,
+                "name": "setUTCMilliseconds"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 561,
+              "end": 567,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 571,
+            "end": 572,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 576,
+            "end": 667,
+            "value": "The value of Date.prototype.setUTCMilliseconds.length is expected to equal the value of x",
+            "raw": "'The value of Date.prototype.setUTCMilliseconds.length is expected to equal the value of x'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

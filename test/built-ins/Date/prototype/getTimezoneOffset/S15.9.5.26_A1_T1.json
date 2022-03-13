@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 685,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 333,
+      "end": 374,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 337,
+          "end": 373,
+          "id": {
+            "type": "Identifier",
+            "start": 337,
+            "end": 338,
+            "name": "x"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 341,
+            "end": 373,
+            "object": {
+              "type": "MemberExpression",
+              "start": 341,
+              "end": 355,
+              "object": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 345,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 346,
+                "end": 355,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 356,
+              "end": 373,
+              "name": "getTimezoneOffset"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 375,
+      "end": 480,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 379,
+        "end": 386,
+        "left": {
+          "type": "Identifier",
+          "start": 379,
+          "end": 380,
+          "name": "x"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 385,
+          "end": 386,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 388,
+        "end": 431,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 392,
+            "end": 429,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 392,
+              "end": 428,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 392,
+                "end": 424,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 392,
+                  "end": 406,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 392,
+                    "end": 396,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 397,
+                    "end": 406,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 407,
+                  "end": 424,
+                  "name": "getTimezoneOffset"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 427,
+                "end": 428,
+                "value": 2,
+                "raw": "2"
+              }
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 437,
+        "end": 480,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 441,
+            "end": 478,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 441,
+              "end": 477,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 441,
+                "end": 473,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 441,
+                  "end": 455,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 441,
+                    "end": 445,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 446,
+                    "end": 455,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 456,
+                  "end": 473,
+                  "name": "getTimezoneOffset"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 476,
+                "end": 477,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 482,
+      "end": 638,
+      "expression": {
+        "type": "CallExpression",
+        "start": 482,
+        "end": 637,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 482,
+          "end": 501,
+          "object": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 488,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 501,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 505,
+            "end": 537,
+            "object": {
+              "type": "MemberExpression",
+              "start": 505,
+              "end": 519,
+              "object": {
+                "type": "Identifier",
+                "start": 505,
+                "end": 509,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 510,
+                "end": 519,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 520,
+              "end": 537,
+              "name": "getTimezoneOffset"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 541,
+            "end": 542,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 546,
+            "end": 635,
+            "value": "The value of Date.prototype.getTimezoneOffset is expected to not equal the value of `x`",
+            "raw": "'The value of Date.prototype.getTimezoneOffset is expected to not equal the value of `x`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

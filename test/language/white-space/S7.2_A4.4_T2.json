@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 415,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 257,
+      "end": 267,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 261,
+          "end": 266,
+          "id": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 262,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 265,
+            "end": 266,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 299,
+      "end": 414,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 303,
+        "end": 310,
+        "left": {
+          "type": "Identifier",
+          "start": 303,
+          "end": 304,
+          "name": "x"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 309,
+          "end": 310,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 312,
+        "end": 414,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 316,
+            "end": 412,
+            "argument": {
+              "type": "NewExpression",
+              "start": 322,
+              "end": 411,
+              "callee": {
+                "type": "Identifier",
+                "start": 326,
+                "end": 338,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 339,
+                  "end": 410,
+                  "left": {
+                    "type": "Literal",
+                    "start": 339,
+                    "end": 404,
+                    "value": "#1: var x = 0; /* multi line comment x = 1;*/ x === 0. Actual: ",
+                    "raw": "'#1: var x = 0; /* multi line comment x = 1;*/ x === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 407,
+                    "end": 410,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 408,
+                      "end": 409,
+                      "name": "x"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

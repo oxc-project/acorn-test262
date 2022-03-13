@@ -1,0 +1,514 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 958,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 337,
+      "end": 417,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 341,
+          "end": 416,
+          "id": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 345,
+            "name": "args"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 348,
+            "end": 416,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 348,
+              "end": 407,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 349,
+                "end": 406,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 358,
+                    "end": 359,
+                    "name": "a"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 361,
+                    "end": 362,
+                    "name": "b"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 364,
+                    "end": 365,
+                    "name": "c"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 367,
+                  "end": 406,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 371,
+                      "end": 384,
+                      "expression": {
+                        "type": "Literal",
+                        "start": 371,
+                        "end": 383,
+                        "value": "use strict",
+                        "raw": "\"use strict\""
+                      },
+                      "directive": "use strict"
+                    },
+                    {
+                      "type": "ReturnStatement",
+                      "start": 387,
+                      "end": 404,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 394,
+                        "end": 403,
+                        "name": "arguments"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 408,
+                "end": 409,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 411,
+                "end": 412,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 414,
+                "end": 415,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 418,
+      "end": 457,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 418,
+        "end": 456,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 418,
+          "end": 449,
+          "object": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 422,
+            "name": "args"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 423,
+            "end": 448,
+            "object": {
+              "type": "Identifier",
+              "start": 423,
+              "end": 429,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 430,
+              "end": 448,
+              "name": "isConcatSpreadable"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 452,
+          "end": 456,
+          "value": true,
+          "raw": "true"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 699,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 458,
+          "end": 477,
+          "object": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 464,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 477,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 478,
+            "end": 499,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 478,
+              "end": 487,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 478,
+                "end": 480,
+                "elements": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 481,
+                "end": 487,
+                "name": "concat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 488,
+                "end": 492,
+                "name": "args"
+              },
+              {
+                "type": "Identifier",
+                "start": 494,
+                "end": 498,
+                "name": "args"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 501,
+            "end": 519,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 502,
+                "end": 503,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 505,
+                "end": 506,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 508,
+                "end": 509,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "Literal",
+                "start": 511,
+                "end": 512,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 514,
+                "end": 515,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 517,
+                "end": 518,
+                "value": 3,
+                "raw": "3"
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 523,
+            "end": 697,
+            "value": "[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\", \"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, 1, 2, 3]",
+            "raw": "'[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\", \"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, 1, 2, 3]'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 702,
+      "end": 756,
+      "expression": {
+        "type": "CallExpression",
+        "start": 702,
+        "end": 755,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 702,
+          "end": 723,
+          "object": {
+            "type": "Identifier",
+            "start": 702,
+            "end": 708,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 709,
+            "end": 723,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 724,
+            "end": 728,
+            "name": "args"
+          },
+          {
+            "type": "Literal",
+            "start": 730,
+            "end": 738,
+            "value": "length",
+            "raw": "\"length\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 740,
+            "end": 754,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 744,
+                "end": 752,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 744,
+                  "end": 749,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 751,
+                  "end": 752,
+                  "value": 6,
+                  "raw": "6"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 757,
+      "end": 957,
+      "expression": {
+        "type": "CallExpression",
+        "start": 757,
+        "end": 956,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 757,
+          "end": 776,
+          "object": {
+            "type": "Identifier",
+            "start": 757,
+            "end": 763,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 776,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 777,
+            "end": 792,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 777,
+              "end": 786,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 777,
+                "end": 779,
+                "elements": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 780,
+                "end": 786,
+                "name": "concat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 787,
+                "end": 791,
+                "name": "args"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 794,
+            "end": 827,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 795,
+                "end": 796,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 798,
+                "end": 799,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 801,
+                "end": 802,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 804,
+                "end": 810,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 809,
+                  "end": 810,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 812,
+                "end": 818,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 817,
+                  "end": 818,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 820,
+                "end": 826,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 825,
+                  "end": 826,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 831,
+            "end": 954,
+            "value": "[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, void 0, void 0, void 0]",
+            "raw": "'[].concat(\"(function(a, b, c) {\"use strict\"; return arguments;})(1, 2, 3)\") must return [1, 2, 3, void 0, void 0, void 0]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

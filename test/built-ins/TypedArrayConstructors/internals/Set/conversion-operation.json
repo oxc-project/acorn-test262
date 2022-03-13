@@ -1,0 +1,222 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2120,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1860,
+      "end": 2119,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1860,
+        "end": 2118,
+        "callee": {
+          "type": "Identifier",
+          "start": 1860,
+          "end": 1885,
+          "name": "testTypedArrayConversions"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1886,
+            "end": 1906,
+            "name": "byteConversionValues"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1908,
+            "end": 2117,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 1917,
+                "end": 1919,
+                "name": "TA"
+              },
+              {
+                "type": "Identifier",
+                "start": 1921,
+                "end": 1926,
+                "name": "value"
+              },
+              {
+                "type": "Identifier",
+                "start": 1928,
+                "end": 1936,
+                "name": "expected"
+              },
+              {
+                "type": "Identifier",
+                "start": 1938,
+                "end": 1945,
+                "name": "initial"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1947,
+              "end": 2117,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 1951,
+                  "end": 1982,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 1955,
+                      "end": 1981,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 1955,
+                        "end": 1961,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 1964,
+                        "end": 1981,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1968,
+                          "end": 1970,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrayExpression",
+                            "start": 1971,
+                            "end": 1980,
+                            "elements": [
+                              {
+                                "type": "Identifier",
+                                "start": 1972,
+                                "end": 1979,
+                                "name": "initial"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1986,
+                  "end": 2004,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1986,
+                    "end": 2003,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 1986,
+                      "end": 1995,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1986,
+                        "end": 1992,
+                        "name": "sample"
+                      },
+                      "property": {
+                        "type": "Literal",
+                        "start": 1993,
+                        "end": 1994,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      "computed": true,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1998,
+                      "end": 2003,
+                      "name": "value"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2008,
+                  "end": 2115,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2008,
+                    "end": 2114,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2008,
+                      "end": 2024,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2008,
+                        "end": 2014,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2015,
+                        "end": 2024,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 2025,
+                        "end": 2034,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 2025,
+                          "end": 2031,
+                          "name": "sample"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 2032,
+                          "end": 2033,
+                          "value": 0,
+                          "raw": "0"
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 2036,
+                        "end": 2044,
+                        "name": "expected"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2046,
+                        "end": 2113,
+                        "value": "The value of sample[0] is expected to equal the value of expected",
+                        "raw": "'The value of sample[0] is expected to equal the value of expected'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

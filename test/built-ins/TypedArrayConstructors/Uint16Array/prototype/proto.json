@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 563,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 477,
+      "end": 562,
+      "expression": {
+        "type": "CallExpression",
+        "start": 477,
+        "end": 561,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 477,
+          "end": 493,
+          "object": {
+            "type": "Identifier",
+            "start": 477,
+            "end": 483,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 484,
+            "end": 493,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 494,
+            "end": 538,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 494,
+              "end": 515,
+              "object": {
+                "type": "Identifier",
+                "start": 494,
+                "end": 500,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 501,
+                "end": 515,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 516,
+                "end": 537,
+                "object": {
+                  "type": "Identifier",
+                  "start": 516,
+                  "end": 527,
+                  "name": "Uint16Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 528,
+                  "end": 537,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 540,
+            "end": 560,
+            "object": {
+              "type": "Identifier",
+              "start": 540,
+              "end": 550,
+              "name": "TypedArray"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 551,
+              "end": 560,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 785,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 741,
+      "end": 751,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 745,
+          "end": 750,
+          "id": {
+            "type": "Identifier",
+            "start": 745,
+            "end": 746,
+            "name": "y"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 749,
+            "end": 750,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 753,
+      "end": 759,
+      "expression": {
+        "type": "UpdateExpression",
+        "start": 753,
+        "end": 758,
+        "operator": "--",
+        "prefix": false,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 753,
+          "end": 756,
+          "expression": {
+            "type": "Identifier",
+            "start": 754,
+            "end": 755,
+            "name": "y"
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 761,
+      "end": 784,
+      "expression": {
+        "type": "CallExpression",
+        "start": 761,
+        "end": 783,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 761,
+          "end": 777,
+          "object": {
+            "type": "Identifier",
+            "start": 761,
+            "end": 767,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 768,
+            "end": 777,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 778,
+            "end": 779,
+            "name": "y"
+          },
+          {
+            "type": "Literal",
+            "start": 781,
+            "end": 782,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

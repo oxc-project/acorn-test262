@@ -1,0 +1,121 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 396,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 251,
+      "end": 270,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 255,
+          "end": 269,
+          "id": {
+            "type": "Identifier",
+            "start": 255,
+            "end": 258,
+            "name": "obj"
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 269,
+            "name": "Function"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 272,
+      "end": 300,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 276,
+          "end": 299,
+          "id": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 283,
+            "name": "thisobj"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 286,
+            "end": 299,
+            "object": {
+              "type": "ThisExpression",
+              "start": 286,
+              "end": 290
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 291,
+              "end": 299,
+              "name": "Function"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 302,
+      "end": 395,
+      "expression": {
+        "type": "CallExpression",
+        "start": 302,
+        "end": 394,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 302,
+          "end": 318,
+          "object": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 308,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 318,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 319,
+            "end": 322,
+            "name": "obj"
+          },
+          {
+            "type": "Identifier",
+            "start": 324,
+            "end": 331,
+            "name": "thisobj"
+          },
+          {
+            "type": "Literal",
+            "start": 333,
+            "end": 393,
+            "value": "The value of obj is expected to equal the value of thisobj",
+            "raw": "'The value of obj is expected to equal the value of thisobj'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

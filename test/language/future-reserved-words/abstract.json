@@ -1,0 +1,34 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 365,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 347,
+      "end": 364,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 351,
+          "end": 363,
+          "id": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 359,
+            "name": "abstract"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 362,
+            "end": 363,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

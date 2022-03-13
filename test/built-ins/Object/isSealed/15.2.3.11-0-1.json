@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 304,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 224,
+      "end": 248,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 228,
+          "end": 247,
+          "id": {
+            "type": "Identifier",
+            "start": 228,
+            "end": 229,
+            "name": "f"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 232,
+            "end": 247,
+            "object": {
+              "type": "Identifier",
+              "start": 232,
+              "end": 238,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 239,
+              "end": 247,
+              "name": "isSealed"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 250,
+      "end": 303,
+      "expression": {
+        "type": "CallExpression",
+        "start": 250,
+        "end": 302,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 250,
+          "end": 266,
+          "object": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 256,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 257,
+            "end": 266,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 267,
+            "end": 276,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 273,
+              "end": 276,
+              "expression": {
+                "type": "Identifier",
+                "start": 274,
+                "end": 275,
+                "name": "f"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 278,
+            "end": 288,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 290,
+            "end": 301,
+            "value": "typeof(f)",
+            "raw": "'typeof(f)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

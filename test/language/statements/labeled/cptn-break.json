@@ -1,0 +1,68 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 793,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 725,
+      "end": 792,
+      "expression": {
+        "type": "CallExpression",
+        "start": 725,
+        "end": 791,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 725,
+          "end": 741,
+          "object": {
+            "type": "Identifier",
+            "start": 725,
+            "end": 731,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 732,
+            "end": 741,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 742,
+            "end": 787,
+            "callee": {
+              "type": "Identifier",
+              "start": 742,
+              "end": 746,
+              "name": "eval"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 747,
+                "end": 786,
+                "value": "test262id: { 5; break test262id; 9; }",
+                "raw": "'test262id: { 5; break test262id; 9; }'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 789,
+            "end": 790,
+            "value": 5,
+            "raw": "5"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 573,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 468,
+      "end": 504,
+      "expression": {
+        "type": "CallExpression",
+        "start": 468,
+        "end": 503,
+        "callee": {
+          "type": "Identifier",
+          "start": 468,
+          "end": 487,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 488,
+            "end": 492,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 494,
+            "end": 502,
+            "value": "fround",
+            "raw": "\"fround\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 505,
+      "end": 536,
+      "expression": {
+        "type": "CallExpression",
+        "start": 505,
+        "end": 535,
+        "callee": {
+          "type": "Identifier",
+          "start": 505,
+          "end": 519,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 520,
+            "end": 524,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 526,
+            "end": 534,
+            "value": "fround",
+            "raw": "\"fround\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 537,
+      "end": 572,
+      "expression": {
+        "type": "CallExpression",
+        "start": 537,
+        "end": 571,
+        "callee": {
+          "type": "Identifier",
+          "start": 537,
+          "end": 555,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 556,
+            "end": 560,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 562,
+            "end": 570,
+            "value": "fround",
+            "raw": "\"fround\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

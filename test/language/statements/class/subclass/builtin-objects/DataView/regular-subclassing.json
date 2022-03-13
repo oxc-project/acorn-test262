@@ -1,0 +1,237 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 844,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 663,
+      "end": 691,
+      "id": {
+        "type": "Identifier",
+        "start": 669,
+        "end": 671,
+        "name": "DV"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 680,
+        "end": 688,
+        "name": "DataView"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 689,
+        "end": 691,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 693,
+      "end": 725,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 697,
+          "end": 724,
+          "id": {
+            "type": "Identifier",
+            "start": 697,
+            "end": 703,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 706,
+            "end": 724,
+            "callee": {
+              "type": "Identifier",
+              "start": 710,
+              "end": 721,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 722,
+                "end": 723,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 727,
+      "end": 751,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 731,
+          "end": 750,
+          "id": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 733,
+            "name": "dv"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 736,
+            "end": 750,
+            "callee": {
+              "type": "Identifier",
+              "start": 740,
+              "end": 742,
+              "name": "DV"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 743,
+                "end": 749,
+                "name": "buffer"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 752,
+      "end": 788,
+      "expression": {
+        "type": "CallExpression",
+        "start": 752,
+        "end": 787,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 752,
+          "end": 768,
+          "object": {
+            "type": "Identifier",
+            "start": 752,
+            "end": 758,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 759,
+            "end": 768,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 769,
+            "end": 778,
+            "object": {
+              "type": "Identifier",
+              "start": 769,
+              "end": 771,
+              "name": "dv"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 772,
+              "end": 778,
+              "name": "buffer"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 780,
+            "end": 786,
+            "name": "buffer"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 790,
+      "end": 843,
+      "expression": {
+        "type": "CallExpression",
+        "start": 790,
+        "end": 842,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 790,
+          "end": 803,
+          "object": {
+            "type": "Identifier",
+            "start": 790,
+            "end": 796,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 797,
+            "end": 803,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 804,
+            "end": 813,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 815,
+            "end": 841,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 826,
+              "end": 841,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 830,
+                  "end": 839,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 830,
+                    "end": 838,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 834,
+                      "end": 836,
+                      "name": "DV"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

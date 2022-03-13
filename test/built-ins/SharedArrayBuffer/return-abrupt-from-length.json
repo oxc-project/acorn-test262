@@ -1,0 +1,162 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 630,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 481,
+      "end": 553,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 485,
+          "end": 552,
+          "id": {
+            "type": "Identifier",
+            "start": 485,
+            "end": 488,
+            "name": "len"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 491,
+            "end": 552,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 495,
+                "end": 550,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 495,
+                  "end": 502,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 504,
+                  "end": 550,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 515,
+                    "end": 550,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 521,
+                        "end": 546,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 527,
+                          "end": 545,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 531,
+                            "end": 543,
+                            "name": "Test262Error"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 555,
+      "end": 629,
+      "expression": {
+        "type": "CallExpression",
+        "start": 555,
+        "end": 628,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 555,
+          "end": 568,
+          "object": {
+            "type": "Identifier",
+            "start": 555,
+            "end": 561,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 562,
+            "end": 568,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 569,
+            "end": 581,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 583,
+            "end": 627,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 594,
+              "end": 627,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 598,
+                  "end": 625,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 598,
+                    "end": 624,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 602,
+                      "end": 619,
+                      "name": "SharedArrayBuffer"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 620,
+                        "end": 623,
+                        "name": "len"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 523,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 398,
+      "end": 449,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 402,
+          "end": 448,
+          "id": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 412,
+            "name": "__executed"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 415,
+            "end": 448,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 415,
+              "end": 424,
+              "object": {
+                "type": "Literal",
+                "start": 415,
+                "end": 419,
+                "value": {},
+                "raw": "/^m/",
+                "regex": {
+                  "pattern": "^m",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 424,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 425,
+                "end": 447,
+                "value": "pairs\nmakes\tdouble",
+                "raw": "\"pairs\\nmakes\\tdouble\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 451,
+      "end": 522,
+      "expression": {
+        "type": "CallExpression",
+        "start": 451,
+        "end": 521,
+        "callee": {
+          "type": "Identifier",
+          "start": 451,
+          "end": 457,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 458,
+            "end": 469,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 459,
+              "end": 469,
+              "name": "__executed"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 471,
+            "end": 520,
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

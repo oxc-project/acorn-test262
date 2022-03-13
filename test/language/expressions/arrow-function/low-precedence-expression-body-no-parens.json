@@ -1,0 +1,122 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 305,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 248,
+      "end": 272,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 252,
+          "end": 271,
+          "id": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 258,
+            "name": "square"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 261,
+            "end": 271,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 261,
+                "end": 262,
+                "name": "x"
+              }
+            ],
+            "body": {
+              "type": "BinaryExpression",
+              "start": 266,
+              "end": 271,
+              "left": {
+                "type": "Identifier",
+                "start": 266,
+                "end": 267,
+                "name": "x"
+              },
+              "operator": "*",
+              "right": {
+                "type": "Identifier",
+                "start": 270,
+                "end": 271,
+                "name": "x"
+              }
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 273,
+      "end": 304,
+      "expression": {
+        "type": "CallExpression",
+        "start": 273,
+        "end": 303,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 273,
+          "end": 289,
+          "object": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 279,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 289,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 290,
+            "end": 299,
+            "callee": {
+              "type": "Identifier",
+              "start": 290,
+              "end": 296,
+              "name": "square"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 297,
+                "end": 298,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 301,
+            "end": 302,
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

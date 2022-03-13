@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 442,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 294,
+      "end": 304,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 298,
+          "end": 303,
+          "id": {
+            "type": "Identifier",
+            "start": 298,
+            "end": 299,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 302,
+            "end": 303,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 305,
+      "end": 337,
+      "test": {
+        "type": "Literal",
+        "start": 309,
+        "end": 314,
+        "value": false,
+        "raw": "false"
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 316,
+        "end": 323,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 317,
+            "end": 322,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 317,
+              "end": 322,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 317,
+                "end": 318,
+                "name": "x"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 321,
+                "end": 322,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 329,
+        "end": 337,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 330,
+            "end": 336,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 330,
+              "end": 336,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 330,
+                "end": 331,
+                "name": "x"
+              },
+              "right": {
+                "type": "UnaryExpression",
+                "start": 334,
+                "end": 336,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 335,
+                  "end": 336,
+                  "value": 1,
+                  "raw": "1"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 338,
+      "end": 441,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 342,
+        "end": 350,
+        "left": {
+          "type": "Identifier",
+          "start": 342,
+          "end": 343,
+          "name": "x"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "UnaryExpression",
+          "start": 348,
+          "end": 350,
+          "operator": "-",
+          "prefix": true,
+          "argument": {
+            "type": "Literal",
+            "start": 349,
+            "end": 350,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 352,
+        "end": 441,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 356,
+            "end": 439,
+            "argument": {
+              "type": "NewExpression",
+              "start": 362,
+              "end": 438,
+              "callee": {
+                "type": "Identifier",
+                "start": 366,
+                "end": 378,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 379,
+                  "end": 437,
+                  "value": "#1: Check If Statement for automatic semicolon insertion",
+                  "raw": "'#1: Check If Statement for automatic semicolon insertion'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,217 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 695,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 346,
+      "end": 527,
+      "expression": {
+        "type": "CallExpression",
+        "start": 346,
+        "end": 526,
+        "callee": {
+          "type": "Identifier",
+          "start": 346,
+          "end": 352,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 356,
+            "end": 418,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 357,
+              "end": 418,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 357,
+                "end": 408,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 357,
+                  "end": 387,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 357,
+                    "end": 371,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 357,
+                      "end": 361,
+                      "name": "Date"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 362,
+                      "end": 371,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 372,
+                    "end": 387,
+                    "name": "setMilliseconds"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 388,
+                  "end": 408,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 409,
+                  "end": 417,
+                  "value": "length",
+                  "raw": "'length'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 524,
+            "value": "The value of !Date.prototype.setMilliseconds.propertyIsEnumerable('length') is expected to be true",
+            "raw": "'The value of !Date.prototype.setMilliseconds.propertyIsEnumerable(\\'length\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 529,
+      "end": 648,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 534,
+        "end": 539,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 538,
+            "end": 539,
+            "id": {
+              "type": "Identifier",
+              "start": 538,
+              "end": 539,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 543,
+        "end": 573,
+        "object": {
+          "type": "MemberExpression",
+          "start": 543,
+          "end": 557,
+          "object": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 547,
+            "name": "Date"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 557,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 558,
+          "end": 573,
+          "name": "setMilliseconds"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 575,
+        "end": 648,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 579,
+            "end": 646,
+            "expression": {
+              "type": "CallExpression",
+              "start": 579,
+              "end": 645,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 579,
+                "end": 598,
+                "object": {
+                  "type": "Identifier",
+                  "start": 579,
+                  "end": 585,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 586,
+                  "end": 598,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 599,
+                  "end": 600,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 602,
+                  "end": 610,
+                  "value": "length",
+                  "raw": "\"length\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 612,
+                  "end": 644,
+                  "value": "The value of x is not \"length\"",
+                  "raw": "'The value of x is not \"length\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

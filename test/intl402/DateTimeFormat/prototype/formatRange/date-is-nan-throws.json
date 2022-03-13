@@ -1,0 +1,401 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1430,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1113,
+      "end": 1149,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1117,
+          "end": 1148,
+          "id": {
+            "type": "Identifier",
+            "start": 1117,
+            "end": 1120,
+            "name": "dtf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1123,
+            "end": 1148,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1127,
+              "end": 1146,
+              "object": {
+                "type": "Identifier",
+                "start": 1127,
+                "end": 1131,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1132,
+                "end": 1146,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1151,
+      "end": 1173,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1155,
+          "end": 1172,
+          "id": {
+            "type": "Identifier",
+            "start": 1155,
+            "end": 1159,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1162,
+            "end": 1172,
+            "callee": {
+              "type": "Identifier",
+              "start": 1166,
+              "end": 1170,
+              "name": "Date"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1175,
+      "end": 1259,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1175,
+        "end": 1258,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1175,
+          "end": 1188,
+          "object": {
+            "type": "Identifier",
+            "start": 1175,
+            "end": 1181,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1182,
+            "end": 1188,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1189,
+            "end": 1199,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1201,
+            "end": 1245,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1212,
+              "end": 1245,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1216,
+                  "end": 1243,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1216,
+                    "end": 1242,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1216,
+                      "end": 1231,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1216,
+                        "end": 1219,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1220,
+                        "end": 1231,
+                        "name": "formatRange"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1232,
+                        "end": 1235,
+                        "name": "NaN"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1237,
+                        "end": 1241,
+                        "name": "date"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1247,
+            "end": 1257,
+            "value": "NaN/date",
+            "raw": "\"NaN/date\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1261,
+      "end": 1345,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1261,
+        "end": 1344,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1261,
+          "end": 1274,
+          "object": {
+            "type": "Identifier",
+            "start": 1261,
+            "end": 1267,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1268,
+            "end": 1274,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1275,
+            "end": 1285,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1287,
+            "end": 1331,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1298,
+              "end": 1331,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1302,
+                  "end": 1329,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1302,
+                    "end": 1328,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1302,
+                      "end": 1317,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1302,
+                        "end": 1305,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1306,
+                        "end": 1317,
+                        "name": "formatRange"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1318,
+                        "end": 1322,
+                        "name": "date"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1324,
+                        "end": 1327,
+                        "name": "NaN"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1333,
+            "end": 1343,
+            "value": "date/NaN",
+            "raw": "\"date/NaN\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1347,
+      "end": 1429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1347,
+        "end": 1428,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1347,
+          "end": 1360,
+          "object": {
+            "type": "Identifier",
+            "start": 1347,
+            "end": 1353,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1354,
+            "end": 1360,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1361,
+            "end": 1371,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1373,
+            "end": 1416,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1384,
+              "end": 1416,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1388,
+                  "end": 1414,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1388,
+                    "end": 1413,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1388,
+                      "end": 1403,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1388,
+                        "end": 1391,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1392,
+                        "end": 1403,
+                        "name": "formatRange"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1404,
+                        "end": 1407,
+                        "name": "NaN"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1409,
+                        "end": 1412,
+                        "name": "NaN"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1418,
+            "end": 1427,
+            "value": "NaN/NaN",
+            "raw": "\"NaN/NaN\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

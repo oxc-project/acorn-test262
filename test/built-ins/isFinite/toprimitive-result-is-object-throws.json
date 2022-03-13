@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 807,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 676,
+      "end": 689,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 680,
+          "end": 688,
+          "id": {
+            "type": "Identifier",
+            "start": 680,
+            "end": 683,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 686,
+            "end": 688,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 690,
+      "end": 746,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 690,
+        "end": 745,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 690,
+          "end": 713,
+          "object": {
+            "type": "Identifier",
+            "start": 690,
+            "end": 693,
+            "name": "obj"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 694,
+            "end": 712,
+            "object": {
+              "type": "Identifier",
+              "start": 694,
+              "end": 700,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 701,
+              "end": 712,
+              "name": "toPrimitive"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 716,
+          "end": 745,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 727,
+            "end": 745,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 731,
+                "end": 743,
+                "argument": {
+                  "type": "ArrayExpression",
+                  "start": 738,
+                  "end": 742,
+                  "elements": [
+                    {
+                      "type": "Literal",
+                      "start": 739,
+                      "end": 741,
+                      "value": 42,
+                      "raw": "42"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 748,
+      "end": 806,
+      "expression": {
+        "type": "CallExpression",
+        "start": 748,
+        "end": 805,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 748,
+          "end": 761,
+          "object": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 754,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 755,
+            "end": 761,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 762,
+            "end": 771,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 773,
+            "end": 804,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 784,
+              "end": 804,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 788,
+                  "end": 802,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 788,
+                    "end": 801,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 788,
+                      "end": 796,
+                      "name": "isFinite"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 797,
+                        "end": 800,
+                        "name": "obj"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

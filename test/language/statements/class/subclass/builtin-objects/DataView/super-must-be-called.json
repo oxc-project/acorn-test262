@@ -1,0 +1,290 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 927,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 679,
+      "end": 728,
+      "id": {
+        "type": "Identifier",
+        "start": 685,
+        "end": 688,
+        "name": "DV1"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 697,
+        "end": 705,
+        "name": "DataView"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 706,
+        "end": 728,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 710,
+            "end": 726,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 710,
+              "end": 721,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 721,
+              "end": 726,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 724,
+                "end": 726,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 730,
+      "end": 762,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 734,
+          "end": 761,
+          "id": {
+            "type": "Identifier",
+            "start": 734,
+            "end": 740,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 743,
+            "end": 761,
+            "callee": {
+              "type": "Identifier",
+              "start": 747,
+              "end": 758,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 759,
+                "end": 760,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 764,
+      "end": 829,
+      "expression": {
+        "type": "CallExpression",
+        "start": 764,
+        "end": 828,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 764,
+          "end": 777,
+          "object": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 770,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 771,
+            "end": 777,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 778,
+            "end": 792,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 794,
+            "end": 827,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 805,
+              "end": 827,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 809,
+                  "end": 825,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 809,
+                    "end": 824,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 813,
+                      "end": 816,
+                      "name": "DV1"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 817,
+                        "end": 823,
+                        "name": "buffer"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 831,
+      "end": 908,
+      "id": {
+        "type": "Identifier",
+        "start": 837,
+        "end": 840,
+        "name": "DV2"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 849,
+        "end": 857,
+        "name": "DataView"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 858,
+        "end": 908,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 862,
+            "end": 906,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 862,
+              "end": 873,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 873,
+              "end": 906,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 874,
+                  "end": 880,
+                  "name": "length"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 882,
+                "end": 906,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 888,
+                    "end": 902,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 888,
+                      "end": 901,
+                      "callee": {
+                        "type": "Super",
+                        "start": 888,
+                        "end": 893
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 894,
+                          "end": 900,
+                          "name": "length"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 910,
+      "end": 926,
+      "expression": {
+        "type": "NewExpression",
+        "start": 910,
+        "end": 925,
+        "callee": {
+          "type": "Identifier",
+          "start": 914,
+          "end": 917,
+          "name": "DV2"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 918,
+            "end": 924,
+            "name": "buffer"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

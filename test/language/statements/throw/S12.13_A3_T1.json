@@ -1,0 +1,561 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 898,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 248,
+      "end": 259,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 252,
+          "end": 258,
+          "id": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 253,
+            "name": "b"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 254,
+            "end": 258,
+            "value": true,
+            "raw": "true"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 260,
+      "end": 405,
+      "block": {
+        "type": "BlockStatement",
+        "start": 263,
+        "end": 284,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 267,
+            "end": 282,
+            "argument": {
+              "type": "LogicalExpression",
+              "start": 273,
+              "end": 281,
+              "left": {
+                "type": "Identifier",
+                "start": 273,
+                "end": 274,
+                "name": "b"
+              },
+              "operator": "&&",
+              "right": {
+                "type": "Literal",
+                "start": 276,
+                "end": 281,
+                "value": false,
+                "raw": "false"
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 285,
+        "end": 405,
+        "param": {
+          "type": "Identifier",
+          "start": 291,
+          "end": 292,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 293,
+          "end": 405,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 297,
+              "end": 403,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 301,
+                "end": 310,
+                "left": {
+                  "type": "Identifier",
+                  "start": 301,
+                  "end": 302,
+                  "name": "e"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 305,
+                  "end": 310,
+                  "value": false,
+                  "raw": "false"
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 312,
+                "end": 403,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 318,
+                  "end": 402,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 322,
+                    "end": 334,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 335,
+                      "end": 400,
+                      "left": {
+                        "type": "Literal",
+                        "start": 335,
+                        "end": 397,
+                        "value": "#1: Exception === false(operaton &&). Actual:  Exception ===",
+                        "raw": "'#1: Exception === false(operaton &&). Actual:  Exception ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 399,
+                        "end": 400,
+                        "name": "e"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 418,
+      "end": 429,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 422,
+          "end": 428,
+          "id": {
+            "type": "Identifier",
+            "start": 422,
+            "end": 423,
+            "name": "b"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 424,
+            "end": 428,
+            "value": true,
+            "raw": "true"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 430,
+      "end": 573,
+      "block": {
+        "type": "BlockStatement",
+        "start": 433,
+        "end": 454,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 437,
+            "end": 452,
+            "argument": {
+              "type": "LogicalExpression",
+              "start": 443,
+              "end": 451,
+              "left": {
+                "type": "Identifier",
+                "start": 443,
+                "end": 444,
+                "name": "b"
+              },
+              "operator": "||",
+              "right": {
+                "type": "Literal",
+                "start": 446,
+                "end": 451,
+                "value": false,
+                "raw": "false"
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 455,
+        "end": 573,
+        "param": {
+          "type": "Identifier",
+          "start": 461,
+          "end": 462,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 463,
+          "end": 573,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 467,
+              "end": 571,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 471,
+                "end": 479,
+                "left": {
+                  "type": "Identifier",
+                  "start": 471,
+                  "end": 472,
+                  "name": "e"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 475,
+                  "end": 479,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 481,
+                "end": 571,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 487,
+                  "end": 570,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 491,
+                    "end": 503,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 504,
+                      "end": 568,
+                      "left": {
+                        "type": "Literal",
+                        "start": 504,
+                        "end": 565,
+                        "value": "#2: Exception === true(operaton ||). Actual:  Exception ===",
+                        "raw": "'#2: Exception === true(operaton ||). Actual:  Exception ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 567,
+                        "end": 568,
+                        "name": "e"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "TryStatement",
+      "start": 586,
+      "end": 726,
+      "block": {
+        "type": "BlockStatement",
+        "start": 589,
+        "end": 608,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 593,
+            "end": 606,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 599,
+              "end": 605,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 600,
+                "end": 605,
+                "value": false,
+                "raw": "false"
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 609,
+        "end": 726,
+        "param": {
+          "type": "Identifier",
+          "start": 615,
+          "end": 616,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 617,
+          "end": 726,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 621,
+              "end": 724,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 625,
+                "end": 633,
+                "left": {
+                  "type": "Identifier",
+                  "start": 625,
+                  "end": 626,
+                  "name": "e"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 629,
+                  "end": 633,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 635,
+                "end": 724,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 641,
+                  "end": 723,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 645,
+                    "end": 657,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 658,
+                      "end": 721,
+                      "left": {
+                        "type": "Literal",
+                        "start": 658,
+                        "end": 718,
+                        "value": "#3: Exception === true(operaton !). Actual:  Exception ===",
+                        "raw": "'#3: Exception === true(operaton !). Actual:  Exception ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 720,
+                        "end": 721,
+                        "name": "e"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 739,
+      "end": 750,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 743,
+          "end": 749,
+          "id": {
+            "type": "Identifier",
+            "start": 743,
+            "end": 744,
+            "name": "b"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 745,
+            "end": 749,
+            "value": true,
+            "raw": "true"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 751,
+      "end": 897,
+      "block": {
+        "type": "BlockStatement",
+        "start": 754,
+        "end": 778,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 758,
+            "end": 776,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 764,
+              "end": 775,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 765,
+                "end": 775,
+                "expression": {
+                  "type": "LogicalExpression",
+                  "start": 766,
+                  "end": 774,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 766,
+                    "end": 767,
+                    "name": "b"
+                  },
+                  "operator": "&&",
+                  "right": {
+                    "type": "Literal",
+                    "start": 769,
+                    "end": 774,
+                    "value": false,
+                    "raw": "false"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 779,
+        "end": 897,
+        "param": {
+          "type": "Identifier",
+          "start": 785,
+          "end": 786,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 787,
+          "end": 897,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 791,
+              "end": 895,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 795,
+                "end": 803,
+                "left": {
+                  "type": "Identifier",
+                  "start": 795,
+                  "end": 796,
+                  "name": "e"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 799,
+                  "end": 803,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 805,
+                "end": 895,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 811,
+                  "end": 894,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 815,
+                    "end": 827,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 828,
+                      "end": 892,
+                      "left": {
+                        "type": "Literal",
+                        "start": 828,
+                        "end": 889,
+                        "value": "#4: Exception === true(operaton &&). Actual:  Exception ===",
+                        "raw": "'#4: Exception === true(operaton &&). Actual:  Exception ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 891,
+                        "end": 892,
+                        "name": "e"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,154 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1126,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 974,
+      "end": 1055,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 980,
+          "end": 1054,
+          "id": {
+            "type": "Identifier",
+            "start": 980,
+            "end": 988,
+            "name": "datetime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 991,
+            "end": 1054,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 995,
+              "end": 1017,
+              "object": {
+                "type": "Identifier",
+                "start": 995,
+                "end": 1003,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1004,
+                "end": 1017,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1018,
+                "end": 1022,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 1024,
+                "end": 1025,
+                "value": 5,
+                "raw": "5"
+              },
+              {
+                "type": "Literal",
+                "start": 1027,
+                "end": 1028,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 1030,
+                "end": 1032,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 1034,
+                "end": 1036,
+                "value": 34,
+                "raw": "34"
+              },
+              {
+                "type": "Literal",
+                "start": 1038,
+                "end": 1040,
+                "value": 56,
+                "raw": "56"
+              },
+              {
+                "type": "Literal",
+                "start": 1042,
+                "end": 1045,
+                "value": 987,
+                "raw": "987"
+              },
+              {
+                "type": "Literal",
+                "start": 1047,
+                "end": 1050,
+                "value": 650,
+                "raw": "650"
+              },
+              {
+                "type": "Literal",
+                "start": 1052,
+                "end": 1053,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1056,
+      "end": 1125,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1056,
+        "end": 1124,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1056,
+          "end": 1114,
+          "object": {
+            "type": "Identifier",
+            "start": 1056,
+            "end": 1071,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1072,
+            "end": 1114,
+            "name": "checkFractionalSecondDigitsOptionWrongType"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1115,
+            "end": 1123,
+            "name": "datetime"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

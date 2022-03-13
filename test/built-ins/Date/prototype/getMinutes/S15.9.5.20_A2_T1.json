@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 605,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 317,
+      "end": 471,
+      "expression": {
+        "type": "CallExpression",
+        "start": 317,
+        "end": 470,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 317,
+          "end": 333,
+          "object": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 323,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 333,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 337,
+            "end": 387,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 337,
+              "end": 377,
+              "object": {
+                "type": "MemberExpression",
+                "start": 337,
+                "end": 362,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 337,
+                  "end": 351,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 337,
+                    "end": 341,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 342,
+                    "end": 351,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 352,
+                  "end": 362,
+                  "name": "getMinutes"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 363,
+                "end": 377,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 378,
+                "end": 386,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 391,
+            "end": 395,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 399,
+            "end": 468,
+            "value": "Date.prototype.getMinutes.hasOwnProperty(\"length\") must return true",
+            "raw": "'Date.prototype.getMinutes.hasOwnProperty(\"length\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 473,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 473,
+        "end": 603,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 473,
+          "end": 489,
+          "object": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 479,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 480,
+            "end": 489,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 493,
+            "end": 525,
+            "object": {
+              "type": "MemberExpression",
+              "start": 493,
+              "end": 518,
+              "object": {
+                "type": "MemberExpression",
+                "start": 493,
+                "end": 507,
+                "object": {
+                  "type": "Identifier",
+                  "start": 493,
+                  "end": 497,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 498,
+                  "end": 507,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 508,
+                "end": 518,
+                "name": "getMinutes"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 519,
+              "end": 525,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 529,
+            "end": 530,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 534,
+            "end": 601,
+            "value": "The value of Date.prototype.getMinutes.length is expected to be 0",
+            "raw": "'The value of Date.prototype.getMinutes.length is expected to be 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

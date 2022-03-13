@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 675,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 642,
+      "end": 674,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 646,
+          "end": 673,
+          "id": {
+            "type": "Identifier",
+            "start": 646,
+            "end": 647,
+            "name": "C"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 650,
+            "end": 673,
+            "id": null,
+            "superClass": null,
+            "body": {
+              "type": "ClassBody",
+              "start": 656,
+              "end": 673,
+              "body": [
+                {
+                  "type": "PropertyDefinition",
+                  "start": 660,
+                  "end": 662,
+                  "static": false,
+                  "computed": false,
+                  "key": {
+                    "type": "PrivateIdentifier",
+                    "start": 660,
+                    "end": 662,
+                    "name": "x"
+                  },
+                  "value": null
+                },
+                {
+                  "type": "MethodDefinition",
+                  "start": 665,
+                  "end": 671,
+                  "static": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 665,
+                    "end": 666,
+                    "name": "m"
+                  },
+                  "kind": "method",
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 666,
+                    "end": 671,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 669,
+                      "end": 671,
+                      "body": []
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

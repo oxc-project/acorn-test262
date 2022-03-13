@@ -1,0 +1,190 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 668,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 500,
+      "end": 547,
+      "expression": {
+        "type": "CallExpression",
+        "start": 500,
+        "end": 546,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 500,
+          "end": 516,
+          "object": {
+            "type": "Identifier",
+            "start": 500,
+            "end": 506,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 507,
+            "end": 516,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 517,
+            "end": 532,
+            "object": {
+              "type": "CallExpression",
+              "start": 517,
+              "end": 527,
+              "callee": {
+                "type": "Identifier",
+                "start": 517,
+                "end": 525,
+                "name": "Function"
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 528,
+              "end": 532,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 534,
+            "end": 545,
+            "value": "anonymous",
+            "raw": "'anonymous'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 548,
+      "end": 588,
+      "expression": {
+        "type": "CallExpression",
+        "start": 548,
+        "end": 587,
+        "callee": {
+          "type": "Identifier",
+          "start": 548,
+          "end": 567,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 568,
+            "end": 578,
+            "callee": {
+              "type": "Identifier",
+              "start": 568,
+              "end": 576,
+              "name": "Function"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 580,
+            "end": 586,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 589,
+      "end": 627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 589,
+        "end": 626,
+        "callee": {
+          "type": "Identifier",
+          "start": 589,
+          "end": 606,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 607,
+            "end": 617,
+            "callee": {
+              "type": "Identifier",
+              "start": 607,
+              "end": 615,
+              "name": "Function"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 619,
+            "end": 625,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 628,
+      "end": 667,
+      "expression": {
+        "type": "CallExpression",
+        "start": 628,
+        "end": 666,
+        "callee": {
+          "type": "Identifier",
+          "start": 628,
+          "end": 646,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 647,
+            "end": 657,
+            "callee": {
+              "type": "Identifier",
+              "start": 647,
+              "end": 655,
+              "name": "Function"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 659,
+            "end": 665,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

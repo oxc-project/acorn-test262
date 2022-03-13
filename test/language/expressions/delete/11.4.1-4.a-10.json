@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 624,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 497,
+      "end": 527,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 501,
+          "end": 526,
+          "id": {
+            "type": "Identifier",
+            "start": 501,
+            "end": 502,
+            "name": "d"
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "start": 505,
+            "end": 526,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 512,
+              "end": 526,
+              "object": {
+                "type": "Identifier",
+                "start": 512,
+                "end": 516,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 517,
+                "end": 526,
+                "name": "stringify"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 529,
+      "end": 560,
+      "expression": {
+        "type": "CallExpression",
+        "start": 529,
+        "end": 559,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 529,
+          "end": 545,
+          "object": {
+            "type": "Identifier",
+            "start": 529,
+            "end": 535,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 545,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 546,
+            "end": 547,
+            "name": "d"
+          },
+          {
+            "type": "Literal",
+            "start": 549,
+            "end": 553,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 555,
+            "end": 558,
+            "value": "d",
+            "raw": "'d'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 561,
+      "end": 623,
+      "expression": {
+        "type": "CallExpression",
+        "start": 561,
+        "end": 622,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 561,
+          "end": 577,
+          "object": {
+            "type": "Identifier",
+            "start": 561,
+            "end": 567,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 568,
+            "end": 577,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 578,
+            "end": 592,
+            "object": {
+              "type": "Identifier",
+              "start": 578,
+              "end": 582,
+              "name": "JSON"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 583,
+              "end": 592,
+              "name": "stringify"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 594,
+            "end": 603,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 605,
+            "end": 621,
+            "value": "JSON.stringify",
+            "raw": "'JSON.stringify'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

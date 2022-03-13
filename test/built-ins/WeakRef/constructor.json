@@ -1,0 +1,67 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 418,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 336,
+      "end": 417,
+      "expression": {
+        "type": "CallExpression",
+        "start": 336,
+        "end": 416,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 336,
+          "end": 352,
+          "object": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 342,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 352,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 356,
+            "end": 370,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 363,
+              "end": 370,
+              "name": "WeakRef"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 372,
+            "end": 382,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 386,
+            "end": 414,
+            "value": "typeof WeakRef is function",
+            "raw": "'typeof WeakRef is function'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

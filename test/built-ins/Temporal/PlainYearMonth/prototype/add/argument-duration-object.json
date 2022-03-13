@@ -1,0 +1,226 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 474,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 301,
+      "end": 355,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 307,
+          "end": 354,
+          "id": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 312,
+            "name": "nov94"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 315,
+            "end": 354,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 315,
+              "end": 343,
+              "object": {
+                "type": "MemberExpression",
+                "start": 315,
+                "end": 338,
+                "object": {
+                  "type": "Identifier",
+                  "start": 315,
+                  "end": 323,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 324,
+                  "end": 338,
+                  "name": "PlainYearMonth"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 339,
+                "end": 343,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 344,
+                "end": 353,
+                "value": "1994-11",
+                "raw": "\"1994-11\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 356,
+      "end": 402,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 362,
+          "end": 401,
+          "id": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 366,
+            "name": "diff"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 369,
+            "end": 401,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 369,
+              "end": 391,
+              "object": {
+                "type": "MemberExpression",
+                "start": 369,
+                "end": 386,
+                "object": {
+                  "type": "Identifier",
+                  "start": 369,
+                  "end": 377,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 378,
+                  "end": 386,
+                  "name": "Duration"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 387,
+                "end": 391,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 392,
+                "end": 400,
+                "value": "P18Y7M",
+                "raw": "\"P18Y7M\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 403,
+      "end": 473,
+      "expression": {
+        "type": "CallExpression",
+        "start": 403,
+        "end": 472,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 403,
+          "end": 439,
+          "object": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 418,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 439,
+            "name": "assertPlainYearMonth"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 440,
+            "end": 455,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 440,
+              "end": 449,
+              "object": {
+                "type": "Identifier",
+                "start": 440,
+                "end": 445,
+                "name": "nov94"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 446,
+                "end": 449,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 450,
+                "end": 454,
+                "name": "diff"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 457,
+            "end": 461,
+            "value": 2013,
+            "raw": "2013"
+          },
+          {
+            "type": "Literal",
+            "start": 463,
+            "end": 464,
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "type": "Literal",
+            "start": 466,
+            "end": 471,
+            "value": "M06",
+            "raw": "\"M06\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

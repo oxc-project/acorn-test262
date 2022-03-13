@@ -1,0 +1,162 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 915,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 760,
+      "end": 796,
+      "expression": {
+        "type": "CallExpression",
+        "start": 760,
+        "end": 795,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 760,
+          "end": 776,
+          "object": {
+            "type": "Identifier",
+            "start": 760,
+            "end": 766,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 767,
+            "end": 776,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 777,
+            "end": 791,
+            "object": {
+              "type": "Identifier",
+              "start": 777,
+              "end": 784,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 785,
+              "end": 791,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 793,
+            "end": 794,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 798,
+      "end": 837,
+      "expression": {
+        "type": "CallExpression",
+        "start": 798,
+        "end": 836,
+        "callee": {
+          "type": "Identifier",
+          "start": 798,
+          "end": 817,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 818,
+            "end": 825,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 827,
+            "end": 835,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 838,
+      "end": 875,
+      "expression": {
+        "type": "CallExpression",
+        "start": 838,
+        "end": 874,
+        "callee": {
+          "type": "Identifier",
+          "start": 838,
+          "end": 855,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 856,
+            "end": 863,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 865,
+            "end": 873,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 876,
+      "end": 914,
+      "expression": {
+        "type": "CallExpression",
+        "start": 876,
+        "end": 913,
+        "callee": {
+          "type": "Identifier",
+          "start": 876,
+          "end": 894,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 895,
+            "end": 902,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 904,
+            "end": 912,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

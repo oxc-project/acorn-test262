@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 886,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 768,
+      "end": 885,
+      "expression": {
+        "type": "CallExpression",
+        "start": 768,
+        "end": 884,
+        "callee": {
+          "type": "Identifier",
+          "start": 768,
+          "end": 782,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 783,
+            "end": 794,
+            "object": {
+              "type": "Identifier",
+              "start": 783,
+              "end": 790,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 791,
+              "end": 794,
+              "name": "any"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 796,
+            "end": 804,
+            "value": "length",
+            "raw": "'length'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 806,
+            "end": 883,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 810,
+                "end": 828,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 810,
+                  "end": 822,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 824,
+                  "end": 828,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 832,
+                "end": 847,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 832,
+                  "end": 840,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 842,
+                  "end": 847,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 851,
+                "end": 868,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 851,
+                  "end": 861,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 863,
+                  "end": 868,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 872,
+                "end": 880,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 872,
+                  "end": 877,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 879,
+                  "end": 880,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

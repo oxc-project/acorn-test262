@@ -1,0 +1,213 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 924,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 691,
+      "end": 754,
+      "expression": {
+        "type": "CallExpression",
+        "start": 691,
+        "end": 753,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 691,
+          "end": 707,
+          "object": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 697,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 707,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 708,
+            "end": 740,
+            "object": {
+              "type": "MemberExpression",
+              "start": 708,
+              "end": 728,
+              "object": {
+                "type": "Identifier",
+                "start": 708,
+                "end": 718,
+                "name": "Int16Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 719,
+                "end": 728,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 729,
+              "end": 740,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 742,
+            "end": 752,
+            "name": "Int16Array"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 756,
+      "end": 813,
+      "expression": {
+        "type": "CallExpression",
+        "start": 756,
+        "end": 812,
+        "callee": {
+          "type": "Identifier",
+          "start": 756,
+          "end": 775,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 776,
+            "end": 796,
+            "object": {
+              "type": "Identifier",
+              "start": 776,
+              "end": 786,
+              "name": "Int16Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 787,
+              "end": 796,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 798,
+            "end": 811,
+            "value": "constructor",
+            "raw": "\"constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 814,
+      "end": 866,
+      "expression": {
+        "type": "CallExpression",
+        "start": 814,
+        "end": 865,
+        "callee": {
+          "type": "Identifier",
+          "start": 814,
+          "end": 828,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 829,
+            "end": 849,
+            "object": {
+              "type": "Identifier",
+              "start": 829,
+              "end": 839,
+              "name": "Int16Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 840,
+              "end": 849,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 851,
+            "end": 864,
+            "value": "constructor",
+            "raw": "\"constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 867,
+      "end": 923,
+      "expression": {
+        "type": "CallExpression",
+        "start": 867,
+        "end": 922,
+        "callee": {
+          "type": "Identifier",
+          "start": 867,
+          "end": 885,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 886,
+            "end": 906,
+            "object": {
+              "type": "Identifier",
+              "start": 886,
+              "end": 896,
+              "name": "Int16Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 897,
+              "end": 906,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 908,
+            "end": 921,
+            "value": "constructor",
+            "raw": "\"constructor\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

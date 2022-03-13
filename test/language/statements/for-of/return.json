@@ -1,0 +1,388 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 757,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 280,
+      "end": 398,
+      "id": {
+        "type": "Identifier",
+        "start": 290,
+        "end": 296,
+        "name": "values"
+      },
+      "expression": false,
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 299,
+        "end": 398,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 303,
+            "end": 311,
+            "expression": {
+              "type": "YieldExpression",
+              "start": 303,
+              "end": 310,
+              "delegate": false,
+              "argument": {
+                "type": "Literal",
+                "start": 309,
+                "end": 310,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 314,
+            "end": 396,
+            "argument": {
+              "type": "NewExpression",
+              "start": 320,
+              "end": 395,
+              "callee": {
+                "type": "Identifier",
+                "start": 324,
+                "end": 336,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 337,
+                  "end": 394,
+                  "value": "This code is unreachable (following `yield` statement).",
+                  "raw": "'This code is unreachable (following `yield` statement).'"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 399,
+      "end": 423,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 403,
+          "end": 422,
+          "id": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 411,
+            "name": "iterator"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 414,
+            "end": 422,
+            "callee": {
+              "type": "Identifier",
+              "start": 414,
+              "end": 420,
+              "name": "values"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 424,
+      "end": 434,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 428,
+          "end": 433,
+          "id": {
+            "type": "Identifier",
+            "start": 428,
+            "end": 429,
+            "name": "i"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 432,
+            "end": 433,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 436,
+      "end": 701,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 440,
+          "end": 700,
+          "id": {
+            "type": "Identifier",
+            "start": 440,
+            "end": 446,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 449,
+            "end": 700,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 449,
+              "end": 698,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 450,
+                "end": 697,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 461,
+                  "end": 697,
+                  "body": [
+                    {
+                      "type": "ForOfStatement",
+                      "start": 465,
+                      "end": 607,
+                      "await": false,
+                      "left": {
+                        "type": "VariableDeclaration",
+                        "start": 470,
+                        "end": 475,
+                        "declarations": [
+                          {
+                            "type": "VariableDeclarator",
+                            "start": 474,
+                            "end": 475,
+                            "id": {
+                              "type": "Identifier",
+                              "start": 474,
+                              "end": 475,
+                              "name": "x"
+                            },
+                            "init": null
+                          }
+                        ],
+                        "kind": "var"
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 479,
+                        "end": 487,
+                        "name": "iterator"
+                      },
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 489,
+                        "end": 607,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 495,
+                            "end": 499,
+                            "expression": {
+                              "type": "UpdateExpression",
+                              "start": 495,
+                              "end": 498,
+                              "operator": "++",
+                              "prefix": false,
+                              "argument": {
+                                "type": "Identifier",
+                                "start": 495,
+                                "end": 496,
+                                "name": "i"
+                              }
+                            }
+                          },
+                          {
+                            "type": "ReturnStatement",
+                            "start": 504,
+                            "end": 514,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 511,
+                              "end": 513,
+                              "value": 34,
+                              "raw": "34"
+                            }
+                          },
+                          {
+                            "type": "ThrowStatement",
+                            "start": 520,
+                            "end": 603,
+                            "argument": {
+                              "type": "NewExpression",
+                              "start": 526,
+                              "end": 602,
+                              "callee": {
+                                "type": "Identifier",
+                                "start": 530,
+                                "end": 542,
+                                "name": "Test262Error"
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "start": 543,
+                                  "end": 601,
+                                  "value": "This code is unreachable (following `return` statement).",
+                                  "raw": "'This code is unreachable (following `return` statement).'"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "ThrowStatement",
+                      "start": 611,
+                      "end": 695,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 617,
+                        "end": 694,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 621,
+                          "end": 633,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 634,
+                            "end": 693,
+                            "value": "This code is unreachable (following `for..of` statement).",
+                            "raw": "'This code is unreachable (following `for..of` statement).'"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 703,
+      "end": 732,
+      "expression": {
+        "type": "CallExpression",
+        "start": 703,
+        "end": 731,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 703,
+          "end": 719,
+          "object": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 709,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 719,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 720,
+            "end": 726,
+            "name": "result"
+          },
+          {
+            "type": "Literal",
+            "start": 728,
+            "end": 730,
+            "value": 34,
+            "raw": "34"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 733,
+      "end": 756,
+      "expression": {
+        "type": "CallExpression",
+        "start": 733,
+        "end": 755,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 733,
+          "end": 749,
+          "object": {
+            "type": "Identifier",
+            "start": 733,
+            "end": 739,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 740,
+            "end": 749,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 750,
+            "end": 751,
+            "name": "i"
+          },
+          {
+            "type": "Literal",
+            "start": 753,
+            "end": 754,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

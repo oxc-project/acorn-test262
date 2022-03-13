@@ -1,0 +1,113 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 370,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 260,
+      "end": 369,
+      "block": {
+        "type": "BlockStatement",
+        "start": 263,
+        "end": 280,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 267,
+            "end": 278,
+            "argument": {
+              "type": "Literal",
+              "start": 273,
+              "end": 277,
+              "value": null,
+              "raw": "null"
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 281,
+        "end": 369,
+        "param": {
+          "type": "Identifier",
+          "start": 287,
+          "end": 288,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 289,
+          "end": 369,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 293,
+              "end": 367,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 297,
+                "end": 305,
+                "left": {
+                  "type": "Identifier",
+                  "start": 297,
+                  "end": 298,
+                  "name": "e"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 301,
+                  "end": 305,
+                  "value": null,
+                  "raw": "null"
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 307,
+                "end": 367,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 313,
+                  "end": 366,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 317,
+                    "end": 329,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 330,
+                      "end": 365,
+                      "left": {
+                        "type": "Literal",
+                        "start": 330,
+                        "end": 363,
+                        "value": "#1: Exception ===null. Actual: ",
+                        "raw": "'#1: Exception ===null. Actual: '"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 364,
+                        "end": 365,
+                        "name": "e"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

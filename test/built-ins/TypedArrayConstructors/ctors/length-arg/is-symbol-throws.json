@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 690,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 557,
+      "end": 577,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 561,
+          "end": 576,
+          "id": {
+            "type": "Identifier",
+            "start": 561,
+            "end": 562,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 565,
+            "end": 576,
+            "callee": {
+              "type": "Identifier",
+              "start": 565,
+              "end": 571,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 572,
+                "end": 575,
+                "value": "1",
+                "raw": "'1'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 579,
+      "end": 689,
+      "expression": {
+        "type": "CallExpression",
+        "start": 579,
+        "end": 688,
+        "callee": {
+          "type": "Identifier",
+          "start": 579,
+          "end": 609,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 610,
+            "end": 687,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 619,
+                "end": 621,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 623,
+              "end": 687,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 627,
+                  "end": 685,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 627,
+                    "end": 684,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 627,
+                      "end": 640,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 627,
+                        "end": 633,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 634,
+                        "end": 640,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 641,
+                        "end": 650,
+                        "name": "TypeError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 652,
+                        "end": 683,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 663,
+                          "end": 683,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 669,
+                              "end": 679,
+                              "expression": {
+                                "type": "NewExpression",
+                                "start": 669,
+                                "end": 678,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 673,
+                                  "end": 675,
+                                  "name": "TA"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 676,
+                                    "end": 677,
+                                    "name": "s"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,62 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 875,
+  "body": [
+    {
+      "type": "SwitchStatement",
+      "start": 824,
+      "end": 871,
+      "discriminant": {
+        "type": "Literal",
+        "start": 832,
+        "end": 833,
+        "value": 0,
+        "raw": "0"
+      },
+      "cases": [
+        {
+          "type": "SwitchCase",
+          "start": 837,
+          "end": 869,
+          "consequent": [
+            {
+              "type": "FunctionDeclaration",
+              "start": 846,
+              "end": 869,
+              "id": {
+                "type": "Identifier",
+                "start": 863,
+                "end": 864,
+                "name": "x"
+              },
+              "expression": false,
+              "generator": true,
+              "async": true,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 867,
+                "end": 869,
+                "body": []
+              }
+            }
+          ],
+          "test": null
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 872,
+      "end": 874,
+      "expression": {
+        "type": "Identifier",
+        "start": 872,
+        "end": 873,
+        "name": "x"
+      }
+    }
+  ],
+  "sourceType": "script"
+}

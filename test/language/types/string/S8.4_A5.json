@@ -1,0 +1,172 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 483,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 260,
+      "end": 332,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 264,
+        "end": 278,
+        "left": {
+          "type": "Literal",
+          "start": 264,
+          "end": 270,
+          "value": "x\u0000y",
+          "raw": "\"x\\0y\""
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 275,
+          "end": 278,
+          "value": "x",
+          "raw": "\"x\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 280,
+        "end": 332,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 284,
+            "end": 330,
+            "argument": {
+              "type": "NewExpression",
+              "start": 290,
+              "end": 329,
+              "callee": {
+                "type": "Identifier",
+                "start": 294,
+                "end": 306,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 307,
+                  "end": 328,
+                  "value": "#1: \"x\\0y\" !== \"x\"",
+                  "raw": "'#1: \"x\\\\0y\" !== \"x\"'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 345,
+      "end": 482,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 349,
+        "end": 390,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 350,
+          "end": 390,
+          "expression": {
+            "type": "LogicalExpression",
+            "start": 351,
+            "end": 389,
+            "left": {
+              "type": "ParenthesizedExpression",
+              "start": 351,
+              "end": 368,
+              "expression": {
+                "type": "BinaryExpression",
+                "start": 352,
+                "end": 367,
+                "left": {
+                  "type": "Literal",
+                  "start": 352,
+                  "end": 358,
+                  "value": "x\u0000a",
+                  "raw": "\"x\\0a\""
+                },
+                "operator": "<",
+                "right": {
+                  "type": "Literal",
+                  "start": 361,
+                  "end": 367,
+                  "value": "x\u0000b",
+                  "raw": "\"x\\0b\""
+                }
+              }
+            },
+            "operator": "&&",
+            "right": {
+              "type": "ParenthesizedExpression",
+              "start": 372,
+              "end": 389,
+              "expression": {
+                "type": "BinaryExpression",
+                "start": 373,
+                "end": 388,
+                "left": {
+                  "type": "Literal",
+                  "start": 373,
+                  "end": 379,
+                  "value": "x\u0000b",
+                  "raw": "\"x\\0b\""
+                },
+                "operator": "<",
+                "right": {
+                  "type": "Literal",
+                  "start": 382,
+                  "end": 388,
+                  "value": "x\u0000c",
+                  "raw": "\"x\\0c\""
+                }
+              }
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 392,
+        "end": 482,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 396,
+            "end": 480,
+            "argument": {
+              "type": "NewExpression",
+              "start": 402,
+              "end": 479,
+              "callee": {
+                "type": "Identifier",
+                "start": 406,
+                "end": 418,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 419,
+                  "end": 478,
+                  "value": "#2: ((\"x\\0a\" < \"x\\0b\") && (\"x\\0b\" < \"x\\0c\")) === true",
+                  "raw": "'#2: ((\"x\\\\0a\" < \"x\\\\0b\") && (\"x\\\\0b\" < \"x\\\\0c\")) === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

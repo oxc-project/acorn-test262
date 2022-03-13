@@ -1,0 +1,249 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 785,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 542,
+      "end": 571,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 546,
+          "end": 570,
+          "id": {
+            "type": "Identifier",
+            "start": 546,
+            "end": 550,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 553,
+            "end": 570,
+            "callee": {
+              "type": "Identifier",
+              "start": 557,
+              "end": 561,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 562,
+                "end": 566,
+                "value": 2016,
+                "raw": "2016"
+              },
+              {
+                "type": "Literal",
+                "start": 568,
+                "end": 569,
+                "value": 6,
+                "raw": "6"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 572,
+      "end": 588,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 576,
+          "end": 587,
+          "id": {
+            "type": "Identifier",
+            "start": 576,
+            "end": 587,
+            "name": "returnValue"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 590,
+      "end": 620,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 590,
+        "end": 619,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 590,
+          "end": 601,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 604,
+          "end": 619,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 604,
+            "end": 616,
+            "object": {
+              "type": "Identifier",
+              "start": 604,
+              "end": 608,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 609,
+              "end": 616,
+              "name": "setTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 617,
+              "end": 618,
+              "value": 6,
+              "raw": "6"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 622,
+      "end": 698,
+      "expression": {
+        "type": "CallExpression",
+        "start": 622,
+        "end": 697,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 622,
+          "end": 638,
+          "object": {
+            "type": "Identifier",
+            "start": 622,
+            "end": 628,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 629,
+            "end": 638,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 642,
+            "end": 653,
+            "name": "returnValue"
+          },
+          {
+            "type": "Literal",
+            "start": 655,
+            "end": 656,
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "type": "Literal",
+            "start": 658,
+            "end": 695,
+            "value": "within unit boundary (return value)",
+            "raw": "'within unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 699,
+      "end": 784,
+      "expression": {
+        "type": "CallExpression",
+        "start": 699,
+        "end": 783,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 699,
+          "end": 715,
+          "object": {
+            "type": "Identifier",
+            "start": 699,
+            "end": 705,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 715,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 719,
+            "end": 733,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 719,
+              "end": 731,
+              "object": {
+                "type": "Identifier",
+                "start": 719,
+                "end": 723,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 724,
+                "end": 731,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 735,
+            "end": 736,
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "type": "Literal",
+            "start": 738,
+            "end": 781,
+            "value": "within unit boundary ([[DateValue]] slot)",
+            "raw": "'within unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

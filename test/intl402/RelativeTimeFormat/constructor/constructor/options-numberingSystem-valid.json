@@ -1,0 +1,359 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 739,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 318,
+      "end": 379,
+      "expression": {
+        "type": "CallExpression",
+        "start": 318,
+        "end": 378,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 318,
+          "end": 334,
+          "object": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 324,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 334,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 335,
+            "end": 365,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 342,
+              "end": 365,
+              "object": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 346,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 347,
+                "end": 365,
+                "name": "RelativeTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 367,
+            "end": 377,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 381,
+      "end": 539,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 387,
+          "end": 538,
+          "id": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 414,
+            "name": "validNumberingSystemOptions"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 417,
+            "end": 538,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 421,
+                "end": 426,
+                "value": "abc",
+                "raw": "\"abc\""
+              },
+              {
+                "type": "Literal",
+                "start": 430,
+                "end": 436,
+                "value": "abcd",
+                "raw": "\"abcd\""
+              },
+              {
+                "type": "Literal",
+                "start": 440,
+                "end": 447,
+                "value": "abcde",
+                "raw": "\"abcde\""
+              },
+              {
+                "type": "Literal",
+                "start": 451,
+                "end": 459,
+                "value": "abcdef",
+                "raw": "\"abcdef\""
+              },
+              {
+                "type": "Literal",
+                "start": 463,
+                "end": 472,
+                "value": "abcdefg",
+                "raw": "\"abcdefg\""
+              },
+              {
+                "type": "Literal",
+                "start": 476,
+                "end": 486,
+                "value": "abcdefgh",
+                "raw": "\"abcdefgh\""
+              },
+              {
+                "type": "Literal",
+                "start": 490,
+                "end": 500,
+                "value": "12345678",
+                "raw": "\"12345678\""
+              },
+              {
+                "type": "Literal",
+                "start": 504,
+                "end": 514,
+                "value": "1234abcd",
+                "raw": "\"1234abcd\""
+              },
+              {
+                "type": "Literal",
+                "start": 518,
+                "end": 535,
+                "value": "1234abcd-abc123",
+                "raw": "\"1234abcd-abc123\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 541,
+      "end": 738,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 546,
+        "end": 567,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 552,
+            "end": 567,
+            "id": {
+              "type": "Identifier",
+              "start": 552,
+              "end": 567,
+              "name": "numberingSystem"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 571,
+        "end": 598,
+        "name": "validNumberingSystemOptions"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 600,
+        "end": 738,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 604,
+            "end": 669,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 610,
+                "end": 668,
+                "id": {
+                  "type": "Identifier",
+                  "start": 610,
+                  "end": 613,
+                  "name": "rtf"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 616,
+                  "end": 668,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 620,
+                    "end": 643,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 620,
+                      "end": 624,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 625,
+                      "end": 643,
+                      "name": "RelativeTimeFormat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 644,
+                      "end": 648,
+                      "value": "en",
+                      "raw": "\"en\""
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "start": 650,
+                      "end": 667,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 651,
+                          "end": 666,
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 651,
+                            "end": 666,
+                            "name": "numberingSystem"
+                          },
+                          "kind": "init",
+                          "value": {
+                            "type": "Identifier",
+                            "start": 651,
+                            "end": 666,
+                            "name": "numberingSystem"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 672,
+            "end": 736,
+            "expression": {
+              "type": "CallExpression",
+              "start": 672,
+              "end": 735,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 672,
+                "end": 688,
+                "object": {
+                  "type": "Identifier",
+                  "start": 672,
+                  "end": 678,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 679,
+                  "end": 688,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 689,
+                  "end": 726,
+                  "object": {
+                    "type": "CallExpression",
+                    "start": 689,
+                    "end": 710,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 689,
+                      "end": 708,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 689,
+                        "end": 692,
+                        "name": "rtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 693,
+                        "end": 708,
+                        "name": "resolvedOptions"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 711,
+                    "end": 726,
+                    "name": "numberingSystem"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 728,
+                  "end": 734,
+                  "value": "latn",
+                  "raw": "\"latn\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

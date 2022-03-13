@@ -1,0 +1,182 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 474,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 319,
+      "end": 348,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 323,
+          "end": 347,
+          "id": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 326,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 329,
+            "end": 347,
+            "callee": {
+              "type": "Identifier",
+              "start": 333,
+              "end": 339,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 340,
+                "end": 346,
+                "value": "soap",
+                "raw": "\"soap\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 350,
+      "end": 400,
+      "expression": {
+        "type": "CallExpression",
+        "start": 350,
+        "end": 399,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 350,
+          "end": 394,
+          "object": {
+            "type": "ParenthesizedExpression",
+            "start": 350,
+            "end": 389,
+            "expression": {
+              "type": "FunctionExpression",
+              "start": 351,
+              "end": 388,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 362,
+                "end": 388,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 366,
+                    "end": 386,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 366,
+                      "end": 385,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 366,
+                        "end": 378,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 366,
+                          "end": 370
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 371,
+                          "end": 378,
+                          "name": "touched"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 381,
+                        "end": 385,
+                        "value": true,
+                        "raw": "true"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 390,
+            "end": 394,
+            "name": "call"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 395,
+            "end": 398,
+            "name": "obj"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 402,
+      "end": 473,
+      "expression": {
+        "type": "CallExpression",
+        "start": 402,
+        "end": 472,
+        "callee": {
+          "type": "Identifier",
+          "start": 402,
+          "end": 408,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 409,
+            "end": 420,
+            "object": {
+              "type": "Identifier",
+              "start": 409,
+              "end": 412,
+              "name": "obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 413,
+              "end": 420,
+              "name": "touched"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 471,
+            "value": "The value of obj.touched is expected to be true",
+            "raw": "'The value of obj.touched is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

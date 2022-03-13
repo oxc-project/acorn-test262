@@ -1,0 +1,31 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 449,
+  "body": [
+    {
+      "type": "ForInStatement",
+      "start": 429,
+      "end": 448,
+      "left": {
+        "type": "Identifier",
+        "start": 434,
+        "end": 437,
+        "name": "let"
+      },
+      "right": {
+        "type": "ObjectExpression",
+        "start": 441,
+        "end": 443,
+        "properties": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 445,
+        "end": 448,
+        "body": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

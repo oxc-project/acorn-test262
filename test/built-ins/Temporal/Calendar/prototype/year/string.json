@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 909,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 773,
+      "end": 816,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 777,
+          "end": 815,
+          "id": {
+            "type": "Identifier",
+            "start": 777,
+            "end": 780,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 783,
+            "end": 815,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 787,
+              "end": 804,
+              "object": {
+                "type": "Identifier",
+                "start": 787,
+                "end": 795,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 796,
+                "end": 804,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 805,
+                "end": 814,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 818,
+      "end": 908,
+      "expression": {
+        "type": "CallExpression",
+        "start": 818,
+        "end": 907,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 818,
+          "end": 834,
+          "object": {
+            "type": "Identifier",
+            "start": 818,
+            "end": 824,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 825,
+            "end": 834,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 835,
+            "end": 857,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 835,
+              "end": 843,
+              "object": {
+                "type": "Identifier",
+                "start": 835,
+                "end": 838,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 839,
+                "end": 843,
+                "name": "year"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 844,
+                "end": 856,
+                "value": "2019-03-15",
+                "raw": "\"2019-03-15\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 859,
+            "end": 863,
+            "value": 2019,
+            "raw": "2019"
+          },
+          {
+            "type": "Literal",
+            "start": 865,
+            "end": 906,
+            "value": "cal.year(\"2019-03-15\") must return 2019",
+            "raw": "'cal.year(\"2019-03-15\") must return 2019'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

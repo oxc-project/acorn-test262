@@ -1,0 +1,119 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 450,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 328,
+      "end": 367,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 332,
+          "end": 366,
+          "id": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 338,
+            "name": "errObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 341,
+            "end": 366,
+            "callee": {
+              "type": "Identifier",
+              "start": 345,
+              "end": 350,
+              "name": "Error"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 365,
+                "value": "ErrorMessage",
+                "raw": "\"ErrorMessage\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 369,
+      "end": 449,
+      "expression": {
+        "type": "CallExpression",
+        "start": 369,
+        "end": 448,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 369,
+          "end": 385,
+          "object": {
+            "type": "Identifier",
+            "start": 369,
+            "end": 375,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 385,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 386,
+            "end": 403,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 386,
+              "end": 401,
+              "object": {
+                "type": "Identifier",
+                "start": 386,
+                "end": 392,
+                "name": "errObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 393,
+                "end": 401,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 405,
+            "end": 426,
+            "value": "Error: ErrorMessage",
+            "raw": "\"Error: ErrorMessage\""
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 447,
+            "value": "errObj.toString()",
+            "raw": "'errObj.toString()'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

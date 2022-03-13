@@ -1,0 +1,132 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 510,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 419,
+      "end": 509,
+      "expression": {
+        "type": "CallExpression",
+        "start": 419,
+        "end": 508,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 419,
+          "end": 435,
+          "object": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 425,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 435,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 436,
+            "end": 489,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 436,
+              "end": 457,
+              "object": {
+                "type": "Identifier",
+                "start": 436,
+                "end": 442,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 443,
+                "end": 457,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 458,
+                "end": 488,
+                "object": {
+                  "type": "NewExpression",
+                  "start": 458,
+                  "end": 479,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 462,
+                    "end": 473,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 462,
+                      "end": 466,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 467,
+                      "end": 473,
+                      "name": "Locale"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 474,
+                      "end": 478,
+                      "value": "en",
+                      "raw": "'en'"
+                    }
+                  ]
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 480,
+                  "end": 488,
+                  "name": "textInfo"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 491,
+            "end": 507,
+            "object": {
+              "type": "Identifier",
+              "start": 491,
+              "end": 497,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 498,
+              "end": 507,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

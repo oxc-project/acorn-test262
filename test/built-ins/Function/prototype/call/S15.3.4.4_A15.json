@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 394,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 243,
+      "end": 393,
+      "expression": {
+        "type": "CallExpression",
+        "start": 243,
+        "end": 392,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 243,
+          "end": 256,
+          "object": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 256,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 257,
+            "end": 266,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 268,
+            "end": 322,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 279,
+              "end": 322,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 283,
+                  "end": 320,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 283,
+                    "end": 319,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 283,
+                      "end": 311,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 283,
+                        "end": 306,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 283,
+                          "end": 301,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 283,
+                            "end": 291,
+                            "name": "Function"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 292,
+                            "end": 301,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 302,
+                          "end": 306,
+                          "name": "call"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 307,
+                        "end": 311,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 312,
+                        "end": 314,
+                        "properties": []
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 316,
+                        "end": 318,
+                        "properties": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 324,
+            "end": 391,
+            "value": "Function.prototype.call.call({}, {}) throws a TypeError exception",
+            "raw": "'Function.prototype.call.call({}, {}) throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

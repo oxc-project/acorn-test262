@@ -1,0 +1,367 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 769,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 448,
+      "end": 464,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 452,
+          "end": 463,
+          "id": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 458,
+            "name": "arrObj"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 461,
+            "end": 463,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 466,
+      "end": 502,
+      "id": {
+        "type": "Identifier",
+        "start": 475,
+        "end": 482,
+        "name": "getFunc"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 485,
+        "end": 502,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 489,
+            "end": 500,
+            "argument": {
+              "type": "Literal",
+              "start": 496,
+              "end": 499,
+              "value": 100,
+              "raw": "100"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 503,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 503,
+        "end": 603,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 503,
+          "end": 524,
+          "object": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 509,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 524,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 525,
+            "end": 531,
+            "name": "arrObj"
+          },
+          {
+            "type": "Literal",
+            "start": 533,
+            "end": 536,
+            "value": "0",
+            "raw": "\"0\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 538,
+            "end": 602,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 542,
+                "end": 578,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 542,
+                  "end": 545,
+                  "name": "get"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 547,
+                  "end": 578,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 558,
+                    "end": 578,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 564,
+                        "end": 574,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 571,
+                          "end": 573,
+                          "value": 12,
+                          "raw": "12"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 582,
+                "end": 600,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 582,
+                  "end": 594,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 596,
+                  "end": 600,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 605,
+      "end": 660,
+      "expression": {
+        "type": "CallExpression",
+        "start": 605,
+        "end": 659,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 605,
+          "end": 626,
+          "object": {
+            "type": "Identifier",
+            "start": 605,
+            "end": 611,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 612,
+            "end": 626,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 627,
+            "end": 633,
+            "name": "arrObj"
+          },
+          {
+            "type": "Literal",
+            "start": 635,
+            "end": 638,
+            "value": "0",
+            "raw": "\"0\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 640,
+            "end": 658,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 644,
+                "end": 656,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 644,
+                  "end": 647,
+                  "name": "get"
+                },
+                "value": {
+                  "type": "Identifier",
+                  "start": 649,
+                  "end": 656,
+                  "name": "getFunc"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 661,
+      "end": 699,
+      "expression": {
+        "type": "CallExpression",
+        "start": 661,
+        "end": 698,
+        "callee": {
+          "type": "Identifier",
+          "start": 661,
+          "end": 674,
+          "name": "verifyEqualTo"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 675,
+            "end": 681,
+            "name": "arrObj"
+          },
+          {
+            "type": "Literal",
+            "start": 683,
+            "end": 686,
+            "value": "0",
+            "raw": "\"0\""
+          },
+          {
+            "type": "CallExpression",
+            "start": 688,
+            "end": 697,
+            "callee": {
+              "type": "Identifier",
+              "start": 688,
+              "end": 695,
+              "name": "getFunc"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 734,
+      "expression": {
+        "type": "CallExpression",
+        "start": 701,
+        "end": 733,
+        "callee": {
+          "type": "Identifier",
+          "start": 701,
+          "end": 720,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 721,
+            "end": 727,
+            "name": "arrObj"
+          },
+          {
+            "type": "Literal",
+            "start": 729,
+            "end": 732,
+            "value": "0",
+            "raw": "\"0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 736,
+      "end": 768,
+      "expression": {
+        "type": "CallExpression",
+        "start": 736,
+        "end": 767,
+        "callee": {
+          "type": "Identifier",
+          "start": 736,
+          "end": 754,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 755,
+            "end": 761,
+            "name": "arrObj"
+          },
+          {
+            "type": "Literal",
+            "start": 763,
+            "end": 766,
+            "value": "0",
+            "raw": "\"0\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

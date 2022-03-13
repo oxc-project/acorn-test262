@@ -1,0 +1,210 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 547,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 367,
+      "end": 387,
+      "id": {
+        "type": "Identifier",
+        "start": 376,
+        "end": 378,
+        "name": "af"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "RestElement",
+          "start": 379,
+          "end": 383,
+          "argument": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 383,
+            "name": "a"
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 385,
+        "end": 387,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 388,
+      "end": 411,
+      "id": {
+        "type": "Identifier",
+        "start": 397,
+        "end": 399,
+        "name": "bf"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 400,
+          "end": 401,
+          "name": "a"
+        },
+        {
+          "type": "RestElement",
+          "start": 403,
+          "end": 407,
+          "argument": {
+            "type": "Identifier",
+            "start": 406,
+            "end": 407,
+            "name": "b"
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 409,
+        "end": 411,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 413,
+      "end": 479,
+      "expression": {
+        "type": "CallExpression",
+        "start": 413,
+        "end": 478,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 413,
+          "end": 429,
+          "object": {
+            "type": "Identifier",
+            "start": 413,
+            "end": 419,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 420,
+            "end": 429,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 430,
+            "end": 439,
+            "object": {
+              "type": "Identifier",
+              "start": 430,
+              "end": 432,
+              "name": "af"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 433,
+              "end": 439,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 441,
+            "end": 442,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 444,
+            "end": 477,
+            "value": "The value of `af.length` is `0`",
+            "raw": "\"The value of `af.length` is `0`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 480,
+      "end": 546,
+      "expression": {
+        "type": "CallExpression",
+        "start": 480,
+        "end": 545,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 480,
+          "end": 496,
+          "object": {
+            "type": "Identifier",
+            "start": 480,
+            "end": 486,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 487,
+            "end": 496,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 497,
+            "end": 506,
+            "object": {
+              "type": "Identifier",
+              "start": 497,
+              "end": 499,
+              "name": "bf"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 500,
+              "end": 506,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 508,
+            "end": 509,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 511,
+            "end": 544,
+            "value": "The value of `bf.length` is `1`",
+            "raw": "\"The value of `bf.length` is `1`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

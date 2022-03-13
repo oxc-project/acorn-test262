@@ -1,0 +1,373 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 846,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 330,
+      "end": 389,
+      "expression": {
+        "type": "CallExpression",
+        "start": 330,
+        "end": 388,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 330,
+          "end": 346,
+          "object": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 336,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 337,
+            "end": 346,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 347,
+            "end": 381,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 347,
+              "end": 368,
+              "object": {
+                "type": "Identifier",
+                "start": 347,
+                "end": 353,
+                "name": "RegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 354,
+                "end": 368,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 369,
+                "end": 380,
+                "value": "prototype",
+                "raw": "'prototype'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 383,
+            "end": 387,
+            "value": true,
+            "raw": "true"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 391,
+      "end": 434,
+      "expression": {
+        "type": "CallExpression",
+        "start": 391,
+        "end": 433,
+        "callee": {
+          "type": "Identifier",
+          "start": 391,
+          "end": 412,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 413,
+            "end": 419,
+            "name": "RegExp"
+          },
+          {
+            "type": "Literal",
+            "start": 421,
+            "end": 432,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "TryStatement",
+      "start": 436,
+      "end": 595,
+      "block": {
+        "type": "BlockStatement",
+        "start": 440,
+        "end": 495,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 444,
+            "end": 493,
+            "expression": {
+              "type": "CallExpression",
+              "start": 444,
+              "end": 492,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 444,
+                "end": 460,
+                "object": {
+                  "type": "Identifier",
+                  "start": 444,
+                  "end": 450,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 451,
+                  "end": 460,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 461,
+                  "end": 484,
+                  "operator": "delete",
+                  "prefix": true,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 468,
+                    "end": 484,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 468,
+                      "end": 474,
+                      "name": "RegExp"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 475,
+                      "end": 484,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 486,
+                  "end": 491,
+                  "value": false,
+                  "raw": "false"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 496,
+        "end": 595,
+        "param": {
+          "type": "Identifier",
+          "start": 503,
+          "end": 504,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 506,
+          "end": 595,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 510,
+              "end": 559,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 514,
+                "end": 539,
+                "left": {
+                  "type": "Identifier",
+                  "start": 514,
+                  "end": 515,
+                  "name": "e"
+                },
+                "operator": "instanceof",
+                "right": {
+                  "type": "Identifier",
+                  "start": 527,
+                  "end": 539,
+                  "name": "Test262Error"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 541,
+                "end": 559,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 547,
+                    "end": 555,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 553,
+                      "end": 554,
+                      "name": "e"
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            },
+            {
+              "type": "ExpressionStatement",
+              "start": 562,
+              "end": 593,
+              "expression": {
+                "type": "CallExpression",
+                "start": 562,
+                "end": 592,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 562,
+                  "end": 568,
+                  "name": "assert"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 569,
+                    "end": 591,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 569,
+                      "end": 570,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 582,
+                      "end": 591,
+                      "name": "TypeError"
+                    }
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 597,
+      "end": 755,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 601,
+        "end": 644,
+        "left": {
+          "type": "CallExpression",
+          "start": 601,
+          "end": 635,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 601,
+            "end": 622,
+            "object": {
+              "type": "Identifier",
+              "start": 601,
+              "end": 607,
+              "name": "RegExp"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 608,
+              "end": 622,
+              "name": "hasOwnProperty"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 623,
+              "end": 634,
+              "value": "prototype",
+              "raw": "'prototype'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 640,
+          "end": 644,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 646,
+        "end": 755,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 652,
+            "end": 753,
+            "argument": {
+              "type": "NewExpression",
+              "start": 658,
+              "end": 752,
+              "callee": {
+                "type": "Identifier",
+                "start": 662,
+                "end": 674,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 675,
+                  "end": 751,
+                  "value": "#2: delete RegExp.prototype; RegExp.hasOwnProperty('prototype') === true",
+                  "raw": "'#2: delete RegExp.prototype; RegExp.hasOwnProperty(\\'prototype\\') === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

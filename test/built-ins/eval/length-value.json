@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 347,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 243,
+      "end": 346,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 247,
+        "end": 264,
+        "left": {
+          "type": "MemberExpression",
+          "start": 247,
+          "end": 258,
+          "object": {
+            "type": "Identifier",
+            "start": 247,
+            "end": 251,
+            "name": "eval"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 258,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 263,
+          "end": 264,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 266,
+        "end": 346,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 270,
+            "end": 344,
+            "argument": {
+              "type": "NewExpression",
+              "start": 276,
+              "end": 343,
+              "callee": {
+                "type": "Identifier",
+                "start": 280,
+                "end": 292,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 293,
+                  "end": 342,
+                  "left": {
+                    "type": "Literal",
+                    "start": 293,
+                    "end": 326,
+                    "value": "#1: eval.length === 1. Actual: ",
+                    "raw": "'#1: eval.length === 1. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 329,
+                    "end": 342,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 330,
+                      "end": 341,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 330,
+                        "end": 334,
+                        "name": "eval"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 335,
+                        "end": 341,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

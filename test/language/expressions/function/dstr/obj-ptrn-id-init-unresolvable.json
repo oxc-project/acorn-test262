@@ -1,0 +1,163 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1916,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1807,
+      "end": 1858,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1811,
+          "end": 1857,
+          "id": {
+            "type": "Identifier",
+            "start": 1811,
+            "end": 1812,
+            "name": "f"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 1815,
+            "end": 1857,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "ObjectPattern",
+                "start": 1824,
+                "end": 1853,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1826,
+                    "end": 1851,
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1826,
+                      "end": 1827,
+                      "name": "x"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "AssignmentPattern",
+                      "start": 1826,
+                      "end": 1851,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 1826,
+                        "end": 1827,
+                        "name": "x"
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 1830,
+                        "end": 1851,
+                        "name": "unresolvableReference"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1855,
+              "end": 1857,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1860,
+      "end": 1915,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1860,
+        "end": 1914,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1860,
+          "end": 1873,
+          "object": {
+            "type": "Identifier",
+            "start": 1860,
+            "end": 1866,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1867,
+            "end": 1873,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1874,
+            "end": 1888,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1890,
+            "end": 1913,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1901,
+              "end": 1913,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1905,
+                  "end": 1911,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1905,
+                    "end": 1910,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1905,
+                      "end": 1906,
+                      "name": "f"
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 1907,
+                        "end": 1909,
+                        "properties": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

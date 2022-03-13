@@ -1,0 +1,147 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 705,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 546,
+      "end": 704,
+      "expression": {
+        "type": "CallExpression",
+        "start": 546,
+        "end": 703,
+        "callee": {
+          "type": "Identifier",
+          "start": 546,
+          "end": 560,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 561,
+            "end": 591,
+            "object": {
+              "type": "Identifier",
+              "start": 561,
+              "end": 581,
+              "name": "FinalizationRegistry"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 582,
+              "end": 591,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 593,
+            "end": 606,
+            "value": "constructor",
+            "raw": "'constructor'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 608,
+            "end": 702,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 612,
+                "end": 639,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 612,
+                  "end": 617,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Identifier",
+                  "start": 619,
+                  "end": 639,
+                  "name": "FinalizationRegistry"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 643,
+                "end": 657,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 643,
+                  "end": 651,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 653,
+                  "end": 657,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 661,
+                "end": 678,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 661,
+                  "end": 671,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 673,
+                  "end": 678,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 682,
+                "end": 700,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 682,
+                  "end": 694,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 696,
+                  "end": 700,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

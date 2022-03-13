@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 684,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 634,
+      "end": 683,
+      "expression": {
+        "type": "CallExpression",
+        "start": 634,
+        "end": 682,
+        "callee": {
+          "type": "Identifier",
+          "start": 634,
+          "end": 640,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 641,
+            "end": 681,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 641,
+              "end": 665,
+              "object": {
+                "type": "Literal",
+                "start": 641,
+                "end": 660,
+                "value": {},
+                "raw": "/^[\\ud834\\udf06]$/u",
+                "regex": {
+                  "pattern": "^[\\ud834\\udf06]$",
+                  "flags": "u"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 661,
+                "end": 665,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 666,
+                "end": 680,
+                "value": "𝌆",
+                "raw": "'\\ud834\\udf06'"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

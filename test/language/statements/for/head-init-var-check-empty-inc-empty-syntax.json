@@ -1,0 +1,121 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 286,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 208,
+      "end": 222,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 212,
+          "end": 221,
+          "id": {
+            "type": "Identifier",
+            "start": 212,
+            "end": 219,
+            "name": "supreme"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 220,
+            "end": 221,
+            "value": 5,
+            "raw": "5"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 224,
+      "end": 285,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 228,
+        "end": 239,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 232,
+            "end": 239,
+            "id": {
+              "type": "Identifier",
+              "start": 232,
+              "end": 237,
+              "name": "count"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 238,
+              "end": 239,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": null,
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 243,
+        "end": 285,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 244,
+            "end": 283,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 248,
+              "end": 263,
+              "left": {
+                "type": "Identifier",
+                "start": 248,
+                "end": 253,
+                "name": "count"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Identifier",
+                "start": 256,
+                "end": 263,
+                "name": "supreme"
+              }
+            },
+            "consequent": {
+              "type": "BreakStatement",
+              "start": 264,
+              "end": 270,
+              "label": null
+            },
+            "alternate": {
+              "type": "ExpressionStatement",
+              "start": 275,
+              "end": 283,
+              "expression": {
+                "type": "UpdateExpression",
+                "start": 275,
+                "end": 282,
+                "operator": "++",
+                "prefix": false,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 275,
+                  "end": 280,
+                  "name": "count"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

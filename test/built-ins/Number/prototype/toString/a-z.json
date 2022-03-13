@@ -1,0 +1,258 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 720,
+  "body": [
+    {
+      "type": "ForStatement",
+      "start": 562,
+      "end": 719,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 567,
+        "end": 581,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 571,
+            "end": 581,
+            "id": {
+              "type": "Identifier",
+              "start": 571,
+              "end": 576,
+              "name": "radix"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 579,
+              "end": 581,
+              "value": 11,
+              "raw": "11"
+            }
+          }
+        ],
+        "kind": "let"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 583,
+        "end": 594,
+        "left": {
+          "type": "Identifier",
+          "start": 583,
+          "end": 588,
+          "name": "radix"
+        },
+        "operator": "<=",
+        "right": {
+          "type": "Literal",
+          "start": 592,
+          "end": 594,
+          "value": 36,
+          "raw": "36"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 596,
+        "end": 603,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 596,
+          "end": 601,
+          "name": "radix"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 605,
+        "end": 719,
+        "body": [
+          {
+            "type": "ForStatement",
+            "start": 609,
+            "end": 717,
+            "init": {
+              "type": "VariableDeclaration",
+              "start": 614,
+              "end": 624,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 618,
+                  "end": 624,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 618,
+                    "end": 619,
+                    "name": "i"
+                  },
+                  "init": {
+                    "type": "Literal",
+                    "start": 622,
+                    "end": 624,
+                    "value": 10,
+                    "raw": "10"
+                  }
+                }
+              ],
+              "kind": "let"
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "start": 626,
+              "end": 635,
+              "left": {
+                "type": "Identifier",
+                "start": 626,
+                "end": 627,
+                "name": "i"
+              },
+              "operator": "<",
+              "right": {
+                "type": "Identifier",
+                "start": 630,
+                "end": 635,
+                "name": "radix"
+              }
+            },
+            "update": {
+              "type": "UpdateExpression",
+              "start": 637,
+              "end": 640,
+              "operator": "++",
+              "prefix": false,
+              "argument": {
+                "type": "Identifier",
+                "start": 637,
+                "end": 638,
+                "name": "i"
+              }
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 642,
+              "end": 717,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 648,
+                  "end": 713,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 648,
+                    "end": 712,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 648,
+                      "end": 664,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 648,
+                        "end": 654,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 655,
+                        "end": 664,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 665,
+                        "end": 682,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 665,
+                          "end": 675,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 665,
+                            "end": 666,
+                            "name": "i"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 667,
+                            "end": 675,
+                            "name": "toString"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 676,
+                            "end": 681,
+                            "name": "radix"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 684,
+                        "end": 711,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 684,
+                          "end": 703,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 684,
+                            "end": 690,
+                            "name": "String"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 691,
+                            "end": 703,
+                            "name": "fromCharCode"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "start": 704,
+                            "end": 710,
+                            "left": {
+                              "type": "Identifier",
+                              "start": 704,
+                              "end": 705,
+                              "name": "i"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Literal",
+                              "start": 708,
+                              "end": 710,
+                              "value": 87,
+                              "raw": "87"
+                            }
+                          }
+                        ],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

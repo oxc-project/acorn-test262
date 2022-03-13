@@ -1,0 +1,268 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 536,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 379,
+      "end": 411,
+      "expression": {
+        "type": "CallExpression",
+        "start": 379,
+        "end": 410,
+        "callee": {
+          "type": "Identifier",
+          "start": 379,
+          "end": 385,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 386,
+            "end": 400,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 386,
+              "end": 395,
+              "object": {
+                "type": "Literal",
+                "start": 386,
+                "end": 390,
+                "value": {},
+                "raw": "/\\x/",
+                "regex": {
+                  "pattern": "\\x",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 391,
+                "end": 395,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 396,
+                "end": 399,
+                "value": "x",
+                "raw": "\"x\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 402,
+            "end": 409,
+            "value": "/\\x/",
+            "raw": "\"/\\\\x/\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 412,
+      "end": 447,
+      "expression": {
+        "type": "CallExpression",
+        "start": 412,
+        "end": 446,
+        "callee": {
+          "type": "Identifier",
+          "start": 412,
+          "end": 418,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 419,
+            "end": 435,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 419,
+              "end": 429,
+              "object": {
+                "type": "Literal",
+                "start": 419,
+                "end": 424,
+                "value": {},
+                "raw": "/\\xa/",
+                "regex": {
+                  "pattern": "\\xa",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 425,
+                "end": 429,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 430,
+                "end": 434,
+                "value": "xa",
+                "raw": "\"xa\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 437,
+            "end": 445,
+            "value": "/\\xa/",
+            "raw": "\"/\\\\xa/\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 467,
+      "end": 499,
+      "expression": {
+        "type": "CallExpression",
+        "start": 467,
+        "end": 498,
+        "callee": {
+          "type": "Identifier",
+          "start": 467,
+          "end": 473,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 474,
+            "end": 488,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 474,
+              "end": 483,
+              "object": {
+                "type": "Literal",
+                "start": 474,
+                "end": 478,
+                "value": {},
+                "raw": "/\\u/",
+                "regex": {
+                  "pattern": "\\u",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 479,
+                "end": 483,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 484,
+                "end": 487,
+                "value": "u",
+                "raw": "\"u\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 490,
+            "end": 497,
+            "value": "/\\u/",
+            "raw": "\"/\\\\u/\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 500,
+      "end": 535,
+      "expression": {
+        "type": "CallExpression",
+        "start": 500,
+        "end": 534,
+        "callee": {
+          "type": "Identifier",
+          "start": 500,
+          "end": 506,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 507,
+            "end": 523,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 507,
+              "end": 517,
+              "object": {
+                "type": "Literal",
+                "start": 507,
+                "end": 512,
+                "value": {},
+                "raw": "/\\ua/",
+                "regex": {
+                  "pattern": "\\ua",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 513,
+                "end": 517,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 518,
+                "end": 522,
+                "value": "ua",
+                "raw": "\"ua\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 525,
+            "end": 533,
+            "value": "/\\ua/",
+            "raw": "\"/\\\\ua/\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,601 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1086,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 348,
+      "end": 398,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 352,
+          "end": 397,
+          "id": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 362,
+            "name": "ARG_STRING"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 365,
+            "end": 397,
+            "value": "value of the argument property",
+            "raw": "\"value of the argument property\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 400,
+      "end": 490,
+      "id": {
+        "type": "Identifier",
+        "start": 409,
+        "end": 411,
+        "name": "f1"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 414,
+        "end": 490,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 418,
+            "end": 468,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 418,
+              "end": 467,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 418,
+                "end": 454,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 418,
+                  "end": 444,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 418,
+                    "end": 434,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 418,
+                      "end": 422
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 423,
+                      "end": 434,
+                      "name": "constructor"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 435,
+                    "end": 444,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 445,
+                  "end": 454,
+                  "name": "arguments"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 457,
+                "end": 467,
+                "name": "ARG_STRING"
+              }
+            }
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 471,
+            "end": 488,
+            "argument": {
+              "type": "Identifier",
+              "start": 478,
+              "end": 487,
+              "name": "arguments"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 502,
+      "end": 668,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 506,
+        "end": 538,
+        "left": {
+          "type": "MemberExpression",
+          "start": 506,
+          "end": 532,
+          "object": {
+            "type": "ParenthesizedExpression",
+            "start": 506,
+            "end": 525,
+            "expression": {
+              "type": "NewExpression",
+              "start": 507,
+              "end": 524,
+              "callee": {
+                "type": "Identifier",
+                "start": 511,
+                "end": 513,
+                "name": "f1"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 514,
+                  "end": 515,
+                  "value": 1,
+                  "raw": "1"
+                },
+                {
+                  "type": "Literal",
+                  "start": 516,
+                  "end": 517,
+                  "value": 2,
+                  "raw": "2"
+                },
+                {
+                  "type": "Literal",
+                  "start": 518,
+                  "end": 519,
+                  "value": 3,
+                  "raw": "3"
+                },
+                {
+                  "type": "Literal",
+                  "start": 520,
+                  "end": 521,
+                  "value": 4,
+                  "raw": "4"
+                },
+                {
+                  "type": "Literal",
+                  "start": 522,
+                  "end": 523,
+                  "value": 5,
+                  "raw": "5"
+                }
+              ]
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 526,
+            "end": 532,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 537,
+          "end": 538,
+          "value": 5,
+          "raw": "5"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 542,
+        "end": 668,
+        "argument": {
+          "type": "NewExpression",
+          "start": 548,
+          "end": 667,
+          "callee": {
+            "type": "Identifier",
+            "start": 552,
+            "end": 564,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "BinaryExpression",
+              "start": 565,
+              "end": 666,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 565,
+                "end": 660,
+                "left": {
+                  "type": "Literal",
+                  "start": 565,
+                  "end": 648,
+                  "value": "#1: (new f1(1,2,3,4,5)).length===5, where f1 returns \"arguments\" that is set to \"",
+                  "raw": "'#1: (new f1(1,2,3,4,5)).length===5, where f1 returns \"arguments\" that is set to \"'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 650,
+                  "end": 660,
+                  "name": "ARG_STRING"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 663,
+                "end": 666,
+                "value": "\"",
+                "raw": "'\"'"
+              }
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 680,
+      "end": 838,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 684,
+        "end": 712,
+        "left": {
+          "type": "MemberExpression",
+          "start": 684,
+          "end": 706,
+          "object": {
+            "type": "ParenthesizedExpression",
+            "start": 684,
+            "end": 703,
+            "expression": {
+              "type": "NewExpression",
+              "start": 685,
+              "end": 702,
+              "callee": {
+                "type": "Identifier",
+                "start": 689,
+                "end": 691,
+                "name": "f1"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 692,
+                  "end": 693,
+                  "value": 1,
+                  "raw": "1"
+                },
+                {
+                  "type": "Literal",
+                  "start": 694,
+                  "end": 695,
+                  "value": 2,
+                  "raw": "2"
+                },
+                {
+                  "type": "Literal",
+                  "start": 696,
+                  "end": 697,
+                  "value": 3,
+                  "raw": "3"
+                },
+                {
+                  "type": "Literal",
+                  "start": 698,
+                  "end": 699,
+                  "value": 4,
+                  "raw": "4"
+                },
+                {
+                  "type": "Literal",
+                  "start": 700,
+                  "end": 701,
+                  "value": 5,
+                  "raw": "5"
+                }
+              ]
+            }
+          },
+          "property": {
+            "type": "Literal",
+            "start": 704,
+            "end": 705,
+            "value": 3,
+            "raw": "3"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 711,
+          "end": 712,
+          "value": 4,
+          "raw": "4"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 716,
+        "end": 838,
+        "argument": {
+          "type": "NewExpression",
+          "start": 722,
+          "end": 837,
+          "callee": {
+            "type": "Identifier",
+            "start": 726,
+            "end": 738,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "BinaryExpression",
+              "start": 739,
+              "end": 836,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 739,
+                "end": 830,
+                "left": {
+                  "type": "Literal",
+                  "start": 739,
+                  "end": 818,
+                  "value": "#2: (new f1(1,2,3,4,5))[3]===4, where f1 returns \"arguments\" that is set to \"",
+                  "raw": "'#2: (new f1(1,2,3,4,5))[3]===4, where f1 returns \"arguments\" that is set to \"'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 820,
+                  "end": 830,
+                  "name": "ARG_STRING"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 833,
+                "end": 836,
+                "value": "\"",
+                "raw": "'\"'"
+              }
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 850,
+      "end": 876,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 854,
+          "end": 875,
+          "id": {
+            "type": "Identifier",
+            "start": 854,
+            "end": 855,
+            "name": "x"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 858,
+            "end": 875,
+            "callee": {
+              "type": "Identifier",
+              "start": 862,
+              "end": 864,
+              "name": "f1"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 865,
+                "end": 866,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 867,
+                "end": 868,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 869,
+                "end": 870,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "Literal",
+                "start": 871,
+                "end": 872,
+                "value": 4,
+                "raw": "4"
+              },
+              {
+                "type": "Literal",
+                "start": 873,
+                "end": 874,
+                "value": 5,
+                "raw": "5"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 877,
+      "end": 985,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 881,
+        "end": 901,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 881,
+          "end": 892,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 888,
+            "end": 892,
+            "object": {
+              "type": "Identifier",
+              "start": 888,
+              "end": 889,
+              "name": "x"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 890,
+              "end": 891,
+              "value": 3,
+              "raw": "3"
+            },
+            "computed": true,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 897,
+          "end": 901,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 905,
+        "end": 985,
+        "argument": {
+          "type": "NewExpression",
+          "start": 911,
+          "end": 984,
+          "callee": {
+            "type": "Identifier",
+            "start": 915,
+            "end": 927,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 928,
+              "end": 983,
+              "value": "#3.1: Function parameters have attribute {DontDelete}",
+              "raw": "'#3.1: Function parameters have attribute {DontDelete}'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 987,
+      "end": 1085,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 991,
+        "end": 1001,
+        "left": {
+          "type": "MemberExpression",
+          "start": 991,
+          "end": 995,
+          "object": {
+            "type": "Identifier",
+            "start": 991,
+            "end": 992,
+            "name": "x"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 993,
+            "end": 994,
+            "value": 3,
+            "raw": "3"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 1000,
+          "end": 1001,
+          "value": 4,
+          "raw": "4"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 1005,
+        "end": 1085,
+        "argument": {
+          "type": "NewExpression",
+          "start": 1011,
+          "end": 1084,
+          "callee": {
+            "type": "Identifier",
+            "start": 1015,
+            "end": 1027,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1028,
+              "end": 1083,
+              "value": "#3.2: Function parameters have attribute {DontDelete}",
+              "raw": "'#3.2: Function parameters have attribute {DontDelete}'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,113 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 899,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 806,
+      "end": 820,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 810,
+          "end": 819,
+          "id": {
+            "type": "Identifier",
+            "start": 810,
+            "end": 814,
+            "name": "base"
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "start": 817,
+            "end": 819,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 818,
+              "end": 819,
+              "value": 3,
+              "raw": "3"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 822,
+      "end": 898,
+      "expression": {
+        "type": "CallExpression",
+        "start": 822,
+        "end": 897,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 822,
+          "end": 838,
+          "object": {
+            "type": "Identifier",
+            "start": 822,
+            "end": 828,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 829,
+            "end": 838,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "AssignmentExpression",
+            "start": 839,
+            "end": 849,
+            "operator": "**=",
+            "left": {
+              "type": "Identifier",
+              "start": 839,
+              "end": 843,
+              "name": "base"
+            },
+            "right": {
+              "type": "Literal",
+              "start": 848,
+              "end": 849,
+              "value": 3,
+              "raw": "3"
+            }
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 851,
+            "end": 854,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 852,
+              "end": 854,
+              "value": 27,
+              "raw": "27"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 856,
+            "end": 896,
+            "value": "(base **= 3) === -27; where base is -3",
+            "raw": "\"(base **= 3) === -27; where base is -3\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

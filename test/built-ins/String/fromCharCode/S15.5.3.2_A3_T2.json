@@ -1,0 +1,218 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 860,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 372,
+      "end": 410,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 376,
+          "end": 409,
+          "id": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 387,
+            "name": "__fcc__func"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 390,
+            "end": 409,
+            "object": {
+              "type": "Identifier",
+              "start": 390,
+              "end": 396,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 397,
+              "end": 409,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 412,
+      "end": 439,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 412,
+        "end": 438,
+        "operator": "delete",
+        "prefix": true,
+        "argument": {
+          "type": "MemberExpression",
+          "start": 419,
+          "end": 438,
+          "object": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 425,
+            "name": "String"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 438,
+            "name": "fromCharCode"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 530,
+      "end": 777,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 534,
+        "end": 572,
+        "left": {
+          "type": "CallExpression",
+          "start": 534,
+          "end": 561,
+          "callee": {
+            "type": "Identifier",
+            "start": 534,
+            "end": 545,
+            "name": "__fcc__func"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 546,
+              "end": 548,
+              "value": 65,
+              "raw": "65"
+            },
+            {
+              "type": "Literal",
+              "start": 550,
+              "end": 552,
+              "value": 66,
+              "raw": "66"
+            },
+            {
+              "type": "Literal",
+              "start": 554,
+              "end": 556,
+              "value": 66,
+              "raw": "66"
+            },
+            {
+              "type": "Literal",
+              "start": 558,
+              "end": 560,
+              "value": 65,
+              "raw": "65"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 566,
+          "end": 572,
+          "value": "ABBA",
+          "raw": "\"ABBA\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 574,
+        "end": 777,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 578,
+            "end": 775,
+            "argument": {
+              "type": "NewExpression",
+              "start": 584,
+              "end": 774,
+              "callee": {
+                "type": "Identifier",
+                "start": 588,
+                "end": 600,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 601,
+                  "end": 773,
+                  "left": {
+                    "type": "Literal",
+                    "start": 601,
+                    "end": 743,
+                    "value": "#1: __fcc__func = String.fromCharCode; delete String.fromCharCode; __fcc__func(65,66,66,65) === \"ABBA\". Actual: __fcc__func(65,66,66,65) ===",
+                    "raw": "'#1: __fcc__func = String.fromCharCode; delete String.fromCharCode; __fcc__func(65,66,66,65) === \"ABBA\". Actual: __fcc__func(65,66,66,65) ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 746,
+                    "end": 773,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 746,
+                      "end": 757,
+                      "name": "__fcc__func"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 758,
+                        "end": 760,
+                        "value": 65,
+                        "raw": "65"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 762,
+                        "end": 764,
+                        "value": 66,
+                        "raw": "66"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 766,
+                        "end": 768,
+                        "value": 66,
+                        "raw": "66"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 770,
+                        "end": 772,
+                        "value": 65,
+                        "raw": "65"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

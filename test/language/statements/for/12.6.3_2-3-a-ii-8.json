@@ -1,0 +1,180 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 709,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 508,
+      "end": 529,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 512,
+          "end": 528,
+          "id": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 520,
+            "name": "accessed"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 523,
+            "end": 528,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 538,
+      "end": 575,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 542,
+          "end": 574,
+          "id": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 548,
+            "name": "strObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 551,
+            "end": 574,
+            "callee": {
+              "type": "Identifier",
+              "start": 555,
+              "end": 561,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 562,
+                "end": 573,
+                "value": "undefined",
+                "raw": "\"undefined\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 584,
+      "end": 668,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 589,
+        "end": 598,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 593,
+            "end": 598,
+            "id": {
+              "type": "Identifier",
+              "start": 593,
+              "end": 594,
+              "name": "i"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 597,
+              "end": 598,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "Identifier",
+        "start": 600,
+        "end": 606,
+        "name": "strObj"
+      },
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 609,
+        "end": 668,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 623,
+            "end": 639,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 623,
+              "end": 638,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 623,
+                "end": 631,
+                "name": "accessed"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 634,
+                "end": 638,
+                "value": true,
+                "raw": "true"
+              }
+            }
+          },
+          {
+            "type": "BreakStatement",
+            "start": 652,
+            "end": 658,
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 670,
+      "end": 708,
+      "expression": {
+        "type": "CallExpression",
+        "start": 670,
+        "end": 707,
+        "callee": {
+          "type": "Identifier",
+          "start": 670,
+          "end": 676,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 677,
+            "end": 685,
+            "name": "accessed"
+          },
+          {
+            "type": "Literal",
+            "start": 687,
+            "end": 706,
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

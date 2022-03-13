@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 658,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 547,
+      "end": 598,
+      "expression": {
+        "type": "CallExpression",
+        "start": 547,
+        "end": 597,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 547,
+          "end": 563,
+          "object": {
+            "type": "Identifier",
+            "start": 547,
+            "end": 553,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 563,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 564,
+            "end": 585,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 564,
+              "end": 581,
+              "object": {
+                "type": "Literal",
+                "start": 564,
+                "end": 569,
+                "value": "abc",
+                "raw": "'abc'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 570,
+                "end": 581,
+                "name": "codePointAt"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 582,
+                "end": 584,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 583,
+                  "end": 584,
+                  "value": 1,
+                  "raw": "1"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 587,
+            "end": 596,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 599,
+      "end": 657,
+      "expression": {
+        "type": "CallExpression",
+        "start": 599,
+        "end": 656,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 599,
+          "end": 615,
+          "object": {
+            "type": "Identifier",
+            "start": 599,
+            "end": 605,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 606,
+            "end": 615,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 616,
+            "end": 644,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 616,
+              "end": 633,
+              "object": {
+                "type": "Literal",
+                "start": 616,
+                "end": 621,
+                "value": "abc",
+                "raw": "'abc'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 622,
+                "end": 633,
+                "name": "codePointAt"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 634,
+                "end": 643,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 635,
+                  "end": 643,
+                  "name": "Infinity"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 646,
+            "end": 655,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

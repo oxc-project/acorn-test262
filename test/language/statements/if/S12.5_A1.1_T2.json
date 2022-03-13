@@ -1,0 +1,662 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2360,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 305,
+      "end": 313,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 309,
+          "end": 312,
+          "id": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 310,
+            "name": "c"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 311,
+            "end": 312,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 403,
+      "end": 493,
+      "test": {
+        "type": "Literal",
+        "start": 406,
+        "end": 407,
+        "value": 0,
+        "raw": "0"
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 410,
+        "end": 481,
+        "argument": {
+          "type": "NewExpression",
+          "start": 416,
+          "end": 480,
+          "callee": {
+            "type": "Identifier",
+            "start": 420,
+            "end": 432,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 433,
+              "end": 479,
+              "value": "#1.1: 0 in expression is evaluated to false ",
+              "raw": "'#1.1: 0 in expression is evaluated to false '"
+            }
+          ]
+        }
+      },
+      "alternate": {
+        "type": "ExpressionStatement",
+        "start": 489,
+        "end": 493,
+        "expression": {
+          "type": "UpdateExpression",
+          "start": 489,
+          "end": 492,
+          "operator": "++",
+          "prefix": false,
+          "argument": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 490,
+            "name": "c"
+          }
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 494,
+      "end": 562,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 498,
+        "end": 502,
+        "left": {
+          "type": "Identifier",
+          "start": 498,
+          "end": 499,
+          "name": "c"
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 501,
+          "end": 502,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 504,
+        "end": 562,
+        "argument": {
+          "type": "NewExpression",
+          "start": 510,
+          "end": 561,
+          "callee": {
+            "type": "Identifier",
+            "start": 514,
+            "end": 526,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 527,
+              "end": 560,
+              "value": "#1.2: else branch don`t execute",
+              "raw": "'#1.2: else branch don`t execute'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 735,
+      "end": 836,
+      "test": {
+        "type": "Literal",
+        "start": 738,
+        "end": 743,
+        "value": false,
+        "raw": "false"
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 749,
+        "end": 824,
+        "argument": {
+          "type": "NewExpression",
+          "start": 755,
+          "end": 823,
+          "callee": {
+            "type": "Identifier",
+            "start": 759,
+            "end": 771,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 772,
+              "end": 822,
+              "value": "#2.1: false in expression is evaluated to false ",
+              "raw": "'#2.1: false in expression is evaluated to false '"
+            }
+          ]
+        }
+      },
+      "alternate": {
+        "type": "ExpressionStatement",
+        "start": 832,
+        "end": 836,
+        "expression": {
+          "type": "UpdateExpression",
+          "start": 832,
+          "end": 835,
+          "operator": "++",
+          "prefix": false,
+          "argument": {
+            "type": "Identifier",
+            "start": 832,
+            "end": 833,
+            "name": "c"
+          }
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 837,
+      "end": 905,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 841,
+        "end": 845,
+        "left": {
+          "type": "Identifier",
+          "start": 841,
+          "end": 842,
+          "name": "c"
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 844,
+          "end": 845,
+          "value": 2,
+          "raw": "2"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 847,
+        "end": 905,
+        "argument": {
+          "type": "NewExpression",
+          "start": 853,
+          "end": 904,
+          "callee": {
+            "type": "Identifier",
+            "start": 857,
+            "end": 869,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 870,
+              "end": 903,
+              "value": "#2.2: else branch don`t execute",
+              "raw": "'#2.2: else branch don`t execute'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1078,
+      "end": 1174,
+      "test": {
+        "type": "Literal",
+        "start": 1081,
+        "end": 1085,
+        "value": null,
+        "raw": "null"
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 1088,
+        "end": 1162,
+        "argument": {
+          "type": "NewExpression",
+          "start": 1094,
+          "end": 1161,
+          "callee": {
+            "type": "Identifier",
+            "start": 1098,
+            "end": 1110,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1111,
+              "end": 1160,
+              "value": "#3.1: null in expression is evaluated to false ",
+              "raw": "'#3.1: null in expression is evaluated to false '"
+            }
+          ]
+        }
+      },
+      "alternate": {
+        "type": "ExpressionStatement",
+        "start": 1170,
+        "end": 1174,
+        "expression": {
+          "type": "UpdateExpression",
+          "start": 1170,
+          "end": 1173,
+          "operator": "++",
+          "prefix": false,
+          "argument": {
+            "type": "Identifier",
+            "start": 1170,
+            "end": 1171,
+            "name": "c"
+          }
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1175,
+      "end": 1243,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1179,
+        "end": 1183,
+        "left": {
+          "type": "Identifier",
+          "start": 1179,
+          "end": 1180,
+          "name": "c"
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 1182,
+          "end": 1183,
+          "value": 3,
+          "raw": "3"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 1185,
+        "end": 1243,
+        "argument": {
+          "type": "NewExpression",
+          "start": 1191,
+          "end": 1242,
+          "callee": {
+            "type": "Identifier",
+            "start": 1195,
+            "end": 1207,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1208,
+              "end": 1241,
+              "value": "#3.2: else branch don`t execute",
+              "raw": "'#3.2: else branch don`t execute'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1416,
+      "end": 1522,
+      "test": {
+        "type": "Identifier",
+        "start": 1419,
+        "end": 1428,
+        "name": "undefined"
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 1431,
+        "end": 1510,
+        "argument": {
+          "type": "NewExpression",
+          "start": 1437,
+          "end": 1509,
+          "callee": {
+            "type": "Identifier",
+            "start": 1441,
+            "end": 1453,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1454,
+              "end": 1508,
+              "value": "#4.1: undefined in expression is evaluated to false ",
+              "raw": "'#4.1: undefined in expression is evaluated to false '"
+            }
+          ]
+        }
+      },
+      "alternate": {
+        "type": "ExpressionStatement",
+        "start": 1518,
+        "end": 1522,
+        "expression": {
+          "type": "UpdateExpression",
+          "start": 1518,
+          "end": 1521,
+          "operator": "++",
+          "prefix": false,
+          "argument": {
+            "type": "Identifier",
+            "start": 1518,
+            "end": 1519,
+            "name": "c"
+          }
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1523,
+      "end": 1591,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1527,
+        "end": 1531,
+        "left": {
+          "type": "Identifier",
+          "start": 1527,
+          "end": 1528,
+          "name": "c"
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 1530,
+          "end": 1531,
+          "value": 4,
+          "raw": "4"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 1533,
+        "end": 1591,
+        "argument": {
+          "type": "NewExpression",
+          "start": 1539,
+          "end": 1590,
+          "callee": {
+            "type": "Identifier",
+            "start": 1543,
+            "end": 1555,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1556,
+              "end": 1589,
+              "value": "#4.2: else branch don`t execute",
+              "raw": "'#4.2: else branch don`t execute'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1764,
+      "end": 1869,
+      "test": {
+        "type": "Literal",
+        "start": 1767,
+        "end": 1769,
+        "value": "",
+        "raw": "\"\""
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 1775,
+        "end": 1857,
+        "argument": {
+          "type": "NewExpression",
+          "start": 1781,
+          "end": 1856,
+          "callee": {
+            "type": "Identifier",
+            "start": 1785,
+            "end": 1797,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1798,
+              "end": 1855,
+              "value": "#5.1: empty string in expression is evaluated to false ",
+              "raw": "'#5.1: empty string in expression is evaluated to false '"
+            }
+          ]
+        }
+      },
+      "alternate": {
+        "type": "ExpressionStatement",
+        "start": 1865,
+        "end": 1869,
+        "expression": {
+          "type": "UpdateExpression",
+          "start": 1865,
+          "end": 1868,
+          "operator": "++",
+          "prefix": false,
+          "argument": {
+            "type": "Identifier",
+            "start": 1865,
+            "end": 1866,
+            "name": "c"
+          }
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1870,
+      "end": 1938,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1874,
+        "end": 1878,
+        "left": {
+          "type": "Identifier",
+          "start": 1874,
+          "end": 1875,
+          "name": "c"
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 1877,
+          "end": 1878,
+          "value": 5,
+          "raw": "5"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 1880,
+        "end": 1938,
+        "argument": {
+          "type": "NewExpression",
+          "start": 1886,
+          "end": 1937,
+          "callee": {
+            "type": "Identifier",
+            "start": 1890,
+            "end": 1902,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1903,
+              "end": 1936,
+              "value": "#5.2: else branch don`t execute",
+              "raw": "'#5.2: else branch don`t execute'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2111,
+      "end": 2208,
+      "test": {
+        "type": "Identifier",
+        "start": 2114,
+        "end": 2117,
+        "name": "NaN"
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 2123,
+        "end": 2196,
+        "argument": {
+          "type": "NewExpression",
+          "start": 2129,
+          "end": 2195,
+          "callee": {
+            "type": "Identifier",
+            "start": 2133,
+            "end": 2145,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2146,
+              "end": 2194,
+              "value": "#6.1: NaN in expression is evaluated to false ",
+              "raw": "'#6.1: NaN in expression is evaluated to false '"
+            }
+          ]
+        }
+      },
+      "alternate": {
+        "type": "ExpressionStatement",
+        "start": 2204,
+        "end": 2208,
+        "expression": {
+          "type": "UpdateExpression",
+          "start": 2204,
+          "end": 2207,
+          "operator": "++",
+          "prefix": false,
+          "argument": {
+            "type": "Identifier",
+            "start": 2204,
+            "end": 2205,
+            "name": "c"
+          }
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 2209,
+      "end": 2277,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2213,
+        "end": 2217,
+        "left": {
+          "type": "Identifier",
+          "start": 2213,
+          "end": 2214,
+          "name": "c"
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 2216,
+          "end": 2217,
+          "value": 6,
+          "raw": "6"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 2219,
+        "end": 2277,
+        "argument": {
+          "type": "NewExpression",
+          "start": 2225,
+          "end": 2276,
+          "callee": {
+            "type": "Identifier",
+            "start": 2229,
+            "end": 2241,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2242,
+              "end": 2275,
+              "value": "#6.2: else branch don`t execute",
+              "raw": "'#6.2: else branch don`t execute'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

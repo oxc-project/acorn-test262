@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 826,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 303,
+      "end": 333,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 307,
+          "end": 332,
+          "id": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 311,
+            "name": "__re"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 314,
+            "end": 332,
+            "callee": {
+              "type": "Identifier",
+              "start": 318,
+              "end": 324,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 325,
+                "end": 326,
+                "name": "x"
+              },
+              {
+                "type": "Literal",
+                "start": 328,
+                "end": 331,
+                "value": "g",
+                "raw": "\"g\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 335,
+      "end": 367,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 339,
+          "end": 366,
+          "id": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 349,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 352,
+            "end": 366,
+            "callee": {
+              "type": "Identifier",
+              "start": 352,
+              "end": 358,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 359,
+                "end": 365,
+                "value": "asdf",
+                "raw": "\"asdf\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 369,
+      "end": 385,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 373,
+          "end": 384,
+          "id": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 378,
+            "name": "__str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 381,
+            "end": 384,
+            "value": "1",
+            "raw": "\"1\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 475,
+      "end": 735,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 479,
+        "end": 526,
+        "left": {
+          "type": "CallExpression",
+          "start": 479,
+          "end": 510,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 479,
+            "end": 497,
+            "object": {
+              "type": "Identifier",
+              "start": 479,
+              "end": 489,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 490,
+              "end": 497,
+              "name": "replace"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 498,
+              "end": 502,
+              "name": "__re"
+            },
+            {
+              "type": "Identifier",
+              "start": 504,
+              "end": 509,
+              "name": "__str"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 515,
+          "end": 526,
+          "value": "1a1s1d1f1",
+          "raw": "\"1a1s1d1f1\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 528,
+        "end": 735,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 532,
+            "end": 733,
+            "argument": {
+              "type": "NewExpression",
+              "start": 538,
+              "end": 732,
+              "callee": {
+                "type": "Identifier",
+                "start": 542,
+                "end": 554,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 555,
+                  "end": 731,
+                  "left": {
+                    "type": "Literal",
+                    "start": 555,
+                    "end": 697,
+                    "value": "#1: var x; var __re = new RegExp(x,\"g\"); __instance = String(\"asdf\"); __str = \"1\"; __instance.replace(__re, __str) === \"1a1s1d1f1\". Actual: ",
+                    "raw": "'#1: var x; var __re = new RegExp(x,\"g\"); __instance = String(\"asdf\"); __str = \"1\"; __instance.replace(__re, __str) === \"1a1s1d1f1\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 700,
+                    "end": 731,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 700,
+                      "end": 718,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 700,
+                        "end": 710,
+                        "name": "__instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 711,
+                        "end": 718,
+                        "name": "replace"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 719,
+                        "end": 723,
+                        "name": "__re"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 725,
+                        "end": 730,
+                        "name": "__str"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 819,
+      "end": 825,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 823,
+          "end": 824,
+          "id": {
+            "type": "Identifier",
+            "start": 823,
+            "end": 824,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

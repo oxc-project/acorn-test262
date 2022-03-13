@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 750,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 548,
+      "end": 595,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 552,
+          "end": 594,
+          "id": {
+            "type": "Identifier",
+            "start": 552,
+            "end": 571,
+            "name": "TypedArrayPrototype"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 574,
+            "end": 594,
+            "object": {
+              "type": "Identifier",
+              "start": 574,
+              "end": 584,
+              "name": "TypedArray"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 585,
+              "end": 594,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 597,
+      "end": 649,
+      "expression": {
+        "type": "CallExpression",
+        "start": 597,
+        "end": 648,
+        "callee": {
+          "type": "Identifier",
+          "start": 597,
+          "end": 616,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 617,
+            "end": 636,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 638,
+            "end": 647,
+            "value": "reverse",
+            "raw": "'reverse'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 650,
+      "end": 697,
+      "expression": {
+        "type": "CallExpression",
+        "start": 650,
+        "end": 696,
+        "callee": {
+          "type": "Identifier",
+          "start": 650,
+          "end": 664,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 665,
+            "end": 684,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 686,
+            "end": 695,
+            "value": "reverse",
+            "raw": "'reverse'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 698,
+      "end": 749,
+      "expression": {
+        "type": "CallExpression",
+        "start": 698,
+        "end": 748,
+        "callee": {
+          "type": "Identifier",
+          "start": 698,
+          "end": 716,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 717,
+            "end": 736,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 738,
+            "end": 747,
+            "value": "reverse",
+            "raw": "'reverse'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

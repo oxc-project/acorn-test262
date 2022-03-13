@@ -1,0 +1,288 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 797,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 571,
+      "end": 643,
+      "expression": {
+        "type": "CallExpression",
+        "start": 571,
+        "end": 642,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 571,
+          "end": 587,
+          "object": {
+            "type": "Identifier",
+            "start": 571,
+            "end": 577,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 578,
+            "end": 587,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 588,
+            "end": 618,
+            "object": {
+              "type": "MemberExpression",
+              "start": 588,
+              "end": 601,
+              "object": {
+                "type": "Identifier",
+                "start": 588,
+                "end": 591,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 592,
+                "end": 601,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 602,
+              "end": 617,
+              "object": {
+                "type": "Identifier",
+                "start": 602,
+                "end": 608,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 609,
+                "end": 617,
+                "name": "iterator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 620,
+            "end": 641,
+            "object": {
+              "type": "MemberExpression",
+              "start": 620,
+              "end": 633,
+              "object": {
+                "type": "Identifier",
+                "start": 620,
+                "end": 623,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 624,
+                "end": 633,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 641,
+              "name": "entries"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 644,
+      "end": 696,
+      "expression": {
+        "type": "CallExpression",
+        "start": 644,
+        "end": 695,
+        "callee": {
+          "type": "Identifier",
+          "start": 644,
+          "end": 663,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 664,
+            "end": 677,
+            "object": {
+              "type": "Identifier",
+              "start": 664,
+              "end": 667,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 668,
+              "end": 677,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 679,
+            "end": 694,
+            "object": {
+              "type": "Identifier",
+              "start": 679,
+              "end": 685,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 686,
+              "end": 694,
+              "name": "iterator"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 697,
+      "end": 744,
+      "expression": {
+        "type": "CallExpression",
+        "start": 697,
+        "end": 743,
+        "callee": {
+          "type": "Identifier",
+          "start": 697,
+          "end": 711,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 712,
+            "end": 725,
+            "object": {
+              "type": "Identifier",
+              "start": 712,
+              "end": 715,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 716,
+              "end": 725,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 727,
+            "end": 742,
+            "object": {
+              "type": "Identifier",
+              "start": 727,
+              "end": 733,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 734,
+              "end": 742,
+              "name": "iterator"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 745,
+      "end": 796,
+      "expression": {
+        "type": "CallExpression",
+        "start": 745,
+        "end": 795,
+        "callee": {
+          "type": "Identifier",
+          "start": 745,
+          "end": 763,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 764,
+            "end": 777,
+            "object": {
+              "type": "Identifier",
+              "start": 764,
+              "end": 767,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 768,
+              "end": 777,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 779,
+            "end": 794,
+            "object": {
+              "type": "Identifier",
+              "start": 779,
+              "end": 785,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 786,
+              "end": 794,
+              "name": "iterator"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,356 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 978,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 403,
+      "end": 586,
+      "expression": {
+        "type": "CallExpression",
+        "start": 403,
+        "end": 585,
+        "callee": {
+          "type": "Identifier",
+          "start": 403,
+          "end": 409,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 413,
+            "end": 477,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 414,
+              "end": 477,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "CallExpression",
+                "start": 415,
+                "end": 477,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 415,
+                  "end": 467,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 415,
+                    "end": 452,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 415,
+                      "end": 431,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 415,
+                        "end": 421,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 422,
+                        "end": 431,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 432,
+                      "end": 452,
+                      "name": "propertyIsEnumerable"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 453,
+                    "end": 467,
+                    "name": "hasOwnProperty"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 468,
+                    "end": 476,
+                    "value": "length",
+                    "raw": "'length'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 481,
+            "end": 583,
+            "value": "The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true",
+            "raw": "'The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 588,
+      "end": 643,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 592,
+          "end": 642,
+          "id": {
+            "type": "Identifier",
+            "start": 592,
+            "end": 595,
+            "name": "obj"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 598,
+            "end": 642,
+            "object": {
+              "type": "MemberExpression",
+              "start": 598,
+              "end": 635,
+              "object": {
+                "type": "MemberExpression",
+                "start": 598,
+                "end": 614,
+                "object": {
+                  "type": "Identifier",
+                  "start": 598,
+                  "end": 604,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 605,
+                  "end": 614,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 615,
+                "end": 635,
+                "name": "propertyIsEnumerable"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 636,
+              "end": 642,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 645,
+      "end": 754,
+      "expression": {
+        "type": "CallExpression",
+        "start": 645,
+        "end": 753,
+        "callee": {
+          "type": "Identifier",
+          "start": 645,
+          "end": 662,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 663,
+            "end": 700,
+            "object": {
+              "type": "MemberExpression",
+              "start": 663,
+              "end": 679,
+              "object": {
+                "type": "Identifier",
+                "start": 663,
+                "end": 669,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 670,
+                "end": 679,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 680,
+              "end": 700,
+              "name": "propertyIsEnumerable"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 702,
+            "end": 710,
+            "value": "length",
+            "raw": "\"length\""
+          },
+          {
+            "type": "Literal",
+            "start": 712,
+            "end": 716,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 718,
+            "end": 752,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 729,
+              "end": 752,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 733,
+                  "end": 750,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 740,
+                    "end": 749,
+                    "value": "shifted",
+                    "raw": "\"shifted\""
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 756,
+      "end": 931,
+      "expression": {
+        "type": "CallExpression",
+        "start": 756,
+        "end": 930,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 756,
+          "end": 772,
+          "object": {
+            "type": "Identifier",
+            "start": 756,
+            "end": 762,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 763,
+            "end": 772,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 776,
+            "end": 820,
+            "object": {
+              "type": "MemberExpression",
+              "start": 776,
+              "end": 813,
+              "object": {
+                "type": "MemberExpression",
+                "start": 776,
+                "end": 792,
+                "object": {
+                  "type": "Identifier",
+                  "start": 776,
+                  "end": 782,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 783,
+                  "end": 792,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 793,
+                "end": 813,
+                "name": "propertyIsEnumerable"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 814,
+              "end": 820,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 824,
+            "end": 827,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 831,
+            "end": 928,
+            "value": "The value of Object.prototype.propertyIsEnumerable.length is expected to equal the value of obj",
+            "raw": "'The value of Object.prototype.propertyIsEnumerable.length is expected to equal the value of obj'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

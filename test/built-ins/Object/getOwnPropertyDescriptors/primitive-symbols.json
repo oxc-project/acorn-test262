@@ -1,0 +1,159 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 448,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 302,
+      "end": 358,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 306,
+          "end": 357,
+          "id": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 312,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 315,
+            "end": 357,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 315,
+              "end": 347,
+              "object": {
+                "type": "Identifier",
+                "start": 315,
+                "end": 321,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 322,
+                "end": 347,
+                "name": "getOwnPropertyDescriptors"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 348,
+                "end": 356,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 348,
+                  "end": 354,
+                  "name": "Symbol"
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 360,
+      "end": 447,
+      "expression": {
+        "type": "CallExpression",
+        "start": 360,
+        "end": 446,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 360,
+          "end": 376,
+          "object": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 366,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 376,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 377,
+            "end": 403,
+            "object": {
+              "type": "CallExpression",
+              "start": 377,
+              "end": 396,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 377,
+                "end": 388,
+                "object": {
+                  "type": "Identifier",
+                  "start": 377,
+                  "end": 383,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 384,
+                  "end": 388,
+                  "name": "keys"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 389,
+                  "end": 395,
+                  "name": "result"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 397,
+              "end": 403,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 405,
+            "end": 406,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 408,
+            "end": 445,
+            "value": "symbol primitive has no descriptors",
+            "raw": "'symbol primitive has no descriptors'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

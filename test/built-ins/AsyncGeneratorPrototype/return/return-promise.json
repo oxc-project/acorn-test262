@@ -1,0 +1,118 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 756,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 672,
+      "end": 694,
+      "id": {
+        "type": "Identifier",
+        "start": 688,
+        "end": 689,
+        "name": "g"
+      },
+      "expression": false,
+      "generator": true,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 692,
+        "end": 694,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 695,
+      "end": 720,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 699,
+          "end": 720,
+          "id": {
+            "type": "Identifier",
+            "start": 699,
+            "end": 705,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 708,
+            "end": 720,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 708,
+              "end": 718,
+              "object": {
+                "type": "CallExpression",
+                "start": 708,
+                "end": 711,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 708,
+                  "end": 709,
+                  "name": "g"
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 712,
+                "end": 718,
+                "name": "return"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 722,
+      "end": 755,
+      "expression": {
+        "type": "CallExpression",
+        "start": 722,
+        "end": 755,
+        "callee": {
+          "type": "Identifier",
+          "start": 722,
+          "end": 728,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 729,
+            "end": 754,
+            "left": {
+              "type": "Identifier",
+              "start": 729,
+              "end": 735,
+              "name": "result"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 747,
+              "end": 754,
+              "name": "Promise"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

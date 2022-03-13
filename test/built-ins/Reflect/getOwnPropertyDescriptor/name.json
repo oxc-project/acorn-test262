@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 784,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 418,
+      "end": 596,
+      "expression": {
+        "type": "CallExpression",
+        "start": 418,
+        "end": 595,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 418,
+          "end": 434,
+          "object": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 424,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 425,
+            "end": 434,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 438,
+            "end": 475,
+            "object": {
+              "type": "MemberExpression",
+              "start": 438,
+              "end": 470,
+              "object": {
+                "type": "Identifier",
+                "start": 438,
+                "end": 445,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 446,
+                "end": 470,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 471,
+              "end": 475,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 477,
+            "end": 503,
+            "value": "getOwnPropertyDescriptor",
+            "raw": "'getOwnPropertyDescriptor'"
+          },
+          {
+            "type": "Literal",
+            "start": 507,
+            "end": 593,
+            "value": "The value of `Reflect.getOwnPropertyDescriptor.name` is `\"getOwnPropertyDescriptor\"`",
+            "raw": "'The value of `Reflect.getOwnPropertyDescriptor.name` is `\"getOwnPropertyDescriptor\"`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 598,
+      "end": 660,
+      "expression": {
+        "type": "CallExpression",
+        "start": 598,
+        "end": 659,
+        "callee": {
+          "type": "Identifier",
+          "start": 598,
+          "end": 617,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 618,
+            "end": 650,
+            "object": {
+              "type": "Identifier",
+              "start": 618,
+              "end": 625,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 626,
+              "end": 650,
+              "name": "getOwnPropertyDescriptor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 652,
+            "end": 658,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 661,
+      "end": 721,
+      "expression": {
+        "type": "CallExpression",
+        "start": 661,
+        "end": 720,
+        "callee": {
+          "type": "Identifier",
+          "start": 661,
+          "end": 678,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 679,
+            "end": 711,
+            "object": {
+              "type": "Identifier",
+              "start": 679,
+              "end": 686,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 687,
+              "end": 711,
+              "name": "getOwnPropertyDescriptor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 713,
+            "end": 719,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 722,
+      "end": 783,
+      "expression": {
+        "type": "CallExpression",
+        "start": 722,
+        "end": 782,
+        "callee": {
+          "type": "Identifier",
+          "start": 722,
+          "end": 740,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 741,
+            "end": 773,
+            "object": {
+              "type": "Identifier",
+              "start": 741,
+              "end": 748,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 749,
+              "end": 773,
+              "name": "getOwnPropertyDescriptor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 775,
+            "end": 781,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,123 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 488,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 357,
+      "end": 390,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 357,
+        "end": 389,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 357,
+          "end": 385,
+          "object": {
+            "type": "MemberExpression",
+            "start": 357,
+            "end": 375,
+            "object": {
+              "type": "Identifier",
+              "start": 357,
+              "end": 365,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 366,
+              "end": 375,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 385,
+            "name": "indicator"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 388,
+          "end": 389,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 392,
+      "end": 487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 392,
+        "end": 486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 392,
+          "end": 408,
+          "object": {
+            "type": "Identifier",
+            "start": 392,
+            "end": 398,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 408,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 409,
+            "end": 427,
+            "object": {
+              "type": "Identifier",
+              "start": 409,
+              "end": 417,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 418,
+              "end": 427,
+              "name": "indicator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 429,
+            "end": 430,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 432,
+            "end": 485,
+            "value": "The value of Function.indicator is expected to be 1",
+            "raw": "'The value of Function.indicator is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

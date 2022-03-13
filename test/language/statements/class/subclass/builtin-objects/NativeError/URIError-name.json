@@ -1,0 +1,120 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 557,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 463,
+      "end": 492,
+      "id": {
+        "type": "Identifier",
+        "start": 469,
+        "end": 472,
+        "name": "Err"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 481,
+        "end": 489,
+        "name": "URIError"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 490,
+        "end": 492,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 494,
+      "end": 515,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 498,
+          "end": 514,
+          "id": {
+            "type": "Identifier",
+            "start": 498,
+            "end": 502,
+            "name": "err1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 505,
+            "end": 514,
+            "callee": {
+              "type": "Identifier",
+              "start": 509,
+              "end": 512,
+              "name": "Err"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 516,
+      "end": 556,
+      "expression": {
+        "type": "CallExpression",
+        "start": 516,
+        "end": 555,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 516,
+          "end": 532,
+          "object": {
+            "type": "Identifier",
+            "start": 516,
+            "end": 522,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 523,
+            "end": 532,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 533,
+            "end": 542,
+            "object": {
+              "type": "Identifier",
+              "start": 533,
+              "end": 537,
+              "name": "err1"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 538,
+              "end": 542,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 544,
+            "end": 554,
+            "value": "URIError",
+            "raw": "'URIError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

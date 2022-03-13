@@ -1,0 +1,450 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 819,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 406,
+      "end": 430,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 410,
+          "end": 429,
+          "id": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 412,
+            "name": "s1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 415,
+            "end": 429,
+            "value": "First getter",
+            "raw": "\"First getter\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 433,
+      "end": 457,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 437,
+          "end": 456,
+          "id": {
+            "type": "Identifier",
+            "start": 437,
+            "end": 439,
+            "name": "s2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 442,
+            "end": 456,
+            "value": "First setter",
+            "raw": "\"First setter\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 460,
+      "end": 485,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 464,
+          "end": 484,
+          "id": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 466,
+            "name": "s3"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 469,
+            "end": 484,
+            "value": "Second getter",
+            "raw": "\"Second getter\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 488,
+      "end": 494,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 492,
+          "end": 493,
+          "id": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 493,
+            "name": "o"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 497,
+      "end": 613,
+      "expression": {
+        "type": "CallExpression",
+        "start": 497,
+        "end": 612,
+        "callee": {
+          "type": "Identifier",
+          "start": 497,
+          "end": 501,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 502,
+            "end": 611,
+            "value": "o = {get foo(){ return s1;},set foo(arg){return s2 = s3}, get bar(){ return s3}, set bar(arg){ s3 = arg;}};",
+            "raw": "\"o = {get foo(){ return s1;},set foo(arg){return s2 = s3}, get bar(){ return s3}, set bar(arg){ s3 = arg;}};\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 615,
+      "end": 652,
+      "expression": {
+        "type": "CallExpression",
+        "start": 615,
+        "end": 651,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 615,
+          "end": 631,
+          "object": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 621,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 622,
+            "end": 631,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 632,
+            "end": 637,
+            "object": {
+              "type": "Identifier",
+              "start": 632,
+              "end": 633,
+              "name": "o"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 637,
+              "name": "foo"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 639,
+            "end": 641,
+            "name": "s1"
+          },
+          {
+            "type": "Literal",
+            "start": 643,
+            "end": 650,
+            "value": "o.foo",
+            "raw": "'o.foo'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 656,
+      "end": 667,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 656,
+        "end": 666,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 656,
+          "end": 661,
+          "object": {
+            "type": "Identifier",
+            "start": 656,
+            "end": 657,
+            "name": "o"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 661,
+            "name": "foo"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 664,
+          "end": 666,
+          "value": 10,
+          "raw": "10"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 669,
+      "end": 700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 669,
+        "end": 699,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 669,
+          "end": 685,
+          "object": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 675,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 685,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 686,
+            "end": 688,
+            "name": "s2"
+          },
+          {
+            "type": "Identifier",
+            "start": 690,
+            "end": 692,
+            "name": "s3"
+          },
+          {
+            "type": "Literal",
+            "start": 694,
+            "end": 698,
+            "value": "s2",
+            "raw": "'s2'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 738,
+      "expression": {
+        "type": "CallExpression",
+        "start": 701,
+        "end": 737,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 701,
+          "end": 717,
+          "object": {
+            "type": "Identifier",
+            "start": 701,
+            "end": 707,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 717,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 718,
+            "end": 723,
+            "object": {
+              "type": "Identifier",
+              "start": 718,
+              "end": 719,
+              "name": "o"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 720,
+              "end": 723,
+              "name": "bar"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 725,
+            "end": 727,
+            "name": "s3"
+          },
+          {
+            "type": "Literal",
+            "start": 729,
+            "end": 736,
+            "value": "o.bar",
+            "raw": "'o.bar'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 742,
+      "end": 766,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 742,
+        "end": 765,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 742,
+          "end": 747,
+          "object": {
+            "type": "Identifier",
+            "start": 742,
+            "end": 743,
+            "name": "o"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 744,
+            "end": 747,
+            "name": "bar"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 750,
+          "end": 765,
+          "value": "Second setter",
+          "raw": "\"Second setter\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 768,
+      "end": 818,
+      "expression": {
+        "type": "CallExpression",
+        "start": 768,
+        "end": 817,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 768,
+          "end": 784,
+          "object": {
+            "type": "Identifier",
+            "start": 768,
+            "end": 774,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 775,
+            "end": 784,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 785,
+            "end": 790,
+            "object": {
+              "type": "Identifier",
+              "start": 785,
+              "end": 786,
+              "name": "o"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 787,
+              "end": 790,
+              "name": "bar"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 792,
+            "end": 807,
+            "value": "Second setter",
+            "raw": "\"Second setter\""
+          },
+          {
+            "type": "Literal",
+            "start": 809,
+            "end": 816,
+            "value": "o.bar",
+            "raw": "'o.bar'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

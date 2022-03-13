@@ -1,0 +1,249 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 901,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 703,
+      "end": 803,
+      "expression": {
+        "type": "CallExpression",
+        "start": 703,
+        "end": 802,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 703,
+          "end": 719,
+          "object": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 709,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 719,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 720,
+            "end": 775,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 720,
+              "end": 750,
+              "object": {
+                "type": "MemberExpression",
+                "start": 720,
+                "end": 745,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 720,
+                  "end": 736,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 720,
+                    "end": 726,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 727,
+                    "end": 736,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 737,
+                  "end": 745,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 746,
+                "end": 750,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 751,
+                "end": 774,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 751,
+                  "end": 764,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 751,
+                    "end": 755,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 756,
+                    "end": 764,
+                    "name": "Collator"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 765,
+                  "end": 774,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 777,
+            "end": 801,
+            "value": "[object Intl.Collator]",
+            "raw": "\"[object Intl.Collator]\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 804,
+      "end": 900,
+      "expression": {
+        "type": "CallExpression",
+        "start": 804,
+        "end": 899,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 804,
+          "end": 820,
+          "object": {
+            "type": "Identifier",
+            "start": 804,
+            "end": 810,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 811,
+            "end": 820,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 821,
+            "end": 872,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 821,
+              "end": 851,
+              "object": {
+                "type": "MemberExpression",
+                "start": 821,
+                "end": 846,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 821,
+                  "end": 837,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 821,
+                    "end": 827,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 828,
+                    "end": 837,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 838,
+                  "end": 846,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 847,
+                "end": 851,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 852,
+                "end": 871,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 856,
+                  "end": 869,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 856,
+                    "end": 860,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 861,
+                    "end": 869,
+                    "name": "Collator"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 874,
+            "end": 898,
+            "value": "[object Intl.Collator]",
+            "raw": "\"[object Intl.Collator]\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 335,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 264,
+      "end": 334,
+      "expression": {
+        "type": "CallExpression",
+        "start": 264,
+        "end": 333,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 264,
+          "end": 280,
+          "object": {
+            "type": "Identifier",
+            "start": 264,
+            "end": 270,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 271,
+            "end": 280,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 281,
+            "end": 303,
+            "object": {
+              "type": "MemberExpression",
+              "start": 281,
+              "end": 296,
+              "object": {
+                "type": "Literal",
+                "start": 281,
+                "end": 287,
+                "value": "word",
+                "raw": "'word'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 288,
+                "end": 296,
+                "name": "includes"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 297,
+              "end": 303,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 305,
+            "end": 306,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 308,
+            "end": 332,
+            "value": "\"word\".includes.length",
+            "raw": "'\"word\".includes.length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

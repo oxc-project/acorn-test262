@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 606,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 279,
+      "end": 300,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 283,
+          "end": 299,
+          "id": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 284,
+            "name": "f"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 287,
+            "end": 299,
+            "callee": {
+              "type": "Identifier",
+              "start": 291,
+              "end": 299,
+              "name": "Function"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 302,
+      "end": 407,
+      "expression": {
+        "type": "CallExpression",
+        "start": 302,
+        "end": 406,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 302,
+          "end": 318,
+          "object": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 308,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 318,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 319,
+            "end": 332,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 326,
+              "end": 332,
+              "object": {
+                "type": "Identifier",
+                "start": 326,
+                "end": 327,
+                "name": "f"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 328,
+                "end": 332,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 334,
+            "end": 344,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 346,
+            "end": 405,
+            "value": "The value of `typeof f.call` is expected to be \"function\"",
+            "raw": "'The value of `typeof f.call` is expected to be \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 408,
+      "end": 519,
+      "expression": {
+        "type": "CallExpression",
+        "start": 408,
+        "end": 518,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 408,
+          "end": 427,
+          "object": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 414,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 415,
+            "end": 427,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 428,
+            "end": 448,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 435,
+              "end": 448,
+              "object": {
+                "type": "MemberExpression",
+                "start": 435,
+                "end": 441,
+                "object": {
+                  "type": "Identifier",
+                  "start": 435,
+                  "end": 436,
+                  "name": "f"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 437,
+                  "end": 441,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 442,
+                "end": 448,
+                "name": "length"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 450,
+            "end": 461,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          },
+          {
+            "type": "Literal",
+            "start": 463,
+            "end": 517,
+            "value": "The value of typeof f.call.length is not \"undefined\"",
+            "raw": "'The value of typeof f.call.length is not \"undefined\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 520,
+      "end": 605,
+      "expression": {
+        "type": "CallExpression",
+        "start": 520,
+        "end": 604,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 520,
+          "end": 536,
+          "object": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 526,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 527,
+            "end": 536,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 537,
+            "end": 550,
+            "object": {
+              "type": "MemberExpression",
+              "start": 537,
+              "end": 543,
+              "object": {
+                "type": "Identifier",
+                "start": 537,
+                "end": 538,
+                "name": "f"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 539,
+                "end": 543,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 544,
+              "end": 550,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 552,
+            "end": 553,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 555,
+            "end": 603,
+            "value": "The value of f.call.length is expected to be 1",
+            "raw": "'The value of f.call.length is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

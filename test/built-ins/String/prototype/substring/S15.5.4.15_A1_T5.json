@@ -1,0 +1,319 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 949,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 343,
+      "end": 395,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 343,
+        "end": 394,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 343,
+          "end": 357,
+          "object": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 349,
+            "name": "__func"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 357,
+            "name": "valueOf"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 360,
+          "end": 394,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 371,
+            "end": 394,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 375,
+                "end": 392,
+                "argument": {
+                  "type": "Literal",
+                  "start": 382,
+                  "end": 392,
+                  "value": "gnulluna",
+                  "raw": "\"gnulluna\""
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 397,
+      "end": 455,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 397,
+        "end": 454,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 397,
+          "end": 425,
+          "object": {
+            "type": "MemberExpression",
+            "start": 397,
+            "end": 415,
+            "object": {
+              "type": "Identifier",
+              "start": 397,
+              "end": 405,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 406,
+              "end": 415,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 416,
+            "end": 425,
+            "name": "substring"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 428,
+          "end": 454,
+          "object": {
+            "type": "MemberExpression",
+            "start": 428,
+            "end": 444,
+            "object": {
+              "type": "Identifier",
+              "start": 428,
+              "end": 434,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 435,
+              "end": 444,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 454,
+            "name": "substring"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 547,
+      "end": 843,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 551,
+        "end": 592,
+        "left": {
+          "type": "CallExpression",
+          "start": 551,
+          "end": 585,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 551,
+            "end": 567,
+            "object": {
+              "type": "Identifier",
+              "start": 551,
+              "end": 557,
+              "name": "__func"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 558,
+              "end": 567,
+              "name": "substring"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 568,
+              "end": 572,
+              "value": null,
+              "raw": "null"
+            },
+            {
+              "type": "CallExpression",
+              "start": 574,
+              "end": 584,
+              "callee": {
+                "type": "Identifier",
+                "start": 574,
+                "end": 582,
+                "name": "Function"
+              },
+              "arguments": [],
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 590,
+          "end": 592,
+          "value": "",
+          "raw": "\"\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 594,
+        "end": 843,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 598,
+            "end": 841,
+            "argument": {
+              "type": "NewExpression",
+              "start": 604,
+              "end": 840,
+              "callee": {
+                "type": "Identifier",
+                "start": 608,
+                "end": 620,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 621,
+                  "end": 839,
+                  "left": {
+                    "type": "Literal",
+                    "start": 621,
+                    "end": 802,
+                    "value": "#1: __func.valueOf=function(){return \"gnulluna\"}; Function.prototype.substring=String.prototype.substring; function __func(){}; __func.substring(null, Function()) === \"\". Actual: ",
+                    "raw": "'#1: __func.valueOf=function(){return \"gnulluna\"}; Function.prototype.substring=String.prototype.substring; function __func(){}; __func.substring(null, Function()) === \"\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 805,
+                    "end": 839,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 805,
+                      "end": 821,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 805,
+                        "end": 811,
+                        "name": "__func"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 812,
+                        "end": 821,
+                        "name": "substring"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 822,
+                        "end": 826,
+                        "value": null,
+                        "raw": "null"
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 828,
+                        "end": 838,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 828,
+                          "end": 836,
+                          "name": "Function"
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 927,
+      "end": 947,
+      "id": {
+        "type": "Identifier",
+        "start": 936,
+        "end": 942,
+        "name": "__func"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 945,
+        "end": 947,
+        "body": []
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 947,
+      "end": 948
+    }
+  ],
+  "sourceType": "script"
+}

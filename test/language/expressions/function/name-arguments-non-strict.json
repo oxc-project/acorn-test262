@@ -1,0 +1,39 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 308,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 281,
+      "end": 307,
+      "expression": {
+        "type": "ParenthesizedExpression",
+        "start": 281,
+        "end": 306,
+        "expression": {
+          "type": "FunctionExpression",
+          "start": 282,
+          "end": 305,
+          "id": {
+            "type": "Identifier",
+            "start": 291,
+            "end": 300,
+            "name": "arguments"
+          },
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 303,
+            "end": 305,
+            "body": []
+          }
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

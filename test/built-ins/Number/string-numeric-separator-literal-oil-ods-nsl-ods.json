@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 752,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 646,
+      "end": 698,
+      "expression": {
+        "type": "CallExpression",
+        "start": 646,
+        "end": 697,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 646,
+          "end": 662,
+          "object": {
+            "type": "Identifier",
+            "start": 646,
+            "end": 652,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 653,
+            "end": 662,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 663,
+            "end": 680,
+            "callee": {
+              "type": "Identifier",
+              "start": 663,
+              "end": 669,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 670,
+                "end": 679,
+                "value": "0o01_00",
+                "raw": "\"0o01_00\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 682,
+            "end": 685,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 687,
+            "end": 696,
+            "value": "0o01_00",
+            "raw": "\"0o01_00\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 699,
+      "end": 751,
+      "expression": {
+        "type": "CallExpression",
+        "start": 699,
+        "end": 750,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 699,
+          "end": 715,
+          "object": {
+            "type": "Identifier",
+            "start": 699,
+            "end": 705,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 715,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 716,
+            "end": 733,
+            "callee": {
+              "type": "Identifier",
+              "start": 716,
+              "end": 722,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 723,
+                "end": 732,
+                "value": "0O01_00",
+                "raw": "\"0O01_00\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 735,
+            "end": 738,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 740,
+            "end": 749,
+            "value": "0O01_00",
+            "raw": "\"0O01_00\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

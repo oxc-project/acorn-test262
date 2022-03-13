@@ -1,0 +1,728 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1325,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 527,
+      "end": 607,
+      "expression": {
+        "type": "CallExpression",
+        "start": 527,
+        "end": 606,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 527,
+          "end": 540,
+          "object": {
+            "type": "Identifier",
+            "start": 527,
+            "end": 533,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 534,
+            "end": 540,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 541,
+            "end": 552,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 554,
+            "end": 605,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 565,
+              "end": 605,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 571,
+                  "end": 603,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 578,
+                    "end": 602,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 582,
+                      "end": 588,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 589,
+                        "end": 601,
+                        "value": "(?<🦊>fox)",
+                        "raw": "\"(?<🦊>fox)\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 609,
+      "end": 696,
+      "expression": {
+        "type": "CallExpression",
+        "start": 609,
+        "end": 695,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 609,
+          "end": 622,
+          "object": {
+            "type": "Identifier",
+            "start": 609,
+            "end": 615,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 616,
+            "end": 622,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 623,
+            "end": 634,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 636,
+            "end": 694,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 647,
+              "end": 694,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 653,
+                  "end": 692,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 660,
+                    "end": 691,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 664,
+                      "end": 670,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 671,
+                        "end": 690,
+                        "value": "(?<🦊>fox)",
+                        "raw": "\"(?<\\u{1f98a}>fox)\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 698,
+      "end": 788,
+      "expression": {
+        "type": "CallExpression",
+        "start": 698,
+        "end": 787,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 698,
+          "end": 711,
+          "object": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 704,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 705,
+            "end": 711,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 712,
+            "end": 723,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 725,
+            "end": 786,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 736,
+              "end": 786,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 742,
+                  "end": 784,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 749,
+                    "end": 783,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 753,
+                      "end": 759,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 760,
+                        "end": 782,
+                        "value": "(?<🦊>fox)",
+                        "raw": "\"(?<\\ud83e\\udd8a>fox)\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 790,
+      "end": 870,
+      "expression": {
+        "type": "CallExpression",
+        "start": 790,
+        "end": 869,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 790,
+          "end": 803,
+          "object": {
+            "type": "Identifier",
+            "start": 790,
+            "end": 796,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 797,
+            "end": 803,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 804,
+            "end": 815,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 817,
+            "end": 868,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 828,
+              "end": 868,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 834,
+                  "end": 866,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 841,
+                    "end": 865,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 845,
+                      "end": 851,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 852,
+                        "end": 864,
+                        "value": "(?<🐕>dog)",
+                        "raw": "\"(?<🐕>dog)\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 872,
+      "end": 959,
+      "expression": {
+        "type": "CallExpression",
+        "start": 872,
+        "end": 958,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 872,
+          "end": 885,
+          "object": {
+            "type": "Identifier",
+            "start": 872,
+            "end": 878,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 879,
+            "end": 885,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 886,
+            "end": 897,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 899,
+            "end": 957,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 910,
+              "end": 957,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 916,
+                  "end": 955,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 923,
+                    "end": 954,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 927,
+                      "end": 933,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 934,
+                        "end": 953,
+                        "value": "(?<🐕>dog)",
+                        "raw": "\"(?<\\u{1f415}>dog)\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 961,
+      "end": 1052,
+      "expression": {
+        "type": "CallExpression",
+        "start": 961,
+        "end": 1051,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 961,
+          "end": 974,
+          "object": {
+            "type": "Identifier",
+            "start": 961,
+            "end": 967,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 968,
+            "end": 974,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 975,
+            "end": 986,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 988,
+            "end": 1050,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 999,
+              "end": 1050,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 1005,
+                  "end": 1048,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1012,
+                    "end": 1047,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1016,
+                      "end": 1022,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1023,
+                        "end": 1046,
+                        "value": "(?<\ud83d \udc15>dog)",
+                        "raw": "\"(?<\\ud83d \\udc15>dog)\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1054,
+      "end": 1137,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1054,
+        "end": 1136,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1054,
+          "end": 1067,
+          "object": {
+            "type": "Identifier",
+            "start": 1054,
+            "end": 1060,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1061,
+            "end": 1067,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1068,
+            "end": 1079,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1081,
+            "end": 1135,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1092,
+              "end": 1135,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 1098,
+                  "end": 1133,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1105,
+                    "end": 1132,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1109,
+                      "end": 1115,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1116,
+                        "end": 1131,
+                        "value": "(?<𝟚the>the)",
+                        "raw": "\"(?<𝟚the>the)\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1139,
+      "end": 1229,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1139,
+        "end": 1228,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1139,
+          "end": 1152,
+          "object": {
+            "type": "Identifier",
+            "start": 1139,
+            "end": 1145,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1146,
+            "end": 1152,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1153,
+            "end": 1164,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1166,
+            "end": 1227,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1177,
+              "end": 1227,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 1183,
+                  "end": 1225,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1190,
+                    "end": 1224,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1194,
+                      "end": 1200,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1201,
+                        "end": 1223,
+                        "value": "(?<𝟚the>the)",
+                        "raw": "\"(?<\\u{1d7da}the>the)\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1231,
+      "end": 1324,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1231,
+        "end": 1323,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1231,
+          "end": 1244,
+          "object": {
+            "type": "Identifier",
+            "start": 1231,
+            "end": 1237,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1238,
+            "end": 1244,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1245,
+            "end": 1256,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1258,
+            "end": 1322,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1269,
+              "end": 1322,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 1275,
+                  "end": 1320,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1282,
+                    "end": 1319,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1286,
+                      "end": 1292,
+                      "name": "RegExp"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1293,
+                        "end": 1318,
+                        "value": "(?<𝟚the>the)",
+                        "raw": "\"(?<\\ud835\\udfdathe>the)\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

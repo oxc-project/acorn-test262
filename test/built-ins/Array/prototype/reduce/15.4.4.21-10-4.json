@@ -1,0 +1,280 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 462,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 261,
+      "end": 299,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 261,
+        "end": 298,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 261,
+          "end": 274,
+          "object": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 264,
+            "name": "foo"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 274,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 277,
+          "end": 298,
+          "callee": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 286,
+            "name": "Array"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 287,
+              "end": 288,
+              "value": 1,
+              "raw": "1"
+            },
+            {
+              "type": "Literal",
+              "start": 290,
+              "end": 291,
+              "value": 2,
+              "raw": "2"
+            },
+            {
+              "type": "Literal",
+              "start": 293,
+              "end": 294,
+              "value": 3,
+              "raw": "3"
+            },
+            {
+              "type": "Literal",
+              "start": 296,
+              "end": 297,
+              "value": 4,
+              "raw": "4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 301,
+      "end": 318,
+      "id": {
+        "type": "Identifier",
+        "start": 310,
+        "end": 313,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 316,
+        "end": 318,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 319,
+      "end": 337,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 323,
+          "end": 336,
+          "id": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 324,
+            "name": "f"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 327,
+            "end": 336,
+            "callee": {
+              "type": "Identifier",
+              "start": 331,
+              "end": 334,
+              "name": "foo"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 339,
+      "end": 408,
+      "id": {
+        "type": "Identifier",
+        "start": 348,
+        "end": 350,
+        "name": "cb"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 351,
+          "end": 358,
+          "name": "prevVal"
+        },
+        {
+          "type": "Identifier",
+          "start": 360,
+          "end": 366,
+          "name": "curVal"
+        },
+        {
+          "type": "Identifier",
+          "start": 368,
+          "end": 371,
+          "name": "idx"
+        },
+        {
+          "type": "Identifier",
+          "start": 373,
+          "end": 376,
+          "name": "obj"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 378,
+        "end": 408,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 382,
+            "end": 406,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 389,
+              "end": 405,
+              "left": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 396,
+                "name": "prevVal"
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 399,
+                "end": 405,
+                "name": "curVal"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 410,
+      "end": 461,
+      "expression": {
+        "type": "CallExpression",
+        "start": 410,
+        "end": 460,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 410,
+          "end": 426,
+          "object": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 416,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 426,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 427,
+            "end": 439,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 427,
+              "end": 435,
+              "object": {
+                "type": "Identifier",
+                "start": 427,
+                "end": 428,
+                "name": "f"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 429,
+                "end": 435,
+                "name": "reduce"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 436,
+                "end": 438,
+                "name": "cb"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 441,
+            "end": 443,
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "type": "Literal",
+            "start": 445,
+            "end": 459,
+            "value": "f.reduce(cb)",
+            "raw": "'f.reduce(cb)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

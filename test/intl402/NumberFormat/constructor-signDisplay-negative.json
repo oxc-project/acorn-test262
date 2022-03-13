@@ -1,0 +1,260 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 845,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 595,
+      "end": 664,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 601,
+          "end": 663,
+          "id": {
+            "type": "Identifier",
+            "start": 601,
+            "end": 603,
+            "name": "nf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 606,
+            "end": 663,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 610,
+              "end": 627,
+              "object": {
+                "type": "Identifier",
+                "start": 610,
+                "end": 614,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 615,
+                "end": 627,
+                "name": "NumberFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 628,
+                "end": 630,
+                "elements": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 632,
+                "end": 662,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 636,
+                    "end": 659,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 636,
+                      "end": 647,
+                      "name": "signDisplay"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 649,
+                      "end": 659,
+                      "value": "negative",
+                      "raw": "'negative'"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 665,
+      "end": 710,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 671,
+          "end": 709,
+          "id": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 686,
+            "name": "resolvedOptions"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 689,
+            "end": 709,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 689,
+              "end": 707,
+              "object": {
+                "type": "Identifier",
+                "start": 689,
+                "end": 691,
+                "name": "nf"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 692,
+                "end": 707,
+                "name": "resolvedOptions"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 712,
+      "end": 844,
+      "expression": {
+        "type": "CallExpression",
+        "start": 712,
+        "end": 843,
+        "callee": {
+          "type": "Identifier",
+          "start": 712,
+          "end": 726,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 727,
+            "end": 742,
+            "name": "resolvedOptions"
+          },
+          {
+            "type": "Literal",
+            "start": 744,
+            "end": 757,
+            "value": "signDisplay",
+            "raw": "'signDisplay'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 759,
+            "end": 842,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 763,
+                "end": 780,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 763,
+                  "end": 768,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 770,
+                  "end": 780,
+                  "value": "negative",
+                  "raw": "'negative'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 784,
+                "end": 798,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 784,
+                  "end": 792,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 794,
+                  "end": 798,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 802,
+                "end": 818,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 802,
+                  "end": 812,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 814,
+                  "end": 818,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 822,
+                "end": 840,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 822,
+                  "end": 834,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 836,
+                  "end": 840,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

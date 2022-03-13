@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 361,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 325,
+      "end": 360,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 325,
+        "end": 359,
+        "operator": "void",
+        "prefix": true,
+        "argument": {
+          "type": "ObjectExpression",
+          "start": 330,
+          "end": 359,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 334,
+              "end": 347,
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 338,
+                "end": 341,
+                "name": "foo"
+              },
+              "kind": "set",
+              "value": {
+                "type": "FunctionExpression",
+                "start": 341,
+                "end": 347,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 342,
+                    "end": 343,
+                    "name": "x"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 345,
+                  "end": 347,
+                  "body": []
+                }
+              }
+            },
+            {
+              "type": "Property",
+              "start": 351,
+              "end": 357,
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 351,
+                "end": 354,
+                "name": "foo"
+              },
+              "value": {
+                "type": "Literal",
+                "start": 356,
+                "end": 357,
+                "value": 1,
+                "raw": "1"
+              },
+              "kind": "init"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

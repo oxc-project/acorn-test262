@@ -1,0 +1,881 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1555,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 759,
+      "end": 810,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 763,
+          "end": 809,
+          "id": {
+            "type": "Identifier",
+            "start": 763,
+            "end": 774,
+            "name": "reduceRight"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 777,
+            "end": 809,
+            "object": {
+              "type": "MemberExpression",
+              "start": 777,
+              "end": 797,
+              "object": {
+                "type": "Identifier",
+                "start": 777,
+                "end": 787,
+                "name": "TypedArray"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 788,
+                "end": 797,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 798,
+              "end": 809,
+              "name": "reduceRight"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 811,
+      "end": 842,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 815,
+          "end": 841,
+          "id": {
+            "type": "Identifier",
+            "start": 815,
+            "end": 825,
+            "name": "callbackfn"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 828,
+            "end": 841,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 839,
+              "end": 841,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 844,
+      "end": 949,
+      "expression": {
+        "type": "CallExpression",
+        "start": 844,
+        "end": 948,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 844,
+          "end": 857,
+          "object": {
+            "type": "Identifier",
+            "start": 844,
+            "end": 850,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 851,
+            "end": 857,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 858,
+            "end": 867,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 869,
+            "end": 926,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 880,
+              "end": 926,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 884,
+                  "end": 924,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 884,
+                    "end": 923,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 884,
+                      "end": 900,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 884,
+                        "end": 895,
+                        "name": "reduceRight"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 896,
+                        "end": 900,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 901,
+                        "end": 910,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 912,
+                        "end": 922,
+                        "name": "callbackfn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 928,
+            "end": 947,
+            "value": "this is undefined",
+            "raw": "\"this is undefined\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 951,
+      "end": 1046,
+      "expression": {
+        "type": "CallExpression",
+        "start": 951,
+        "end": 1045,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 951,
+          "end": 964,
+          "object": {
+            "type": "Identifier",
+            "start": 951,
+            "end": 957,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 958,
+            "end": 964,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 965,
+            "end": 974,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 976,
+            "end": 1028,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 987,
+              "end": 1028,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 991,
+                  "end": 1026,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 991,
+                    "end": 1025,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 991,
+                      "end": 1007,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 991,
+                        "end": 1002,
+                        "name": "reduceRight"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1003,
+                        "end": 1007,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1008,
+                        "end": 1012,
+                        "value": null,
+                        "raw": "null"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1014,
+                        "end": 1024,
+                        "name": "callbackfn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1030,
+            "end": 1044,
+            "value": "this is null",
+            "raw": "\"this is null\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1048,
+      "end": 1139,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1048,
+        "end": 1138,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1048,
+          "end": 1061,
+          "object": {
+            "type": "Identifier",
+            "start": 1048,
+            "end": 1054,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1055,
+            "end": 1061,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1062,
+            "end": 1071,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1073,
+            "end": 1123,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1084,
+              "end": 1123,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1088,
+                  "end": 1121,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1088,
+                    "end": 1120,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1088,
+                      "end": 1104,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1088,
+                        "end": 1099,
+                        "name": "reduceRight"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1100,
+                        "end": 1104,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1105,
+                        "end": 1107,
+                        "value": 42,
+                        "raw": "42"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1109,
+                        "end": 1119,
+                        "name": "callbackfn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1125,
+            "end": 1137,
+            "value": "this is 42",
+            "raw": "\"this is 42\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1141,
+      "end": 1239,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1141,
+        "end": 1238,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1141,
+          "end": 1154,
+          "object": {
+            "type": "Identifier",
+            "start": 1141,
+            "end": 1147,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1148,
+            "end": 1154,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1155,
+            "end": 1164,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1166,
+            "end": 1217,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1177,
+              "end": 1217,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1181,
+                  "end": 1215,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1181,
+                    "end": 1214,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1181,
+                      "end": 1197,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1181,
+                        "end": 1192,
+                        "name": "reduceRight"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1193,
+                        "end": 1197,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1198,
+                        "end": 1201,
+                        "value": "1",
+                        "raw": "\"1\""
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1203,
+                        "end": 1213,
+                        "name": "callbackfn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1219,
+            "end": 1237,
+            "value": "this is a string",
+            "raw": "\"this is a string\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1241,
+      "end": 1336,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1241,
+        "end": 1335,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1241,
+          "end": 1254,
+          "object": {
+            "type": "Identifier",
+            "start": 1241,
+            "end": 1247,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1248,
+            "end": 1254,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1255,
+            "end": 1264,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1266,
+            "end": 1318,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1277,
+              "end": 1318,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1281,
+                  "end": 1316,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1281,
+                    "end": 1315,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1281,
+                      "end": 1297,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1281,
+                        "end": 1292,
+                        "name": "reduceRight"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1293,
+                        "end": 1297,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1298,
+                        "end": 1302,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1304,
+                        "end": 1314,
+                        "name": "callbackfn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1320,
+            "end": 1334,
+            "value": "this is true",
+            "raw": "\"this is true\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1338,
+      "end": 1435,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1338,
+        "end": 1434,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1338,
+          "end": 1351,
+          "object": {
+            "type": "Identifier",
+            "start": 1338,
+            "end": 1344,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1345,
+            "end": 1351,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1352,
+            "end": 1361,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1363,
+            "end": 1416,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1374,
+              "end": 1416,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1378,
+                  "end": 1414,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1378,
+                    "end": 1413,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1378,
+                      "end": 1394,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1378,
+                        "end": 1389,
+                        "name": "reduceRight"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1390,
+                        "end": 1394,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1395,
+                        "end": 1400,
+                        "value": false,
+                        "raw": "false"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1402,
+                        "end": 1412,
+                        "name": "callbackfn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1418,
+            "end": 1433,
+            "value": "this is false",
+            "raw": "\"this is false\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1437,
+      "end": 1457,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1441,
+          "end": 1456,
+          "id": {
+            "type": "Identifier",
+            "start": 1441,
+            "end": 1442,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1445,
+            "end": 1456,
+            "callee": {
+              "type": "Identifier",
+              "start": 1445,
+              "end": 1451,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1452,
+                "end": 1455,
+                "value": "s",
+                "raw": "\"s\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1458,
+      "end": 1554,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1458,
+        "end": 1553,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1458,
+          "end": 1471,
+          "object": {
+            "type": "Identifier",
+            "start": 1458,
+            "end": 1464,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1465,
+            "end": 1471,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1472,
+            "end": 1481,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1483,
+            "end": 1532,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1494,
+              "end": 1532,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1498,
+                  "end": 1530,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1498,
+                    "end": 1529,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1498,
+                      "end": 1514,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1498,
+                        "end": 1509,
+                        "name": "reduceRight"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1510,
+                        "end": 1514,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1515,
+                        "end": 1516,
+                        "name": "s"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1518,
+                        "end": 1528,
+                        "name": "callbackfn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1534,
+            "end": 1552,
+            "value": "this is a Symbol",
+            "raw": "\"this is a Symbol\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,206 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 728,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 355,
+      "end": 407,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 359,
+          "end": 406,
+          "id": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 377,
+            "name": "lineTerminatorsStr"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 380,
+            "end": 406,
+            "value": "\n\r  ",
+            "raw": "\"\\u000A\\u000D\\u2028\\u2029\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 408,
+      "end": 582,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 412,
+          "end": 581,
+          "id": {
+            "type": "Identifier",
+            "start": 412,
+            "end": 426,
+            "name": "whiteSpacesStr"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 429,
+            "end": 581,
+            "value": "\t\n\u000b\f\r                  　﻿",
+            "raw": "\"\\u0009\\u000A\\u000B\\u000C\\u000D\\u0020\\u00A0\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u2028\\u2029\\u202F\\u205F\\u3000\\uFEFF\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 583,
+      "end": 675,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 587,
+          "end": 674,
+          "id": {
+            "type": "Identifier",
+            "start": 587,
+            "end": 590,
+            "name": "str"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 593,
+            "end": 674,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 593,
+              "end": 653,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 593,
+                "end": 636,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 593,
+                  "end": 628,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 593,
+                    "end": 607,
+                    "name": "whiteSpacesStr"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 610,
+                    "end": 628,
+                    "name": "lineTerminatorsStr"
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 631,
+                  "end": 636,
+                  "value": "abc",
+                  "raw": "\"abc\""
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 639,
+                "end": 653,
+                "name": "whiteSpacesStr"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Identifier",
+              "start": 656,
+              "end": 674,
+              "name": "lineTerminatorsStr"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 677,
+      "end": 727,
+      "expression": {
+        "type": "CallExpression",
+        "start": 677,
+        "end": 726,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 677,
+          "end": 693,
+          "object": {
+            "type": "Identifier",
+            "start": 677,
+            "end": 683,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 693,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 694,
+            "end": 704,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 694,
+              "end": 702,
+              "object": {
+                "type": "Identifier",
+                "start": 694,
+                "end": 697,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 698,
+                "end": 702,
+                "name": "trim"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 706,
+            "end": 711,
+            "value": "abc",
+            "raw": "\"abc\""
+          },
+          {
+            "type": "Literal",
+            "start": 713,
+            "end": 725,
+            "value": "str.trim()",
+            "raw": "'str.trim()'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,293 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 860,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 362,
+      "end": 519,
+      "expression": {
+        "type": "CallExpression",
+        "start": 362,
+        "end": 518,
+        "callee": {
+          "type": "Identifier",
+          "start": 362,
+          "end": 368,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 372,
+            "end": 423,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 373,
+              "end": 423,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "CallExpression",
+                "start": 374,
+                "end": 423,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 374,
+                  "end": 413,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 374,
+                    "end": 398,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 374,
+                      "end": 390,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 374,
+                        "end": 380,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 381,
+                        "end": 390,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 391,
+                      "end": 398,
+                      "name": "valueOf"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 399,
+                    "end": 413,
+                    "name": "hasOwnProperty"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 414,
+                    "end": 422,
+                    "value": "length",
+                    "raw": "'length'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 427,
+            "end": 516,
+            "value": "The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true",
+            "raw": "'The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 521,
+      "end": 656,
+      "expression": {
+        "type": "CallExpression",
+        "start": 521,
+        "end": 655,
+        "callee": {
+          "type": "Identifier",
+          "start": 521,
+          "end": 527,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 531,
+            "end": 571,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 532,
+              "end": 571,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "UnaryExpression",
+                "start": 533,
+                "end": 571,
+                "operator": "delete",
+                "prefix": true,
+                "argument": {
+                  "type": "MemberExpression",
+                  "start": 540,
+                  "end": 571,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 540,
+                    "end": 564,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 540,
+                      "end": 556,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 540,
+                        "end": 546,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 547,
+                        "end": 556,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 557,
+                      "end": 564,
+                      "name": "valueOf"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 565,
+                    "end": 571,
+                    "name": "length"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 575,
+            "end": 653,
+            "value": "The value of !!delete Object.prototype.valueOf.length is expected to be true",
+            "raw": "'The value of !!delete Object.prototype.valueOf.length is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 658,
+      "end": 813,
+      "expression": {
+        "type": "CallExpression",
+        "start": 658,
+        "end": 812,
+        "callee": {
+          "type": "Identifier",
+          "start": 658,
+          "end": 664,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 668,
+            "end": 718,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 669,
+              "end": 718,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 669,
+                "end": 708,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 669,
+                  "end": 693,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 669,
+                    "end": 685,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 669,
+                      "end": 675,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 676,
+                      "end": 685,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 686,
+                    "end": 693,
+                    "name": "valueOf"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 694,
+                  "end": 708,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 709,
+                  "end": 717,
+                  "value": "length",
+                  "raw": "'length'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 722,
+            "end": 810,
+            "value": "The value of !Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true",
+            "raw": "'The value of !Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

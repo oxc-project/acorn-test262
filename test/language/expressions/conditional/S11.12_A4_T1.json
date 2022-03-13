@@ -1,0 +1,327 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 687,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 271,
+      "end": 376,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 275,
+        "end": 306,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 275,
+          "end": 296,
+          "expression": {
+            "type": "ConditionalExpression",
+            "start": 276,
+            "end": 295,
+            "test": {
+              "type": "Literal",
+              "start": 276,
+              "end": 280,
+              "value": true,
+              "raw": "true"
+            },
+            "consequent": {
+              "type": "Literal",
+              "start": 283,
+              "end": 288,
+              "value": false,
+              "raw": "false"
+            },
+            "alternate": {
+              "type": "Literal",
+              "start": 291,
+              "end": 295,
+              "value": true,
+              "raw": "true"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 301,
+          "end": 306,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 308,
+        "end": 376,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 312,
+            "end": 374,
+            "argument": {
+              "type": "NewExpression",
+              "start": 318,
+              "end": 373,
+              "callee": {
+                "type": "Identifier",
+                "start": 322,
+                "end": 334,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 335,
+                  "end": 372,
+                  "value": "#1: (true ? false : true) === false",
+                  "raw": "'#1: (true ? false : true) === false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 388,
+      "end": 414,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 392,
+          "end": 413,
+          "id": {
+            "type": "Identifier",
+            "start": 392,
+            "end": 393,
+            "name": "y"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 396,
+            "end": 413,
+            "callee": {
+              "type": "Identifier",
+              "start": 400,
+              "end": 407,
+              "name": "Boolean"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 408,
+                "end": 412,
+                "value": true,
+                "raw": "true"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 415,
+      "end": 534,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 419,
+        "end": 443,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 419,
+          "end": 437,
+          "expression": {
+            "type": "ConditionalExpression",
+            "start": 420,
+            "end": 436,
+            "test": {
+              "type": "Literal",
+              "start": 420,
+              "end": 424,
+              "value": true,
+              "raw": "true"
+            },
+            "consequent": {
+              "type": "Identifier",
+              "start": 427,
+              "end": 428,
+              "name": "y"
+            },
+            "alternate": {
+              "type": "Literal",
+              "start": 431,
+              "end": 436,
+              "value": false,
+              "raw": "false"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 442,
+          "end": 443,
+          "name": "y"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 445,
+        "end": 534,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 449,
+            "end": 532,
+            "argument": {
+              "type": "NewExpression",
+              "start": 455,
+              "end": 531,
+              "callee": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 471,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 472,
+                  "end": 530,
+                  "value": "#2: (var y = new Boolean(true); (true ? y : false) === y",
+                  "raw": "'#2: (var y = new Boolean(true); (true ? y : false) === y'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 546,
+      "end": 573,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 550,
+          "end": 572,
+          "id": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 551,
+            "name": "y"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 554,
+            "end": 572,
+            "callee": {
+              "type": "Identifier",
+              "start": 558,
+              "end": 565,
+              "name": "Boolean"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 566,
+                "end": 571,
+                "value": false,
+                "raw": "false"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 574,
+      "end": 686,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 578,
+        "end": 598,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 578,
+          "end": 592,
+          "expression": {
+            "type": "ConditionalExpression",
+            "start": 579,
+            "end": 591,
+            "test": {
+              "type": "Identifier",
+              "start": 579,
+              "end": 580,
+              "name": "y"
+            },
+            "consequent": {
+              "type": "Identifier",
+              "start": 583,
+              "end": 584,
+              "name": "y"
+            },
+            "alternate": {
+              "type": "Literal",
+              "start": 587,
+              "end": 591,
+              "value": true,
+              "raw": "true"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 597,
+          "end": 598,
+          "name": "y"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 600,
+        "end": 686,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 604,
+            "end": 684,
+            "argument": {
+              "type": "NewExpression",
+              "start": 610,
+              "end": 683,
+              "callee": {
+                "type": "Identifier",
+                "start": 614,
+                "end": 626,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 627,
+                  "end": 682,
+                  "value": "#3: (var y = new Boolean(false); (y ? y : true) === y",
+                  "raw": "'#3: (var y = new Boolean(false); (y ? y : true) === y'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

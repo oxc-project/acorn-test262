@@ -1,0 +1,306 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 598,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 332,
+      "end": 342,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 336,
+          "end": 341,
+          "id": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 337,
+            "name": "n"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 340,
+            "end": 341,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 344,
+      "end": 372,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 348,
+          "end": 371,
+          "id": {
+            "type": "Identifier",
+            "start": 348,
+            "end": 354,
+            "name": "locale"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 357,
+            "end": 371,
+            "value": "th-u-nu-thai",
+            "raw": "\"th-u-nu-thai\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 373,
+      "end": 420,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 377,
+          "end": 419,
+          "id": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 384,
+            "name": "options"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 387,
+            "end": 419,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 393,
+                "end": 417,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 393,
+                  "end": 414,
+                  "name": "minimumFractionDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 416,
+                  "end": 417,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 422,
+      "end": 471,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 426,
+          "end": 470,
+          "id": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 434,
+            "name": "expected"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 437,
+            "end": 470,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 437,
+              "end": 453,
+              "object": {
+                "type": "Identifier",
+                "start": 437,
+                "end": 438,
+                "name": "n"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 439,
+                "end": 453,
+                "name": "toLocaleString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 454,
+                "end": 460,
+                "name": "locale"
+              },
+              {
+                "type": "Identifier",
+                "start": 462,
+                "end": 469,
+                "name": "options"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 473,
+      "end": 597,
+      "expression": {
+        "type": "CallExpression",
+        "start": 473,
+        "end": 596,
+        "callee": {
+          "type": "Identifier",
+          "start": 473,
+          "end": 503,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 504,
+            "end": 595,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 513,
+                "end": 515,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 517,
+              "end": 595,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 521,
+                  "end": 593,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 521,
+                    "end": 592,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 521,
+                      "end": 537,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 521,
+                        "end": 527,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 528,
+                        "end": 537,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 538,
+                        "end": 581,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 538,
+                          "end": 564,
+                          "object": {
+                            "type": "NewExpression",
+                            "start": 538,
+                            "end": 549,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 542,
+                              "end": 544,
+                              "name": "TA"
+                            },
+                            "arguments": [
+                              {
+                                "type": "ArrayExpression",
+                                "start": 545,
+                                "end": 548,
+                                "elements": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 546,
+                                    "end": 547,
+                                    "name": "n"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 550,
+                            "end": 564,
+                            "name": "toLocaleString"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 565,
+                            "end": 571,
+                            "name": "locale"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 573,
+                            "end": 580,
+                            "name": "options"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 583,
+                        "end": 591,
+                        "name": "expected"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

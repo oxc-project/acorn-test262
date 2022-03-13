@@ -1,0 +1,1073 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1850,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 279,
+      "end": 430,
+      "expression": {
+        "type": "CallExpression",
+        "start": 279,
+        "end": 429,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 279,
+          "end": 295,
+          "object": {
+            "type": "Identifier",
+            "start": 279,
+            "end": 285,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 295,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 299,
+            "end": 336,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 306,
+              "end": 336,
+              "object": {
+                "type": "MemberExpression",
+                "start": 306,
+                "end": 327,
+                "object": {
+                  "type": "Identifier",
+                  "start": 306,
+                  "end": 317,
+                  "name": "ShadowRealm"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 318,
+                  "end": 327,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 328,
+                "end": 336,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 340,
+            "end": 350,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 354,
+            "end": 427,
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 432,
+      "end": 453,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 432,
+        "end": 452,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 432,
+          "end": 448,
+          "object": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 442,
+            "name": "globalThis"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 443,
+            "end": 448,
+            "name": "count"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 451,
+          "end": 452,
+          "value": 0,
+          "raw": "0"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 454,
+      "end": 487,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 460,
+          "end": 486,
+          "id": {
+            "type": "Identifier",
+            "start": 460,
+            "end": 466,
+            "name": "realm1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 469,
+            "end": 486,
+            "callee": {
+              "type": "Identifier",
+              "start": 473,
+              "end": 484,
+              "name": "ShadowRealm"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 489,
+      "end": 583,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 495,
+          "end": 582,
+          "id": {
+            "type": "Identifier",
+            "start": 495,
+            "end": 504,
+            "name": "r1wrapped"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 507,
+            "end": 582,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 507,
+              "end": 522,
+              "object": {
+                "type": "Identifier",
+                "start": 507,
+                "end": 513,
+                "name": "realm1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 514,
+                "end": 522,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "TemplateLiteral",
+                "start": 523,
+                "end": 581,
+                "expressions": [],
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 524,
+                    "end": 580,
+                    "value": {
+                      "raw": "\n  globalThis.count = 0;\n  () => globalThis.count += 1;\n",
+                      "cooked": "\n  globalThis.count = 0;\n  () => globalThis.count += 1;\n"
+                    },
+                    "tail": true
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 585,
+      "end": 699,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 591,
+          "end": 698,
+          "id": {
+            "type": "Identifier",
+            "start": 591,
+            "end": 605,
+            "name": "realm2Evaluate"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 608,
+            "end": 698,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 608,
+              "end": 623,
+              "object": {
+                "type": "Identifier",
+                "start": 608,
+                "end": 614,
+                "name": "realm1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 615,
+                "end": 623,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "TemplateLiteral",
+                "start": 624,
+                "end": 697,
+                "expressions": [],
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 625,
+                    "end": 696,
+                    "value": {
+                      "raw": "\n  const realm2 = new ShadowRealm();\n\n  (str) => realm2.evaluate(str);\n",
+                      "cooked": "\n  const realm2 = new ShadowRealm();\n\n  (str) => realm2.evaluate(str);\n"
+                    },
+                    "tail": true
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 701,
+      "end": 840,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 707,
+          "end": 839,
+          "id": {
+            "type": "Identifier",
+            "start": 707,
+            "end": 716,
+            "name": "r2wrapper"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 719,
+            "end": 839,
+            "callee": {
+              "type": "Identifier",
+              "start": 719,
+              "end": 733,
+              "name": "realm2Evaluate"
+            },
+            "arguments": [
+              {
+                "type": "TemplateLiteral",
+                "start": 734,
+                "end": 838,
+                "expressions": [],
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 735,
+                    "end": 837,
+                    "value": {
+                      "raw": "\n  globalThis.wrapped = undefined;\n  globalThis.count = 0; // Bait\n  (fn) => globalThis.wrapped = fn;\n",
+                      "cooked": "\n  globalThis.wrapped = undefined;\n  globalThis.count = 0; // Bait\n  (fn) => globalThis.wrapped = fn;\n"
+                    },
+                    "tail": true
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 842,
+      "end": 881,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 848,
+          "end": 880,
+          "id": {
+            "type": "Identifier",
+            "start": 848,
+            "end": 857,
+            "name": "rewrapped"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 860,
+            "end": 880,
+            "callee": {
+              "type": "Identifier",
+              "start": 860,
+              "end": 869,
+              "name": "r2wrapper"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 870,
+                "end": 879,
+                "name": "r1wrapped"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 883,
+      "end": 952,
+      "expression": {
+        "type": "CallExpression",
+        "start": 883,
+        "end": 951,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 883,
+          "end": 902,
+          "object": {
+            "type": "Identifier",
+            "start": 883,
+            "end": 889,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 890,
+            "end": 902,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 903,
+            "end": 912,
+            "name": "rewrapped"
+          },
+          {
+            "type": "Identifier",
+            "start": 914,
+            "end": 923,
+            "name": "r1wrapped"
+          },
+          {
+            "type": "Literal",
+            "start": 925,
+            "end": 950,
+            "value": "rewrapped !== r1wrapped",
+            "raw": "'rewrapped !== r1wrapped'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 954,
+      "end": 1009,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 960,
+          "end": 1008,
+          "id": {
+            "type": "Identifier",
+            "start": 960,
+            "end": 969,
+            "name": "r2wrapped"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 972,
+            "end": 1008,
+            "callee": {
+              "type": "Identifier",
+              "start": 972,
+              "end": 986,
+              "name": "realm2Evaluate"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 987,
+                "end": 1007,
+                "value": "globalThis.wrapped",
+                "raw": "'globalThis.wrapped'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1011,
+      "end": 1080,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1011,
+        "end": 1079,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1011,
+          "end": 1030,
+          "object": {
+            "type": "Identifier",
+            "start": 1011,
+            "end": 1017,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1018,
+            "end": 1030,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1031,
+            "end": 1040,
+            "name": "r2wrapped"
+          },
+          {
+            "type": "Identifier",
+            "start": 1042,
+            "end": 1051,
+            "name": "r1wrapped"
+          },
+          {
+            "type": "Literal",
+            "start": 1053,
+            "end": 1078,
+            "value": "r2wrapped !== r1wrapped",
+            "raw": "'r2wrapped !== r1wrapped'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1081,
+      "end": 1150,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1081,
+        "end": 1149,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1081,
+          "end": 1100,
+          "object": {
+            "type": "Identifier",
+            "start": 1081,
+            "end": 1087,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1088,
+            "end": 1100,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1101,
+            "end": 1110,
+            "name": "r2wrapped"
+          },
+          {
+            "type": "Identifier",
+            "start": 1112,
+            "end": 1121,
+            "name": "rewrapped"
+          },
+          {
+            "type": "Literal",
+            "start": 1123,
+            "end": 1148,
+            "value": "r2wrapped !== rewrapped",
+            "raw": "'r2wrapped !== rewrapped'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1152,
+      "end": 1258,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1152,
+        "end": 1257,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1152,
+          "end": 1168,
+          "object": {
+            "type": "Identifier",
+            "start": 1152,
+            "end": 1158,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1159,
+            "end": 1168,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1169,
+            "end": 1204,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1169,
+              "end": 1184,
+              "object": {
+                "type": "Identifier",
+                "start": 1169,
+                "end": 1175,
+                "name": "realm1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1176,
+                "end": 1184,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1185,
+                "end": 1203,
+                "value": "globalThis.count",
+                "raw": "'globalThis.count'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1206,
+            "end": 1207,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "TemplateLiteral",
+            "start": 1209,
+            "end": 1256,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 1210,
+                "end": 1255,
+                "value": {
+                  "raw": "getting wrapped function won't trigger a call",
+                  "cooked": "getting wrapped function won't trigger a call"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1260,
+      "end": 1347,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1260,
+        "end": 1346,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1260,
+          "end": 1276,
+          "object": {
+            "type": "Identifier",
+            "start": 1260,
+            "end": 1266,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1267,
+            "end": 1276,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1277,
+            "end": 1288,
+            "callee": {
+              "type": "Identifier",
+              "start": 1277,
+              "end": 1286,
+              "name": "r2wrapped"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1290,
+            "end": 1291,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 1293,
+            "end": 1345,
+            "value": "call from r2 wrapped (r2wrapped) cycles back to r1",
+            "raw": "'call from r2 wrapped (r2wrapped) cycles back to r1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1349,
+      "end": 1447,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1349,
+        "end": 1446,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1349,
+          "end": 1365,
+          "object": {
+            "type": "Identifier",
+            "start": 1349,
+            "end": 1355,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1356,
+            "end": 1365,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1366,
+            "end": 1401,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1366,
+              "end": 1381,
+              "object": {
+                "type": "Identifier",
+                "start": 1366,
+                "end": 1372,
+                "name": "realm1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1373,
+                "end": 1381,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1382,
+                "end": 1400,
+                "value": "globalThis.count",
+                "raw": "'globalThis.count'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1403,
+            "end": 1404,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 1406,
+            "end": 1445,
+            "value": "effects produced in a third realm, #1",
+            "raw": "'effects produced in a third realm, #1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1449,
+      "end": 1536,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1449,
+        "end": 1535,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1449,
+          "end": 1465,
+          "object": {
+            "type": "Identifier",
+            "start": 1449,
+            "end": 1455,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1456,
+            "end": 1465,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1466,
+            "end": 1477,
+            "callee": {
+              "type": "Identifier",
+              "start": 1466,
+              "end": 1475,
+              "name": "rewrapped"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1479,
+            "end": 1480,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 1482,
+            "end": 1534,
+            "value": "call from r2 wrapped (rewrapped) cycles back to r1",
+            "raw": "'call from r2 wrapped (rewrapped) cycles back to r1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1538,
+      "end": 1636,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1538,
+        "end": 1635,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1538,
+          "end": 1554,
+          "object": {
+            "type": "Identifier",
+            "start": 1538,
+            "end": 1544,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1545,
+            "end": 1554,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1555,
+            "end": 1590,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1555,
+              "end": 1570,
+              "object": {
+                "type": "Identifier",
+                "start": 1555,
+                "end": 1561,
+                "name": "realm1"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1562,
+                "end": 1570,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1571,
+                "end": 1589,
+                "value": "globalThis.count",
+                "raw": "'globalThis.count'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1592,
+            "end": 1593,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 1595,
+            "end": 1634,
+            "value": "effects produced in a third realm, #2",
+            "raw": "'effects produced in a third realm, #2'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1638,
+      "end": 1750,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1638,
+        "end": 1749,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1638,
+          "end": 1654,
+          "object": {
+            "type": "Identifier",
+            "start": 1638,
+            "end": 1644,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1645,
+            "end": 1654,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1655,
+            "end": 1689,
+            "callee": {
+              "type": "Identifier",
+              "start": 1655,
+              "end": 1669,
+              "name": "realm2Evaluate"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1670,
+                "end": 1688,
+                "value": "globalThis.count",
+                "raw": "'globalThis.count'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1691,
+            "end": 1692,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 1694,
+            "end": 1748,
+            "value": "no side effects produced in the wrong realm (realm2)",
+            "raw": "'no side effects produced in the wrong realm (realm2)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1751,
+      "end": 1849,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1751,
+        "end": 1848,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1751,
+          "end": 1767,
+          "object": {
+            "type": "Identifier",
+            "start": 1751,
+            "end": 1757,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1758,
+            "end": 1767,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1768,
+            "end": 1784,
+            "object": {
+              "type": "Identifier",
+              "start": 1768,
+              "end": 1778,
+              "name": "globalThis"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1779,
+              "end": 1784,
+              "name": "count"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1786,
+            "end": 1787,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 1789,
+            "end": 1847,
+            "value": "no side effects produced in the wrong realm (main realm)",
+            "raw": "'no side effects produced in the wrong realm (main realm)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,288 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 892,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 454,
+      "end": 572,
+      "expression": {
+        "type": "CallExpression",
+        "start": 454,
+        "end": 571,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 454,
+          "end": 470,
+          "object": {
+            "type": "Identifier",
+            "start": 454,
+            "end": 460,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 461,
+            "end": 470,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 471,
+            "end": 489,
+            "callee": {
+              "type": "Identifier",
+              "start": 471,
+              "end": 477,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 478,
+                "end": 488,
+                "value": "Infinity",
+                "raw": "\"Infinity\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 491,
+            "end": 515,
+            "object": {
+              "type": "Identifier",
+              "start": 491,
+              "end": 497,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 498,
+              "end": 515,
+              "name": "POSITIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 517,
+            "end": 570,
+            "value": "Number(\"Infinity\") returns Number.POSITIVE_INFINITY",
+            "raw": "'Number(\"Infinity\") returns Number.POSITIVE_INFINITY'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 573,
+      "end": 663,
+      "expression": {
+        "type": "CallExpression",
+        "start": 573,
+        "end": 662,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 573,
+          "end": 589,
+          "object": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 579,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 580,
+            "end": 589,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 590,
+            "end": 608,
+            "callee": {
+              "type": "Identifier",
+              "start": 590,
+              "end": 596,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 597,
+                "end": 607,
+                "value": "Infinity",
+                "raw": "\"Infinity\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 610,
+            "end": 618,
+            "value": null,
+            "raw": "10e10000"
+          },
+          {
+            "type": "Literal",
+            "start": 620,
+            "end": 661,
+            "value": "Number(\"Infinity\") must return 10e10000",
+            "raw": "'Number(\"Infinity\") must return 10e10000'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 664,
+      "end": 754,
+      "expression": {
+        "type": "CallExpression",
+        "start": 664,
+        "end": 753,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 664,
+          "end": 680,
+          "object": {
+            "type": "Identifier",
+            "start": 664,
+            "end": 670,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 680,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 681,
+            "end": 699,
+            "callee": {
+              "type": "Identifier",
+              "start": 681,
+              "end": 687,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 688,
+                "end": 698,
+                "value": "Infinity",
+                "raw": "\"Infinity\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 701,
+            "end": 709,
+            "value": null,
+            "raw": "10E10000"
+          },
+          {
+            "type": "Literal",
+            "start": 711,
+            "end": 752,
+            "value": "Number(\"Infinity\") must return 10E10000",
+            "raw": "'Number(\"Infinity\") must return 10E10000'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 756,
+      "end": 891,
+      "expression": {
+        "type": "CallExpression",
+        "start": 756,
+        "end": 890,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 756,
+          "end": 772,
+          "object": {
+            "type": "Identifier",
+            "start": 756,
+            "end": 762,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 763,
+            "end": 772,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 776,
+            "end": 794,
+            "callee": {
+              "type": "Identifier",
+              "start": 776,
+              "end": 782,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 783,
+                "end": 793,
+                "value": "Infinity",
+                "raw": "\"Infinity\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 798,
+            "end": 806,
+            "value": null,
+            "raw": "10e10000"
+          },
+          {
+            "type": "Literal",
+            "start": 810,
+            "end": 888,
+            "value": "Number(\"Infinity\") must return the same value returned by Number(\"10e10000\")",
+            "raw": "'Number(\"Infinity\") must return the same value returned by Number(\"10e10000\")'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

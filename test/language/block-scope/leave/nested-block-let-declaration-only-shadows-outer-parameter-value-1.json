@@ -1,0 +1,157 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 361,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 247,
+      "end": 359,
+      "expression": {
+        "type": "CallExpression",
+        "start": 247,
+        "end": 358,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 247,
+          "end": 349,
+          "expression": {
+            "type": "FunctionExpression",
+            "start": 248,
+            "end": 348,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 257,
+                "end": 258,
+                "name": "x"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 260,
+              "end": 348,
+              "body": [
+                {
+                  "type": "LabeledStatement",
+                  "start": 264,
+                  "end": 314,
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 271,
+                    "end": 314,
+                    "body": [
+                      {
+                        "type": "VariableDeclaration",
+                        "start": 277,
+                        "end": 293,
+                        "declarations": [
+                          {
+                            "type": "VariableDeclarator",
+                            "start": 281,
+                            "end": 292,
+                            "id": {
+                              "type": "Identifier",
+                              "start": 281,
+                              "end": 282,
+                              "name": "x"
+                            },
+                            "init": {
+                              "type": "Literal",
+                              "start": 285,
+                              "end": 292,
+                              "value": "inner",
+                              "raw": "'inner'"
+                            }
+                          }
+                        ],
+                        "kind": "let"
+                      },
+                      {
+                        "type": "BreakStatement",
+                        "start": 298,
+                        "end": 310,
+                        "label": {
+                          "type": "Identifier",
+                          "start": 304,
+                          "end": 309,
+                          "name": "label"
+                        }
+                      }
+                    ]
+                  },
+                  "label": {
+                    "type": "Identifier",
+                    "start": 264,
+                    "end": 269,
+                    "name": "label"
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 317,
+                  "end": 346,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 317,
+                    "end": 345,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 317,
+                      "end": 333,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 317,
+                        "end": 323,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 324,
+                        "end": 333,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 334,
+                        "end": 335,
+                        "name": "x"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 337,
+                        "end": 344,
+                        "value": "outer",
+                        "raw": "'outer'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 350,
+            "end": 357,
+            "value": "outer",
+            "raw": "'outer'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

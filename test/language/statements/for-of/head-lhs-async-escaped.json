@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 578,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 512,
+      "end": 522,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 516,
+          "end": 521,
+          "id": {
+            "type": "Identifier",
+            "start": 516,
+            "end": 521,
+            "name": "async"
+          },
+          "init": null
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 524,
+      "end": 548,
+      "await": false,
+      "left": {
+        "type": "Identifier",
+        "start": 529,
+        "end": 539,
+        "name": "async"
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 543,
+        "end": 546,
+        "elements": [
+          {
+            "type": "Literal",
+            "start": 544,
+            "end": 545,
+            "value": 7,
+            "raw": "7"
+          }
+        ]
+      },
+      "body": {
+        "type": "EmptyStatement",
+        "start": 547,
+        "end": 548
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 550,
+      "end": 577,
+      "expression": {
+        "type": "CallExpression",
+        "start": 550,
+        "end": 576,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 550,
+          "end": 566,
+          "object": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 556,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 557,
+            "end": 566,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 567,
+            "end": 572,
+            "name": "async"
+          },
+          {
+            "type": "Literal",
+            "start": 574,
+            "end": 575,
+            "value": 7,
+            "raw": "7"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

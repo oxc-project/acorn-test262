@@ -1,0 +1,103 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2176,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 2046,
+      "end": 2087,
+      "id": {
+        "type": "Identifier",
+        "start": 2055,
+        "end": 2057,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 2060,
+        "end": 2087,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 2064,
+            "end": 2085,
+            "argument": {
+              "type": "FunctionExpression",
+              "start": 2071,
+              "end": 2084,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2082,
+                "end": 2084,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 2129,
+      "end": 2174,
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 2144,
+        "end": 2174,
+        "id": null,
+        "superClass": {
+          "type": "CallExpression",
+          "start": 2158,
+          "end": 2171,
+          "callee": {
+            "type": "Identifier",
+            "start": 2158,
+            "end": 2160,
+            "name": "fn"
+          },
+          "arguments": [
+            {
+              "type": "AwaitExpression",
+              "start": 2161,
+              "end": 2170,
+              "argument": {
+                "type": "Literal",
+                "start": 2167,
+                "end": 2170,
+                "value": {},
+                "raw": "/1/",
+                "regex": {
+                  "pattern": "1",
+                  "flags": ""
+                }
+              }
+            }
+          ],
+          "optional": false
+        },
+        "body": {
+          "type": "ClassBody",
+          "start": 2172,
+          "end": 2174,
+          "body": []
+        }
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2174,
+      "end": 2175
+    }
+  ],
+  "sourceType": "module"
+}

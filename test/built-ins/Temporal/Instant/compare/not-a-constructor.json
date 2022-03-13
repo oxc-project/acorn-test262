@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 751,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 542,
+      "end": 638,
+      "expression": {
+        "type": "CallExpression",
+        "start": 542,
+        "end": 637,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 542,
+          "end": 555,
+          "object": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 548,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 549,
+            "end": 555,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 556,
+            "end": 565,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 567,
+            "end": 610,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 573,
+              "end": 610,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 577,
+                  "end": 608,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 577,
+                    "end": 607,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 581,
+                      "end": 605,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 581,
+                        "end": 597,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 581,
+                          "end": 589,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 590,
+                          "end": 597,
+                          "name": "Instant"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 598,
+                        "end": 605,
+                        "name": "compare"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 612,
+            "end": 636,
+            "value": "Calling as constructor",
+            "raw": "\"Calling as constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 640,
+      "end": 750,
+      "expression": {
+        "type": "CallExpression",
+        "start": 640,
+        "end": 749,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 640,
+          "end": 656,
+          "object": {
+            "type": "Identifier",
+            "start": 640,
+            "end": 646,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 647,
+            "end": 656,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 657,
+            "end": 696,
+            "callee": {
+              "type": "Identifier",
+              "start": 657,
+              "end": 670,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 671,
+                "end": 695,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 671,
+                  "end": 687,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 671,
+                    "end": 679,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 680,
+                    "end": 687,
+                    "name": "Instant"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 688,
+                  "end": 695,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 698,
+            "end": 703,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 707,
+            "end": 748,
+            "value": "isConstructor(Temporal.Instant.compare)",
+            "raw": "\"isConstructor(Temporal.Instant.compare)\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,227 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 981,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 412,
+      "end": 463,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 416,
+          "end": 462,
+          "id": {
+            "type": "Identifier",
+            "start": 416,
+            "end": 421,
+            "name": "__str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 424,
+            "end": 462,
+            "value": "She sells seashells by the seashore.",
+            "raw": "'She sells seashells by the seashore.'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 464,
+      "end": 481,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 468,
+          "end": 480,
+          "id": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 472,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 475,
+            "end": 480,
+            "value": {},
+            "raw": "/sh/g",
+            "regex": {
+              "pattern": "sh",
+              "flags": "g"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 572,
+      "end": 898,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 576,
+        "end": 658,
+        "left": {
+          "type": "CallExpression",
+          "start": 576,
+          "end": 609,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 576,
+            "end": 589,
+            "object": {
+              "type": "Identifier",
+              "start": 576,
+              "end": 581,
+              "name": "__str"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 582,
+              "end": 589,
+              "name": "replace"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 590,
+              "end": 594,
+              "name": "__re"
+            },
+            {
+              "type": "BinaryExpression",
+              "start": 596,
+              "end": 608,
+              "left": {
+                "type": "Literal",
+                "start": 596,
+                "end": 600,
+                "value": "$&",
+                "raw": "\"$&\""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 603,
+                "end": 608,
+                "value": "sch",
+                "raw": "'sch'"
+              }
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 614,
+          "end": 658,
+          "value": "She sells seashschells by the seashschore.",
+          "raw": "'She sells seashschells by the seashschore.'"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 660,
+        "end": 898,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 664,
+            "end": 896,
+            "argument": {
+              "type": "NewExpression",
+              "start": 670,
+              "end": 895,
+              "callee": {
+                "type": "Identifier",
+                "start": 674,
+                "end": 686,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 687,
+                  "end": 894,
+                  "left": {
+                    "type": "Literal",
+                    "start": 687,
+                    "end": 858,
+                    "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/g; __str.replace(__re,\"$&\" + 'sch')==='She sells seashschells by the seashschore.'. Actual: ",
+                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/g; __str.replace(__re,\"$&\" + \\'sch\\')===\\'She sells seashschells by the seashschore.\\'. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 861,
+                    "end": 894,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 861,
+                      "end": 874,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 861,
+                        "end": 866,
+                        "name": "__str"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 867,
+                        "end": 874,
+                        "name": "replace"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 875,
+                        "end": 879,
+                        "name": "__re"
+                      },
+                      {
+                        "type": "BinaryExpression",
+                        "start": 881,
+                        "end": 893,
+                        "left": {
+                          "type": "Literal",
+                          "start": 881,
+                          "end": 885,
+                          "value": "$&",
+                          "raw": "\"$&\""
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 888,
+                          "end": 893,
+                          "value": "sch",
+                          "raw": "'sch'"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

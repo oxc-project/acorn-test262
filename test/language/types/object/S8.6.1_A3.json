@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 916,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 400,
+      "end": 528,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 404,
+        "end": 431,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 404,
+          "end": 421,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 411,
+            "end": 421,
+            "object": {
+              "type": "Identifier",
+              "start": 411,
+              "end": 417,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 418,
+              "end": 421,
+              "name": "NaN"
+            },
+            "computed": false,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 426,
+          "end": 431,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 432,
+        "end": 528,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 436,
+            "end": 526,
+            "argument": {
+              "type": "NewExpression",
+              "start": 442,
+              "end": 525,
+              "callee": {
+                "type": "Identifier",
+                "start": 446,
+                "end": 458,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 459,
+                  "end": 524,
+                  "left": {
+                    "type": "Literal",
+                    "start": 459,
+                    "end": 502,
+                    "value": "#1: delete Number.NaN === false. Actual: ",
+                    "raw": "'#1: delete Number.NaN === false. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 505,
+                    "end": 524,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 506,
+                      "end": 523,
+                      "operator": "delete",
+                      "prefix": true,
+                      "argument": {
+                        "type": "MemberExpression",
+                        "start": 513,
+                        "end": 523,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 513,
+                          "end": 519,
+                          "name": "Number"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 520,
+                          "end": 523,
+                          "name": "NaN"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 528,
+      "end": 529
+    },
+    {
+      "type": "IfStatement",
+      "start": 702,
+      "end": 832,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 706,
+        "end": 740,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 706,
+          "end": 724,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 712,
+            "end": 724,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 713,
+              "end": 723,
+              "object": {
+                "type": "Identifier",
+                "start": 713,
+                "end": 719,
+                "name": "Number"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 720,
+                "end": 723,
+                "name": "NaN"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 729,
+          "end": 740,
+          "value": "undefined",
+          "raw": "\"undefined\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 741,
+        "end": 832,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 745,
+            "end": 830,
+            "argument": {
+              "type": "NewExpression",
+              "start": 751,
+              "end": 829,
+              "callee": {
+                "type": "Identifier",
+                "start": 755,
+                "end": 767,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 768,
+                  "end": 828,
+                  "value": "#2: delete Number.NaN; typeof(Number.NaN) !== \"undefined\" ",
+                  "raw": "'#2: delete Number.NaN; typeof(Number.NaN) !== \"undefined\" '"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 832,
+      "end": 833
+    }
+  ],
+  "sourceType": "script"
+}

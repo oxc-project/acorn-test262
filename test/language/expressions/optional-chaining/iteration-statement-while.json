@@ -1,0 +1,187 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 430,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 325,
+      "end": 339,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 329,
+          "end": 338,
+          "id": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 334,
+            "name": "count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 337,
+            "end": 338,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 340,
+      "end": 362,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 346,
+          "end": 361,
+          "id": {
+            "type": "Identifier",
+            "start": 346,
+            "end": 349,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 352,
+            "end": 361,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 353,
+                "end": 360,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 353,
+                  "end": 354,
+                  "name": "a"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 356,
+                  "end": 360,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "WhileStatement",
+      "start": 363,
+      "end": 401,
+      "test": {
+        "type": "ChainExpression",
+        "start": 370,
+        "end": 376,
+        "expression": {
+          "type": "MemberExpression",
+          "start": 370,
+          "end": 376,
+          "object": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 373,
+            "name": "obj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 376,
+            "name": "a"
+          },
+          "computed": false,
+          "optional": true
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 378,
+        "end": 401,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 382,
+            "end": 390,
+            "expression": {
+              "type": "UpdateExpression",
+              "start": 382,
+              "end": 389,
+              "operator": "++",
+              "prefix": false,
+              "argument": {
+                "type": "Identifier",
+                "start": 382,
+                "end": 387,
+                "name": "count"
+              }
+            }
+          },
+          {
+            "type": "BreakStatement",
+            "start": 393,
+            "end": 399,
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 402,
+      "end": 429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 402,
+        "end": 428,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 402,
+          "end": 418,
+          "object": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 408,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 418,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 419,
+            "end": 420,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Identifier",
+            "start": 422,
+            "end": 427,
+            "name": "count"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

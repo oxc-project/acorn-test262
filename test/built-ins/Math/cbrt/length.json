@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1061,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 898,
+      "end": 936,
+      "expression": {
+        "type": "CallExpression",
+        "start": 898,
+        "end": 935,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 898,
+          "end": 914,
+          "object": {
+            "type": "Identifier",
+            "start": 898,
+            "end": 904,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 905,
+            "end": 914,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 915,
+            "end": 931,
+            "object": {
+              "type": "MemberExpression",
+              "start": 915,
+              "end": 924,
+              "object": {
+                "type": "Identifier",
+                "start": 915,
+                "end": 919,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 920,
+                "end": 924,
+                "name": "cbrt"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 925,
+              "end": 931,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 933,
+            "end": 934,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 938,
+      "end": 979,
+      "expression": {
+        "type": "CallExpression",
+        "start": 938,
+        "end": 978,
+        "callee": {
+          "type": "Identifier",
+          "start": 938,
+          "end": 957,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 958,
+            "end": 967,
+            "object": {
+              "type": "Identifier",
+              "start": 958,
+              "end": 962,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 963,
+              "end": 967,
+              "name": "cbrt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 969,
+            "end": 977,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 980,
+      "end": 1019,
+      "expression": {
+        "type": "CallExpression",
+        "start": 980,
+        "end": 1018,
+        "callee": {
+          "type": "Identifier",
+          "start": 980,
+          "end": 997,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 998,
+            "end": 1007,
+            "object": {
+              "type": "Identifier",
+              "start": 998,
+              "end": 1002,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1003,
+              "end": 1007,
+              "name": "cbrt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1009,
+            "end": 1017,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1020,
+      "end": 1060,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1020,
+        "end": 1059,
+        "callee": {
+          "type": "Identifier",
+          "start": 1020,
+          "end": 1038,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1039,
+            "end": 1048,
+            "object": {
+              "type": "Identifier",
+              "start": 1039,
+              "end": 1043,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1044,
+              "end": 1048,
+              "name": "cbrt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1050,
+            "end": 1058,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

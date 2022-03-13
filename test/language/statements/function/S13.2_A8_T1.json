@@ -1,0 +1,42 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 261,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 234,
+      "end": 260,
+      "expression": {
+        "type": "BinaryExpression",
+        "start": 234,
+        "end": 259,
+        "left": {
+          "type": "Literal",
+          "start": 234,
+          "end": 242,
+          "value": "caller",
+          "raw": "'caller'"
+        },
+        "operator": "in",
+        "right": {
+          "type": "FunctionExpression",
+          "start": 246,
+          "end": 259,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 257,
+            "end": 259,
+            "body": []
+          }
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

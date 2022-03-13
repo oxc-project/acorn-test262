@@ -1,0 +1,217 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 673,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 351,
+      "end": 514,
+      "expression": {
+        "type": "CallExpression",
+        "start": 351,
+        "end": 513,
+        "callee": {
+          "type": "Identifier",
+          "start": 351,
+          "end": 357,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 361,
+            "end": 414,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 362,
+              "end": 414,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 362,
+                "end": 404,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 362,
+                  "end": 383,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 362,
+                    "end": 376,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 362,
+                      "end": 366,
+                      "name": "Date"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 367,
+                      "end": 376,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 377,
+                    "end": 383,
+                    "name": "getDay"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 384,
+                  "end": 404,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 405,
+                  "end": 413,
+                  "value": "length",
+                  "raw": "'length'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 418,
+            "end": 511,
+            "value": "The value of !Date.prototype.getDay.propertyIsEnumerable('length') is expected to be true",
+            "raw": "'The value of !Date.prototype.getDay.propertyIsEnumerable(\\'length\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 516,
+      "end": 626,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 521,
+        "end": 526,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 525,
+            "end": 526,
+            "id": {
+              "type": "Identifier",
+              "start": 525,
+              "end": 526,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 530,
+        "end": 551,
+        "object": {
+          "type": "MemberExpression",
+          "start": 530,
+          "end": 544,
+          "object": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 534,
+            "name": "Date"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 535,
+            "end": 544,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 545,
+          "end": 551,
+          "name": "getDay"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 553,
+        "end": 626,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 557,
+            "end": 624,
+            "expression": {
+              "type": "CallExpression",
+              "start": 557,
+              "end": 623,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 557,
+                "end": 576,
+                "object": {
+                  "type": "Identifier",
+                  "start": 557,
+                  "end": 563,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 564,
+                  "end": 576,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 577,
+                  "end": 578,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 580,
+                  "end": 588,
+                  "value": "length",
+                  "raw": "\"length\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 590,
+                  "end": 622,
+                  "value": "The value of x is not \"length\"",
+                  "raw": "'The value of x is not \"length\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,372 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 995,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 710,
+      "end": 728,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 714,
+          "end": 727,
+          "id": {
+            "type": "Identifier",
+            "start": 714,
+            "end": 715,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 718,
+            "end": 727,
+            "value": "outside",
+            "raw": "'outside'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 729,
+      "end": 755,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 733,
+          "end": 743,
+          "id": {
+            "type": "Identifier",
+            "start": 733,
+            "end": 743,
+            "name": "probeParam"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 745,
+          "end": 754,
+          "id": {
+            "type": "Identifier",
+            "start": 745,
+            "end": 754,
+            "name": "probeBody"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 757,
+      "end": 898,
+      "id": {
+        "type": "Identifier",
+        "start": 767,
+        "end": 768,
+        "name": "g"
+      },
+      "expression": false,
+      "generator": true,
+      "async": false,
+      "params": [
+        {
+          "type": "RestElement",
+          "start": 774,
+          "end": 849,
+          "argument": {
+            "type": "ArrayPattern",
+            "start": 777,
+            "end": 849,
+            "elements": [
+              {
+                "type": "AssignmentPattern",
+                "start": 778,
+                "end": 848,
+                "left": {
+                  "type": "Identifier",
+                  "start": 778,
+                  "end": 779,
+                  "name": "_"
+                },
+                "right": {
+                  "type": "ParenthesizedExpression",
+                  "start": 782,
+                  "end": 848,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 783,
+                    "end": 847,
+                    "expressions": [
+                      {
+                        "type": "CallExpression",
+                        "start": 783,
+                        "end": 808,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 783,
+                          "end": 787,
+                          "name": "eval"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 788,
+                            "end": 807,
+                            "value": "var x = \"inside\";",
+                            "raw": "'var x = \"inside\";'"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "AssignmentExpression",
+                        "start": 810,
+                        "end": 847,
+                        "operator": "=",
+                        "left": {
+                          "type": "Identifier",
+                          "start": 810,
+                          "end": 820,
+                          "name": "probeParam"
+                        },
+                        "right": {
+                          "type": "FunctionExpression",
+                          "start": 823,
+                          "end": 847,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 834,
+                            "end": 847,
+                            "body": [
+                              {
+                                "type": "ReturnStatement",
+                                "start": 836,
+                                "end": 845,
+                                "argument": {
+                                  "type": "Identifier",
+                                  "start": 843,
+                                  "end": 844,
+                                  "name": "x"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 854,
+        "end": 898,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 860,
+            "end": 896,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 860,
+              "end": 896,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 860,
+                "end": 869,
+                "name": "probeBody"
+              },
+              "right": {
+                "type": "FunctionExpression",
+                "start": 872,
+                "end": 896,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 883,
+                  "end": 896,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 885,
+                      "end": 894,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 892,
+                        "end": 893,
+                        "name": "x"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 899,
+      "end": 910,
+      "expression": {
+        "type": "CallExpression",
+        "start": 899,
+        "end": 909,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 899,
+          "end": 907,
+          "object": {
+            "type": "CallExpression",
+            "start": 899,
+            "end": 902,
+            "callee": {
+              "type": "Identifier",
+              "start": 899,
+              "end": 900,
+              "name": "g"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 903,
+            "end": 907,
+            "name": "next"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 912,
+      "end": 953,
+      "expression": {
+        "type": "CallExpression",
+        "start": 912,
+        "end": 952,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 912,
+          "end": 928,
+          "object": {
+            "type": "Identifier",
+            "start": 912,
+            "end": 918,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 919,
+            "end": 928,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 929,
+            "end": 941,
+            "callee": {
+              "type": "Identifier",
+              "start": 929,
+              "end": 939,
+              "name": "probeParam"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 943,
+            "end": 951,
+            "value": "inside",
+            "raw": "'inside'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 954,
+      "end": 994,
+      "expression": {
+        "type": "CallExpression",
+        "start": 954,
+        "end": 993,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 954,
+          "end": 970,
+          "object": {
+            "type": "Identifier",
+            "start": 954,
+            "end": 960,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 961,
+            "end": 970,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 971,
+            "end": 982,
+            "callee": {
+              "type": "Identifier",
+              "start": 971,
+              "end": 980,
+              "name": "probeBody"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 984,
+            "end": 992,
+            "value": "inside",
+            "raw": "'inside'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,64 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 442,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 293,
+      "end": 441,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 297,
+        "end": 317,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 297,
+          "end": 308,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "ThisExpression",
+            "start": 304,
+            "end": 308
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 313,
+          "end": 317,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 321,
+        "end": 441,
+        "argument": {
+          "type": "NewExpression",
+          "start": 327,
+          "end": 440,
+          "callee": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 343,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 344,
+              "end": 439,
+              "value": "#1: The this value associated with an executioncontext is immutable. Actual: this was deleted",
+              "raw": "'#1: The this value associated with an executioncontext is immutable. Actual: this was deleted'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

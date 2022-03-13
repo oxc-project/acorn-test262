@@ -1,0 +1,331 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 989,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 360,
+      "end": 575,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 364,
+        "end": 415,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 365,
+          "end": 415,
+          "expression": {
+            "type": "CallExpression",
+            "start": 366,
+            "end": 414,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 366,
+              "end": 404,
+              "object": {
+                "type": "MemberExpression",
+                "start": 366,
+                "end": 389,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 366,
+                  "end": 382,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 366,
+                    "end": 372,
+                    "name": "String"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 373,
+                    "end": 382,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 383,
+                  "end": 389,
+                  "name": "concat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 390,
+                "end": 404,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 405,
+                "end": 413,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 417,
+        "end": 575,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 421,
+            "end": 573,
+            "argument": {
+              "type": "NewExpression",
+              "start": 427,
+              "end": 572,
+              "callee": {
+                "type": "Identifier",
+                "start": 431,
+                "end": 443,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 444,
+                  "end": 571,
+                  "left": {
+                    "type": "Literal",
+                    "start": 444,
+                    "end": 520,
+                    "value": "#1: String.prototype.concat.hasOwnProperty(\"length\") return true. Actual: ",
+                    "raw": "'#1: String.prototype.concat.hasOwnProperty(\"length\") return true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 523,
+                    "end": 571,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 523,
+                      "end": 561,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 523,
+                        "end": 546,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 523,
+                          "end": 539,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 523,
+                            "end": 529,
+                            "name": "String"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 530,
+                            "end": 539,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 540,
+                          "end": 546,
+                          "name": "concat"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 547,
+                        "end": 561,
+                        "name": "hasOwnProperty"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 562,
+                        "end": 570,
+                        "value": "length",
+                        "raw": "\"length\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 748,
+      "end": 906,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 752,
+        "end": 788,
+        "left": {
+          "type": "MemberExpression",
+          "start": 752,
+          "end": 782,
+          "object": {
+            "type": "MemberExpression",
+            "start": 752,
+            "end": 775,
+            "object": {
+              "type": "MemberExpression",
+              "start": 752,
+              "end": 768,
+              "object": {
+                "type": "Identifier",
+                "start": 752,
+                "end": 758,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 759,
+                "end": 768,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 769,
+              "end": 775,
+              "name": "concat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 776,
+            "end": 782,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 787,
+          "end": 788,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 790,
+        "end": 906,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 794,
+            "end": 904,
+            "argument": {
+              "type": "NewExpression",
+              "start": 800,
+              "end": 903,
+              "callee": {
+                "type": "Identifier",
+                "start": 804,
+                "end": 816,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 817,
+                  "end": 902,
+                  "left": {
+                    "type": "Literal",
+                    "start": 817,
+                    "end": 869,
+                    "value": "#2: String.prototype.concat.length === 1. Actual: ",
+                    "raw": "'#2: String.prototype.concat.length === 1. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 872,
+                    "end": 902,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 872,
+                      "end": 895,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 872,
+                        "end": 888,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 872,
+                          "end": 878,
+                          "name": "String"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 879,
+                          "end": 888,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 889,
+                        "end": 895,
+                        "name": "concat"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 896,
+                      "end": 902,
+                      "name": "length"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

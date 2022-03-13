@@ -1,0 +1,197 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 991,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 800,
+      "end": 847,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 804,
+          "end": 846,
+          "id": {
+            "type": "Identifier",
+            "start": 804,
+            "end": 823,
+            "name": "TypedArrayPrototype"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 826,
+            "end": 846,
+            "object": {
+              "type": "Identifier",
+              "start": 826,
+              "end": 836,
+              "name": "TypedArray"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 837,
+              "end": 846,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 849,
+      "end": 914,
+      "expression": {
+        "type": "CallExpression",
+        "start": 849,
+        "end": 913,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 849,
+          "end": 865,
+          "object": {
+            "type": "Identifier",
+            "start": 849,
+            "end": 855,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 856,
+            "end": 865,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 866,
+            "end": 900,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 873,
+              "end": 900,
+              "object": {
+                "type": "Identifier",
+                "start": 873,
+                "end": 892,
+                "name": "TypedArrayPrototype"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 893,
+                "end": 900,
+                "name": "reverse"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 902,
+            "end": 912,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 916,
+      "end": 990,
+      "expression": {
+        "type": "CallExpression",
+        "start": 916,
+        "end": 989,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 916,
+          "end": 929,
+          "object": {
+            "type": "Identifier",
+            "start": 916,
+            "end": 922,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 923,
+            "end": 929,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 930,
+            "end": 939,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 941,
+            "end": 988,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 952,
+              "end": 988,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 956,
+                  "end": 986,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 956,
+                    "end": 985,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 956,
+                      "end": 983,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 956,
+                        "end": 975,
+                        "name": "TypedArrayPrototype"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 976,
+                        "end": 983,
+                        "name": "reverse"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

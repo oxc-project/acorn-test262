@@ -1,0 +1,405 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2007,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1691,
+      "end": 1713,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1695,
+          "end": 1712,
+          "id": {
+            "type": "Identifier",
+            "start": 1695,
+            "end": 1698,
+            "name": "len"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 1701,
+            "end": 1712,
+            "object": {
+              "type": "Identifier",
+              "start": 1701,
+              "end": 1705,
+              "name": "NaNs"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1706,
+              "end": 1712,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 1715,
+      "end": 2006,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 1720,
+        "end": 1731,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 1724,
+            "end": 1731,
+            "id": {
+              "type": "Identifier",
+              "start": 1724,
+              "end": 1727,
+              "name": "idx"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 1730,
+              "end": 1731,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1733,
+        "end": 1742,
+        "left": {
+          "type": "Identifier",
+          "start": 1733,
+          "end": 1736,
+          "name": "idx"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Identifier",
+          "start": 1739,
+          "end": 1742,
+          "name": "len"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 1744,
+        "end": 1749,
+        "operator": "++",
+        "prefix": true,
+        "argument": {
+          "type": "Identifier",
+          "start": 1746,
+          "end": 1749,
+          "name": "idx"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 1751,
+        "end": 2006,
+        "body": [
+          {
+            "type": "ForStatement",
+            "start": 1755,
+            "end": 2004,
+            "init": {
+              "type": "VariableDeclaration",
+              "start": 1760,
+              "end": 1771,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 1764,
+                  "end": 1771,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 1764,
+                    "end": 1767,
+                    "name": "jdx"
+                  },
+                  "init": {
+                    "type": "Literal",
+                    "start": 1770,
+                    "end": 1771,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                }
+              ],
+              "kind": "var"
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "start": 1773,
+              "end": 1782,
+              "left": {
+                "type": "Identifier",
+                "start": 1773,
+                "end": 1776,
+                "name": "jdx"
+              },
+              "operator": "<",
+              "right": {
+                "type": "Identifier",
+                "start": 1779,
+                "end": 1782,
+                "name": "len"
+              }
+            },
+            "update": {
+              "type": "UpdateExpression",
+              "start": 1784,
+              "end": 1789,
+              "operator": "++",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 1786,
+                "end": 1789,
+                "name": "jdx"
+              }
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 1791,
+              "end": 2004,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 1797,
+                  "end": 1808,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 1801,
+                      "end": 1807,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 1801,
+                        "end": 1802,
+                        "name": "a"
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "start": 1805,
+                        "end": 1807,
+                        "properties": []
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1814,
+                  "end": 1833,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1814,
+                    "end": 1832,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 1814,
+                      "end": 1820,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1814,
+                        "end": 1815,
+                        "name": "a"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1816,
+                        "end": 1820,
+                        "name": "prop"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "MemberExpression",
+                      "start": 1823,
+                      "end": 1832,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1823,
+                        "end": 1827,
+                        "name": "NaNs"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1828,
+                        "end": 1831,
+                        "name": "idx"
+                      },
+                      "computed": true,
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1838,
+                  "end": 1857,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1838,
+                    "end": 1856,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 1838,
+                      "end": 1844,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1838,
+                        "end": 1839,
+                        "name": "a"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1840,
+                        "end": 1844,
+                        "name": "prop"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "MemberExpression",
+                      "start": 1847,
+                      "end": 1856,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1847,
+                        "end": 1851,
+                        "name": "NaNs"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1852,
+                        "end": 1855,
+                        "name": "jdx"
+                      },
+                      "computed": true,
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1863,
+                  "end": 2000,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1863,
+                    "end": 1999,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1863,
+                      "end": 1869,
+                      "name": "assert"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 1877,
+                        "end": 1894,
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 1877,
+                          "end": 1883,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1877,
+                            "end": 1878,
+                            "name": "a"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1879,
+                            "end": 1883,
+                            "name": "prop"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "operator": "!==",
+                        "right": {
+                          "type": "MemberExpression",
+                          "start": 1888,
+                          "end": 1894,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1888,
+                            "end": 1889,
+                            "name": "a"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1890,
+                            "end": 1894,
+                            "name": "prop"
+                          },
+                          "computed": false,
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 1902,
+                        "end": 1993,
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1964,
+                            "end": 1967,
+                            "name": "idx"
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 1903,
+                            "end": 1962,
+                            "value": {
+                              "raw": "Object property value reassigned to NaN produced by (index=",
+                              "cooked": "Object property value reassigned to NaN produced by (index="
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 1968,
+                            "end": 1992,
+                            "value": {
+                              "raw": ") results in a valid NaN",
+                              "cooked": ") results in a valid NaN"
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

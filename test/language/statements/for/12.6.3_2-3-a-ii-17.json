@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 651,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 501,
+      "end": 522,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 505,
+          "end": 521,
+          "id": {
+            "type": "Identifier",
+            "start": 505,
+            "end": 513,
+            "name": "accessed"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 516,
+            "end": 521,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 531,
+      "end": 610,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 536,
+        "end": 545,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 540,
+            "end": 545,
+            "id": {
+              "type": "Identifier",
+              "start": 540,
+              "end": 541,
+              "name": "i"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 544,
+              "end": 545,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "Literal",
+        "start": 547,
+        "end": 548,
+        "value": 2,
+        "raw": "2"
+      },
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 551,
+        "end": 610,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 565,
+            "end": 581,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 565,
+              "end": 580,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 565,
+                "end": 573,
+                "name": "accessed"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 576,
+                "end": 580,
+                "value": true,
+                "raw": "true"
+              }
+            }
+          },
+          {
+            "type": "BreakStatement",
+            "start": 594,
+            "end": 600,
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 612,
+      "end": 650,
+      "expression": {
+        "type": "CallExpression",
+        "start": 612,
+        "end": 649,
+        "callee": {
+          "type": "Identifier",
+          "start": 612,
+          "end": 618,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 619,
+            "end": 627,
+            "name": "accessed"
+          },
+          {
+            "type": "Literal",
+            "start": 629,
+            "end": 648,
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,92 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 610,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 536,
+      "end": 609,
+      "expression": {
+        "type": "CallExpression",
+        "start": 536,
+        "end": 608,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 536,
+          "end": 552,
+          "object": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 542,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 552,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 553,
+            "end": 587,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 553,
+              "end": 574,
+              "object": {
+                "type": "Identifier",
+                "start": 553,
+                "end": 559,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 560,
+                "end": 574,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 575,
+                "end": 586,
+                "name": "ShadowRealm"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 589,
+            "end": 607,
+            "object": {
+              "type": "Identifier",
+              "start": 589,
+              "end": 597,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 598,
+              "end": 607,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

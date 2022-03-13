@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 299,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 221,
+      "end": 298,
+      "expression": {
+        "type": "CallExpression",
+        "start": 221,
+        "end": 297,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 221,
+          "end": 237,
+          "object": {
+            "type": "Identifier",
+            "start": 221,
+            "end": 227,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 228,
+            "end": 237,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 238,
+            "end": 259,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 244,
+              "end": 259,
+              "expression": {
+                "type": "MemberExpression",
+                "start": 245,
+                "end": 258,
+                "object": {
+                  "type": "Identifier",
+                  "start": 245,
+                  "end": 251,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 252,
+                  "end": 258,
+                  "name": "create"
+                },
+                "computed": false,
+                "optional": false
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 261,
+            "end": 271,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 273,
+            "end": 296,
+            "value": "typeof(Object.create)",
+            "raw": "'typeof(Object.create)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

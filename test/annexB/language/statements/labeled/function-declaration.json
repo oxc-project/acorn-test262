@@ -1,0 +1,83 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 340,
+  "body": [
+    {
+      "type": "LabeledStatement",
+      "start": 284,
+      "end": 306,
+      "body": {
+        "type": "FunctionDeclaration",
+        "start": 291,
+        "end": 306,
+        "id": {
+          "type": "Identifier",
+          "start": 300,
+          "end": 301,
+          "name": "g"
+        },
+        "expression": false,
+        "generator": false,
+        "async": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 304,
+          "end": 306,
+          "body": []
+        }
+      },
+      "label": {
+        "type": "Identifier",
+        "start": 284,
+        "end": 289,
+        "name": "label"
+      }
+    },
+    {
+      "type": "LabeledStatement",
+      "start": 308,
+      "end": 339,
+      "body": {
+        "type": "LabeledStatement",
+        "start": 316,
+        "end": 339,
+        "body": {
+          "type": "FunctionDeclaration",
+          "start": 324,
+          "end": 339,
+          "id": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 334,
+            "name": "f"
+          },
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 337,
+            "end": 339,
+            "body": []
+          }
+        },
+        "label": {
+          "type": "Identifier",
+          "start": 316,
+          "end": 322,
+          "name": "label2"
+        }
+      },
+      "label": {
+        "type": "Identifier",
+        "start": 308,
+        "end": 314,
+        "name": "label1"
+      }
+    }
+  ],
+  "sourceType": "script"
+}

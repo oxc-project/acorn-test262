@@ -1,0 +1,134 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 483,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 333,
+      "end": 381,
+      "expression": {
+        "type": "CallExpression",
+        "start": 333,
+        "end": 380,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 333,
+          "end": 372,
+          "object": {
+            "type": "CallExpression",
+            "start": 333,
+            "end": 366,
+            "callee": {
+              "type": "Identifier",
+              "start": 333,
+              "end": 341,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 342,
+                "end": 365,
+                "value": "this.field=\"battle\"",
+                "raw": "\"this.field=\\\"battle\\\"\""
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 372,
+            "name": "apply"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 373,
+            "end": 379,
+            "operator": "void",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 378,
+              "end": 379,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 383,
+      "end": 482,
+      "expression": {
+        "type": "CallExpression",
+        "start": 383,
+        "end": 481,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 383,
+          "end": 399,
+          "object": {
+            "type": "Identifier",
+            "start": 383,
+            "end": 389,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 390,
+            "end": 399,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 400,
+            "end": 413,
+            "object": {
+              "type": "ThisExpression",
+              "start": 400,
+              "end": 404
+            },
+            "property": {
+              "type": "Literal",
+              "start": 405,
+              "end": 412,
+              "value": "field",
+              "raw": "\"field\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 415,
+            "end": 423,
+            "value": "battle",
+            "raw": "\"battle\""
+          },
+          {
+            "type": "Literal",
+            "start": 425,
+            "end": 480,
+            "value": "The value of this[\"field\"] is expected to be \"battle\"",
+            "raw": "'The value of this[\"field\"] is expected to be \"battle\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

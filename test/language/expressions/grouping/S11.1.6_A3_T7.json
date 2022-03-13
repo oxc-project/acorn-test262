@@ -1,0 +1,106 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 408,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 287,
+      "end": 407,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 291,
+        "end": 317,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 291,
+          "end": 301,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 298,
+            "end": 301,
+            "expression": {
+              "type": "Identifier",
+              "start": 299,
+              "end": 300,
+              "name": "x"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 306,
+          "end": 317,
+          "value": "undefined",
+          "raw": "\"undefined\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 319,
+        "end": 407,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 323,
+            "end": 405,
+            "argument": {
+              "type": "NewExpression",
+              "start": 329,
+              "end": 404,
+              "callee": {
+                "type": "Identifier",
+                "start": 333,
+                "end": 345,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 346,
+                  "end": 403,
+                  "left": {
+                    "type": "Literal",
+                    "start": 346,
+                    "end": 388,
+                    "value": "#1: typeof (x) === \"undefined\". Actual: ",
+                    "raw": "'#1: typeof (x) === \"undefined\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 391,
+                    "end": 403,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 392,
+                      "end": 402,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "ParenthesizedExpression",
+                        "start": 399,
+                        "end": 402,
+                        "expression": {
+                          "type": "Identifier",
+                          "start": 400,
+                          "end": 401,
+                          "name": "x"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

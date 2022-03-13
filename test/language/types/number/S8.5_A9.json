@@ -1,0 +1,115 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 457,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 309,
+      "end": 324,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 309,
+        "end": 323,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 309,
+          "end": 319,
+          "object": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 315,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 319,
+            "name": "NaN"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 322,
+          "end": 323,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 326,
+      "end": 456,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 330,
+        "end": 346,
+        "left": {
+          "type": "MemberExpression",
+          "start": 330,
+          "end": 340,
+          "object": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 336,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 337,
+            "end": 340,
+            "name": "NaN"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 345,
+          "end": 346,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 348,
+        "end": 456,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 352,
+            "end": 454,
+            "argument": {
+              "type": "NewExpression",
+              "start": 358,
+              "end": 453,
+              "callee": {
+                "type": "Identifier",
+                "start": 362,
+                "end": 374,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 375,
+                  "end": 452,
+                  "value": "#1: Globally defined variable NaN has not been altered by program execution",
+                  "raw": "'#1: Globally defined variable NaN has not been altered by program execution'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

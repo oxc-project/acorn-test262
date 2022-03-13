@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1278,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1035,
+      "end": 1093,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1035,
+        "end": 1092,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1035,
+          "end": 1051,
+          "object": {
+            "type": "Identifier",
+            "start": 1035,
+            "end": 1041,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1042,
+            "end": 1051,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1052,
+            "end": 1088,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1052,
+              "end": 1081,
+              "object": {
+                "type": "MemberExpression",
+                "start": 1052,
+                "end": 1070,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1052,
+                  "end": 1060,
+                  "name": "DataView"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1061,
+                  "end": 1070,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1071,
+                "end": 1081,
+                "name": "setFloat64"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1082,
+              "end": 1088,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1090,
+            "end": 1091,
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1095,
+      "end": 1156,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1095,
+        "end": 1155,
+        "callee": {
+          "type": "Identifier",
+          "start": 1095,
+          "end": 1114,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1115,
+            "end": 1144,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1115,
+              "end": 1133,
+              "object": {
+                "type": "Identifier",
+                "start": 1115,
+                "end": 1123,
+                "name": "DataView"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1124,
+                "end": 1133,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1134,
+              "end": 1144,
+              "name": "setFloat64"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1146,
+            "end": 1154,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1157,
+      "end": 1216,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1157,
+        "end": 1215,
+        "callee": {
+          "type": "Identifier",
+          "start": 1157,
+          "end": 1174,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1175,
+            "end": 1204,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1175,
+              "end": 1193,
+              "object": {
+                "type": "Identifier",
+                "start": 1175,
+                "end": 1183,
+                "name": "DataView"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1184,
+                "end": 1193,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1194,
+              "end": 1204,
+              "name": "setFloat64"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1206,
+            "end": 1214,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1217,
+      "end": 1277,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1217,
+        "end": 1276,
+        "callee": {
+          "type": "Identifier",
+          "start": 1217,
+          "end": 1235,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1236,
+            "end": 1265,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1236,
+              "end": 1254,
+              "object": {
+                "type": "Identifier",
+                "start": 1236,
+                "end": 1244,
+                "name": "DataView"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1245,
+                "end": 1254,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1255,
+              "end": 1265,
+              "name": "setFloat64"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1267,
+            "end": 1275,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

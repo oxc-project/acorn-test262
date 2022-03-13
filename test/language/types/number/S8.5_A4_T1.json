@@ -1,0 +1,28 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 238,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 229,
+      "end": 237,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 233,
+          "end": 236,
+          "id": {
+            "type": "Identifier",
+            "start": 233,
+            "end": 236,
+            "name": "NaN"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 452,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 331,
+      "end": 394,
+      "id": {
+        "type": "Identifier",
+        "start": 340,
+        "end": 343,
+        "name": "fun"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 346,
+        "end": 394,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 350,
+            "end": 362,
+            "expression": {
+              "type": "Literal",
+              "start": 350,
+              "end": 362,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 365,
+            "end": 392,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 365,
+              "end": 391,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 365,
+                "end": 384,
+                "name": "test262unresolvable"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 387,
+                "end": 391,
+                "value": null,
+                "raw": "null"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 396,
+      "end": 451,
+      "expression": {
+        "type": "CallExpression",
+        "start": 396,
+        "end": 450,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 396,
+          "end": 409,
+          "object": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 402,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 409,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 410,
+            "end": 424,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 426,
+            "end": 449,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 437,
+              "end": 449,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 441,
+                  "end": 447,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 441,
+                    "end": 446,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 441,
+                      "end": 444,
+                      "name": "fun"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

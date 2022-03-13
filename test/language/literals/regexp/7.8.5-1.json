@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 709,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 597,
+      "end": 708,
+      "expression": {
+        "type": "CallExpression",
+        "start": 597,
+        "end": 707,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 597,
+          "end": 610,
+          "object": {
+            "type": "Identifier",
+            "start": 597,
+            "end": 603,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 604,
+            "end": 610,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 611,
+            "end": 622,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 624,
+            "end": 706,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 635,
+              "end": 706,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 639,
+                  "end": 656,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 639,
+                    "end": 655,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 639,
+                      "end": 643,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 644,
+                        "end": 654,
+                        "value": "/\\\rn/;",
+                        "raw": "\"/\\\\\\rn/;\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

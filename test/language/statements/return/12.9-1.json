@@ -1,0 +1,256 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 582,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 306,
+      "end": 318,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 310,
+          "end": 317,
+          "id": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 313,
+            "name": "sum"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 316,
+            "end": 317,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 327,
+      "end": 546,
+      "expression": {
+        "type": "CallExpression",
+        "start": 327,
+        "end": 545,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 327,
+          "end": 543,
+          "expression": {
+            "type": "FunctionExpression",
+            "start": 328,
+            "end": 542,
+            "id": {
+              "type": "Identifier",
+              "start": 337,
+              "end": 346,
+              "name": "innerTest"
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 349,
+              "end": 542,
+              "body": [
+                {
+                  "type": "ForStatement",
+                  "start": 363,
+                  "end": 532,
+                  "init": {
+                    "type": "VariableDeclaration",
+                    "start": 368,
+                    "end": 377,
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 372,
+                        "end": 377,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 372,
+                          "end": 373,
+                          "name": "i"
+                        },
+                        "init": {
+                          "type": "Literal",
+                          "start": 376,
+                          "end": 377,
+                          "value": 1,
+                          "raw": "1"
+                        }
+                      }
+                    ],
+                    "kind": "var"
+                  },
+                  "test": {
+                    "type": "BinaryExpression",
+                    "start": 379,
+                    "end": 386,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 379,
+                      "end": 380,
+                      "name": "i"
+                    },
+                    "operator": "<=",
+                    "right": {
+                      "type": "Literal",
+                      "start": 384,
+                      "end": 386,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  },
+                  "update": {
+                    "type": "UpdateExpression",
+                    "start": 388,
+                    "end": 391,
+                    "operator": "++",
+                    "prefix": false,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 388,
+                      "end": 389,
+                      "name": "i"
+                    }
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 393,
+                    "end": 532,
+                    "body": [
+                      {
+                        "type": "IfStatement",
+                        "start": 411,
+                        "end": 492,
+                        "test": {
+                          "type": "BinaryExpression",
+                          "start": 415,
+                          "end": 422,
+                          "left": {
+                            "type": "Identifier",
+                            "start": 415,
+                            "end": 416,
+                            "name": "i"
+                          },
+                          "operator": "===",
+                          "right": {
+                            "type": "Literal",
+                            "start": 421,
+                            "end": 422,
+                            "value": 6,
+                            "raw": "6"
+                          }
+                        },
+                        "consequent": {
+                          "type": "BlockStatement",
+                          "start": 424,
+                          "end": 492,
+                          "body": [
+                            {
+                              "type": "ReturnStatement",
+                              "start": 446,
+                              "end": 474,
+                              "argument": null
+                            }
+                          ]
+                        },
+                        "alternate": null
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 509,
+                        "end": 518,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 509,
+                          "end": 517,
+                          "operator": "+=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 509,
+                            "end": 512,
+                            "name": "sum"
+                          },
+                          "right": {
+                            "type": "Identifier",
+                            "start": 516,
+                            "end": 517,
+                            "name": "i"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 548,
+      "end": 581,
+      "expression": {
+        "type": "CallExpression",
+        "start": 548,
+        "end": 580,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 548,
+          "end": 564,
+          "object": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 554,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 555,
+            "end": 564,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 565,
+            "end": 568,
+            "name": "sum"
+          },
+          {
+            "type": "Literal",
+            "start": 570,
+            "end": 572,
+            "value": 15,
+            "raw": "15"
+          },
+          {
+            "type": "Literal",
+            "start": 574,
+            "end": 579,
+            "value": "sum",
+            "raw": "'sum'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

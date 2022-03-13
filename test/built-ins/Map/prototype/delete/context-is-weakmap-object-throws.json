@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 583,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 489,
+      "end": 582,
+      "expression": {
+        "type": "CallExpression",
+        "start": 489,
+        "end": 581,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 489,
+          "end": 502,
+          "object": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 495,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 502,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 503,
+            "end": 512,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 514,
+            "end": 580,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 525,
+              "end": 580,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 529,
+                  "end": 578,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 529,
+                    "end": 577,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 529,
+                      "end": 554,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 529,
+                        "end": 549,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 529,
+                          "end": 542,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 529,
+                            "end": 532,
+                            "name": "Map"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 533,
+                            "end": 542,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 543,
+                          "end": 549,
+                          "name": "delete"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 550,
+                        "end": 554,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "NewExpression",
+                        "start": 555,
+                        "end": 568,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 559,
+                          "end": 566,
+                          "name": "WeakMap"
+                        },
+                        "arguments": []
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 570,
+                        "end": 576,
+                        "value": "attr",
+                        "raw": "'attr'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

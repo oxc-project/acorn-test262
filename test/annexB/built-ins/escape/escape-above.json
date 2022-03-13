@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 952,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 654,
+      "end": 752,
+      "expression": {
+        "type": "CallExpression",
+        "start": 654,
+        "end": 751,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 654,
+          "end": 670,
+          "object": {
+            "type": "Identifier",
+            "start": 654,
+            "end": 660,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 661,
+            "end": 670,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 674,
+            "end": 702,
+            "callee": {
+              "type": "Identifier",
+              "start": 674,
+              "end": 680,
+              "name": "escape"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 681,
+                "end": 701,
+                "value": "ĀāĂ",
+                "raw": "'\\u0100\\u0101\\u0102'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 704,
+            "end": 724,
+            "value": "%u0100%u0101%u0102",
+            "raw": "'%u0100%u0101%u0102'"
+          },
+          {
+            "type": "Literal",
+            "start": 726,
+            "end": 749,
+            "value": "\\u0100\\u0101\\u0102",
+            "raw": "'\\\\u0100\\\\u0101\\\\u0102'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 754,
+      "end": 852,
+      "expression": {
+        "type": "CallExpression",
+        "start": 754,
+        "end": 851,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 754,
+          "end": 770,
+          "object": {
+            "type": "Identifier",
+            "start": 754,
+            "end": 760,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 761,
+            "end": 770,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 774,
+            "end": 802,
+            "callee": {
+              "type": "Identifier",
+              "start": 774,
+              "end": 780,
+              "name": "escape"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 781,
+                "end": 801,
+                "value": "�￾￿",
+                "raw": "'\\ufffd\\ufffe\\uffff'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 804,
+            "end": 824,
+            "value": "%uFFFD%uFFFE%uFFFF",
+            "raw": "'%uFFFD%uFFFE%uFFFF'"
+          },
+          {
+            "type": "Literal",
+            "start": 826,
+            "end": 849,
+            "value": "\\ufffd\\ufffd\\ufffd",
+            "raw": "'\\\\ufffd\\\\ufffd\\\\ufffd'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 854,
+      "end": 951,
+      "expression": {
+        "type": "CallExpression",
+        "start": 854,
+        "end": 950,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 854,
+          "end": 870,
+          "object": {
+            "type": "Identifier",
+            "start": 854,
+            "end": 860,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 861,
+            "end": 870,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 874,
+            "end": 896,
+            "callee": {
+              "type": "Identifier",
+              "start": 874,
+              "end": 880,
+              "name": "escape"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 881,
+                "end": 895,
+                "value": "𝌆",
+                "raw": "'\\ud834\\udf06'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 898,
+            "end": 912,
+            "value": "%uD834%uDF06",
+            "raw": "'%uD834%uDF06'"
+          },
+          {
+            "type": "Literal",
+            "start": 914,
+            "end": 948,
+            "value": "\\ud834\\udf06 (surrogate pairs)",
+            "raw": "'\\\\ud834\\\\udf06 (surrogate pairs)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

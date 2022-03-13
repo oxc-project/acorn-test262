@@ -1,0 +1,202 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 590,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 452,
+      "end": 462,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 456,
+          "end": 461,
+          "id": {
+            "type": "Identifier",
+            "start": 456,
+            "end": 457,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 460,
+            "end": 461,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 463,
+      "end": 473,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 467,
+          "end": 472,
+          "id": {
+            "type": "Identifier",
+            "start": 467,
+            "end": 468,
+            "name": "y"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 471,
+            "end": 472,
+            "value": 2,
+            "raw": "2"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 474,
+      "end": 484,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 478,
+          "end": 483,
+          "id": {
+            "type": "Identifier",
+            "start": 478,
+            "end": 479,
+            "name": "z"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 482,
+            "end": 483,
+            "value": 3,
+            "raw": "3"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 486,
+      "end": 545,
+      "expression": {
+        "type": "CallExpression",
+        "start": 486,
+        "end": 544,
+        "callee": {
+          "type": "Identifier",
+          "start": 486,
+          "end": 492,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "ParenthesizedExpression",
+            "start": 493,
+            "end": 516,
+            "expression": {
+              "type": "LogicalExpression",
+              "start": 494,
+              "end": 515,
+              "left": {
+                "type": "UnaryExpression",
+                "start": 494,
+                "end": 503,
+                "operator": "!",
+                "prefix": true,
+                "argument": {
+                  "type": "UnaryExpression",
+                  "start": 495,
+                  "end": 503,
+                  "operator": "delete",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 502,
+                    "end": 503,
+                    "name": "x"
+                  }
+                }
+              },
+              "operator": "||",
+              "right": {
+                "type": "UnaryExpression",
+                "start": 507,
+                "end": 515,
+                "operator": "delete",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 514,
+                  "end": 515,
+                  "name": "y"
+                }
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 518,
+            "end": 543,
+            "value": "(!delete x || delete y)",
+            "raw": "'(!delete x || delete y)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 546,
+      "end": 589,
+      "expression": {
+        "type": "CallExpression",
+        "start": 546,
+        "end": 588,
+        "callee": {
+          "type": "Identifier",
+          "start": 546,
+          "end": 552,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 553,
+            "end": 568,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 560,
+              "end": 568,
+              "operator": "delete",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 567,
+                "end": 568,
+                "name": "z"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 570,
+            "end": 587,
+            "value": "delete delete z",
+            "raw": "'delete delete z'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 438,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 342,
+      "end": 375,
+      "expression": {
+        "type": "CallExpression",
+        "start": 342,
+        "end": 374,
+        "callee": {
+          "type": "Identifier",
+          "start": 342,
+          "end": 361,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 362,
+            "end": 366
+          },
+          {
+            "type": "Literal",
+            "start": 368,
+            "end": 373,
+            "value": "Map",
+            "raw": "'Map'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 376,
+      "end": 404,
+      "expression": {
+        "type": "CallExpression",
+        "start": 376,
+        "end": 403,
+        "callee": {
+          "type": "Identifier",
+          "start": 376,
+          "end": 390,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 391,
+            "end": 395
+          },
+          {
+            "type": "Literal",
+            "start": 397,
+            "end": 402,
+            "value": "Map",
+            "raw": "'Map'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 405,
+      "end": 437,
+      "expression": {
+        "type": "CallExpression",
+        "start": 405,
+        "end": 436,
+        "callee": {
+          "type": "Identifier",
+          "start": 405,
+          "end": 423,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 424,
+            "end": 428
+          },
+          {
+            "type": "Literal",
+            "start": 430,
+            "end": 435,
+            "value": "Map",
+            "raw": "'Map'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

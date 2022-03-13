@@ -1,0 +1,496 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1399,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 693,
+      "end": 808,
+      "expression": {
+        "type": "CallExpression",
+        "start": 693,
+        "end": 807,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 693,
+          "end": 712,
+          "object": {
+            "type": "Identifier",
+            "start": 693,
+            "end": 699,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 700,
+            "end": 712,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 716,
+            "end": 748,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 716,
+              "end": 742,
+              "object": {
+                "type": "Identifier",
+                "start": 716,
+                "end": 722,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 723,
+                "end": 742,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 743,
+                "end": 747,
+                "value": true,
+                "raw": "true"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 750,
+            "end": 752,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 756,
+            "end": 805,
+            "value": "Object.getOwnPropertyNames(true) must return []",
+            "raw": "'Object.getOwnPropertyNames(true) must return []'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 809,
+      "end": 926,
+      "expression": {
+        "type": "CallExpression",
+        "start": 809,
+        "end": 925,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 809,
+          "end": 828,
+          "object": {
+            "type": "Identifier",
+            "start": 809,
+            "end": 815,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 816,
+            "end": 828,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 832,
+            "end": 865,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 832,
+              "end": 858,
+              "object": {
+                "type": "Identifier",
+                "start": 832,
+                "end": 838,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 839,
+                "end": 858,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 859,
+                "end": 864,
+                "value": false,
+                "raw": "false"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 867,
+            "end": 869,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 873,
+            "end": 923,
+            "value": "Object.getOwnPropertyNames(false) must return []",
+            "raw": "'Object.getOwnPropertyNames(false) must return []'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 927,
+      "end": 1036,
+      "expression": {
+        "type": "CallExpression",
+        "start": 927,
+        "end": 1035,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 927,
+          "end": 946,
+          "object": {
+            "type": "Identifier",
+            "start": 927,
+            "end": 933,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 934,
+            "end": 946,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 950,
+            "end": 979,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 950,
+              "end": 976,
+              "object": {
+                "type": "Identifier",
+                "start": 950,
+                "end": 956,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 957,
+                "end": 976,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 977,
+                "end": 978,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 981,
+            "end": 983,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 987,
+            "end": 1033,
+            "value": "Object.getOwnPropertyNames(1) must return []",
+            "raw": "'Object.getOwnPropertyNames(1) must return []'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1037,
+      "end": 1146,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1037,
+        "end": 1145,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1037,
+          "end": 1056,
+          "object": {
+            "type": "Identifier",
+            "start": 1037,
+            "end": 1043,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1044,
+            "end": 1056,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1060,
+            "end": 1089,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1060,
+              "end": 1086,
+              "object": {
+                "type": "Identifier",
+                "start": 1060,
+                "end": 1066,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1067,
+                "end": 1086,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1087,
+                "end": 1088,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 1091,
+            "end": 1093,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 1097,
+            "end": 1143,
+            "value": "Object.getOwnPropertyNames(0) must return []",
+            "raw": "'Object.getOwnPropertyNames(0) must return []'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1147,
+      "end": 1274,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1147,
+        "end": 1273,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1147,
+          "end": 1166,
+          "object": {
+            "type": "Identifier",
+            "start": 1147,
+            "end": 1153,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1154,
+            "end": 1166,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1170,
+            "end": 1200,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1170,
+              "end": 1196,
+              "object": {
+                "type": "Identifier",
+                "start": 1170,
+                "end": 1176,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1177,
+                "end": 1196,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1197,
+                "end": 1199,
+                "value": "",
+                "raw": "\"\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 1202,
+            "end": 1212,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1203,
+                "end": 1211,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 1216,
+            "end": 1271,
+            "value": "Object.getOwnPropertyNames(\"\") must return [\"length\"]",
+            "raw": "'Object.getOwnPropertyNames(\"\") must return [\"length\"]'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1275,
+      "end": 1398,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1275,
+        "end": 1397,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1275,
+          "end": 1294,
+          "object": {
+            "type": "Identifier",
+            "start": 1275,
+            "end": 1281,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1282,
+            "end": 1294,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1298,
+            "end": 1334,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1298,
+              "end": 1324,
+              "object": {
+                "type": "Identifier",
+                "start": 1298,
+                "end": 1304,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1305,
+                "end": 1324,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1325,
+                "end": 1333,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1325,
+                  "end": 1331,
+                  "name": "Symbol"
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 1336,
+            "end": 1338,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 1342,
+            "end": 1395,
+            "value": "Object.getOwnPropertyNames(Symbol()) must return []",
+            "raw": "'Object.getOwnPropertyNames(Symbol()) must return []'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

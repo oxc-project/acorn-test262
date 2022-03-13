@@ -1,0 +1,150 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 432,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 296,
+      "end": 337,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 302,
+          "end": 337,
+          "id": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 310,
+            "name": "Subclass"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 313,
+            "end": 337,
+            "id": null,
+            "superClass": {
+              "type": "Identifier",
+              "start": 327,
+              "end": 334,
+              "name": "WeakSet"
+            },
+            "body": {
+              "type": "ClassBody",
+              "start": 335,
+              "end": 337,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 339,
+      "end": 366,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 345,
+          "end": 365,
+          "id": {
+            "type": "Identifier",
+            "start": 345,
+            "end": 348,
+            "name": "sub"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 351,
+            "end": 365,
+            "callee": {
+              "type": "Identifier",
+              "start": 355,
+              "end": 363,
+              "name": "Subclass"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 367,
+      "end": 399,
+      "expression": {
+        "type": "CallExpression",
+        "start": 367,
+        "end": 398,
+        "callee": {
+          "type": "Identifier",
+          "start": 367,
+          "end": 373,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 374,
+            "end": 397,
+            "left": {
+              "type": "Identifier",
+              "start": 374,
+              "end": 377,
+              "name": "sub"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 389,
+              "end": 397,
+              "name": "Subclass"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 400,
+      "end": 431,
+      "expression": {
+        "type": "CallExpression",
+        "start": 400,
+        "end": 430,
+        "callee": {
+          "type": "Identifier",
+          "start": 400,
+          "end": 406,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 407,
+            "end": 429,
+            "left": {
+              "type": "Identifier",
+              "start": 407,
+              "end": 410,
+              "name": "sub"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 422,
+              "end": 429,
+              "name": "WeakSet"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

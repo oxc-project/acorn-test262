@@ -1,0 +1,244 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 927,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 753,
+      "end": 785,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 757,
+          "end": 784,
+          "id": {
+            "type": "Identifier",
+            "start": 757,
+            "end": 766,
+            "name": "canonical"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 769,
+            "end": 784,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 769,
+              "end": 779,
+              "object": {
+                "type": "Identifier",
+                "start": 769,
+                "end": 775,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 776,
+                "end": 779,
+                "name": "for"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 780,
+                "end": 783,
+                "value": "s",
+                "raw": "'s'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 787,
+      "end": 832,
+      "expression": {
+        "type": "CallExpression",
+        "start": 787,
+        "end": 831,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 787,
+          "end": 803,
+          "object": {
+            "type": "Identifier",
+            "start": 787,
+            "end": 793,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 794,
+            "end": 803,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 804,
+            "end": 820,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 811,
+              "end": 820,
+              "name": "canonical"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 822,
+            "end": 830,
+            "value": "symbol",
+            "raw": "'symbol'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 833,
+      "end": 877,
+      "expression": {
+        "type": "CallExpression",
+        "start": 833,
+        "end": 876,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 833,
+          "end": 852,
+          "object": {
+            "type": "Identifier",
+            "start": 833,
+            "end": 839,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 840,
+            "end": 852,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 853,
+            "end": 862,
+            "name": "canonical"
+          },
+          {
+            "type": "CallExpression",
+            "start": 864,
+            "end": 875,
+            "callee": {
+              "type": "Identifier",
+              "start": 864,
+              "end": 870,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 871,
+                "end": 874,
+                "value": "s",
+                "raw": "'s'"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 878,
+      "end": 926,
+      "expression": {
+        "type": "CallExpression",
+        "start": 878,
+        "end": 925,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 878,
+          "end": 897,
+          "object": {
+            "type": "Identifier",
+            "start": 878,
+            "end": 884,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 885,
+            "end": 897,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 898,
+            "end": 907,
+            "name": "canonical"
+          },
+          {
+            "type": "CallExpression",
+            "start": 909,
+            "end": 924,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 909,
+              "end": 919,
+              "object": {
+                "type": "Identifier",
+                "start": 909,
+                "end": 915,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 916,
+                "end": 919,
+                "name": "for"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 920,
+                "end": 923,
+                "value": "y",
+                "raw": "'y'"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

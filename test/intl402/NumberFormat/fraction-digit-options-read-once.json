@@ -1,0 +1,396 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 768,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 409,
+      "end": 424,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 413,
+          "end": 423,
+          "id": {
+            "type": "Identifier",
+            "start": 413,
+            "end": 418,
+            "name": "calls"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 421,
+            "end": 423,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 426,
+      "end": 626,
+      "expression": {
+        "type": "NewExpression",
+        "start": 426,
+        "end": 625,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 430,
+          "end": 447,
+          "object": {
+            "type": "Identifier",
+            "start": 430,
+            "end": 434,
+            "name": "Intl"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 435,
+            "end": 447,
+            "name": "NumberFormat"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 448,
+            "end": 452,
+            "value": "en",
+            "raw": "\"en\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 454,
+            "end": 624,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 456,
+                "end": 523,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 460,
+                  "end": 481,
+                  "name": "minimumFractionDigits"
+                },
+                "kind": "get",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 481,
+                  "end": 523,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 484,
+                    "end": 523,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 486,
+                        "end": 521,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 486,
+                          "end": 521,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 486,
+                            "end": 496,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 486,
+                              "end": 491,
+                              "name": "calls"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 492,
+                              "end": 496,
+                              "name": "push"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 497,
+                              "end": 520,
+                              "value": "minimumFractionDigits",
+                              "raw": "'minimumFractionDigits'"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "start": 555,
+                "end": 622,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 559,
+                  "end": 580,
+                  "name": "maximumFractionDigits"
+                },
+                "kind": "get",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 580,
+                  "end": 622,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 583,
+                    "end": 622,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 585,
+                        "end": 620,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 585,
+                          "end": 620,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 585,
+                            "end": 595,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 585,
+                              "end": 590,
+                              "name": "calls"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 591,
+                              "end": 595,
+                              "name": "push"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 596,
+                              "end": 619,
+                              "value": "maximumFractionDigits",
+                              "raw": "'maximumFractionDigits'"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 627,
+      "end": 661,
+      "expression": {
+        "type": "CallExpression",
+        "start": 627,
+        "end": 660,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 627,
+          "end": 643,
+          "object": {
+            "type": "Identifier",
+            "start": 627,
+            "end": 633,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 634,
+            "end": 643,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 644,
+            "end": 656,
+            "object": {
+              "type": "Identifier",
+              "start": 644,
+              "end": 649,
+              "name": "calls"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 650,
+              "end": 656,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 658,
+            "end": 659,
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 662,
+      "end": 714,
+      "expression": {
+        "type": "CallExpression",
+        "start": 662,
+        "end": 713,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 662,
+          "end": 678,
+          "object": {
+            "type": "Identifier",
+            "start": 662,
+            "end": 668,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 678,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 679,
+            "end": 687,
+            "object": {
+              "type": "Identifier",
+              "start": 679,
+              "end": 684,
+              "name": "calls"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 685,
+              "end": 686,
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 712,
+            "value": "minimumFractionDigits",
+            "raw": "'minimumFractionDigits'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 715,
+      "end": 767,
+      "expression": {
+        "type": "CallExpression",
+        "start": 715,
+        "end": 766,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 715,
+          "end": 731,
+          "object": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 721,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 731,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 732,
+            "end": 740,
+            "object": {
+              "type": "Identifier",
+              "start": 732,
+              "end": 737,
+              "name": "calls"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 738,
+              "end": 739,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 742,
+            "end": 765,
+            "value": "maximumFractionDigits",
+            "raw": "'maximumFractionDigits'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

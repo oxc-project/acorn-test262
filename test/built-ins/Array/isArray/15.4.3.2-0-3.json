@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 341,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 260,
+      "end": 340,
+      "expression": {
+        "type": "CallExpression",
+        "start": 260,
+        "end": 339,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 260,
+          "end": 276,
+          "object": {
+            "type": "Identifier",
+            "start": 260,
+            "end": 266,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 276,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 277,
+            "end": 294,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 277,
+              "end": 290,
+              "object": {
+                "type": "Identifier",
+                "start": 277,
+                "end": 282,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 283,
+                "end": 290,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 291,
+                "end": 293,
+                "elements": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 296,
+            "end": 300,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 302,
+            "end": 338,
+            "value": "Array.isArray([]) must return true",
+            "raw": "'Array.isArray([]) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

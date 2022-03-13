@@ -1,0 +1,187 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 988,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 654,
+      "end": 942,
+      "block": {
+        "type": "BlockStatement",
+        "start": 658,
+        "end": 782,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 662,
+            "end": 780,
+            "argument": {
+              "type": "NewExpression",
+              "start": 668,
+              "end": 779,
+              "callee": {
+                "type": "Identifier",
+                "start": 672,
+                "end": 684,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 685,
+                  "end": 778,
+                  "left": {
+                    "type": "Literal",
+                    "start": 685,
+                    "end": 741,
+                    "value": "#1.1: /[d-G\\f]/.exec(\"a\") throw SyntaxError. Actual: ",
+                    "raw": "'#1.1: /[d-G\\\\f]/.exec(\"a\") throw SyntaxError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 744,
+                    "end": 778,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 745,
+                      "end": 777,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 745,
+                        "end": 772,
+                        "object": {
+                          "type": "NewExpression",
+                          "start": 745,
+                          "end": 767,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 749,
+                            "end": 755,
+                            "name": "RegExp"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 756,
+                              "end": 766,
+                              "value": "[d-G\\f]",
+                              "raw": "\"[d-G\\\\f]\""
+                            }
+                          ]
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 768,
+                          "end": 772,
+                          "name": "exec"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 773,
+                          "end": 776,
+                          "value": "a",
+                          "raw": "\"a\""
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 783,
+        "end": 942,
+        "param": {
+          "type": "Identifier",
+          "start": 790,
+          "end": 791,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 793,
+          "end": 942,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 797,
+              "end": 940,
+              "expression": {
+                "type": "CallExpression",
+                "start": 797,
+                "end": 939,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 797,
+                  "end": 813,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 797,
+                    "end": 803,
+                    "name": "assert"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 804,
+                    "end": 813,
+                    "name": "sameValue"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 819,
+                    "end": 843,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 819,
+                      "end": 820,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 832,
+                      "end": 843,
+                      "name": "SyntaxError"
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 849,
+                    "end": 853,
+                    "value": true,
+                    "raw": "true"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 859,
+                    "end": 935,
+                    "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

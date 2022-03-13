@@ -1,0 +1,215 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 575,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 334,
+      "end": 390,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 338,
+          "end": 389,
+          "id": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 351,
+            "name": "AsyncFunction"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 354,
+            "end": 389,
+            "object": {
+              "type": "FunctionExpression",
+              "start": 354,
+              "end": 377,
+              "id": {
+                "type": "Identifier",
+                "start": 369,
+                "end": 372,
+                "name": "foo"
+              },
+              "expression": false,
+              "generator": false,
+              "async": true,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 375,
+                "end": 377,
+                "body": []
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 378,
+              "end": 389,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 391,
+      "end": 445,
+      "expression": {
+        "type": "CallExpression",
+        "start": 391,
+        "end": 444,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 391,
+          "end": 407,
+          "object": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 397,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 407,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 408,
+            "end": 426,
+            "object": {
+              "type": "Identifier",
+              "start": 408,
+              "end": 421,
+              "name": "AsyncFunction"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 422,
+              "end": 426,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 443,
+            "value": "AsyncFunction",
+            "raw": "\"AsyncFunction\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 446,
+      "end": 487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 446,
+        "end": 486,
+        "callee": {
+          "type": "Identifier",
+          "start": 446,
+          "end": 463,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 464,
+            "end": 477,
+            "name": "AsyncFunction"
+          },
+          {
+            "type": "Literal",
+            "start": 479,
+            "end": 485,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 488,
+      "end": 531,
+      "expression": {
+        "type": "CallExpression",
+        "start": 488,
+        "end": 530,
+        "callee": {
+          "type": "Identifier",
+          "start": 488,
+          "end": 507,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 508,
+            "end": 521,
+            "name": "AsyncFunction"
+          },
+          {
+            "type": "Literal",
+            "start": 523,
+            "end": 529,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 532,
+      "end": 574,
+      "expression": {
+        "type": "CallExpression",
+        "start": 532,
+        "end": 573,
+        "callee": {
+          "type": "Identifier",
+          "start": 532,
+          "end": 550,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 551,
+            "end": 564,
+            "name": "AsyncFunction"
+          },
+          {
+            "type": "Literal",
+            "start": 566,
+            "end": 572,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

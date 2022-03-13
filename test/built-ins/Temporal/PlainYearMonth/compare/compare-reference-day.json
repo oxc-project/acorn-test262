@@ -1,0 +1,316 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 492,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 264,
+      "end": 310,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 270,
+          "end": 309,
+          "id": {
+            "type": "Identifier",
+            "start": 270,
+            "end": 273,
+            "name": "iso"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 276,
+            "end": 309,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 276,
+              "end": 298,
+              "object": {
+                "type": "MemberExpression",
+                "start": 276,
+                "end": 293,
+                "object": {
+                  "type": "Identifier",
+                  "start": 276,
+                  "end": 284,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 285,
+                  "end": 293,
+                  "name": "Calendar"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 294,
+                "end": 298,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 299,
+                "end": 308,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 311,
+      "end": 368,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 317,
+          "end": 367,
+          "id": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 320,
+            "name": "ym1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 323,
+            "end": 367,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 327,
+              "end": 350,
+              "object": {
+                "type": "Identifier",
+                "start": 327,
+                "end": 335,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 350,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 355,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 357,
+                "end": 358,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Identifier",
+                "start": 360,
+                "end": 363,
+                "name": "iso"
+              },
+              {
+                "type": "Literal",
+                "start": 365,
+                "end": 366,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 369,
+      "end": 426,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 375,
+          "end": 425,
+          "id": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 378,
+            "name": "ym2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 381,
+            "end": 425,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 385,
+              "end": 408,
+              "object": {
+                "type": "Identifier",
+                "start": 385,
+                "end": 393,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 394,
+                "end": 408,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 409,
+                "end": 413,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 415,
+                "end": 416,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Identifier",
+                "start": 418,
+                "end": 421,
+                "name": "iso"
+              },
+              {
+                "type": "Literal",
+                "start": 423,
+                "end": 424,
+                "value": 2,
+                "raw": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 427,
+      "end": 491,
+      "expression": {
+        "type": "CallExpression",
+        "start": 427,
+        "end": 490,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 427,
+          "end": 443,
+          "object": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 433,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 443,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 444,
+            "end": 485,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 444,
+              "end": 475,
+              "object": {
+                "type": "MemberExpression",
+                "start": 444,
+                "end": 467,
+                "object": {
+                  "type": "Identifier",
+                  "start": 444,
+                  "end": 452,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 453,
+                  "end": 467,
+                  "name": "PlainYearMonth"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 468,
+                "end": 475,
+                "name": "compare"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 476,
+                "end": 479,
+                "name": "ym1"
+              },
+              {
+                "type": "Identifier",
+                "start": 481,
+                "end": 484,
+                "name": "ym2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 487,
+            "end": 489,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 488,
+              "end": 489,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

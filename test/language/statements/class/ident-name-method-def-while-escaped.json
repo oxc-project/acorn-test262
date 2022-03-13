@@ -1,0 +1,174 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1019,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 899,
+      "end": 940,
+      "id": {
+        "type": "Identifier",
+        "start": 905,
+        "end": 906,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 907,
+        "end": 940,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 911,
+            "end": 938,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 911,
+              "end": 921,
+              "name": "while"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 921,
+              "end": 938,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 924,
+                "end": 938,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 926,
+                    "end": 936,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 933,
+                      "end": 935,
+                      "value": 42,
+                      "raw": "42"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 942,
+      "end": 960,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 946,
+          "end": 959,
+          "id": {
+            "type": "Identifier",
+            "start": 946,
+            "end": 949,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 952,
+            "end": 959,
+            "callee": {
+              "type": "Identifier",
+              "start": 956,
+              "end": 957,
+              "name": "C"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 962,
+      "end": 1018,
+      "expression": {
+        "type": "CallExpression",
+        "start": 962,
+        "end": 1017,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 962,
+          "end": 978,
+          "object": {
+            "type": "Identifier",
+            "start": 962,
+            "end": 968,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 969,
+            "end": 978,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 979,
+            "end": 993,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 979,
+              "end": 991,
+              "object": {
+                "type": "Identifier",
+                "start": 979,
+                "end": 982,
+                "name": "obj"
+              },
+              "property": {
+                "type": "Literal",
+                "start": 983,
+                "end": 990,
+                "value": "while",
+                "raw": "'while'"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 995,
+            "end": 997,
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "type": "Literal",
+            "start": 999,
+            "end": 1016,
+            "value": "property exists",
+            "raw": "'property exists'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

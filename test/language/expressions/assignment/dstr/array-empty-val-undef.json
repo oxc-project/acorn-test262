@@ -1,0 +1,100 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 820,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 757,
+      "end": 819,
+      "expression": {
+        "type": "CallExpression",
+        "start": 757,
+        "end": 818,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 757,
+          "end": 770,
+          "object": {
+            "type": "Identifier",
+            "start": 757,
+            "end": 763,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 770,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 771,
+            "end": 780,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 782,
+            "end": 817,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 793,
+              "end": 817,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 797,
+                  "end": 815,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 797,
+                    "end": 814,
+                    "expressions": [
+                      {
+                        "type": "Literal",
+                        "start": 797,
+                        "end": 798,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "AssignmentExpression",
+                        "start": 800,
+                        "end": 814,
+                        "operator": "=",
+                        "left": {
+                          "type": "ArrayPattern",
+                          "start": 800,
+                          "end": 802,
+                          "elements": []
+                        },
+                        "right": {
+                          "type": "Identifier",
+                          "start": 805,
+                          "end": 814,
+                          "name": "undefined"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

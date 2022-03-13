@@ -1,0 +1,176 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 442,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 300,
+      "end": 380,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 304,
+          "end": 379,
+          "id": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 305,
+            "name": "p"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 308,
+            "end": 379,
+            "callee": {
+              "type": "Identifier",
+              "start": 312,
+              "end": 317,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 318,
+                "end": 320,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 322,
+                "end": 378,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 326,
+                    "end": 376,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 326,
+                      "end": 340,
+                      "name": "deleteProperty"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 342,
+                      "end": 376,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 353,
+                        "end": 376,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 359,
+                            "end": 372,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 366,
+                              "end": 371,
+                              "value": false,
+                              "raw": "false"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 382,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 382,
+        "end": 440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 382,
+          "end": 398,
+          "object": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 388,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 389,
+            "end": 398,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 399,
+            "end": 432,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 399,
+              "end": 421,
+              "object": {
+                "type": "Identifier",
+                "start": 399,
+                "end": 406,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 407,
+                "end": 421,
+                "name": "deleteProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 422,
+                "end": 423,
+                "name": "p"
+              },
+              {
+                "type": "Literal",
+                "start": 425,
+                "end": 431,
+                "value": "attr",
+                "raw": "\"attr\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 434,
+            "end": 439,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

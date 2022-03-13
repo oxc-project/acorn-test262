@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 552,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 490,
+      "end": 551,
+      "id": {
+        "type": "Identifier",
+        "start": 496,
+        "end": 497,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 498,
+        "end": 551,
+        "body": [
+          {
+            "type": "StaticBlock",
+            "start": 502,
+            "end": 549,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 515,
+                "end": 545,
+                "expression": {
+                  "type": "ParenthesizedExpression",
+                  "start": 515,
+                  "end": 544,
+                  "expression": {
+                    "type": "ArrowFunctionExpression",
+                    "start": 516,
+                    "end": 543,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 522,
+                      "end": 543,
+                      "body": [
+                        {
+                          "type": "VariableDeclaration",
+                          "start": 524,
+                          "end": 541,
+                          "declarations": [
+                            {
+                              "type": "VariableDeclarator",
+                              "start": 528,
+                              "end": 540,
+                              "id": {
+                                "type": "ArrayPattern",
+                                "start": 528,
+                                "end": 535,
+                                "elements": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 529,
+                                    "end": 534,
+                                    "name": "await"
+                                  }
+                                ]
+                              },
+                              "init": {
+                                "type": "ArrayExpression",
+                                "start": 538,
+                                "end": 540,
+                                "elements": []
+                              }
+                            }
+                          ],
+                          "kind": "var"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

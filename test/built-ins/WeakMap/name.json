@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 503,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 298,
+      "end": 390,
+      "expression": {
+        "type": "CallExpression",
+        "start": 298,
+        "end": 389,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 298,
+          "end": 314,
+          "object": {
+            "type": "Identifier",
+            "start": 298,
+            "end": 304,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 314,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 318,
+            "end": 330,
+            "object": {
+              "type": "Identifier",
+              "start": 318,
+              "end": 325,
+              "name": "WeakMap"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 326,
+              "end": 330,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 332,
+            "end": 341,
+            "value": "WeakMap",
+            "raw": "'WeakMap'"
+          },
+          {
+            "type": "Literal",
+            "start": 345,
+            "end": 387,
+            "value": "The value of `WeakMap.name` is \"WeakMap\"",
+            "raw": "'The value of `WeakMap.name` is \"WeakMap\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 392,
+      "end": 429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 392,
+        "end": 428,
+        "callee": {
+          "type": "Identifier",
+          "start": 392,
+          "end": 411,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 412,
+            "end": 419,
+            "name": "WeakMap"
+          },
+          {
+            "type": "Literal",
+            "start": 421,
+            "end": 427,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 430,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 430,
+        "end": 464,
+        "callee": {
+          "type": "Identifier",
+          "start": 430,
+          "end": 447,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 448,
+            "end": 455,
+            "name": "WeakMap"
+          },
+          {
+            "type": "Literal",
+            "start": 457,
+            "end": 463,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 466,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 466,
+        "end": 501,
+        "callee": {
+          "type": "Identifier",
+          "start": 466,
+          "end": 484,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 485,
+            "end": 492,
+            "name": "WeakMap"
+          },
+          {
+            "type": "Literal",
+            "start": 494,
+            "end": 500,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

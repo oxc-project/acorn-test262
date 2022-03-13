@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 439,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 297,
+      "end": 438,
+      "expression": {
+        "type": "CallExpression",
+        "start": 297,
+        "end": 437,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 297,
+          "end": 310,
+          "object": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 303,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 310,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 311,
+            "end": 321,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 323,
+            "end": 370,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 329,
+              "end": 370,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 329,
+                "end": 352,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 329,
+                  "end": 347,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 329,
+                    "end": 337,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 338,
+                    "end": 347,
+                    "name": "PlainDate"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 348,
+                  "end": 352,
+                  "name": "from"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 353,
+                  "end": 369,
+                  "value": "1976-11-18junk",
+                  "raw": "\"1976-11-18junk\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 374,
+            "end": 436,
+            "value": "String with trailing junk should not be valid as a PlainDate",
+            "raw": "\"String with trailing junk should not be valid as a PlainDate\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

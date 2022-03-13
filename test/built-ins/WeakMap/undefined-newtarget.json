@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 460,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 347,
+      "end": 401,
+      "expression": {
+        "type": "CallExpression",
+        "start": 347,
+        "end": 400,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 347,
+          "end": 360,
+          "object": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 353,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 354,
+            "end": 360,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 361,
+            "end": 370,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 372,
+            "end": 399,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 383,
+              "end": 399,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 387,
+                  "end": 397,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 387,
+                    "end": 396,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 387,
+                      "end": 394,
+                      "name": "WeakMap"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 403,
+      "end": 459,
+      "expression": {
+        "type": "CallExpression",
+        "start": 403,
+        "end": 458,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 403,
+          "end": 416,
+          "object": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 409,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 416,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 417,
+            "end": 426,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 428,
+            "end": 457,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 439,
+              "end": 457,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 443,
+                  "end": 455,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 443,
+                    "end": 454,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 443,
+                      "end": 450,
+                      "name": "WeakMap"
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "start": 451,
+                        "end": 453,
+                        "elements": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

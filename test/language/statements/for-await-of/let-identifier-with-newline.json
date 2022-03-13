@@ -1,0 +1,97 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 577,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 507,
+      "end": 576,
+      "id": {
+        "type": "Identifier",
+        "start": 523,
+        "end": 524,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": true,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 527,
+        "end": 576,
+        "body": [
+          {
+            "type": "ForOfStatement",
+            "start": 531,
+            "end": 558,
+            "await": true,
+            "left": {
+              "type": "VariableDeclaration",
+              "start": 542,
+              "end": 547,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 546,
+                  "end": 547,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 546,
+                    "end": 547,
+                    "name": "x"
+                  },
+                  "init": null
+                }
+              ],
+              "kind": "var"
+            },
+            "right": {
+              "type": "ArrayExpression",
+              "start": 551,
+              "end": 553,
+              "elements": []
+            },
+            "body": {
+              "type": "ExpressionStatement",
+              "start": 555,
+              "end": 558,
+              "expression": {
+                "type": "Identifier",
+                "start": 555,
+                "end": 558,
+                "name": "let"
+              }
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 568,
+            "end": 574,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 568,
+              "end": 573,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 568,
+                "end": 569,
+                "name": "x"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 572,
+                "end": 573,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

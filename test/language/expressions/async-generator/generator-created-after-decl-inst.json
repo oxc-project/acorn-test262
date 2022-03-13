@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 871,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 709,
+      "end": 761,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 713,
+          "end": 761,
+          "id": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 714,
+            "name": "g"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 717,
+            "end": 761,
+            "id": null,
+            "expression": false,
+            "generator": true,
+            "async": true,
+            "params": [
+              {
+                "type": "AssignmentPattern",
+                "start": 733,
+                "end": 757,
+                "left": {
+                  "type": "Identifier",
+                  "start": 733,
+                  "end": 734,
+                  "name": "a"
+                },
+                "right": {
+                  "type": "ParenthesizedExpression",
+                  "start": 737,
+                  "end": 757,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 738,
+                    "end": 756,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 738,
+                      "end": 749,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 738,
+                        "end": 739,
+                        "name": "g"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 740,
+                        "end": 749,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 752,
+                      "end": 756,
+                      "value": null,
+                      "raw": "null"
+                    }
+                  }
+                }
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 759,
+              "end": 761,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 762,
+      "end": 793,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 766,
+          "end": 792,
+          "id": {
+            "type": "Identifier",
+            "start": 766,
+            "end": 778,
+            "name": "oldPrototype"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 781,
+            "end": 792,
+            "object": {
+              "type": "Identifier",
+              "start": 781,
+              "end": 782,
+              "name": "g"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 783,
+              "end": 792,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 794,
+      "end": 807,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 798,
+          "end": 806,
+          "id": {
+            "type": "Identifier",
+            "start": 798,
+            "end": 800,
+            "name": "it"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 803,
+            "end": 806,
+            "callee": {
+              "type": "Identifier",
+              "start": 803,
+              "end": 804,
+              "name": "g"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 809,
+      "end": 870,
+      "expression": {
+        "type": "CallExpression",
+        "start": 809,
+        "end": 869,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 809,
+          "end": 828,
+          "object": {
+            "type": "Identifier",
+            "start": 809,
+            "end": 815,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 816,
+            "end": 828,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 829,
+            "end": 854,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 829,
+              "end": 850,
+              "object": {
+                "type": "Identifier",
+                "start": 829,
+                "end": 835,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 836,
+                "end": 850,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 851,
+                "end": 853,
+                "name": "it"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 856,
+            "end": 868,
+            "name": "oldPrototype"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

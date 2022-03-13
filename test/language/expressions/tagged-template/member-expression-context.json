@@ -1,0 +1,199 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 623,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 486,
+      "end": 498,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 490,
+          "end": 497,
+          "id": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 497,
+            "name": "context"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 499,
+      "end": 556,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 503,
+          "end": 555,
+          "id": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 506,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 509,
+            "end": 555,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 513,
+                "end": 553,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 513,
+                  "end": 515,
+                  "name": "fn"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 517,
+                  "end": 553,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 528,
+                    "end": 553,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 534,
+                        "end": 549,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 534,
+                          "end": 548,
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 534,
+                            "end": 541,
+                            "name": "context"
+                          },
+                          "right": {
+                            "type": "ThisExpression",
+                            "start": 544,
+                            "end": 548
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 558,
+      "end": 589,
+      "expression": {
+        "type": "TaggedTemplateExpression",
+        "start": 558,
+        "end": 588,
+        "tag": {
+          "type": "MemberExpression",
+          "start": 558,
+          "end": 564,
+          "object": {
+            "type": "Identifier",
+            "start": 558,
+            "end": 561,
+            "name": "obj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 562,
+            "end": 564,
+            "name": "fn"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 564,
+          "end": 588,
+          "expressions": [],
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 565,
+              "end": 587,
+              "value": {
+                "raw": "NoSubstitutionTemplate",
+                "cooked": "NoSubstitutionTemplate"
+              },
+              "tail": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 591,
+      "end": 622,
+      "expression": {
+        "type": "CallExpression",
+        "start": 591,
+        "end": 621,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 591,
+          "end": 607,
+          "object": {
+            "type": "Identifier",
+            "start": 591,
+            "end": 597,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 607,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 608,
+            "end": 615,
+            "name": "context"
+          },
+          {
+            "type": "Identifier",
+            "start": 617,
+            "end": 620,
+            "name": "obj"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

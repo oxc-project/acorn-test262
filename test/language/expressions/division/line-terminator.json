@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 528,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 478,
+      "end": 502,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 482,
+          "end": 500,
+          "id": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 483,
+            "name": "x"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 486,
+            "end": 500,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 486,
+              "end": 494,
+              "left": {
+                "type": "Literal",
+                "start": 486,
+                "end": 488,
+                "value": 18,
+                "raw": "18"
+              },
+              "operator": "/",
+              "right": {
+                "type": "Literal",
+                "start": 493,
+                "end": 494,
+                "value": 2,
+                "raw": "2"
+              }
+            },
+            "operator": "/",
+            "right": {
+              "type": "Literal",
+              "start": 499,
+              "end": 500,
+              "value": 9,
+              "raw": "9"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 504,
+      "end": 527,
+      "expression": {
+        "type": "CallExpression",
+        "start": 504,
+        "end": 526,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 504,
+          "end": 520,
+          "object": {
+            "type": "Identifier",
+            "start": 504,
+            "end": 510,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 520,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 521,
+            "end": 522,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 524,
+            "end": 525,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

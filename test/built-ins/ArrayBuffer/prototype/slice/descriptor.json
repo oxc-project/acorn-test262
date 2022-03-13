@@ -1,0 +1,143 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 751,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 598,
+      "end": 650,
+      "expression": {
+        "type": "CallExpression",
+        "start": 598,
+        "end": 649,
+        "callee": {
+          "type": "Identifier",
+          "start": 598,
+          "end": 617,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 618,
+            "end": 639,
+            "object": {
+              "type": "Identifier",
+              "start": 618,
+              "end": 629,
+              "name": "ArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 630,
+              "end": 639,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 641,
+            "end": 648,
+            "value": "slice",
+            "raw": "\"slice\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 698,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 697,
+        "callee": {
+          "type": "Identifier",
+          "start": 651,
+          "end": 665,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 666,
+            "end": 687,
+            "object": {
+              "type": "Identifier",
+              "start": 666,
+              "end": 677,
+              "name": "ArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 678,
+              "end": 687,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 696,
+            "value": "slice",
+            "raw": "\"slice\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 699,
+      "end": 750,
+      "expression": {
+        "type": "CallExpression",
+        "start": 699,
+        "end": 749,
+        "callee": {
+          "type": "Identifier",
+          "start": 699,
+          "end": 717,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 718,
+            "end": 739,
+            "object": {
+              "type": "Identifier",
+              "start": 718,
+              "end": 729,
+              "name": "ArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 730,
+              "end": 739,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 741,
+            "end": 748,
+            "value": "slice",
+            "raw": "\"slice\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

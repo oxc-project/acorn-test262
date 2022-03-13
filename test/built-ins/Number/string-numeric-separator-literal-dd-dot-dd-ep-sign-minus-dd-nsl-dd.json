@@ -1,0 +1,74 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 713,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 658,
+      "end": 712,
+      "expression": {
+        "type": "CallExpression",
+        "start": 658,
+        "end": 711,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 658,
+          "end": 674,
+          "object": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 664,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 665,
+            "end": 674,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 675,
+            "end": 693,
+            "callee": {
+              "type": "Identifier",
+              "start": 675,
+              "end": 681,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 682,
+                "end": 692,
+                "value": "1.0e-1_0",
+                "raw": "\"1.0e-1_0\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 695,
+            "end": 698,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 700,
+            "end": 710,
+            "value": "1.0e-1_0",
+            "raw": "\"1.0e-1_0\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

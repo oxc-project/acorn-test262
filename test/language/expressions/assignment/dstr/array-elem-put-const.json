@@ -1,0 +1,141 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 780,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 703,
+      "end": 718,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 709,
+          "end": 717,
+          "id": {
+            "type": "Identifier",
+            "start": 709,
+            "end": 710,
+            "name": "c"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 713,
+            "end": 717,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 720,
+      "end": 779,
+      "expression": {
+        "type": "CallExpression",
+        "start": 720,
+        "end": 778,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 720,
+          "end": 733,
+          "object": {
+            "type": "Identifier",
+            "start": 720,
+            "end": 726,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 733,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 734,
+            "end": 743,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 745,
+            "end": 777,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 756,
+              "end": 777,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 760,
+                  "end": 775,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 760,
+                    "end": 774,
+                    "expressions": [
+                      {
+                        "type": "Literal",
+                        "start": 760,
+                        "end": 761,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "AssignmentExpression",
+                        "start": 763,
+                        "end": 774,
+                        "operator": "=",
+                        "left": {
+                          "type": "ArrayPattern",
+                          "start": 763,
+                          "end": 768,
+                          "elements": [
+                            {
+                              "type": "Identifier",
+                              "start": 765,
+                              "end": 766,
+                              "name": "c"
+                            }
+                          ]
+                        },
+                        "right": {
+                          "type": "ArrayExpression",
+                          "start": 771,
+                          "end": 774,
+                          "elements": [
+                            {
+                              "type": "Literal",
+                              "start": 772,
+                              "end": 773,
+                              "value": 1,
+                              "raw": "1"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

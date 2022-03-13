@@ -1,0 +1,134 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 463,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 387,
+      "end": 424,
+      "expression": {
+        "type": "CallExpression",
+        "start": 387,
+        "end": 423,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 387,
+          "end": 403,
+          "object": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 393,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 394,
+            "end": 403,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 404,
+            "end": 415,
+            "object": {
+              "type": "Literal",
+              "start": 404,
+              "end": 408,
+              "value": {},
+              "raw": "/\\1/",
+              "regex": {
+                "pattern": "\\1",
+                "flags": ""
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 409,
+              "end": 415,
+              "name": "source"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 417,
+            "end": 422,
+            "value": "\\1",
+            "raw": "\"\\\\1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 425,
+      "end": 462,
+      "expression": {
+        "type": "CallExpression",
+        "start": 425,
+        "end": 461,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 425,
+          "end": 441,
+          "object": {
+            "type": "Identifier",
+            "start": 425,
+            "end": 431,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 441,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 442,
+            "end": 453,
+            "object": {
+              "type": "Literal",
+              "start": 442,
+              "end": 446,
+              "value": {},
+              "raw": "/\\a/",
+              "regex": {
+                "pattern": "\\a",
+                "flags": ""
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 447,
+              "end": 453,
+              "name": "source"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 455,
+            "end": 460,
+            "value": "\\a",
+            "raw": "\"\\\\a\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

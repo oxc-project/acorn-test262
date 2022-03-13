@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 441,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 297,
+      "end": 346,
+      "id": {
+        "type": "Identifier",
+        "start": 306,
+        "end": 316,
+        "name": "callbackfn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 317,
+          "end": 324,
+          "name": "prevVal"
+        },
+        {
+          "type": "Identifier",
+          "start": 326,
+          "end": 332,
+          "name": "curVal"
+        },
+        {
+          "type": "Identifier",
+          "start": 334,
+          "end": 337,
+          "name": "idx"
+        },
+        {
+          "type": "Identifier",
+          "start": 339,
+          "end": 342,
+          "name": "obj"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 344,
+        "end": 346,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 348,
+      "end": 372,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 352,
+          "end": 371,
+          "id": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 355,
+            "name": "arr"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 358,
+            "end": 371,
+            "callee": {
+              "type": "Identifier",
+              "start": 362,
+              "end": 367,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 368,
+                "end": 370,
+                "value": 10,
+                "raw": "10"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 373,
+      "end": 440,
+      "expression": {
+        "type": "CallExpression",
+        "start": 373,
+        "end": 439,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 373,
+          "end": 386,
+          "object": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 379,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 380,
+            "end": 386,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 387,
+            "end": 396,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 398,
+            "end": 438,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 409,
+              "end": 438,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 413,
+                  "end": 436,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 413,
+                    "end": 435,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 413,
+                      "end": 423,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 413,
+                        "end": 416,
+                        "name": "arr"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 417,
+                        "end": 423,
+                        "name": "reduce"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 424,
+                        "end": 434,
+                        "name": "callbackfn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

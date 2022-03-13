@@ -1,0 +1,159 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 747,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 380,
+      "end": 445,
+      "id": {
+        "type": "Identifier",
+        "start": 389,
+        "end": 395,
+        "name": "__func"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 397,
+        "end": 445,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 404,
+            "end": 421,
+            "expression": {
+              "type": "UnaryExpression",
+              "start": 404,
+              "end": 420,
+              "operator": "delete",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 411,
+                "end": 420,
+                "name": "arguments"
+              }
+            }
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 426,
+            "end": 443,
+            "argument": {
+              "type": "Identifier",
+              "start": 433,
+              "end": 442,
+              "name": "arguments"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 536,
+      "end": 664,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 540,
+        "end": 579,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 540,
+          "end": 566,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "CallExpression",
+            "start": 547,
+            "end": 566,
+            "callee": {
+              "type": "Identifier",
+              "start": 547,
+              "end": 553,
+              "name": "__func"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 554,
+                "end": 557,
+                "value": "A",
+                "raw": "\"A\""
+              },
+              {
+                "type": "Literal",
+                "start": 558,
+                "end": 561,
+                "value": "B",
+                "raw": "\"B\""
+              },
+              {
+                "type": "Literal",
+                "start": 562,
+                "end": 563,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 564,
+                "end": 565,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 571,
+          "end": 579,
+          "value": "object",
+          "raw": "\"object\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 581,
+        "end": 664,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 584,
+            "end": 662,
+            "argument": {
+              "type": "NewExpression",
+              "start": 590,
+              "end": 661,
+              "callee": {
+                "type": "Identifier",
+                "start": 594,
+                "end": 606,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 607,
+                  "end": 660,
+                  "value": "#1: arguments property has attribute { DontDelete }",
+                  "raw": "'#1: arguments property has attribute { DontDelete }'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

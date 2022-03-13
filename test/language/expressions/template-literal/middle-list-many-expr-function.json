@@ -1,0 +1,157 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 664,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 575,
+      "end": 609,
+      "id": {
+        "type": "Identifier",
+        "start": 584,
+        "end": 586,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 589,
+        "end": 609,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 591,
+            "end": 607,
+            "argument": {
+              "type": "Literal",
+              "start": 598,
+              "end": 606,
+              "value": "result",
+              "raw": "'result'"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 611,
+      "end": 663,
+      "expression": {
+        "type": "CallExpression",
+        "start": 611,
+        "end": 662,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 611,
+          "end": 627,
+          "object": {
+            "type": "Identifier",
+            "start": 611,
+            "end": 617,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 618,
+            "end": 627,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 628,
+            "end": 647,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 631,
+                "end": 632,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 636,
+                "end": 637,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "CallExpression",
+                "start": 641,
+                "end": 645,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 641,
+                  "end": 643,
+                  "name": "fn"
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 629,
+                "end": 629,
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 633,
+                "end": 634,
+                "value": {
+                  "raw": " ",
+                  "cooked": " "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 638,
+                "end": 639,
+                "value": {
+                  "raw": " ",
+                  "cooked": " "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 646,
+                "end": 646,
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": true
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 649,
+            "end": 661,
+            "value": "0 1 result",
+            "raw": "'0 1 result'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

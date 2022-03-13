@@ -1,0 +1,4390 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 5104,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 366,
+      "end": 410,
+      "expression": {
+        "type": "CallExpression",
+        "start": 366,
+        "end": 409,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 366,
+          "end": 382,
+          "object": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 372,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 382,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 383,
+            "end": 396,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 390,
+              "end": 396,
+              "name": "BigInt"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 398,
+            "end": 408,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 411,
+      "end": 463,
+      "expression": {
+        "type": "CallExpression",
+        "start": 411,
+        "end": 462,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 411,
+          "end": 427,
+          "object": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 417,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 427,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 428,
+            "end": 449,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 435,
+              "end": 449,
+              "object": {
+                "type": "Identifier",
+                "start": 435,
+                "end": 441,
+                "name": "BigInt"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 442,
+                "end": 449,
+                "name": "asUintN"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 461,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 465,
+      "end": 578,
+      "expression": {
+        "type": "CallExpression",
+        "start": 465,
+        "end": 577,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 465,
+          "end": 478,
+          "object": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 471,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 478,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 479,
+            "end": 488,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 490,
+            "end": 525,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 502,
+              "end": 525,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 506,
+                  "end": 523,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 506,
+                    "end": 522,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 506,
+                      "end": 520,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 506,
+                        "end": 512,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 513,
+                        "end": 520,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 527,
+            "end": 576,
+            "value": "ToBigInt: no argument => undefined => TypeError",
+            "raw": "\"ToBigInt: no argument => undefined => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 579,
+      "end": 693,
+      "expression": {
+        "type": "CallExpression",
+        "start": 579,
+        "end": 692,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 579,
+          "end": 592,
+          "object": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 585,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 586,
+            "end": 592,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 593,
+            "end": 602,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 604,
+            "end": 640,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 616,
+              "end": 640,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 620,
+                  "end": 638,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 620,
+                    "end": 637,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 620,
+                      "end": 634,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 620,
+                        "end": 626,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 627,
+                        "end": 634,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 635,
+                        "end": 636,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 642,
+            "end": 691,
+            "value": "ToBigInt: no argument => undefined => TypeError",
+            "raw": "\"ToBigInt: no argument => undefined => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 695,
+      "end": 804,
+      "expression": {
+        "type": "CallExpression",
+        "start": 695,
+        "end": 803,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 695,
+          "end": 708,
+          "object": {
+            "type": "Identifier",
+            "start": 695,
+            "end": 701,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 702,
+            "end": 708,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 709,
+            "end": 718,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 720,
+            "end": 766,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 731,
+              "end": 766,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 735,
+                  "end": 764,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 735,
+                    "end": 763,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 735,
+                      "end": 749,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 735,
+                        "end": 741,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 742,
+                        "end": 749,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 750,
+                        "end": 751,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 753,
+                        "end": 762,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 768,
+            "end": 802,
+            "value": "ToBigInt: undefined => TypeError",
+            "raw": "\"ToBigInt: undefined => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 805,
+      "end": 996,
+      "expression": {
+        "type": "CallExpression",
+        "start": 805,
+        "end": 995,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 805,
+          "end": 818,
+          "object": {
+            "type": "Identifier",
+            "start": 805,
+            "end": 811,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 812,
+            "end": 818,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 819,
+            "end": 828,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 830,
+            "end": 941,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 841,
+              "end": 941,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 845,
+                  "end": 939,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 845,
+                    "end": 938,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 845,
+                      "end": 859,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 845,
+                        "end": 851,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 852,
+                        "end": 859,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 860,
+                        "end": 861,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 863,
+                        "end": 937,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 869,
+                            "end": 933,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true,
+                            "key": {
+                              "type": "MemberExpression",
+                              "start": 870,
+                              "end": 888,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 870,
+                                "end": 876,
+                                "name": "Symbol"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 877,
+                                "end": 888,
+                                "name": "toPrimitive"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 891,
+                              "end": 933,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 902,
+                                "end": 933,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 910,
+                                    "end": 927,
+                                    "argument": {
+                                      "type": "Identifier",
+                                      "start": 917,
+                                      "end": 926,
+                                      "name": "undefined"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 943,
+            "end": 994,
+            "value": "ToBigInt: @@toPrimitive => undefined => TypeError",
+            "raw": "\"ToBigInt: @@toPrimitive => undefined => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 997,
+      "end": 1169,
+      "expression": {
+        "type": "CallExpression",
+        "start": 997,
+        "end": 1168,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 997,
+          "end": 1010,
+          "object": {
+            "type": "Identifier",
+            "start": 997,
+            "end": 1003,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1004,
+            "end": 1010,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1011,
+            "end": 1020,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1022,
+            "end": 1120,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1033,
+              "end": 1120,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1037,
+                  "end": 1118,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1037,
+                    "end": 1117,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1037,
+                      "end": 1051,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1037,
+                        "end": 1043,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1044,
+                        "end": 1051,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1052,
+                        "end": 1053,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 1055,
+                        "end": 1116,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 1061,
+                            "end": 1112,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1061,
+                              "end": 1068,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 1070,
+                              "end": 1112,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 1081,
+                                "end": 1112,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 1089,
+                                    "end": 1106,
+                                    "argument": {
+                                      "type": "Identifier",
+                                      "start": 1096,
+                                      "end": 1105,
+                                      "name": "undefined"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1122,
+            "end": 1167,
+            "value": "ToBigInt: valueOf => undefined => TypeError",
+            "raw": "\"ToBigInt: valueOf => undefined => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1170,
+      "end": 1344,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1170,
+        "end": 1343,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1170,
+          "end": 1183,
+          "object": {
+            "type": "Identifier",
+            "start": 1170,
+            "end": 1176,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1177,
+            "end": 1183,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1184,
+            "end": 1193,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1195,
+            "end": 1294,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1206,
+              "end": 1294,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1210,
+                  "end": 1292,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1210,
+                    "end": 1291,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1210,
+                      "end": 1224,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1210,
+                        "end": 1216,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1217,
+                        "end": 1224,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1225,
+                        "end": 1226,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 1228,
+                        "end": 1290,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 1234,
+                            "end": 1286,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1234,
+                              "end": 1242,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 1244,
+                              "end": 1286,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 1255,
+                                "end": 1286,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 1263,
+                                    "end": 1280,
+                                    "argument": {
+                                      "type": "Identifier",
+                                      "start": 1270,
+                                      "end": 1279,
+                                      "name": "undefined"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1296,
+            "end": 1342,
+            "value": "ToBigInt: toString => undefined => TypeError",
+            "raw": "\"ToBigInt: toString => undefined => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1345,
+      "end": 1444,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1345,
+        "end": 1443,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1345,
+          "end": 1358,
+          "object": {
+            "type": "Identifier",
+            "start": 1345,
+            "end": 1351,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1352,
+            "end": 1358,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1359,
+            "end": 1368,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1370,
+            "end": 1411,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1381,
+              "end": 1411,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1385,
+                  "end": 1409,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1385,
+                    "end": 1408,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1385,
+                      "end": 1399,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1385,
+                        "end": 1391,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1392,
+                        "end": 1399,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1400,
+                        "end": 1401,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1403,
+                        "end": 1407,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1413,
+            "end": 1442,
+            "value": "ToBigInt: null => TypeError",
+            "raw": "\"ToBigInt: null => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1445,
+      "end": 1626,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1445,
+        "end": 1625,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1445,
+          "end": 1458,
+          "object": {
+            "type": "Identifier",
+            "start": 1445,
+            "end": 1451,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1452,
+            "end": 1458,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1459,
+            "end": 1468,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1470,
+            "end": 1576,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1481,
+              "end": 1576,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1485,
+                  "end": 1574,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1485,
+                    "end": 1573,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1485,
+                      "end": 1499,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1485,
+                        "end": 1491,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1492,
+                        "end": 1499,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1500,
+                        "end": 1501,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 1503,
+                        "end": 1572,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 1509,
+                            "end": 1568,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true,
+                            "key": {
+                              "type": "MemberExpression",
+                              "start": 1510,
+                              "end": 1528,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1510,
+                                "end": 1516,
+                                "name": "Symbol"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1517,
+                                "end": 1528,
+                                "name": "toPrimitive"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 1531,
+                              "end": 1568,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 1542,
+                                "end": 1568,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 1550,
+                                    "end": 1562,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 1557,
+                                      "end": 1561,
+                                      "value": null,
+                                      "raw": "null"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1578,
+            "end": 1624,
+            "value": "ToBigInt: @@toPrimitive => null => TypeError",
+            "raw": "\"ToBigInt: @@toPrimitive => null => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1627,
+      "end": 1789,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1627,
+        "end": 1788,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1627,
+          "end": 1640,
+          "object": {
+            "type": "Identifier",
+            "start": 1627,
+            "end": 1633,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1634,
+            "end": 1640,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1641,
+            "end": 1650,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1652,
+            "end": 1745,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1663,
+              "end": 1745,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1667,
+                  "end": 1743,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1667,
+                    "end": 1742,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1667,
+                      "end": 1681,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1667,
+                        "end": 1673,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1674,
+                        "end": 1681,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1682,
+                        "end": 1683,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 1685,
+                        "end": 1741,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 1691,
+                            "end": 1737,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1691,
+                              "end": 1698,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 1700,
+                              "end": 1737,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 1711,
+                                "end": 1737,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 1719,
+                                    "end": 1731,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 1726,
+                                      "end": 1730,
+                                      "value": null,
+                                      "raw": "null"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1747,
+            "end": 1787,
+            "value": "ToBigInt: valueOf => null => TypeError",
+            "raw": "\"ToBigInt: valueOf => null => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1790,
+      "end": 1954,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1790,
+        "end": 1953,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1790,
+          "end": 1803,
+          "object": {
+            "type": "Identifier",
+            "start": 1790,
+            "end": 1796,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1797,
+            "end": 1803,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1804,
+            "end": 1813,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1815,
+            "end": 1909,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1826,
+              "end": 1909,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1830,
+                  "end": 1907,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1830,
+                    "end": 1906,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1830,
+                      "end": 1844,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1830,
+                        "end": 1836,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1837,
+                        "end": 1844,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1845,
+                        "end": 1846,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 1848,
+                        "end": 1905,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 1854,
+                            "end": 1901,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1854,
+                              "end": 1862,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 1864,
+                              "end": 1901,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 1875,
+                                "end": 1901,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 1883,
+                                    "end": 1895,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 1890,
+                                      "end": 1894,
+                                      "value": null,
+                                      "raw": "null"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1911,
+            "end": 1952,
+            "value": "ToBigInt: toString => null => TypeError",
+            "raw": "\"ToBigInt: toString => null => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1955,
+      "end": 2053,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1955,
+        "end": 2052,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1955,
+          "end": 1968,
+          "object": {
+            "type": "Identifier",
+            "start": 1955,
+            "end": 1961,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1962,
+            "end": 1968,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1969,
+            "end": 1978,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1980,
+            "end": 2018,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1991,
+              "end": 2018,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1995,
+                  "end": 2016,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1995,
+                    "end": 2015,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1995,
+                      "end": 2009,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1995,
+                        "end": 2001,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2002,
+                        "end": 2009,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2010,
+                        "end": 2011,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 2013,
+                        "end": 2014,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2020,
+            "end": 2051,
+            "value": "ToBigInt: Number => TypeError",
+            "raw": "\"ToBigInt: Number => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2054,
+      "end": 2195,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2054,
+        "end": 2194,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2054,
+          "end": 2067,
+          "object": {
+            "type": "Identifier",
+            "start": 2054,
+            "end": 2060,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2061,
+            "end": 2067,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2068,
+            "end": 2077,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2079,
+            "end": 2125,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2090,
+              "end": 2125,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2094,
+                  "end": 2123,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2094,
+                    "end": 2122,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2094,
+                      "end": 2108,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2094,
+                        "end": 2100,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2101,
+                        "end": 2108,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2109,
+                        "end": 2110,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 2112,
+                        "end": 2121,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 2112,
+                          "end": 2118,
+                          "name": "Object"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 2119,
+                            "end": 2120,
+                            "value": 0,
+                            "raw": "0"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2127,
+            "end": 2193,
+            "value": "ToBigInt: unbox object with internal slot => Number => TypeError",
+            "raw": "\"ToBigInt: unbox object with internal slot => Number => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2196,
+      "end": 2376,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2196,
+        "end": 2375,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2196,
+          "end": 2209,
+          "object": {
+            "type": "Identifier",
+            "start": 2196,
+            "end": 2202,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2203,
+            "end": 2209,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2210,
+            "end": 2219,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2221,
+            "end": 2324,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2232,
+              "end": 2324,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2236,
+                  "end": 2322,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2236,
+                    "end": 2321,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2236,
+                      "end": 2250,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2236,
+                        "end": 2242,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2243,
+                        "end": 2250,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2251,
+                        "end": 2252,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 2254,
+                        "end": 2320,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 2260,
+                            "end": 2316,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true,
+                            "key": {
+                              "type": "MemberExpression",
+                              "start": 2261,
+                              "end": 2279,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 2261,
+                                "end": 2267,
+                                "name": "Symbol"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 2268,
+                                "end": 2279,
+                                "name": "toPrimitive"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 2282,
+                              "end": 2316,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 2293,
+                                "end": 2316,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 2301,
+                                    "end": 2310,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 2308,
+                                      "end": 2309,
+                                      "value": 0,
+                                      "raw": "0"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2326,
+            "end": 2374,
+            "value": "ToBigInt: @@toPrimitive => Number => TypeError",
+            "raw": "\"ToBigInt: @@toPrimitive => Number => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2377,
+      "end": 2538,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2377,
+        "end": 2537,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2377,
+          "end": 2390,
+          "object": {
+            "type": "Identifier",
+            "start": 2377,
+            "end": 2383,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2384,
+            "end": 2390,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2391,
+            "end": 2400,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2402,
+            "end": 2492,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2413,
+              "end": 2492,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2417,
+                  "end": 2490,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2417,
+                    "end": 2489,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2417,
+                      "end": 2431,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2417,
+                        "end": 2423,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2424,
+                        "end": 2431,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2432,
+                        "end": 2433,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 2435,
+                        "end": 2488,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 2441,
+                            "end": 2484,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 2441,
+                              "end": 2448,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 2450,
+                              "end": 2484,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 2461,
+                                "end": 2484,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 2469,
+                                    "end": 2478,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 2476,
+                                      "end": 2477,
+                                      "value": 0,
+                                      "raw": "0"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2494,
+            "end": 2536,
+            "value": "ToBigInt: valueOf => Number => TypeError",
+            "raw": "\"ToBigInt: valueOf => Number => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2539,
+      "end": 2702,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2539,
+        "end": 2701,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2539,
+          "end": 2552,
+          "object": {
+            "type": "Identifier",
+            "start": 2539,
+            "end": 2545,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2546,
+            "end": 2552,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2553,
+            "end": 2562,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2564,
+            "end": 2655,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2575,
+              "end": 2655,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2579,
+                  "end": 2653,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2579,
+                    "end": 2652,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2579,
+                      "end": 2593,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2579,
+                        "end": 2585,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2586,
+                        "end": 2593,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2594,
+                        "end": 2595,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 2597,
+                        "end": 2651,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 2603,
+                            "end": 2647,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 2603,
+                              "end": 2611,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 2613,
+                              "end": 2647,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 2624,
+                                "end": 2647,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 2632,
+                                    "end": 2641,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 2639,
+                                      "end": 2640,
+                                      "value": 0,
+                                      "raw": "0"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2657,
+            "end": 2700,
+            "value": "ToBigInt: toString => Number => TypeError",
+            "raw": "\"ToBigInt: toString => Number => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2703,
+      "end": 2803,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2703,
+        "end": 2802,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2703,
+          "end": 2716,
+          "object": {
+            "type": "Identifier",
+            "start": 2703,
+            "end": 2709,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2710,
+            "end": 2716,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2717,
+            "end": 2726,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2728,
+            "end": 2768,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2739,
+              "end": 2768,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2743,
+                  "end": 2766,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2743,
+                    "end": 2765,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2743,
+                      "end": 2757,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2743,
+                        "end": 2749,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2750,
+                        "end": 2757,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2758,
+                        "end": 2759,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 2761,
+                        "end": 2764,
+                        "name": "NaN"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2770,
+            "end": 2801,
+            "value": "ToBigInt: Number => TypeError",
+            "raw": "\"ToBigInt: Number => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2804,
+      "end": 2909,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2804,
+        "end": 2908,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2804,
+          "end": 2817,
+          "object": {
+            "type": "Identifier",
+            "start": 2804,
+            "end": 2810,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2811,
+            "end": 2817,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2818,
+            "end": 2827,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2829,
+            "end": 2874,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2840,
+              "end": 2874,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2844,
+                  "end": 2872,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2844,
+                    "end": 2871,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2844,
+                      "end": 2858,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2844,
+                        "end": 2850,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2851,
+                        "end": 2858,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2859,
+                        "end": 2860,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 2862,
+                        "end": 2870,
+                        "name": "Infinity"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2876,
+            "end": 2907,
+            "value": "ToBigInt: Number => TypeError",
+            "raw": "\"ToBigInt: Number => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2910,
+      "end": 3018,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2910,
+        "end": 3017,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2910,
+          "end": 2923,
+          "object": {
+            "type": "Identifier",
+            "start": 2910,
+            "end": 2916,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2917,
+            "end": 2923,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2924,
+            "end": 2933,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2935,
+            "end": 2983,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2946,
+              "end": 2983,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2950,
+                  "end": 2981,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2950,
+                    "end": 2980,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2950,
+                      "end": 2964,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2950,
+                        "end": 2956,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2957,
+                        "end": 2964,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2965,
+                        "end": 2966,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 2968,
+                        "end": 2979,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 2968,
+                          "end": 2974,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 2975,
+                            "end": 2978,
+                            "value": "1",
+                            "raw": "\"1\""
+                          }
+                        ],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2985,
+            "end": 3016,
+            "value": "ToBigInt: Symbol => TypeError",
+            "raw": "\"ToBigInt: Symbol => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3019,
+      "end": 3170,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3019,
+        "end": 3169,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3019,
+          "end": 3032,
+          "object": {
+            "type": "Identifier",
+            "start": 3019,
+            "end": 3025,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3026,
+            "end": 3032,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3033,
+            "end": 3042,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 3044,
+            "end": 3100,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 3055,
+              "end": 3100,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 3059,
+                  "end": 3098,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 3059,
+                    "end": 3097,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 3059,
+                      "end": 3073,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 3059,
+                        "end": 3065,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 3066,
+                        "end": 3073,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 3074,
+                        "end": 3075,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 3077,
+                        "end": 3096,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 3077,
+                          "end": 3083,
+                          "name": "Object"
+                        },
+                        "arguments": [
+                          {
+                            "type": "CallExpression",
+                            "start": 3084,
+                            "end": 3095,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 3084,
+                              "end": 3090,
+                              "name": "Symbol"
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "start": 3091,
+                                "end": 3094,
+                                "value": "1",
+                                "raw": "\"1\""
+                              }
+                            ],
+                            "optional": false
+                          }
+                        ],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3102,
+            "end": 3168,
+            "value": "ToBigInt: unbox object with internal slot => Symbol => TypeError",
+            "raw": "\"ToBigInt: unbox object with internal slot => Symbol => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3171,
+      "end": 3361,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3171,
+        "end": 3360,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3171,
+          "end": 3184,
+          "object": {
+            "type": "Identifier",
+            "start": 3171,
+            "end": 3177,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3178,
+            "end": 3184,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3185,
+            "end": 3194,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 3196,
+            "end": 3309,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 3207,
+              "end": 3309,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 3211,
+                  "end": 3307,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 3211,
+                    "end": 3306,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 3211,
+                      "end": 3225,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 3211,
+                        "end": 3217,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 3218,
+                        "end": 3225,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 3226,
+                        "end": 3227,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 3229,
+                        "end": 3305,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 3235,
+                            "end": 3301,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true,
+                            "key": {
+                              "type": "MemberExpression",
+                              "start": 3236,
+                              "end": 3254,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 3236,
+                                "end": 3242,
+                                "name": "Symbol"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 3243,
+                                "end": 3254,
+                                "name": "toPrimitive"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 3257,
+                              "end": 3301,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 3268,
+                                "end": 3301,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 3276,
+                                    "end": 3295,
+                                    "argument": {
+                                      "type": "CallExpression",
+                                      "start": 3283,
+                                      "end": 3294,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 3283,
+                                        "end": 3289,
+                                        "name": "Symbol"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Literal",
+                                          "start": 3290,
+                                          "end": 3293,
+                                          "value": "1",
+                                          "raw": "\"1\""
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3311,
+            "end": 3359,
+            "value": "ToBigInt: @@toPrimitive => Symbol => TypeError",
+            "raw": "\"ToBigInt: @@toPrimitive => Symbol => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3362,
+      "end": 3533,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3362,
+        "end": 3532,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3362,
+          "end": 3375,
+          "object": {
+            "type": "Identifier",
+            "start": 3362,
+            "end": 3368,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3369,
+            "end": 3375,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3376,
+            "end": 3385,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 3387,
+            "end": 3487,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 3398,
+              "end": 3487,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 3402,
+                  "end": 3485,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 3402,
+                    "end": 3484,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 3402,
+                      "end": 3416,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 3402,
+                        "end": 3408,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 3409,
+                        "end": 3416,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 3417,
+                        "end": 3418,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 3420,
+                        "end": 3483,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 3426,
+                            "end": 3479,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 3426,
+                              "end": 3433,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 3435,
+                              "end": 3479,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 3446,
+                                "end": 3479,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 3454,
+                                    "end": 3473,
+                                    "argument": {
+                                      "type": "CallExpression",
+                                      "start": 3461,
+                                      "end": 3472,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 3461,
+                                        "end": 3467,
+                                        "name": "Symbol"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Literal",
+                                          "start": 3468,
+                                          "end": 3471,
+                                          "value": "1",
+                                          "raw": "\"1\""
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3489,
+            "end": 3531,
+            "value": "ToBigInt: valueOf => Symbol => TypeError",
+            "raw": "\"ToBigInt: valueOf => Symbol => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3534,
+      "end": 3707,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3534,
+        "end": 3706,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3534,
+          "end": 3547,
+          "object": {
+            "type": "Identifier",
+            "start": 3534,
+            "end": 3540,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3541,
+            "end": 3547,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3548,
+            "end": 3557,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 3559,
+            "end": 3660,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 3570,
+              "end": 3660,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 3574,
+                  "end": 3658,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 3574,
+                    "end": 3657,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 3574,
+                      "end": 3588,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 3574,
+                        "end": 3580,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 3581,
+                        "end": 3588,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 3589,
+                        "end": 3590,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 3592,
+                        "end": 3656,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 3598,
+                            "end": 3652,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 3598,
+                              "end": 3606,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 3608,
+                              "end": 3652,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 3619,
+                                "end": 3652,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 3627,
+                                    "end": 3646,
+                                    "argument": {
+                                      "type": "CallExpression",
+                                      "start": 3634,
+                                      "end": 3645,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 3634,
+                                        "end": 3640,
+                                        "name": "Symbol"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Literal",
+                                          "start": 3641,
+                                          "end": 3644,
+                                          "value": "1",
+                                          "raw": "\"1\""
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3662,
+            "end": 3705,
+            "value": "ToBigInt: toString => Symbol => TypeError",
+            "raw": "\"ToBigInt: toString => Symbol => TypeError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3708,
+      "end": 3809,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3708,
+        "end": 3808,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3708,
+          "end": 3721,
+          "object": {
+            "type": "Identifier",
+            "start": 3708,
+            "end": 3714,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3715,
+            "end": 3721,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3722,
+            "end": 3733,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 3735,
+            "end": 3775,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 3746,
+              "end": 3775,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 3750,
+                  "end": 3773,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 3750,
+                    "end": 3772,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 3750,
+                      "end": 3764,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 3750,
+                        "end": 3756,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 3757,
+                        "end": 3764,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 3765,
+                        "end": 3766,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 3768,
+                        "end": 3771,
+                        "value": "a",
+                        "raw": "\"a\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3777,
+            "end": 3807,
+            "value": "ToBigInt: unparseable BigInt",
+            "raw": "\"ToBigInt: unparseable BigInt\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3810,
+      "end": 3920,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3810,
+        "end": 3919,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3810,
+          "end": 3823,
+          "object": {
+            "type": "Identifier",
+            "start": 3810,
+            "end": 3816,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3817,
+            "end": 3823,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3824,
+            "end": 3835,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 3837,
+            "end": 3879,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 3848,
+              "end": 3879,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 3852,
+                  "end": 3877,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 3852,
+                    "end": 3876,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 3852,
+                      "end": 3866,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 3852,
+                        "end": 3858,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 3859,
+                        "end": 3866,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 3867,
+                        "end": 3868,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 3870,
+                        "end": 3875,
+                        "value": "0b2",
+                        "raw": "\"0b2\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3881,
+            "end": 3918,
+            "value": "ToBigInt: unparseable BigInt binary",
+            "raw": "\"ToBigInt: unparseable BigInt binary\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3921,
+      "end": 4074,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3921,
+        "end": 4073,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3921,
+          "end": 3934,
+          "object": {
+            "type": "Identifier",
+            "start": 3921,
+            "end": 3927,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3928,
+            "end": 3934,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3935,
+            "end": 3946,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 3948,
+            "end": 3998,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 3959,
+              "end": 3998,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 3963,
+                  "end": 3996,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 3963,
+                    "end": 3995,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 3963,
+                      "end": 3977,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 3963,
+                        "end": 3969,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 3970,
+                        "end": 3977,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 3978,
+                        "end": 3979,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 3981,
+                        "end": 3994,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 3981,
+                          "end": 3987,
+                          "name": "Object"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 3988,
+                            "end": 3993,
+                            "value": "0b2",
+                            "raw": "\"0b2\""
+                          }
+                        ],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4000,
+            "end": 4072,
+            "value": "ToBigInt: unbox object with internal slot => unparseable BigInt binary",
+            "raw": "\"ToBigInt: unbox object with internal slot => unparseable BigInt binary\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4075,
+      "end": 4267,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4075,
+        "end": 4266,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4075,
+          "end": 4088,
+          "object": {
+            "type": "Identifier",
+            "start": 4075,
+            "end": 4081,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4082,
+            "end": 4088,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4089,
+            "end": 4100,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 4102,
+            "end": 4209,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 4113,
+              "end": 4209,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 4117,
+                  "end": 4207,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 4117,
+                    "end": 4206,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 4117,
+                      "end": 4131,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 4117,
+                        "end": 4123,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 4124,
+                        "end": 4131,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 4132,
+                        "end": 4133,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 4135,
+                        "end": 4205,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 4141,
+                            "end": 4201,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true,
+                            "key": {
+                              "type": "MemberExpression",
+                              "start": 4142,
+                              "end": 4160,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 4142,
+                                "end": 4148,
+                                "name": "Symbol"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 4149,
+                                "end": 4160,
+                                "name": "toPrimitive"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 4163,
+                              "end": 4201,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 4174,
+                                "end": 4201,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 4182,
+                                    "end": 4195,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 4189,
+                                      "end": 4194,
+                                      "value": "0b2",
+                                      "raw": "\"0b2\""
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4211,
+            "end": 4265,
+            "value": "ToBigInt: @@toPrimitive => unparseable BigInt binary",
+            "raw": "\"ToBigInt: @@toPrimitive => unparseable BigInt binary\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4268,
+      "end": 4441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4268,
+        "end": 4440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4268,
+          "end": 4281,
+          "object": {
+            "type": "Identifier",
+            "start": 4268,
+            "end": 4274,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4275,
+            "end": 4281,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4282,
+            "end": 4293,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 4295,
+            "end": 4389,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 4306,
+              "end": 4389,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 4310,
+                  "end": 4387,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 4310,
+                    "end": 4386,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 4310,
+                      "end": 4324,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 4310,
+                        "end": 4316,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 4317,
+                        "end": 4324,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 4325,
+                        "end": 4326,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 4328,
+                        "end": 4385,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 4334,
+                            "end": 4381,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 4334,
+                              "end": 4341,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 4343,
+                              "end": 4381,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 4354,
+                                "end": 4381,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 4362,
+                                    "end": 4375,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 4369,
+                                      "end": 4374,
+                                      "value": "0b2",
+                                      "raw": "\"0b2\""
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4391,
+            "end": 4439,
+            "value": "ToBigInt: valueOf => unparseable BigInt binary",
+            "raw": "\"ToBigInt: valueOf => unparseable BigInt binary\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4442,
+      "end": 4617,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4442,
+        "end": 4616,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4442,
+          "end": 4455,
+          "object": {
+            "type": "Identifier",
+            "start": 4442,
+            "end": 4448,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4449,
+            "end": 4455,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4456,
+            "end": 4467,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 4469,
+            "end": 4564,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 4480,
+              "end": 4564,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 4484,
+                  "end": 4562,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 4484,
+                    "end": 4561,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 4484,
+                      "end": 4498,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 4484,
+                        "end": 4490,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 4491,
+                        "end": 4498,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 4499,
+                        "end": 4500,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 4502,
+                        "end": 4560,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 4508,
+                            "end": 4556,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 4508,
+                              "end": 4516,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 4518,
+                              "end": 4556,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 4529,
+                                "end": 4556,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 4537,
+                                    "end": 4550,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 4544,
+                                      "end": 4549,
+                                      "value": "0b2",
+                                      "raw": "\"0b2\""
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4566,
+            "end": 4615,
+            "value": "ToBigInt: toString => unparseable BigInt binary",
+            "raw": "\"ToBigInt: toString => unparseable BigInt binary\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4618,
+      "end": 4760,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4618,
+        "end": 4759,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4618,
+          "end": 4631,
+          "object": {
+            "type": "Identifier",
+            "start": 4618,
+            "end": 4624,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4625,
+            "end": 4631,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4632,
+            "end": 4643,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 4645,
+            "end": 4693,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 4656,
+              "end": 4693,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 4660,
+                  "end": 4691,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 4660,
+                    "end": 4690,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 4660,
+                      "end": 4674,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 4660,
+                        "end": 4666,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 4667,
+                        "end": 4674,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 4675,
+                        "end": 4676,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 4678,
+                        "end": 4689,
+                        "value": "   0b2   ",
+                        "raw": "\"   0b2   \""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4695,
+            "end": 4758,
+            "value": "ToBigInt: unparseable BigInt with leading/trailing whitespace",
+            "raw": "\"ToBigInt: unparseable BigInt with leading/trailing whitespace\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4761,
+      "end": 4870,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4761,
+        "end": 4869,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4761,
+          "end": 4774,
+          "object": {
+            "type": "Identifier",
+            "start": 4761,
+            "end": 4767,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4768,
+            "end": 4774,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4775,
+            "end": 4786,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 4788,
+            "end": 4830,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 4799,
+              "end": 4830,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 4803,
+                  "end": 4828,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 4803,
+                    "end": 4827,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 4803,
+                      "end": 4817,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 4803,
+                        "end": 4809,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 4810,
+                        "end": 4817,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 4818,
+                        "end": 4819,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 4821,
+                        "end": 4826,
+                        "value": "0o8",
+                        "raw": "\"0o8\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4832,
+            "end": 4868,
+            "value": "ToBigInt: unparseable BigInt octal",
+            "raw": "\"ToBigInt: unparseable BigInt octal\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4871,
+      "end": 4978,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4871,
+        "end": 4977,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4871,
+          "end": 4884,
+          "object": {
+            "type": "Identifier",
+            "start": 4871,
+            "end": 4877,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4878,
+            "end": 4884,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4885,
+            "end": 4896,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 4898,
+            "end": 4940,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 4909,
+              "end": 4940,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 4913,
+                  "end": 4938,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 4913,
+                    "end": 4937,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 4913,
+                      "end": 4927,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 4913,
+                        "end": 4919,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 4920,
+                        "end": 4927,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 4928,
+                        "end": 4929,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 4931,
+                        "end": 4936,
+                        "value": "0xg",
+                        "raw": "\"0xg\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4942,
+            "end": 4976,
+            "value": "ToBigInt: unparseable BigInt hex",
+            "raw": "\"ToBigInt: unparseable BigInt hex\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4979,
+      "end": 5103,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4979,
+        "end": 5102,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4979,
+          "end": 4992,
+          "object": {
+            "type": "Identifier",
+            "start": 4979,
+            "end": 4985,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4986,
+            "end": 4992,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4993,
+            "end": 5004,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 5006,
+            "end": 5047,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 5017,
+              "end": 5047,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 5021,
+                  "end": 5045,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 5021,
+                    "end": 5044,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 5021,
+                      "end": 5035,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 5021,
+                        "end": 5027,
+                        "name": "BigInt"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 5028,
+                        "end": 5035,
+                        "name": "asUintN"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 5036,
+                        "end": 5037,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 5039,
+                        "end": 5043,
+                        "value": "1n",
+                        "raw": "\"1n\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 5049,
+            "end": 5101,
+            "value": "ToBigInt: unparseable BigInt due to literal suffix",
+            "raw": "\"ToBigInt: unparseable BigInt due to literal suffix\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,199 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 750,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 357,
+      "end": 526,
+      "expression": {
+        "type": "CallExpression",
+        "start": 357,
+        "end": 525,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 357,
+          "end": 373,
+          "object": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 363,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 373,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 377,
+            "end": 424,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 384,
+              "end": 424,
+              "object": {
+                "type": "MemberExpression",
+                "start": 384,
+                "end": 417,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 384,
+                  "end": 398,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 384,
+                    "end": 388,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 389,
+                    "end": 398,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 399,
+                  "end": 417,
+                  "name": "toLocaleTimeString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 418,
+                "end": 424,
+                "name": "length"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 432,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 436,
+            "end": 523,
+            "value": "The value of `delete Date.prototype.toLocaleTimeString.length` is expected to be true",
+            "raw": "'The value of `delete Date.prototype.toLocaleTimeString.length` is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 528,
+      "end": 703,
+      "expression": {
+        "type": "CallExpression",
+        "start": 528,
+        "end": 702,
+        "callee": {
+          "type": "Identifier",
+          "start": 528,
+          "end": 534,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 538,
+            "end": 597,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 539,
+              "end": 597,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 539,
+                "end": 587,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 539,
+                  "end": 572,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 539,
+                    "end": 553,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 539,
+                      "end": 543,
+                      "name": "Date"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 544,
+                      "end": 553,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 554,
+                    "end": 572,
+                    "name": "toLocaleTimeString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 573,
+                  "end": 587,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 588,
+                  "end": 596,
+                  "value": "length",
+                  "raw": "'length'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 601,
+            "end": 700,
+            "value": "The value of !Date.prototype.toLocaleTimeString.hasOwnProperty('length') is expected to be true",
+            "raw": "'The value of !Date.prototype.toLocaleTimeString.hasOwnProperty(\\'length\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

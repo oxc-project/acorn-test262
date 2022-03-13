@@ -1,0 +1,114 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 550,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 409,
+      "end": 549,
+      "expression": {
+        "type": "CallExpression",
+        "start": 409,
+        "end": 548,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 409,
+          "end": 425,
+          "object": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 415,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 416,
+            "end": 425,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 429,
+            "end": 472,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 429,
+              "end": 458,
+              "object": {
+                "type": "MemberExpression",
+                "start": 429,
+                "end": 444,
+                "object": {
+                  "type": "Identifier",
+                  "start": 429,
+                  "end": 434,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 435,
+                  "end": 444,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 445,
+                "end": 458,
+                "name": "isPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 459,
+                "end": 471,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 463,
+                  "end": 468,
+                  "name": "Array"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 469,
+                    "end": 470,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 476,
+            "end": 480,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 484,
+            "end": 546,
+            "value": "Array.prototype.isPrototypeOf(new Array(0)) must return true",
+            "raw": "'Array.prototype.isPrototypeOf(new Array(0)) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

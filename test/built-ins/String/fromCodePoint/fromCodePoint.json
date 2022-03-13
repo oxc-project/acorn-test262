@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 512,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 380,
+      "end": 425,
+      "expression": {
+        "type": "CallExpression",
+        "start": 380,
+        "end": 424,
+        "callee": {
+          "type": "Identifier",
+          "start": 380,
+          "end": 399,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 400,
+            "end": 406,
+            "name": "String"
+          },
+          {
+            "type": "Literal",
+            "start": 408,
+            "end": 423,
+            "value": "fromCodePoint",
+            "raw": "'fromCodePoint'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 426,
+      "end": 466,
+      "expression": {
+        "type": "CallExpression",
+        "start": 426,
+        "end": 465,
+        "callee": {
+          "type": "Identifier",
+          "start": 426,
+          "end": 440,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 441,
+            "end": 447,
+            "name": "String"
+          },
+          {
+            "type": "Literal",
+            "start": 449,
+            "end": 464,
+            "value": "fromCodePoint",
+            "raw": "'fromCodePoint'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 467,
+      "end": 511,
+      "expression": {
+        "type": "CallExpression",
+        "start": 467,
+        "end": 510,
+        "callee": {
+          "type": "Identifier",
+          "start": 467,
+          "end": 485,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 486,
+            "end": 492,
+            "name": "String"
+          },
+          {
+            "type": "Literal",
+            "start": 494,
+            "end": 509,
+            "value": "fromCodePoint",
+            "raw": "'fromCodePoint'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

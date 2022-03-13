@@ -1,0 +1,98 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 430,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 277,
+      "end": 429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 277,
+        "end": 428,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 277,
+          "end": 293,
+          "object": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 283,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 293,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 297,
+            "end": 329,
+            "object": {
+              "type": "MemberExpression",
+              "start": 297,
+              "end": 319,
+              "object": {
+                "type": "MemberExpression",
+                "start": 297,
+                "end": 313,
+                "object": {
+                  "type": "Identifier",
+                  "start": 297,
+                  "end": 303,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 304,
+                  "end": 313,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 314,
+                "end": 319,
+                "name": "split"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 320,
+              "end": 329,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 333,
+            "end": 342,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 346,
+            "end": 426,
+            "value": "The value of String.prototype.split.prototype is expected to equal `undefined`",
+            "raw": "'The value of String.prototype.split.prototype is expected to equal `undefined`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

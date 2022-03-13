@@ -1,0 +1,259 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 554,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 343,
+      "end": 368,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 347,
+          "end": 367,
+          "id": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 355,
+            "name": "arrayObj"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 358,
+            "end": 367,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 359,
+                "end": 360,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 362,
+                "end": 363,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 365,
+                "end": 366,
+                "value": 3,
+                "raw": "3"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 370,
+      "end": 430,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 370,
+        "end": 429,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 370,
+          "end": 382,
+          "object": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 378,
+            "name": "arrayObj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 382,
+            "name": "get"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 385,
+          "end": 429,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 396,
+            "end": 429,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 400,
+                "end": 427,
+                "argument": {
+                  "type": "Literal",
+                  "start": 407,
+                  "end": 426,
+                  "value": "VerifyArrayObject",
+                  "raw": "\"VerifyArrayObject\""
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 432,
+      "end": 485,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 436,
+          "end": 484,
+          "id": {
+            "type": "Identifier",
+            "start": 436,
+            "end": 442,
+            "name": "newObj"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 445,
+            "end": 484,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 445,
+              "end": 458,
+              "object": {
+                "type": "Identifier",
+                "start": 445,
+                "end": 451,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 452,
+                "end": 458,
+                "name": "create"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 459,
+                "end": 461,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 463,
+                "end": 483,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 467,
+                    "end": 481,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 467,
+                      "end": 471,
+                      "name": "prop"
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 473,
+                      "end": 481,
+                      "name": "arrayObj"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 487,
+      "end": 553,
+      "expression": {
+        "type": "CallExpression",
+        "start": 487,
+        "end": 552,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 487,
+          "end": 503,
+          "object": {
+            "type": "Identifier",
+            "start": 487,
+            "end": 493,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 494,
+            "end": 503,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 504,
+            "end": 515,
+            "object": {
+              "type": "Identifier",
+              "start": 504,
+              "end": 510,
+              "name": "newObj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 511,
+              "end": 515,
+              "name": "prop"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 517,
+            "end": 536,
+            "value": "VerifyArrayObject",
+            "raw": "\"VerifyArrayObject\""
+          },
+          {
+            "type": "Literal",
+            "start": 538,
+            "end": 551,
+            "value": "newObj.prop",
+            "raw": "'newObj.prop'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

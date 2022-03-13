@@ -1,0 +1,446 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 835,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 427,
+      "end": 458,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 431,
+          "end": 457,
+          "id": {
+            "type": "Identifier",
+            "start": 431,
+            "end": 440,
+            "name": "IsHTMLDDA"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 443,
+            "end": 457,
+            "object": {
+              "type": "Identifier",
+              "start": 443,
+              "end": 447,
+              "name": "$262"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 448,
+              "end": 457,
+              "name": "IsHTMLDDA"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 460,
+      "end": 547,
+      "expression": {
+        "type": "CallExpression",
+        "start": 460,
+        "end": 546,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 460,
+          "end": 476,
+          "object": {
+            "type": "Identifier",
+            "start": 460,
+            "end": 466,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 467,
+            "end": 476,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 477,
+            "end": 508,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 477,
+              "end": 486,
+              "object": {
+                "type": "Identifier",
+                "start": 477,
+                "end": 483,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 484,
+                "end": 486,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 487,
+                "end": 496,
+                "name": "IsHTMLDDA"
+              },
+              {
+                "type": "Identifier",
+                "start": 498,
+                "end": 507,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 510,
+            "end": 515,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 517,
+            "end": 545,
+            "value": "SameValue with `undefined`",
+            "raw": "\"SameValue with `undefined`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 548,
+      "end": 635,
+      "expression": {
+        "type": "CallExpression",
+        "start": 548,
+        "end": 634,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 548,
+          "end": 564,
+          "object": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 554,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 555,
+            "end": 564,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 565,
+            "end": 596,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 565,
+              "end": 574,
+              "object": {
+                "type": "Identifier",
+                "start": 565,
+                "end": 571,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 572,
+                "end": 574,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 575,
+                "end": 584,
+                "name": "undefined"
+              },
+              {
+                "type": "Identifier",
+                "start": 586,
+                "end": 595,
+                "name": "IsHTMLDDA"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 598,
+            "end": 603,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 605,
+            "end": 633,
+            "value": "SameValue with `undefined`",
+            "raw": "\"SameValue with `undefined`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 637,
+      "end": 714,
+      "expression": {
+        "type": "CallExpression",
+        "start": 637,
+        "end": 713,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 637,
+          "end": 653,
+          "object": {
+            "type": "Identifier",
+            "start": 637,
+            "end": 643,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 644,
+            "end": 653,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 654,
+            "end": 680,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 654,
+              "end": 663,
+              "object": {
+                "type": "Identifier",
+                "start": 654,
+                "end": 660,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 661,
+                "end": 663,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 664,
+                "end": 673,
+                "name": "IsHTMLDDA"
+              },
+              {
+                "type": "Literal",
+                "start": 675,
+                "end": 679,
+                "value": null,
+                "raw": "null"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 682,
+            "end": 687,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 689,
+            "end": 712,
+            "value": "SameValue with `null`",
+            "raw": "\"SameValue with `null`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 715,
+      "end": 792,
+      "expression": {
+        "type": "CallExpression",
+        "start": 715,
+        "end": 791,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 715,
+          "end": 731,
+          "object": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 721,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 731,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 732,
+            "end": 758,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 732,
+              "end": 741,
+              "object": {
+                "type": "Identifier",
+                "start": 732,
+                "end": 738,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 739,
+                "end": 741,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 742,
+                "end": 746,
+                "value": null,
+                "raw": "null"
+              },
+              {
+                "type": "Identifier",
+                "start": 748,
+                "end": 757,
+                "name": "IsHTMLDDA"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 760,
+            "end": 765,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 767,
+            "end": 790,
+            "value": "SameValue with `null`",
+            "raw": "\"SameValue with `null`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 794,
+      "end": 834,
+      "expression": {
+        "type": "CallExpression",
+        "start": 794,
+        "end": 833,
+        "callee": {
+          "type": "Identifier",
+          "start": 794,
+          "end": 800,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 801,
+            "end": 832,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 801,
+              "end": 810,
+              "object": {
+                "type": "Identifier",
+                "start": 801,
+                "end": 807,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 808,
+                "end": 810,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 811,
+                "end": 820,
+                "name": "IsHTMLDDA"
+              },
+              {
+                "type": "Identifier",
+                "start": 822,
+                "end": 831,
+                "name": "IsHTMLDDA"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

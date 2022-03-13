@@ -1,0 +1,53 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 924,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 667,
+      "end": 923,
+      "expression": {
+        "type": "CallExpression",
+        "start": 667,
+        "end": 922,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 667,
+          "end": 675,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 668,
+            "end": 674,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 668,
+                "end": 669,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 670,
+                "end": 674,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 679,
+            "end": 920,
+            "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });{ function f() {  } }",
+            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });{ function f() {  } }'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

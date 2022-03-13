@@ -1,0 +1,472 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1206,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 441,
+      "end": 462,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 445,
+          "end": 461,
+          "id": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 450,
+            "name": "__obj"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 453,
+            "end": 461,
+            "callee": {
+              "type": "Identifier",
+              "start": 453,
+              "end": 459,
+              "name": "Object"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 464,
+      "end": 490,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 468,
+          "end": 489,
+          "id": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 474,
+            "name": "n__obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 477,
+            "end": 489,
+            "callee": {
+              "type": "Identifier",
+              "start": 481,
+              "end": 487,
+              "name": "Object"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 492,
+      "end": 631,
+      "expression": {
+        "type": "CallExpression",
+        "start": 492,
+        "end": 630,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 492,
+          "end": 508,
+          "object": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 498,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 499,
+            "end": 508,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 512,
+            "end": 528,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 512,
+              "end": 526,
+              "object": {
+                "type": "Identifier",
+                "start": 512,
+                "end": 517,
+                "name": "__obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 518,
+                "end": 526,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 532,
+            "end": 549,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 532,
+              "end": 547,
+              "object": {
+                "type": "Identifier",
+                "start": 532,
+                "end": 538,
+                "name": "n__obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 539,
+                "end": 547,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 628,
+            "value": "__obj.toString() must return the same value returned by n__obj.toString()",
+            "raw": "'__obj.toString() must return the same value returned by n__obj.toString()'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 633,
+      "end": 784,
+      "expression": {
+        "type": "CallExpression",
+        "start": 633,
+        "end": 783,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 633,
+          "end": 649,
+          "object": {
+            "type": "Identifier",
+            "start": 633,
+            "end": 639,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 640,
+            "end": 649,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 653,
+            "end": 670,
+            "object": {
+              "type": "Identifier",
+              "start": 653,
+              "end": 658,
+              "name": "__obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 659,
+              "end": 670,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 674,
+            "end": 692,
+            "object": {
+              "type": "Identifier",
+              "start": 674,
+              "end": 680,
+              "name": "n__obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 681,
+              "end": 692,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 696,
+            "end": 781,
+            "value": "The value of __obj.constructor is expected to equal the value of n__obj.constructor",
+            "raw": "'The value of __obj.constructor is expected to equal the value of n__obj.constructor'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 786,
+      "end": 929,
+      "expression": {
+        "type": "CallExpression",
+        "start": 786,
+        "end": 928,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 786,
+          "end": 802,
+          "object": {
+            "type": "Identifier",
+            "start": 786,
+            "end": 792,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 793,
+            "end": 802,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 806,
+            "end": 821,
+            "object": {
+              "type": "Identifier",
+              "start": 806,
+              "end": 811,
+              "name": "__obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 812,
+              "end": 821,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 825,
+            "end": 841,
+            "object": {
+              "type": "Identifier",
+              "start": 825,
+              "end": 831,
+              "name": "n__obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 832,
+              "end": 841,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 845,
+            "end": 926,
+            "value": "The value of __obj.prototype is expected to equal the value of n__obj.prototype",
+            "raw": "'The value of __obj.prototype is expected to equal the value of n__obj.prototype'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 931,
+      "end": 1094,
+      "expression": {
+        "type": "CallExpression",
+        "start": 931,
+        "end": 1093,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 931,
+          "end": 947,
+          "object": {
+            "type": "Identifier",
+            "start": 931,
+            "end": 937,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 938,
+            "end": 947,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 951,
+            "end": 973,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 951,
+              "end": 971,
+              "object": {
+                "type": "Identifier",
+                "start": 951,
+                "end": 956,
+                "name": "__obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 957,
+                "end": 971,
+                "name": "toLocaleString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 977,
+            "end": 1000,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 977,
+              "end": 998,
+              "object": {
+                "type": "Identifier",
+                "start": 977,
+                "end": 983,
+                "name": "n__obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 984,
+                "end": 998,
+                "name": "toLocaleString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1004,
+            "end": 1091,
+            "value": "__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()",
+            "raw": "'__obj.toLocaleString() must return the same value returned by n__obj.toLocaleString()'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1096,
+      "end": 1205,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1096,
+        "end": 1204,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1096,
+          "end": 1112,
+          "object": {
+            "type": "Identifier",
+            "start": 1096,
+            "end": 1102,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1103,
+            "end": 1112,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1113,
+            "end": 1125,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1120,
+              "end": 1125,
+              "name": "__obj"
+            }
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 1127,
+            "end": 1140,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1134,
+              "end": 1140,
+              "name": "n__obj"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1142,
+            "end": 1203,
+            "value": "The value of `typeof __obj` is expected to be typeof n__obj",
+            "raw": "'The value of `typeof __obj` is expected to be typeof n__obj'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

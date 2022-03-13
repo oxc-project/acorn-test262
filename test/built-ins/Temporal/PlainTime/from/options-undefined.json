@@ -1,0 +1,344 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 560,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 262,
+      "end": 302,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 268,
+          "end": 301,
+          "id": {
+            "type": "Identifier",
+            "start": 268,
+            "end": 274,
+            "name": "fields"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 277,
+            "end": 301,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 279,
+                "end": 287,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 279,
+                  "end": 283,
+                  "name": "hour"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 285,
+                  "end": 287,
+                  "value": 12,
+                  "raw": "12"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 289,
+                "end": 299,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 289,
+                  "end": 295,
+                  "name": "minute"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 297,
+                  "end": 299,
+                  "value": 60,
+                  "raw": "60"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 304,
+      "end": 364,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 310,
+          "end": 363,
+          "id": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 318,
+            "name": "explicit"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 321,
+            "end": 363,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 321,
+              "end": 344,
+              "object": {
+                "type": "MemberExpression",
+                "start": 321,
+                "end": 339,
+                "object": {
+                  "type": "Identifier",
+                  "start": 321,
+                  "end": 329,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 330,
+                  "end": 339,
+                  "name": "PlainTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 340,
+                "end": 344,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 345,
+                "end": 351,
+                "name": "fields"
+              },
+              {
+                "type": "Identifier",
+                "start": 353,
+                "end": 362,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 365,
+      "end": 436,
+      "expression": {
+        "type": "CallExpression",
+        "start": 365,
+        "end": 435,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 365,
+          "end": 381,
+          "object": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 371,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 381,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 382,
+            "end": 397,
+            "object": {
+              "type": "Identifier",
+              "start": 382,
+              "end": 390,
+              "name": "explicit"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 391,
+              "end": 397,
+              "name": "minute"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 399,
+            "end": 401,
+            "value": 59,
+            "raw": "59"
+          },
+          {
+            "type": "Literal",
+            "start": 403,
+            "end": 434,
+            "value": "default overflow is constrain",
+            "raw": "\"default overflow is constrain\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 438,
+      "end": 487,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 444,
+          "end": 486,
+          "id": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 452,
+            "name": "implicit"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 455,
+            "end": 486,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 455,
+              "end": 478,
+              "object": {
+                "type": "MemberExpression",
+                "start": 455,
+                "end": 473,
+                "object": {
+                  "type": "Identifier",
+                  "start": 455,
+                  "end": 463,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 464,
+                  "end": 473,
+                  "name": "PlainTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 474,
+                "end": 478,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 479,
+                "end": 485,
+                "name": "fields"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 488,
+      "end": 559,
+      "expression": {
+        "type": "CallExpression",
+        "start": 488,
+        "end": 558,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 488,
+          "end": 504,
+          "object": {
+            "type": "Identifier",
+            "start": 488,
+            "end": 494,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 495,
+            "end": 504,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 505,
+            "end": 520,
+            "object": {
+              "type": "Identifier",
+              "start": 505,
+              "end": 513,
+              "name": "implicit"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 514,
+              "end": 520,
+              "name": "minute"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 522,
+            "end": 524,
+            "value": 59,
+            "raw": "59"
+          },
+          {
+            "type": "Literal",
+            "start": 526,
+            "end": 557,
+            "value": "default overflow is constrain",
+            "raw": "\"default overflow is constrain\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

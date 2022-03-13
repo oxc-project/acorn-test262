@@ -1,0 +1,226 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 471,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 291,
+      "end": 313,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 295,
+          "end": 312,
+          "id": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 308,
+            "name": "exprCallCount"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 311,
+            "end": 312,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 314,
+      "end": 333,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 318,
+          "end": 332,
+          "id": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 327,
+            "name": "evalValue"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 330,
+            "end": 332,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 335,
+      "end": 416,
+      "id": {
+        "type": "Identifier",
+        "start": 344,
+        "end": 347,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 348,
+          "end": 352,
+          "name": "eval"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 354,
+        "end": 416,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 358,
+            "end": 392,
+            "expression": {
+              "type": "CallExpression",
+              "start": 358,
+              "end": 391,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 358,
+                "end": 374,
+                "object": {
+                  "type": "Identifier",
+                  "start": 358,
+                  "end": 364,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 365,
+                  "end": 374,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 375,
+                  "end": 379,
+                  "name": "eval"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 381,
+                  "end": 390,
+                  "name": "evalValue"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 395,
+            "end": 414,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 395,
+              "end": 413,
+              "operator": "+=",
+              "left": {
+                "type": "Identifier",
+                "start": 395,
+                "end": 408,
+                "name": "exprCallCount"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 412,
+                "end": 413,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 418,
+      "end": 433,
+      "expression": {
+        "type": "CallExpression",
+        "start": 418,
+        "end": 432,
+        "callee": {
+          "type": "Identifier",
+          "start": 418,
+          "end": 421,
+          "name": "foo"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 422,
+            "end": 431,
+            "name": "evalValue"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 435,
+      "end": 470,
+      "expression": {
+        "type": "CallExpression",
+        "start": 435,
+        "end": 469,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 435,
+          "end": 451,
+          "object": {
+            "type": "Identifier",
+            "start": 435,
+            "end": 441,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 451,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 452,
+            "end": 465,
+            "name": "exprCallCount"
+          },
+          {
+            "type": "Literal",
+            "start": 467,
+            "end": 468,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,325 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 956,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 590,
+      "end": 610,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 594,
+          "end": 609,
+          "id": {
+            "type": "Identifier",
+            "start": 594,
+            "end": 595,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 598,
+            "end": 609,
+            "callee": {
+              "type": "Identifier",
+              "start": 598,
+              "end": 604,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 605,
+                "end": 608,
+                "value": "1",
+                "raw": "'1'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 612,
+      "end": 955,
+      "expression": {
+        "type": "CallExpression",
+        "start": 612,
+        "end": 954,
+        "callee": {
+          "type": "Identifier",
+          "start": 612,
+          "end": 648,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 649,
+            "end": 953,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 658,
+                "end": 660,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 662,
+              "end": 953,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 666,
+                  "end": 689,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 670,
+                      "end": 688,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 670,
+                        "end": 676,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 679,
+                        "end": 688,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 683,
+                          "end": 685,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 686,
+                            "end": 687,
+                            "value": 2,
+                            "raw": "2"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 692,
+                  "end": 721,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 692,
+                    "end": 720,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 692,
+                      "end": 705,
+                      "name": "$DETACHBUFFER"
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 706,
+                        "end": 719,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 706,
+                          "end": 712,
+                          "name": "sample"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 713,
+                          "end": 719,
+                          "name": "buffer"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 725,
+                  "end": 869,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 725,
+                    "end": 868,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 725,
+                      "end": 741,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 725,
+                        "end": 731,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 732,
+                        "end": 741,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 747,
+                        "end": 780,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 747,
+                          "end": 758,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 747,
+                            "end": 754,
+                            "name": "Reflect"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 755,
+                            "end": 758,
+                            "name": "set"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 759,
+                            "end": 765,
+                            "name": "sample"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 767,
+                            "end": 768,
+                            "name": "s"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 770,
+                            "end": 779,
+                            "value": "test262",
+                            "raw": "'test262'"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 786,
+                        "end": 790,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 796,
+                        "end": 864,
+                        "value": "Reflect.set(sample, \"Symbol(\\\"1\\\")\", \"test262\") must return true",
+                        "raw": "'Reflect.set(sample, \"Symbol(\\\\\"1\\\\\")\", \"test262\") must return true'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 873,
+                  "end": 951,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 873,
+                    "end": 950,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 873,
+                      "end": 889,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 873,
+                        "end": 879,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 880,
+                        "end": 889,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 890,
+                        "end": 899,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 890,
+                          "end": 896,
+                          "name": "sample"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 897,
+                          "end": 898,
+                          "name": "s"
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 901,
+                        "end": 910,
+                        "value": "test262",
+                        "raw": "'test262'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 912,
+                        "end": 949,
+                        "value": "The value of sample[s] is \"test262\"",
+                        "raw": "'The value of sample[s] is \"test262\"'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

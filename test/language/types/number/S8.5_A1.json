@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 447,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 212,
+      "end": 231,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 216,
+          "end": 230,
+          "id": {
+            "type": "Identifier",
+            "start": 216,
+            "end": 217,
+            "name": "x"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 220,
+            "end": 230,
+            "object": {
+              "type": "Identifier",
+              "start": 220,
+              "end": 226,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 227,
+              "end": 230,
+              "name": "NaN"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 232,
+      "end": 252,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 236,
+          "end": 251,
+          "id": {
+            "type": "Identifier",
+            "start": 236,
+            "end": 238,
+            "name": "x_"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 241,
+            "end": 251,
+            "object": {
+              "type": "Identifier",
+              "start": 241,
+              "end": 247,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 248,
+              "end": 251,
+              "name": "NaN"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 322,
+      "end": 384,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 326,
+        "end": 334,
+        "left": {
+          "type": "Identifier",
+          "start": 326,
+          "end": 327,
+          "name": "x"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Identifier",
+          "start": 332,
+          "end": 334,
+          "name": "x_"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 335,
+        "end": 384,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 339,
+            "end": 382,
+            "argument": {
+              "type": "NewExpression",
+              "start": 345,
+              "end": 381,
+              "callee": {
+                "type": "Identifier",
+                "start": 349,
+                "end": 361,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 362,
+                  "end": 380,
+                  "value": "#1: NaN !== NaN ",
+                  "raw": "'#1: NaN !== NaN '"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,2101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2507,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 196,
+      "end": 337,
+      "expression": {
+        "type": "CallExpression",
+        "start": 196,
+        "end": 336,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 196,
+          "end": 212,
+          "object": {
+            "type": "Identifier",
+            "start": 196,
+            "end": 202,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 203,
+            "end": 212,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 213,
+            "end": 248,
+            "left": {
+              "type": "Literal",
+              "start": 213,
+              "end": 214,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 217,
+              "end": 248,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 217,
+                "end": 227,
+                "object": {
+                  "type": "Identifier",
+                  "start": 217,
+                  "end": 221,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 222,
+                  "end": 227,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 228,
+                  "end": 247,
+                  "value": 0.02047410048544407,
+                  "raw": "0.02047410048544407"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 250,
+            "end": 274,
+            "object": {
+              "type": "Identifier",
+              "start": 250,
+              "end": 256,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 257,
+              "end": 274,
+              "name": "POSITIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 278,
+            "end": 335,
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 338,
+      "end": 479,
+      "expression": {
+        "type": "CallExpression",
+        "start": 338,
+        "end": 478,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 338,
+          "end": 354,
+          "object": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 344,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 345,
+            "end": 354,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 355,
+            "end": 390,
+            "left": {
+              "type": "Literal",
+              "start": 355,
+              "end": 356,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 359,
+              "end": 390,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 359,
+                "end": 369,
+                "object": {
+                  "type": "Identifier",
+                  "start": 359,
+                  "end": 363,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 364,
+                  "end": 369,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 370,
+                  "end": 389,
+                  "value": 1e-17,
+                  "raw": "0.00000000000000001"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 392,
+            "end": 416,
+            "object": {
+              "type": "Identifier",
+              "start": 392,
+              "end": 398,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 399,
+              "end": 416,
+              "name": "POSITIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 420,
+            "end": 477,
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 480,
+      "end": 620,
+      "expression": {
+        "type": "CallExpression",
+        "start": 480,
+        "end": 619,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 480,
+          "end": 496,
+          "object": {
+            "type": "Identifier",
+            "start": 480,
+            "end": 486,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 487,
+            "end": 496,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 497,
+            "end": 531,
+            "left": {
+              "type": "Literal",
+              "start": 497,
+              "end": 498,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 501,
+              "end": 531,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 501,
+                "end": 511,
+                "object": {
+                  "type": "Identifier",
+                  "start": 501,
+                  "end": 505,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 506,
+                  "end": 511,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 512,
+                  "end": 530,
+                  "value": 0.9999999999999999,
+                  "raw": "0.9999999999999999"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 533,
+            "end": 557,
+            "object": {
+              "type": "Identifier",
+              "start": 533,
+              "end": 539,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 540,
+              "end": 557,
+              "name": "POSITIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 561,
+            "end": 618,
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 621,
+      "end": 757,
+      "expression": {
+        "type": "CallExpression",
+        "start": 621,
+        "end": 756,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 621,
+          "end": 637,
+          "object": {
+            "type": "Identifier",
+            "start": 621,
+            "end": 627,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 628,
+            "end": 637,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 638,
+            "end": 668,
+            "left": {
+              "type": "Literal",
+              "start": 638,
+              "end": 639,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 642,
+              "end": 668,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 642,
+                "end": 652,
+                "object": {
+                  "type": "Identifier",
+                  "start": 642,
+                  "end": 646,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 647,
+                  "end": 652,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 653,
+                  "end": 667,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 653,
+                    "end": 659,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 660,
+                    "end": 667,
+                    "name": "EPSILON"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 670,
+            "end": 694,
+            "object": {
+              "type": "Identifier",
+              "start": 670,
+              "end": 676,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 677,
+              "end": 694,
+              "name": "POSITIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 698,
+            "end": 755,
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 758,
+      "end": 896,
+      "expression": {
+        "type": "CallExpression",
+        "start": 758,
+        "end": 895,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 758,
+          "end": 774,
+          "object": {
+            "type": "Identifier",
+            "start": 758,
+            "end": 764,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 765,
+            "end": 774,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 775,
+            "end": 807,
+            "left": {
+              "type": "Literal",
+              "start": 775,
+              "end": 776,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 779,
+              "end": 807,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 779,
+                "end": 789,
+                "object": {
+                  "type": "Identifier",
+                  "start": 779,
+                  "end": 783,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 784,
+                  "end": 789,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 790,
+                  "end": 806,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 790,
+                    "end": 796,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 797,
+                    "end": 806,
+                    "name": "MIN_VALUE"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 809,
+            "end": 833,
+            "object": {
+              "type": "Identifier",
+              "start": 809,
+              "end": 815,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 816,
+              "end": 833,
+              "name": "POSITIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 837,
+            "end": 894,
+            "value": "Math.trunc should produce +0 for values between 0 and 1",
+            "raw": "\"Math.trunc should produce +0 for values between 0 and 1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 898,
+      "end": 1041,
+      "expression": {
+        "type": "CallExpression",
+        "start": 898,
+        "end": 1040,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 898,
+          "end": 914,
+          "object": {
+            "type": "Identifier",
+            "start": 898,
+            "end": 904,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 905,
+            "end": 914,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 915,
+            "end": 951,
+            "left": {
+              "type": "Literal",
+              "start": 915,
+              "end": 916,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 919,
+              "end": 951,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 919,
+                "end": 929,
+                "object": {
+                  "type": "Identifier",
+                  "start": 919,
+                  "end": 923,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 924,
+                  "end": 929,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 930,
+                  "end": 950,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 931,
+                    "end": 950,
+                    "value": 0.02047410048544407,
+                    "raw": "0.02047410048544407"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 953,
+            "end": 977,
+            "object": {
+              "type": "Identifier",
+              "start": 953,
+              "end": 959,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 960,
+              "end": 977,
+              "name": "NEGATIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 981,
+            "end": 1039,
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1042,
+      "end": 1185,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1042,
+        "end": 1184,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1042,
+          "end": 1058,
+          "object": {
+            "type": "Identifier",
+            "start": 1042,
+            "end": 1048,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1049,
+            "end": 1058,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 1059,
+            "end": 1095,
+            "left": {
+              "type": "Literal",
+              "start": 1059,
+              "end": 1060,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 1063,
+              "end": 1095,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1063,
+                "end": 1073,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1063,
+                  "end": 1067,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1068,
+                  "end": 1073,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 1074,
+                  "end": 1094,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1075,
+                    "end": 1094,
+                    "value": 1e-17,
+                    "raw": "0.00000000000000001"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1097,
+            "end": 1121,
+            "object": {
+              "type": "Identifier",
+              "start": 1097,
+              "end": 1103,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1104,
+              "end": 1121,
+              "name": "NEGATIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1125,
+            "end": 1183,
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1186,
+      "end": 1328,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1186,
+        "end": 1327,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1186,
+          "end": 1202,
+          "object": {
+            "type": "Identifier",
+            "start": 1186,
+            "end": 1192,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1193,
+            "end": 1202,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 1203,
+            "end": 1238,
+            "left": {
+              "type": "Literal",
+              "start": 1203,
+              "end": 1204,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 1207,
+              "end": 1238,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1207,
+                "end": 1217,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1207,
+                  "end": 1211,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1212,
+                  "end": 1217,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 1218,
+                  "end": 1237,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1219,
+                    "end": 1237,
+                    "value": 0.9999999999999999,
+                    "raw": "0.9999999999999999"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1240,
+            "end": 1264,
+            "object": {
+              "type": "Identifier",
+              "start": 1240,
+              "end": 1246,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1247,
+              "end": 1264,
+              "name": "NEGATIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1268,
+            "end": 1326,
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1329,
+      "end": 1467,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1329,
+        "end": 1466,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1329,
+          "end": 1345,
+          "object": {
+            "type": "Identifier",
+            "start": 1329,
+            "end": 1335,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1336,
+            "end": 1345,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 1346,
+            "end": 1377,
+            "left": {
+              "type": "Literal",
+              "start": 1346,
+              "end": 1347,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 1350,
+              "end": 1377,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1350,
+                "end": 1360,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1350,
+                  "end": 1354,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1355,
+                  "end": 1360,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 1361,
+                  "end": 1376,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 1362,
+                    "end": 1376,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1362,
+                      "end": 1368,
+                      "name": "Number"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1369,
+                      "end": 1376,
+                      "name": "EPSILON"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1379,
+            "end": 1403,
+            "object": {
+              "type": "Identifier",
+              "start": 1379,
+              "end": 1385,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1386,
+              "end": 1403,
+              "name": "NEGATIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1407,
+            "end": 1465,
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1468,
+      "end": 1608,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1468,
+        "end": 1607,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1468,
+          "end": 1484,
+          "object": {
+            "type": "Identifier",
+            "start": 1468,
+            "end": 1474,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1475,
+            "end": 1484,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 1485,
+            "end": 1518,
+            "left": {
+              "type": "Literal",
+              "start": 1485,
+              "end": 1486,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 1489,
+              "end": 1518,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1489,
+                "end": 1499,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1489,
+                  "end": 1493,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1494,
+                  "end": 1499,
+                  "name": "trunc"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 1500,
+                  "end": 1517,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 1501,
+                    "end": 1517,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1501,
+                      "end": 1507,
+                      "name": "Number"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1508,
+                      "end": 1517,
+                      "name": "MIN_VALUE"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1520,
+            "end": 1544,
+            "object": {
+              "type": "Identifier",
+              "start": 1520,
+              "end": 1526,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1527,
+              "end": 1544,
+              "name": "NEGATIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1548,
+            "end": 1606,
+            "value": "Math.trunc should produce -0 for values between -1 and 0",
+            "raw": "\"Math.trunc should produce -0 for values between -1 and 0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1610,
+      "end": 1750,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1610,
+        "end": 1749,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1610,
+          "end": 1626,
+          "object": {
+            "type": "Identifier",
+            "start": 1610,
+            "end": 1616,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1617,
+            "end": 1626,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1627,
+            "end": 1655,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1627,
+              "end": 1637,
+              "object": {
+                "type": "Identifier",
+                "start": 1627,
+                "end": 1631,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1632,
+                "end": 1637,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 1638,
+                "end": 1654,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1638,
+                  "end": 1644,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1645,
+                  "end": 1654,
+                  "name": "MAX_VALUE"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 1657,
+            "end": 1685,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1657,
+              "end": 1667,
+              "object": {
+                "type": "Identifier",
+                "start": 1657,
+                "end": 1661,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1662,
+                "end": 1667,
+                "name": "floor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 1668,
+                "end": 1684,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1668,
+                  "end": 1674,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1675,
+                  "end": 1684,
+                  "name": "MAX_VALUE"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1689,
+            "end": 1748,
+            "value": "Math.trunc produces incorrect result for Number.MAX_VALUE",
+            "raw": "\"Math.trunc produces incorrect result for Number.MAX_VALUE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1751,
+      "end": 1849,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1751,
+        "end": 1848,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1751,
+          "end": 1767,
+          "object": {
+            "type": "Identifier",
+            "start": 1751,
+            "end": 1757,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1758,
+            "end": 1767,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1768,
+            "end": 1782,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1768,
+              "end": 1778,
+              "object": {
+                "type": "Identifier",
+                "start": 1768,
+                "end": 1772,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1773,
+                "end": 1778,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1779,
+                "end": 1781,
+                "value": 10,
+                "raw": "10"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 1784,
+            "end": 1798,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1784,
+              "end": 1794,
+              "object": {
+                "type": "Identifier",
+                "start": 1784,
+                "end": 1788,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1789,
+                "end": 1794,
+                "name": "floor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1795,
+                "end": 1797,
+                "value": 10,
+                "raw": "10"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1802,
+            "end": 1847,
+            "value": "Math.trunc produces incorrect result for 10",
+            "raw": "\"Math.trunc produces incorrect result for 10\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1850,
+      "end": 1951,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1850,
+        "end": 1950,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1850,
+          "end": 1866,
+          "object": {
+            "type": "Identifier",
+            "start": 1850,
+            "end": 1856,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1857,
+            "end": 1866,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1867,
+            "end": 1882,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1867,
+              "end": 1877,
+              "object": {
+                "type": "Identifier",
+                "start": 1867,
+                "end": 1871,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1872,
+                "end": 1877,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1878,
+                "end": 1881,
+                "value": 3.9,
+                "raw": "3.9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 1884,
+            "end": 1899,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1884,
+              "end": 1894,
+              "object": {
+                "type": "Identifier",
+                "start": 1884,
+                "end": 1888,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1889,
+                "end": 1894,
+                "name": "floor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1895,
+                "end": 1898,
+                "value": 3.9,
+                "raw": "3.9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1903,
+            "end": 1949,
+            "value": "Math.trunc produces incorrect result for 3.9",
+            "raw": "\"Math.trunc produces incorrect result for 3.9\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1952,
+      "end": 2053,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1952,
+        "end": 2052,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1952,
+          "end": 1968,
+          "object": {
+            "type": "Identifier",
+            "start": 1952,
+            "end": 1958,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1959,
+            "end": 1968,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1969,
+            "end": 1984,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1969,
+              "end": 1979,
+              "object": {
+                "type": "Identifier",
+                "start": 1969,
+                "end": 1973,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1974,
+                "end": 1979,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1980,
+                "end": 1983,
+                "value": 4.9,
+                "raw": "4.9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 1986,
+            "end": 2001,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1986,
+              "end": 1996,
+              "object": {
+                "type": "Identifier",
+                "start": 1986,
+                "end": 1990,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1991,
+                "end": 1996,
+                "name": "floor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1997,
+                "end": 2000,
+                "value": 4.9,
+                "raw": "4.9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2005,
+            "end": 2051,
+            "value": "Math.trunc produces incorrect result for 4.9",
+            "raw": "\"Math.trunc produces incorrect result for 4.9\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2055,
+      "end": 2197,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2055,
+        "end": 2196,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2055,
+          "end": 2071,
+          "object": {
+            "type": "Identifier",
+            "start": 2055,
+            "end": 2061,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2062,
+            "end": 2071,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2072,
+            "end": 2101,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2072,
+              "end": 2082,
+              "object": {
+                "type": "Identifier",
+                "start": 2072,
+                "end": 2076,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2077,
+                "end": 2082,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2083,
+                "end": 2100,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "MemberExpression",
+                  "start": 2084,
+                  "end": 2100,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2084,
+                    "end": 2090,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2091,
+                    "end": 2100,
+                    "name": "MAX_VALUE"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 2103,
+            "end": 2131,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2103,
+              "end": 2112,
+              "object": {
+                "type": "Identifier",
+                "start": 2103,
+                "end": 2107,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2108,
+                "end": 2112,
+                "name": "ceil"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2113,
+                "end": 2130,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "MemberExpression",
+                  "start": 2114,
+                  "end": 2130,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2114,
+                    "end": 2120,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2121,
+                    "end": 2130,
+                    "name": "MAX_VALUE"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2135,
+            "end": 2195,
+            "value": "Math.trunc produces incorrect result for -Number.MAX_VALUE",
+            "raw": "\"Math.trunc produces incorrect result for -Number.MAX_VALUE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2198,
+      "end": 2298,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2198,
+        "end": 2297,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2198,
+          "end": 2214,
+          "object": {
+            "type": "Identifier",
+            "start": 2198,
+            "end": 2204,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2205,
+            "end": 2214,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2215,
+            "end": 2230,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2215,
+              "end": 2225,
+              "object": {
+                "type": "Identifier",
+                "start": 2215,
+                "end": 2219,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2220,
+                "end": 2225,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2226,
+                "end": 2229,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 2227,
+                  "end": 2229,
+                  "value": 10,
+                  "raw": "10"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 2232,
+            "end": 2246,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2232,
+              "end": 2241,
+              "object": {
+                "type": "Identifier",
+                "start": 2232,
+                "end": 2236,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2237,
+                "end": 2241,
+                "name": "ceil"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2242,
+                "end": 2245,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 2243,
+                  "end": 2245,
+                  "value": 10,
+                  "raw": "10"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2250,
+            "end": 2296,
+            "value": "Math.trunc produces incorrect result for -10",
+            "raw": "\"Math.trunc produces incorrect result for -10\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2299,
+      "end": 2402,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2299,
+        "end": 2401,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2299,
+          "end": 2315,
+          "object": {
+            "type": "Identifier",
+            "start": 2299,
+            "end": 2305,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2306,
+            "end": 2315,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2316,
+            "end": 2332,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2316,
+              "end": 2326,
+              "object": {
+                "type": "Identifier",
+                "start": 2316,
+                "end": 2320,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2321,
+                "end": 2326,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2327,
+                "end": 2331,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 2328,
+                  "end": 2331,
+                  "value": 3.9,
+                  "raw": "3.9"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 2334,
+            "end": 2349,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2334,
+              "end": 2343,
+              "object": {
+                "type": "Identifier",
+                "start": 2334,
+                "end": 2338,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2339,
+                "end": 2343,
+                "name": "ceil"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2344,
+                "end": 2348,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 2345,
+                  "end": 2348,
+                  "value": 3.9,
+                  "raw": "3.9"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2353,
+            "end": 2400,
+            "value": "Math.trunc produces incorrect result for -3.9",
+            "raw": "\"Math.trunc produces incorrect result for -3.9\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2403,
+      "end": 2506,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2403,
+        "end": 2505,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2403,
+          "end": 2419,
+          "object": {
+            "type": "Identifier",
+            "start": 2403,
+            "end": 2409,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2410,
+            "end": 2419,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2420,
+            "end": 2436,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2420,
+              "end": 2430,
+              "object": {
+                "type": "Identifier",
+                "start": 2420,
+                "end": 2424,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2425,
+                "end": 2430,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2431,
+                "end": 2435,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 2432,
+                  "end": 2435,
+                  "value": 4.9,
+                  "raw": "4.9"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 2438,
+            "end": 2453,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2438,
+              "end": 2447,
+              "object": {
+                "type": "Identifier",
+                "start": 2438,
+                "end": 2442,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2443,
+                "end": 2447,
+                "name": "ceil"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2448,
+                "end": 2452,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 2449,
+                  "end": 2452,
+                  "value": 4.9,
+                  "raw": "4.9"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2457,
+            "end": 2504,
+            "value": "Math.trunc produces incorrect result for -4.9",
+            "raw": "\"Math.trunc produces incorrect result for -4.9\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

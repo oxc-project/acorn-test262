@@ -1,0 +1,194 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 761,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 553,
+      "end": 627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 553,
+        "end": 626,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 553,
+          "end": 569,
+          "object": {
+            "type": "Identifier",
+            "start": 553,
+            "end": 559,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 569,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 570,
+            "end": 588,
+            "object": {
+              "type": "Identifier",
+              "start": 570,
+              "end": 578,
+              "name": "URIError"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 579,
+              "end": 588,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 590,
+            "end": 625,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 590,
+              "end": 611,
+              "object": {
+                "type": "Identifier",
+                "start": 590,
+                "end": 596,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 597,
+                "end": 611,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 612,
+                "end": 624,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 616,
+                  "end": 624,
+                  "name": "URIError"
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 629,
+      "end": 672,
+      "expression": {
+        "type": "CallExpression",
+        "start": 629,
+        "end": 671,
+        "callee": {
+          "type": "Identifier",
+          "start": 629,
+          "end": 648,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 649,
+            "end": 657,
+            "name": "URIError"
+          },
+          {
+            "type": "Literal",
+            "start": 659,
+            "end": 670,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 673,
+      "end": 714,
+      "expression": {
+        "type": "CallExpression",
+        "start": 673,
+        "end": 713,
+        "callee": {
+          "type": "Identifier",
+          "start": 673,
+          "end": 690,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 691,
+            "end": 699,
+            "name": "URIError"
+          },
+          {
+            "type": "Literal",
+            "start": 701,
+            "end": 712,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 715,
+      "end": 760,
+      "expression": {
+        "type": "CallExpression",
+        "start": 715,
+        "end": 759,
+        "callee": {
+          "type": "Identifier",
+          "start": 715,
+          "end": 736,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 737,
+            "end": 745,
+            "name": "URIError"
+          },
+          {
+            "type": "Literal",
+            "start": 747,
+            "end": 758,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

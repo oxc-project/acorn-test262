@@ -1,0 +1,118 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 409,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 305,
+      "end": 364,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 309,
+          "end": 363,
+          "id": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 313,
+            "name": "desc"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 316,
+            "end": 363,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 316,
+              "end": 347,
+              "object": {
+                "type": "Identifier",
+                "start": 316,
+                "end": 322,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 347,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 348,
+                "end": 352,
+                "name": "Math"
+              },
+              {
+                "type": "Literal",
+                "start": 354,
+                "end": 362,
+                "value": "caller",
+                "raw": "\"caller\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 366,
+      "end": 408,
+      "expression": {
+        "type": "CallExpression",
+        "start": 366,
+        "end": 407,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 366,
+          "end": 382,
+          "object": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 372,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 382,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 383,
+            "end": 387,
+            "name": "desc"
+          },
+          {
+            "type": "Identifier",
+            "start": 389,
+            "end": 398,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 400,
+            "end": 406,
+            "value": "desc",
+            "raw": "'desc'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

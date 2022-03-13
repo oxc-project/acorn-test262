@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 816,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 661,
+      "end": 700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 661,
+        "end": 699,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 661,
+          "end": 677,
+          "object": {
+            "type": "Identifier",
+            "start": 661,
+            "end": 667,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 668,
+            "end": 677,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 678,
+            "end": 691,
+            "object": {
+              "type": "MemberExpression",
+              "start": 678,
+              "end": 686,
+              "object": {
+                "type": "Identifier",
+                "start": 678,
+                "end": 682,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 683,
+                "end": 686,
+                "name": "pow"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 687,
+              "end": 691,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 693,
+            "end": 698,
+            "value": "pow",
+            "raw": "\"pow\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 702,
+      "end": 740,
+      "expression": {
+        "type": "CallExpression",
+        "start": 702,
+        "end": 739,
+        "callee": {
+          "type": "Identifier",
+          "start": 702,
+          "end": 721,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 722,
+            "end": 730,
+            "object": {
+              "type": "Identifier",
+              "start": 722,
+              "end": 726,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 727,
+              "end": 730,
+              "name": "pow"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 732,
+            "end": 738,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 741,
+      "end": 777,
+      "expression": {
+        "type": "CallExpression",
+        "start": 741,
+        "end": 776,
+        "callee": {
+          "type": "Identifier",
+          "start": 741,
+          "end": 758,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 759,
+            "end": 767,
+            "object": {
+              "type": "Identifier",
+              "start": 759,
+              "end": 763,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 764,
+              "end": 767,
+              "name": "pow"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 769,
+            "end": 775,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 778,
+      "end": 815,
+      "expression": {
+        "type": "CallExpression",
+        "start": 778,
+        "end": 814,
+        "callee": {
+          "type": "Identifier",
+          "start": 778,
+          "end": 796,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 797,
+            "end": 805,
+            "object": {
+              "type": "Identifier",
+              "start": 797,
+              "end": 801,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 802,
+              "end": 805,
+              "name": "pow"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 807,
+            "end": 813,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

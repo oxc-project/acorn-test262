@@ -1,0 +1,553 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1272,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 691,
+      "end": 716,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 695,
+          "end": 715,
+          "id": {
+            "type": "Identifier",
+            "start": 695,
+            "end": 699,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 702,
+            "end": 715,
+            "callee": {
+              "type": "Identifier",
+              "start": 706,
+              "end": 710,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 711,
+                "end": 714,
+                "name": "NaN"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 717,
+      "end": 734,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 721,
+          "end": 733,
+          "id": {
+            "type": "Identifier",
+            "start": 721,
+            "end": 728,
+            "name": "effects"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 731,
+            "end": 733,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 735,
+      "end": 831,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 739,
+          "end": 830,
+          "id": {
+            "type": "Identifier",
+            "start": 739,
+            "end": 747,
+            "name": "argMonth"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 750,
+            "end": 830,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 754,
+                "end": 828,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 754,
+                  "end": 761,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 763,
+                  "end": 828,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 774,
+                    "end": 828,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 780,
+                        "end": 810,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 780,
+                          "end": 809,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 780,
+                            "end": 792,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 780,
+                              "end": 787,
+                              "name": "effects"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 788,
+                              "end": 792,
+                              "name": "push"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 793,
+                              "end": 808,
+                              "value": "valueOf month",
+                              "raw": "'valueOf month'"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 815,
+                        "end": 824,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 822,
+                          "end": 823,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 832,
+      "end": 926,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 836,
+          "end": 925,
+          "id": {
+            "type": "Identifier",
+            "start": 836,
+            "end": 843,
+            "name": "argDate"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 846,
+            "end": 925,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 850,
+                "end": 923,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 850,
+                  "end": 857,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 859,
+                  "end": 923,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 870,
+                    "end": 923,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 876,
+                        "end": 905,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 876,
+                          "end": 904,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 876,
+                            "end": 888,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 876,
+                              "end": 883,
+                              "name": "effects"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 884,
+                              "end": 888,
+                              "name": "push"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 889,
+                              "end": 903,
+                              "value": "valueOf date",
+                              "raw": "'valueOf date'"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 910,
+                        "end": 919,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 917,
+                          "end": 918,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 928,
+      "end": 982,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 932,
+          "end": 981,
+          "id": {
+            "type": "Identifier",
+            "start": 932,
+            "end": 943,
+            "name": "returnValue"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 946,
+            "end": 981,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 946,
+              "end": 962,
+              "object": {
+                "type": "Identifier",
+                "start": 946,
+                "end": 950,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 951,
+                "end": 962,
+                "name": "setUTCMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 963,
+                "end": 971,
+                "name": "argMonth"
+              },
+              {
+                "type": "Identifier",
+                "start": 973,
+                "end": 980,
+                "name": "argDate"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 984,
+      "end": 1040,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 988,
+          "end": 1039,
+          "id": {
+            "type": "Identifier",
+            "start": 988,
+            "end": 1003,
+            "name": "expectedEffects"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 1006,
+            "end": 1039,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1007,
+                "end": 1022,
+                "value": "valueOf month",
+                "raw": "'valueOf month'"
+              },
+              {
+                "type": "Literal",
+                "start": 1024,
+                "end": 1038,
+                "value": "valueOf date",
+                "raw": "'valueOf date'"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1042,
+      "end": 1088,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1042,
+        "end": 1087,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1042,
+          "end": 1061,
+          "object": {
+            "type": "Identifier",
+            "start": 1042,
+            "end": 1048,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1049,
+            "end": 1061,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1062,
+            "end": 1069,
+            "name": "effects"
+          },
+          {
+            "type": "Identifier",
+            "start": 1071,
+            "end": 1086,
+            "name": "expectedEffects"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1089,
+      "end": 1178,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1089,
+        "end": 1177,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1089,
+          "end": 1105,
+          "object": {
+            "type": "Identifier",
+            "start": 1089,
+            "end": 1095,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1096,
+            "end": 1105,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1106,
+            "end": 1117,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 1119,
+            "end": 1122,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1124,
+            "end": 1176,
+            "value": "argument is ignored when `this` is an invalid date",
+            "raw": "'argument is ignored when `this` is an invalid date'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1179,
+      "end": 1271,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1179,
+        "end": 1270,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1179,
+          "end": 1195,
+          "object": {
+            "type": "Identifier",
+            "start": 1179,
+            "end": 1185,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1186,
+            "end": 1195,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1196,
+            "end": 1210,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1196,
+              "end": 1208,
+              "object": {
+                "type": "Identifier",
+                "start": 1196,
+                "end": 1200,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1201,
+                "end": 1208,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1212,
+            "end": 1215,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1217,
+            "end": 1269,
+            "value": "argument is ignored when `this` is an invalid date",
+            "raw": "'argument is ignored when `this` is an invalid date'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

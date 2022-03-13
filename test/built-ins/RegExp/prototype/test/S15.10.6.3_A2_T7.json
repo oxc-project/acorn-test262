@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 841,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 359,
+      "end": 382,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 363,
+          "end": 381,
+          "id": {
+            "type": "Identifier",
+            "start": 363,
+            "end": 373,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 376,
+            "end": 381,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 384,
+      "end": 430,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 384,
+        "end": 429,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 384,
+          "end": 405,
+          "object": {
+            "type": "MemberExpression",
+            "start": 384,
+            "end": 400,
+            "object": {
+              "type": "Identifier",
+              "start": 384,
+              "end": 390,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 391,
+              "end": 400,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 405,
+            "name": "test"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 408,
+          "end": 429,
+          "object": {
+            "type": "MemberExpression",
+            "start": 408,
+            "end": 424,
+            "object": {
+              "type": "Identifier",
+              "start": 408,
+              "end": 414,
+              "name": "RegExp"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 415,
+              "end": 424,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 425,
+            "end": 429,
+            "name": "test"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "TryStatement",
+      "start": 432,
+      "end": 795,
+      "block": {
+        "type": "BlockStatement",
+        "start": 436,
+        "end": 639,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 440,
+            "end": 637,
+            "argument": {
+              "type": "NewExpression",
+              "start": 446,
+              "end": 636,
+              "callee": {
+                "type": "Identifier",
+                "start": 450,
+                "end": 462,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 463,
+                  "end": 635,
+                  "left": {
+                    "type": "Literal",
+                    "start": 463,
+                    "end": 589,
+                    "value": "#1.1: __instance = false; Object.prototype.test = RegExp.prototype.test; __instance.test(\"message to investigate\"). Actual: ",
+                    "raw": "'#1.1: __instance = false; Object.prototype.test = RegExp.prototype.test; __instance.test(\"message to investigate\"). Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 592,
+                    "end": 635,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 593,
+                      "end": 634,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 593,
+                        "end": 608,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 593,
+                          "end": 603,
+                          "name": "__instance"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 604,
+                          "end": 608,
+                          "name": "test"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 609,
+                          "end": 633,
+                          "value": "message to investigate",
+                          "raw": "\"message to investigate\""
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 640,
+        "end": 795,
+        "param": {
+          "type": "Identifier",
+          "start": 647,
+          "end": 648,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 650,
+          "end": 795,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 654,
+              "end": 793,
+              "expression": {
+                "type": "CallExpression",
+                "start": 654,
+                "end": 792,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 654,
+                  "end": 670,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 654,
+                    "end": 660,
+                    "name": "assert"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 661,
+                    "end": 670,
+                    "name": "sameValue"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 676,
+                    "end": 698,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 676,
+                      "end": 677,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 689,
+                      "end": 698,
+                      "name": "TypeError"
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 704,
+                    "end": 708,
+                    "value": true,
+                    "raw": "true"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 714,
+                    "end": 788,
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

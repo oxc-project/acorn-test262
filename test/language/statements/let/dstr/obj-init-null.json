@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 942,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 883,
+      "end": 941,
+      "expression": {
+        "type": "CallExpression",
+        "start": 883,
+        "end": 940,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 883,
+          "end": 896,
+          "object": {
+            "type": "Identifier",
+            "start": 883,
+            "end": 889,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 890,
+            "end": 896,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 897,
+            "end": 906,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 908,
+            "end": 939,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 919,
+              "end": 939,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 923,
+                  "end": 937,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 927,
+                      "end": 936,
+                      "id": {
+                        "type": "ObjectPattern",
+                        "start": 927,
+                        "end": 929,
+                        "properties": []
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "start": 932,
+                        "end": 936,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

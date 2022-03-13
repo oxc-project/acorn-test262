@@ -1,0 +1,79 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 506,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 442,
+      "end": 505,
+      "expression": {
+        "type": "CallExpression",
+        "start": 442,
+        "end": 504,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 442,
+          "end": 458,
+          "object": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 448,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 449,
+            "end": 458,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 459,
+            "end": 491,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 459,
+              "end": 480,
+              "object": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 465,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 466,
+                "end": 480,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 481,
+                "end": 490,
+                "name": "Int8Array"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 493,
+            "end": 503,
+            "name": "TypedArray"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

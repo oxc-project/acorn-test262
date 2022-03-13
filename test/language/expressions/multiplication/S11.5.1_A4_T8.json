@@ -1,0 +1,347 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 823,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 424,
+      "end": 636,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 428,
+        "end": 491,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 428,
+          "end": 456,
+          "left": {
+            "type": "BinaryExpression",
+            "start": 428,
+            "end": 450,
+            "left": {
+              "type": "MemberExpression",
+              "start": 428,
+              "end": 444,
+              "object": {
+                "type": "Identifier",
+                "start": 428,
+                "end": 434,
+                "name": "Number"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 435,
+                "end": 444,
+                "name": "MAX_VALUE"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "*",
+            "right": {
+              "type": "Literal",
+              "start": 447,
+              "end": 450,
+              "value": 1.1,
+              "raw": "1.1"
+            }
+          },
+          "operator": "*",
+          "right": {
+            "type": "Literal",
+            "start": 453,
+            "end": 456,
+            "value": 0.9,
+            "raw": "0.9"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "BinaryExpression",
+          "start": 461,
+          "end": 491,
+          "left": {
+            "type": "ParenthesizedExpression",
+            "start": 461,
+            "end": 485,
+            "expression": {
+              "type": "BinaryExpression",
+              "start": 462,
+              "end": 484,
+              "left": {
+                "type": "MemberExpression",
+                "start": 462,
+                "end": 478,
+                "object": {
+                  "type": "Identifier",
+                  "start": 462,
+                  "end": 468,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 469,
+                  "end": 478,
+                  "name": "MAX_VALUE"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "operator": "*",
+              "right": {
+                "type": "Literal",
+                "start": 481,
+                "end": 484,
+                "value": 1.1,
+                "raw": "1.1"
+              }
+            }
+          },
+          "operator": "*",
+          "right": {
+            "type": "Literal",
+            "start": 488,
+            "end": 491,
+            "value": 0.9,
+            "raw": "0.9"
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 493,
+        "end": 636,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 497,
+            "end": 634,
+            "argument": {
+              "type": "NewExpression",
+              "start": 503,
+              "end": 633,
+              "callee": {
+                "type": "Identifier",
+                "start": 507,
+                "end": 519,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 520,
+                  "end": 632,
+                  "left": {
+                    "type": "Literal",
+                    "start": 520,
+                    "end": 599,
+                    "value": "#1: Number.MAX_VALUE * 1.1 * 0.9 === (Number.MAX_VALUE * 1.1) * 0.9. Actual: ",
+                    "raw": "'#1: Number.MAX_VALUE * 1.1 * 0.9 === (Number.MAX_VALUE * 1.1) * 0.9. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 602,
+                    "end": 632,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 603,
+                      "end": 631,
+                      "left": {
+                        "type": "BinaryExpression",
+                        "start": 603,
+                        "end": 625,
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 603,
+                          "end": 619,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 603,
+                            "end": 609,
+                            "name": "Number"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 610,
+                            "end": 619,
+                            "name": "MAX_VALUE"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Literal",
+                          "start": 622,
+                          "end": 625,
+                          "value": 1.1,
+                          "raw": "1.1"
+                        }
+                      },
+                      "operator": "*",
+                      "right": {
+                        "type": "Literal",
+                        "start": 628,
+                        "end": 631,
+                        "value": 0.9,
+                        "raw": "0.9"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 649,
+      "end": 822,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 653,
+        "end": 718,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 653,
+          "end": 683,
+          "left": {
+            "type": "ParenthesizedExpression",
+            "start": 653,
+            "end": 677,
+            "expression": {
+              "type": "BinaryExpression",
+              "start": 654,
+              "end": 676,
+              "left": {
+                "type": "MemberExpression",
+                "start": 654,
+                "end": 670,
+                "object": {
+                  "type": "Identifier",
+                  "start": 654,
+                  "end": 660,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 661,
+                  "end": 670,
+                  "name": "MAX_VALUE"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "operator": "*",
+              "right": {
+                "type": "Literal",
+                "start": 673,
+                "end": 676,
+                "value": 1.1,
+                "raw": "1.1"
+              }
+            }
+          },
+          "operator": "*",
+          "right": {
+            "type": "Literal",
+            "start": 680,
+            "end": 683,
+            "value": 0.9,
+            "raw": "0.9"
+          }
+        },
+        "operator": "===",
+        "right": {
+          "type": "BinaryExpression",
+          "start": 688,
+          "end": 718,
+          "left": {
+            "type": "MemberExpression",
+            "start": 688,
+            "end": 704,
+            "object": {
+              "type": "Identifier",
+              "start": 688,
+              "end": 694,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 695,
+              "end": 704,
+              "name": "MAX_VALUE"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "operator": "*",
+          "right": {
+            "type": "ParenthesizedExpression",
+            "start": 707,
+            "end": 718,
+            "expression": {
+              "type": "BinaryExpression",
+              "start": 708,
+              "end": 717,
+              "left": {
+                "type": "Literal",
+                "start": 708,
+                "end": 711,
+                "value": 1.1,
+                "raw": "1.1"
+              },
+              "operator": "*",
+              "right": {
+                "type": "Literal",
+                "start": 714,
+                "end": 717,
+                "value": 0.9,
+                "raw": "0.9"
+              }
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 720,
+        "end": 822,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 724,
+            "end": 820,
+            "argument": {
+              "type": "NewExpression",
+              "start": 730,
+              "end": 819,
+              "callee": {
+                "type": "Identifier",
+                "start": 734,
+                "end": 746,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 747,
+                  "end": 818,
+                  "value": "#2: (Number.MAX_VALUE * 1.1) * 0.9 !== Number.MAX_VALUE * (1.1 * 0.9)",
+                  "raw": "'#2: (Number.MAX_VALUE * 1.1) * 0.9 !== Number.MAX_VALUE * (1.1 * 0.9)'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

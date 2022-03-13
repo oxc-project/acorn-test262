@@ -1,0 +1,118 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 298,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 247,
+      "end": 259,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 251,
+          "end": 258,
+          "id": {
+            "type": "Identifier",
+            "start": 251,
+            "end": 254,
+            "name": "NaN"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 255,
+            "end": 258,
+            "value": 1,
+            "raw": "1.0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 260,
+      "end": 271,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 260,
+        "end": 270,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 260,
+          "end": 263,
+          "name": "NaN"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 264,
+          "end": 270,
+          "value": "asdf",
+          "raw": "'asdf'"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 272,
+      "end": 281,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 272,
+        "end": 280,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 272,
+          "end": 275,
+          "name": "NaN"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 276,
+          "end": 280,
+          "value": true,
+          "raw": "true"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 282,
+      "end": 297,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 282,
+        "end": 296,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 282,
+          "end": 285,
+          "name": "NaN"
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 286,
+          "end": 296,
+          "object": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 292,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 293,
+            "end": 296,
+            "name": "NaN"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

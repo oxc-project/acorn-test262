@@ -1,0 +1,269 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 509,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 264,
+      "end": 338,
+      "expression": {
+        "type": "CallExpression",
+        "start": 264,
+        "end": 337,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 264,
+          "end": 277,
+          "object": {
+            "type": "Identifier",
+            "start": 264,
+            "end": 270,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 271,
+            "end": 277,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 278,
+            "end": 290,
+            "name": "Test262Error"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 292,
+            "end": 321,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 298,
+              "end": 321,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 302,
+                  "end": 319,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 302,
+                    "end": 318,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 302,
+                      "end": 316,
+                      "name": "verifyProperty"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 323,
+            "end": 336,
+            "value": "0 arguments",
+            "raw": "\"0 arguments\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 340,
+      "end": 419,
+      "expression": {
+        "type": "CallExpression",
+        "start": 340,
+        "end": 418,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 340,
+          "end": 353,
+          "object": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 346,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 353,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 354,
+            "end": 366,
+            "name": "Test262Error"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 368,
+            "end": 403,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 374,
+              "end": 403,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 378,
+                  "end": 401,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 378,
+                    "end": 400,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 378,
+                      "end": 392,
+                      "name": "verifyProperty"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 393,
+                        "end": 399,
+                        "name": "Object"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 405,
+            "end": 417,
+            "value": "1 argument",
+            "raw": "\"1 argument\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 421,
+      "end": 508,
+      "expression": {
+        "type": "CallExpression",
+        "start": 421,
+        "end": 507,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 421,
+          "end": 434,
+          "object": {
+            "type": "Identifier",
+            "start": 421,
+            "end": 427,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 428,
+            "end": 434,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 435,
+            "end": 447,
+            "name": "Test262Error"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 449,
+            "end": 491,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 455,
+              "end": 491,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 459,
+                  "end": 489,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 459,
+                    "end": 488,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 459,
+                      "end": 473,
+                      "name": "verifyProperty"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 474,
+                        "end": 480,
+                        "name": "Object"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 482,
+                        "end": 487,
+                        "value": "foo",
+                        "raw": "'foo'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 493,
+            "end": 506,
+            "value": "2 arguments",
+            "raw": "\"2 arguments\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 319,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 266,
+      "end": 318,
+      "expression": {
+        "type": "CallExpression",
+        "start": 266,
+        "end": 317,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 266,
+          "end": 279,
+          "object": {
+            "type": "Identifier",
+            "start": 266,
+            "end": 272,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 279,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 280,
+            "end": 294,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 296,
+            "end": 316,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 307,
+              "end": 316,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 311,
+                  "end": 314,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 311,
+                    "end": 314,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 311,
+                      "end": 312,
+                      "name": "E"
+                    },
+                    "operator": "-",
+                    "right": {
+                      "type": "Literal",
+                      "start": 313,
+                      "end": 314,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

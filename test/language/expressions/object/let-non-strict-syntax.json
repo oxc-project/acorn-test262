@@ -1,0 +1,81 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 281,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 248,
+      "end": 260,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 252,
+          "end": 259,
+          "id": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 255,
+            "name": "let"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 258,
+            "end": 259,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 261,
+      "end": 280,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 265,
+          "end": 279,
+          "id": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 271,
+            "name": "object"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 274,
+            "end": 279,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 275,
+                "end": 278,
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 275,
+                  "end": 278,
+                  "name": "let"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "Identifier",
+                  "start": 275,
+                  "end": 278,
+                  "name": "let"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

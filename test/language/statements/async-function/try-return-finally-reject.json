@@ -1,0 +1,295 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 642,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 347,
+      "end": 506,
+      "id": {
+        "type": "Identifier",
+        "start": 362,
+        "end": 363,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 366,
+        "end": 506,
+        "body": [
+          {
+            "type": "TryStatement",
+            "start": 370,
+            "end": 504,
+            "block": {
+              "type": "BlockStatement",
+              "start": 374,
+              "end": 406,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 380,
+                  "end": 402,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 387,
+                    "end": 401,
+                    "value": "early-return",
+                    "raw": "\"early-return\""
+                  }
+                }
+              ]
+            },
+            "handler": null,
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 415,
+              "end": 504,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 421,
+                  "end": 500,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 421,
+                    "end": 499,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 427,
+                      "end": 499,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 431,
+                        "end": 438,
+                        "name": "Promise"
+                      },
+                      "arguments": [
+                        {
+                          "type": "FunctionExpression",
+                          "start": 439,
+                          "end": 498,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [
+                            {
+                              "type": "Identifier",
+                              "start": 448,
+                              "end": 455,
+                              "name": "resolve"
+                            },
+                            {
+                              "type": "Identifier",
+                              "start": 457,
+                              "end": 463,
+                              "name": "reject"
+                            }
+                          ],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 465,
+                            "end": 498,
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 473,
+                                "end": 492,
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 473,
+                                  "end": 491,
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 473,
+                                    "end": 479,
+                                    "name": "reject"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "Literal",
+                                      "start": 480,
+                                      "end": 490,
+                                      "value": "override",
+                                      "raw": "\"override\""
+                                    }
+                                  ],
+                                  "optional": false
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 508,
+      "end": 641,
+      "expression": {
+        "type": "CallExpression",
+        "start": 508,
+        "end": 640,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 508,
+          "end": 626,
+          "object": {
+            "type": "CallExpression",
+            "start": 508,
+            "end": 621,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 508,
+              "end": 516,
+              "object": {
+                "type": "CallExpression",
+                "start": 508,
+                "end": 511,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 508,
+                  "end": 509,
+                  "name": "f"
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 512,
+                "end": 516,
+                "name": "then"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 517,
+                "end": 522,
+                "name": "$DONE"
+              },
+              {
+                "type": "FunctionExpression",
+                "start": 524,
+                "end": 620,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 533,
+                    "end": 538,
+                    "name": "value"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 540,
+                  "end": 620,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 544,
+                      "end": 618,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 544,
+                        "end": 617,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 544,
+                          "end": 560,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 544,
+                            "end": 550,
+                            "name": "assert"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 551,
+                            "end": 560,
+                            "name": "sameValue"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 561,
+                            "end": 566,
+                            "name": "value"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 568,
+                            "end": 578,
+                            "value": "override",
+                            "raw": "\"override\""
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 580,
+                            "end": 616,
+                            "value": "Awaited rejection in finally block",
+                            "raw": "\"Awaited rejection in finally block\""
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 622,
+            "end": 626,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 627,
+            "end": 632,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 634,
+            "end": 639,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

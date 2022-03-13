@@ -1,0 +1,156 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 580,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 286,
+      "end": 534,
+      "block": {
+        "type": "BlockStatement",
+        "start": 290,
+        "end": 378,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 294,
+            "end": 376,
+            "argument": {
+              "type": "NewExpression",
+              "start": 300,
+              "end": 375,
+              "callee": {
+                "type": "Identifier",
+                "start": 304,
+                "end": 316,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 317,
+                  "end": 374,
+                  "left": {
+                    "type": "Literal",
+                    "start": 317,
+                    "end": 360,
+                    "value": "#1.1: new /z/() throw TypeError. Actual: ",
+                    "raw": "'#1.1: new /z/() throw TypeError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 363,
+                    "end": 374,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 364,
+                      "end": 373,
+                      "callee": {
+                        "type": "Literal",
+                        "start": 368,
+                        "end": 371,
+                        "value": {},
+                        "raw": "/z/",
+                        "regex": {
+                          "pattern": "z",
+                          "flags": ""
+                        }
+                      },
+                      "arguments": []
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 379,
+        "end": 534,
+        "param": {
+          "type": "Identifier",
+          "start": 386,
+          "end": 387,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 389,
+          "end": 534,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 393,
+              "end": 532,
+              "expression": {
+                "type": "CallExpression",
+                "start": 393,
+                "end": 531,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 393,
+                  "end": 409,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 393,
+                    "end": 399,
+                    "name": "assert"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 400,
+                    "end": 409,
+                    "name": "sameValue"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 415,
+                    "end": 437,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 415,
+                      "end": 416,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 428,
+                      "end": 437,
+                      "name": "TypeError"
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 443,
+                    "end": 447,
+                    "value": true,
+                    "raw": "true"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 453,
+                    "end": 527,
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,79 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 554,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 488,
+      "end": 553,
+      "id": {
+        "type": "Identifier",
+        "start": 504,
+        "end": 505,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": true,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 508,
+        "end": 553,
+        "body": [
+          {
+            "type": "ForOfStatement",
+            "start": 512,
+            "end": 539,
+            "await": true,
+            "left": {
+              "type": "VariableDeclaration",
+              "start": 523,
+              "end": 528,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 527,
+                  "end": 528,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 527,
+                    "end": 528,
+                    "name": "x"
+                  },
+                  "init": null
+                }
+              ],
+              "kind": "var"
+            },
+            "right": {
+              "type": "ArrayExpression",
+              "start": 532,
+              "end": 534,
+              "elements": []
+            },
+            "body": {
+              "type": "ExpressionStatement",
+              "start": 536,
+              "end": 539,
+              "expression": {
+                "type": "Identifier",
+                "start": 536,
+                "end": 539,
+                "name": "let"
+              }
+            }
+          },
+          {
+            "type": "BlockStatement",
+            "start": 549,
+            "end": 551,
+            "body": []
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

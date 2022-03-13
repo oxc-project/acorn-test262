@@ -1,0 +1,156 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 746,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 579,
+      "end": 622,
+      "expression": {
+        "type": "CallExpression",
+        "start": 579,
+        "end": 621,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 579,
+          "end": 595,
+          "object": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 585,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 586,
+            "end": 595,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 596,
+            "end": 599,
+            "callee": {
+              "type": "Identifier",
+              "start": 596,
+              "end": 597,
+              "name": "f"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 601,
+            "end": 620,
+            "value": "outer declaration",
+            "raw": "'outer declaration'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "SwitchStatement",
+      "start": 624,
+      "end": 697,
+      "discriminant": {
+        "type": "Literal",
+        "start": 632,
+        "end": 633,
+        "value": 1,
+        "raw": "1"
+      },
+      "cases": [
+        {
+          "type": "SwitchCase",
+          "start": 639,
+          "end": 695,
+          "consequent": [
+            {
+              "type": "FunctionDeclaration",
+              "start": 651,
+              "end": 695,
+              "id": {
+                "type": "Identifier",
+                "start": 660,
+                "end": 661,
+                "name": "f"
+              },
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 664,
+                "end": 695,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 666,
+                    "end": 693,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 673,
+                      "end": 692,
+                      "value": "inner declaration",
+                      "raw": "'inner declaration'"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "test": {
+            "type": "Literal",
+            "start": 644,
+            "end": 645,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 699,
+      "end": 745,
+      "id": {
+        "type": "Identifier",
+        "start": 708,
+        "end": 709,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 712,
+        "end": 745,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 716,
+            "end": 743,
+            "argument": {
+              "type": "Literal",
+              "start": 723,
+              "end": 742,
+              "value": "outer declaration",
+              "raw": "'outer declaration'"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,177 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 717,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 273,
+      "end": 302,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 277,
+          "end": 301,
+          "id": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 282,
+            "name": "__reg"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 285,
+            "end": 301,
+            "callee": {
+              "type": "Identifier",
+              "start": 289,
+              "end": 295,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 296,
+                "end": 300,
+                "value": "77",
+                "raw": "\"77\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 393,
+      "end": 634,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 397,
+        "end": 449,
+        "left": {
+          "type": "CallExpression",
+          "start": 397,
+          "end": 443,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 397,
+            "end": 436,
+            "object": {
+              "type": "Literal",
+              "start": 397,
+              "end": 429,
+              "value": "ABBABABAB77BBAA",
+              "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\""
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 430,
+              "end": 436,
+              "name": "search"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 437,
+              "end": 442,
+              "name": "__reg"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 448,
+          "end": 449,
+          "value": 9,
+          "raw": "9"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 451,
+        "end": 634,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 455,
+            "end": 632,
+            "argument": {
+              "type": "NewExpression",
+              "start": 461,
+              "end": 631,
+              "callee": {
+                "type": "Identifier",
+                "start": 465,
+                "end": 477,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 478,
+                  "end": 630,
+                  "left": {
+                    "type": "Literal",
+                    "start": 478,
+                    "end": 579,
+                    "value": "#1: var __reg = new RegExp(\"77\"); \"ABB\\u0041BABAB\\u0037\\u0037BBAA\".search(__reg) === 9. Actual: ",
+                    "raw": "'#1: var __reg = new RegExp(\"77\"); \"ABB\\\\u0041BABAB\\\\u0037\\\\u0037BBAA\".search(__reg) === 9. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 582,
+                    "end": 630,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 583,
+                      "end": 629,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 583,
+                        "end": 622,
+                        "object": {
+                          "type": "Literal",
+                          "start": 583,
+                          "end": 615,
+                          "value": "ABBABABAB77BBAA",
+                          "raw": "\"ABB\\u0041BABAB\\u0037\\u0037BBAA\""
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 616,
+                          "end": 622,
+                          "name": "search"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 623,
+                          "end": 628,
+                          "name": "__reg"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

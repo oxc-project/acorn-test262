@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 785,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 562,
+      "end": 609,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 566,
+          "end": 608,
+          "id": {
+            "type": "Identifier",
+            "start": 566,
+            "end": 585,
+            "name": "TypedArrayPrototype"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 588,
+            "end": 608,
+            "object": {
+              "type": "Identifier",
+              "start": 588,
+              "end": 598,
+              "name": "TypedArray"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 599,
+              "end": 608,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 611,
+      "end": 670,
+      "expression": {
+        "type": "CallExpression",
+        "start": 611,
+        "end": 669,
+        "callee": {
+          "type": "Identifier",
+          "start": 611,
+          "end": 630,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 631,
+            "end": 650,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 652,
+            "end": 668,
+            "value": "toLocaleString",
+            "raw": "'toLocaleString'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 671,
+      "end": 725,
+      "expression": {
+        "type": "CallExpression",
+        "start": 671,
+        "end": 724,
+        "callee": {
+          "type": "Identifier",
+          "start": 671,
+          "end": 685,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 686,
+            "end": 705,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 707,
+            "end": 723,
+            "value": "toLocaleString",
+            "raw": "'toLocaleString'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 726,
+      "end": 784,
+      "expression": {
+        "type": "CallExpression",
+        "start": 726,
+        "end": 783,
+        "callee": {
+          "type": "Identifier",
+          "start": 726,
+          "end": 744,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 745,
+            "end": 764,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 766,
+            "end": 782,
+            "value": "toLocaleString",
+            "raw": "'toLocaleString'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

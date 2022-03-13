@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 381,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 259,
+      "end": 380,
+      "expression": {
+        "type": "CallExpression",
+        "start": 259,
+        "end": 379,
+        "callee": {
+          "type": "Identifier",
+          "start": 259,
+          "end": 273,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 274,
+            "end": 290,
+            "object": {
+              "type": "Identifier",
+              "start": 274,
+              "end": 278,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 279,
+              "end": 290,
+              "name": "PluralRules"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 292,
+            "end": 300,
+            "value": "length",
+            "raw": "'length'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 302,
+            "end": 378,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 306,
+                "end": 314,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 306,
+                  "end": 311,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 313,
+                  "end": 314,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 318,
+                "end": 333,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 318,
+                  "end": 326,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 328,
+                  "end": 333,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 337,
+                "end": 354,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 337,
+                  "end": 347,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 349,
+                  "end": 354,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 358,
+                "end": 376,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 358,
+                  "end": 370,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 372,
+                  "end": 376,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

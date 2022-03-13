@@ -1,0 +1,277 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3155,
+  "body": [
+    {
+      "type": "ForStatement",
+      "start": 2623,
+      "end": 2689,
+      "init": {
+        "type": "AwaitExpression",
+        "start": 2629,
+        "end": 2638,
+        "argument": {
+          "type": "Literal",
+          "start": 2635,
+          "end": 2638,
+          "value": {},
+          "raw": "/1/",
+          "regex": {
+            "pattern": "1",
+            "flags": ""
+          }
+        }
+      },
+      "test": {
+        "type": "AwaitExpression",
+        "start": 2641,
+        "end": 2650,
+        "argument": {
+          "type": "Literal",
+          "start": 2647,
+          "end": 2650,
+          "value": {},
+          "raw": "/1/",
+          "regex": {
+            "pattern": "1",
+            "flags": ""
+          }
+        }
+      },
+      "update": {
+        "type": "AwaitExpression",
+        "start": 2652,
+        "end": 2661,
+        "argument": {
+          "type": "Literal",
+          "start": 2658,
+          "end": 2661,
+          "value": {},
+          "raw": "/1/",
+          "regex": {
+            "pattern": "1",
+            "flags": ""
+          }
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 2664,
+        "end": 2689,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 2668,
+            "end": 2678,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 2668,
+              "end": 2677,
+              "argument": {
+                "type": "Literal",
+                "start": 2674,
+                "end": 2677,
+                "value": {},
+                "raw": "/1/",
+                "regex": {
+                  "pattern": "1",
+                  "flags": ""
+                }
+              }
+            }
+          },
+          {
+            "type": "BreakStatement",
+            "start": 2681,
+            "end": 2687,
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ForStatement",
+      "start": 2860,
+      "end": 2927,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 2866,
+        "end": 2877,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2870,
+            "end": 2877,
+            "id": {
+              "type": "Identifier",
+              "start": 2870,
+              "end": 2877,
+              "name": "binding"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "AwaitExpression",
+        "start": 2879,
+        "end": 2888,
+        "argument": {
+          "type": "Literal",
+          "start": 2885,
+          "end": 2888,
+          "value": {},
+          "raw": "/1/",
+          "regex": {
+            "pattern": "1",
+            "flags": ""
+          }
+        }
+      },
+      "update": {
+        "type": "AwaitExpression",
+        "start": 2890,
+        "end": 2899,
+        "argument": {
+          "type": "Literal",
+          "start": 2896,
+          "end": 2899,
+          "value": {},
+          "raw": "/1/",
+          "regex": {
+            "pattern": "1",
+            "flags": ""
+          }
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 2902,
+        "end": 2927,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 2906,
+            "end": 2916,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 2906,
+              "end": 2915,
+              "argument": {
+                "type": "Literal",
+                "start": 2912,
+                "end": 2915,
+                "value": {},
+                "raw": "/1/",
+                "regex": {
+                  "pattern": "1",
+                  "flags": ""
+                }
+              }
+            }
+          },
+          {
+            "type": "BreakStatement",
+            "start": 2919,
+            "end": 2925,
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ForStatement",
+      "start": 3087,
+      "end": 3154,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 3093,
+        "end": 3104,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 3097,
+            "end": 3104,
+            "id": {
+              "type": "Identifier",
+              "start": 3097,
+              "end": 3104,
+              "name": "binding"
+            },
+            "init": null
+          }
+        ],
+        "kind": "let"
+      },
+      "test": {
+        "type": "AwaitExpression",
+        "start": 3106,
+        "end": 3115,
+        "argument": {
+          "type": "Literal",
+          "start": 3112,
+          "end": 3115,
+          "value": {},
+          "raw": "/1/",
+          "regex": {
+            "pattern": "1",
+            "flags": ""
+          }
+        }
+      },
+      "update": {
+        "type": "AwaitExpression",
+        "start": 3117,
+        "end": 3126,
+        "argument": {
+          "type": "Literal",
+          "start": 3123,
+          "end": 3126,
+          "value": {},
+          "raw": "/1/",
+          "regex": {
+            "pattern": "1",
+            "flags": ""
+          }
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 3129,
+        "end": 3154,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 3133,
+            "end": 3143,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 3133,
+              "end": 3142,
+              "argument": {
+                "type": "Literal",
+                "start": 3139,
+                "end": 3142,
+                "value": {},
+                "raw": "/1/",
+                "regex": {
+                  "pattern": "1",
+                  "flags": ""
+                }
+              }
+            }
+          },
+          {
+            "type": "BreakStatement",
+            "start": 3146,
+            "end": 3152,
+            "label": null
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "module"
+}

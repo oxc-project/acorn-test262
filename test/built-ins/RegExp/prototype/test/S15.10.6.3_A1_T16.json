@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 438,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 312,
+      "end": 335,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 316,
+          "end": 334,
+          "id": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 320,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 323,
+            "end": 334,
+            "value": {},
+            "raw": "/undefined/",
+            "regex": {
+              "pattern": "undefined",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 337,
+      "end": 437,
+      "expression": {
+        "type": "CallExpression",
+        "start": 337,
+        "end": 436,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 337,
+          "end": 353,
+          "object": {
+            "type": "Identifier",
+            "start": 337,
+            "end": 343,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 344,
+            "end": 353,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 354,
+            "end": 365,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 354,
+              "end": 363,
+              "object": {
+                "type": "Identifier",
+                "start": 354,
+                "end": 358,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 359,
+                "end": 363,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 367,
+            "end": 387,
+            "left": {
+              "type": "CallExpression",
+              "start": 367,
+              "end": 378,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 367,
+                "end": 376,
+                "object": {
+                  "type": "Identifier",
+                  "start": 367,
+                  "end": 371,
+                  "name": "__re"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 372,
+                  "end": 376,
+                  "name": "exec"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 383,
+              "end": 387,
+              "value": null,
+              "raw": "null"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 389,
+            "end": 435,
+            "value": "__re.test() must return __re.exec() !== null",
+            "raw": "'__re.test() must return __re.exec() !== null'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

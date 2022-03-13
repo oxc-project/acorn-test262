@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2172,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 2043,
+      "end": 2084,
+      "id": {
+        "type": "Identifier",
+        "start": 2052,
+        "end": 2054,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 2057,
+        "end": 2084,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 2061,
+            "end": 2082,
+            "argument": {
+              "type": "FunctionExpression",
+              "start": 2068,
+              "end": 2081,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2079,
+                "end": 2081,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 2126,
+      "end": 2170,
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 2141,
+        "end": 2170,
+        "id": null,
+        "superClass": {
+          "type": "CallExpression",
+          "start": 2155,
+          "end": 2167,
+          "callee": {
+            "type": "Identifier",
+            "start": 2155,
+            "end": 2157,
+            "name": "fn"
+          },
+          "arguments": [
+            {
+              "type": "AwaitExpression",
+              "start": 2158,
+              "end": 2166,
+              "argument": {
+                "type": "Literal",
+                "start": 2164,
+                "end": 2166,
+                "value": "",
+                "raw": "''"
+              }
+            }
+          ],
+          "optional": false
+        },
+        "body": {
+          "type": "ClassBody",
+          "start": 2168,
+          "end": 2170,
+          "body": []
+        }
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2170,
+      "end": 2171
+    }
+  ],
+  "sourceType": "module"
+}

@@ -1,0 +1,202 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 538,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 382,
+      "end": 453,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 386,
+          "end": 452,
+          "id": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 387,
+            "name": "o"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 390,
+            "end": 452,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 394,
+                "end": 450,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 394,
+                  "end": 402,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 404,
+                  "end": 450,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 415,
+                    "end": 450,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 421,
+                        "end": 446,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 427,
+                          "end": 445,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 431,
+                            "end": 443,
+                            "name": "Test262Error"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 455,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 455,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 455,
+          "end": 468,
+          "object": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 461,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 468,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 469,
+            "end": 481,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 483,
+            "end": 535,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 494,
+              "end": 535,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 498,
+                  "end": 533,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 498,
+                    "end": 532,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 498,
+                      "end": 529,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 498,
+                        "end": 524,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 498,
+                          "end": 514,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 498,
+                            "end": 504,
+                            "name": "String"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 505,
+                            "end": 514,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 515,
+                          "end": 524,
+                          "name": "normalize"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 525,
+                        "end": 529,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 530,
+                        "end": 531,
+                        "name": "o"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

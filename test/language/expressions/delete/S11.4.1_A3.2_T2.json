@@ -1,0 +1,143 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 530,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 324,
+      "end": 348,
+      "id": {
+        "type": "Identifier",
+        "start": 333,
+        "end": 343,
+        "name": "MyFunction"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 346,
+        "end": 348,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 349,
+      "end": 369,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 349,
+        "end": 368,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 349,
+          "end": 364,
+          "object": {
+            "type": "Identifier",
+            "start": 349,
+            "end": 359,
+            "name": "MyFunction"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 364,
+            "name": "prop"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 367,
+          "end": 368,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 370,
+      "end": 529,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 374,
+        "end": 405,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 374,
+          "end": 396,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 381,
+            "end": 396,
+            "object": {
+              "type": "Identifier",
+              "start": 381,
+              "end": 391,
+              "name": "MyFunction"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 392,
+              "end": 396,
+              "name": "prop"
+            },
+            "computed": false,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 401,
+          "end": 405,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 407,
+        "end": 529,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 411,
+            "end": 527,
+            "argument": {
+              "type": "NewExpression",
+              "start": 417,
+              "end": 526,
+              "callee": {
+                "type": "Identifier",
+                "start": 421,
+                "end": 433,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 439,
+                  "end": 522,
+                  "value": "#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop === true",
+                  "raw": "'#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

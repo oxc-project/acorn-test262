@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 561,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 423,
+      "end": 487,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 427,
+          "end": 486,
+          "id": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 437,
+            "name": "__executed"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 440,
+            "end": 486,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 440,
+              "end": 451,
+              "object": {
+                "type": "Literal",
+                "start": 440,
+                "end": 446,
+                "value": {},
+                "raw": "/op\\b/",
+                "regex": {
+                  "pattern": "op\\b",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 447,
+                "end": 451,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 452,
+                "end": 485,
+                "value": "pilot\nsoviet robot\topenoffice",
+                "raw": "\"pilot\\nsoviet robot\\topenoffice\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 489,
+      "end": 560,
+      "expression": {
+        "type": "CallExpression",
+        "start": 489,
+        "end": 559,
+        "callee": {
+          "type": "Identifier",
+          "start": 489,
+          "end": 495,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 496,
+            "end": 507,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 497,
+              "end": 507,
+              "name": "__executed"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 509,
+            "end": 558,
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

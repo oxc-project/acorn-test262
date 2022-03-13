@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 337,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 250,
+      "end": 336,
+      "expression": {
+        "type": "CallExpression",
+        "start": 250,
+        "end": 335,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 250,
+          "end": 266,
+          "object": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 256,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 257,
+            "end": 266,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 267,
+            "end": 286,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 267,
+              "end": 280,
+              "object": {
+                "type": "Identifier",
+                "start": 267,
+                "end": 272,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 273,
+                "end": 280,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ThisExpression",
+                "start": 281,
+                "end": 285
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 288,
+            "end": 293,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 295,
+            "end": 334,
+            "value": "Array.isArray(this) must return false",
+            "raw": "'Array.isArray(this) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

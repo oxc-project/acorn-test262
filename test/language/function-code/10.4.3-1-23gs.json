@@ -1,0 +1,160 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 475,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 325,
+      "end": 365,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 329,
+          "end": 365,
+          "id": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 330,
+            "name": "f"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 333,
+            "end": 365,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 345,
+              "end": 365,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 351,
+                  "end": 363,
+                  "argument": {
+                    "type": "ThisExpression",
+                    "start": 358,
+                    "end": 362
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 366,
+      "end": 474,
+      "test": {
+        "type": "LogicalExpression",
+        "start": 370,
+        "end": 428,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 370,
+          "end": 390,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 371,
+            "end": 389,
+            "left": {
+              "type": "ParenthesizedExpression",
+              "start": 371,
+              "end": 380,
+              "expression": {
+                "type": "NewExpression",
+                "start": 372,
+                "end": 379,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 376,
+                  "end": 377,
+                  "name": "f"
+                },
+                "arguments": []
+              }
+            },
+            "operator": "===",
+            "right": {
+              "type": "ThisExpression",
+              "start": 385,
+              "end": 389
+            }
+          }
+        },
+        "operator": "||",
+        "right": {
+          "type": "ParenthesizedExpression",
+          "start": 394,
+          "end": 428,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 395,
+            "end": 427,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 395,
+              "end": 411,
+              "operator": "typeof",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 402,
+                "end": 411,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 403,
+                  "end": 410,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 407,
+                    "end": 408,
+                    "name": "f"
+                  },
+                  "arguments": []
+                }
+              }
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 416,
+              "end": 427,
+              "value": "undefined",
+              "raw": "\"undefined\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 430,
+        "end": 474,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 436,
+            "end": 472,
+            "argument": {
+              "type": "Literal",
+              "start": 442,
+              "end": 471,
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

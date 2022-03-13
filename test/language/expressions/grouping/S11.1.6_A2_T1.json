@@ -1,0 +1,337 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 874,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 427,
+      "end": 547,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 431,
+        "end": 457,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 431,
+          "end": 441,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 438,
+            "end": 441,
+            "expression": {
+              "type": "Identifier",
+              "start": 439,
+              "end": 440,
+              "name": "x"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 446,
+          "end": 457,
+          "value": "undefined",
+          "raw": "\"undefined\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 459,
+        "end": 547,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 463,
+            "end": 545,
+            "argument": {
+              "type": "NewExpression",
+              "start": 469,
+              "end": 544,
+              "callee": {
+                "type": "Identifier",
+                "start": 473,
+                "end": 485,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 486,
+                  "end": 543,
+                  "left": {
+                    "type": "Literal",
+                    "start": 486,
+                    "end": 528,
+                    "value": "#1: typeof (x) === \"undefined\". Actual: ",
+                    "raw": "'#1: typeof (x) === \"undefined\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 531,
+                    "end": 543,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 532,
+                      "end": 542,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "ParenthesizedExpression",
+                        "start": 539,
+                        "end": 542,
+                        "expression": {
+                          "type": "Identifier",
+                          "start": 540,
+                          "end": 541,
+                          "name": "x"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 549,
+      "end": 565,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 553,
+          "end": 564,
+          "id": {
+            "type": "Identifier",
+            "start": 553,
+            "end": 559,
+            "name": "object"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 562,
+            "end": 564,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 576,
+      "end": 694,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 580,
+        "end": 609,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 580,
+          "end": 600,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 587,
+            "end": 600,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 588,
+              "end": 599,
+              "object": {
+                "type": "Identifier",
+                "start": 588,
+                "end": 594,
+                "name": "object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 595,
+                "end": 599,
+                "name": "prop"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 605,
+          "end": 609,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 611,
+        "end": 694,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 615,
+            "end": 692,
+            "argument": {
+              "type": "NewExpression",
+              "start": 621,
+              "end": 691,
+              "callee": {
+                "type": "Identifier",
+                "start": 625,
+                "end": 637,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 638,
+                  "end": 690,
+                  "value": "#2: var object = {}; delete (object.prop) === true",
+                  "raw": "'#2: var object = {}; delete (object.prop) === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 706,
+      "end": 873,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 710,
+        "end": 746,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 710,
+          "end": 730,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 717,
+            "end": 730,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 718,
+              "end": 729,
+              "object": {
+                "type": "Identifier",
+                "start": 718,
+                "end": 724,
+                "name": "object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 725,
+                "end": 729,
+                "name": "prop"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 735,
+          "end": 746,
+          "value": "undefined",
+          "raw": "\"undefined\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 748,
+        "end": 873,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 752,
+            "end": 871,
+            "argument": {
+              "type": "NewExpression",
+              "start": 758,
+              "end": 870,
+              "callee": {
+                "type": "Identifier",
+                "start": 762,
+                "end": 774,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 775,
+                  "end": 869,
+                  "left": {
+                    "type": "Literal",
+                    "start": 775,
+                    "end": 844,
+                    "value": "#3: var object = {}; typeof (object.prop) === \"undefined\". Actual: ",
+                    "raw": "'#3: var object = {}; typeof (object.prop) === \"undefined\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 847,
+                    "end": 869,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 848,
+                      "end": 868,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "ParenthesizedExpression",
+                        "start": 855,
+                        "end": 868,
+                        "expression": {
+                          "type": "MemberExpression",
+                          "start": 856,
+                          "end": 867,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 856,
+                            "end": 862,
+                            "name": "object"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 863,
+                            "end": 867,
+                            "name": "prop"
+                          },
+                          "computed": false,
+                          "optional": false
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

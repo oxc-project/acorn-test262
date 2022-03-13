@@ -1,0 +1,330 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 577,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 285,
+      "end": 295,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 289,
+          "end": 294,
+          "id": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 290,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 293,
+            "end": 294,
+            "value": 4,
+            "raw": "4"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 296,
+      "end": 316,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 300,
+          "end": 315,
+          "id": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 302,
+            "name": "x1"
+          },
+          "init": {
+            "type": "ParenthesizedExpression",
+            "start": 305,
+            "end": 315,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 306,
+              "end": 314,
+              "operator": ">>>=",
+              "left": {
+                "type": "Identifier",
+                "start": 306,
+                "end": 307,
+                "name": "x"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 313,
+                "end": 314,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 317,
+      "end": 425,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 321,
+        "end": 329,
+        "left": {
+          "type": "Identifier",
+          "start": 321,
+          "end": 323,
+          "name": "x1"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 328,
+          "end": 329,
+          "value": 2,
+          "raw": "2"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 331,
+        "end": 425,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 335,
+            "end": 423,
+            "argument": {
+              "type": "NewExpression",
+              "start": 341,
+              "end": 422,
+              "callee": {
+                "type": "Identifier",
+                "start": 345,
+                "end": 357,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 358,
+                  "end": 421,
+                  "left": {
+                    "type": "Literal",
+                    "start": 358,
+                    "end": 414,
+                    "value": "#1: var x = 4; var x1 = (x >>>= 1); x1 === 2. Actual: ",
+                    "raw": "'#1: var x = 4; var x1 = (x >>>= 1); x1 === 2. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 417,
+                    "end": 421,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 418,
+                      "end": 420,
+                      "name": "x1"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 437,
+      "end": 443,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 441,
+          "end": 442,
+          "id": {
+            "type": "Identifier",
+            "start": 441,
+            "end": 442,
+            "name": "y"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 444,
+      "end": 451,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 448,
+          "end": 450,
+          "id": {
+            "type": "Identifier",
+            "start": 448,
+            "end": 450,
+            "name": "y1"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 452,
+      "end": 458,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 452,
+        "end": 457,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 452,
+          "end": 453,
+          "name": "y"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 456,
+          "end": 457,
+          "value": 4,
+          "raw": "4"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 459,
+      "end": 475,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 459,
+        "end": 474,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 459,
+          "end": 461,
+          "name": "y1"
+        },
+        "right": {
+          "type": "ParenthesizedExpression",
+          "start": 464,
+          "end": 474,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 465,
+            "end": 473,
+            "operator": ">>>=",
+            "left": {
+              "type": "Identifier",
+              "start": 465,
+              "end": 466,
+              "name": "y"
+            },
+            "right": {
+              "type": "Literal",
+              "start": 472,
+              "end": 473,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 476,
+      "end": 576,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 480,
+        "end": 488,
+        "left": {
+          "type": "Identifier",
+          "start": 480,
+          "end": 482,
+          "name": "y1"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 487,
+          "end": 488,
+          "value": 2,
+          "raw": "2"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 490,
+        "end": 576,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 494,
+            "end": 574,
+            "argument": {
+              "type": "NewExpression",
+              "start": 500,
+              "end": 573,
+              "callee": {
+                "type": "Identifier",
+                "start": 504,
+                "end": 516,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 517,
+                  "end": 572,
+                  "left": {
+                    "type": "Literal",
+                    "start": 517,
+                    "end": 565,
+                    "value": "#2: y = 4; y1 = (y >>>= 1); y1 === 2. Actual: ",
+                    "raw": "'#2: y = 4; y1 = (y >>>= 1); y1 === 2. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 568,
+                    "end": 572,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 569,
+                      "end": 571,
+                      "name": "y1"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,247 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 858,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 656,
+      "end": 682,
+      "id": {
+        "type": "Identifier",
+        "start": 662,
+        "end": 664,
+        "name": "S1"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 673,
+        "end": 679,
+        "name": "Symbol"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 680,
+        "end": 682,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 684,
+      "end": 737,
+      "expression": {
+        "type": "CallExpression",
+        "start": 684,
+        "end": 736,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 684,
+          "end": 697,
+          "object": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 690,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 697,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 698,
+            "end": 707,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 709,
+            "end": 735,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 720,
+              "end": 735,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 724,
+                  "end": 733,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 724,
+                    "end": 732,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 728,
+                      "end": 730,
+                      "name": "S1"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 739,
+      "end": 801,
+      "id": {
+        "type": "Identifier",
+        "start": 745,
+        "end": 747,
+        "name": "S2"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 756,
+        "end": 762,
+        "name": "Symbol"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 763,
+        "end": 801,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 767,
+            "end": 799,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 767,
+              "end": 778,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 778,
+              "end": 799,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 781,
+                "end": 799,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 787,
+                    "end": 795,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 787,
+                      "end": 794,
+                      "callee": {
+                        "type": "Super",
+                        "start": 787,
+                        "end": 792
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 803,
+      "end": 856,
+      "expression": {
+        "type": "CallExpression",
+        "start": 803,
+        "end": 855,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 803,
+          "end": 816,
+          "object": {
+            "type": "Identifier",
+            "start": 803,
+            "end": 809,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 810,
+            "end": 816,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 817,
+            "end": 826,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 828,
+            "end": 854,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 839,
+              "end": 854,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 843,
+                  "end": 852,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 843,
+                    "end": 851,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 847,
+                      "end": 849,
+                      "name": "S2"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

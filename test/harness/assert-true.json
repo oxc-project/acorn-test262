@@ -1,0 +1,34 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 217,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 203,
+      "end": 216,
+      "expression": {
+        "type": "CallExpression",
+        "start": 203,
+        "end": 215,
+        "callee": {
+          "type": "Identifier",
+          "start": 203,
+          "end": 209,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 210,
+            "end": 214,
+            "value": true,
+            "raw": "true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

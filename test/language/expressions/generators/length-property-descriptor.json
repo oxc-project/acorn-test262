@@ -1,0 +1,197 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 446,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 291,
+      "end": 314,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 295,
+          "end": 313,
+          "id": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 296,
+            "name": "g"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 299,
+            "end": 313,
+            "id": null,
+            "expression": false,
+            "generator": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 311,
+              "end": 313,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 316,
+      "end": 346,
+      "expression": {
+        "type": "CallExpression",
+        "start": 316,
+        "end": 345,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 316,
+          "end": 332,
+          "object": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 322,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 332,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 333,
+            "end": 341,
+            "object": {
+              "type": "Identifier",
+              "start": 333,
+              "end": 334,
+              "name": "g"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 335,
+              "end": 341,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 343,
+            "end": 344,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 347,
+      "end": 380,
+      "expression": {
+        "type": "CallExpression",
+        "start": 347,
+        "end": 379,
+        "callee": {
+          "type": "Identifier",
+          "start": 347,
+          "end": 366,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 367,
+            "end": 368,
+            "name": "g"
+          },
+          {
+            "type": "Literal",
+            "start": 370,
+            "end": 378,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 381,
+      "end": 412,
+      "expression": {
+        "type": "CallExpression",
+        "start": 381,
+        "end": 411,
+        "callee": {
+          "type": "Identifier",
+          "start": 381,
+          "end": 398,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 399,
+            "end": 400,
+            "name": "g"
+          },
+          {
+            "type": "Literal",
+            "start": 402,
+            "end": 410,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 413,
+      "end": 445,
+      "expression": {
+        "type": "CallExpression",
+        "start": 413,
+        "end": 444,
+        "callee": {
+          "type": "Identifier",
+          "start": 413,
+          "end": 431,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 432,
+            "end": 433,
+            "name": "g"
+          },
+          {
+            "type": "Literal",
+            "start": 435,
+            "end": 443,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

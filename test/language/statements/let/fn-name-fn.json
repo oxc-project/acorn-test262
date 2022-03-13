@@ -1,0 +1,288 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 818,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 608,
+      "end": 634,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 612,
+          "end": 633,
+          "id": {
+            "type": "Identifier",
+            "start": 612,
+            "end": 615,
+            "name": "xFn"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 618,
+            "end": 633,
+            "id": {
+              "type": "Identifier",
+              "start": 627,
+              "end": 628,
+              "name": "x"
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 631,
+              "end": 633,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 635,
+      "end": 658,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 639,
+          "end": 657,
+          "id": {
+            "type": "Identifier",
+            "start": 639,
+            "end": 641,
+            "name": "fn"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 644,
+            "end": 657,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 655,
+              "end": 657,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 660,
+      "end": 687,
+      "expression": {
+        "type": "CallExpression",
+        "start": 660,
+        "end": 686,
+        "callee": {
+          "type": "Identifier",
+          "start": 660,
+          "end": 666,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 667,
+            "end": 685,
+            "left": {
+              "type": "MemberExpression",
+              "start": 667,
+              "end": 675,
+              "object": {
+                "type": "Identifier",
+                "start": 667,
+                "end": 670,
+                "name": "xFn"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 671,
+                "end": 675,
+                "name": "name"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 680,
+              "end": 685,
+              "value": "xFn",
+              "raw": "'xFn'"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 689,
+      "end": 721,
+      "expression": {
+        "type": "CallExpression",
+        "start": 689,
+        "end": 720,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 689,
+          "end": 705,
+          "object": {
+            "type": "Identifier",
+            "start": 689,
+            "end": 695,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 705,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 706,
+            "end": 713,
+            "object": {
+              "type": "Identifier",
+              "start": 706,
+              "end": 708,
+              "name": "fn"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 709,
+              "end": 713,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 715,
+            "end": 719,
+            "value": "fn",
+            "raw": "'fn'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 722,
+      "end": 754,
+      "expression": {
+        "type": "CallExpression",
+        "start": 722,
+        "end": 753,
+        "callee": {
+          "type": "Identifier",
+          "start": 722,
+          "end": 741,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 742,
+            "end": 744,
+            "name": "fn"
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 752,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 755,
+      "end": 785,
+      "expression": {
+        "type": "CallExpression",
+        "start": 755,
+        "end": 784,
+        "callee": {
+          "type": "Identifier",
+          "start": 755,
+          "end": 772,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 773,
+            "end": 775,
+            "name": "fn"
+          },
+          {
+            "type": "Literal",
+            "start": 777,
+            "end": 783,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 786,
+      "end": 817,
+      "expression": {
+        "type": "CallExpression",
+        "start": 786,
+        "end": 816,
+        "callee": {
+          "type": "Identifier",
+          "start": 786,
+          "end": 804,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 805,
+            "end": 807,
+            "name": "fn"
+          },
+          {
+            "type": "Literal",
+            "start": 809,
+            "end": 815,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

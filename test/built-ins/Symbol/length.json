@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 518,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 328,
+      "end": 402,
+      "expression": {
+        "type": "CallExpression",
+        "start": 328,
+        "end": 401,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 328,
+          "end": 344,
+          "object": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 334,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 335,
+            "end": 344,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 345,
+            "end": 358,
+            "object": {
+              "type": "Identifier",
+              "start": 345,
+              "end": 351,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 352,
+              "end": 358,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 361,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 363,
+            "end": 400,
+            "value": "The value of `Symbol.length` is `0`",
+            "raw": "\"The value of `Symbol.length` is `0`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 404,
+      "end": 442,
+      "expression": {
+        "type": "CallExpression",
+        "start": 404,
+        "end": 441,
+        "callee": {
+          "type": "Identifier",
+          "start": 404,
+          "end": 423,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 424,
+            "end": 430,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 432,
+            "end": 440,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 443,
+      "end": 479,
+      "expression": {
+        "type": "CallExpression",
+        "start": 443,
+        "end": 478,
+        "callee": {
+          "type": "Identifier",
+          "start": 443,
+          "end": 460,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 461,
+            "end": 467,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 469,
+            "end": 477,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 480,
+      "end": 517,
+      "expression": {
+        "type": "CallExpression",
+        "start": 480,
+        "end": 516,
+        "callee": {
+          "type": "Identifier",
+          "start": 480,
+          "end": 498,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 499,
+            "end": 505,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 507,
+            "end": 515,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

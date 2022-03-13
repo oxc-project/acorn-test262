@@ -1,0 +1,250 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 884,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 651,
+      "end": 724,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 657,
+          "end": 723,
+          "id": {
+            "type": "Identifier",
+            "start": 657,
+            "end": 665,
+            "name": "duration"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 668,
+            "end": 723,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 672,
+              "end": 689,
+              "object": {
+                "type": "Identifier",
+                "start": 672,
+                "end": 680,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 681,
+                "end": 689,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 690,
+                "end": 691,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 693,
+                "end": 694,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 696,
+                "end": 697,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "Literal",
+                "start": 699,
+                "end": 700,
+                "value": 4,
+                "raw": "4"
+              },
+              {
+                "type": "Literal",
+                "start": 702,
+                "end": 703,
+                "value": 5,
+                "raw": "5"
+              },
+              {
+                "type": "Literal",
+                "start": 705,
+                "end": 706,
+                "value": 6,
+                "raw": "6"
+              },
+              {
+                "type": "Literal",
+                "start": 708,
+                "end": 709,
+                "value": 7,
+                "raw": "7"
+              },
+              {
+                "type": "Literal",
+                "start": 711,
+                "end": 714,
+                "value": 987,
+                "raw": "987"
+              },
+              {
+                "type": "Literal",
+                "start": 716,
+                "end": 719,
+                "value": 650,
+                "raw": "650"
+              },
+              {
+                "type": "Literal",
+                "start": 721,
+                "end": 722,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 726,
+      "end": 792,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 732,
+          "end": 791,
+          "id": {
+            "type": "Identifier",
+            "start": 732,
+            "end": 738,
+            "name": "string"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 741,
+            "end": 791,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 741,
+              "end": 758,
+              "object": {
+                "type": "Identifier",
+                "start": 741,
+                "end": 749,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 750,
+                "end": 758,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 759,
+                "end": 790,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 761,
+                    "end": 788,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 761,
+                      "end": 783,
+                      "name": "fractionalSecondDigits"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 785,
+                      "end": 788,
+                      "value": 2.5,
+                      "raw": "2.5"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 793,
+      "end": 883,
+      "expression": {
+        "type": "CallExpression",
+        "start": 793,
+        "end": 882,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 793,
+          "end": 809,
+          "object": {
+            "type": "Identifier",
+            "start": 793,
+            "end": 799,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 800,
+            "end": 809,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 810,
+            "end": 816,
+            "name": "string"
+          },
+          {
+            "type": "Literal",
+            "start": 818,
+            "end": 839,
+            "value": "P1Y2M3W4DT5H6M7.98S",
+            "raw": "\"P1Y2M3W4DT5H6M7.98S\""
+          },
+          {
+            "type": "Literal",
+            "start": 841,
+            "end": 881,
+            "value": "fractionalSecondDigits 2.5 floors to 2",
+            "raw": "\"fractionalSecondDigits 2.5 floors to 2\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

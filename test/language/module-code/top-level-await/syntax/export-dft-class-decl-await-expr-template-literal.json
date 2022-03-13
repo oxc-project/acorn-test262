@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2176,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 2047,
+      "end": 2088,
+      "id": {
+        "type": "Identifier",
+        "start": 2056,
+        "end": 2058,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 2061,
+        "end": 2088,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 2065,
+            "end": 2086,
+            "argument": {
+              "type": "FunctionExpression",
+              "start": 2072,
+              "end": 2085,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2083,
+                "end": 2085,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 2130,
+      "end": 2174,
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 2145,
+        "end": 2174,
+        "id": null,
+        "superClass": {
+          "type": "CallExpression",
+          "start": 2159,
+          "end": 2171,
+          "callee": {
+            "type": "Identifier",
+            "start": 2159,
+            "end": 2161,
+            "name": "fn"
+          },
+          "arguments": [
+            {
+              "type": "AwaitExpression",
+              "start": 2162,
+              "end": 2170,
+              "argument": {
+                "type": "TemplateLiteral",
+                "start": 2168,
+                "end": 2170,
+                "expressions": [],
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 2169,
+                    "end": 2169,
+                    "value": {
+                      "raw": "",
+                      "cooked": ""
+                    },
+                    "tail": true
+                  }
+                ]
+              }
+            }
+          ],
+          "optional": false
+        },
+        "body": {
+          "type": "ClassBody",
+          "start": 2172,
+          "end": 2174,
+          "body": []
+        }
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2174,
+      "end": 2175
+    }
+  ],
+  "sourceType": "module"
+}

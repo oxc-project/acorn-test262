@@ -1,0 +1,92 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 782,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 638,
+      "end": 728,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 642,
+          "end": 727,
+          "id": {
+            "type": "Identifier",
+            "start": 642,
+            "end": 653,
+            "name": "passthrough"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 656,
+            "end": 727,
+            "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@*_+-./",
+            "raw": "'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@*_+-./'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 730,
+      "end": 781,
+      "expression": {
+        "type": "CallExpression",
+        "start": 730,
+        "end": 780,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 730,
+          "end": 746,
+          "object": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 736,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 737,
+            "end": 746,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 747,
+            "end": 766,
+            "callee": {
+              "type": "Identifier",
+              "start": 747,
+              "end": 753,
+              "name": "escape"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 754,
+                "end": 765,
+                "name": "passthrough"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 768,
+            "end": 779,
+            "name": "passthrough"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,177 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 675,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 546,
+      "end": 559,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 550,
+          "end": 558,
+          "id": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 553,
+            "name": "foo"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 556,
+            "end": 558,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 560,
+      "end": 598,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 564,
+          "end": 597,
+          "id": {
+            "type": "Identifier",
+            "start": 564,
+            "end": 567,
+            "name": "map"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 570,
+            "end": 597,
+            "callee": {
+              "type": "Identifier",
+              "start": 574,
+              "end": 581,
+              "name": "WeakMap"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 582,
+                "end": 596,
+                "elements": [
+                  {
+                    "type": "ArrayExpression",
+                    "start": 586,
+                    "end": 594,
+                    "elements": [
+                      {
+                        "type": "Identifier",
+                        "start": 587,
+                        "end": 590,
+                        "name": "foo"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 592,
+                        "end": 593,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 600,
+      "end": 674,
+      "expression": {
+        "type": "CallExpression",
+        "start": 600,
+        "end": 673,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 600,
+          "end": 616,
+          "object": {
+            "type": "Identifier",
+            "start": 600,
+            "end": 606,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 607,
+            "end": 616,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 617,
+            "end": 632,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 617,
+              "end": 624,
+              "object": {
+                "type": "Identifier",
+                "start": 617,
+                "end": 620,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 621,
+                "end": 624,
+                "name": "set"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 625,
+                "end": 628,
+                "name": "foo"
+              },
+              {
+                "type": "Literal",
+                "start": 630,
+                "end": 631,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 634,
+            "end": 637,
+            "name": "map"
+          },
+          {
+            "type": "Literal",
+            "start": 639,
+            "end": 672,
+            "value": "`map.set(foo, 1)` returns `map`",
+            "raw": "'`map.set(foo, 1)` returns `map`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,182 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 771,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 289,
+      "end": 342,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 293,
+          "end": 341,
+          "id": {
+            "type": "Identifier",
+            "start": 293,
+            "end": 301,
+            "name": "__string"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 304,
+            "end": 341,
+            "callee": {
+              "type": "Identifier",
+              "start": 308,
+              "end": 314,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 315,
+                "end": 340,
+                "value": "this is a string object",
+                "raw": "'this is a string object'"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 433,
+      "end": 688,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 437,
+        "end": 496,
+        "left": {
+          "type": "CallExpression",
+          "start": 437,
+          "end": 466,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 437,
+            "end": 451,
+            "object": {
+              "type": "Identifier",
+              "start": 437,
+              "end": 445,
+              "name": "__string"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 446,
+              "end": 451,
+              "name": "slice"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 452,
+              "end": 455,
+              "name": "NaN"
+            },
+            {
+              "type": "Identifier",
+              "start": 457,
+              "end": 465,
+              "name": "Infinity"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 471,
+          "end": 496,
+          "value": "this is a string object",
+          "raw": "\"this is a string object\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 498,
+        "end": 688,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 502,
+            "end": 686,
+            "argument": {
+              "type": "NewExpression",
+              "start": 508,
+              "end": 685,
+              "callee": {
+                "type": "Identifier",
+                "start": 512,
+                "end": 524,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 525,
+                  "end": 684,
+                  "left": {
+                    "type": "Literal",
+                    "start": 525,
+                    "end": 652,
+                    "value": "#1: __string = new String('this is a string object'); __string.slice(NaN, Infinity) === \"this is a string object\". Actual: ",
+                    "raw": "'#1: __string = new String(\\'this is a string object\\'); __string.slice(NaN, Infinity) === \"this is a string object\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 655,
+                    "end": 684,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 655,
+                      "end": 669,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 655,
+                        "end": 663,
+                        "name": "__string"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 664,
+                        "end": 669,
+                        "name": "slice"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 670,
+                        "end": 673,
+                        "name": "NaN"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 675,
+                        "end": 683,
+                        "name": "Infinity"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

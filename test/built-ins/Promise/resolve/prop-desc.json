@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 581,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 464,
+      "end": 504,
+      "expression": {
+        "type": "CallExpression",
+        "start": 464,
+        "end": 503,
+        "callee": {
+          "type": "Identifier",
+          "start": 464,
+          "end": 483,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 484,
+            "end": 491,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 493,
+            "end": 502,
+            "value": "resolve",
+            "raw": "'resolve'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 505,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 505,
+        "end": 539,
+        "callee": {
+          "type": "Identifier",
+          "start": 505,
+          "end": 519,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 520,
+            "end": 527,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 529,
+            "end": 538,
+            "value": "resolve",
+            "raw": "'resolve'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 541,
+      "end": 580,
+      "expression": {
+        "type": "CallExpression",
+        "start": 541,
+        "end": 579,
+        "callee": {
+          "type": "Identifier",
+          "start": 541,
+          "end": 559,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 560,
+            "end": 567,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 569,
+            "end": 578,
+            "value": "resolve",
+            "raw": "'resolve'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

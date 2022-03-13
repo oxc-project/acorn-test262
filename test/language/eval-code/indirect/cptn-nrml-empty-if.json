@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 389,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 334,
+      "end": 388,
+      "expression": {
+        "type": "CallExpression",
+        "start": 334,
+        "end": 387,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 334,
+          "end": 350,
+          "object": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 340,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 350,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 351,
+            "end": 375,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 351,
+              "end": 359,
+              "expression": {
+                "type": "SequenceExpression",
+                "start": 352,
+                "end": 358,
+                "expressions": [
+                  {
+                    "type": "Literal",
+                    "start": 352,
+                    "end": 353,
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 354,
+                    "end": 358,
+                    "name": "eval"
+                  }
+                ]
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 360,
+                "end": 374,
+                "value": "if (false) ;",
+                "raw": "\"if (false) ;\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 377,
+            "end": 386,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

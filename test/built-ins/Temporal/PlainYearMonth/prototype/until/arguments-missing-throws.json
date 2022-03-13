@@ -1,0 +1,289 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 532,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 283,
+      "end": 334,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 289,
+          "end": 333,
+          "id": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 294,
+            "name": "jun13"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 297,
+            "end": 333,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 301,
+              "end": 324,
+              "object": {
+                "type": "Identifier",
+                "start": 301,
+                "end": 309,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 310,
+                "end": 324,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 325,
+                "end": 329,
+                "value": 2013,
+                "raw": "2013"
+              },
+              {
+                "type": "Literal",
+                "start": 331,
+                "end": 332,
+                "value": 6,
+                "raw": "6"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 336,
+      "end": 434,
+      "expression": {
+        "type": "CallExpression",
+        "start": 336,
+        "end": 433,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 336,
+          "end": 349,
+          "object": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 342,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 349,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 350,
+            "end": 359,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 361,
+            "end": 394,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 367,
+              "end": 394,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 367,
+                "end": 378,
+                "object": {
+                  "type": "Identifier",
+                  "start": 367,
+                  "end": 372,
+                  "name": "jun13"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 373,
+                  "end": 378,
+                  "name": "until"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 379,
+                  "end": 393,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 381,
+                      "end": 391,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 381,
+                        "end": 385,
+                        "name": "year"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 387,
+                        "end": 391,
+                        "value": 1994,
+                        "raw": "1994"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 396,
+            "end": 432,
+            "value": "Throws when missing required month",
+            "raw": "'Throws when missing required month'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 435,
+      "end": 531,
+      "expression": {
+        "type": "CallExpression",
+        "start": 435,
+        "end": 530,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 435,
+          "end": 448,
+          "object": {
+            "type": "Identifier",
+            "start": 435,
+            "end": 441,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 448,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 449,
+            "end": 458,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 460,
+            "end": 492,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 466,
+              "end": 492,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 466,
+                "end": 477,
+                "object": {
+                  "type": "Identifier",
+                  "start": 466,
+                  "end": 471,
+                  "name": "jun13"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 472,
+                  "end": 477,
+                  "name": "until"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 478,
+                  "end": 491,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 480,
+                      "end": 489,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 480,
+                        "end": 485,
+                        "name": "month"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 487,
+                        "end": 489,
+                        "value": 11,
+                        "raw": "11"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 494,
+            "end": 529,
+            "value": "Throws when missing required year",
+            "raw": "'Throws when missing required year'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

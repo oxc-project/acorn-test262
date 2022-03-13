@@ -1,0 +1,240 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 779,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 397,
+      "end": 546,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 401,
+          "end": 546,
+          "id": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 410,
+            "name": "utcRegExp"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 413,
+            "end": 546,
+            "value": {},
+            "raw": "/^(Sun|Mon|Tue|Wed|Thu|Fri|Sat), [0-9]{2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) [0-9]{4} [0-9]{2}:[0-9]{2}:[0-9]{2} GMT$/",
+            "regex": {
+              "pattern": "^(Sun|Mon|Tue|Wed|Thu|Fri|Sat), [0-9]{2} (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) [0-9]{4} [0-9]{2}:[0-9]{2}:[0-9]{2} GMT$",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 547,
+      "end": 600,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 551,
+          "end": 599,
+          "id": {
+            "type": "Identifier",
+            "start": 551,
+            "end": 556,
+            "name": "match"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 559,
+            "end": 599,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 559,
+              "end": 573,
+              "object": {
+                "type": "Identifier",
+                "start": 559,
+                "end": 568,
+                "name": "utcRegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 569,
+                "end": 573,
+                "name": "exec"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 574,
+                "end": 598,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 574,
+                  "end": 596,
+                  "object": {
+                    "type": "NewExpression",
+                    "start": 574,
+                    "end": 584,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 578,
+                      "end": 582,
+                      "name": "Date"
+                    },
+                    "arguments": []
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 585,
+                    "end": 596,
+                    "name": "toUTCString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 601,
+      "end": 634,
+      "expression": {
+        "type": "CallExpression",
+        "start": 601,
+        "end": 633,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 601,
+          "end": 620,
+          "object": {
+            "type": "Identifier",
+            "start": 601,
+            "end": 607,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 608,
+            "end": 620,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 621,
+            "end": 625,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "Identifier",
+            "start": 627,
+            "end": 632,
+            "name": "match"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 680,
+      "end": 778,
+      "expression": {
+        "type": "CallExpression",
+        "start": 680,
+        "end": 777,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 680,
+          "end": 696,
+          "object": {
+            "type": "Identifier",
+            "start": 680,
+            "end": 686,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 687,
+            "end": 696,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 697,
+            "end": 728,
+            "value": "Wed, 01 Jan 0020 00:00:00 GMT",
+            "raw": "'Wed, 01 Jan 0020 00:00:00 GMT'"
+          },
+          {
+            "type": "CallExpression",
+            "start": 730,
+            "end": 776,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 730,
+              "end": 774,
+              "object": {
+                "type": "NewExpression",
+                "start": 730,
+                "end": 762,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 734,
+                  "end": 738,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 739,
+                    "end": 761,
+                    "value": "0020-01-01T00:00:00Z",
+                    "raw": "'0020-01-01T00:00:00Z'"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 763,
+                "end": 774,
+                "name": "toUTCString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

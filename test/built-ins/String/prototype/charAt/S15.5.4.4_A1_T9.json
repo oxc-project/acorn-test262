@@ -1,0 +1,193 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 769,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 460,
+      "end": 686,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 464,
+        "end": 510,
+        "left": {
+          "type": "CallExpression",
+          "start": 464,
+          "end": 502,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 464,
+            "end": 485,
+            "object": {
+              "type": "NewExpression",
+              "start": 464,
+              "end": 478,
+              "callee": {
+                "type": "Identifier",
+                "start": 468,
+                "end": 474,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 475,
+                  "end": 477,
+                  "value": 42,
+                  "raw": "42"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 479,
+              "end": 485,
+              "name": "charAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "CallExpression",
+              "start": 486,
+              "end": 501,
+              "callee": {
+                "type": "FunctionExpression",
+                "start": 486,
+                "end": 499,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 497,
+                  "end": 499,
+                  "body": []
+                }
+              },
+              "arguments": [],
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 507,
+          "end": 510,
+          "value": "4",
+          "raw": "\"4\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 512,
+        "end": 686,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 516,
+            "end": 684,
+            "argument": {
+              "type": "NewExpression",
+              "start": 522,
+              "end": 683,
+              "callee": {
+                "type": "Identifier",
+                "start": 526,
+                "end": 538,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 539,
+                  "end": 682,
+                  "left": {
+                    "type": "Literal",
+                    "start": 539,
+                    "end": 641,
+                    "value": "#1: new String(42).charAt(function(){}()) === \"4\". Actual: new String(42).charAt(function(){}()) ===",
+                    "raw": "'#1: new String(42).charAt(function(){}()) === \"4\". Actual: new String(42).charAt(function(){}()) ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 644,
+                    "end": 682,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 644,
+                      "end": 665,
+                      "object": {
+                        "type": "NewExpression",
+                        "start": 644,
+                        "end": 658,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 648,
+                          "end": 654,
+                          "name": "String"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 655,
+                            "end": 657,
+                            "value": 42,
+                            "raw": "42"
+                          }
+                        ]
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 659,
+                        "end": 665,
+                        "name": "charAt"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 666,
+                        "end": 681,
+                        "callee": {
+                          "type": "FunctionExpression",
+                          "start": 666,
+                          "end": 679,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 677,
+                            "end": 679,
+                            "body": []
+                          }
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

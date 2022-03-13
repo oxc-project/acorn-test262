@@ -1,0 +1,321 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1199,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 948,
+      "end": 962,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 952,
+          "end": 961,
+          "id": {
+            "type": "Identifier",
+            "start": 952,
+            "end": 961,
+            "name": "stringSet"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 964,
+      "end": 1064,
+      "id": {
+        "type": "Identifier",
+        "start": 970,
+        "end": 971,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 972,
+        "end": 1064,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 976,
+            "end": 1016,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Literal",
+              "start": 980,
+              "end": 989,
+              "value": 1e-7,
+              "raw": "0.0000001"
+            },
+            "kind": "get",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 989,
+              "end": 1016,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 992,
+                "end": 1016,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 994,
+                    "end": 1014,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 1001,
+                      "end": 1013,
+                      "value": "get string",
+                      "raw": "'get string'"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 1019,
+            "end": 1062,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Literal",
+              "start": 1023,
+              "end": 1032,
+              "value": 1e-7,
+              "raw": "0.0000001"
+            },
+            "kind": "set",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1032,
+              "end": 1062,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 1033,
+                  "end": 1038,
+                  "name": "param"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1040,
+                "end": 1062,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 1042,
+                    "end": 1060,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 1042,
+                      "end": 1059,
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "start": 1042,
+                        "end": 1051,
+                        "name": "stringSet"
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 1054,
+                        "end": 1059,
+                        "name": "param"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1066,
+      "end": 1118,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1066,
+        "end": 1117,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1066,
+          "end": 1082,
+          "object": {
+            "type": "Identifier",
+            "start": 1066,
+            "end": 1072,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1073,
+            "end": 1082,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1083,
+            "end": 1102,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1083,
+              "end": 1094,
+              "object": {
+                "type": "Identifier",
+                "start": 1083,
+                "end": 1084,
+                "name": "C"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1085,
+                "end": 1094,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Literal",
+              "start": 1095,
+              "end": 1101,
+              "value": "1e-7",
+              "raw": "'1e-7'"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1104,
+            "end": 1116,
+            "value": "get string",
+            "raw": "'get string'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1120,
+      "end": 1155,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1120,
+        "end": 1154,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1120,
+          "end": 1139,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1120,
+            "end": 1131,
+            "object": {
+              "type": "Identifier",
+              "start": 1120,
+              "end": 1121,
+              "name": "C"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1122,
+              "end": 1131,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 1132,
+            "end": 1138,
+            "value": "1e-7",
+            "raw": "'1e-7'"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1142,
+          "end": 1154,
+          "value": "set string",
+          "raw": "'set string'"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1156,
+      "end": 1198,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1156,
+        "end": 1197,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1156,
+          "end": 1172,
+          "object": {
+            "type": "Identifier",
+            "start": 1156,
+            "end": 1162,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1163,
+            "end": 1172,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1173,
+            "end": 1182,
+            "name": "stringSet"
+          },
+          {
+            "type": "Literal",
+            "start": 1184,
+            "end": 1196,
+            "value": "set string",
+            "raw": "'set string'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

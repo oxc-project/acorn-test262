@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 534,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 267,
+      "end": 394,
+      "expression": {
+        "type": "CallExpression",
+        "start": 267,
+        "end": 393,
+        "callee": {
+          "type": "Identifier",
+          "start": 267,
+          "end": 273,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 277,
+            "end": 312,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 278,
+              "end": 312,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 278,
+                "end": 303,
+                "object": {
+                  "type": "Identifier",
+                  "start": 278,
+                  "end": 282,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 283,
+                  "end": 303,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 304,
+                  "end": 311,
+                  "value": "parse",
+                  "raw": "'parse'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 316,
+            "end": 391,
+            "value": "The value of !Date.propertyIsEnumerable('parse') is expected to be true",
+            "raw": "'The value of !Date.propertyIsEnumerable(\\'parse\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 396,
+      "end": 487,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 401,
+        "end": 406,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 405,
+            "end": 406,
+            "id": {
+              "type": "Identifier",
+              "start": 405,
+              "end": 406,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 410,
+        "end": 414,
+        "name": "Date"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 416,
+        "end": 487,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 420,
+            "end": 485,
+            "expression": {
+              "type": "CallExpression",
+              "start": 420,
+              "end": 484,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 420,
+                "end": 439,
+                "object": {
+                  "type": "Identifier",
+                  "start": 420,
+                  "end": 426,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 427,
+                  "end": 439,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 440,
+                  "end": 441,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 443,
+                  "end": 450,
+                  "value": "parse",
+                  "raw": "\"parse\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 452,
+                  "end": 483,
+                  "value": "The value of x is not \"parse\"",
+                  "raw": "'The value of x is not \"parse\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

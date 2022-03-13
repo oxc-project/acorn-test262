@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 352,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 245,
+      "end": 351,
+      "expression": {
+        "type": "CallExpression",
+        "start": 245,
+        "end": 350,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 245,
+          "end": 261,
+          "object": {
+            "type": "Identifier",
+            "start": 245,
+            "end": 251,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 261,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 262,
+            "end": 291,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 262,
+              "end": 275,
+              "object": {
+                "type": "Identifier",
+                "start": 262,
+                "end": 267,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 268,
+                "end": 275,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 276,
+                "end": 290,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 280,
+                  "end": 286,
+                  "name": "Number"
+                },
+                "arguments": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 287,
+                    "end": 289,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 288,
+                      "end": 289,
+                      "value": 3,
+                      "raw": "3"
+                    }
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 293,
+            "end": 298,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 300,
+            "end": 349,
+            "value": "Array.isArray(new Number(-3)) must return false",
+            "raw": "'Array.isArray(new Number(-3)) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

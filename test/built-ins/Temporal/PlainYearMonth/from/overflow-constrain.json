@@ -1,0 +1,238 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 523,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 278,
+      "end": 324,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 284,
+          "end": 323,
+          "id": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 295,
+            "name": "propertyBag"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 298,
+            "end": 323,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 300,
+                "end": 310,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 300,
+                  "end": 304,
+                  "name": "year"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 306,
+                  "end": 310,
+                  "value": 2000,
+                  "raw": "2000"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 312,
+                "end": 321,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 312,
+                  "end": 317,
+                  "name": "month"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 319,
+                  "end": 321,
+                  "value": 13,
+                  "raw": "13"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 325,
+      "end": 417,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 331,
+          "end": 416,
+          "id": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 345,
+            "name": "plainYearMonth"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 348,
+            "end": 416,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 348,
+              "end": 376,
+              "object": {
+                "type": "MemberExpression",
+                "start": 348,
+                "end": 371,
+                "object": {
+                  "type": "Identifier",
+                  "start": 348,
+                  "end": 356,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 357,
+                  "end": 371,
+                  "name": "PlainYearMonth"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 372,
+                "end": 376,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 377,
+                "end": 388,
+                "name": "propertyBag"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 390,
+                "end": 415,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 392,
+                    "end": 413,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 392,
+                      "end": 400,
+                      "name": "overflow"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 402,
+                      "end": 413,
+                      "value": "constrain",
+                      "raw": "\"constrain\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 418,
+      "end": 521,
+      "expression": {
+        "type": "CallExpression",
+        "start": 418,
+        "end": 520,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 418,
+          "end": 454,
+          "object": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 433,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 454,
+            "name": "assertPlainYearMonth"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 455,
+            "end": 469,
+            "name": "plainYearMonth"
+          },
+          {
+            "type": "Literal",
+            "start": 471,
+            "end": 475,
+            "value": 2000,
+            "raw": "2000"
+          },
+          {
+            "type": "Literal",
+            "start": 477,
+            "end": 479,
+            "value": 12,
+            "raw": "12"
+          },
+          {
+            "type": "Literal",
+            "start": 481,
+            "end": 486,
+            "value": "M12",
+            "raw": "\"M12\""
+          },
+          {
+            "type": "Literal",
+            "start": 488,
+            "end": 519,
+            "value": "default overflow is constrain",
+            "raw": "\"default overflow is constrain\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

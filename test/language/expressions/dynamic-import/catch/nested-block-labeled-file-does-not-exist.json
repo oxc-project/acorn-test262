@@ -1,0 +1,178 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1397,
+  "body": [
+    {
+      "type": "LabeledStatement",
+      "start": 1247,
+      "end": 1395,
+      "body": {
+        "type": "BlockStatement",
+        "start": 1254,
+        "end": 1395,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1258,
+            "end": 1393,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1258,
+              "end": 1392,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1258,
+                "end": 1378,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 1258,
+                  "end": 1373,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 1258,
+                    "end": 1303,
+                    "object": {
+                      "type": "ImportExpression",
+                      "start": 1258,
+                      "end": 1297,
+                      "source": {
+                        "type": "Literal",
+                        "start": 1265,
+                        "end": 1296,
+                        "value": "./THIS_FILE_DOES_NOT_EXIST.js",
+                        "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'"
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1298,
+                      "end": 1303,
+                      "name": "catch"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "ArrowFunctionExpression",
+                      "start": 1304,
+                      "end": 1372,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 1304,
+                          "end": 1309,
+                          "name": "error"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 1313,
+                        "end": 1372,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 1320,
+                            "end": 1367,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 1320,
+                              "end": 1366,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 1320,
+                                "end": 1339,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 1320,
+                                  "end": 1326,
+                                  "name": "assert"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 1327,
+                                  "end": 1339,
+                                  "name": "notSameValue"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "UnaryExpression",
+                                  "start": 1340,
+                                  "end": 1352,
+                                  "operator": "typeof",
+                                  "prefix": true,
+                                  "argument": {
+                                    "type": "Identifier",
+                                    "start": 1347,
+                                    "end": 1352,
+                                    "name": "error"
+                                  }
+                                },
+                                {
+                                  "type": "Literal",
+                                  "start": 1354,
+                                  "end": 1365,
+                                  "value": "undefined",
+                                  "raw": "'undefined'"
+                                }
+                              ],
+                              "optional": false
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1374,
+                  "end": 1378,
+                  "name": "then"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1379,
+                  "end": 1384,
+                  "name": "$DONE"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1386,
+                  "end": 1391,
+                  "name": "$DONE"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "label": {
+        "type": "Identifier",
+        "start": 1247,
+        "end": 1252,
+        "name": "label"
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1395,
+      "end": 1396
+    }
+  ],
+  "sourceType": "script"
+}

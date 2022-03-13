@@ -1,0 +1,216 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 949,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 838,
+      "end": 859,
+      "id": {
+        "type": "Identifier",
+        "start": 847,
+        "end": 850,
+        "name": "fn1"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 851,
+          "end": 855,
+          "elements": [
+            {
+              "type": "ObjectPattern",
+              "start": 852,
+              "end": 854,
+              "properties": []
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 857,
+        "end": 859,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 861,
+      "end": 887,
+      "id": {
+        "type": "Identifier",
+        "start": 870,
+        "end": 873,
+        "name": "fn2"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 874,
+          "end": 883,
+          "elements": [
+            {
+              "type": "AssignmentPattern",
+              "start": 875,
+              "end": 882,
+              "left": {
+                "type": "ObjectPattern",
+                "start": 875,
+                "end": 877,
+                "properties": []
+              },
+              "right": {
+                "type": "Literal",
+                "start": 880,
+                "end": 882,
+                "value": 42,
+                "raw": "42"
+              }
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 885,
+        "end": 887,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 889,
+      "end": 917,
+      "id": {
+        "type": "Identifier",
+        "start": 898,
+        "end": 901,
+        "name": "fn3"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 902,
+          "end": 913,
+          "elements": [
+            {
+              "type": "Identifier",
+              "start": 903,
+              "end": 904,
+              "name": "a"
+            },
+            {
+              "type": "ObjectPattern",
+              "start": 906,
+              "end": 912,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 907,
+                  "end": 911,
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 907,
+                    "end": 908,
+                    "name": "b"
+                  },
+                  "value": {
+                    "type": "Identifier",
+                    "start": 910,
+                    "end": 911,
+                    "name": "c"
+                  },
+                  "kind": "init"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 915,
+        "end": 917,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 919,
+      "end": 948,
+      "id": {
+        "type": "Identifier",
+        "start": 928,
+        "end": 931,
+        "name": "fn4"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 932,
+          "end": 944,
+          "elements": [
+            {
+              "type": "Identifier",
+              "start": 933,
+              "end": 934,
+              "name": "a"
+            },
+            {
+              "type": "ObjectPattern",
+              "start": 936,
+              "end": 943,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 937,
+                  "end": 942,
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 937,
+                    "end": 938,
+                    "name": "b"
+                  },
+                  "value": {
+                    "type": "ArrayPattern",
+                    "start": 940,
+                    "end": 942,
+                    "elements": []
+                  },
+                  "kind": "init"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 946,
+        "end": 948,
+        "body": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 959,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 951,
+      "end": 953,
+      "body": []
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 953,
+      "end": 958,
+      "expression": {
+        "type": "ArrayExpression",
+        "start": 953,
+        "end": 957,
+        "elements": [
+          {
+            "type": "Literal",
+            "start": 954,
+            "end": 956,
+            "value": 42,
+            "raw": "42"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,219 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 574,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 408,
+      "end": 535,
+      "id": {
+        "type": "Identifier",
+        "start": 423,
+        "end": 438,
+        "name": "checkAssertions"
+      },
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 441,
+        "end": 535,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 445,
+            "end": 487,
+            "expression": {
+              "type": "CallExpression",
+              "start": 445,
+              "end": 486,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 445,
+                "end": 461,
+                "object": {
+                  "type": "Identifier",
+                  "start": 445,
+                  "end": 451,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 452,
+                  "end": 461,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "AwaitExpression",
+                  "start": 462,
+                  "end": 480,
+                  "argument": {
+                    "type": "ChainExpression",
+                    "start": 468,
+                    "end": 480,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 468,
+                      "end": 480,
+                      "object": {
+                        "type": "Literal",
+                        "start": 468,
+                        "end": 475,
+                        "value": "hello",
+                        "raw": "\"hello\""
+                      },
+                      "property": {
+                        "type": "Literal",
+                        "start": 478,
+                        "end": 479,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      "computed": true,
+                      "optional": true
+                    }
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 482,
+                  "end": 485,
+                  "value": "h",
+                  "raw": "'h'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 490,
+            "end": 533,
+            "expression": {
+              "type": "CallExpression",
+              "start": 490,
+              "end": 532,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 490,
+                "end": 506,
+                "object": {
+                  "type": "Identifier",
+                  "start": 490,
+                  "end": 496,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 497,
+                  "end": 506,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "AwaitExpression",
+                  "start": 507,
+                  "end": 520,
+                  "argument": {
+                    "type": "ChainExpression",
+                    "start": 513,
+                    "end": 520,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 513,
+                      "end": 520,
+                      "object": {
+                        "type": "Literal",
+                        "start": 513,
+                        "end": 517,
+                        "value": null,
+                        "raw": "null"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 519,
+                        "end": 520,
+                        "name": "a"
+                      },
+                      "computed": false,
+                      "optional": true
+                    }
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "start": 522,
+                  "end": 531,
+                  "name": "undefined"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 536,
+      "end": 573,
+      "expression": {
+        "type": "CallExpression",
+        "start": 536,
+        "end": 572,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 536,
+          "end": 558,
+          "object": {
+            "type": "CallExpression",
+            "start": 536,
+            "end": 553,
+            "callee": {
+              "type": "Identifier",
+              "start": 536,
+              "end": 551,
+              "name": "checkAssertions"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 558,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 559,
+            "end": 564,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 566,
+            "end": 571,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

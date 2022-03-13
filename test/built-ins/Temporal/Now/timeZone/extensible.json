@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 546,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 425,
+      "end": 545,
+      "expression": {
+        "type": "CallExpression",
+        "start": 425,
+        "end": 544,
+        "callee": {
+          "type": "Identifier",
+          "start": 425,
+          "end": 431,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 435,
+            "end": 477,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 435,
+              "end": 454,
+              "object": {
+                "type": "Identifier",
+                "start": 435,
+                "end": 441,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 442,
+                "end": 454,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 455,
+                "end": 476,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 455,
+                  "end": 467,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 455,
+                    "end": 463,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 464,
+                    "end": 467,
+                    "name": "Now"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 468,
+                  "end": 476,
+                  "name": "timeZone"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 481,
+            "end": 542,
+            "value": "Object.isExtensible(Temporal.Now.timeZone) must return true",
+            "raw": "'Object.isExtensible(Temporal.Now.timeZone) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

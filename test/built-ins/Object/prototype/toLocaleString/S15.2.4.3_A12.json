@@ -1,0 +1,134 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 442,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 269,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 269,
+        "end": 440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 269,
+          "end": 282,
+          "object": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 275,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 282,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 283,
+            "end": 292,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 294,
+            "end": 359,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 305,
+              "end": 359,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 309,
+                  "end": 357,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 309,
+                    "end": 356,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 309,
+                      "end": 345,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 309,
+                        "end": 340,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 309,
+                          "end": 325,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 309,
+                            "end": 315,
+                            "name": "Object"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 316,
+                            "end": 325,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 326,
+                          "end": 340,
+                          "name": "toLocaleString"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 341,
+                        "end": 345,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 346,
+                        "end": 355,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 361,
+            "end": 439,
+            "value": "Object.prototype.toLocaleString.call(undefined) throws a TypeError exception",
+            "raw": "'Object.prototype.toLocaleString.call(undefined) throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

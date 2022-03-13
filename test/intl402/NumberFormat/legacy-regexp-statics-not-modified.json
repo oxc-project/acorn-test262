@@ -1,0 +1,207 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 571,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 346,
+      "end": 438,
+      "expression": {
+        "type": "CallExpression",
+        "start": 346,
+        "end": 437,
+        "callee": {
+          "type": "Identifier",
+          "start": 346,
+          "end": 374,
+          "name": "testForUnwantedRegExpChanges"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 375,
+            "end": 436,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 387,
+              "end": 436,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 393,
+                  "end": 434,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 393,
+                    "end": 433,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 397,
+                      "end": 414,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 397,
+                        "end": 401,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 402,
+                        "end": 414,
+                        "name": "NumberFormat"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 415,
+                        "end": 432,
+                        "value": "de-DE-u-nu-latn",
+                        "raw": "\"de-DE-u-nu-latn\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 440,
+      "end": 570,
+      "expression": {
+        "type": "CallExpression",
+        "start": 440,
+        "end": 569,
+        "callee": {
+          "type": "Identifier",
+          "start": 440,
+          "end": 468,
+          "name": "testForUnwantedRegExpChanges"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 469,
+            "end": 568,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 481,
+              "end": 568,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 487,
+                  "end": 566,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 487,
+                    "end": 565,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 491,
+                      "end": 508,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 491,
+                        "end": 495,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 496,
+                        "end": 508,
+                        "name": "NumberFormat"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 509,
+                        "end": 526,
+                        "value": "de-DE-u-nu-latn",
+                        "raw": "\"de-DE-u-nu-latn\""
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 528,
+                        "end": 564,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 529,
+                            "end": 546,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 529,
+                              "end": 534,
+                              "name": "style"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 536,
+                              "end": 546,
+                              "value": "currency",
+                              "raw": "\"currency\""
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 548,
+                            "end": 563,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 548,
+                              "end": 556,
+                              "name": "currency"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 558,
+                              "end": 563,
+                              "value": "EUR",
+                              "raw": "\"EUR\""
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

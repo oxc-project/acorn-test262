@@ -1,0 +1,710 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1304,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 199,
+      "end": 213,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 203,
+          "end": 212,
+          "id": {
+            "type": "Identifier",
+            "start": 203,
+            "end": 208,
+            "name": "count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 211,
+            "end": 212,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 214,
+      "end": 403,
+      "id": {
+        "type": "Identifier",
+        "start": 220,
+        "end": 221,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 222,
+        "end": 403,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 226,
+            "end": 401,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 226,
+              "end": 237,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 237,
+              "end": 401,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 240,
+                "end": 401,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 246,
+                    "end": 384,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 246,
+                      "end": 383,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 246,
+                        "end": 262,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 246,
+                          "end": 252,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 253,
+                          "end": 262,
+                          "name": "sameValue"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "CallExpression",
+                          "start": 270,
+                          "end": 297,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 270,
+                            "end": 291,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 270,
+                              "end": 276,
+                              "name": "Object"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 277,
+                              "end": 291,
+                              "name": "getPrototypeOf"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "ThisExpression",
+                              "start": 292,
+                              "end": 296
+                            }
+                          ],
+                          "optional": false
+                        },
+                        {
+                          "type": "MemberExpression",
+                          "start": 305,
+                          "end": 316,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 305,
+                            "end": 306,
+                            "name": "C"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 307,
+                            "end": 316,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 324,
+                          "end": 377,
+                          "value": "`Object.getPrototypeOf(this)` returns `C.prototype`",
+                          "raw": "\"`Object.getPrototypeOf(this)` returns `C.prototype`\""
+                        }
+                      ],
+                      "optional": false
+                    }
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 389,
+                    "end": 397,
+                    "expression": {
+                      "type": "UpdateExpression",
+                      "start": 389,
+                      "end": 396,
+                      "operator": "++",
+                      "prefix": false,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 389,
+                        "end": 394,
+                        "name": "count"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 404,
+      "end": 506,
+      "expression": {
+        "type": "CallExpression",
+        "start": 404,
+        "end": 505,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 404,
+          "end": 420,
+          "object": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 410,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 420,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 424,
+            "end": 425,
+            "name": "C"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 429,
+            "end": 452,
+            "object": {
+              "type": "MemberExpression",
+              "start": 429,
+              "end": 440,
+              "object": {
+                "type": "Identifier",
+                "start": 429,
+                "end": 430,
+                "name": "C"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 431,
+                "end": 440,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 441,
+              "end": 452,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 456,
+            "end": 503,
+            "value": "The value of `C` is `C.prototype.constructor`",
+            "raw": "\"The value of `C` is `C.prototype.constructor`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 507,
+      "end": 578,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 511,
+          "end": 577,
+          "id": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 515,
+            "name": "desc"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 518,
+            "end": 577,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 518,
+              "end": 549,
+              "object": {
+                "type": "Identifier",
+                "start": 518,
+                "end": 524,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 549,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 550,
+                "end": 561,
+                "object": {
+                  "type": "Identifier",
+                  "start": 550,
+                  "end": 551,
+                  "name": "C"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 552,
+                  "end": 561,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 563,
+                "end": 576,
+                "value": "constructor",
+                "raw": "'constructor'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 579,
+      "end": 758,
+      "expression": {
+        "type": "CallExpression",
+        "start": 579,
+        "end": 757,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 579,
+          "end": 595,
+          "object": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 585,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 586,
+            "end": 595,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 596,
+            "end": 613,
+            "object": {
+              "type": "Identifier",
+              "start": 596,
+              "end": 600,
+              "name": "desc"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 601,
+              "end": 613,
+              "name": "configurable"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 615,
+            "end": 619,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 621,
+            "end": 756,
+            "value": "The value of `desc.configurable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`",
+            "raw": "\"The value of `desc.configurable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 759,
+      "end": 936,
+      "expression": {
+        "type": "CallExpression",
+        "start": 759,
+        "end": 935,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 759,
+          "end": 775,
+          "object": {
+            "type": "Identifier",
+            "start": 759,
+            "end": 765,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 766,
+            "end": 775,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 776,
+            "end": 791,
+            "object": {
+              "type": "Identifier",
+              "start": 776,
+              "end": 780,
+              "name": "desc"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 781,
+              "end": 791,
+              "name": "enumerable"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 793,
+            "end": 798,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 800,
+            "end": 934,
+            "value": "The value of `desc.enumerable` is `false`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`",
+            "raw": "\"The value of `desc.enumerable` is `false`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 937,
+      "end": 1109,
+      "expression": {
+        "type": "CallExpression",
+        "start": 937,
+        "end": 1108,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 937,
+          "end": 953,
+          "object": {
+            "type": "Identifier",
+            "start": 937,
+            "end": 943,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 944,
+            "end": 953,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 954,
+            "end": 967,
+            "object": {
+              "type": "Identifier",
+              "start": 954,
+              "end": 958,
+              "name": "desc"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 959,
+              "end": 967,
+              "name": "writable"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 969,
+            "end": 973,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 975,
+            "end": 1107,
+            "value": "The value of `descr.writable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`",
+            "raw": "\"The value of `descr.writable` is `true`, after executing `var desc = Object.getOwnPropertyDescriptor(C.prototype, 'constructor');`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1111,
+      "end": 1127,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1115,
+          "end": 1126,
+          "id": {
+            "type": "Identifier",
+            "start": 1115,
+            "end": 1116,
+            "name": "c"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1119,
+            "end": 1126,
+            "callee": {
+              "type": "Identifier",
+              "start": 1123,
+              "end": 1124,
+              "name": "C"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1128,
+      "end": 1186,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1128,
+        "end": 1185,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1128,
+          "end": 1144,
+          "object": {
+            "type": "Identifier",
+            "start": 1128,
+            "end": 1134,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1135,
+            "end": 1144,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1145,
+            "end": 1150,
+            "name": "count"
+          },
+          {
+            "type": "Literal",
+            "start": 1152,
+            "end": 1153,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 1155,
+            "end": 1184,
+            "value": "The value of `count` is `1`",
+            "raw": "\"The value of `count` is `1`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1187,
+      "end": 1303,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1187,
+        "end": 1302,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1187,
+          "end": 1203,
+          "object": {
+            "type": "Identifier",
+            "start": 1187,
+            "end": 1193,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1194,
+            "end": 1203,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1207,
+            "end": 1231,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1207,
+              "end": 1228,
+              "object": {
+                "type": "Identifier",
+                "start": 1207,
+                "end": 1213,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1214,
+                "end": 1228,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1229,
+                "end": 1230,
+                "name": "c"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1235,
+            "end": 1246,
+            "object": {
+              "type": "Identifier",
+              "start": 1235,
+              "end": 1236,
+              "name": "C"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1237,
+              "end": 1246,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1250,
+            "end": 1300,
+            "value": "`Object.getPrototypeOf(c)` returns `C.prototype`",
+            "raw": "\"`Object.getPrototypeOf(c)` returns `C.prototype`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

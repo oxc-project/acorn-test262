@@ -1,0 +1,69 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 656,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 627,
+      "end": 655,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 631,
+          "end": 654,
+          "id": {
+            "type": "Identifier",
+            "start": 631,
+            "end": 632,
+            "name": "C"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 635,
+            "end": 654,
+            "id": null,
+            "superClass": null,
+            "body": {
+              "type": "ClassBody",
+              "start": 641,
+              "end": 654,
+              "body": [
+                {
+                  "type": "PropertyDefinition",
+                  "start": 645,
+                  "end": 647,
+                  "static": false,
+                  "computed": false,
+                  "key": {
+                    "type": "PrivateIdentifier",
+                    "start": 645,
+                    "end": 647,
+                    "name": "x"
+                  },
+                  "value": null
+                },
+                {
+                  "type": "PropertyDefinition",
+                  "start": 650,
+                  "end": 652,
+                  "static": false,
+                  "computed": false,
+                  "key": {
+                    "type": "PrivateIdentifier",
+                    "start": 650,
+                    "end": 652,
+                    "name": "y"
+                  },
+                  "value": null
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

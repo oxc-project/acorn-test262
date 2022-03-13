@@ -1,0 +1,659 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 688,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 267,
+      "end": 319,
+      "expression": {
+        "type": "CallExpression",
+        "start": 267,
+        "end": 318,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 267,
+          "end": 283,
+          "object": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 273,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 283,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 284,
+            "end": 297,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 284,
+              "end": 294,
+              "object": {
+                "type": "Identifier",
+                "start": 284,
+                "end": 288,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 294,
+                "name": "hypot"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 295,
+                "end": 296,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 299,
+            "end": 300,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 302,
+            "end": 317,
+            "value": "Math.hypot(0)",
+            "raw": "'Math.hypot(0)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 320,
+      "end": 374,
+      "expression": {
+        "type": "CallExpression",
+        "start": 320,
+        "end": 373,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 320,
+          "end": 336,
+          "object": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 326,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 327,
+            "end": 336,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 337,
+            "end": 351,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 337,
+              "end": 347,
+              "object": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 341,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 347,
+                "name": "hypot"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 348,
+                "end": 350,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 349,
+                  "end": 350,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 353,
+            "end": 354,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 356,
+            "end": 372,
+            "value": "Math.hypot(-0)",
+            "raw": "'Math.hypot(-0)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 375,
+      "end": 433,
+      "expression": {
+        "type": "CallExpression",
+        "start": 375,
+        "end": 432,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 375,
+          "end": 391,
+          "object": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 381,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 391,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 392,
+            "end": 408,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 392,
+              "end": 402,
+              "object": {
+                "type": "Identifier",
+                "start": 392,
+                "end": 396,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 397,
+                "end": 402,
+                "name": "hypot"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 403,
+                "end": 404,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 406,
+                "end": 407,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 410,
+            "end": 411,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 413,
+            "end": 431,
+            "value": "Math.hypot(0, 0)",
+            "raw": "'Math.hypot(0, 0)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 434,
+      "end": 494,
+      "expression": {
+        "type": "CallExpression",
+        "start": 434,
+        "end": 493,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 434,
+          "end": 450,
+          "object": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 440,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 441,
+            "end": 450,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 451,
+            "end": 468,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 451,
+              "end": 461,
+              "object": {
+                "type": "Identifier",
+                "start": 451,
+                "end": 455,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 456,
+                "end": 461,
+                "name": "hypot"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 462,
+                "end": 463,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 465,
+                "end": 467,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 466,
+                  "end": 467,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 470,
+            "end": 471,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 473,
+            "end": 492,
+            "value": "Math.hypot(0, -0)",
+            "raw": "'Math.hypot(0, -0)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 495,
+      "end": 555,
+      "expression": {
+        "type": "CallExpression",
+        "start": 495,
+        "end": 554,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 495,
+          "end": 511,
+          "object": {
+            "type": "Identifier",
+            "start": 495,
+            "end": 501,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 502,
+            "end": 511,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 512,
+            "end": 529,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 512,
+              "end": 522,
+              "object": {
+                "type": "Identifier",
+                "start": 512,
+                "end": 516,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 517,
+                "end": 522,
+                "name": "hypot"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 523,
+                "end": 525,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 524,
+                  "end": 525,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 527,
+                "end": 528,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 531,
+            "end": 532,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 534,
+            "end": 553,
+            "value": "Math.hypot(-0, 0)",
+            "raw": "'Math.hypot(-0, 0)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 556,
+      "end": 618,
+      "expression": {
+        "type": "CallExpression",
+        "start": 556,
+        "end": 617,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 556,
+          "end": 572,
+          "object": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 562,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 563,
+            "end": 572,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 573,
+            "end": 591,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 573,
+              "end": 583,
+              "object": {
+                "type": "Identifier",
+                "start": 573,
+                "end": 577,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 578,
+                "end": 583,
+                "name": "hypot"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 584,
+                "end": 586,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 585,
+                  "end": 586,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 588,
+                "end": 590,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 589,
+                  "end": 590,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 593,
+            "end": 594,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 596,
+            "end": 616,
+            "value": "Math.hypot(-0, -0)",
+            "raw": "'Math.hypot(-0, -0)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 619,
+      "end": 687,
+      "expression": {
+        "type": "CallExpression",
+        "start": 619,
+        "end": 686,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 619,
+          "end": 635,
+          "object": {
+            "type": "Identifier",
+            "start": 619,
+            "end": 625,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 626,
+            "end": 635,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 636,
+            "end": 657,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 636,
+              "end": 646,
+              "object": {
+                "type": "Identifier",
+                "start": 636,
+                "end": 640,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 641,
+                "end": 646,
+                "name": "hypot"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 647,
+                "end": 648,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 650,
+                "end": 652,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 651,
+                  "end": 652,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 654,
+                "end": 656,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 655,
+                  "end": 656,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 659,
+            "end": 660,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 662,
+            "end": 685,
+            "value": "Math.hypot(0, -0, -0)",
+            "raw": "'Math.hypot(0, -0, -0)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

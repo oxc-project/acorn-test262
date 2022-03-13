@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 451,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 329,
+      "end": 450,
+      "expression": {
+        "type": "CallExpression",
+        "start": 329,
+        "end": 449,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 329,
+          "end": 345,
+          "object": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 335,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 345,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 349,
+            "end": 365,
+            "operator": "+",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 350,
+              "end": 365,
+              "expression": {
+                "type": "Literal",
+                "start": 351,
+                "end": 364,
+                "value": "-1234567890",
+                "raw": "\"-1234567890\""
+              }
+            }
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 369,
+            "end": 380,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 370,
+              "end": 380,
+              "value": 1234567890,
+              "raw": "1234567890"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 384,
+            "end": 447,
+            "value": "The value of `+(\"-1234567890\")` is expected to be -1234567890",
+            "raw": "'The value of `+(\"-1234567890\")` is expected to be -1234567890'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

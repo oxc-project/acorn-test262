@@ -1,0 +1,203 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 507,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 350,
+      "end": 376,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 354,
+          "end": 376,
+          "id": {
+            "type": "Identifier",
+            "start": 354,
+            "end": 355,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 358,
+            "end": 376,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 359,
+                "end": 360,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 362,
+                "end": 375,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 363,
+                    "end": 364,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "ArrayExpression",
+                    "start": 366,
+                    "end": 374,
+                    "elements": [
+                      {
+                        "type": "Literal",
+                        "start": 367,
+                        "end": 368,
+                        "value": 3,
+                        "raw": "3"
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "start": 370,
+                        "end": 373,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 371,
+                            "end": 372,
+                            "value": 4,
+                            "raw": "4"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 377,
+      "end": 506,
+      "expression": {
+        "type": "CallExpression",
+        "start": 377,
+        "end": 505,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 377,
+          "end": 396,
+          "object": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 383,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 396,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 397,
+            "end": 429,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 397,
+              "end": 403,
+              "object": {
+                "type": "Identifier",
+                "start": 397,
+                "end": 398,
+                "name": "a"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 399,
+                "end": 403,
+                "name": "flat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 404,
+                "end": 428,
+                "object": {
+                  "type": "Identifier",
+                  "start": 404,
+                  "end": 410,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 411,
+                  "end": 428,
+                  "name": "POSITIVE_INFINITY"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 431,
+            "end": 443,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 432,
+                "end": 433,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 435,
+                "end": 436,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 438,
+                "end": 439,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "Literal",
+                "start": 441,
+                "end": 442,
+                "value": 4,
+                "raw": "4"
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 445,
+            "end": 504,
+            "value": "a.flat(Number.POSITIVE_INFINITY) must return [1, 2, 3, 4]",
+            "raw": "'a.flat(Number.POSITIVE_INFINITY) must return [1, 2, 3, 4]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

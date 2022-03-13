@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 568,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 483,
+      "end": 567,
+      "expression": {
+        "type": "CallExpression",
+        "start": 483,
+        "end": 566,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 483,
+          "end": 496,
+          "object": {
+            "type": "Identifier",
+            "start": 483,
+            "end": 489,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 496,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 497,
+            "end": 506,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 508,
+            "end": 565,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 519,
+              "end": 565,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 523,
+                  "end": 563,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 523,
+                    "end": 562,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 523,
+                      "end": 547,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 523,
+                        "end": 542,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 523,
+                          "end": 536,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 523,
+                            "end": 526,
+                            "name": "Map"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 527,
+                            "end": 536,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 537,
+                          "end": 542,
+                          "name": "clear"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 543,
+                        "end": 547,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "NewExpression",
+                        "start": 548,
+                        "end": 561,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 552,
+                          "end": 559,
+                          "name": "WeakMap"
+                        },
+                        "arguments": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

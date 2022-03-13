@@ -1,0 +1,166 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 395,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 243,
+      "end": 317,
+      "expression": {
+        "type": "CallExpression",
+        "start": 243,
+        "end": 316,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 243,
+          "end": 259,
+          "object": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 259,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 260,
+            "end": 289,
+            "callee": {
+              "type": "Identifier",
+              "start": 260,
+              "end": 270,
+              "name": "parseFloat"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 271,
+                "end": 288,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 275,
+                  "end": 282,
+                  "name": "Boolean"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 283,
+                    "end": 287,
+                    "value": true,
+                    "raw": "true"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 291,
+            "end": 294,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 296,
+            "end": 315,
+            "value": "new Boolean(true)",
+            "raw": "\"new Boolean(true)\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 318,
+      "end": 394,
+      "expression": {
+        "type": "CallExpression",
+        "start": 318,
+        "end": 393,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 318,
+          "end": 334,
+          "object": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 324,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 334,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 335,
+            "end": 365,
+            "callee": {
+              "type": "Identifier",
+              "start": 335,
+              "end": 345,
+              "name": "parseFloat"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 346,
+                "end": 364,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 350,
+                  "end": 357,
+                  "name": "Boolean"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 358,
+                    "end": 363,
+                    "value": false,
+                    "raw": "false"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 367,
+            "end": 370,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 372,
+            "end": 392,
+            "value": "new Boolean(false)",
+            "raw": "\"new Boolean(false)\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

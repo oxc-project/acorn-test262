@@ -1,0 +1,248 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 782,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 274,
+      "end": 306,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 278,
+          "end": 305,
+          "id": {
+            "type": "Identifier",
+            "start": 278,
+            "end": 288,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 291,
+            "end": 305,
+            "callee": {
+              "type": "Identifier",
+              "start": 295,
+              "end": 301,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 302,
+                "end": 304,
+                "value": 42,
+                "raw": "42"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 308,
+      "end": 352,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 308,
+        "end": 351,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 308,
+          "end": 325,
+          "object": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 318,
+            "name": "__instance"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 325,
+            "name": "concat"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 328,
+          "end": 351,
+          "object": {
+            "type": "MemberExpression",
+            "start": 328,
+            "end": 344,
+            "object": {
+              "type": "Identifier",
+              "start": 328,
+              "end": 334,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 335,
+              "end": 344,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 345,
+            "end": 351,
+            "name": "concat"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 443,
+      "end": 699,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 447,
+        "end": 495,
+        "left": {
+          "type": "CallExpression",
+          "start": 447,
+          "end": 477,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 447,
+            "end": 464,
+            "object": {
+              "type": "Identifier",
+              "start": 447,
+              "end": 457,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 458,
+              "end": 464,
+              "name": "concat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 465,
+              "end": 470,
+              "value": false,
+              "raw": "false"
+            },
+            {
+              "type": "Literal",
+              "start": 472,
+              "end": 476,
+              "value": true,
+              "raw": "true"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 482,
+          "end": 495,
+          "value": "42falsetrue",
+          "raw": "\"42falsetrue\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 497,
+        "end": 699,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 501,
+            "end": 697,
+            "argument": {
+              "type": "NewExpression",
+              "start": 507,
+              "end": 696,
+              "callee": {
+                "type": "Identifier",
+                "start": 511,
+                "end": 523,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 524,
+                  "end": 695,
+                  "left": {
+                    "type": "Literal",
+                    "start": 524,
+                    "end": 662,
+                    "value": "#1: __instance = new Object(42); __instance.concat = String.prototype.concat;  __instance.concat(false,true) === \"42falsetrue\". Actual: ",
+                    "raw": "'#1: __instance = new Object(42); __instance.concat = String.prototype.concat;  __instance.concat(false,true) === \"42falsetrue\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 665,
+                    "end": 695,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 665,
+                      "end": 682,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 665,
+                        "end": 675,
+                        "name": "__instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 676,
+                        "end": 682,
+                        "name": "concat"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 683,
+                        "end": 688,
+                        "value": false,
+                        "raw": "false"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 690,
+                        "end": 694,
+                        "value": true,
+                        "raw": "true"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

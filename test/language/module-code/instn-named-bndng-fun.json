@@ -1,0 +1,284 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2203,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1861,
+      "end": 1967,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1861,
+        "end": 1966,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1861,
+          "end": 1877,
+          "object": {
+            "type": "Identifier",
+            "start": 1861,
+            "end": 1867,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1868,
+            "end": 1877,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1881,
+            "end": 1885,
+            "callee": {
+              "type": "Identifier",
+              "start": 1881,
+              "end": 1883,
+              "name": "f2"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1889,
+            "end": 1891,
+            "value": 23,
+            "raw": "23"
+          },
+          {
+            "type": "Literal",
+            "start": 1895,
+            "end": 1964,
+            "value": "binding is initialized to function value prior to module evaluation",
+            "raw": "'binding is initialized to function value prior to module evaluation'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1969,
+      "end": 2053,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1969,
+        "end": 2052,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1969,
+          "end": 1982,
+          "object": {
+            "type": "Identifier",
+            "start": 1969,
+            "end": 1975,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1976,
+            "end": 1982,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1983,
+            "end": 1992,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1994,
+            "end": 2021,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2005,
+              "end": 2021,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2009,
+                  "end": 2019,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 2009,
+                    "end": 2018,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 2009,
+                      "end": 2011,
+                      "name": "f2"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 2014,
+                      "end": 2018,
+                      "value": null,
+                      "raw": "null"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2023,
+            "end": 2051,
+            "value": "binding rejects assignment",
+            "raw": "'binding rejects assignment'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2055,
+      "end": 2112,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2055,
+        "end": 2111,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2055,
+          "end": 2071,
+          "object": {
+            "type": "Identifier",
+            "start": 2055,
+            "end": 2061,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2062,
+            "end": 2071,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2072,
+            "end": 2076,
+            "callee": {
+              "type": "Identifier",
+              "start": 2072,
+              "end": 2074,
+              "name": "f2"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2078,
+            "end": 2080,
+            "value": 23,
+            "raw": "23"
+          },
+          {
+            "type": "Literal",
+            "start": 2082,
+            "end": 2110,
+            "value": "binding value is immutable",
+            "raw": "'binding value is immutable'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 2114,
+      "end": 2167,
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 2123,
+          "end": 2130,
+          "imported": {
+            "type": "Identifier",
+            "start": 2123,
+            "end": 2124,
+            "name": "f"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 2128,
+            "end": 2130,
+            "name": "f2"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2138,
+        "end": 2166,
+        "value": "./instn-named-bndng-fun.js",
+        "raw": "'./instn-named-bndng-fun.js'"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2168,
+      "end": 2202,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 2175,
+        "end": 2202,
+        "id": {
+          "type": "Identifier",
+          "start": 2184,
+          "end": 2185,
+          "name": "f"
+        },
+        "expression": false,
+        "generator": false,
+        "async": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 2188,
+          "end": 2202,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 2190,
+              "end": 2200,
+              "argument": {
+                "type": "Literal",
+                "start": 2197,
+                "end": 2199,
+                "value": 23,
+                "raw": "23"
+              }
+            }
+          ]
+        }
+      },
+      "specifiers": [],
+      "source": null
+    }
+  ],
+  "sourceType": "module"
+}

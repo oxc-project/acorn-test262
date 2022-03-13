@@ -1,0 +1,160 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 539,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 430,
+      "end": 460,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 434,
+          "end": 459,
+          "id": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 435,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 438,
+            "end": 459,
+            "callee": {
+              "type": "Identifier",
+              "start": 438,
+              "end": 444,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 445,
+                "end": 458,
+                "value": "hello world",
+                "raw": "\"hello world\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 462,
+      "end": 538,
+      "expression": {
+        "type": "CallExpression",
+        "start": 462,
+        "end": 537,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 462,
+          "end": 478,
+          "object": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 468,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 478,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 479,
+            "end": 501,
+            "object": {
+              "type": "Identifier",
+              "start": 479,
+              "end": 480,
+              "name": "s"
+            },
+            "property": {
+              "type": "BinaryExpression",
+              "start": 481,
+              "end": 500,
+              "left": {
+                "type": "CallExpression",
+                "start": 481,
+                "end": 496,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 481,
+                  "end": 489,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 481,
+                    "end": 485,
+                    "name": "Math"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 486,
+                    "end": 489,
+                    "name": "pow"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 490,
+                    "end": 491,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 493,
+                    "end": 495,
+                    "value": 32,
+                    "raw": "32"
+                  }
+                ],
+                "optional": false
+              },
+              "operator": "-",
+              "right": {
+                "type": "Literal",
+                "start": 499,
+                "end": 500,
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 503,
+            "end": 512,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 514,
+            "end": 536,
+            "value": "s[Math.pow(2, 32)-1]",
+            "raw": "'s[Math.pow(2, 32)-1]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

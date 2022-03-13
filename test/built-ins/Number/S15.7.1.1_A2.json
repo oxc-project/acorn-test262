@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 397,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 234,
+      "end": 339,
+      "expression": {
+        "type": "CallExpression",
+        "start": 234,
+        "end": 338,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 234,
+          "end": 250,
+          "object": {
+            "type": "Identifier",
+            "start": 234,
+            "end": 240,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 241,
+            "end": 250,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 251,
+            "end": 266,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 258,
+              "end": 266,
+              "callee": {
+                "type": "Identifier",
+                "start": 258,
+                "end": 264,
+                "name": "Number"
+              },
+              "arguments": [],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 268,
+            "end": 276,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 278,
+            "end": 337,
+            "value": "The value of `typeof Number()` is expected to be \"number\"",
+            "raw": "'The value of `typeof Number()` is expected to be \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 340,
+      "end": 396,
+      "expression": {
+        "type": "CallExpression",
+        "start": 340,
+        "end": 395,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 340,
+          "end": 356,
+          "object": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 346,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 356,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 357,
+            "end": 365,
+            "callee": {
+              "type": "Identifier",
+              "start": 357,
+              "end": 363,
+              "name": "Number"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 367,
+            "end": 368,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 370,
+            "end": 394,
+            "value": "Number() must return 0",
+            "raw": "'Number() must return 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

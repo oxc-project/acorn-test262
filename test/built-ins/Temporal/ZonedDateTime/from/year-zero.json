@@ -1,0 +1,147 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 432,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 261,
+      "end": 320,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 267,
+          "end": 319,
+          "id": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 270,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 273,
+            "end": 319,
+            "value": "-0000000-01-01T00:02:00.000000000+00:00[UTC]",
+            "raw": "\"-0000000-01-01T00:02:00.000000000+00:00[UTC]\""
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 322,
+      "end": 431,
+      "expression": {
+        "type": "CallExpression",
+        "start": 322,
+        "end": 430,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 322,
+          "end": 335,
+          "object": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 328,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 335,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 336,
+            "end": 346,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 348,
+            "end": 391,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 354,
+              "end": 391,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 356,
+                  "end": 389,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 356,
+                    "end": 388,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 356,
+                      "end": 383,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 356,
+                        "end": 378,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 356,
+                          "end": 364,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 365,
+                          "end": 378,
+                          "name": "ZonedDateTime"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 379,
+                        "end": 383,
+                        "name": "from"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 384,
+                        "end": 387,
+                        "name": "str"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 429,
+            "value": "reject minus zero as extended year",
+            "raw": "\"reject minus zero as extended year\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

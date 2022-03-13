@@ -1,0 +1,287 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 722,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 476,
+      "end": 721,
+      "expression": {
+        "type": "CallExpression",
+        "start": 476,
+        "end": 720,
+        "callee": {
+          "type": "Identifier",
+          "start": 476,
+          "end": 512,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 513,
+            "end": 719,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 522,
+                "end": 524,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 526,
+              "end": 719,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 530,
+                  "end": 573,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 534,
+                      "end": 572,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 534,
+                        "end": 549,
+                        "name": "bytesPerElement"
+                      },
+                      "init": {
+                        "type": "MemberExpression",
+                        "start": 552,
+                        "end": 572,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 552,
+                          "end": 554,
+                          "name": "TA"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 555,
+                          "end": 572,
+                          "name": "BYTES_PER_ELEMENT"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 576,
+                  "end": 595,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 580,
+                      "end": 594,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 580,
+                        "end": 583,
+                        "name": "ta1"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 586,
+                        "end": 594,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 590,
+                          "end": 592,
+                          "name": "TA"
+                        },
+                        "arguments": []
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 598,
+                  "end": 634,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 598,
+                    "end": 633,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 598,
+                      "end": 614,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 598,
+                        "end": 604,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 605,
+                        "end": 614,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 615,
+                        "end": 629,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 615,
+                          "end": 618,
+                          "name": "ta1"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 619,
+                          "end": 629,
+                          "name": "byteLength"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 631,
+                        "end": 632,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 638,
+                  "end": 659,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 642,
+                      "end": 658,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 642,
+                        "end": 645,
+                        "name": "ta2"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 648,
+                        "end": 658,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 652,
+                          "end": 654,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 655,
+                            "end": 657,
+                            "value": 42,
+                            "raw": "42"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 662,
+                  "end": 717,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 662,
+                    "end": 716,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 662,
+                      "end": 678,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 662,
+                        "end": 668,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 669,
+                        "end": 678,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 679,
+                        "end": 693,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 679,
+                          "end": 682,
+                          "name": "ta2"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 683,
+                          "end": 693,
+                          "name": "byteLength"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "BinaryExpression",
+                        "start": 695,
+                        "end": 715,
+                        "left": {
+                          "type": "Literal",
+                          "start": 695,
+                          "end": 697,
+                          "value": 42,
+                          "raw": "42"
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 700,
+                          "end": 715,
+                          "name": "bytesPerElement"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

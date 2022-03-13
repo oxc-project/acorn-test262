@@ -1,0 +1,228 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 437,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 268,
+      "end": 344,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 272,
+          "end": 344,
+          "id": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 280,
+            "name": "thenable"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 283,
+            "end": 344,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 287,
+                "end": 342,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 287,
+                  "end": 291,
+                  "name": "then"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 293,
+                  "end": 342,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 303,
+                      "end": 310,
+                      "name": "resolve"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 312,
+                      "end": 318,
+                      "name": "reject"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 320,
+                    "end": 342,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 326,
+                        "end": 338,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 326,
+                          "end": 337,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 326,
+                            "end": 333,
+                            "name": "resolve"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 334,
+                              "end": 336,
+                              "value": 42,
+                              "raw": "42"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 345,
+      "end": 409,
+      "id": {
+        "type": "Identifier",
+        "start": 360,
+        "end": 363,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 366,
+        "end": 409,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 370,
+            "end": 407,
+            "expression": {
+              "type": "CallExpression",
+              "start": 370,
+              "end": 406,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 370,
+                "end": 386,
+                "object": {
+                  "type": "Identifier",
+                  "start": 370,
+                  "end": 376,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 377,
+                  "end": 386,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "AwaitExpression",
+                  "start": 387,
+                  "end": 401,
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 393,
+                    "end": 401,
+                    "name": "thenable"
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 403,
+                  "end": 405,
+                  "value": 42,
+                  "raw": "42"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 411,
+      "end": 436,
+      "expression": {
+        "type": "CallExpression",
+        "start": 411,
+        "end": 435,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 411,
+          "end": 421,
+          "object": {
+            "type": "CallExpression",
+            "start": 411,
+            "end": 416,
+            "callee": {
+              "type": "Identifier",
+              "start": 411,
+              "end": 414,
+              "name": "foo"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 421,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 422,
+            "end": 427,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 429,
+            "end": 434,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

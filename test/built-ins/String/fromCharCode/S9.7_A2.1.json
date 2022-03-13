@@ -1,0 +1,1696 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2233,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 366,
+      "end": 544,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 370,
+        "end": 412,
+        "left": {
+          "type": "CallExpression",
+          "start": 370,
+          "end": 406,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 370,
+            "end": 403,
+            "object": {
+              "type": "CallExpression",
+              "start": 370,
+              "end": 392,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 370,
+                "end": 389,
+                "object": {
+                  "type": "Identifier",
+                  "start": 370,
+                  "end": 376,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 377,
+                  "end": 389,
+                  "name": "fromCharCode"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 390,
+                  "end": 391,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 393,
+              "end": 403,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 404,
+              "end": 405,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 411,
+          "end": 412,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 414,
+        "end": 544,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 418,
+            "end": 542,
+            "argument": {
+              "type": "NewExpression",
+              "start": 424,
+              "end": 541,
+              "callee": {
+                "type": "Identifier",
+                "start": 428,
+                "end": 440,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 441,
+                  "end": 540,
+                  "left": {
+                    "type": "Literal",
+                    "start": 441,
+                    "end": 499,
+                    "value": "#1: String.fromCharCode(0).charCodeAt(0) === 0. Actual: ",
+                    "raw": "'#1: String.fromCharCode(0).charCodeAt(0) === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 502,
+                    "end": 540,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 503,
+                      "end": 539,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 503,
+                        "end": 536,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 503,
+                          "end": 525,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 503,
+                            "end": 522,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 503,
+                              "end": 509,
+                              "name": "String"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 510,
+                              "end": 522,
+                              "name": "fromCharCode"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 523,
+                              "end": 524,
+                              "value": 0,
+                              "raw": "0"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 526,
+                          "end": 536,
+                          "name": "charCodeAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 537,
+                          "end": 538,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 557,
+      "end": 735,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 561,
+        "end": 603,
+        "left": {
+          "type": "CallExpression",
+          "start": 561,
+          "end": 597,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 561,
+            "end": 594,
+            "object": {
+              "type": "CallExpression",
+              "start": 561,
+              "end": 583,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 561,
+                "end": 580,
+                "object": {
+                  "type": "Identifier",
+                  "start": 561,
+                  "end": 567,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 568,
+                  "end": 580,
+                  "name": "fromCharCode"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 581,
+                  "end": 582,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 584,
+              "end": 594,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 595,
+              "end": 596,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 602,
+          "end": 603,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 605,
+        "end": 735,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 609,
+            "end": 733,
+            "argument": {
+              "type": "NewExpression",
+              "start": 615,
+              "end": 732,
+              "callee": {
+                "type": "Identifier",
+                "start": 619,
+                "end": 631,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 632,
+                  "end": 731,
+                  "left": {
+                    "type": "Literal",
+                    "start": 632,
+                    "end": 690,
+                    "value": "#2: String.fromCharCode(1).charCodeAt(0) === 1. Actual: ",
+                    "raw": "'#2: String.fromCharCode(1).charCodeAt(0) === 1. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 693,
+                    "end": 731,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 694,
+                      "end": 730,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 694,
+                        "end": 727,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 694,
+                          "end": 716,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 694,
+                            "end": 713,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 694,
+                              "end": 700,
+                              "name": "String"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 701,
+                              "end": 713,
+                              "name": "fromCharCode"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 714,
+                              "end": 715,
+                              "value": 1,
+                              "raw": "1"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 717,
+                          "end": 727,
+                          "name": "charCodeAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 728,
+                          "end": 729,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 748,
+      "end": 937,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 752,
+        "end": 799,
+        "left": {
+          "type": "CallExpression",
+          "start": 752,
+          "end": 789,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 752,
+            "end": 786,
+            "object": {
+              "type": "CallExpression",
+              "start": 752,
+              "end": 775,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 752,
+                "end": 771,
+                "object": {
+                  "type": "Identifier",
+                  "start": 752,
+                  "end": 758,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 759,
+                  "end": 771,
+                  "name": "fromCharCode"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 772,
+                  "end": 774,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 773,
+                    "end": 774,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 776,
+              "end": 786,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 787,
+              "end": 788,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 794,
+          "end": 799,
+          "value": 65535,
+          "raw": "65535"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 801,
+        "end": 937,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 805,
+            "end": 935,
+            "argument": {
+              "type": "NewExpression",
+              "start": 811,
+              "end": 934,
+              "callee": {
+                "type": "Identifier",
+                "start": 815,
+                "end": 827,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 828,
+                  "end": 933,
+                  "left": {
+                    "type": "Literal",
+                    "start": 828,
+                    "end": 891,
+                    "value": "#3: String.fromCharCode(-1).charCodeAt(0) === 65535. Actual: ",
+                    "raw": "'#3: String.fromCharCode(-1).charCodeAt(0) === 65535. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 894,
+                    "end": 933,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 895,
+                      "end": 932,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 895,
+                        "end": 929,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 895,
+                          "end": 918,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 895,
+                            "end": 914,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 895,
+                              "end": 901,
+                              "name": "String"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 902,
+                              "end": 914,
+                              "name": "fromCharCode"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "UnaryExpression",
+                              "start": 915,
+                              "end": 917,
+                              "operator": "-",
+                              "prefix": true,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 916,
+                                "end": 917,
+                                "value": 1,
+                                "raw": "1"
+                              }
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 919,
+                          "end": 929,
+                          "name": "charCodeAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 930,
+                          "end": 931,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 950,
+      "end": 1148,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 954,
+        "end": 1004,
+        "left": {
+          "type": "CallExpression",
+          "start": 954,
+          "end": 994,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 954,
+            "end": 991,
+            "object": {
+              "type": "CallExpression",
+              "start": 954,
+              "end": 980,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 954,
+                "end": 973,
+                "object": {
+                  "type": "Identifier",
+                  "start": 954,
+                  "end": 960,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 961,
+                  "end": 973,
+                  "name": "fromCharCode"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 974,
+                  "end": 979,
+                  "value": 65535,
+                  "raw": "65535"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 981,
+              "end": 991,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 992,
+              "end": 993,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 999,
+          "end": 1004,
+          "value": 65535,
+          "raw": "65535"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1006,
+        "end": 1148,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1010,
+            "end": 1146,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1016,
+              "end": 1145,
+              "callee": {
+                "type": "Identifier",
+                "start": 1020,
+                "end": 1032,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1033,
+                  "end": 1144,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1033,
+                    "end": 1099,
+                    "value": "#4: String.fromCharCode(65535).charCodeAt(0) === 65535. Actual: ",
+                    "raw": "'#4: String.fromCharCode(65535).charCodeAt(0) === 65535. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1102,
+                    "end": 1144,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1103,
+                      "end": 1143,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1103,
+                        "end": 1140,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 1103,
+                          "end": 1129,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 1103,
+                            "end": 1122,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 1103,
+                              "end": 1109,
+                              "name": "String"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 1110,
+                              "end": 1122,
+                              "name": "fromCharCode"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 1123,
+                              "end": 1128,
+                              "value": 65535,
+                              "raw": "65535"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1130,
+                          "end": 1140,
+                          "name": "charCodeAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1141,
+                          "end": 1142,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1161,
+      "end": 1359,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1165,
+        "end": 1215,
+        "left": {
+          "type": "CallExpression",
+          "start": 1165,
+          "end": 1205,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1165,
+            "end": 1202,
+            "object": {
+              "type": "CallExpression",
+              "start": 1165,
+              "end": 1191,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1165,
+                "end": 1184,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1165,
+                  "end": 1171,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1172,
+                  "end": 1184,
+                  "name": "fromCharCode"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1185,
+                  "end": 1190,
+                  "value": 65534,
+                  "raw": "65534"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1192,
+              "end": 1202,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1203,
+              "end": 1204,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1210,
+          "end": 1215,
+          "value": 65534,
+          "raw": "65534"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1217,
+        "end": 1359,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1221,
+            "end": 1357,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1227,
+              "end": 1356,
+              "callee": {
+                "type": "Identifier",
+                "start": 1231,
+                "end": 1243,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1244,
+                  "end": 1355,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1244,
+                    "end": 1310,
+                    "value": "#5: String.fromCharCode(65534).charCodeAt(0) === 65534. Actual: ",
+                    "raw": "'#5: String.fromCharCode(65534).charCodeAt(0) === 65534. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1313,
+                    "end": 1355,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1314,
+                      "end": 1354,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1314,
+                        "end": 1351,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 1314,
+                          "end": 1340,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 1314,
+                            "end": 1333,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 1314,
+                              "end": 1320,
+                              "name": "String"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 1321,
+                              "end": 1333,
+                              "name": "fromCharCode"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 1334,
+                              "end": 1339,
+                              "value": 65534,
+                              "raw": "65534"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1341,
+                          "end": 1351,
+                          "name": "charCodeAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1352,
+                          "end": 1353,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1372,
+      "end": 1562,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1376,
+        "end": 1422,
+        "left": {
+          "type": "CallExpression",
+          "start": 1376,
+          "end": 1416,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1376,
+            "end": 1413,
+            "object": {
+              "type": "CallExpression",
+              "start": 1376,
+              "end": 1402,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1376,
+                "end": 1395,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1376,
+                  "end": 1382,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1383,
+                  "end": 1395,
+                  "name": "fromCharCode"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1396,
+                  "end": 1401,
+                  "value": 65536,
+                  "raw": "65536"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1403,
+              "end": 1413,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1414,
+              "end": 1415,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1421,
+          "end": 1422,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1424,
+        "end": 1562,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1428,
+            "end": 1560,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1434,
+              "end": 1559,
+              "callee": {
+                "type": "Identifier",
+                "start": 1438,
+                "end": 1450,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1451,
+                  "end": 1558,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1451,
+                    "end": 1513,
+                    "value": "#6: String.fromCharCode(65536).charCodeAt(0) === 0. Actual: ",
+                    "raw": "'#6: String.fromCharCode(65536).charCodeAt(0) === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1516,
+                    "end": 1558,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1517,
+                      "end": 1557,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1517,
+                        "end": 1554,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 1517,
+                          "end": 1543,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 1517,
+                            "end": 1536,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 1517,
+                              "end": 1523,
+                              "name": "String"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 1524,
+                              "end": 1536,
+                              "name": "fromCharCode"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 1537,
+                              "end": 1542,
+                              "value": 65536,
+                              "raw": "65536"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1544,
+                          "end": 1554,
+                          "name": "charCodeAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1555,
+                          "end": 1556,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1575,
+      "end": 1788,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1579,
+        "end": 1634,
+        "left": {
+          "type": "CallExpression",
+          "start": 1579,
+          "end": 1624,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1579,
+            "end": 1621,
+            "object": {
+              "type": "CallExpression",
+              "start": 1579,
+              "end": 1610,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1579,
+                "end": 1598,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1579,
+                  "end": 1585,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1586,
+                  "end": 1598,
+                  "name": "fromCharCode"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1599,
+                  "end": 1609,
+                  "value": 4294967295,
+                  "raw": "4294967295"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1611,
+              "end": 1621,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1622,
+              "end": 1623,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1629,
+          "end": 1634,
+          "value": 65535,
+          "raw": "65535"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1636,
+        "end": 1788,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1640,
+            "end": 1786,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1646,
+              "end": 1785,
+              "callee": {
+                "type": "Identifier",
+                "start": 1650,
+                "end": 1662,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1663,
+                  "end": 1784,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1663,
+                    "end": 1734,
+                    "value": "#7: String.fromCharCode(4294967295).charCodeAt(0) === 65535. Actual: ",
+                    "raw": "'#7: String.fromCharCode(4294967295).charCodeAt(0) === 65535. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1737,
+                    "end": 1784,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1738,
+                      "end": 1783,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1738,
+                        "end": 1780,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 1738,
+                          "end": 1769,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 1738,
+                            "end": 1757,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 1738,
+                              "end": 1744,
+                              "name": "String"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 1745,
+                              "end": 1757,
+                              "name": "fromCharCode"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 1758,
+                              "end": 1768,
+                              "value": 4294967295,
+                              "raw": "4294967295"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1770,
+                          "end": 1780,
+                          "name": "charCodeAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1781,
+                          "end": 1782,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1801,
+      "end": 2014,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1805,
+        "end": 1860,
+        "left": {
+          "type": "CallExpression",
+          "start": 1805,
+          "end": 1850,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1805,
+            "end": 1847,
+            "object": {
+              "type": "CallExpression",
+              "start": 1805,
+              "end": 1836,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1805,
+                "end": 1824,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1805,
+                  "end": 1811,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1812,
+                  "end": 1824,
+                  "name": "fromCharCode"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1825,
+                  "end": 1835,
+                  "value": 4294967294,
+                  "raw": "4294967294"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1837,
+              "end": 1847,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1848,
+              "end": 1849,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1855,
+          "end": 1860,
+          "value": 65534,
+          "raw": "65534"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1862,
+        "end": 2014,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1866,
+            "end": 2012,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1872,
+              "end": 2011,
+              "callee": {
+                "type": "Identifier",
+                "start": 1876,
+                "end": 1888,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1889,
+                  "end": 2010,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1889,
+                    "end": 1960,
+                    "value": "#8: String.fromCharCode(4294967294).charCodeAt(0) === 65534. Actual: ",
+                    "raw": "'#8: String.fromCharCode(4294967294).charCodeAt(0) === 65534. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1963,
+                    "end": 2010,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1964,
+                      "end": 2009,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1964,
+                        "end": 2006,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 1964,
+                          "end": 1995,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 1964,
+                            "end": 1983,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 1964,
+                              "end": 1970,
+                              "name": "String"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 1971,
+                              "end": 1983,
+                              "name": "fromCharCode"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 1984,
+                              "end": 1994,
+                              "value": 4294967294,
+                              "raw": "4294967294"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1996,
+                          "end": 2006,
+                          "name": "charCodeAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 2007,
+                          "end": 2008,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2027,
+      "end": 2232,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2031,
+        "end": 2082,
+        "left": {
+          "type": "CallExpression",
+          "start": 2031,
+          "end": 2076,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2031,
+            "end": 2073,
+            "object": {
+              "type": "CallExpression",
+              "start": 2031,
+              "end": 2062,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2031,
+                "end": 2050,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2031,
+                  "end": 2037,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2038,
+                  "end": 2050,
+                  "name": "fromCharCode"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2051,
+                  "end": 2061,
+                  "value": 4294967296,
+                  "raw": "4294967296"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2063,
+              "end": 2073,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2074,
+              "end": 2075,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 2081,
+          "end": 2082,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2084,
+        "end": 2232,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2088,
+            "end": 2230,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2094,
+              "end": 2229,
+              "callee": {
+                "type": "Identifier",
+                "start": 2098,
+                "end": 2110,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2111,
+                  "end": 2228,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2111,
+                    "end": 2178,
+                    "value": "#9: String.fromCharCode(4294967296).charCodeAt(0) === 0. Actual: ",
+                    "raw": "'#9: String.fromCharCode(4294967296).charCodeAt(0) === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 2181,
+                    "end": 2228,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 2182,
+                      "end": 2227,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 2182,
+                        "end": 2224,
+                        "object": {
+                          "type": "CallExpression",
+                          "start": 2182,
+                          "end": 2213,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 2182,
+                            "end": 2201,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 2182,
+                              "end": 2188,
+                              "name": "String"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 2189,
+                              "end": 2201,
+                              "name": "fromCharCode"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 2202,
+                              "end": 2212,
+                              "value": 4294967296,
+                              "raw": "4294967296"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 2214,
+                          "end": 2224,
+                          "name": "charCodeAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 2225,
+                          "end": 2226,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

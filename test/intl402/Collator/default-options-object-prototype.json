@@ -1,0 +1,272 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 693,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 455,
+      "end": 534,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 459,
+          "end": 533,
+          "id": {
+            "type": "Identifier",
+            "start": 459,
+            "end": 477,
+            "name": "defaultSensitivity"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 480,
+            "end": 533,
+            "object": {
+              "type": "CallExpression",
+              "start": 480,
+              "end": 521,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 480,
+                "end": 519,
+                "object": {
+                  "type": "NewExpression",
+                  "start": 480,
+                  "end": 503,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 484,
+                    "end": 497,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 484,
+                      "end": 488,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 489,
+                      "end": 497,
+                      "name": "Collator"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 498,
+                      "end": 502,
+                      "value": "en",
+                      "raw": "\"en\""
+                    }
+                  ]
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 504,
+                  "end": 519,
+                  "name": "resolvedOptions"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 522,
+              "end": 533,
+              "name": "sensitivity"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 536,
+      "end": 574,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 536,
+        "end": 573,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 536,
+          "end": 564,
+          "object": {
+            "type": "MemberExpression",
+            "start": 536,
+            "end": 552,
+            "object": {
+              "type": "Identifier",
+              "start": 536,
+              "end": 542,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 543,
+              "end": 552,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 553,
+            "end": 564,
+            "name": "sensitivity"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 567,
+          "end": 573,
+          "value": "base",
+          "raw": "\"base\""
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 575,
+      "end": 614,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 579,
+          "end": 613,
+          "id": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 587,
+            "name": "collator"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 590,
+            "end": 613,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 594,
+              "end": 607,
+              "object": {
+                "type": "Identifier",
+                "start": 594,
+                "end": 598,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 599,
+                "end": 607,
+                "name": "Collator"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 608,
+                "end": 612,
+                "value": "en",
+                "raw": "\"en\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 615,
+      "end": 692,
+      "expression": {
+        "type": "CallExpression",
+        "start": 615,
+        "end": 691,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 615,
+          "end": 631,
+          "object": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 621,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 622,
+            "end": 631,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 632,
+            "end": 670,
+            "object": {
+              "type": "CallExpression",
+              "start": 632,
+              "end": 658,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 632,
+                "end": 656,
+                "object": {
+                  "type": "Identifier",
+                  "start": 632,
+                  "end": 640,
+                  "name": "collator"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 641,
+                  "end": 656,
+                  "name": "resolvedOptions"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 659,
+              "end": 670,
+              "name": "sensitivity"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 672,
+            "end": 690,
+            "name": "defaultSensitivity"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

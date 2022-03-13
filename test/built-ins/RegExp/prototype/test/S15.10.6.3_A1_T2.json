@@ -1,0 +1,195 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 559,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 337,
+      "end": 370,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 341,
+          "end": 369,
+          "id": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 349,
+            "name": "__string"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 352,
+            "end": 369,
+            "callee": {
+              "type": "Identifier",
+              "start": 356,
+              "end": 362,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 363,
+                "end": 368,
+                "value": "123",
+                "raw": "\"123\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 371,
+      "end": 405,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 375,
+          "end": 404,
+          "id": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 379,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 382,
+            "end": 404,
+            "value": {},
+            "raw": "/((1)|(12))((3)|(23))/",
+            "regex": {
+              "pattern": "((1)|(12))((3)|(23))",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 407,
+      "end": 558,
+      "expression": {
+        "type": "CallExpression",
+        "start": 407,
+        "end": 557,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 407,
+          "end": 423,
+          "object": {
+            "type": "Identifier",
+            "start": 407,
+            "end": 413,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 414,
+            "end": 423,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 427,
+            "end": 446,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 427,
+              "end": 436,
+              "object": {
+                "type": "Identifier",
+                "start": 427,
+                "end": 431,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 432,
+                "end": 436,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 437,
+                "end": 445,
+                "name": "__string"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 450,
+            "end": 478,
+            "left": {
+              "type": "CallExpression",
+              "start": 450,
+              "end": 469,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 450,
+                "end": 459,
+                "object": {
+                  "type": "Identifier",
+                  "start": 450,
+                  "end": 454,
+                  "name": "__re"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 455,
+                  "end": 459,
+                  "name": "exec"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 460,
+                  "end": 468,
+                  "name": "__string"
+                }
+              ],
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 474,
+              "end": 478,
+              "value": null,
+              "raw": "null"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 482,
+            "end": 555,
+            "value": "__re.test(\"new String(\"123\")\") must return __re.exec(__string) !== null",
+            "raw": "'__re.test(\"new String(\"123\")\") must return __re.exec(__string) !== null'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

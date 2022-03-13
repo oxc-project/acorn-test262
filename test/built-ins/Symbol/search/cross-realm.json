@@ -1,0 +1,149 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 444,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 346,
+      "end": 393,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 350,
+          "end": 392,
+          "id": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 357,
+            "name": "OSymbol"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 360,
+            "end": 392,
+            "object": {
+              "type": "MemberExpression",
+              "start": 360,
+              "end": 385,
+              "object": {
+                "type": "CallExpression",
+                "start": 360,
+                "end": 378,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 360,
+                  "end": 376,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 360,
+                    "end": 364,
+                    "name": "$262"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 365,
+                    "end": 376,
+                    "name": "createRealm"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 379,
+                "end": 385,
+                "name": "global"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 386,
+              "end": 392,
+              "name": "Symbol"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 395,
+      "end": 443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 395,
+        "end": 442,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 395,
+          "end": 411,
+          "object": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 401,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 411,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 412,
+            "end": 425,
+            "object": {
+              "type": "Identifier",
+              "start": 412,
+              "end": 418,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 419,
+              "end": 425,
+              "name": "search"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 427,
+            "end": 441,
+            "object": {
+              "type": "Identifier",
+              "start": 427,
+              "end": 434,
+              "name": "OSymbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 435,
+              "end": 441,
+              "name": "search"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

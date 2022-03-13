@@ -1,0 +1,188 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 474,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 324,
+      "end": 370,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 328,
+          "end": 369,
+          "id": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 329,
+            "name": "f"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 332,
+            "end": 369,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 343,
+              "end": 369,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 347,
+                  "end": 367,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 347,
+                    "end": 366,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 347,
+                      "end": 359,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 347,
+                        "end": 351
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 352,
+                        "end": 359,
+                        "name": "touched"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 362,
+                      "end": 366,
+                      "value": true,
+                      "raw": "true"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 372,
+      "end": 385,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 376,
+          "end": 384,
+          "id": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 379,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 382,
+            "end": 384,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 387,
+      "end": 400,
+      "expression": {
+        "type": "CallExpression",
+        "start": 387,
+        "end": 399,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 387,
+          "end": 394,
+          "object": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 388,
+            "name": "f"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 389,
+            "end": 394,
+            "name": "apply"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 395,
+            "end": 398,
+            "name": "obj"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 402,
+      "end": 473,
+      "expression": {
+        "type": "CallExpression",
+        "start": 402,
+        "end": 472,
+        "callee": {
+          "type": "Identifier",
+          "start": 402,
+          "end": 408,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 409,
+            "end": 420,
+            "object": {
+              "type": "Identifier",
+              "start": 409,
+              "end": 412,
+              "name": "obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 413,
+              "end": 420,
+              "name": "touched"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 471,
+            "value": "The value of obj.touched is expected to be true",
+            "raw": "'The value of obj.touched is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

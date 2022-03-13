@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 460,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 273,
+      "end": 369,
+      "expression": {
+        "type": "CallExpression",
+        "start": 273,
+        "end": 368,
+        "callee": {
+          "type": "Identifier",
+          "start": 273,
+          "end": 279,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 280,
+            "end": 313,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 280,
+              "end": 303,
+              "object": {
+                "type": "Identifier",
+                "start": 280,
+                "end": 288,
+                "name": "Function"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 303,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 304,
+                "end": 312,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 315,
+            "end": 367,
+            "value": "Function.hasOwnProperty(\"length\") must return true",
+            "raw": "'Function.hasOwnProperty(\"length\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 370,
+      "end": 459,
+      "expression": {
+        "type": "CallExpression",
+        "start": 370,
+        "end": 458,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 370,
+          "end": 386,
+          "object": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 376,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 386,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 387,
+            "end": 402,
+            "object": {
+              "type": "Identifier",
+              "start": 387,
+              "end": 395,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 396,
+              "end": 402,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 404,
+            "end": 405,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 407,
+            "end": 457,
+            "value": "The value of Function.length is expected to be 1",
+            "raw": "'The value of Function.length is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

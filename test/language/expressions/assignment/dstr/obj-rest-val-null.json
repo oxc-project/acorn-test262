@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 834,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 757,
+      "end": 766,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 761,
+          "end": 765,
+          "id": {
+            "type": "Identifier",
+            "start": 761,
+            "end": 765,
+            "name": "rest"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 768,
+      "end": 833,
+      "expression": {
+        "type": "CallExpression",
+        "start": 768,
+        "end": 832,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 768,
+          "end": 781,
+          "object": {
+            "type": "Identifier",
+            "start": 768,
+            "end": 774,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 775,
+            "end": 781,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 782,
+            "end": 791,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 793,
+            "end": 831,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 804,
+              "end": 831,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 808,
+                  "end": 829,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 808,
+                    "end": 827,
+                    "expressions": [
+                      {
+                        "type": "Literal",
+                        "start": 808,
+                        "end": 809,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "AssignmentExpression",
+                        "start": 811,
+                        "end": 827,
+                        "operator": "=",
+                        "left": {
+                          "type": "ObjectPattern",
+                          "start": 811,
+                          "end": 820,
+                          "properties": [
+                            {
+                              "type": "RestElement",
+                              "start": 812,
+                              "end": 819,
+                              "argument": {
+                                "type": "Identifier",
+                                "start": 815,
+                                "end": 819,
+                                "name": "rest"
+                              }
+                            }
+                          ]
+                        },
+                        "right": {
+                          "type": "Literal",
+                          "start": 823,
+                          "end": 827,
+                          "value": null,
+                          "raw": "null"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

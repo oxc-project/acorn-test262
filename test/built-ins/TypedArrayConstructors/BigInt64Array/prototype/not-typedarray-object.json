@@ -1,0 +1,152 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 659,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 530,
+      "end": 581,
+      "expression": {
+        "type": "CallExpression",
+        "start": 530,
+        "end": 580,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 530,
+          "end": 546,
+          "object": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 536,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 537,
+            "end": 546,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 547,
+            "end": 567,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 554,
+              "end": 567,
+              "name": "BigInt64Array"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 569,
+            "end": 579,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 582,
+      "end": 658,
+      "expression": {
+        "type": "CallExpression",
+        "start": 582,
+        "end": 657,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 582,
+          "end": 595,
+          "object": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 588,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 589,
+            "end": 595,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 596,
+            "end": 605,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 607,
+            "end": 656,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 619,
+              "end": 656,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 623,
+                  "end": 654,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 623,
+                    "end": 653,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 623,
+                      "end": 646,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 623,
+                        "end": 636,
+                        "name": "BigInt64Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 637,
+                        "end": 646,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 647,
+                      "end": 653,
+                      "name": "buffer"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,200 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 442,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 255,
+      "end": 281,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 259,
+          "end": 280,
+          "id": {
+            "type": "Identifier",
+            "start": 259,
+            "end": 261,
+            "name": "gO"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 264,
+            "end": 280,
+            "callee": {
+              "type": "Identifier",
+              "start": 264,
+              "end": 278,
+              "name": "fnGlobalObject"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 283,
+      "end": 324,
+      "expression": {
+        "type": "CallExpression",
+        "start": 283,
+        "end": 323,
+        "callee": {
+          "type": "Identifier",
+          "start": 283,
+          "end": 289,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 290,
+            "end": 322,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 290,
+              "end": 307,
+              "operator": "typeof",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 297,
+                "end": 307,
+                "name": "setTimeout"
+              }
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 312,
+              "end": 322,
+              "value": "function",
+              "raw": "\"function\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 325,
+      "end": 369,
+      "expression": {
+        "type": "CallExpression",
+        "start": 325,
+        "end": 368,
+        "callee": {
+          "type": "Identifier",
+          "start": 325,
+          "end": 331,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 332,
+            "end": 367,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 332,
+              "end": 352,
+              "operator": "typeof",
+              "prefix": true,
+              "argument": {
+                "type": "MemberExpression",
+                "start": 339,
+                "end": 352,
+                "object": {
+                  "type": "Identifier",
+                  "start": 339,
+                  "end": 341,
+                  "name": "gO"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 342,
+                  "end": 352,
+                  "name": "setTimeout"
+                },
+                "computed": false,
+                "optional": false
+              }
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 357,
+              "end": 367,
+              "value": "function",
+              "raw": "\"function\""
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 370,
+      "end": 414,
+      "expression": {
+        "type": "CallExpression",
+        "start": 370,
+        "end": 413,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 370,
+          "end": 386,
+          "object": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 376,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 386,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 387,
+            "end": 400,
+            "object": {
+              "type": "Identifier",
+              "start": 387,
+              "end": 389,
+              "name": "gO"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 390,
+              "end": 400,
+              "name": "setTimeout"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 402,
+            "end": 412,
+            "name": "setTimeout"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

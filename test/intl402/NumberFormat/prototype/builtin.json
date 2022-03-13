@@ -1,0 +1,210 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 659,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 378,
+      "end": 475,
+      "expression": {
+        "type": "CallExpression",
+        "start": 378,
+        "end": 474,
+        "callee": {
+          "type": "Identifier",
+          "start": 378,
+          "end": 384,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 385,
+            "end": 433,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 385,
+              "end": 404,
+              "object": {
+                "type": "Identifier",
+                "start": 385,
+                "end": 391,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 392,
+                "end": 404,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 405,
+                "end": 432,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 405,
+                  "end": 422,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 405,
+                    "end": 409,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 410,
+                    "end": 422,
+                    "name": "NumberFormat"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 423,
+                  "end": 432,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 435,
+            "end": 473,
+            "value": "Built-in objects must be extensible.",
+            "raw": "\"Built-in objects must be extensible.\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 477,
+      "end": 658,
+      "expression": {
+        "type": "CallExpression",
+        "start": 477,
+        "end": 657,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 477,
+          "end": 493,
+          "object": {
+            "type": "Identifier",
+            "start": 477,
+            "end": 483,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 484,
+            "end": 493,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 494,
+            "end": 544,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 494,
+              "end": 515,
+              "object": {
+                "type": "Identifier",
+                "start": 494,
+                "end": 500,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 501,
+                "end": 515,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 516,
+                "end": 543,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 516,
+                  "end": 533,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 516,
+                    "end": 520,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 521,
+                    "end": 533,
+                    "name": "NumberFormat"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 534,
+                  "end": 543,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 546,
+            "end": 562,
+            "object": {
+              "type": "Identifier",
+              "start": 546,
+              "end": 552,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 553,
+              "end": 562,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 581,
+            "end": 656,
+            "value": "Built-in prototype objects must have Object.prototype as their prototype.",
+            "raw": "\"Built-in prototype objects must have Object.prototype as their prototype.\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

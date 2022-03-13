@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 549,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 317,
+      "end": 521,
+      "id": {
+        "type": "Identifier",
+        "start": 326,
+        "end": 329,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 332,
+        "end": 521,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 350,
+            "end": 363,
+            "expression": {
+              "type": "Literal",
+              "start": 350,
+              "end": 362,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          },
+          {
+            "type": "ForInStatement",
+            "start": 381,
+            "end": 506,
+            "left": {
+              "type": "VariableDeclaration",
+              "start": 386,
+              "end": 399,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 390,
+                  "end": 399,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 390,
+                    "end": 399,
+                    "name": "tempIndex"
+                  },
+                  "init": null
+                }
+              ],
+              "kind": "var"
+            },
+            "right": {
+              "type": "ThisExpression",
+              "start": 403,
+              "end": 407
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 409,
+              "end": 506,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 431,
+                  "end": 488,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 431,
+                    "end": 487,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 431,
+                      "end": 450,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 431,
+                        "end": 437,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 438,
+                        "end": 450,
+                        "name": "notSameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 451,
+                        "end": 460,
+                        "name": "tempIndex"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 462,
+                        "end": 473,
+                        "value": "arguments",
+                        "raw": "\"arguments\""
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 475,
+                        "end": 486,
+                        "value": "tempIndex",
+                        "raw": "'tempIndex'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 534,
+      "end": 548,
+      "expression": {
+        "type": "CallExpression",
+        "start": 534,
+        "end": 547,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 534,
+          "end": 542,
+          "object": {
+            "type": "Identifier",
+            "start": 534,
+            "end": 537,
+            "name": "foo"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 538,
+            "end": 542,
+            "name": "call"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 543,
+            "end": 546,
+            "name": "foo"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

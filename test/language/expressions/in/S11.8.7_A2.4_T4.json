@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 458,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 316,
+      "end": 457,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 320,
+        "end": 369,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 320,
+          "end": 360,
+          "left": {
+            "type": "ParenthesizedExpression",
+            "start": 320,
+            "end": 350,
+            "expression": {
+              "type": "SequenceExpression",
+              "start": 321,
+              "end": 349,
+              "expressions": [
+                {
+                  "type": "AssignmentExpression",
+                  "start": 321,
+                  "end": 336,
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 321,
+                    "end": 327,
+                    "name": "NUMBER"
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 330,
+                    "end": 336,
+                    "name": "Number"
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 338,
+                  "end": 349,
+                  "value": "MAX_VALUE",
+                  "raw": "\"MAX_VALUE\""
+                }
+              ]
+            }
+          },
+          "operator": "in",
+          "right": {
+            "type": "Identifier",
+            "start": 354,
+            "end": 360,
+            "name": "NUMBER"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 365,
+          "end": 369,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 371,
+        "end": 457,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 375,
+            "end": 455,
+            "argument": {
+              "type": "NewExpression",
+              "start": 381,
+              "end": 454,
+              "callee": {
+                "type": "Identifier",
+                "start": 385,
+                "end": 397,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 398,
+                  "end": 453,
+                  "value": "#1: (NUMBER = Number, \"MAX_VALUE\") in NUMBER !== true",
+                  "raw": "'#1: (NUMBER = Number, \"MAX_VALUE\") in NUMBER !== true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

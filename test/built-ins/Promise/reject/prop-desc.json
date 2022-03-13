@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 572,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 497,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 496,
+        "callee": {
+          "type": "Identifier",
+          "start": 458,
+          "end": 477,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 478,
+            "end": 485,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 487,
+            "end": 495,
+            "value": "reject",
+            "raw": "'reject'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 498,
+      "end": 532,
+      "expression": {
+        "type": "CallExpression",
+        "start": 498,
+        "end": 531,
+        "callee": {
+          "type": "Identifier",
+          "start": 498,
+          "end": 512,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 513,
+            "end": 520,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 522,
+            "end": 530,
+            "value": "reject",
+            "raw": "'reject'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 533,
+      "end": 571,
+      "expression": {
+        "type": "CallExpression",
+        "start": 533,
+        "end": 570,
+        "callee": {
+          "type": "Identifier",
+          "start": 533,
+          "end": 551,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 552,
+            "end": 559,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 561,
+            "end": 569,
+            "value": "reject",
+            "raw": "'reject'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,119 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 511,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 424,
+      "end": 456,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 428,
+          "end": 455,
+          "id": {
+            "type": "Identifier",
+            "start": 428,
+            "end": 434,
+            "name": "sample"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 437,
+            "end": 455,
+            "callee": {
+              "type": "Identifier",
+              "start": 441,
+              "end": 452,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 453,
+                "end": 454,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 510,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 509,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 458,
+          "end": 474,
+          "object": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 464,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 474,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 475,
+            "end": 501,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 475,
+              "end": 493,
+              "object": {
+                "type": "Identifier",
+                "start": 475,
+                "end": 486,
+                "name": "ArrayBuffer"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 487,
+                "end": 493,
+                "name": "isView"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 494,
+                "end": 500,
+                "name": "sample"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 503,
+            "end": 508,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

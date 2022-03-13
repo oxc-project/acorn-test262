@@ -1,0 +1,94 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 628,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 552,
+      "end": 627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 552,
+        "end": 626,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 552,
+          "end": 568,
+          "object": {
+            "type": "Identifier",
+            "start": 552,
+            "end": 558,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 559,
+            "end": 568,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 569,
+            "end": 618,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 569,
+              "end": 608,
+              "object": {
+                "type": "MemberExpression",
+                "start": 569,
+                "end": 593,
+                "object": {
+                  "type": "Identifier",
+                  "start": 569,
+                  "end": 583,
+                  "name": "AggregateError"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 584,
+                  "end": 593,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 594,
+                "end": 608,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 609,
+                "end": 617,
+                "value": "errors",
+                "raw": "\"errors\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 620,
+            "end": 625,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

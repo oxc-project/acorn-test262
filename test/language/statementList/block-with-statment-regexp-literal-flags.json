@@ -1,0 +1,54 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1007,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 987,
+      "end": 1001,
+      "body": [
+        {
+          "type": "LabeledStatement",
+          "start": 988,
+          "end": 1000,
+          "body": {
+            "type": "ExpressionStatement",
+            "start": 996,
+            "end": 1000,
+            "expression": {
+              "type": "Literal",
+              "start": 996,
+              "end": 1000,
+              "value": 3000,
+              "raw": "3000"
+            }
+          },
+          "label": {
+            "type": "Identifier",
+            "start": 988,
+            "end": 994,
+            "name": "length"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1001,
+      "end": 1006,
+      "expression": {
+        "type": "Literal",
+        "start": 1001,
+        "end": 1005,
+        "value": {},
+        "raw": "/1/g",
+        "regex": {
+          "pattern": "1",
+          "flags": "g"
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

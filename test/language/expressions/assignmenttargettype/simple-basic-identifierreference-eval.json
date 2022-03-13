@@ -1,0 +1,32 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 332,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 322,
+      "end": 331,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 322,
+        "end": 330,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 322,
+          "end": 326,
+          "name": "eval"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 329,
+          "end": 330,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

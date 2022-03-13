@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 409,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 298,
+      "end": 331,
+      "expression": {
+        "type": "CallExpression",
+        "start": 298,
+        "end": 330,
+        "callee": {
+          "type": "Identifier",
+          "start": 298,
+          "end": 312,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 313,
+            "end": 319,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 321,
+            "end": 329,
+            "value": "hasOwn",
+            "raw": "\"hasOwn\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 332,
+      "end": 370,
+      "expression": {
+        "type": "CallExpression",
+        "start": 332,
+        "end": 369,
+        "callee": {
+          "type": "Identifier",
+          "start": 332,
+          "end": 351,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 352,
+            "end": 358,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 368,
+            "value": "hasOwn",
+            "raw": "\"hasOwn\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 371,
+      "end": 408,
+      "expression": {
+        "type": "CallExpression",
+        "start": 371,
+        "end": 407,
+        "callee": {
+          "type": "Identifier",
+          "start": 371,
+          "end": 389,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 390,
+            "end": 396,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 398,
+            "end": 406,
+            "value": "hasOwn",
+            "raw": "\"hasOwn\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

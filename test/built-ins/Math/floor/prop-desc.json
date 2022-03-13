@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 568,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 466,
+      "end": 501,
+      "expression": {
+        "type": "CallExpression",
+        "start": 466,
+        "end": 500,
+        "callee": {
+          "type": "Identifier",
+          "start": 466,
+          "end": 485,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 486,
+            "end": 490,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 492,
+            "end": 499,
+            "value": "floor",
+            "raw": "\"floor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 502,
+      "end": 532,
+      "expression": {
+        "type": "CallExpression",
+        "start": 502,
+        "end": 531,
+        "callee": {
+          "type": "Identifier",
+          "start": 502,
+          "end": 516,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 517,
+            "end": 521,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 523,
+            "end": 530,
+            "value": "floor",
+            "raw": "\"floor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 533,
+      "end": 567,
+      "expression": {
+        "type": "CallExpression",
+        "start": 533,
+        "end": 566,
+        "callee": {
+          "type": "Identifier",
+          "start": 533,
+          "end": 551,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 552,
+            "end": 556,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 558,
+            "end": 565,
+            "value": "floor",
+            "raw": "\"floor\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

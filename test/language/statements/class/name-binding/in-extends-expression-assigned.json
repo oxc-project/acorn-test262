@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 313,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 232,
+      "end": 312,
+      "expression": {
+        "type": "CallExpression",
+        "start": 232,
+        "end": 311,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 232,
+          "end": 245,
+          "object": {
+            "type": "Identifier",
+            "start": 232,
+            "end": 238,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 239,
+            "end": 245,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 246,
+            "end": 260,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 262,
+            "end": 310,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 273,
+              "end": 310,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 277,
+                  "end": 308,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 281,
+                      "end": 307,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 281,
+                        "end": 282,
+                        "name": "x"
+                      },
+                      "init": {
+                        "type": "ParenthesizedExpression",
+                        "start": 285,
+                        "end": 307,
+                        "expression": {
+                          "type": "ClassExpression",
+                          "start": 286,
+                          "end": 306,
+                          "id": {
+                            "type": "Identifier",
+                            "start": 292,
+                            "end": 293,
+                            "name": "x"
+                          },
+                          "superClass": {
+                            "type": "Identifier",
+                            "start": 302,
+                            "end": 303,
+                            "name": "x"
+                          },
+                          "body": {
+                            "type": "ClassBody",
+                            "start": 304,
+                            "end": 306,
+                            "body": []
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

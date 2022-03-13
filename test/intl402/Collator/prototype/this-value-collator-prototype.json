@@ -1,0 +1,130 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 613,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 427,
+      "end": 612,
+      "expression": {
+        "type": "CallExpression",
+        "start": 427,
+        "end": 611,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 427,
+          "end": 440,
+          "object": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 433,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 440,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 441,
+            "end": 450,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 452,
+            "end": 505,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 458,
+              "end": 505,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 458,
+                "end": 489,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 458,
+                  "end": 481,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 458,
+                    "end": 471,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 458,
+                      "end": 462,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 463,
+                      "end": 471,
+                      "name": "Collator"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 472,
+                    "end": 481,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 482,
+                  "end": 489,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 490,
+                  "end": 496,
+                  "value": "aаあ아",
+                  "raw": "\"aаあ아\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 498,
+                  "end": 504,
+                  "value": "aаあ아",
+                  "raw": "\"aаあ아\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 521,
+            "end": 610,
+            "value": "Intl.Collator.prototype is not an object that has been initialized as an Intl.Collator.",
+            "raw": "\"Intl.Collator.prototype is not an object that has been initialized as an Intl.Collator.\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

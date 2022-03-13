@@ -1,0 +1,255 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 618,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 474,
+      "end": 492,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 478,
+          "end": 491,
+          "id": {
+            "type": "Identifier",
+            "start": 478,
+            "end": 479,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 482,
+            "end": 491,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 483,
+                "end": 484,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 486,
+                "end": 487,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 489,
+                "end": 490,
+                "value": 3,
+                "raw": "3"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 493,
+      "end": 502,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 493,
+        "end": 501,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 493,
+          "end": 496,
+          "object": {
+            "type": "Identifier",
+            "start": 493,
+            "end": 494,
+            "name": "a"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 495,
+            "end": 496,
+            "name": "x"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 499,
+          "end": 501,
+          "value": 10,
+          "raw": "10"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 504,
+      "end": 521,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 508,
+          "end": 520,
+          "id": {
+            "type": "Identifier",
+            "start": 508,
+            "end": 509,
+            "name": "d"
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "start": 512,
+            "end": 520,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 519,
+              "end": 520,
+              "name": "a"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 523,
+      "end": 555,
+      "expression": {
+        "type": "CallExpression",
+        "start": 523,
+        "end": 554,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 523,
+          "end": 539,
+          "object": {
+            "type": "Identifier",
+            "start": 523,
+            "end": 529,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 539,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 540,
+            "end": 541,
+            "name": "d"
+          },
+          {
+            "type": "Literal",
+            "start": 543,
+            "end": 548,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 550,
+            "end": 553,
+            "value": "d",
+            "raw": "'d'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 556,
+      "end": 617,
+      "expression": {
+        "type": "CallExpression",
+        "start": 556,
+        "end": 616,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 556,
+          "end": 572,
+          "object": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 562,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 563,
+            "end": 572,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 573,
+            "end": 589,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 573,
+              "end": 586,
+              "object": {
+                "type": "Identifier",
+                "start": 573,
+                "end": 578,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 579,
+                "end": 586,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 587,
+                "end": 588,
+                "name": "a"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 591,
+            "end": 595,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 597,
+            "end": 615,
+            "value": "Array.isArray(a)",
+            "raw": "'Array.isArray(a)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

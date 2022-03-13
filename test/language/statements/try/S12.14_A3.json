@@ -1,0 +1,559 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 982,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 298,
+      "end": 384,
+      "block": {
+        "type": "BlockStatement",
+        "start": 301,
+        "end": 373,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 305,
+            "end": 307,
+            "expression": {
+              "type": "Identifier",
+              "start": 305,
+              "end": 306,
+              "name": "y"
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 310,
+            "end": 371,
+            "argument": {
+              "type": "NewExpression",
+              "start": 316,
+              "end": 370,
+              "callee": {
+                "type": "Identifier",
+                "start": 320,
+                "end": 332,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 333,
+                  "end": 369,
+                  "value": "#1: \"y\" lead to throwing exception",
+                  "raw": "'#1: \"y\" lead to throwing exception'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 374,
+        "end": 384,
+        "param": {
+          "type": "Identifier",
+          "start": 380,
+          "end": 381,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 382,
+          "end": 384,
+          "body": []
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 397,
+      "end": 406,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 401,
+          "end": 405,
+          "id": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 403,
+            "name": "c2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 404,
+            "end": 405,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 407,
+      "end": 643,
+      "block": {
+        "type": "BlockStatement",
+        "start": 410,
+        "end": 541,
+        "body": [
+          {
+            "type": "TryStatement",
+            "start": 414,
+            "end": 539,
+            "block": {
+              "type": "BlockStatement",
+              "start": 417,
+              "end": 514,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 423,
+                  "end": 433,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 423,
+                    "end": 432,
+                    "name": "someValue"
+                  }
+                },
+                {
+                  "type": "ThrowStatement",
+                  "start": 438,
+                  "end": 510,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 444,
+                    "end": 509,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 448,
+                      "end": 460,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 461,
+                        "end": 508,
+                        "value": "#3.1: \"someValues\" lead to throwing exception",
+                        "raw": "'#3.1: \"someValues\" lead to throwing exception'"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "handler": null,
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 524,
+              "end": 539,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 530,
+                  "end": 535,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 530,
+                    "end": 534,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 530,
+                      "end": 532,
+                      "name": "c2"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 533,
+                      "end": 534,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 542,
+        "end": 643,
+        "param": {
+          "type": "Identifier",
+          "start": 548,
+          "end": 549,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 550,
+          "end": 643,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 554,
+              "end": 641,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 558,
+                "end": 564,
+                "left": {
+                  "type": "Identifier",
+                  "start": 558,
+                  "end": 560,
+                  "name": "c2"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 563,
+                  "end": 564,
+                  "value": 1,
+                  "raw": "1"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 565,
+                "end": 641,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 571,
+                    "end": 637,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 577,
+                      "end": 636,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 581,
+                        "end": 593,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 594,
+                          "end": 635,
+                          "value": "#3.2: \"finally\" block must be evaluated",
+                          "raw": "'#3.2: \"finally\" block must be evaluated'"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 656,
+      "end": 670,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 660,
+          "end": 664,
+          "id": {
+            "type": "Identifier",
+            "start": 660,
+            "end": 662,
+            "name": "c3"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 663,
+            "end": 664,
+            "value": 0,
+            "raw": "0"
+          }
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 665,
+          "end": 669,
+          "id": {
+            "type": "Identifier",
+            "start": 665,
+            "end": 667,
+            "name": "x3"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 668,
+            "end": 669,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 671,
+      "end": 815,
+      "block": {
+        "type": "BlockStatement",
+        "start": 674,
+        "end": 771,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 678,
+            "end": 691,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 678,
+              "end": 690,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 678,
+                "end": 680,
+                "name": "x3"
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 681,
+                "end": 690,
+                "name": "someValue"
+              }
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 694,
+            "end": 769,
+            "argument": {
+              "type": "NewExpression",
+              "start": 700,
+              "end": 768,
+              "callee": {
+                "type": "Identifier",
+                "start": 704,
+                "end": 716,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 717,
+                  "end": 767,
+                  "value": "#3.1: \"x3=someValues\" lead to throwing exception",
+                  "raw": "'#3.1: \"x3=someValues\" lead to throwing exception'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 772,
+        "end": 796,
+        "param": {
+          "type": "Identifier",
+          "start": 778,
+          "end": 781,
+          "name": "err"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 782,
+          "end": 796,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 789,
+              "end": 794,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 789,
+                "end": 793,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 789,
+                  "end": 791,
+                  "name": "x3"
+                },
+                "right": {
+                  "type": "Literal",
+                  "start": 792,
+                  "end": 793,
+                  "value": 1,
+                  "raw": "1"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": {
+        "type": "BlockStatement",
+        "start": 804,
+        "end": 815,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 808,
+            "end": 813,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 808,
+              "end": 812,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 808,
+                "end": 810,
+                "name": "c3"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 811,
+                "end": 812,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 816,
+      "end": 897,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 820,
+        "end": 826,
+        "left": {
+          "type": "Identifier",
+          "start": 820,
+          "end": 822,
+          "name": "x3"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 825,
+          "end": 826,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 827,
+        "end": 897,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 831,
+            "end": 895,
+            "argument": {
+              "type": "NewExpression",
+              "start": 837,
+              "end": 894,
+              "callee": {
+                "type": "Identifier",
+                "start": 841,
+                "end": 853,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 854,
+                  "end": 893,
+                  "value": "#3.2: \"catch\" block must be evaluated",
+                  "raw": "'#3.2: \"catch\" block must be evaluated'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 898,
+      "end": 981,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 902,
+        "end": 908,
+        "left": {
+          "type": "Identifier",
+          "start": 902,
+          "end": 904,
+          "name": "c3"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 907,
+          "end": 908,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 909,
+        "end": 981,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 913,
+            "end": 979,
+            "argument": {
+              "type": "NewExpression",
+              "start": 919,
+              "end": 978,
+              "callee": {
+                "type": "Identifier",
+                "start": 923,
+                "end": 935,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 936,
+                  "end": 977,
+                  "value": "#3.3: \"finally\" block must be evaluated",
+                  "raw": "'#3.3: \"finally\" block must be evaluated'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

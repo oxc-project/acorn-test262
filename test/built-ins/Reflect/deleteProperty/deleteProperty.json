@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 547,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 409,
+      "end": 456,
+      "expression": {
+        "type": "CallExpression",
+        "start": 409,
+        "end": 455,
+        "callee": {
+          "type": "Identifier",
+          "start": 409,
+          "end": 428,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 429,
+            "end": 436,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 438,
+            "end": 454,
+            "value": "deleteProperty",
+            "raw": "'deleteProperty'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 457,
+      "end": 499,
+      "expression": {
+        "type": "CallExpression",
+        "start": 457,
+        "end": 498,
+        "callee": {
+          "type": "Identifier",
+          "start": 457,
+          "end": 471,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 472,
+            "end": 479,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 481,
+            "end": 497,
+            "value": "deleteProperty",
+            "raw": "'deleteProperty'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 500,
+      "end": 546,
+      "expression": {
+        "type": "CallExpression",
+        "start": 500,
+        "end": 545,
+        "callee": {
+          "type": "Identifier",
+          "start": 500,
+          "end": 518,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 519,
+            "end": 526,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 528,
+            "end": 544,
+            "value": "deleteProperty",
+            "raw": "'deleteProperty'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

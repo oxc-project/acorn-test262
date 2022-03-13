@@ -1,0 +1,129 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 397,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 260,
+      "end": 300,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 264,
+          "end": 299,
+          "id": {
+            "type": "Identifier",
+            "start": 264,
+            "end": 267,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 270,
+            "end": 299,
+            "value": "initialValue is not present",
+            "raw": "\"initialValue is not present\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 302,
+      "end": 396,
+      "expression": {
+        "type": "CallExpression",
+        "start": 302,
+        "end": 395,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 302,
+          "end": 318,
+          "object": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 308,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 318,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 319,
+            "end": 351,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 319,
+              "end": 336,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 319,
+                "end": 324,
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "start": 320,
+                    "end": 323,
+                    "name": "str"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 325,
+                "end": 336,
+                "name": "reduceRight"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 337,
+                "end": 350,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 348,
+                  "end": 350,
+                  "body": []
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 353,
+            "end": 356,
+            "name": "str"
+          },
+          {
+            "type": "Literal",
+            "start": 358,
+            "end": 394,
+            "value": "[str].reduceRight(function () { })",
+            "raw": "'[str].reduceRight(function () { })'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

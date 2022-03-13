@@ -1,0 +1,109 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2113,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 2042,
+      "end": 2112,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2042,
+        "end": 2111,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2042,
+          "end": 2055,
+          "object": {
+            "type": "Identifier",
+            "start": 2042,
+            "end": 2048,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2049,
+            "end": 2055,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2056,
+            "end": 2067,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2069,
+            "end": 2110,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2080,
+              "end": 2110,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 2084,
+                  "end": 2090,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 2088,
+                      "end": 2089,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 2088,
+                        "end": 2089,
+                        "name": "x"
+                      },
+                      "init": null
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2093,
+                  "end": 2108,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2093,
+                    "end": 2107,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 2093,
+                      "end": 2097,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 2098,
+                        "end": 2106,
+                        "value": "var x;",
+                        "raw": "'var x;'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

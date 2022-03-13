@@ -1,0 +1,190 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 587,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 335,
+      "end": 360,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 339,
+          "end": 359,
+          "id": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 340,
+            "name": "x"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 343,
+            "end": 359,
+            "object": {
+              "type": "Identifier",
+              "start": 343,
+              "end": 352,
+              "name": "encodeURI"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 353,
+              "end": 359,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 361,
+      "end": 416,
+      "expression": {
+        "type": "CallExpression",
+        "start": 361,
+        "end": 415,
+        "callee": {
+          "type": "Identifier",
+          "start": 361,
+          "end": 378,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 379,
+            "end": 388,
+            "name": "encodeURI"
+          },
+          {
+            "type": "Literal",
+            "start": 390,
+            "end": 398,
+            "value": "length",
+            "raw": "\"length\""
+          },
+          {
+            "type": "Literal",
+            "start": 400,
+            "end": 404,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "Identifier",
+            "start": 406,
+            "end": 414,
+            "name": "Infinity"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 417,
+      "end": 586,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 421,
+        "end": 443,
+        "left": {
+          "type": "MemberExpression",
+          "start": 421,
+          "end": 437,
+          "object": {
+            "type": "Identifier",
+            "start": 421,
+            "end": 430,
+            "name": "encodeURI"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 431,
+            "end": 437,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 442,
+          "end": 443,
+          "name": "x"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 445,
+        "end": 586,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 449,
+            "end": 584,
+            "argument": {
+              "type": "NewExpression",
+              "start": 455,
+              "end": 583,
+              "callee": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 471,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 472,
+                  "end": 582,
+                  "left": {
+                    "type": "Literal",
+                    "start": 472,
+                    "end": 561,
+                    "value": "#1: x = encodeURI.length; encodeURI.length = Infinity; encodeURI.length === x. Actual: ",
+                    "raw": "'#1: x = encodeURI.length; encodeURI.length = Infinity; encodeURI.length === x. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 564,
+                    "end": 582,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 565,
+                      "end": 581,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 565,
+                        "end": 574,
+                        "name": "encodeURI"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 575,
+                        "end": 581,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

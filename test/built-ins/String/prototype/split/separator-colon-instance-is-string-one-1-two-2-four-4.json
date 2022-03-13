@@ -1,0 +1,295 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1104,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 711,
+      "end": 759,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 715,
+          "end": 758,
+          "id": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 723,
+            "name": "__string"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 726,
+            "end": 758,
+            "callee": {
+              "type": "Identifier",
+              "start": 730,
+              "end": 736,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 737,
+                "end": 757,
+                "value": "one-1,two-2,four-4",
+                "raw": "\"one-1,two-2,four-4\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 761,
+      "end": 795,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 765,
+          "end": 794,
+          "id": {
+            "type": "Identifier",
+            "start": 765,
+            "end": 772,
+            "name": "__split"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 775,
+            "end": 794,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 775,
+              "end": 789,
+              "object": {
+                "type": "Identifier",
+                "start": 775,
+                "end": 783,
+                "name": "__string"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 784,
+                "end": 789,
+                "name": "split"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 790,
+                "end": 793,
+                "value": ":",
+                "raw": "\":\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 797,
+      "end": 926,
+      "expression": {
+        "type": "CallExpression",
+        "start": 797,
+        "end": 925,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 797,
+          "end": 813,
+          "object": {
+            "type": "Identifier",
+            "start": 797,
+            "end": 803,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 804,
+            "end": 813,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 817,
+            "end": 836,
+            "object": {
+              "type": "Identifier",
+              "start": 817,
+              "end": 824,
+              "name": "__split"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 825,
+              "end": 836,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 840,
+            "end": 845,
+            "name": "Array"
+          },
+          {
+            "type": "Literal",
+            "start": 849,
+            "end": 923,
+            "value": "The value of __split.constructor is expected to equal the value of Array",
+            "raw": "'The value of __split.constructor is expected to equal the value of Array'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 928,
+      "end": 1000,
+      "expression": {
+        "type": "CallExpression",
+        "start": 928,
+        "end": 999,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 928,
+          "end": 944,
+          "object": {
+            "type": "Identifier",
+            "start": 928,
+            "end": 934,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 935,
+            "end": 944,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 945,
+            "end": 959,
+            "object": {
+              "type": "Identifier",
+              "start": 945,
+              "end": 952,
+              "name": "__split"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 953,
+              "end": 959,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 961,
+            "end": 962,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 964,
+            "end": 998,
+            "value": "The value of __split.length is 1",
+            "raw": "'The value of __split.length is 1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1001,
+      "end": 1103,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1001,
+        "end": 1102,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1001,
+          "end": 1017,
+          "object": {
+            "type": "Identifier",
+            "start": 1001,
+            "end": 1007,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1008,
+            "end": 1017,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1018,
+            "end": 1028,
+            "object": {
+              "type": "Identifier",
+              "start": 1018,
+              "end": 1025,
+              "name": "__split"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 1026,
+              "end": 1027,
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1030,
+            "end": 1050,
+            "value": "one-1,two-2,four-4",
+            "raw": "\"one-1,two-2,four-4\""
+          },
+          {
+            "type": "Literal",
+            "start": 1052,
+            "end": 1101,
+            "value": "The value of __split[0] is \"one-1,two-2,four-4\"",
+            "raw": "'The value of __split[0] is \"one-1,two-2,four-4\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

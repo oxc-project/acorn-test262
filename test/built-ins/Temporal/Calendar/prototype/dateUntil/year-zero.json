@@ -1,0 +1,340 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 661,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 267,
+      "end": 317,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 273,
+          "end": 316,
+          "id": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 281,
+            "name": "calendar"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 284,
+            "end": 316,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 288,
+              "end": 305,
+              "object": {
+                "type": "Identifier",
+                "start": 288,
+                "end": 296,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 297,
+                "end": 305,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 306,
+                "end": 315,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 318,
+      "end": 366,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 324,
+          "end": 365,
+          "id": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 328,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 331,
+            "end": 365,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 335,
+              "end": 353,
+              "object": {
+                "type": "Identifier",
+                "start": 335,
+                "end": 343,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 344,
+                "end": 353,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 354,
+                "end": 358,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 360,
+                "end": 361,
+                "value": 5,
+                "raw": "5"
+              },
+              {
+                "type": "Literal",
+                "start": 363,
+                "end": 364,
+                "value": 2,
+                "raw": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 367,
+      "end": 395,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 373,
+          "end": 394,
+          "id": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 376,
+            "name": "bad"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 379,
+            "end": 394,
+            "value": "-000000-03-14",
+            "raw": "\"-000000-03-14\""
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 397,
+      "end": 527,
+      "expression": {
+        "type": "CallExpression",
+        "start": 397,
+        "end": 526,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 397,
+          "end": 410,
+          "object": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 403,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 410,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 414,
+            "end": 424,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 428,
+            "end": 463,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 434,
+              "end": 463,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 434,
+                "end": 452,
+                "object": {
+                  "type": "Identifier",
+                  "start": 434,
+                  "end": 442,
+                  "name": "calendar"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 443,
+                  "end": 452,
+                  "name": "dateUntil"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 453,
+                  "end": 456,
+                  "name": "bad"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 458,
+                  "end": 462,
+                  "name": "date"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 467,
+            "end": 524,
+            "value": "cannot use minus zero as extended date (first argument)",
+            "raw": "\"cannot use minus zero as extended date (first argument)\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 529,
+      "end": 660,
+      "expression": {
+        "type": "CallExpression",
+        "start": 529,
+        "end": 659,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 529,
+          "end": 542,
+          "object": {
+            "type": "Identifier",
+            "start": 529,
+            "end": 535,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 542,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 546,
+            "end": 556,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 560,
+            "end": 595,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 566,
+              "end": 595,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 566,
+                "end": 584,
+                "object": {
+                  "type": "Identifier",
+                  "start": 566,
+                  "end": 574,
+                  "name": "calendar"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 575,
+                  "end": 584,
+                  "name": "dateUntil"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 585,
+                  "end": 589,
+                  "name": "date"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 591,
+                  "end": 594,
+                  "name": "bad"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 599,
+            "end": 657,
+            "value": "cannot use minus zero as extended date (second argument)",
+            "raw": "\"cannot use minus zero as extended date (second argument)\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,125 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 344,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 255,
+      "end": 304,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 261,
+          "end": 303,
+          "id": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 263,
+            "name": "ym"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 266,
+            "end": 303,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 270,
+              "end": 293,
+              "object": {
+                "type": "Identifier",
+                "start": 270,
+                "end": 278,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 279,
+                "end": 293,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 294,
+                "end": 298,
+                "value": 1976,
+                "raw": "1976"
+              },
+              {
+                "type": "Literal",
+                "start": 300,
+                "end": 302,
+                "value": 11,
+                "raw": "11"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 305,
+      "end": 343,
+      "expression": {
+        "type": "CallExpression",
+        "start": 305,
+        "end": 342,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 305,
+          "end": 321,
+          "object": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 311,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 312,
+            "end": 321,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 322,
+            "end": 337,
+            "object": {
+              "type": "Identifier",
+              "start": 322,
+              "end": 324,
+              "name": "ym"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 325,
+              "end": 337,
+              "name": "monthsInYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 339,
+            "end": 341,
+            "value": 12,
+            "raw": "12"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

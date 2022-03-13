@@ -1,0 +1,848 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2566,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 353,
+      "end": 542,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 357,
+        "end": 433,
+        "left": {
+          "type": "CallExpression",
+          "start": 357,
+          "end": 404,
+          "callee": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 361,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 362,
+              "end": 403,
+              "value": "Number[\t\"POSITIVE_INFINITY\"\t]",
+              "raw": "'Number[\\u0009\"POSITIVE_INFINITY\"\\u0009]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 409,
+          "end": 433,
+          "object": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 415,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 416,
+            "end": 433,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 435,
+        "end": 542,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 439,
+            "end": 540,
+            "argument": {
+              "type": "NewExpression",
+              "start": 445,
+              "end": 539,
+              "callee": {
+                "type": "Identifier",
+                "start": 449,
+                "end": 461,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 462,
+                  "end": 538,
+                  "value": "#1: Number[\\u0009\"POSITIVE_INFINITY\"\\u0009] === Number.POSITIVE_INFINITY",
+                  "raw": "'#1: Number[\\\\u0009\"POSITIVE_INFINITY\"\\\\u0009] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 554,
+      "end": 745,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 558,
+        "end": 634,
+        "left": {
+          "type": "CallExpression",
+          "start": 558,
+          "end": 605,
+          "callee": {
+            "type": "Identifier",
+            "start": 558,
+            "end": 562,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 563,
+              "end": 604,
+              "value": "Number[\u000b\"POSITIVE_INFINITY\"\u000b]",
+              "raw": "'Number[\\u000B\"POSITIVE_INFINITY\"\\u000B]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 610,
+          "end": 634,
+          "object": {
+            "type": "Identifier",
+            "start": 610,
+            "end": 616,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 617,
+            "end": 634,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 636,
+        "end": 745,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 640,
+            "end": 741,
+            "argument": {
+              "type": "NewExpression",
+              "start": 646,
+              "end": 740,
+              "callee": {
+                "type": "Identifier",
+                "start": 650,
+                "end": 662,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 663,
+                  "end": 739,
+                  "value": "#2: Number[\\u000B\"POSITIVE_INFINITY\"\\u000B] === Number.POSITIVE_INFINITY",
+                  "raw": "'#2: Number[\\\\u000B\"POSITIVE_INFINITY\"\\\\u000B] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 757,
+      "end": 946,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 761,
+        "end": 837,
+        "left": {
+          "type": "CallExpression",
+          "start": 761,
+          "end": 808,
+          "callee": {
+            "type": "Identifier",
+            "start": 761,
+            "end": 765,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 766,
+              "end": 807,
+              "value": "Number[\f\"POSITIVE_INFINITY\"\f]",
+              "raw": "'Number[\\u000C\"POSITIVE_INFINITY\"\\u000C]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 813,
+          "end": 837,
+          "object": {
+            "type": "Identifier",
+            "start": 813,
+            "end": 819,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 820,
+            "end": 837,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 839,
+        "end": 946,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 843,
+            "end": 944,
+            "argument": {
+              "type": "NewExpression",
+              "start": 849,
+              "end": 943,
+              "callee": {
+                "type": "Identifier",
+                "start": 853,
+                "end": 865,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 866,
+                  "end": 942,
+                  "value": "#3: Number[\\u000C\"POSITIVE_INFINITY\"\\u000C] === Number.POSITIVE_INFINITY",
+                  "raw": "'#3: Number[\\\\u000C\"POSITIVE_INFINITY\"\\\\u000C] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 958,
+      "end": 1147,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 962,
+        "end": 1038,
+        "left": {
+          "type": "CallExpression",
+          "start": 962,
+          "end": 1009,
+          "callee": {
+            "type": "Identifier",
+            "start": 962,
+            "end": 966,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 967,
+              "end": 1008,
+              "value": "Number[ \"POSITIVE_INFINITY\" ]",
+              "raw": "'Number[\\u0020\"POSITIVE_INFINITY\"\\u0020]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 1014,
+          "end": 1038,
+          "object": {
+            "type": "Identifier",
+            "start": 1014,
+            "end": 1020,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1021,
+            "end": 1038,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1040,
+        "end": 1147,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1044,
+            "end": 1145,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1050,
+              "end": 1144,
+              "callee": {
+                "type": "Identifier",
+                "start": 1054,
+                "end": 1066,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1067,
+                  "end": 1143,
+                  "value": "#4: Number[\\u0020\"POSITIVE_INFINITY\"\\u0020] === Number.POSITIVE_INFINITY",
+                  "raw": "'#4: Number[\\\\u0020\"POSITIVE_INFINITY\"\\\\u0020] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1159,
+      "end": 1348,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1163,
+        "end": 1239,
+        "left": {
+          "type": "CallExpression",
+          "start": 1163,
+          "end": 1210,
+          "callee": {
+            "type": "Identifier",
+            "start": 1163,
+            "end": 1167,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1168,
+              "end": 1209,
+              "value": "Number[ \"POSITIVE_INFINITY\" ]",
+              "raw": "'Number[\\u00A0\"POSITIVE_INFINITY\"\\u00A0]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 1215,
+          "end": 1239,
+          "object": {
+            "type": "Identifier",
+            "start": 1215,
+            "end": 1221,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1222,
+            "end": 1239,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1241,
+        "end": 1348,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1245,
+            "end": 1346,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1251,
+              "end": 1345,
+              "callee": {
+                "type": "Identifier",
+                "start": 1255,
+                "end": 1267,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1268,
+                  "end": 1344,
+                  "value": "#5: Number[\\u00A0\"POSITIVE_INFINITY\"\\u00A0] === Number.POSITIVE_INFINITY",
+                  "raw": "'#5: Number[\\\\u00A0\"POSITIVE_INFINITY\"\\\\u00A0] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1360,
+      "end": 1551,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1364,
+        "end": 1440,
+        "left": {
+          "type": "CallExpression",
+          "start": 1364,
+          "end": 1411,
+          "callee": {
+            "type": "Identifier",
+            "start": 1364,
+            "end": 1368,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1369,
+              "end": 1410,
+              "value": "Number[\n\"POSITIVE_INFINITY\"\n]",
+              "raw": "'Number[\\u000A\"POSITIVE_INFINITY\"\\u000A]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 1416,
+          "end": 1440,
+          "object": {
+            "type": "Identifier",
+            "start": 1416,
+            "end": 1422,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1423,
+            "end": 1440,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1442,
+        "end": 1551,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1446,
+            "end": 1547,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1452,
+              "end": 1546,
+              "callee": {
+                "type": "Identifier",
+                "start": 1456,
+                "end": 1468,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1469,
+                  "end": 1545,
+                  "value": "#6: Number[\\u000A\"POSITIVE_INFINITY\"\\u000A] === Number.POSITIVE_INFINITY",
+                  "raw": "'#6: Number[\\\\u000A\"POSITIVE_INFINITY\"\\\\u000A] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1563,
+      "end": 1752,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1567,
+        "end": 1643,
+        "left": {
+          "type": "CallExpression",
+          "start": 1567,
+          "end": 1614,
+          "callee": {
+            "type": "Identifier",
+            "start": 1567,
+            "end": 1571,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1572,
+              "end": 1613,
+              "value": "Number[\r\"POSITIVE_INFINITY\"\r]",
+              "raw": "'Number[\\u000D\"POSITIVE_INFINITY\"\\u000D]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 1619,
+          "end": 1643,
+          "object": {
+            "type": "Identifier",
+            "start": 1619,
+            "end": 1625,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1626,
+            "end": 1643,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1645,
+        "end": 1752,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1649,
+            "end": 1750,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1655,
+              "end": 1749,
+              "callee": {
+                "type": "Identifier",
+                "start": 1659,
+                "end": 1671,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1672,
+                  "end": 1748,
+                  "value": "#7: Number[\\u000D\"POSITIVE_INFINITY\"\\u000D] === Number.POSITIVE_INFINITY",
+                  "raw": "'#7: Number[\\\\u000D\"POSITIVE_INFINITY\"\\\\u000D] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1764,
+      "end": 1953,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1768,
+        "end": 1844,
+        "left": {
+          "type": "CallExpression",
+          "start": 1768,
+          "end": 1815,
+          "callee": {
+            "type": "Identifier",
+            "start": 1768,
+            "end": 1772,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1773,
+              "end": 1814,
+              "value": "Number[ \"POSITIVE_INFINITY\" ]",
+              "raw": "'Number[\\u2028\"POSITIVE_INFINITY\"\\u2028]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 1820,
+          "end": 1844,
+          "object": {
+            "type": "Identifier",
+            "start": 1820,
+            "end": 1826,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1827,
+            "end": 1844,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1846,
+        "end": 1953,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1850,
+            "end": 1951,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1856,
+              "end": 1950,
+              "callee": {
+                "type": "Identifier",
+                "start": 1860,
+                "end": 1872,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1873,
+                  "end": 1949,
+                  "value": "#8: Number[\\u2028\"POSITIVE_INFINITY\"\\u2028] === Number.POSITIVE_INFINITY",
+                  "raw": "'#8: Number[\\\\u2028\"POSITIVE_INFINITY\"\\\\u2028] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1965,
+      "end": 2154,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1969,
+        "end": 2045,
+        "left": {
+          "type": "CallExpression",
+          "start": 1969,
+          "end": 2016,
+          "callee": {
+            "type": "Identifier",
+            "start": 1969,
+            "end": 1973,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1974,
+              "end": 2015,
+              "value": "Number[ \"POSITIVE_INFINITY\" ]",
+              "raw": "'Number[\\u2029\"POSITIVE_INFINITY\"\\u2029]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 2021,
+          "end": 2045,
+          "object": {
+            "type": "Identifier",
+            "start": 2021,
+            "end": 2027,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2028,
+            "end": 2045,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2047,
+        "end": 2154,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2051,
+            "end": 2152,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2057,
+              "end": 2151,
+              "callee": {
+                "type": "Identifier",
+                "start": 2061,
+                "end": 2073,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2074,
+                  "end": 2150,
+                  "value": "#9: Number[\\u2029\"POSITIVE_INFINITY\"\\u2029] === Number.POSITIVE_INFINITY",
+                  "raw": "'#9: Number[\\\\u2029\"POSITIVE_INFINITY\"\\\\u2029] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2167,
+      "end": 2565,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2171,
+        "end": 2343,
+        "left": {
+          "type": "CallExpression",
+          "start": 2171,
+          "end": 2314,
+          "callee": {
+            "type": "Identifier",
+            "start": 2171,
+            "end": 2175,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2176,
+              "end": 2313,
+              "value": "Number[\t\u000b\f  \n\r  \"POSITIVE_INFINITY\"\t\u000b\f  \n\r  ]",
+              "raw": "'Number[\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029\"POSITIVE_INFINITY\"\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029]'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "MemberExpression",
+          "start": 2319,
+          "end": 2343,
+          "object": {
+            "type": "Identifier",
+            "start": 2319,
+            "end": 2325,
+            "name": "Number"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2326,
+            "end": 2343,
+            "name": "POSITIVE_INFINITY"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2345,
+        "end": 2565,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2349,
+            "end": 2563,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2355,
+              "end": 2562,
+              "callee": {
+                "type": "Identifier",
+                "start": 2359,
+                "end": 2371,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2372,
+                  "end": 2561,
+                  "value": "#10: Number[\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029\"POSITIVE_INFINITY\"\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029] === Number.POSITIVE_INFINITY",
+                  "raw": "'#10: Number[\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029\"POSITIVE_INFINITY\"\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029] === Number.POSITIVE_INFINITY'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

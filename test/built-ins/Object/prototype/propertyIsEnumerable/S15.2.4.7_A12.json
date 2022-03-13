@@ -1,0 +1,141 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 468,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 269,
+      "end": 467,
+      "expression": {
+        "type": "CallExpression",
+        "start": 269,
+        "end": 466,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 269,
+          "end": 282,
+          "object": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 275,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 282,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 283,
+            "end": 292,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 294,
+            "end": 372,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 305,
+              "end": 372,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 309,
+                  "end": 370,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 309,
+                    "end": 369,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 309,
+                      "end": 351,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 309,
+                        "end": 346,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 309,
+                          "end": 325,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 309,
+                            "end": 315,
+                            "name": "Object"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 316,
+                            "end": 325,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 326,
+                          "end": 346,
+                          "name": "propertyIsEnumerable"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 347,
+                        "end": 351,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 352,
+                        "end": 361,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 363,
+                        "end": 368,
+                        "value": "foo",
+                        "raw": "'foo'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 374,
+            "end": 465,
+            "value": "Object.prototype.propertyIsEnumerable.call(undefined, \"foo\") throws a TypeError exception",
+            "raw": "'Object.prototype.propertyIsEnumerable.call(undefined, \"foo\") throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

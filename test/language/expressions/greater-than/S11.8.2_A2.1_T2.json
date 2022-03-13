@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 519,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 270,
+      "end": 518,
+      "block": {
+        "type": "BlockStatement",
+        "start": 274,
+        "end": 370,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 278,
+            "end": 284,
+            "expression": {
+              "type": "BinaryExpression",
+              "start": 278,
+              "end": 283,
+              "left": {
+                "type": "Identifier",
+                "start": 278,
+                "end": 279,
+                "name": "x"
+              },
+              "operator": ">",
+              "right": {
+                "type": "Literal",
+                "start": 282,
+                "end": 283,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 287,
+            "end": 366,
+            "argument": {
+              "type": "NewExpression",
+              "start": 293,
+              "end": 365,
+              "callee": {
+                "type": "Identifier",
+                "start": 297,
+                "end": 309,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 310,
+                  "end": 364,
+                  "left": {
+                    "type": "Literal",
+                    "start": 310,
+                    "end": 354,
+                    "value": "#1.1: x > 1 throw ReferenceError. Actual: ",
+                    "raw": "'#1.1: x > 1 throw ReferenceError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 357,
+                    "end": 364,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 358,
+                      "end": 363,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 358,
+                        "end": 359,
+                        "name": "x"
+                      },
+                      "operator": ">",
+                      "right": {
+                        "type": "Literal",
+                        "start": 362,
+                        "end": 363,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 371,
+        "end": 518,
+        "param": {
+          "type": "Identifier",
+          "start": 378,
+          "end": 379,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 381,
+          "end": 518,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 385,
+              "end": 516,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 389,
+                "end": 427,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 389,
+                  "end": 418,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 390,
+                    "end": 417,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 390,
+                      "end": 391,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 403,
+                      "end": 417,
+                      "name": "ReferenceError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 423,
+                  "end": 427,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 429,
+                "end": 516,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 435,
+                    "end": 510,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 441,
+                      "end": 509,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 445,
+                        "end": 457,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 458,
+                          "end": 508,
+                          "left": {
+                            "type": "Literal",
+                            "start": 458,
+                            "end": 502,
+                            "value": "#1.2: x > 1 throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: x > 1 throw ReferenceError. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 505,
+                            "end": 508,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 506,
+                              "end": 507,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

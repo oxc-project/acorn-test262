@@ -1,0 +1,200 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 702,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 550,
+      "end": 573,
+      "expression": {
+        "type": "NewExpression",
+        "start": 550,
+        "end": 572,
+        "callee": {
+          "type": "Identifier",
+          "start": 554,
+          "end": 560,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 561,
+            "end": 566,
+            "value": "abc",
+            "raw": "'abc'"
+          },
+          {
+            "type": "Literal",
+            "start": 568,
+            "end": 571,
+            "value": "y",
+            "raw": "'y'"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 574,
+      "end": 598,
+      "expression": {
+        "type": "NewExpression",
+        "start": 574,
+        "end": 597,
+        "callee": {
+          "type": "Identifier",
+          "start": 578,
+          "end": 584,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 585,
+            "end": 590,
+            "value": "abc",
+            "raw": "'abc'"
+          },
+          {
+            "type": "Literal",
+            "start": 592,
+            "end": 596,
+            "value": "gy",
+            "raw": "'gy'"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 599,
+      "end": 623,
+      "expression": {
+        "type": "NewExpression",
+        "start": 599,
+        "end": 622,
+        "callee": {
+          "type": "Identifier",
+          "start": 603,
+          "end": 609,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 610,
+            "end": 615,
+            "value": "abc",
+            "raw": "'abc'"
+          },
+          {
+            "type": "Literal",
+            "start": 617,
+            "end": 621,
+            "value": "iy",
+            "raw": "'iy'"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 624,
+      "end": 648,
+      "expression": {
+        "type": "NewExpression",
+        "start": 624,
+        "end": 647,
+        "callee": {
+          "type": "Identifier",
+          "start": 628,
+          "end": 634,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 635,
+            "end": 640,
+            "value": "abc",
+            "raw": "'abc'"
+          },
+          {
+            "type": "Literal",
+            "start": 642,
+            "end": 646,
+            "value": "my",
+            "raw": "'my'"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 649,
+      "end": 673,
+      "expression": {
+        "type": "NewExpression",
+        "start": 649,
+        "end": 672,
+        "callee": {
+          "type": "Identifier",
+          "start": 653,
+          "end": 659,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 660,
+            "end": 665,
+            "value": "abc",
+            "raw": "'abc'"
+          },
+          {
+            "type": "Literal",
+            "start": 667,
+            "end": 671,
+            "value": "uy",
+            "raw": "'uy'"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 674,
+      "end": 701,
+      "expression": {
+        "type": "NewExpression",
+        "start": 674,
+        "end": 700,
+        "callee": {
+          "type": "Identifier",
+          "start": 678,
+          "end": 684,
+          "name": "RegExp"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 685,
+            "end": 690,
+            "value": "abc",
+            "raw": "'abc'"
+          },
+          {
+            "type": "Literal",
+            "start": 692,
+            "end": 699,
+            "value": "gimuy",
+            "raw": "'gimuy'"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

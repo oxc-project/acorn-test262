@@ -1,0 +1,210 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1023,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 867,
+      "end": 914,
+      "id": {
+        "type": "Identifier",
+        "start": 873,
+        "end": 885,
+        "name": "classBinding"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 886,
+        "end": 914,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 888,
+            "end": 912,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 888,
+              "end": 895,
+              "name": "valueOf"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 895,
+              "end": 912,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 898,
+                "end": 912,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 900,
+                    "end": 910,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 907,
+                      "end": 909,
+                      "value": 33,
+                      "raw": "33"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 915,
+      "end": 966,
+      "expression": {
+        "type": "CallExpression",
+        "start": 915,
+        "end": 965,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 915,
+          "end": 931,
+          "object": {
+            "type": "Identifier",
+            "start": 915,
+            "end": 921,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 922,
+            "end": 931,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 932,
+            "end": 960,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 932,
+              "end": 958,
+              "object": {
+                "type": "NewExpression",
+                "start": 932,
+                "end": 950,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 936,
+                  "end": 948,
+                  "name": "classBinding"
+                },
+                "arguments": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 951,
+                "end": 958,
+                "name": "valueOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 962,
+            "end": 964,
+            "value": 33,
+            "raw": "33"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 968,
+      "end": 986,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 968,
+        "end": 985,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 968,
+          "end": 980,
+          "name": "classBinding"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 983,
+          "end": 985,
+          "value": 44,
+          "raw": "44"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 987,
+      "end": 1022,
+      "expression": {
+        "type": "CallExpression",
+        "start": 987,
+        "end": 1021,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 987,
+          "end": 1003,
+          "object": {
+            "type": "Identifier",
+            "start": 987,
+            "end": 993,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 994,
+            "end": 1003,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1004,
+            "end": 1016,
+            "name": "classBinding"
+          },
+          {
+            "type": "Literal",
+            "start": 1018,
+            "end": 1020,
+            "value": 44,
+            "raw": "44"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

@@ -1,0 +1,278 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1807,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 1570,
+      "end": 1636,
+      "block": {
+        "type": "BlockStatement",
+        "start": 1574,
+        "end": 1600,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1578,
+            "end": 1598,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 1578,
+              "end": 1597,
+              "argument": {
+                "type": "FunctionExpression",
+                "start": 1584,
+                "end": 1597,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 1595,
+                  "end": 1597,
+                  "body": []
+                }
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 1601,
+        "end": 1636,
+        "param": {
+          "type": "Identifier",
+          "start": 1607,
+          "end": 1608,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 1610,
+          "end": 1636,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 1614,
+              "end": 1634,
+              "expression": {
+                "type": "AwaitExpression",
+                "start": 1614,
+                "end": 1633,
+                "argument": {
+                  "type": "FunctionExpression",
+                  "start": 1620,
+                  "end": 1633,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1631,
+                    "end": 1633,
+                    "body": []
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "TryStatement",
+      "start": 1638,
+      "end": 1703,
+      "block": {
+        "type": "BlockStatement",
+        "start": 1642,
+        "end": 1668,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1646,
+            "end": 1666,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 1646,
+              "end": 1665,
+              "argument": {
+                "type": "FunctionExpression",
+                "start": 1652,
+                "end": 1665,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 1663,
+                  "end": 1665,
+                  "body": []
+                }
+              }
+            }
+          }
+        ]
+      },
+      "handler": null,
+      "finalizer": {
+        "type": "BlockStatement",
+        "start": 1677,
+        "end": 1703,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1681,
+            "end": 1701,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 1681,
+              "end": 1700,
+              "argument": {
+                "type": "FunctionExpression",
+                "start": 1687,
+                "end": 1700,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 1698,
+                  "end": 1700,
+                  "body": []
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "TryStatement",
+      "start": 1705,
+      "end": 1806,
+      "block": {
+        "type": "BlockStatement",
+        "start": 1709,
+        "end": 1735,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1713,
+            "end": 1733,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 1713,
+              "end": 1732,
+              "argument": {
+                "type": "FunctionExpression",
+                "start": 1719,
+                "end": 1732,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 1730,
+                  "end": 1732,
+                  "body": []
+                }
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 1736,
+        "end": 1771,
+        "param": {
+          "type": "Identifier",
+          "start": 1742,
+          "end": 1743,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 1745,
+          "end": 1771,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 1749,
+              "end": 1769,
+              "expression": {
+                "type": "AwaitExpression",
+                "start": 1749,
+                "end": 1768,
+                "argument": {
+                  "type": "FunctionExpression",
+                  "start": 1755,
+                  "end": 1768,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1766,
+                    "end": 1768,
+                    "body": []
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": {
+        "type": "BlockStatement",
+        "start": 1780,
+        "end": 1806,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1784,
+            "end": 1804,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 1784,
+              "end": 1803,
+              "argument": {
+                "type": "FunctionExpression",
+                "start": 1790,
+                "end": 1803,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 1801,
+                  "end": 1803,
+                  "body": []
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "module"
+}

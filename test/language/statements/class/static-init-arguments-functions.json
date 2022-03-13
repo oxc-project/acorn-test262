@@ -1,0 +1,855 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1272,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 504,
+      "end": 520,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 508,
+          "end": 510,
+          "id": {
+            "type": "Identifier",
+            "start": 508,
+            "end": 510,
+            "name": "fn"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 512,
+          "end": 519,
+          "id": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 519,
+            "name": "fnParam"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 521,
+      "end": 539,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 525,
+          "end": 528,
+          "id": {
+            "type": "Identifier",
+            "start": 525,
+            "end": 528,
+            "name": "gen"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 530,
+          "end": 538,
+          "id": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 538,
+            "name": "genParam"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 540,
+      "end": 566,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 544,
+          "end": 551,
+          "id": {
+            "type": "Identifier",
+            "start": 544,
+            "end": 551,
+            "name": "asyncFn"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 553,
+          "end": 565,
+          "id": {
+            "type": "Identifier",
+            "start": 553,
+            "end": 565,
+            "name": "asyncFnParam"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 568,
+      "end": 914,
+      "id": {
+        "type": "Identifier",
+        "start": 574,
+        "end": 575,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 576,
+        "end": 914,
+        "body": [
+          {
+            "type": "StaticBlock",
+            "start": 580,
+            "end": 912,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 593,
+                "end": 679,
+                "expression": {
+                  "type": "CallExpression",
+                  "start": 593,
+                  "end": 678,
+                  "callee": {
+                    "type": "ParenthesizedExpression",
+                    "start": 593,
+                    "end": 666,
+                    "expression": {
+                      "type": "FunctionExpression",
+                      "start": 594,
+                      "end": 665,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "ObjectPattern",
+                          "start": 603,
+                          "end": 634,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 604,
+                              "end": 633,
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 604,
+                                "end": 611,
+                                "name": "test262"
+                              },
+                              "kind": "init",
+                              "value": {
+                                "type": "AssignmentPattern",
+                                "start": 604,
+                                "end": 633,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 604,
+                                  "end": 611,
+                                  "name": "test262"
+                                },
+                                "right": {
+                                  "type": "AssignmentExpression",
+                                  "start": 614,
+                                  "end": 633,
+                                  "operator": "=",
+                                  "left": {
+                                    "type": "Identifier",
+                                    "start": 614,
+                                    "end": 621,
+                                    "name": "fnParam"
+                                  },
+                                  "right": {
+                                    "type": "Identifier",
+                                    "start": 624,
+                                    "end": 633,
+                                    "name": "arguments"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 636,
+                        "end": 665,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 644,
+                            "end": 659,
+                            "expression": {
+                              "type": "AssignmentExpression",
+                              "start": 644,
+                              "end": 658,
+                              "operator": "=",
+                              "left": {
+                                "type": "Identifier",
+                                "start": 644,
+                                "end": 646,
+                                "name": "fn"
+                              },
+                              "right": {
+                                "type": "Identifier",
+                                "start": 649,
+                                "end": 658,
+                                "name": "arguments"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 667,
+                      "end": 677,
+                      "value": "function",
+                      "raw": "'function'"
+                    }
+                  ],
+                  "optional": false
+                }
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 685,
+                "end": 793,
+                "expression": {
+                  "type": "CallExpression",
+                  "start": 685,
+                  "end": 792,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 685,
+                    "end": 790,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 685,
+                      "end": 785,
+                      "callee": {
+                        "type": "ParenthesizedExpression",
+                        "start": 685,
+                        "end": 763,
+                        "expression": {
+                          "type": "FunctionExpression",
+                          "start": 686,
+                          "end": 762,
+                          "id": null,
+                          "expression": false,
+                          "generator": true,
+                          "async": false,
+                          "params": [
+                            {
+                              "type": "ObjectPattern",
+                              "start": 698,
+                              "end": 730,
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "start": 699,
+                                  "end": 729,
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 699,
+                                    "end": 706,
+                                    "name": "test262"
+                                  },
+                                  "kind": "init",
+                                  "value": {
+                                    "type": "AssignmentPattern",
+                                    "start": 699,
+                                    "end": 729,
+                                    "left": {
+                                      "type": "Identifier",
+                                      "start": 699,
+                                      "end": 706,
+                                      "name": "test262"
+                                    },
+                                    "right": {
+                                      "type": "AssignmentExpression",
+                                      "start": 709,
+                                      "end": 729,
+                                      "operator": "=",
+                                      "left": {
+                                        "type": "Identifier",
+                                        "start": 709,
+                                        "end": 717,
+                                        "name": "genParam"
+                                      },
+                                      "right": {
+                                        "type": "Identifier",
+                                        "start": 720,
+                                        "end": 729,
+                                        "name": "arguments"
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 732,
+                            "end": 762,
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 740,
+                                "end": 756,
+                                "expression": {
+                                  "type": "AssignmentExpression",
+                                  "start": 740,
+                                  "end": 755,
+                                  "operator": "=",
+                                  "left": {
+                                    "type": "Identifier",
+                                    "start": 740,
+                                    "end": 743,
+                                    "name": "gen"
+                                  },
+                                  "right": {
+                                    "type": "Identifier",
+                                    "start": 746,
+                                    "end": 755,
+                                    "name": "arguments"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 764,
+                          "end": 784,
+                          "value": "generator function",
+                          "raw": "'generator function'"
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 786,
+                      "end": 790,
+                      "name": "next"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 799,
+                "end": 908,
+                "expression": {
+                  "type": "CallExpression",
+                  "start": 799,
+                  "end": 907,
+                  "callee": {
+                    "type": "ParenthesizedExpression",
+                    "start": 799,
+                    "end": 889,
+                    "expression": {
+                      "type": "FunctionExpression",
+                      "start": 800,
+                      "end": 888,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": true,
+                      "params": [
+                        {
+                          "type": "ObjectPattern",
+                          "start": 816,
+                          "end": 852,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 817,
+                              "end": 851,
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 817,
+                                "end": 824,
+                                "name": "test262"
+                              },
+                              "kind": "init",
+                              "value": {
+                                "type": "AssignmentPattern",
+                                "start": 817,
+                                "end": 851,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 817,
+                                  "end": 824,
+                                  "name": "test262"
+                                },
+                                "right": {
+                                  "type": "AssignmentExpression",
+                                  "start": 827,
+                                  "end": 851,
+                                  "operator": "=",
+                                  "left": {
+                                    "type": "Identifier",
+                                    "start": 827,
+                                    "end": 839,
+                                    "name": "asyncFnParam"
+                                  },
+                                  "right": {
+                                    "type": "Identifier",
+                                    "start": 842,
+                                    "end": 851,
+                                    "name": "arguments"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 854,
+                        "end": 888,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 862,
+                            "end": 882,
+                            "expression": {
+                              "type": "AssignmentExpression",
+                              "start": 862,
+                              "end": 881,
+                              "operator": "=",
+                              "left": {
+                                "type": "Identifier",
+                                "start": 862,
+                                "end": 869,
+                                "name": "asyncFn"
+                              },
+                              "right": {
+                                "type": "Identifier",
+                                "start": 872,
+                                "end": 881,
+                                "name": "arguments"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 890,
+                      "end": 906,
+                      "value": "async function",
+                      "raw": "'async function'"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 916,
+      "end": 962,
+      "expression": {
+        "type": "CallExpression",
+        "start": 916,
+        "end": 961,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 916,
+          "end": 935,
+          "object": {
+            "type": "Identifier",
+            "start": 916,
+            "end": 922,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 923,
+            "end": 935,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 936,
+            "end": 948,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 937,
+                "end": 947,
+                "value": "function",
+                "raw": "'function'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 950,
+            "end": 952,
+            "name": "fn"
+          },
+          {
+            "type": "Literal",
+            "start": 954,
+            "end": 960,
+            "value": "body",
+            "raw": "'body'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 963,
+      "end": 1019,
+      "expression": {
+        "type": "CallExpression",
+        "start": 963,
+        "end": 1018,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 963,
+          "end": 982,
+          "object": {
+            "type": "Identifier",
+            "start": 963,
+            "end": 969,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 970,
+            "end": 982,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 983,
+            "end": 995,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 984,
+                "end": 994,
+                "value": "function",
+                "raw": "'function'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 997,
+            "end": 1004,
+            "name": "fnParam"
+          },
+          {
+            "type": "Literal",
+            "start": 1006,
+            "end": 1017,
+            "value": "parameter",
+            "raw": "'parameter'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1020,
+      "end": 1077,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1020,
+        "end": 1076,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1020,
+          "end": 1039,
+          "object": {
+            "type": "Identifier",
+            "start": 1020,
+            "end": 1026,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1027,
+            "end": 1039,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1040,
+            "end": 1062,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1041,
+                "end": 1061,
+                "value": "generator function",
+                "raw": "'generator function'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1064,
+            "end": 1067,
+            "name": "gen"
+          },
+          {
+            "type": "Literal",
+            "start": 1069,
+            "end": 1075,
+            "value": "body",
+            "raw": "'body'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1078,
+      "end": 1145,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1078,
+        "end": 1144,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1078,
+          "end": 1097,
+          "object": {
+            "type": "Identifier",
+            "start": 1078,
+            "end": 1084,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1085,
+            "end": 1097,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1098,
+            "end": 1120,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1099,
+                "end": 1119,
+                "value": "generator function",
+                "raw": "'generator function'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1122,
+            "end": 1130,
+            "name": "genParam"
+          },
+          {
+            "type": "Literal",
+            "start": 1132,
+            "end": 1143,
+            "value": "parameter",
+            "raw": "'parameter'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1146,
+      "end": 1203,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1146,
+        "end": 1202,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1146,
+          "end": 1165,
+          "object": {
+            "type": "Identifier",
+            "start": 1146,
+            "end": 1152,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1153,
+            "end": 1165,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1166,
+            "end": 1184,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1167,
+                "end": 1183,
+                "value": "async function",
+                "raw": "'async function'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1186,
+            "end": 1193,
+            "name": "asyncFn"
+          },
+          {
+            "type": "Literal",
+            "start": 1195,
+            "end": 1201,
+            "value": "body",
+            "raw": "'body'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1204,
+      "end": 1271,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1204,
+        "end": 1270,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1204,
+          "end": 1223,
+          "object": {
+            "type": "Identifier",
+            "start": 1204,
+            "end": 1210,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1211,
+            "end": 1223,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1224,
+            "end": 1242,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1225,
+                "end": 1241,
+                "value": "async function",
+                "raw": "'async function'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1244,
+            "end": 1256,
+            "name": "asyncFnParam"
+          },
+          {
+            "type": "Literal",
+            "start": 1258,
+            "end": 1269,
+            "value": "parameter",
+            "raw": "'parameter'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

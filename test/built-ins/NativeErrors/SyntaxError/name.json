@@ -1,0 +1,162 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 823,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 648,
+      "end": 698,
+      "expression": {
+        "type": "CallExpression",
+        "start": 648,
+        "end": 697,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 648,
+          "end": 664,
+          "object": {
+            "type": "Identifier",
+            "start": 648,
+            "end": 654,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 655,
+            "end": 664,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 665,
+            "end": 681,
+            "object": {
+              "type": "Identifier",
+              "start": 665,
+              "end": 676,
+              "name": "SyntaxError"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 677,
+              "end": 681,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 683,
+            "end": 696,
+            "value": "SyntaxError",
+            "raw": "\"SyntaxError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 700,
+      "end": 741,
+      "expression": {
+        "type": "CallExpression",
+        "start": 700,
+        "end": 740,
+        "callee": {
+          "type": "Identifier",
+          "start": 700,
+          "end": 719,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 720,
+            "end": 731,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "Literal",
+            "start": 733,
+            "end": 739,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 742,
+      "end": 781,
+      "expression": {
+        "type": "CallExpression",
+        "start": 742,
+        "end": 780,
+        "callee": {
+          "type": "Identifier",
+          "start": 742,
+          "end": 759,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 760,
+            "end": 771,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "Literal",
+            "start": 773,
+            "end": 779,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 782,
+      "end": 822,
+      "expression": {
+        "type": "CallExpression",
+        "start": 782,
+        "end": 821,
+        "callee": {
+          "type": "Identifier",
+          "start": 782,
+          "end": 800,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 801,
+            "end": 812,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "Literal",
+            "start": 814,
+            "end": 820,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

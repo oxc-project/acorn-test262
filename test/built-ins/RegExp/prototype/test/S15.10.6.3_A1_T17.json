@@ -1,0 +1,158 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 436,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 299,
+      "end": 317,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 303,
+          "end": 316,
+          "id": {
+            "type": "Identifier",
+            "start": 303,
+            "end": 307,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 310,
+            "end": 316,
+            "value": {},
+            "raw": "/ll|l/",
+            "regex": {
+              "pattern": "ll|l",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 319,
+      "end": 435,
+      "expression": {
+        "type": "CallExpression",
+        "start": 319,
+        "end": 434,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 319,
+          "end": 335,
+          "object": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 325,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 335,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 336,
+            "end": 351,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 336,
+              "end": 345,
+              "object": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 340,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 345,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 346,
+                "end": 350,
+                "value": null,
+                "raw": "null"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 353,
+            "end": 377,
+            "left": {
+              "type": "CallExpression",
+              "start": 353,
+              "end": 368,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 353,
+                "end": 362,
+                "object": {
+                  "type": "Identifier",
+                  "start": 353,
+                  "end": 357,
+                  "name": "__re"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 358,
+                  "end": 362,
+                  "name": "exec"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 363,
+                  "end": 367,
+                  "value": null,
+                  "raw": "null"
+                }
+              ],
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 373,
+              "end": 377,
+              "value": null,
+              "raw": "null"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 379,
+            "end": 433,
+            "value": "__re.test(null) must return __re.exec(null) !== null",
+            "raw": "'__re.test(null) must return __re.exec(null) !== null'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

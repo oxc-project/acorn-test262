@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 425,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 278,
+      "end": 424,
+      "expression": {
+        "type": "CallExpression",
+        "start": 278,
+        "end": 423,
+        "callee": {
+          "type": "Identifier",
+          "start": 278,
+          "end": 288,
+          "name": "testOption"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 289,
+            "end": 306,
+            "object": {
+              "type": "Identifier",
+              "start": 289,
+              "end": 293,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 294,
+              "end": 306,
+              "name": "NumberFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 308,
+            "end": 315,
+            "value": "style",
+            "raw": "\"style\""
+          },
+          {
+            "type": "Literal",
+            "start": 317,
+            "end": 325,
+            "value": "string",
+            "raw": "\"string\""
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 327,
+            "end": 361,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 328,
+                "end": 337,
+                "value": "decimal",
+                "raw": "\"decimal\""
+              },
+              {
+                "type": "Literal",
+                "start": 339,
+                "end": 348,
+                "value": "percent",
+                "raw": "\"percent\""
+              },
+              {
+                "type": "Literal",
+                "start": 350,
+                "end": 360,
+                "value": "currency",
+                "raw": "\"currency\""
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 363,
+            "end": 372,
+            "value": "decimal",
+            "raw": "\"decimal\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 382,
+            "end": 422,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 383,
+                "end": 421,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 383,
+                  "end": 388,
+                  "name": "extra"
+                },
+                "value": {
+                  "type": "ObjectExpression",
+                  "start": 390,
+                  "end": 421,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 391,
+                      "end": 420,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Literal",
+                        "start": 391,
+                        "end": 401,
+                        "value": "currency",
+                        "raw": "\"currency\""
+                      },
+                      "value": {
+                        "type": "ObjectExpression",
+                        "start": 403,
+                        "end": 420,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 404,
+                            "end": 419,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 404,
+                              "end": 412,
+                              "name": "currency"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 414,
+                              "end": 419,
+                              "value": "CNY",
+                              "raw": "\"CNY\""
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,491 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 932,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 461,
+      "end": 504,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 465,
+          "end": 503,
+          "id": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 468,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 471,
+            "end": 503,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 475,
+              "end": 492,
+              "object": {
+                "type": "Identifier",
+                "start": 475,
+                "end": 483,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 484,
+                "end": 492,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 493,
+                "end": 502,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 506,
+      "end": 549,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 510,
+          "end": 548,
+          "id": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 511,
+            "name": "d"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 514,
+            "end": 548,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 518,
+              "end": 536,
+              "object": {
+                "type": "Identifier",
+                "start": 518,
+                "end": 526,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 527,
+                "end": 536,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 537,
+                "end": 541,
+                "value": 1970,
+                "raw": "1970"
+              },
+              {
+                "type": "Literal",
+                "start": 543,
+                "end": 544,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 546,
+                "end": 547,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 550,
+      "end": 649,
+      "expression": {
+        "type": "CallExpression",
+        "start": 550,
+        "end": 648,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 550,
+          "end": 566,
+          "object": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 556,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 557,
+            "end": 566,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 567,
+            "end": 568,
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "type": "CallExpression",
+            "start": 570,
+            "end": 586,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 570,
+              "end": 583,
+              "object": {
+                "type": "Identifier",
+                "start": 570,
+                "end": 573,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 574,
+                "end": 583,
+                "name": "dayOfWeek"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 584,
+                "end": 585,
+                "name": "d"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 588,
+            "end": 647,
+            "value": "4 must return the same value returned by cal.dayOfWeek(d)",
+            "raw": "'4 must return the same value returned by cal.dayOfWeek(d)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 650,
+      "end": 690,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 650,
+        "end": 689,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 650,
+          "end": 651,
+          "name": "d"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 654,
+          "end": 689,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 658,
+            "end": 676,
+            "object": {
+              "type": "Identifier",
+              "start": 658,
+              "end": 666,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 667,
+              "end": 676,
+              "name": "PlainDate"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 677,
+              "end": 681,
+              "value": 2021,
+              "raw": "2021"
+            },
+            {
+              "type": "Literal",
+              "start": 683,
+              "end": 684,
+              "value": 2,
+              "raw": "2"
+            },
+            {
+              "type": "Literal",
+              "start": 686,
+              "end": 688,
+              "value": 15,
+              "raw": "15"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 691,
+      "end": 790,
+      "expression": {
+        "type": "CallExpression",
+        "start": 691,
+        "end": 789,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 691,
+          "end": 707,
+          "object": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 697,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 707,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 708,
+            "end": 709,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "CallExpression",
+            "start": 711,
+            "end": 727,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 711,
+              "end": 724,
+              "object": {
+                "type": "Identifier",
+                "start": 711,
+                "end": 714,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 715,
+                "end": 724,
+                "name": "dayOfWeek"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 725,
+                "end": 726,
+                "name": "d"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 729,
+            "end": 788,
+            "value": "1 must return the same value returned by cal.dayOfWeek(d)",
+            "raw": "'1 must return the same value returned by cal.dayOfWeek(d)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 791,
+      "end": 831,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 791,
+        "end": 830,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 791,
+          "end": 792,
+          "name": "d"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 795,
+          "end": 830,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 799,
+            "end": 817,
+            "object": {
+              "type": "Identifier",
+              "start": 799,
+              "end": 807,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 808,
+              "end": 817,
+              "name": "PlainDate"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 818,
+              "end": 822,
+              "value": 2021,
+              "raw": "2021"
+            },
+            {
+              "type": "Literal",
+              "start": 824,
+              "end": 825,
+              "value": 8,
+              "raw": "8"
+            },
+            {
+              "type": "Literal",
+              "start": 827,
+              "end": 829,
+              "value": 15,
+              "raw": "15"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 832,
+      "end": 931,
+      "expression": {
+        "type": "CallExpression",
+        "start": 832,
+        "end": 930,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 832,
+          "end": 848,
+          "object": {
+            "type": "Identifier",
+            "start": 832,
+            "end": 838,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 839,
+            "end": 848,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 849,
+            "end": 850,
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "type": "CallExpression",
+            "start": 852,
+            "end": 868,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 852,
+              "end": 865,
+              "object": {
+                "type": "Identifier",
+                "start": 852,
+                "end": 855,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 856,
+                "end": 865,
+                "name": "dayOfWeek"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 866,
+                "end": 867,
+                "name": "d"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 870,
+            "end": 929,
+            "value": "7 must return the same value returned by cal.dayOfWeek(d)",
+            "raw": "'7 must return the same value returned by cal.dayOfWeek(d)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,329 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 517,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 280,
+      "end": 392,
+      "id": {
+        "type": "Identifier",
+        "start": 289,
+        "end": 299,
+        "name": "callbackfn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 300,
+          "end": 303,
+          "name": "val"
+        },
+        {
+          "type": "Identifier",
+          "start": 305,
+          "end": 308,
+          "name": "Idx"
+        },
+        {
+          "type": "Identifier",
+          "start": 310,
+          "end": 313,
+          "name": "obj"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 315,
+        "end": 392,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 319,
+            "end": 333,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 319,
+              "end": 332,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 319,
+                "end": 328,
+                "object": {
+                  "type": "Identifier",
+                  "start": 319,
+                  "end": 322,
+                  "name": "arr"
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 323,
+                  "end": 327,
+                  "value": 1000,
+                  "raw": "1000"
+                },
+                "computed": true,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 331,
+                "end": 332,
+                "value": 3,
+                "raw": "3"
+              }
+            }
+          },
+          {
+            "type": "IfStatement",
+            "start": 336,
+            "end": 390,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 340,
+              "end": 347,
+              "left": {
+                "type": "Identifier",
+                "start": 340,
+                "end": 343,
+                "name": "val"
+              },
+              "operator": "<",
+              "right": {
+                "type": "Literal",
+                "start": 346,
+                "end": 347,
+                "value": 3,
+                "raw": "3"
+              }
+            },
+            "consequent": {
+              "type": "ReturnStatement",
+              "start": 353,
+              "end": 365,
+              "argument": {
+                "type": "Literal",
+                "start": 360,
+                "end": 364,
+                "value": true,
+                "raw": "true"
+              }
+            },
+            "alternate": {
+              "type": "ReturnStatement",
+              "start": 377,
+              "end": 390,
+              "argument": {
+                "type": "Literal",
+                "start": 384,
+                "end": 389,
+                "value": false,
+                "raw": "false"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 394,
+      "end": 418,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 398,
+          "end": 417,
+          "id": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 401,
+            "name": "arr"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 404,
+            "end": 417,
+            "callee": {
+              "type": "Identifier",
+              "start": 408,
+              "end": 413,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 414,
+                "end": 416,
+                "value": 10,
+                "raw": "10"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 419,
+      "end": 430,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 419,
+        "end": 429,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 419,
+          "end": 425,
+          "object": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 422,
+            "name": "arr"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 423,
+            "end": 424,
+            "value": 1,
+            "raw": "1"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 428,
+          "end": 429,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 431,
+      "end": 442,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 431,
+        "end": 441,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 431,
+          "end": 437,
+          "object": {
+            "type": "Identifier",
+            "start": 431,
+            "end": 434,
+            "name": "arr"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 435,
+            "end": 436,
+            "value": 2,
+            "raw": "2"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 440,
+          "end": 441,
+          "value": 2,
+          "raw": "2"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 445,
+      "end": 516,
+      "expression": {
+        "type": "CallExpression",
+        "start": 445,
+        "end": 515,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 445,
+          "end": 461,
+          "object": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 451,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 461,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 462,
+            "end": 483,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 462,
+              "end": 471,
+              "object": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 465,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 466,
+                "end": 471,
+                "name": "every"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 472,
+                "end": 482,
+                "name": "callbackfn"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 485,
+            "end": 489,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 491,
+            "end": 514,
+            "value": "arr.every(callbackfn)",
+            "raw": "'arr.every(callbackfn)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

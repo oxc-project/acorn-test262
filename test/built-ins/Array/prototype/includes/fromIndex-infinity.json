@@ -1,0 +1,241 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 801,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 588,
+      "end": 618,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 592,
+          "end": 617,
+          "id": {
+            "type": "Identifier",
+            "start": 592,
+            "end": 598,
+            "name": "sample"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 601,
+            "end": 617,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 602,
+                "end": 604,
+                "value": 42,
+                "raw": "42"
+              },
+              {
+                "type": "Literal",
+                "start": 606,
+                "end": 608,
+                "value": 43,
+                "raw": "43"
+              },
+              {
+                "type": "Literal",
+                "start": 610,
+                "end": 612,
+                "value": 43,
+                "raw": "43"
+              },
+              {
+                "type": "Literal",
+                "start": 614,
+                "end": 616,
+                "value": 41,
+                "raw": "41"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 620,
+      "end": 709,
+      "expression": {
+        "type": "CallExpression",
+        "start": 620,
+        "end": 708,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 620,
+          "end": 636,
+          "object": {
+            "type": "Identifier",
+            "start": 620,
+            "end": 626,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 627,
+            "end": 636,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 640,
+            "end": 669,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 640,
+              "end": 655,
+              "object": {
+                "type": "Identifier",
+                "start": 640,
+                "end": 646,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 647,
+                "end": 655,
+                "name": "includes"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 656,
+                "end": 658,
+                "value": 43,
+                "raw": "43"
+              },
+              {
+                "type": "Identifier",
+                "start": 660,
+                "end": 668,
+                "name": "Infinity"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 673,
+            "end": 678,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 682,
+            "end": 706,
+            "value": "includes(43, Infinity)",
+            "raw": "\"includes(43, Infinity)\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 710,
+      "end": 800,
+      "expression": {
+        "type": "CallExpression",
+        "start": 710,
+        "end": 799,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 710,
+          "end": 726,
+          "object": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 716,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 717,
+            "end": 726,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 730,
+            "end": 760,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 730,
+              "end": 745,
+              "object": {
+                "type": "Identifier",
+                "start": 730,
+                "end": 736,
+                "name": "sample"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 737,
+                "end": 745,
+                "name": "includes"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 746,
+                "end": 748,
+                "value": 43,
+                "raw": "43"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 750,
+                "end": 759,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 751,
+                  "end": 759,
+                  "name": "Infinity"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 764,
+            "end": 768,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 772,
+            "end": 797,
+            "value": "includes(43, -Infinity)",
+            "raw": "\"includes(43, -Infinity)\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

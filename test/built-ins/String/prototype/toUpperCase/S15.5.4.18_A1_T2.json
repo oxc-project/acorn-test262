@@ -1,0 +1,210 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 739,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 246,
+      "end": 275,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 250,
+          "end": 274,
+          "id": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 260,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 263,
+            "end": 274,
+            "callee": {
+              "type": "Identifier",
+              "start": 267,
+              "end": 274,
+              "name": "Boolean"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 277,
+      "end": 331,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 277,
+        "end": 330,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 277,
+          "end": 299,
+          "object": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 287,
+            "name": "__instance"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 299,
+            "name": "toUpperCase"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 302,
+          "end": 330,
+          "object": {
+            "type": "MemberExpression",
+            "start": 302,
+            "end": 318,
+            "object": {
+              "type": "Identifier",
+              "start": 302,
+              "end": 308,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 309,
+              "end": 318,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 330,
+            "name": "toUpperCase"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 422,
+      "end": 656,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 426,
+        "end": 462,
+        "left": {
+          "type": "CallExpression",
+          "start": 426,
+          "end": 450,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 426,
+            "end": 448,
+            "object": {
+              "type": "Identifier",
+              "start": 426,
+              "end": 436,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 437,
+              "end": 448,
+              "name": "toUpperCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 455,
+          "end": 462,
+          "value": "FALSE",
+          "raw": "\"FALSE\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 464,
+        "end": 656,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 468,
+            "end": 654,
+            "argument": {
+              "type": "NewExpression",
+              "start": 474,
+              "end": 653,
+              "callee": {
+                "type": "Identifier",
+                "start": 478,
+                "end": 490,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 491,
+                  "end": 652,
+                  "left": {
+                    "type": "Literal",
+                    "start": 491,
+                    "end": 625,
+                    "value": "#1: __instance = new Boolean; __instance.toUpperCase = String.prototype.toUpperCase;  __instance.toUpperCase() === \"FALSE\". Actual: ",
+                    "raw": "'#1: __instance = new Boolean; __instance.toUpperCase = String.prototype.toUpperCase;  __instance.toUpperCase() === \"FALSE\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 628,
+                    "end": 652,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 628,
+                      "end": 650,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 628,
+                        "end": 638,
+                        "name": "__instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 639,
+                        "end": 650,
+                        "name": "toUpperCase"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

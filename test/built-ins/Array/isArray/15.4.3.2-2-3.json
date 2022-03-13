@@ -1,0 +1,156 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 437,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 302,
+      "end": 436,
+      "expression": {
+        "type": "CallExpression",
+        "start": 302,
+        "end": 435,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 302,
+          "end": 318,
+          "object": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 308,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 318,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 319,
+            "end": 366,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 319,
+              "end": 332,
+              "object": {
+                "type": "Identifier",
+                "start": 319,
+                "end": 324,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 325,
+                "end": 332,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 333,
+                "end": 365,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 337,
+                    "end": 342,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Literal",
+                      "start": 337,
+                      "end": 338,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 340,
+                      "end": 342,
+                      "value": 12,
+                      "raw": "12"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 346,
+                    "end": 350,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Literal",
+                      "start": 346,
+                      "end": 347,
+                      "value": 1,
+                      "raw": "1"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 349,
+                      "end": 350,
+                      "value": 9,
+                      "raw": "9"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 354,
+                    "end": 363,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 354,
+                      "end": 360,
+                      "name": "length"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 362,
+                      "end": 363,
+                      "value": 2,
+                      "raw": "2"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 368,
+            "end": 373,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 375,
+            "end": 434,
+            "value": "Array.isArray({0: 12, 1: 9, length: 2}) must return false",
+            "raw": "'Array.isArray({0: 12, 1: 9, length: 2}) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

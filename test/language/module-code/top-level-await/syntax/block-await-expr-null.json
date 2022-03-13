@@ -1,0 +1,144 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1718,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 1060,
+      "end": 1717,
+      "body": [
+        {
+          "type": "BlockStatement",
+          "start": 1064,
+          "end": 1715,
+          "body": [
+            {
+              "type": "BlockStatement",
+              "start": 1070,
+              "end": 1711,
+              "body": [
+                {
+                  "type": "BlockStatement",
+                  "start": 1078,
+                  "end": 1705,
+                  "body": [
+                    {
+                      "type": "BlockStatement",
+                      "start": 1088,
+                      "end": 1697,
+                      "body": [
+                        {
+                          "type": "BlockStatement",
+                          "start": 1100,
+                          "end": 1687,
+                          "body": [
+                            {
+                              "type": "BlockStatement",
+                              "start": 1114,
+                              "end": 1675,
+                              "body": [
+                                {
+                                  "type": "BlockStatement",
+                                  "start": 1130,
+                                  "end": 1661,
+                                  "body": [
+                                    {
+                                      "type": "BlockStatement",
+                                      "start": 1148,
+                                      "end": 1645,
+                                      "body": [
+                                        {
+                                          "type": "BlockStatement",
+                                          "start": 1168,
+                                          "end": 1627,
+                                          "body": [
+                                            {
+                                              "type": "BlockStatement",
+                                              "start": 1190,
+                                              "end": 1607,
+                                              "body": [
+                                                {
+                                                  "type": "BlockStatement",
+                                                  "start": 1214,
+                                                  "end": 1585,
+                                                  "body": [
+                                                    {
+                                                      "type": "BlockStatement",
+                                                      "start": 1240,
+                                                      "end": 1561,
+                                                      "body": [
+                                                        {
+                                                          "type": "BlockStatement",
+                                                          "start": 1268,
+                                                          "end": 1535,
+                                                          "body": [
+                                                            {
+                                                              "type": "BlockStatement",
+                                                              "start": 1298,
+                                                              "end": 1507,
+                                                              "body": [
+                                                                {
+                                                                  "type": "BlockStatement",
+                                                                  "start": 1330,
+                                                                  "end": 1477,
+                                                                  "body": [
+                                                                    {
+                                                                      "type": "BlockStatement",
+                                                                      "start": 1364,
+                                                                      "end": 1445,
+                                                                      "body": [
+                                                                        {
+                                                                          "type": "ExpressionStatement",
+                                                                          "start": 1400,
+                                                                          "end": 1411,
+                                                                          "expression": {
+                                                                            "type": "AwaitExpression",
+                                                                            "start": 1400,
+                                                                            "end": 1410,
+                                                                            "argument": {
+                                                                              "type": "Literal",
+                                                                              "start": 1406,
+                                                                              "end": 1410,
+                                                                              "value": null,
+                                                                              "raw": "null"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceType": "module"
+}

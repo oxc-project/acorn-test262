@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 474,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 320,
+      "end": 369,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 324,
+          "end": 368,
+          "id": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 327,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 330,
+            "end": 368,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 334,
+              "end": 368,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 335,
+                "end": 367,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 347,
+                  "end": 367,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 353,
+                      "end": 365,
+                      "argument": {
+                        "type": "ThisExpression",
+                        "start": 360,
+                        "end": 364
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 371,
+      "end": 409,
+      "expression": {
+        "type": "CallExpression",
+        "start": 371,
+        "end": 408,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 371,
+          "end": 390,
+          "object": {
+            "type": "Identifier",
+            "start": 371,
+            "end": 377,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 378,
+            "end": 390,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 391,
+            "end": 394,
+            "name": "obj"
+          },
+          {
+            "type": "ThisExpression",
+            "start": 396,
+            "end": 400
+          },
+          {
+            "type": "Literal",
+            "start": 402,
+            "end": 407,
+            "value": "obj",
+            "raw": "'obj'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 410,
+      "end": 473,
+      "expression": {
+        "type": "CallExpression",
+        "start": 410,
+        "end": 472,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 410,
+          "end": 429,
+          "object": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 416,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 429,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ParenthesizedExpression",
+            "start": 430,
+            "end": 442,
+            "expression": {
+              "type": "UnaryExpression",
+              "start": 431,
+              "end": 441,
+              "operator": "typeof",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 438,
+                "end": 441,
+                "name": "obj"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 444,
+            "end": 455,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          },
+          {
+            "type": "Literal",
+            "start": 457,
+            "end": 471,
+            "value": "(typeof obj)",
+            "raw": "'(typeof obj)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,162 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 545,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 418,
+      "end": 434,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 422,
+          "end": 433,
+          "id": {
+            "type": "Identifier",
+            "start": 422,
+            "end": 428,
+            "name": "arrObj"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 431,
+            "end": 433,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 435,
+      "end": 544,
+      "expression": {
+        "type": "CallExpression",
+        "start": 435,
+        "end": 543,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 435,
+          "end": 448,
+          "object": {
+            "type": "Identifier",
+            "start": 435,
+            "end": 441,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 448,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 449,
+            "end": 459,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 461,
+            "end": 542,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 472,
+              "end": 542,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 476,
+                  "end": 540,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 476,
+                    "end": 539,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 476,
+                      "end": 497,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 476,
+                        "end": 482,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 483,
+                        "end": 497,
+                        "name": "defineProperty"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 498,
+                        "end": 504,
+                        "name": "arrObj"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 506,
+                        "end": 514,
+                        "value": "length",
+                        "raw": "\"length\""
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 516,
+                        "end": 538,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 522,
+                            "end": 534,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 522,
+                              "end": 527,
+                              "name": "value"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 529,
+                              "end": 534,
+                              "value": "two",
+                              "raw": "\"two\""
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

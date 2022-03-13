@@ -1,0 +1,2779 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 4467,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 331,
+      "end": 875,
+      "block": {
+        "type": "BlockStatement",
+        "start": 334,
+        "end": 534,
+        "body": [
+          {
+            "type": "TryStatement",
+            "start": 338,
+            "end": 532,
+            "block": {
+              "type": "BlockStatement",
+              "start": 341,
+              "end": 363,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 347,
+                  "end": 359,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 353,
+                    "end": 358,
+                    "value": "ex2",
+                    "raw": "\"ex2\""
+                  }
+                }
+              ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "start": 366,
+              "end": 500,
+              "param": {
+                "type": "Identifier",
+                "start": 372,
+                "end": 375,
+                "name": "er2"
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 376,
+                "end": 500,
+                "body": [
+                  {
+                    "type": "IfStatement",
+                    "start": 382,
+                    "end": 479,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 386,
+                      "end": 397,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 386,
+                        "end": 389,
+                        "name": "er2"
+                      },
+                      "operator": "!==",
+                      "right": {
+                        "type": "Literal",
+                        "start": 392,
+                        "end": 397,
+                        "value": "ex2",
+                        "raw": "\"ex2\""
+                      }
+                    },
+                    "consequent": {
+                      "type": "ThrowStatement",
+                      "start": 399,
+                      "end": 479,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 405,
+                        "end": 478,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 409,
+                          "end": 421,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "start": 422,
+                            "end": 477,
+                            "left": {
+                              "type": "Literal",
+                              "start": 422,
+                              "end": 473,
+                              "value": "#1.1: Exception === \"ex2\". Actual:  Exception ===",
+                              "raw": "'#1.1: Exception === \"ex2\". Actual:  Exception ==='"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Identifier",
+                              "start": 474,
+                              "end": 477,
+                              "name": "er2"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "alternate": null
+                  },
+                  {
+                    "type": "ThrowStatement",
+                    "start": 484,
+                    "end": 496,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 490,
+                      "end": 495,
+                      "value": "ex1",
+                      "raw": "\"ex1\""
+                    }
+                  }
+                ]
+              }
+            },
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 510,
+              "end": 532,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 516,
+                  "end": 528,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 522,
+                    "end": 527,
+                    "value": "ex3",
+                    "raw": "\"ex3\""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 535,
+        "end": 875,
+        "param": {
+          "type": "Identifier",
+          "start": 541,
+          "end": 544,
+          "name": "er1"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 545,
+          "end": 875,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 549,
+              "end": 646,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 553,
+                "end": 564,
+                "left": {
+                  "type": "Identifier",
+                  "start": 553,
+                  "end": 556,
+                  "name": "er1"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 559,
+                  "end": 564,
+                  "value": "ex3",
+                  "raw": "\"ex3\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 566,
+                "end": 646,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 572,
+                  "end": 645,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 576,
+                    "end": 588,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 589,
+                      "end": 644,
+                      "left": {
+                        "type": "Literal",
+                        "start": 589,
+                        "end": 640,
+                        "value": "#1.2: Exception === \"ex3\". Actual:  Exception ===",
+                        "raw": "'#1.2: Exception === \"ex3\". Actual:  Exception ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 641,
+                        "end": 644,
+                        "name": "er1"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            },
+            {
+              "type": "IfStatement",
+              "start": 649,
+              "end": 759,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 653,
+                "end": 664,
+                "left": {
+                  "type": "Identifier",
+                  "start": 653,
+                  "end": 656,
+                  "name": "er1"
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 659,
+                  "end": 664,
+                  "value": "ex2",
+                  "raw": "\"ex2\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 666,
+                "end": 759,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 672,
+                  "end": 758,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 676,
+                    "end": 688,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 689,
+                      "end": 757,
+                      "value": "#1.3: Exception !==\"ex2\". Actual: catch previous catched exception",
+                      "raw": "'#1.3: Exception !==\"ex2\". Actual: catch previous catched exception'"
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            },
+            {
+              "type": "IfStatement",
+              "start": 762,
+              "end": 873,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 766,
+                "end": 777,
+                "left": {
+                  "type": "Identifier",
+                  "start": 766,
+                  "end": 769,
+                  "name": "er1"
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 772,
+                  "end": 777,
+                  "value": "ex1",
+                  "raw": "\"ex1\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 779,
+                "end": 873,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 785,
+                  "end": 872,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 789,
+                    "end": 801,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 802,
+                      "end": 871,
+                      "value": "#1.4: Exception !==\"ex1\". Actual: catch previous embedded exception",
+                      "raw": "'#1.4: Exception !==\"ex1\". Actual: catch previous embedded exception'"
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 888,
+      "end": 897,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 892,
+          "end": 896,
+          "id": {
+            "type": "Identifier",
+            "start": 892,
+            "end": 894,
+            "name": "c2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 895,
+            "end": 896,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 898,
+      "end": 1436,
+      "block": {
+        "type": "BlockStatement",
+        "start": 901,
+        "end": 919,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 905,
+            "end": 917,
+            "argument": {
+              "type": "Literal",
+              "start": 911,
+              "end": 916,
+              "value": "ex1",
+              "raw": "\"ex1\""
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 920,
+        "end": 1436,
+        "param": {
+          "type": "Identifier",
+          "start": 926,
+          "end": 929,
+          "name": "er1"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 930,
+          "end": 1436,
+          "body": [
+            {
+              "type": "TryStatement",
+              "start": 934,
+              "end": 1219,
+              "block": {
+                "type": "BlockStatement",
+                "start": 937,
+                "end": 959,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 943,
+                    "end": 955,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 949,
+                      "end": 954,
+                      "value": "ex2",
+                      "raw": "\"ex2\""
+                    }
+                  }
+                ]
+              },
+              "handler": {
+                "type": "CatchClause",
+                "start": 962,
+                "end": 1194,
+                "param": {
+                  "type": "Identifier",
+                  "start": 968,
+                  "end": 971,
+                  "name": "er1"
+                },
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 972,
+                  "end": 1194,
+                  "body": [
+                    {
+                      "type": "IfStatement",
+                      "start": 978,
+                      "end": 1088,
+                      "test": {
+                        "type": "BinaryExpression",
+                        "start": 982,
+                        "end": 993,
+                        "left": {
+                          "type": "Identifier",
+                          "start": 982,
+                          "end": 985,
+                          "name": "er1"
+                        },
+                        "operator": "===",
+                        "right": {
+                          "type": "Literal",
+                          "start": 988,
+                          "end": 993,
+                          "value": "ex1",
+                          "raw": "\"ex1\""
+                        }
+                      },
+                      "consequent": {
+                        "type": "ThrowStatement",
+                        "start": 995,
+                        "end": 1088,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 1001,
+                          "end": 1087,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 1005,
+                            "end": 1017,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 1018,
+                              "end": 1086,
+                              "value": "#2.1: Exception !==\"ex1\". Actual: catch previous catched exception",
+                              "raw": "'#2.1: Exception !==\"ex1\". Actual: catch previous catched exception'"
+                            }
+                          ]
+                        }
+                      },
+                      "alternate": null
+                    },
+                    {
+                      "type": "IfStatement",
+                      "start": 1093,
+                      "end": 1190,
+                      "test": {
+                        "type": "BinaryExpression",
+                        "start": 1097,
+                        "end": 1108,
+                        "left": {
+                          "type": "Identifier",
+                          "start": 1097,
+                          "end": 1100,
+                          "name": "er1"
+                        },
+                        "operator": "!==",
+                        "right": {
+                          "type": "Literal",
+                          "start": 1103,
+                          "end": 1108,
+                          "value": "ex2",
+                          "raw": "\"ex2\""
+                        }
+                      },
+                      "consequent": {
+                        "type": "ThrowStatement",
+                        "start": 1110,
+                        "end": 1190,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 1116,
+                          "end": 1189,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 1120,
+                            "end": 1132,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "BinaryExpression",
+                              "start": 1133,
+                              "end": 1188,
+                              "left": {
+                                "type": "Literal",
+                                "start": 1133,
+                                "end": 1184,
+                                "value": "#2.2: Exception === \"ex2\". Actual:  Exception ===",
+                                "raw": "'#2.2: Exception === \"ex2\". Actual:  Exception ==='"
+                              },
+                              "operator": "+",
+                              "right": {
+                                "type": "Identifier",
+                                "start": 1185,
+                                "end": 1188,
+                                "name": "er1"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "alternate": null
+                    }
+                  ]
+                }
+              },
+              "finalizer": {
+                "type": "BlockStatement",
+                "start": 1204,
+                "end": 1219,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 1210,
+                    "end": 1215,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 1210,
+                      "end": 1214,
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "start": 1210,
+                        "end": 1212,
+                        "name": "c2"
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 1213,
+                        "end": 1214,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "IfStatement",
+              "start": 1222,
+              "end": 1319,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 1226,
+                "end": 1237,
+                "left": {
+                  "type": "Identifier",
+                  "start": 1226,
+                  "end": 1229,
+                  "name": "er1"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 1232,
+                  "end": 1237,
+                  "value": "ex1",
+                  "raw": "\"ex1\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 1239,
+                "end": 1319,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 1245,
+                  "end": 1318,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1249,
+                    "end": 1261,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 1262,
+                      "end": 1317,
+                      "left": {
+                        "type": "Literal",
+                        "start": 1262,
+                        "end": 1313,
+                        "value": "#2.3: Exception === \"ex1\". Actual:  Exception ===",
+                        "raw": "'#2.3: Exception === \"ex1\". Actual:  Exception ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 1314,
+                        "end": 1317,
+                        "name": "er1"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            },
+            {
+              "type": "IfStatement",
+              "start": 1322,
+              "end": 1434,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 1326,
+                "end": 1337,
+                "left": {
+                  "type": "Identifier",
+                  "start": 1326,
+                  "end": 1329,
+                  "name": "er1"
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 1332,
+                  "end": 1337,
+                  "value": "ex2",
+                  "raw": "\"ex2\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 1339,
+                "end": 1434,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 1345,
+                  "end": 1433,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1349,
+                    "end": 1361,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 1362,
+                      "end": 1432,
+                      "value": "#2.4: Exception !== \"ex2\". Actual: catch previous embedded exception",
+                      "raw": "'#2.4: Exception !== \"ex2\". Actual: catch previous embedded exception'"
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1437,
+      "end": 1515,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1441,
+        "end": 1447,
+        "left": {
+          "type": "Identifier",
+          "start": 1441,
+          "end": 1443,
+          "name": "c2"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1446,
+          "end": 1447,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 1449,
+        "end": 1515,
+        "argument": {
+          "type": "NewExpression",
+          "start": 1455,
+          "end": 1514,
+          "callee": {
+            "type": "Identifier",
+            "start": 1459,
+            "end": 1471,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1472,
+              "end": 1513,
+              "value": "#2.5: \"finally\" block must be evaluated",
+              "raw": "'#2.5: \"finally\" block must be evaluated'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1528,
+      "end": 1537,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1532,
+          "end": 1536,
+          "id": {
+            "type": "Identifier",
+            "start": 1532,
+            "end": 1534,
+            "name": "c3"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1535,
+            "end": 1536,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 1538,
+      "end": 1972,
+      "block": {
+        "type": "BlockStatement",
+        "start": 1541,
+        "end": 1559,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1545,
+            "end": 1557,
+            "argument": {
+              "type": "Literal",
+              "start": 1551,
+              "end": 1556,
+              "value": "ex1",
+              "raw": "\"ex1\""
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 1560,
+        "end": 1673,
+        "param": {
+          "type": "Identifier",
+          "start": 1566,
+          "end": 1569,
+          "name": "er1"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 1570,
+          "end": 1673,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 1574,
+              "end": 1671,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 1578,
+                "end": 1589,
+                "left": {
+                  "type": "Identifier",
+                  "start": 1578,
+                  "end": 1581,
+                  "name": "er1"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 1584,
+                  "end": 1589,
+                  "value": "ex1",
+                  "raw": "\"ex1\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 1591,
+                "end": 1671,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 1597,
+                  "end": 1670,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1601,
+                    "end": 1613,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 1614,
+                      "end": 1669,
+                      "left": {
+                        "type": "Literal",
+                        "start": 1614,
+                        "end": 1665,
+                        "value": "#3.1: Exception === \"ex1\". Actual:  Exception ===",
+                        "raw": "'#3.1: Exception === \"ex1\". Actual:  Exception ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 1666,
+                        "end": 1669,
+                        "name": "er1"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": {
+        "type": "BlockStatement",
+        "start": 1681,
+        "end": 1972,
+        "body": [
+          {
+            "type": "TryStatement",
+            "start": 1685,
+            "end": 1970,
+            "block": {
+              "type": "BlockStatement",
+              "start": 1688,
+              "end": 1710,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 1694,
+                  "end": 1706,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 1700,
+                    "end": 1705,
+                    "value": "ex2",
+                    "raw": "\"ex2\""
+                  }
+                }
+              ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "start": 1713,
+              "end": 1945,
+              "param": {
+                "type": "Identifier",
+                "start": 1719,
+                "end": 1722,
+                "name": "er1"
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 1723,
+                "end": 1945,
+                "body": [
+                  {
+                    "type": "IfStatement",
+                    "start": 1729,
+                    "end": 1839,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 1733,
+                      "end": 1744,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 1733,
+                        "end": 1736,
+                        "name": "er1"
+                      },
+                      "operator": "===",
+                      "right": {
+                        "type": "Literal",
+                        "start": 1739,
+                        "end": 1744,
+                        "value": "ex1",
+                        "raw": "\"ex1\""
+                      }
+                    },
+                    "consequent": {
+                      "type": "ThrowStatement",
+                      "start": 1746,
+                      "end": 1839,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 1752,
+                        "end": 1838,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1756,
+                          "end": 1768,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 1769,
+                            "end": 1837,
+                            "value": "#3.2: Exception !==\"ex1\". Actual: catch previous catched exception",
+                            "raw": "'#3.2: Exception !==\"ex1\". Actual: catch previous catched exception'"
+                          }
+                        ]
+                      }
+                    },
+                    "alternate": null
+                  },
+                  {
+                    "type": "IfStatement",
+                    "start": 1844,
+                    "end": 1941,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 1848,
+                      "end": 1859,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 1848,
+                        "end": 1851,
+                        "name": "er1"
+                      },
+                      "operator": "!==",
+                      "right": {
+                        "type": "Literal",
+                        "start": 1854,
+                        "end": 1859,
+                        "value": "ex2",
+                        "raw": "\"ex2\""
+                      }
+                    },
+                    "consequent": {
+                      "type": "ThrowStatement",
+                      "start": 1861,
+                      "end": 1941,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 1867,
+                        "end": 1940,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1871,
+                          "end": 1883,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "start": 1884,
+                            "end": 1939,
+                            "left": {
+                              "type": "Literal",
+                              "start": 1884,
+                              "end": 1935,
+                              "value": "#3.3: Exception === \"ex2\". Actual:  Exception ===",
+                              "raw": "'#3.3: Exception === \"ex2\". Actual:  Exception ==='"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Identifier",
+                              "start": 1936,
+                              "end": 1939,
+                              "name": "er1"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "alternate": null
+                  }
+                ]
+              }
+            },
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 1955,
+              "end": 1970,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1961,
+                  "end": 1966,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1961,
+                    "end": 1965,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1961,
+                      "end": 1963,
+                      "name": "c3"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 1964,
+                      "end": 1965,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1973,
+      "end": 2051,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1977,
+        "end": 1983,
+        "left": {
+          "type": "Identifier",
+          "start": 1977,
+          "end": 1979,
+          "name": "c3"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1982,
+          "end": 1983,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 1985,
+        "end": 2051,
+        "argument": {
+          "type": "NewExpression",
+          "start": 1991,
+          "end": 2050,
+          "callee": {
+            "type": "Identifier",
+            "start": 1995,
+            "end": 2007,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2008,
+              "end": 2049,
+              "value": "#3.4: \"finally\" block must be evaluated",
+              "raw": "'#3.4: \"finally\" block must be evaluated'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2064,
+      "end": 2073,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2068,
+          "end": 2072,
+          "id": {
+            "type": "Identifier",
+            "start": 2068,
+            "end": 2070,
+            "name": "c4"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2071,
+            "end": 2072,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 2074,
+      "end": 2825,
+      "block": {
+        "type": "BlockStatement",
+        "start": 2077,
+        "end": 2812,
+        "body": [
+          {
+            "type": "TryStatement",
+            "start": 2081,
+            "end": 2810,
+            "block": {
+              "type": "BlockStatement",
+              "start": 2084,
+              "end": 2106,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 2090,
+                  "end": 2102,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 2096,
+                    "end": 2101,
+                    "value": "ex1",
+                    "raw": "\"ex1\""
+                  }
+                }
+              ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "start": 2109,
+              "end": 2784,
+              "param": {
+                "type": "Identifier",
+                "start": 2115,
+                "end": 2118,
+                "name": "er1"
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 2119,
+                "end": 2784,
+                "body": [
+                  {
+                    "type": "TryStatement",
+                    "start": 2125,
+                    "end": 2447,
+                    "block": {
+                      "type": "BlockStatement",
+                      "start": 2128,
+                      "end": 2154,
+                      "body": [
+                        {
+                          "type": "ThrowStatement",
+                          "start": 2136,
+                          "end": 2148,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 2142,
+                            "end": 2147,
+                            "value": "ex2",
+                            "raw": "\"ex2\""
+                          }
+                        }
+                      ]
+                    },
+                    "handler": {
+                      "type": "CatchClause",
+                      "start": 2159,
+                      "end": 2397,
+                      "param": {
+                        "type": "Identifier",
+                        "start": 2165,
+                        "end": 2168,
+                        "name": "er1"
+                      },
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 2169,
+                        "end": 2397,
+                        "body": [
+                          {
+                            "type": "IfStatement",
+                            "start": 2177,
+                            "end": 2287,
+                            "test": {
+                              "type": "BinaryExpression",
+                              "start": 2181,
+                              "end": 2192,
+                              "left": {
+                                "type": "Identifier",
+                                "start": 2181,
+                                "end": 2184,
+                                "name": "er1"
+                              },
+                              "operator": "===",
+                              "right": {
+                                "type": "Literal",
+                                "start": 2187,
+                                "end": 2192,
+                                "value": "ex1",
+                                "raw": "\"ex1\""
+                              }
+                            },
+                            "consequent": {
+                              "type": "ThrowStatement",
+                              "start": 2194,
+                              "end": 2287,
+                              "argument": {
+                                "type": "NewExpression",
+                                "start": 2200,
+                                "end": 2286,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 2204,
+                                  "end": 2216,
+                                  "name": "Test262Error"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Literal",
+                                    "start": 2217,
+                                    "end": 2285,
+                                    "value": "#4.1: Exception !==\"ex2\". Actual: catch previous catched exception",
+                                    "raw": "'#4.1: Exception !==\"ex2\". Actual: catch previous catched exception'"
+                                  }
+                                ]
+                              }
+                            },
+                            "alternate": null
+                          },
+                          {
+                            "type": "IfStatement",
+                            "start": 2294,
+                            "end": 2391,
+                            "test": {
+                              "type": "BinaryExpression",
+                              "start": 2298,
+                              "end": 2309,
+                              "left": {
+                                "type": "Identifier",
+                                "start": 2298,
+                                "end": 2301,
+                                "name": "er1"
+                              },
+                              "operator": "!==",
+                              "right": {
+                                "type": "Literal",
+                                "start": 2304,
+                                "end": 2309,
+                                "value": "ex2",
+                                "raw": "\"ex2\""
+                              }
+                            },
+                            "consequent": {
+                              "type": "ThrowStatement",
+                              "start": 2311,
+                              "end": 2391,
+                              "argument": {
+                                "type": "NewExpression",
+                                "start": 2317,
+                                "end": 2390,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 2321,
+                                  "end": 2333,
+                                  "name": "Test262Error"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "BinaryExpression",
+                                    "start": 2334,
+                                    "end": 2389,
+                                    "left": {
+                                      "type": "Literal",
+                                      "start": 2334,
+                                      "end": 2385,
+                                      "value": "#4.2: Exception === \"ex2\". Actual:  Exception ===",
+                                      "raw": "'#4.2: Exception === \"ex2\". Actual:  Exception ==='"
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "type": "Identifier",
+                                      "start": 2386,
+                                      "end": 2389,
+                                      "name": "er1"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "alternate": null
+                          }
+                        ]
+                      }
+                    },
+                    "finalizer": {
+                      "type": "BlockStatement",
+                      "start": 2409,
+                      "end": 2447,
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "start": 2417,
+                          "end": 2422,
+                          "expression": {
+                            "type": "AssignmentExpression",
+                            "start": 2417,
+                            "end": 2421,
+                            "operator": "=",
+                            "left": {
+                              "type": "Identifier",
+                              "start": 2417,
+                              "end": 2419,
+                              "name": "c4"
+                            },
+                            "right": {
+                              "type": "Literal",
+                              "start": 2420,
+                              "end": 2421,
+                              "value": 2,
+                              "raw": "2"
+                            }
+                          }
+                        },
+                        {
+                          "type": "ThrowStatement",
+                          "start": 2429,
+                          "end": 2441,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 2435,
+                            "end": 2440,
+                            "value": "ex3",
+                            "raw": "\"ex3\""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "IfStatement",
+                    "start": 2452,
+                    "end": 2549,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 2456,
+                      "end": 2467,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 2456,
+                        "end": 2459,
+                        "name": "er1"
+                      },
+                      "operator": "!==",
+                      "right": {
+                        "type": "Literal",
+                        "start": 2462,
+                        "end": 2467,
+                        "value": "ex1",
+                        "raw": "\"ex1\""
+                      }
+                    },
+                    "consequent": {
+                      "type": "ThrowStatement",
+                      "start": 2469,
+                      "end": 2549,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 2475,
+                        "end": 2548,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 2479,
+                          "end": 2491,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "start": 2492,
+                            "end": 2547,
+                            "left": {
+                              "type": "Literal",
+                              "start": 2492,
+                              "end": 2543,
+                              "value": "#4.3: Exception === \"ex2\". Actual:  Exception ===",
+                              "raw": "'#4.3: Exception === \"ex2\". Actual:  Exception ==='"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Identifier",
+                              "start": 2544,
+                              "end": 2547,
+                              "name": "er1"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "alternate": null
+                  },
+                  {
+                    "type": "IfStatement",
+                    "start": 2554,
+                    "end": 2664,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 2558,
+                      "end": 2569,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 2558,
+                        "end": 2561,
+                        "name": "er1"
+                      },
+                      "operator": "===",
+                      "right": {
+                        "type": "Literal",
+                        "start": 2564,
+                        "end": 2569,
+                        "value": "ex2",
+                        "raw": "\"ex2\""
+                      }
+                    },
+                    "consequent": {
+                      "type": "ThrowStatement",
+                      "start": 2571,
+                      "end": 2664,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 2577,
+                        "end": 2663,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 2581,
+                          "end": 2593,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 2594,
+                            "end": 2662,
+                            "value": "#4.4: Exception !==\"ex2\". Actual: catch previous catched exception",
+                            "raw": "'#4.4: Exception !==\"ex2\". Actual: catch previous catched exception'"
+                          }
+                        ]
+                      }
+                    },
+                    "alternate": null
+                  },
+                  {
+                    "type": "IfStatement",
+                    "start": 2669,
+                    "end": 2780,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 2673,
+                      "end": 2684,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 2673,
+                        "end": 2676,
+                        "name": "er1"
+                      },
+                      "operator": "===",
+                      "right": {
+                        "type": "Literal",
+                        "start": 2679,
+                        "end": 2684,
+                        "value": "ex3",
+                        "raw": "\"ex3\""
+                      }
+                    },
+                    "consequent": {
+                      "type": "ThrowStatement",
+                      "start": 2686,
+                      "end": 2780,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 2692,
+                        "end": 2779,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 2696,
+                          "end": 2708,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 2709,
+                            "end": 2778,
+                            "value": "#4.5: Exception !==\"ex3\". Actual: Catch previous embedded exception",
+                            "raw": "'#4.5: Exception !==\"ex3\". Actual: Catch previous embedded exception'"
+                          }
+                        ]
+                      }
+                    },
+                    "alternate": null
+                  }
+                ]
+              }
+            },
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 2794,
+              "end": 2810,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2800,
+                  "end": 2806,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 2800,
+                    "end": 2805,
+                    "operator": "*=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 2800,
+                      "end": 2802,
+                      "name": "c4"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 2804,
+                      "end": 2805,
+                      "value": 2,
+                      "raw": "2"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 2813,
+        "end": 2825,
+        "param": {
+          "type": "Identifier",
+          "start": 2819,
+          "end": 2822,
+          "name": "er1"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 2823,
+          "end": 2825,
+          "body": []
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2826,
+      "end": 2904,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2830,
+        "end": 2836,
+        "left": {
+          "type": "Identifier",
+          "start": 2830,
+          "end": 2832,
+          "name": "c4"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 2835,
+          "end": 2836,
+          "value": 4,
+          "raw": "4"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 2838,
+        "end": 2904,
+        "argument": {
+          "type": "NewExpression",
+          "start": 2844,
+          "end": 2903,
+          "callee": {
+            "type": "Identifier",
+            "start": 2848,
+            "end": 2860,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2861,
+              "end": 2902,
+              "value": "#4.6: \"finally\" block must be evaluated",
+              "raw": "'#4.6: \"finally\" block must be evaluated'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2917,
+      "end": 2926,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2921,
+          "end": 2925,
+          "id": {
+            "type": "Identifier",
+            "start": 2921,
+            "end": 2923,
+            "name": "c5"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 2924,
+            "end": 2925,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 2927,
+      "end": 3488,
+      "block": {
+        "type": "BlockStatement",
+        "start": 2930,
+        "end": 3128,
+        "body": [
+          {
+            "type": "TryStatement",
+            "start": 2934,
+            "end": 3111,
+            "block": {
+              "type": "BlockStatement",
+              "start": 2937,
+              "end": 2959,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 2943,
+                  "end": 2955,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 2949,
+                    "end": 2954,
+                    "value": "ex2",
+                    "raw": "\"ex2\""
+                  }
+                }
+              ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "start": 2962,
+              "end": 3079,
+              "param": {
+                "type": "Identifier",
+                "start": 2968,
+                "end": 2971,
+                "name": "er1"
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 2972,
+                "end": 3079,
+                "body": [
+                  {
+                    "type": "IfStatement",
+                    "start": 2978,
+                    "end": 3075,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 2982,
+                      "end": 2993,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 2982,
+                        "end": 2985,
+                        "name": "er1"
+                      },
+                      "operator": "!==",
+                      "right": {
+                        "type": "Literal",
+                        "start": 2988,
+                        "end": 2993,
+                        "value": "ex2",
+                        "raw": "\"ex2\""
+                      }
+                    },
+                    "consequent": {
+                      "type": "ThrowStatement",
+                      "start": 2995,
+                      "end": 3075,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 3001,
+                        "end": 3074,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 3005,
+                          "end": 3017,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "start": 3018,
+                            "end": 3073,
+                            "left": {
+                              "type": "Literal",
+                              "start": 3018,
+                              "end": 3069,
+                              "value": "#5.1: Exception === \"ex2\". Actual:  Exception ===",
+                              "raw": "'#5.1: Exception === \"ex2\". Actual:  Exception ==='"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Identifier",
+                              "start": 3070,
+                              "end": 3073,
+                              "name": "er1"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "alternate": null
+                  }
+                ]
+              }
+            },
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 3089,
+              "end": 3111,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 3095,
+                  "end": 3107,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 3101,
+                    "end": 3106,
+                    "value": "ex3",
+                    "raw": "\"ex3\""
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 3114,
+            "end": 3126,
+            "argument": {
+              "type": "Literal",
+              "start": 3120,
+              "end": 3125,
+              "value": "ex1",
+              "raw": "\"ex1\""
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 3129,
+        "end": 3469,
+        "param": {
+          "type": "Identifier",
+          "start": 3135,
+          "end": 3138,
+          "name": "er1"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 3139,
+          "end": 3469,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 3143,
+              "end": 3240,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 3147,
+                "end": 3158,
+                "left": {
+                  "type": "Identifier",
+                  "start": 3147,
+                  "end": 3150,
+                  "name": "er1"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 3153,
+                  "end": 3158,
+                  "value": "ex3",
+                  "raw": "\"ex3\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 3160,
+                "end": 3240,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 3166,
+                  "end": 3239,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 3170,
+                    "end": 3182,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 3183,
+                      "end": 3238,
+                      "left": {
+                        "type": "Literal",
+                        "start": 3183,
+                        "end": 3234,
+                        "value": "#5.2: Exception === \"ex3\". Actual:  Exception ===",
+                        "raw": "'#5.2: Exception === \"ex3\". Actual:  Exception ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 3235,
+                        "end": 3238,
+                        "name": "er1"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            },
+            {
+              "type": "IfStatement",
+              "start": 3243,
+              "end": 3353,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 3247,
+                "end": 3258,
+                "left": {
+                  "type": "Identifier",
+                  "start": 3247,
+                  "end": 3250,
+                  "name": "er1"
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 3253,
+                  "end": 3258,
+                  "value": "ex2",
+                  "raw": "\"ex2\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 3260,
+                "end": 3353,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 3266,
+                  "end": 3352,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 3270,
+                    "end": 3282,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 3283,
+                      "end": 3351,
+                      "value": "#5.3: Exception !==\"ex2\". Actual: catch previous catched exception",
+                      "raw": "'#5.3: Exception !==\"ex2\". Actual: catch previous catched exception'"
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            },
+            {
+              "type": "IfStatement",
+              "start": 3356,
+              "end": 3467,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 3360,
+                "end": 3371,
+                "left": {
+                  "type": "Identifier",
+                  "start": 3360,
+                  "end": 3363,
+                  "name": "er1"
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 3366,
+                  "end": 3371,
+                  "value": "ex1",
+                  "raw": "\"ex1\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 3373,
+                "end": 3467,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 3379,
+                  "end": 3466,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 3383,
+                    "end": 3395,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 3396,
+                      "end": 3465,
+                      "value": "#5.4: Exception !==\"ex1\". Actual: catch previous embedded exception",
+                      "raw": "'#5.4: Exception !==\"ex1\". Actual: catch previous embedded exception'"
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": {
+        "type": "BlockStatement",
+        "start": 3477,
+        "end": 3488,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 3481,
+            "end": 3486,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3481,
+              "end": 3485,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 3481,
+                "end": 3483,
+                "name": "c5"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 3484,
+                "end": 3485,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 3489,
+      "end": 3567,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 3493,
+        "end": 3499,
+        "left": {
+          "type": "Identifier",
+          "start": 3493,
+          "end": 3495,
+          "name": "c5"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 3498,
+          "end": 3499,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 3501,
+        "end": 3567,
+        "argument": {
+          "type": "NewExpression",
+          "start": 3507,
+          "end": 3566,
+          "callee": {
+            "type": "Identifier",
+            "start": 3511,
+            "end": 3523,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 3524,
+              "end": 3565,
+              "value": "#5.5: \"finally\" block must be evaluated",
+              "raw": "'#5.5: \"finally\" block must be evaluated'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 3580,
+      "end": 3589,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 3584,
+          "end": 3588,
+          "id": {
+            "type": "Identifier",
+            "start": 3584,
+            "end": 3586,
+            "name": "c6"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 3587,
+            "end": 3588,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 3590,
+      "end": 3789,
+      "block": {
+        "type": "BlockStatement",
+        "start": 3593,
+        "end": 3769,
+        "body": [
+          {
+            "type": "TryStatement",
+            "start": 3597,
+            "end": 3767,
+            "block": {
+              "type": "BlockStatement",
+              "start": 3600,
+              "end": 3622,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 3606,
+                  "end": 3618,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 3612,
+                    "end": 3617,
+                    "value": "ex1",
+                    "raw": "\"ex1\""
+                  }
+                }
+              ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "start": 3625,
+              "end": 3742,
+              "param": {
+                "type": "Identifier",
+                "start": 3631,
+                "end": 3634,
+                "name": "er1"
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 3635,
+                "end": 3742,
+                "body": [
+                  {
+                    "type": "IfStatement",
+                    "start": 3641,
+                    "end": 3738,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 3645,
+                      "end": 3656,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 3645,
+                        "end": 3648,
+                        "name": "er1"
+                      },
+                      "operator": "!==",
+                      "right": {
+                        "type": "Literal",
+                        "start": 3651,
+                        "end": 3656,
+                        "value": "ex1",
+                        "raw": "\"ex1\""
+                      }
+                    },
+                    "consequent": {
+                      "type": "ThrowStatement",
+                      "start": 3658,
+                      "end": 3738,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 3664,
+                        "end": 3737,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 3668,
+                          "end": 3680,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "start": 3681,
+                            "end": 3736,
+                            "left": {
+                              "type": "Literal",
+                              "start": 3681,
+                              "end": 3732,
+                              "value": "#6.1: Exception === \"ex1\". Actual:  Exception ===",
+                              "raw": "'#6.1: Exception === \"ex1\". Actual:  Exception ==='"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Identifier",
+                              "start": 3733,
+                              "end": 3736,
+                              "name": "er1"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "alternate": null
+                  }
+                ]
+              }
+            },
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 3752,
+              "end": 3767,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 3758,
+                  "end": 3763,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 3758,
+                    "end": 3762,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 3758,
+                      "end": 3760,
+                      "name": "c6"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 3761,
+                      "end": 3762,
+                      "value": 2,
+                      "raw": "2"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": null,
+      "finalizer": {
+        "type": "BlockStatement",
+        "start": 3777,
+        "end": 3789,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 3781,
+            "end": 3787,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3781,
+              "end": 3786,
+              "operator": "*=",
+              "left": {
+                "type": "Identifier",
+                "start": 3781,
+                "end": 3783,
+                "name": "c6"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 3785,
+                "end": 3786,
+                "value": 2,
+                "raw": "2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 3790,
+      "end": 3868,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 3794,
+        "end": 3800,
+        "left": {
+          "type": "Identifier",
+          "start": 3794,
+          "end": 3796,
+          "name": "c6"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 3799,
+          "end": 3800,
+          "value": 4,
+          "raw": "4"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 3802,
+        "end": 3868,
+        "argument": {
+          "type": "NewExpression",
+          "start": 3808,
+          "end": 3867,
+          "callee": {
+            "type": "Identifier",
+            "start": 3812,
+            "end": 3824,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 3825,
+              "end": 3866,
+              "value": "#6.2: \"finally\" block must be evaluated",
+              "raw": "'#6.2: \"finally\" block must be evaluated'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 3881,
+      "end": 3890,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 3885,
+          "end": 3889,
+          "id": {
+            "type": "Identifier",
+            "start": 3885,
+            "end": 3887,
+            "name": "c7"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 3888,
+            "end": 3889,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 3891,
+      "end": 4387,
+      "block": {
+        "type": "BlockStatement",
+        "start": 3894,
+        "end": 4273,
+        "body": [
+          {
+            "type": "TryStatement",
+            "start": 3898,
+            "end": 4271,
+            "block": {
+              "type": "BlockStatement",
+              "start": 3901,
+              "end": 3923,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 3907,
+                  "end": 3919,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 3913,
+                    "end": 3918,
+                    "value": "ex1",
+                    "raw": "\"ex1\""
+                  }
+                }
+              ]
+            },
+            "handler": null,
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 3933,
+              "end": 4271,
+              "body": [
+                {
+                  "type": "TryStatement",
+                  "start": 3939,
+                  "end": 4267,
+                  "block": {
+                    "type": "BlockStatement",
+                    "start": 3942,
+                    "end": 3980,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 3950,
+                        "end": 3955,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 3950,
+                          "end": 3954,
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 3950,
+                            "end": 3952,
+                            "name": "c7"
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "start": 3953,
+                            "end": 3954,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        }
+                      },
+                      {
+                        "type": "ThrowStatement",
+                        "start": 3962,
+                        "end": 3974,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 3968,
+                          "end": 3973,
+                          "value": "ex2",
+                          "raw": "\"ex2\""
+                        }
+                      }
+                    ]
+                  },
+                  "handler": {
+                    "type": "CatchClause",
+                    "start": 3985,
+                    "end": 4235,
+                    "param": {
+                      "type": "Identifier",
+                      "start": 3991,
+                      "end": 3994,
+                      "name": "er1"
+                    },
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 3995,
+                      "end": 4235,
+                      "body": [
+                        {
+                          "type": "IfStatement",
+                          "start": 4003,
+                          "end": 4100,
+                          "test": {
+                            "type": "BinaryExpression",
+                            "start": 4007,
+                            "end": 4018,
+                            "left": {
+                              "type": "Identifier",
+                              "start": 4007,
+                              "end": 4010,
+                              "name": "er1"
+                            },
+                            "operator": "!==",
+                            "right": {
+                              "type": "Literal",
+                              "start": 4013,
+                              "end": 4018,
+                              "value": "ex2",
+                              "raw": "\"ex2\""
+                            }
+                          },
+                          "consequent": {
+                            "type": "ThrowStatement",
+                            "start": 4020,
+                            "end": 4100,
+                            "argument": {
+                              "type": "NewExpression",
+                              "start": 4026,
+                              "end": 4099,
+                              "callee": {
+                                "type": "Identifier",
+                                "start": 4030,
+                                "end": 4042,
+                                "name": "Test262Error"
+                              },
+                              "arguments": [
+                                {
+                                  "type": "BinaryExpression",
+                                  "start": 4043,
+                                  "end": 4098,
+                                  "left": {
+                                    "type": "Literal",
+                                    "start": 4043,
+                                    "end": 4094,
+                                    "value": "#7.1: Exception === \"ex2\". Actual:  Exception ===",
+                                    "raw": "'#7.1: Exception === \"ex2\". Actual:  Exception ==='"
+                                  },
+                                  "operator": "+",
+                                  "right": {
+                                    "type": "Identifier",
+                                    "start": 4095,
+                                    "end": 4098,
+                                    "name": "er1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "alternate": null
+                        },
+                        {
+                          "type": "IfStatement",
+                          "start": 4107,
+                          "end": 4217,
+                          "test": {
+                            "type": "BinaryExpression",
+                            "start": 4111,
+                            "end": 4122,
+                            "left": {
+                              "type": "Identifier",
+                              "start": 4111,
+                              "end": 4114,
+                              "name": "er1"
+                            },
+                            "operator": "===",
+                            "right": {
+                              "type": "Literal",
+                              "start": 4117,
+                              "end": 4122,
+                              "value": "ex1",
+                              "raw": "\"ex1\""
+                            }
+                          },
+                          "consequent": {
+                            "type": "ThrowStatement",
+                            "start": 4124,
+                            "end": 4217,
+                            "argument": {
+                              "type": "NewExpression",
+                              "start": 4130,
+                              "end": 4216,
+                              "callee": {
+                                "type": "Identifier",
+                                "start": 4134,
+                                "end": 4146,
+                                "name": "Test262Error"
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "start": 4147,
+                                  "end": 4215,
+                                  "value": "#7.2: Exception !==\"ex2\". Actual: catch previous catched exception",
+                                  "raw": "'#7.2: Exception !==\"ex2\". Actual: catch previous catched exception'"
+                                }
+                              ]
+                            }
+                          },
+                          "alternate": null
+                        },
+                        {
+                          "type": "ExpressionStatement",
+                          "start": 4224,
+                          "end": 4229,
+                          "expression": {
+                            "type": "UpdateExpression",
+                            "start": 4224,
+                            "end": 4228,
+                            "operator": "++",
+                            "prefix": false,
+                            "argument": {
+                              "type": "Identifier",
+                              "start": 4224,
+                              "end": 4226,
+                              "name": "c7"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "finalizer": {
+                    "type": "BlockStatement",
+                    "start": 4247,
+                    "end": 4267,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 4255,
+                        "end": 4261,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 4255,
+                          "end": 4260,
+                          "operator": "*=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 4255,
+                            "end": 4257,
+                            "name": "c7"
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "start": 4259,
+                            "end": 4260,
+                            "value": 2,
+                            "raw": "2"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 4274,
+        "end": 4387,
+        "param": {
+          "type": "Identifier",
+          "start": 4280,
+          "end": 4283,
+          "name": "er1"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 4284,
+          "end": 4387,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 4288,
+              "end": 4385,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 4292,
+                "end": 4303,
+                "left": {
+                  "type": "Identifier",
+                  "start": 4292,
+                  "end": 4295,
+                  "name": "er1"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 4298,
+                  "end": 4303,
+                  "value": "ex1",
+                  "raw": "\"ex1\""
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 4305,
+                "end": 4385,
+                "argument": {
+                  "type": "NewExpression",
+                  "start": 4311,
+                  "end": 4384,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 4315,
+                    "end": 4327,
+                    "name": "Test262Error"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 4328,
+                      "end": 4383,
+                      "left": {
+                        "type": "Literal",
+                        "start": 4328,
+                        "end": 4379,
+                        "value": "#7.3: Exception === \"ex1\". Actual:  Exception ===",
+                        "raw": "'#7.3: Exception === \"ex1\". Actual:  Exception ==='"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 4380,
+                        "end": 4383,
+                        "name": "er1"
+                      }
+                    }
+                  ]
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 4388,
+      "end": 4466,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 4392,
+        "end": 4398,
+        "left": {
+          "type": "Identifier",
+          "start": 4392,
+          "end": 4394,
+          "name": "c7"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 4397,
+          "end": 4398,
+          "value": 4,
+          "raw": "4"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 4400,
+        "end": 4466,
+        "argument": {
+          "type": "NewExpression",
+          "start": 4406,
+          "end": 4465,
+          "callee": {
+            "type": "Identifier",
+            "start": 4410,
+            "end": 4422,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 4423,
+              "end": 4464,
+              "value": "#7.4: \"finally\" block must be evaluated",
+              "raw": "'#7.4: \"finally\" block must be evaluated'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

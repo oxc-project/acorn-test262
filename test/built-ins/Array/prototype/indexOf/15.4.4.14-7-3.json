@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 342,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 282,
+      "end": 341,
+      "expression": {
+        "type": "CallExpression",
+        "start": 282,
+        "end": 340,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 282,
+          "end": 298,
+          "object": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 288,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 298,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 299,
+            "end": 315,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 299,
+              "end": 309,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 299,
+                "end": 301,
+                "elements": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 302,
+                "end": 309,
+                "name": "indexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 310,
+                "end": 311,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 313,
+                "end": 314,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 317,
+            "end": 319,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 318,
+              "end": 319,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 321,
+            "end": 339,
+            "value": "[].indexOf(1, 0)",
+            "raw": "'[].indexOf(1, 0)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

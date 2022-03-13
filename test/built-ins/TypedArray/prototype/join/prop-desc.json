@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 735,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 542,
+      "end": 589,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 546,
+          "end": 588,
+          "id": {
+            "type": "Identifier",
+            "start": 546,
+            "end": 565,
+            "name": "TypedArrayPrototype"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 568,
+            "end": 588,
+            "object": {
+              "type": "Identifier",
+              "start": 568,
+              "end": 578,
+              "name": "TypedArray"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 579,
+              "end": 588,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 591,
+      "end": 640,
+      "expression": {
+        "type": "CallExpression",
+        "start": 591,
+        "end": 639,
+        "callee": {
+          "type": "Identifier",
+          "start": 591,
+          "end": 610,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 611,
+            "end": 630,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 632,
+            "end": 638,
+            "value": "join",
+            "raw": "'join'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 641,
+      "end": 685,
+      "expression": {
+        "type": "CallExpression",
+        "start": 641,
+        "end": 684,
+        "callee": {
+          "type": "Identifier",
+          "start": 641,
+          "end": 655,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 656,
+            "end": 675,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 677,
+            "end": 683,
+            "value": "join",
+            "raw": "'join'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 686,
+      "end": 734,
+      "expression": {
+        "type": "CallExpression",
+        "start": 686,
+        "end": 733,
+        "callee": {
+          "type": "Identifier",
+          "start": 686,
+          "end": 704,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 705,
+            "end": 724,
+            "name": "TypedArrayPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 726,
+            "end": 732,
+            "value": "join",
+            "raw": "'join'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

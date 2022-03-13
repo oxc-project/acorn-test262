@@ -1,0 +1,147 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 598,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 337,
+      "end": 515,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 341,
+        "end": 384,
+        "left": {
+          "type": "CallExpression",
+          "start": 341,
+          "end": 375,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 341,
+            "end": 373,
+            "object": {
+              "type": "CallExpression",
+              "start": 341,
+              "end": 355,
+              "callee": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 345,
+                "name": "eval"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 346,
+                  "end": 354,
+                  "value": "\"bj\"",
+                  "raw": "\"\\\"bj\\\"\""
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 356,
+              "end": 373,
+              "name": "toLocaleUpperCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 380,
+          "end": 384,
+          "value": "BJ",
+          "raw": "\"BJ\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 386,
+        "end": 515,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 390,
+            "end": 513,
+            "argument": {
+              "type": "NewExpression",
+              "start": 396,
+              "end": 512,
+              "callee": {
+                "type": "Identifier",
+                "start": 400,
+                "end": 412,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 413,
+                  "end": 511,
+                  "left": {
+                    "type": "Literal",
+                    "start": 413,
+                    "end": 474,
+                    "value": "#1: eval(\"\\\"bj\\\"\").toLocaleUpperCase() === \"BJ\". Actual: ",
+                    "raw": "'#1: eval(\"\\\\\"bj\\\\\"\").toLocaleUpperCase() === \"BJ\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 477,
+                    "end": 511,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 477,
+                      "end": 509,
+                      "object": {
+                        "type": "CallExpression",
+                        "start": 477,
+                        "end": 491,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 477,
+                          "end": 481,
+                          "name": "eval"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 482,
+                            "end": 490,
+                            "value": "\"bj\"",
+                            "raw": "\"\\\"bj\\\"\""
+                          }
+                        ],
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 492,
+                        "end": 509,
+                        "name": "toLocaleUpperCase"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

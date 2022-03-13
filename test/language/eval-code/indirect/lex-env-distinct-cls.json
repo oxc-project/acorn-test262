@@ -1,0 +1,442 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 865,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 476,
+      "end": 492,
+      "id": {
+        "type": "Identifier",
+        "start": 482,
+        "end": 489,
+        "name": "outside"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 490,
+        "end": 492,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 494,
+      "end": 523,
+      "expression": {
+        "type": "CallExpression",
+        "start": 494,
+        "end": 522,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 494,
+          "end": 502,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 495,
+            "end": 501,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 495,
+                "end": 496,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 497,
+                "end": 501,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 503,
+            "end": 521,
+            "value": "class outside {}",
+            "raw": "'class outside {}'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 524,
+      "end": 567,
+      "expression": {
+        "type": "CallExpression",
+        "start": 524,
+        "end": 566,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 524,
+          "end": 532,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 525,
+            "end": 531,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 525,
+                "end": 526,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 527,
+                "end": 531,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 533,
+            "end": 565,
+            "value": "\"use strict\"; class outside {}",
+            "raw": "'\"use strict\"; class outside {}'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 569,
+      "end": 601,
+      "expression": {
+        "type": "CallExpression",
+        "start": 569,
+        "end": 600,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 569,
+          "end": 577,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 570,
+            "end": 576,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 570,
+                "end": 571,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 572,
+                "end": 576,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 578,
+            "end": 599,
+            "value": "class xNonStrict {}",
+            "raw": "'class xNonStrict {}'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 603,
+      "end": 652,
+      "expression": {
+        "type": "CallExpression",
+        "start": 603,
+        "end": 651,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 603,
+          "end": 619,
+          "object": {
+            "type": "Identifier",
+            "start": 603,
+            "end": 609,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 610,
+            "end": 619,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 620,
+            "end": 637,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 627,
+              "end": 637,
+              "name": "xNonStrict"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 639,
+            "end": 650,
+            "value": "undefined",
+            "raw": "'undefined'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 653,
+      "end": 713,
+      "expression": {
+        "type": "CallExpression",
+        "start": 653,
+        "end": 712,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 653,
+          "end": 666,
+          "object": {
+            "type": "Identifier",
+            "start": 653,
+            "end": 659,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 660,
+            "end": 666,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 667,
+            "end": 681,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 683,
+            "end": 711,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 694,
+              "end": 711,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 698,
+                  "end": 709,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 698,
+                    "end": 708,
+                    "name": "xNonStrict"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 715,
+      "end": 758,
+      "expression": {
+        "type": "CallExpression",
+        "start": 715,
+        "end": 757,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 715,
+          "end": 723,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 716,
+            "end": 722,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 716,
+                "end": 717,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 718,
+                "end": 722,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 724,
+            "end": 756,
+            "value": "\"use strict\"; class xStrict {}",
+            "raw": "'\"use strict\"; class xStrict {}'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 760,
+      "end": 806,
+      "expression": {
+        "type": "CallExpression",
+        "start": 760,
+        "end": 805,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 760,
+          "end": 776,
+          "object": {
+            "type": "Identifier",
+            "start": 760,
+            "end": 766,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 767,
+            "end": 776,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 777,
+            "end": 791,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 784,
+              "end": 791,
+              "name": "xStrict"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 793,
+            "end": 804,
+            "value": "undefined",
+            "raw": "'undefined'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 807,
+      "end": 864,
+      "expression": {
+        "type": "CallExpression",
+        "start": 807,
+        "end": 863,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 807,
+          "end": 820,
+          "object": {
+            "type": "Identifier",
+            "start": 807,
+            "end": 813,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 814,
+            "end": 820,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 821,
+            "end": 835,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 837,
+            "end": 862,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 848,
+              "end": 862,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 852,
+                  "end": 860,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 852,
+                    "end": 859,
+                    "name": "xStrict"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,566 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1380,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 722,
+      "end": 1379,
+      "expression": {
+        "type": "CallExpression",
+        "start": 722,
+        "end": 1378,
+        "callee": {
+          "type": "Identifier",
+          "start": 722,
+          "end": 752,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 753,
+            "end": 1377,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 762,
+                "end": 764,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 766,
+              "end": 1377,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 770,
+                  "end": 793,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 774,
+                      "end": 792,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 774,
+                        "end": 780,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 783,
+                        "end": 792,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 787,
+                          "end": 789,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 790,
+                            "end": 791,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 796,
+                  "end": 825,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 796,
+                    "end": 824,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 796,
+                      "end": 809,
+                      "name": "$DETACHBUFFER"
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 810,
+                        "end": 823,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 810,
+                          "end": 816,
+                          "name": "sample"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 817,
+                          "end": 823,
+                          "name": "buffer"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 828,
+                  "end": 912,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 828,
+                    "end": 911,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 828,
+                      "end": 844,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 828,
+                        "end": 834,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 835,
+                        "end": 844,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 845,
+                        "end": 861,
+                        "operator": "delete",
+                        "prefix": true,
+                        "argument": {
+                          "type": "MemberExpression",
+                          "start": 852,
+                          "end": 861,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 852,
+                            "end": 858,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "start": 859,
+                            "end": 860,
+                            "value": 0,
+                            "raw": "0"
+                          },
+                          "computed": true,
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 863,
+                        "end": 867,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 869,
+                        "end": 910,
+                        "value": "The value of `delete sample[0]` is true",
+                        "raw": "'The value of `delete sample[0]` is true'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 915,
+                  "end": 1007,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 915,
+                    "end": 1006,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 915,
+                      "end": 931,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 915,
+                        "end": 921,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 922,
+                        "end": 931,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 932,
+                        "end": 952,
+                        "operator": "delete",
+                        "prefix": true,
+                        "argument": {
+                          "type": "MemberExpression",
+                          "start": 939,
+                          "end": 952,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 939,
+                            "end": 945,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "start": 946,
+                            "end": 951,
+                            "value": "1.1",
+                            "raw": "\"1.1\""
+                          },
+                          "computed": true,
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 954,
+                        "end": 958,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 960,
+                        "end": 1005,
+                        "value": "The value of `delete sample[\"1.1\"]` is true",
+                        "raw": "'The value of `delete sample[\"1.1\"]` is true'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1010,
+                  "end": 1100,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1010,
+                    "end": 1099,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1010,
+                      "end": 1026,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1010,
+                        "end": 1016,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1017,
+                        "end": 1026,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 1027,
+                        "end": 1046,
+                        "operator": "delete",
+                        "prefix": true,
+                        "argument": {
+                          "type": "MemberExpression",
+                          "start": 1034,
+                          "end": 1046,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1034,
+                            "end": 1040,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "start": 1041,
+                            "end": 1045,
+                            "value": "-0",
+                            "raw": "\"-0\""
+                          },
+                          "computed": true,
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1048,
+                        "end": 1052,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1054,
+                        "end": 1098,
+                        "value": "The value of `delete sample[\"-0\"]` is true",
+                        "raw": "'The value of `delete sample[\"-0\"]` is true'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1103,
+                  "end": 1193,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1103,
+                    "end": 1192,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1103,
+                      "end": 1119,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1103,
+                        "end": 1109,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1110,
+                        "end": 1119,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 1120,
+                        "end": 1139,
+                        "operator": "delete",
+                        "prefix": true,
+                        "argument": {
+                          "type": "MemberExpression",
+                          "start": 1127,
+                          "end": 1139,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1127,
+                            "end": 1133,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "start": 1134,
+                            "end": 1138,
+                            "value": "-1",
+                            "raw": "\"-1\""
+                          },
+                          "computed": true,
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1141,
+                        "end": 1145,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1147,
+                        "end": 1191,
+                        "value": "The value of `delete sample[\"-1\"]` is true",
+                        "raw": "'The value of `delete sample[\"-1\"]` is true'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1196,
+                  "end": 1284,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1196,
+                    "end": 1283,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1196,
+                      "end": 1212,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1196,
+                        "end": 1202,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1203,
+                        "end": 1212,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 1213,
+                        "end": 1231,
+                        "operator": "delete",
+                        "prefix": true,
+                        "argument": {
+                          "type": "MemberExpression",
+                          "start": 1220,
+                          "end": 1231,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1220,
+                            "end": 1226,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "start": 1227,
+                            "end": 1230,
+                            "value": "1",
+                            "raw": "\"1\""
+                          },
+                          "computed": true,
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1233,
+                        "end": 1237,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1239,
+                        "end": 1282,
+                        "value": "The value of `delete sample[\"1\"]` is true",
+                        "raw": "'The value of `delete sample[\"1\"]` is true'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1287,
+                  "end": 1375,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1287,
+                    "end": 1374,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1287,
+                      "end": 1303,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1287,
+                        "end": 1293,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1294,
+                        "end": 1303,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 1304,
+                        "end": 1322,
+                        "operator": "delete",
+                        "prefix": true,
+                        "argument": {
+                          "type": "MemberExpression",
+                          "start": 1311,
+                          "end": 1322,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1311,
+                            "end": 1317,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Literal",
+                            "start": 1318,
+                            "end": 1321,
+                            "value": "2",
+                            "raw": "\"2\""
+                          },
+                          "computed": true,
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1324,
+                        "end": 1328,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1330,
+                        "end": 1373,
+                        "value": "The value of `delete sample[\"2\"]` is true",
+                        "raw": "'The value of `delete sample[\"2\"]` is true'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

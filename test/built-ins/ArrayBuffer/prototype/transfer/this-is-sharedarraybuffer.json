@@ -1,0 +1,173 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 712,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 543,
+      "end": 578,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 547,
+          "end": 577,
+          "id": {
+            "type": "Identifier",
+            "start": 547,
+            "end": 550,
+            "name": "sab"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 553,
+            "end": 577,
+            "callee": {
+              "type": "Identifier",
+              "start": 557,
+              "end": 574,
+              "name": "SharedArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 575,
+                "end": 576,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 580,
+      "end": 711,
+      "expression": {
+        "type": "CallExpression",
+        "start": 580,
+        "end": 710,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 580,
+          "end": 593,
+          "object": {
+            "type": "Identifier",
+            "start": 580,
+            "end": 586,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 587,
+            "end": 593,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 594,
+            "end": 603,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 605,
+            "end": 663,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 616,
+              "end": 663,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 620,
+                  "end": 661,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 620,
+                    "end": 660,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 620,
+                      "end": 655,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 620,
+                        "end": 650,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 620,
+                          "end": 641,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 620,
+                            "end": 631,
+                            "name": "ArrayBuffer"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 632,
+                            "end": 641,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 642,
+                          "end": 650,
+                          "name": "transfer"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 651,
+                        "end": 655,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 656,
+                        "end": 659,
+                        "name": "sab"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 665,
+            "end": 709,
+            "value": "`this` value cannot be a SharedArrayBuffer",
+            "raw": "'`this` value cannot be a SharedArrayBuffer'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 588,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 271,
+      "end": 343,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 271,
+        "end": 342,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 271,
+          "end": 305,
+          "object": {
+            "type": "MemberExpression",
+            "start": 271,
+            "end": 287,
+            "object": {
+              "type": "Identifier",
+              "start": 271,
+              "end": 277,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 278,
+              "end": 287,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 305,
+            "name": "toLocaleLowerCase"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 308,
+          "end": 342,
+          "object": {
+            "type": "MemberExpression",
+            "start": 308,
+            "end": 324,
+            "object": {
+              "type": "Identifier",
+              "start": 308,
+              "end": 314,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 315,
+              "end": 324,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 342,
+            "name": "toLocaleLowerCase"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 345,
+      "end": 587,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 349,
+        "end": 392,
+        "left": {
+          "type": "CallExpression",
+          "start": 349,
+          "end": 377,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 349,
+            "end": 375,
+            "object": {
+              "type": "Identifier",
+              "start": 349,
+              "end": 357,
+              "name": "Infinity"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 358,
+              "end": 375,
+              "name": "toLocaleLowerCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 382,
+          "end": 392,
+          "value": "infinity",
+          "raw": "\"infinity\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 394,
+        "end": 587,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 398,
+            "end": 585,
+            "argument": {
+              "type": "NewExpression",
+              "start": 404,
+              "end": 584,
+              "callee": {
+                "type": "Identifier",
+                "start": 408,
+                "end": 420,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 421,
+                  "end": 583,
+                  "left": {
+                    "type": "Literal",
+                    "start": 421,
+                    "end": 552,
+                    "value": "#1: Number.prototype.toLocaleLowerCase = String.prototype.toLocaleLowerCase; Infinity.toLocaleLowerCase()=== \"infinity\". Actual: ",
+                    "raw": "'#1: Number.prototype.toLocaleLowerCase = String.prototype.toLocaleLowerCase; Infinity.toLocaleLowerCase()=== \"infinity\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 555,
+                    "end": 583,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 555,
+                      "end": 581,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 555,
+                        "end": 563,
+                        "name": "Infinity"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 564,
+                        "end": 581,
+                        "name": "toLocaleLowerCase"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

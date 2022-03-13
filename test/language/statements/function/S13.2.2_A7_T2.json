@@ -1,0 +1,482 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1451,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 630,
+      "end": 666,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 634,
+          "end": 640,
+          "id": {
+            "type": "Identifier",
+            "start": 634,
+            "end": 640,
+            "name": "__FRST"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 642,
+          "end": 648,
+          "id": {
+            "type": "Identifier",
+            "start": 642,
+            "end": 648,
+            "name": "__SCND"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 650,
+          "end": 656,
+          "id": {
+            "type": "Identifier",
+            "start": 650,
+            "end": 656,
+            "name": "__func"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 658,
+          "end": 665,
+          "id": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 665,
+            "name": "__obj__"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 668,
+      "end": 681,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 668,
+        "end": 680,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 668,
+          "end": 674,
+          "name": "__FRST"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 675,
+          "end": 680,
+          "value": "one",
+          "raw": "\"one\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 682,
+      "end": 695,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 682,
+        "end": 694,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 682,
+          "end": 688,
+          "name": "__SCND"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 689,
+          "end": 694,
+          "value": "two",
+          "raw": "\"two\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 697,
+      "end": 794,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 697,
+        "end": 793,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 697,
+          "end": 703,
+          "name": "__func"
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 706,
+          "end": 793,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 715,
+              "end": 719,
+              "name": "arg1"
+            },
+            {
+              "type": "Identifier",
+              "start": 721,
+              "end": 725,
+              "name": "arg2"
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 726,
+            "end": 793,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 729,
+                "end": 745,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 729,
+                  "end": 744,
+                  "operator": "=",
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 729,
+                    "end": 739,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 729,
+                      "end": 733
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 734,
+                      "end": 739,
+                      "name": "first"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 740,
+                    "end": 744,
+                    "name": "arg1"
+                  }
+                }
+              },
+              {
+                "type": "VariableDeclaration",
+                "start": 747,
+                "end": 771,
+                "declarations": [
+                  {
+                    "type": "VariableDeclarator",
+                    "start": 751,
+                    "end": 770,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 751,
+                      "end": 756,
+                      "name": "__obj"
+                    },
+                    "init": {
+                      "type": "ObjectExpression",
+                      "start": 757,
+                      "end": 770,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 758,
+                          "end": 769,
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 758,
+                            "end": 764,
+                            "name": "second"
+                          },
+                          "value": {
+                            "type": "Identifier",
+                            "start": 765,
+                            "end": 769,
+                            "name": "arg2"
+                          },
+                          "kind": "init"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "kind": "var"
+              },
+              {
+                "type": "ReturnStatement",
+                "start": 776,
+                "end": 789,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 783,
+                  "end": 788,
+                  "name": "__obj"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 796,
+      "end": 833,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 796,
+        "end": 832,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 796,
+          "end": 803,
+          "name": "__obj__"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 806,
+          "end": 832,
+          "callee": {
+            "type": "Identifier",
+            "start": 810,
+            "end": 816,
+            "name": "__func"
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 817,
+              "end": 823,
+              "name": "__FRST"
+            },
+            {
+              "type": "Identifier",
+              "start": 825,
+              "end": 831,
+              "name": "__SCND"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 924,
+      "end": 1060,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 928,
+        "end": 955,
+        "left": {
+          "type": "MemberExpression",
+          "start": 928,
+          "end": 941,
+          "object": {
+            "type": "Identifier",
+            "start": 928,
+            "end": 935,
+            "name": "__obj__"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 936,
+            "end": 941,
+            "name": "first"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 946,
+          "end": 955,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 957,
+        "end": 1060,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 960,
+            "end": 1058,
+            "argument": {
+              "type": "NewExpression",
+              "start": 966,
+              "end": 1057,
+              "callee": {
+                "type": "Identifier",
+                "start": 970,
+                "end": 982,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 983,
+                  "end": 1056,
+                  "left": {
+                    "type": "Literal",
+                    "start": 983,
+                    "end": 1042,
+                    "value": "#1: __obj__.first === undefined. Actual: __obj__.first===",
+                    "raw": "'#1: __obj__.first === undefined. Actual: __obj__.first==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1043,
+                    "end": 1056,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1043,
+                      "end": 1050,
+                      "name": "__obj__"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1051,
+                      "end": 1056,
+                      "name": "first"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1233,
+      "end": 1368,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1237,
+        "end": 1262,
+        "left": {
+          "type": "MemberExpression",
+          "start": 1237,
+          "end": 1251,
+          "object": {
+            "type": "Identifier",
+            "start": 1237,
+            "end": 1244,
+            "name": "__obj__"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1245,
+            "end": 1251,
+            "name": "second"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 1256,
+          "end": 1262,
+          "name": "__SCND"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1264,
+        "end": 1368,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1267,
+            "end": 1366,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1273,
+              "end": 1365,
+              "callee": {
+                "type": "Identifier",
+                "start": 1277,
+                "end": 1289,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1290,
+                  "end": 1364,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1290,
+                    "end": 1349,
+                    "value": "#2: __obj__.second === __SCND. Actual: __obj__.second ===",
+                    "raw": "'#2: __obj__.second === __SCND. Actual: __obj__.second ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1350,
+                    "end": 1364,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1350,
+                      "end": 1357,
+                      "name": "__obj__"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1358,
+                      "end": 1364,
+                      "name": "second"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

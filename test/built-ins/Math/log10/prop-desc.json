@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 334,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 232,
+      "end": 267,
+      "expression": {
+        "type": "CallExpression",
+        "start": 232,
+        "end": 266,
+        "callee": {
+          "type": "Identifier",
+          "start": 232,
+          "end": 251,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 252,
+            "end": 256,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 258,
+            "end": 265,
+            "value": "log10",
+            "raw": "\"log10\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 268,
+      "end": 298,
+      "expression": {
+        "type": "CallExpression",
+        "start": 268,
+        "end": 297,
+        "callee": {
+          "type": "Identifier",
+          "start": 268,
+          "end": 282,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 283,
+            "end": 287,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 289,
+            "end": 296,
+            "value": "log10",
+            "raw": "\"log10\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 299,
+      "end": 333,
+      "expression": {
+        "type": "CallExpression",
+        "start": 299,
+        "end": 332,
+        "callee": {
+          "type": "Identifier",
+          "start": 299,
+          "end": 317,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 318,
+            "end": 322,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 324,
+            "end": 331,
+            "value": "log10",
+            "raw": "\"log10\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

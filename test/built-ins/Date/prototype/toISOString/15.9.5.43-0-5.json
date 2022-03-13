@@ -1,0 +1,155 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 408,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 282,
+      "end": 323,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 286,
+          "end": 322,
+          "id": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 293,
+            "name": "dateStr"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 296,
+            "end": 322,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 296,
+              "end": 320,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 296,
+                "end": 308,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 297,
+                  "end": 307,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 301,
+                    "end": 305,
+                    "name": "Date"
+                  },
+                  "arguments": []
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 309,
+                "end": 320,
+                "name": "toISOString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 325,
+      "end": 407,
+      "expression": {
+        "type": "CallExpression",
+        "start": 325,
+        "end": 406,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 325,
+          "end": 341,
+          "object": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 341,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 342,
+            "end": 369,
+            "object": {
+              "type": "Identifier",
+              "start": 342,
+              "end": 349,
+              "name": "dateStr"
+            },
+            "property": {
+              "type": "BinaryExpression",
+              "start": 350,
+              "end": 368,
+              "left": {
+                "type": "MemberExpression",
+                "start": 350,
+                "end": 364,
+                "object": {
+                  "type": "Identifier",
+                  "start": 350,
+                  "end": 357,
+                  "name": "dateStr"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 358,
+                  "end": 364,
+                  "name": "length"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "operator": "-",
+              "right": {
+                "type": "Literal",
+                "start": 367,
+                "end": 368,
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 371,
+            "end": 374,
+            "value": "Z",
+            "raw": "\"Z\""
+          },
+          {
+            "type": "Literal",
+            "start": 376,
+            "end": 405,
+            "value": "dateStr[dateStr.length - 1]",
+            "raw": "'dateStr[dateStr.length - 1]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

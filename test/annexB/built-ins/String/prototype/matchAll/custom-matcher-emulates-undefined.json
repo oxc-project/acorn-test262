@@ -1,0 +1,343 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 849,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 578,
+      "end": 606,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 582,
+          "end": 605,
+          "id": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 588,
+            "name": "regexp"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 591,
+            "end": 605,
+            "object": {
+              "type": "Identifier",
+              "start": 591,
+              "end": 595,
+              "name": "$262"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 596,
+              "end": 605,
+              "name": "IsHTMLDDA"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 607,
+      "end": 627,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 611,
+          "end": 626,
+          "id": {
+            "type": "Identifier",
+            "start": 611,
+            "end": 622,
+            "name": "matcherGets"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 625,
+            "end": 626,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 628,
+      "end": 768,
+      "expression": {
+        "type": "CallExpression",
+        "start": 628,
+        "end": 767,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 628,
+          "end": 649,
+          "object": {
+            "type": "Identifier",
+            "start": 628,
+            "end": 634,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 635,
+            "end": 649,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 650,
+            "end": 656,
+            "name": "regexp"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 658,
+            "end": 673,
+            "object": {
+              "type": "Identifier",
+              "start": 658,
+              "end": 664,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 665,
+              "end": 673,
+              "name": "matchAll"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 675,
+            "end": 766,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 679,
+                "end": 741,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 679,
+                  "end": 682,
+                  "name": "get"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 684,
+                  "end": 741,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 695,
+                    "end": 741,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 701,
+                        "end": 718,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 701,
+                          "end": 717,
+                          "operator": "+=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 701,
+                            "end": 712,
+                            "name": "matcherGets"
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "start": 716,
+                            "end": 717,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 723,
+                        "end": 737,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 730,
+                          "end": 736,
+                          "name": "regexp"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 745,
+                "end": 763,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 745,
+                  "end": 757,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 759,
+                  "end": 763,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 770,
+      "end": 814,
+      "expression": {
+        "type": "CallExpression",
+        "start": 770,
+        "end": 813,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 770,
+          "end": 786,
+          "object": {
+            "type": "Identifier",
+            "start": 770,
+            "end": 776,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 777,
+            "end": 786,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 787,
+            "end": 806,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 787,
+              "end": 798,
+              "object": {
+                "type": "Literal",
+                "start": 787,
+                "end": 789,
+                "value": "",
+                "raw": "\"\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 790,
+                "end": 798,
+                "name": "matchAll"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 799,
+                "end": 805,
+                "name": "regexp"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 808,
+            "end": 812,
+            "value": null,
+            "raw": "null"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 815,
+      "end": 848,
+      "expression": {
+        "type": "CallExpression",
+        "start": 815,
+        "end": 847,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 815,
+          "end": 831,
+          "object": {
+            "type": "Identifier",
+            "start": 815,
+            "end": 821,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 822,
+            "end": 831,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 832,
+            "end": 843,
+            "name": "matcherGets"
+          },
+          {
+            "type": "Literal",
+            "start": 845,
+            "end": 846,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

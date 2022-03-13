@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 548,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 355,
+      "end": 406,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 359,
+          "end": 405,
+          "id": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 360,
+            "name": "f"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 363,
+            "end": 405,
+            "callee": {
+              "type": "Identifier",
+              "start": 363,
+              "end": 371,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 372,
+                "end": 404,
+                "value": "\"use strict\";\ngNonStrict();",
+                "raw": "\"\\\"use strict\\\";\\ngNonStrict();\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 408,
+      "end": 456,
+      "expression": {
+        "type": "CallExpression",
+        "start": 408,
+        "end": 455,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 408,
+          "end": 421,
+          "object": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 414,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 415,
+            "end": 421,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 422,
+            "end": 431,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 433,
+            "end": 454,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 444,
+              "end": 454,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 448,
+                  "end": 452,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 448,
+                    "end": 451,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 448,
+                      "end": 449,
+                      "name": "f"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 458,
+      "end": 547,
+      "id": {
+        "type": "Identifier",
+        "start": 467,
+        "end": 477,
+        "name": "gNonStrict"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 480,
+        "end": 547,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 484,
+            "end": 545,
+            "argument": {
+              "type": "LogicalExpression",
+              "start": 491,
+              "end": 544,
+              "left": {
+                "type": "MemberExpression",
+                "start": 491,
+                "end": 508,
+                "object": {
+                  "type": "Identifier",
+                  "start": 491,
+                  "end": 501,
+                  "name": "gNonStrict"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 502,
+                  "end": 508,
+                  "name": "caller"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "operator": "||",
+              "right": {
+                "type": "MemberExpression",
+                "start": 512,
+                "end": 544,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 512,
+                  "end": 529,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 512,
+                    "end": 522,
+                    "name": "gNonStrict"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 523,
+                    "end": 529,
+                    "name": "caller"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 530,
+                  "end": 544,
+                  "name": "throwTypeError"
+                },
+                "computed": false,
+                "optional": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

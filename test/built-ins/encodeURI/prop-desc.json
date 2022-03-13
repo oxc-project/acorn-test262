@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 560,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 446,
+      "end": 485,
+      "expression": {
+        "type": "CallExpression",
+        "start": 446,
+        "end": 484,
+        "callee": {
+          "type": "Identifier",
+          "start": 446,
+          "end": 465,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 466,
+            "end": 470
+          },
+          {
+            "type": "Literal",
+            "start": 472,
+            "end": 483,
+            "value": "encodeURI",
+            "raw": "\"encodeURI\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 486,
+      "end": 520,
+      "expression": {
+        "type": "CallExpression",
+        "start": 486,
+        "end": 519,
+        "callee": {
+          "type": "Identifier",
+          "start": 486,
+          "end": 500,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 501,
+            "end": 505
+          },
+          {
+            "type": "Literal",
+            "start": 507,
+            "end": 518,
+            "value": "encodeURI",
+            "raw": "\"encodeURI\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 521,
+      "end": 559,
+      "expression": {
+        "type": "CallExpression",
+        "start": 521,
+        "end": 558,
+        "callee": {
+          "type": "Identifier",
+          "start": 521,
+          "end": 539,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 540,
+            "end": 544
+          },
+          {
+            "type": "Literal",
+            "start": 546,
+            "end": 557,
+            "value": "encodeURI",
+            "raw": "\"encodeURI\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

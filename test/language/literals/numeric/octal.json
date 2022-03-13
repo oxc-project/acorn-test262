@@ -1,0 +1,1280 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2010,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 669,
+      "end": 713,
+      "expression": {
+        "type": "CallExpression",
+        "start": 669,
+        "end": 712,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 669,
+          "end": 685,
+          "object": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 675,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 685,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 686,
+            "end": 689,
+            "value": 0,
+            "raw": "0o0"
+          },
+          {
+            "type": "Literal",
+            "start": 691,
+            "end": 692,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 694,
+            "end": 711,
+            "value": "lower-case head",
+            "raw": "'lower-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 714,
+      "end": 758,
+      "expression": {
+        "type": "CallExpression",
+        "start": 714,
+        "end": 757,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 714,
+          "end": 730,
+          "object": {
+            "type": "Identifier",
+            "start": 714,
+            "end": 720,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 721,
+            "end": 730,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 731,
+            "end": 734,
+            "value": 0,
+            "raw": "0O0"
+          },
+          {
+            "type": "Literal",
+            "start": 736,
+            "end": 737,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 739,
+            "end": 756,
+            "value": "upper-case head",
+            "raw": "'upper-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 759,
+      "end": 823,
+      "expression": {
+        "type": "CallExpression",
+        "start": 759,
+        "end": 822,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 759,
+          "end": 775,
+          "object": {
+            "type": "Identifier",
+            "start": 759,
+            "end": 765,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 766,
+            "end": 775,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 776,
+            "end": 780,
+            "value": 0,
+            "raw": "0o00"
+          },
+          {
+            "type": "Literal",
+            "start": 782,
+            "end": 783,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 785,
+            "end": 821,
+            "value": "lower-case head with leading zeros",
+            "raw": "'lower-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 824,
+      "end": 888,
+      "expression": {
+        "type": "CallExpression",
+        "start": 824,
+        "end": 887,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 824,
+          "end": 840,
+          "object": {
+            "type": "Identifier",
+            "start": 824,
+            "end": 830,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 831,
+            "end": 840,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 841,
+            "end": 845,
+            "value": 0,
+            "raw": "0O00"
+          },
+          {
+            "type": "Literal",
+            "start": 847,
+            "end": 848,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 850,
+            "end": 886,
+            "value": "upper-case head with leading zeros",
+            "raw": "'upper-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 890,
+      "end": 934,
+      "expression": {
+        "type": "CallExpression",
+        "start": 890,
+        "end": 933,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 890,
+          "end": 906,
+          "object": {
+            "type": "Identifier",
+            "start": 890,
+            "end": 896,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 897,
+            "end": 906,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 907,
+            "end": 910,
+            "value": 1,
+            "raw": "0o1"
+          },
+          {
+            "type": "Literal",
+            "start": 912,
+            "end": 913,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 915,
+            "end": 932,
+            "value": "lower-case head",
+            "raw": "'lower-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 935,
+      "end": 979,
+      "expression": {
+        "type": "CallExpression",
+        "start": 935,
+        "end": 978,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 935,
+          "end": 951,
+          "object": {
+            "type": "Identifier",
+            "start": 935,
+            "end": 941,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 942,
+            "end": 951,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 952,
+            "end": 955,
+            "value": 1,
+            "raw": "0O1"
+          },
+          {
+            "type": "Literal",
+            "start": 957,
+            "end": 958,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 960,
+            "end": 977,
+            "value": "upper-case head",
+            "raw": "'upper-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 980,
+      "end": 1044,
+      "expression": {
+        "type": "CallExpression",
+        "start": 980,
+        "end": 1043,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 980,
+          "end": 996,
+          "object": {
+            "type": "Identifier",
+            "start": 980,
+            "end": 986,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 987,
+            "end": 996,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 997,
+            "end": 1001,
+            "value": 1,
+            "raw": "0o01"
+          },
+          {
+            "type": "Literal",
+            "start": 1003,
+            "end": 1004,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 1006,
+            "end": 1042,
+            "value": "lower-case head with leading zeros",
+            "raw": "'lower-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1045,
+      "end": 1109,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1045,
+        "end": 1108,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1045,
+          "end": 1061,
+          "object": {
+            "type": "Identifier",
+            "start": 1045,
+            "end": 1051,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1052,
+            "end": 1061,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1062,
+            "end": 1066,
+            "value": 1,
+            "raw": "0O01"
+          },
+          {
+            "type": "Literal",
+            "start": 1068,
+            "end": 1069,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 1071,
+            "end": 1107,
+            "value": "upper-case head with leading zeros",
+            "raw": "'upper-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1111,
+      "end": 1155,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1111,
+        "end": 1154,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1111,
+          "end": 1127,
+          "object": {
+            "type": "Identifier",
+            "start": 1111,
+            "end": 1117,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1118,
+            "end": 1127,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1128,
+            "end": 1131,
+            "value": 7,
+            "raw": "0o7"
+          },
+          {
+            "type": "Literal",
+            "start": 1133,
+            "end": 1134,
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "type": "Literal",
+            "start": 1136,
+            "end": 1153,
+            "value": "lower-case head",
+            "raw": "'lower-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1156,
+      "end": 1200,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1156,
+        "end": 1199,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1156,
+          "end": 1172,
+          "object": {
+            "type": "Identifier",
+            "start": 1156,
+            "end": 1162,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1163,
+            "end": 1172,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1173,
+            "end": 1176,
+            "value": 7,
+            "raw": "0O7"
+          },
+          {
+            "type": "Literal",
+            "start": 1178,
+            "end": 1179,
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "type": "Literal",
+            "start": 1181,
+            "end": 1198,
+            "value": "upper-case head",
+            "raw": "'upper-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1201,
+      "end": 1265,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1201,
+        "end": 1264,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1201,
+          "end": 1217,
+          "object": {
+            "type": "Identifier",
+            "start": 1201,
+            "end": 1207,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1208,
+            "end": 1217,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1218,
+            "end": 1222,
+            "value": 7,
+            "raw": "0o07"
+          },
+          {
+            "type": "Literal",
+            "start": 1224,
+            "end": 1225,
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "type": "Literal",
+            "start": 1227,
+            "end": 1263,
+            "value": "lower-case head with leading zeros",
+            "raw": "'lower-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1266,
+      "end": 1330,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1266,
+        "end": 1329,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1266,
+          "end": 1282,
+          "object": {
+            "type": "Identifier",
+            "start": 1266,
+            "end": 1272,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1273,
+            "end": 1282,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1283,
+            "end": 1287,
+            "value": 7,
+            "raw": "0O07"
+          },
+          {
+            "type": "Literal",
+            "start": 1289,
+            "end": 1290,
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "type": "Literal",
+            "start": 1292,
+            "end": 1328,
+            "value": "upper-case head with leading zeros",
+            "raw": "'upper-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1332,
+      "end": 1377,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1332,
+        "end": 1376,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1332,
+          "end": 1348,
+          "object": {
+            "type": "Identifier",
+            "start": 1332,
+            "end": 1338,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1339,
+            "end": 1348,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1349,
+            "end": 1353,
+            "value": 8,
+            "raw": "0o10"
+          },
+          {
+            "type": "Literal",
+            "start": 1355,
+            "end": 1356,
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "type": "Literal",
+            "start": 1358,
+            "end": 1375,
+            "value": "lower-case head",
+            "raw": "'lower-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1378,
+      "end": 1423,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1378,
+        "end": 1422,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1378,
+          "end": 1394,
+          "object": {
+            "type": "Identifier",
+            "start": 1378,
+            "end": 1384,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1385,
+            "end": 1394,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1395,
+            "end": 1399,
+            "value": 8,
+            "raw": "0O10"
+          },
+          {
+            "type": "Literal",
+            "start": 1401,
+            "end": 1402,
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "type": "Literal",
+            "start": 1404,
+            "end": 1421,
+            "value": "upper-case head",
+            "raw": "'upper-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1424,
+      "end": 1489,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1424,
+        "end": 1488,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1424,
+          "end": 1440,
+          "object": {
+            "type": "Identifier",
+            "start": 1424,
+            "end": 1430,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1431,
+            "end": 1440,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1441,
+            "end": 1446,
+            "value": 8,
+            "raw": "0o010"
+          },
+          {
+            "type": "Literal",
+            "start": 1448,
+            "end": 1449,
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "type": "Literal",
+            "start": 1451,
+            "end": 1487,
+            "value": "lower-case head with leading zeros",
+            "raw": "'lower-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1490,
+      "end": 1555,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1490,
+        "end": 1554,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1490,
+          "end": 1506,
+          "object": {
+            "type": "Identifier",
+            "start": 1490,
+            "end": 1496,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1497,
+            "end": 1506,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1507,
+            "end": 1512,
+            "value": 8,
+            "raw": "0O010"
+          },
+          {
+            "type": "Literal",
+            "start": 1514,
+            "end": 1515,
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "type": "Literal",
+            "start": 1517,
+            "end": 1553,
+            "value": "upper-case head with leading zeros",
+            "raw": "'upper-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1557,
+      "end": 1602,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1557,
+        "end": 1601,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1557,
+          "end": 1573,
+          "object": {
+            "type": "Identifier",
+            "start": 1557,
+            "end": 1563,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1564,
+            "end": 1573,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1574,
+            "end": 1578,
+            "value": 9,
+            "raw": "0o11"
+          },
+          {
+            "type": "Literal",
+            "start": 1580,
+            "end": 1581,
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "type": "Literal",
+            "start": 1583,
+            "end": 1600,
+            "value": "lower-case head",
+            "raw": "'lower-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1603,
+      "end": 1648,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1603,
+        "end": 1647,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1603,
+          "end": 1619,
+          "object": {
+            "type": "Identifier",
+            "start": 1603,
+            "end": 1609,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1610,
+            "end": 1619,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1620,
+            "end": 1624,
+            "value": 9,
+            "raw": "0O11"
+          },
+          {
+            "type": "Literal",
+            "start": 1626,
+            "end": 1627,
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "type": "Literal",
+            "start": 1629,
+            "end": 1646,
+            "value": "upper-case head",
+            "raw": "'upper-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1649,
+      "end": 1714,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1649,
+        "end": 1713,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1649,
+          "end": 1665,
+          "object": {
+            "type": "Identifier",
+            "start": 1649,
+            "end": 1655,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1656,
+            "end": 1665,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1666,
+            "end": 1671,
+            "value": 9,
+            "raw": "0o011"
+          },
+          {
+            "type": "Literal",
+            "start": 1673,
+            "end": 1674,
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "type": "Literal",
+            "start": 1676,
+            "end": 1712,
+            "value": "lower-case head with leading zeros",
+            "raw": "'lower-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1715,
+      "end": 1780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1715,
+        "end": 1779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1715,
+          "end": 1731,
+          "object": {
+            "type": "Identifier",
+            "start": 1715,
+            "end": 1721,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1722,
+            "end": 1731,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1732,
+            "end": 1737,
+            "value": 9,
+            "raw": "0O011"
+          },
+          {
+            "type": "Literal",
+            "start": 1739,
+            "end": 1740,
+            "value": 9,
+            "raw": "9"
+          },
+          {
+            "type": "Literal",
+            "start": 1742,
+            "end": 1778,
+            "value": "upper-case head with leading zeros",
+            "raw": "'upper-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1782,
+      "end": 1828,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1782,
+        "end": 1827,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1782,
+          "end": 1798,
+          "object": {
+            "type": "Identifier",
+            "start": 1782,
+            "end": 1788,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1789,
+            "end": 1798,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1799,
+            "end": 1803,
+            "value": 63,
+            "raw": "0o77"
+          },
+          {
+            "type": "Literal",
+            "start": 1805,
+            "end": 1807,
+            "value": 63,
+            "raw": "63"
+          },
+          {
+            "type": "Literal",
+            "start": 1809,
+            "end": 1826,
+            "value": "lower-case head",
+            "raw": "'lower-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1829,
+      "end": 1875,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1829,
+        "end": 1874,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1829,
+          "end": 1845,
+          "object": {
+            "type": "Identifier",
+            "start": 1829,
+            "end": 1835,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1836,
+            "end": 1845,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1846,
+            "end": 1850,
+            "value": 63,
+            "raw": "0O77"
+          },
+          {
+            "type": "Literal",
+            "start": 1852,
+            "end": 1854,
+            "value": 63,
+            "raw": "63"
+          },
+          {
+            "type": "Literal",
+            "start": 1856,
+            "end": 1873,
+            "value": "upper-case head",
+            "raw": "'upper-case head'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1876,
+      "end": 1942,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1876,
+        "end": 1941,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1876,
+          "end": 1892,
+          "object": {
+            "type": "Identifier",
+            "start": 1876,
+            "end": 1882,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1883,
+            "end": 1892,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1893,
+            "end": 1898,
+            "value": 63,
+            "raw": "0o077"
+          },
+          {
+            "type": "Literal",
+            "start": 1900,
+            "end": 1902,
+            "value": 63,
+            "raw": "63"
+          },
+          {
+            "type": "Literal",
+            "start": 1904,
+            "end": 1940,
+            "value": "lower-case head with leading zeros",
+            "raw": "'lower-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1943,
+      "end": 2009,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1943,
+        "end": 2008,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1943,
+          "end": 1959,
+          "object": {
+            "type": "Identifier",
+            "start": 1943,
+            "end": 1949,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1950,
+            "end": 1959,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1960,
+            "end": 1965,
+            "value": 63,
+            "raw": "0O077"
+          },
+          {
+            "type": "Literal",
+            "start": 1967,
+            "end": 1969,
+            "value": 63,
+            "raw": "63"
+          },
+          {
+            "type": "Literal",
+            "start": 1971,
+            "end": 2007,
+            "value": "upper-case head with leading zeros",
+            "raw": "'upper-case head with leading zeros'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,171 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 468,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 312,
+      "end": 354,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 318,
+          "end": 354,
+          "id": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 326,
+            "name": "Subclass"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 329,
+            "end": 354,
+            "id": null,
+            "superClass": {
+              "type": "Identifier",
+              "start": 343,
+              "end": 351,
+              "name": "DataView"
+            },
+            "body": {
+              "type": "ClassBody",
+              "start": 352,
+              "end": 354,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 356,
+      "end": 401,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 362,
+          "end": 400,
+          "id": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 365,
+            "name": "sub"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 368,
+            "end": 400,
+            "callee": {
+              "type": "Identifier",
+              "start": 372,
+              "end": 380,
+              "name": "Subclass"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 381,
+                "end": 399,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 385,
+                  "end": 396,
+                  "name": "ArrayBuffer"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 397,
+                    "end": 398,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 402,
+      "end": 434,
+      "expression": {
+        "type": "CallExpression",
+        "start": 402,
+        "end": 433,
+        "callee": {
+          "type": "Identifier",
+          "start": 402,
+          "end": 408,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 409,
+            "end": 432,
+            "left": {
+              "type": "Identifier",
+              "start": 409,
+              "end": 412,
+              "name": "sub"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 424,
+              "end": 432,
+              "name": "Subclass"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 435,
+      "end": 467,
+      "expression": {
+        "type": "CallExpression",
+        "start": 435,
+        "end": 466,
+        "callee": {
+          "type": "Identifier",
+          "start": 435,
+          "end": 441,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 442,
+            "end": 465,
+            "left": {
+              "type": "Identifier",
+              "start": 442,
+              "end": 445,
+              "name": "sub"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 457,
+              "end": 465,
+              "name": "DataView"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

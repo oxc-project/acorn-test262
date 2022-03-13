@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 551,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 387,
+      "end": 460,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 391,
+          "end": 460,
+          "id": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 401,
+            "name": "timeRegExp"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 404,
+            "end": 460,
+            "value": {},
+            "raw": "/^[0-9]{2}:[0-9]{2}:[0-9]{2} GMT[+-][0-9]{4}( \\(.+\\))?$/",
+            "regex": {
+              "pattern": "^[0-9]{2}:[0-9]{2}:[0-9]{2} GMT[+-][0-9]{4}( \\(.+\\))?$",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 461,
+      "end": 516,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 465,
+          "end": 515,
+          "id": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 470,
+            "name": "match"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 473,
+            "end": 515,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 473,
+              "end": 488,
+              "object": {
+                "type": "Identifier",
+                "start": 473,
+                "end": 483,
+                "name": "timeRegExp"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 484,
+                "end": 488,
+                "name": "exec"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 489,
+                "end": 514,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 489,
+                  "end": 512,
+                  "object": {
+                    "type": "NewExpression",
+                    "start": 489,
+                    "end": 499,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 493,
+                      "end": 497,
+                      "name": "Date"
+                    },
+                    "arguments": []
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 500,
+                    "end": 512,
+                    "name": "toTimeString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 517,
+      "end": 550,
+      "expression": {
+        "type": "CallExpression",
+        "start": 517,
+        "end": 549,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 517,
+          "end": 536,
+          "object": {
+            "type": "Identifier",
+            "start": 517,
+            "end": 523,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 536,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 537,
+            "end": 541,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "Identifier",
+            "start": 543,
+            "end": 548,
+            "name": "match"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

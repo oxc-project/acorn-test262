@@ -1,0 +1,682 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 899,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 399,
+      "end": 546,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 403,
+          "end": 545,
+          "id": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 412,
+            "name": "alphabetR"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 415,
+            "end": 545,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 416,
+                "end": 419,
+                "value": "z",
+                "raw": "\"z\""
+              },
+              {
+                "type": "Literal",
+                "start": 421,
+                "end": 424,
+                "value": "y",
+                "raw": "\"y\""
+              },
+              {
+                "type": "Literal",
+                "start": 426,
+                "end": 429,
+                "value": "x",
+                "raw": "\"x\""
+              },
+              {
+                "type": "Literal",
+                "start": 431,
+                "end": 434,
+                "value": "w",
+                "raw": "\"w\""
+              },
+              {
+                "type": "Literal",
+                "start": 436,
+                "end": 439,
+                "value": "v",
+                "raw": "\"v\""
+              },
+              {
+                "type": "Literal",
+                "start": 441,
+                "end": 444,
+                "value": "u",
+                "raw": "\"u\""
+              },
+              {
+                "type": "Literal",
+                "start": 446,
+                "end": 449,
+                "value": "t",
+                "raw": "\"t\""
+              },
+              {
+                "type": "Literal",
+                "start": 451,
+                "end": 454,
+                "value": "s",
+                "raw": "\"s\""
+              },
+              {
+                "type": "Literal",
+                "start": 456,
+                "end": 459,
+                "value": "r",
+                "raw": "\"r\""
+              },
+              {
+                "type": "Literal",
+                "start": 461,
+                "end": 464,
+                "value": "q",
+                "raw": "\"q\""
+              },
+              {
+                "type": "Literal",
+                "start": 466,
+                "end": 469,
+                "value": "p",
+                "raw": "\"p\""
+              },
+              {
+                "type": "Literal",
+                "start": 471,
+                "end": 474,
+                "value": "o",
+                "raw": "\"o\""
+              },
+              {
+                "type": "Literal",
+                "start": 476,
+                "end": 479,
+                "value": "n",
+                "raw": "\"n\""
+              },
+              {
+                "type": "Literal",
+                "start": 481,
+                "end": 484,
+                "value": "M",
+                "raw": "\"M\""
+              },
+              {
+                "type": "Literal",
+                "start": 486,
+                "end": 489,
+                "value": "L",
+                "raw": "\"L\""
+              },
+              {
+                "type": "Literal",
+                "start": 491,
+                "end": 494,
+                "value": "K",
+                "raw": "\"K\""
+              },
+              {
+                "type": "Literal",
+                "start": 496,
+                "end": 499,
+                "value": "J",
+                "raw": "\"J\""
+              },
+              {
+                "type": "Literal",
+                "start": 501,
+                "end": 504,
+                "value": "I",
+                "raw": "\"I\""
+              },
+              {
+                "type": "Literal",
+                "start": 506,
+                "end": 509,
+                "value": "H",
+                "raw": "\"H\""
+              },
+              {
+                "type": "Literal",
+                "start": 511,
+                "end": 514,
+                "value": "G",
+                "raw": "\"G\""
+              },
+              {
+                "type": "Literal",
+                "start": 516,
+                "end": 519,
+                "value": "F",
+                "raw": "\"F\""
+              },
+              {
+                "type": "Literal",
+                "start": 521,
+                "end": 524,
+                "value": "E",
+                "raw": "\"E\""
+              },
+              {
+                "type": "Literal",
+                "start": 526,
+                "end": 529,
+                "value": "D",
+                "raw": "\"D\""
+              },
+              {
+                "type": "Literal",
+                "start": 531,
+                "end": 534,
+                "value": "C",
+                "raw": "\"C\""
+              },
+              {
+                "type": "Literal",
+                "start": 536,
+                "end": 539,
+                "value": "B",
+                "raw": "\"B\""
+              },
+              {
+                "type": "Literal",
+                "start": 541,
+                "end": 544,
+                "value": "A",
+                "raw": "\"A\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 547,
+      "end": 693,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 551,
+          "end": 692,
+          "id": {
+            "type": "Identifier",
+            "start": 551,
+            "end": 559,
+            "name": "alphabet"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 562,
+            "end": 692,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 563,
+                "end": 566,
+                "value": "A",
+                "raw": "\"A\""
+              },
+              {
+                "type": "Literal",
+                "start": 568,
+                "end": 571,
+                "value": "B",
+                "raw": "\"B\""
+              },
+              {
+                "type": "Literal",
+                "start": 573,
+                "end": 576,
+                "value": "C",
+                "raw": "\"C\""
+              },
+              {
+                "type": "Literal",
+                "start": 578,
+                "end": 581,
+                "value": "D",
+                "raw": "\"D\""
+              },
+              {
+                "type": "Literal",
+                "start": 583,
+                "end": 586,
+                "value": "E",
+                "raw": "\"E\""
+              },
+              {
+                "type": "Literal",
+                "start": 588,
+                "end": 591,
+                "value": "F",
+                "raw": "\"F\""
+              },
+              {
+                "type": "Literal",
+                "start": 593,
+                "end": 596,
+                "value": "G",
+                "raw": "\"G\""
+              },
+              {
+                "type": "Literal",
+                "start": 598,
+                "end": 601,
+                "value": "H",
+                "raw": "\"H\""
+              },
+              {
+                "type": "Literal",
+                "start": 603,
+                "end": 606,
+                "value": "I",
+                "raw": "\"I\""
+              },
+              {
+                "type": "Literal",
+                "start": 608,
+                "end": 611,
+                "value": "J",
+                "raw": "\"J\""
+              },
+              {
+                "type": "Literal",
+                "start": 613,
+                "end": 616,
+                "value": "K",
+                "raw": "\"K\""
+              },
+              {
+                "type": "Literal",
+                "start": 618,
+                "end": 621,
+                "value": "L",
+                "raw": "\"L\""
+              },
+              {
+                "type": "Literal",
+                "start": 623,
+                "end": 626,
+                "value": "M",
+                "raw": "\"M\""
+              },
+              {
+                "type": "Literal",
+                "start": 628,
+                "end": 631,
+                "value": "n",
+                "raw": "\"n\""
+              },
+              {
+                "type": "Literal",
+                "start": 633,
+                "end": 636,
+                "value": "o",
+                "raw": "\"o\""
+              },
+              {
+                "type": "Literal",
+                "start": 638,
+                "end": 641,
+                "value": "p",
+                "raw": "\"p\""
+              },
+              {
+                "type": "Literal",
+                "start": 643,
+                "end": 646,
+                "value": "q",
+                "raw": "\"q\""
+              },
+              {
+                "type": "Literal",
+                "start": 648,
+                "end": 651,
+                "value": "r",
+                "raw": "\"r\""
+              },
+              {
+                "type": "Literal",
+                "start": 653,
+                "end": 656,
+                "value": "s",
+                "raw": "\"s\""
+              },
+              {
+                "type": "Literal",
+                "start": 658,
+                "end": 661,
+                "value": "t",
+                "raw": "\"t\""
+              },
+              {
+                "type": "Literal",
+                "start": 663,
+                "end": 666,
+                "value": "u",
+                "raw": "\"u\""
+              },
+              {
+                "type": "Literal",
+                "start": 668,
+                "end": 671,
+                "value": "v",
+                "raw": "\"v\""
+              },
+              {
+                "type": "Literal",
+                "start": 673,
+                "end": 676,
+                "value": "w",
+                "raw": "\"w\""
+              },
+              {
+                "type": "Literal",
+                "start": 678,
+                "end": 681,
+                "value": "x",
+                "raw": "\"x\""
+              },
+              {
+                "type": "Literal",
+                "start": 683,
+                "end": 686,
+                "value": "y",
+                "raw": "\"y\""
+              },
+              {
+                "type": "Literal",
+                "start": 688,
+                "end": 691,
+                "value": "z",
+                "raw": "\"z\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 695,
+      "end": 712,
+      "expression": {
+        "type": "CallExpression",
+        "start": 695,
+        "end": 711,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 695,
+          "end": 709,
+          "object": {
+            "type": "Identifier",
+            "start": 695,
+            "end": 704,
+            "name": "alphabetR"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 705,
+            "end": 709,
+            "name": "sort"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 713,
+      "end": 731,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 717,
+          "end": 730,
+          "id": {
+            "type": "Identifier",
+            "start": 717,
+            "end": 723,
+            "name": "result"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 726,
+            "end": 730,
+            "value": true,
+            "raw": "true"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 732,
+      "end": 816,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 737,
+        "end": 746,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 741,
+            "end": 746,
+            "id": {
+              "type": "Identifier",
+              "start": 741,
+              "end": 742,
+              "name": "i"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 745,
+              "end": 746,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 748,
+        "end": 754,
+        "left": {
+          "type": "Identifier",
+          "start": 748,
+          "end": 749,
+          "name": "i"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "start": 752,
+          "end": 754,
+          "value": 26,
+          "raw": "26"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 756,
+        "end": 759,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 756,
+          "end": 757,
+          "name": "i"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 761,
+        "end": 816,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 765,
+            "end": 814,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 769,
+              "end": 797,
+              "left": {
+                "type": "MemberExpression",
+                "start": 769,
+                "end": 781,
+                "object": {
+                  "type": "Identifier",
+                  "start": 769,
+                  "end": 778,
+                  "name": "alphabetR"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 779,
+                  "end": 780,
+                  "name": "i"
+                },
+                "computed": true,
+                "optional": false
+              },
+              "operator": "!==",
+              "right": {
+                "type": "MemberExpression",
+                "start": 786,
+                "end": 797,
+                "object": {
+                  "type": "Identifier",
+                  "start": 786,
+                  "end": 794,
+                  "name": "alphabet"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 795,
+                  "end": 796,
+                  "name": "i"
+                },
+                "computed": true,
+                "optional": false
+              }
+            },
+            "consequent": {
+              "type": "ExpressionStatement",
+              "start": 799,
+              "end": 814,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 799,
+                "end": 813,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 799,
+                  "end": 805,
+                  "name": "result"
+                },
+                "right": {
+                  "type": "Literal",
+                  "start": 808,
+                  "end": 813,
+                  "value": false,
+                  "raw": "false"
+                }
+              }
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 818,
+      "end": 898,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 822,
+        "end": 837,
+        "left": {
+          "type": "Identifier",
+          "start": 822,
+          "end": 828,
+          "name": "result"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 833,
+          "end": 837,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 839,
+        "end": 898,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 843,
+            "end": 896,
+            "argument": {
+              "type": "NewExpression",
+              "start": 849,
+              "end": 895,
+              "callee": {
+                "type": "Identifier",
+                "start": 853,
+                "end": 865,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 866,
+                  "end": 894,
+                  "value": "#1: CHECK ENGLISH ALPHABET",
+                  "raw": "'#1: CHECK ENGLISH ALPHABET'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,137 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 751,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 672,
+      "end": 750,
+      "id": {
+        "type": "Identifier",
+        "start": 678,
+        "end": 679,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 680,
+        "end": 750,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 684,
+            "end": 737,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 684,
+              "end": 695,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 695,
+              "end": 737,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 698,
+                "end": 737,
+                "body": [
+                  {
+                    "type": "ClassDeclaration",
+                    "start": 704,
+                    "end": 733,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 710,
+                      "end": 711,
+                      "name": "B"
+                    },
+                    "superClass": null,
+                    "body": {
+                      "type": "ClassBody",
+                      "start": 712,
+                      "end": 733,
+                      "body": [
+                        {
+                          "type": "MethodDefinition",
+                          "start": 720,
+                          "end": 727,
+                          "static": false,
+                          "computed": false,
+                          "key": {
+                            "type": "PrivateIdentifier",
+                            "start": 720,
+                            "end": 722,
+                            "name": "m"
+                          },
+                          "kind": "method",
+                          "value": {
+                            "type": "FunctionExpression",
+                            "start": 722,
+                            "end": 727,
+                            "id": null,
+                            "expression": false,
+                            "generator": false,
+                            "async": false,
+                            "params": [],
+                            "body": {
+                              "type": "BlockStatement",
+                              "start": 725,
+                              "end": 727,
+                              "body": []
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 741,
+            "end": 748,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 741,
+              "end": 743,
+              "name": "m"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 743,
+              "end": 748,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 746,
+                "end": 748,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

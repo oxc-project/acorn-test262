@@ -1,0 +1,219 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 927,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 718,
+      "end": 766,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 722,
+          "end": 765,
+          "id": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 730,
+            "name": "formatFn"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 733,
+            "end": 765,
+            "object": {
+              "type": "NewExpression",
+              "start": 733,
+              "end": 758,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 737,
+                "end": 756,
+                "object": {
+                  "type": "Identifier",
+                  "start": 737,
+                  "end": 741,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 742,
+                  "end": 756,
+                  "name": "DateTimeFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": []
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 759,
+              "end": 765,
+              "name": "format"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 768,
+      "end": 805,
+      "expression": {
+        "type": "CallExpression",
+        "start": 768,
+        "end": 804,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 768,
+          "end": 784,
+          "object": {
+            "type": "Identifier",
+            "start": 768,
+            "end": 774,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 775,
+            "end": 784,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 785,
+            "end": 800,
+            "object": {
+              "type": "Identifier",
+              "start": 785,
+              "end": 793,
+              "name": "formatFn"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 794,
+              "end": 800,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 802,
+            "end": 803,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 807,
+      "end": 847,
+      "expression": {
+        "type": "CallExpression",
+        "start": 807,
+        "end": 846,
+        "callee": {
+          "type": "Identifier",
+          "start": 807,
+          "end": 826,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 827,
+            "end": 835,
+            "name": "formatFn"
+          },
+          {
+            "type": "Literal",
+            "start": 837,
+            "end": 845,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 848,
+      "end": 886,
+      "expression": {
+        "type": "CallExpression",
+        "start": 848,
+        "end": 885,
+        "callee": {
+          "type": "Identifier",
+          "start": 848,
+          "end": 865,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 866,
+            "end": 874,
+            "name": "formatFn"
+          },
+          {
+            "type": "Literal",
+            "start": 876,
+            "end": 884,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 887,
+      "end": 926,
+      "expression": {
+        "type": "CallExpression",
+        "start": 887,
+        "end": 925,
+        "callee": {
+          "type": "Identifier",
+          "start": 887,
+          "end": 905,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 906,
+            "end": 914,
+            "name": "formatFn"
+          },
+          {
+            "type": "Literal",
+            "start": 916,
+            "end": 924,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

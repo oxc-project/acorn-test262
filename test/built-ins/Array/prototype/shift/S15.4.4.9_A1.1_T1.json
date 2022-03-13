@@ -1,0 +1,566 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 993,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 343,
+      "end": 363,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 347,
+          "end": 362,
+          "id": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 348,
+            "name": "x"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 351,
+            "end": 362,
+            "callee": {
+              "type": "Identifier",
+              "start": 355,
+              "end": 360,
+              "name": "Array"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 364,
+      "end": 386,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 368,
+          "end": 385,
+          "id": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 373,
+            "name": "shift"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 376,
+            "end": 385,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 376,
+              "end": 383,
+              "object": {
+                "type": "Identifier",
+                "start": 376,
+                "end": 377,
+                "name": "x"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 383,
+                "name": "shift"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 387,
+      "end": 513,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 391,
+        "end": 410,
+        "left": {
+          "type": "Identifier",
+          "start": 391,
+          "end": 396,
+          "name": "shift"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 401,
+          "end": 410,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 412,
+        "end": 513,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 416,
+            "end": 511,
+            "argument": {
+              "type": "NewExpression",
+              "start": 422,
+              "end": 510,
+              "callee": {
+                "type": "Identifier",
+                "start": 426,
+                "end": 438,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 439,
+                  "end": 509,
+                  "left": {
+                    "type": "Literal",
+                    "start": 439,
+                    "end": 499,
+                    "value": "#1: var x = new Array(); x.shift() === undefined. Actual: ",
+                    "raw": "'#1: var x = new Array(); x.shift() === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 502,
+                    "end": 509,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 503,
+                      "end": 508,
+                      "name": "shift"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 515,
+      "end": 641,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 519,
+        "end": 533,
+        "left": {
+          "type": "MemberExpression",
+          "start": 519,
+          "end": 527,
+          "object": {
+            "type": "Identifier",
+            "start": 519,
+            "end": 520,
+            "name": "x"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 527,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 532,
+          "end": 533,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 535,
+        "end": 641,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 539,
+            "end": 639,
+            "argument": {
+              "type": "NewExpression",
+              "start": 545,
+              "end": 638,
+              "callee": {
+                "type": "Identifier",
+                "start": 549,
+                "end": 561,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 562,
+                  "end": 637,
+                  "left": {
+                    "type": "Literal",
+                    "start": 562,
+                    "end": 624,
+                    "value": "#2: var x = new Array(); x.shift(); x.length === 0. Actual: ",
+                    "raw": "'#2: var x = new Array(); x.shift(); x.length === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 627,
+                    "end": 637,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 628,
+                      "end": 636,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 628,
+                        "end": 629,
+                        "name": "x"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 630,
+                        "end": 636,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 643,
+      "end": 666,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 647,
+          "end": 665,
+          "id": {
+            "type": "Identifier",
+            "start": 647,
+            "end": 648,
+            "name": "x"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 651,
+            "end": 665,
+            "callee": {
+              "type": "Identifier",
+              "start": 651,
+              "end": 656,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 657,
+                "end": 658,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 660,
+                "end": 661,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 663,
+                "end": 664,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 667,
+      "end": 680,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 667,
+        "end": 679,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 667,
+          "end": 675,
+          "object": {
+            "type": "Identifier",
+            "start": 667,
+            "end": 668,
+            "name": "x"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 675,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 678,
+          "end": 679,
+          "value": 0,
+          "raw": "0"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 681,
+      "end": 703,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 685,
+          "end": 702,
+          "id": {
+            "type": "Identifier",
+            "start": 685,
+            "end": 690,
+            "name": "shift"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 693,
+            "end": 702,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 693,
+              "end": 700,
+              "object": {
+                "type": "Identifier",
+                "start": 693,
+                "end": 694,
+                "name": "x"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 695,
+                "end": 700,
+                "name": "shift"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 704,
+      "end": 845,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 708,
+        "end": 727,
+        "left": {
+          "type": "Identifier",
+          "start": 708,
+          "end": 713,
+          "name": "shift"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 718,
+          "end": 727,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 729,
+        "end": 845,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 733,
+            "end": 843,
+            "argument": {
+              "type": "NewExpression",
+              "start": 739,
+              "end": 842,
+              "callee": {
+                "type": "Identifier",
+                "start": 743,
+                "end": 755,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 756,
+                  "end": 841,
+                  "left": {
+                    "type": "Literal",
+                    "start": 756,
+                    "end": 831,
+                    "value": "#2: var x = Array(1,2,3); x.length = 0; x.shift() === undefined. Actual: ",
+                    "raw": "'#2: var x = Array(1,2,3); x.length = 0; x.shift() === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 834,
+                    "end": 841,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 835,
+                      "end": 840,
+                      "name": "shift"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 847,
+      "end": 992,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 851,
+        "end": 865,
+        "left": {
+          "type": "MemberExpression",
+          "start": 851,
+          "end": 859,
+          "object": {
+            "type": "Identifier",
+            "start": 851,
+            "end": 852,
+            "name": "x"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 853,
+            "end": 859,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 864,
+          "end": 865,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 867,
+        "end": 992,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 871,
+            "end": 990,
+            "argument": {
+              "type": "NewExpression",
+              "start": 877,
+              "end": 989,
+              "callee": {
+                "type": "Identifier",
+                "start": 881,
+                "end": 893,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 894,
+                  "end": 988,
+                  "left": {
+                    "type": "Literal",
+                    "start": 894,
+                    "end": 975,
+                    "value": "#4: var x = new Array(1,2,3); x.length = 0; x.shift(); x.length === 0. Actual: ",
+                    "raw": "'#4: var x = new Array(1,2,3); x.length = 0; x.shift(); x.length === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 978,
+                    "end": 988,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 979,
+                      "end": 987,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 979,
+                        "end": 980,
+                        "name": "x"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 981,
+                        "end": 987,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

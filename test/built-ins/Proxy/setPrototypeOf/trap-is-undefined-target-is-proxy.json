@@ -1,0 +1,422 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1116,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 746,
+      "end": 761,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 750,
+          "end": 760,
+          "id": {
+            "type": "Identifier",
+            "start": 750,
+            "end": 755,
+            "name": "array"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 758,
+            "end": 760,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 762,
+      "end": 801,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 766,
+          "end": 800,
+          "id": {
+            "type": "Identifier",
+            "start": 766,
+            "end": 777,
+            "name": "arrayTarget"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 780,
+            "end": 800,
+            "callee": {
+              "type": "Identifier",
+              "start": 784,
+              "end": 789,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 790,
+                "end": 795,
+                "name": "array"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 797,
+                "end": 799,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 802,
+      "end": 876,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 806,
+          "end": 875,
+          "id": {
+            "type": "Identifier",
+            "start": 806,
+            "end": 816,
+            "name": "arrayProxy"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 819,
+            "end": 875,
+            "callee": {
+              "type": "Identifier",
+              "start": 823,
+              "end": 828,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 829,
+                "end": 840,
+                "name": "arrayTarget"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 842,
+                "end": 874,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 846,
+                    "end": 871,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 846,
+                      "end": 860,
+                      "name": "setPrototypeOf"
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 862,
+                      "end": 871,
+                      "name": "undefined"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 878,
+      "end": 930,
+      "expression": {
+        "type": "CallExpression",
+        "start": 878,
+        "end": 929,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 878,
+          "end": 899,
+          "object": {
+            "type": "Identifier",
+            "start": 878,
+            "end": 884,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 885,
+            "end": 899,
+            "name": "setPrototypeOf"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 900,
+            "end": 910,
+            "name": "arrayProxy"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 912,
+            "end": 928,
+            "object": {
+              "type": "Identifier",
+              "start": 912,
+              "end": 918,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 919,
+              "end": 928,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 931,
+      "end": 996,
+      "expression": {
+        "type": "CallExpression",
+        "start": 931,
+        "end": 995,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 931,
+          "end": 947,
+          "object": {
+            "type": "Identifier",
+            "start": 931,
+            "end": 937,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 938,
+            "end": 947,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 948,
+            "end": 976,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 948,
+              "end": 969,
+              "object": {
+                "type": "Identifier",
+                "start": 948,
+                "end": 954,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 955,
+                "end": 969,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 970,
+                "end": 975,
+                "name": "array"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 978,
+            "end": 994,
+            "object": {
+              "type": "Identifier",
+              "start": 978,
+              "end": 984,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 985,
+              "end": 994,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 998,
+      "end": 1030,
+      "expression": {
+        "type": "CallExpression",
+        "start": 998,
+        "end": 1029,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 998,
+          "end": 1022,
+          "object": {
+            "type": "Identifier",
+            "start": 998,
+            "end": 1004,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1005,
+            "end": 1022,
+            "name": "preventExtensions"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1023,
+            "end": 1028,
+            "name": "array"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1031,
+      "end": 1115,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1031,
+        "end": 1114,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1031,
+          "end": 1044,
+          "object": {
+            "type": "Identifier",
+            "start": 1031,
+            "end": 1037,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1038,
+            "end": 1044,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1045,
+            "end": 1054,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1056,
+            "end": 1113,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1067,
+              "end": 1113,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1071,
+                  "end": 1111,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1071,
+                    "end": 1110,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1071,
+                      "end": 1092,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1071,
+                        "end": 1077,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1078,
+                        "end": 1092,
+                        "name": "setPrototypeOf"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1093,
+                        "end": 1103,
+                        "name": "arrayProxy"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 1105,
+                        "end": 1109,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

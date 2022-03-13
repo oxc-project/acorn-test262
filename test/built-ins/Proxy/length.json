@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 506,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 321,
+      "end": 393,
+      "expression": {
+        "type": "CallExpression",
+        "start": 321,
+        "end": 392,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 321,
+          "end": 337,
+          "object": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 327,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 337,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 338,
+            "end": 350,
+            "object": {
+              "type": "Identifier",
+              "start": 338,
+              "end": 343,
+              "name": "Proxy"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 344,
+              "end": 350,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 352,
+            "end": 353,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 355,
+            "end": 391,
+            "value": "The value of `Proxy.length` is `2`",
+            "raw": "\"The value of `Proxy.length` is `2`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 395,
+      "end": 432,
+      "expression": {
+        "type": "CallExpression",
+        "start": 395,
+        "end": 431,
+        "callee": {
+          "type": "Identifier",
+          "start": 395,
+          "end": 414,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 415,
+            "end": 420,
+            "name": "Proxy"
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 430,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 433,
+      "end": 468,
+      "expression": {
+        "type": "CallExpression",
+        "start": 433,
+        "end": 467,
+        "callee": {
+          "type": "Identifier",
+          "start": 433,
+          "end": 450,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 451,
+            "end": 456,
+            "name": "Proxy"
+          },
+          {
+            "type": "Literal",
+            "start": 458,
+            "end": 466,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 469,
+      "end": 505,
+      "expression": {
+        "type": "CallExpression",
+        "start": 469,
+        "end": 504,
+        "callee": {
+          "type": "Identifier",
+          "start": 469,
+          "end": 487,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 488,
+            "end": 493,
+            "name": "Proxy"
+          },
+          {
+            "type": "Literal",
+            "start": 495,
+            "end": 503,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,248 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 948,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 685,
+      "end": 691,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 689,
+          "end": 690,
+          "id": {
+            "type": "Identifier",
+            "start": 689,
+            "end": 690,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 692,
+      "end": 703,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 696,
+          "end": 702,
+          "id": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 702,
+            "name": "caught"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 794,
+      "end": 855,
+      "block": {
+        "type": "BlockStatement",
+        "start": 798,
+        "end": 823,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 802,
+            "end": 821,
+            "expression": {
+              "type": "CallExpression",
+              "start": 802,
+              "end": 820,
+              "callee": {
+                "type": "ParenthesizedExpression",
+                "start": 802,
+                "end": 810,
+                "expression": {
+                  "type": "SequenceExpression",
+                  "start": 803,
+                  "end": 809,
+                  "expressions": [
+                    {
+                      "type": "Literal",
+                      "start": 803,
+                      "end": 804,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 805,
+                      "end": 809,
+                      "name": "eval"
+                    }
+                  ]
+                }
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 811,
+                  "end": 819,
+                  "value": "var x;",
+                  "raw": "'var x;'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 824,
+        "end": 855,
+        "param": {
+          "type": "Identifier",
+          "start": 831,
+          "end": 834,
+          "name": "err"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 836,
+          "end": 855,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 840,
+              "end": 853,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 840,
+                "end": 852,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 840,
+                  "end": 846,
+                  "name": "caught"
+                },
+                "right": {
+                  "type": "Identifier",
+                  "start": 849,
+                  "end": 852,
+                  "name": "err"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 857,
+      "end": 896,
+      "expression": {
+        "type": "CallExpression",
+        "start": 857,
+        "end": 895,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 857,
+          "end": 876,
+          "object": {
+            "type": "Identifier",
+            "start": 857,
+            "end": 863,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 864,
+            "end": 876,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 877,
+            "end": 883,
+            "name": "caught"
+          },
+          {
+            "type": "Identifier",
+            "start": 885,
+            "end": 894,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 897,
+      "end": 947,
+      "expression": {
+        "type": "CallExpression",
+        "start": 897,
+        "end": 946,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 897,
+          "end": 913,
+          "object": {
+            "type": "Identifier",
+            "start": 897,
+            "end": 903,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 904,
+            "end": 913,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 914,
+            "end": 932,
+            "object": {
+              "type": "Identifier",
+              "start": 914,
+              "end": 920,
+              "name": "caught"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 921,
+              "end": 932,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 934,
+            "end": 945,
+            "name": "SyntaxError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

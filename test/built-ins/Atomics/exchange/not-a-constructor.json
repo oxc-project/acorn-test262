@@ -1,0 +1,225 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1083,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 728,
+      "end": 838,
+      "expression": {
+        "type": "CallExpression",
+        "start": 728,
+        "end": 837,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 728,
+          "end": 744,
+          "object": {
+            "type": "Identifier",
+            "start": 728,
+            "end": 734,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 735,
+            "end": 744,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 745,
+            "end": 776,
+            "callee": {
+              "type": "Identifier",
+              "start": 745,
+              "end": 758,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 759,
+                "end": 775,
+                "object": {
+                  "type": "Identifier",
+                  "start": 759,
+                  "end": 766,
+                  "name": "Atomics"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 767,
+                  "end": 775,
+                  "name": "exchange"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 778,
+            "end": 783,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 785,
+            "end": 836,
+            "value": "isConstructor(Atomics.exchange) must return false",
+            "raw": "'isConstructor(Atomics.exchange) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 840,
+      "end": 1081,
+      "expression": {
+        "type": "CallExpression",
+        "start": 840,
+        "end": 1080,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 840,
+          "end": 853,
+          "object": {
+            "type": "Identifier",
+            "start": 840,
+            "end": 846,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 847,
+            "end": 853,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 854,
+            "end": 863,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 865,
+            "end": 967,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 871,
+              "end": 967,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 875,
+                  "end": 965,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 875,
+                    "end": 964,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 879,
+                      "end": 895,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 879,
+                        "end": 886,
+                        "name": "Atomics"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 887,
+                        "end": 895,
+                        "name": "exchange"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "NewExpression",
+                        "start": 896,
+                        "end": 963,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 900,
+                          "end": 910,
+                          "name": "Int32Array"
+                        },
+                        "arguments": [
+                          {
+                            "type": "NewExpression",
+                            "start": 911,
+                            "end": 962,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 915,
+                              "end": 932,
+                              "name": "SharedArrayBuffer"
+                            },
+                            "arguments": [
+                              {
+                                "type": "MemberExpression",
+                                "start": 933,
+                                "end": 961,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 933,
+                                  "end": 943,
+                                  "name": "Int32Array"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 944,
+                                  "end": 961,
+                                  "name": "BYTES_PER_ELEMENT"
+                                },
+                                "computed": false,
+                                "optional": false
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 969,
+            "end": 1079,
+            "value": "`new Atomics.exchange(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT)))` throws TypeError",
+            "raw": "'`new Atomics.exchange(new Int32Array(new SharedArrayBuffer(Int32Array.BYTES_PER_ELEMENT)))` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

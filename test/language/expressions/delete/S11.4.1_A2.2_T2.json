@@ -1,0 +1,245 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 746,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 349,
+      "end": 373,
+      "id": {
+        "type": "Identifier",
+        "start": 358,
+        "end": 368,
+        "name": "MyFunction"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 371,
+        "end": 373,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 374,
+      "end": 406,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 378,
+          "end": 405,
+          "id": {
+            "type": "Identifier",
+            "start": 378,
+            "end": 386,
+            "name": "MyObject"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 389,
+            "end": 405,
+            "callee": {
+              "type": "Identifier",
+              "start": 393,
+              "end": 403,
+              "name": "MyFunction"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 407,
+      "end": 574,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 411,
+        "end": 440,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 411,
+          "end": 431,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 418,
+            "end": 431,
+            "object": {
+              "type": "Identifier",
+              "start": 418,
+              "end": 426,
+              "name": "MyObject"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 427,
+              "end": 431,
+              "name": "prop"
+            },
+            "computed": false,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 436,
+          "end": 440,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 442,
+        "end": 574,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 446,
+            "end": 572,
+            "argument": {
+              "type": "NewExpression",
+              "start": 452,
+              "end": 571,
+              "callee": {
+                "type": "Identifier",
+                "start": 456,
+                "end": 468,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 474,
+                  "end": 567,
+                  "value": "#1: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject.prop === true",
+                  "raw": "'#1: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject.prop === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 586,
+      "end": 614,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 590,
+          "end": 613,
+          "id": {
+            "type": "Identifier",
+            "start": 590,
+            "end": 598,
+            "name": "MyObject"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 601,
+            "end": 613,
+            "callee": {
+              "type": "Identifier",
+              "start": 605,
+              "end": 611,
+              "name": "Object"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 615,
+      "end": 745,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 619,
+        "end": 648,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 619,
+          "end": 639,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 626,
+            "end": 639,
+            "object": {
+              "type": "Identifier",
+              "start": 626,
+              "end": 634,
+              "name": "MyObject"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 635,
+              "end": 639,
+              "name": "prop"
+            },
+            "computed": false,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 644,
+          "end": 648,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 650,
+        "end": 745,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 654,
+            "end": 743,
+            "argument": {
+              "type": "NewExpression",
+              "start": 660,
+              "end": 742,
+              "callee": {
+                "type": "Identifier",
+                "start": 664,
+                "end": 676,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 677,
+                  "end": 741,
+                  "value": "#2: var MyObject = new Object(); delete MyObject.prop === true",
+                  "raw": "'#2: var MyObject = new Object(); delete MyObject.prop === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

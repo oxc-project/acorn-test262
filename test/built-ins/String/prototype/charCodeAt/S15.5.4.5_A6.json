@@ -1,0 +1,154 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 653,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 375,
+      "end": 570,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 379,
+        "end": 430,
+        "left": {
+          "type": "MemberExpression",
+          "start": 379,
+          "end": 416,
+          "object": {
+            "type": "MemberExpression",
+            "start": 379,
+            "end": 406,
+            "object": {
+              "type": "MemberExpression",
+              "start": 379,
+              "end": 395,
+              "object": {
+                "type": "Identifier",
+                "start": 379,
+                "end": 385,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 386,
+                "end": 395,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 396,
+              "end": 406,
+              "name": "charCodeAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 407,
+            "end": 416,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 421,
+          "end": 430,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 432,
+        "end": 570,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 436,
+            "end": 568,
+            "argument": {
+              "type": "NewExpression",
+              "start": 442,
+              "end": 567,
+              "callee": {
+                "type": "Identifier",
+                "start": 446,
+                "end": 458,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 459,
+                  "end": 566,
+                  "left": {
+                    "type": "Literal",
+                    "start": 459,
+                    "end": 526,
+                    "value": "#1: String.prototype.charCodeAt.prototype === undefined. Actual: ",
+                    "raw": "'#1: String.prototype.charCodeAt.prototype === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 529,
+                    "end": 566,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 529,
+                      "end": 556,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 529,
+                        "end": 545,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 529,
+                          "end": 535,
+                          "name": "String"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 536,
+                          "end": 545,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 546,
+                        "end": 556,
+                        "name": "charCodeAt"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 557,
+                      "end": 566,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,149 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 459,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 336,
+      "end": 458,
+      "expression": {
+        "type": "CallExpression",
+        "start": 336,
+        "end": 457,
+        "callee": {
+          "type": "Identifier",
+          "start": 336,
+          "end": 366,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 367,
+            "end": 456,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 376,
+                "end": 378,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 380,
+              "end": 456,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 384,
+                  "end": 454,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 384,
+                    "end": 453,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 384,
+                      "end": 400,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 384,
+                        "end": 390,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 391,
+                        "end": 400,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 401,
+                        "end": 445,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 401,
+                          "end": 428,
+                          "object": {
+                            "type": "MemberExpression",
+                            "start": 401,
+                            "end": 413,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 401,
+                              "end": 403,
+                              "name": "TA"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 404,
+                              "end": 413,
+                              "name": "prototype"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 414,
+                            "end": 428,
+                            "name": "hasOwnProperty"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "start": 429,
+                            "end": 444,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 429,
+                              "end": 435,
+                              "name": "Symbol"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 436,
+                              "end": 444,
+                              "name": "iterator"
+                            },
+                            "computed": false,
+                            "optional": false
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 447,
+                        "end": 452,
+                        "value": false,
+                        "raw": "false"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

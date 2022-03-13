@@ -1,0 +1,285 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 646,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 347,
+      "end": 362,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 351,
+          "end": 361,
+          "id": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 353,
+            "name": "x1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 356,
+            "end": 361,
+            "value": "abc",
+            "raw": "\"abc\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 363,
+      "end": 474,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 367,
+        "end": 384,
+        "left": {
+          "type": "CallExpression",
+          "start": 367,
+          "end": 377,
+          "callee": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 373,
+            "name": "String"
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 374,
+              "end": 376,
+              "name": "x1"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 382,
+          "end": 384,
+          "name": "x1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 386,
+        "end": 474,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 390,
+            "end": 472,
+            "argument": {
+              "type": "NewExpression",
+              "start": 396,
+              "end": 471,
+              "callee": {
+                "type": "Identifier",
+                "start": 400,
+                "end": 412,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 413,
+                  "end": 470,
+                  "left": {
+                    "type": "Literal",
+                    "start": 413,
+                    "end": 452,
+                    "value": "#1: String(\"abc\") === \"abc\". Actual: ",
+                    "raw": "'#1: String(\"abc\") === \"abc\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 455,
+                    "end": 470,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 456,
+                      "end": 469,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 456,
+                        "end": 462,
+                        "name": "String"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 463,
+                          "end": 468,
+                          "value": "abc",
+                          "raw": "\"abc\""
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 487,
+      "end": 502,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 491,
+          "end": 501,
+          "id": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 493,
+            "name": "x2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 496,
+            "end": 501,
+            "value": "abc",
+            "raw": "\"abc\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 503,
+      "end": 645,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 507,
+        "end": 538,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 507,
+          "end": 524,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "CallExpression",
+            "start": 514,
+            "end": 524,
+            "callee": {
+              "type": "Identifier",
+              "start": 514,
+              "end": 520,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 521,
+                "end": 523,
+                "name": "x2"
+              }
+            ],
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "UnaryExpression",
+          "start": 529,
+          "end": 538,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 538,
+            "name": "x2"
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 540,
+        "end": 645,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 544,
+            "end": 643,
+            "argument": {
+              "type": "NewExpression",
+              "start": 550,
+              "end": 642,
+              "callee": {
+                "type": "Identifier",
+                "start": 554,
+                "end": 566,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 567,
+                  "end": 641,
+                  "left": {
+                    "type": "Literal",
+                    "start": 567,
+                    "end": 616,
+                    "value": "#2: typeof String(\"abc\") === \"string\". Actual: ",
+                    "raw": "'#2: typeof String(\"abc\") === \"string\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 619,
+                    "end": 641,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 620,
+                      "end": 640,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "CallExpression",
+                        "start": 627,
+                        "end": 640,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 627,
+                          "end": 633,
+                          "name": "String"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 634,
+                            "end": 639,
+                            "value": "abc",
+                            "raw": "\"abc\""
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

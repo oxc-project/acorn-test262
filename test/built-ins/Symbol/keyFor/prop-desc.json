@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 636,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 472,
+      "end": 523,
+      "expression": {
+        "type": "CallExpression",
+        "start": 472,
+        "end": 522,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 472,
+          "end": 488,
+          "object": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 478,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 488,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 489,
+            "end": 509,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 496,
+              "end": 509,
+              "object": {
+                "type": "Identifier",
+                "start": 496,
+                "end": 502,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 509,
+                "name": "keyFor"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 511,
+            "end": 521,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 525,
+      "end": 563,
+      "expression": {
+        "type": "CallExpression",
+        "start": 525,
+        "end": 562,
+        "callee": {
+          "type": "Identifier",
+          "start": 525,
+          "end": 544,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 545,
+            "end": 551,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 561,
+            "value": "keyFor",
+            "raw": "'keyFor'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 564,
+      "end": 597,
+      "expression": {
+        "type": "CallExpression",
+        "start": 564,
+        "end": 596,
+        "callee": {
+          "type": "Identifier",
+          "start": 564,
+          "end": 578,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 579,
+            "end": 585,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 587,
+            "end": 595,
+            "value": "keyFor",
+            "raw": "'keyFor'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 598,
+      "end": 635,
+      "expression": {
+        "type": "CallExpression",
+        "start": 598,
+        "end": 634,
+        "callee": {
+          "type": "Identifier",
+          "start": 598,
+          "end": 616,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 617,
+            "end": 623,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 625,
+            "end": 633,
+            "value": "keyFor",
+            "raw": "'keyFor'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

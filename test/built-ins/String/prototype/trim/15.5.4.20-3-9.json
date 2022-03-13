@@ -1,0 +1,81 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 302,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 250,
+      "end": 301,
+      "expression": {
+        "type": "CallExpression",
+        "start": 250,
+        "end": 300,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 250,
+          "end": 266,
+          "object": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 256,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 257,
+            "end": 266,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 267,
+            "end": 278,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 267,
+              "end": 276,
+              "object": {
+                "type": "Literal",
+                "start": 267,
+                "end": 271,
+                "value": "\u0000",
+                "raw": "\"\\0\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 272,
+                "end": 276,
+                "name": "trim"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 280,
+            "end": 284,
+            "value": "\u0000",
+            "raw": "\"\\0\""
+          },
+          {
+            "type": "Literal",
+            "start": 286,
+            "end": 299,
+            "value": "\"\u0000\".trim()",
+            "raw": "'\"\\0\".trim()'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

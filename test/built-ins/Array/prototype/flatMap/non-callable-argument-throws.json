@@ -1,0 +1,915 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1403,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 550,
+      "end": 611,
+      "expression": {
+        "type": "CallExpression",
+        "start": 550,
+        "end": 610,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 550,
+          "end": 566,
+          "object": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 556,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 557,
+            "end": 566,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 567,
+            "end": 597,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 574,
+              "end": 597,
+              "object": {
+                "type": "MemberExpression",
+                "start": 574,
+                "end": 589,
+                "object": {
+                  "type": "Identifier",
+                  "start": 574,
+                  "end": 579,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 580,
+                  "end": 589,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 590,
+                "end": 597,
+                "name": "flatMap"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 599,
+            "end": 609,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 613,
+      "end": 705,
+      "expression": {
+        "type": "CallExpression",
+        "start": 613,
+        "end": 704,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 613,
+          "end": 626,
+          "object": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 619,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 620,
+            "end": 626,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 627,
+            "end": 636,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 638,
+            "end": 670,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 649,
+              "end": 670,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 653,
+                  "end": 668,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 653,
+                    "end": 667,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 653,
+                      "end": 663,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 653,
+                        "end": 655,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 656,
+                        "end": 663,
+                        "name": "flatMap"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 664,
+                        "end": 666,
+                        "properties": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 672,
+            "end": 703,
+            "value": "non callable argument, object",
+            "raw": "'non callable argument, object'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 707,
+      "end": 798,
+      "expression": {
+        "type": "CallExpression",
+        "start": 707,
+        "end": 797,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 707,
+          "end": 720,
+          "object": {
+            "type": "Identifier",
+            "start": 707,
+            "end": 713,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 714,
+            "end": 720,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 721,
+            "end": 730,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 732,
+            "end": 763,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 743,
+              "end": 763,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 747,
+                  "end": 761,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 747,
+                    "end": 760,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 747,
+                      "end": 757,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 747,
+                        "end": 749,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 750,
+                        "end": 757,
+                        "name": "flatMap"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 758,
+                        "end": 759,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 765,
+            "end": 796,
+            "value": "non callable argument, number",
+            "raw": "'non callable argument, number'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 800,
+      "end": 901,
+      "expression": {
+        "type": "CallExpression",
+        "start": 800,
+        "end": 900,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 800,
+          "end": 813,
+          "object": {
+            "type": "Identifier",
+            "start": 800,
+            "end": 806,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 807,
+            "end": 813,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 814,
+            "end": 823,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 825,
+            "end": 855,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 836,
+              "end": 855,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 840,
+                  "end": 853,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 840,
+                    "end": 852,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 840,
+                      "end": 850,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 840,
+                        "end": 842,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 843,
+                        "end": 850,
+                        "name": "flatMap"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 857,
+            "end": 899,
+            "value": "non callable argument, implict undefined",
+            "raw": "'non callable argument, implict undefined'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 903,
+      "end": 1005,
+      "expression": {
+        "type": "CallExpression",
+        "start": 903,
+        "end": 1004,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 903,
+          "end": 916,
+          "object": {
+            "type": "Identifier",
+            "start": 903,
+            "end": 909,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 910,
+            "end": 916,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 917,
+            "end": 926,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 928,
+            "end": 967,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 939,
+              "end": 967,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 943,
+                  "end": 965,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 943,
+                    "end": 964,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 943,
+                      "end": 953,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 943,
+                        "end": 945,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 946,
+                        "end": 953,
+                        "name": "flatMap"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 954,
+                        "end": 963,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 969,
+            "end": 1003,
+            "value": "non callable argument, undefined",
+            "raw": "'non callable argument, undefined'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1007,
+      "end": 1099,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1007,
+        "end": 1098,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1007,
+          "end": 1020,
+          "object": {
+            "type": "Identifier",
+            "start": 1007,
+            "end": 1013,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1014,
+            "end": 1020,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1021,
+            "end": 1030,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1032,
+            "end": 1066,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1043,
+              "end": 1066,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1047,
+                  "end": 1064,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1047,
+                    "end": 1063,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1047,
+                      "end": 1057,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 1047,
+                        "end": 1049,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1050,
+                        "end": 1057,
+                        "name": "flatMap"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1058,
+                        "end": 1062,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1068,
+            "end": 1097,
+            "value": "non callable argument, null",
+            "raw": "'non callable argument, null'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1101,
+      "end": 1197,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1101,
+        "end": 1196,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1101,
+          "end": 1114,
+          "object": {
+            "type": "Identifier",
+            "start": 1101,
+            "end": 1107,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1108,
+            "end": 1114,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1115,
+            "end": 1124,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1126,
+            "end": 1161,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1137,
+              "end": 1161,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1141,
+                  "end": 1159,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1141,
+                    "end": 1158,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1141,
+                      "end": 1151,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 1141,
+                        "end": 1143,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1144,
+                        "end": 1151,
+                        "name": "flatMap"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1152,
+                        "end": 1157,
+                        "value": false,
+                        "raw": "false"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1163,
+            "end": 1195,
+            "value": "non callable argument, boolean",
+            "raw": "'non callable argument, boolean'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1199,
+      "end": 1291,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1199,
+        "end": 1290,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1199,
+          "end": 1212,
+          "object": {
+            "type": "Identifier",
+            "start": 1199,
+            "end": 1205,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1206,
+            "end": 1212,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1213,
+            "end": 1222,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1224,
+            "end": 1256,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1235,
+              "end": 1256,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1239,
+                  "end": 1254,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1239,
+                    "end": 1253,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1239,
+                      "end": 1249,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 1239,
+                        "end": 1241,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1242,
+                        "end": 1249,
+                        "name": "flatMap"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1250,
+                        "end": 1252,
+                        "value": "",
+                        "raw": "''"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1258,
+            "end": 1289,
+            "value": "non callable argument, string",
+            "raw": "'non callable argument, string'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1293,
+      "end": 1310,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1297,
+          "end": 1309,
+          "id": {
+            "type": "Identifier",
+            "start": 1297,
+            "end": 1298,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1301,
+            "end": 1309,
+            "callee": {
+              "type": "Identifier",
+              "start": 1301,
+              "end": 1307,
+              "name": "Symbol"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1311,
+      "end": 1402,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1311,
+        "end": 1401,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1311,
+          "end": 1324,
+          "object": {
+            "type": "Identifier",
+            "start": 1311,
+            "end": 1317,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1318,
+            "end": 1324,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1325,
+            "end": 1334,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1336,
+            "end": 1367,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1347,
+              "end": 1367,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1351,
+                  "end": 1365,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1351,
+                    "end": 1364,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1351,
+                      "end": 1361,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 1351,
+                        "end": 1353,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1354,
+                        "end": 1361,
+                        "name": "flatMap"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1362,
+                        "end": 1363,
+                        "name": "s"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1369,
+            "end": 1400,
+            "value": "non callable argument, symbol",
+            "raw": "'non callable argument, symbol'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

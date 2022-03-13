@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 893,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 784,
+      "end": 832,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 788,
+          "end": 831,
+          "id": {
+            "type": "Identifier",
+            "start": 788,
+            "end": 790,
+            "name": "ab"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 793,
+            "end": 831,
+            "callee": {
+              "type": "Identifier",
+              "start": 797,
+              "end": 808,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 809,
+                "end": 810,
+                "value": 4,
+                "raw": "4"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 812,
+                "end": 830,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 813,
+                    "end": 829,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 813,
+                      "end": 826,
+                      "name": "maxByteLength"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 828,
+                      "end": 829,
+                      "value": 4,
+                      "raw": "4"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 834,
+      "end": 892,
+      "expression": {
+        "type": "CallExpression",
+        "start": 834,
+        "end": 891,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 834,
+          "end": 847,
+          "object": {
+            "type": "Identifier",
+            "start": 834,
+            "end": 840,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 841,
+            "end": 847,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 848,
+            "end": 858,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 860,
+            "end": 890,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 871,
+              "end": 890,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 875,
+                  "end": 888,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 875,
+                    "end": 887,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 875,
+                      "end": 884,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 875,
+                        "end": 877,
+                        "name": "ab"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 878,
+                        "end": 884,
+                        "name": "resize"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 885,
+                        "end": 886,
+                        "value": 5,
+                        "raw": "5"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

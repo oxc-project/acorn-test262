@@ -1,0 +1,199 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 993,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 316,
+      "end": 346,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 320,
+          "end": 345,
+          "id": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 325,
+            "name": "__str"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 328,
+            "end": 345,
+            "callee": {
+              "type": "Identifier",
+              "start": 328,
+              "end": 334,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 335,
+                "end": 344,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 437,
+      "end": 598,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 441,
+        "end": 466,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 441,
+          "end": 453,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 448,
+            "end": 453,
+            "name": "__str"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 458,
+          "end": 466,
+          "value": "string",
+          "raw": "\"string\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 468,
+        "end": 598,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 472,
+            "end": 596,
+            "argument": {
+              "type": "NewExpression",
+              "start": 478,
+              "end": 595,
+              "callee": {
+                "type": "Identifier",
+                "start": 482,
+                "end": 494,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 495,
+                  "end": 594,
+                  "left": {
+                    "type": "Literal",
+                    "start": 495,
+                    "end": 579,
+                    "value": "#1: __str = String(undefined); typeof __str === \"string\". Actual: typeof __str ===",
+                    "raw": "'#1: __str = String(undefined); typeof __str === \"string\". Actual: typeof __str ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "UnaryExpression",
+                    "start": 582,
+                    "end": 594,
+                    "operator": "typeof",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 589,
+                      "end": 594,
+                      "name": "__str"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 771,
+      "end": 910,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 775,
+        "end": 796,
+        "left": {
+          "type": "Identifier",
+          "start": 775,
+          "end": 780,
+          "name": "__str"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 785,
+          "end": 796,
+          "value": "undefined",
+          "raw": "\"undefined\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 798,
+        "end": 910,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 802,
+            "end": 908,
+            "argument": {
+              "type": "NewExpression",
+              "start": 808,
+              "end": 907,
+              "callee": {
+                "type": "Identifier",
+                "start": 812,
+                "end": 824,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 825,
+                  "end": 906,
+                  "left": {
+                    "type": "Literal",
+                    "start": 825,
+                    "end": 898,
+                    "value": "#2: __str = String(undefined); __str === \"undefined\". Actual: __str ===",
+                    "raw": "'#2: __str = String(undefined); __str === \"undefined\". Actual: __str ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 901,
+                    "end": 906,
+                    "name": "__str"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

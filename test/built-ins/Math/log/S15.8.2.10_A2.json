@@ -1,0 +1,265 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 455,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 280,
+      "end": 354,
+      "expression": {
+        "type": "CallExpression",
+        "start": 280,
+        "end": 353,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 280,
+          "end": 296,
+          "object": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 286,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 296,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 297,
+            "end": 325,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 297,
+              "end": 305,
+              "object": {
+                "type": "Identifier",
+                "start": 297,
+                "end": 301,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 302,
+                "end": 305,
+                "name": "log"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 306,
+                "end": 324,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 307,
+                  "end": 324,
+                  "value": 1e-15,
+                  "raw": "0.000000000000001"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 327,
+            "end": 330,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 332,
+            "end": 352,
+            "value": "-0.000000000000001",
+            "raw": "\"-0.000000000000001\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 355,
+      "end": 397,
+      "expression": {
+        "type": "CallExpression",
+        "start": 355,
+        "end": 396,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 355,
+          "end": 371,
+          "object": {
+            "type": "Identifier",
+            "start": 355,
+            "end": 361,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 371,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 372,
+            "end": 384,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 372,
+              "end": 380,
+              "object": {
+                "type": "Identifier",
+                "start": 372,
+                "end": 376,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 377,
+                "end": 380,
+                "name": "log"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 381,
+                "end": 383,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 382,
+                  "end": 383,
+                  "value": 1,
+                  "raw": "1"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 386,
+            "end": 389,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 391,
+            "end": 395,
+            "value": "-1",
+            "raw": "\"-1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 398,
+      "end": 454,
+      "expression": {
+        "type": "CallExpression",
+        "start": 398,
+        "end": 453,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 398,
+          "end": 414,
+          "object": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 404,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 414,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 415,
+            "end": 434,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 415,
+              "end": 423,
+              "object": {
+                "type": "Identifier",
+                "start": 415,
+                "end": 419,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 423,
+                "name": "log"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 424,
+                "end": 433,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 425,
+                  "end": 433,
+                  "name": "Infinity"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 436,
+            "end": 439,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 441,
+            "end": 452,
+            "value": "-Infinity",
+            "raw": "\"-Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

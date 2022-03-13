@@ -1,0 +1,175 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 477,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 344,
+      "end": 359,
+      "id": {
+        "type": "Identifier",
+        "start": 353,
+        "end": 354,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 357,
+        "end": 359,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 360,
+      "end": 376,
+      "id": {
+        "type": "Identifier",
+        "start": 370,
+        "end": 371,
+        "name": "g"
+      },
+      "expression": false,
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 374,
+        "end": 376,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 378,
+      "end": 476,
+      "expression": {
+        "type": "CallExpression",
+        "start": 378,
+        "end": 475,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 378,
+          "end": 394,
+          "object": {
+            "type": "Identifier",
+            "start": 378,
+            "end": 384,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 385,
+            "end": 394,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 398,
+            "end": 445,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 398,
+              "end": 419,
+              "object": {
+                "type": "Identifier",
+                "start": 398,
+                "end": 404,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 405,
+                "end": 419,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 420,
+                "end": 444,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 420,
+                  "end": 441,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 420,
+                    "end": 426,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 427,
+                    "end": 441,
+                    "name": "getPrototypeOf"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 442,
+                    "end": 443,
+                    "name": "g"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 449,
+            "end": 473,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 449,
+              "end": 470,
+              "object": {
+                "type": "Identifier",
+                "start": 449,
+                "end": 455,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 456,
+                "end": 470,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 471,
+                "end": 472,
+                "name": "f"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

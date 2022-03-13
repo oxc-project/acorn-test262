@@ -1,0 +1,273 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 475,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 261,
+      "end": 276,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 265,
+          "end": 275,
+          "id": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 270,
+            "name": "error"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 273,
+            "end": 275,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 277,
+      "end": 353,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 281,
+          "end": 353,
+          "id": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 289,
+            "name": "thenable"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 292,
+            "end": 353,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 296,
+                "end": 351,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 296,
+                  "end": 300,
+                  "name": "then"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 302,
+                  "end": 351,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 312,
+                      "end": 319,
+                      "name": "resolve"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 321,
+                      "end": 327,
+                      "name": "reject"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 329,
+                    "end": 351,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 335,
+                        "end": 347,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 341,
+                          "end": 346,
+                          "name": "error"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 355,
+      "end": 374,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 359,
+          "end": 373,
+          "id": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 365,
+            "name": "caught"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 368,
+            "end": 373,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 375,
+      "end": 430,
+      "block": {
+        "type": "BlockStatement",
+        "start": 379,
+        "end": 400,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 383,
+            "end": 398,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 383,
+              "end": 397,
+              "argument": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 397,
+                "name": "thenable"
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 401,
+        "end": 430,
+        "param": {
+          "type": "Identifier",
+          "start": 407,
+          "end": 408,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 410,
+          "end": 430,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 414,
+              "end": 425,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 414,
+                "end": 424,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 414,
+                  "end": 420,
+                  "name": "caught"
+                },
+                "right": {
+                  "type": "Identifier",
+                  "start": 423,
+                  "end": 424,
+                  "name": "e"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 432,
+      "end": 464,
+      "expression": {
+        "type": "CallExpression",
+        "start": 432,
+        "end": 463,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 432,
+          "end": 448,
+          "object": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 438,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 448,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 449,
+            "end": 455,
+            "name": "caught"
+          },
+          {
+            "type": "Identifier",
+            "start": 457,
+            "end": 462,
+            "name": "error"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 466,
+      "end": 474,
+      "expression": {
+        "type": "CallExpression",
+        "start": 466,
+        "end": 473,
+        "callee": {
+          "type": "Identifier",
+          "start": 466,
+          "end": 471,
+          "name": "$DONE"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

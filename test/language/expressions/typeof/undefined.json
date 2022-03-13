@@ -1,0 +1,134 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 576,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 395,
+      "end": 487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 395,
+        "end": 486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 395,
+          "end": 411,
+          "object": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 401,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 411,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 415,
+            "end": 431,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 422,
+              "end": 431,
+              "name": "undefined"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 435,
+            "end": 446,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          },
+          {
+            "type": "Literal",
+            "start": 450,
+            "end": 484,
+            "value": "typeof undefined === \"undefined\"",
+            "raw": "'typeof undefined === \"undefined\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 489,
+      "end": 575,
+      "expression": {
+        "type": "CallExpression",
+        "start": 489,
+        "end": 574,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 489,
+          "end": 505,
+          "object": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 495,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 505,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 509,
+            "end": 522,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 516,
+              "end": 522,
+              "operator": "void",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 521,
+                "end": 522,
+                "value": 0,
+                "raw": "0"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 526,
+            "end": 537,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          },
+          {
+            "type": "Literal",
+            "start": 541,
+            "end": 572,
+            "value": "typeof void 0 === \"undefined\"",
+            "raw": "'typeof void 0 === \"undefined\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

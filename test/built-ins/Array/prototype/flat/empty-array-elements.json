@@ -1,0 +1,400 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 653,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 305,
+      "end": 316,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 309,
+          "end": 315,
+          "id": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 310,
+            "name": "a"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 313,
+            "end": 315,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 317,
+      "end": 380,
+      "expression": {
+        "type": "CallExpression",
+        "start": 317,
+        "end": 379,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 317,
+          "end": 336,
+          "object": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 323,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 336,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 337,
+            "end": 346,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 337,
+              "end": 344,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 337,
+                "end": 339,
+                "elements": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 340,
+                "end": 344,
+                "name": "flat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 348,
+            "end": 350,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 352,
+            "end": 378,
+            "value": "[].flat() must return []",
+            "raw": "'[].flat() must return []'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 381,
+      "end": 464,
+      "expression": {
+        "type": "CallExpression",
+        "start": 381,
+        "end": 463,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 381,
+          "end": 400,
+          "object": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 387,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 400,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 401,
+            "end": 422,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 401,
+              "end": 420,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 401,
+                "end": 415,
+                "elements": [
+                  {
+                    "type": "ArrayExpression",
+                    "start": 405,
+                    "end": 407,
+                    "elements": []
+                  },
+                  {
+                    "type": "ArrayExpression",
+                    "start": 411,
+                    "end": 413,
+                    "elements": []
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 416,
+                "end": 420,
+                "name": "flat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 424,
+            "end": 426,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 462,
+            "value": "[ [], [] ].flat() must return []",
+            "raw": "'[ [], [] ].flat() must return []'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 465,
+      "end": 552,
+      "expression": {
+        "type": "CallExpression",
+        "start": 465,
+        "end": 551,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 465,
+          "end": 484,
+          "object": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 471,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 484,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 485,
+            "end": 507,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 485,
+              "end": 505,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 485,
+                "end": 500,
+                "elements": [
+                  {
+                    "type": "ArrayExpression",
+                    "start": 489,
+                    "end": 491,
+                    "elements": []
+                  },
+                  {
+                    "type": "ArrayExpression",
+                    "start": 495,
+                    "end": 498,
+                    "elements": [
+                      {
+                        "type": "Literal",
+                        "start": 496,
+                        "end": 497,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 501,
+                "end": 505,
+                "name": "flat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 509,
+            "end": 512,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 510,
+                "end": 511,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 514,
+            "end": 550,
+            "value": "[ [], [1] ].flat() must return [1]",
+            "raw": "'[ [], [1] ].flat() must return [1]'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 553,
+      "end": 652,
+      "expression": {
+        "type": "CallExpression",
+        "start": 553,
+        "end": 651,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 553,
+          "end": 572,
+          "object": {
+            "type": "Identifier",
+            "start": 553,
+            "end": 559,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 572,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 573,
+            "end": 598,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 573,
+              "end": 596,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 573,
+                "end": 591,
+                "elements": [
+                  {
+                    "type": "ArrayExpression",
+                    "start": 577,
+                    "end": 579,
+                    "elements": []
+                  },
+                  {
+                    "type": "ArrayExpression",
+                    "start": 583,
+                    "end": 589,
+                    "elements": [
+                      {
+                        "type": "Literal",
+                        "start": 584,
+                        "end": 585,
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 587,
+                        "end": 588,
+                        "name": "a"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 592,
+                "end": 596,
+                "name": "flat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 600,
+            "end": 606,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 601,
+                "end": 602,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Identifier",
+                "start": 604,
+                "end": 605,
+                "name": "a"
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 608,
+            "end": 650,
+            "value": "[ [], [1, a] ].flat() must return [1, a]",
+            "raw": "'[ [], [1, a] ].flat() must return [1, a]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

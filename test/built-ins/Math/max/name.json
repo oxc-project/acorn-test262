@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 834,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 679,
+      "end": 718,
+      "expression": {
+        "type": "CallExpression",
+        "start": 679,
+        "end": 717,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 679,
+          "end": 695,
+          "object": {
+            "type": "Identifier",
+            "start": 679,
+            "end": 685,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 686,
+            "end": 695,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 696,
+            "end": 709,
+            "object": {
+              "type": "MemberExpression",
+              "start": 696,
+              "end": 704,
+              "object": {
+                "type": "Identifier",
+                "start": 696,
+                "end": 700,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 701,
+                "end": 704,
+                "name": "max"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 705,
+              "end": 709,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 711,
+            "end": 716,
+            "value": "max",
+            "raw": "\"max\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 720,
+      "end": 758,
+      "expression": {
+        "type": "CallExpression",
+        "start": 720,
+        "end": 757,
+        "callee": {
+          "type": "Identifier",
+          "start": 720,
+          "end": 739,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 740,
+            "end": 748,
+            "object": {
+              "type": "Identifier",
+              "start": 740,
+              "end": 744,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 745,
+              "end": 748,
+              "name": "max"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 750,
+            "end": 756,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 759,
+      "end": 795,
+      "expression": {
+        "type": "CallExpression",
+        "start": 759,
+        "end": 794,
+        "callee": {
+          "type": "Identifier",
+          "start": 759,
+          "end": 776,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 777,
+            "end": 785,
+            "object": {
+              "type": "Identifier",
+              "start": 777,
+              "end": 781,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 782,
+              "end": 785,
+              "name": "max"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 787,
+            "end": 793,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 796,
+      "end": 833,
+      "expression": {
+        "type": "CallExpression",
+        "start": 796,
+        "end": 832,
+        "callee": {
+          "type": "Identifier",
+          "start": 796,
+          "end": 814,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 815,
+            "end": 823,
+            "object": {
+              "type": "Identifier",
+              "start": 815,
+              "end": 819,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 820,
+              "end": 823,
+              "name": "max"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 825,
+            "end": 831,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

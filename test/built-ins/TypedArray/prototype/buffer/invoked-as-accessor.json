@@ -1,0 +1,125 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 696,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 575,
+      "end": 622,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 579,
+          "end": 621,
+          "id": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 598,
+            "name": "TypedArrayPrototype"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 601,
+            "end": 621,
+            "object": {
+              "type": "Identifier",
+              "start": 601,
+              "end": 611,
+              "name": "TypedArray"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 612,
+              "end": 621,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 624,
+      "end": 695,
+      "expression": {
+        "type": "CallExpression",
+        "start": 624,
+        "end": 694,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 624,
+          "end": 637,
+          "object": {
+            "type": "Identifier",
+            "start": 624,
+            "end": 630,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 631,
+            "end": 637,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 638,
+            "end": 647,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 649,
+            "end": 693,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 660,
+              "end": 693,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 664,
+                  "end": 691,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 664,
+                    "end": 690,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 664,
+                      "end": 683,
+                      "name": "TypedArrayPrototype"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 684,
+                      "end": 690,
+                      "name": "buffer"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

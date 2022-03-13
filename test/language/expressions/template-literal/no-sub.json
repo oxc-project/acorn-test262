@@ -1,0 +1,65 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 514,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 444,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 444,
+        "end": 512,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 444,
+          "end": 460,
+          "object": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 450,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 460,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 461,
+            "end": 485,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 462,
+                "end": 484,
+                "value": {
+                  "raw": "NoSubstitutionTemplate",
+                  "cooked": "NoSubstitutionTemplate"
+                },
+                "tail": true
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 487,
+            "end": 511,
+            "value": "NoSubstitutionTemplate",
+            "raw": "'NoSubstitutionTemplate'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

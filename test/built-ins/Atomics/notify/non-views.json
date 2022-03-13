@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 569,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 359,
+      "end": 568,
+      "expression": {
+        "type": "CallExpression",
+        "start": 359,
+        "end": 567,
+        "callee": {
+          "type": "Identifier",
+          "start": 359,
+          "end": 387,
+          "name": "testWithAtomicsNonViewValues"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 388,
+            "end": 566,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 397,
+                "end": 404,
+                "name": "nonView"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 406,
+              "end": 566,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 410,
+                  "end": 540,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 410,
+                    "end": 539,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 410,
+                      "end": 423,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 410,
+                        "end": 416,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 417,
+                        "end": 423,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 424,
+                        "end": 433,
+                        "name": "TypeError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 435,
+                        "end": 486,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 446,
+                          "end": 486,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 452,
+                              "end": 482,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 452,
+                                "end": 481,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 452,
+                                  "end": 466,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 452,
+                                    "end": 459,
+                                    "name": "Atomics"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 460,
+                                    "end": 466,
+                                    "name": "notify"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 467,
+                                    "end": 474,
+                                    "name": "nonView"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 476,
+                                    "end": 477,
+                                    "value": 0,
+                                    "raw": "0"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 479,
+                                    "end": 480,
+                                    "value": 0,
+                                    "raw": "0"
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 488,
+                        "end": 538,
+                        "value": "`Atomics.notify(nonView, 0, 0)` throws TypeError",
+                        "raw": "'`Atomics.notify(nonView, 0, 0)` throws TypeError'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

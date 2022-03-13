@@ -1,0 +1,142 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 420,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 316,
+      "end": 419,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 320,
+        "end": 337,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 320,
+          "end": 331,
+          "left": {
+            "type": "ParenthesizedExpression",
+            "start": 320,
+            "end": 327,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 321,
+              "end": 326,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 322,
+                "name": "y"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 325,
+                "end": 326,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          },
+          "operator": "%",
+          "right": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 331,
+            "name": "y"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 336,
+          "end": 337,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 339,
+        "end": 419,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 343,
+            "end": 417,
+            "argument": {
+              "type": "NewExpression",
+              "start": 349,
+              "end": 416,
+              "callee": {
+                "type": "Identifier",
+                "start": 353,
+                "end": 365,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 366,
+                  "end": 415,
+                  "left": {
+                    "type": "Literal",
+                    "start": 366,
+                    "end": 399,
+                    "value": "#1: (y = 1) % y === 0. Actual: ",
+                    "raw": "'#1: (y = 1) % y === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 402,
+                    "end": 415,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 403,
+                      "end": 414,
+                      "left": {
+                        "type": "ParenthesizedExpression",
+                        "start": 403,
+                        "end": 410,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 404,
+                          "end": 409,
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 404,
+                            "end": 405,
+                            "name": "y"
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "start": 408,
+                            "end": 409,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        }
+                      },
+                      "operator": "%",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 413,
+                        "end": 414,
+                        "name": "y"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

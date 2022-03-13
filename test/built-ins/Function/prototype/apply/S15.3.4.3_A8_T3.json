@@ -1,0 +1,152 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 559,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 298,
+      "end": 558,
+      "block": {
+        "type": "BlockStatement",
+        "start": 302,
+        "end": 434,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 306,
+            "end": 335,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 310,
+                "end": 334,
+                "id": {
+                  "type": "Identifier",
+                  "start": 310,
+                  "end": 313,
+                  "name": "obj"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 316,
+                  "end": 334,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 320,
+                    "end": 334,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 320,
+                      "end": 328,
+                      "name": "Function"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 329,
+                      "end": 334,
+                      "name": "apply"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": []
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 338,
+            "end": 432,
+            "argument": {
+              "type": "NewExpression",
+              "start": 344,
+              "end": 431,
+              "callee": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 360,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 361,
+                  "end": 430,
+                  "value": "#1: Function.prototype.apply can't be used as [[Construct]] caller",
+                  "raw": "'#1: Function.prototype.apply can\\'t be used as [[Construct]] caller'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 435,
+        "end": 558,
+        "param": {
+          "type": "Identifier",
+          "start": 442,
+          "end": 443,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 445,
+          "end": 558,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 449,
+              "end": 556,
+              "expression": {
+                "type": "CallExpression",
+                "start": 449,
+                "end": 555,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 449,
+                  "end": 455,
+                  "name": "assert"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 456,
+                    "end": 478,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 456,
+                      "end": 457,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 469,
+                      "end": 478,
+                      "name": "TypeError"
+                    }
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 480,
+                    "end": 554,
+                    "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

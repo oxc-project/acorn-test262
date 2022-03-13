@@ -1,0 +1,224 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 643,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 471,
+      "end": 642,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 475,
+        "end": 536,
+        "left": {
+          "type": "MemberExpression",
+          "start": 475,
+          "end": 527,
+          "object": {
+            "type": "CallExpression",
+            "start": 475,
+            "end": 520,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 475,
+              "end": 518,
+              "object": {
+                "type": "NewExpression",
+                "start": 475,
+                "end": 502,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 479,
+                  "end": 496,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 479,
+                    "end": 483,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 484,
+                    "end": 496,
+                    "name": "NumberFormat"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 497,
+                    "end": 501,
+                    "value": "en",
+                    "raw": "\"en\""
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 518,
+                "name": "resolvedOptions"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 527,
+            "name": "locale"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 532,
+          "end": 536,
+          "value": "en",
+          "raw": "\"en\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 538,
+        "end": 642,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 542,
+            "end": 585,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 542,
+              "end": 584,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 542,
+                "end": 580,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 542,
+                  "end": 558,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 542,
+                    "end": 548,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 549,
+                    "end": 558,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 559,
+                  "end": 580,
+                  "name": "maximumFractionDigits"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 583,
+                "end": 584,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 588,
+            "end": 640,
+            "expression": {
+              "type": "CallExpression",
+              "start": 588,
+              "end": 639,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 588,
+                "end": 604,
+                "object": {
+                  "type": "Identifier",
+                  "start": 588,
+                  "end": 594,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 595,
+                  "end": 604,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 605,
+                  "end": 630,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 605,
+                    "end": 624,
+                    "object": {
+                      "type": "Literal",
+                      "start": 605,
+                      "end": 609,
+                      "value": 1.23,
+                      "raw": "1.23"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 610,
+                      "end": 624,
+                      "name": "toLocaleString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 625,
+                      "end": 629,
+                      "value": "en",
+                      "raw": "\"en\""
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 632,
+                  "end": 638,
+                  "value": "1.23",
+                  "raw": "\"1.23\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,330 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1278,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 733,
+      "end": 763,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 737,
+          "end": 762,
+          "id": {
+            "type": "Identifier",
+            "start": 737,
+            "end": 743,
+            "name": "global"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 746,
+            "end": 762,
+            "callee": {
+              "type": "Identifier",
+              "start": 746,
+              "end": 760,
+              "name": "fnGlobalObject"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 764,
+      "end": 878,
+      "expression": {
+        "type": "CallExpression",
+        "start": 764,
+        "end": 877,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 764,
+          "end": 785,
+          "object": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 770,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 771,
+            "end": 785,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 786,
+            "end": 792,
+            "name": "global"
+          },
+          {
+            "type": "Literal",
+            "start": 794,
+            "end": 797,
+            "value": "f",
+            "raw": "'f'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 799,
+            "end": 876,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 803,
+                "end": 813,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 803,
+                  "end": 808,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 810,
+                  "end": 813,
+                  "value": "x",
+                  "raw": "'x'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 817,
+                "end": 834,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 817,
+                  "end": 827,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 829,
+                  "end": 834,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 838,
+                "end": 852,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 838,
+                  "end": 846,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 848,
+                  "end": 852,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 856,
+                "end": 874,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 856,
+                  "end": 868,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 870,
+                  "end": 874,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 880,
+      "end": 1040,
+      "expression": {
+        "type": "CallExpression",
+        "start": 880,
+        "end": 1039,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 880,
+          "end": 895,
+          "object": {
+            "type": "Identifier",
+            "start": 880,
+            "end": 884,
+            "name": "$262"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 885,
+            "end": 895,
+            "name": "evalScript"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 896,
+            "end": 1038,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 897,
+                "end": 1037,
+                "value": {
+                  "raw": "\nassert.sameValue(f, 'x');\nverifyProperty(global, 'f', {\n  enumerable: false,\n  writable: true,\n  configurable: true\n}, { restore: true });\n",
+                  "cooked": "\nassert.sameValue(f, 'x');\nverifyProperty(global, 'f', {\n  enumerable: false,\n  writable: true,\n  configurable: true\n}, { restore: true });\n"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1042,
+      "end": 1116,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1042,
+        "end": 1115,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1042,
+          "end": 1057,
+          "object": {
+            "type": "Identifier",
+            "start": 1042,
+            "end": 1046,
+            "name": "$262"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1047,
+            "end": 1057,
+            "name": "evalScript"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 1058,
+            "end": 1114,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 1059,
+                "end": 1113,
+                "value": {
+                  "raw": "\n\n{\n  function f() { return 'inner declaration'; }\n}\n\n",
+                  "cooked": "\n\n{\n  function f() { return 'inner declaration'; }\n}\n\n"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1118,
+      "end": 1277,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1118,
+        "end": 1276,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1118,
+          "end": 1133,
+          "object": {
+            "type": "Identifier",
+            "start": 1118,
+            "end": 1122,
+            "name": "$262"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1123,
+            "end": 1133,
+            "name": "evalScript"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 1134,
+            "end": 1275,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 1135,
+                "end": 1274,
+                "value": {
+                  "raw": "\nassert.sameValue(f(), 'inner declaration');\nverifyProperty(global, 'f', {\n  enumerable: false,\n  writable: true,\n  configurable: true\n});\n",
+                  "cooked": "\nassert.sameValue(f(), 'inner declaration');\nverifyProperty(global, 'f', {\n  enumerable: false,\n  writable: true,\n  configurable: true\n});\n"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,236 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 787,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 558,
+      "end": 617,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 562,
+          "end": 616,
+          "id": {
+            "type": "Identifier",
+            "start": 562,
+            "end": 571,
+            "name": "predicate"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 574,
+            "end": 616,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 585,
+              "end": 616,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 589,
+                  "end": 614,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 595,
+                    "end": 613,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 599,
+                      "end": 611,
+                      "name": "Test262Error"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 619,
+      "end": 786,
+      "expression": {
+        "type": "CallExpression",
+        "start": 619,
+        "end": 785,
+        "callee": {
+          "type": "Identifier",
+          "start": 619,
+          "end": 655,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 656,
+            "end": 784,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 665,
+                "end": 667,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 669,
+              "end": 784,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 673,
+                  "end": 696,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 677,
+                      "end": 695,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 677,
+                        "end": 683,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 686,
+                        "end": 695,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 690,
+                          "end": 692,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 693,
+                            "end": 694,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 699,
+                  "end": 782,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 699,
+                    "end": 781,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 699,
+                      "end": 712,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 699,
+                        "end": 705,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 706,
+                        "end": 712,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 713,
+                        "end": 725,
+                        "name": "Test262Error"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 727,
+                        "end": 780,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 738,
+                          "end": 780,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 744,
+                              "end": 776,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 744,
+                                "end": 775,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 744,
+                                  "end": 764,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 744,
+                                    "end": 750,
+                                    "name": "sample"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 751,
+                                    "end": 764,
+                                    "name": "findLastIndex"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 765,
+                                    "end": 774,
+                                    "name": "predicate"
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

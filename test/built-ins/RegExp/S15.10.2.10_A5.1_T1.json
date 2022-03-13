@@ -1,0 +1,375 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 638,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 349,
+      "end": 405,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 353,
+          "end": 404,
+          "id": {
+            "type": "Identifier",
+            "start": 353,
+            "end": 362,
+            "name": "non_ident"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 365,
+            "end": 404,
+            "left": {
+              "type": "Literal",
+              "start": 365,
+              "end": 398,
+              "value": "~`!@#$%^&*()-+={[}]|\\:;'<,>./?",
+              "raw": "\"~`!@#$%^&*()-+={[}]|\\\\:;'<,>./?\""
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 401,
+              "end": 404,
+              "value": "\"",
+              "raw": "'\"'"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 406,
+      "end": 637,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 411,
+        "end": 420,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 415,
+            "end": 420,
+            "id": {
+              "type": "Identifier",
+              "start": 415,
+              "end": 416,
+              "name": "k"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 419,
+              "end": 420,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 422,
+        "end": 442,
+        "left": {
+          "type": "Identifier",
+          "start": 422,
+          "end": 423,
+          "name": "k"
+        },
+        "operator": "<",
+        "right": {
+          "type": "MemberExpression",
+          "start": 426,
+          "end": 442,
+          "object": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 435,
+            "name": "non_ident"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 436,
+            "end": 442,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 444,
+        "end": 447,
+        "operator": "++",
+        "prefix": true,
+        "argument": {
+          "type": "Identifier",
+          "start": 446,
+          "end": 447,
+          "name": "k"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 449,
+        "end": 637,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 453,
+            "end": 516,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 457,
+                "end": 515,
+                "id": {
+                  "type": "Identifier",
+                  "start": 457,
+                  "end": 460,
+                  "name": "arr"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 463,
+                  "end": 515,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 463,
+                    "end": 504,
+                    "object": {
+                      "type": "NewExpression",
+                      "start": 463,
+                      "end": 499,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 467,
+                        "end": 473,
+                        "name": "RegExp"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 474,
+                          "end": 493,
+                          "left": {
+                            "type": "Literal",
+                            "start": 474,
+                            "end": 478,
+                            "value": "\\",
+                            "raw": "\"\\\\\""
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "MemberExpression",
+                            "start": 481,
+                            "end": 493,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 481,
+                              "end": 490,
+                              "name": "non_ident"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 491,
+                              "end": 492,
+                              "name": "k"
+                            },
+                            "computed": true,
+                            "optional": false
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 495,
+                          "end": 498,
+                          "value": "g",
+                          "raw": "\"g\""
+                        }
+                      ]
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 500,
+                      "end": 504,
+                      "name": "exec"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 505,
+                      "end": 514,
+                      "name": "non_ident"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 519,
+            "end": 593,
+            "expression": {
+              "type": "CallExpression",
+              "start": 519,
+              "end": 592,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 519,
+                "end": 538,
+                "object": {
+                  "type": "Identifier",
+                  "start": 519,
+                  "end": 525,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 526,
+                  "end": 538,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 539,
+                  "end": 542,
+                  "name": "arr"
+                },
+                {
+                  "type": "Literal",
+                  "start": 544,
+                  "end": 548,
+                  "value": null,
+                  "raw": "null"
+                },
+                {
+                  "type": "BinaryExpression",
+                  "start": 550,
+                  "end": 591,
+                  "left": {
+                    "type": "Literal",
+                    "start": 550,
+                    "end": 576,
+                    "value": "No match for character: ",
+                    "raw": "\"No match for character: \""
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 579,
+                    "end": 591,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 579,
+                      "end": 588,
+                      "name": "non_ident"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 589,
+                      "end": 590,
+                      "name": "k"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 596,
+            "end": 635,
+            "expression": {
+              "type": "CallExpression",
+              "start": 596,
+              "end": 634,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 596,
+                "end": 612,
+                "object": {
+                  "type": "Identifier",
+                  "start": 596,
+                  "end": 602,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 603,
+                  "end": 612,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 613,
+                  "end": 619,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 613,
+                    "end": 616,
+                    "name": "arr"
+                  },
+                  "property": {
+                    "type": "Literal",
+                    "start": 617,
+                    "end": 618,
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                {
+                  "type": "MemberExpression",
+                  "start": 621,
+                  "end": 633,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 621,
+                    "end": 630,
+                    "name": "non_ident"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 631,
+                    "end": 632,
+                    "name": "k"
+                  },
+                  "computed": true,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

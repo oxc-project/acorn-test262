@@ -1,0 +1,90 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1066,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1016,
+      "end": 1032,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1020,
+          "end": 1031,
+          "id": {
+            "type": "ArrayPattern",
+            "start": 1020,
+            "end": 1026,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 1021,
+                "end": 1022,
+                "name": "_"
+              },
+              {
+                "type": "Identifier",
+                "start": 1024,
+                "end": 1025,
+                "name": "x"
+              }
+            ]
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 1029,
+            "end": 1031,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1034,
+      "end": 1065,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1034,
+        "end": 1064,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1034,
+          "end": 1050,
+          "object": {
+            "type": "Identifier",
+            "start": 1034,
+            "end": 1040,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1041,
+            "end": 1050,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1051,
+            "end": 1052,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 1054,
+            "end": 1063,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

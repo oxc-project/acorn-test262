@@ -1,0 +1,88 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 351,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 277,
+      "end": 350,
+      "expression": {
+        "type": "CallExpression",
+        "start": 277,
+        "end": 349,
+        "callee": {
+          "type": "Identifier",
+          "start": 277,
+          "end": 287,
+          "name": "testOption"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 288,
+            "end": 301,
+            "object": {
+              "type": "Identifier",
+              "start": 288,
+              "end": 292,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 293,
+              "end": 301,
+              "name": "Collator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 303,
+            "end": 310,
+            "value": "usage",
+            "raw": "\"usage\""
+          },
+          {
+            "type": "Literal",
+            "start": 312,
+            "end": 320,
+            "value": "string",
+            "raw": "\"string\""
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 322,
+            "end": 340,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 323,
+                "end": 329,
+                "value": "sort",
+                "raw": "\"sort\""
+              },
+              {
+                "type": "Literal",
+                "start": 331,
+                "end": 339,
+                "value": "search",
+                "raw": "\"search\""
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 342,
+            "end": 348,
+            "value": "sort",
+            "raw": "\"sort\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

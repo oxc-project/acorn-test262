@@ -1,0 +1,125 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 408,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 300,
+      "end": 318,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 304,
+          "end": 317,
+          "id": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 305,
+            "name": "x"
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "start": 308,
+            "end": 317,
+            "operator": "+",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 309,
+              "end": 317,
+              "name": "Infinity"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 319,
+      "end": 407,
+      "expression": {
+        "type": "CallExpression",
+        "start": 319,
+        "end": 406,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 319,
+          "end": 335,
+          "object": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 325,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 335,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 336,
+            "end": 348,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 336,
+              "end": 345,
+              "object": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 340,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 345,
+                "name": "ceil"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 346,
+                "end": 347,
+                "name": "x"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 350,
+            "end": 359,
+            "operator": "+",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 351,
+              "end": 359,
+              "name": "Infinity"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 361,
+            "end": 405,
+            "value": "Math.ceil(+Infinity) must return +Infinity",
+            "raw": "'Math.ceil(+Infinity) must return +Infinity'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

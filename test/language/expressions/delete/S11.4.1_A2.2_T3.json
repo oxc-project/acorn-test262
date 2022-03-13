@@ -1,0 +1,84 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 422,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 334,
+      "end": 421,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 338,
+        "end": 360,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 338,
+          "end": 351,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 345,
+            "end": 351,
+            "object": {
+              "type": "ThisExpression",
+              "start": 345,
+              "end": 349
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 350,
+              "end": 351,
+              "name": "x"
+            },
+            "computed": false,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 356,
+          "end": 360,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 362,
+        "end": 421,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 366,
+            "end": 419,
+            "argument": {
+              "type": "NewExpression",
+              "start": 372,
+              "end": 418,
+              "callee": {
+                "type": "Identifier",
+                "start": 376,
+                "end": 388,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 389,
+                  "end": 417,
+                  "value": "#1: delete this.x === true",
+                  "raw": "'#1: delete this.x === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

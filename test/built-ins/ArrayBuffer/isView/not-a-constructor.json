@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 932,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 703,
+      "end": 817,
+      "expression": {
+        "type": "CallExpression",
+        "start": 703,
+        "end": 816,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 703,
+          "end": 719,
+          "object": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 709,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 719,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 720,
+            "end": 753,
+            "callee": {
+              "type": "Identifier",
+              "start": 720,
+              "end": 733,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 734,
+                "end": 752,
+                "object": {
+                  "type": "Identifier",
+                  "start": 734,
+                  "end": 745,
+                  "name": "ArrayBuffer"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 746,
+                  "end": 752,
+                  "name": "isView"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 755,
+            "end": 760,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 762,
+            "end": 815,
+            "value": "isConstructor(ArrayBuffer.isView) must return false",
+            "raw": "'isConstructor(ArrayBuffer.isView) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 819,
+      "end": 930,
+      "expression": {
+        "type": "CallExpression",
+        "start": 819,
+        "end": 929,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 819,
+          "end": 832,
+          "object": {
+            "type": "Identifier",
+            "start": 819,
+            "end": 825,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 826,
+            "end": 832,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 833,
+            "end": 842,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 844,
+            "end": 881,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 850,
+              "end": 881,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 854,
+                  "end": 879,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 854,
+                    "end": 878,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 858,
+                      "end": 876,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 858,
+                        "end": 869,
+                        "name": "ArrayBuffer"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 870,
+                        "end": 876,
+                        "name": "isView"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 883,
+            "end": 928,
+            "value": "`new ArrayBuffer.isView()` throws TypeError",
+            "raw": "'`new ArrayBuffer.isView()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

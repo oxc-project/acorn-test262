@@ -1,0 +1,182 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 729,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 553,
+      "end": 728,
+      "expression": {
+        "type": "CallExpression",
+        "start": 553,
+        "end": 727,
+        "callee": {
+          "type": "Identifier",
+          "start": 553,
+          "end": 583,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 584,
+            "end": 726,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 593,
+                "end": 606,
+                "name": "TAConstructor"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 608,
+              "end": 726,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 612,
+                  "end": 677,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 616,
+                      "end": 676,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 616,
+                        "end": 626,
+                        "name": "typedArray"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 629,
+                        "end": 676,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 633,
+                          "end": 646,
+                          "name": "TAConstructor"
+                        },
+                        "arguments": [
+                          {
+                            "type": "NewExpression",
+                            "start": 647,
+                            "end": 671,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 651,
+                              "end": 668,
+                              "name": "SharedArrayBuffer"
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "start": 669,
+                                "end": 670,
+                                "value": 8,
+                                "raw": "8"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "UnaryExpression",
+                            "start": 673,
+                            "end": 675,
+                            "operator": "-",
+                            "prefix": true,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 674,
+                              "end": 675,
+                              "value": 0,
+                              "raw": "0"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 680,
+                  "end": 724,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 680,
+                    "end": 723,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 680,
+                      "end": 696,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 680,
+                        "end": 686,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 687,
+                        "end": 696,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 697,
+                        "end": 718,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 697,
+                          "end": 707,
+                          "name": "typedArray"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 708,
+                          "end": 718,
+                          "name": "byteOffset"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "UnaryExpression",
+                        "start": 720,
+                        "end": 722,
+                        "operator": "+",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 721,
+                          "end": 722,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 370,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 296,
+      "end": 314,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 300,
+          "end": 313,
+          "id": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 306,
+            "name": "global"
+          },
+          "init": {
+            "type": "ThisExpression",
+            "start": 309,
+            "end": 313
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 316,
+      "end": 369,
+      "expression": {
+        "type": "CallExpression",
+        "start": 316,
+        "end": 368,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 316,
+          "end": 329,
+          "object": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 322,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 330,
+            "end": 339,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 341,
+            "end": 367,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 352,
+              "end": 367,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 356,
+                  "end": 365,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 356,
+                    "end": 364,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 356,
+                      "end": 362,
+                      "name": "global"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

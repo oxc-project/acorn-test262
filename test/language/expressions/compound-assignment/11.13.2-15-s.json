@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 432,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 334,
+      "end": 353,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 338,
+          "end": 353,
+          "id": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 349,
+            "name": "_11_13_2_15"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 352,
+            "end": 353,
+            "value": 8,
+            "raw": "8"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 362,
+      "end": 381,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 362,
+        "end": 380,
+        "operator": ">>>=",
+        "left": {
+          "type": "Identifier",
+          "start": 362,
+          "end": 373,
+          "name": "_11_13_2_15"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 379,
+          "end": 380,
+          "value": 2,
+          "raw": "2"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 383,
+      "end": 431,
+      "expression": {
+        "type": "CallExpression",
+        "start": 383,
+        "end": 430,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 383,
+          "end": 399,
+          "object": {
+            "type": "Identifier",
+            "start": 383,
+            "end": 389,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 390,
+            "end": 399,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 400,
+            "end": 411,
+            "name": "_11_13_2_15"
+          },
+          {
+            "type": "Literal",
+            "start": 413,
+            "end": 414,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 416,
+            "end": 429,
+            "value": "_11_13_2_15",
+            "raw": "'_11_13_2_15'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

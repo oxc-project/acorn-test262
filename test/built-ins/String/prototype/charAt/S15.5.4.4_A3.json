@@ -1,0 +1,172 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 738,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 343,
+      "end": 378,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 347,
+          "end": 377,
+          "id": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 357,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 360,
+            "end": 377,
+            "callee": {
+              "type": "Identifier",
+              "start": 364,
+              "end": 370,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 376,
+                "value": "ABC",
+                "raw": "\"ABC\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 469,
+      "end": 655,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 473,
+        "end": 500,
+        "left": {
+          "type": "CallExpression",
+          "start": 473,
+          "end": 493,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 473,
+            "end": 490,
+            "object": {
+              "type": "Identifier",
+              "start": 473,
+              "end": 483,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 484,
+              "end": 490,
+              "name": "charAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 491,
+              "end": 492,
+              "value": 3,
+              "raw": "3"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 498,
+          "end": 500,
+          "value": "",
+          "raw": "\"\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 502,
+        "end": 655,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 506,
+            "end": 653,
+            "argument": {
+              "type": "NewExpression",
+              "start": 512,
+              "end": 652,
+              "callee": {
+                "type": "Identifier",
+                "start": 516,
+                "end": 528,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 529,
+                  "end": 651,
+                  "left": {
+                    "type": "Literal",
+                    "start": 529,
+                    "end": 628,
+                    "value": "#1: __instance = new String(\"ABC\"); __instance.charAt(3) === \"\". Actual: __instance.charAt(3) ===",
+                    "raw": "'#1: __instance = new String(\"ABC\"); __instance.charAt(3) === \"\". Actual: __instance.charAt(3) ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 631,
+                    "end": 651,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 631,
+                      "end": 648,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 631,
+                        "end": 641,
+                        "name": "__instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 642,
+                        "end": 648,
+                        "name": "charAt"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 649,
+                        "end": 650,
+                        "value": 3,
+                        "raw": "3"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

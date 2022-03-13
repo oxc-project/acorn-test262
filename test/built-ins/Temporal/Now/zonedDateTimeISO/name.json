@@ -1,0 +1,230 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 605,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 313,
+      "end": 482,
+      "expression": {
+        "type": "CallExpression",
+        "start": 313,
+        "end": 481,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 313,
+          "end": 329,
+          "object": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 319,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 329,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 333,
+            "end": 367,
+            "object": {
+              "type": "MemberExpression",
+              "start": 333,
+              "end": 362,
+              "object": {
+                "type": "MemberExpression",
+                "start": 333,
+                "end": 345,
+                "object": {
+                  "type": "Identifier",
+                  "start": 333,
+                  "end": 341,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 342,
+                  "end": 345,
+                  "name": "Now"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 346,
+                "end": 362,
+                "name": "zonedDateTimeISO"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 363,
+              "end": 367,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 371,
+            "end": 389,
+            "value": "zonedDateTimeISO",
+            "raw": "'zonedDateTimeISO'"
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 479,
+            "value": "The value of Temporal.Now.zonedDateTimeISO.name is expected to be \"zonedDateTimeISO\"",
+            "raw": "'The value of Temporal.Now.zonedDateTimeISO.name is expected to be \"zonedDateTimeISO\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 484,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 484,
+        "end": 603,
+        "callee": {
+          "type": "Identifier",
+          "start": 484,
+          "end": 498,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 499,
+            "end": 528,
+            "object": {
+              "type": "MemberExpression",
+              "start": 499,
+              "end": 511,
+              "object": {
+                "type": "Identifier",
+                "start": 499,
+                "end": 507,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 508,
+                "end": 511,
+                "name": "Now"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 512,
+              "end": 528,
+              "name": "zonedDateTimeISO"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 530,
+            "end": 536,
+            "value": "name",
+            "raw": "'name'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 538,
+            "end": 602,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 542,
+                "end": 559,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 542,
+                  "end": 552,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 554,
+                  "end": 559,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 563,
+                "end": 578,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 563,
+                  "end": 571,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 573,
+                  "end": 578,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 582,
+                "end": 600,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 582,
+                  "end": 594,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 596,
+                  "end": 600,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

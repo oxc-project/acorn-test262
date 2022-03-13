@@ -1,0 +1,478 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1379,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 706,
+      "end": 821,
+      "expression": {
+        "type": "CallExpression",
+        "start": 706,
+        "end": 820,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 706,
+          "end": 722,
+          "object": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 712,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 722,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 726,
+            "end": 745,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 726,
+              "end": 740,
+              "object": {
+                "type": "Literal",
+                "start": 726,
+                "end": 735,
+                "value": {},
+                "raw": "/\\u212a/i",
+                "regex": {
+                  "pattern": "\\u212a",
+                  "flags": "i"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 736,
+                "end": 740,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 741,
+                "end": 744,
+                "value": "k",
+                "raw": "'k'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 749,
+            "end": 754,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 758,
+            "end": 818,
+            "value": "Case mapping is not applied in the absence of the `u` flag",
+            "raw": "'Case mapping is not applied in the absence of the `u` flag'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 822,
+      "end": 937,
+      "expression": {
+        "type": "CallExpression",
+        "start": 822,
+        "end": 936,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 822,
+          "end": 838,
+          "object": {
+            "type": "Identifier",
+            "start": 822,
+            "end": 828,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 829,
+            "end": 838,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 842,
+            "end": 861,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 842,
+              "end": 856,
+              "object": {
+                "type": "Literal",
+                "start": 842,
+                "end": 851,
+                "value": {},
+                "raw": "/\\u212a/i",
+                "regex": {
+                  "pattern": "\\u212a",
+                  "flags": "i"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 852,
+                "end": 856,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 857,
+                "end": 860,
+                "value": "K",
+                "raw": "'K'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 865,
+            "end": 870,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 874,
+            "end": 934,
+            "value": "Case mapping is not applied in the absence of the `u` flag",
+            "raw": "'Case mapping is not applied in the absence of the `u` flag'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 938,
+      "end": 1053,
+      "expression": {
+        "type": "CallExpression",
+        "start": 938,
+        "end": 1052,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 938,
+          "end": 954,
+          "object": {
+            "type": "Identifier",
+            "start": 938,
+            "end": 944,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 945,
+            "end": 954,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 958,
+            "end": 977,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 958,
+              "end": 972,
+              "object": {
+                "type": "Literal",
+                "start": 958,
+                "end": 967,
+                "value": {},
+                "raw": "/\\u212a/u",
+                "regex": {
+                  "pattern": "\\u212a",
+                  "flags": "u"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 968,
+                "end": 972,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 973,
+                "end": 976,
+                "value": "k",
+                "raw": "'k'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 981,
+            "end": 986,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 990,
+            "end": 1050,
+            "value": "Case mapping is not applied in the absence of the `i` flag",
+            "raw": "'Case mapping is not applied in the absence of the `i` flag'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1054,
+      "end": 1169,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1054,
+        "end": 1168,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1054,
+          "end": 1070,
+          "object": {
+            "type": "Identifier",
+            "start": 1054,
+            "end": 1060,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1061,
+            "end": 1070,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1074,
+            "end": 1093,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1074,
+              "end": 1088,
+              "object": {
+                "type": "Literal",
+                "start": 1074,
+                "end": 1083,
+                "value": {},
+                "raw": "/\\u212a/u",
+                "regex": {
+                  "pattern": "\\u212a",
+                  "flags": "u"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1084,
+                "end": 1088,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1089,
+                "end": 1092,
+                "value": "K",
+                "raw": "'K'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1097,
+            "end": 1102,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1106,
+            "end": 1166,
+            "value": "Case mapping is not applied in the absence of the `i` flag",
+            "raw": "'Case mapping is not applied in the absence of the `i` flag'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1171,
+      "end": 1274,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1171,
+        "end": 1273,
+        "callee": {
+          "type": "Identifier",
+          "start": 1171,
+          "end": 1177,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1181,
+            "end": 1201,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1181,
+              "end": 1196,
+              "object": {
+                "type": "Literal",
+                "start": 1181,
+                "end": 1191,
+                "value": {},
+                "raw": "/\\u212a/iu",
+                "regex": {
+                  "pattern": "\\u212a",
+                  "flags": "iu"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1192,
+                "end": 1196,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1197,
+                "end": 1200,
+                "value": "k",
+                "raw": "'k'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1205,
+            "end": 1271,
+            "value": "Case mapping is applied in the presence of the `i` and `u` flags",
+            "raw": "'Case mapping is applied in the presence of the `i` and `u` flags'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1275,
+      "end": 1378,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1275,
+        "end": 1377,
+        "callee": {
+          "type": "Identifier",
+          "start": 1275,
+          "end": 1281,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1285,
+            "end": 1305,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1285,
+              "end": 1300,
+              "object": {
+                "type": "Literal",
+                "start": 1285,
+                "end": 1295,
+                "value": {},
+                "raw": "/\\u212a/iu",
+                "regex": {
+                  "pattern": "\\u212a",
+                  "flags": "iu"
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1296,
+                "end": 1300,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1301,
+                "end": 1304,
+                "value": "K",
+                "raw": "'K'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1309,
+            "end": 1375,
+            "value": "Case mapping is applied in the presence of the `i` and `u` flags",
+            "raw": "'Case mapping is applied in the presence of the `i` and `u` flags'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

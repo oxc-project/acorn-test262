@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 401,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 321,
+      "end": 400,
+      "expression": {
+        "type": "CallExpression",
+        "start": 321,
+        "end": 399,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 321,
+          "end": 334,
+          "object": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 327,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 334,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 335,
+            "end": 346,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 348,
+            "end": 398,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 359,
+              "end": 398,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 363,
+                  "end": 396,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 367,
+                      "end": 395,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 367,
+                        "end": 376,
+                        "name": "regExpObj"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 379,
+                        "end": 395,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 383,
+                          "end": 389,
+                          "name": "RegExp"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 390,
+                            "end": 394,
+                            "value": "\\",
+                            "raw": "'\\\\'"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

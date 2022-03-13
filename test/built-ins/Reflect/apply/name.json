@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 629,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 396,
+      "end": 498,
+      "expression": {
+        "type": "CallExpression",
+        "start": 396,
+        "end": 497,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 396,
+          "end": 412,
+          "object": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 402,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 412,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 416,
+            "end": 434,
+            "object": {
+              "type": "MemberExpression",
+              "start": 416,
+              "end": 429,
+              "object": {
+                "type": "Identifier",
+                "start": 416,
+                "end": 423,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 424,
+                "end": 429,
+                "name": "apply"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 430,
+              "end": 434,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 436,
+            "end": 443,
+            "value": "apply",
+            "raw": "'apply'"
+          },
+          {
+            "type": "Literal",
+            "start": 447,
+            "end": 495,
+            "value": "The value of `Reflect.apply.name` is `\"apply\"`",
+            "raw": "'The value of `Reflect.apply.name` is `\"apply\"`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 500,
+      "end": 543,
+      "expression": {
+        "type": "CallExpression",
+        "start": 500,
+        "end": 542,
+        "callee": {
+          "type": "Identifier",
+          "start": 500,
+          "end": 519,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 520,
+            "end": 533,
+            "object": {
+              "type": "Identifier",
+              "start": 520,
+              "end": 527,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 528,
+              "end": 533,
+              "name": "apply"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 535,
+            "end": 541,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 544,
+      "end": 585,
+      "expression": {
+        "type": "CallExpression",
+        "start": 544,
+        "end": 584,
+        "callee": {
+          "type": "Identifier",
+          "start": 544,
+          "end": 561,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 562,
+            "end": 575,
+            "object": {
+              "type": "Identifier",
+              "start": 562,
+              "end": 569,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 570,
+              "end": 575,
+              "name": "apply"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 577,
+            "end": 583,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 586,
+      "end": 628,
+      "expression": {
+        "type": "CallExpression",
+        "start": 586,
+        "end": 627,
+        "callee": {
+          "type": "Identifier",
+          "start": 586,
+          "end": 604,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 605,
+            "end": 618,
+            "object": {
+              "type": "Identifier",
+              "start": 605,
+              "end": 612,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 613,
+              "end": 618,
+              "name": "apply"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 620,
+            "end": 626,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

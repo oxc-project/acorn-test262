@@ -1,0 +1,1500 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1628,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 232,
+      "end": 307,
+      "id": {
+        "type": "Identifier",
+        "start": 241,
+        "end": 247,
+        "name": "reduce"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 248,
+          "end": 253,
+          "name": "parts"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 255,
+        "end": 307,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 259,
+            "end": 305,
+            "argument": {
+              "type": "CallExpression",
+              "start": 266,
+              "end": 304,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 266,
+                "end": 300,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 266,
+                  "end": 295,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 266,
+                    "end": 275,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 266,
+                      "end": 271,
+                      "name": "parts"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 272,
+                      "end": 275,
+                      "name": "map"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "ArrowFunctionExpression",
+                      "start": 276,
+                      "end": 294,
+                      "id": null,
+                      "expression": true,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 276,
+                          "end": 280,
+                          "name": "part"
+                        }
+                      ],
+                      "body": {
+                        "type": "MemberExpression",
+                        "start": 284,
+                        "end": 294,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 284,
+                          "end": 288,
+                          "name": "part"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 289,
+                          "end": 294,
+                          "name": "value"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 296,
+                  "end": 300,
+                  "name": "join"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 301,
+                  "end": 303,
+                  "value": "",
+                  "raw": "''"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 309,
+      "end": 602,
+      "id": {
+        "type": "Identifier",
+        "start": 318,
+        "end": 336,
+        "name": "compareFTPtoFormat"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 337,
+          "end": 344,
+          "name": "locales"
+        },
+        {
+          "type": "Identifier",
+          "start": 346,
+          "end": 353,
+          "name": "options"
+        },
+        {
+          "type": "Identifier",
+          "start": 355,
+          "end": 360,
+          "name": "value"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 362,
+        "end": 602,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 366,
+            "end": 417,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 372,
+                "end": 416,
+                "id": {
+                  "type": "Identifier",
+                  "start": 372,
+                  "end": 374,
+                  "name": "nf"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 377,
+                  "end": 416,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 381,
+                    "end": 398,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 381,
+                      "end": 385,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 386,
+                      "end": 398,
+                      "name": "NumberFormat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 399,
+                      "end": 406,
+                      "name": "locales"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 408,
+                      "end": 415,
+                      "name": "options"
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "const"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 420,
+            "end": 600,
+            "expression": {
+              "type": "CallExpression",
+              "start": 420,
+              "end": 599,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 420,
+                "end": 436,
+                "object": {
+                  "type": "Identifier",
+                  "start": 420,
+                  "end": 426,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 427,
+                  "end": 436,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 442,
+                  "end": 458,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 442,
+                    "end": 451,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 442,
+                      "end": 444,
+                      "name": "nf"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 445,
+                      "end": 451,
+                      "name": "format"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 452,
+                      "end": 457,
+                      "name": "value"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "CallExpression",
+                  "start": 464,
+                  "end": 495,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 464,
+                    "end": 470,
+                    "name": "reduce"
+                  },
+                  "arguments": [
+                    {
+                      "type": "CallExpression",
+                      "start": 471,
+                      "end": 494,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 471,
+                        "end": 487,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 471,
+                          "end": 473,
+                          "name": "nf"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 474,
+                          "end": 487,
+                          "name": "formatToParts"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 488,
+                          "end": 493,
+                          "name": "value"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 501,
+                  "end": 595,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 538,
+                      "end": 543,
+                      "name": "value"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 562,
+                      "end": 569,
+                      "name": "locales"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 586,
+                      "end": 593,
+                      "name": "options"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 502,
+                      "end": 536,
+                      "value": {
+                        "raw": "Expected the same value for value ",
+                        "cooked": "Expected the same value for value "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 544,
+                      "end": 560,
+                      "value": {
+                        "raw": ",\n     locales: ",
+                        "cooked": ",\n     locales: "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 570,
+                      "end": 584,
+                      "value": {
+                        "raw": " and options: ",
+                        "cooked": " and options: "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 594,
+                      "end": 594,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 604,
+      "end": 628,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 610,
+          "end": 627,
+          "id": {
+            "type": "Identifier",
+            "start": 610,
+            "end": 614,
+            "name": "num1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 617,
+            "end": 627,
+            "value": 123456.789,
+            "raw": "123456.789"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 629,
+      "end": 648,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 635,
+          "end": 647,
+          "id": {
+            "type": "Identifier",
+            "start": 635,
+            "end": 639,
+            "name": "num2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 642,
+            "end": 647,
+            "value": 0.123,
+            "raw": "0.123"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 650,
+      "end": 671,
+      "expression": {
+        "type": "CallExpression",
+        "start": 650,
+        "end": 670,
+        "callee": {
+          "type": "Identifier",
+          "start": 650,
+          "end": 668,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 672,
+      "end": 697,
+      "expression": {
+        "type": "CallExpression",
+        "start": 672,
+        "end": 696,
+        "callee": {
+          "type": "Identifier",
+          "start": 672,
+          "end": 690,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 691,
+            "end": 695,
+            "value": "pl",
+            "raw": "'pl'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 698,
+      "end": 725,
+      "expression": {
+        "type": "CallExpression",
+        "start": 698,
+        "end": 724,
+        "callee": {
+          "type": "Identifier",
+          "start": 698,
+          "end": 716,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 717,
+            "end": 723,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 718,
+                "end": 722,
+                "value": "pl",
+                "raw": "'pl'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 726,
+      "end": 749,
+      "expression": {
+        "type": "CallExpression",
+        "start": 726,
+        "end": 748,
+        "callee": {
+          "type": "Identifier",
+          "start": 726,
+          "end": 744,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 745,
+            "end": 747,
+            "elements": []
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 750,
+      "end": 791,
+      "expression": {
+        "type": "CallExpression",
+        "start": 750,
+        "end": 790,
+        "callee": {
+          "type": "Identifier",
+          "start": 750,
+          "end": 768,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 769,
+            "end": 775,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 770,
+                "end": 774,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 777,
+            "end": 786,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 788,
+            "end": 789,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 792,
+      "end": 835,
+      "expression": {
+        "type": "CallExpression",
+        "start": 792,
+        "end": 834,
+        "callee": {
+          "type": "Identifier",
+          "start": 792,
+          "end": 810,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 811,
+            "end": 817,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 812,
+                "end": 816,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 819,
+            "end": 828,
+            "name": "undefined"
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 830,
+            "end": 833,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 831,
+              "end": 833,
+              "value": 10,
+              "raw": "10"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 836,
+      "end": 887,
+      "expression": {
+        "type": "CallExpression",
+        "start": 836,
+        "end": 886,
+        "callee": {
+          "type": "Identifier",
+          "start": 836,
+          "end": 854,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 855,
+            "end": 861,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 856,
+                "end": 860,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 863,
+            "end": 872,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 874,
+            "end": 885,
+            "value": 25324234235,
+            "raw": "25324234235"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 888,
+      "end": 932,
+      "expression": {
+        "type": "CallExpression",
+        "start": 888,
+        "end": 931,
+        "callee": {
+          "type": "Identifier",
+          "start": 888,
+          "end": 906,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 907,
+            "end": 913,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 908,
+                "end": 912,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 915,
+            "end": 924,
+            "name": "undefined"
+          },
+          {
+            "type": "Identifier",
+            "start": 926,
+            "end": 930,
+            "name": "num1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 933,
+      "end": 990,
+      "expression": {
+        "type": "CallExpression",
+        "start": 933,
+        "end": 989,
+        "callee": {
+          "type": "Identifier",
+          "start": 933,
+          "end": 951,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 952,
+            "end": 958,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 953,
+                "end": 957,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 960,
+            "end": 982,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 964,
+                "end": 980,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 964,
+                  "end": 969,
+                  "name": "style"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 971,
+                  "end": 980,
+                  "value": "percent",
+                  "raw": "'percent'"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 984,
+            "end": 988,
+            "name": "num2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 991,
+      "end": 1068,
+      "expression": {
+        "type": "CallExpression",
+        "start": 991,
+        "end": 1067,
+        "callee": {
+          "type": "Identifier",
+          "start": 991,
+          "end": 1009,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1010,
+            "end": 1016,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1011,
+                "end": 1015,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1018,
+            "end": 1060,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1022,
+                "end": 1039,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1022,
+                  "end": 1027,
+                  "name": "style"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1029,
+                  "end": 1039,
+                  "value": "currency",
+                  "raw": "'currency'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1043,
+                "end": 1058,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1043,
+                  "end": 1051,
+                  "name": "currency"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1053,
+                  "end": 1058,
+                  "value": "EUR",
+                  "raw": "'EUR'"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1062,
+            "end": 1066,
+            "name": "num1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1069,
+      "end": 1173,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1069,
+        "end": 1172,
+        "callee": {
+          "type": "Identifier",
+          "start": 1069,
+          "end": 1087,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1088,
+            "end": 1094,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1089,
+                "end": 1093,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1096,
+            "end": 1165,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1100,
+                "end": 1117,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1100,
+                  "end": 1105,
+                  "name": "style"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1107,
+                  "end": 1117,
+                  "value": "currency",
+                  "raw": "'currency'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1121,
+                "end": 1136,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1121,
+                  "end": 1129,
+                  "name": "currency"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1131,
+                  "end": 1136,
+                  "value": "EUR",
+                  "raw": "'EUR'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1140,
+                "end": 1163,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1140,
+                  "end": 1155,
+                  "name": "currencyDisplay"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1157,
+                  "end": 1163,
+                  "value": "code",
+                  "raw": "'code'"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1167,
+            "end": 1171,
+            "name": "num1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1174,
+      "end": 1232,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1174,
+        "end": 1231,
+        "callee": {
+          "type": "Identifier",
+          "start": 1174,
+          "end": 1192,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1193,
+            "end": 1199,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1194,
+                "end": 1198,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1201,
+            "end": 1224,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1205,
+                "end": 1222,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1205,
+                  "end": 1216,
+                  "name": "useGrouping"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1218,
+                  "end": 1222,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1226,
+            "end": 1230,
+            "name": "num1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1233,
+      "end": 1292,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1233,
+        "end": 1291,
+        "callee": {
+          "type": "Identifier",
+          "start": 1233,
+          "end": 1251,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1252,
+            "end": 1258,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1253,
+                "end": 1257,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1260,
+            "end": 1284,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1264,
+                "end": 1282,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1264,
+                  "end": 1275,
+                  "name": "useGrouping"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1277,
+                  "end": 1282,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1286,
+            "end": 1290,
+            "name": "num1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1293,
+      "end": 1357,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1293,
+        "end": 1356,
+        "callee": {
+          "type": "Identifier",
+          "start": 1293,
+          "end": 1311,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1312,
+            "end": 1318,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1313,
+                "end": 1317,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1320,
+            "end": 1349,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1324,
+                "end": 1347,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1324,
+                  "end": 1344,
+                  "name": "minimumIntegerDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1346,
+                  "end": 1347,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1351,
+            "end": 1355,
+            "name": "num2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1358,
+      "end": 1423,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1358,
+        "end": 1422,
+        "callee": {
+          "type": "Identifier",
+          "start": 1358,
+          "end": 1376,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1377,
+            "end": 1383,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1378,
+                "end": 1382,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1385,
+            "end": 1415,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1389,
+                "end": 1413,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1389,
+                  "end": 1410,
+                  "name": "minimumFractionDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1412,
+                  "end": 1413,
+                  "value": 6,
+                  "raw": "6"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1417,
+            "end": 1421,
+            "name": "num2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1424,
+      "end": 1489,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1424,
+        "end": 1488,
+        "callee": {
+          "type": "Identifier",
+          "start": 1424,
+          "end": 1442,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1443,
+            "end": 1449,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1444,
+                "end": 1448,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1451,
+            "end": 1481,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1455,
+                "end": 1479,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1455,
+                  "end": 1476,
+                  "name": "maximumFractionDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1478,
+                  "end": 1479,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1483,
+            "end": 1487,
+            "name": "num2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1490,
+      "end": 1558,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1490,
+        "end": 1557,
+        "callee": {
+          "type": "Identifier",
+          "start": 1490,
+          "end": 1508,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1509,
+            "end": 1515,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1510,
+                "end": 1514,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1517,
+            "end": 1550,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1521,
+                "end": 1548,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1521,
+                  "end": 1545,
+                  "name": "maximumSignificantDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1547,
+                  "end": 1548,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1552,
+            "end": 1556,
+            "name": "num1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1559,
+      "end": 1627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1559,
+        "end": 1626,
+        "callee": {
+          "type": "Identifier",
+          "start": 1559,
+          "end": 1577,
+          "name": "compareFTPtoFormat"
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 1578,
+            "end": 1584,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1579,
+                "end": 1583,
+                "value": "de",
+                "raw": "'de'"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1586,
+            "end": 1619,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1590,
+                "end": 1617,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1590,
+                  "end": 1614,
+                  "name": "maximumSignificantDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1616,
+                  "end": 1617,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1621,
+            "end": 1625,
+            "name": "num1"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

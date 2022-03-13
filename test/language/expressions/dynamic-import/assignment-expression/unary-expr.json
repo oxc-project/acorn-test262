@@ -1,0 +1,329 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 984,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 790,
+      "end": 819,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 796,
+          "end": 818,
+          "id": {
+            "type": "Identifier",
+            "start": 796,
+            "end": 799,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 802,
+            "end": 818,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 808,
+                "end": 816,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 808,
+                  "end": 812,
+                  "name": "prop"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 814,
+                  "end": 816,
+                  "value": 42,
+                  "raw": "42"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 821,
+      "end": 845,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 821,
+        "end": 844,
+        "source": {
+          "type": "UnaryExpression",
+          "start": 828,
+          "end": 843,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 835,
+            "end": 843,
+            "object": {
+              "type": "Identifier",
+              "start": 835,
+              "end": 838,
+              "name": "obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 839,
+              "end": 843,
+              "name": "prop"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 846,
+      "end": 861,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 846,
+        "end": 860,
+        "source": {
+          "type": "UnaryExpression",
+          "start": 853,
+          "end": 859,
+          "operator": "void",
+          "prefix": true,
+          "argument": {
+            "type": "Literal",
+            "start": 858,
+            "end": 859,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 862,
+      "end": 880,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 862,
+        "end": 879,
+        "source": {
+          "type": "UnaryExpression",
+          "start": 869,
+          "end": 878,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ObjectExpression",
+            "start": 876,
+            "end": 878,
+            "properties": []
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 881,
+      "end": 897,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 881,
+        "end": 896,
+        "source": {
+          "type": "UnaryExpression",
+          "start": 888,
+          "end": 895,
+          "operator": "+",
+          "prefix": true,
+          "argument": {
+            "type": "UnaryExpression",
+            "start": 889,
+            "end": 895,
+            "operator": "void",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 894,
+              "end": 895,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 898,
+      "end": 914,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 898,
+        "end": 913,
+        "source": {
+          "type": "UnaryExpression",
+          "start": 905,
+          "end": 912,
+          "operator": "-",
+          "prefix": true,
+          "argument": {
+            "type": "UnaryExpression",
+            "start": 906,
+            "end": 912,
+            "operator": "void",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 911,
+              "end": 912,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 915,
+      "end": 931,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 915,
+        "end": 930,
+        "source": {
+          "type": "UnaryExpression",
+          "start": 922,
+          "end": 929,
+          "operator": "!",
+          "prefix": true,
+          "argument": {
+            "type": "UnaryExpression",
+            "start": 923,
+            "end": 929,
+            "operator": "void",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 928,
+              "end": 929,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 932,
+      "end": 948,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 932,
+        "end": 947,
+        "source": {
+          "type": "UnaryExpression",
+          "start": 939,
+          "end": 946,
+          "operator": "~",
+          "prefix": true,
+          "argument": {
+            "type": "UnaryExpression",
+            "start": 940,
+            "end": 946,
+            "operator": "void",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 945,
+              "end": 946,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 949,
+      "end": 983,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 949,
+        "end": 982,
+        "source": {
+          "type": "UnaryExpression",
+          "start": 956,
+          "end": 981,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "UnaryExpression",
+            "start": 963,
+            "end": 981,
+            "operator": "void",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 968,
+              "end": 981,
+              "operator": "typeof",
+              "prefix": true,
+              "argument": {
+                "type": "UnaryExpression",
+                "start": 975,
+                "end": 981,
+                "operator": "+",
+                "prefix": true,
+                "argument": {
+                  "type": "UnaryExpression",
+                  "start": 976,
+                  "end": 981,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "UnaryExpression",
+                    "start": 977,
+                    "end": 981,
+                    "operator": "~",
+                    "prefix": true,
+                    "argument": {
+                      "type": "UnaryExpression",
+                      "start": 978,
+                      "end": 981,
+                      "operator": "!",
+                      "prefix": true,
+                      "argument": {
+                        "type": "Literal",
+                        "start": 980,
+                        "end": 981,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

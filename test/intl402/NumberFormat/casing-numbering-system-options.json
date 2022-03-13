@@ -1,0 +1,657 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1028,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 283,
+      "end": 352,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 287,
+          "end": 351,
+          "id": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 300,
+            "name": "defaultLocale"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 303,
+            "end": 351,
+            "object": {
+              "type": "CallExpression",
+              "start": 303,
+              "end": 344,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 303,
+                "end": 342,
+                "object": {
+                  "type": "NewExpression",
+                  "start": 303,
+                  "end": 326,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 307,
+                    "end": 324,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 307,
+                      "end": 311,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 312,
+                      "end": 324,
+                      "name": "NumberFormat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": []
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 327,
+                  "end": 342,
+                  "name": "resolvedOptions"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 345,
+              "end": 351,
+              "name": "locale"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 354,
+      "end": 519,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 358,
+          "end": 518,
+          "id": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 383,
+            "name": "supportedNumberingSystems"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 386,
+            "end": 518,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 386,
+              "end": 409,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 386,
+                "end": 402,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 387,
+                    "end": 393,
+                    "value": "latn",
+                    "raw": "\"latn\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 395,
+                    "end": 401,
+                    "value": "arab",
+                    "raw": "\"arab\""
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 403,
+                "end": 409,
+                "name": "filter"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 410,
+                "end": 516,
+                "id": null,
+                "expression": true,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 410,
+                    "end": 412,
+                    "name": "nu"
+                  }
+                ],
+                "body": {
+                  "type": "BinaryExpression",
+                  "start": 418,
+                  "end": 516,
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 418,
+                    "end": 509,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 418,
+                      "end": 493,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 418,
+                        "end": 491,
+                        "object": {
+                          "type": "NewExpression",
+                          "start": 418,
+                          "end": 470,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 422,
+                            "end": 439,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 422,
+                              "end": 426,
+                              "name": "Intl"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 427,
+                              "end": 439,
+                              "name": "NumberFormat"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "BinaryExpression",
+                              "start": 440,
+                              "end": 469,
+                              "left": {
+                                "type": "BinaryExpression",
+                                "start": 440,
+                                "end": 464,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 440,
+                                  "end": 453,
+                                  "name": "defaultLocale"
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 456,
+                                  "end": 464,
+                                  "value": "-u-nu-",
+                                  "raw": "\"-u-nu-\""
+                                }
+                              },
+                              "operator": "+",
+                              "right": {
+                                "type": "Identifier",
+                                "start": 467,
+                                "end": 469,
+                                "name": "nu"
+                              }
+                            }
+                          ]
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 476,
+                          "end": 491,
+                          "name": "resolvedOptions"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 494,
+                      "end": 509,
+                      "name": "numberingSystem"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "operator": "===",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 514,
+                    "end": 516,
+                    "name": "nu"
+                  }
+                }
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "IfStatement",
+      "start": 521,
+      "end": 773,
+      "test": {
+        "type": "CallExpression",
+        "start": 525,
+        "end": 567,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 525,
+          "end": 559,
+          "object": {
+            "type": "Identifier",
+            "start": 525,
+            "end": 550,
+            "name": "supportedNumberingSystems"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 551,
+            "end": 559,
+            "name": "includes"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 560,
+            "end": 566,
+            "value": "latn",
+            "raw": "\"latn\""
+          }
+        ],
+        "optional": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 569,
+        "end": 773,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 573,
+            "end": 644,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 577,
+                "end": 643,
+                "id": {
+                  "type": "Identifier",
+                  "start": 577,
+                  "end": 589,
+                  "name": "numberFormat"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 592,
+                  "end": 643,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 596,
+                    "end": 613,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 596,
+                      "end": 600,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 601,
+                      "end": 613,
+                      "name": "NumberFormat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 614,
+                      "end": 642,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 614,
+                        "end": 627,
+                        "name": "defaultLocale"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 630,
+                        "end": 642,
+                        "value": "-u-nu-lATn",
+                        "raw": "\"-u-nu-lATn\""
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 647,
+            "end": 771,
+            "expression": {
+              "type": "CallExpression",
+              "start": 647,
+              "end": 770,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 647,
+                "end": 663,
+                "object": {
+                  "type": "Identifier",
+                  "start": 647,
+                  "end": 653,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 654,
+                  "end": 663,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 664,
+                  "end": 710,
+                  "object": {
+                    "type": "CallExpression",
+                    "start": 664,
+                    "end": 694,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 664,
+                      "end": 692,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 664,
+                        "end": 676,
+                        "name": "numberFormat"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 677,
+                        "end": 692,
+                        "name": "resolvedOptions"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 695,
+                    "end": 710,
+                    "name": "numberingSystem"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 712,
+                  "end": 718,
+                  "value": "latn",
+                  "raw": "\"latn\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 720,
+                  "end": 769,
+                  "value": "Numbering system option should be in lower case",
+                  "raw": "\"Numbering system option should be in lower case\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 775,
+      "end": 1027,
+      "test": {
+        "type": "CallExpression",
+        "start": 779,
+        "end": 821,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 779,
+          "end": 813,
+          "object": {
+            "type": "Identifier",
+            "start": 779,
+            "end": 804,
+            "name": "supportedNumberingSystems"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 805,
+            "end": 813,
+            "name": "includes"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 814,
+            "end": 820,
+            "value": "arab",
+            "raw": "\"arab\""
+          }
+        ],
+        "optional": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 823,
+        "end": 1027,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 827,
+            "end": 898,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 831,
+                "end": 897,
+                "id": {
+                  "type": "Identifier",
+                  "start": 831,
+                  "end": 843,
+                  "name": "numberFormat"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 846,
+                  "end": 897,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 850,
+                    "end": 867,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 850,
+                      "end": 854,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 855,
+                      "end": 867,
+                      "name": "NumberFormat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 868,
+                      "end": 896,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 868,
+                        "end": 881,
+                        "name": "defaultLocale"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 884,
+                        "end": 896,
+                        "value": "-u-nu-Arab",
+                        "raw": "\"-u-nu-Arab\""
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 901,
+            "end": 1025,
+            "expression": {
+              "type": "CallExpression",
+              "start": 901,
+              "end": 1024,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 901,
+                "end": 917,
+                "object": {
+                  "type": "Identifier",
+                  "start": 901,
+                  "end": 907,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 908,
+                  "end": 917,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 918,
+                  "end": 964,
+                  "object": {
+                    "type": "CallExpression",
+                    "start": 918,
+                    "end": 948,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 918,
+                      "end": 946,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 918,
+                        "end": 930,
+                        "name": "numberFormat"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 931,
+                        "end": 946,
+                        "name": "resolvedOptions"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 949,
+                    "end": 964,
+                    "name": "numberingSystem"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 966,
+                  "end": 972,
+                  "value": "arab",
+                  "raw": "\"arab\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 974,
+                  "end": 1023,
+                  "value": "Numbering system option should be in lower case",
+                  "raw": "\"Numbering system option should be in lower case\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

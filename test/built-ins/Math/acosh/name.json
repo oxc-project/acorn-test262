@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 826,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 661,
+      "end": 704,
+      "expression": {
+        "type": "CallExpression",
+        "start": 661,
+        "end": 703,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 661,
+          "end": 677,
+          "object": {
+            "type": "Identifier",
+            "start": 661,
+            "end": 667,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 668,
+            "end": 677,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 678,
+            "end": 693,
+            "object": {
+              "type": "MemberExpression",
+              "start": 678,
+              "end": 688,
+              "object": {
+                "type": "Identifier",
+                "start": 678,
+                "end": 682,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 683,
+                "end": 688,
+                "name": "acosh"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 689,
+              "end": 693,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 695,
+            "end": 702,
+            "value": "acosh",
+            "raw": "\"acosh\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 706,
+      "end": 746,
+      "expression": {
+        "type": "CallExpression",
+        "start": 706,
+        "end": 745,
+        "callee": {
+          "type": "Identifier",
+          "start": 706,
+          "end": 725,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 726,
+            "end": 736,
+            "object": {
+              "type": "Identifier",
+              "start": 726,
+              "end": 730,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 731,
+              "end": 736,
+              "name": "acosh"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 738,
+            "end": 744,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 747,
+      "end": 785,
+      "expression": {
+        "type": "CallExpression",
+        "start": 747,
+        "end": 784,
+        "callee": {
+          "type": "Identifier",
+          "start": 747,
+          "end": 764,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 765,
+            "end": 775,
+            "object": {
+              "type": "Identifier",
+              "start": 765,
+              "end": 769,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 770,
+              "end": 775,
+              "name": "acosh"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 777,
+            "end": 783,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 786,
+      "end": 825,
+      "expression": {
+        "type": "CallExpression",
+        "start": 786,
+        "end": 824,
+        "callee": {
+          "type": "Identifier",
+          "start": 786,
+          "end": 804,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 805,
+            "end": 815,
+            "object": {
+              "type": "Identifier",
+              "start": 805,
+              "end": 809,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 810,
+              "end": 815,
+              "name": "acosh"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 817,
+            "end": 823,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

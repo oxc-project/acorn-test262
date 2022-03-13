@@ -1,0 +1,431 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1501,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 916,
+      "end": 972,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 922,
+          "end": 971,
+          "id": {
+            "type": "Identifier",
+            "start": 922,
+            "end": 924,
+            "name": "p1"
+          },
+          "init": {
+            "type": "ImportExpression",
+            "start": 927,
+            "end": 971,
+            "source": {
+              "type": "Literal",
+              "start": 934,
+              "end": 970,
+              "value": "./dynamic-import-module_FIXTURE.js",
+              "raw": "'./dynamic-import-module_FIXTURE.js'"
+            }
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 973,
+      "end": 1029,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 979,
+          "end": 1028,
+          "id": {
+            "type": "Identifier",
+            "start": 979,
+            "end": 981,
+            "name": "p2"
+          },
+          "init": {
+            "type": "ImportExpression",
+            "start": 984,
+            "end": 1028,
+            "source": {
+              "type": "Literal",
+              "start": 991,
+              "end": 1027,
+              "value": "./dynamic-import-module_FIXTURE.js",
+              "raw": "'./dynamic-import-module_FIXTURE.js'"
+            }
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1031,
+      "end": 1146,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1031,
+        "end": 1145,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1031,
+          "end": 1050,
+          "object": {
+            "type": "Identifier",
+            "start": 1031,
+            "end": 1037,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1038,
+            "end": 1050,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1051,
+            "end": 1053,
+            "name": "p1"
+          },
+          {
+            "type": "Identifier",
+            "start": 1055,
+            "end": 1057,
+            "name": "p2"
+          },
+          {
+            "type": "Literal",
+            "start": 1059,
+            "end": 1144,
+            "value": "the returned promises are not the same, regardless the reference and specifier pair",
+            "raw": "'the returned promises are not the same, regardless the reference and specifier pair'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1148,
+      "end": 1221,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1148,
+        "end": 1220,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1148,
+          "end": 1164,
+          "object": {
+            "type": "Identifier",
+            "start": 1148,
+            "end": 1154,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1155,
+            "end": 1164,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1165,
+            "end": 1179,
+            "object": {
+              "type": "Identifier",
+              "start": 1165,
+              "end": 1167,
+              "name": "p1"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1168,
+              "end": 1179,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1181,
+            "end": 1188,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 1190,
+            "end": 1219,
+            "value": "p1 constructor is %Promise%",
+            "raw": "'p1 constructor is %Promise%'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1222,
+      "end": 1323,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1222,
+        "end": 1322,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1222,
+          "end": 1238,
+          "object": {
+            "type": "Identifier",
+            "start": 1222,
+            "end": 1228,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1229,
+            "end": 1238,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1239,
+            "end": 1264,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1239,
+              "end": 1260,
+              "object": {
+                "type": "Identifier",
+                "start": 1239,
+                "end": 1245,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1246,
+                "end": 1260,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1261,
+                "end": 1263,
+                "name": "p1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1266,
+            "end": 1283,
+            "object": {
+              "type": "Identifier",
+              "start": 1266,
+              "end": 1273,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1274,
+              "end": 1283,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1285,
+            "end": 1321,
+            "value": "p1 prototype is %PromisePrototype%",
+            "raw": "'p1 prototype is %PromisePrototype%'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1325,
+      "end": 1398,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1325,
+        "end": 1397,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1325,
+          "end": 1341,
+          "object": {
+            "type": "Identifier",
+            "start": 1325,
+            "end": 1331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1332,
+            "end": 1341,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1342,
+            "end": 1356,
+            "object": {
+              "type": "Identifier",
+              "start": 1342,
+              "end": 1344,
+              "name": "p2"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1345,
+              "end": 1356,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1358,
+            "end": 1365,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 1367,
+            "end": 1396,
+            "value": "p2 constructor is %Promise%",
+            "raw": "'p2 constructor is %Promise%'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1399,
+      "end": 1500,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1399,
+        "end": 1499,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1399,
+          "end": 1415,
+          "object": {
+            "type": "Identifier",
+            "start": 1399,
+            "end": 1405,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1406,
+            "end": 1415,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1416,
+            "end": 1441,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1416,
+              "end": 1437,
+              "object": {
+                "type": "Identifier",
+                "start": 1416,
+                "end": 1422,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1423,
+                "end": 1437,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1438,
+                "end": 1440,
+                "name": "p2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1443,
+            "end": 1460,
+            "object": {
+              "type": "Identifier",
+              "start": 1443,
+              "end": 1450,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1451,
+              "end": 1460,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1462,
+            "end": 1498,
+            "value": "p2 prototype is %PromisePrototype%",
+            "raw": "'p2 prototype is %PromisePrototype%'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

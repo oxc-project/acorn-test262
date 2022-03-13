@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 602,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 411,
+      "end": 488,
+      "expression": {
+        "type": "CallExpression",
+        "start": 411,
+        "end": 487,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 411,
+          "end": 427,
+          "object": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 417,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 427,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 431,
+            "end": 442,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 438,
+              "end": 442,
+              "value": null,
+              "raw": "null"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 447,
+            "end": 455,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 459,
+            "end": 485,
+            "value": "typeof null === \"object\"",
+            "raw": "'typeof null === \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 490,
+      "end": 601,
+      "expression": {
+        "type": "CallExpression",
+        "start": 490,
+        "end": 600,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 490,
+          "end": 506,
+          "object": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 496,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 497,
+            "end": 506,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 510,
+            "end": 538,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 517,
+              "end": 538,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 517,
+                "end": 533,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 517,
+                  "end": 528,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 517,
+                    "end": 523,
+                    "name": "RegExp"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 524,
+                      "end": 527,
+                      "value": "0",
+                      "raw": "\"0\""
+                    }
+                  ],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 529,
+                  "end": 533,
+                  "name": "exec"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 534,
+                  "end": 537,
+                  "value": "1",
+                  "raw": "\"1\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 543,
+            "end": 551,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 555,
+            "end": 598,
+            "value": "typeof RegExp(\"0\").exec(\"1\") === \"object\"",
+            "raw": "'typeof RegExp(\"0\").exec(\"1\") === \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

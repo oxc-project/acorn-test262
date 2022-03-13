@@ -1,0 +1,160 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 493,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 378,
+      "end": 394,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 382,
+          "end": 385,
+          "id": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 383,
+            "name": "a"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 384,
+            "end": 385,
+            "value": 1,
+            "raw": "1"
+          }
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 386,
+          "end": 389,
+          "id": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 387,
+            "name": "b"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 388,
+            "end": 389,
+            "value": 2,
+            "raw": "2"
+          }
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 390,
+          "end": 393,
+          "id": {
+            "type": "Identifier",
+            "start": 390,
+            "end": 391,
+            "name": "c"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 392,
+            "end": 393,
+            "value": 3,
+            "raw": "3"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 395,
+      "end": 398,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 395,
+        "end": 398,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 395,
+          "end": 396,
+          "name": "a"
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 397,
+          "end": 398,
+          "name": "b"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 399,
+      "end": 402,
+      "expression": {
+        "type": "UpdateExpression",
+        "start": 399,
+        "end": 402,
+        "operator": "++",
+        "prefix": true,
+        "argument": {
+          "type": "Identifier",
+          "start": 401,
+          "end": 402,
+          "name": "c"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 404,
+      "end": 492,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 408,
+        "end": 413,
+        "left": {
+          "type": "Identifier",
+          "start": 408,
+          "end": 409,
+          "name": "a"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 412,
+          "end": 413,
+          "name": "b"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 415,
+        "end": 492,
+        "argument": {
+          "type": "NewExpression",
+          "start": 421,
+          "end": 491,
+          "callee": {
+            "type": "Identifier",
+            "start": 425,
+            "end": 437,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 438,
+              "end": 490,
+              "value": "#1: Automatic semicolon insertion not work with ++",
+              "raw": "'#1: Automatic semicolon insertion not work with ++'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

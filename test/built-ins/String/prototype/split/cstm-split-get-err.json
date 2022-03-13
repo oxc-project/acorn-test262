@@ -1,0 +1,240 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 639,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 431,
+      "end": 454,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 435,
+          "end": 453,
+          "id": {
+            "type": "Identifier",
+            "start": 435,
+            "end": 448,
+            "name": "poisonedSplit"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 451,
+            "end": 453,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 455,
+      "end": 565,
+      "expression": {
+        "type": "CallExpression",
+        "start": 455,
+        "end": 564,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 455,
+          "end": 476,
+          "object": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 461,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 476,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 477,
+            "end": 490,
+            "name": "poisonedSplit"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 492,
+            "end": 504,
+            "object": {
+              "type": "Identifier",
+              "start": 492,
+              "end": 498,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 499,
+              "end": 504,
+              "name": "split"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 506,
+            "end": 563,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 510,
+                "end": 561,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 510,
+                  "end": 513,
+                  "name": "get"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 515,
+                  "end": 561,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 526,
+                    "end": 561,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 532,
+                        "end": 557,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 538,
+                          "end": 556,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 542,
+                            "end": 554,
+                            "name": "Test262Error"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 567,
+      "end": 638,
+      "expression": {
+        "type": "CallExpression",
+        "start": 567,
+        "end": 637,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 567,
+          "end": 580,
+          "object": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 573,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 574,
+            "end": 580,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 581,
+            "end": 593,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 595,
+            "end": 636,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 606,
+              "end": 636,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 610,
+                  "end": 634,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 610,
+                    "end": 633,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 610,
+                      "end": 618,
+                      "object": {
+                        "type": "Literal",
+                        "start": 610,
+                        "end": 612,
+                        "value": "",
+                        "raw": "''"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 613,
+                        "end": 618,
+                        "name": "split"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 619,
+                        "end": 632,
+                        "name": "poisonedSplit"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

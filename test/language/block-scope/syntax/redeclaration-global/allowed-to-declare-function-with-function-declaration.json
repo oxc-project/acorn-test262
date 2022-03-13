@@ -1,0 +1,29 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 281,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 264,
+      "end": 279,
+      "id": {
+        "type": "Identifier",
+        "start": 273,
+        "end": 274,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 277,
+        "end": 279,
+        "body": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

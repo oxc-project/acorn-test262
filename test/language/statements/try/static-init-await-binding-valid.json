@@ -1,0 +1,90 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 558,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 490,
+      "end": 557,
+      "id": {
+        "type": "Identifier",
+        "start": 496,
+        "end": 497,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 498,
+        "end": 557,
+        "body": [
+          {
+            "type": "StaticBlock",
+            "start": 502,
+            "end": 555,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 515,
+                "end": 551,
+                "expression": {
+                  "type": "ParenthesizedExpression",
+                  "start": 515,
+                  "end": 550,
+                  "expression": {
+                    "type": "ArrowFunctionExpression",
+                    "start": 516,
+                    "end": 549,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 522,
+                      "end": 549,
+                      "body": [
+                        {
+                          "type": "TryStatement",
+                          "start": 524,
+                          "end": 547,
+                          "block": {
+                            "type": "BlockStatement",
+                            "start": 528,
+                            "end": 530,
+                            "body": []
+                          },
+                          "handler": {
+                            "type": "CatchClause",
+                            "start": 531,
+                            "end": 547,
+                            "param": {
+                              "type": "Identifier",
+                              "start": 538,
+                              "end": 543,
+                              "name": "await"
+                            },
+                            "body": {
+                              "type": "BlockStatement",
+                              "start": 545,
+                              "end": 547,
+                              "body": []
+                            }
+                          },
+                          "finalizer": null
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

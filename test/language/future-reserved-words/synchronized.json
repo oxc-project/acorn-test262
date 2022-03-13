@@ -1,0 +1,34 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 378,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 356,
+      "end": 377,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 360,
+          "end": 376,
+          "id": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 372,
+            "name": "synchronized"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 375,
+            "end": 376,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,241 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 665,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 304,
+      "end": 447,
+      "expression": {
+        "type": "CallExpression",
+        "start": 304,
+        "end": 446,
+        "callee": {
+          "type": "Identifier",
+          "start": 304,
+          "end": 310,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 314,
+            "end": 357,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 315,
+              "end": 357,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 315,
+                "end": 344,
+                "object": {
+                  "type": "Identifier",
+                  "start": 315,
+                  "end": 323,
+                  "name": "Function"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 324,
+                  "end": 344,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 345,
+                  "end": 356,
+                  "value": "prototype",
+                  "raw": "'prototype'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 361,
+            "end": 444,
+            "value": "The value of !Function.propertyIsEnumerable('prototype') is expected to be true",
+            "raw": "'The value of !Function.propertyIsEnumerable(\\'prototype\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 460,
+      "end": 474,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 464,
+          "end": 473,
+          "id": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 469,
+            "name": "count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 472,
+            "end": 473,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForInStatement",
+      "start": 476,
+      "end": 547,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 481,
+        "end": 486,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 485,
+            "end": 486,
+            "id": {
+              "type": "Identifier",
+              "start": 485,
+              "end": 486,
+              "name": "p"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 490,
+        "end": 498,
+        "name": "Function"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 500,
+        "end": 547,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 504,
+            "end": 545,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 508,
+              "end": 525,
+              "left": {
+                "type": "Identifier",
+                "start": 508,
+                "end": 509,
+                "name": "p"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 514,
+                "end": 525,
+                "value": "prototype",
+                "raw": "\"prototype\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 527,
+              "end": 545,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 533,
+                  "end": 541,
+                  "expression": {
+                    "type": "UpdateExpression",
+                    "start": 533,
+                    "end": 540,
+                    "operator": "++",
+                    "prefix": false,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 533,
+                      "end": 538,
+                      "name": "count"
+                    }
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 549,
+      "end": 618,
+      "expression": {
+        "type": "CallExpression",
+        "start": 549,
+        "end": 617,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 549,
+          "end": 565,
+          "object": {
+            "type": "Identifier",
+            "start": 549,
+            "end": 555,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 565,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 566,
+            "end": 571,
+            "name": "count"
+          },
+          {
+            "type": "Literal",
+            "start": 573,
+            "end": 574,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 576,
+            "end": 616,
+            "value": "The value of count is expected to be 0",
+            "raw": "'The value of count is expected to be 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

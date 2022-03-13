@@ -1,0 +1,580 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 883,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 351,
+      "end": 374,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 351,
+        "end": 373,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 351,
+          "end": 369,
+          "object": {
+            "type": "MemberExpression",
+            "start": 351,
+            "end": 366,
+            "object": {
+              "type": "Identifier",
+              "start": 351,
+              "end": 356,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 357,
+              "end": 366,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 367,
+            "end": 368,
+            "value": 1,
+            "raw": "1"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 372,
+          "end": 373,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 375,
+      "end": 387,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 379,
+          "end": 386,
+          "id": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 380,
+            "name": "x"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 383,
+            "end": 386,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 384,
+                "end": 385,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 401,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 388,
+        "end": 400,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 388,
+          "end": 396,
+          "object": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 389,
+            "name": "x"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 390,
+            "end": 396,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 399,
+          "end": 400,
+          "value": 2,
+          "raw": "2"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 402,
+      "end": 551,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 406,
+        "end": 424,
+        "left": {
+          "type": "CallExpression",
+          "start": 406,
+          "end": 414,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 406,
+            "end": 412,
+            "object": {
+              "type": "Identifier",
+              "start": 406,
+              "end": 407,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 408,
+              "end": 412,
+              "name": "join"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 419,
+          "end": 424,
+          "value": "0,1",
+          "raw": "\"0,1\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 426,
+        "end": 551,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 430,
+            "end": 549,
+            "argument": {
+              "type": "NewExpression",
+              "start": 436,
+              "end": 548,
+              "callee": {
+                "type": "Identifier",
+                "start": 440,
+                "end": 452,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 453,
+                  "end": 547,
+                  "left": {
+                    "type": "Literal",
+                    "start": 453,
+                    "end": 534,
+                    "value": "#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.join() === \"0,1\". Actual: ",
+                    "raw": "'#1: Array.prototype[1] = 1; x = [0]; x.length = 2; x.join() === \"0,1\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 537,
+                    "end": 547,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 538,
+                      "end": 546,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 538,
+                        "end": 544,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 538,
+                          "end": 539,
+                          "name": "x"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 540,
+                          "end": 544,
+                          "name": "join"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 553,
+      "end": 577,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 553,
+        "end": 576,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 553,
+          "end": 572,
+          "object": {
+            "type": "MemberExpression",
+            "start": 553,
+            "end": 569,
+            "object": {
+              "type": "Identifier",
+              "start": 553,
+              "end": 559,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 560,
+              "end": 569,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 570,
+            "end": 571,
+            "value": 1,
+            "raw": "1"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 575,
+          "end": 576,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 578,
+      "end": 606,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 578,
+        "end": 605,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 578,
+          "end": 601,
+          "object": {
+            "type": "MemberExpression",
+            "start": 578,
+            "end": 594,
+            "object": {
+              "type": "Identifier",
+              "start": 578,
+              "end": 584,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 585,
+              "end": 594,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 595,
+            "end": 601,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 604,
+          "end": 605,
+          "value": 2,
+          "raw": "2"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 607,
+      "end": 652,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 607,
+        "end": 651,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 607,
+          "end": 628,
+          "object": {
+            "type": "MemberExpression",
+            "start": 607,
+            "end": 623,
+            "object": {
+              "type": "Identifier",
+              "start": 607,
+              "end": 613,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 614,
+              "end": 623,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 624,
+            "end": 628,
+            "name": "join"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 631,
+          "end": 651,
+          "object": {
+            "type": "MemberExpression",
+            "start": 631,
+            "end": 646,
+            "object": {
+              "type": "Identifier",
+              "start": 631,
+              "end": 636,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 637,
+              "end": 646,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 647,
+            "end": 651,
+            "name": "join"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 653,
+      "end": 668,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 653,
+        "end": 667,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 653,
+          "end": 654,
+          "name": "x"
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 657,
+          "end": 667,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 661,
+              "end": 665,
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Literal",
+                "start": 661,
+                "end": 662,
+                "value": 0,
+                "raw": "0"
+              },
+              "value": {
+                "type": "Literal",
+                "start": 664,
+                "end": 665,
+                "value": 0,
+                "raw": "0"
+              },
+              "kind": "init"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 669,
+      "end": 882,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 673,
+        "end": 691,
+        "left": {
+          "type": "CallExpression",
+          "start": 673,
+          "end": 681,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 673,
+            "end": 679,
+            "object": {
+              "type": "Identifier",
+              "start": 673,
+              "end": 674,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 675,
+              "end": 679,
+              "name": "join"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 686,
+          "end": 691,
+          "value": "0,1",
+          "raw": "\"0,1\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 693,
+        "end": 882,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 697,
+            "end": 880,
+            "argument": {
+              "type": "NewExpression",
+              "start": 703,
+              "end": 879,
+              "callee": {
+                "type": "Identifier",
+                "start": 707,
+                "end": 719,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 720,
+                  "end": 878,
+                  "left": {
+                    "type": "Literal",
+                    "start": 720,
+                    "end": 865,
+                    "value": "#2: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.join = Array.prototype.join; x = {0:0}; x.join() === \"0,1\". Actual: ",
+                    "raw": "'#2: Object.prototype[1] = 1; Object.prototype.length = 2; Object.prototype.join = Array.prototype.join; x = {0:0}; x.join() === \"0,1\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 868,
+                    "end": 878,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 869,
+                      "end": 877,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 869,
+                        "end": 875,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 869,
+                          "end": 870,
+                          "name": "x"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 871,
+                          "end": 875,
+                          "name": "join"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

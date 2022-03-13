@@ -1,0 +1,349 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 618,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 325,
+      "end": 395,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 329,
+          "end": 394,
+          "id": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 341,
+            "name": "DecimalDigit"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 344,
+            "end": 394,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 345,
+                "end": 348,
+                "value": "0",
+                "raw": "\"0\""
+              },
+              {
+                "type": "Literal",
+                "start": 350,
+                "end": 353,
+                "value": "1",
+                "raw": "\"1\""
+              },
+              {
+                "type": "Literal",
+                "start": 355,
+                "end": 358,
+                "value": "2",
+                "raw": "\"2\""
+              },
+              {
+                "type": "Literal",
+                "start": 360,
+                "end": 363,
+                "value": "3",
+                "raw": "\"3\""
+              },
+              {
+                "type": "Literal",
+                "start": 365,
+                "end": 368,
+                "value": "4",
+                "raw": "\"4\""
+              },
+              {
+                "type": "Literal",
+                "start": 370,
+                "end": 373,
+                "value": "5",
+                "raw": "\"5\""
+              },
+              {
+                "type": "Literal",
+                "start": 375,
+                "end": 378,
+                "value": "6",
+                "raw": "\"6\""
+              },
+              {
+                "type": "Literal",
+                "start": 380,
+                "end": 383,
+                "value": "7",
+                "raw": "\"7\""
+              },
+              {
+                "type": "Literal",
+                "start": 385,
+                "end": 388,
+                "value": "8",
+                "raw": "\"8\""
+              },
+              {
+                "type": "Literal",
+                "start": 390,
+                "end": 393,
+                "value": "9",
+                "raw": "\"9\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 396,
+      "end": 617,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 401,
+        "end": 415,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 405,
+            "end": 415,
+            "id": {
+              "type": "Identifier",
+              "start": 405,
+              "end": 411,
+              "name": "indexC"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 414,
+              "end": 415,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 417,
+        "end": 445,
+        "left": {
+          "type": "Identifier",
+          "start": 417,
+          "end": 423,
+          "name": "indexC"
+        },
+        "operator": "<",
+        "right": {
+          "type": "MemberExpression",
+          "start": 426,
+          "end": 445,
+          "object": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 438,
+            "name": "DecimalDigit"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 445,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 447,
+        "end": 455,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 447,
+          "end": 453,
+          "name": "indexC"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 457,
+        "end": 617,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 461,
+            "end": 492,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 465,
+                "end": 491,
+                "id": {
+                  "type": "Identifier",
+                  "start": 465,
+                  "end": 468,
+                  "name": "str"
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "start": 471,
+                  "end": 491,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 471,
+                    "end": 483,
+                    "name": "DecimalDigit"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 484,
+                    "end": 490,
+                    "name": "indexC"
+                  },
+                  "computed": true,
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "IfStatement",
+            "start": 495,
+            "end": 615,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 499,
+              "end": 521,
+              "left": {
+                "type": "CallExpression",
+                "start": 499,
+                "end": 513,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 499,
+                  "end": 508,
+                  "name": "encodeURI"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 509,
+                    "end": 512,
+                    "name": "str"
+                  }
+                ],
+                "optional": false
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Identifier",
+                "start": 518,
+                "end": 521,
+                "name": "str"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 523,
+              "end": 615,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 529,
+                  "end": 611,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 535,
+                    "end": 610,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 539,
+                      "end": 551,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 552,
+                        "end": 609,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 552,
+                          "end": 603,
+                          "left": {
+                            "type": "BinaryExpression",
+                            "start": 552,
+                            "end": 570,
+                            "left": {
+                              "type": "Literal",
+                              "start": 552,
+                              "end": 555,
+                              "value": "#",
+                              "raw": "'#'"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "ParenthesizedExpression",
+                              "start": 558,
+                              "end": 570,
+                              "expression": {
+                                "type": "BinaryExpression",
+                                "start": 559,
+                                "end": 569,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 559,
+                                  "end": 565,
+                                  "name": "indexC"
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 568,
+                                  "end": 569,
+                                  "value": 1,
+                                  "raw": "1"
+                                }
+                              }
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 573,
+                            "end": 603,
+                            "value": ": unescapedURISet containing",
+                            "raw": "': unescapedURISet containing'"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 606,
+                          "end": 609,
+                          "name": "str"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

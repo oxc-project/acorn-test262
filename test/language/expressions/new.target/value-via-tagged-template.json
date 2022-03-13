@@ -1,0 +1,168 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 558,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 445,
+      "end": 466,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 449,
+          "end": 465,
+          "id": {
+            "type": "Identifier",
+            "start": 449,
+            "end": 458,
+            "name": "newTarget"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 461,
+            "end": 465,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 468,
+      "end": 510,
+      "id": {
+        "type": "Identifier",
+        "start": 477,
+        "end": 478,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 481,
+        "end": 510,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 485,
+            "end": 508,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 485,
+              "end": 507,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 485,
+                "end": 494,
+                "name": "newTarget"
+              },
+              "right": {
+                "type": "MetaProperty",
+                "start": 497,
+                "end": 507,
+                "meta": {
+                  "type": "Identifier",
+                  "start": 497,
+                  "end": 500,
+                  "name": "new"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 501,
+                  "end": 507,
+                  "name": "target"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 512,
+      "end": 516,
+      "expression": {
+        "type": "TaggedTemplateExpression",
+        "start": 512,
+        "end": 515,
+        "tag": {
+          "type": "Identifier",
+          "start": 512,
+          "end": 513,
+          "name": "f"
+        },
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 513,
+          "end": 515,
+          "expressions": [],
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 514,
+              "end": 514,
+              "value": {
+                "raw": "",
+                "cooked": ""
+              },
+              "tail": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 518,
+      "end": 557,
+      "expression": {
+        "type": "CallExpression",
+        "start": 518,
+        "end": 556,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 518,
+          "end": 534,
+          "object": {
+            "type": "Identifier",
+            "start": 518,
+            "end": 524,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 525,
+            "end": 534,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 535,
+            "end": 544,
+            "name": "newTarget"
+          },
+          {
+            "type": "Identifier",
+            "start": 546,
+            "end": 555,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

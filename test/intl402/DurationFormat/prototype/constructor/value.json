@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 466,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 300,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 300,
+        "end": 464,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 300,
+          "end": 316,
+          "object": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 306,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 316,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 317,
+            "end": 358,
+            "object": {
+              "type": "MemberExpression",
+              "start": 317,
+              "end": 346,
+              "object": {
+                "type": "MemberExpression",
+                "start": 317,
+                "end": 336,
+                "object": {
+                  "type": "Identifier",
+                  "start": 317,
+                  "end": 321,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 322,
+                  "end": 336,
+                  "name": "DurationFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 346,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 347,
+              "end": 358,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 360,
+            "end": 379,
+            "object": {
+              "type": "Identifier",
+              "start": 360,
+              "end": 364,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 365,
+              "end": 379,
+              "name": "DurationFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 381,
+            "end": 463,
+            "value": "Intl.DurationFormat.prototype.constructor is not the same as Intl.DurationFormat",
+            "raw": "\"Intl.DurationFormat.prototype.constructor is not the same as Intl.DurationFormat\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

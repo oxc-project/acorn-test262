@@ -1,0 +1,218 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 762,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 261,
+      "end": 295,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 265,
+          "end": 294,
+          "id": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 275,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 278,
+            "end": 294,
+            "callee": {
+              "type": "Identifier",
+              "start": 282,
+              "end": 288,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 289,
+                "end": 293,
+                "value": true,
+                "raw": "true"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 297,
+      "end": 351,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 297,
+        "end": 350,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 297,
+          "end": 319,
+          "object": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 307,
+            "name": "__instance"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 319,
+            "name": "toLowerCase"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 322,
+          "end": 350,
+          "object": {
+            "type": "MemberExpression",
+            "start": 322,
+            "end": 338,
+            "object": {
+              "type": "Identifier",
+              "start": 322,
+              "end": 328,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 329,
+              "end": 338,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 350,
+            "name": "toLowerCase"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 442,
+      "end": 679,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 446,
+        "end": 481,
+        "left": {
+          "type": "CallExpression",
+          "start": 446,
+          "end": 470,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 446,
+            "end": 468,
+            "object": {
+              "type": "Identifier",
+              "start": 446,
+              "end": 456,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 457,
+              "end": 468,
+              "name": "toLowerCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 475,
+          "end": 481,
+          "value": "true",
+          "raw": "\"true\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 483,
+        "end": 679,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 487,
+            "end": 677,
+            "argument": {
+              "type": "NewExpression",
+              "start": 493,
+              "end": 676,
+              "callee": {
+                "type": "Identifier",
+                "start": 497,
+                "end": 509,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 510,
+                  "end": 675,
+                  "left": {
+                    "type": "Literal",
+                    "start": 510,
+                    "end": 648,
+                    "value": "#1: __instance = new Object(true); __instance.toLowerCase = String.prototype.toLowerCase;  __instance.toLowerCase() === \"true\". Actual: ",
+                    "raw": "'#1: __instance = new Object(true); __instance.toLowerCase = String.prototype.toLowerCase;  __instance.toLowerCase() === \"true\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 651,
+                    "end": 675,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 651,
+                      "end": 673,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 651,
+                        "end": 661,
+                        "name": "__instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 662,
+                        "end": 673,
+                        "name": "toLowerCase"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

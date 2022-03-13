@@ -1,0 +1,112 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 504,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 420,
+      "end": 503,
+      "expression": {
+        "type": "CallExpression",
+        "start": 420,
+        "end": 502,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 420,
+          "end": 436,
+          "object": {
+            "type": "Identifier",
+            "start": 420,
+            "end": 426,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 436,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 437,
+            "end": 483,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 437,
+              "end": 467,
+              "object": {
+                "type": "MemberExpression",
+                "start": 437,
+                "end": 462,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 437,
+                  "end": 453,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 437,
+                    "end": 443,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 444,
+                    "end": 453,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 454,
+                  "end": 462,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 463,
+                "end": 467,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 468,
+                "end": 482,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 472,
+                  "end": 482,
+                  "name": "RangeError"
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 485,
+            "end": 501,
+            "value": "[object Error]",
+            "raw": "\"[object Error]\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

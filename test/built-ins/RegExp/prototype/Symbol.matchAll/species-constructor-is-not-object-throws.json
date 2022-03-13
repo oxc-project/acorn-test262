@@ -1,0 +1,558 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1283,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 704,
+      "end": 721,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 708,
+          "end": 720,
+          "id": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 714,
+            "name": "regexp"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 717,
+            "end": 720,
+            "value": {},
+            "raw": "/./",
+            "regex": {
+              "pattern": ".",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 723,
+      "end": 779,
+      "id": {
+        "type": "Identifier",
+        "start": 732,
+        "end": 744,
+        "name": "callMatchAll"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 747,
+        "end": 779,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 749,
+            "end": 777,
+            "expression": {
+              "type": "CallExpression",
+              "start": 749,
+              "end": 776,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 749,
+                "end": 772,
+                "object": {
+                  "type": "Identifier",
+                  "start": 749,
+                  "end": 755,
+                  "name": "regexp"
+                },
+                "property": {
+                  "type": "MemberExpression",
+                  "start": 756,
+                  "end": 771,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 756,
+                    "end": 762,
+                    "name": "Symbol"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 763,
+                    "end": 771,
+                    "name": "matchAll"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "computed": true,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 773,
+                  "end": 775,
+                  "value": "",
+                  "raw": "''"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 781,
+      "end": 807,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 781,
+        "end": 806,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 781,
+          "end": 799,
+          "object": {
+            "type": "Identifier",
+            "start": 781,
+            "end": 787,
+            "name": "regexp"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 788,
+            "end": 799,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 802,
+          "end": 806,
+          "value": null,
+          "raw": "null"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 808,
+      "end": 878,
+      "expression": {
+        "type": "CallExpression",
+        "start": 808,
+        "end": 877,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 808,
+          "end": 821,
+          "object": {
+            "type": "Identifier",
+            "start": 808,
+            "end": 814,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 815,
+            "end": 821,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 822,
+            "end": 831,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 833,
+            "end": 845,
+            "name": "callMatchAll"
+          },
+          {
+            "type": "Literal",
+            "start": 847,
+            "end": 876,
+            "value": "`constructor` value is null",
+            "raw": "\"`constructor` value is null\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 880,
+      "end": 906,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 880,
+        "end": 905,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 880,
+          "end": 898,
+          "object": {
+            "type": "Identifier",
+            "start": 880,
+            "end": 886,
+            "name": "regexp"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 887,
+            "end": 898,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 901,
+          "end": 905,
+          "value": true,
+          "raw": "true"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 907,
+      "end": 980,
+      "expression": {
+        "type": "CallExpression",
+        "start": 907,
+        "end": 979,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 907,
+          "end": 920,
+          "object": {
+            "type": "Identifier",
+            "start": 907,
+            "end": 913,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 914,
+            "end": 920,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 921,
+            "end": 930,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 932,
+            "end": 944,
+            "name": "callMatchAll"
+          },
+          {
+            "type": "Literal",
+            "start": 946,
+            "end": 978,
+            "value": "`constructor` value is Boolean",
+            "raw": "\"`constructor` value is Boolean\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 982,
+      "end": 1006,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 982,
+        "end": 1005,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 982,
+          "end": 1000,
+          "object": {
+            "type": "Identifier",
+            "start": 982,
+            "end": 988,
+            "name": "regexp"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 989,
+            "end": 1000,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1003,
+          "end": 1005,
+          "value": "",
+          "raw": "\"\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1007,
+      "end": 1079,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1007,
+        "end": 1078,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1007,
+          "end": 1020,
+          "object": {
+            "type": "Identifier",
+            "start": 1007,
+            "end": 1013,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1014,
+            "end": 1020,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1021,
+            "end": 1030,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 1032,
+            "end": 1044,
+            "name": "callMatchAll"
+          },
+          {
+            "type": "Literal",
+            "start": 1046,
+            "end": 1077,
+            "value": "`constructor` value is String",
+            "raw": "\"`constructor` value is String\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1081,
+      "end": 1111,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1081,
+        "end": 1110,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1081,
+          "end": 1099,
+          "object": {
+            "type": "Identifier",
+            "start": 1081,
+            "end": 1087,
+            "name": "regexp"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1088,
+            "end": 1099,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1102,
+          "end": 1110,
+          "callee": {
+            "type": "Identifier",
+            "start": 1102,
+            "end": 1108,
+            "name": "Symbol"
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1112,
+      "end": 1184,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1112,
+        "end": 1183,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1112,
+          "end": 1125,
+          "object": {
+            "type": "Identifier",
+            "start": 1112,
+            "end": 1118,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1119,
+            "end": 1125,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1126,
+            "end": 1135,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 1137,
+            "end": 1149,
+            "name": "callMatchAll"
+          },
+          {
+            "type": "Literal",
+            "start": 1151,
+            "end": 1182,
+            "value": "`constructor` value is Symbol",
+            "raw": "\"`constructor` value is Symbol\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1186,
+      "end": 1209,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1186,
+        "end": 1208,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1186,
+          "end": 1204,
+          "object": {
+            "type": "Identifier",
+            "start": 1186,
+            "end": 1192,
+            "name": "regexp"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1193,
+            "end": 1204,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1207,
+          "end": 1208,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1210,
+      "end": 1282,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1210,
+        "end": 1281,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1210,
+          "end": 1223,
+          "object": {
+            "type": "Identifier",
+            "start": 1210,
+            "end": 1216,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1217,
+            "end": 1223,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1224,
+            "end": 1233,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 1235,
+            "end": 1247,
+            "name": "callMatchAll"
+          },
+          {
+            "type": "Literal",
+            "start": 1249,
+            "end": 1280,
+            "value": "`constructor` value is Number",
+            "raw": "\"`constructor` value is Number\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

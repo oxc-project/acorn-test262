@@ -1,0 +1,446 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 677,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 273,
+      "end": 362,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 277,
+          "end": 361,
+          "id": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 288,
+            "name": "uriReserved"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 291,
+            "end": 361,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 292,
+                "end": 297,
+                "value": "%3B",
+                "raw": "\"%3B\""
+              },
+              {
+                "type": "Literal",
+                "start": 299,
+                "end": 304,
+                "value": "%2F",
+                "raw": "\"%2F\""
+              },
+              {
+                "type": "Literal",
+                "start": 306,
+                "end": 311,
+                "value": "%3F",
+                "raw": "\"%3F\""
+              },
+              {
+                "type": "Literal",
+                "start": 313,
+                "end": 318,
+                "value": "%3A",
+                "raw": "\"%3A\""
+              },
+              {
+                "type": "Literal",
+                "start": 320,
+                "end": 325,
+                "value": "%40",
+                "raw": "\"%40\""
+              },
+              {
+                "type": "Literal",
+                "start": 327,
+                "end": 332,
+                "value": "%26",
+                "raw": "\"%26\""
+              },
+              {
+                "type": "Literal",
+                "start": 334,
+                "end": 339,
+                "value": "%3D",
+                "raw": "\"%3D\""
+              },
+              {
+                "type": "Literal",
+                "start": 341,
+                "end": 346,
+                "value": "%2B",
+                "raw": "\"%2B\""
+              },
+              {
+                "type": "Literal",
+                "start": 348,
+                "end": 353,
+                "value": "%24",
+                "raw": "\"%24\""
+              },
+              {
+                "type": "Literal",
+                "start": 355,
+                "end": 360,
+                "value": "%2C",
+                "raw": "\"%2C\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 363,
+      "end": 433,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 367,
+          "end": 432,
+          "id": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 379,
+            "name": "uriReserved_"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 382,
+            "end": 432,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 383,
+                "end": 386,
+                "value": ";",
+                "raw": "\";\""
+              },
+              {
+                "type": "Literal",
+                "start": 388,
+                "end": 391,
+                "value": "/",
+                "raw": "\"/\""
+              },
+              {
+                "type": "Literal",
+                "start": 393,
+                "end": 396,
+                "value": "?",
+                "raw": "\"?\""
+              },
+              {
+                "type": "Literal",
+                "start": 398,
+                "end": 401,
+                "value": ":",
+                "raw": "\":\""
+              },
+              {
+                "type": "Literal",
+                "start": 403,
+                "end": 406,
+                "value": "@",
+                "raw": "\"@\""
+              },
+              {
+                "type": "Literal",
+                "start": 408,
+                "end": 411,
+                "value": "&",
+                "raw": "\"&\""
+              },
+              {
+                "type": "Literal",
+                "start": 413,
+                "end": 416,
+                "value": "=",
+                "raw": "\"=\""
+              },
+              {
+                "type": "Literal",
+                "start": 418,
+                "end": 421,
+                "value": "+",
+                "raw": "\"+\""
+              },
+              {
+                "type": "Literal",
+                "start": 423,
+                "end": 426,
+                "value": "$",
+                "raw": "\"$\""
+              },
+              {
+                "type": "Literal",
+                "start": 428,
+                "end": 431,
+                "value": ",",
+                "raw": "\",\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 434,
+      "end": 676,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 439,
+        "end": 453,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 443,
+            "end": 453,
+            "id": {
+              "type": "Identifier",
+              "start": 443,
+              "end": 449,
+              "name": "indexC"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 452,
+              "end": 453,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 455,
+        "end": 466,
+        "left": {
+          "type": "Identifier",
+          "start": 455,
+          "end": 461,
+          "name": "indexC"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "start": 464,
+          "end": 466,
+          "value": 10,
+          "raw": "10"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 468,
+        "end": 476,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 468,
+          "end": 474,
+          "name": "indexC"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 478,
+        "end": 676,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 482,
+            "end": 513,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 486,
+                "end": 512,
+                "id": {
+                  "type": "Identifier",
+                  "start": 486,
+                  "end": 489,
+                  "name": "str"
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "start": 492,
+                  "end": 512,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 492,
+                    "end": 504,
+                    "name": "uriReserved_"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 505,
+                    "end": 511,
+                    "name": "indexC"
+                  },
+                  "computed": true,
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "IfStatement",
+            "start": 516,
+            "end": 674,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 520,
+              "end": 567,
+              "left": {
+                "type": "CallExpression",
+                "start": 520,
+                "end": 543,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 520,
+                  "end": 538,
+                  "name": "encodeURIComponent"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 539,
+                    "end": 542,
+                    "name": "str"
+                  }
+                ],
+                "optional": false
+              },
+              "operator": "!==",
+              "right": {
+                "type": "MemberExpression",
+                "start": 548,
+                "end": 567,
+                "object": {
+                  "type": "Identifier",
+                  "start": 548,
+                  "end": 559,
+                  "name": "uriReserved"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 560,
+                  "end": 566,
+                  "name": "indexC"
+                },
+                "computed": true,
+                "optional": false
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 569,
+              "end": 674,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 575,
+                  "end": 670,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 581,
+                    "end": 669,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 585,
+                      "end": 597,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 598,
+                        "end": 668,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 598,
+                          "end": 662,
+                          "left": {
+                            "type": "BinaryExpression",
+                            "start": 598,
+                            "end": 616,
+                            "left": {
+                              "type": "Literal",
+                              "start": 598,
+                              "end": 601,
+                              "value": "#",
+                              "raw": "'#'"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "ParenthesizedExpression",
+                              "start": 604,
+                              "end": 616,
+                              "expression": {
+                                "type": "BinaryExpression",
+                                "start": 605,
+                                "end": 615,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 605,
+                                  "end": 611,
+                                  "name": "indexC"
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 614,
+                                  "end": 615,
+                                  "value": 1,
+                                  "raw": "1"
+                                }
+                              }
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 619,
+                            "end": 662,
+                            "value": ": unescapedURIComponentSet not containing",
+                            "raw": "': unescapedURIComponentSet not containing'"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 665,
+                          "end": 668,
+                          "name": "str"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

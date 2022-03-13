@@ -1,0 +1,210 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 996,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 722,
+      "end": 818,
+      "expression": {
+        "type": "CallExpression",
+        "start": 722,
+        "end": 817,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 722,
+          "end": 738,
+          "object": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 728,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 738,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 742,
+            "end": 763,
+            "callee": {
+              "type": "Identifier",
+              "start": 742,
+              "end": 755,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 756,
+                "end": 762,
+                "name": "BigInt"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 767,
+            "end": 771,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 775,
+            "end": 815,
+            "value": "isConstructor(BigInt) must return true",
+            "raw": "'isConstructor(BigInt) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 820,
+      "end": 994,
+      "expression": {
+        "type": "CallExpression",
+        "start": 820,
+        "end": 993,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 820,
+          "end": 833,
+          "object": {
+            "type": "Identifier",
+            "start": 820,
+            "end": 826,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 827,
+            "end": 833,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 834,
+            "end": 843,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 845,
+            "end": 923,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 851,
+              "end": 923,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 855,
+                  "end": 921,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 855,
+                    "end": 920,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 859,
+                      "end": 865,
+                      "name": "BigInt"
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 866,
+                        "end": 919,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 872,
+                            "end": 915,
+                            "method": true,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 872,
+                              "end": 879,
+                              "name": "valueOf"
+                            },
+                            "kind": "init",
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 879,
+                              "end": 915,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 882,
+                                "end": 915,
+                                "body": [
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "start": 890,
+                                    "end": 909,
+                                    "expression": {
+                                      "type": "NewExpression",
+                                      "start": 890,
+                                      "end": 908,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 894,
+                                        "end": 906,
+                                        "name": "Test262Error"
+                                      },
+                                      "arguments": []
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 925,
+            "end": 992,
+            "value": "`new BigInt({ valueOf() {new Test262Error();}})` throws TypeError",
+            "raw": "'`new BigInt({ valueOf() {new Test262Error();}})` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

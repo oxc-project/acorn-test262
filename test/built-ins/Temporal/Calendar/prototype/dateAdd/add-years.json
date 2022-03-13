@@ -1,0 +1,485 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1017,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 533,
+      "end": 576,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 537,
+          "end": 575,
+          "id": {
+            "type": "Identifier",
+            "start": 537,
+            "end": 540,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 543,
+            "end": 575,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 547,
+              "end": 564,
+              "object": {
+                "type": "Identifier",
+                "start": 547,
+                "end": 555,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 556,
+                "end": 564,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 565,
+                "end": 574,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 578,
+      "end": 613,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 582,
+          "end": 612,
+          "id": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 585,
+            "name": "p1y"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 588,
+            "end": 612,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 592,
+              "end": 609,
+              "object": {
+                "type": "Identifier",
+                "start": 592,
+                "end": 600,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 601,
+                "end": 609,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 610,
+                "end": 611,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 614,
+      "end": 649,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 618,
+          "end": 648,
+          "id": {
+            "type": "Identifier",
+            "start": 618,
+            "end": 621,
+            "name": "p4y"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 624,
+            "end": 648,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 628,
+              "end": 645,
+              "object": {
+                "type": "Identifier",
+                "start": 628,
+                "end": 636,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 637,
+                "end": 645,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 646,
+                "end": 647,
+                "value": 4,
+                "raw": "4"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 770,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 769,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 651,
+          "end": 682,
+          "object": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 666,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 667,
+            "end": 682,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 688,
+            "end": 718,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 688,
+              "end": 699,
+              "object": {
+                "type": "Identifier",
+                "start": 688,
+                "end": 691,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 692,
+                "end": 699,
+                "name": "dateAdd"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 700,
+                "end": 712,
+                "value": "2020-02-29",
+                "raw": "\"2020-02-29\""
+              },
+              {
+                "type": "Identifier",
+                "start": 714,
+                "end": 717,
+                "name": "p1y"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 720,
+            "end": 724,
+            "value": 2021,
+            "raw": "2021"
+          },
+          {
+            "type": "Literal",
+            "start": 726,
+            "end": 727,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 729,
+            "end": 734,
+            "value": "M02",
+            "raw": "\"M02\""
+          },
+          {
+            "type": "Literal",
+            "start": 736,
+            "end": 738,
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "type": "Literal",
+            "start": 744,
+            "end": 768,
+            "value": "add one year on Feb 29",
+            "raw": "\"add one year on Feb 29\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 771,
+      "end": 892,
+      "expression": {
+        "type": "CallExpression",
+        "start": 771,
+        "end": 891,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 771,
+          "end": 802,
+          "object": {
+            "type": "Identifier",
+            "start": 771,
+            "end": 786,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 787,
+            "end": 802,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 808,
+            "end": 838,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 808,
+              "end": 819,
+              "object": {
+                "type": "Identifier",
+                "start": 808,
+                "end": 811,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 812,
+                "end": 819,
+                "name": "dateAdd"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 820,
+                "end": 832,
+                "value": "2020-02-29",
+                "raw": "\"2020-02-29\""
+              },
+              {
+                "type": "Identifier",
+                "start": 834,
+                "end": 837,
+                "name": "p4y"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 840,
+            "end": 844,
+            "value": 2024,
+            "raw": "2024"
+          },
+          {
+            "type": "Literal",
+            "start": 846,
+            "end": 847,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 849,
+            "end": 854,
+            "value": "M02",
+            "raw": "\"M02\""
+          },
+          {
+            "type": "Literal",
+            "start": 856,
+            "end": 858,
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "type": "Literal",
+            "start": 864,
+            "end": 890,
+            "value": "add four years on Feb 29",
+            "raw": "\"add four years on Feb 29\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 893,
+      "end": 1016,
+      "expression": {
+        "type": "CallExpression",
+        "start": 893,
+        "end": 1015,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 893,
+          "end": 924,
+          "object": {
+            "type": "Identifier",
+            "start": 893,
+            "end": 908,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 909,
+            "end": 924,
+            "name": "assertPlainDate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 930,
+            "end": 960,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 930,
+              "end": 941,
+              "object": {
+                "type": "Identifier",
+                "start": 930,
+                "end": 933,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 934,
+                "end": 941,
+                "name": "dateAdd"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 942,
+                "end": 954,
+                "value": "2021-07-16",
+                "raw": "\"2021-07-16\""
+              },
+              {
+                "type": "Identifier",
+                "start": 956,
+                "end": 959,
+                "name": "p1y"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 962,
+            "end": 966,
+            "value": 2022,
+            "raw": "2022"
+          },
+          {
+            "type": "Literal",
+            "start": 968,
+            "end": 969,
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "type": "Literal",
+            "start": 971,
+            "end": 976,
+            "value": "M07",
+            "raw": "\"M07\""
+          },
+          {
+            "type": "Literal",
+            "start": 978,
+            "end": 980,
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "type": "Literal",
+            "start": 986,
+            "end": 1014,
+            "value": "add one year on other date",
+            "raw": "\"add one year on other date\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

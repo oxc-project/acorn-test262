@@ -1,0 +1,60 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 950,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 788,
+      "end": 949,
+      "block": {
+        "type": "BlockStatement",
+        "start": 792,
+        "end": 818,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 796,
+            "end": 816,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 796,
+              "end": 815,
+              "argument": {
+                "type": "ImportExpression",
+                "start": 802,
+                "end": 815,
+                "source": {
+                  "type": "Literal",
+                  "start": 809,
+                  "end": 814,
+                  "value": "foo",
+                  "raw": "'foo'"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 819,
+        "end": 949,
+        "param": {
+          "type": "Identifier",
+          "start": 826,
+          "end": 827,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 829,
+          "end": 949,
+          "body": []
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "module"
+}

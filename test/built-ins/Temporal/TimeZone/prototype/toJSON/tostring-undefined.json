@@ -1,0 +1,184 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 385,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 272,
+      "end": 313,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 278,
+          "end": 312,
+          "id": {
+            "type": "Identifier",
+            "start": 278,
+            "end": 280,
+            "name": "tz"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 283,
+            "end": 312,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 283,
+              "end": 305,
+              "object": {
+                "type": "MemberExpression",
+                "start": 283,
+                "end": 300,
+                "object": {
+                  "type": "Identifier",
+                  "start": 283,
+                  "end": 291,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 292,
+                  "end": 300,
+                  "name": "TimeZone"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 301,
+                "end": 305,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 306,
+                "end": 311,
+                "value": "UTC",
+                "raw": "'UTC'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 314,
+      "end": 338,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 314,
+        "end": 337,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 314,
+          "end": 325,
+          "object": {
+            "type": "Identifier",
+            "start": 314,
+            "end": 316,
+            "name": "tz"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 325,
+            "name": "toString"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 328,
+          "end": 337,
+          "name": "undefined"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 340,
+      "end": 384,
+      "expression": {
+        "type": "CallExpression",
+        "start": 340,
+        "end": 383,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 340,
+          "end": 353,
+          "object": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 346,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 353,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 354,
+            "end": 363,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 365,
+            "end": 382,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 371,
+              "end": 382,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 371,
+                "end": 380,
+                "object": {
+                  "type": "Identifier",
+                  "start": 371,
+                  "end": 373,
+                  "name": "tz"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 374,
+                  "end": 380,
+                  "name": "toJSON"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

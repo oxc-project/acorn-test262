@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 599,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 294,
+      "end": 445,
+      "expression": {
+        "type": "CallExpression",
+        "start": 294,
+        "end": 444,
+        "callee": {
+          "type": "Identifier",
+          "start": 294,
+          "end": 300,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 304,
+            "end": 351,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 305,
+              "end": 351,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 305,
+                "end": 340,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 305,
+                  "end": 319,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 305,
+                    "end": 309,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 310,
+                    "end": 319,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 320,
+                  "end": 340,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 341,
+                  "end": 350,
+                  "value": "getTime",
+                  "raw": "'getTime'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 355,
+            "end": 442,
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getTime') is expected to be true",
+            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getTime\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 447,
+      "end": 552,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 452,
+        "end": 457,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 456,
+            "end": 457,
+            "id": {
+              "type": "Identifier",
+              "start": 456,
+              "end": 457,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 461,
+        "end": 475,
+        "object": {
+          "type": "Identifier",
+          "start": 461,
+          "end": 465,
+          "name": "Date"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 466,
+          "end": 475,
+          "name": "prototype"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 477,
+        "end": 552,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 481,
+            "end": 550,
+            "expression": {
+              "type": "CallExpression",
+              "start": 481,
+              "end": 549,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 481,
+                "end": 500,
+                "object": {
+                  "type": "Identifier",
+                  "start": 481,
+                  "end": 487,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 488,
+                  "end": 500,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 501,
+                  "end": 502,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 504,
+                  "end": 513,
+                  "value": "getTime",
+                  "raw": "\"getTime\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 515,
+                  "end": 548,
+                  "value": "The value of x is not \"getTime\"",
+                  "raw": "'The value of x is not \"getTime\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

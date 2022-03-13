@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 332,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 249,
+      "end": 331,
+      "expression": {
+        "type": "CallExpression",
+        "start": 249,
+        "end": 330,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 249,
+          "end": 265,
+          "object": {
+            "type": "Identifier",
+            "start": 249,
+            "end": 255,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 256,
+            "end": 265,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 266,
+            "end": 294,
+            "object": {
+              "type": "MemberExpression",
+              "start": 266,
+              "end": 287,
+              "object": {
+                "type": "Identifier",
+                "start": 266,
+                "end": 272,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 273,
+                "end": 287,
+                "name": "defineProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 288,
+              "end": 294,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 296,
+            "end": 297,
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "type": "Literal",
+            "start": 299,
+            "end": 329,
+            "value": "Object.defineProperty.length",
+            "raw": "'Object.defineProperty.length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

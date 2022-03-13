@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 980,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 730,
+      "end": 801,
+      "expression": {
+        "type": "CallExpression",
+        "start": 730,
+        "end": 800,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 730,
+          "end": 746,
+          "object": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 736,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 737,
+            "end": 746,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 747,
+            "end": 781,
+            "object": {
+              "type": "MemberExpression",
+              "start": 747,
+              "end": 776,
+              "object": {
+                "type": "MemberExpression",
+                "start": 747,
+                "end": 761,
+                "object": {
+                  "type": "Identifier",
+                  "start": 747,
+                  "end": 751,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 752,
+                  "end": 761,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 762,
+                "end": 776,
+                "name": "getUTCFullYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 777,
+              "end": 781,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 783,
+            "end": 799,
+            "value": "getUTCFullYear",
+            "raw": "\"getUTCFullYear\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 803,
+      "end": 862,
+      "expression": {
+        "type": "CallExpression",
+        "start": 803,
+        "end": 861,
+        "callee": {
+          "type": "Identifier",
+          "start": 803,
+          "end": 822,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 823,
+            "end": 852,
+            "object": {
+              "type": "MemberExpression",
+              "start": 823,
+              "end": 837,
+              "object": {
+                "type": "Identifier",
+                "start": 823,
+                "end": 827,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 828,
+                "end": 837,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 838,
+              "end": 852,
+              "name": "getUTCFullYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 854,
+            "end": 860,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 863,
+      "end": 920,
+      "expression": {
+        "type": "CallExpression",
+        "start": 863,
+        "end": 919,
+        "callee": {
+          "type": "Identifier",
+          "start": 863,
+          "end": 880,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 881,
+            "end": 910,
+            "object": {
+              "type": "MemberExpression",
+              "start": 881,
+              "end": 895,
+              "object": {
+                "type": "Identifier",
+                "start": 881,
+                "end": 885,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 886,
+                "end": 895,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 896,
+              "end": 910,
+              "name": "getUTCFullYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 912,
+            "end": 918,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 921,
+      "end": 979,
+      "expression": {
+        "type": "CallExpression",
+        "start": 921,
+        "end": 978,
+        "callee": {
+          "type": "Identifier",
+          "start": 921,
+          "end": 939,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 940,
+            "end": 969,
+            "object": {
+              "type": "MemberExpression",
+              "start": 940,
+              "end": 954,
+              "object": {
+                "type": "Identifier",
+                "start": 940,
+                "end": 944,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 945,
+                "end": 954,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 955,
+              "end": 969,
+              "name": "getUTCFullYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 971,
+            "end": 977,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

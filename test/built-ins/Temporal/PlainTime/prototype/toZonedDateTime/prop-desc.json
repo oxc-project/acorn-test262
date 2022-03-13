@@ -1,0 +1,237 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 608,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 475,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 474,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 323,
+          "end": 339,
+          "object": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 339,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 343,
+            "end": 394,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 350,
+              "end": 394,
+              "object": {
+                "type": "MemberExpression",
+                "start": 350,
+                "end": 378,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 350,
+                  "end": 368,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 350,
+                    "end": 358,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 359,
+                    "end": 368,
+                    "name": "PlainTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 369,
+                  "end": 378,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 379,
+                "end": 394,
+                "name": "toZonedDateTime"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 398,
+            "end": 408,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 412,
+            "end": 472,
+            "value": "`typeof PlainTime.prototype.toZonedDateTime` is `function`",
+            "raw": "\"`typeof PlainTime.prototype.toZonedDateTime` is `function`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 477,
+      "end": 607,
+      "expression": {
+        "type": "CallExpression",
+        "start": 477,
+        "end": 606,
+        "callee": {
+          "type": "Identifier",
+          "start": 477,
+          "end": 491,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 492,
+            "end": 520,
+            "object": {
+              "type": "MemberExpression",
+              "start": 492,
+              "end": 510,
+              "object": {
+                "type": "Identifier",
+                "start": 492,
+                "end": 500,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 501,
+                "end": 510,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 511,
+              "end": 520,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 522,
+            "end": 539,
+            "value": "toZonedDateTime",
+            "raw": "\"toZonedDateTime\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 541,
+            "end": 605,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 545,
+                "end": 559,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 545,
+                  "end": 553,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 555,
+                  "end": 559,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 563,
+                "end": 580,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 563,
+                  "end": 573,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 575,
+                  "end": 580,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 584,
+                "end": 602,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 584,
+                  "end": 596,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 598,
+                  "end": 602,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

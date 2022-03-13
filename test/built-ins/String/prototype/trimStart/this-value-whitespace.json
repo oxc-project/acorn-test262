@@ -1,0 +1,294 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1150,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 759,
+      "end": 802,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 763,
+          "end": 801,
+          "id": {
+            "type": "Identifier",
+            "start": 763,
+            "end": 772,
+            "name": "trimStart"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 775,
+            "end": 801,
+            "object": {
+              "type": "MemberExpression",
+              "start": 775,
+              "end": 791,
+              "object": {
+                "type": "Identifier",
+                "start": 775,
+                "end": 781,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 782,
+                "end": 791,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 792,
+              "end": 801,
+              "name": "trimStart"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 860,
+      "end": 1010,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 864,
+          "end": 1009,
+          "id": {
+            "type": "Identifier",
+            "start": 864,
+            "end": 868,
+            "name": "wspc"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 871,
+            "end": 1009,
+            "value": "\t\n\u000b\f\r                　  ﻿",
+            "raw": "'\\x09\\x0A\\x0B\\x0C\\x0D\\x20\\xA0\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\\u2028\\u2029\\uFEFF'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1012,
+      "end": 1053,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1016,
+          "end": 1052,
+          "id": {
+            "type": "Identifier",
+            "start": 1016,
+            "end": 1019,
+            "name": "str"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 1022,
+            "end": 1052,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 1022,
+              "end": 1045,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 1022,
+                "end": 1039,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 1022,
+                  "end": 1032,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 1022,
+                    "end": 1026,
+                    "name": "wspc"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 1029,
+                    "end": 1032,
+                    "value": "a",
+                    "raw": "'a'"
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 1035,
+                  "end": 1039,
+                  "name": "wspc"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 1042,
+                "end": 1045,
+                "value": "b",
+                "raw": "'b'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Identifier",
+              "start": 1048,
+              "end": 1052,
+              "name": "wspc"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1054,
+      "end": 1093,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1058,
+          "end": 1092,
+          "id": {
+            "type": "Identifier",
+            "start": 1058,
+            "end": 1066,
+            "name": "expected"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 1069,
+            "end": 1092,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 1069,
+              "end": 1085,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 1069,
+                "end": 1079,
+                "left": {
+                  "type": "Literal",
+                  "start": 1069,
+                  "end": 1072,
+                  "value": "a",
+                  "raw": "'a'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 1075,
+                  "end": 1079,
+                  "name": "wspc"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 1082,
+                "end": 1085,
+                "value": "b",
+                "raw": "'b'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Identifier",
+              "start": 1088,
+              "end": 1092,
+              "name": "wspc"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1095,
+      "end": 1149,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1095,
+        "end": 1148,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1095,
+          "end": 1111,
+          "object": {
+            "type": "Identifier",
+            "start": 1095,
+            "end": 1101,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1102,
+            "end": 1111,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1115,
+            "end": 1134,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1115,
+              "end": 1129,
+              "object": {
+                "type": "Identifier",
+                "start": 1115,
+                "end": 1124,
+                "name": "trimStart"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1125,
+                "end": 1129,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1130,
+                "end": 1133,
+                "name": "str"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1138,
+            "end": 1146,
+            "name": "expected"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

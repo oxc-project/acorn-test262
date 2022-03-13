@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 586,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 517,
+      "end": 585,
+      "expression": {
+        "type": "CallExpression",
+        "start": 517,
+        "end": 584,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 517,
+          "end": 530,
+          "object": {
+            "type": "Identifier",
+            "start": 517,
+            "end": 523,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 530,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 531,
+            "end": 542,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 544,
+            "end": 583,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 555,
+              "end": 583,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 559,
+                  "end": 581,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 559,
+                    "end": 580,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 559,
+                      "end": 563,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 564,
+                        "end": 579,
+                        "value": "var᠎foo;",
+                        "raw": "\"var\\u180Efoo;\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

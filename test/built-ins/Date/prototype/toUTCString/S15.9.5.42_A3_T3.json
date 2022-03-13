@@ -1,0 +1,217 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 675,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 338,
+      "end": 511,
+      "expression": {
+        "type": "CallExpression",
+        "start": 338,
+        "end": 510,
+        "callee": {
+          "type": "Identifier",
+          "start": 338,
+          "end": 344,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 348,
+            "end": 406,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 349,
+              "end": 406,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 349,
+                "end": 396,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 349,
+                  "end": 375,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 349,
+                    "end": 363,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 349,
+                      "end": 353,
+                      "name": "Date"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 354,
+                      "end": 363,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 364,
+                    "end": 375,
+                    "name": "toUTCString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 376,
+                  "end": 396,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 397,
+                  "end": 405,
+                  "value": "length",
+                  "raw": "'length'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 410,
+            "end": 508,
+            "value": "The value of !Date.prototype.toUTCString.propertyIsEnumerable('length') is expected to be true",
+            "raw": "'The value of !Date.prototype.toUTCString.propertyIsEnumerable(\\'length\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 513,
+      "end": 628,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 518,
+        "end": 523,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 522,
+            "end": 523,
+            "id": {
+              "type": "Identifier",
+              "start": 522,
+              "end": 523,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 527,
+        "end": 553,
+        "object": {
+          "type": "MemberExpression",
+          "start": 527,
+          "end": 541,
+          "object": {
+            "type": "Identifier",
+            "start": 527,
+            "end": 531,
+            "name": "Date"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 541,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 542,
+          "end": 553,
+          "name": "toUTCString"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 555,
+        "end": 628,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 559,
+            "end": 626,
+            "expression": {
+              "type": "CallExpression",
+              "start": 559,
+              "end": 625,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 559,
+                "end": 578,
+                "object": {
+                  "type": "Identifier",
+                  "start": 559,
+                  "end": 565,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 566,
+                  "end": 578,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 579,
+                  "end": 580,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 582,
+                  "end": 590,
+                  "value": "length",
+                  "raw": "\"length\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 592,
+                  "end": 624,
+                  "value": "The value of x is not \"length\"",
+                  "raw": "'The value of x is not \"length\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

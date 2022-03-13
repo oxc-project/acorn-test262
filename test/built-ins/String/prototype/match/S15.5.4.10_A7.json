@@ -1,0 +1,181 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 594,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 296,
+      "end": 335,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 300,
+          "end": 334,
+          "id": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 309,
+            "name": "__FACTORY"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 312,
+            "end": 334,
+            "object": {
+              "type": "MemberExpression",
+              "start": 312,
+              "end": 328,
+              "object": {
+                "type": "Identifier",
+                "start": 312,
+                "end": 318,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 319,
+                "end": 328,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 329,
+              "end": 334,
+              "name": "match"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 337,
+      "end": 593,
+      "block": {
+        "type": "BlockStatement",
+        "start": 341,
+        "end": 537,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 345,
+            "end": 376,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 349,
+                "end": 375,
+                "id": {
+                  "type": "Identifier",
+                  "start": 349,
+                  "end": 359,
+                  "name": "__instance"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 362,
+                  "end": 375,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 366,
+                    "end": 375,
+                    "name": "__FACTORY"
+                  },
+                  "arguments": []
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 379,
+            "end": 535,
+            "argument": {
+              "type": "NewExpression",
+              "start": 385,
+              "end": 534,
+              "callee": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 401,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 402,
+                  "end": 533,
+                  "value": "#1: __FACTORY = String.prototype.match; __FACTORY = String.prototype.match; __instance = new __FACTORY lead to throwing exception",
+                  "raw": "'#1: __FACTORY = String.prototype.match; __FACTORY = String.prototype.match; __instance = new __FACTORY lead to throwing exception'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 538,
+        "end": 593,
+        "param": {
+          "type": "Identifier",
+          "start": 545,
+          "end": 546,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 548,
+          "end": 593,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 552,
+              "end": 591,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 556,
+                "end": 581,
+                "left": {
+                  "type": "Identifier",
+                  "start": 556,
+                  "end": 557,
+                  "name": "e"
+                },
+                "operator": "instanceof",
+                "right": {
+                  "type": "Identifier",
+                  "start": 569,
+                  "end": 581,
+                  "name": "Test262Error"
+                }
+              },
+              "consequent": {
+                "type": "ThrowStatement",
+                "start": 583,
+                "end": 591,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 589,
+                  "end": 590,
+                  "name": "e"
+                }
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

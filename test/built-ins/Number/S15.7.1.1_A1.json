@@ -1,0 +1,396 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 951,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 369,
+      "end": 482,
+      "expression": {
+        "type": "CallExpression",
+        "start": 369,
+        "end": 481,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 369,
+          "end": 385,
+          "object": {
+            "type": "Identifier",
+            "start": 369,
+            "end": 375,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 385,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 386,
+            "end": 405,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 393,
+              "end": 405,
+              "callee": {
+                "type": "Identifier",
+                "start": 393,
+                "end": 399,
+                "name": "Number"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 400,
+                  "end": 404,
+                  "value": "10",
+                  "raw": "\"10\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 407,
+            "end": 415,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 417,
+            "end": 480,
+            "value": "The value of `typeof Number(\"10\")` is expected to be \"number\"",
+            "raw": "'The value of `typeof Number(\"10\")` is expected to be \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 483,
+      "end": 592,
+      "expression": {
+        "type": "CallExpression",
+        "start": 483,
+        "end": 591,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 483,
+          "end": 499,
+          "object": {
+            "type": "Identifier",
+            "start": 483,
+            "end": 489,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 499,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 500,
+            "end": 517,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 507,
+              "end": 517,
+              "callee": {
+                "type": "Identifier",
+                "start": 507,
+                "end": 513,
+                "name": "Number"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 514,
+                  "end": 516,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 519,
+            "end": 527,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 529,
+            "end": 590,
+            "value": "The value of `typeof Number(10)` is expected to be \"number\"",
+            "raw": "'The value of `typeof Number(10)` is expected to be \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 594,
+      "end": 739,
+      "expression": {
+        "type": "CallExpression",
+        "start": 594,
+        "end": 738,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 594,
+          "end": 610,
+          "object": {
+            "type": "Identifier",
+            "start": 594,
+            "end": 600,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 601,
+            "end": 610,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 614,
+            "end": 645,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 621,
+              "end": 645,
+              "callee": {
+                "type": "Identifier",
+                "start": 621,
+                "end": 627,
+                "name": "Number"
+              },
+              "arguments": [
+                {
+                  "type": "NewExpression",
+                  "start": 628,
+                  "end": 644,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 632,
+                    "end": 638,
+                    "name": "String"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 639,
+                      "end": 643,
+                      "value": "10",
+                      "raw": "\"10\""
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 649,
+            "end": 657,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 661,
+            "end": 736,
+            "value": "The value of `typeof Number(new String(\"10\"))` is expected to be \"number\"",
+            "raw": "'The value of `typeof Number(new String(\"10\"))` is expected to be \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 741,
+      "end": 882,
+      "expression": {
+        "type": "CallExpression",
+        "start": 741,
+        "end": 881,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 741,
+          "end": 757,
+          "object": {
+            "type": "Identifier",
+            "start": 741,
+            "end": 747,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 757,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 761,
+            "end": 790,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 768,
+              "end": 790,
+              "callee": {
+                "type": "Identifier",
+                "start": 768,
+                "end": 774,
+                "name": "Number"
+              },
+              "arguments": [
+                {
+                  "type": "NewExpression",
+                  "start": 775,
+                  "end": 789,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 779,
+                    "end": 785,
+                    "name": "Object"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 786,
+                      "end": 788,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 794,
+            "end": 802,
+            "value": "number",
+            "raw": "\"number\""
+          },
+          {
+            "type": "Literal",
+            "start": 806,
+            "end": 879,
+            "value": "The value of `typeof Number(new Object(10))` is expected to be \"number\"",
+            "raw": "'The value of `typeof Number(new Object(10))` is expected to be \"number\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 884,
+      "end": 950,
+      "expression": {
+        "type": "CallExpression",
+        "start": 884,
+        "end": 949,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 884,
+          "end": 900,
+          "object": {
+            "type": "Identifier",
+            "start": 884,
+            "end": 890,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 891,
+            "end": 900,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 901,
+            "end": 914,
+            "callee": {
+              "type": "Identifier",
+              "start": 901,
+              "end": 907,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 908,
+                "end": 913,
+                "value": "abc",
+                "raw": "\"abc\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 916,
+            "end": 919,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 921,
+            "end": 948,
+            "value": "Number(\"abc\") returns NaN",
+            "raw": "'Number(\"abc\") returns NaN'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,143 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1189,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1003,
+      "end": 1066,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1003,
+        "end": 1065,
+        "callee": {
+          "type": "Identifier",
+          "start": 1003,
+          "end": 1022,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1023,
+            "end": 1042,
+            "object": {
+              "type": "Identifier",
+              "start": 1023,
+              "end": 1027,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1028,
+              "end": 1042,
+              "name": "DateTimeFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1044,
+            "end": 1064,
+            "value": "supportedLocalesOf",
+            "raw": "\"supportedLocalesOf\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1067,
+      "end": 1125,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1067,
+        "end": 1124,
+        "callee": {
+          "type": "Identifier",
+          "start": 1067,
+          "end": 1081,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1082,
+            "end": 1101,
+            "object": {
+              "type": "Identifier",
+              "start": 1082,
+              "end": 1086,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1087,
+              "end": 1101,
+              "name": "DateTimeFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1103,
+            "end": 1123,
+            "value": "supportedLocalesOf",
+            "raw": "\"supportedLocalesOf\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1126,
+      "end": 1188,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1126,
+        "end": 1187,
+        "callee": {
+          "type": "Identifier",
+          "start": 1126,
+          "end": 1144,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1145,
+            "end": 1164,
+            "object": {
+              "type": "Identifier",
+              "start": 1145,
+              "end": 1149,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1150,
+              "end": 1164,
+              "name": "DateTimeFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1166,
+            "end": 1186,
+            "value": "supportedLocalesOf",
+            "raw": "\"supportedLocalesOf\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

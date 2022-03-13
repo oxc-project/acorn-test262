@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 543,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 392,
+      "end": 410,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 396,
+          "end": 409,
+          "id": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 405,
+            "name": "protected"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 408,
+            "end": 409,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 411,
+      "end": 434,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 415,
+          "end": 433,
+          "id": {
+            "type": "Identifier",
+            "start": 415,
+            "end": 429,
+            "name": "protected"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 432,
+            "end": 433,
+            "value": 2,
+            "raw": "2"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "BlockStatement",
+      "start": 436,
+      "end": 458,
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "start": 438,
+          "end": 456,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 442,
+              "end": 455,
+              "id": {
+                "type": "Identifier",
+                "start": 442,
+                "end": 451,
+                "name": "protected"
+              },
+              "init": {
+                "type": "Literal",
+                "start": 454,
+                "end": 455,
+                "value": 3,
+                "raw": "3"
+              }
+            }
+          ],
+          "kind": "let"
+        }
+      ]
+    },
+    {
+      "type": "BlockStatement",
+      "start": 459,
+      "end": 486,
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "start": 461,
+          "end": 484,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 465,
+              "end": 483,
+              "id": {
+                "type": "Identifier",
+                "start": 465,
+                "end": 479,
+                "name": "protected"
+              },
+              "init": {
+                "type": "Literal",
+                "start": 482,
+                "end": 483,
+                "value": 4,
+                "raw": "4"
+              }
+            }
+          ],
+          "kind": "let"
+        }
+      ]
+    },
+    {
+      "type": "BlockStatement",
+      "start": 488,
+      "end": 512,
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "start": 490,
+          "end": 510,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 496,
+              "end": 509,
+              "id": {
+                "type": "Identifier",
+                "start": 496,
+                "end": 505,
+                "name": "protected"
+              },
+              "init": {
+                "type": "Literal",
+                "start": 508,
+                "end": 509,
+                "value": 5,
+                "raw": "5"
+              }
+            }
+          ],
+          "kind": "const"
+        }
+      ]
+    },
+    {
+      "type": "BlockStatement",
+      "start": 513,
+      "end": 542,
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "start": 515,
+          "end": 540,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 521,
+              "end": 539,
+              "id": {
+                "type": "Identifier",
+                "start": 521,
+                "end": 535,
+                "name": "protected"
+              },
+              "init": {
+                "type": "Literal",
+                "start": 538,
+                "end": 539,
+                "value": 6,
+                "raw": "6"
+              }
+            }
+          ],
+          "kind": "const"
+        }
+      ]
+    }
+  ],
+  "sourceType": "script"
+}

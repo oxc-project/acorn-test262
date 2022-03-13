@@ -1,0 +1,143 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 574,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 409,
+      "end": 463,
+      "expression": {
+        "type": "CallExpression",
+        "start": 409,
+        "end": 462,
+        "callee": {
+          "type": "Identifier",
+          "start": 409,
+          "end": 428,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 429,
+            "end": 448,
+            "object": {
+              "type": "Identifier",
+              "start": 429,
+              "end": 433,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 434,
+              "end": 448,
+              "name": "DurationFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 450,
+            "end": 461,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 464,
+      "end": 516,
+      "expression": {
+        "type": "CallExpression",
+        "start": 464,
+        "end": 515,
+        "callee": {
+          "type": "Identifier",
+          "start": 464,
+          "end": 481,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 482,
+            "end": 501,
+            "object": {
+              "type": "Identifier",
+              "start": 482,
+              "end": 486,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 487,
+              "end": 501,
+              "name": "DurationFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 503,
+            "end": 514,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 517,
+      "end": 573,
+      "expression": {
+        "type": "CallExpression",
+        "start": 517,
+        "end": 572,
+        "callee": {
+          "type": "Identifier",
+          "start": 517,
+          "end": 538,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 539,
+            "end": 558,
+            "object": {
+              "type": "Identifier",
+              "start": 539,
+              "end": 543,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 544,
+              "end": 558,
+              "name": "DurationFormat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 560,
+            "end": 571,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

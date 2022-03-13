@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 573,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 490,
+      "end": 522,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 494,
+          "end": 521,
+          "id": {
+            "type": "Identifier",
+            "start": 494,
+            "end": 503,
+            "name": "canonical"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 506,
+            "end": 521,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 506,
+              "end": 516,
+              "object": {
+                "type": "Identifier",
+                "start": 506,
+                "end": 512,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 513,
+                "end": 516,
+                "name": "for"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 517,
+                "end": 520,
+                "value": "s",
+                "raw": "'s'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 524,
+      "end": 572,
+      "expression": {
+        "type": "CallExpression",
+        "start": 524,
+        "end": 571,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 524,
+          "end": 540,
+          "object": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 530,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 531,
+            "end": 540,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 541,
+            "end": 565,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 541,
+              "end": 554,
+              "object": {
+                "type": "Identifier",
+                "start": 541,
+                "end": 547,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 548,
+                "end": 554,
+                "name": "keyFor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 555,
+                "end": 564,
+                "name": "canonical"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 567,
+            "end": 570,
+            "value": "s",
+            "raw": "'s'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

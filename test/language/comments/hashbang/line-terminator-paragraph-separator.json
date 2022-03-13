@@ -1,0 +1,14 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 645,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 57,
+      "end": 60,
+      "body": []
+    }
+  ],
+  "sourceType": "script"
+}

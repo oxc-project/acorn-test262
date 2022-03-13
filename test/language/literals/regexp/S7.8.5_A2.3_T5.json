@@ -1,0 +1,239 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 987,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 652,
+      "end": 986,
+      "block": {
+        "type": "BlockStatement",
+        "start": 656,
+        "end": 816,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 661,
+            "end": 686,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 661,
+              "end": 685,
+              "object": {
+                "type": "CallExpression",
+                "start": 661,
+                "end": 678,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 661,
+                  "end": 665,
+                  "name": "eval"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 666,
+                    "end": 677,
+                    "value": "/a /",
+                    "raw": "\"/a\\u2028/\""
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 679,
+                "end": 685,
+                "name": "source"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 690,
+            "end": 814,
+            "argument": {
+              "type": "NewExpression",
+              "start": 696,
+              "end": 813,
+              "callee": {
+                "type": "Identifier",
+                "start": 700,
+                "end": 712,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 713,
+                  "end": 812,
+                  "left": {
+                    "type": "Literal",
+                    "start": 713,
+                    "end": 783,
+                    "value": "#1.1: RegularExpressionChar :: Line separator is incorrect. Actual: ",
+                    "raw": "'#1.1: RegularExpressionChar :: Line separator is incorrect. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 786,
+                    "end": 812,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 787,
+                      "end": 811,
+                      "object": {
+                        "type": "CallExpression",
+                        "start": 787,
+                        "end": 804,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 787,
+                          "end": 791,
+                          "name": "eval"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 792,
+                            "end": 803,
+                            "value": "/a /",
+                            "raw": "\"/a\\u2028/\""
+                          }
+                        ],
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 805,
+                        "end": 811,
+                        "name": "source"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 817,
+        "end": 986,
+        "param": {
+          "type": "Identifier",
+          "start": 824,
+          "end": 825,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 827,
+          "end": 986,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 831,
+              "end": 984,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 835,
+                "end": 870,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 835,
+                  "end": 861,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 836,
+                    "end": 860,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 836,
+                      "end": 837,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 849,
+                      "end": 860,
+                      "name": "SyntaxError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 866,
+                  "end": 870,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 872,
+                "end": 984,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 879,
+                    "end": 980,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 885,
+                      "end": 979,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 889,
+                        "end": 901,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 902,
+                          "end": 978,
+                          "left": {
+                            "type": "Literal",
+                            "start": 902,
+                            "end": 972,
+                            "value": "#1.2: RegularExpressionChar :: Line separator is incorrect. Actual: ",
+                            "raw": "'#1.2: RegularExpressionChar :: Line separator is incorrect. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 975,
+                            "end": 978,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 976,
+                              "end": 977,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

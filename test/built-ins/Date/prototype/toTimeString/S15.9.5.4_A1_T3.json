@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 626,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 301,
+      "end": 462,
+      "expression": {
+        "type": "CallExpression",
+        "start": 301,
+        "end": 461,
+        "callee": {
+          "type": "Identifier",
+          "start": 301,
+          "end": 307,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 311,
+            "end": 363,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 312,
+              "end": 363,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 312,
+                "end": 347,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 312,
+                  "end": 326,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 312,
+                    "end": 316,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 317,
+                    "end": 326,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 327,
+                  "end": 347,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 348,
+                  "end": 362,
+                  "value": "toTimeString",
+                  "raw": "'toTimeString'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 367,
+            "end": 459,
+            "value": "The value of !Date.prototype.propertyIsEnumerable('toTimeString') is expected to be true",
+            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'toTimeString\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 464,
+      "end": 579,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 469,
+        "end": 474,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 473,
+            "end": 474,
+            "id": {
+              "type": "Identifier",
+              "start": 473,
+              "end": 474,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 478,
+        "end": 492,
+        "object": {
+          "type": "Identifier",
+          "start": 478,
+          "end": 482,
+          "name": "Date"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 483,
+          "end": 492,
+          "name": "prototype"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 494,
+        "end": 579,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 498,
+            "end": 577,
+            "expression": {
+              "type": "CallExpression",
+              "start": 498,
+              "end": 576,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 498,
+                "end": 517,
+                "object": {
+                  "type": "Identifier",
+                  "start": 498,
+                  "end": 504,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 505,
+                  "end": 517,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 518,
+                  "end": 519,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 521,
+                  "end": 535,
+                  "value": "toTimeString",
+                  "raw": "\"toTimeString\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 537,
+                  "end": 575,
+                  "value": "The value of x is not \"toTimeString\"",
+                  "raw": "'The value of x is not \"toTimeString\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

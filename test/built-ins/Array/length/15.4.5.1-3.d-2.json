@@ -1,0 +1,107 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 448,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 447,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 446,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 323,
+          "end": 336,
+          "object": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 336,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 337,
+            "end": 347,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 349,
+            "end": 389,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 360,
+              "end": 389,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 364,
+                  "end": 387,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 364,
+                    "end": 386,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 364,
+                      "end": 373,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 364,
+                        "end": 366,
+                        "elements": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 367,
+                        "end": 373,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 376,
+                      "end": 386,
+                      "value": 4294967297,
+                      "raw": "4294967297"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 391,
+            "end": 445,
+            "value": "[].length = 4294967297 throws a RangeError exception",
+            "raw": "'[].length = 4294967297 throws a RangeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

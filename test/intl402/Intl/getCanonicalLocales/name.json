@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 723,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 410,
+      "end": 559,
+      "expression": {
+        "type": "CallExpression",
+        "start": 410,
+        "end": 558,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 410,
+          "end": 426,
+          "object": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 416,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 426,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 427,
+            "end": 456,
+            "object": {
+              "type": "MemberExpression",
+              "start": 427,
+              "end": 451,
+              "object": {
+                "type": "Identifier",
+                "start": 427,
+                "end": 431,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 432,
+                "end": 451,
+                "name": "getCanonicalLocales"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 452,
+              "end": 456,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 458,
+            "end": 479,
+            "value": "getCanonicalLocales",
+            "raw": "'getCanonicalLocales'"
+          },
+          {
+            "type": "Literal",
+            "start": 483,
+            "end": 556,
+            "value": "The value of `Intl.getCanonicalLocales.name` is `\"getCanonicalLocales\"`",
+            "raw": "'The value of `Intl.getCanonicalLocales.name` is `\"getCanonicalLocales\"`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 561,
+      "end": 615,
+      "expression": {
+        "type": "CallExpression",
+        "start": 561,
+        "end": 614,
+        "callee": {
+          "type": "Identifier",
+          "start": 561,
+          "end": 580,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 581,
+            "end": 605,
+            "object": {
+              "type": "Identifier",
+              "start": 581,
+              "end": 585,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 586,
+              "end": 605,
+              "name": "getCanonicalLocales"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 607,
+            "end": 613,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 616,
+      "end": 668,
+      "expression": {
+        "type": "CallExpression",
+        "start": 616,
+        "end": 667,
+        "callee": {
+          "type": "Identifier",
+          "start": 616,
+          "end": 633,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 634,
+            "end": 658,
+            "object": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 638,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 639,
+              "end": 658,
+              "name": "getCanonicalLocales"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 660,
+            "end": 666,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 669,
+      "end": 722,
+      "expression": {
+        "type": "CallExpression",
+        "start": 669,
+        "end": 721,
+        "callee": {
+          "type": "Identifier",
+          "start": 669,
+          "end": 687,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 688,
+            "end": 712,
+            "object": {
+              "type": "Identifier",
+              "start": 688,
+              "end": 692,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 693,
+              "end": 712,
+              "name": "getCanonicalLocales"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 714,
+            "end": 720,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

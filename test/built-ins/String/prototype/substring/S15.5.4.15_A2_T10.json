@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 719,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 285,
+      "end": 338,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 289,
+          "end": 337,
+          "id": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 297,
+            "name": "__string"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 300,
+            "end": 337,
+            "callee": {
+              "type": "Identifier",
+              "start": 304,
+              "end": 310,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 311,
+                "end": 336,
+                "value": "this_is_a_string object",
+                "raw": "\"this_is_a_string object\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 429,
+      "end": 636,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 433,
+        "end": 472,
+        "left": {
+          "type": "CallExpression",
+          "start": 433,
+          "end": 457,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 433,
+            "end": 451,
+            "object": {
+              "type": "Identifier",
+              "start": 433,
+              "end": 441,
+              "name": "__string"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 442,
+              "end": 451,
+              "name": "substring"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 452,
+              "end": 453,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 455,
+              "end": 456,
+              "value": 8,
+              "raw": "8"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 462,
+          "end": 472,
+          "value": "this_is_",
+          "raw": "\"this_is_\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 474,
+        "end": 636,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 478,
+            "end": 634,
+            "argument": {
+              "type": "NewExpression",
+              "start": 484,
+              "end": 633,
+              "callee": {
+                "type": "Identifier",
+                "start": 488,
+                "end": 500,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 501,
+                  "end": 632,
+                  "left": {
+                    "type": "Literal",
+                    "start": 501,
+                    "end": 605,
+                    "value": "#1: __string = new String(\"this_is_a_string object\"); __string.substring(0,8) === \"this_is_\". Actual: ",
+                    "raw": "'#1: __string = new String(\"this_is_a_string object\"); __string.substring(0,8) === \"this_is_\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 608,
+                    "end": 632,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 608,
+                      "end": 626,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 608,
+                        "end": 616,
+                        "name": "__string"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 617,
+                        "end": 626,
+                        "name": "substring"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 627,
+                        "end": 628,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 630,
+                        "end": 631,
+                        "value": 8,
+                        "raw": "8"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

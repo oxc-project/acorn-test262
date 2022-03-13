@@ -1,0 +1,160 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 935,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 831,
+      "end": 934,
+      "expression": {
+        "type": "CallExpression",
+        "start": 831,
+        "end": 933,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 831,
+          "end": 844,
+          "object": {
+            "type": "Identifier",
+            "start": 831,
+            "end": 837,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 838,
+            "end": 844,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 845,
+            "end": 854,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 856,
+            "end": 932,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 867,
+              "end": 932,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 871,
+                  "end": 930,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 871,
+                    "end": 929,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 871,
+                      "end": 881,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 871,
+                        "end": 877,
+                        "name": "String"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 878,
+                        "end": 881,
+                        "name": "raw"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 882,
+                        "end": 928,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 888,
+                            "end": 924,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 888,
+                              "end": 891,
+                              "name": "raw"
+                            },
+                            "value": {
+                              "type": "ObjectExpression",
+                              "start": 893,
+                              "end": 924,
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "start": 901,
+                                  "end": 918,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 901,
+                                    "end": 907,
+                                    "name": "length"
+                                  },
+                                  "value": {
+                                    "type": "CallExpression",
+                                    "start": 909,
+                                    "end": 918,
+                                    "callee": {
+                                      "type": "Identifier",
+                                      "start": 909,
+                                      "end": 915,
+                                      "name": "Symbol"
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Literal",
+                                        "start": 916,
+                                        "end": 917,
+                                        "value": 1,
+                                        "raw": "1"
+                                      }
+                                    ],
+                                    "optional": false
+                                  },
+                                  "kind": "init"
+                                }
+                              ]
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

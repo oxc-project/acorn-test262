@@ -1,0 +1,206 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 594,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 519,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 518,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 458,
+          "end": 474,
+          "object": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 464,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 474,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 475,
+            "end": 490,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 478,
+                "end": 479,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 483,
+                "end": 484,
+                "value": 5,
+                "raw": "5"
+              }
+            ],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 476,
+                "end": 476,
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 480,
+                "end": 481,
+                "value": {
+                  "raw": " ",
+                  "cooked": " "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 485,
+                "end": 489,
+                "value": {
+                  "raw": " bar",
+                  "cooked": " bar"
+                },
+                "tail": true
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 492,
+            "end": 501,
+            "value": "0 5 bar",
+            "raw": "'0 5 bar'"
+          },
+          {
+            "type": "Literal",
+            "start": 503,
+            "end": 517,
+            "value": "number value",
+            "raw": "'number value'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 520,
+      "end": 593,
+      "expression": {
+        "type": "CallExpression",
+        "start": 520,
+        "end": 592,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 520,
+          "end": 536,
+          "object": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 526,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 527,
+            "end": 536,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 537,
+            "end": 559,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 540,
+                "end": 541,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 545,
+                "end": 553,
+                "value": "string",
+                "raw": "'string'"
+              }
+            ],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 538,
+                "end": 538,
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 542,
+                "end": 543,
+                "value": {
+                  "raw": " ",
+                  "cooked": " "
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 554,
+                "end": 558,
+                "value": {
+                  "raw": " bar",
+                  "cooked": " bar"
+                },
+                "tail": true
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 561,
+            "end": 575,
+            "value": "0 string bar",
+            "raw": "'0 string bar'"
+          },
+          {
+            "type": "Literal",
+            "start": 577,
+            "end": 591,
+            "value": "string value",
+            "raw": "'string value'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,319 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 860,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 605,
+      "end": 662,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 605,
+        "end": 661,
+        "operator": "delete",
+        "prefix": true,
+        "argument": {
+          "type": "MemberExpression",
+          "start": 612,
+          "end": 661,
+          "object": {
+            "type": "MemberExpression",
+            "start": 612,
+            "end": 641,
+            "object": {
+              "type": "MemberExpression",
+              "start": 612,
+              "end": 631,
+              "object": {
+                "type": "Identifier",
+                "start": 612,
+                "end": 616,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 617,
+                "end": 631,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 632,
+              "end": 641,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 642,
+            "end": 660,
+            "object": {
+              "type": "Identifier",
+              "start": 642,
+              "end": 648,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 649,
+              "end": 660,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 664,
+      "end": 763,
+      "expression": {
+        "type": "CallExpression",
+        "start": 664,
+        "end": 762,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 664,
+          "end": 680,
+          "object": {
+            "type": "Identifier",
+            "start": 664,
+            "end": 670,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 680,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 681,
+            "end": 742,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 681,
+              "end": 711,
+              "object": {
+                "type": "MemberExpression",
+                "start": 681,
+                "end": 706,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 681,
+                  "end": 697,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 681,
+                    "end": 687,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 688,
+                    "end": 697,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 698,
+                  "end": 706,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 707,
+                "end": 711,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 712,
+                "end": 741,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 712,
+                  "end": 731,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 712,
+                    "end": 716,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 717,
+                    "end": 731,
+                    "name": "DateTimeFormat"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 732,
+                  "end": 741,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 744,
+            "end": 761,
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 764,
+      "end": 859,
+      "expression": {
+        "type": "CallExpression",
+        "start": 764,
+        "end": 858,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 764,
+          "end": 780,
+          "object": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 770,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 771,
+            "end": 780,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 781,
+            "end": 838,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 781,
+              "end": 811,
+              "object": {
+                "type": "MemberExpression",
+                "start": 781,
+                "end": 806,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 781,
+                  "end": 797,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 781,
+                    "end": 787,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 788,
+                    "end": 797,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 798,
+                  "end": 806,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 807,
+                "end": 811,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 812,
+                "end": 837,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 816,
+                  "end": 835,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 816,
+                    "end": 820,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 821,
+                    "end": 835,
+                    "name": "DateTimeFormat"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 840,
+            "end": 857,
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

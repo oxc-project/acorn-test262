@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 347,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 245,
+      "end": 280,
+      "expression": {
+        "type": "CallExpression",
+        "start": 245,
+        "end": 279,
+        "callee": {
+          "type": "Identifier",
+          "start": 245,
+          "end": 264,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 265,
+            "end": 269,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 271,
+            "end": 278,
+            "value": "expm1",
+            "raw": "\"expm1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 281,
+      "end": 311,
+      "expression": {
+        "type": "CallExpression",
+        "start": 281,
+        "end": 310,
+        "callee": {
+          "type": "Identifier",
+          "start": 281,
+          "end": 295,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 296,
+            "end": 300,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 302,
+            "end": 309,
+            "value": "expm1",
+            "raw": "\"expm1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 312,
+      "end": 346,
+      "expression": {
+        "type": "CallExpression",
+        "start": 312,
+        "end": 345,
+        "callee": {
+          "type": "Identifier",
+          "start": 312,
+          "end": 330,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 331,
+            "end": 335,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 337,
+            "end": 344,
+            "value": "expm1",
+            "raw": "\"expm1\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

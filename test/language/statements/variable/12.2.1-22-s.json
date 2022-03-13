@@ -1,0 +1,114 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 384,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 264,
+      "end": 288,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 268,
+          "end": 287,
+          "id": {
+            "type": "Identifier",
+            "start": 268,
+            "end": 280,
+            "name": "indirectEval"
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 287,
+            "name": "eval"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 289,
+      "end": 383,
+      "expression": {
+        "type": "CallExpression",
+        "start": 289,
+        "end": 382,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 289,
+          "end": 302,
+          "object": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 295,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 296,
+            "end": 302,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 303,
+            "end": 314,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 316,
+            "end": 381,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 327,
+              "end": 381,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 334,
+                  "end": 379,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 334,
+                    "end": 378,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 334,
+                      "end": 346,
+                      "name": "indirectEval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 347,
+                        "end": 377,
+                        "value": "'use strict'; var arguments;",
+                        "raw": "\"'use strict'; var arguments;\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

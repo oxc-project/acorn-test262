@@ -1,0 +1,113 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 506,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 429,
+      "end": 459,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 433,
+          "end": 458,
+          "id": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 434,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 437,
+            "end": 458,
+            "callee": {
+              "type": "Identifier",
+              "start": 437,
+              "end": 443,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 444,
+                "end": 457,
+                "value": "hello world",
+                "raw": "\"hello world\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 461,
+      "end": 505,
+      "expression": {
+        "type": "CallExpression",
+        "start": 461,
+        "end": 504,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 461,
+          "end": 477,
+          "object": {
+            "type": "Identifier",
+            "start": 461,
+            "end": 467,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 477,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 478,
+            "end": 483,
+            "object": {
+              "type": "Identifier",
+              "start": 478,
+              "end": 479,
+              "name": "s"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 480,
+              "end": 482,
+              "value": 11,
+              "raw": "11"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 485,
+            "end": 494,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 496,
+            "end": 503,
+            "value": "s[11]",
+            "raw": "'s[11]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

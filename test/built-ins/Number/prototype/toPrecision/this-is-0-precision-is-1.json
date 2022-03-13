@@ -1,0 +1,194 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 747,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 615,
+      "end": 695,
+      "expression": {
+        "type": "CallExpression",
+        "start": 615,
+        "end": 694,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 615,
+          "end": 631,
+          "object": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 621,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 622,
+            "end": 631,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 632,
+            "end": 663,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 632,
+              "end": 660,
+              "object": {
+                "type": "MemberExpression",
+                "start": 632,
+                "end": 648,
+                "object": {
+                  "type": "Identifier",
+                  "start": 632,
+                  "end": 638,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 639,
+                  "end": 648,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 649,
+                "end": 660,
+                "name": "toPrecision"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 661,
+                "end": 662,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 665,
+            "end": 668,
+            "value": "0",
+            "raw": "\"0\""
+          },
+          {
+            "type": "Literal",
+            "start": 670,
+            "end": 693,
+            "value": "Number.prototype is 0",
+            "raw": "\"Number.prototype is 0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 697,
+      "end": 746,
+      "expression": {
+        "type": "CallExpression",
+        "start": 697,
+        "end": 745,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 697,
+          "end": 713,
+          "object": {
+            "type": "Identifier",
+            "start": 697,
+            "end": 703,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 704,
+            "end": 713,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 714,
+            "end": 733,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 714,
+              "end": 730,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 714,
+                "end": 718,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 715,
+                  "end": 717,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 716,
+                    "end": 717,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 719,
+                "end": 730,
+                "name": "toPrecision"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 731,
+                "end": 732,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 735,
+            "end": 738,
+            "value": "0",
+            "raw": "\"0\""
+          },
+          {
+            "type": "Literal",
+            "start": 740,
+            "end": 744,
+            "value": "-0",
+            "raw": "\"-0\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,185 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 538,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 357,
+      "end": 374,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 361,
+          "end": 373,
+          "id": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 365,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 368,
+            "end": 373,
+            "value": {},
+            "raw": "/\\b/m",
+            "regex": {
+              "pattern": "\\b",
+              "flags": "m"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 375,
+      "end": 416,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 379,
+          "end": 415,
+          "id": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 389,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 392,
+            "end": 415,
+            "callee": {
+              "type": "Identifier",
+              "start": 392,
+              "end": 398,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 399,
+                "end": 403,
+                "name": "__re"
+              },
+              {
+                "type": "Identifier",
+                "start": 405,
+                "end": 414,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 417,
+      "end": 436,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 417,
+        "end": 435,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 417,
+          "end": 431,
+          "object": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 421,
+            "name": "__re"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 422,
+            "end": 431,
+            "name": "indicator"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 434,
+          "end": 435,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 438,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 438,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 438,
+          "end": 454,
+          "object": {
+            "type": "Identifier",
+            "start": 438,
+            "end": 444,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 454,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 455,
+            "end": 475,
+            "object": {
+              "type": "Identifier",
+              "start": 455,
+              "end": 465,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 466,
+              "end": 475,
+              "name": "indicator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 477,
+            "end": 478,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 480,
+            "end": 535,
+            "value": "The value of __instance.indicator is expected to be 1",
+            "raw": "'The value of __instance.indicator is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

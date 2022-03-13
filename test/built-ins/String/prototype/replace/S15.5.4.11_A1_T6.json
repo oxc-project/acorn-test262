@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 881,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 497,
+      "end": 790,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 501,
+        "end": 581,
+        "left": {
+          "type": "CallExpression",
+          "start": 501,
+          "end": 572,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 501,
+            "end": 532,
+            "object": {
+              "type": "NewExpression",
+              "start": 501,
+              "end": 524,
+              "callee": {
+                "type": "Identifier",
+                "start": 505,
+                "end": 511,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 512,
+                  "end": 523,
+                  "value": "undefined",
+                  "raw": "\"undefined\""
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 525,
+              "end": 532,
+              "name": "replace"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 533,
+              "end": 534,
+              "name": "x"
+            },
+            {
+              "type": "CallExpression",
+              "start": 536,
+              "end": 571,
+              "callee": {
+                "type": "Identifier",
+                "start": 536,
+                "end": 544,
+                "name": "Function"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 545,
+                  "end": 570,
+                  "value": "return arguments[1]+42;",
+                  "raw": "\"return arguments[1]+42;\""
+                }
+              ],
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 577,
+          "end": 581,
+          "value": "42",
+          "raw": "\"42\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 583,
+        "end": 790,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 587,
+            "end": 788,
+            "argument": {
+              "type": "NewExpression",
+              "start": 593,
+              "end": 787,
+              "callee": {
+                "type": "Identifier",
+                "start": 597,
+                "end": 609,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 610,
+                  "end": 786,
+                  "left": {
+                    "type": "Literal",
+                    "start": 610,
+                    "end": 712,
+                    "value": "#1: var x; new String(\"undefined\").replace(x,Function(\"return arguments[1]+42;\")) === \"42\". Actual: ",
+                    "raw": "'#1: var x; new String(\"undefined\").replace(x,Function(\"return arguments[1]+42;\")) === \"42\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 715,
+                    "end": 786,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 715,
+                      "end": 746,
+                      "object": {
+                        "type": "NewExpression",
+                        "start": 715,
+                        "end": 738,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 719,
+                          "end": 725,
+                          "name": "String"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 726,
+                            "end": 737,
+                            "value": "undefined",
+                            "raw": "\"undefined\""
+                          }
+                        ]
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 739,
+                        "end": 746,
+                        "name": "replace"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 747,
+                        "end": 748,
+                        "name": "x"
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 750,
+                        "end": 785,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 750,
+                          "end": 758,
+                          "name": "Function"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 759,
+                            "end": 784,
+                            "value": "return arguments[1]+42;",
+                            "raw": "\"return arguments[1]+42;\""
+                          }
+                        ],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 874,
+      "end": 880,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 878,
+          "end": 879,
+          "id": {
+            "type": "Identifier",
+            "start": 878,
+            "end": 879,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

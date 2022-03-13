@@ -1,0 +1,204 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 724,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 602,
+      "end": 625,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 606,
+          "end": 624,
+          "id": {
+            "type": "Identifier",
+            "start": 606,
+            "end": 608,
+            "name": "BC"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 611,
+            "end": 624,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 622,
+              "end": 624,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 626,
+      "end": 644,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 630,
+          "end": 643,
+          "id": {
+            "type": "Identifier",
+            "start": 630,
+            "end": 632,
+            "name": "bc"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 635,
+            "end": 643,
+            "callee": {
+              "type": "Identifier",
+              "start": 639,
+              "end": 641,
+              "name": "BC"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 645,
+      "end": 667,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 649,
+          "end": 666,
+          "id": {
+            "type": "Identifier",
+            "start": 649,
+            "end": 654,
+            "name": "bound"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 657,
+            "end": 666,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 657,
+              "end": 664,
+              "object": {
+                "type": "Identifier",
+                "start": 657,
+                "end": 659,
+                "name": "BC"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 660,
+                "end": 664,
+                "name": "bind"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 669,
+      "end": 723,
+      "expression": {
+        "type": "CallExpression",
+        "start": 669,
+        "end": 722,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 669,
+          "end": 685,
+          "object": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 675,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 685,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 686,
+            "end": 715,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 686,
+              "end": 711,
+              "object": {
+                "type": "Identifier",
+                "start": 686,
+                "end": 691,
+                "name": "bound"
+              },
+              "property": {
+                "type": "MemberExpression",
+                "start": 692,
+                "end": 710,
+                "object": {
+                  "type": "Identifier",
+                  "start": 692,
+                  "end": 698,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 699,
+                  "end": 710,
+                  "name": "hasInstance"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "computed": true,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 712,
+                "end": 714,
+                "name": "bc"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 717,
+            "end": 721,
+            "value": true,
+            "raw": "true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

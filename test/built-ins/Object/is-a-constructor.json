@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 816,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 710,
+      "end": 798,
+      "expression": {
+        "type": "CallExpression",
+        "start": 710,
+        "end": 797,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 710,
+          "end": 726,
+          "object": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 716,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 717,
+            "end": 726,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 727,
+            "end": 748,
+            "callee": {
+              "type": "Identifier",
+              "start": 727,
+              "end": 740,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 741,
+                "end": 747,
+                "name": "Object"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 750,
+            "end": 754,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 756,
+            "end": 796,
+            "value": "isConstructor(Object) must return true",
+            "raw": "'isConstructor(Object) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 799,
+      "end": 812,
+      "expression": {
+        "type": "NewExpression",
+        "start": 799,
+        "end": 811,
+        "callee": {
+          "type": "Identifier",
+          "start": 803,
+          "end": 809,
+          "name": "Object"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

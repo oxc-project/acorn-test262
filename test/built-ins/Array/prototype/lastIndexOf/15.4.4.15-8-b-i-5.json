@@ -1,0 +1,225 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 541,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 343,
+      "end": 456,
+      "expression": {
+        "type": "CallExpression",
+        "start": 343,
+        "end": 455,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 343,
+          "end": 364,
+          "object": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 349,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 364,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 365,
+            "end": 380,
+            "object": {
+              "type": "Identifier",
+              "start": 365,
+              "end": 370,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 371,
+              "end": 380,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 382,
+            "end": 385,
+            "value": "0",
+            "raw": "\"0\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 387,
+            "end": 454,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 391,
+                "end": 430,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 391,
+                  "end": 394,
+                  "name": "get"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 396,
+                  "end": 430,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 407,
+                    "end": 430,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 413,
+                        "end": 426,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 420,
+                          "end": 425,
+                          "value": false,
+                          "raw": "false"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 434,
+                "end": 452,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 434,
+                  "end": 446,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 448,
+                  "end": 452,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 539,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 458,
+          "end": 474,
+          "object": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 464,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 474,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 475,
+            "end": 503,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 475,
+              "end": 495,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 475,
+                "end": 483,
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "start": 476,
+                    "end": 482,
+                    "name": "Number"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 484,
+                "end": 495,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 496,
+                "end": 502,
+                "name": "Number"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 505,
+            "end": 506,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 508,
+            "end": 538,
+            "value": "[Number].lastIndexOf(Number)",
+            "raw": "'[Number].lastIndexOf(Number)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

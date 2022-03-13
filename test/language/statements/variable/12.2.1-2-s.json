@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 379,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 285,
+      "end": 378,
+      "expression": {
+        "type": "CallExpression",
+        "start": 285,
+        "end": 377,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 285,
+          "end": 298,
+          "object": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 291,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 298,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 299,
+            "end": 310,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 312,
+            "end": 376,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 323,
+              "end": 376,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 329,
+                  "end": 374,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 329,
+                    "end": 373,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 329,
+                      "end": 333,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 334,
+                        "end": 372,
+                        "value": "function foo() { eval = 42; }; foo()",
+                        "raw": "'function foo() { eval = 42; }; foo()'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

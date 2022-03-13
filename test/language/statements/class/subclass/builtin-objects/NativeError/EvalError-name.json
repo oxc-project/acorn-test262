@@ -1,0 +1,120 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 559,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 463,
+      "end": 493,
+      "id": {
+        "type": "Identifier",
+        "start": 469,
+        "end": 472,
+        "name": "Err"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 481,
+        "end": 490,
+        "name": "EvalError"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 491,
+        "end": 493,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 495,
+      "end": 516,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 499,
+          "end": 515,
+          "id": {
+            "type": "Identifier",
+            "start": 499,
+            "end": 503,
+            "name": "err1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 506,
+            "end": 515,
+            "callee": {
+              "type": "Identifier",
+              "start": 510,
+              "end": 513,
+              "name": "Err"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 517,
+      "end": 558,
+      "expression": {
+        "type": "CallExpression",
+        "start": 517,
+        "end": 557,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 517,
+          "end": 533,
+          "object": {
+            "type": "Identifier",
+            "start": 517,
+            "end": 523,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 533,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 534,
+            "end": 543,
+            "object": {
+              "type": "Identifier",
+              "start": 534,
+              "end": 538,
+              "name": "err1"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 539,
+              "end": 543,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 545,
+            "end": 556,
+            "value": "EvalError",
+            "raw": "'EvalError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

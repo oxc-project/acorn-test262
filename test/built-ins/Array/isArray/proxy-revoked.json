@@ -1,0 +1,210 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 802,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 612,
+      "end": 649,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 616,
+          "end": 648,
+          "id": {
+            "type": "Identifier",
+            "start": 616,
+            "end": 622,
+            "name": "handle"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 625,
+            "end": 648,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 625,
+              "end": 640,
+              "object": {
+                "type": "Identifier",
+                "start": 625,
+                "end": 630,
+                "name": "Proxy"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 631,
+                "end": 640,
+                "name": "revocable"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 641,
+                "end": 643,
+                "elements": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 645,
+                "end": 647,
+                "properties": []
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 667,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 666,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 651,
+          "end": 664,
+          "object": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 657,
+            "name": "handle"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 664,
+            "name": "revoke"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 669,
+      "end": 801,
+      "expression": {
+        "type": "CallExpression",
+        "start": 669,
+        "end": 800,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 669,
+          "end": 682,
+          "object": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 675,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 682,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 683,
+            "end": 692,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 694,
+            "end": 739,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 705,
+              "end": 739,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 709,
+                  "end": 737,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 709,
+                    "end": 736,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 709,
+                      "end": 722,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 709,
+                        "end": 714,
+                        "name": "Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 715,
+                        "end": 722,
+                        "name": "isArray"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 723,
+                        "end": 735,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 723,
+                          "end": 729,
+                          "name": "handle"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 730,
+                          "end": 735,
+                          "name": "proxy"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 741,
+            "end": 799,
+            "value": "Array.isArray(handle.proxy) throws a TypeError exception",
+            "raw": "'Array.isArray(handle.proxy) throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

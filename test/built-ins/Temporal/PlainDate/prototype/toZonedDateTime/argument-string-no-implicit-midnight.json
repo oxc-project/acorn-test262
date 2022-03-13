@@ -1,0 +1,232 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 570,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 319,
+      "end": 344,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 325,
+          "end": 343,
+          "id": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 328,
+            "name": "arg"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 331,
+            "end": 343,
+            "value": "2019-10-01",
+            "raw": "\"2019-10-01\""
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 345,
+      "end": 397,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 351,
+          "end": 396,
+          "id": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 359,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 362,
+            "end": 396,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 366,
+              "end": 384,
+              "object": {
+                "type": "Identifier",
+                "start": 366,
+                "end": 374,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 375,
+                "end": 384,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 385,
+                "end": 389,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 391,
+                "end": 392,
+                "value": 5,
+                "raw": "5"
+              },
+              {
+                "type": "Literal",
+                "start": 394,
+                "end": 395,
+                "value": 2,
+                "raw": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 398,
+      "end": 569,
+      "expression": {
+        "type": "CallExpression",
+        "start": 398,
+        "end": 568,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 398,
+          "end": 411,
+          "object": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 404,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 411,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 415,
+            "end": 425,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 429,
+            "end": 496,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 435,
+              "end": 496,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 435,
+                "end": 459,
+                "object": {
+                  "type": "Identifier",
+                  "start": 435,
+                  "end": 443,
+                  "name": "instance"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 444,
+                  "end": 459,
+                  "name": "toZonedDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 460,
+                  "end": 495,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 462,
+                      "end": 476,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 462,
+                        "end": 471,
+                        "name": "plainTime"
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 473,
+                        "end": 476,
+                        "name": "arg"
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 478,
+                      "end": 493,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 478,
+                        "end": 486,
+                        "name": "timeZone"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 488,
+                        "end": 493,
+                        "value": "UTC",
+                        "raw": "\"UTC\""
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 500,
+            "end": 566,
+            "value": "Date-only string throws, does not implicitly convert to midnight",
+            "raw": "\"Date-only string throws, does not implicitly convert to midnight\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

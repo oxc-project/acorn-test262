@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 433,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 336,
+      "end": 432,
+      "expression": {
+        "type": "CallExpression",
+        "start": 336,
+        "end": 431,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 336,
+          "end": 348,
+          "object": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 340,
+            "name": "NaNs"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 348,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 349,
+            "end": 430,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 358,
+                "end": 359,
+                "name": "v"
+              },
+              {
+                "type": "Identifier",
+                "start": 361,
+                "end": 362,
+                "name": "i"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 364,
+              "end": 430,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 368,
+                  "end": 428,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 368,
+                    "end": 427,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 368,
+                      "end": 384,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 368,
+                        "end": 374,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 375,
+                        "end": 384,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 385,
+                        "end": 393,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 385,
+                          "end": 390,
+                          "name": "isNaN"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 391,
+                            "end": 392,
+                            "name": "v"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 395,
+                        "end": 399,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      {
+                        "type": "BinaryExpression",
+                        "start": 401,
+                        "end": 426,
+                        "left": {
+                          "type": "Literal",
+                          "start": 401,
+                          "end": 422,
+                          "value": "value on position: ",
+                          "raw": "\"value on position: \""
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 425,
+                          "end": 426,
+                          "name": "i"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,182 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 566,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 384,
+      "end": 472,
+      "expression": {
+        "type": "CallExpression",
+        "start": 384,
+        "end": 471,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 384,
+          "end": 400,
+          "object": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 390,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 400,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 401,
+            "end": 422,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 401,
+              "end": 410,
+              "object": {
+                "type": "Identifier",
+                "start": 401,
+                "end": 407,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 408,
+                "end": 410,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 411,
+                "end": 415,
+                "value": true,
+                "raw": "true"
+              },
+              {
+                "type": "Literal",
+                "start": 417,
+                "end": 421,
+                "value": true,
+                "raw": "true"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 424,
+            "end": 428,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 430,
+            "end": 470,
+            "value": "`Object.is(true, true)` returns `true`",
+            "raw": "\"`Object.is(true, true)` returns `true`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 473,
+      "end": 565,
+      "expression": {
+        "type": "CallExpression",
+        "start": 473,
+        "end": 564,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 473,
+          "end": 489,
+          "object": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 479,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 480,
+            "end": 489,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 490,
+            "end": 513,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 490,
+              "end": 499,
+              "object": {
+                "type": "Identifier",
+                "start": 490,
+                "end": 496,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 497,
+                "end": 499,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 500,
+                "end": 505,
+                "value": false,
+                "raw": "false"
+              },
+              {
+                "type": "Literal",
+                "start": 507,
+                "end": 512,
+                "value": false,
+                "raw": "false"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 515,
+            "end": 519,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 521,
+            "end": 563,
+            "value": "`Object.is(false, false)` returns `true`",
+            "raw": "\"`Object.is(false, false)` returns `true`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 477,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 243,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 243,
+        "end": 440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 243,
+          "end": 253,
+          "object": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 247,
+            "name": "JSON"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 248,
+            "end": 253,
+            "name": "parse"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 254,
+            "end": 439,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 254,
+              "end": 417,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 254,
+                "end": 356,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 254,
+                  "end": 327,
+                  "left": {
+                    "type": "Literal",
+                    "start": 254,
+                    "end": 271,
+                    "value": "\t\r \n{\t\r \n",
+                    "raw": "'\\t\\r \\n{\\t\\r \\n'"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 276,
+                    "end": 327,
+                    "value": "\"property\"\t\r \n:\t\r \n{\t\r \n}\t\r \n,\t\r \n",
+                    "raw": "'\"property\"\\t\\r \\n:\\t\\r \\n{\\t\\r \\n}\\t\\r \\n,\\t\\r \\n'"
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 332,
+                  "end": 356,
+                  "value": "\"prop2\"\t\r \n:\t\r \n",
+                  "raw": "'\"prop2\"\\t\\r \\n:\\t\\r \\n'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 361,
+                "end": 417,
+                "value": "[\t\r \ntrue\t\r \n,\t\r \nnull\t\r \n,123.456\t\r \n]",
+                "raw": "'[\\t\\r \\ntrue\\t\\r \\n,\\t\\r \\nnull\\t\\r \\n,123.456\\t\\r \\n]'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 422,
+              "end": 439,
+              "value": "\t\r \n}\t\r \n",
+              "raw": "'\\t\\r \\n}\\t\\r \\n'"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

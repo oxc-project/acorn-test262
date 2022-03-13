@@ -1,0 +1,189 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 462,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 247,
+      "end": 317,
+      "expression": {
+        "type": "CallExpression",
+        "start": 247,
+        "end": 316,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 247,
+          "end": 263,
+          "object": {
+            "type": "Identifier",
+            "start": 247,
+            "end": 253,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 254,
+            "end": 263,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 264,
+            "end": 283,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 264,
+              "end": 274,
+              "object": {
+                "type": "Identifier",
+                "start": 264,
+                "end": 268,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 269,
+                "end": 274,
+                "name": "parse"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 275,
+                "end": 282,
+                "value": " 1234",
+                "raw": "' 1234'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 285,
+            "end": 289,
+            "value": 1234,
+            "raw": "1234"
+          },
+          {
+            "type": "Literal",
+            "start": 291,
+            "end": 315,
+            "value": "<SP> should be ignored",
+            "raw": "'<SP> should be ignored'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 319,
+      "end": 461,
+      "expression": {
+        "type": "CallExpression",
+        "start": 319,
+        "end": 460,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 319,
+          "end": 332,
+          "object": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 325,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 332,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 333,
+            "end": 344,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 346,
+            "end": 385,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 357,
+              "end": 385,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 363,
+                  "end": 383,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 363,
+                    "end": 382,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 363,
+                      "end": 373,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 363,
+                        "end": 367,
+                        "name": "JSON"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 368,
+                        "end": 373,
+                        "name": "parse"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 374,
+                        "end": 381,
+                        "value": "12 34",
+                        "raw": "'12 34'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 387,
+            "end": 459,
+            "value": "<SP> should produce a syntax error as whitespace results in two tokens",
+            "raw": "'<SP> should produce a syntax error as whitespace results in two tokens'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

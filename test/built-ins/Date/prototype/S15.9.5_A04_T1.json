@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 461,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 316,
+      "end": 460,
+      "expression": {
+        "type": "CallExpression",
+        "start": 316,
+        "end": 459,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 316,
+          "end": 332,
+          "object": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 322,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 332,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 336,
+            "end": 381,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 336,
+              "end": 365,
+              "object": {
+                "type": "MemberExpression",
+                "start": 336,
+                "end": 350,
+                "object": {
+                  "type": "Identifier",
+                  "start": 336,
+                  "end": 340,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 341,
+                  "end": 350,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 351,
+                "end": 365,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 366,
+                "end": 380,
+                "value": "toTimeString",
+                "raw": "\"toTimeString\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 385,
+            "end": 389,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 457,
+            "value": "Date.prototype.hasOwnProperty(\"toTimeString\") must return true",
+            "raw": "'Date.prototype.hasOwnProperty(\"toTimeString\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 619,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 427,
+      "end": 478,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 431,
+          "end": 477,
+          "id": {
+            "type": "Identifier",
+            "start": 431,
+            "end": 432,
+            "name": "f"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 435,
+            "end": 477,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 435,
+              "end": 448,
+              "object": {
+                "type": "Identifier",
+                "start": 435,
+                "end": 443,
+                "name": "Function"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 444,
+                "end": 448,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ThisExpression",
+                "start": 449,
+                "end": 453
+              },
+              {
+                "type": "Literal",
+                "start": 455,
+                "end": 476,
+                "value": "return this.planet;",
+                "raw": "\"return this.planet;\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 480,
+      "end": 538,
+      "expression": {
+        "type": "CallExpression",
+        "start": 480,
+        "end": 537,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 480,
+          "end": 496,
+          "object": {
+            "type": "Identifier",
+            "start": 480,
+            "end": 486,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 487,
+            "end": 496,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 497,
+            "end": 500,
+            "callee": {
+              "type": "Identifier",
+              "start": 497,
+              "end": 498,
+              "name": "f"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 502,
+            "end": 511,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 513,
+            "end": 536,
+            "value": "f() returns undefined",
+            "raw": "'f() returns undefined'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 540,
+      "end": 560,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 544,
+          "end": 559,
+          "id": {
+            "type": "Identifier",
+            "start": 544,
+            "end": 550,
+            "name": "planet"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 553,
+            "end": 559,
+            "value": "mars",
+            "raw": "\"mars\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 562,
+      "end": 618,
+      "expression": {
+        "type": "CallExpression",
+        "start": 562,
+        "end": 617,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 562,
+          "end": 578,
+          "object": {
+            "type": "Identifier",
+            "start": 562,
+            "end": 568,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 569,
+            "end": 578,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 579,
+            "end": 582,
+            "callee": {
+              "type": "Identifier",
+              "start": 579,
+              "end": 580,
+              "name": "f"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 584,
+            "end": 590,
+            "value": "mars",
+            "raw": "\"mars\""
+          },
+          {
+            "type": "Literal",
+            "start": 592,
+            "end": 616,
+            "value": "f() must return \"mars\"",
+            "raw": "'f() must return \"mars\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

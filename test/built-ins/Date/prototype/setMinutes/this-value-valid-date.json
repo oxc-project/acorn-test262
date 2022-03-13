@@ -1,0 +1,2636 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3560,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 769,
+      "end": 801,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 773,
+          "end": 800,
+          "id": {
+            "type": "Identifier",
+            "start": 773,
+            "end": 777,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 780,
+            "end": 800,
+            "callee": {
+              "type": "Identifier",
+              "start": 784,
+              "end": 788,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 789,
+                "end": 793,
+                "value": 2016,
+                "raw": "2016"
+              },
+              {
+                "type": "Literal",
+                "start": 795,
+                "end": 796,
+                "value": 6,
+                "raw": "6"
+              },
+              {
+                "type": "Literal",
+                "start": 798,
+                "end": 799,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 802,
+      "end": 828,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 806,
+          "end": 817,
+          "id": {
+            "type": "Identifier",
+            "start": 806,
+            "end": 817,
+            "name": "returnValue"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 819,
+          "end": 827,
+          "id": {
+            "type": "Identifier",
+            "start": 819,
+            "end": 827,
+            "name": "expected"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 830,
+      "end": 864,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 830,
+        "end": 863,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 830,
+          "end": 841,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 844,
+          "end": 863,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 844,
+            "end": 859,
+            "object": {
+              "type": "Identifier",
+              "start": 844,
+              "end": 848,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 849,
+              "end": 859,
+              "name": "setMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 860,
+              "end": 862,
+              "value": 23,
+              "raw": "23"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 866,
+      "end": 915,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 866,
+        "end": 914,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 866,
+          "end": 874,
+          "name": "expected"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 877,
+          "end": 914,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 877,
+            "end": 912,
+            "object": {
+              "type": "NewExpression",
+              "start": 877,
+              "end": 904,
+              "callee": {
+                "type": "Identifier",
+                "start": 881,
+                "end": 885,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 886,
+                  "end": 890,
+                  "value": 2016,
+                  "raw": "2016"
+                },
+                {
+                  "type": "Literal",
+                  "start": 892,
+                  "end": 893,
+                  "value": 6,
+                  "raw": "6"
+                },
+                {
+                  "type": "Literal",
+                  "start": 895,
+                  "end": 896,
+                  "value": 1,
+                  "raw": "1"
+                },
+                {
+                  "type": "Literal",
+                  "start": 898,
+                  "end": 899,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 901,
+                  "end": 903,
+                  "value": 23,
+                  "raw": "23"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 905,
+              "end": 912,
+              "name": "getTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 916,
+      "end": 1006,
+      "expression": {
+        "type": "CallExpression",
+        "start": 916,
+        "end": 1005,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 916,
+          "end": 932,
+          "object": {
+            "type": "Identifier",
+            "start": 916,
+            "end": 922,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 923,
+            "end": 932,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 936,
+            "end": 947,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 949,
+            "end": 957,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 959,
+            "end": 1003,
+            "value": "minute within unit boundary (return value)",
+            "raw": "'minute within unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1007,
+      "end": 1106,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1007,
+        "end": 1105,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1007,
+          "end": 1023,
+          "object": {
+            "type": "Identifier",
+            "start": 1007,
+            "end": 1013,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1014,
+            "end": 1023,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1027,
+            "end": 1041,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1027,
+              "end": 1039,
+              "object": {
+                "type": "Identifier",
+                "start": 1027,
+                "end": 1031,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1032,
+                "end": 1039,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1043,
+            "end": 1051,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 1053,
+            "end": 1103,
+            "value": "minute within unit boundary ([[DateValue]] slot)",
+            "raw": "'minute within unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1108,
+      "end": 1142,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1108,
+        "end": 1141,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1108,
+          "end": 1119,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1122,
+          "end": 1141,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1122,
+            "end": 1137,
+            "object": {
+              "type": "Identifier",
+              "start": 1122,
+              "end": 1126,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1127,
+              "end": 1137,
+              "name": "setMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "UnaryExpression",
+              "start": 1138,
+              "end": 1140,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 1139,
+                "end": 1140,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1144,
+      "end": 1195,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1144,
+        "end": 1194,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1144,
+          "end": 1152,
+          "name": "expected"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1155,
+          "end": 1194,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1155,
+            "end": 1192,
+            "object": {
+              "type": "NewExpression",
+              "start": 1155,
+              "end": 1184,
+              "callee": {
+                "type": "Identifier",
+                "start": 1159,
+                "end": 1163,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1164,
+                  "end": 1168,
+                  "value": 2016,
+                  "raw": "2016"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1170,
+                  "end": 1171,
+                  "value": 5,
+                  "raw": "5"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1173,
+                  "end": 1175,
+                  "value": 30,
+                  "raw": "30"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1177,
+                  "end": 1179,
+                  "value": 23,
+                  "raw": "23"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1181,
+                  "end": 1183,
+                  "value": 59,
+                  "raw": "59"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1185,
+              "end": 1192,
+              "name": "getTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1196,
+      "end": 1291,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1196,
+        "end": 1290,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1196,
+          "end": 1212,
+          "object": {
+            "type": "Identifier",
+            "start": 1196,
+            "end": 1202,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1203,
+            "end": 1212,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1216,
+            "end": 1227,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 1229,
+            "end": 1237,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 1239,
+            "end": 1288,
+            "value": "minute before time unit boundary (return value)",
+            "raw": "'minute before time unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1292,
+      "end": 1400,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1292,
+        "end": 1399,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1292,
+          "end": 1308,
+          "object": {
+            "type": "Identifier",
+            "start": 1292,
+            "end": 1298,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1299,
+            "end": 1308,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1312,
+            "end": 1326,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1312,
+              "end": 1324,
+              "object": {
+                "type": "Identifier",
+                "start": 1312,
+                "end": 1316,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1317,
+                "end": 1324,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1330,
+            "end": 1338,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 1342,
+            "end": 1397,
+            "value": "minute before time unit boundary ([[DateValue]] slot)",
+            "raw": "'minute before time unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1402,
+      "end": 1436,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1402,
+        "end": 1435,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1402,
+          "end": 1413,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1416,
+          "end": 1435,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1416,
+            "end": 1431,
+            "object": {
+              "type": "Identifier",
+              "start": 1416,
+              "end": 1420,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1421,
+              "end": 1431,
+              "name": "setMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1432,
+              "end": 1434,
+              "value": 60,
+              "raw": "60"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1438,
+      "end": 1480,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1438,
+        "end": 1479,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1438,
+          "end": 1446,
+          "name": "expected"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1449,
+          "end": 1479,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1449,
+            "end": 1477,
+            "object": {
+              "type": "NewExpression",
+              "start": 1449,
+              "end": 1469,
+              "callee": {
+                "type": "Identifier",
+                "start": 1453,
+                "end": 1457,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1458,
+                  "end": 1462,
+                  "value": 2016,
+                  "raw": "2016"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1464,
+                  "end": 1465,
+                  "value": 6,
+                  "raw": "6"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1467,
+                  "end": 1468,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1470,
+              "end": 1477,
+              "name": "getTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1481,
+      "end": 1575,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1481,
+        "end": 1574,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1481,
+          "end": 1497,
+          "object": {
+            "type": "Identifier",
+            "start": 1481,
+            "end": 1487,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1488,
+            "end": 1497,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1501,
+            "end": 1512,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 1514,
+            "end": 1522,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 1524,
+            "end": 1572,
+            "value": "minute after time unit boundary (return value)",
+            "raw": "'minute after time unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1576,
+      "end": 1683,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1576,
+        "end": 1682,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1576,
+          "end": 1592,
+          "object": {
+            "type": "Identifier",
+            "start": 1576,
+            "end": 1582,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1583,
+            "end": 1592,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1596,
+            "end": 1610,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1596,
+              "end": 1608,
+              "object": {
+                "type": "Identifier",
+                "start": 1596,
+                "end": 1600,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1601,
+                "end": 1608,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1614,
+            "end": 1622,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 1626,
+            "end": 1680,
+            "value": "minute after time unit boundary ([[DateValue]] slot)",
+            "raw": "'minute after time unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1685,
+      "end": 1713,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1685,
+        "end": 1712,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1685,
+          "end": 1689,
+          "name": "date"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 1692,
+          "end": 1712,
+          "callee": {
+            "type": "Identifier",
+            "start": 1696,
+            "end": 1700,
+            "name": "Date"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1701,
+              "end": 1705,
+              "value": 2016,
+              "raw": "2016"
+            },
+            {
+              "type": "Literal",
+              "start": 1707,
+              "end": 1708,
+              "value": 6,
+              "raw": "6"
+            },
+            {
+              "type": "Literal",
+              "start": 1710,
+              "end": 1711,
+              "value": 1,
+              "raw": "1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1715,
+      "end": 1752,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1715,
+        "end": 1751,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1715,
+          "end": 1726,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1729,
+          "end": 1751,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1729,
+            "end": 1744,
+            "object": {
+              "type": "Identifier",
+              "start": 1729,
+              "end": 1733,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1734,
+              "end": 1744,
+              "name": "setMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1745,
+              "end": 1746,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 1748,
+              "end": 1750,
+              "value": 45,
+              "raw": "45"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1754,
+      "end": 1806,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1754,
+        "end": 1805,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1754,
+          "end": 1762,
+          "name": "expected"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1765,
+          "end": 1805,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1765,
+            "end": 1803,
+            "object": {
+              "type": "NewExpression",
+              "start": 1765,
+              "end": 1795,
+              "callee": {
+                "type": "Identifier",
+                "start": 1769,
+                "end": 1773,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1774,
+                  "end": 1778,
+                  "value": 2016,
+                  "raw": "2016"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1780,
+                  "end": 1781,
+                  "value": 6,
+                  "raw": "6"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1783,
+                  "end": 1784,
+                  "value": 1,
+                  "raw": "1"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1786,
+                  "end": 1787,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1789,
+                  "end": 1790,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1792,
+                  "end": 1794,
+                  "value": 45,
+                  "raw": "45"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1796,
+              "end": 1803,
+              "name": "getTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1807,
+      "end": 1897,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1807,
+        "end": 1896,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1807,
+          "end": 1823,
+          "object": {
+            "type": "Identifier",
+            "start": 1807,
+            "end": 1813,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1814,
+            "end": 1823,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1827,
+            "end": 1838,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 1840,
+            "end": 1848,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 1850,
+            "end": 1894,
+            "value": "second within unit boundary (return value)",
+            "raw": "'second within unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1898,
+      "end": 1997,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1898,
+        "end": 1996,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1898,
+          "end": 1914,
+          "object": {
+            "type": "Identifier",
+            "start": 1898,
+            "end": 1904,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1905,
+            "end": 1914,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1918,
+            "end": 1932,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1918,
+              "end": 1930,
+              "object": {
+                "type": "Identifier",
+                "start": 1918,
+                "end": 1922,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1923,
+                "end": 1930,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1934,
+            "end": 1942,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 1944,
+            "end": 1994,
+            "value": "second within unit boundary ([[DateValue]] slot)",
+            "raw": "'second within unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1999,
+      "end": 2036,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1999,
+        "end": 2035,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1999,
+          "end": 2010,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2013,
+          "end": 2035,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2013,
+            "end": 2028,
+            "object": {
+              "type": "Identifier",
+              "start": 2013,
+              "end": 2017,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2018,
+              "end": 2028,
+              "name": "setMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2029,
+              "end": 2030,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "UnaryExpression",
+              "start": 2032,
+              "end": 2034,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 2033,
+                "end": 2034,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2038,
+      "end": 2093,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2038,
+        "end": 2092,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2038,
+          "end": 2046,
+          "name": "expected"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2049,
+          "end": 2092,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2049,
+            "end": 2090,
+            "object": {
+              "type": "NewExpression",
+              "start": 2049,
+              "end": 2082,
+              "callee": {
+                "type": "Identifier",
+                "start": 2053,
+                "end": 2057,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2058,
+                  "end": 2062,
+                  "value": 2016,
+                  "raw": "2016"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2064,
+                  "end": 2065,
+                  "value": 5,
+                  "raw": "5"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2067,
+                  "end": 2069,
+                  "value": 30,
+                  "raw": "30"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2071,
+                  "end": 2073,
+                  "value": 23,
+                  "raw": "23"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2075,
+                  "end": 2077,
+                  "value": 59,
+                  "raw": "59"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2079,
+                  "end": 2081,
+                  "value": 59,
+                  "raw": "59"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2083,
+              "end": 2090,
+              "name": "getTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2094,
+      "end": 2189,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2094,
+        "end": 2188,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2094,
+          "end": 2110,
+          "object": {
+            "type": "Identifier",
+            "start": 2094,
+            "end": 2100,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2101,
+            "end": 2110,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2114,
+            "end": 2125,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 2127,
+            "end": 2135,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 2137,
+            "end": 2186,
+            "value": "second before time unit boundary (return value)",
+            "raw": "'second before time unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2190,
+      "end": 2298,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2190,
+        "end": 2297,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2190,
+          "end": 2206,
+          "object": {
+            "type": "Identifier",
+            "start": 2190,
+            "end": 2196,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2197,
+            "end": 2206,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2210,
+            "end": 2224,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2210,
+              "end": 2222,
+              "object": {
+                "type": "Identifier",
+                "start": 2210,
+                "end": 2214,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2215,
+                "end": 2222,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 2228,
+            "end": 2236,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 2240,
+            "end": 2295,
+            "value": "second before time unit boundary ([[DateValue]] slot)",
+            "raw": "'second before time unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2300,
+      "end": 2337,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2300,
+        "end": 2336,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2300,
+          "end": 2311,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2314,
+          "end": 2336,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2314,
+            "end": 2329,
+            "object": {
+              "type": "Identifier",
+              "start": 2314,
+              "end": 2318,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2319,
+              "end": 2329,
+              "name": "setMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2330,
+              "end": 2331,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 2333,
+              "end": 2335,
+              "value": 60,
+              "raw": "60"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2339,
+      "end": 2389,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2339,
+        "end": 2388,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2339,
+          "end": 2347,
+          "name": "expected"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2350,
+          "end": 2388,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2350,
+            "end": 2386,
+            "object": {
+              "type": "NewExpression",
+              "start": 2350,
+              "end": 2378,
+              "callee": {
+                "type": "Identifier",
+                "start": 2354,
+                "end": 2358,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2359,
+                  "end": 2363,
+                  "value": 2016,
+                  "raw": "2016"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2365,
+                  "end": 2366,
+                  "value": 5,
+                  "raw": "5"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2368,
+                  "end": 2370,
+                  "value": 30,
+                  "raw": "30"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2372,
+                  "end": 2374,
+                  "value": 23,
+                  "raw": "23"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2376,
+                  "end": 2377,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2379,
+              "end": 2386,
+              "name": "getTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2390,
+      "end": 2484,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2390,
+        "end": 2483,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2390,
+          "end": 2406,
+          "object": {
+            "type": "Identifier",
+            "start": 2390,
+            "end": 2396,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2397,
+            "end": 2406,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2410,
+            "end": 2421,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 2423,
+            "end": 2431,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 2433,
+            "end": 2481,
+            "value": "second after time unit boundary (return value)",
+            "raw": "'second after time unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2485,
+      "end": 2592,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2485,
+        "end": 2591,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2485,
+          "end": 2501,
+          "object": {
+            "type": "Identifier",
+            "start": 2485,
+            "end": 2491,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2492,
+            "end": 2501,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2505,
+            "end": 2519,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2505,
+              "end": 2517,
+              "object": {
+                "type": "Identifier",
+                "start": 2505,
+                "end": 2509,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2510,
+                "end": 2517,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 2523,
+            "end": 2531,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 2535,
+            "end": 2589,
+            "value": "second after time unit boundary ([[DateValue]] slot)",
+            "raw": "'second after time unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2594,
+      "end": 2622,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2594,
+        "end": 2621,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2594,
+          "end": 2598,
+          "name": "date"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 2601,
+          "end": 2621,
+          "callee": {
+            "type": "Identifier",
+            "start": 2605,
+            "end": 2609,
+            "name": "Date"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2610,
+              "end": 2614,
+              "value": 2016,
+              "raw": "2016"
+            },
+            {
+              "type": "Literal",
+              "start": 2616,
+              "end": 2617,
+              "value": 6,
+              "raw": "6"
+            },
+            {
+              "type": "Literal",
+              "start": 2619,
+              "end": 2620,
+              "value": 1,
+              "raw": "1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2624,
+      "end": 2665,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2624,
+        "end": 2664,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2624,
+          "end": 2635,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2638,
+          "end": 2664,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2638,
+            "end": 2653,
+            "object": {
+              "type": "Identifier",
+              "start": 2638,
+              "end": 2642,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2643,
+              "end": 2653,
+              "name": "setMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2654,
+              "end": 2655,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 2657,
+              "end": 2658,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 2660,
+              "end": 2663,
+              "value": 345,
+              "raw": "345"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2667,
+      "end": 2723,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2667,
+        "end": 2722,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2667,
+          "end": 2675,
+          "name": "expected"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2678,
+          "end": 2722,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2678,
+            "end": 2720,
+            "object": {
+              "type": "NewExpression",
+              "start": 2678,
+              "end": 2712,
+              "callee": {
+                "type": "Identifier",
+                "start": 2682,
+                "end": 2686,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2687,
+                  "end": 2691,
+                  "value": 2016,
+                  "raw": "2016"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2693,
+                  "end": 2694,
+                  "value": 6,
+                  "raw": "6"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2696,
+                  "end": 2697,
+                  "value": 1,
+                  "raw": "1"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2699,
+                  "end": 2700,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2702,
+                  "end": 2703,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2705,
+                  "end": 2706,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2708,
+                  "end": 2711,
+                  "value": 345,
+                  "raw": "345"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2713,
+              "end": 2720,
+              "name": "getTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2724,
+      "end": 2819,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2724,
+        "end": 2818,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2724,
+          "end": 2740,
+          "object": {
+            "type": "Identifier",
+            "start": 2724,
+            "end": 2730,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2731,
+            "end": 2740,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2744,
+            "end": 2755,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 2757,
+            "end": 2765,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 2767,
+            "end": 2816,
+            "value": "millisecond within unit boundary (return value)",
+            "raw": "'millisecond within unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2820,
+      "end": 2928,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2820,
+        "end": 2927,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2820,
+          "end": 2836,
+          "object": {
+            "type": "Identifier",
+            "start": 2820,
+            "end": 2826,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2827,
+            "end": 2836,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2840,
+            "end": 2854,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2840,
+              "end": 2852,
+              "object": {
+                "type": "Identifier",
+                "start": 2840,
+                "end": 2844,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2845,
+                "end": 2852,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 2858,
+            "end": 2866,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 2870,
+            "end": 2925,
+            "value": "millisecond within unit boundary ([[DateValue]] slot)",
+            "raw": "'millisecond within unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2930,
+      "end": 2970,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2930,
+        "end": 2969,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2930,
+          "end": 2941,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2944,
+          "end": 2969,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2944,
+            "end": 2959,
+            "object": {
+              "type": "Identifier",
+              "start": 2944,
+              "end": 2948,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2949,
+              "end": 2959,
+              "name": "setMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2960,
+              "end": 2961,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 2963,
+              "end": 2964,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "UnaryExpression",
+              "start": 2966,
+              "end": 2968,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 2967,
+                "end": 2968,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2972,
+      "end": 3032,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 2972,
+        "end": 3031,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 2972,
+          "end": 2980,
+          "name": "expected"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 2983,
+          "end": 3031,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2983,
+            "end": 3029,
+            "object": {
+              "type": "NewExpression",
+              "start": 2983,
+              "end": 3021,
+              "callee": {
+                "type": "Identifier",
+                "start": 2987,
+                "end": 2991,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2992,
+                  "end": 2996,
+                  "value": 2016,
+                  "raw": "2016"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2998,
+                  "end": 2999,
+                  "value": 5,
+                  "raw": "5"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3001,
+                  "end": 3003,
+                  "value": 30,
+                  "raw": "30"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3005,
+                  "end": 3007,
+                  "value": 23,
+                  "raw": "23"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3009,
+                  "end": 3011,
+                  "value": 59,
+                  "raw": "59"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3013,
+                  "end": 3015,
+                  "value": 59,
+                  "raw": "59"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3017,
+                  "end": 3020,
+                  "value": 999,
+                  "raw": "999"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3022,
+              "end": 3029,
+              "name": "getTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3033,
+      "end": 3133,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3033,
+        "end": 3132,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3033,
+          "end": 3049,
+          "object": {
+            "type": "Identifier",
+            "start": 3033,
+            "end": 3039,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3040,
+            "end": 3049,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3053,
+            "end": 3064,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 3066,
+            "end": 3074,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 3076,
+            "end": 3130,
+            "value": "millisecond before time unit boundary (return value)",
+            "raw": "'millisecond before time unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3134,
+      "end": 3247,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3134,
+        "end": 3246,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3134,
+          "end": 3150,
+          "object": {
+            "type": "Identifier",
+            "start": 3134,
+            "end": 3140,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3141,
+            "end": 3150,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3154,
+            "end": 3168,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3154,
+              "end": 3166,
+              "object": {
+                "type": "Identifier",
+                "start": 3154,
+                "end": 3158,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3159,
+                "end": 3166,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 3172,
+            "end": 3180,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 3184,
+            "end": 3244,
+            "value": "millisecond before time unit boundary ([[DateValue]] slot)",
+            "raw": "'millisecond before time unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3249,
+      "end": 3291,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 3249,
+        "end": 3290,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 3249,
+          "end": 3260,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 3263,
+          "end": 3290,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 3263,
+            "end": 3278,
+            "object": {
+              "type": "Identifier",
+              "start": 3263,
+              "end": 3267,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3268,
+              "end": 3278,
+              "name": "setMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 3279,
+              "end": 3280,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 3282,
+              "end": 3283,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 3285,
+              "end": 3289,
+              "value": 1000,
+              "raw": "1000"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3293,
+      "end": 3346,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 3293,
+        "end": 3345,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 3293,
+          "end": 3301,
+          "name": "expected"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 3304,
+          "end": 3345,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 3304,
+            "end": 3343,
+            "object": {
+              "type": "NewExpression",
+              "start": 3304,
+              "end": 3335,
+              "callee": {
+                "type": "Identifier",
+                "start": 3308,
+                "end": 3312,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 3313,
+                  "end": 3317,
+                  "value": 2016,
+                  "raw": "2016"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3319,
+                  "end": 3320,
+                  "value": 5,
+                  "raw": "5"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3322,
+                  "end": 3324,
+                  "value": 30,
+                  "raw": "30"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3326,
+                  "end": 3328,
+                  "value": 23,
+                  "raw": "23"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3330,
+                  "end": 3331,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3333,
+                  "end": 3334,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 3336,
+              "end": 3343,
+              "name": "getTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3347,
+      "end": 3446,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3347,
+        "end": 3445,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3347,
+          "end": 3363,
+          "object": {
+            "type": "Identifier",
+            "start": 3347,
+            "end": 3353,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3354,
+            "end": 3363,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3367,
+            "end": 3378,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 3380,
+            "end": 3388,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 3390,
+            "end": 3443,
+            "value": "millisecond after time unit boundary (return value)",
+            "raw": "'millisecond after time unit boundary (return value)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3447,
+      "end": 3559,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3447,
+        "end": 3558,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3447,
+          "end": 3463,
+          "object": {
+            "type": "Identifier",
+            "start": 3447,
+            "end": 3453,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3454,
+            "end": 3463,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3467,
+            "end": 3481,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3467,
+              "end": 3479,
+              "object": {
+                "type": "Identifier",
+                "start": 3467,
+                "end": 3471,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3472,
+                "end": 3479,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 3485,
+            "end": 3493,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 3497,
+            "end": 3556,
+            "value": "millisecond after time unit boundary ([[DateValue]] slot)",
+            "raw": "'millisecond after time unit boundary ([[DateValue]] slot)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

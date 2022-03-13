@@ -1,0 +1,236 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 829,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 650,
+      "end": 718,
+      "expression": {
+        "type": "CallExpression",
+        "start": 650,
+        "end": 717,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 650,
+          "end": 666,
+          "object": {
+            "type": "Identifier",
+            "start": 650,
+            "end": 656,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 657,
+            "end": 666,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 667,
+            "end": 704,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 674,
+              "end": 704,
+              "object": {
+                "type": "MemberExpression",
+                "start": 674,
+                "end": 695,
+                "object": {
+                  "type": "Identifier",
+                  "start": 674,
+                  "end": 685,
+                  "name": "ArrayBuffer"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 686,
+                  "end": 695,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 696,
+                "end": 704,
+                "name": "transfer"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 706,
+            "end": 716,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 720,
+      "end": 748,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 724,
+          "end": 747,
+          "id": {
+            "type": "Identifier",
+            "start": 724,
+            "end": 726,
+            "name": "ab"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 729,
+            "end": 747,
+            "callee": {
+              "type": "Identifier",
+              "start": 733,
+              "end": 744,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 745,
+                "end": 746,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 750,
+      "end": 768,
+      "expression": {
+        "type": "CallExpression",
+        "start": 750,
+        "end": 767,
+        "callee": {
+          "type": "Identifier",
+          "start": 750,
+          "end": 763,
+          "name": "$DETACHBUFFER"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 764,
+            "end": 766,
+            "name": "ab"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 770,
+      "end": 828,
+      "expression": {
+        "type": "CallExpression",
+        "start": 770,
+        "end": 827,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 770,
+          "end": 783,
+          "object": {
+            "type": "Identifier",
+            "start": 770,
+            "end": 776,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 777,
+            "end": 783,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 784,
+            "end": 793,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 795,
+            "end": 826,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 806,
+              "end": 826,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 810,
+                  "end": 824,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 810,
+                    "end": 823,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 810,
+                      "end": 821,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 810,
+                        "end": 812,
+                        "name": "ab"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 813,
+                        "end": 821,
+                        "name": "transfer"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

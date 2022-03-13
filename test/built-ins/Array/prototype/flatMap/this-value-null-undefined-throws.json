@@ -1,0 +1,360 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 693,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 412,
+      "end": 473,
+      "expression": {
+        "type": "CallExpression",
+        "start": 412,
+        "end": 472,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 412,
+          "end": 428,
+          "object": {
+            "type": "Identifier",
+            "start": 412,
+            "end": 418,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 428,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 429,
+            "end": 459,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 436,
+              "end": 459,
+              "object": {
+                "type": "MemberExpression",
+                "start": 436,
+                "end": 451,
+                "object": {
+                  "type": "Identifier",
+                  "start": 436,
+                  "end": 441,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 442,
+                  "end": 451,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 452,
+                "end": 459,
+                "name": "flatMap"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 461,
+            "end": 471,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 475,
+      "end": 504,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 479,
+          "end": 503,
+          "id": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 487,
+            "name": "mapperFn"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 490,
+            "end": 503,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 501,
+              "end": 503,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 506,
+      "end": 596,
+      "expression": {
+        "type": "CallExpression",
+        "start": 506,
+        "end": 595,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 506,
+          "end": 519,
+          "object": {
+            "type": "Identifier",
+            "start": 506,
+            "end": 512,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 513,
+            "end": 519,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 520,
+            "end": 529,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 531,
+            "end": 580,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 542,
+              "end": 580,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 546,
+                  "end": 578,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 546,
+                    "end": 577,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 546,
+                      "end": 561,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 546,
+                        "end": 556,
+                        "object": {
+                          "type": "ArrayExpression",
+                          "start": 546,
+                          "end": 548,
+                          "elements": []
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 549,
+                          "end": 556,
+                          "name": "flatMap"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 557,
+                        "end": 561,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 562,
+                        "end": 566,
+                        "value": null,
+                        "raw": "null"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 568,
+                        "end": 576,
+                        "name": "mapperFn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 582,
+            "end": 594,
+            "value": "null value",
+            "raw": "'null value'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 598,
+      "end": 692,
+      "expression": {
+        "type": "CallExpression",
+        "start": 598,
+        "end": 691,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 598,
+          "end": 611,
+          "object": {
+            "type": "Identifier",
+            "start": 598,
+            "end": 604,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 605,
+            "end": 611,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 612,
+            "end": 621,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 623,
+            "end": 677,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 634,
+              "end": 677,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 638,
+                  "end": 675,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 638,
+                    "end": 674,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 638,
+                      "end": 653,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 638,
+                        "end": 648,
+                        "object": {
+                          "type": "ArrayExpression",
+                          "start": 638,
+                          "end": 640,
+                          "elements": []
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 641,
+                          "end": 648,
+                          "name": "flatMap"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 649,
+                        "end": 653,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 654,
+                        "end": 663,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 665,
+                        "end": 673,
+                        "name": "mapperFn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 679,
+            "end": 690,
+            "value": "undefined",
+            "raw": "'undefined'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

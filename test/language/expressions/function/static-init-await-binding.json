@@ -1,0 +1,72 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 557,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 498,
+      "end": 556,
+      "id": {
+        "type": "Identifier",
+        "start": 504,
+        "end": 505,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 506,
+        "end": 556,
+        "body": [
+          {
+            "type": "StaticBlock",
+            "start": 510,
+            "end": 554,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 523,
+                "end": 550,
+                "expression": {
+                  "type": "ParenthesizedExpression",
+                  "start": 523,
+                  "end": 549,
+                  "expression": {
+                    "type": "FunctionExpression",
+                    "start": 524,
+                    "end": 548,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 533,
+                      "end": 538,
+                      "name": "await"
+                    },
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 539,
+                        "end": 544,
+                        "name": "await"
+                      }
+                    ],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 546,
+                      "end": 548,
+                      "body": []
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

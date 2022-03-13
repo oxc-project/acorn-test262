@@ -1,0 +1,316 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 837,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 449,
+      "end": 533,
+      "expression": {
+        "type": "CallExpression",
+        "start": 449,
+        "end": 532,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 449,
+          "end": 465,
+          "object": {
+            "type": "Identifier",
+            "start": 449,
+            "end": 455,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 456,
+            "end": 465,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 469,
+            "end": 484,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 476,
+              "end": 484,
+              "callee": {
+                "type": "Identifier",
+                "start": 476,
+                "end": 482,
+                "name": "Symbol"
+              },
+              "arguments": [],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 488,
+            "end": 496,
+            "value": "symbol",
+            "raw": "\"symbol\""
+          },
+          {
+            "type": "Literal",
+            "start": 500,
+            "end": 530,
+            "value": "typeof Symbol() === 'symbol'",
+            "raw": "\"typeof Symbol() === 'symbol'\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 535,
+      "end": 625,
+      "expression": {
+        "type": "CallExpression",
+        "start": 535,
+        "end": 624,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 535,
+          "end": 551,
+          "object": {
+            "type": "Identifier",
+            "start": 535,
+            "end": 541,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 551,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 555,
+            "end": 573,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 562,
+              "end": 573,
+              "callee": {
+                "type": "Identifier",
+                "start": 562,
+                "end": 568,
+                "name": "Symbol"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 569,
+                  "end": 572,
+                  "value": "A",
+                  "raw": "\"A\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 577,
+            "end": 585,
+            "value": "symbol",
+            "raw": "\"symbol\""
+          },
+          {
+            "type": "Literal",
+            "start": 589,
+            "end": 622,
+            "value": "typeof Symbol('A') === 'symbol'",
+            "raw": "\"typeof Symbol('A') === 'symbol'\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 627,
+      "end": 727,
+      "expression": {
+        "type": "CallExpression",
+        "start": 627,
+        "end": 726,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 627,
+          "end": 643,
+          "object": {
+            "type": "Identifier",
+            "start": 627,
+            "end": 633,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 634,
+            "end": 643,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 647,
+            "end": 670,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 654,
+              "end": 670,
+              "callee": {
+                "type": "Identifier",
+                "start": 654,
+                "end": 660,
+                "name": "Object"
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 661,
+                  "end": 669,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 661,
+                    "end": 667,
+                    "name": "Symbol"
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 674,
+            "end": 682,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 686,
+            "end": 724,
+            "value": "typeof Object(Symbol()) === 'object'",
+            "raw": "\"typeof Object(Symbol()) === 'object'\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 729,
+      "end": 835,
+      "expression": {
+        "type": "CallExpression",
+        "start": 729,
+        "end": 834,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 729,
+          "end": 745,
+          "object": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 735,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 736,
+            "end": 745,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 749,
+            "end": 775,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 756,
+              "end": 775,
+              "callee": {
+                "type": "Identifier",
+                "start": 756,
+                "end": 762,
+                "name": "Object"
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 763,
+                  "end": 774,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 763,
+                    "end": 769,
+                    "name": "Symbol"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 770,
+                      "end": 773,
+                      "value": "A",
+                      "raw": "\"A\""
+                    }
+                  ],
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 779,
+            "end": 787,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 791,
+            "end": 832,
+            "value": "typeof Object(Symbol('A')) === 'object'",
+            "raw": "\"typeof Object(Symbol('A')) === 'object'\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

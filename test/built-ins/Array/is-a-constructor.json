@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 796,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 693,
+      "end": 779,
+      "expression": {
+        "type": "CallExpression",
+        "start": 693,
+        "end": 778,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 693,
+          "end": 709,
+          "object": {
+            "type": "Identifier",
+            "start": 693,
+            "end": 699,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 700,
+            "end": 709,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 710,
+            "end": 730,
+            "callee": {
+              "type": "Identifier",
+              "start": 710,
+              "end": 723,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 724,
+                "end": 729,
+                "name": "Array"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 732,
+            "end": 736,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 738,
+            "end": 777,
+            "value": "isConstructor(Array) must return true",
+            "raw": "'isConstructor(Array) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 780,
+      "end": 792,
+      "expression": {
+        "type": "NewExpression",
+        "start": 780,
+        "end": 791,
+        "callee": {
+          "type": "Identifier",
+          "start": 784,
+          "end": 789,
+          "name": "Array"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

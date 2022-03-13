@@ -1,0 +1,223 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 938,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 695,
+      "end": 809,
+      "expression": {
+        "type": "CallExpression",
+        "start": 695,
+        "end": 808,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 695,
+          "end": 711,
+          "object": {
+            "type": "Identifier",
+            "start": 695,
+            "end": 701,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 702,
+            "end": 711,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 712,
+            "end": 745,
+            "callee": {
+              "type": "Identifier",
+              "start": 712,
+              "end": 725,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 726,
+                "end": 744,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 726,
+                  "end": 739,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 726,
+                    "end": 729,
+                    "name": "Map"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 730,
+                    "end": 739,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 740,
+                  "end": 744,
+                  "name": "keys"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 747,
+            "end": 752,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 754,
+            "end": 807,
+            "value": "isConstructor(Map.prototype.keys) must return false",
+            "raw": "'isConstructor(Map.prototype.keys) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 811,
+      "end": 936,
+      "expression": {
+        "type": "CallExpression",
+        "start": 811,
+        "end": 935,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 811,
+          "end": 824,
+          "object": {
+            "type": "Identifier",
+            "start": 811,
+            "end": 817,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 818,
+            "end": 824,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 825,
+            "end": 834,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 836,
+            "end": 880,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 842,
+              "end": 880,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 846,
+                  "end": 864,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 850,
+                      "end": 863,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 850,
+                        "end": 851,
+                        "name": "m"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 854,
+                        "end": 863,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 858,
+                          "end": 861,
+                          "name": "Map"
+                        },
+                        "arguments": []
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 865,
+                  "end": 878,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 865,
+                    "end": 877,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 869,
+                      "end": 875,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 869,
+                        "end": 870,
+                        "name": "m"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 871,
+                        "end": 875,
+                        "name": "keys"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 882,
+            "end": 934,
+            "value": "`let m = new Map(); new m.keys()` throws TypeError",
+            "raw": "'`let m = new Map(); new m.keys()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

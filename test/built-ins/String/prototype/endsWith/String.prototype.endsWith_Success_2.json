@@ -1,0 +1,96 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 391,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 315,
+      "end": 390,
+      "expression": {
+        "type": "CallExpression",
+        "start": 315,
+        "end": 389,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 315,
+          "end": 331,
+          "object": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 321,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 331,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 332,
+            "end": 355,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 332,
+              "end": 347,
+              "object": {
+                "type": "Literal",
+                "start": 332,
+                "end": 338,
+                "value": "word",
+                "raw": "'word'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 339,
+                "end": 347,
+                "name": "endsWith"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 348,
+                "end": 351,
+                "value": "d",
+                "raw": "'d'"
+              },
+              {
+                "type": "Literal",
+                "start": 353,
+                "end": 354,
+                "value": 4,
+                "raw": "4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 357,
+            "end": 361,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 363,
+            "end": 388,
+            "value": "\"word\".endsWith(\"d\", 4)",
+            "raw": "'\"word\".endsWith(\"d\", 4)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

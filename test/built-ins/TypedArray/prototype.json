@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 589,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 451,
+      "end": 496,
+      "expression": {
+        "type": "CallExpression",
+        "start": 451,
+        "end": 495,
+        "callee": {
+          "type": "Identifier",
+          "start": 451,
+          "end": 470,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 471,
+            "end": 481,
+            "name": "TypedArray"
+          },
+          {
+            "type": "Literal",
+            "start": 483,
+            "end": 494,
+            "value": "prototype",
+            "raw": "'prototype'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 497,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 497,
+        "end": 539,
+        "callee": {
+          "type": "Identifier",
+          "start": 497,
+          "end": 514,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 515,
+            "end": 525,
+            "name": "TypedArray"
+          },
+          {
+            "type": "Literal",
+            "start": 527,
+            "end": 538,
+            "value": "prototype",
+            "raw": "'prototype'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 541,
+      "end": 588,
+      "expression": {
+        "type": "CallExpression",
+        "start": 541,
+        "end": 587,
+        "callee": {
+          "type": "Identifier",
+          "start": 541,
+          "end": 562,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 563,
+            "end": 573,
+            "name": "TypedArray"
+          },
+          {
+            "type": "Literal",
+            "start": 575,
+            "end": 586,
+            "value": "prototype",
+            "raw": "'prototype'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

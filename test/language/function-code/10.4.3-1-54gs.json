@@ -1,0 +1,145 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 413,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 300,
+      "end": 313,
+      "expression": {
+        "type": "Literal",
+        "start": 300,
+        "end": 312,
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 314,
+      "end": 352,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 318,
+          "end": 352,
+          "id": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 319,
+            "name": "o"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 322,
+            "end": 352,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 324,
+                "end": 350,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 328,
+                  "end": 331,
+                  "name": "foo"
+                },
+                "kind": "get",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 331,
+                  "end": 350,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 334,
+                    "end": 350,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 336,
+                        "end": 348,
+                        "argument": {
+                          "type": "ThisExpression",
+                          "start": 343,
+                          "end": 347
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 353,
+      "end": 412,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 357,
+        "end": 366,
+        "left": {
+          "type": "MemberExpression",
+          "start": 357,
+          "end": 362,
+          "object": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 358,
+            "name": "o"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 362,
+            "name": "foo"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 365,
+          "end": 366,
+          "name": "o"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 368,
+        "end": 412,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 374,
+            "end": 410,
+            "argument": {
+              "type": "Literal",
+              "start": 380,
+              "end": 409,
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

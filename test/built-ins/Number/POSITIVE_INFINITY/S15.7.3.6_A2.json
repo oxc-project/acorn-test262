@@ -1,0 +1,120 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 543,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 313,
+      "end": 369,
+      "expression": {
+        "type": "CallExpression",
+        "start": 313,
+        "end": 368,
+        "callee": {
+          "type": "Identifier",
+          "start": 313,
+          "end": 330,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 331,
+            "end": 337,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 339,
+            "end": 358,
+            "value": "POSITIVE_INFINITY",
+            "raw": "\"POSITIVE_INFINITY\""
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 364,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "Literal",
+            "start": 366,
+            "end": 367,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 371,
+      "end": 496,
+      "expression": {
+        "type": "CallExpression",
+        "start": 371,
+        "end": 495,
+        "callee": {
+          "type": "Identifier",
+          "start": 371,
+          "end": 377,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 381,
+            "end": 416,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 382,
+              "end": 416,
+              "callee": {
+                "type": "Identifier",
+                "start": 382,
+                "end": 390,
+                "name": "isFinite"
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 391,
+                  "end": 415,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 391,
+                    "end": 397,
+                    "name": "Number"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 398,
+                    "end": 415,
+                    "name": "POSITIVE_INFINITY"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 420,
+            "end": 493,
+            "value": "The value of !isFinite(Number.POSITIVE_INFINITY) is expected to be true",
+            "raw": "'The value of !isFinite(Number.POSITIVE_INFINITY) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

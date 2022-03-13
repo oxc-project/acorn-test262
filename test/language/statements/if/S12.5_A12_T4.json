@@ -1,0 +1,287 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 862,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 284,
+      "end": 412,
+      "test": {
+        "type": "Literal",
+        "start": 287,
+        "end": 291,
+        "value": true,
+        "raw": "true"
+      },
+      "consequent": {
+        "type": "IfStatement",
+        "start": 295,
+        "end": 412,
+        "test": {
+          "type": "Literal",
+          "start": 299,
+          "end": 304,
+          "value": false,
+          "raw": "false"
+        },
+        "consequent": {
+          "type": "ThrowStatement",
+          "start": 310,
+          "end": 412,
+          "argument": {
+            "type": "NewExpression",
+            "start": 316,
+            "end": 411,
+            "callee": {
+              "type": "Identifier",
+              "start": 320,
+              "end": 332,
+              "name": "Test262Error"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 333,
+                "end": 410,
+                "value": "#1.1: At embedded \"if/else\" constructions engine must select right branches",
+                "raw": "'#1.1: At embedded \"if/else\" constructions engine must select right branches'"
+              }
+            ]
+          }
+        },
+        "alternate": null
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 425,
+      "end": 433,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 429,
+          "end": 432,
+          "id": {
+            "type": "Identifier",
+            "start": 429,
+            "end": 430,
+            "name": "c"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 431,
+            "end": 432,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 434,
+      "end": 463,
+      "test": {
+        "type": "Literal",
+        "start": 437,
+        "end": 441,
+        "value": true,
+        "raw": "true"
+      },
+      "consequent": {
+        "type": "IfStatement",
+        "start": 445,
+        "end": 463,
+        "test": {
+          "type": "Literal",
+          "start": 449,
+          "end": 453,
+          "value": true,
+          "raw": "true"
+        },
+        "consequent": {
+          "type": "ExpressionStatement",
+          "start": 459,
+          "end": 463,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 459,
+            "end": 462,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 459,
+              "end": 460,
+              "name": "c"
+            },
+            "right": {
+              "type": "Literal",
+              "start": 461,
+              "end": 462,
+              "value": 2,
+              "raw": "2"
+            }
+          }
+        },
+        "alternate": null
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 464,
+      "end": 579,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 468,
+        "end": 473,
+        "left": {
+          "type": "Identifier",
+          "start": 468,
+          "end": 469,
+          "name": "c"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 472,
+          "end": 473,
+          "value": 2,
+          "raw": "2"
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 479,
+        "end": 579,
+        "argument": {
+          "type": "NewExpression",
+          "start": 485,
+          "end": 578,
+          "callee": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 501,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 502,
+              "end": 577,
+              "value": "#2: At embedded \"if/else\" constructions engine must select right branches",
+              "raw": "'#2: At embedded \"if/else\" constructions engine must select right branches'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 592,
+      "end": 720,
+      "test": {
+        "type": "Literal",
+        "start": 595,
+        "end": 600,
+        "value": false,
+        "raw": "false"
+      },
+      "consequent": {
+        "type": "IfStatement",
+        "start": 604,
+        "end": 720,
+        "test": {
+          "type": "Literal",
+          "start": 608,
+          "end": 612,
+          "value": true,
+          "raw": "true"
+        },
+        "consequent": {
+          "type": "ThrowStatement",
+          "start": 618,
+          "end": 720,
+          "argument": {
+            "type": "NewExpression",
+            "start": 624,
+            "end": 719,
+            "callee": {
+              "type": "Identifier",
+              "start": 628,
+              "end": 640,
+              "name": "Test262Error"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 641,
+                "end": 718,
+                "value": "#3.1: At embedded \"if/else\" constructions engine must select right branches",
+                "raw": "'#3.1: At embedded \"if/else\" constructions engine must select right branches'"
+              }
+            ]
+          }
+        },
+        "alternate": null
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 733,
+      "end": 861,
+      "test": {
+        "type": "Literal",
+        "start": 736,
+        "end": 741,
+        "value": false,
+        "raw": "false"
+      },
+      "consequent": {
+        "type": "IfStatement",
+        "start": 745,
+        "end": 861,
+        "test": {
+          "type": "Literal",
+          "start": 749,
+          "end": 753,
+          "value": true,
+          "raw": "true"
+        },
+        "consequent": {
+          "type": "ThrowStatement",
+          "start": 759,
+          "end": 861,
+          "argument": {
+            "type": "NewExpression",
+            "start": 765,
+            "end": 860,
+            "callee": {
+              "type": "Identifier",
+              "start": 769,
+              "end": 781,
+              "name": "Test262Error"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 782,
+                "end": 859,
+                "value": "#4.1: At embedded \"if/else\" constructions engine must select right branches",
+                "raw": "'#4.1: At embedded \"if/else\" constructions engine must select right branches'"
+              }
+            ]
+          }
+        },
+        "alternate": null
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

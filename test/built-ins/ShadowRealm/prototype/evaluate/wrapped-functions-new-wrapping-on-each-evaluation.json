@@ -1,0 +1,428 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 762,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 313,
+      "end": 464,
+      "expression": {
+        "type": "CallExpression",
+        "start": 313,
+        "end": 463,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 313,
+          "end": 329,
+          "object": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 319,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 329,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 333,
+            "end": 370,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 340,
+              "end": 370,
+              "object": {
+                "type": "MemberExpression",
+                "start": 340,
+                "end": 361,
+                "object": {
+                  "type": "Identifier",
+                  "start": 340,
+                  "end": 351,
+                  "name": "ShadowRealm"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 352,
+                  "end": 361,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 362,
+                "end": 370,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 374,
+            "end": 384,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 388,
+            "end": 461,
+            "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 466,
+      "end": 494,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 472,
+          "end": 493,
+          "id": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 473,
+            "name": "r"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 476,
+            "end": 493,
+            "callee": {
+              "type": "Identifier",
+              "start": 480,
+              "end": 491,
+              "name": "ShadowRealm"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 496,
+      "end": 545,
+      "expression": {
+        "type": "CallExpression",
+        "start": 496,
+        "end": 544,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 496,
+          "end": 506,
+          "object": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 497,
+            "name": "r"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 498,
+            "end": 506,
+            "name": "evaluate"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 507,
+            "end": 543,
+            "expressions": [],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 508,
+                "end": 542,
+                "value": {
+                  "raw": "\nfunction fn() {\n    return 42;\n}\n",
+                  "cooked": "\nfunction fn() {\n    return 42;\n}\n"
+                },
+                "tail": true
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 547,
+      "end": 580,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 553,
+          "end": 579,
+          "id": {
+            "type": "Identifier",
+            "start": 553,
+            "end": 560,
+            "name": "wrapped"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 563,
+            "end": 579,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 563,
+              "end": 573,
+              "object": {
+                "type": "Identifier",
+                "start": 563,
+                "end": 564,
+                "name": "r"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 565,
+                "end": 573,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 574,
+                "end": 578,
+                "value": "fn",
+                "raw": "'fn'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 581,
+      "end": 619,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 587,
+          "end": 618,
+          "id": {
+            "type": "Identifier",
+            "start": 587,
+            "end": 599,
+            "name": "otherWrapped"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 602,
+            "end": 618,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 602,
+              "end": 612,
+              "object": {
+                "type": "Identifier",
+                "start": 602,
+                "end": 603,
+                "name": "r"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 604,
+                "end": 612,
+                "name": "evaluate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 613,
+                "end": 617,
+                "value": "fn",
+                "raw": "'fn'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 621,
+      "end": 664,
+      "expression": {
+        "type": "CallExpression",
+        "start": 621,
+        "end": 663,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 621,
+          "end": 640,
+          "object": {
+            "type": "Identifier",
+            "start": 621,
+            "end": 627,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 628,
+            "end": 640,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 641,
+            "end": 648,
+            "name": "wrapped"
+          },
+          {
+            "type": "Identifier",
+            "start": 650,
+            "end": 662,
+            "name": "otherWrapped"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 665,
+      "end": 710,
+      "expression": {
+        "type": "CallExpression",
+        "start": 665,
+        "end": 709,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 665,
+          "end": 681,
+          "object": {
+            "type": "Identifier",
+            "start": 665,
+            "end": 671,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 672,
+            "end": 681,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 682,
+            "end": 696,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 689,
+              "end": 696,
+              "name": "wrapped"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 698,
+            "end": 708,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 711,
+      "end": 761,
+      "expression": {
+        "type": "CallExpression",
+        "start": 711,
+        "end": 760,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 711,
+          "end": 727,
+          "object": {
+            "type": "Identifier",
+            "start": 711,
+            "end": 717,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 718,
+            "end": 727,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 728,
+            "end": 747,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 735,
+              "end": 747,
+              "name": "otherWrapped"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 749,
+            "end": 759,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

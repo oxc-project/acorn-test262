@@ -1,0 +1,384 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 756,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 360,
+      "end": 386,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 364,
+          "end": 385,
+          "id": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 367,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 370,
+            "end": 385,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 374,
+                "end": 383,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 374,
+                  "end": 380,
+                  "name": "length"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 382,
+                  "end": 383,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 387,
+      "end": 425,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 387,
+        "end": 424,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 387,
+          "end": 417,
+          "object": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 390,
+            "name": "obj"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 391,
+            "end": 416,
+            "object": {
+              "type": "Identifier",
+              "start": 391,
+              "end": 397,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 398,
+              "end": 416,
+              "name": "isConcatSpreadable"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 420,
+          "end": 424,
+          "value": true,
+          "raw": "true"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 426,
+      "end": 605,
+      "expression": {
+        "type": "CallExpression",
+        "start": 426,
+        "end": 604,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 426,
+          "end": 445,
+          "object": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 432,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 445,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 446,
+            "end": 486,
+            "elements": [
+              {
+                "type": "UnaryExpression",
+                "start": 447,
+                "end": 453,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 452,
+                  "end": 453,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 455,
+                "end": 461,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 460,
+                  "end": 461,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 463,
+                "end": 469,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 468,
+                  "end": 469,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 471,
+                "end": 477,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 476,
+                  "end": 477,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 479,
+                "end": 485,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 484,
+                  "end": 485,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            ]
+          },
+          {
+            "type": "CallExpression",
+            "start": 488,
+            "end": 502,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 488,
+              "end": 497,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 488,
+                "end": 490,
+                "elements": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 491,
+                "end": 497,
+                "name": "concat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 498,
+                "end": 501,
+                "name": "obj"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 506,
+            "end": 602,
+            "value": "[void 0, void 0, void 0, void 0, void 0] must return the same value returned by [].concat(obj)",
+            "raw": "'[void 0, void 0, void 0, void 0, void 0] must return the same value returned by [].concat(obj)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 607,
+      "end": 625,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 607,
+        "end": 624,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 607,
+          "end": 617,
+          "object": {
+            "type": "Identifier",
+            "start": 607,
+            "end": 610,
+            "name": "obj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 611,
+            "end": 617,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 620,
+          "end": 624,
+          "value": 4000,
+          "raw": "4000"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 626,
+      "end": 755,
+      "expression": {
+        "type": "CallExpression",
+        "start": 626,
+        "end": 754,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 626,
+          "end": 645,
+          "object": {
+            "type": "Identifier",
+            "start": 626,
+            "end": 632,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 633,
+            "end": 645,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 646,
+            "end": 661,
+            "callee": {
+              "type": "Identifier",
+              "start": 650,
+              "end": 655,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 656,
+                "end": 660,
+                "value": 4000,
+                "raw": "4000"
+              }
+            ]
+          },
+          {
+            "type": "CallExpression",
+            "start": 663,
+            "end": 677,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 663,
+              "end": 672,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 663,
+                "end": 665,
+                "elements": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 666,
+                "end": 672,
+                "name": "concat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 673,
+                "end": 676,
+                "name": "obj"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 681,
+            "end": 752,
+            "value": "new Array(4000) must return the same value returned by [].concat(obj)",
+            "raw": "'new Array(4000) must return the same value returned by [].concat(obj)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,362 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 594,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 270,
+      "end": 429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 270,
+        "end": 428,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 270,
+          "end": 289,
+          "object": {
+            "type": "Identifier",
+            "start": 270,
+            "end": 276,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 289,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 290,
+            "end": 361,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 290,
+              "end": 311,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 290,
+                "end": 306,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 291,
+                    "end": 295,
+                    "value": "AE",
+                    "raw": "\"AE\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 297,
+                    "end": 305,
+                    "value": "Ä",
+                    "raw": "\"\\u00C4\""
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 307,
+                "end": 311,
+                "name": "sort"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 312,
+                "end": 360,
+                "object": {
+                  "type": "NewExpression",
+                  "start": 312,
+                  "end": 352,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 316,
+                    "end": 329,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 316,
+                      "end": 320,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 321,
+                      "end": 329,
+                      "name": "Collator"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 330,
+                      "end": 334,
+                      "value": "de",
+                      "raw": "\"de\""
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "start": 336,
+                      "end": 351,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 337,
+                          "end": 350,
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 337,
+                            "end": 342,
+                            "name": "usage"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "start": 344,
+                            "end": 350,
+                            "value": "sort",
+                            "raw": "\"sort\""
+                          },
+                          "kind": "init"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 353,
+                  "end": 360,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 383,
+            "end": 399,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 384,
+                "end": 392,
+                "value": "Ä",
+                "raw": "\"\\u00C4\""
+              },
+              {
+                "type": "Literal",
+                "start": 394,
+                "end": 398,
+                "value": "AE",
+                "raw": "\"AE\""
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 421,
+            "end": 427,
+            "value": "sort",
+            "raw": "\"sort\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 430,
+      "end": 593,
+      "expression": {
+        "type": "CallExpression",
+        "start": 430,
+        "end": 592,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 430,
+          "end": 449,
+          "object": {
+            "type": "Identifier",
+            "start": 430,
+            "end": 436,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 437,
+            "end": 449,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 450,
+            "end": 523,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 450,
+              "end": 471,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 450,
+                "end": 466,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 451,
+                    "end": 455,
+                    "value": "AE",
+                    "raw": "\"AE\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 457,
+                    "end": 465,
+                    "value": "Ä",
+                    "raw": "\"\\u00C4\""
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 467,
+                "end": 471,
+                "name": "sort"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 472,
+                "end": 522,
+                "object": {
+                  "type": "NewExpression",
+                  "start": 472,
+                  "end": 514,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 476,
+                    "end": 489,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 476,
+                      "end": 480,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 481,
+                      "end": 489,
+                      "name": "Collator"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 490,
+                      "end": 494,
+                      "value": "de",
+                      "raw": "\"de\""
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "start": 496,
+                      "end": 513,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 497,
+                          "end": 512,
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 497,
+                            "end": 502,
+                            "name": "usage"
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "start": 504,
+                            "end": 512,
+                            "value": "search",
+                            "raw": "\"search\""
+                          },
+                          "kind": "init"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 515,
+                  "end": 522,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 545,
+            "end": 561,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 546,
+                "end": 550,
+                "value": "AE",
+                "raw": "\"AE\""
+              },
+              {
+                "type": "Literal",
+                "start": 552,
+                "end": 560,
+                "value": "Ä",
+                "raw": "\"\\u00C4\""
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 583,
+            "end": 591,
+            "value": "search",
+            "raw": "\"search\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

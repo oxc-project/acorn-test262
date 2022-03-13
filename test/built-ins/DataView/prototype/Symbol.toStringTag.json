@@ -1,0 +1,270 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 868,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 525,
+      "end": 686,
+      "expression": {
+        "type": "CallExpression",
+        "start": 525,
+        "end": 685,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 525,
+          "end": 541,
+          "object": {
+            "type": "Identifier",
+            "start": 525,
+            "end": 531,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 541,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 545,
+            "end": 583,
+            "object": {
+              "type": "MemberExpression",
+              "start": 545,
+              "end": 563,
+              "object": {
+                "type": "Identifier",
+                "start": 545,
+                "end": 553,
+                "name": "DataView"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 554,
+                "end": 563,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 564,
+              "end": 582,
+              "object": {
+                "type": "Identifier",
+                "start": 564,
+                "end": 570,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 571,
+                "end": 582,
+                "name": "toStringTag"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 587,
+            "end": 597,
+            "value": "DataView",
+            "raw": "'DataView'"
+          },
+          {
+            "type": "Literal",
+            "start": 601,
+            "end": 683,
+            "value": "The value of DataView.prototype[Symbol.toStringTag] is expected to be \"DataView\"",
+            "raw": "'The value of DataView.prototype[Symbol.toStringTag] is expected to be \"DataView\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 688,
+      "end": 748,
+      "expression": {
+        "type": "CallExpression",
+        "start": 688,
+        "end": 747,
+        "callee": {
+          "type": "Identifier",
+          "start": 688,
+          "end": 707,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 708,
+            "end": 726,
+            "object": {
+              "type": "Identifier",
+              "start": 708,
+              "end": 716,
+              "name": "DataView"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 717,
+              "end": 726,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 728,
+            "end": 746,
+            "object": {
+              "type": "Identifier",
+              "start": 728,
+              "end": 734,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 735,
+              "end": 746,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 749,
+      "end": 807,
+      "expression": {
+        "type": "CallExpression",
+        "start": 749,
+        "end": 806,
+        "callee": {
+          "type": "Identifier",
+          "start": 749,
+          "end": 766,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 767,
+            "end": 785,
+            "object": {
+              "type": "Identifier",
+              "start": 767,
+              "end": 775,
+              "name": "DataView"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 776,
+              "end": 785,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 787,
+            "end": 805,
+            "object": {
+              "type": "Identifier",
+              "start": 787,
+              "end": 793,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 794,
+              "end": 805,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 808,
+      "end": 867,
+      "expression": {
+        "type": "CallExpression",
+        "start": 808,
+        "end": 866,
+        "callee": {
+          "type": "Identifier",
+          "start": 808,
+          "end": 826,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 827,
+            "end": 845,
+            "object": {
+              "type": "Identifier",
+              "start": 827,
+              "end": 835,
+              "name": "DataView"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 836,
+              "end": 845,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 847,
+            "end": 865,
+            "object": {
+              "type": "Identifier",
+              "start": 847,
+              "end": 853,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 854,
+              "end": 865,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,272 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 872,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 611,
+      "end": 639,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 615,
+          "end": 638,
+          "id": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 633,
+            "name": "speciesConstructor"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 636,
+            "end": 638,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 640,
+      "end": 720,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 640,
+        "end": 719,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 640,
+          "end": 674,
+          "object": {
+            "type": "Identifier",
+            "start": 640,
+            "end": 658,
+            "name": "speciesConstructor"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 659,
+            "end": 673,
+            "object": {
+              "type": "Identifier",
+              "start": 659,
+              "end": 665,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 666,
+              "end": 673,
+              "name": "species"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 677,
+          "end": 719,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 686,
+              "end": 692,
+              "name": "length"
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 694,
+            "end": 719,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 698,
+                "end": 717,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 705,
+                  "end": 716,
+                  "name": "arrayBuffer"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 722,
+      "end": 759,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 726,
+          "end": 758,
+          "id": {
+            "type": "Identifier",
+            "start": 726,
+            "end": 737,
+            "name": "arrayBuffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 740,
+            "end": 758,
+            "callee": {
+              "type": "Identifier",
+              "start": 744,
+              "end": 755,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 756,
+                "end": 757,
+                "value": 8,
+                "raw": "8"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 760,
+      "end": 805,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 760,
+        "end": 804,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 760,
+          "end": 783,
+          "object": {
+            "type": "Identifier",
+            "start": 760,
+            "end": 771,
+            "name": "arrayBuffer"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 772,
+            "end": 783,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 786,
+          "end": 804,
+          "name": "speciesConstructor"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 807,
+      "end": 871,
+      "expression": {
+        "type": "CallExpression",
+        "start": 807,
+        "end": 870,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 807,
+          "end": 820,
+          "object": {
+            "type": "Identifier",
+            "start": 807,
+            "end": 813,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 814,
+            "end": 820,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 821,
+            "end": 830,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 832,
+            "end": 869,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 843,
+              "end": 869,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 847,
+                  "end": 867,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 847,
+                    "end": 866,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 847,
+                      "end": 864,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 847,
+                        "end": 858,
+                        "name": "arrayBuffer"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 859,
+                        "end": 864,
+                        "name": "slice"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

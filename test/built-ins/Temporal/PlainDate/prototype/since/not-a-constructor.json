@@ -1,0 +1,231 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 805,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 566,
+      "end": 672,
+      "expression": {
+        "type": "CallExpression",
+        "start": 566,
+        "end": 671,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 566,
+          "end": 579,
+          "object": {
+            "type": "Identifier",
+            "start": 566,
+            "end": 572,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 579,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 580,
+            "end": 589,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 591,
+            "end": 644,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 597,
+              "end": 644,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 601,
+                  "end": 642,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 601,
+                    "end": 641,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 605,
+                      "end": 639,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 605,
+                        "end": 633,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 605,
+                          "end": 623,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 605,
+                            "end": 613,
+                            "name": "Temporal"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 614,
+                            "end": 623,
+                            "name": "PlainDate"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 624,
+                          "end": 633,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 634,
+                        "end": 639,
+                        "name": "since"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 646,
+            "end": 670,
+            "value": "Calling as constructor",
+            "raw": "\"Calling as constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 674,
+      "end": 804,
+      "expression": {
+        "type": "CallExpression",
+        "start": 674,
+        "end": 803,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 674,
+          "end": 690,
+          "object": {
+            "type": "Identifier",
+            "start": 674,
+            "end": 680,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 681,
+            "end": 690,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 691,
+            "end": 740,
+            "callee": {
+              "type": "Identifier",
+              "start": 691,
+              "end": 704,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 705,
+                "end": 739,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 705,
+                  "end": 733,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 705,
+                    "end": 723,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 705,
+                      "end": 713,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 714,
+                      "end": 723,
+                      "name": "PlainDate"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 724,
+                    "end": 733,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 734,
+                  "end": 739,
+                  "name": "since"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 742,
+            "end": 747,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 751,
+            "end": 802,
+            "value": "isConstructor(Temporal.PlainDate.prototype.since)",
+            "raw": "\"isConstructor(Temporal.PlainDate.prototype.since)\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,124 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 587,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 350,
+      "end": 374,
+      "id": {
+        "type": "Identifier",
+        "start": 359,
+        "end": 369,
+        "name": "MyFunction"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 372,
+        "end": 374,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 375,
+      "end": 410,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 379,
+          "end": 409,
+          "id": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 390,
+            "name": "MyObjectVar"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 393,
+            "end": 409,
+            "callee": {
+              "type": "Identifier",
+              "start": 397,
+              "end": 407,
+              "name": "MyFunction"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 411,
+      "end": 586,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 415,
+        "end": 445,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 415,
+          "end": 436,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 422,
+            "end": 436,
+            "name": "MyObjectNotVar"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 441,
+          "end": 445,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 447,
+        "end": 586,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 451,
+            "end": 584,
+            "argument": {
+              "type": "NewExpression",
+              "start": 457,
+              "end": 583,
+              "callee": {
+                "type": "Identifier",
+                "start": 461,
+                "end": 473,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 479,
+                  "end": 579,
+                  "value": "#1: function MyFunction(){}; var MyObjectNotVar = new MyFunction(); delete MyObjectNotVar === true",
+                  "raw": "'#1: function MyFunction(){}; var MyObjectNotVar = new MyFunction(); delete MyObjectNotVar === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

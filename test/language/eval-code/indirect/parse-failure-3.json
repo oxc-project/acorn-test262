@@ -1,0 +1,328 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 655,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 351,
+      "end": 419,
+      "expression": {
+        "type": "CallExpression",
+        "start": 351,
+        "end": 418,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 351,
+          "end": 364,
+          "object": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 357,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 364,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 365,
+            "end": 376,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 378,
+            "end": 417,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 389,
+              "end": 417,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 393,
+                  "end": 415,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 393,
+                    "end": 414,
+                    "callee": {
+                      "type": "ParenthesizedExpression",
+                      "start": 393,
+                      "end": 401,
+                      "expression": {
+                        "type": "SequenceExpression",
+                        "start": 394,
+                        "end": 400,
+                        "expressions": [
+                          {
+                            "type": "Literal",
+                            "start": 394,
+                            "end": 395,
+                            "value": 0,
+                            "raw": "0"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 396,
+                            "end": 400,
+                            "name": "eval"
+                          }
+                        ]
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 402,
+                        "end": 413,
+                        "value": "continue;",
+                        "raw": "\"continue;\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 421,
+      "end": 654,
+      "expression": {
+        "type": "CallExpression",
+        "start": 421,
+        "end": 653,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 421,
+          "end": 434,
+          "object": {
+            "type": "Identifier",
+            "start": 421,
+            "end": 427,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 428,
+            "end": 434,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 435,
+            "end": 446,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 448,
+            "end": 652,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 459,
+              "end": 652,
+              "body": [
+                {
+                  "type": "ForStatement",
+                  "start": 463,
+                  "end": 591,
+                  "init": {
+                    "type": "VariableDeclaration",
+                    "start": 468,
+                    "end": 477,
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 472,
+                        "end": 477,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 472,
+                          "end": 473,
+                          "name": "i"
+                        },
+                        "init": {
+                          "type": "Literal",
+                          "start": 476,
+                          "end": 477,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      }
+                    ],
+                    "kind": "var"
+                  },
+                  "test": {
+                    "type": "BinaryExpression",
+                    "start": 479,
+                    "end": 485,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 479,
+                      "end": 480,
+                      "name": "i"
+                    },
+                    "operator": "<=",
+                    "right": {
+                      "type": "Literal",
+                      "start": 484,
+                      "end": 485,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  },
+                  "update": {
+                    "type": "UpdateExpression",
+                    "start": 487,
+                    "end": 490,
+                    "operator": "++",
+                    "prefix": false,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 487,
+                      "end": 488,
+                      "name": "i"
+                    }
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 492,
+                    "end": 591,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 498,
+                        "end": 520,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 498,
+                          "end": 519,
+                          "callee": {
+                            "type": "ParenthesizedExpression",
+                            "start": 498,
+                            "end": 506,
+                            "expression": {
+                              "type": "SequenceExpression",
+                              "start": 499,
+                              "end": 505,
+                              "expressions": [
+                                {
+                                  "type": "Literal",
+                                  "start": 499,
+                                  "end": 500,
+                                  "value": 0,
+                                  "raw": "0"
+                                },
+                                {
+                                  "type": "Identifier",
+                                  "start": 501,
+                                  "end": 505,
+                                  "name": "eval"
+                                }
+                              ]
+                            }
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 507,
+                              "end": 518,
+                              "value": "continue;",
+                              "raw": "\"continue;\""
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ThrowStatement",
+                        "start": 525,
+                        "end": 587,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 531,
+                          "end": 586,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 535,
+                            "end": 547,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 548,
+                              "end": 585,
+                              "value": "First iteration should not complete",
+                              "raw": "\"First iteration should not complete\""
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "ThrowStatement",
+                  "start": 594,
+                  "end": 650,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 600,
+                    "end": 649,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 604,
+                      "end": 616,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 617,
+                        "end": 648,
+                        "value": "Iteration should not complete",
+                        "raw": "\"Iteration should not complete\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

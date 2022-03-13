@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 563,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 464,
+      "end": 498,
+      "expression": {
+        "type": "CallExpression",
+        "start": 464,
+        "end": 497,
+        "callee": {
+          "type": "Identifier",
+          "start": 464,
+          "end": 483,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 484,
+            "end": 488,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 490,
+            "end": 496,
+            "value": "ceil",
+            "raw": "\"ceil\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 499,
+      "end": 528,
+      "expression": {
+        "type": "CallExpression",
+        "start": 499,
+        "end": 527,
+        "callee": {
+          "type": "Identifier",
+          "start": 499,
+          "end": 513,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 514,
+            "end": 518,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 520,
+            "end": 526,
+            "value": "ceil",
+            "raw": "\"ceil\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 529,
+      "end": 562,
+      "expression": {
+        "type": "CallExpression",
+        "start": 529,
+        "end": 561,
+        "callee": {
+          "type": "Identifier",
+          "start": 529,
+          "end": 547,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 548,
+            "end": 552,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 554,
+            "end": 560,
+            "value": "ceil",
+            "raw": "\"ceil\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

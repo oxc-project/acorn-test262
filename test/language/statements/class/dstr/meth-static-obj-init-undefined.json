@@ -1,0 +1,162 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2250,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 2148,
+      "end": 2182,
+      "id": {
+        "type": "Identifier",
+        "start": 2154,
+        "end": 2155,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 2156,
+        "end": 2182,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 2160,
+            "end": 2180,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 2167,
+              "end": 2173,
+              "name": "method"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 2173,
+              "end": 2180,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "ObjectPattern",
+                  "start": 2174,
+                  "end": 2176,
+                  "properties": []
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2178,
+                "end": 2180,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2182,
+      "end": 2183
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2185,
+      "end": 2249,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2185,
+        "end": 2248,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2185,
+          "end": 2198,
+          "object": {
+            "type": "Identifier",
+            "start": 2185,
+            "end": 2191,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2192,
+            "end": 2198,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2199,
+            "end": 2208,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2210,
+            "end": 2247,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2221,
+              "end": 2247,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2225,
+                  "end": 2245,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2225,
+                    "end": 2244,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2225,
+                      "end": 2233,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2225,
+                        "end": 2226,
+                        "name": "C"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2227,
+                        "end": 2233,
+                        "name": "method"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 2234,
+                        "end": 2243,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

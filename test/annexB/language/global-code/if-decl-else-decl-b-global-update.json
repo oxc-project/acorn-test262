@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1698,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 1547,
+      "end": 1618,
+      "test": {
+        "type": "Literal",
+        "start": 1551,
+        "end": 1556,
+        "value": false,
+        "raw": "false"
+      },
+      "consequent": {
+        "type": "FunctionDeclaration",
+        "start": 1558,
+        "end": 1574,
+        "id": {
+          "type": "Identifier",
+          "start": 1567,
+          "end": 1569,
+          "name": "_f"
+        },
+        "expression": false,
+        "generator": false,
+        "async": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 1572,
+          "end": 1574,
+          "body": []
+        }
+      },
+      "alternate": {
+        "type": "FunctionDeclaration",
+        "start": 1580,
+        "end": 1618,
+        "id": {
+          "type": "Identifier",
+          "start": 1589,
+          "end": 1590,
+          "name": "f"
+        },
+        "expression": false,
+        "generator": false,
+        "async": false,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 1593,
+          "end": 1618,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 1595,
+              "end": 1616,
+              "argument": {
+                "type": "Literal",
+                "start": 1602,
+                "end": 1615,
+                "value": "declaration",
+                "raw": "'declaration'"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1620,
+      "end": 1659,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1620,
+        "end": 1658,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1620,
+          "end": 1636,
+          "object": {
+            "type": "Identifier",
+            "start": 1620,
+            "end": 1626,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1627,
+            "end": 1636,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1637,
+            "end": 1645,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1644,
+              "end": 1645,
+              "name": "f"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1647,
+            "end": 1657,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1660,
+      "end": 1697,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1660,
+        "end": 1696,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1660,
+          "end": 1676,
+          "object": {
+            "type": "Identifier",
+            "start": 1660,
+            "end": 1666,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1667,
+            "end": 1676,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1677,
+            "end": 1680,
+            "callee": {
+              "type": "Identifier",
+              "start": 1677,
+              "end": 1678,
+              "name": "f"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1682,
+            "end": 1695,
+            "value": "declaration",
+            "raw": "'declaration'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

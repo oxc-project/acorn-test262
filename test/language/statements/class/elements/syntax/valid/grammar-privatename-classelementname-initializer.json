@@ -1,0 +1,147 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1487,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 1384,
+      "end": 1486,
+      "id": {
+        "type": "Identifier",
+        "start": 1390,
+        "end": 1391,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 1392,
+        "end": 1486,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 1396,
+            "end": 1403,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1396,
+              "end": 1398,
+              "name": "$"
+            },
+            "value": {
+              "type": "Literal",
+              "start": 1401,
+              "end": 1402,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1406,
+            "end": 1413,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1406,
+              "end": 1408,
+              "name": "_"
+            },
+            "value": {
+              "type": "Literal",
+              "start": 1411,
+              "end": 1412,
+              "value": 2,
+              "raw": "2"
+            }
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1416,
+            "end": 1428,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1416,
+              "end": 1423,
+              "name": "o"
+            },
+            "value": {
+              "type": "Literal",
+              "start": 1426,
+              "end": 1427,
+              "value": 3,
+              "raw": "3"
+            }
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1431,
+            "end": 1443,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1431,
+              "end": 1438,
+              "name": "℘"
+            },
+            "value": {
+              "type": "Literal",
+              "start": 1441,
+              "end": 1442,
+              "value": 4,
+              "raw": "4"
+            }
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1446,
+            "end": 1464,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1446,
+              "end": 1459,
+              "name": "ZW_‌_NJ"
+            },
+            "value": {
+              "type": "Literal",
+              "start": 1462,
+              "end": 1463,
+              "value": 5,
+              "raw": "5"
+            }
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 1467,
+            "end": 1484,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1467,
+              "end": 1479,
+              "name": "ZW_‍_J"
+            },
+            "value": {
+              "type": "Literal",
+              "start": 1482,
+              "end": 1483,
+              "value": 6,
+              "raw": "6"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

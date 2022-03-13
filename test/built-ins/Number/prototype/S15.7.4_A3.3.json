@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 434,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 281,
+      "end": 433,
+      "expression": {
+        "type": "CallExpression",
+        "start": 281,
+        "end": 432,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 281,
+          "end": 297,
+          "object": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 287,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 297,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 301,
+            "end": 350,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 301,
+              "end": 332,
+              "object": {
+                "type": "MemberExpression",
+                "start": 301,
+                "end": 317,
+                "object": {
+                  "type": "Identifier",
+                  "start": 301,
+                  "end": 307,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 308,
+                  "end": 317,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 318,
+                "end": 332,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 333,
+                "end": 349,
+                "value": "toLocaleString",
+                "raw": "\"toLocaleString\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 354,
+            "end": 358,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 362,
+            "end": 430,
+            "value": "Number.prototype.hasOwnProperty(\"toLocaleString\") must return true",
+            "raw": "'Number.prototype.hasOwnProperty(\"toLocaleString\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

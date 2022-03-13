@@ -1,0 +1,311 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 670,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 435,
+      "end": 507,
+      "expression": {
+        "type": "CallExpression",
+        "start": 435,
+        "end": 506,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 435,
+          "end": 448,
+          "object": {
+            "type": "Identifier",
+            "start": 435,
+            "end": 441,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 448,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 449,
+            "end": 458,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 460,
+            "end": 505,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 466,
+              "end": 505,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 472,
+                  "end": 503,
+                  "expression": {
+                    "type": "TaggedTemplateExpression",
+                    "start": 472,
+                    "end": 502,
+                    "tag": {
+                      "type": "ImportExpression",
+                      "start": 472,
+                      "end": 500,
+                      "source": {
+                        "type": "Literal",
+                        "start": 479,
+                        "end": 499,
+                        "value": "./empty_FIXTURE.js",
+                        "raw": "'./empty_FIXTURE.js'"
+                      }
+                    },
+                    "quasi": {
+                      "type": "TemplateLiteral",
+                      "start": 500,
+                      "end": 502,
+                      "expressions": [],
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 501,
+                          "end": 501,
+                          "value": {
+                            "raw": "",
+                            "cooked": ""
+                          },
+                          "tail": true
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 509,
+      "end": 590,
+      "expression": {
+        "type": "CallExpression",
+        "start": 509,
+        "end": 589,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 509,
+          "end": 522,
+          "object": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 515,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 516,
+            "end": 522,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 523,
+            "end": 532,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 534,
+            "end": 588,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 540,
+              "end": 588,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 546,
+                  "end": 586,
+                  "expression": {
+                    "type": "TaggedTemplateExpression",
+                    "start": 546,
+                    "end": 585,
+                    "tag": {
+                      "type": "ImportExpression",
+                      "start": 546,
+                      "end": 574,
+                      "source": {
+                        "type": "Literal",
+                        "start": 553,
+                        "end": 573,
+                        "value": "./empty_FIXTURE.js",
+                        "raw": "'./empty_FIXTURE.js'"
+                      }
+                    },
+                    "quasi": {
+                      "type": "TemplateLiteral",
+                      "start": 574,
+                      "end": 585,
+                      "expressions": [],
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 575,
+                          "end": 584,
+                          "value": {
+                            "raw": "something",
+                            "cooked": "something"
+                          },
+                          "tail": true
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 592,
+      "end": 669,
+      "expression": {
+        "type": "CallExpression",
+        "start": 592,
+        "end": 668,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 592,
+          "end": 605,
+          "object": {
+            "type": "Identifier",
+            "start": 592,
+            "end": 598,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 599,
+            "end": 605,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 606,
+            "end": 615,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 617,
+            "end": 667,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 623,
+              "end": 667,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 629,
+                  "end": 665,
+                  "expression": {
+                    "type": "TaggedTemplateExpression",
+                    "start": 629,
+                    "end": 664,
+                    "tag": {
+                      "type": "ImportExpression",
+                      "start": 629,
+                      "end": 657,
+                      "source": {
+                        "type": "Literal",
+                        "start": 636,
+                        "end": 656,
+                        "value": "./empty_FIXTURE.js",
+                        "raw": "'./empty_FIXTURE.js'"
+                      }
+                    },
+                    "quasi": {
+                      "type": "TemplateLiteral",
+                      "start": 657,
+                      "end": 664,
+                      "expressions": [
+                        {
+                          "type": "Literal",
+                          "start": 660,
+                          "end": 662,
+                          "value": 42,
+                          "raw": "42"
+                        }
+                      ],
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 658,
+                          "end": 658,
+                          "value": {
+                            "raw": "",
+                            "cooked": ""
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 663,
+                          "end": 663,
+                          "value": {
+                            "raw": "",
+                            "cooked": ""
+                          },
+                          "tail": true
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,366 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 714,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 467,
+      "end": 587,
+      "expression": {
+        "type": "CallExpression",
+        "start": 467,
+        "end": 586,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 467,
+          "end": 480,
+          "object": {
+            "type": "Identifier",
+            "start": 467,
+            "end": 473,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 474,
+            "end": 480,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 481,
+            "end": 490,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 492,
+            "end": 585,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 498,
+              "end": 585,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 502,
+                  "end": 522,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 506,
+                      "end": 521,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 506,
+                        "end": 508,
+                        "name": "s1"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 511,
+                        "end": 521,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 515,
+                          "end": 519,
+                          "name": "Date"
+                        },
+                        "arguments": []
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 525,
+                  "end": 566,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 525,
+                    "end": 565,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 525,
+                      "end": 536,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 525,
+                        "end": 527,
+                        "name": "s1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 528,
+                        "end": 536,
+                        "name": "toString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "MemberExpression",
+                      "start": 539,
+                      "end": 565,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 539,
+                        "end": 556,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 539,
+                          "end": 546,
+                          "name": "Boolean"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 547,
+                          "end": 556,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 557,
+                        "end": 565,
+                        "name": "toString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 569,
+                  "end": 583,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 569,
+                    "end": 582,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 569,
+                      "end": 580,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 569,
+                        "end": 571,
+                        "name": "s1"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 572,
+                        "end": 580,
+                        "name": "toString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 589,
+      "end": 713,
+      "expression": {
+        "type": "CallExpression",
+        "start": 589,
+        "end": 712,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 589,
+          "end": 602,
+          "object": {
+            "type": "Identifier",
+            "start": 589,
+            "end": 595,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 596,
+            "end": 602,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 603,
+            "end": 612,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 614,
+            "end": 711,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 620,
+              "end": 711,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 624,
+                  "end": 644,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 628,
+                      "end": 643,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 628,
+                        "end": 630,
+                        "name": "s2"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 633,
+                        "end": 643,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 637,
+                          "end": 641,
+                          "name": "Date"
+                        },
+                        "arguments": []
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 647,
+                  "end": 690,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 647,
+                    "end": 689,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 647,
+                      "end": 660,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 647,
+                        "end": 649,
+                        "name": "s2"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 650,
+                        "end": 660,
+                        "name": "myToString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "MemberExpression",
+                      "start": 663,
+                      "end": 689,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 663,
+                        "end": 680,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 663,
+                          "end": 670,
+                          "name": "Boolean"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 671,
+                          "end": 680,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 681,
+                        "end": 689,
+                        "name": "toString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 693,
+                  "end": 709,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 693,
+                    "end": 708,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 693,
+                      "end": 706,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 693,
+                        "end": 695,
+                        "name": "s2"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 696,
+                        "end": 706,
+                        "name": "myToString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

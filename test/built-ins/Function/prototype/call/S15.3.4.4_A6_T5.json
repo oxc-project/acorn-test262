@@ -1,0 +1,308 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 814,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 451,
+      "end": 559,
+      "id": {
+        "type": "Identifier",
+        "start": 460,
+        "end": 467,
+        "name": "FACTORY"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 470,
+        "end": 559,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 474,
+            "end": 557,
+            "expression": {
+              "type": "CallExpression",
+              "start": 474,
+              "end": 556,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 474,
+                "end": 532,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 474,
+                  "end": 527,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 474,
+                    "end": 482,
+                    "name": "Function"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 483,
+                      "end": 493,
+                      "value": "a1,a2,a3",
+                      "raw": "\"a1,a2,a3\""
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 495,
+                      "end": 526,
+                      "value": "this.shifted=a1.length+a2+a3;",
+                      "raw": "\"this.shifted=a1.length+a2+a3;\""
+                    }
+                  ],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 528,
+                  "end": 532,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 533,
+                  "end": 537,
+                  "value": null,
+                  "raw": "null"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 539,
+                  "end": 548,
+                  "name": "arguments"
+                },
+                {
+                  "type": "Literal",
+                  "start": 550,
+                  "end": 552,
+                  "value": "",
+                  "raw": "\"\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 554,
+                  "end": 555,
+                  "value": 2,
+                  "raw": "2"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 561,
+      "end": 598,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 565,
+          "end": 597,
+          "id": {
+            "type": "Identifier",
+            "start": 565,
+            "end": 568,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 571,
+            "end": 597,
+            "callee": {
+              "type": "Identifier",
+              "start": 575,
+              "end": 582,
+              "name": "FACTORY"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 583,
+                "end": 585,
+                "value": "",
+                "raw": "\"\""
+              },
+              {
+                "type": "Literal",
+                "start": 587,
+                "end": 588,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 590,
+                "end": 591,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 593,
+                "end": 596,
+                "value": "A",
+                "raw": "\"A\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 600,
+      "end": 695,
+      "expression": {
+        "type": "CallExpression",
+        "start": 600,
+        "end": 694,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 600,
+          "end": 616,
+          "object": {
+            "type": "Identifier",
+            "start": 600,
+            "end": 606,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 607,
+            "end": 616,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 617,
+            "end": 632,
+            "object": {
+              "type": "ThisExpression",
+              "start": 617,
+              "end": 621
+            },
+            "property": {
+              "type": "Literal",
+              "start": 622,
+              "end": 631,
+              "value": "shifted",
+              "raw": "\"shifted\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 634,
+            "end": 638,
+            "value": "42",
+            "raw": "\"42\""
+          },
+          {
+            "type": "Literal",
+            "start": 640,
+            "end": 693,
+            "value": "The value of this[\"shifted\"] is expected to be \"42\"",
+            "raw": "'The value of this[\"shifted\"] is expected to be \"42\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 696,
+      "end": 813,
+      "expression": {
+        "type": "CallExpression",
+        "start": 696,
+        "end": 812,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 696,
+          "end": 712,
+          "object": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 702,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 712,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 713,
+            "end": 731,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 720,
+              "end": 731,
+              "object": {
+                "type": "Identifier",
+                "start": 720,
+                "end": 723,
+                "name": "obj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 724,
+                "end": 731,
+                "name": "shifted"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 733,
+            "end": 744,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 811,
+            "value": "The value of `typeof obj.shifted` is expected to be \"undefined\"",
+            "raw": "'The value of `typeof obj.shifted` is expected to be \"undefined\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

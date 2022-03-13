@@ -1,0 +1,65 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 419,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 348,
+      "end": 418,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 352,
+        "end": 365,
+        "left": {
+          "type": "Identifier",
+          "start": 352,
+          "end": 356,
+          "name": "Math"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 361,
+          "end": 365,
+          "value": null,
+          "raw": "null"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 367,
+        "end": 418,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 371,
+            "end": 416,
+            "argument": {
+              "type": "NewExpression",
+              "start": 377,
+              "end": 415,
+              "callee": {
+                "type": "Identifier",
+                "start": 381,
+                "end": 393,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 394,
+                  "end": 414,
+                  "value": "#27: Math === null",
+                  "raw": "\"#27: Math === null\""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

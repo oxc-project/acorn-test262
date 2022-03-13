@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 388,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 257,
+      "end": 387,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 261,
+        "end": 303,
+        "left": {
+          "type": "Literal",
+          "start": 261,
+          "end": 272,
+          "value": "\fstr\fing\f",
+          "raw": "\"\fstr\fing\f\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 277,
+          "end": 303,
+          "value": "\fstr\fing\f",
+          "raw": "\"\\u000Cstr\\u000Cing\\u000C\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 305,
+        "end": 387,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 309,
+            "end": 385,
+            "argument": {
+              "type": "NewExpression",
+              "start": 315,
+              "end": 384,
+              "callee": {
+                "type": "Identifier",
+                "start": 319,
+                "end": 331,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 332,
+                  "end": 383,
+                  "value": "#1: \"\fstr\fing\f\" === \"\\u000Cstr\\u000Cing\\u000C\"",
+                  "raw": "'#1: \"\fstr\fing\f\" === \"\\\\u000Cstr\\\\u000Cing\\\\u000C\"'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

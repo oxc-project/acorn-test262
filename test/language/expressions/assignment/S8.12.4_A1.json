@@ -1,0 +1,182 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 459,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 311,
+      "end": 328,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 315,
+          "end": 327,
+          "id": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 318,
+            "name": "__e"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 321,
+            "end": 327,
+            "object": {
+              "type": "Identifier",
+              "start": 321,
+              "end": 325,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 326,
+              "end": 327,
+              "name": "E"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 329,
+      "end": 340,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 329,
+        "end": 339,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 329,
+          "end": 335,
+          "object": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 333,
+            "name": "Math"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 335,
+            "name": "E"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 338,
+          "end": 339,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 341,
+      "end": 458,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 345,
+        "end": 359,
+        "left": {
+          "type": "MemberExpression",
+          "start": 345,
+          "end": 351,
+          "object": {
+            "type": "Identifier",
+            "start": 345,
+            "end": 349,
+            "name": "Math"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 351,
+            "name": "E"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 356,
+          "end": 359,
+          "name": "__e"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 360,
+        "end": 458,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 364,
+            "end": 456,
+            "argument": {
+              "type": "NewExpression",
+              "start": 370,
+              "end": 455,
+              "callee": {
+                "type": "Identifier",
+                "start": 374,
+                "end": 386,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 387,
+                  "end": 454,
+                  "left": {
+                    "type": "Literal",
+                    "start": 387,
+                    "end": 443,
+                    "value": "#1: __e = Math.E; Math.E = 1; Math.E === __e. Actual: ",
+                    "raw": "'#1: __e = Math.E; Math.E = 1; Math.E === __e. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 446,
+                    "end": 454,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 447,
+                      "end": 453,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 447,
+                        "end": 451,
+                        "name": "Math"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 452,
+                        "end": 453,
+                        "name": "E"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

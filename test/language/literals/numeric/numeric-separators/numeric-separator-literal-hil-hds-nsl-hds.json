@@ -1,0 +1,100 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 636,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 566,
+      "end": 600,
+      "expression": {
+        "type": "CallExpression",
+        "start": 566,
+        "end": 599,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 566,
+          "end": 582,
+          "object": {
+            "type": "Identifier",
+            "start": 566,
+            "end": 572,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 582,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 583,
+            "end": 590,
+            "value": 256,
+            "raw": "0x01_00"
+          },
+          {
+            "type": "Literal",
+            "start": 592,
+            "end": 598,
+            "value": 256,
+            "raw": "0x0100"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 601,
+      "end": 635,
+      "expression": {
+        "type": "CallExpression",
+        "start": 601,
+        "end": 634,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 601,
+          "end": 617,
+          "object": {
+            "type": "Identifier",
+            "start": 601,
+            "end": 607,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 608,
+            "end": 617,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 618,
+            "end": 625,
+            "value": 256,
+            "raw": "0X01_00"
+          },
+          {
+            "type": "Literal",
+            "start": 627,
+            "end": 633,
+            "value": 256,
+            "raw": "0X0100"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

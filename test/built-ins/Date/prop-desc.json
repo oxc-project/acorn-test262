@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 575,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 476,
+      "end": 510,
+      "expression": {
+        "type": "CallExpression",
+        "start": 476,
+        "end": 509,
+        "callee": {
+          "type": "Identifier",
+          "start": 476,
+          "end": 495,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 496,
+            "end": 500
+          },
+          {
+            "type": "Literal",
+            "start": 502,
+            "end": 508,
+            "value": "Date",
+            "raw": "\"Date\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 511,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 511,
+        "end": 539,
+        "callee": {
+          "type": "Identifier",
+          "start": 511,
+          "end": 525,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 526,
+            "end": 530
+          },
+          {
+            "type": "Literal",
+            "start": 532,
+            "end": 538,
+            "value": "Date",
+            "raw": "\"Date\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 541,
+      "end": 574,
+      "expression": {
+        "type": "CallExpression",
+        "start": 541,
+        "end": 573,
+        "callee": {
+          "type": "Identifier",
+          "start": 541,
+          "end": 559,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 560,
+            "end": 564
+          },
+          {
+            "type": "Literal",
+            "start": 566,
+            "end": 572,
+            "value": "Date",
+            "raw": "\"Date\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

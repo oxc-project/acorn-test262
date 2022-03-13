@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 374,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 268,
+      "end": 373,
+      "expression": {
+        "type": "CallExpression",
+        "start": 268,
+        "end": 372,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 268,
+          "end": 284,
+          "object": {
+            "type": "Identifier",
+            "start": 268,
+            "end": 274,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 275,
+            "end": 284,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 285,
+            "end": 316,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 285,
+              "end": 306,
+              "object": {
+                "type": "Identifier",
+                "start": 285,
+                "end": 291,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 292,
+                "end": 306,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 307,
+                "end": 315,
+                "name": "Function"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 318,
+            "end": 336,
+            "object": {
+              "type": "Identifier",
+              "start": 318,
+              "end": 326,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 327,
+              "end": 336,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 338,
+            "end": 371,
+            "value": "Object.getPrototypeOf(Function)",
+            "raw": "'Object.getPrototypeOf(Function)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,331 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1136,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 342,
+      "end": 355,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 342,
+        "end": 354,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 342,
+          "end": 352,
+          "object": {
+            "type": "ThisExpression",
+            "start": 342,
+            "end": 346
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 352,
+            "name": "count"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 353,
+          "end": 354,
+          "value": 0,
+          "raw": "0"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 357,
+      "end": 402,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 361,
+          "end": 401,
+          "id": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 371,
+            "name": "testScreen"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 374,
+            "end": 401,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 375,
+                "end": 400,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 375,
+                  "end": 380,
+                  "name": "touch"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 381,
+                  "end": 400,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 391,
+                    "end": 400,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 392,
+                        "end": 399,
+                        "expression": {
+                          "type": "UpdateExpression",
+                          "start": 392,
+                          "end": 399,
+                          "operator": "++",
+                          "prefix": false,
+                          "argument": {
+                            "type": "Identifier",
+                            "start": 392,
+                            "end": 397,
+                            "name": "count"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 492,
+      "end": 511,
+      "expression": {
+        "type": "CallExpression",
+        "start": 492,
+        "end": 510,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 492,
+          "end": 508,
+          "object": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 502,
+            "name": "testScreen"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 508,
+            "name": "touch"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 512,
+      "end": 672,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 516,
+        "end": 526,
+        "left": {
+          "type": "Identifier",
+          "start": 516,
+          "end": 521,
+          "name": "count"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 525,
+          "end": 526,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 528,
+        "end": 672,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 532,
+            "end": 670,
+            "argument": {
+              "type": "NewExpression",
+              "start": 538,
+              "end": 669,
+              "callee": {
+                "type": "Identifier",
+                "start": 542,
+                "end": 554,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 555,
+                  "end": 668,
+                  "left": {
+                    "type": "Literal",
+                    "start": 555,
+                    "end": 658,
+                    "value": "#1: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); count === 1. Actual: ",
+                    "raw": "'#1: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); count === 1. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 661,
+                    "end": 668,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 662,
+                      "end": 667,
+                      "name": "count"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 845,
+      "end": 867,
+      "expression": {
+        "type": "CallExpression",
+        "start": 845,
+        "end": 866,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 845,
+          "end": 864,
+          "object": {
+            "type": "Identifier",
+            "start": 845,
+            "end": 855,
+            "name": "testScreen"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 856,
+            "end": 863,
+            "value": "touch",
+            "raw": "'touch'"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 868,
+      "end": 1053,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 872,
+        "end": 882,
+        "left": {
+          "type": "Identifier",
+          "start": 872,
+          "end": 877,
+          "name": "count"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 881,
+          "end": 882,
+          "value": 2,
+          "raw": "2"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 884,
+        "end": 1053,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 888,
+            "end": 1051,
+            "argument": {
+              "type": "NewExpression",
+              "start": 894,
+              "end": 1050,
+              "callee": {
+                "type": "Identifier",
+                "start": 898,
+                "end": 910,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 911,
+                  "end": 1049,
+                  "left": {
+                    "type": "Literal",
+                    "start": 911,
+                    "end": 1039,
+                    "value": "#2: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); testScreen['touch'](); count === 2. Actual: ",
+                    "raw": "'#2: this.count=0; testScreen = {touch:function(){count++}}; testScreen.touch(); testScreen[\\'touch\\'](); count === 2. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1042,
+                    "end": 1049,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 1043,
+                      "end": 1048,
+                      "name": "count"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

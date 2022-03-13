@@ -1,0 +1,106 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 370,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 288,
+      "end": 321,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 292,
+          "end": 320,
+          "id": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 293,
+            "name": "s"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 296,
+            "end": 320,
+            "value": "            abc",
+            "raw": "\"\\u2029\\\n           abc\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 369,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 368,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 323,
+          "end": 339,
+          "object": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 339,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 340,
+            "end": 348,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 340,
+              "end": 346,
+              "object": {
+                "type": "Identifier",
+                "start": 340,
+                "end": 341,
+                "name": "s"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 346,
+                "name": "trim"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 350,
+            "end": 355,
+            "value": "abc",
+            "raw": "\"abc\""
+          },
+          {
+            "type": "Literal",
+            "start": 357,
+            "end": 367,
+            "value": "s.trim()",
+            "raw": "'s.trim()'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

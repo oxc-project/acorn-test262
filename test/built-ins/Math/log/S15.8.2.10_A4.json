@@ -1,0 +1,81 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 285,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 251,
+      "end": 284,
+      "expression": {
+        "type": "CallExpression",
+        "start": 251,
+        "end": 283,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 251,
+          "end": 267,
+          "object": {
+            "type": "Identifier",
+            "start": 251,
+            "end": 257,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 258,
+            "end": 267,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 268,
+            "end": 279,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 268,
+              "end": 276,
+              "object": {
+                "type": "Identifier",
+                "start": 268,
+                "end": 272,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 273,
+                "end": 276,
+                "name": "log"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 277,
+                "end": 278,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 281,
+            "end": 282,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

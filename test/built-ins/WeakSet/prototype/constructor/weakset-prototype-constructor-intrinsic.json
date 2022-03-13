@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 421,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 296,
+      "end": 420,
+      "expression": {
+        "type": "CallExpression",
+        "start": 296,
+        "end": 419,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 296,
+          "end": 312,
+          "object": {
+            "type": "Identifier",
+            "start": 296,
+            "end": 302,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 303,
+            "end": 312,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 316,
+            "end": 345,
+            "object": {
+              "type": "MemberExpression",
+              "start": 316,
+              "end": 333,
+              "object": {
+                "type": "Identifier",
+                "start": 316,
+                "end": 323,
+                "name": "WeakSet"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 324,
+                "end": 333,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 334,
+              "end": 345,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 349,
+            "end": 356,
+            "name": "WeakSet"
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 417,
+            "value": "The value of WeakSet.prototype.constructor is \"WeakSet\"",
+            "raw": "'The value of WeakSet.prototype.constructor is \"WeakSet\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

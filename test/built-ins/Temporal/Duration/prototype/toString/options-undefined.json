@@ -1,0 +1,324 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 648,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 275,
+      "end": 348,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 281,
+          "end": 347,
+          "id": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 289,
+            "name": "duration"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 292,
+            "end": 347,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 296,
+              "end": 313,
+              "object": {
+                "type": "Identifier",
+                "start": 296,
+                "end": 304,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 305,
+                "end": 313,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 314,
+                "end": 315,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 317,
+                "end": 318,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 320,
+                "end": 321,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "Literal",
+                "start": 323,
+                "end": 324,
+                "value": 4,
+                "raw": "4"
+              },
+              {
+                "type": "Literal",
+                "start": 326,
+                "end": 327,
+                "value": 5,
+                "raw": "5"
+              },
+              {
+                "type": "Literal",
+                "start": 329,
+                "end": 330,
+                "value": 6,
+                "raw": "6"
+              },
+              {
+                "type": "Literal",
+                "start": 332,
+                "end": 333,
+                "value": 7,
+                "raw": "7"
+              },
+              {
+                "type": "Literal",
+                "start": 335,
+                "end": 338,
+                "value": 987,
+                "raw": "987"
+              },
+              {
+                "type": "Literal",
+                "start": 340,
+                "end": 343,
+                "value": 650,
+                "raw": "650"
+              },
+              {
+                "type": "Literal",
+                "start": 345,
+                "end": 346,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 350,
+      "end": 396,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 356,
+          "end": 395,
+          "id": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 364,
+            "name": "explicit"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 367,
+            "end": 395,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 367,
+              "end": 384,
+              "object": {
+                "type": "Identifier",
+                "start": 367,
+                "end": 375,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 376,
+                "end": 384,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 385,
+                "end": 394,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 397,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 397,
+        "end": 501,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 397,
+          "end": 413,
+          "object": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 403,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 413,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 414,
+            "end": 422,
+            "name": "explicit"
+          },
+          {
+            "type": "Literal",
+            "start": 424,
+            "end": 448,
+            "value": "P1Y2M3W4DT5H6M7.98765S",
+            "raw": "\"P1Y2M3W4DT5H6M7.98765S\""
+          },
+          {
+            "type": "Literal",
+            "start": 450,
+            "end": 500,
+            "value": "default precision is auto, and rounding is trunc",
+            "raw": "\"default precision is auto, and rounding is trunc\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 504,
+      "end": 541,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 510,
+          "end": 540,
+          "id": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 518,
+            "name": "implicit"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 521,
+            "end": 540,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 521,
+              "end": 538,
+              "object": {
+                "type": "Identifier",
+                "start": 521,
+                "end": 529,
+                "name": "duration"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 530,
+                "end": 538,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 542,
+      "end": 647,
+      "expression": {
+        "type": "CallExpression",
+        "start": 542,
+        "end": 646,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 542,
+          "end": 558,
+          "object": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 548,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 549,
+            "end": 558,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 559,
+            "end": 567,
+            "name": "implicit"
+          },
+          {
+            "type": "Literal",
+            "start": 569,
+            "end": 593,
+            "value": "P1Y2M3W4DT5H6M7.98765S",
+            "raw": "\"P1Y2M3W4DT5H6M7.98765S\""
+          },
+          {
+            "type": "Literal",
+            "start": 595,
+            "end": 645,
+            "value": "default precision is auto, and rounding is trunc",
+            "raw": "\"default precision is auto, and rounding is trunc\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,127 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 324,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 240,
+      "end": 323,
+      "expression": {
+        "type": "CallExpression",
+        "start": 240,
+        "end": 322,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 240,
+          "end": 253,
+          "object": {
+            "type": "Identifier",
+            "start": 240,
+            "end": 246,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 247,
+            "end": 253,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 254,
+            "end": 263,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 265,
+            "end": 321,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 276,
+              "end": 321,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 280,
+                  "end": 319,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 280,
+                    "end": 318,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 280,
+                      "end": 307,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 280,
+                        "end": 302,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 280,
+                          "end": 295,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 280,
+                            "end": 285,
+                            "name": "Array"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 286,
+                            "end": 295,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 296,
+                          "end": 302,
+                          "name": "reduce"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 303,
+                        "end": 307,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 308,
+                        "end": 317,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

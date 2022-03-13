@@ -1,0 +1,309 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 625,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 323,
+      "end": 397,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 329,
+          "end": 396,
+          "id": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 337,
+            "name": "expected"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 340,
+            "end": 396,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 344,
+                "end": 354,
+                "value": "calendar",
+                "raw": "\"calendar\""
+              },
+              {
+                "type": "Literal",
+                "start": 358,
+                "end": 366,
+                "value": "isoDay",
+                "raw": "\"isoDay\""
+              },
+              {
+                "type": "Literal",
+                "start": 370,
+                "end": 380,
+                "value": "isoMonth",
+                "raw": "\"isoMonth\""
+              },
+              {
+                "type": "Literal",
+                "start": 384,
+                "end": 393,
+                "value": "isoYear",
+                "raw": "\"isoYear\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 399,
+      "end": 443,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 405,
+          "end": 442,
+          "id": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 407,
+            "name": "md"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 410,
+            "end": 442,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 414,
+              "end": 436,
+              "object": {
+                "type": "Identifier",
+                "start": 414,
+                "end": 422,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 423,
+                "end": 436,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 437,
+                "end": 438,
+                "value": 5,
+                "raw": "5"
+              },
+              {
+                "type": "Literal",
+                "start": 440,
+                "end": 441,
+                "value": 2,
+                "raw": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 444,
+      "end": 477,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 450,
+          "end": 476,
+          "id": {
+            "type": "Identifier",
+            "start": 450,
+            "end": 456,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 459,
+            "end": 476,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 459,
+              "end": 474,
+              "object": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 461,
+                "name": "md"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 474,
+                "name": "getISOFields"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 479,
+      "end": 624,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 484,
+        "end": 498,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 490,
+            "end": 498,
+            "id": {
+              "type": "Identifier",
+              "start": 490,
+              "end": 498,
+              "name": "property"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 502,
+        "end": 510,
+        "name": "expected"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 512,
+        "end": 624,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 516,
+            "end": 622,
+            "expression": {
+              "type": "CallExpression",
+              "start": 516,
+              "end": 621,
+              "callee": {
+                "type": "Identifier",
+                "start": 516,
+                "end": 530,
+                "name": "verifyProperty"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 531,
+                  "end": 537,
+                  "name": "result"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 539,
+                  "end": 547,
+                  "name": "property"
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 549,
+                  "end": 620,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 555,
+                      "end": 569,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 555,
+                        "end": 563,
+                        "name": "writable"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 565,
+                        "end": 569,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 575,
+                      "end": 591,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 575,
+                        "end": 585,
+                        "name": "enumerable"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 587,
+                        "end": 591,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 597,
+                      "end": 615,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 597,
+                        "end": 609,
+                        "name": "configurable"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 611,
+                        "end": 615,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

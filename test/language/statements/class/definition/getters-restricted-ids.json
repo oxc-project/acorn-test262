@@ -1,0 +1,476 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 655,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 197,
+      "end": 364,
+      "id": {
+        "type": "Identifier",
+        "start": 203,
+        "end": 204,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 205,
+        "end": 364,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 209,
+            "end": 239,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 213,
+              "end": 217,
+              "name": "eval"
+            },
+            "kind": "get",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 217,
+              "end": 239,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 220,
+                "end": 239,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 226,
+                    "end": 235,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 233,
+                      "end": 234,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 242,
+            "end": 277,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 246,
+              "end": 255,
+              "name": "arguments"
+            },
+            "kind": "get",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 255,
+              "end": 277,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 258,
+                "end": 277,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 264,
+                    "end": 273,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 271,
+                      "end": 272,
+                      "value": 2,
+                      "raw": "2"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 280,
+            "end": 317,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 291,
+              "end": 295,
+              "name": "eval"
+            },
+            "kind": "get",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 295,
+              "end": 317,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 298,
+                "end": 317,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 304,
+                    "end": 313,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 311,
+                      "end": 312,
+                      "value": 3,
+                      "raw": "3"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 320,
+            "end": 362,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 331,
+              "end": 340,
+              "name": "arguments"
+            },
+            "kind": "get",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 340,
+              "end": 362,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 343,
+                "end": 362,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 349,
+                    "end": 358,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 356,
+                      "end": 357,
+                      "value": 4,
+                      "raw": "4"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 364,
+      "end": 365
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 367,
+      "end": 439,
+      "expression": {
+        "type": "CallExpression",
+        "start": 367,
+        "end": 438,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 367,
+          "end": 383,
+          "object": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 373,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 383,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 384,
+            "end": 396,
+            "object": {
+              "type": "NewExpression",
+              "start": 384,
+              "end": 391,
+              "callee": {
+                "type": "Identifier",
+                "start": 388,
+                "end": 389,
+                "name": "C"
+              },
+              "arguments": []
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 392,
+              "end": 396,
+              "name": "eval"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 398,
+            "end": 399,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 401,
+            "end": 437,
+            "value": "The value of `new C().eval` is `1`",
+            "raw": "\"The value of `new C().eval` is `1`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 440,
+      "end": 522,
+      "expression": {
+        "type": "CallExpression",
+        "start": 440,
+        "end": 521,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 440,
+          "end": 456,
+          "object": {
+            "type": "Identifier",
+            "start": 440,
+            "end": 446,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 447,
+            "end": 456,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 457,
+            "end": 474,
+            "object": {
+              "type": "NewExpression",
+              "start": 457,
+              "end": 464,
+              "callee": {
+                "type": "Identifier",
+                "start": 461,
+                "end": 462,
+                "name": "C"
+              },
+              "arguments": []
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 465,
+              "end": 474,
+              "name": "arguments"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 476,
+            "end": 477,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 479,
+            "end": 520,
+            "value": "The value of `new C().arguments` is `2`",
+            "raw": "\"The value of `new C().arguments` is `2`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 523,
+      "end": 583,
+      "expression": {
+        "type": "CallExpression",
+        "start": 523,
+        "end": 582,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 523,
+          "end": 539,
+          "object": {
+            "type": "Identifier",
+            "start": 523,
+            "end": 529,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 539,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 540,
+            "end": 546,
+            "object": {
+              "type": "Identifier",
+              "start": 540,
+              "end": 541,
+              "name": "C"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 542,
+              "end": 546,
+              "name": "eval"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 548,
+            "end": 549,
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "type": "Literal",
+            "start": 551,
+            "end": 581,
+            "value": "The value of `C.eval` is `3`",
+            "raw": "\"The value of `C.eval` is `3`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 584,
+      "end": 654,
+      "expression": {
+        "type": "CallExpression",
+        "start": 584,
+        "end": 653,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 584,
+          "end": 600,
+          "object": {
+            "type": "Identifier",
+            "start": 584,
+            "end": 590,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 591,
+            "end": 600,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 601,
+            "end": 612,
+            "object": {
+              "type": "Identifier",
+              "start": 601,
+              "end": 602,
+              "name": "C"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 603,
+              "end": 612,
+              "name": "arguments"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 614,
+            "end": 615,
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "type": "Literal",
+            "start": 617,
+            "end": 652,
+            "value": "The value of `C.arguments` is `4`",
+            "raw": "\"The value of `C.arguments` is `4`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

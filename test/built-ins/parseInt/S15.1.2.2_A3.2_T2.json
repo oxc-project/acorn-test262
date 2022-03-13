@@ -1,0 +1,483 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 988,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 236,
+      "end": 373,
+      "expression": {
+        "type": "CallExpression",
+        "start": 236,
+        "end": 372,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 236,
+          "end": 252,
+          "object": {
+            "type": "Identifier",
+            "start": 236,
+            "end": 242,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 252,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 253,
+            "end": 272,
+            "callee": {
+              "type": "Identifier",
+              "start": 253,
+              "end": 261,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 262,
+                "end": 266,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 268,
+                "end": 271,
+                "value": 2.1,
+                "raw": "2.1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 274,
+            "end": 291,
+            "callee": {
+              "type": "Identifier",
+              "start": 274,
+              "end": 282,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 283,
+                "end": 287,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 289,
+                "end": 290,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 293,
+            "end": 371,
+            "value": "parseInt(\"11\", 2.1) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", 2.1) must return the same value returned by parseInt(\"11\", 2)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 374,
+      "end": 511,
+      "expression": {
+        "type": "CallExpression",
+        "start": 374,
+        "end": 510,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 374,
+          "end": 390,
+          "object": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 380,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 390,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 391,
+            "end": 410,
+            "callee": {
+              "type": "Identifier",
+              "start": 391,
+              "end": 399,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 400,
+                "end": 404,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 406,
+                "end": 409,
+                "value": 2.5,
+                "raw": "2.5"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 412,
+            "end": 429,
+            "callee": {
+              "type": "Identifier",
+              "start": 412,
+              "end": 420,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 421,
+                "end": 425,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 427,
+                "end": 428,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 431,
+            "end": 509,
+            "value": "parseInt(\"11\", 2.5) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", 2.5) must return the same value returned by parseInt(\"11\", 2)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 512,
+      "end": 649,
+      "expression": {
+        "type": "CallExpression",
+        "start": 512,
+        "end": 648,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 512,
+          "end": 528,
+          "object": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 518,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 519,
+            "end": 528,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 529,
+            "end": 548,
+            "callee": {
+              "type": "Identifier",
+              "start": 529,
+              "end": 537,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 538,
+                "end": 542,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 544,
+                "end": 547,
+                "value": 2.9,
+                "raw": "2.9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 550,
+            "end": 567,
+            "callee": {
+              "type": "Identifier",
+              "start": 550,
+              "end": 558,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 559,
+                "end": 563,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 565,
+                "end": 566,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 569,
+            "end": 647,
+            "value": "parseInt(\"11\", 2.9) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", 2.9) must return the same value returned by parseInt(\"11\", 2)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 818,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 817,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 651,
+          "end": 667,
+          "object": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 657,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 667,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 671,
+            "end": 701,
+            "callee": {
+              "type": "Identifier",
+              "start": 671,
+              "end": 679,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 680,
+                "end": 684,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 686,
+                "end": 700,
+                "value": 2.000000000001,
+                "raw": "2.000000000001"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 705,
+            "end": 722,
+            "callee": {
+              "type": "Identifier",
+              "start": 705,
+              "end": 713,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 714,
+                "end": 718,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 720,
+                "end": 721,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 726,
+            "end": 815,
+            "value": "parseInt(\"11\", 2.000000000001) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", 2.000000000001) must return the same value returned by parseInt(\"11\", 2)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 820,
+      "end": 987,
+      "expression": {
+        "type": "CallExpression",
+        "start": 820,
+        "end": 986,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 820,
+          "end": 836,
+          "object": {
+            "type": "Identifier",
+            "start": 820,
+            "end": 826,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 827,
+            "end": 836,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 840,
+            "end": 870,
+            "callee": {
+              "type": "Identifier",
+              "start": 840,
+              "end": 848,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 849,
+                "end": 853,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 855,
+                "end": 869,
+                "value": 2.999999999999,
+                "raw": "2.999999999999"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 874,
+            "end": 891,
+            "callee": {
+              "type": "Identifier",
+              "start": 874,
+              "end": 882,
+              "name": "parseInt"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 883,
+                "end": 887,
+                "value": "11",
+                "raw": "\"11\""
+              },
+              {
+                "type": "Literal",
+                "start": 889,
+                "end": 890,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 895,
+            "end": 984,
+            "value": "parseInt(\"11\", 2.999999999999) must return the same value returned by parseInt(\"11\", 2)",
+            "raw": "'parseInt(\"11\", 2.999999999999) must return the same value returned by parseInt(\"11\", 2)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

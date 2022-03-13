@@ -1,0 +1,177 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 620,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 406,
+      "end": 412,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 406,
+        "end": 411,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 406,
+          "end": 407,
+          "name": "x"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 410,
+          "end": 411,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 414,
+      "end": 510,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 418,
+        "end": 430,
+        "left": {
+          "type": "MemberExpression",
+          "start": 418,
+          "end": 424,
+          "object": {
+            "type": "ThisExpression",
+            "start": 418,
+            "end": 422
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 423,
+            "end": 424,
+            "name": "x"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 429,
+          "end": 430,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 432,
+        "end": 510,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 436,
+            "end": 508,
+            "argument": {
+              "type": "NewExpression",
+              "start": 442,
+              "end": 507,
+              "callee": {
+                "type": "Identifier",
+                "start": 446,
+                "end": 458,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 459,
+                  "end": 506,
+                  "value": "#1: variable x is a property of global object",
+                  "raw": "\"#1: variable x is a property of global object\""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 512,
+      "end": 619,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 515,
+        "end": 537,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 515,
+          "end": 528,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 522,
+            "end": 528,
+            "object": {
+              "type": "ThisExpression",
+              "start": 522,
+              "end": 526
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 527,
+              "end": 528,
+              "name": "x"
+            },
+            "computed": false,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 533,
+          "end": 537,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 538,
+        "end": 619,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 542,
+            "end": 617,
+            "argument": {
+              "type": "NewExpression",
+              "start": 548,
+              "end": 616,
+              "callee": {
+                "type": "Identifier",
+                "start": 552,
+                "end": 564,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 565,
+                  "end": 615,
+                  "value": "#2: variable x has property attribute DontDelete",
+                  "raw": "\"#2: variable x has property attribute DontDelete\""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

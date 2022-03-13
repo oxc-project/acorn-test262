@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 349,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 247,
+      "end": 273,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 251,
+          "end": 272,
+          "id": {
+            "type": "Identifier",
+            "start": 251,
+            "end": 254,
+            "name": "bdc"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 257,
+            "end": 272,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 257,
+              "end": 266,
+              "object": {
+                "type": "Identifier",
+                "start": 257,
+                "end": 261,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 262,
+                "end": 266,
+                "name": "bind"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 267,
+                "end": 271,
+                "value": null,
+                "raw": "null"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 274,
+      "end": 295,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 278,
+          "end": 294,
+          "id": {
+            "type": "Identifier",
+            "start": 278,
+            "end": 279,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 282,
+            "end": 294,
+            "callee": {
+              "type": "Identifier",
+              "start": 282,
+              "end": 285,
+              "name": "bdc"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 286,
+                "end": 287,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 289,
+                "end": 290,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 292,
+                "end": 293,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 297,
+      "end": 348,
+      "expression": {
+        "type": "CallExpression",
+        "start": 297,
+        "end": 347,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 297,
+          "end": 313,
+          "object": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 303,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 313,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 314,
+            "end": 323,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 320,
+              "end": 323,
+              "expression": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 322,
+                "name": "s"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 325,
+            "end": 333,
+            "value": "string",
+            "raw": "'string'"
+          },
+          {
+            "type": "Literal",
+            "start": 335,
+            "end": 346,
+            "value": "typeof(s)",
+            "raw": "'typeof(s)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

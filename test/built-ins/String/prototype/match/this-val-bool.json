@@ -1,0 +1,312 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 862,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 303,
+      "end": 332,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 307,
+          "end": 331,
+          "id": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 317,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 320,
+            "end": 331,
+            "callee": {
+              "type": "Identifier",
+              "start": 324,
+              "end": 331,
+              "name": "Boolean"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 334,
+      "end": 376,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 334,
+        "end": 375,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 334,
+          "end": 350,
+          "object": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 344,
+            "name": "__instance"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 345,
+            "end": 350,
+            "name": "match"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 353,
+          "end": 375,
+          "object": {
+            "type": "MemberExpression",
+            "start": 353,
+            "end": 369,
+            "object": {
+              "type": "Identifier",
+              "start": 353,
+              "end": 359,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 360,
+              "end": 369,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 375,
+            "name": "match"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 467,
+      "end": 779,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 471,
+        "end": 540,
+        "left": {
+          "type": "MemberExpression",
+          "start": 471,
+          "end": 528,
+          "object": {
+            "type": "CallExpression",
+            "start": 471,
+            "end": 525,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 471,
+              "end": 487,
+              "object": {
+                "type": "Identifier",
+                "start": 471,
+                "end": 481,
+                "name": "__instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 482,
+                "end": 487,
+                "name": "match"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 488,
+                "end": 524,
+                "callee": {
+                  "type": "FunctionExpression",
+                  "start": 488,
+                  "end": 522,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 499,
+                    "end": 522,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 505,
+                        "end": 518,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 512,
+                          "end": 517,
+                          "value": false,
+                          "raw": "false"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 526,
+            "end": 527,
+            "value": 0,
+            "raw": "0"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 533,
+          "end": 540,
+          "value": "false",
+          "raw": "\"false\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 542,
+        "end": 779,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 546,
+            "end": 777,
+            "argument": {
+              "type": "NewExpression",
+              "start": 552,
+              "end": 776,
+              "callee": {
+                "type": "Identifier",
+                "start": 556,
+                "end": 568,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 569,
+                  "end": 775,
+                  "left": {
+                    "type": "Literal",
+                    "start": 569,
+                    "end": 715,
+                    "value": "#1: __instance = new Boolean; __instance.match = String.prototype.match;  __instance.match(function(){return false;}())[0] === \"false\". Actual: ",
+                    "raw": "'#1: __instance = new Boolean; __instance.match = String.prototype.match;  __instance.match(function(){return false;}())[0] === \"false\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 718,
+                    "end": 775,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 718,
+                      "end": 772,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 718,
+                        "end": 734,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 718,
+                          "end": 728,
+                          "name": "__instance"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 729,
+                          "end": 734,
+                          "name": "match"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "CallExpression",
+                          "start": 735,
+                          "end": 771,
+                          "callee": {
+                            "type": "FunctionExpression",
+                            "start": 735,
+                            "end": 769,
+                            "id": null,
+                            "expression": false,
+                            "generator": false,
+                            "async": false,
+                            "params": [],
+                            "body": {
+                              "type": "BlockStatement",
+                              "start": 746,
+                              "end": 769,
+                              "body": [
+                                {
+                                  "type": "ReturnStatement",
+                                  "start": 752,
+                                  "end": 765,
+                                  "argument": {
+                                    "type": "Literal",
+                                    "start": 759,
+                                    "end": 764,
+                                    "value": false,
+                                    "raw": "false"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "arguments": [],
+                          "optional": false
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 773,
+                      "end": 774,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

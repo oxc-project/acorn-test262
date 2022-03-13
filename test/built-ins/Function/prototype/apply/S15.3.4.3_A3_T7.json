@@ -1,0 +1,173 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 575,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 385,
+      "end": 466,
+      "expression": {
+        "type": "CallExpression",
+        "start": 385,
+        "end": 465,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 385,
+          "end": 463,
+          "expression": {
+            "type": "FunctionExpression",
+            "start": 386,
+            "end": 462,
+            "id": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 402,
+              "name": "FACTORY"
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 405,
+              "end": 462,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 409,
+                  "end": 460,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 409,
+                    "end": 459,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 409,
+                      "end": 451,
+                      "object": {
+                        "type": "CallExpression",
+                        "start": 409,
+                        "end": 445,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 409,
+                          "end": 417,
+                          "name": "Function"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 418,
+                            "end": 444,
+                            "value": "this.feat=\"in da haus\"",
+                            "raw": "\"this.feat=\\\"in da haus\\\"\""
+                          }
+                        ],
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 446,
+                        "end": 451,
+                        "name": "apply"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 452,
+                        "end": 458,
+                        "operator": "void",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 457,
+                          "end": 458,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 469,
+      "end": 574,
+      "expression": {
+        "type": "CallExpression",
+        "start": 469,
+        "end": 573,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 469,
+          "end": 485,
+          "object": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 475,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 476,
+            "end": 485,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 486,
+            "end": 498,
+            "object": {
+              "type": "ThisExpression",
+              "start": 486,
+              "end": 490
+            },
+            "property": {
+              "type": "Literal",
+              "start": 491,
+              "end": 497,
+              "value": "feat",
+              "raw": "\"feat\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 500,
+            "end": 512,
+            "value": "in da haus",
+            "raw": "\"in da haus\""
+          },
+          {
+            "type": "Literal",
+            "start": 514,
+            "end": 572,
+            "value": "The value of this[\"feat\"] is expected to be \"in da haus\"",
+            "raw": "'The value of this[\"feat\"] is expected to be \"in da haus\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

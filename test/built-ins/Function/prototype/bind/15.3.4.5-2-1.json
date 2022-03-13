@@ -1,0 +1,195 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 543,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 398,
+      "end": 433,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 398,
+        "end": 432,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 398,
+          "end": 411,
+          "object": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 401,
+            "name": "foo"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 411,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 414,
+          "end": 432,
+          "object": {
+            "type": "Identifier",
+            "start": 414,
+            "end": 422,
+            "name": "Function"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 423,
+            "end": 432,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 452,
+      "end": 469,
+      "id": {
+        "type": "Identifier",
+        "start": 461,
+        "end": 464,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 467,
+        "end": 469,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 470,
+      "end": 488,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 474,
+          "end": 487,
+          "id": {
+            "type": "Identifier",
+            "start": 474,
+            "end": 475,
+            "name": "f"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 478,
+            "end": 487,
+            "callee": {
+              "type": "Identifier",
+              "start": 482,
+              "end": 485,
+              "name": "foo"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 489,
+      "end": 542,
+      "expression": {
+        "type": "CallExpression",
+        "start": 489,
+        "end": 541,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 489,
+          "end": 502,
+          "object": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 495,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 502,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 503,
+            "end": 512,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 514,
+            "end": 540,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 525,
+              "end": 540,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 529,
+                  "end": 538,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 529,
+                    "end": 537,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 529,
+                      "end": 535,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 529,
+                        "end": 530,
+                        "name": "f"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 531,
+                        "end": 535,
+                        "name": "bind"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

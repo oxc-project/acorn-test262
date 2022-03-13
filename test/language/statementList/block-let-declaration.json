@@ -1,0 +1,75 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 773,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 751,
+      "end": 753,
+      "body": []
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 753,
+      "end": 770,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 757,
+          "end": 758,
+          "id": {
+            "type": "Identifier",
+            "start": 757,
+            "end": 758,
+            "name": "a"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 760,
+          "end": 766,
+          "id": {
+            "type": "Identifier",
+            "start": 760,
+            "end": 761,
+            "name": "b"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 764,
+            "end": 766,
+            "value": 42,
+            "raw": "42"
+          }
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 768,
+          "end": 769,
+          "id": {
+            "type": "Identifier",
+            "start": 768,
+            "end": 769,
+            "name": "c"
+          },
+          "init": null
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 770,
+      "end": 772,
+      "expression": {
+        "type": "Identifier",
+        "start": 770,
+        "end": 771,
+        "name": "b"
+      }
+    }
+  ],
+  "sourceType": "script"
+}

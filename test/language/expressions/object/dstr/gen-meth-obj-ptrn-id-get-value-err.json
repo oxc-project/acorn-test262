@@ -1,0 +1,302 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2074,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1832,
+      "end": 1952,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1836,
+          "end": 1951,
+          "id": {
+            "type": "Identifier",
+            "start": 1836,
+            "end": 1852,
+            "name": "poisonedProperty"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1855,
+            "end": 1951,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1855,
+              "end": 1876,
+              "object": {
+                "type": "Identifier",
+                "start": 1855,
+                "end": 1861,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1862,
+                "end": 1876,
+                "name": "defineProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 1877,
+                "end": 1879,
+                "properties": []
+              },
+              {
+                "type": "Literal",
+                "start": 1881,
+                "end": 1891,
+                "value": "poisoned",
+                "raw": "'poisoned'"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1893,
+                "end": 1950,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1897,
+                    "end": 1948,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1897,
+                      "end": 1900,
+                      "name": "get"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 1902,
+                      "end": 1948,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 1913,
+                        "end": 1948,
+                        "body": [
+                          {
+                            "type": "ThrowStatement",
+                            "start": 1919,
+                            "end": 1944,
+                            "argument": {
+                              "type": "NewExpression",
+                              "start": 1925,
+                              "end": 1943,
+                              "callee": {
+                                "type": "Identifier",
+                                "start": 1929,
+                                "end": 1941,
+                                "name": "Test262Error"
+                              },
+                              "arguments": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1954,
+      "end": 1995,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1958,
+          "end": 1994,
+          "id": {
+            "type": "Identifier",
+            "start": 1958,
+            "end": 1961,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1964,
+            "end": 1994,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1968,
+                "end": 1992,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1969,
+                  "end": 1975,
+                  "name": "method"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1975,
+                  "end": 1992,
+                  "id": null,
+                  "expression": false,
+                  "generator": true,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "ObjectPattern",
+                      "start": 1976,
+                      "end": 1988,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 1978,
+                          "end": 1986,
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 1978,
+                            "end": 1986,
+                            "name": "poisoned"
+                          },
+                          "kind": "init",
+                          "value": {
+                            "type": "Identifier",
+                            "start": 1978,
+                            "end": 1986,
+                            "name": "poisoned"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1990,
+                    "end": 1992,
+                    "body": []
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1997,
+      "end": 2073,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1997,
+        "end": 2072,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1997,
+          "end": 2010,
+          "object": {
+            "type": "Identifier",
+            "start": 1997,
+            "end": 2003,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2004,
+            "end": 2010,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2011,
+            "end": 2023,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2025,
+            "end": 2071,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2036,
+              "end": 2071,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2040,
+                  "end": 2069,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2040,
+                    "end": 2068,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2040,
+                      "end": 2050,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2040,
+                        "end": 2043,
+                        "name": "obj"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2044,
+                        "end": 2050,
+                        "name": "method"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 2051,
+                        "end": 2067,
+                        "name": "poisonedProperty"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

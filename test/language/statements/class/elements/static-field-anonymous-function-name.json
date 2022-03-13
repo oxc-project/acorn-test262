@@ -1,0 +1,302 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2467,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 2215,
+      "end": 2367,
+      "id": {
+        "type": "Identifier",
+        "start": 2221,
+        "end": 2222,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 2223,
+        "end": 2367,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 2227,
+            "end": 2259,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 2234,
+              "end": 2240,
+              "name": "field"
+            },
+            "value": {
+              "type": "ArrowFunctionExpression",
+              "start": 2243,
+              "end": 2258,
+              "id": null,
+              "expression": true,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "Literal",
+                "start": 2249,
+                "end": 2258,
+                "value": "Test262",
+                "raw": "'Test262'"
+              }
+            }
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 2262,
+            "end": 2303,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 2269,
+              "end": 2274,
+              "name": "field"
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 2277,
+              "end": 2302,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2288,
+                "end": 2302,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 2290,
+                    "end": 2300,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 2297,
+                      "end": 2299,
+                      "value": 42,
+                      "raw": "42"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 2307,
+            "end": 2364,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 2314,
+              "end": 2332,
+              "name": "accessPrivateField"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 2332,
+              "end": 2364,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2335,
+                "end": 2364,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 2341,
+                    "end": 2360,
+                    "argument": {
+                      "type": "MemberExpression",
+                      "start": 2348,
+                      "end": 2359,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 2348,
+                        "end": 2352
+                      },
+                      "property": {
+                        "type": "PrivateIdentifier",
+                        "start": 2353,
+                        "end": 2359,
+                        "name": "field"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2369,
+      "end": 2425,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2369,
+        "end": 2424,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2369,
+          "end": 2385,
+          "object": {
+            "type": "Identifier",
+            "start": 2369,
+            "end": 2375,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2376,
+            "end": 2385,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2386,
+            "end": 2413,
+            "object": {
+              "type": "CallExpression",
+              "start": 2386,
+              "end": 2408,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2386,
+                "end": 2406,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2386,
+                  "end": 2387,
+                  "name": "C"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2388,
+                  "end": 2406,
+                  "name": "accessPrivateField"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2409,
+              "end": 2413,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2415,
+            "end": 2423,
+            "value": "#field",
+            "raw": "\"#field\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2426,
+      "end": 2466,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2426,
+        "end": 2465,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2426,
+          "end": 2442,
+          "object": {
+            "type": "Identifier",
+            "start": 2426,
+            "end": 2432,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2433,
+            "end": 2442,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 2443,
+            "end": 2455,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2443,
+              "end": 2450,
+              "object": {
+                "type": "Identifier",
+                "start": 2443,
+                "end": 2444,
+                "name": "C"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2445,
+                "end": 2450,
+                "name": "field"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2451,
+              "end": 2455,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2457,
+            "end": 2464,
+            "value": "field",
+            "raw": "\"field\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

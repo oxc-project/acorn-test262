@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 868,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 741,
+      "end": 843,
+      "expression": {
+        "type": "CallExpression",
+        "start": 741,
+        "end": 842,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 741,
+          "end": 757,
+          "object": {
+            "type": "Identifier",
+            "start": 741,
+            "end": 747,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 757,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 758,
+            "end": 786,
+            "callee": {
+              "type": "Identifier",
+              "start": 758,
+              "end": 771,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 772,
+                "end": 785,
+                "name": "AsyncFunction"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 788,
+            "end": 792,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 794,
+            "end": 841,
+            "value": "isConstructor(AsyncFunction) must return true",
+            "raw": "'isConstructor(AsyncFunction) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 844,
+      "end": 864,
+      "expression": {
+        "type": "NewExpression",
+        "start": 844,
+        "end": 863,
+        "callee": {
+          "type": "Identifier",
+          "start": 848,
+          "end": 861,
+          "name": "AsyncFunction"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,226 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 616,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 354,
+      "end": 412,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 358,
+          "end": 411,
+          "id": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 366,
+            "name": "__string"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 369,
+            "end": 411,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 370,
+                "end": 410,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 370,
+                  "end": 378,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 379,
+                  "end": 410,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 389,
+                    "end": 410,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 390,
+                        "end": 409,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 397,
+                          "end": 408,
+                          "value": "abcdefghi",
+                          "raw": "\"abcdefghi\""
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 413,
+      "end": 439,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 417,
+          "end": 438,
+          "id": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 421,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 424,
+            "end": 438,
+            "value": {},
+            "raw": "/a[a-z]{2,4}?/",
+            "regex": {
+              "pattern": "a[a-z]{2,4}?",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 441,
+      "end": 615,
+      "expression": {
+        "type": "CallExpression",
+        "start": 441,
+        "end": 614,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 441,
+          "end": 457,
+          "object": {
+            "type": "Identifier",
+            "start": 441,
+            "end": 447,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 448,
+            "end": 457,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 461,
+            "end": 480,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 461,
+              "end": 470,
+              "object": {
+                "type": "Identifier",
+                "start": 461,
+                "end": 465,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 466,
+                "end": 470,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 471,
+                "end": 479,
+                "name": "__string"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 484,
+            "end": 512,
+            "left": {
+              "type": "CallExpression",
+              "start": 484,
+              "end": 503,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 484,
+                "end": 493,
+                "object": {
+                  "type": "Identifier",
+                  "start": 484,
+                  "end": 488,
+                  "name": "__re"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 489,
+                  "end": 493,
+                  "name": "exec"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 494,
+                  "end": 502,
+                  "name": "__string"
+                }
+              ],
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 508,
+              "end": 512,
+              "value": null,
+              "raw": "null"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 516,
+            "end": 612,
+            "value": "__re.test({toString:function(){return \"abcdefghi\";}}) must return __re.exec(__string) !== null",
+            "raw": "'__re.test({toString:function(){return \"abcdefghi\";}}) must return __re.exec(__string) !== null'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

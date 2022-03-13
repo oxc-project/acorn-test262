@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 483,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 325,
+      "end": 482,
+      "expression": {
+        "type": "CallExpression",
+        "start": 325,
+        "end": 481,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 325,
+          "end": 341,
+          "object": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 341,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 345,
+            "end": 375,
+            "object": {
+              "type": "MemberExpression",
+              "start": 345,
+              "end": 363,
+              "object": {
+                "type": "Identifier",
+                "start": 345,
+                "end": 353,
+                "name": "Function"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 354,
+                "end": 363,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 364,
+              "end": 375,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 379,
+            "end": 387,
+            "name": "Function"
+          },
+          {
+            "type": "Literal",
+            "start": 391,
+            "end": 479,
+            "value": "The value of Function.prototype.constructor is expected to equal the value of Function",
+            "raw": "'The value of Function.prototype.constructor is expected to equal the value of Function'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

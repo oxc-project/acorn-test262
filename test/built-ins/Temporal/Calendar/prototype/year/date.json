@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 967,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 768,
+      "end": 811,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 772,
+          "end": 810,
+          "id": {
+            "type": "Identifier",
+            "start": 772,
+            "end": 775,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 778,
+            "end": 810,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 782,
+              "end": 799,
+              "object": {
+                "type": "Identifier",
+                "start": 782,
+                "end": 790,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 791,
+                "end": 799,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 800,
+                "end": 809,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 813,
+      "end": 860,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 817,
+          "end": 859,
+          "id": {
+            "type": "Identifier",
+            "start": 817,
+            "end": 821,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 824,
+            "end": 859,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 828,
+              "end": 846,
+              "object": {
+                "type": "Identifier",
+                "start": 828,
+                "end": 836,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 837,
+                "end": 846,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 847,
+                "end": 851,
+                "value": 2021,
+                "raw": "2021"
+              },
+              {
+                "type": "Literal",
+                "start": 853,
+                "end": 854,
+                "value": 7,
+                "raw": "7"
+              },
+              {
+                "type": "Literal",
+                "start": 856,
+                "end": 858,
+                "value": 15,
+                "raw": "15"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 861,
+      "end": 966,
+      "expression": {
+        "type": "CallExpression",
+        "start": 861,
+        "end": 965,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 861,
+          "end": 877,
+          "object": {
+            "type": "Identifier",
+            "start": 861,
+            "end": 867,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 868,
+            "end": 877,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 878,
+            "end": 892,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 878,
+              "end": 886,
+              "object": {
+                "type": "Identifier",
+                "start": 878,
+                "end": 881,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 882,
+                "end": 886,
+                "name": "year"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 887,
+                "end": 891,
+                "name": "date"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 894,
+            "end": 898,
+            "value": 2021,
+            "raw": "2021"
+          },
+          {
+            "type": "Literal",
+            "start": 900,
+            "end": 964,
+            "value": "cal.year(new Temporal.PlainDate(2021, 7, 15)) must return 2021",
+            "raw": "'cal.year(new Temporal.PlainDate(2021, 7, 15)) must return 2021'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

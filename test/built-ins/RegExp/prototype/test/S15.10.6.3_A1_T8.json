@@ -1,0 +1,239 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 712,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 360,
+      "end": 666,
+      "block": {
+        "type": "BlockStatement",
+        "start": 364,
+        "end": 572,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 368,
+            "end": 570,
+            "argument": {
+              "type": "NewExpression",
+              "start": 374,
+              "end": 569,
+              "callee": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 390,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 391,
+                  "end": 568,
+                  "left": {
+                    "type": "Literal",
+                    "start": 391,
+                    "end": 494,
+                    "value": "#1.1: /[a-z]/.test({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: ",
+                    "raw": "'#1.1: /[a-z]/.test({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 497,
+                    "end": 568,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 498,
+                      "end": 567,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 498,
+                        "end": 510,
+                        "object": {
+                          "type": "Literal",
+                          "start": 498,
+                          "end": 505,
+                          "value": {},
+                          "raw": "/[a-z]/",
+                          "regex": {
+                            "pattern": "[a-z]",
+                            "flags": ""
+                          }
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 506,
+                          "end": 510,
+                          "name": "test"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "ObjectExpression",
+                          "start": 511,
+                          "end": 566,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 512,
+                              "end": 527,
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 512,
+                                "end": 520,
+                                "name": "toString"
+                              },
+                              "value": {
+                                "type": "UnaryExpression",
+                                "start": 521,
+                                "end": 527,
+                                "operator": "void",
+                                "prefix": true,
+                                "argument": {
+                                  "type": "Literal",
+                                  "start": 526,
+                                  "end": 527,
+                                  "value": 0,
+                                  "raw": "0"
+                                }
+                              },
+                              "kind": "init"
+                            },
+                            {
+                              "type": "Property",
+                              "start": 529,
+                              "end": 565,
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 529,
+                                "end": 536,
+                                "name": "valueOf"
+                              },
+                              "value": {
+                                "type": "FunctionExpression",
+                                "start": 537,
+                                "end": 565,
+                                "id": null,
+                                "expression": false,
+                                "generator": false,
+                                "async": false,
+                                "params": [],
+                                "body": {
+                                  "type": "BlockStatement",
+                                  "start": 547,
+                                  "end": 565,
+                                  "body": [
+                                    {
+                                      "type": "ThrowStatement",
+                                      "start": 548,
+                                      "end": 564,
+                                      "argument": {
+                                        "type": "Literal",
+                                        "start": 554,
+                                        "end": 563,
+                                        "value": "invalof",
+                                        "raw": "\"invalof\""
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              "kind": "init"
+                            }
+                          ]
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 573,
+        "end": 666,
+        "param": {
+          "type": "Identifier",
+          "start": 580,
+          "end": 581,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 583,
+          "end": 666,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 587,
+              "end": 664,
+              "expression": {
+                "type": "CallExpression",
+                "start": 587,
+                "end": 663,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 587,
+                  "end": 603,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 587,
+                    "end": 593,
+                    "name": "assert"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 594,
+                    "end": 603,
+                    "name": "sameValue"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 604,
+                    "end": 605,
+                    "name": "e"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 607,
+                    "end": 616,
+                    "value": "invalof",
+                    "raw": "\"invalof\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 618,
+                    "end": 662,
+                    "value": "The value of e is expected to be \"invalof\"",
+                    "raw": "'The value of e is expected to be \"invalof\"'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

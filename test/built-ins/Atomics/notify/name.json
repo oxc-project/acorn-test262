@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 458,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 332,
+      "end": 457,
+      "expression": {
+        "type": "CallExpression",
+        "start": 332,
+        "end": 456,
+        "callee": {
+          "type": "Identifier",
+          "start": 332,
+          "end": 346,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 347,
+            "end": 361,
+            "object": {
+              "type": "Identifier",
+              "start": 347,
+              "end": 354,
+              "name": "Atomics"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 355,
+              "end": 361,
+              "name": "notify"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 363,
+            "end": 369,
+            "value": "name",
+            "raw": "'name'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 371,
+            "end": 455,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 375,
+                "end": 390,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 375,
+                  "end": 380,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 382,
+                  "end": 390,
+                  "value": "notify",
+                  "raw": "'notify'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 394,
+                "end": 411,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 394,
+                  "end": 404,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 406,
+                  "end": 411,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 415,
+                "end": 430,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 415,
+                  "end": 423,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 425,
+                  "end": 430,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 434,
+                "end": 452,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 434,
+                  "end": 446,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 448,
+                  "end": 452,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

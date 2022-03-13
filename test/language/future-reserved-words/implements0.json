@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 310,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 239,
+      "end": 259,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 243,
+          "end": 258,
+          "id": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 254,
+            "name": "implements0"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 257,
+            "end": 258,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 261,
+      "end": 309,
+      "expression": {
+        "type": "CallExpression",
+        "start": 261,
+        "end": 308,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 261,
+          "end": 277,
+          "object": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 267,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 268,
+            "end": 277,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 278,
+            "end": 289,
+            "name": "implements0"
+          },
+          {
+            "type": "Literal",
+            "start": 291,
+            "end": 292,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 294,
+            "end": 307,
+            "value": "implements0",
+            "raw": "'implements0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

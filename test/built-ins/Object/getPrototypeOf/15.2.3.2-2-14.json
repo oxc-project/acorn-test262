@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 380,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 275,
+      "end": 379,
+      "expression": {
+        "type": "CallExpression",
+        "start": 275,
+        "end": 378,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 275,
+          "end": 291,
+          "object": {
+            "type": "Identifier",
+            "start": 275,
+            "end": 281,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 291,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 292,
+            "end": 329,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 292,
+              "end": 313,
+              "object": {
+                "type": "Identifier",
+                "start": 292,
+                "end": 298,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 299,
+                "end": 313,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 314,
+                "end": 328,
+                "name": "ReferenceError"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 331,
+            "end": 336,
+            "name": "Error"
+          },
+          {
+            "type": "Literal",
+            "start": 338,
+            "end": 377,
+            "value": "Object.getPrototypeOf(ReferenceError)",
+            "raw": "'Object.getPrototypeOf(ReferenceError)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

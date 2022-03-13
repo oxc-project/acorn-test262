@@ -1,0 +1,155 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1732,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 1076,
+      "end": 1731,
+      "body": [
+        {
+          "type": "BlockStatement",
+          "start": 1080,
+          "end": 1729,
+          "body": [
+            {
+              "type": "BlockStatement",
+              "start": 1086,
+              "end": 1725,
+              "body": [
+                {
+                  "type": "BlockStatement",
+                  "start": 1094,
+                  "end": 1719,
+                  "body": [
+                    {
+                      "type": "BlockStatement",
+                      "start": 1104,
+                      "end": 1711,
+                      "body": [
+                        {
+                          "type": "BlockStatement",
+                          "start": 1116,
+                          "end": 1701,
+                          "body": [
+                            {
+                              "type": "BlockStatement",
+                              "start": 1130,
+                              "end": 1689,
+                              "body": [
+                                {
+                                  "type": "BlockStatement",
+                                  "start": 1146,
+                                  "end": 1675,
+                                  "body": [
+                                    {
+                                      "type": "BlockStatement",
+                                      "start": 1164,
+                                      "end": 1659,
+                                      "body": [
+                                        {
+                                          "type": "BlockStatement",
+                                          "start": 1184,
+                                          "end": 1641,
+                                          "body": [
+                                            {
+                                              "type": "BlockStatement",
+                                              "start": 1206,
+                                              "end": 1621,
+                                              "body": [
+                                                {
+                                                  "type": "BlockStatement",
+                                                  "start": 1230,
+                                                  "end": 1599,
+                                                  "body": [
+                                                    {
+                                                      "type": "BlockStatement",
+                                                      "start": 1256,
+                                                      "end": 1575,
+                                                      "body": [
+                                                        {
+                                                          "type": "BlockStatement",
+                                                          "start": 1284,
+                                                          "end": 1549,
+                                                          "body": [
+                                                            {
+                                                              "type": "BlockStatement",
+                                                              "start": 1314,
+                                                              "end": 1521,
+                                                              "body": [
+                                                                {
+                                                                  "type": "BlockStatement",
+                                                                  "start": 1346,
+                                                                  "end": 1491,
+                                                                  "body": [
+                                                                    {
+                                                                      "type": "BlockStatement",
+                                                                      "start": 1380,
+                                                                      "end": 1459,
+                                                                      "body": [
+                                                                        {
+                                                                          "type": "ExpressionStatement",
+                                                                          "start": 1416,
+                                                                          "end": 1425,
+                                                                          "expression": {
+                                                                            "type": "AwaitExpression",
+                                                                            "start": 1416,
+                                                                            "end": 1424,
+                                                                            "argument": {
+                                                                              "type": "TemplateLiteral",
+                                                                              "start": 1422,
+                                                                              "end": 1424,
+                                                                              "expressions": [],
+                                                                              "quasis": [
+                                                                                {
+                                                                                  "type": "TemplateElement",
+                                                                                  "start": 1423,
+                                                                                  "end": 1423,
+                                                                                  "value": {
+                                                                                    "raw": "",
+                                                                                    "cooked": ""
+                                                                                  },
+                                                                                  "tail": true
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceType": "module"
+}

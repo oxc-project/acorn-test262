@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 462,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 262,
+      "end": 340,
+      "expression": {
+        "type": "CallExpression",
+        "start": 262,
+        "end": 339,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 262,
+          "end": 278,
+          "object": {
+            "type": "Identifier",
+            "start": 262,
+            "end": 268,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 278,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 279,
+            "end": 294,
+            "object": {
+              "type": "Identifier",
+              "start": 279,
+              "end": 287,
+              "name": "isFinite"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 288,
+              "end": 294,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 296,
+            "end": 297,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 299,
+            "end": 338,
+            "value": "The value of `isFinite.length` is `1`",
+            "raw": "\"The value of `isFinite.length` is `1`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 342,
+      "end": 382,
+      "expression": {
+        "type": "CallExpression",
+        "start": 342,
+        "end": 381,
+        "callee": {
+          "type": "Identifier",
+          "start": 342,
+          "end": 361,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 362,
+            "end": 370,
+            "name": "isFinite"
+          },
+          {
+            "type": "Literal",
+            "start": 372,
+            "end": 380,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 383,
+      "end": 421,
+      "expression": {
+        "type": "CallExpression",
+        "start": 383,
+        "end": 420,
+        "callee": {
+          "type": "Identifier",
+          "start": 383,
+          "end": 400,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 401,
+            "end": 409,
+            "name": "isFinite"
+          },
+          {
+            "type": "Literal",
+            "start": 411,
+            "end": 419,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 422,
+      "end": 461,
+      "expression": {
+        "type": "CallExpression",
+        "start": 422,
+        "end": 460,
+        "callee": {
+          "type": "Identifier",
+          "start": 422,
+          "end": 440,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 441,
+            "end": 449,
+            "name": "isFinite"
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 459,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

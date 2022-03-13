@@ -1,0 +1,400 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 769,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 357,
+      "end": 401,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 361,
+          "end": 400,
+          "id": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 362,
+            "name": "f"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 365,
+            "end": 400,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 365,
+              "end": 378,
+              "object": {
+                "type": "Identifier",
+                "start": 365,
+                "end": 373,
+                "name": "Function"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 374,
+                "end": 378,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 379,
+                "end": 383,
+                "name": "mars"
+              },
+              {
+                "type": "Literal",
+                "start": 385,
+                "end": 399,
+                "value": "return name;",
+                "raw": "\"return name;\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 402,
+      "end": 461,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 406,
+          "end": 460,
+          "id": {
+            "type": "Identifier",
+            "start": 406,
+            "end": 410,
+            "name": "mars"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 413,
+            "end": 460,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 417,
+                "end": 429,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 417,
+                  "end": 421,
+                  "name": "name"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 423,
+                  "end": 429,
+                  "value": "mars",
+                  "raw": "\"mars\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 433,
+                "end": 445,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 433,
+                  "end": 438,
+                  "name": "color"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 440,
+                  "end": 445,
+                  "value": "red",
+                  "raw": "\"red\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 449,
+                "end": 458,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 449,
+                  "end": 455,
+                  "name": "number"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 457,
+                  "end": 458,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 463,
+      "end": 536,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 467,
+          "end": 535,
+          "id": {
+            "type": "Identifier",
+            "start": 467,
+            "end": 468,
+            "name": "f"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 471,
+            "end": 535,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 471,
+              "end": 484,
+              "object": {
+                "type": "Identifier",
+                "start": 471,
+                "end": 479,
+                "name": "Function"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 480,
+                "end": 484,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 485,
+                "end": 489,
+                "name": "mars"
+              },
+              {
+                "type": "Literal",
+                "start": 491,
+                "end": 534,
+                "value": "this.godname=\"ares\"; return this.color;",
+                "raw": "\"this.godname=\\\"ares\\\"; return this.color;\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 538,
+      "end": 559,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 542,
+          "end": 558,
+          "id": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 552,
+            "name": "about_mars"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 555,
+            "end": 558,
+            "callee": {
+              "type": "Identifier",
+              "start": 555,
+              "end": 556,
+              "name": "f"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 561,
+      "end": 601,
+      "expression": {
+        "type": "CallExpression",
+        "start": 561,
+        "end": 600,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 561,
+          "end": 577,
+          "object": {
+            "type": "Identifier",
+            "start": 561,
+            "end": 567,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 568,
+            "end": 577,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 578,
+            "end": 588,
+            "name": "about_mars"
+          },
+          {
+            "type": "Identifier",
+            "start": 590,
+            "end": 599,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 603,
+      "end": 768,
+      "test": {
+        "type": "LogicalExpression",
+        "start": 607,
+        "end": 660,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 607,
+          "end": 630,
+          "left": {
+            "type": "MemberExpression",
+            "start": 607,
+            "end": 619,
+            "object": {
+              "type": "ThisExpression",
+              "start": 607,
+              "end": 611
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 612,
+              "end": 619,
+              "name": "godname"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "operator": "!==",
+          "right": {
+            "type": "Literal",
+            "start": 624,
+            "end": 630,
+            "value": "ares",
+            "raw": "\"ares\""
+          }
+        },
+        "operator": "&&",
+        "right": {
+          "type": "BinaryExpression",
+          "start": 634,
+          "end": 660,
+          "left": {
+            "type": "MemberExpression",
+            "start": 634,
+            "end": 646,
+            "object": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 638,
+              "name": "mars"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 639,
+              "end": 646,
+              "name": "godname"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "operator": "===",
+          "right": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 660,
+            "name": "undefined"
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 662,
+        "end": 768,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 666,
+            "end": 766,
+            "argument": {
+              "type": "NewExpression",
+              "start": 672,
+              "end": 765,
+              "callee": {
+                "type": "Identifier",
+                "start": 676,
+                "end": 688,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 689,
+                  "end": 764,
+                  "value": "#3: When applied to the Function object itself, thisArg should be ignored",
+                  "raw": "'#3: When applied to the Function object itself, thisArg should be ignored'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

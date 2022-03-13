@@ -1,0 +1,106 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2152,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 2030,
+      "end": 2071,
+      "id": {
+        "type": "Identifier",
+        "start": 2039,
+        "end": 2041,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 2044,
+        "end": 2071,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 2048,
+            "end": 2069,
+            "argument": {
+              "type": "FunctionExpression",
+              "start": 2055,
+              "end": 2068,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2066,
+                "end": 2068,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2113,
+      "end": 2150,
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 2120,
+        "end": 2150,
+        "id": {
+          "type": "Identifier",
+          "start": 2126,
+          "end": 2127,
+          "name": "C"
+        },
+        "superClass": {
+          "type": "CallExpression",
+          "start": 2136,
+          "end": 2147,
+          "callee": {
+            "type": "Identifier",
+            "start": 2136,
+            "end": 2138,
+            "name": "fn"
+          },
+          "arguments": [
+            {
+              "type": "AwaitExpression",
+              "start": 2139,
+              "end": 2146,
+              "argument": {
+                "type": "Literal",
+                "start": 2145,
+                "end": 2146,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          ],
+          "optional": false
+        },
+        "body": {
+          "type": "ClassBody",
+          "start": 2148,
+          "end": 2150,
+          "body": []
+        }
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2150,
+      "end": 2151
+    }
+  ],
+  "sourceType": "module"
+}

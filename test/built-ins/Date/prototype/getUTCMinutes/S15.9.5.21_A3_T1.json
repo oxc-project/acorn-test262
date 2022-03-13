@@ -1,0 +1,234 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 687,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 373,
+      "end": 417,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 377,
+          "end": 416,
+          "id": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 378,
+            "name": "x"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 381,
+            "end": 416,
+            "object": {
+              "type": "MemberExpression",
+              "start": 381,
+              "end": 409,
+              "object": {
+                "type": "MemberExpression",
+                "start": 381,
+                "end": 395,
+                "object": {
+                  "type": "Identifier",
+                  "start": 381,
+                  "end": 385,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 386,
+                  "end": 395,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 396,
+                "end": 409,
+                "name": "getUTCMinutes"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 410,
+              "end": 416,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 418,
+      "end": 485,
+      "expression": {
+        "type": "CallExpression",
+        "start": 418,
+        "end": 484,
+        "callee": {
+          "type": "Identifier",
+          "start": 418,
+          "end": 435,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 436,
+            "end": 464,
+            "object": {
+              "type": "MemberExpression",
+              "start": 436,
+              "end": 450,
+              "object": {
+                "type": "Identifier",
+                "start": 436,
+                "end": 440,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 441,
+                "end": 450,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 451,
+              "end": 464,
+              "name": "getUTCMinutes"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 466,
+            "end": 474,
+            "value": "length",
+            "raw": "\"length\""
+          },
+          {
+            "type": "Literal",
+            "start": 476,
+            "end": 480,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "Literal",
+            "start": 482,
+            "end": 483,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 487,
+      "end": 640,
+      "expression": {
+        "type": "CallExpression",
+        "start": 487,
+        "end": 639,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 487,
+          "end": 503,
+          "object": {
+            "type": "Identifier",
+            "start": 487,
+            "end": 493,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 494,
+            "end": 503,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 507,
+            "end": 542,
+            "object": {
+              "type": "MemberExpression",
+              "start": 507,
+              "end": 535,
+              "object": {
+                "type": "MemberExpression",
+                "start": 507,
+                "end": 521,
+                "object": {
+                  "type": "Identifier",
+                  "start": 507,
+                  "end": 511,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 512,
+                  "end": 521,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 522,
+                "end": 535,
+                "name": "getUTCMinutes"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 536,
+              "end": 542,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 546,
+            "end": 547,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 551,
+            "end": 637,
+            "value": "The value of Date.prototype.getUTCMinutes.length is expected to equal the value of x",
+            "raw": "'The value of Date.prototype.getUTCMinutes.length is expected to equal the value of x'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,114 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 429,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 357,
+      "end": 428,
+      "expression": {
+        "type": "CallExpression",
+        "start": 357,
+        "end": 427,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 357,
+          "end": 370,
+          "object": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 363,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 370,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 371,
+            "end": 380,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 382,
+            "end": 426,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 393,
+              "end": 426,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 397,
+                  "end": 424,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 397,
+                    "end": 423,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 397,
+                      "end": 417,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 397,
+                        "end": 412,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 397,
+                          "end": 404,
+                          "name": "Promise"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 405,
+                          "end": 412,
+                          "name": "resolve"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 413,
+                        "end": 417,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 418,
+                        "end": 422,
+                        "name": "eval"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

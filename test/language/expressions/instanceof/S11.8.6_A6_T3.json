@@ -1,0 +1,241 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 843,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 365,
+      "end": 393,
+      "id": {
+        "type": "Identifier",
+        "start": 374,
+        "end": 381,
+        "name": "MyFunct"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 383,
+        "end": 393,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 384,
+            "end": 392,
+            "argument": {
+              "type": "Literal",
+              "start": 391,
+              "end": 392,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 393,
+      "end": 394
+    },
+    {
+      "type": "IfStatement",
+      "start": 406,
+      "end": 538,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 410,
+        "end": 436,
+        "left": {
+          "type": "Identifier",
+          "start": 410,
+          "end": 417,
+          "name": "MyFunct"
+        },
+        "operator": "instanceof",
+        "right": {
+          "type": "Identifier",
+          "start": 429,
+          "end": 436,
+          "name": "MyFunct"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 437,
+        "end": 538,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 440,
+            "end": 536,
+            "argument": {
+              "type": "NewExpression",
+              "start": 446,
+              "end": 535,
+              "callee": {
+                "type": "Identifier",
+                "start": 450,
+                "end": 462,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 463,
+                  "end": 534,
+                  "value": "#1 function MyFunct(){return 0}; MyFunct instanceof MyFunct === false",
+                  "raw": "'#1 function MyFunct(){return 0}; MyFunct instanceof MyFunct === false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 550,
+      "end": 692,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 554,
+        "end": 590,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 554,
+          "end": 581,
+          "left": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 561,
+            "name": "MyFunct"
+          },
+          "operator": "instanceof",
+          "right": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 581,
+            "name": "Function"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 586,
+          "end": 590,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 591,
+        "end": 692,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 594,
+            "end": 690,
+            "argument": {
+              "type": "NewExpression",
+              "start": 600,
+              "end": 689,
+              "callee": {
+                "type": "Identifier",
+                "start": 604,
+                "end": 616,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 617,
+                  "end": 688,
+                  "value": "#2 function MyFunct(){return 0}; MyFunct instanceof Function === true",
+                  "raw": "'#2 function MyFunct(){return 0}; MyFunct instanceof Function === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 704,
+      "end": 842,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 708,
+        "end": 742,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 708,
+          "end": 733,
+          "left": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 715,
+            "name": "MyFunct"
+          },
+          "operator": "instanceof",
+          "right": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 733,
+            "name": "Object"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 738,
+          "end": 742,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 743,
+        "end": 842,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 746,
+            "end": 840,
+            "argument": {
+              "type": "NewExpression",
+              "start": 752,
+              "end": 839,
+              "callee": {
+                "type": "Identifier",
+                "start": 756,
+                "end": 768,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 769,
+                  "end": 838,
+                  "value": "#3 function MyFunct(){return 0}; MyFunct instanceof Object === true",
+                  "raw": "'#3 function MyFunct(){return 0}; MyFunct instanceof Object === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

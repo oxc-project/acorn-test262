@@ -1,0 +1,106 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 728,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 662,
+      "end": 727,
+      "expression": {
+        "type": "CallExpression",
+        "start": 662,
+        "end": 726,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 662,
+          "end": 678,
+          "object": {
+            "type": "Identifier",
+            "start": 662,
+            "end": 668,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 678,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 679,
+            "end": 716,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 679,
+              "end": 701,
+              "object": {
+                "type": "Literal",
+                "start": 679,
+                "end": 685,
+                "value": {},
+                "raw": "/.4?./",
+                "regex": {
+                  "pattern": ".4?.",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "MemberExpression",
+                "start": 686,
+                "end": 700,
+                "object": {
+                  "type": "Identifier",
+                  "start": 686,
+                  "end": 692,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 693,
+                  "end": 700,
+                  "name": "replace"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "computed": true,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 702,
+                "end": 707,
+                "value": "abc",
+                "raw": "'abc'"
+              },
+              {
+                "type": "Literal",
+                "start": 709,
+                "end": 715,
+                "value": "[$&]",
+                "raw": "'[$&]'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 718,
+            "end": 725,
+            "value": "[ab]c",
+            "raw": "'[ab]c'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

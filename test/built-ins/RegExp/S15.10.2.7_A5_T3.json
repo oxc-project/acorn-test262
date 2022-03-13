@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 569,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 398,
+      "end": 495,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 402,
+          "end": 494,
+          "id": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 412,
+            "name": "__executed"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 415,
+            "end": 494,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 415,
+              "end": 435,
+              "object": {
+                "type": "Literal",
+                "start": 415,
+                "end": 430,
+                "value": {},
+                "raw": "/java(script)?/",
+                "regex": {
+                  "pattern": "java(script)?",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 431,
+                "end": 435,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 436,
+                "end": 493,
+                "value": "state: both Java and JavaScript used in web development",
+                "raw": "\"state: both Java and JavaScript used in web development\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 497,
+      "end": 568,
+      "expression": {
+        "type": "CallExpression",
+        "start": 497,
+        "end": 567,
+        "callee": {
+          "type": "Identifier",
+          "start": 497,
+          "end": 503,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 504,
+            "end": 515,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 505,
+              "end": 515,
+              "name": "__executed"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 517,
+            "end": 566,
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

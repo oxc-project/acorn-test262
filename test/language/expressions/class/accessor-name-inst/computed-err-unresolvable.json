@@ -1,0 +1,265 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1092,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 854,
+      "end": 971,
+      "expression": {
+        "type": "CallExpression",
+        "start": 854,
+        "end": 970,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 854,
+          "end": 867,
+          "object": {
+            "type": "Identifier",
+            "start": 854,
+            "end": 860,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 861,
+            "end": 867,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 868,
+            "end": 882,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 884,
+            "end": 951,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 895,
+              "end": 951,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 899,
+                  "end": 949,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 899,
+                    "end": 948,
+                    "expressions": [
+                      {
+                        "type": "Literal",
+                        "start": 899,
+                        "end": 900,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ClassExpression",
+                        "start": 902,
+                        "end": 948,
+                        "id": null,
+                        "superClass": null,
+                        "body": {
+                          "type": "ClassBody",
+                          "start": 908,
+                          "end": 948,
+                          "body": [
+                            {
+                              "type": "MethodDefinition",
+                              "start": 914,
+                              "end": 944,
+                              "static": false,
+                              "computed": true,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 919,
+                                "end": 938,
+                                "name": "test262unresolvable"
+                              },
+                              "kind": "get",
+                              "value": {
+                                "type": "FunctionExpression",
+                                "start": 939,
+                                "end": 944,
+                                "id": null,
+                                "expression": false,
+                                "generator": false,
+                                "async": false,
+                                "params": [],
+                                "body": {
+                                  "type": "BlockStatement",
+                                  "start": 942,
+                                  "end": 944,
+                                  "body": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 953,
+            "end": 969,
+            "value": "`get` accessor",
+            "raw": "'`get` accessor'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 973,
+      "end": 1091,
+      "expression": {
+        "type": "CallExpression",
+        "start": 973,
+        "end": 1090,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 973,
+          "end": 986,
+          "object": {
+            "type": "Identifier",
+            "start": 973,
+            "end": 979,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 980,
+            "end": 986,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 987,
+            "end": 1001,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1003,
+            "end": 1071,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1014,
+              "end": 1071,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1018,
+                  "end": 1069,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 1018,
+                    "end": 1068,
+                    "expressions": [
+                      {
+                        "type": "Literal",
+                        "start": 1018,
+                        "end": 1019,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ClassExpression",
+                        "start": 1021,
+                        "end": 1068,
+                        "id": null,
+                        "superClass": null,
+                        "body": {
+                          "type": "ClassBody",
+                          "start": 1027,
+                          "end": 1068,
+                          "body": [
+                            {
+                              "type": "MethodDefinition",
+                              "start": 1033,
+                              "end": 1064,
+                              "static": false,
+                              "computed": true,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 1038,
+                                "end": 1057,
+                                "name": "test262unresolvable"
+                              },
+                              "kind": "set",
+                              "value": {
+                                "type": "FunctionExpression",
+                                "start": 1058,
+                                "end": 1064,
+                                "id": null,
+                                "expression": false,
+                                "generator": false,
+                                "async": false,
+                                "params": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 1059,
+                                    "end": 1060,
+                                    "name": "_"
+                                  }
+                                ],
+                                "body": {
+                                  "type": "BlockStatement",
+                                  "start": 1062,
+                                  "end": 1064,
+                                  "body": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1073,
+            "end": 1089,
+            "value": "`set` accessor",
+            "raw": "'`set` accessor'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

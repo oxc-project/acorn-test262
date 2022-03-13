@@ -1,0 +1,207 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 382,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 246,
+      "end": 298,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 252,
+          "end": 297,
+          "id": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 257,
+            "name": "jan31"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 260,
+            "end": 297,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 260,
+              "end": 283,
+              "object": {
+                "type": "MemberExpression",
+                "start": 260,
+                "end": 278,
+                "object": {
+                  "type": "Identifier",
+                  "start": 260,
+                  "end": 268,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 269,
+                  "end": 278,
+                  "name": "PlainDate"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 279,
+                "end": 283,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 284,
+                "end": 296,
+                "value": "2020-01-31",
+                "raw": "\"2020-01-31\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 299,
+      "end": 381,
+      "expression": {
+        "type": "CallExpression",
+        "start": 299,
+        "end": 380,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 299,
+          "end": 312,
+          "object": {
+            "type": "Identifier",
+            "start": 299,
+            "end": 305,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 312,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 313,
+            "end": 323,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 325,
+            "end": 379,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 331,
+              "end": 379,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 331,
+                "end": 340,
+                "object": {
+                  "type": "Identifier",
+                  "start": 331,
+                  "end": 336,
+                  "name": "jan31"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 337,
+                  "end": 340,
+                  "name": "add"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 341,
+                  "end": 354,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 343,
+                      "end": 352,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 343,
+                        "end": 349,
+                        "name": "months"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 351,
+                        "end": 352,
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                },
+                {
+                  "type": "ObjectExpression",
+                  "start": 356,
+                  "end": 378,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 358,
+                      "end": 376,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 358,
+                        "end": 366,
+                        "name": "overflow"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 368,
+                        "end": 376,
+                        "value": "reject",
+                        "raw": "\"reject\""
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

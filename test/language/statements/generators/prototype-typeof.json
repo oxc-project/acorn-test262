@@ -1,0 +1,94 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 444,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 379,
+      "end": 395,
+      "id": {
+        "type": "Identifier",
+        "start": 389,
+        "end": 390,
+        "name": "g"
+      },
+      "expression": false,
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 393,
+        "end": 395,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 396,
+      "end": 443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 396,
+        "end": 442,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 396,
+          "end": 412,
+          "object": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 402,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 412,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 413,
+            "end": 431,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 420,
+              "end": 431,
+              "object": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 421,
+                "name": "g"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 422,
+                "end": 431,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 433,
+            "end": 441,
+            "value": "object",
+            "raw": "'object'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

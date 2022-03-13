@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 628,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 511,
+      "end": 551,
+      "expression": {
+        "type": "CallExpression",
+        "start": 511,
+        "end": 550,
+        "callee": {
+          "type": "Identifier",
+          "start": 511,
+          "end": 530,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 531,
+            "end": 541,
+            "name": "TypedArray"
+          },
+          {
+            "type": "Literal",
+            "start": 543,
+            "end": 549,
+            "value": "from",
+            "raw": "'from'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 552,
+      "end": 587,
+      "expression": {
+        "type": "CallExpression",
+        "start": 552,
+        "end": 586,
+        "callee": {
+          "type": "Identifier",
+          "start": 552,
+          "end": 566,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 567,
+            "end": 577,
+            "name": "TypedArray"
+          },
+          {
+            "type": "Literal",
+            "start": 579,
+            "end": 585,
+            "value": "from",
+            "raw": "'from'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 588,
+      "end": 627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 588,
+        "end": 626,
+        "callee": {
+          "type": "Identifier",
+          "start": 588,
+          "end": 606,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 607,
+            "end": 617,
+            "name": "TypedArray"
+          },
+          {
+            "type": "Literal",
+            "start": 619,
+            "end": 625,
+            "value": "from",
+            "raw": "'from'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

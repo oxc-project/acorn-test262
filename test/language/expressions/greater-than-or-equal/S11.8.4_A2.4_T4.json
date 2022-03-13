@@ -1,0 +1,95 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 402,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 316,
+      "end": 401,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 320,
+        "end": 341,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 320,
+          "end": 332,
+          "left": {
+            "type": "ParenthesizedExpression",
+            "start": 320,
+            "end": 327,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 321,
+              "end": 326,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 322,
+                "name": "y"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 325,
+                "end": 326,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          },
+          "operator": ">=",
+          "right": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 332,
+            "name": "y"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 337,
+          "end": 341,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 343,
+        "end": 401,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 347,
+            "end": 399,
+            "argument": {
+              "type": "NewExpression",
+              "start": 353,
+              "end": 398,
+              "callee": {
+                "type": "Identifier",
+                "start": 357,
+                "end": 369,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 370,
+                  "end": 397,
+                  "value": "#1: (y = 1) >= y === true",
+                  "raw": "'#1: (y = 1) >= y === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,232 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 731,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 539,
+      "end": 556,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 543,
+          "end": 555,
+          "id": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 550,
+            "name": "options"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 553,
+            "end": 555,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 557,
+      "end": 647,
+      "expression": {
+        "type": "CallExpression",
+        "start": 557,
+        "end": 646,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 557,
+          "end": 578,
+          "object": {
+            "type": "Identifier",
+            "start": 557,
+            "end": 563,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 564,
+            "end": 578,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 579,
+            "end": 586,
+            "name": "options"
+          },
+          {
+            "type": "Literal",
+            "start": 588,
+            "end": 601,
+            "value": "granularity",
+            "raw": "'granularity'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 603,
+            "end": 645,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 607,
+                "end": 642,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 607,
+                  "end": 610,
+                  "name": "get"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 610,
+                  "end": 642,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 613,
+                    "end": 642,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 615,
+                        "end": 640,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 621,
+                          "end": 639,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 625,
+                            "end": 637,
+                            "name": "Test262Error"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 649,
+      "end": 730,
+      "expression": {
+        "type": "CallExpression",
+        "start": 649,
+        "end": 729,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 649,
+          "end": 662,
+          "object": {
+            "type": "Identifier",
+            "start": 649,
+            "end": 655,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 656,
+            "end": 662,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 663,
+            "end": 675,
+            "name": "Test262Error"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 677,
+            "end": 728,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 683,
+              "end": 728,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 687,
+                  "end": 726,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 687,
+                    "end": 725,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 691,
+                      "end": 705,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 691,
+                        "end": 695,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 696,
+                        "end": 705,
+                        "name": "Segmenter"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 706,
+                        "end": 715,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 717,
+                        "end": 724,
+                        "name": "options"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

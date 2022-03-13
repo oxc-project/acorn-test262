@@ -1,0 +1,74 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1326,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 1299,
+      "end": 1313,
+      "body": [
+        {
+          "type": "LabeledStatement",
+          "start": 1300,
+          "end": 1312,
+          "body": {
+            "type": "ExpressionStatement",
+            "start": 1308,
+            "end": 1312,
+            "expression": {
+              "type": "Literal",
+              "start": 1308,
+              "end": 1312,
+              "value": 3000,
+              "raw": "3000"
+            }
+          },
+          "label": {
+            "type": "Identifier",
+            "start": 1300,
+            "end": 1306,
+            "name": "length"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1313,
+      "end": 1325,
+      "expression": {
+        "type": "SequenceExpression",
+        "start": 1313,
+        "end": 1324,
+        "expressions": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 1313,
+            "end": 1320,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "Literal",
+              "start": 1319,
+              "end": 1320,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1322,
+            "end": 1324,
+            "value": 42,
+            "raw": "42"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

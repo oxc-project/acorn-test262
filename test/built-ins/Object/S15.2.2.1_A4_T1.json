@@ -1,0 +1,349 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 915,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 343,
+      "end": 359,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 347,
+          "end": 358,
+          "id": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 351,
+            "name": "bool"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 354,
+            "end": 358,
+            "value": true,
+            "raw": "true"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 361,
+      "end": 460,
+      "expression": {
+        "type": "CallExpression",
+        "start": 361,
+        "end": 459,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 361,
+          "end": 377,
+          "object": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 367,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 377,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 378,
+            "end": 389,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 385,
+              "end": 389,
+              "name": "bool"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 391,
+            "end": 400,
+            "value": "boolean",
+            "raw": "'boolean'"
+          },
+          {
+            "type": "Literal",
+            "start": 402,
+            "end": 458,
+            "value": "The value of `typeof bool` is expected to be \"boolean\"",
+            "raw": "'The value of `typeof bool` is expected to be \"boolean\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 462,
+      "end": 491,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 466,
+          "end": 490,
+          "id": {
+            "type": "Identifier",
+            "start": 466,
+            "end": 471,
+            "name": "n_obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 474,
+            "end": 490,
+            "callee": {
+              "type": "Identifier",
+              "start": 478,
+              "end": 484,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 485,
+                "end": 489,
+                "name": "bool"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 493,
+      "end": 622,
+      "expression": {
+        "type": "CallExpression",
+        "start": 493,
+        "end": 621,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 493,
+          "end": 509,
+          "object": {
+            "type": "Identifier",
+            "start": 493,
+            "end": 499,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 500,
+            "end": 509,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 513,
+            "end": 530,
+            "object": {
+              "type": "Identifier",
+              "start": 513,
+              "end": 518,
+              "name": "n_obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 519,
+              "end": 530,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 534,
+            "end": 541,
+            "name": "Boolean"
+          },
+          {
+            "type": "Literal",
+            "start": 545,
+            "end": 619,
+            "value": "The value of n_obj.constructor is expected to equal the value of Boolean",
+            "raw": "'The value of n_obj.constructor is expected to equal the value of Boolean'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 624,
+      "end": 723,
+      "expression": {
+        "type": "CallExpression",
+        "start": 624,
+        "end": 722,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 624,
+          "end": 640,
+          "object": {
+            "type": "Identifier",
+            "start": 624,
+            "end": 630,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 631,
+            "end": 640,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 641,
+            "end": 653,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 648,
+              "end": 653,
+              "name": "n_obj"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 655,
+            "end": 663,
+            "value": "object",
+            "raw": "'object'"
+          },
+          {
+            "type": "Literal",
+            "start": 665,
+            "end": 721,
+            "value": "The value of `typeof n_obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 724,
+      "end": 813,
+      "expression": {
+        "type": "CallExpression",
+        "start": 724,
+        "end": 812,
+        "callee": {
+          "type": "Identifier",
+          "start": 724,
+          "end": 730,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 731,
+            "end": 744,
+            "left": {
+              "type": "Identifier",
+              "start": 731,
+              "end": 736,
+              "name": "n_obj"
+            },
+            "operator": "==",
+            "right": {
+              "type": "Identifier",
+              "start": 740,
+              "end": 744,
+              "name": "bool"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 811,
+            "value": "The result of evaluating (n_obj == bool) is expected to be true",
+            "raw": "'The result of evaluating (n_obj == bool) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 814,
+      "end": 914,
+      "expression": {
+        "type": "CallExpression",
+        "start": 814,
+        "end": 913,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 814,
+          "end": 833,
+          "object": {
+            "type": "Identifier",
+            "start": 814,
+            "end": 820,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 821,
+            "end": 833,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 834,
+            "end": 839,
+            "name": "n_obj"
+          },
+          {
+            "type": "Identifier",
+            "start": 841,
+            "end": 845,
+            "name": "bool"
+          },
+          {
+            "type": "Literal",
+            "start": 847,
+            "end": 912,
+            "value": "The value of n_obj is expected to not equal the value of `bool`",
+            "raw": "'The value of n_obj is expected to not equal the value of `bool`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

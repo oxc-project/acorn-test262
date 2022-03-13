@@ -1,0 +1,234 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 657,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 363,
+      "end": 402,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 367,
+          "end": 401,
+          "id": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 368,
+            "name": "x"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 371,
+            "end": 401,
+            "object": {
+              "type": "MemberExpression",
+              "start": 371,
+              "end": 394,
+              "object": {
+                "type": "MemberExpression",
+                "start": 371,
+                "end": 385,
+                "object": {
+                  "type": "Identifier",
+                  "start": 371,
+                  "end": 375,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 376,
+                  "end": 385,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 386,
+                "end": 394,
+                "name": "setMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 401,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 403,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 403,
+        "end": 464,
+        "callee": {
+          "type": "Identifier",
+          "start": 403,
+          "end": 420,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 421,
+            "end": 444,
+            "object": {
+              "type": "MemberExpression",
+              "start": 421,
+              "end": 435,
+              "object": {
+                "type": "Identifier",
+                "start": 421,
+                "end": 425,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 426,
+                "end": 435,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 436,
+              "end": 444,
+              "name": "setMonth"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 446,
+            "end": 454,
+            "value": "length",
+            "raw": "\"length\""
+          },
+          {
+            "type": "Literal",
+            "start": 456,
+            "end": 460,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "Literal",
+            "start": 462,
+            "end": 463,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 467,
+      "end": 610,
+      "expression": {
+        "type": "CallExpression",
+        "start": 467,
+        "end": 609,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 467,
+          "end": 483,
+          "object": {
+            "type": "Identifier",
+            "start": 467,
+            "end": 473,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 474,
+            "end": 483,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 487,
+            "end": 517,
+            "object": {
+              "type": "MemberExpression",
+              "start": 487,
+              "end": 510,
+              "object": {
+                "type": "MemberExpression",
+                "start": 487,
+                "end": 501,
+                "object": {
+                  "type": "Identifier",
+                  "start": 487,
+                  "end": 491,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 492,
+                  "end": 501,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 502,
+                "end": 510,
+                "name": "setMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 511,
+              "end": 517,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 521,
+            "end": 522,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 526,
+            "end": 607,
+            "value": "The value of Date.prototype.setMonth.length is expected to equal the value of x",
+            "raw": "'The value of Date.prototype.setMonth.length is expected to equal the value of x'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

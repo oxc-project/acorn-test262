@@ -1,0 +1,106 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 409,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 267,
+      "end": 408,
+      "expression": {
+        "type": "CallExpression",
+        "start": 267,
+        "end": 407,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 267,
+          "end": 283,
+          "object": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 273,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 283,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 287,
+            "end": 319,
+            "object": {
+              "type": "MemberExpression",
+              "start": 287,
+              "end": 309,
+              "object": {
+                "type": "MemberExpression",
+                "start": 287,
+                "end": 302,
+                "object": {
+                  "type": "Identifier",
+                  "start": 287,
+                  "end": 292,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 293,
+                  "end": 302,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 303,
+                "end": 309,
+                "name": "concat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 310,
+              "end": 319,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 323,
+            "end": 329,
+            "operator": "void",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 328,
+              "end": 329,
+              "value": 0,
+              "raw": "0"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 333,
+            "end": 405,
+            "value": "The value of Array.prototype.concat.prototype is expected to be void 0",
+            "raw": "'The value of Array.prototype.concat.prototype is expected to be void 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

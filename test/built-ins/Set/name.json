@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 466,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 293,
+      "end": 365,
+      "expression": {
+        "type": "CallExpression",
+        "start": 293,
+        "end": 364,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 293,
+          "end": 309,
+          "object": {
+            "type": "Identifier",
+            "start": 293,
+            "end": 299,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 309,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 310,
+            "end": 318,
+            "object": {
+              "type": "Identifier",
+              "start": 310,
+              "end": 313,
+              "name": "Set"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 314,
+              "end": 318,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 320,
+            "end": 325,
+            "value": "Set",
+            "raw": "\"Set\""
+          },
+          {
+            "type": "Literal",
+            "start": 327,
+            "end": 363,
+            "value": "The value of `Set.name` is `'Set'`",
+            "raw": "\"The value of `Set.name` is `'Set'`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 367,
+      "end": 400,
+      "expression": {
+        "type": "CallExpression",
+        "start": 367,
+        "end": 399,
+        "callee": {
+          "type": "Identifier",
+          "start": 367,
+          "end": 386,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 387,
+            "end": 390,
+            "name": "Set"
+          },
+          {
+            "type": "Literal",
+            "start": 392,
+            "end": 398,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 401,
+      "end": 432,
+      "expression": {
+        "type": "CallExpression",
+        "start": 401,
+        "end": 431,
+        "callee": {
+          "type": "Identifier",
+          "start": 401,
+          "end": 418,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 419,
+            "end": 422,
+            "name": "Set"
+          },
+          {
+            "type": "Literal",
+            "start": 424,
+            "end": 430,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 433,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 433,
+        "end": 464,
+        "callee": {
+          "type": "Identifier",
+          "start": 433,
+          "end": 451,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 452,
+            "end": 455,
+            "name": "Set"
+          },
+          {
+            "type": "Literal",
+            "start": 457,
+            "end": 463,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

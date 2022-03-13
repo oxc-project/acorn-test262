@@ -1,0 +1,113 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 723,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 651,
+      "end": 684,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 655,
+          "end": 683,
+          "id": {
+            "type": "Identifier",
+            "start": 655,
+            "end": 656,
+            "name": "o"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 659,
+            "end": 683,
+            "callee": {
+              "type": "Identifier",
+              "start": 659,
+              "end": 663,
+              "name": "eval"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 664,
+                "end": 682,
+                "value": "({foo:0,foo:1});",
+                "raw": "\"({foo:0,foo:1});\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 686,
+      "end": 722,
+      "expression": {
+        "type": "CallExpression",
+        "start": 686,
+        "end": 721,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 686,
+          "end": 702,
+          "object": {
+            "type": "Identifier",
+            "start": 686,
+            "end": 692,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 693,
+            "end": 702,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 703,
+            "end": 708,
+            "object": {
+              "type": "Identifier",
+              "start": 703,
+              "end": 704,
+              "name": "o"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 705,
+              "end": 708,
+              "name": "foo"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 710,
+            "end": 711,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 713,
+            "end": 720,
+            "value": "o.foo",
+            "raw": "'o.foo'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

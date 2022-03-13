@@ -1,0 +1,119 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1366,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1297,
+      "end": 1325,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1301,
+          "end": 1324,
+          "id": {
+            "type": "ArrayPattern",
+            "start": 1301,
+            "end": 1319,
+            "elements": [
+              {
+                "type": "AssignmentPattern",
+                "start": 1302,
+                "end": 1318,
+                "left": {
+                  "type": "Identifier",
+                  "start": 1302,
+                  "end": 1307,
+                  "name": "arrow"
+                },
+                "right": {
+                  "type": "ArrowFunctionExpression",
+                  "start": 1310,
+                  "end": 1318,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1316,
+                    "end": 1318,
+                    "body": []
+                  }
+                }
+              }
+            ]
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 1322,
+            "end": 1324,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1327,
+      "end": 1365,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1327,
+        "end": 1364,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1327,
+          "end": 1343,
+          "object": {
+            "type": "Identifier",
+            "start": 1327,
+            "end": 1333,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1334,
+            "end": 1343,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1344,
+            "end": 1354,
+            "object": {
+              "type": "Identifier",
+              "start": 1344,
+              "end": 1349,
+              "name": "arrow"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1350,
+              "end": 1354,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1356,
+            "end": 1363,
+            "value": "arrow",
+            "raw": "'arrow'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

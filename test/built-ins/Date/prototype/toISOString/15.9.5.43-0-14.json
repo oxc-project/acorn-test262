@@ -1,0 +1,174 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 431,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 318,
+      "end": 365,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 322,
+          "end": 364,
+          "id": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 326,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 329,
+            "end": 364,
+            "callee": {
+              "type": "Identifier",
+              "start": 333,
+              "end": 337,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 338,
+                "end": 347,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 339,
+                  "end": 347,
+                  "name": "Infinity"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 349,
+                "end": 350,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 352,
+                "end": 354,
+                "value": 70,
+                "raw": "70"
+              },
+              {
+                "type": "Literal",
+                "start": 356,
+                "end": 357,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 359,
+                "end": 360,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 362,
+                "end": 363,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 366,
+      "end": 430,
+      "expression": {
+        "type": "CallExpression",
+        "start": 366,
+        "end": 429,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 366,
+          "end": 379,
+          "object": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 372,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 379,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 380,
+            "end": 390,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 392,
+            "end": 428,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 403,
+              "end": 428,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 407,
+                  "end": 426,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 407,
+                    "end": 425,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 407,
+                      "end": 423,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 407,
+                        "end": 411,
+                        "name": "date"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 412,
+                        "end": 423,
+                        "name": "toISOString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,75 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 233,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 199,
+      "end": 232,
+      "expression": {
+        "type": "CallExpression",
+        "start": 199,
+        "end": 231,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 199,
+          "end": 215,
+          "object": {
+            "type": "Identifier",
+            "start": 199,
+            "end": 205,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 206,
+            "end": 215,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 216,
+            "end": 219,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 217,
+              "end": 219,
+              "value": "",
+              "raw": "\"\""
+            }
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 221,
+            "end": 223,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 222,
+              "end": 223,
+              "value": 0,
+              "raw": "0"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 225,
+            "end": 230,
+            "value": "-\"\"",
+            "raw": "'-\"\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

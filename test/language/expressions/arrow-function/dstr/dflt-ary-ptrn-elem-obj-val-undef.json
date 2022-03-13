@@ -1,0 +1,163 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1926,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1846,
+      "end": 1875,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1850,
+          "end": 1874,
+          "id": {
+            "type": "Identifier",
+            "start": 1850,
+            "end": 1851,
+            "name": "f"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 1854,
+            "end": 1874,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "AssignmentPattern",
+                "start": 1855,
+                "end": 1867,
+                "left": {
+                  "type": "ArrayPattern",
+                  "start": 1855,
+                  "end": 1862,
+                  "elements": [
+                    {
+                      "type": "ObjectPattern",
+                      "start": 1856,
+                      "end": 1861,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 1858,
+                          "end": 1859,
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 1858,
+                            "end": 1859,
+                            "name": "x"
+                          },
+                          "kind": "init",
+                          "value": {
+                            "type": "Identifier",
+                            "start": 1858,
+                            "end": 1859,
+                            "name": "x"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "right": {
+                  "type": "ArrayExpression",
+                  "start": 1865,
+                  "end": 1867,
+                  "elements": []
+                }
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1872,
+              "end": 1874,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1877,
+      "end": 1925,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1877,
+        "end": 1924,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1877,
+          "end": 1890,
+          "object": {
+            "type": "Identifier",
+            "start": 1877,
+            "end": 1883,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1884,
+            "end": 1890,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1891,
+            "end": 1900,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1902,
+            "end": 1923,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1913,
+              "end": 1923,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1917,
+                  "end": 1921,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1917,
+                    "end": 1920,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1917,
+                      "end": 1918,
+                      "name": "f"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

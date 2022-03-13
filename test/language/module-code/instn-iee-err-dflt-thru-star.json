@@ -1,0 +1,40 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 981,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 908,
+      "end": 980,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 917,
+          "end": 924,
+          "local": {
+            "type": "Identifier",
+            "start": 917,
+            "end": 924,
+            "name": "default"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 917,
+            "end": 924,
+            "name": "default"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 932,
+        "end": 979,
+        "value": "./instn-iee-err-dflt-thru-star-int_FIXTURE.js",
+        "raw": "'./instn-iee-err-dflt-thru-star-int_FIXTURE.js'"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

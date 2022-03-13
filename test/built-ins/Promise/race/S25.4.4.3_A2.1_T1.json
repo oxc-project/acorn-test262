@@ -1,0 +1,123 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 359,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 234,
+      "end": 259,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 238,
+          "end": 258,
+          "id": {
+            "type": "Identifier",
+            "start": 238,
+            "end": 239,
+            "name": "p"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 242,
+            "end": 258,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 242,
+              "end": 254,
+              "object": {
+                "type": "Identifier",
+                "start": 242,
+                "end": 249,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 250,
+                "end": 254,
+                "name": "race"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 255,
+                "end": 257,
+                "elements": []
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 261,
+      "end": 358,
+      "expression": {
+        "type": "CallExpression",
+        "start": 261,
+        "end": 357,
+        "callee": {
+          "type": "Identifier",
+          "start": 261,
+          "end": 267,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 268,
+            "end": 292,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 269,
+              "end": 292,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 270,
+                "end": 292,
+                "expression": {
+                  "type": "BinaryExpression",
+                  "start": 271,
+                  "end": 291,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 271,
+                    "end": 272,
+                    "name": "p"
+                  },
+                  "operator": "instanceof",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 284,
+                    "end": 291,
+                    "name": "Promise"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 294,
+            "end": 356,
+            "value": "The value of !!(p instanceof Promise) is expected to be true",
+            "raw": "'The value of !!(p instanceof Promise) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

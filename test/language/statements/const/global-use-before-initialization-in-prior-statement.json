@@ -1,0 +1,45 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 337,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 321,
+      "end": 323,
+      "expression": {
+        "type": "Identifier",
+        "start": 321,
+        "end": 322,
+        "name": "x"
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 324,
+      "end": 336,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 330,
+          "end": 335,
+          "id": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 331,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 334,
+            "end": 335,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "const"
+    }
+  ],
+  "sourceType": "script"
+}

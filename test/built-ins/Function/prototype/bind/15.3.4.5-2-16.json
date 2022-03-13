@@ -1,0 +1,60 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 273,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 232,
+      "end": 254,
+      "id": {
+        "type": "Identifier",
+        "start": 241,
+        "end": 249,
+        "name": "testFunc"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 252,
+        "end": 254,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 256,
+      "end": 272,
+      "expression": {
+        "type": "CallExpression",
+        "start": 256,
+        "end": 271,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 256,
+          "end": 269,
+          "object": {
+            "type": "Identifier",
+            "start": 256,
+            "end": 264,
+            "name": "testFunc"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 269,
+            "name": "bind"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

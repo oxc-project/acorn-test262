@@ -1,0 +1,68 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2012,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1599,
+      "end": 2011,
+      "expression": {
+        "type": "ParenthesizedExpression",
+        "start": 1599,
+        "end": 2010,
+        "expression": {
+          "type": "CallExpression",
+          "start": 1600,
+          "end": 2009,
+          "callee": {
+            "type": "FunctionExpression",
+            "start": 1600,
+            "end": 2007,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1611,
+              "end": 2007,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1615,
+                  "end": 2005,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1615,
+                    "end": 2004,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1615,
+                      "end": 1619,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1625,
+                        "end": 2000,
+                        "value": "assert.sameValue(      f, undefined, \"Initialized binding created prior to evaluation\"    );        try {      throw null;    } catch (f) {if (true) function f() { return 123; } else function _f() {}}        assert.sameValue(      typeof f,      \"function\",      \"binding value is updated following evaluation\"    );    assert.sameValue(f(), 123);",
+                        "raw": "'assert.sameValue(\\\n      f, undefined, \"Initialized binding created prior to evaluation\"\\\n    );\\\n    \\\n    try {\\\n      throw null;\\\n    } catch (f) {if (true) function f() { return 123; } else function _f() {}}\\\n    \\\n    assert.sameValue(\\\n      typeof f,\\\n      \"function\",\\\n      \"binding value is updated following evaluation\"\\\n    );\\\n    assert.sameValue(f(), 123);'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

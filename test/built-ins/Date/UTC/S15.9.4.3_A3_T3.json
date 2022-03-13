@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 607,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 324,
+      "end": 461,
+      "expression": {
+        "type": "CallExpression",
+        "start": 324,
+        "end": 460,
+        "callee": {
+          "type": "Identifier",
+          "start": 324,
+          "end": 330,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 334,
+            "end": 374,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 335,
+              "end": 374,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 335,
+                "end": 364,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 335,
+                  "end": 343,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 335,
+                    "end": 339,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 340,
+                    "end": 343,
+                    "name": "UTC"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 344,
+                  "end": 364,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 365,
+                  "end": 373,
+                  "value": "length",
+                  "raw": "'length'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 378,
+            "end": 458,
+            "value": "The value of !Date.UTC.propertyIsEnumerable('length') is expected to be true",
+            "raw": "'The value of !Date.UTC.propertyIsEnumerable(\\'length\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 463,
+      "end": 560,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 468,
+        "end": 473,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 472,
+            "end": 473,
+            "id": {
+              "type": "Identifier",
+              "start": 472,
+              "end": 473,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 477,
+        "end": 485,
+        "object": {
+          "type": "Identifier",
+          "start": 477,
+          "end": 481,
+          "name": "Date"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 482,
+          "end": 485,
+          "name": "UTC"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 487,
+        "end": 560,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 491,
+            "end": 558,
+            "expression": {
+              "type": "CallExpression",
+              "start": 491,
+              "end": 557,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 491,
+                "end": 510,
+                "object": {
+                  "type": "Identifier",
+                  "start": 491,
+                  "end": 497,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 498,
+                  "end": 510,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 511,
+                  "end": 512,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 514,
+                  "end": 522,
+                  "value": "length",
+                  "raw": "\"length\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 524,
+                  "end": 556,
+                  "value": "The value of x is not \"length\"",
+                  "raw": "'The value of x is not \"length\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

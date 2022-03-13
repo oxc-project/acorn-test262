@@ -1,0 +1,83 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 378,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 290,
+      "end": 377,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 294,
+        "end": 316,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 294,
+          "end": 306,
+          "expression": {
+            "type": "LogicalExpression",
+            "start": 295,
+            "end": 305,
+            "left": {
+              "type": "Literal",
+              "start": 295,
+              "end": 300,
+              "value": false,
+              "raw": "false"
+            },
+            "operator": "&&",
+            "right": {
+              "type": "Identifier",
+              "start": 304,
+              "end": 305,
+              "name": "x"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 311,
+          "end": 316,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 318,
+        "end": 377,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 322,
+            "end": 375,
+            "argument": {
+              "type": "NewExpression",
+              "start": 328,
+              "end": 374,
+              "callee": {
+                "type": "Identifier",
+                "start": 332,
+                "end": 344,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 345,
+                  "end": 373,
+                  "value": "#1: (false && x) === false",
+                  "raw": "'#1: (false && x) === false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

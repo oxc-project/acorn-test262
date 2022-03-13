@@ -1,0 +1,267 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 956,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 514,
+      "end": 603,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 520,
+          "end": 602,
+          "id": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 524,
+            "name": "i32a"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 527,
+            "end": 602,
+            "callee": {
+              "type": "Identifier",
+              "start": 531,
+              "end": 541,
+              "name": "Int32Array"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 545,
+                "end": 600,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 549,
+                  "end": 566,
+                  "name": "SharedArrayBuffer"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 567,
+                    "end": 599,
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 567,
+                      "end": 595,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 567,
+                        "end": 577,
+                        "name": "Int32Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 578,
+                        "end": 595,
+                        "name": "BYTES_PER_ELEMENT"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "operator": "*",
+                    "right": {
+                      "type": "Literal",
+                      "start": 598,
+                      "end": 599,
+                      "value": 4,
+                      "raw": "4"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 604,
+      "end": 654,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 610,
+          "end": 653,
+          "id": {
+            "type": "Identifier",
+            "start": 610,
+            "end": 616,
+            "name": "update"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 619,
+            "end": 653,
+            "value": 16810113,
+            "raw": "0b00000001000000001000000010000001"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 656,
+      "end": 822,
+      "expression": {
+        "type": "CallExpression",
+        "start": 656,
+        "end": 821,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 656,
+          "end": 672,
+          "object": {
+            "type": "Identifier",
+            "start": 656,
+            "end": 662,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 663,
+            "end": 672,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 676,
+            "end": 706,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 676,
+              "end": 689,
+              "object": {
+                "type": "Identifier",
+                "start": 676,
+                "end": 683,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 684,
+                "end": 689,
+                "name": "store"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 690,
+                "end": 694,
+                "name": "i32a"
+              },
+              {
+                "type": "Literal",
+                "start": 696,
+                "end": 697,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 699,
+                "end": 705,
+                "name": "update"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 710,
+            "end": 716,
+            "name": "update"
+          },
+          {
+            "type": "Literal",
+            "start": 720,
+            "end": 819,
+            "value": "Atomics.store(i32a, 0, update) returns the value of `update` (0b00000001000000001000000010000001)",
+            "raw": "'Atomics.store(i32a, 0, update) returns the value of `update` (0b00000001000000001000000010000001)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 823,
+      "end": 955,
+      "expression": {
+        "type": "CallExpression",
+        "start": 823,
+        "end": 954,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 823,
+          "end": 839,
+          "object": {
+            "type": "Identifier",
+            "start": 823,
+            "end": 829,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 830,
+            "end": 839,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 843,
+            "end": 850,
+            "object": {
+              "type": "Identifier",
+              "start": 843,
+              "end": 847,
+              "name": "i32a"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 848,
+              "end": 849,
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 854,
+            "end": 860,
+            "name": "update"
+          },
+          {
+            "type": "Literal",
+            "start": 864,
+            "end": 952,
+            "value": "The value of i32a[0] equals the value of `update` (0b00000001000000001000000010000001)",
+            "raw": "'The value of i32a[0] equals the value of `update` (0b00000001000000001000000010000001)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

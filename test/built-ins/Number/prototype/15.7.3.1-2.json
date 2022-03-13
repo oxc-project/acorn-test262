@@ -1,0 +1,113 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 415,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 299,
+      "end": 414,
+      "expression": {
+        "type": "CallExpression",
+        "start": 299,
+        "end": 413,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 299,
+          "end": 315,
+          "object": {
+            "type": "Identifier",
+            "start": 299,
+            "end": 305,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 315,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 316,
+            "end": 353,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 316,
+              "end": 337,
+              "object": {
+                "type": "Identifier",
+                "start": 316,
+                "end": 322,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 337,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 338,
+                "end": 352,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 342,
+                  "end": 348,
+                  "name": "Number"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 349,
+                    "end": 351,
+                    "value": 42,
+                    "raw": "42"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 355,
+            "end": 371,
+            "object": {
+              "type": "Identifier",
+              "start": 355,
+              "end": 361,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 362,
+              "end": 371,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 373,
+            "end": 412,
+            "value": "Object.getPrototypeOf(new Number(42))",
+            "raw": "'Object.getPrototypeOf(new Number(42))'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

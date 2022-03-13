@@ -1,0 +1,213 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 619,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 351,
+      "end": 428,
+      "expression": {
+        "type": "CallExpression",
+        "start": 351,
+        "end": 427,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 351,
+          "end": 367,
+          "object": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 357,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 367,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 368,
+            "end": 407,
+            "object": {
+              "type": "MemberExpression",
+              "start": 368,
+              "end": 395,
+              "object": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 385,
+                "name": "SharedArrayBuffer"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 386,
+                "end": 395,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 396,
+              "end": 407,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 409,
+            "end": 426,
+            "name": "SharedArrayBuffer"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 430,
+      "end": 494,
+      "expression": {
+        "type": "CallExpression",
+        "start": 430,
+        "end": 493,
+        "callee": {
+          "type": "Identifier",
+          "start": 430,
+          "end": 449,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 450,
+            "end": 477,
+            "object": {
+              "type": "Identifier",
+              "start": 450,
+              "end": 467,
+              "name": "SharedArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 468,
+              "end": 477,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 479,
+            "end": 492,
+            "value": "constructor",
+            "raw": "\"constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 495,
+      "end": 554,
+      "expression": {
+        "type": "CallExpression",
+        "start": 495,
+        "end": 553,
+        "callee": {
+          "type": "Identifier",
+          "start": 495,
+          "end": 509,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 510,
+            "end": 537,
+            "object": {
+              "type": "Identifier",
+              "start": 510,
+              "end": 527,
+              "name": "SharedArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 528,
+              "end": 537,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 539,
+            "end": 552,
+            "value": "constructor",
+            "raw": "\"constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 555,
+      "end": 618,
+      "expression": {
+        "type": "CallExpression",
+        "start": 555,
+        "end": 617,
+        "callee": {
+          "type": "Identifier",
+          "start": 555,
+          "end": 573,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 574,
+            "end": 601,
+            "object": {
+              "type": "Identifier",
+              "start": 574,
+              "end": 591,
+              "name": "SharedArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 592,
+              "end": 601,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 603,
+            "end": 616,
+            "value": "constructor",
+            "raw": "\"constructor\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

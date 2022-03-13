@@ -1,0 +1,173 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 648,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 315,
+      "end": 450,
+      "expression": {
+        "type": "CallExpression",
+        "start": 315,
+        "end": 449,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 315,
+          "end": 334,
+          "object": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 321,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 334,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 338,
+            "end": 372,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 345,
+              "end": 372,
+              "object": {
+                "type": "MemberExpression",
+                "start": 345,
+                "end": 359,
+                "object": {
+                  "type": "Identifier",
+                  "start": 345,
+                  "end": 349,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 350,
+                  "end": 359,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 360,
+                "end": 372,
+                "name": "toTimeString"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 376,
+            "end": 381,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 385,
+            "end": 447,
+            "value": "The value of delete Date.prototype.toTimeString is not false",
+            "raw": "'The value of delete Date.prototype.toTimeString is not false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 452,
+      "end": 601,
+      "expression": {
+        "type": "CallExpression",
+        "start": 452,
+        "end": 600,
+        "callee": {
+          "type": "Identifier",
+          "start": 452,
+          "end": 458,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 462,
+            "end": 508,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 463,
+              "end": 508,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 463,
+                "end": 492,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 463,
+                  "end": 477,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 463,
+                    "end": 467,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 468,
+                    "end": 477,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 478,
+                  "end": 492,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 493,
+                  "end": 507,
+                  "value": "toTimeString",
+                  "raw": "'toTimeString'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 512,
+            "end": 598,
+            "value": "The value of !Date.prototype.hasOwnProperty('toTimeString') is expected to be true",
+            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'toTimeString\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

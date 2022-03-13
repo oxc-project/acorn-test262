@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 371,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 267,
+      "end": 370,
+      "expression": {
+        "type": "CallExpression",
+        "start": 267,
+        "end": 369,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 267,
+          "end": 283,
+          "object": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 273,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 283,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 284,
+            "end": 314,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 284,
+              "end": 305,
+              "object": {
+                "type": "Identifier",
+                "start": 284,
+                "end": 290,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 291,
+                "end": 305,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 306,
+                "end": 313,
+                "name": "Boolean"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 316,
+            "end": 334,
+            "object": {
+              "type": "Identifier",
+              "start": 316,
+              "end": 324,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 325,
+              "end": 334,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 336,
+            "end": 368,
+            "value": "Object.getPrototypeOf(Boolean)",
+            "raw": "'Object.getPrototypeOf(Boolean)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

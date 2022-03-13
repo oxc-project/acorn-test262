@@ -1,0 +1,143 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 481,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 355,
+      "end": 408,
+      "id": {
+        "type": "Identifier",
+        "start": 364,
+        "end": 367,
+        "name": "fun"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 370,
+        "end": 408,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 374,
+            "end": 406,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 381,
+              "end": 405,
+              "expression": {
+                "type": "BinaryExpression",
+                "start": 382,
+                "end": 404,
+                "left": {
+                  "type": "ThisExpression",
+                  "start": 382,
+                  "end": 386
+                },
+                "operator": "instanceof",
+                "right": {
+                  "type": "Identifier",
+                  "start": 398,
+                  "end": 404,
+                  "name": "String"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 410,
+      "end": 480,
+      "expression": {
+        "type": "CallExpression",
+        "start": 410,
+        "end": 479,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 410,
+          "end": 426,
+          "object": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 416,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 426,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 427,
+            "end": 447,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 427,
+              "end": 436,
+              "object": {
+                "type": "Identifier",
+                "start": 427,
+                "end": 430,
+                "name": "fun"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 431,
+                "end": 436,
+                "name": "apply"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 437,
+                "end": 439,
+                "value": "",
+                "raw": "\"\""
+              },
+              {
+                "type": "Identifier",
+                "start": 441,
+                "end": 446,
+                "name": "Array"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 449,
+            "end": 454,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 456,
+            "end": 478,
+            "value": "fun.apply(\"\", Array)",
+            "raw": "'fun.apply(\"\", Array)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

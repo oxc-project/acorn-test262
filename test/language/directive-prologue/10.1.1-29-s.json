@@ -1,0 +1,125 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 433,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 289,
+      "end": 420,
+      "id": {
+        "type": "Identifier",
+        "start": 298,
+        "end": 306,
+        "name": "testcase"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 309,
+        "end": 420,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 319,
+            "end": 332,
+            "expression": {
+              "type": "Literal",
+              "start": 319,
+              "end": 331,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 341,
+            "end": 396,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 345,
+                "end": 395,
+                "id": {
+                  "type": "Identifier",
+                  "start": 345,
+                  "end": 351,
+                  "name": "funObj"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 354,
+                  "end": 395,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 358,
+                    "end": 366,
+                    "name": "Function"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 367,
+                      "end": 370,
+                      "value": "a",
+                      "raw": "\"a\""
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 372,
+                      "end": 394,
+                      "value": "eval('public = 1;');",
+                      "raw": "\"eval('public = 1;');\""
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 405,
+            "end": 414,
+            "expression": {
+              "type": "CallExpression",
+              "start": 405,
+              "end": 413,
+              "callee": {
+                "type": "Identifier",
+                "start": 405,
+                "end": 411,
+                "name": "funObj"
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 421,
+      "end": 432,
+      "expression": {
+        "type": "CallExpression",
+        "start": 421,
+        "end": 431,
+        "callee": {
+          "type": "Identifier",
+          "start": 421,
+          "end": 429,
+          "name": "testcase"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

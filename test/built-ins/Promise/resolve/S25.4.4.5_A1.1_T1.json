@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 346,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 214,
+      "end": 345,
+      "expression": {
+        "type": "CallExpression",
+        "start": 214,
+        "end": 344,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 214,
+          "end": 230,
+          "object": {
+            "type": "Identifier",
+            "start": 214,
+            "end": 220,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 221,
+            "end": 230,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 234,
+            "end": 256,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 241,
+              "end": 256,
+              "object": {
+                "type": "Identifier",
+                "start": 241,
+                "end": 248,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 249,
+                "end": 256,
+                "name": "resolve"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 260,
+            "end": 270,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 274,
+            "end": 342,
+            "value": "The value of `typeof Promise.resolve` is expected to be \"function\"",
+            "raw": "'The value of `typeof Promise.resolve` is expected to be \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

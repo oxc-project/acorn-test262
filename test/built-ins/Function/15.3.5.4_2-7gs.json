@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 492,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 345,
+      "end": 386,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 349,
+          "end": 385,
+          "id": {
+            "type": "Identifier",
+            "start": 349,
+            "end": 350,
+            "name": "f"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 353,
+            "end": 385,
+            "callee": {
+              "type": "Identifier",
+              "start": 353,
+              "end": 361,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 362,
+                "end": 384,
+                "value": "return gNonStrict();",
+                "raw": "\"return gNonStrict();\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 436,
+      "expression": {
+        "type": "CallExpression",
+        "start": 388,
+        "end": 435,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 388,
+          "end": 401,
+          "object": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 394,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 401,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 402,
+            "end": 411,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 413,
+            "end": 434,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 424,
+              "end": 434,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 428,
+                  "end": 432,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 428,
+                    "end": 431,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 428,
+                      "end": 429,
+                      "name": "f"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 438,
+      "end": 491,
+      "id": {
+        "type": "Identifier",
+        "start": 447,
+        "end": 457,
+        "name": "gNonStrict"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 460,
+        "end": 491,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 464,
+            "end": 489,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 471,
+              "end": 488,
+              "object": {
+                "type": "Identifier",
+                "start": 471,
+                "end": 481,
+                "name": "gNonStrict"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 482,
+                "end": 488,
+                "name": "caller"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

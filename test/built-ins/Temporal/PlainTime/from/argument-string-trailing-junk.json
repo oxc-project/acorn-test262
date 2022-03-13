@@ -1,0 +1,128 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 377,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 282,
+      "end": 313,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 288,
+          "end": 312,
+          "id": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 291,
+            "name": "arg"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 294,
+            "end": 312,
+            "value": "15:23:30.100junk",
+            "raw": "\"15:23:30.100junk\""
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 314,
+      "end": 376,
+      "expression": {
+        "type": "CallExpression",
+        "start": 314,
+        "end": 375,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 314,
+          "end": 327,
+          "object": {
+            "type": "Identifier",
+            "start": 314,
+            "end": 320,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 327,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 328,
+            "end": 338,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 340,
+            "end": 374,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 346,
+              "end": 374,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 346,
+                "end": 369,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 346,
+                  "end": 364,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 346,
+                    "end": 354,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 355,
+                    "end": 364,
+                    "name": "PlainTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 365,
+                  "end": 369,
+                  "name": "from"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 370,
+                  "end": 373,
+                  "name": "arg"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

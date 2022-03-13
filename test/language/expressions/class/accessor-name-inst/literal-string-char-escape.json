@@ -1,0 +1,335 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1250,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 948,
+      "end": 962,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 952,
+          "end": 961,
+          "id": {
+            "type": "Identifier",
+            "start": 952,
+            "end": 961,
+            "name": "stringSet"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 964,
+      "end": 1091,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 968,
+          "end": 1090,
+          "id": {
+            "type": "Identifier",
+            "start": 968,
+            "end": 969,
+            "name": "C"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 972,
+            "end": 1090,
+            "id": null,
+            "superClass": null,
+            "body": {
+              "type": "ClassBody",
+              "start": 978,
+              "end": 1090,
+              "body": [
+                {
+                  "type": "MethodDefinition",
+                  "start": 982,
+                  "end": 1032,
+                  "static": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Literal",
+                    "start": 986,
+                    "end": 1005,
+                    "value": "character\tescape",
+                    "raw": "'character\\tescape'"
+                  },
+                  "kind": "get",
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 1005,
+                    "end": 1032,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 1008,
+                      "end": 1032,
+                      "body": [
+                        {
+                          "type": "ReturnStatement",
+                          "start": 1010,
+                          "end": 1030,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 1017,
+                            "end": 1029,
+                            "value": "get string",
+                            "raw": "'get string'"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "type": "MethodDefinition",
+                  "start": 1035,
+                  "end": 1088,
+                  "static": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Literal",
+                    "start": 1039,
+                    "end": 1058,
+                    "value": "character\tescape",
+                    "raw": "'character\\tescape'"
+                  },
+                  "kind": "set",
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 1058,
+                    "end": 1088,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 1059,
+                        "end": 1064,
+                        "name": "param"
+                      }
+                    ],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 1066,
+                      "end": 1088,
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "start": 1068,
+                          "end": 1086,
+                          "expression": {
+                            "type": "AssignmentExpression",
+                            "start": 1068,
+                            "end": 1085,
+                            "operator": "=",
+                            "left": {
+                              "type": "Identifier",
+                              "start": 1068,
+                              "end": 1077,
+                              "name": "stringSet"
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "start": 1080,
+                              "end": 1085,
+                              "name": "param"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1093,
+      "end": 1157,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1093,
+        "end": 1156,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1093,
+          "end": 1109,
+          "object": {
+            "type": "Identifier",
+            "start": 1093,
+            "end": 1099,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1100,
+            "end": 1109,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1110,
+            "end": 1141,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1110,
+              "end": 1121,
+              "object": {
+                "type": "Identifier",
+                "start": 1110,
+                "end": 1111,
+                "name": "C"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1112,
+                "end": 1121,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Literal",
+              "start": 1122,
+              "end": 1140,
+              "value": "character\tescape",
+              "raw": "'character\tescape'"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1143,
+            "end": 1155,
+            "value": "get string",
+            "raw": "'get string'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1159,
+      "end": 1206,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1159,
+        "end": 1205,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1159,
+          "end": 1190,
+          "object": {
+            "type": "MemberExpression",
+            "start": 1159,
+            "end": 1170,
+            "object": {
+              "type": "Identifier",
+              "start": 1159,
+              "end": 1160,
+              "name": "C"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1161,
+              "end": 1170,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 1171,
+            "end": 1189,
+            "value": "character\tescape",
+            "raw": "'character\tescape'"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1193,
+          "end": 1205,
+          "value": "set string",
+          "raw": "'set string'"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1207,
+      "end": 1249,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1207,
+        "end": 1248,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1207,
+          "end": 1223,
+          "object": {
+            "type": "Identifier",
+            "start": 1207,
+            "end": 1213,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1214,
+            "end": 1223,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1224,
+            "end": 1233,
+            "name": "stringSet"
+          },
+          {
+            "type": "Literal",
+            "start": 1235,
+            "end": 1247,
+            "value": "set string",
+            "raw": "'set string'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

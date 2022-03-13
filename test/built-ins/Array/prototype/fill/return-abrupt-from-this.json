@@ -1,0 +1,261 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 538,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 372,
+      "end": 456,
+      "expression": {
+        "type": "CallExpression",
+        "start": 372,
+        "end": 455,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 372,
+          "end": 385,
+          "object": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 378,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 385,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 386,
+            "end": 395,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 397,
+            "end": 454,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 408,
+              "end": 454,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 412,
+                  "end": 452,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 412,
+                    "end": 451,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 412,
+                      "end": 437,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 412,
+                        "end": 432,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 412,
+                          "end": 427,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 412,
+                            "end": 417,
+                            "name": "Array"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 418,
+                            "end": 427,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 428,
+                          "end": 432,
+                          "name": "fill"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 433,
+                        "end": 437,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 438,
+                        "end": 447,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 449,
+                        "end": 450,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 458,
+          "end": 471,
+          "object": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 464,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 471,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 472,
+            "end": 481,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 483,
+            "end": 535,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 494,
+              "end": 535,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 498,
+                  "end": 533,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 498,
+                    "end": 532,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 498,
+                      "end": 523,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 498,
+                        "end": 518,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 498,
+                          "end": 513,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 498,
+                            "end": 503,
+                            "name": "Array"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 504,
+                            "end": 513,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 514,
+                          "end": 518,
+                          "name": "fill"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 519,
+                        "end": 523,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 524,
+                        "end": 528,
+                        "value": null,
+                        "raw": "null"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 530,
+                        "end": 531,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

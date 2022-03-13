@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 844,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 726,
+      "end": 822,
+      "expression": {
+        "type": "CallExpression",
+        "start": 726,
+        "end": 821,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 726,
+          "end": 742,
+          "object": {
+            "type": "Identifier",
+            "start": 726,
+            "end": 732,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 733,
+            "end": 742,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 743,
+            "end": 768,
+            "callee": {
+              "type": "Identifier",
+              "start": 743,
+              "end": 756,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 757,
+                "end": 767,
+                "name": "Uint8Array"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 770,
+            "end": 774,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 776,
+            "end": 820,
+            "value": "isConstructor(Uint8Array) must return true",
+            "raw": "'isConstructor(Uint8Array) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 823,
+      "end": 840,
+      "expression": {
+        "type": "NewExpression",
+        "start": 823,
+        "end": 839,
+        "callee": {
+          "type": "Identifier",
+          "start": 827,
+          "end": 837,
+          "name": "Uint8Array"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

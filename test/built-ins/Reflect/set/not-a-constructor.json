@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 910,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 705,
+      "end": 805,
+      "expression": {
+        "type": "CallExpression",
+        "start": 705,
+        "end": 804,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 705,
+          "end": 721,
+          "object": {
+            "type": "Identifier",
+            "start": 705,
+            "end": 711,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 712,
+            "end": 721,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 722,
+            "end": 748,
+            "callee": {
+              "type": "Identifier",
+              "start": 722,
+              "end": 735,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 736,
+                "end": 747,
+                "object": {
+                  "type": "Identifier",
+                  "start": 736,
+                  "end": 743,
+                  "name": "Reflect"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 744,
+                  "end": 747,
+                  "name": "set"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 750,
+            "end": 755,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 757,
+            "end": 803,
+            "value": "isConstructor(Reflect.set) must return false",
+            "raw": "'isConstructor(Reflect.set) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 807,
+      "end": 908,
+      "expression": {
+        "type": "CallExpression",
+        "start": 807,
+        "end": 907,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 807,
+          "end": 820,
+          "object": {
+            "type": "Identifier",
+            "start": 807,
+            "end": 813,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 814,
+            "end": 820,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 821,
+            "end": 830,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 832,
+            "end": 864,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 838,
+              "end": 864,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 842,
+                  "end": 862,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 842,
+                    "end": 861,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 846,
+                      "end": 857,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 846,
+                        "end": 853,
+                        "name": "Reflect"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 854,
+                        "end": 857,
+                        "name": "set"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 858,
+                        "end": 860,
+                        "properties": []
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 866,
+            "end": 906,
+            "value": "`new Reflect.set({})` throws TypeError",
+            "raw": "'`new Reflect.set({})` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

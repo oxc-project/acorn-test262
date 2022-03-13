@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 408,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 299,
+      "end": 407,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 303,
+        "end": 323,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 303,
+          "end": 312,
+          "left": {
+            "type": "Literal",
+            "start": 303,
+            "end": 307,
+            "value": null,
+            "raw": "null"
+          },
+          "operator": "+",
+          "right": {
+            "type": "Literal",
+            "start": 310,
+            "end": 312,
+            "value": "",
+            "raw": "\"\""
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 317,
+          "end": 323,
+          "value": "null",
+          "raw": "\"null\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 325,
+        "end": 407,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 329,
+            "end": 404,
+            "argument": {
+              "type": "NewExpression",
+              "start": 335,
+              "end": 403,
+              "callee": {
+                "type": "Identifier",
+                "start": 339,
+                "end": 351,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 352,
+                  "end": 402,
+                  "left": {
+                    "type": "Literal",
+                    "start": 352,
+                    "end": 388,
+                    "value": "#1: null + \"\" === \"null\". Actual: ",
+                    "raw": "'#1: null + \"\" === \"null\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 391,
+                    "end": 402,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 392,
+                      "end": 401,
+                      "left": {
+                        "type": "Literal",
+                        "start": 392,
+                        "end": 396,
+                        "value": null,
+                        "raw": "null"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 399,
+                        "end": 401,
+                        "value": "",
+                        "raw": "\"\""
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

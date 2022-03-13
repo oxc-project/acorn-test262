@@ -1,0 +1,321 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 611,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 272,
+      "end": 283,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 276,
+          "end": 282,
+          "id": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 277,
+            "name": "x"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 280,
+            "end": 282,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 284,
+      "end": 296,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 288,
+          "end": 295,
+          "id": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 289,
+            "name": "y"
+          },
+          "init": {
+            "type": "UpdateExpression",
+            "start": 292,
+            "end": 295,
+            "operator": "--",
+            "prefix": false,
+            "argument": {
+              "type": "Identifier",
+              "start": 292,
+              "end": 293,
+              "name": "x"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 298,
+      "end": 417,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 302,
+        "end": 319,
+        "left": {
+          "type": "CallExpression",
+          "start": 302,
+          "end": 310,
+          "callee": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 307,
+            "name": "isNaN"
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 308,
+              "end": 309,
+              "name": "y"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 315,
+          "end": 319,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 321,
+        "end": 417,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 325,
+            "end": 415,
+            "argument": {
+              "type": "NewExpression",
+              "start": 331,
+              "end": 414,
+              "callee": {
+                "type": "Identifier",
+                "start": 335,
+                "end": 347,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 348,
+                  "end": 413,
+                  "left": {
+                    "type": "Literal",
+                    "start": 348,
+                    "end": 407,
+                    "value": "#1: var x = {}; var y = x--; y === Not-a-Number. Actual: ",
+                    "raw": "'#1: var x = {}; var y = x--; y === Not-a-Number. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 410,
+                    "end": 413,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 411,
+                      "end": 412,
+                      "name": "y"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 429,
+      "end": 458,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 433,
+          "end": 457,
+          "id": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 434,
+            "name": "x"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 437,
+            "end": 457,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 447,
+              "end": 457,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 448,
+                  "end": 456,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 455,
+                    "end": 456,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 459,
+      "end": 471,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 463,
+          "end": 470,
+          "id": {
+            "type": "Identifier",
+            "start": 463,
+            "end": 464,
+            "name": "y"
+          },
+          "init": {
+            "type": "UpdateExpression",
+            "start": 467,
+            "end": 470,
+            "operator": "--",
+            "prefix": false,
+            "argument": {
+              "type": "Identifier",
+              "start": 467,
+              "end": 468,
+              "name": "x"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 473,
+      "end": 610,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 477,
+        "end": 494,
+        "left": {
+          "type": "CallExpression",
+          "start": 477,
+          "end": 485,
+          "callee": {
+            "type": "Identifier",
+            "start": 477,
+            "end": 482,
+            "name": "isNaN"
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 483,
+              "end": 484,
+              "name": "y"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 490,
+          "end": 494,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 496,
+        "end": 610,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 500,
+            "end": 608,
+            "argument": {
+              "type": "NewExpression",
+              "start": 506,
+              "end": 607,
+              "callee": {
+                "type": "Identifier",
+                "start": 510,
+                "end": 522,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 523,
+                  "end": 606,
+                  "left": {
+                    "type": "Literal",
+                    "start": 523,
+                    "end": 600,
+                    "value": "#2: var x = function(){return 1}; var y = x--; y === Not-a-Number. Actual: ",
+                    "raw": "'#2: var x = function(){return 1}; var y = x--; y === Not-a-Number. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 603,
+                    "end": 606,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 604,
+                      "end": 605,
+                      "name": "y"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

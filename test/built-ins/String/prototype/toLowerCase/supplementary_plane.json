@@ -1,0 +1,2928 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 4431,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 635,
+      "end": 731,
+      "expression": {
+        "type": "CallExpression",
+        "start": 635,
+        "end": 730,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 635,
+          "end": 651,
+          "object": {
+            "type": "Identifier",
+            "start": 635,
+            "end": 641,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 642,
+            "end": 651,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 652,
+            "end": 680,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 652,
+              "end": 678,
+              "object": {
+                "type": "Literal",
+                "start": 652,
+                "end": 666,
+                "value": "𐐀",
+                "raw": "\"\\uD801\\uDC00\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 667,
+                "end": 678,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 682,
+            "end": 696,
+            "value": "𐐨",
+            "raw": "\"\\uD801\\uDC28\""
+          },
+          {
+            "type": "Literal",
+            "start": 698,
+            "end": 729,
+            "value": "DESERET CAPITAL LETTER LONG I",
+            "raw": "\"DESERET CAPITAL LETTER LONG I\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 732,
+      "end": 828,
+      "expression": {
+        "type": "CallExpression",
+        "start": 732,
+        "end": 827,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 732,
+          "end": 748,
+          "object": {
+            "type": "Identifier",
+            "start": 732,
+            "end": 738,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 739,
+            "end": 748,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 749,
+            "end": 777,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 749,
+              "end": 775,
+              "object": {
+                "type": "Literal",
+                "start": 749,
+                "end": 763,
+                "value": "𐐁",
+                "raw": "\"\\uD801\\uDC01\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 764,
+                "end": 775,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 779,
+            "end": 793,
+            "value": "𐐩",
+            "raw": "\"\\uD801\\uDC29\""
+          },
+          {
+            "type": "Literal",
+            "start": 795,
+            "end": 826,
+            "value": "DESERET CAPITAL LETTER LONG E",
+            "raw": "\"DESERET CAPITAL LETTER LONG E\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 829,
+      "end": 925,
+      "expression": {
+        "type": "CallExpression",
+        "start": 829,
+        "end": 924,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 829,
+          "end": 845,
+          "object": {
+            "type": "Identifier",
+            "start": 829,
+            "end": 835,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 836,
+            "end": 845,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 846,
+            "end": 874,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 846,
+              "end": 872,
+              "object": {
+                "type": "Literal",
+                "start": 846,
+                "end": 860,
+                "value": "𐐂",
+                "raw": "\"\\uD801\\uDC02\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 861,
+                "end": 872,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 876,
+            "end": 890,
+            "value": "𐐪",
+            "raw": "\"\\uD801\\uDC2A\""
+          },
+          {
+            "type": "Literal",
+            "start": 892,
+            "end": 923,
+            "value": "DESERET CAPITAL LETTER LONG A",
+            "raw": "\"DESERET CAPITAL LETTER LONG A\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 926,
+      "end": 1023,
+      "expression": {
+        "type": "CallExpression",
+        "start": 926,
+        "end": 1022,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 926,
+          "end": 942,
+          "object": {
+            "type": "Identifier",
+            "start": 926,
+            "end": 932,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 933,
+            "end": 942,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 943,
+            "end": 971,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 943,
+              "end": 969,
+              "object": {
+                "type": "Literal",
+                "start": 943,
+                "end": 957,
+                "value": "𐐃",
+                "raw": "\"\\uD801\\uDC03\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 958,
+                "end": 969,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 973,
+            "end": 987,
+            "value": "𐐫",
+            "raw": "\"\\uD801\\uDC2B\""
+          },
+          {
+            "type": "Literal",
+            "start": 989,
+            "end": 1021,
+            "value": "DESERET CAPITAL LETTER LONG AH",
+            "raw": "\"DESERET CAPITAL LETTER LONG AH\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1024,
+      "end": 1120,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1024,
+        "end": 1119,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1024,
+          "end": 1040,
+          "object": {
+            "type": "Identifier",
+            "start": 1024,
+            "end": 1030,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1031,
+            "end": 1040,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1041,
+            "end": 1069,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1041,
+              "end": 1067,
+              "object": {
+                "type": "Literal",
+                "start": 1041,
+                "end": 1055,
+                "value": "𐐄",
+                "raw": "\"\\uD801\\uDC04\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1056,
+                "end": 1067,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1071,
+            "end": 1085,
+            "value": "𐐬",
+            "raw": "\"\\uD801\\uDC2C\""
+          },
+          {
+            "type": "Literal",
+            "start": 1087,
+            "end": 1118,
+            "value": "DESERET CAPITAL LETTER LONG O",
+            "raw": "\"DESERET CAPITAL LETTER LONG O\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1121,
+      "end": 1218,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1121,
+        "end": 1217,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1121,
+          "end": 1137,
+          "object": {
+            "type": "Identifier",
+            "start": 1121,
+            "end": 1127,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1128,
+            "end": 1137,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1138,
+            "end": 1166,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1138,
+              "end": 1164,
+              "object": {
+                "type": "Literal",
+                "start": 1138,
+                "end": 1152,
+                "value": "𐐅",
+                "raw": "\"\\uD801\\uDC05\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1153,
+                "end": 1164,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1168,
+            "end": 1182,
+            "value": "𐐭",
+            "raw": "\"\\uD801\\uDC2D\""
+          },
+          {
+            "type": "Literal",
+            "start": 1184,
+            "end": 1216,
+            "value": "DESERET CAPITAL LETTER LONG OO",
+            "raw": "\"DESERET CAPITAL LETTER LONG OO\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1219,
+      "end": 1316,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1219,
+        "end": 1315,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1219,
+          "end": 1235,
+          "object": {
+            "type": "Identifier",
+            "start": 1219,
+            "end": 1225,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1226,
+            "end": 1235,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1236,
+            "end": 1264,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1236,
+              "end": 1262,
+              "object": {
+                "type": "Literal",
+                "start": 1236,
+                "end": 1250,
+                "value": "𐐆",
+                "raw": "\"\\uD801\\uDC06\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1251,
+                "end": 1262,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1266,
+            "end": 1280,
+            "value": "𐐮",
+            "raw": "\"\\uD801\\uDC2E\""
+          },
+          {
+            "type": "Literal",
+            "start": 1282,
+            "end": 1314,
+            "value": "DESERET CAPITAL LETTER SHORT I",
+            "raw": "\"DESERET CAPITAL LETTER SHORT I\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1317,
+      "end": 1414,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1317,
+        "end": 1413,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1317,
+          "end": 1333,
+          "object": {
+            "type": "Identifier",
+            "start": 1317,
+            "end": 1323,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1324,
+            "end": 1333,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1334,
+            "end": 1362,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1334,
+              "end": 1360,
+              "object": {
+                "type": "Literal",
+                "start": 1334,
+                "end": 1348,
+                "value": "𐐇",
+                "raw": "\"\\uD801\\uDC07\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1349,
+                "end": 1360,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1364,
+            "end": 1378,
+            "value": "𐐯",
+            "raw": "\"\\uD801\\uDC2F\""
+          },
+          {
+            "type": "Literal",
+            "start": 1380,
+            "end": 1412,
+            "value": "DESERET CAPITAL LETTER SHORT E",
+            "raw": "\"DESERET CAPITAL LETTER SHORT E\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1415,
+      "end": 1512,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1415,
+        "end": 1511,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1415,
+          "end": 1431,
+          "object": {
+            "type": "Identifier",
+            "start": 1415,
+            "end": 1421,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1422,
+            "end": 1431,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1432,
+            "end": 1460,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1432,
+              "end": 1458,
+              "object": {
+                "type": "Literal",
+                "start": 1432,
+                "end": 1446,
+                "value": "𐐈",
+                "raw": "\"\\uD801\\uDC08\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1447,
+                "end": 1458,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1462,
+            "end": 1476,
+            "value": "𐐰",
+            "raw": "\"\\uD801\\uDC30\""
+          },
+          {
+            "type": "Literal",
+            "start": 1478,
+            "end": 1510,
+            "value": "DESERET CAPITAL LETTER SHORT A",
+            "raw": "\"DESERET CAPITAL LETTER SHORT A\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1513,
+      "end": 1611,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1513,
+        "end": 1610,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1513,
+          "end": 1529,
+          "object": {
+            "type": "Identifier",
+            "start": 1513,
+            "end": 1519,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1520,
+            "end": 1529,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1530,
+            "end": 1558,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1530,
+              "end": 1556,
+              "object": {
+                "type": "Literal",
+                "start": 1530,
+                "end": 1544,
+                "value": "𐐉",
+                "raw": "\"\\uD801\\uDC09\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1545,
+                "end": 1556,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1560,
+            "end": 1574,
+            "value": "𐐱",
+            "raw": "\"\\uD801\\uDC31\""
+          },
+          {
+            "type": "Literal",
+            "start": 1576,
+            "end": 1609,
+            "value": "DESERET CAPITAL LETTER SHORT AH",
+            "raw": "\"DESERET CAPITAL LETTER SHORT AH\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1612,
+      "end": 1709,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1612,
+        "end": 1708,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1612,
+          "end": 1628,
+          "object": {
+            "type": "Identifier",
+            "start": 1612,
+            "end": 1618,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1619,
+            "end": 1628,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1629,
+            "end": 1657,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1629,
+              "end": 1655,
+              "object": {
+                "type": "Literal",
+                "start": 1629,
+                "end": 1643,
+                "value": "𐐊",
+                "raw": "\"\\uD801\\uDC0A\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1644,
+                "end": 1655,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1659,
+            "end": 1673,
+            "value": "𐐲",
+            "raw": "\"\\uD801\\uDC32\""
+          },
+          {
+            "type": "Literal",
+            "start": 1675,
+            "end": 1707,
+            "value": "DESERET CAPITAL LETTER SHORT O",
+            "raw": "\"DESERET CAPITAL LETTER SHORT O\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1710,
+      "end": 1808,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1710,
+        "end": 1807,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1710,
+          "end": 1726,
+          "object": {
+            "type": "Identifier",
+            "start": 1710,
+            "end": 1716,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1717,
+            "end": 1726,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1727,
+            "end": 1755,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1727,
+              "end": 1753,
+              "object": {
+                "type": "Literal",
+                "start": 1727,
+                "end": 1741,
+                "value": "𐐋",
+                "raw": "\"\\uD801\\uDC0B\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1742,
+                "end": 1753,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1757,
+            "end": 1771,
+            "value": "𐐳",
+            "raw": "\"\\uD801\\uDC33\""
+          },
+          {
+            "type": "Literal",
+            "start": 1773,
+            "end": 1806,
+            "value": "DESERET CAPITAL LETTER SHORT OO",
+            "raw": "\"DESERET CAPITAL LETTER SHORT OO\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1809,
+      "end": 1901,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1809,
+        "end": 1900,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1809,
+          "end": 1825,
+          "object": {
+            "type": "Identifier",
+            "start": 1809,
+            "end": 1815,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1816,
+            "end": 1825,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1826,
+            "end": 1854,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1826,
+              "end": 1852,
+              "object": {
+                "type": "Literal",
+                "start": 1826,
+                "end": 1840,
+                "value": "𐐌",
+                "raw": "\"\\uD801\\uDC0C\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1841,
+                "end": 1852,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1856,
+            "end": 1870,
+            "value": "𐐴",
+            "raw": "\"\\uD801\\uDC34\""
+          },
+          {
+            "type": "Literal",
+            "start": 1872,
+            "end": 1899,
+            "value": "DESERET CAPITAL LETTER AY",
+            "raw": "\"DESERET CAPITAL LETTER AY\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1902,
+      "end": 1994,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1902,
+        "end": 1993,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1902,
+          "end": 1918,
+          "object": {
+            "type": "Identifier",
+            "start": 1902,
+            "end": 1908,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1909,
+            "end": 1918,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1919,
+            "end": 1947,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1919,
+              "end": 1945,
+              "object": {
+                "type": "Literal",
+                "start": 1919,
+                "end": 1933,
+                "value": "𐐍",
+                "raw": "\"\\uD801\\uDC0D\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1934,
+                "end": 1945,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1949,
+            "end": 1963,
+            "value": "𐐵",
+            "raw": "\"\\uD801\\uDC35\""
+          },
+          {
+            "type": "Literal",
+            "start": 1965,
+            "end": 1992,
+            "value": "DESERET CAPITAL LETTER OW",
+            "raw": "\"DESERET CAPITAL LETTER OW\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1995,
+      "end": 2087,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1995,
+        "end": 2086,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1995,
+          "end": 2011,
+          "object": {
+            "type": "Identifier",
+            "start": 1995,
+            "end": 2001,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2002,
+            "end": 2011,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2012,
+            "end": 2040,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2012,
+              "end": 2038,
+              "object": {
+                "type": "Literal",
+                "start": 2012,
+                "end": 2026,
+                "value": "𐐎",
+                "raw": "\"\\uD801\\uDC0E\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2027,
+                "end": 2038,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2042,
+            "end": 2056,
+            "value": "𐐶",
+            "raw": "\"\\uD801\\uDC36\""
+          },
+          {
+            "type": "Literal",
+            "start": 2058,
+            "end": 2085,
+            "value": "DESERET CAPITAL LETTER WU",
+            "raw": "\"DESERET CAPITAL LETTER WU\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2088,
+      "end": 2181,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2088,
+        "end": 2180,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2088,
+          "end": 2104,
+          "object": {
+            "type": "Identifier",
+            "start": 2088,
+            "end": 2094,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2095,
+            "end": 2104,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2105,
+            "end": 2133,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2105,
+              "end": 2131,
+              "object": {
+                "type": "Literal",
+                "start": 2105,
+                "end": 2119,
+                "value": "𐐏",
+                "raw": "\"\\uD801\\uDC0F\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2120,
+                "end": 2131,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2135,
+            "end": 2149,
+            "value": "𐐷",
+            "raw": "\"\\uD801\\uDC37\""
+          },
+          {
+            "type": "Literal",
+            "start": 2151,
+            "end": 2179,
+            "value": "DESERET CAPITAL LETTER YEE",
+            "raw": "\"DESERET CAPITAL LETTER YEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2182,
+      "end": 2273,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2182,
+        "end": 2272,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2182,
+          "end": 2198,
+          "object": {
+            "type": "Identifier",
+            "start": 2182,
+            "end": 2188,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2189,
+            "end": 2198,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2199,
+            "end": 2227,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2199,
+              "end": 2225,
+              "object": {
+                "type": "Literal",
+                "start": 2199,
+                "end": 2213,
+                "value": "𐐐",
+                "raw": "\"\\uD801\\uDC10\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2214,
+                "end": 2225,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2229,
+            "end": 2243,
+            "value": "𐐸",
+            "raw": "\"\\uD801\\uDC38\""
+          },
+          {
+            "type": "Literal",
+            "start": 2245,
+            "end": 2271,
+            "value": "DESERET CAPITAL LETTER H",
+            "raw": "\"DESERET CAPITAL LETTER H\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2274,
+      "end": 2367,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2274,
+        "end": 2366,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2274,
+          "end": 2290,
+          "object": {
+            "type": "Identifier",
+            "start": 2274,
+            "end": 2280,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2281,
+            "end": 2290,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2291,
+            "end": 2319,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2291,
+              "end": 2317,
+              "object": {
+                "type": "Literal",
+                "start": 2291,
+                "end": 2305,
+                "value": "𐐑",
+                "raw": "\"\\uD801\\uDC11\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2306,
+                "end": 2317,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2321,
+            "end": 2335,
+            "value": "𐐹",
+            "raw": "\"\\uD801\\uDC39\""
+          },
+          {
+            "type": "Literal",
+            "start": 2337,
+            "end": 2365,
+            "value": "DESERET CAPITAL LETTER PEE",
+            "raw": "\"DESERET CAPITAL LETTER PEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2368,
+      "end": 2461,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2368,
+        "end": 2460,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2368,
+          "end": 2384,
+          "object": {
+            "type": "Identifier",
+            "start": 2368,
+            "end": 2374,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2375,
+            "end": 2384,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2385,
+            "end": 2413,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2385,
+              "end": 2411,
+              "object": {
+                "type": "Literal",
+                "start": 2385,
+                "end": 2399,
+                "value": "𐐒",
+                "raw": "\"\\uD801\\uDC12\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2400,
+                "end": 2411,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2415,
+            "end": 2429,
+            "value": "𐐺",
+            "raw": "\"\\uD801\\uDC3A\""
+          },
+          {
+            "type": "Literal",
+            "start": 2431,
+            "end": 2459,
+            "value": "DESERET CAPITAL LETTER BEE",
+            "raw": "\"DESERET CAPITAL LETTER BEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2462,
+      "end": 2555,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2462,
+        "end": 2554,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2462,
+          "end": 2478,
+          "object": {
+            "type": "Identifier",
+            "start": 2462,
+            "end": 2468,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2469,
+            "end": 2478,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2479,
+            "end": 2507,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2479,
+              "end": 2505,
+              "object": {
+                "type": "Literal",
+                "start": 2479,
+                "end": 2493,
+                "value": "𐐓",
+                "raw": "\"\\uD801\\uDC13\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2494,
+                "end": 2505,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2509,
+            "end": 2523,
+            "value": "𐐻",
+            "raw": "\"\\uD801\\uDC3B\""
+          },
+          {
+            "type": "Literal",
+            "start": 2525,
+            "end": 2553,
+            "value": "DESERET CAPITAL LETTER TEE",
+            "raw": "\"DESERET CAPITAL LETTER TEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2556,
+      "end": 2649,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2556,
+        "end": 2648,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2556,
+          "end": 2572,
+          "object": {
+            "type": "Identifier",
+            "start": 2556,
+            "end": 2562,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2563,
+            "end": 2572,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2573,
+            "end": 2601,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2573,
+              "end": 2599,
+              "object": {
+                "type": "Literal",
+                "start": 2573,
+                "end": 2587,
+                "value": "𐐔",
+                "raw": "\"\\uD801\\uDC14\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2588,
+                "end": 2599,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2603,
+            "end": 2617,
+            "value": "𐐼",
+            "raw": "\"\\uD801\\uDC3C\""
+          },
+          {
+            "type": "Literal",
+            "start": 2619,
+            "end": 2647,
+            "value": "DESERET CAPITAL LETTER DEE",
+            "raw": "\"DESERET CAPITAL LETTER DEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2650,
+      "end": 2744,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2650,
+        "end": 2743,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2650,
+          "end": 2666,
+          "object": {
+            "type": "Identifier",
+            "start": 2650,
+            "end": 2656,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2657,
+            "end": 2666,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2667,
+            "end": 2695,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2667,
+              "end": 2693,
+              "object": {
+                "type": "Literal",
+                "start": 2667,
+                "end": 2681,
+                "value": "𐐕",
+                "raw": "\"\\uD801\\uDC15\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2682,
+                "end": 2693,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2697,
+            "end": 2711,
+            "value": "𐐽",
+            "raw": "\"\\uD801\\uDC3D\""
+          },
+          {
+            "type": "Literal",
+            "start": 2713,
+            "end": 2742,
+            "value": "DESERET CAPITAL LETTER CHEE",
+            "raw": "\"DESERET CAPITAL LETTER CHEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2745,
+      "end": 2838,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2745,
+        "end": 2837,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2745,
+          "end": 2761,
+          "object": {
+            "type": "Identifier",
+            "start": 2745,
+            "end": 2751,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2752,
+            "end": 2761,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2762,
+            "end": 2790,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2762,
+              "end": 2788,
+              "object": {
+                "type": "Literal",
+                "start": 2762,
+                "end": 2776,
+                "value": "𐐖",
+                "raw": "\"\\uD801\\uDC16\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2777,
+                "end": 2788,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2792,
+            "end": 2806,
+            "value": "𐐾",
+            "raw": "\"\\uD801\\uDC3E\""
+          },
+          {
+            "type": "Literal",
+            "start": 2808,
+            "end": 2836,
+            "value": "DESERET CAPITAL LETTER JEE",
+            "raw": "\"DESERET CAPITAL LETTER JEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2839,
+      "end": 2932,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2839,
+        "end": 2931,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2839,
+          "end": 2855,
+          "object": {
+            "type": "Identifier",
+            "start": 2839,
+            "end": 2845,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2846,
+            "end": 2855,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2856,
+            "end": 2884,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2856,
+              "end": 2882,
+              "object": {
+                "type": "Literal",
+                "start": 2856,
+                "end": 2870,
+                "value": "𐐗",
+                "raw": "\"\\uD801\\uDC17\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2871,
+                "end": 2882,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2886,
+            "end": 2900,
+            "value": "𐐿",
+            "raw": "\"\\uD801\\uDC3F\""
+          },
+          {
+            "type": "Literal",
+            "start": 2902,
+            "end": 2930,
+            "value": "DESERET CAPITAL LETTER KAY",
+            "raw": "\"DESERET CAPITAL LETTER KAY\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2933,
+      "end": 3026,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2933,
+        "end": 3025,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2933,
+          "end": 2949,
+          "object": {
+            "type": "Identifier",
+            "start": 2933,
+            "end": 2939,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2940,
+            "end": 2949,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2950,
+            "end": 2978,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2950,
+              "end": 2976,
+              "object": {
+                "type": "Literal",
+                "start": 2950,
+                "end": 2964,
+                "value": "𐐘",
+                "raw": "\"\\uD801\\uDC18\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2965,
+                "end": 2976,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2980,
+            "end": 2994,
+            "value": "𐑀",
+            "raw": "\"\\uD801\\uDC40\""
+          },
+          {
+            "type": "Literal",
+            "start": 2996,
+            "end": 3024,
+            "value": "DESERET CAPITAL LETTER GAY",
+            "raw": "\"DESERET CAPITAL LETTER GAY\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3027,
+      "end": 3119,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3027,
+        "end": 3118,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3027,
+          "end": 3043,
+          "object": {
+            "type": "Identifier",
+            "start": 3027,
+            "end": 3033,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3034,
+            "end": 3043,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3044,
+            "end": 3072,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3044,
+              "end": 3070,
+              "object": {
+                "type": "Literal",
+                "start": 3044,
+                "end": 3058,
+                "value": "𐐙",
+                "raw": "\"\\uD801\\uDC19\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3059,
+                "end": 3070,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3074,
+            "end": 3088,
+            "value": "𐑁",
+            "raw": "\"\\uD801\\uDC41\""
+          },
+          {
+            "type": "Literal",
+            "start": 3090,
+            "end": 3117,
+            "value": "DESERET CAPITAL LETTER EF",
+            "raw": "\"DESERET CAPITAL LETTER EF\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3120,
+      "end": 3213,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3120,
+        "end": 3212,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3120,
+          "end": 3136,
+          "object": {
+            "type": "Identifier",
+            "start": 3120,
+            "end": 3126,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3127,
+            "end": 3136,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3137,
+            "end": 3165,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3137,
+              "end": 3163,
+              "object": {
+                "type": "Literal",
+                "start": 3137,
+                "end": 3151,
+                "value": "𐐚",
+                "raw": "\"\\uD801\\uDC1A\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3152,
+                "end": 3163,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3167,
+            "end": 3181,
+            "value": "𐑂",
+            "raw": "\"\\uD801\\uDC42\""
+          },
+          {
+            "type": "Literal",
+            "start": 3183,
+            "end": 3211,
+            "value": "DESERET CAPITAL LETTER VEE",
+            "raw": "\"DESERET CAPITAL LETTER VEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3214,
+      "end": 3307,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3214,
+        "end": 3306,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3214,
+          "end": 3230,
+          "object": {
+            "type": "Identifier",
+            "start": 3214,
+            "end": 3220,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3221,
+            "end": 3230,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3231,
+            "end": 3259,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3231,
+              "end": 3257,
+              "object": {
+                "type": "Literal",
+                "start": 3231,
+                "end": 3245,
+                "value": "𐐛",
+                "raw": "\"\\uD801\\uDC1B\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3246,
+                "end": 3257,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3261,
+            "end": 3275,
+            "value": "𐑃",
+            "raw": "\"\\uD801\\uDC43\""
+          },
+          {
+            "type": "Literal",
+            "start": 3277,
+            "end": 3305,
+            "value": "DESERET CAPITAL LETTER ETH",
+            "raw": "\"DESERET CAPITAL LETTER ETH\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3308,
+      "end": 3402,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3308,
+        "end": 3401,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3308,
+          "end": 3324,
+          "object": {
+            "type": "Identifier",
+            "start": 3308,
+            "end": 3314,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3315,
+            "end": 3324,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3325,
+            "end": 3353,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3325,
+              "end": 3351,
+              "object": {
+                "type": "Literal",
+                "start": 3325,
+                "end": 3339,
+                "value": "𐐜",
+                "raw": "\"\\uD801\\uDC1C\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3340,
+                "end": 3351,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3355,
+            "end": 3369,
+            "value": "𐑄",
+            "raw": "\"\\uD801\\uDC44\""
+          },
+          {
+            "type": "Literal",
+            "start": 3371,
+            "end": 3400,
+            "value": "DESERET CAPITAL LETTER THEE",
+            "raw": "\"DESERET CAPITAL LETTER THEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3403,
+      "end": 3495,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3403,
+        "end": 3494,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3403,
+          "end": 3419,
+          "object": {
+            "type": "Identifier",
+            "start": 3403,
+            "end": 3409,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3410,
+            "end": 3419,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3420,
+            "end": 3448,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3420,
+              "end": 3446,
+              "object": {
+                "type": "Literal",
+                "start": 3420,
+                "end": 3434,
+                "value": "𐐝",
+                "raw": "\"\\uD801\\uDC1D\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3435,
+                "end": 3446,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3450,
+            "end": 3464,
+            "value": "𐑅",
+            "raw": "\"\\uD801\\uDC45\""
+          },
+          {
+            "type": "Literal",
+            "start": 3466,
+            "end": 3493,
+            "value": "DESERET CAPITAL LETTER ES",
+            "raw": "\"DESERET CAPITAL LETTER ES\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3496,
+      "end": 3589,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3496,
+        "end": 3588,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3496,
+          "end": 3512,
+          "object": {
+            "type": "Identifier",
+            "start": 3496,
+            "end": 3502,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3503,
+            "end": 3512,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3513,
+            "end": 3541,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3513,
+              "end": 3539,
+              "object": {
+                "type": "Literal",
+                "start": 3513,
+                "end": 3527,
+                "value": "𐐞",
+                "raw": "\"\\uD801\\uDC1E\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3528,
+                "end": 3539,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3543,
+            "end": 3557,
+            "value": "𐑆",
+            "raw": "\"\\uD801\\uDC46\""
+          },
+          {
+            "type": "Literal",
+            "start": 3559,
+            "end": 3587,
+            "value": "DESERET CAPITAL LETTER ZEE",
+            "raw": "\"DESERET CAPITAL LETTER ZEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3590,
+      "end": 3683,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3590,
+        "end": 3682,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3590,
+          "end": 3606,
+          "object": {
+            "type": "Identifier",
+            "start": 3590,
+            "end": 3596,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3597,
+            "end": 3606,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3607,
+            "end": 3635,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3607,
+              "end": 3633,
+              "object": {
+                "type": "Literal",
+                "start": 3607,
+                "end": 3621,
+                "value": "𐐟",
+                "raw": "\"\\uD801\\uDC1F\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3622,
+                "end": 3633,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3637,
+            "end": 3651,
+            "value": "𐑇",
+            "raw": "\"\\uD801\\uDC47\""
+          },
+          {
+            "type": "Literal",
+            "start": 3653,
+            "end": 3681,
+            "value": "DESERET CAPITAL LETTER ESH",
+            "raw": "\"DESERET CAPITAL LETTER ESH\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3684,
+      "end": 3778,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3684,
+        "end": 3777,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3684,
+          "end": 3700,
+          "object": {
+            "type": "Identifier",
+            "start": 3684,
+            "end": 3690,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3691,
+            "end": 3700,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3701,
+            "end": 3729,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3701,
+              "end": 3727,
+              "object": {
+                "type": "Literal",
+                "start": 3701,
+                "end": 3715,
+                "value": "𐐠",
+                "raw": "\"\\uD801\\uDC20\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3716,
+                "end": 3727,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3731,
+            "end": 3745,
+            "value": "𐑈",
+            "raw": "\"\\uD801\\uDC48\""
+          },
+          {
+            "type": "Literal",
+            "start": 3747,
+            "end": 3776,
+            "value": "DESERET CAPITAL LETTER ZHEE",
+            "raw": "\"DESERET CAPITAL LETTER ZHEE\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3779,
+      "end": 3871,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3779,
+        "end": 3870,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3779,
+          "end": 3795,
+          "object": {
+            "type": "Identifier",
+            "start": 3779,
+            "end": 3785,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3786,
+            "end": 3795,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3796,
+            "end": 3824,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3796,
+              "end": 3822,
+              "object": {
+                "type": "Literal",
+                "start": 3796,
+                "end": 3810,
+                "value": "𐐡",
+                "raw": "\"\\uD801\\uDC21\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3811,
+                "end": 3822,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3826,
+            "end": 3840,
+            "value": "𐑉",
+            "raw": "\"\\uD801\\uDC49\""
+          },
+          {
+            "type": "Literal",
+            "start": 3842,
+            "end": 3869,
+            "value": "DESERET CAPITAL LETTER ER",
+            "raw": "\"DESERET CAPITAL LETTER ER\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3872,
+      "end": 3964,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3872,
+        "end": 3963,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3872,
+          "end": 3888,
+          "object": {
+            "type": "Identifier",
+            "start": 3872,
+            "end": 3878,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3879,
+            "end": 3888,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3889,
+            "end": 3917,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3889,
+              "end": 3915,
+              "object": {
+                "type": "Literal",
+                "start": 3889,
+                "end": 3903,
+                "value": "𐐢",
+                "raw": "\"\\uD801\\uDC22\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3904,
+                "end": 3915,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3919,
+            "end": 3933,
+            "value": "𐑊",
+            "raw": "\"\\uD801\\uDC4A\""
+          },
+          {
+            "type": "Literal",
+            "start": 3935,
+            "end": 3962,
+            "value": "DESERET CAPITAL LETTER EL",
+            "raw": "\"DESERET CAPITAL LETTER EL\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3965,
+      "end": 4057,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3965,
+        "end": 4056,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3965,
+          "end": 3981,
+          "object": {
+            "type": "Identifier",
+            "start": 3965,
+            "end": 3971,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3972,
+            "end": 3981,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3982,
+            "end": 4010,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3982,
+              "end": 4008,
+              "object": {
+                "type": "Literal",
+                "start": 3982,
+                "end": 3996,
+                "value": "𐐣",
+                "raw": "\"\\uD801\\uDC23\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3997,
+                "end": 4008,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4012,
+            "end": 4026,
+            "value": "𐑋",
+            "raw": "\"\\uD801\\uDC4B\""
+          },
+          {
+            "type": "Literal",
+            "start": 4028,
+            "end": 4055,
+            "value": "DESERET CAPITAL LETTER EM",
+            "raw": "\"DESERET CAPITAL LETTER EM\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4058,
+      "end": 4150,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4058,
+        "end": 4149,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4058,
+          "end": 4074,
+          "object": {
+            "type": "Identifier",
+            "start": 4058,
+            "end": 4064,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4065,
+            "end": 4074,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4075,
+            "end": 4103,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4075,
+              "end": 4101,
+              "object": {
+                "type": "Literal",
+                "start": 4075,
+                "end": 4089,
+                "value": "𐐤",
+                "raw": "\"\\uD801\\uDC24\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4090,
+                "end": 4101,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4105,
+            "end": 4119,
+            "value": "𐑌",
+            "raw": "\"\\uD801\\uDC4C\""
+          },
+          {
+            "type": "Literal",
+            "start": 4121,
+            "end": 4148,
+            "value": "DESERET CAPITAL LETTER EN",
+            "raw": "\"DESERET CAPITAL LETTER EN\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4151,
+      "end": 4244,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4151,
+        "end": 4243,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4151,
+          "end": 4167,
+          "object": {
+            "type": "Identifier",
+            "start": 4151,
+            "end": 4157,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4158,
+            "end": 4167,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4168,
+            "end": 4196,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4168,
+              "end": 4194,
+              "object": {
+                "type": "Literal",
+                "start": 4168,
+                "end": 4182,
+                "value": "𐐥",
+                "raw": "\"\\uD801\\uDC25\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4183,
+                "end": 4194,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4198,
+            "end": 4212,
+            "value": "𐑍",
+            "raw": "\"\\uD801\\uDC4D\""
+          },
+          {
+            "type": "Literal",
+            "start": 4214,
+            "end": 4242,
+            "value": "DESERET CAPITAL LETTER ENG",
+            "raw": "\"DESERET CAPITAL LETTER ENG\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4245,
+      "end": 4337,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4245,
+        "end": 4336,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4245,
+          "end": 4261,
+          "object": {
+            "type": "Identifier",
+            "start": 4245,
+            "end": 4251,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4252,
+            "end": 4261,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4262,
+            "end": 4290,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4262,
+              "end": 4288,
+              "object": {
+                "type": "Literal",
+                "start": 4262,
+                "end": 4276,
+                "value": "𐐦",
+                "raw": "\"\\uD801\\uDC26\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4277,
+                "end": 4288,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4292,
+            "end": 4306,
+            "value": "𐑎",
+            "raw": "\"\\uD801\\uDC4E\""
+          },
+          {
+            "type": "Literal",
+            "start": 4308,
+            "end": 4335,
+            "value": "DESERET CAPITAL LETTER OI",
+            "raw": "\"DESERET CAPITAL LETTER OI\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4338,
+      "end": 4430,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4338,
+        "end": 4429,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4338,
+          "end": 4354,
+          "object": {
+            "type": "Identifier",
+            "start": 4338,
+            "end": 4344,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4345,
+            "end": 4354,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 4355,
+            "end": 4383,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 4355,
+              "end": 4381,
+              "object": {
+                "type": "Literal",
+                "start": 4355,
+                "end": 4369,
+                "value": "𐐧",
+                "raw": "\"\\uD801\\uDC27\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 4370,
+                "end": 4381,
+                "name": "toLowerCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 4385,
+            "end": 4399,
+            "value": "𐑏",
+            "raw": "\"\\uD801\\uDC4F\""
+          },
+          {
+            "type": "Literal",
+            "start": 4401,
+            "end": 4428,
+            "value": "DESERET CAPITAL LETTER EW",
+            "raw": "\"DESERET CAPITAL LETTER EW\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

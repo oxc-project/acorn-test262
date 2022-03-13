@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 462,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 355,
+      "end": 461,
+      "expression": {
+        "type": "CallExpression",
+        "start": 355,
+        "end": 460,
+        "callee": {
+          "type": "Identifier",
+          "start": 355,
+          "end": 361,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 362,
+            "end": 400,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 362,
+              "end": 394,
+              "object": {
+                "type": "MemberExpression",
+                "start": 362,
+                "end": 380,
+                "object": {
+                  "type": "Identifier",
+                  "start": 362,
+                  "end": 370,
+                  "name": "Function"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 371,
+                  "end": 380,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 381,
+                "end": 394,
+                "name": "isPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 395,
+                "end": 399,
+                "name": "Date"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 402,
+            "end": 459,
+            "value": "Function.prototype.isPrototypeOf(Date) must return true",
+            "raw": "'Function.prototype.isPrototypeOf(Date) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,79 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 315,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 278,
+      "end": 289,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 282,
+          "end": 287,
+          "id": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 283,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 286,
+            "end": 287,
+            "value": 2,
+            "raw": "2"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 291,
+      "end": 314,
+      "expression": {
+        "type": "CallExpression",
+        "start": 291,
+        "end": 313,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 291,
+          "end": 307,
+          "object": {
+            "type": "Identifier",
+            "start": 291,
+            "end": 297,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 298,
+            "end": 307,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 308,
+            "end": 309,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 311,
+            "end": 312,
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

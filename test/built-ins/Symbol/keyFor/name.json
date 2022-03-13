@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 867,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 689,
+      "end": 736,
+      "expression": {
+        "type": "CallExpression",
+        "start": 689,
+        "end": 735,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 689,
+          "end": 705,
+          "object": {
+            "type": "Identifier",
+            "start": 689,
+            "end": 695,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 705,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 706,
+            "end": 724,
+            "object": {
+              "type": "MemberExpression",
+              "start": 706,
+              "end": 719,
+              "object": {
+                "type": "Identifier",
+                "start": 706,
+                "end": 712,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 713,
+                "end": 719,
+                "name": "keyFor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 720,
+              "end": 724,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 726,
+            "end": 734,
+            "value": "keyFor",
+            "raw": "\"keyFor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 738,
+      "end": 781,
+      "expression": {
+        "type": "CallExpression",
+        "start": 738,
+        "end": 780,
+        "callee": {
+          "type": "Identifier",
+          "start": 738,
+          "end": 757,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 758,
+            "end": 771,
+            "object": {
+              "type": "Identifier",
+              "start": 758,
+              "end": 764,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 765,
+              "end": 771,
+              "name": "keyFor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 773,
+            "end": 779,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 782,
+      "end": 823,
+      "expression": {
+        "type": "CallExpression",
+        "start": 782,
+        "end": 822,
+        "callee": {
+          "type": "Identifier",
+          "start": 782,
+          "end": 799,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 800,
+            "end": 813,
+            "object": {
+              "type": "Identifier",
+              "start": 800,
+              "end": 806,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 807,
+              "end": 813,
+              "name": "keyFor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 815,
+            "end": 821,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 824,
+      "end": 866,
+      "expression": {
+        "type": "CallExpression",
+        "start": 824,
+        "end": 865,
+        "callee": {
+          "type": "Identifier",
+          "start": 824,
+          "end": 842,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 843,
+            "end": 856,
+            "object": {
+              "type": "Identifier",
+              "start": 843,
+              "end": 849,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 850,
+              "end": 856,
+              "name": "keyFor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 858,
+            "end": 864,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

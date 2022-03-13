@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 453,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 271,
+      "end": 452,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 275,
+        "end": 340,
+        "left": {
+          "type": "CallExpression",
+          "start": 275,
+          "end": 309,
+          "callee": {
+            "type": "Identifier",
+            "start": 275,
+            "end": 279,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 280,
+              "end": 308,
+              "value": "' str ing '",
+              "raw": "\"'\\u00A0str\\u00A0ing\\u00A0'\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 314,
+          "end": 340,
+          "value": " str ing ",
+          "raw": "\"\\u00A0str\\u00A0ing\\u00A0\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 342,
+        "end": 452,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 346,
+            "end": 450,
+            "argument": {
+              "type": "NewExpression",
+              "start": 352,
+              "end": 449,
+              "callee": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 368,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 369,
+                  "end": 448,
+                  "value": "#1: eval(\"'\\u00A0str\\u00A0ing\\u00A0'\") === \"\\u00A0str\\u00A0ing\\u00A0\"",
+                  "raw": "'#1: eval(\"\\'\\\\u00A0str\\\\u00A0ing\\\\u00A0\\'\") === \"\\\\u00A0str\\\\u00A0ing\\\\u00A0\"'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

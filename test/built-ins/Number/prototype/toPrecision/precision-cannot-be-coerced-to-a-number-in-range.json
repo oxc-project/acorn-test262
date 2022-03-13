@@ -1,0 +1,390 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 882,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 439,
+      "end": 486,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 443,
+          "end": 485,
+          "id": {
+            "type": "Identifier",
+            "start": 443,
+            "end": 454,
+            "name": "toPrecision"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 457,
+            "end": 485,
+            "object": {
+              "type": "MemberExpression",
+              "start": 457,
+              "end": 473,
+              "object": {
+                "type": "Identifier",
+                "start": 457,
+                "end": 463,
+                "name": "Number"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 464,
+                "end": 473,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 474,
+              "end": 485,
+              "name": "toPrecision"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 488,
+      "end": 633,
+      "expression": {
+        "type": "CallExpression",
+        "start": 488,
+        "end": 632,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 488,
+          "end": 501,
+          "object": {
+            "type": "Identifier",
+            "start": 488,
+            "end": 494,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 495,
+            "end": 501,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 502,
+            "end": 512,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 514,
+            "end": 566,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 525,
+              "end": 566,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 529,
+                  "end": 564,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 529,
+                    "end": 563,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 529,
+                      "end": 545,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 529,
+                        "end": 540,
+                        "name": "toPrecision"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 541,
+                        "end": 545,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 546,
+                        "end": 547,
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 549,
+                        "end": 562,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 560,
+                          "end": 562,
+                          "body": []
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 568,
+            "end": 631,
+            "value": "`function() {}` doesn't coerce into a number in range (1-100)",
+            "raw": "\"`function() {}` doesn't coerce into a number in range (1-100)\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 635,
+      "end": 758,
+      "expression": {
+        "type": "CallExpression",
+        "start": 635,
+        "end": 757,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 635,
+          "end": 648,
+          "object": {
+            "type": "Identifier",
+            "start": 635,
+            "end": 641,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 642,
+            "end": 648,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 649,
+            "end": 659,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 661,
+            "end": 703,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 672,
+              "end": 703,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 676,
+                  "end": 701,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 676,
+                    "end": 700,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 676,
+                      "end": 692,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 676,
+                        "end": 687,
+                        "name": "toPrecision"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 688,
+                        "end": 692,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 693,
+                        "end": 694,
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 696,
+                        "end": 699,
+                        "name": "NaN"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 705,
+            "end": 756,
+            "value": "NaN doesn't coerce into a number in range (1-100)",
+            "raw": "\"NaN doesn't coerce into a number in range (1-100)\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 760,
+      "end": 881,
+      "expression": {
+        "type": "CallExpression",
+        "start": 760,
+        "end": 880,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 760,
+          "end": 773,
+          "object": {
+            "type": "Identifier",
+            "start": 760,
+            "end": 766,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 767,
+            "end": 773,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 774,
+            "end": 784,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 786,
+            "end": 827,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 797,
+              "end": 827,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 801,
+                  "end": 825,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 801,
+                    "end": 824,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 801,
+                      "end": 817,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 801,
+                        "end": 812,
+                        "name": "toPrecision"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 813,
+                        "end": 817,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 818,
+                        "end": 819,
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 821,
+                        "end": 823,
+                        "properties": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 829,
+            "end": 879,
+            "value": "{} doesn't coerce into a number in range (1-100)",
+            "raw": "\"{} doesn't coerce into a number in range (1-100)\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

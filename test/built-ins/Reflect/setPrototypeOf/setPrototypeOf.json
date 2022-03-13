@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 543,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 405,
+      "end": 452,
+      "expression": {
+        "type": "CallExpression",
+        "start": 405,
+        "end": 451,
+        "callee": {
+          "type": "Identifier",
+          "start": 405,
+          "end": 424,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 425,
+            "end": 432,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 434,
+            "end": 450,
+            "value": "setPrototypeOf",
+            "raw": "'setPrototypeOf'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 453,
+      "end": 495,
+      "expression": {
+        "type": "CallExpression",
+        "start": 453,
+        "end": 494,
+        "callee": {
+          "type": "Identifier",
+          "start": 453,
+          "end": 467,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 468,
+            "end": 475,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 477,
+            "end": 493,
+            "value": "setPrototypeOf",
+            "raw": "'setPrototypeOf'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 496,
+      "end": 542,
+      "expression": {
+        "type": "CallExpression",
+        "start": 496,
+        "end": 541,
+        "callee": {
+          "type": "Identifier",
+          "start": 496,
+          "end": 514,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 515,
+            "end": 522,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 524,
+            "end": 540,
+            "value": "setPrototypeOf",
+            "raw": "'setPrototypeOf'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

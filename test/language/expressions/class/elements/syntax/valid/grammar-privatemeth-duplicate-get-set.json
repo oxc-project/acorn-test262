@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 740,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 692,
+      "end": 739,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 696,
+          "end": 738,
+          "id": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 697,
+            "name": "C"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 700,
+            "end": 738,
+            "id": null,
+            "superClass": null,
+            "body": {
+              "type": "ClassBody",
+              "start": 706,
+              "end": 738,
+              "body": [
+                {
+                  "type": "MethodDefinition",
+                  "start": 710,
+                  "end": 721,
+                  "static": false,
+                  "computed": false,
+                  "key": {
+                    "type": "PrivateIdentifier",
+                    "start": 714,
+                    "end": 716,
+                    "name": "m"
+                  },
+                  "kind": "get",
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 716,
+                    "end": 721,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 719,
+                      "end": 721,
+                      "body": []
+                    }
+                  }
+                },
+                {
+                  "type": "MethodDefinition",
+                  "start": 724,
+                  "end": 736,
+                  "static": false,
+                  "computed": false,
+                  "key": {
+                    "type": "PrivateIdentifier",
+                    "start": 728,
+                    "end": 730,
+                    "name": "m"
+                  },
+                  "kind": "set",
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 730,
+                    "end": 736,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 731,
+                        "end": 732,
+                        "name": "_"
+                      }
+                    ],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 734,
+                      "end": 736,
+                      "body": []
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

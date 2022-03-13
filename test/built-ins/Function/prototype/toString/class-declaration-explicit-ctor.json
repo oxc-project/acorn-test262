@@ -1,0 +1,151 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 773,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 343,
+      "end": 524,
+      "id": {
+        "type": "Identifier",
+        "start": 357,
+        "end": 358,
+        "name": "A"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 383,
+        "end": 384,
+        "name": "B"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 393,
+        "end": 524,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 403,
+            "end": 464,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 403,
+              "end": 414,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 423,
+              "end": 464,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 443,
+                "end": 464,
+                "body": [
+                  {
+                    "type": "EmptyStatement",
+                    "start": 453,
+                    "end": 454
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 473,
+            "end": 514,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 473,
+              "end": 474,
+              "name": "m"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 483,
+              "end": 514,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 503,
+                "end": 514,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 537,
+      "end": 756,
+      "expression": {
+        "type": "CallExpression",
+        "start": 537,
+        "end": 755,
+        "callee": {
+          "type": "Identifier",
+          "start": 537,
+          "end": 567,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 568,
+            "end": 569,
+            "name": "A"
+          },
+          {
+            "type": "Literal",
+            "start": 571,
+            "end": 754,
+            "value": "class /* a */ A /* b */ extends /* c */ B /* d */ { /* e */ constructor /* f */ ( /* g */ ) /* h */ { /* i */ ; /* j */ } /* k */ m /* l */ ( /* m */ ) /* n */ { /* o */ } /* p */ }",
+            "raw": "\"class /* a */ A /* b */ extends /* c */ B /* d */ { /* e */ constructor /* f */ ( /* g */ ) /* h */ { /* i */ ; /* j */ } /* k */ m /* l */ ( /* m */ ) /* n */ { /* o */ } /* p */ }\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 758,
+      "end": 772,
+      "id": {
+        "type": "Identifier",
+        "start": 767,
+        "end": 768,
+        "name": "B"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 770,
+        "end": 772,
+        "body": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 586,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 425,
+      "end": 483,
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 432,
+          "end": 443,
+          "local": {
+            "type": "Identifier",
+            "start": 437,
+            "end": 443,
+            "name": "Scouts"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 449,
+        "end": 482,
+        "value": "./export-expname-from-string.js",
+        "raw": "\"./export-expname-from-string.js\""
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 484,
+      "end": 534,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 493,
+          "end": 496,
+          "local": {
+            "type": "Literal",
+            "start": 493,
+            "end": 496,
+            "value": "☿",
+            "raw": "\"☿\""
+          },
+          "exported": {
+            "type": "Literal",
+            "start": 493,
+            "end": 496,
+            "value": "☿",
+            "raw": "\"☿\""
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 504,
+        "end": 533,
+        "value": "./export-expname_FIXTURE.js",
+        "raw": "\"./export-expname_FIXTURE.js\""
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 536,
+      "end": 585,
+      "expression": {
+        "type": "CallExpression",
+        "start": 536,
+        "end": 584,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 536,
+          "end": 552,
+          "object": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 542,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 552,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 553,
+            "end": 571,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 560,
+              "end": 571,
+              "object": {
+                "type": "Identifier",
+                "start": 560,
+                "end": 566,
+                "name": "Scouts"
+              },
+              "property": {
+                "type": "Literal",
+                "start": 567,
+                "end": 570,
+                "value": "☿",
+                "raw": "\"☿\""
+              },
+              "computed": true,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 573,
+            "end": 583,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

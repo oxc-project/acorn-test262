@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 604,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 311,
+      "end": 603,
+      "block": {
+        "type": "BlockStatement",
+        "start": 315,
+        "end": 444,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 319,
+            "end": 336,
+            "expression": {
+              "type": "ConditionalExpression",
+              "start": 319,
+              "end": 335,
+              "test": {
+                "type": "Literal",
+                "start": 319,
+                "end": 324,
+                "value": false,
+                "raw": "false"
+              },
+              "consequent": {
+                "type": "Literal",
+                "start": 327,
+                "end": 331,
+                "value": true,
+                "raw": "true"
+              },
+              "alternate": {
+                "type": "Identifier",
+                "start": 334,
+                "end": 335,
+                "name": "z"
+              }
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 339,
+            "end": 440,
+            "argument": {
+              "type": "NewExpression",
+              "start": 345,
+              "end": 439,
+              "callee": {
+                "type": "Identifier",
+                "start": 349,
+                "end": 361,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 362,
+                  "end": 438,
+                  "left": {
+                    "type": "Literal",
+                    "start": 362,
+                    "end": 417,
+                    "value": "#1.1: false ? true : z throw ReferenceError. Actual: ",
+                    "raw": "'#1.1: false ? true : z throw ReferenceError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 420,
+                    "end": 438,
+                    "expression": {
+                      "type": "ConditionalExpression",
+                      "start": 421,
+                      "end": 437,
+                      "test": {
+                        "type": "Literal",
+                        "start": 421,
+                        "end": 426,
+                        "value": false,
+                        "raw": "false"
+                      },
+                      "consequent": {
+                        "type": "Literal",
+                        "start": 429,
+                        "end": 433,
+                        "value": true,
+                        "raw": "true"
+                      },
+                      "alternate": {
+                        "type": "Identifier",
+                        "start": 436,
+                        "end": 437,
+                        "name": "z"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 445,
+        "end": 603,
+        "param": {
+          "type": "Identifier",
+          "start": 452,
+          "end": 453,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 455,
+          "end": 603,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 459,
+              "end": 601,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 463,
+                "end": 501,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 463,
+                  "end": 492,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 464,
+                    "end": 491,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 464,
+                      "end": 465,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 477,
+                      "end": 491,
+                      "name": "ReferenceError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 497,
+                  "end": 501,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 503,
+                "end": 601,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 509,
+                    "end": 595,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 515,
+                      "end": 594,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 519,
+                        "end": 531,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 532,
+                          "end": 593,
+                          "left": {
+                            "type": "Literal",
+                            "start": 532,
+                            "end": 587,
+                            "value": "#1.2: false ? true : z throw ReferenceError. Actual: ",
+                            "raw": "'#1.2: false ? true : z throw ReferenceError. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 590,
+                            "end": 593,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 591,
+                              "end": 592,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

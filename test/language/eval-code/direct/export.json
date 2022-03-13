@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 744,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 668,
+      "end": 743,
+      "expression": {
+        "type": "CallExpression",
+        "start": 668,
+        "end": 742,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 668,
+          "end": 681,
+          "object": {
+            "type": "Identifier",
+            "start": 668,
+            "end": 674,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 675,
+            "end": 681,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 682,
+            "end": 693,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 695,
+            "end": 741,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 706,
+              "end": 741,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 710,
+                  "end": 739,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 710,
+                    "end": 738,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 710,
+                      "end": 714,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 715,
+                        "end": 737,
+                        "value": "export default null;",
+                        "raw": "'export default null;'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

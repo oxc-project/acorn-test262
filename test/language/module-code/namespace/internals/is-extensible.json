@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 381,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 288,
+      "end": 329,
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 295,
+          "end": 302,
+          "local": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 302,
+            "name": "ns"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 308,
+        "end": 328,
+        "value": "./is-extensible.js",
+        "raw": "'./is-extensible.js'"
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 331,
+      "end": 380,
+      "expression": {
+        "type": "CallExpression",
+        "start": 331,
+        "end": 379,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 331,
+          "end": 347,
+          "object": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 337,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 347,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 348,
+            "end": 371,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 348,
+              "end": 367,
+              "object": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 354,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 355,
+                "end": 367,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 368,
+                "end": 370,
+                "name": "ns"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 373,
+            "end": 378,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

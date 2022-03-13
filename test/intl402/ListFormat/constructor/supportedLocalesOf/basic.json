@@ -1,0 +1,429 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 938,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 332,
+      "end": 464,
+      "expression": {
+        "type": "CallExpression",
+        "start": 332,
+        "end": 463,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 332,
+          "end": 348,
+          "object": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 338,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 348,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 349,
+            "end": 390,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 356,
+              "end": 390,
+              "object": {
+                "type": "MemberExpression",
+                "start": 356,
+                "end": 371,
+                "object": {
+                  "type": "Identifier",
+                  "start": 356,
+                  "end": 360,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 361,
+                  "end": 371,
+                  "name": "ListFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 372,
+                "end": 390,
+                "name": "supportedLocalesOf"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 392,
+            "end": 402,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 421,
+            "end": 462,
+            "value": "supportedLocalesOf should be supported.",
+            "raw": "\"supportedLocalesOf should be supported.\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 466,
+      "end": 535,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 472,
+          "end": 534,
+          "id": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 485,
+            "name": "defaultLocale"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 488,
+            "end": 534,
+            "object": {
+              "type": "CallExpression",
+              "start": 488,
+              "end": 527,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 488,
+                "end": 525,
+                "object": {
+                  "type": "NewExpression",
+                  "start": 488,
+                  "end": 509,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 492,
+                    "end": 507,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 492,
+                      "end": 496,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 497,
+                      "end": 507,
+                      "name": "ListFormat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": []
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 510,
+                  "end": 525,
+                  "name": "resolvedOptions"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 528,
+              "end": 534,
+              "name": "locale"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 536,
+      "end": 563,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 542,
+          "end": 562,
+          "id": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 554,
+            "name": "notSupported"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 557,
+            "end": 562,
+            "value": "zxx",
+            "raw": "'zxx'"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 591,
+      "end": 646,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 597,
+          "end": 645,
+          "id": {
+            "type": "Identifier",
+            "start": 597,
+            "end": 613,
+            "name": "requestedLocales"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 616,
+            "end": 645,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 617,
+                "end": 630,
+                "name": "defaultLocale"
+              },
+              {
+                "type": "Identifier",
+                "start": 632,
+                "end": 644,
+                "name": "notSupported"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 648,
+      "end": 726,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 654,
+          "end": 725,
+          "id": {
+            "type": "Identifier",
+            "start": 654,
+            "end": 670,
+            "name": "supportedLocales"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 673,
+            "end": 725,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 673,
+              "end": 707,
+              "object": {
+                "type": "MemberExpression",
+                "start": 673,
+                "end": 688,
+                "object": {
+                  "type": "Identifier",
+                  "start": 673,
+                  "end": 677,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 678,
+                  "end": 688,
+                  "name": "ListFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 689,
+                "end": 707,
+                "name": "supportedLocalesOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 708,
+                "end": 724,
+                "name": "requestedLocales"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 727,
+      "end": 822,
+      "expression": {
+        "type": "CallExpression",
+        "start": 727,
+        "end": 821,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 727,
+          "end": 743,
+          "object": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 733,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 734,
+            "end": 743,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 744,
+            "end": 767,
+            "object": {
+              "type": "Identifier",
+              "start": 744,
+              "end": 760,
+              "name": "supportedLocales"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 761,
+              "end": 767,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 769,
+            "end": 770,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 772,
+            "end": 820,
+            "value": "The length of supported locales list is not 1.",
+            "raw": "'The length of supported locales list is not 1.'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 823,
+      "end": 937,
+      "expression": {
+        "type": "CallExpression",
+        "start": 823,
+        "end": 936,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 823,
+          "end": 839,
+          "object": {
+            "type": "Identifier",
+            "start": 823,
+            "end": 829,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 830,
+            "end": 839,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 840,
+            "end": 859,
+            "object": {
+              "type": "Identifier",
+              "start": 840,
+              "end": 856,
+              "name": "supportedLocales"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 857,
+              "end": 858,
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 861,
+            "end": 874,
+            "name": "defaultLocale"
+          },
+          {
+            "type": "Literal",
+            "start": 876,
+            "end": 935,
+            "value": "The default locale is not returned in the supported list.",
+            "raw": "'The default locale is not returned in the supported list.'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 271,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 235,
+      "end": 270,
+      "expression": {
+        "type": "CallExpression",
+        "start": 235,
+        "end": 269,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 235,
+          "end": 251,
+          "object": {
+            "type": "Identifier",
+            "start": 235,
+            "end": 241,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 242,
+            "end": 251,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TaggedTemplateExpression",
+            "start": 252,
+            "end": 264,
+            "tag": {
+              "type": "MemberExpression",
+              "start": 252,
+              "end": 262,
+              "object": {
+                "type": "Identifier",
+                "start": 252,
+                "end": 258,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 259,
+                "end": 262,
+                "name": "raw"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "quasi": {
+              "type": "TemplateLiteral",
+              "start": 262,
+              "end": 264,
+              "expressions": [],
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 263,
+                  "end": 263,
+                  "value": {
+                    "raw": "",
+                    "cooked": ""
+                  },
+                  "tail": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 266,
+            "end": 268,
+            "value": "",
+            "raw": "''"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

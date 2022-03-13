@@ -1,0 +1,216 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 995,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 348,
+      "end": 374,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 352,
+          "end": 363,
+          "id": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 363,
+            "name": "__evaluated"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 365,
+          "end": 373,
+          "id": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 373,
+            "name": "__in__do"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 376,
+      "end": 427,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 376,
+        "end": 426,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 376,
+          "end": 387,
+          "name": "__evaluated"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 390,
+          "end": 426,
+          "callee": {
+            "type": "Identifier",
+            "start": 390,
+            "end": 394,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 395,
+              "end": 425,
+              "value": "do __in__do=1; while (false)",
+              "raw": "\"do __in__do=1; while (false)\""
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 517,
+      "end": 622,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 521,
+        "end": 535,
+        "left": {
+          "type": "Identifier",
+          "start": 521,
+          "end": 529,
+          "name": "__in__do"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 534,
+          "end": 535,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 537,
+        "end": 622,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 540,
+            "end": 620,
+            "argument": {
+              "type": "NewExpression",
+              "start": 546,
+              "end": 619,
+              "callee": {
+                "type": "Identifier",
+                "start": 550,
+                "end": 562,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 563,
+                  "end": 616,
+                  "left": {
+                    "type": "Literal",
+                    "start": 563,
+                    "end": 606,
+                    "value": "#1: __in__do === 1. Actual:  __in__do ===",
+                    "raw": "'#1: __in__do === 1. Actual:  __in__do ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 608,
+                    "end": 616,
+                    "name": "__in__do"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 795,
+      "end": 912,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 799,
+        "end": 816,
+        "left": {
+          "type": "Identifier",
+          "start": 799,
+          "end": 810,
+          "name": "__evaluated"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 815,
+          "end": 816,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 818,
+        "end": 912,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 821,
+            "end": 910,
+            "argument": {
+              "type": "NewExpression",
+              "start": 827,
+              "end": 909,
+              "callee": {
+                "type": "Identifier",
+                "start": 831,
+                "end": 843,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 844,
+                  "end": 906,
+                  "left": {
+                    "type": "Literal",
+                    "start": 844,
+                    "end": 893,
+                    "value": "#2: __evaluated === 1. Actual:  __evaluated ===",
+                    "raw": "'#2: __evaluated === 1. Actual:  __evaluated ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 895,
+                    "end": 906,
+                    "name": "__evaluated"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,376 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 803,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 429,
+      "end": 496,
+      "id": {
+        "type": "Identifier",
+        "start": 438,
+        "end": 441,
+        "name": "tag"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 442,
+          "end": 456,
+          "name": "templateObject"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 458,
+        "end": 496,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 462,
+            "end": 494,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 462,
+              "end": 493,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 476,
+                "name": "previousObject"
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 479,
+                "end": 493,
+                "name": "templateObject"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 497,
+      "end": 507,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 501,
+          "end": 506,
+          "id": {
+            "type": "Identifier",
+            "start": 501,
+            "end": 502,
+            "name": "a"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 505,
+            "end": 506,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 508,
+      "end": 531,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 512,
+          "end": 530,
+          "id": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 523,
+            "name": "firstObject"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 526,
+            "end": 530,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 532,
+      "end": 558,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 536,
+          "end": 557,
+          "id": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 550,
+            "name": "previousObject"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 553,
+            "end": 557,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 560,
+      "end": 578,
+      "expression": {
+        "type": "TaggedTemplateExpression",
+        "start": 560,
+        "end": 577,
+        "tag": {
+          "type": "Identifier",
+          "start": 560,
+          "end": 563,
+          "name": "tag"
+        },
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 563,
+          "end": 577,
+          "expressions": [
+            {
+              "type": "Identifier",
+              "start": 570,
+              "end": 571,
+              "name": "a"
+            }
+          ],
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 564,
+              "end": 568,
+              "value": {
+                "raw": "head",
+                "cooked": "head"
+              },
+              "tail": false
+            },
+            {
+              "type": "TemplateElement",
+              "start": 572,
+              "end": 576,
+              "value": {
+                "raw": "tail",
+                "cooked": "tail"
+              },
+              "tail": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 579,
+      "end": 608,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 579,
+        "end": 607,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 579,
+          "end": 590,
+          "name": "firstObject"
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 593,
+          "end": 607,
+          "name": "previousObject"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 609,
+      "end": 638,
+      "expression": {
+        "type": "CallExpression",
+        "start": 609,
+        "end": 637,
+        "callee": {
+          "type": "Identifier",
+          "start": 609,
+          "end": 615,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 616,
+            "end": 636,
+            "left": {
+              "type": "Identifier",
+              "start": 616,
+              "end": 627,
+              "name": "firstObject"
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 632,
+              "end": 636,
+              "value": null,
+              "raw": "null"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 639,
+      "end": 661,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 639,
+        "end": 660,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 639,
+          "end": 653,
+          "name": "previousObject"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 656,
+          "end": 660,
+          "value": null,
+          "raw": "null"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 663,
+      "end": 681,
+      "expression": {
+        "type": "TaggedTemplateExpression",
+        "start": 663,
+        "end": 680,
+        "tag": {
+          "type": "Identifier",
+          "start": 663,
+          "end": 666,
+          "name": "tag"
+        },
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 666,
+          "end": 680,
+          "expressions": [
+            {
+              "type": "Identifier",
+              "start": 673,
+              "end": 674,
+              "name": "a"
+            }
+          ],
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 667,
+              "end": 671,
+              "value": {
+                "raw": "head",
+                "cooked": "head"
+              },
+              "tail": false
+            },
+            {
+              "type": "TemplateElement",
+              "start": 675,
+              "end": 679,
+              "value": {
+                "raw": "tail",
+                "cooked": "tail"
+              },
+              "tail": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 682,
+      "end": 802,
+      "expression": {
+        "type": "CallExpression",
+        "start": 682,
+        "end": 801,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 682,
+          "end": 701,
+          "object": {
+            "type": "Identifier",
+            "start": 682,
+            "end": 688,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 689,
+            "end": 701,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 705,
+            "end": 719,
+            "name": "previousObject"
+          },
+          {
+            "type": "Identifier",
+            "start": 723,
+            "end": 734,
+            "name": "firstObject"
+          },
+          {
+            "type": "Literal",
+            "start": 738,
+            "end": 799,
+            "value": "The realm's template cache is by site, not string contents",
+            "raw": "'The realm\\'s template cache is by site, not string contents'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

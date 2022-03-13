@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 414,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 282,
+      "end": 292,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 286,
+          "end": 291,
+          "id": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 287,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 290,
+            "end": 291,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 293,
+      "end": 304,
+      "test": {
+        "type": "Literal",
+        "start": 297,
+        "end": 302,
+        "value": false,
+        "raw": "false"
+      },
+      "consequent": {
+        "type": "EmptyStatement",
+        "start": 303,
+        "end": 304
+      },
+      "alternate": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 305,
+      "end": 310,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 305,
+        "end": 310,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 305,
+          "end": 306,
+          "name": "x"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 309,
+          "end": 310,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 311,
+      "end": 413,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 315,
+        "end": 322,
+        "left": {
+          "type": "Identifier",
+          "start": 315,
+          "end": 316,
+          "name": "x"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 321,
+          "end": 322,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 324,
+        "end": 413,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 328,
+            "end": 411,
+            "argument": {
+              "type": "NewExpression",
+              "start": 334,
+              "end": 410,
+              "callee": {
+                "type": "Identifier",
+                "start": 338,
+                "end": 350,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 351,
+                  "end": 409,
+                  "value": "#1: Check If Statement for automatic semicolon insertion",
+                  "raw": "'#1: Check If Statement for automatic semicolon insertion'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

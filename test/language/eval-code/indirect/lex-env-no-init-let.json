@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 838,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 759,
+      "end": 837,
+      "expression": {
+        "type": "CallExpression",
+        "start": 759,
+        "end": 836,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 759,
+          "end": 772,
+          "object": {
+            "type": "Identifier",
+            "start": 759,
+            "end": 765,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 766,
+            "end": 772,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 773,
+            "end": 787,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 789,
+            "end": 835,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 800,
+              "end": 835,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 804,
+                  "end": 833,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 804,
+                    "end": 832,
+                    "callee": {
+                      "type": "ParenthesizedExpression",
+                      "start": 804,
+                      "end": 812,
+                      "expression": {
+                        "type": "SequenceExpression",
+                        "start": 805,
+                        "end": 811,
+                        "expressions": [
+                          {
+                            "type": "Literal",
+                            "start": 805,
+                            "end": 806,
+                            "value": 0,
+                            "raw": "0"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 807,
+                            "end": 811,
+                            "name": "eval"
+                          }
+                        ]
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 813,
+                        "end": 831,
+                        "value": "typeof x; let x;",
+                        "raw": "'typeof x; let x;'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

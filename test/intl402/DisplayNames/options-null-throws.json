@@ -1,0 +1,115 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 797,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 715,
+      "end": 796,
+      "expression": {
+        "type": "CallExpression",
+        "start": 715,
+        "end": 795,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 715,
+          "end": 728,
+          "object": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 721,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 728,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 729,
+            "end": 738,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 740,
+            "end": 786,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 746,
+              "end": 786,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 750,
+                  "end": 784,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 750,
+                    "end": 783,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 754,
+                      "end": 771,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 754,
+                        "end": 758,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 759,
+                        "end": 771,
+                        "name": "DisplayNames"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 772,
+                        "end": 776,
+                        "value": "en",
+                        "raw": "'en'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 778,
+                        "end": 782,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 788,
+            "end": 794,
+            "value": "null",
+            "raw": "'null'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

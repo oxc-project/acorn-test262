@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 338,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 234,
+      "end": 337,
+      "expression": {
+        "type": "CallExpression",
+        "start": 234,
+        "end": 336,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 234,
+          "end": 250,
+          "object": {
+            "type": "Identifier",
+            "start": 234,
+            "end": 240,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 241,
+            "end": 250,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 251,
+            "end": 285,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 257,
+              "end": 285,
+              "expression": {
+                "type": "MemberExpression",
+                "start": 258,
+                "end": 284,
+                "object": {
+                  "type": "Identifier",
+                  "start": 258,
+                  "end": 264,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 265,
+                  "end": 284,
+                  "name": "getOwnPropertyNames"
+                },
+                "computed": false,
+                "optional": false
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 287,
+            "end": 297,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 299,
+            "end": 335,
+            "value": "typeof(Object.getOwnPropertyNames)",
+            "raw": "'typeof(Object.getOwnPropertyNames)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,217 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 368,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 247,
+      "end": 257,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 251,
+          "end": 256,
+          "id": {
+            "type": "Identifier",
+            "start": 251,
+            "end": 252,
+            "name": "z"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 255,
+            "end": 256,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 258,
+      "end": 268,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 262,
+          "end": 267,
+          "id": {
+            "type": "Identifier",
+            "start": 262,
+            "end": 263,
+            "name": "s"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 266,
+            "end": 267,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ForStatement",
+      "start": 269,
+      "end": 316,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 274,
+        "end": 285,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 280,
+            "end": 285,
+            "id": {
+              "type": "Identifier",
+              "start": 280,
+              "end": 281,
+              "name": "x"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 284,
+              "end": 285,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 287,
+        "end": 292,
+        "left": {
+          "type": "Identifier",
+          "start": 287,
+          "end": 288,
+          "name": "z"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "start": 291,
+          "end": 292,
+          "value": 2,
+          "raw": "2"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 294,
+        "end": 297,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 294,
+          "end": 295,
+          "name": "z"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 299,
+        "end": 316,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 303,
+            "end": 314,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 303,
+              "end": 313,
+              "operator": "+=",
+              "left": {
+                "type": "Identifier",
+                "start": 303,
+                "end": 304,
+                "name": "s"
+              },
+              "right": {
+                "type": "BinaryExpression",
+                "start": 308,
+                "end": 313,
+                "left": {
+                  "type": "Identifier",
+                  "start": 308,
+                  "end": 309,
+                  "name": "x"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 312,
+                  "end": 313,
+                  "name": "z"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 317,
+      "end": 367,
+      "expression": {
+        "type": "CallExpression",
+        "start": 317,
+        "end": 366,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 317,
+          "end": 333,
+          "object": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 323,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 333,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 334,
+            "end": 335,
+            "name": "s"
+          },
+          {
+            "type": "Literal",
+            "start": 337,
+            "end": 338,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 340,
+            "end": 365,
+            "value": "The value of `s` is `2`",
+            "raw": "\"The value of `s` is `2`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

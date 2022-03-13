@@ -1,0 +1,61 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 558,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 522,
+      "end": 557,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 522,
+        "end": 556,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 522,
+          "end": 532,
+          "name": "undeclared"
+        },
+        "right": {
+          "type": "ParenthesizedExpression",
+          "start": 535,
+          "end": 556,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 536,
+            "end": 555,
+            "operator": "=",
+            "left": {
+              "type": "MemberExpression",
+              "start": 536,
+              "end": 551,
+              "object": {
+                "type": "ThisExpression",
+                "start": 536,
+                "end": 540
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 541,
+                "end": 551,
+                "name": "undeclared"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "right": {
+              "type": "Literal",
+              "start": 554,
+              "end": 555,
+              "value": 5,
+              "raw": "5"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

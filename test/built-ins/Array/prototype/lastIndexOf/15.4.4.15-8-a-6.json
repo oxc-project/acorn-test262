@@ -1,0 +1,303 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 524,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 299,
+      "end": 312,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 303,
+          "end": 311,
+          "id": {
+            "type": "Identifier",
+            "start": 303,
+            "end": 306,
+            "name": "arr"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 309,
+            "end": 311,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 313,
+      "end": 328,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 313,
+        "end": 327,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 313,
+          "end": 320,
+          "object": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 316,
+            "name": "arr"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 317,
+            "end": 319,
+            "value": 10,
+            "raw": "10"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 323,
+          "end": 327,
+          "value": "10",
+          "raw": "\"10\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 329,
+      "end": 345,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 329,
+        "end": 344,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 329,
+          "end": 339,
+          "object": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 332,
+            "name": "arr"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 339,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 342,
+          "end": 344,
+          "value": 20,
+          "raw": "20"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 347,
+      "end": 430,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 351,
+          "end": 429,
+          "id": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 360,
+            "name": "fromIndex"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 363,
+            "end": 429,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 367,
+                "end": 427,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 367,
+                  "end": 374,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 376,
+                  "end": 427,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 387,
+                    "end": 427,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 393,
+                        "end": 408,
+                        "expression": {
+                          "type": "UnaryExpression",
+                          "start": 393,
+                          "end": 407,
+                          "operator": "delete",
+                          "prefix": true,
+                          "argument": {
+                            "type": "MemberExpression",
+                            "start": 400,
+                            "end": 407,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 400,
+                              "end": 403,
+                              "name": "arr"
+                            },
+                            "property": {
+                              "type": "Literal",
+                              "start": 404,
+                              "end": 406,
+                              "value": 10,
+                              "raw": "10"
+                            },
+                            "computed": true,
+                            "optional": false
+                          }
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 413,
+                        "end": 423,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 420,
+                          "end": 422,
+                          "value": 11,
+                          "raw": "11"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 432,
+      "end": 523,
+      "expression": {
+        "type": "CallExpression",
+        "start": 432,
+        "end": 522,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 432,
+          "end": 448,
+          "object": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 438,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 448,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 449,
+            "end": 481,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 449,
+              "end": 464,
+              "object": {
+                "type": "Identifier",
+                "start": 449,
+                "end": 452,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 453,
+                "end": 464,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 465,
+                "end": 469,
+                "value": "10",
+                "raw": "\"10\""
+              },
+              {
+                "type": "Identifier",
+                "start": 471,
+                "end": 480,
+                "name": "fromIndex"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 483,
+            "end": 485,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 484,
+              "end": 485,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 487,
+            "end": 521,
+            "value": "arr.lastIndexOf(\"10\", fromIndex)",
+            "raw": "'arr.lastIndexOf(\"10\", fromIndex)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

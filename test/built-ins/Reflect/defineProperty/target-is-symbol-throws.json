@@ -1,0 +1,129 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 487,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 399,
+      "end": 486,
+      "expression": {
+        "type": "CallExpression",
+        "start": 399,
+        "end": 485,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 399,
+          "end": 412,
+          "object": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 405,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 406,
+            "end": 412,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 413,
+            "end": 422,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 424,
+            "end": 484,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 435,
+              "end": 484,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 439,
+                  "end": 482,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 439,
+                    "end": 481,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 439,
+                      "end": 461,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 439,
+                        "end": 446,
+                        "name": "Reflect"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 447,
+                        "end": 461,
+                        "name": "defineProperty"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 462,
+                        "end": 471,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 462,
+                          "end": 468,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 469,
+                            "end": 470,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 473,
+                        "end": 476,
+                        "value": "p",
+                        "raw": "'p'"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 478,
+                        "end": 480,
+                        "properties": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

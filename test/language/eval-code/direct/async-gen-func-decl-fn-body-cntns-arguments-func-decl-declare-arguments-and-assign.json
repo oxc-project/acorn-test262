@@ -1,0 +1,230 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 739,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 490,
+      "end": 532,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 496,
+          "end": 531,
+          "id": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 508,
+            "name": "oldArguments"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 511,
+            "end": 531,
+            "object": {
+              "type": "Identifier",
+              "start": 511,
+              "end": 521,
+              "name": "globalThis"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 522,
+              "end": 531,
+              "name": "arguments"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 533,
+      "end": 618,
+      "id": {
+        "type": "Identifier",
+        "start": 550,
+        "end": 551,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": true,
+      "async": true,
+      "params": [
+        {
+          "type": "AssignmentPattern",
+          "start": 552,
+          "end": 587,
+          "left": {
+            "type": "Identifier",
+            "start": 552,
+            "end": 553,
+            "name": "p"
+          },
+          "right": {
+            "type": "CallExpression",
+            "start": 556,
+            "end": 587,
+            "callee": {
+              "type": "Identifier",
+              "start": 556,
+              "end": 560,
+              "name": "eval"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 561,
+                "end": 586,
+                "value": "var arguments = 'param'",
+                "raw": "\"var arguments = 'param'\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 589,
+        "end": 618,
+        "body": [
+          {
+            "type": "FunctionDeclaration",
+            "start": 593,
+            "end": 616,
+            "id": {
+              "type": "Identifier",
+              "start": 602,
+              "end": 611,
+              "name": "arguments"
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 614,
+              "end": 616,
+              "body": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 620,
+      "end": 650,
+      "expression": {
+        "type": "CallExpression",
+        "start": 620,
+        "end": 649,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 620,
+          "end": 633,
+          "object": {
+            "type": "Identifier",
+            "start": 620,
+            "end": 626,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 627,
+            "end": 633,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 634,
+            "end": 645,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "Identifier",
+            "start": 647,
+            "end": 648,
+            "name": "f"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 738,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 737,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 651,
+          "end": 667,
+          "object": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 657,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 667,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 668,
+            "end": 688,
+            "object": {
+              "type": "Identifier",
+              "start": 668,
+              "end": 678,
+              "name": "globalThis"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 679,
+              "end": 688,
+              "name": "arguments"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 690,
+            "end": 702,
+            "name": "oldArguments"
+          },
+          {
+            "type": "Literal",
+            "start": 704,
+            "end": 736,
+            "value": "globalThis.arguments unchanged",
+            "raw": "\"globalThis.arguments unchanged\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 488,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 285,
+      "end": 397,
+      "expression": {
+        "type": "CallExpression",
+        "start": 285,
+        "end": 396,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 285,
+          "end": 301,
+          "object": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 291,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 301,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 302,
+            "end": 335,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 302,
+              "end": 325,
+              "object": {
+                "type": "MemberExpression",
+                "start": 302,
+                "end": 310,
+                "object": {
+                  "type": "Identifier",
+                  "start": 302,
+                  "end": 306,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 307,
+                  "end": 310,
+                  "name": "UTC"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 311,
+                "end": 325,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 326,
+                "end": 334,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 337,
+            "end": 341,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 343,
+            "end": 395,
+            "value": "Date.UTC.hasOwnProperty(\"length\") must return true",
+            "raw": "'Date.UTC.hasOwnProperty(\"length\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 398,
+      "end": 487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 398,
+        "end": 486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 398,
+          "end": 414,
+          "object": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 404,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 414,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 415,
+            "end": 430,
+            "object": {
+              "type": "MemberExpression",
+              "start": 415,
+              "end": 423,
+              "object": {
+                "type": "Identifier",
+                "start": 415,
+                "end": 419,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 423,
+                "name": "UTC"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 424,
+              "end": 430,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 432,
+            "end": 433,
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "type": "Literal",
+            "start": 435,
+            "end": 485,
+            "value": "The value of Date.UTC.length is expected to be 7",
+            "raw": "'The value of Date.UTC.length is expected to be 7'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

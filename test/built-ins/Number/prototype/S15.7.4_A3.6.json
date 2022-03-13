@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 431,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 280,
+      "end": 430,
+      "expression": {
+        "type": "CallExpression",
+        "start": 280,
+        "end": 429,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 280,
+          "end": 296,
+          "object": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 286,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 296,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 300,
+            "end": 348,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 300,
+              "end": 331,
+              "object": {
+                "type": "MemberExpression",
+                "start": 300,
+                "end": 316,
+                "object": {
+                  "type": "Identifier",
+                  "start": 300,
+                  "end": 306,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 307,
+                  "end": 316,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 317,
+                "end": 331,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 332,
+                "end": 347,
+                "value": "toExponential",
+                "raw": "\"toExponential\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 352,
+            "end": 356,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 427,
+            "value": "Number.prototype.hasOwnProperty(\"toExponential\") must return true",
+            "raw": "'Number.prototype.hasOwnProperty(\"toExponential\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

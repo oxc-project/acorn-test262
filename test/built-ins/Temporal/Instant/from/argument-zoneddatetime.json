@@ -1,0 +1,206 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 823,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 609,
+      "end": 822,
+      "expression": {
+        "type": "CallExpression",
+        "start": 609,
+        "end": 821,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 609,
+          "end": 655,
+          "object": {
+            "type": "Identifier",
+            "start": 609,
+            "end": 624,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 625,
+            "end": 655,
+            "name": "checkToTemporalInstantFastPath"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 656,
+            "end": 820,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 657,
+                "end": 665,
+                "name": "datetime"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 670,
+              "end": 820,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 674,
+                  "end": 721,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 680,
+                      "end": 720,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 680,
+                        "end": 686,
+                        "name": "result"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 689,
+                        "end": 720,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 689,
+                          "end": 710,
+                          "object": {
+                            "type": "MemberExpression",
+                            "start": 689,
+                            "end": 705,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 689,
+                              "end": 697,
+                              "name": "Temporal"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 698,
+                              "end": 705,
+                              "name": "Instant"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 706,
+                            "end": 710,
+                            "name": "from"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 711,
+                            "end": 719,
+                            "name": "datetime"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 724,
+                  "end": 818,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 724,
+                    "end": 817,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 724,
+                      "end": 740,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 724,
+                        "end": 730,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 731,
+                        "end": 740,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 741,
+                        "end": 764,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 741,
+                          "end": 747,
+                          "name": "result"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 748,
+                          "end": 764,
+                          "name": "epochNanoseconds"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "MemberExpression",
+                        "start": 766,
+                        "end": 789,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 766,
+                          "end": 772,
+                          "name": "result"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 773,
+                          "end": 789,
+                          "name": "epochNanoseconds"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 791,
+                        "end": 816,
+                        "value": "epochNanoseconds result",
+                        "raw": "\"epochNanoseconds result\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

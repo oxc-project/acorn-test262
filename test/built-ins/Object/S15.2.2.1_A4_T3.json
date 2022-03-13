@@ -1,0 +1,310 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 792,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 355,
+      "end": 401,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 359,
+          "end": 400,
+          "id": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 364,
+            "name": "n_obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 367,
+            "end": 400,
+            "callee": {
+              "type": "Identifier",
+              "start": 371,
+              "end": 377,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "LogicalExpression",
+                "start": 378,
+                "end": 399,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 378,
+                  "end": 387,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 379,
+                    "end": 386,
+                    "left": {
+                      "type": "Literal",
+                      "start": 379,
+                      "end": 380,
+                      "value": 1,
+                      "raw": "1"
+                    },
+                    "operator": "===",
+                    "right": {
+                      "type": "Literal",
+                      "start": 385,
+                      "end": 386,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                },
+                "operator": "&&",
+                "right": {
+                  "type": "UnaryExpression",
+                  "start": 391,
+                  "end": 399,
+                  "operator": "!",
+                  "prefix": true,
+                  "argument": {
+                    "type": "ParenthesizedExpression",
+                    "start": 392,
+                    "end": 399,
+                    "expression": {
+                      "type": "Literal",
+                      "start": 393,
+                      "end": 398,
+                      "value": false,
+                      "raw": "false"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 403,
+      "end": 532,
+      "expression": {
+        "type": "CallExpression",
+        "start": 403,
+        "end": 531,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 403,
+          "end": 419,
+          "object": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 409,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 419,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 423,
+            "end": 440,
+            "object": {
+              "type": "Identifier",
+              "start": 423,
+              "end": 428,
+              "name": "n_obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 429,
+              "end": 440,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 444,
+            "end": 451,
+            "name": "Boolean"
+          },
+          {
+            "type": "Literal",
+            "start": 455,
+            "end": 529,
+            "value": "The value of n_obj.constructor is expected to equal the value of Boolean",
+            "raw": "'The value of n_obj.constructor is expected to equal the value of Boolean'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 534,
+      "end": 633,
+      "expression": {
+        "type": "CallExpression",
+        "start": 534,
+        "end": 632,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 534,
+          "end": 550,
+          "object": {
+            "type": "Identifier",
+            "start": 534,
+            "end": 540,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 541,
+            "end": 550,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 551,
+            "end": 563,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 558,
+              "end": 563,
+              "name": "n_obj"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 565,
+            "end": 573,
+            "value": "object",
+            "raw": "'object'"
+          },
+          {
+            "type": "Literal",
+            "start": 575,
+            "end": 631,
+            "value": "The value of `typeof n_obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 634,
+      "end": 723,
+      "expression": {
+        "type": "CallExpression",
+        "start": 634,
+        "end": 722,
+        "callee": {
+          "type": "Identifier",
+          "start": 634,
+          "end": 640,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 641,
+            "end": 654,
+            "left": {
+              "type": "Identifier",
+              "start": 641,
+              "end": 646,
+              "name": "n_obj"
+            },
+            "operator": "==",
+            "right": {
+              "type": "Literal",
+              "start": 650,
+              "end": 654,
+              "value": true,
+              "raw": "true"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 656,
+            "end": 721,
+            "value": "The result of evaluating (n_obj == true) is expected to be true",
+            "raw": "'The result of evaluating (n_obj == true) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 724,
+      "end": 791,
+      "expression": {
+        "type": "CallExpression",
+        "start": 724,
+        "end": 790,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 724,
+          "end": 743,
+          "object": {
+            "type": "Identifier",
+            "start": 724,
+            "end": 730,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 743,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 744,
+            "end": 749,
+            "name": "n_obj"
+          },
+          {
+            "type": "Literal",
+            "start": 751,
+            "end": 755,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 757,
+            "end": 789,
+            "value": "The value of n_obj is not true",
+            "raw": "'The value of n_obj is not true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

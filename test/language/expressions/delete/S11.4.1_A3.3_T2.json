@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 614,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 332,
+      "end": 356,
+      "id": {
+        "type": "Identifier",
+        "start": 341,
+        "end": 351,
+        "name": "MyFunction"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 354,
+        "end": 356,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 357,
+      "end": 377,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 357,
+        "end": 376,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 357,
+          "end": 372,
+          "object": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 367,
+            "name": "MyFunction"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 372,
+            "name": "prop"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 375,
+          "end": 376,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 378,
+      "end": 401,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 378,
+        "end": 400,
+        "operator": "delete",
+        "prefix": true,
+        "argument": {
+          "type": "MemberExpression",
+          "start": 385,
+          "end": 400,
+          "object": {
+            "type": "Identifier",
+            "start": 385,
+            "end": 395,
+            "name": "MyFunction"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 400,
+            "name": "prop"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 402,
+      "end": 613,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 406,
+        "end": 435,
+        "left": {
+          "type": "MemberExpression",
+          "start": 406,
+          "end": 421,
+          "object": {
+            "type": "Identifier",
+            "start": 406,
+            "end": 416,
+            "name": "MyFunction"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 421,
+            "name": "prop"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 426,
+          "end": 435,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 437,
+        "end": 613,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 441,
+            "end": 611,
+            "argument": {
+              "type": "NewExpression",
+              "start": 447,
+              "end": 610,
+              "callee": {
+                "type": "Identifier",
+                "start": 451,
+                "end": 463,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 469,
+                  "end": 606,
+                  "left": {
+                    "type": "Literal",
+                    "start": 469,
+                    "end": 584,
+                    "value": "#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop; MyFunction.prop === undefined. Actual: ",
+                    "raw": "'#1: function MyFunction(){}; MyFunction.prop = 1; delete MyFunction.prop; MyFunction.prop === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 591,
+                    "end": 606,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 591,
+                      "end": 601,
+                      "name": "MyFunction"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 602,
+                      "end": 606,
+                      "name": "prop"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

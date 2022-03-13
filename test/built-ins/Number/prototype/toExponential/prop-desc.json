@@ -1,0 +1,143 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 672,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 510,
+      "end": 565,
+      "expression": {
+        "type": "CallExpression",
+        "start": 510,
+        "end": 564,
+        "callee": {
+          "type": "Identifier",
+          "start": 510,
+          "end": 529,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 530,
+            "end": 546,
+            "object": {
+              "type": "Identifier",
+              "start": 530,
+              "end": 536,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 537,
+              "end": 546,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 548,
+            "end": 563,
+            "value": "toExponential",
+            "raw": "\"toExponential\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 566,
+      "end": 616,
+      "expression": {
+        "type": "CallExpression",
+        "start": 566,
+        "end": 615,
+        "callee": {
+          "type": "Identifier",
+          "start": 566,
+          "end": 580,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 581,
+            "end": 597,
+            "object": {
+              "type": "Identifier",
+              "start": 581,
+              "end": 587,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 588,
+              "end": 597,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 599,
+            "end": 614,
+            "value": "toExponential",
+            "raw": "\"toExponential\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 617,
+      "end": 671,
+      "expression": {
+        "type": "CallExpression",
+        "start": 617,
+        "end": 670,
+        "callee": {
+          "type": "Identifier",
+          "start": 617,
+          "end": 635,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 636,
+            "end": 652,
+            "object": {
+              "type": "Identifier",
+              "start": 636,
+              "end": 642,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 643,
+              "end": 652,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 654,
+            "end": 669,
+            "value": "toExponential",
+            "raw": "\"toExponential\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

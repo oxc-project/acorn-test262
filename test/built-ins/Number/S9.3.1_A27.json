@@ -1,0 +1,274 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 610,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 391,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 390,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 323,
+          "end": 339,
+          "object": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 339,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 340,
+            "end": 353,
+            "callee": {
+              "type": "Identifier",
+              "start": 340,
+              "end": 346,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 347,
+                "end": 352,
+                "value": "0xb",
+                "raw": "\"0xb\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 355,
+            "end": 357,
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "type": "Literal",
+            "start": 359,
+            "end": 389,
+            "value": "Number(\"0xb\") must return 11",
+            "raw": "'Number(\"0xb\") must return 11'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 392,
+      "end": 460,
+      "expression": {
+        "type": "CallExpression",
+        "start": 392,
+        "end": 459,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 392,
+          "end": 408,
+          "object": {
+            "type": "Identifier",
+            "start": 392,
+            "end": 398,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 408,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 409,
+            "end": 422,
+            "callee": {
+              "type": "Identifier",
+              "start": 409,
+              "end": 415,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 416,
+                "end": 421,
+                "value": "0xB",
+                "raw": "\"0xB\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 424,
+            "end": 426,
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "type": "Literal",
+            "start": 428,
+            "end": 458,
+            "value": "Number(\"0xB\") must return 11",
+            "raw": "'Number(\"0xB\") must return 11'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 461,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 461,
+        "end": 539,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 461,
+          "end": 477,
+          "object": {
+            "type": "Identifier",
+            "start": 461,
+            "end": 467,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 477,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 478,
+            "end": 486,
+            "operator": "+",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 479,
+              "end": 486,
+              "expression": {
+                "type": "Literal",
+                "start": 480,
+                "end": 485,
+                "value": "0Xb",
+                "raw": "\"0Xb\""
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 488,
+            "end": 490,
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "type": "Literal",
+            "start": 492,
+            "end": 538,
+            "value": "The value of `+(\"0Xb\")` is expected to be 11",
+            "raw": "'The value of `+(\"0Xb\")` is expected to be 11'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 541,
+      "end": 609,
+      "expression": {
+        "type": "CallExpression",
+        "start": 541,
+        "end": 608,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 541,
+          "end": 557,
+          "object": {
+            "type": "Identifier",
+            "start": 541,
+            "end": 547,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 557,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 558,
+            "end": 571,
+            "callee": {
+              "type": "Identifier",
+              "start": 558,
+              "end": 564,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 565,
+                "end": 570,
+                "value": "0XB",
+                "raw": "\"0XB\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 573,
+            "end": 575,
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "type": "Literal",
+            "start": 577,
+            "end": 607,
+            "value": "Number(\"0XB\") must return 11",
+            "raw": "'Number(\"0XB\") must return 11'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

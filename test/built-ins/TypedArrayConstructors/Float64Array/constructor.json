@@ -1,0 +1,67 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 345,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 257,
+      "end": 344,
+      "expression": {
+        "type": "CallExpression",
+        "start": 257,
+        "end": 343,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 257,
+          "end": 273,
+          "object": {
+            "type": "Identifier",
+            "start": 257,
+            "end": 263,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 264,
+            "end": 273,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 274,
+            "end": 293,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 281,
+              "end": 293,
+              "name": "Float64Array"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 295,
+            "end": 305,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 307,
+            "end": 342,
+            "value": "typeof Float64Array is \"function\"",
+            "raw": "'typeof Float64Array is \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

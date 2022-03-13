@@ -1,0 +1,177 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 499,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 317,
+      "end": 498,
+      "expression": {
+        "type": "CallExpression",
+        "start": 317,
+        "end": 497,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 317,
+          "end": 348,
+          "object": {
+            "type": "CallExpression",
+            "start": 317,
+            "end": 340,
+            "callee": {
+              "type": "Identifier",
+              "start": 317,
+              "end": 338,
+              "name": "getDateTimeComponents"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 348,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 349,
+            "end": 496,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 359,
+                "end": 368,
+                "name": "component"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 370,
+              "end": 496,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 376,
+                  "end": 494,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 376,
+                    "end": 493,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 376,
+                      "end": 386,
+                      "name": "testOption"
+                    },
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 387,
+                        "end": 406,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 387,
+                          "end": 391,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 392,
+                          "end": 406,
+                          "name": "DateTimeFormat"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 408,
+                        "end": 417,
+                        "name": "component"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 419,
+                        "end": 427,
+                        "value": "string",
+                        "raw": "\"string\""
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 429,
+                        "end": 466,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 429,
+                          "end": 455,
+                          "name": "getDateTimeComponentValues"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 456,
+                            "end": 465,
+                            "name": "component"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 468,
+                        "end": 477,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 479,
+                        "end": 492,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 480,
+                            "end": 491,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 480,
+                              "end": 485,
+                              "name": "isILD"
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 487,
+                              "end": 491,
+                              "value": true,
+                              "raw": "true"
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,242 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 443,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 251,
+      "end": 278,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 255,
+          "end": 277,
+          "id": {
+            "type": "Identifier",
+            "start": 255,
+            "end": 256,
+            "name": "a"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 259,
+            "end": 277,
+            "callee": {
+              "type": "Identifier",
+              "start": 263,
+              "end": 268,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 269,
+                "end": 270,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 272,
+                "end": 273,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 275,
+                "end": 276,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 302,
+      "end": 372,
+      "expression": {
+        "type": "CallExpression",
+        "start": 302,
+        "end": 371,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 302,
+          "end": 318,
+          "object": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 308,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 318,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 319,
+            "end": 341,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 319,
+              "end": 332,
+              "object": {
+                "type": "Identifier",
+                "start": 319,
+                "end": 320,
+                "name": "a"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 332,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 333,
+                "end": 334,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 336,
+                "end": 340,
+                "value": null,
+                "raw": "null"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 343,
+            "end": 345,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 344,
+              "end": 345,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 347,
+            "end": 370,
+            "value": "a.lastIndexOf(2,null)",
+            "raw": "'a.lastIndexOf(2,null)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 373,
+      "end": 442,
+      "expression": {
+        "type": "CallExpression",
+        "start": 373,
+        "end": 441,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 373,
+          "end": 389,
+          "object": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 379,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 380,
+            "end": 389,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 390,
+            "end": 412,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 390,
+              "end": 403,
+              "object": {
+                "type": "Identifier",
+                "start": 390,
+                "end": 391,
+                "name": "a"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 392,
+                "end": 403,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 404,
+                "end": 405,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 407,
+                "end": 411,
+                "value": null,
+                "raw": "null"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 414,
+            "end": 415,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 417,
+            "end": 440,
+            "value": "a.lastIndexOf(1,null)",
+            "raw": "'a.lastIndexOf(1,null)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

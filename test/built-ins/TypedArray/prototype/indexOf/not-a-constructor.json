@@ -1,0 +1,231 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1028,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 731,
+      "end": 873,
+      "expression": {
+        "type": "CallExpression",
+        "start": 731,
+        "end": 872,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 731,
+          "end": 747,
+          "object": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 737,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 738,
+            "end": 747,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 751,
+            "end": 794,
+            "callee": {
+              "type": "Identifier",
+              "start": 751,
+              "end": 764,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 765,
+                "end": 793,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 765,
+                  "end": 785,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 765,
+                    "end": 775,
+                    "name": "TypedArray"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 776,
+                    "end": 785,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 786,
+                  "end": 793,
+                  "name": "indexOf"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 798,
+            "end": 803,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 807,
+            "end": 870,
+            "value": "isConstructor(TypedArray.prototype.indexOf) must return false",
+            "raw": "'isConstructor(TypedArray.prototype.indexOf) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 875,
+      "end": 1026,
+      "expression": {
+        "type": "CallExpression",
+        "start": 875,
+        "end": 1025,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 875,
+          "end": 888,
+          "object": {
+            "type": "Identifier",
+            "start": 875,
+            "end": 881,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 882,
+            "end": 888,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 889,
+            "end": 898,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 900,
+            "end": 957,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 906,
+              "end": 957,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 910,
+                  "end": 937,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 914,
+                      "end": 936,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 914,
+                        "end": 916,
+                        "name": "u8"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 919,
+                        "end": 936,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 923,
+                          "end": 933,
+                          "name": "Uint8Array"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 934,
+                            "end": 935,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 938,
+                  "end": 955,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 938,
+                    "end": 954,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 942,
+                      "end": 952,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 942,
+                        "end": 944,
+                        "name": "u8"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 945,
+                        "end": 952,
+                        "name": "indexOf"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 959,
+            "end": 1024,
+            "value": "`let u8 = new Uint8Array(1); new u8.indexOf()` throws TypeError",
+            "raw": "'`let u8 = new Uint8Array(1); new u8.indexOf()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,171 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 760,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 609,
+      "end": 667,
+      "id": {
+        "type": "Identifier",
+        "start": 615,
+        "end": 619,
+        "name": "Test"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 620,
+        "end": 667,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 624,
+            "end": 648,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 624,
+              "end": 625,
+              "name": "f"
+            },
+            "value": {
+              "type": "CallExpression",
+              "start": 628,
+              "end": 647,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 628,
+                "end": 641,
+                "object": {
+                  "type": "Identifier",
+                  "start": 628,
+                  "end": 634,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 635,
+                  "end": 641,
+                  "name": "freeze"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ThisExpression",
+                  "start": 642,
+                  "end": 646
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 651,
+            "end": 665,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 651,
+              "end": 652,
+              "name": "g"
+            },
+            "value": {
+              "type": "Literal",
+              "start": 655,
+              "end": 664,
+              "value": "Test262",
+              "raw": "\"Test262\""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 669,
+      "end": 759,
+      "expression": {
+        "type": "CallExpression",
+        "start": 669,
+        "end": 758,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 669,
+          "end": 682,
+          "object": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 675,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 682,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 683,
+            "end": 692,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 694,
+            "end": 722,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 705,
+              "end": 722,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 709,
+                  "end": 720,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 709,
+                    "end": 719,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 713,
+                      "end": 717,
+                      "name": "Test"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 724,
+            "end": 757,
+            "value": "Frozen objects can't be changed",
+            "raw": "\"Frozen objects can't be changed\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

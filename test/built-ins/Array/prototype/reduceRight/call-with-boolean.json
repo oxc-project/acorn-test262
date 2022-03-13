@@ -1,0 +1,294 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 563,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 251,
+      "end": 405,
+      "expression": {
+        "type": "CallExpression",
+        "start": 251,
+        "end": 404,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 251,
+          "end": 267,
+          "object": {
+            "type": "Identifier",
+            "start": 251,
+            "end": 257,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 258,
+            "end": 267,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 271,
+            "end": 323,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 271,
+              "end": 303,
+              "object": {
+                "type": "MemberExpression",
+                "start": 271,
+                "end": 298,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 271,
+                  "end": 286,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 271,
+                    "end": 276,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 277,
+                    "end": 286,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 287,
+                  "end": 298,
+                  "name": "reduceRight"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 299,
+                "end": 303,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 304,
+                "end": 308,
+                "value": true,
+                "raw": "true"
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 310,
+                "end": 318,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 316,
+                  "end": 318,
+                  "body": []
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 320,
+                "end": 322,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 321,
+                  "end": 322,
+                  "value": 1,
+                  "raw": "1"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 327,
+            "end": 329,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 328,
+              "end": 329,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 333,
+            "end": 402,
+            "value": "Array.prototype.reduceRight.call(true, () => {}, -1) must return -1",
+            "raw": "'Array.prototype.reduceRight.call(true, () => {}, -1) must return -1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 406,
+      "end": 562,
+      "expression": {
+        "type": "CallExpression",
+        "start": 406,
+        "end": 561,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 406,
+          "end": 422,
+          "object": {
+            "type": "Identifier",
+            "start": 406,
+            "end": 412,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 413,
+            "end": 422,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 426,
+            "end": 479,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 426,
+              "end": 458,
+              "object": {
+                "type": "MemberExpression",
+                "start": 426,
+                "end": 453,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 426,
+                  "end": 441,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 426,
+                    "end": 431,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 432,
+                    "end": 441,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 442,
+                  "end": 453,
+                  "name": "reduceRight"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 454,
+                "end": 458,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 459,
+                "end": 464,
+                "value": false,
+                "raw": "false"
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 466,
+                "end": 474,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 472,
+                  "end": 474,
+                  "body": []
+                }
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 476,
+                "end": 478,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 477,
+                  "end": 478,
+                  "value": 1,
+                  "raw": "1"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 483,
+            "end": 485,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 484,
+              "end": 485,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 489,
+            "end": 559,
+            "value": "Array.prototype.reduceRight.call(false, () => {}, -1) must return -1",
+            "raw": "'Array.prototype.reduceRight.call(false, () => {}, -1) must return -1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 582,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 362,
+      "end": 380,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 366,
+          "end": 379,
+          "id": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 372,
+            "name": "global"
+          },
+          "init": {
+            "type": "ThisExpression",
+            "start": 375,
+            "end": 379
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 382,
+      "end": 581,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 386,
+        "end": 535,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 388,
+          "end": 535,
+          "expression": {
+            "type": "CallExpression",
+            "start": 389,
+            "end": 534,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 389,
+              "end": 532,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 390,
+                "end": 531,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 402,
+                  "end": 531,
+                  "body": [
+                    {
+                      "type": "FunctionDeclaration",
+                      "start": 408,
+                      "end": 478,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 417,
+                        "end": 418,
+                        "name": "f"
+                      },
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 421,
+                        "end": 478,
+                        "body": [
+                          {
+                            "type": "ExpressionStatement",
+                            "start": 431,
+                            "end": 444,
+                            "expression": {
+                              "type": "Literal",
+                              "start": 431,
+                              "end": 443,
+                              "value": "use strict",
+                              "raw": "\"use strict\""
+                            },
+                            "directive": "use strict"
+                          },
+                          {
+                            "type": "ReturnStatement",
+                            "start": 453,
+                            "end": 472,
+                            "argument": {
+                              "type": "UnaryExpression",
+                              "start": 460,
+                              "end": 471,
+                              "operator": "typeof",
+                              "prefix": true,
+                              "argument": {
+                                "type": "ThisExpression",
+                                "start": 467,
+                                "end": 471
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "ReturnStatement",
+                      "start": 483,
+                      "end": 529,
+                      "argument": {
+                        "type": "LogicalExpression",
+                        "start": 490,
+                        "end": 528,
+                        "left": {
+                          "type": "ParenthesizedExpression",
+                          "start": 490,
+                          "end": 509,
+                          "expression": {
+                            "type": "BinaryExpression",
+                            "start": 491,
+                            "end": 508,
+                            "left": {
+                              "type": "CallExpression",
+                              "start": 491,
+                              "end": 494,
+                              "callee": {
+                                "type": "Identifier",
+                                "start": 491,
+                                "end": 492,
+                                "name": "f"
+                              },
+                              "arguments": [],
+                              "optional": false
+                            },
+                            "operator": "===",
+                            "right": {
+                              "type": "Literal",
+                              "start": 497,
+                              "end": 508,
+                              "value": "undefined",
+                              "raw": "\"undefined\""
+                            }
+                          }
+                        },
+                        "operator": "&&",
+                        "right": {
+                          "type": "ParenthesizedExpression",
+                          "start": 513,
+                          "end": 528,
+                          "expression": {
+                            "type": "BinaryExpression",
+                            "start": 514,
+                            "end": 527,
+                            "left": {
+                              "type": "ThisExpression",
+                              "start": 514,
+                              "end": 518
+                            },
+                            "operator": "===",
+                            "right": {
+                              "type": "Identifier",
+                              "start": 521,
+                              "end": 527,
+                              "name": "global"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 537,
+        "end": 581,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 543,
+            "end": 579,
+            "argument": {
+              "type": "Literal",
+              "start": 549,
+              "end": 578,
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

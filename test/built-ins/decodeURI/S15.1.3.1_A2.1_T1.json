@@ -1,0 +1,391 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 678,
+  "body": [
+    {
+      "type": "ForStatement",
+      "start": 296,
+      "end": 677,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 301,
+        "end": 315,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 305,
+            "end": 315,
+            "id": {
+              "type": "Identifier",
+              "start": 305,
+              "end": 311,
+              "name": "indexI"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 314,
+              "end": 315,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 317,
+        "end": 332,
+        "left": {
+          "type": "Identifier",
+          "start": 317,
+          "end": 323,
+          "name": "indexI"
+        },
+        "operator": "<=",
+        "right": {
+          "type": "Literal",
+          "start": 327,
+          "end": 332,
+          "value": 65535,
+          "raw": "65535"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 334,
+        "end": 342,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 334,
+          "end": 340,
+          "name": "indexI"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 344,
+        "end": 677,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 348,
+            "end": 675,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 352,
+              "end": 367,
+              "left": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 358,
+                "name": "indexI"
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "start": 363,
+                "end": 367,
+                "value": 37,
+                "raw": "0x25"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 369,
+              "end": 675,
+              "body": [
+                {
+                  "type": "TryStatement",
+                  "start": 375,
+                  "end": 569,
+                  "block": {
+                    "type": "BlockStatement",
+                    "start": 379,
+                    "end": 475,
+                    "body": [
+                      {
+                        "type": "VariableDeclaration",
+                        "start": 387,
+                        "end": 425,
+                        "declarations": [
+                          {
+                            "type": "VariableDeclarator",
+                            "start": 391,
+                            "end": 424,
+                            "id": {
+                              "type": "Identifier",
+                              "start": 391,
+                              "end": 394,
+                              "name": "str"
+                            },
+                            "init": {
+                              "type": "CallExpression",
+                              "start": 397,
+                              "end": 424,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 397,
+                                "end": 416,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 397,
+                                  "end": 403,
+                                  "name": "String"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 404,
+                                  "end": 416,
+                                  "name": "fromCharCode"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Identifier",
+                                  "start": 417,
+                                  "end": 423,
+                                  "name": "indexI"
+                                }
+                              ],
+                              "optional": false
+                            }
+                          }
+                        ],
+                        "kind": "var"
+                      },
+                      {
+                        "type": "VariableDeclaration",
+                        "start": 432,
+                        "end": 469,
+                        "declarations": [
+                          {
+                            "type": "VariableDeclarator",
+                            "start": 436,
+                            "end": 468,
+                            "id": {
+                              "type": "Identifier",
+                              "start": 436,
+                              "end": 443,
+                              "name": "differs"
+                            },
+                            "init": {
+                              "type": "BinaryExpression",
+                              "start": 446,
+                              "end": 468,
+                              "left": {
+                                "type": "CallExpression",
+                                "start": 446,
+                                "end": 460,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 446,
+                                  "end": 455,
+                                  "name": "decodeURI"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 456,
+                                    "end": 459,
+                                    "name": "str"
+                                  }
+                                ],
+                                "optional": false
+                              },
+                              "operator": "!==",
+                              "right": {
+                                "type": "Identifier",
+                                "start": 465,
+                                "end": 468,
+                                "name": "str"
+                              }
+                            }
+                          }
+                        ],
+                        "kind": "var"
+                      }
+                    ]
+                  },
+                  "handler": {
+                    "type": "CatchClause",
+                    "start": 476,
+                    "end": 569,
+                    "param": {
+                      "type": "Identifier",
+                      "start": 483,
+                      "end": 484,
+                      "name": "e"
+                    },
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 486,
+                      "end": 569,
+                      "body": [
+                        {
+                          "type": "ThrowStatement",
+                          "start": 494,
+                          "end": 563,
+                          "argument": {
+                            "type": "NewExpression",
+                            "start": 500,
+                            "end": 562,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 504,
+                              "end": 516,
+                              "name": "Test262Error"
+                            },
+                            "arguments": [
+                              {
+                                "type": "BinaryExpression",
+                                "start": 517,
+                                "end": 561,
+                                "left": {
+                                  "type": "BinaryExpression",
+                                  "start": 517,
+                                  "end": 549,
+                                  "left": {
+                                    "type": "Literal",
+                                    "start": 517,
+                                    "end": 520,
+                                    "value": "#",
+                                    "raw": "'#'"
+                                  },
+                                  "operator": "+",
+                                  "right": {
+                                    "type": "CallExpression",
+                                    "start": 523,
+                                    "end": 549,
+                                    "callee": {
+                                      "type": "Identifier",
+                                      "start": 523,
+                                      "end": 541,
+                                      "name": "decimalToHexString"
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 542,
+                                        "end": 548,
+                                        "name": "indexI"
+                                      }
+                                    ],
+                                    "optional": false
+                                  }
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 552,
+                                  "end": 561,
+                                  "value": " throws",
+                                  "raw": "' throws'"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "finalizer": null
+                },
+                {
+                  "type": "IfStatement",
+                  "start": 574,
+                  "end": 671,
+                  "test": {
+                    "type": "Identifier",
+                    "start": 578,
+                    "end": 585,
+                    "name": "differs"
+                  },
+                  "consequent": {
+                    "type": "BlockStatement",
+                    "start": 587,
+                    "end": 671,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 595,
+                        "end": 665,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 601,
+                          "end": 664,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 605,
+                            "end": 617,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "BinaryExpression",
+                              "start": 618,
+                              "end": 663,
+                              "left": {
+                                "type": "BinaryExpression",
+                                "start": 618,
+                                "end": 650,
+                                "left": {
+                                  "type": "Literal",
+                                  "start": 618,
+                                  "end": 621,
+                                  "value": "#",
+                                  "raw": "'#'"
+                                },
+                                "operator": "+",
+                                "right": {
+                                  "type": "CallExpression",
+                                  "start": 624,
+                                  "end": 650,
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 624,
+                                    "end": 642,
+                                    "name": "decimalToHexString"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "Identifier",
+                                      "start": 643,
+                                      "end": 649,
+                                      "name": "indexI"
+                                    }
+                                  ],
+                                  "optional": false
+                                }
+                              },
+                              "operator": "+",
+                              "right": {
+                                "type": "Literal",
+                                "start": 653,
+                                "end": 663,
+                                "value": " differs",
+                                "raw": "' differs'"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "alternate": null
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

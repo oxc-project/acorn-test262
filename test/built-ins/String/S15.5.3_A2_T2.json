@@ -1,0 +1,153 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 745,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 368,
+      "end": 401,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 368,
+        "end": 400,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 368,
+          "end": 396,
+          "object": {
+            "type": "MemberExpression",
+            "start": 368,
+            "end": 386,
+            "object": {
+              "type": "Identifier",
+              "start": 368,
+              "end": 376,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 377,
+              "end": 386,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 396,
+            "name": "indicator"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 399,
+          "end": 400,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 492,
+      "end": 662,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 496,
+        "end": 518,
+        "left": {
+          "type": "MemberExpression",
+          "start": 496,
+          "end": 512,
+          "object": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 502,
+            "name": "String"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 512,
+            "name": "indicator"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 517,
+          "end": 518,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 520,
+        "end": 662,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 524,
+            "end": 660,
+            "argument": {
+              "type": "NewExpression",
+              "start": 530,
+              "end": 659,
+              "callee": {
+                "type": "Identifier",
+                "start": 534,
+                "end": 546,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 547,
+                  "end": 658,
+                  "left": {
+                    "type": "Literal",
+                    "start": 547,
+                    "end": 639,
+                    "value": "#1: Function.prototype.indicator = 1; String.indicator === 1. Actual: String.indicator ===",
+                    "raw": "'#1: Function.prototype.indicator = 1; String.indicator === 1. Actual: String.indicator ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 642,
+                    "end": 658,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 642,
+                      "end": 648,
+                      "name": "String"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 649,
+                      "end": 658,
+                      "name": "indicator"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

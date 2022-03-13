@@ -1,0 +1,168 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 638,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 446,
+      "end": 496,
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 453,
+          "end": 460,
+          "local": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 460,
+            "name": "ns"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 466,
+        "end": 495,
+        "value": "./has-property-sym-found.js",
+        "raw": "'./has-property-sym-found.js'"
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 498,
+      "end": 557,
+      "expression": {
+        "type": "CallExpression",
+        "start": 498,
+        "end": 556,
+        "callee": {
+          "type": "Identifier",
+          "start": 498,
+          "end": 504,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 505,
+            "end": 529,
+            "left": {
+              "type": "MemberExpression",
+              "start": 505,
+              "end": 523,
+              "object": {
+                "type": "Identifier",
+                "start": 505,
+                "end": 511,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 512,
+                "end": 523,
+                "name": "toStringTag"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "in",
+            "right": {
+              "type": "Identifier",
+              "start": 527,
+              "end": 529,
+              "name": "ns"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 531,
+            "end": 555,
+            "value": "in: Symbol.toStringTag",
+            "raw": "'in: Symbol.toStringTag'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 558,
+      "end": 637,
+      "expression": {
+        "type": "CallExpression",
+        "start": 558,
+        "end": 636,
+        "callee": {
+          "type": "Identifier",
+          "start": 558,
+          "end": 564,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 565,
+            "end": 600,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 565,
+              "end": 576,
+              "object": {
+                "type": "Identifier",
+                "start": 565,
+                "end": 572,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 573,
+                "end": 576,
+                "name": "has"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 577,
+                "end": 579,
+                "name": "ns"
+              },
+              {
+                "type": "MemberExpression",
+                "start": 581,
+                "end": 599,
+                "object": {
+                  "type": "Identifier",
+                  "start": 581,
+                  "end": 587,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 588,
+                  "end": 599,
+                  "name": "toStringTag"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 602,
+            "end": 635,
+            "value": "Reflect.has: Symbol.toStringTag",
+            "raw": "'Reflect.has: Symbol.toStringTag'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

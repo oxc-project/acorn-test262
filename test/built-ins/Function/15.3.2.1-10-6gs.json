@@ -1,0 +1,109 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 469,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 350,
+      "end": 468,
+      "expression": {
+        "type": "CallExpression",
+        "start": 350,
+        "end": 467,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 350,
+          "end": 363,
+          "object": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 356,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 363,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 364,
+            "end": 375,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 377,
+            "end": 466,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 388,
+              "end": 466,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 392,
+                  "end": 464,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 392,
+                    "end": 463,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 396,
+                      "end": 404,
+                      "name": "Function"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 405,
+                        "end": 414,
+                        "value": "param_1",
+                        "raw": "'param_1'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 416,
+                        "end": 425,
+                        "value": "param_2",
+                        "raw": "'param_2'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 427,
+                        "end": 436,
+                        "value": "param_1",
+                        "raw": "'param_1'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 438,
+                        "end": 462,
+                        "value": "\"use strict\";return 0;",
+                        "raw": "'\"use strict\";return 0;'"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

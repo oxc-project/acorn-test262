@@ -1,0 +1,168 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 798,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 711,
+      "end": 724,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 715,
+          "end": 723,
+          "id": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 716,
+            "name": "r"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 719,
+            "end": 723,
+            "value": {},
+            "raw": "/./y",
+            "regex": {
+              "pattern": ".",
+              "flags": "y"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 725,
+      "end": 741,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 725,
+        "end": 740,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 725,
+          "end": 736,
+          "object": {
+            "type": "Identifier",
+            "start": 725,
+            "end": 726,
+            "name": "r"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 736,
+            "name": "lastIndex"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 739,
+          "end": 740,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 742,
+      "end": 797,
+      "expression": {
+        "type": "CallExpression",
+        "start": 742,
+        "end": 796,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 742,
+          "end": 758,
+          "object": {
+            "type": "Identifier",
+            "start": 742,
+            "end": 748,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 749,
+            "end": 758,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 759,
+            "end": 788,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 759,
+              "end": 776,
+              "object": {
+                "type": "Identifier",
+                "start": 759,
+                "end": 760,
+                "name": "r"
+              },
+              "property": {
+                "type": "MemberExpression",
+                "start": 761,
+                "end": 775,
+                "object": {
+                  "type": "Identifier",
+                  "start": 761,
+                  "end": 767,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 768,
+                  "end": 775,
+                  "name": "replace"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "computed": true,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 777,
+                "end": 782,
+                "value": "aaa",
+                "raw": "'aaa'"
+              },
+              {
+                "type": "Literal",
+                "start": 784,
+                "end": 787,
+                "value": "x",
+                "raw": "'x'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 790,
+            "end": 795,
+            "value": "axa",
+            "raw": "'axa'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

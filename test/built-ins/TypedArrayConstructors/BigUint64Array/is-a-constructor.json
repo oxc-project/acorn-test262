@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 860,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 730,
+      "end": 834,
+      "expression": {
+        "type": "CallExpression",
+        "start": 730,
+        "end": 833,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 730,
+          "end": 746,
+          "object": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 736,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 737,
+            "end": 746,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 747,
+            "end": 776,
+            "callee": {
+              "type": "Identifier",
+              "start": 747,
+              "end": 760,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 761,
+                "end": 775,
+                "name": "BigUint64Array"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 778,
+            "end": 782,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 784,
+            "end": 832,
+            "value": "isConstructor(BigUint64Array) must return true",
+            "raw": "'isConstructor(BigUint64Array) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 835,
+      "end": 856,
+      "expression": {
+        "type": "NewExpression",
+        "start": 835,
+        "end": 855,
+        "callee": {
+          "type": "Identifier",
+          "start": 839,
+          "end": 853,
+          "name": "BigUint64Array"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

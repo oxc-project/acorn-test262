@@ -1,0 +1,120 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 330,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 254,
+      "end": 265,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 258,
+          "end": 264,
+          "id": {
+            "type": "Identifier",
+            "start": 258,
+            "end": 259,
+            "name": "x"
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "start": 262,
+            "end": 264,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 263,
+              "end": 264,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 266,
+      "end": 329,
+      "expression": {
+        "type": "CallExpression",
+        "start": 266,
+        "end": 328,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 266,
+          "end": 282,
+          "object": {
+            "type": "Identifier",
+            "start": 266,
+            "end": 272,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 282,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 283,
+            "end": 294,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 283,
+              "end": 291,
+              "object": {
+                "type": "Identifier",
+                "start": 283,
+                "end": 287,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 288,
+                "end": 291,
+                "name": "exp"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 292,
+                "end": 293,
+                "name": "x"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 296,
+            "end": 297,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 299,
+            "end": 327,
+            "value": "Math.exp(-0) must return 1",
+            "raw": "'Math.exp(-0) must return 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,513 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 810,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 293,
+      "end": 328,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 297,
+          "end": 327,
+          "id": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 300,
+            "name": "arr"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 303,
+            "end": 327,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 303,
+              "end": 320,
+              "object": {
+                "type": "Literal",
+                "start": 303,
+                "end": 315,
+                "value": {},
+                "raw": "/\\1(A)(B)\\2/",
+                "regex": {
+                  "pattern": "\\1(A)(B)\\2",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 316,
+                "end": 320,
+                "name": "exec"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 321,
+                "end": 326,
+                "value": "ABB",
+                "raw": "\"ABB\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 330,
+      "end": 491,
+      "test": {
+        "type": "LogicalExpression",
+        "start": 334,
+        "end": 370,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 334,
+          "end": 348,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 335,
+            "end": 347,
+            "left": {
+              "type": "Identifier",
+              "start": 335,
+              "end": 338,
+              "name": "arr"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 343,
+              "end": 347,
+              "value": null,
+              "raw": "null"
+            }
+          }
+        },
+        "operator": "||",
+        "right": {
+          "type": "ParenthesizedExpression",
+          "start": 352,
+          "end": 370,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 353,
+            "end": 369,
+            "left": {
+              "type": "MemberExpression",
+              "start": 353,
+              "end": 359,
+              "object": {
+                "type": "Identifier",
+                "start": 353,
+                "end": 356,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Literal",
+                "start": 357,
+                "end": 358,
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 364,
+              "end": 369,
+              "value": "ABB",
+              "raw": "\"ABB\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 372,
+        "end": 491,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 376,
+            "end": 489,
+            "argument": {
+              "type": "NewExpression",
+              "start": 382,
+              "end": 488,
+              "callee": {
+                "type": "Identifier",
+                "start": 386,
+                "end": 398,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 399,
+                  "end": 487,
+                  "left": {
+                    "type": "Literal",
+                    "start": 399,
+                    "end": 469,
+                    "value": "#1: var arr = /\\1(A)(B)\\2/.exec(\"ABB\"); arr[0] === \"ABB\". Actual. ",
+                    "raw": "'#1: var arr = /\\\\1(A)(B)\\\\2/.exec(\"ABB\"); arr[0] === \"ABB\". Actual. '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 472,
+                    "end": 487,
+                    "expression": {
+                      "type": "LogicalExpression",
+                      "start": 473,
+                      "end": 486,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 473,
+                        "end": 476,
+                        "name": "arr"
+                      },
+                      "operator": "&&",
+                      "right": {
+                        "type": "MemberExpression",
+                        "start": 480,
+                        "end": 486,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 480,
+                          "end": 483,
+                          "name": "arr"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 484,
+                          "end": 485,
+                          "value": 0,
+                          "raw": "0"
+                        },
+                        "computed": true,
+                        "optional": false
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 493,
+      "end": 650,
+      "test": {
+        "type": "LogicalExpression",
+        "start": 497,
+        "end": 531,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 497,
+          "end": 511,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 498,
+            "end": 510,
+            "left": {
+              "type": "Identifier",
+              "start": 498,
+              "end": 501,
+              "name": "arr"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 506,
+              "end": 510,
+              "value": null,
+              "raw": "null"
+            }
+          }
+        },
+        "operator": "||",
+        "right": {
+          "type": "ParenthesizedExpression",
+          "start": 515,
+          "end": 531,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 516,
+            "end": 530,
+            "left": {
+              "type": "MemberExpression",
+              "start": 516,
+              "end": 522,
+              "object": {
+                "type": "Identifier",
+                "start": 516,
+                "end": 519,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Literal",
+                "start": 520,
+                "end": 521,
+                "value": 1,
+                "raw": "1"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 527,
+              "end": 530,
+              "value": "A",
+              "raw": "\"A\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 533,
+        "end": 650,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 537,
+            "end": 648,
+            "argument": {
+              "type": "NewExpression",
+              "start": 543,
+              "end": 647,
+              "callee": {
+                "type": "Identifier",
+                "start": 547,
+                "end": 559,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 560,
+                  "end": 646,
+                  "left": {
+                    "type": "Literal",
+                    "start": 560,
+                    "end": 628,
+                    "value": "#2: var arr = /\\1(A)(B)\\2/.exec(\"ABB\"); arr[1] === \"A\". Actual. ",
+                    "raw": "'#2: var arr = /\\\\1(A)(B)\\\\2/.exec(\"ABB\"); arr[1] === \"A\". Actual. '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 631,
+                    "end": 646,
+                    "expression": {
+                      "type": "LogicalExpression",
+                      "start": 632,
+                      "end": 645,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 632,
+                        "end": 635,
+                        "name": "arr"
+                      },
+                      "operator": "&&",
+                      "right": {
+                        "type": "MemberExpression",
+                        "start": 639,
+                        "end": 645,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 639,
+                          "end": 642,
+                          "name": "arr"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 643,
+                          "end": 644,
+                          "value": 1,
+                          "raw": "1"
+                        },
+                        "computed": true,
+                        "optional": false
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 652,
+      "end": 809,
+      "test": {
+        "type": "LogicalExpression",
+        "start": 656,
+        "end": 690,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 656,
+          "end": 670,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 657,
+            "end": 669,
+            "left": {
+              "type": "Identifier",
+              "start": 657,
+              "end": 660,
+              "name": "arr"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 665,
+              "end": 669,
+              "value": null,
+              "raw": "null"
+            }
+          }
+        },
+        "operator": "||",
+        "right": {
+          "type": "ParenthesizedExpression",
+          "start": 674,
+          "end": 690,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 675,
+            "end": 689,
+            "left": {
+              "type": "MemberExpression",
+              "start": 675,
+              "end": 681,
+              "object": {
+                "type": "Identifier",
+                "start": 675,
+                "end": 678,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Literal",
+                "start": 679,
+                "end": 680,
+                "value": 2,
+                "raw": "2"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 686,
+              "end": 689,
+              "value": "B",
+              "raw": "\"B\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 692,
+        "end": 809,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 696,
+            "end": 807,
+            "argument": {
+              "type": "NewExpression",
+              "start": 702,
+              "end": 806,
+              "callee": {
+                "type": "Identifier",
+                "start": 706,
+                "end": 718,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 719,
+                  "end": 805,
+                  "left": {
+                    "type": "Literal",
+                    "start": 719,
+                    "end": 787,
+                    "value": "#3: var arr = /\\1(A)(B)\\2/.exec(\"ABB\"); arr[2] === \"B\". Actual. ",
+                    "raw": "'#3: var arr = /\\\\1(A)(B)\\\\2/.exec(\"ABB\"); arr[2] === \"B\". Actual. '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 790,
+                    "end": 805,
+                    "expression": {
+                      "type": "LogicalExpression",
+                      "start": 791,
+                      "end": 804,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 791,
+                        "end": 794,
+                        "name": "arr"
+                      },
+                      "operator": "&&",
+                      "right": {
+                        "type": "MemberExpression",
+                        "start": 798,
+                        "end": 804,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 798,
+                          "end": 801,
+                          "name": "arr"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 802,
+                          "end": 803,
+                          "value": 2,
+                          "raw": "2"
+                        },
+                        "computed": true,
+                        "optional": false
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

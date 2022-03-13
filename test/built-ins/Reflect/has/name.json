@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 595,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 376,
+      "end": 470,
+      "expression": {
+        "type": "CallExpression",
+        "start": 376,
+        "end": 469,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 376,
+          "end": 392,
+          "object": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 382,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 383,
+            "end": 392,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 396,
+            "end": 412,
+            "object": {
+              "type": "MemberExpression",
+              "start": 396,
+              "end": 407,
+              "object": {
+                "type": "Identifier",
+                "start": 396,
+                "end": 403,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 404,
+                "end": 407,
+                "name": "has"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 408,
+              "end": 412,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 414,
+            "end": 419,
+            "value": "has",
+            "raw": "'has'"
+          },
+          {
+            "type": "Literal",
+            "start": 423,
+            "end": 467,
+            "value": "The value of `Reflect.has.name` is `\"has\"`",
+            "raw": "'The value of `Reflect.has.name` is `\"has\"`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 472,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 472,
+        "end": 512,
+        "callee": {
+          "type": "Identifier",
+          "start": 472,
+          "end": 491,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 492,
+            "end": 503,
+            "object": {
+              "type": "Identifier",
+              "start": 492,
+              "end": 499,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 500,
+              "end": 503,
+              "name": "has"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 505,
+            "end": 511,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 514,
+      "end": 553,
+      "expression": {
+        "type": "CallExpression",
+        "start": 514,
+        "end": 552,
+        "callee": {
+          "type": "Identifier",
+          "start": 514,
+          "end": 531,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 532,
+            "end": 543,
+            "object": {
+              "type": "Identifier",
+              "start": 532,
+              "end": 539,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 540,
+              "end": 543,
+              "name": "has"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 545,
+            "end": 551,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 554,
+      "end": 594,
+      "expression": {
+        "type": "CallExpression",
+        "start": 554,
+        "end": 593,
+        "callee": {
+          "type": "Identifier",
+          "start": 554,
+          "end": 572,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 573,
+            "end": 584,
+            "object": {
+              "type": "Identifier",
+              "start": 573,
+              "end": 580,
+              "name": "Reflect"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 581,
+              "end": 584,
+              "name": "has"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 586,
+            "end": 592,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

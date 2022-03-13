@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 342,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 243,
+      "end": 341,
+      "expression": {
+        "type": "CallExpression",
+        "start": 243,
+        "end": 340,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 243,
+          "end": 259,
+          "object": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 259,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 260,
+            "end": 285,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 260,
+              "end": 273,
+              "object": {
+                "type": "Identifier",
+                "start": 260,
+                "end": 265,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 266,
+                "end": 273,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 274,
+                "end": 284,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 278,
+                  "end": 282,
+                  "name": "Date"
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 287,
+            "end": 292,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 294,
+            "end": 339,
+            "value": "Array.isArray(new Date()) must return false",
+            "raw": "'Array.isArray(new Date()) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

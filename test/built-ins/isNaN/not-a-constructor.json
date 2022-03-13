@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 856,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 677,
+      "end": 765,
+      "expression": {
+        "type": "CallExpression",
+        "start": 677,
+        "end": 764,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 677,
+          "end": 693,
+          "object": {
+            "type": "Identifier",
+            "start": 677,
+            "end": 683,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 693,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 694,
+            "end": 714,
+            "callee": {
+              "type": "Identifier",
+              "start": 694,
+              "end": 707,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 708,
+                "end": 713,
+                "name": "isNaN"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 716,
+            "end": 721,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 723,
+            "end": 763,
+            "value": "isConstructor(isNaN) must return false",
+            "raw": "'isConstructor(isNaN) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 767,
+      "end": 854,
+      "expression": {
+        "type": "CallExpression",
+        "start": 767,
+        "end": 853,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 767,
+          "end": 780,
+          "object": {
+            "type": "Identifier",
+            "start": 767,
+            "end": 773,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 774,
+            "end": 780,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 781,
+            "end": 790,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 792,
+            "end": 817,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 798,
+              "end": 817,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 802,
+                  "end": 815,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 802,
+                    "end": 814,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 806,
+                      "end": 811,
+                      "name": "isNaN"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 812,
+                        "end": 813,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 819,
+            "end": 852,
+            "value": "`new isNaN(1)` throws TypeError",
+            "raw": "'`new isNaN(1)` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

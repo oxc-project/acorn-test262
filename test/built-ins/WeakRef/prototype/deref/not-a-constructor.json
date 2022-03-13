@@ -1,0 +1,230 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 983,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 704,
+      "end": 836,
+      "expression": {
+        "type": "CallExpression",
+        "start": 704,
+        "end": 835,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 704,
+          "end": 720,
+          "object": {
+            "type": "Identifier",
+            "start": 704,
+            "end": 710,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 711,
+            "end": 720,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 724,
+            "end": 762,
+            "callee": {
+              "type": "Identifier",
+              "start": 724,
+              "end": 737,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 738,
+                "end": 761,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 738,
+                  "end": 755,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 738,
+                    "end": 745,
+                    "name": "WeakRef"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 746,
+                    "end": 755,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 756,
+                  "end": 761,
+                  "name": "deref"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 766,
+            "end": 771,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 775,
+            "end": 833,
+            "value": "isConstructor(WeakRef.prototype.deref) must return false",
+            "raw": "'isConstructor(WeakRef.prototype.deref) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 838,
+      "end": 981,
+      "expression": {
+        "type": "CallExpression",
+        "start": 838,
+        "end": 980,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 838,
+          "end": 851,
+          "object": {
+            "type": "Identifier",
+            "start": 838,
+            "end": 844,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 845,
+            "end": 851,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 852,
+            "end": 861,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 863,
+            "end": 916,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 869,
+              "end": 916,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 873,
+                  "end": 898,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 877,
+                      "end": 897,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 877,
+                        "end": 879,
+                        "name": "wr"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 882,
+                        "end": 897,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 886,
+                          "end": 893,
+                          "name": "WeakRef"
+                        },
+                        "arguments": [
+                          {
+                            "type": "ObjectExpression",
+                            "start": 894,
+                            "end": 896,
+                            "properties": []
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 899,
+                  "end": 914,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 899,
+                    "end": 913,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 903,
+                      "end": 911,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 903,
+                        "end": 905,
+                        "name": "wr"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 906,
+                        "end": 911,
+                        "name": "deref"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 918,
+            "end": 979,
+            "value": "`let wr = new WeakRef({}); new wr.deref()` throws TypeError",
+            "raw": "'`let wr = new WeakRef({}); new wr.deref()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

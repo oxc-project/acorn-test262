@@ -1,0 +1,1093 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1150,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 276,
+      "end": 332,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 282,
+          "end": 331,
+          "id": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 291,
+            "name": "dayOfYear"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 294,
+            "end": 331,
+            "object": {
+              "type": "MemberExpression",
+              "start": 294,
+              "end": 321,
+              "object": {
+                "type": "MemberExpression",
+                "start": 294,
+                "end": 311,
+                "object": {
+                  "type": "Identifier",
+                  "start": 294,
+                  "end": 302,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 303,
+                  "end": 311,
+                  "name": "Calendar"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 312,
+                "end": 321,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 322,
+              "end": 331,
+              "name": "dayOfYear"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 334,
+      "end": 381,
+      "expression": {
+        "type": "CallExpression",
+        "start": 334,
+        "end": 380,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 334,
+          "end": 350,
+          "object": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 340,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 350,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 351,
+            "end": 367,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 358,
+              "end": 367,
+              "name": "dayOfYear"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 369,
+            "end": 379,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 383,
+      "end": 433,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 389,
+          "end": 432,
+          "id": {
+            "type": "Identifier",
+            "start": 389,
+            "end": 393,
+            "name": "args"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 396,
+            "end": 432,
+            "elements": [
+              {
+                "type": "NewExpression",
+                "start": 397,
+                "end": 431,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 401,
+                  "end": 419,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 401,
+                    "end": 409,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 410,
+                    "end": 419,
+                    "name": "PlainDate"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 420,
+                    "end": 424,
+                    "value": 2000,
+                    "raw": "2000"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 426,
+                    "end": 427,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 429,
+                    "end": 430,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 435,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 435,
+        "end": 512,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 435,
+          "end": 448,
+          "object": {
+            "type": "Identifier",
+            "start": 435,
+            "end": 441,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 448,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 449,
+            "end": 458,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 460,
+            "end": 498,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 466,
+              "end": 498,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 466,
+                "end": 481,
+                "object": {
+                  "type": "Identifier",
+                  "start": 466,
+                  "end": 475,
+                  "name": "dayOfYear"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 476,
+                  "end": 481,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 482,
+                  "end": 491,
+                  "name": "undefined"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 493,
+                  "end": 497,
+                  "name": "args"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 500,
+            "end": 511,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 514,
+      "end": 582,
+      "expression": {
+        "type": "CallExpression",
+        "start": 514,
+        "end": 581,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 514,
+          "end": 527,
+          "object": {
+            "type": "Identifier",
+            "start": 514,
+            "end": 520,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 527,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 528,
+            "end": 537,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 539,
+            "end": 572,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 545,
+              "end": 572,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 545,
+                "end": 560,
+                "object": {
+                  "type": "Identifier",
+                  "start": 545,
+                  "end": 554,
+                  "name": "dayOfYear"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 555,
+                  "end": 560,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 561,
+                  "end": 565,
+                  "value": null,
+                  "raw": "null"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 567,
+                  "end": 571,
+                  "name": "args"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 574,
+            "end": 580,
+            "value": "null",
+            "raw": "\"null\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 583,
+      "end": 651,
+      "expression": {
+        "type": "CallExpression",
+        "start": 583,
+        "end": 650,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 583,
+          "end": 596,
+          "object": {
+            "type": "Identifier",
+            "start": 583,
+            "end": 589,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 590,
+            "end": 596,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 597,
+            "end": 606,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 608,
+            "end": 641,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 614,
+              "end": 641,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 614,
+                "end": 629,
+                "object": {
+                  "type": "Identifier",
+                  "start": 614,
+                  "end": 623,
+                  "name": "dayOfYear"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 624,
+                  "end": 629,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 630,
+                  "end": 634,
+                  "value": true,
+                  "raw": "true"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 636,
+                  "end": 640,
+                  "name": "args"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 643,
+            "end": 649,
+            "value": "true",
+            "raw": "\"true\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 652,
+      "end": 726,
+      "expression": {
+        "type": "CallExpression",
+        "start": 652,
+        "end": 725,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 652,
+          "end": 665,
+          "object": {
+            "type": "Identifier",
+            "start": 652,
+            "end": 658,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 659,
+            "end": 665,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 666,
+            "end": 675,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 677,
+            "end": 708,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 683,
+              "end": 708,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 683,
+                "end": 698,
+                "object": {
+                  "type": "Identifier",
+                  "start": 683,
+                  "end": 692,
+                  "name": "dayOfYear"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 693,
+                  "end": 698,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 699,
+                  "end": 701,
+                  "value": "",
+                  "raw": "\"\""
+                },
+                {
+                  "type": "Identifier",
+                  "start": 703,
+                  "end": 707,
+                  "name": "args"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 710,
+            "end": 724,
+            "value": "empty string",
+            "raw": "\"empty string\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 727,
+      "end": 801,
+      "expression": {
+        "type": "CallExpression",
+        "start": 727,
+        "end": 800,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 727,
+          "end": 740,
+          "object": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 733,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 734,
+            "end": 740,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 741,
+            "end": 750,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 752,
+            "end": 789,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 758,
+              "end": 789,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 758,
+                "end": 773,
+                "object": {
+                  "type": "Identifier",
+                  "start": 758,
+                  "end": 767,
+                  "name": "dayOfYear"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 768,
+                  "end": 773,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 774,
+                  "end": 782,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 774,
+                    "end": 780,
+                    "name": "Symbol"
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 784,
+                  "end": 788,
+                  "name": "args"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 791,
+            "end": 799,
+            "value": "symbol",
+            "raw": "\"symbol\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 802,
+      "end": 864,
+      "expression": {
+        "type": "CallExpression",
+        "start": 802,
+        "end": 863,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 802,
+          "end": 815,
+          "object": {
+            "type": "Identifier",
+            "start": 802,
+            "end": 808,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 809,
+            "end": 815,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 816,
+            "end": 825,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 827,
+            "end": 857,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 833,
+              "end": 857,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 833,
+                "end": 848,
+                "object": {
+                  "type": "Identifier",
+                  "start": 833,
+                  "end": 842,
+                  "name": "dayOfYear"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 843,
+                  "end": 848,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 849,
+                  "end": 850,
+                  "value": 1,
+                  "raw": "1"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 852,
+                  "end": 856,
+                  "name": "args"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 859,
+            "end": 862,
+            "value": "1",
+            "raw": "\"1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 865,
+      "end": 939,
+      "expression": {
+        "type": "CallExpression",
+        "start": 865,
+        "end": 938,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 865,
+          "end": 878,
+          "object": {
+            "type": "Identifier",
+            "start": 865,
+            "end": 871,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 872,
+            "end": 878,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 879,
+            "end": 888,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 890,
+            "end": 921,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 896,
+              "end": 921,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 896,
+                "end": 911,
+                "object": {
+                  "type": "Identifier",
+                  "start": 896,
+                  "end": 905,
+                  "name": "dayOfYear"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 906,
+                  "end": 911,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 912,
+                  "end": 914,
+                  "properties": []
+                },
+                {
+                  "type": "Identifier",
+                  "start": 916,
+                  "end": 920,
+                  "name": "args"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 923,
+            "end": 937,
+            "value": "plain object",
+            "raw": "\"plain object\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 940,
+      "end": 1034,
+      "expression": {
+        "type": "CallExpression",
+        "start": 940,
+        "end": 1033,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 940,
+          "end": 953,
+          "object": {
+            "type": "Identifier",
+            "start": 940,
+            "end": 946,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 947,
+            "end": 953,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 954,
+            "end": 963,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 965,
+            "end": 1011,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 971,
+              "end": 1011,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 971,
+                "end": 986,
+                "object": {
+                  "type": "Identifier",
+                  "start": 971,
+                  "end": 980,
+                  "name": "dayOfYear"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 981,
+                  "end": 986,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 987,
+                  "end": 1004,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 987,
+                    "end": 995,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 996,
+                    "end": 1004,
+                    "name": "Calendar"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1006,
+                  "end": 1010,
+                  "name": "args"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1013,
+            "end": 1032,
+            "value": "Temporal.Calendar",
+            "raw": "\"Temporal.Calendar\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1035,
+      "end": 1149,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1035,
+        "end": 1148,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1035,
+          "end": 1048,
+          "object": {
+            "type": "Identifier",
+            "start": 1035,
+            "end": 1041,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1042,
+            "end": 1048,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1049,
+            "end": 1058,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 1060,
+            "end": 1116,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 1066,
+              "end": 1116,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1066,
+                "end": 1081,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1066,
+                  "end": 1075,
+                  "name": "dayOfYear"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1076,
+                  "end": 1081,
+                  "name": "apply"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 1082,
+                  "end": 1109,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 1082,
+                    "end": 1099,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1082,
+                      "end": 1090,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1091,
+                      "end": 1099,
+                      "name": "Calendar"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1100,
+                    "end": 1109,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1111,
+                  "end": 1115,
+                  "name": "args"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1118,
+            "end": 1147,
+            "value": "Temporal.Calendar.prototype",
+            "raw": "\"Temporal.Calendar.prototype\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

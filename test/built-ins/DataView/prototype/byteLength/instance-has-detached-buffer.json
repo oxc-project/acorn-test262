@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 632,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 483,
+      "end": 515,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 487,
+          "end": 514,
+          "id": {
+            "type": "Identifier",
+            "start": 487,
+            "end": 493,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 496,
+            "end": 514,
+            "callee": {
+              "type": "Identifier",
+              "start": 500,
+              "end": 511,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 512,
+                "end": 513,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 516,
+      "end": 549,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 520,
+          "end": 548,
+          "id": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 522,
+            "name": "dv"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 525,
+            "end": 548,
+            "callee": {
+              "type": "Identifier",
+              "start": 529,
+              "end": 537,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 538,
+                "end": 544,
+                "name": "buffer"
+              },
+              {
+                "type": "Literal",
+                "start": 546,
+                "end": 547,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 551,
+      "end": 576,
+      "expression": {
+        "type": "CallExpression",
+        "start": 551,
+        "end": 575,
+        "callee": {
+          "type": "Identifier",
+          "start": 551,
+          "end": 564,
+          "name": "$DETACHBUFFER"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 565,
+            "end": 574,
+            "object": {
+              "type": "Identifier",
+              "start": 565,
+              "end": 567,
+              "name": "dv"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 568,
+              "end": 574,
+              "name": "buffer"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 578,
+      "end": 631,
+      "expression": {
+        "type": "CallExpression",
+        "start": 578,
+        "end": 630,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 578,
+          "end": 591,
+          "object": {
+            "type": "Identifier",
+            "start": 578,
+            "end": 584,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 585,
+            "end": 591,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 592,
+            "end": 601,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 603,
+            "end": 629,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 609,
+              "end": 629,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 613,
+                  "end": 627,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 613,
+                    "end": 626,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 613,
+                      "end": 615,
+                      "name": "dv"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 616,
+                      "end": 626,
+                      "name": "byteLength"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

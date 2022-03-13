@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 514,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 345,
+      "end": 361,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 349,
+          "end": 360,
+          "id": {
+            "type": "Identifier",
+            "start": 349,
+            "end": 353,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 356,
+            "end": 360,
+            "value": {},
+            "raw": "/x/i",
+            "regex": {
+              "pattern": "x",
+              "flags": "i"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 362,
+      "end": 392,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 366,
+          "end": 391,
+          "id": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 376,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 379,
+            "end": 391,
+            "callee": {
+              "type": "Identifier",
+              "start": 379,
+              "end": 385,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 386,
+                "end": 390,
+                "name": "__re"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 393,
+      "end": 412,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 393,
+        "end": 411,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 393,
+          "end": 407,
+          "object": {
+            "type": "Identifier",
+            "start": 393,
+            "end": 397,
+            "name": "__re"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 407,
+            "name": "indicator"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 410,
+          "end": 411,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 414,
+      "end": 513,
+      "expression": {
+        "type": "CallExpression",
+        "start": 414,
+        "end": 512,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 414,
+          "end": 430,
+          "object": {
+            "type": "Identifier",
+            "start": 414,
+            "end": 420,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 421,
+            "end": 430,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 431,
+            "end": 451,
+            "object": {
+              "type": "Identifier",
+              "start": 431,
+              "end": 441,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 442,
+              "end": 451,
+              "name": "indicator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 453,
+            "end": 454,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 456,
+            "end": 511,
+            "value": "The value of __instance.indicator is expected to be 1",
+            "raw": "'The value of __instance.indicator is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

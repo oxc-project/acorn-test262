@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1225,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1119,
+      "end": 1224,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 1119,
+        "end": 1223,
+        "operator": "typeof",
+        "prefix": true,
+        "argument": {
+          "type": "AwaitExpression",
+          "start": 1126,
+          "end": 1223,
+          "argument": {
+            "type": "AwaitExpression",
+            "start": 1132,
+            "end": 1223,
+            "argument": {
+              "type": "AwaitExpression",
+              "start": 1138,
+              "end": 1223,
+              "argument": {
+                "type": "AwaitExpression",
+                "start": 1144,
+                "end": 1223,
+                "argument": {
+                  "type": "AwaitExpression",
+                  "start": 1150,
+                  "end": 1223,
+                  "argument": {
+                    "type": "AwaitExpression",
+                    "start": 1156,
+                    "end": 1223,
+                    "argument": {
+                      "type": "AwaitExpression",
+                      "start": 1162,
+                      "end": 1223,
+                      "argument": {
+                        "type": "AwaitExpression",
+                        "start": 1168,
+                        "end": 1223,
+                        "argument": {
+                          "type": "AwaitExpression",
+                          "start": 1174,
+                          "end": 1223,
+                          "argument": {
+                            "type": "AwaitExpression",
+                            "start": 1180,
+                            "end": 1223,
+                            "argument": {
+                              "type": "AwaitExpression",
+                              "start": 1186,
+                              "end": 1223,
+                              "argument": {
+                                "type": "AwaitExpression",
+                                "start": 1192,
+                                "end": 1223,
+                                "argument": {
+                                  "type": "AwaitExpression",
+                                  "start": 1198,
+                                  "end": 1223,
+                                  "argument": {
+                                    "type": "AwaitExpression",
+                                    "start": 1204,
+                                    "end": 1223,
+                                    "argument": {
+                                      "type": "AwaitExpression",
+                                      "start": 1210,
+                                      "end": 1223,
+                                      "argument": {
+                                        "type": "Literal",
+                                        "start": 1216,
+                                        "end": 1223,
+                                        "value": "await",
+                                        "raw": "'await'"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "sourceType": "module"
+}

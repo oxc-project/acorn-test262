@@ -1,0 +1,81 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 295,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 260,
+      "end": 294,
+      "expression": {
+        "type": "CallExpression",
+        "start": 260,
+        "end": 293,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 260,
+          "end": 276,
+          "object": {
+            "type": "Identifier",
+            "start": 260,
+            "end": 266,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 267,
+            "end": 276,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 277,
+            "end": 289,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 277,
+              "end": 286,
+              "object": {
+                "type": "Identifier",
+                "start": 277,
+                "end": 281,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 282,
+                "end": 286,
+                "name": "acos"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 287,
+                "end": 288,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 291,
+            "end": 292,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,211 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 766,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 535,
+      "end": 654,
+      "expression": {
+        "type": "CallExpression",
+        "start": 535,
+        "end": 653,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 535,
+          "end": 551,
+          "object": {
+            "type": "Identifier",
+            "start": 535,
+            "end": 541,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 542,
+            "end": 551,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 555,
+            "end": 585,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 562,
+              "end": 585,
+              "object": {
+                "type": "MemberExpression",
+                "start": 562,
+                "end": 577,
+                "object": {
+                  "type": "Identifier",
+                  "start": 562,
+                  "end": 567,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 568,
+                  "end": 577,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 578,
+                "end": 585,
+                "name": "flatMap"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 589,
+            "end": 599,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 603,
+            "end": 651,
+            "value": "`typeof Array.prototype.flatMap` is `function`",
+            "raw": "'`typeof Array.prototype.flatMap` is `function`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 656,
+      "end": 765,
+      "expression": {
+        "type": "CallExpression",
+        "start": 656,
+        "end": 764,
+        "callee": {
+          "type": "Identifier",
+          "start": 656,
+          "end": 670,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 671,
+            "end": 686,
+            "object": {
+              "type": "Identifier",
+              "start": 671,
+              "end": 676,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 677,
+              "end": 686,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 688,
+            "end": 697,
+            "value": "flatMap",
+            "raw": "'flatMap'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 699,
+            "end": 763,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 703,
+                "end": 720,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 703,
+                  "end": 713,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 715,
+                  "end": 720,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 724,
+                "end": 738,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 724,
+                  "end": 732,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 734,
+                  "end": 738,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 742,
+                "end": 760,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 742,
+                  "end": 754,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 756,
+                  "end": 760,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

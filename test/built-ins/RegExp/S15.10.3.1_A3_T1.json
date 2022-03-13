@@ -1,0 +1,208 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 724,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 415,
+      "end": 431,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 419,
+          "end": 430,
+          "id": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 423,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 426,
+            "end": 430,
+            "value": "d+",
+            "raw": "\"d+\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 432,
+      "end": 467,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 436,
+          "end": 466,
+          "id": {
+            "type": "Identifier",
+            "start": 436,
+            "end": 446,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 449,
+            "end": 466,
+            "callee": {
+              "type": "Identifier",
+              "start": 449,
+              "end": 455,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 456,
+                "end": 460,
+                "name": "__re"
+              },
+              {
+                "type": "Literal",
+                "start": 462,
+                "end": 465,
+                "value": "i",
+                "raw": "\"i\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 469,
+      "end": 606,
+      "expression": {
+        "type": "CallExpression",
+        "start": 469,
+        "end": 605,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 469,
+          "end": 485,
+          "object": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 475,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 476,
+            "end": 485,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 489,
+            "end": 511,
+            "object": {
+              "type": "Identifier",
+              "start": 489,
+              "end": 499,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 500,
+              "end": 511,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 515,
+            "end": 521,
+            "name": "RegExp"
+          },
+          {
+            "type": "Literal",
+            "start": 525,
+            "end": 603,
+            "value": "The value of __instance.constructor is expected to equal the value of RegExp",
+            "raw": "'The value of __instance.constructor is expected to equal the value of RegExp'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 608,
+      "end": 723,
+      "expression": {
+        "type": "CallExpression",
+        "start": 608,
+        "end": 722,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 608,
+          "end": 624,
+          "object": {
+            "type": "Identifier",
+            "start": 608,
+            "end": 614,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 624,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 625,
+            "end": 642,
+            "object": {
+              "type": "Identifier",
+              "start": 625,
+              "end": 635,
+              "name": "__instance"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 636,
+              "end": 642,
+              "name": "source"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 644,
+            "end": 648,
+            "name": "__re"
+          },
+          {
+            "type": "Literal",
+            "start": 650,
+            "end": 721,
+            "value": "The value of __instance.source is expected to equal the value of __re",
+            "raw": "'The value of __instance.source is expected to equal the value of __re'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

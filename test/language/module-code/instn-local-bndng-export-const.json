@@ -1,0 +1,231 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 882,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 629,
+      "end": 659,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 633,
+          "end": 658,
+          "id": {
+            "type": "Identifier",
+            "start": 633,
+            "end": 639,
+            "name": "global"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 642,
+            "end": 658,
+            "callee": {
+              "type": "Identifier",
+              "start": 642,
+              "end": 656,
+              "name": "fnGlobalObject"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 661,
+      "end": 768,
+      "expression": {
+        "type": "CallExpression",
+        "start": 661,
+        "end": 767,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 661,
+          "end": 674,
+          "object": {
+            "type": "Identifier",
+            "start": 661,
+            "end": 667,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 668,
+            "end": 674,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 675,
+            "end": 689,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 691,
+            "end": 723,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 702,
+              "end": 723,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 706,
+                  "end": 721,
+                  "expression": {
+                    "type": "UnaryExpression",
+                    "start": 706,
+                    "end": 720,
+                    "operator": "typeof",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 713,
+                      "end": 720,
+                      "name": "test262"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 725,
+            "end": 766,
+            "value": "Binding is created but not initialized.",
+            "raw": "'Binding is created but not initialized.'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 769,
+      "end": 853,
+      "expression": {
+        "type": "CallExpression",
+        "start": 769,
+        "end": 852,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 769,
+          "end": 785,
+          "object": {
+            "type": "Identifier",
+            "start": 769,
+            "end": 775,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 776,
+            "end": 785,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 789,
+            "end": 839,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 789,
+              "end": 820,
+              "object": {
+                "type": "Identifier",
+                "start": 789,
+                "end": 795,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 796,
+                "end": 820,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 821,
+                "end": 827,
+                "name": "global"
+              },
+              {
+                "type": "Literal",
+                "start": 829,
+                "end": 838,
+                "value": "test262",
+                "raw": "'test262'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 841,
+            "end": 850,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 855,
+      "end": 881,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 862,
+        "end": 881,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 868,
+            "end": 880,
+            "id": {
+              "type": "Identifier",
+              "start": 868,
+              "end": 875,
+              "name": "test262"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 878,
+              "end": 880,
+              "value": 23,
+              "raw": "23"
+            }
+          }
+        ],
+        "kind": "const"
+      },
+      "specifiers": [],
+      "source": null
+    }
+  ],
+  "sourceType": "module"
+}

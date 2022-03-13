@@ -1,0 +1,501 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1047,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 609,
+      "end": 630,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 613,
+          "end": 629,
+          "id": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 619,
+            "name": "regExp"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 622,
+            "end": 629,
+            "value": {},
+            "raw": "/(?:)/m",
+            "regex": {
+              "pattern": "(?:)",
+              "flags": "m"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 631,
+      "end": 672,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 635,
+          "end": 671,
+          "id": {
+            "type": "Identifier",
+            "start": 635,
+            "end": 647,
+            "name": "regExpTarget"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 650,
+            "end": 671,
+            "callee": {
+              "type": "Identifier",
+              "start": 654,
+              "end": 659,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 660,
+                "end": 666,
+                "name": "regExp"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 668,
+                "end": 670,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 673,
+      "end": 719,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 677,
+          "end": 718,
+          "id": {
+            "type": "Identifier",
+            "start": 677,
+            "end": 688,
+            "name": "regExpProxy"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 691,
+            "end": 718,
+            "callee": {
+              "type": "Identifier",
+              "start": 695,
+              "end": 700,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 701,
+                "end": 713,
+                "name": "regExpTarget"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 715,
+                "end": 717,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 721,
+      "end": 768,
+      "expression": {
+        "type": "CallExpression",
+        "start": 721,
+        "end": 767,
+        "callee": {
+          "type": "Identifier",
+          "start": 721,
+          "end": 727,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 728,
+            "end": 766,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 728,
+              "end": 739,
+              "object": {
+                "type": "Identifier",
+                "start": 728,
+                "end": 735,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 736,
+                "end": 739,
+                "name": "has"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 740,
+                "end": 751,
+                "name": "regExpProxy"
+              },
+              {
+                "type": "Literal",
+                "start": 753,
+                "end": 765,
+                "value": "ignoreCase",
+                "raw": "\"ignoreCase\""
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 769,
+      "end": 807,
+      "expression": {
+        "type": "CallExpression",
+        "start": 769,
+        "end": 806,
+        "callee": {
+          "type": "Identifier",
+          "start": 769,
+          "end": 775,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 776,
+            "end": 805,
+            "left": {
+              "type": "MemberExpression",
+              "start": 776,
+              "end": 790,
+              "object": {
+                "type": "Identifier",
+                "start": 776,
+                "end": 782,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 783,
+                "end": 790,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "in",
+            "right": {
+              "type": "Identifier",
+              "start": 794,
+              "end": 805,
+              "name": "regExpProxy"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 808,
+      "end": 858,
+      "expression": {
+        "type": "CallExpression",
+        "start": 808,
+        "end": 857,
+        "callee": {
+          "type": "Identifier",
+          "start": 808,
+          "end": 814,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 815,
+            "end": 856,
+            "left": {
+              "type": "Literal",
+              "start": 815,
+              "end": 826,
+              "value": "lastIndex",
+              "raw": "\"lastIndex\""
+            },
+            "operator": "in",
+            "right": {
+              "type": "CallExpression",
+              "start": 830,
+              "end": 856,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 830,
+                "end": 843,
+                "object": {
+                  "type": "Identifier",
+                  "start": 830,
+                  "end": 836,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 837,
+                  "end": 843,
+                  "name": "create"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 844,
+                  "end": 855,
+                  "name": "regExpProxy"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 861,
+      "end": 911,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 865,
+          "end": 910,
+          "id": {
+            "type": "Identifier",
+            "start": 865,
+            "end": 879,
+            "name": "functionTarget"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 882,
+            "end": 910,
+            "callee": {
+              "type": "Identifier",
+              "start": 886,
+              "end": 891,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 892,
+                "end": 905,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 903,
+                  "end": 905,
+                  "body": []
+                }
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 907,
+                "end": 909,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 912,
+      "end": 962,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 916,
+          "end": 961,
+          "id": {
+            "type": "Identifier",
+            "start": 916,
+            "end": 929,
+            "name": "functionProxy"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 932,
+            "end": 961,
+            "callee": {
+              "type": "Identifier",
+              "start": 936,
+              "end": 941,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 942,
+                "end": 956,
+                "name": "functionTarget"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 958,
+                "end": 960,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 964,
+      "end": 996,
+      "expression": {
+        "type": "CallExpression",
+        "start": 964,
+        "end": 995,
+        "callee": {
+          "type": "Identifier",
+          "start": 964,
+          "end": 970,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 971,
+            "end": 994,
+            "left": {
+              "type": "Literal",
+              "start": 971,
+              "end": 977,
+              "value": "name",
+              "raw": "\"name\""
+            },
+            "operator": "in",
+            "right": {
+              "type": "Identifier",
+              "start": 981,
+              "end": 994,
+              "name": "functionProxy"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 997,
+      "end": 1046,
+      "expression": {
+        "type": "CallExpression",
+        "start": 997,
+        "end": 1045,
+        "callee": {
+          "type": "Identifier",
+          "start": 997,
+          "end": 1003,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 1004,
+            "end": 1044,
+            "left": {
+              "type": "Literal",
+              "start": 1004,
+              "end": 1012,
+              "value": "length",
+              "raw": "\"length\""
+            },
+            "operator": "in",
+            "right": {
+              "type": "CallExpression",
+              "start": 1016,
+              "end": 1044,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1016,
+                "end": 1029,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1016,
+                  "end": 1022,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1023,
+                  "end": 1029,
+                  "name": "create"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 1030,
+                  "end": 1043,
+                  "name": "functionProxy"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,530 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 926,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 383,
+      "end": 417,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 387,
+          "end": 416,
+          "id": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 394,
+            "name": "locales"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 397,
+            "end": 416,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 398,
+                "end": 403,
+                "value": "tlh",
+                "raw": "\"tlh\""
+              },
+              {
+                "type": "Literal",
+                "start": 405,
+                "end": 409,
+                "value": "id",
+                "raw": "\"id\""
+              },
+              {
+                "type": "Literal",
+                "start": 411,
+                "end": 415,
+                "value": "en",
+                "raw": "\"en\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 418,
+      "end": 437,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 422,
+          "end": 436,
+          "id": {
+            "type": "Identifier",
+            "start": 422,
+            "end": 423,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 426,
+            "end": 436,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 427,
+                "end": 428,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 430,
+                "end": 431,
+                "value": 5,
+                "raw": "5"
+              },
+              {
+                "type": "Literal",
+                "start": 433,
+                "end": 435,
+                "value": 12,
+                "raw": "12"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 439,
+      "end": 496,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 443,
+          "end": 495,
+          "id": {
+            "type": "Identifier",
+            "start": 443,
+            "end": 463,
+            "name": "referencePluralRules"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 466,
+            "end": 495,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 470,
+              "end": 486,
+              "object": {
+                "type": "Identifier",
+                "start": 470,
+                "end": 474,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 475,
+                "end": 486,
+                "name": "PluralRules"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 487,
+                "end": 494,
+                "name": "locales"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 497,
+      "end": 583,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 501,
+          "end": 582,
+          "id": {
+            "type": "Identifier",
+            "start": 501,
+            "end": 518,
+            "name": "referenceSelected"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 521,
+            "end": 582,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 521,
+              "end": 526,
+              "object": {
+                "type": "Identifier",
+                "start": 521,
+                "end": 522,
+                "name": "a"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 523,
+                "end": 526,
+                "name": "map"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 527,
+                "end": 581,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 527,
+                  "end": 559,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 527,
+                    "end": 554,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 527,
+                      "end": 547,
+                      "name": "referencePluralRules"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 548,
+                      "end": 554,
+                      "name": "select"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 555,
+                    "end": 559,
+                    "name": "bind"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 560,
+                    "end": 580,
+                    "name": "referencePluralRules"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 585,
+      "end": 799,
+      "id": {
+        "type": "Identifier",
+        "start": 591,
+        "end": 604,
+        "name": "MyPluralRules"
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 613,
+        "end": 629,
+        "object": {
+          "type": "Identifier",
+          "start": 613,
+          "end": 617,
+          "name": "Intl"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 618,
+          "end": 629,
+          "name": "PluralRules"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 630,
+        "end": 799,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 634,
+            "end": 747,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 645,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 645,
+              "end": 747,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 646,
+                  "end": 653,
+                  "name": "locales"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 655,
+                  "end": 662,
+                  "name": "options"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 664,
+                "end": 747,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 670,
+                    "end": 694,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 670,
+                      "end": 693,
+                      "callee": {
+                        "type": "Super",
+                        "start": 670,
+                        "end": 675
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 676,
+                          "end": 683,
+                          "name": "locales"
+                        },
+                        {
+                          "type": "Identifier",
+                          "start": 685,
+                          "end": 692,
+                          "name": "options"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 801,
+      "end": 837,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 805,
+          "end": 836,
+          "id": {
+            "type": "Identifier",
+            "start": 805,
+            "end": 807,
+            "name": "pr"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 810,
+            "end": 836,
+            "callee": {
+              "type": "Identifier",
+              "start": 814,
+              "end": 827,
+              "name": "MyPluralRules"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 828,
+                "end": 835,
+                "name": "locales"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 838,
+      "end": 877,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 842,
+          "end": 876,
+          "id": {
+            "type": "Identifier",
+            "start": 842,
+            "end": 848,
+            "name": "actual"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 851,
+            "end": 876,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 851,
+              "end": 856,
+              "object": {
+                "type": "Identifier",
+                "start": 851,
+                "end": 852,
+                "name": "a"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 853,
+                "end": 856,
+                "name": "map"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 857,
+                "end": 875,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 857,
+                  "end": 871,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 857,
+                    "end": 866,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 857,
+                      "end": 859,
+                      "name": "pr"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 860,
+                      "end": 866,
+                      "name": "select"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 867,
+                    "end": 871,
+                    "name": "bind"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 872,
+                    "end": 874,
+                    "name": "pr"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 878,
+      "end": 925,
+      "expression": {
+        "type": "CallExpression",
+        "start": 878,
+        "end": 924,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 878,
+          "end": 897,
+          "object": {
+            "type": "Identifier",
+            "start": 878,
+            "end": 884,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 885,
+            "end": 897,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 898,
+            "end": 904,
+            "name": "actual"
+          },
+          {
+            "type": "Identifier",
+            "start": 906,
+            "end": 923,
+            "name": "referenceSelected"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,151 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 472,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 294,
+      "end": 471,
+      "expression": {
+        "type": "CallExpression",
+        "start": 294,
+        "end": 470,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 294,
+          "end": 339,
+          "object": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 309,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 339,
+            "name": "checkSubclassingIgnoredStatic"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 343,
+            "end": 366,
+            "object": {
+              "type": "Identifier",
+              "start": 343,
+              "end": 351,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 352,
+              "end": 366,
+              "name": "PlainYearMonth"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 370,
+            "end": 376,
+            "value": "from",
+            "raw": "\"from\""
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 380,
+            "end": 391,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 381,
+                "end": 390,
+                "value": "2000-05",
+                "raw": "\"2000-05\""
+              }
+            ]
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 395,
+            "end": 467,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 396,
+                "end": 402,
+                "name": "result"
+              }
+            ],
+            "body": {
+              "type": "CallExpression",
+              "start": 407,
+              "end": 467,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 407,
+                "end": 443,
+                "object": {
+                  "type": "Identifier",
+                  "start": 407,
+                  "end": 422,
+                  "name": "TemporalHelpers"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 423,
+                  "end": 443,
+                  "name": "assertPlainYearMonth"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 444,
+                  "end": 450,
+                  "name": "result"
+                },
+                {
+                  "type": "Literal",
+                  "start": 452,
+                  "end": 456,
+                  "value": 2000,
+                  "raw": "2000"
+                },
+                {
+                  "type": "Literal",
+                  "start": 458,
+                  "end": 459,
+                  "value": 5,
+                  "raw": "5"
+                },
+                {
+                  "type": "Literal",
+                  "start": 461,
+                  "end": 466,
+                  "value": "M05",
+                  "raw": "\"M05\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

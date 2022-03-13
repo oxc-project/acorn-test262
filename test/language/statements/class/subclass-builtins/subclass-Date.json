@@ -1,0 +1,136 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 388,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 266,
+      "end": 296,
+      "id": {
+        "type": "Identifier",
+        "start": 272,
+        "end": 280,
+        "name": "Subclass"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 289,
+        "end": 293,
+        "name": "Date"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 294,
+        "end": 296,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 298,
+      "end": 325,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 304,
+          "end": 324,
+          "id": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 307,
+            "name": "sub"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 310,
+            "end": 324,
+            "callee": {
+              "type": "Identifier",
+              "start": 314,
+              "end": 322,
+              "name": "Subclass"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 326,
+      "end": 358,
+      "expression": {
+        "type": "CallExpression",
+        "start": 326,
+        "end": 357,
+        "callee": {
+          "type": "Identifier",
+          "start": 326,
+          "end": 332,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 333,
+            "end": 356,
+            "left": {
+              "type": "Identifier",
+              "start": 333,
+              "end": 336,
+              "name": "sub"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 348,
+              "end": 356,
+              "name": "Subclass"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 359,
+      "end": 387,
+      "expression": {
+        "type": "CallExpression",
+        "start": 359,
+        "end": 386,
+        "callee": {
+          "type": "Identifier",
+          "start": 359,
+          "end": 365,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 366,
+            "end": 385,
+            "left": {
+              "type": "Identifier",
+              "start": 366,
+              "end": 369,
+              "name": "sub"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 381,
+              "end": 385,
+              "name": "Date"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 953,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 718,
+      "end": 783,
+      "expression": {
+        "type": "CallExpression",
+        "start": 718,
+        "end": 782,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 718,
+          "end": 734,
+          "object": {
+            "type": "Identifier",
+            "start": 718,
+            "end": 724,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 725,
+            "end": 734,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 735,
+            "end": 766,
+            "object": {
+              "type": "MemberExpression",
+              "start": 735,
+              "end": 761,
+              "object": {
+                "type": "MemberExpression",
+                "start": 735,
+                "end": 749,
+                "object": {
+                  "type": "Identifier",
+                  "start": 735,
+                  "end": 739,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 740,
+                  "end": 749,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 750,
+                "end": 761,
+                "name": "getUTCHours"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 762,
+              "end": 766,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 768,
+            "end": 781,
+            "value": "getUTCHours",
+            "raw": "\"getUTCHours\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 785,
+      "end": 841,
+      "expression": {
+        "type": "CallExpression",
+        "start": 785,
+        "end": 840,
+        "callee": {
+          "type": "Identifier",
+          "start": 785,
+          "end": 804,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 805,
+            "end": 831,
+            "object": {
+              "type": "MemberExpression",
+              "start": 805,
+              "end": 819,
+              "object": {
+                "type": "Identifier",
+                "start": 805,
+                "end": 809,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 810,
+                "end": 819,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 820,
+              "end": 831,
+              "name": "getUTCHours"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 833,
+            "end": 839,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 842,
+      "end": 896,
+      "expression": {
+        "type": "CallExpression",
+        "start": 842,
+        "end": 895,
+        "callee": {
+          "type": "Identifier",
+          "start": 842,
+          "end": 859,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 860,
+            "end": 886,
+            "object": {
+              "type": "MemberExpression",
+              "start": 860,
+              "end": 874,
+              "object": {
+                "type": "Identifier",
+                "start": 860,
+                "end": 864,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 865,
+                "end": 874,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 875,
+              "end": 886,
+              "name": "getUTCHours"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 888,
+            "end": 894,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 897,
+      "end": 952,
+      "expression": {
+        "type": "CallExpression",
+        "start": 897,
+        "end": 951,
+        "callee": {
+          "type": "Identifier",
+          "start": 897,
+          "end": 915,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 916,
+            "end": 942,
+            "object": {
+              "type": "MemberExpression",
+              "start": 916,
+              "end": 930,
+              "object": {
+                "type": "Identifier",
+                "start": 916,
+                "end": 920,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 921,
+                "end": 930,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 931,
+              "end": 942,
+              "name": "getUTCHours"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 944,
+            "end": 950,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

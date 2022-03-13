@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 375,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 306,
+      "end": 374,
+      "expression": {
+        "type": "CallExpression",
+        "start": 306,
+        "end": 373,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 306,
+          "end": 322,
+          "object": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 312,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 322,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 323,
+            "end": 334,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 323,
+              "end": 332,
+              "object": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 329,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 330,
+                "end": 332,
+                "name": "is"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 336,
+            "end": 340,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 342,
+            "end": 372,
+            "value": "`Object.is()` returns `true`",
+            "raw": "\"`Object.is()` returns `true`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

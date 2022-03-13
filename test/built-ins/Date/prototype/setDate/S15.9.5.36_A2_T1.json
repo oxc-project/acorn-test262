@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 553,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 285,
+      "end": 433,
+      "expression": {
+        "type": "CallExpression",
+        "start": 285,
+        "end": 432,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 285,
+          "end": 301,
+          "object": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 291,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 301,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 305,
+            "end": 352,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 305,
+              "end": 342,
+              "object": {
+                "type": "MemberExpression",
+                "start": 305,
+                "end": 327,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 305,
+                  "end": 319,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 305,
+                    "end": 309,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 310,
+                    "end": 319,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 320,
+                  "end": 327,
+                  "name": "setDate"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 328,
+                "end": 342,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 343,
+                "end": 351,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 356,
+            "end": 360,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 364,
+            "end": 430,
+            "value": "Date.prototype.setDate.hasOwnProperty(\"length\") must return true",
+            "raw": "'Date.prototype.setDate.hasOwnProperty(\"length\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 435,
+      "end": 552,
+      "expression": {
+        "type": "CallExpression",
+        "start": 435,
+        "end": 551,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 435,
+          "end": 451,
+          "object": {
+            "type": "Identifier",
+            "start": 435,
+            "end": 441,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 451,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 452,
+            "end": 481,
+            "object": {
+              "type": "MemberExpression",
+              "start": 452,
+              "end": 474,
+              "object": {
+                "type": "MemberExpression",
+                "start": 452,
+                "end": 466,
+                "object": {
+                  "type": "Identifier",
+                  "start": 452,
+                  "end": 456,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 457,
+                  "end": 466,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 467,
+                "end": 474,
+                "name": "setDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 475,
+              "end": 481,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 483,
+            "end": 484,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 486,
+            "end": 550,
+            "value": "The value of Date.prototype.setDate.length is expected to be 1",
+            "raw": "'The value of Date.prototype.setDate.length is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

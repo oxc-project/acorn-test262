@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 394,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 263,
+      "end": 393,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 267,
+        "end": 309,
+        "left": {
+          "type": "Literal",
+          "start": 267,
+          "end": 278,
+          "value": "\u000bstr\u000bing\u000b",
+          "raw": "\"\u000bstr\u000bing\u000b\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 283,
+          "end": 309,
+          "value": "\u000bstr\u000bing\u000b",
+          "raw": "\"\\u000Bstr\\u000Bing\\u000B\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 311,
+        "end": 393,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 315,
+            "end": 391,
+            "argument": {
+              "type": "NewExpression",
+              "start": 321,
+              "end": 390,
+              "callee": {
+                "type": "Identifier",
+                "start": 325,
+                "end": 337,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 338,
+                  "end": 389,
+                  "value": "#1: \"\u000bstr\u000bing\u000b\" === \"\\u000Bstr\\u000Bing\\u000B\"",
+                  "raw": "'#1: \"\u000bstr\u000bing\u000b\" === \"\\\\u000Bstr\\\\u000Bing\\\\u000B\"'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

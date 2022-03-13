@@ -1,0 +1,146 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 902,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 774,
+      "end": 793,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 778,
+          "end": 792,
+          "id": {
+            "type": "Identifier",
+            "start": 778,
+            "end": 784,
+            "name": "result"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 787,
+            "end": 792,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 794,
+      "end": 884,
+      "test": {
+        "type": "MemberExpression",
+        "start": 798,
+        "end": 812,
+        "object": {
+          "type": "Identifier",
+          "start": 798,
+          "end": 802,
+          "name": "$262"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 803,
+          "end": 812,
+          "name": "IsHTMLDDA"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 814,
+        "end": 858,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 818,
+            "end": 856,
+            "argument": {
+              "type": "NewExpression",
+              "start": 824,
+              "end": 855,
+              "callee": {
+                "type": "Identifier",
+                "start": 828,
+                "end": 840,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 841,
+                  "end": 854,
+                  "value": "unreachable",
+                  "raw": "\"unreachable\""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 864,
+        "end": 884,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 868,
+            "end": 882,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 868,
+              "end": 881,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 868,
+                "end": 874,
+                "name": "result"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 877,
+                "end": 881,
+                "value": true,
+                "raw": "true"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 886,
+      "end": 901,
+      "expression": {
+        "type": "CallExpression",
+        "start": 886,
+        "end": 900,
+        "callee": {
+          "type": "Identifier",
+          "start": 886,
+          "end": 892,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 893,
+            "end": 899,
+            "name": "result"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

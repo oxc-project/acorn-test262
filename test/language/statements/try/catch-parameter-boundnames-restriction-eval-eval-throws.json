@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 455,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 376,
+      "end": 454,
+      "expression": {
+        "type": "CallExpression",
+        "start": 376,
+        "end": 453,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 376,
+          "end": 389,
+          "object": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 382,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 383,
+            "end": 389,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 390,
+            "end": 401,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 403,
+            "end": 452,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 414,
+              "end": 452,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 418,
+                  "end": 450,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 418,
+                    "end": 449,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 418,
+                      "end": 422,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 423,
+                        "end": 448,
+                        "value": "try {} catch (eval) { }",
+                        "raw": "\"try {} catch (eval) { }\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

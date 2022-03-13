@@ -1,0 +1,172 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 612,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 490,
+      "end": 510,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 494,
+          "end": 509,
+          "id": {
+            "type": "Identifier",
+            "start": 494,
+            "end": 495,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 498,
+            "end": 509,
+            "callee": {
+              "type": "Identifier",
+              "start": 498,
+              "end": 504,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 505,
+                "end": 508,
+                "value": "1",
+                "raw": "\"1\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 511,
+      "end": 545,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 515,
+          "end": 544,
+          "id": {
+            "type": "Identifier",
+            "start": 515,
+            "end": 517,
+            "name": "ab"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 520,
+            "end": 544,
+            "callee": {
+              "type": "Identifier",
+              "start": 524,
+              "end": 541,
+              "name": "SharedArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 542,
+                "end": 543,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 547,
+      "end": 611,
+      "expression": {
+        "type": "CallExpression",
+        "start": 547,
+        "end": 610,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 547,
+          "end": 560,
+          "object": {
+            "type": "Identifier",
+            "start": 547,
+            "end": 553,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 560,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 561,
+            "end": 570,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 572,
+            "end": 609,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 583,
+              "end": 609,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 587,
+                  "end": 607,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 587,
+                    "end": 606,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 591,
+                      "end": 599,
+                      "name": "DataView"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 600,
+                        "end": 602,
+                        "name": "ab"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 604,
+                        "end": 605,
+                        "name": "s"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,288 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 858,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 637,
+      "end": 665,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 641,
+          "end": 664,
+          "id": {
+            "type": "Identifier",
+            "start": 641,
+            "end": 645,
+            "name": "xGen"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 648,
+            "end": 664,
+            "id": {
+              "type": "Identifier",
+              "start": 658,
+              "end": 659,
+              "name": "x"
+            },
+            "expression": false,
+            "generator": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 662,
+              "end": 664,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 666,
+      "end": 691,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 670,
+          "end": 690,
+          "id": {
+            "type": "Identifier",
+            "start": 670,
+            "end": 673,
+            "name": "gen"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 676,
+            "end": 690,
+            "id": null,
+            "expression": false,
+            "generator": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 688,
+              "end": 690,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 693,
+      "end": 722,
+      "expression": {
+        "type": "CallExpression",
+        "start": 693,
+        "end": 721,
+        "callee": {
+          "type": "Identifier",
+          "start": 693,
+          "end": 699,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 700,
+            "end": 720,
+            "left": {
+              "type": "MemberExpression",
+              "start": 700,
+              "end": 709,
+              "object": {
+                "type": "Identifier",
+                "start": 700,
+                "end": 704,
+                "name": "xGen"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 705,
+                "end": 709,
+                "name": "name"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 714,
+              "end": 720,
+              "value": "xGen",
+              "raw": "'xGen'"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 724,
+      "end": 758,
+      "expression": {
+        "type": "CallExpression",
+        "start": 724,
+        "end": 757,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 724,
+          "end": 740,
+          "object": {
+            "type": "Identifier",
+            "start": 724,
+            "end": 730,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 740,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 741,
+            "end": 749,
+            "object": {
+              "type": "Identifier",
+              "start": 741,
+              "end": 744,
+              "name": "gen"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 745,
+              "end": 749,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 751,
+            "end": 756,
+            "value": "gen",
+            "raw": "'gen'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 759,
+      "end": 792,
+      "expression": {
+        "type": "CallExpression",
+        "start": 759,
+        "end": 791,
+        "callee": {
+          "type": "Identifier",
+          "start": 759,
+          "end": 778,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 779,
+            "end": 782,
+            "name": "gen"
+          },
+          {
+            "type": "Literal",
+            "start": 784,
+            "end": 790,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 793,
+      "end": 824,
+      "expression": {
+        "type": "CallExpression",
+        "start": 793,
+        "end": 823,
+        "callee": {
+          "type": "Identifier",
+          "start": 793,
+          "end": 810,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 811,
+            "end": 814,
+            "name": "gen"
+          },
+          {
+            "type": "Literal",
+            "start": 816,
+            "end": 822,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 825,
+      "end": 857,
+      "expression": {
+        "type": "CallExpression",
+        "start": 825,
+        "end": 856,
+        "callee": {
+          "type": "Identifier",
+          "start": 825,
+          "end": 843,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 844,
+            "end": 847,
+            "name": "gen"
+          },
+          {
+            "type": "Literal",
+            "start": 849,
+            "end": 855,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

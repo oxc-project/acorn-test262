@@ -1,0 +1,216 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 830,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 709,
+      "end": 738,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 713,
+          "end": 737,
+          "id": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 714,
+            "name": "o"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 717,
+            "end": 737,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 721,
+                "end": 735,
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "key": {
+                  "type": "ArrowFunctionExpression",
+                  "start": 722,
+                  "end": 731,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 728,
+                    "end": 731,
+                    "body": []
+                  }
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 734,
+                  "end": 735,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 740,
+      "end": 780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 740,
+        "end": 779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 740,
+          "end": 756,
+          "object": {
+            "type": "Identifier",
+            "start": 740,
+            "end": 746,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 747,
+            "end": 756,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 760,
+            "end": 772,
+            "object": {
+              "type": "Identifier",
+              "start": 760,
+              "end": 761,
+              "name": "o"
+            },
+            "property": {
+              "type": "ArrowFunctionExpression",
+              "start": 762,
+              "end": 771,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 768,
+                "end": 771,
+                "body": []
+              }
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 776,
+            "end": 777,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 781,
+      "end": 829,
+      "expression": {
+        "type": "CallExpression",
+        "start": 781,
+        "end": 828,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 781,
+          "end": 797,
+          "object": {
+            "type": "Identifier",
+            "start": 781,
+            "end": 787,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 788,
+            "end": 797,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 801,
+            "end": 821,
+            "object": {
+              "type": "Identifier",
+              "start": 801,
+              "end": 802,
+              "name": "o"
+            },
+            "property": {
+              "type": "CallExpression",
+              "start": 803,
+              "end": 820,
+              "callee": {
+                "type": "Identifier",
+                "start": 803,
+                "end": 809,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 810,
+                  "end": 819,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 816,
+                    "end": 819,
+                    "body": []
+                  }
+                }
+              ],
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 825,
+            "end": 826,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

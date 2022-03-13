@@ -1,0 +1,237 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 578,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 311,
+      "end": 451,
+      "expression": {
+        "type": "CallExpression",
+        "start": 311,
+        "end": 450,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 311,
+          "end": 327,
+          "object": {
+            "type": "Identifier",
+            "start": 311,
+            "end": 317,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 327,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 331,
+            "end": 376,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 338,
+              "end": 376,
+              "object": {
+                "type": "MemberExpression",
+                "start": 338,
+                "end": 365,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 338,
+                  "end": 355,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 338,
+                    "end": 346,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 347,
+                    "end": 355,
+                    "name": "Calendar"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 356,
+                  "end": 365,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 366,
+                "end": 376,
+                "name": "daysInWeek"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 380,
+            "end": 390,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 394,
+            "end": 448,
+            "value": "`typeof Calendar.prototype.daysInWeek` is `function`",
+            "raw": "\"`typeof Calendar.prototype.daysInWeek` is `function`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 453,
+      "end": 577,
+      "expression": {
+        "type": "CallExpression",
+        "start": 453,
+        "end": 576,
+        "callee": {
+          "type": "Identifier",
+          "start": 453,
+          "end": 467,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 468,
+            "end": 495,
+            "object": {
+              "type": "MemberExpression",
+              "start": 468,
+              "end": 485,
+              "object": {
+                "type": "Identifier",
+                "start": 468,
+                "end": 476,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 477,
+                "end": 485,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 486,
+              "end": 495,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 497,
+            "end": 509,
+            "value": "daysInWeek",
+            "raw": "\"daysInWeek\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 511,
+            "end": 575,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 515,
+                "end": 529,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 515,
+                  "end": 523,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 525,
+                  "end": 529,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 533,
+                "end": 550,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 533,
+                  "end": 543,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 545,
+                  "end": 550,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 554,
+                "end": 572,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 554,
+                  "end": 566,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 568,
+                  "end": 572,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,185 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 554,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 276,
+      "end": 416,
+      "expression": {
+        "type": "CallExpression",
+        "start": 276,
+        "end": 415,
+        "callee": {
+          "type": "Identifier",
+          "start": 276,
+          "end": 282,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 286,
+            "end": 338,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 286,
+              "end": 328,
+              "object": {
+                "type": "MemberExpression",
+                "start": 286,
+                "end": 313,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 286,
+                  "end": 304,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 286,
+                    "end": 294,
+                    "name": "Function"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 295,
+                    "end": 304,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 305,
+                  "end": 313,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 314,
+                "end": 328,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 329,
+                "end": 337,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 342,
+            "end": 413,
+            "value": "Function.prototype.toString.hasOwnProperty(\"length\") must return true",
+            "raw": "'Function.prototype.toString.hasOwnProperty(\"length\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 418,
+      "end": 553,
+      "expression": {
+        "type": "CallExpression",
+        "start": 418,
+        "end": 552,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 418,
+          "end": 434,
+          "object": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 424,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 425,
+            "end": 434,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 438,
+            "end": 472,
+            "object": {
+              "type": "MemberExpression",
+              "start": 438,
+              "end": 465,
+              "object": {
+                "type": "MemberExpression",
+                "start": 438,
+                "end": 456,
+                "object": {
+                  "type": "Identifier",
+                  "start": 438,
+                  "end": 446,
+                  "name": "Function"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 447,
+                  "end": 456,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 457,
+                "end": 465,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 466,
+              "end": 472,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 476,
+            "end": 477,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 481,
+            "end": 550,
+            "value": "The value of Function.prototype.toString.length is expected to be 0",
+            "raw": "'The value of Function.prototype.toString.length is expected to be 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

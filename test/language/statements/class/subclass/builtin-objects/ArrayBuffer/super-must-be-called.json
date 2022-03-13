@@ -1,0 +1,253 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 904,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 694,
+      "end": 746,
+      "id": {
+        "type": "Identifier",
+        "start": 700,
+        "end": 703,
+        "name": "AB1"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 712,
+        "end": 723,
+        "name": "ArrayBuffer"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 724,
+        "end": 746,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 728,
+            "end": 744,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 728,
+              "end": 739,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 739,
+              "end": 744,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 742,
+                "end": 744,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 748,
+      "end": 808,
+      "expression": {
+        "type": "CallExpression",
+        "start": 748,
+        "end": 807,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 748,
+          "end": 761,
+          "object": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 754,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 755,
+            "end": 761,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 762,
+            "end": 776,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 778,
+            "end": 806,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 789,
+              "end": 806,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 793,
+                  "end": 804,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 793,
+                    "end": 803,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 797,
+                      "end": 800,
+                      "name": "AB1"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 801,
+                        "end": 802,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 810,
+      "end": 890,
+      "id": {
+        "type": "Identifier",
+        "start": 816,
+        "end": 819,
+        "name": "AB2"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 828,
+        "end": 839,
+        "name": "ArrayBuffer"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 840,
+        "end": 890,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 844,
+            "end": 888,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 844,
+              "end": 855,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 855,
+              "end": 888,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 856,
+                  "end": 862,
+                  "name": "length"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 864,
+                "end": 888,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 870,
+                    "end": 884,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 870,
+                      "end": 883,
+                      "callee": {
+                        "type": "Super",
+                        "start": 870,
+                        "end": 875
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 876,
+                          "end": 882,
+                          "name": "length"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 892,
+      "end": 903,
+      "expression": {
+        "type": "NewExpression",
+        "start": 892,
+        "end": 902,
+        "callee": {
+          "type": "Identifier",
+          "start": 896,
+          "end": 899,
+          "name": "AB2"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 900,
+            "end": 901,
+            "value": 1,
+            "raw": "1"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

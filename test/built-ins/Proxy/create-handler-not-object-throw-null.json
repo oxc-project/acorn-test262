@@ -1,0 +1,94 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 377,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 312,
+      "end": 376,
+      "expression": {
+        "type": "CallExpression",
+        "start": 312,
+        "end": 375,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 312,
+          "end": 325,
+          "object": {
+            "type": "Identifier",
+            "start": 312,
+            "end": 318,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 325,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 326,
+            "end": 335,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 337,
+            "end": 374,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 348,
+              "end": 374,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 352,
+                  "end": 372,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 352,
+                    "end": 371,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 356,
+                      "end": 361,
+                      "name": "Proxy"
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 362,
+                        "end": 364,
+                        "properties": []
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 366,
+                        "end": 370,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

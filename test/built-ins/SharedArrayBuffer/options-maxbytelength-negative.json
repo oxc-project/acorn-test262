@@ -1,0 +1,124 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 924,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 830,
+      "end": 923,
+      "expression": {
+        "type": "CallExpression",
+        "start": 830,
+        "end": 922,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 830,
+          "end": 843,
+          "object": {
+            "type": "Identifier",
+            "start": 830,
+            "end": 836,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 837,
+            "end": 843,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 844,
+            "end": 854,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 856,
+            "end": 921,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 867,
+              "end": 921,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 871,
+                  "end": 919,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 871,
+                    "end": 918,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 875,
+                      "end": 892,
+                      "name": "SharedArrayBuffer"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 893,
+                        "end": 894,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 896,
+                        "end": 917,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 898,
+                            "end": 915,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 898,
+                              "end": 911,
+                              "name": "maxByteLength"
+                            },
+                            "value": {
+                              "type": "UnaryExpression",
+                              "start": 913,
+                              "end": 915,
+                              "operator": "-",
+                              "prefix": true,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 914,
+                                "end": 915,
+                                "value": 1,
+                                "raw": "1"
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,219 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 812,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 444,
+      "end": 729,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 448,
+        "end": 534,
+        "left": {
+          "type": "CallExpression",
+          "start": 448,
+          "end": 514,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 448,
+            "end": 496,
+            "object": {
+              "type": "CallExpression",
+              "start": 448,
+              "end": 488,
+              "callee": {
+                "type": "FunctionExpression",
+                "start": 448,
+                "end": 486,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 459,
+                  "end": 486,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 465,
+                      "end": 482,
+                      "argument": {
+                        "type": "Literal",
+                        "start": 472,
+                        "end": 482,
+                        "value": "gnulluna",
+                        "raw": "\"gnulluna\""
+                      }
+                    }
+                  ]
+                }
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 489,
+              "end": 496,
+              "name": "replace"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 497,
+              "end": 501,
+              "value": null,
+              "raw": "null"
+            },
+            {
+              "type": "CallExpression",
+              "start": 503,
+              "end": 513,
+              "callee": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 511,
+                "name": "Function"
+              },
+              "arguments": [],
+              "optional": false
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 519,
+          "end": 534,
+          "value": "gundefineduna",
+          "raw": "\"gundefineduna\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 536,
+        "end": 729,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 540,
+            "end": 727,
+            "argument": {
+              "type": "NewExpression",
+              "start": 546,
+              "end": 726,
+              "callee": {
+                "type": "Identifier",
+                "start": 550,
+                "end": 562,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 563,
+                  "end": 725,
+                  "left": {
+                    "type": "Literal",
+                    "start": 563,
+                    "end": 656,
+                    "value": "#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: ",
+                    "raw": "'#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 659,
+                    "end": 725,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 659,
+                      "end": 707,
+                      "object": {
+                        "type": "CallExpression",
+                        "start": 659,
+                        "end": 699,
+                        "callee": {
+                          "type": "FunctionExpression",
+                          "start": 659,
+                          "end": 697,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 670,
+                            "end": 697,
+                            "body": [
+                              {
+                                "type": "ReturnStatement",
+                                "start": 676,
+                                "end": 693,
+                                "argument": {
+                                  "type": "Literal",
+                                  "start": 683,
+                                  "end": 693,
+                                  "value": "gnulluna",
+                                  "raw": "\"gnulluna\""
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "arguments": [],
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 700,
+                        "end": 707,
+                        "name": "replace"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 708,
+                        "end": 712,
+                        "value": null,
+                        "raw": "null"
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 714,
+                        "end": 724,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 714,
+                          "end": 722,
+                          "name": "Function"
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

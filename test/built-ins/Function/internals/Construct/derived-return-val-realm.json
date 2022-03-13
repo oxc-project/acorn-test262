@@ -1,0 +1,218 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 886,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 694,
+      "end": 831,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 698,
+          "end": 830,
+          "id": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 699,
+            "name": "C"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 702,
+            "end": 830,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 702,
+              "end": 732,
+              "object": {
+                "type": "MemberExpression",
+                "start": 702,
+                "end": 727,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 702,
+                  "end": 720,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 702,
+                    "end": 718,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 702,
+                      "end": 706,
+                      "name": "$262"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 707,
+                      "end": 718,
+                      "name": "createRealm"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 721,
+                  "end": 727,
+                  "name": "global"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 728,
+                "end": 732,
+                "name": "eval"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 736,
+                "end": 828,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 736,
+                  "end": 820,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 736,
+                    "end": 810,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 736,
+                      "end": 787,
+                      "left": {
+                        "type": "Literal",
+                        "start": 736,
+                        "end": 763,
+                        "value": "0, class extends Object {",
+                        "raw": "'0, class extends Object {'"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 768,
+                        "end": 787,
+                        "value": "  constructor() {",
+                        "raw": "'  constructor() {'"
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "start": 792,
+                      "end": 810,
+                      "value": "    return null;",
+                      "raw": "'    return null;'"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 815,
+                    "end": 820,
+                    "value": "  }",
+                    "raw": "'  }'"
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 825,
+                  "end": 828,
+                  "value": "}",
+                  "raw": "'}'"
+                }
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 833,
+      "end": 885,
+      "expression": {
+        "type": "CallExpression",
+        "start": 833,
+        "end": 884,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 833,
+          "end": 846,
+          "object": {
+            "type": "Identifier",
+            "start": 833,
+            "end": 839,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 840,
+            "end": 846,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 847,
+            "end": 856,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 858,
+            "end": 883,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 869,
+              "end": 883,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 873,
+                  "end": 881,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 873,
+                    "end": 880,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 877,
+                      "end": 878,
+                      "name": "C"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

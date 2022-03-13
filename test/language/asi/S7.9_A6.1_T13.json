@@ -1,0 +1,47 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 349,
+  "body": [
+    {
+      "type": "ForStatement",
+      "start": 302,
+      "end": 348,
+      "init": {
+        "type": "Literal",
+        "start": 306,
+        "end": 311,
+        "value": false,
+        "raw": "false"
+      },
+      "test": {
+        "type": "Literal",
+        "start": 317,
+        "end": 322,
+        "value": false,
+        "raw": "false"
+      },
+      "update": {
+        "type": "Literal",
+        "start": 328,
+        "end": 333,
+        "value": false,
+        "raw": "false"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 336,
+        "end": 348,
+        "body": [
+          {
+            "type": "BreakStatement",
+            "start": 340,
+            "end": 346,
+            "label": null
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

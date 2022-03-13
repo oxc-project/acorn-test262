@@ -1,0 +1,340 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 650,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 295,
+      "end": 365,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 299,
+          "end": 364,
+          "id": {
+            "type": "Identifier",
+            "start": 299,
+            "end": 316,
+            "name": "notStringOrObject"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 319,
+            "end": 364,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 320,
+                "end": 329,
+                "name": "undefined"
+              },
+              {
+                "type": "Literal",
+                "start": 331,
+                "end": 335,
+                "value": null,
+                "raw": "null"
+              },
+              {
+                "type": "Literal",
+                "start": 337,
+                "end": 341,
+                "value": true,
+                "raw": "true"
+              },
+              {
+                "type": "Literal",
+                "start": 343,
+                "end": 348,
+                "value": false,
+                "raw": "false"
+              },
+              {
+                "type": "Literal",
+                "start": 350,
+                "end": 351,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 353,
+                "end": 354,
+                "value": 5,
+                "raw": "5"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 356,
+                "end": 358,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 357,
+                  "end": 358,
+                  "value": 5,
+                  "raw": "5"
+                }
+              },
+              {
+                "type": "Identifier",
+                "start": 360,
+                "end": 363,
+                "name": "NaN"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 367,
+      "end": 649,
+      "expression": {
+        "type": "CallExpression",
+        "start": 367,
+        "end": 648,
+        "callee": {
+          "type": "Identifier",
+          "start": 367,
+          "end": 391,
+          "name": "testWithIntlConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 392,
+            "end": 647,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 402,
+                "end": 413,
+                "name": "Constructor"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 415,
+              "end": 647,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 421,
+                  "end": 645,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 421,
+                    "end": 644,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 421,
+                      "end": 446,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 421,
+                        "end": 438,
+                        "name": "notStringOrObject"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 439,
+                        "end": 446,
+                        "name": "forEach"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "FunctionExpression",
+                        "start": 447,
+                        "end": 643,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [
+                          {
+                            "type": "Identifier",
+                            "start": 457,
+                            "end": 462,
+                            "name": "value"
+                          }
+                        ],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 464,
+                          "end": 643,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 474,
+                              "end": 637,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 474,
+                                "end": 636,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 474,
+                                  "end": 487,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 474,
+                                    "end": 480,
+                                    "name": "assert"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 481,
+                                    "end": 487,
+                                    "name": "throws"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 488,
+                                    "end": 497,
+                                    "name": "TypeError"
+                                  },
+                                  {
+                                    "type": "FunctionExpression",
+                                    "start": 499,
+                                    "end": 590,
+                                    "id": null,
+                                    "expression": false,
+                                    "generator": false,
+                                    "async": false,
+                                    "params": [],
+                                    "body": {
+                                      "type": "BlockStatement",
+                                      "start": 510,
+                                      "end": 590,
+                                      "body": [
+                                        {
+                                          "type": "VariableDeclaration",
+                                          "start": 524,
+                                          "end": 580,
+                                          "declarations": [
+                                            {
+                                              "type": "VariableDeclarator",
+                                              "start": 528,
+                                              "end": 579,
+                                              "id": {
+                                                "type": "Identifier",
+                                                "start": 528,
+                                                "end": 537,
+                                                "name": "supported"
+                                              },
+                                              "init": {
+                                                "type": "CallExpression",
+                                                "start": 540,
+                                                "end": 579,
+                                                "callee": {
+                                                  "type": "MemberExpression",
+                                                  "start": 540,
+                                                  "end": 570,
+                                                  "object": {
+                                                    "type": "Identifier",
+                                                    "start": 540,
+                                                    "end": 551,
+                                                    "name": "Constructor"
+                                                  },
+                                                  "property": {
+                                                    "type": "Identifier",
+                                                    "start": 552,
+                                                    "end": 570,
+                                                    "name": "supportedLocalesOf"
+                                                  },
+                                                  "computed": false,
+                                                  "optional": false
+                                                },
+                                                "arguments": [
+                                                  {
+                                                    "type": "ArrayExpression",
+                                                    "start": 571,
+                                                    "end": 578,
+                                                    "elements": [
+                                                      {
+                                                        "type": "Identifier",
+                                                        "start": 572,
+                                                        "end": 577,
+                                                        "name": "value"
+                                                      }
+                                                    ]
+                                                  }
+                                                ],
+                                                "optional": false
+                                              }
+                                            }
+                                          ],
+                                          "kind": "var"
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "BinaryExpression",
+                                    "start": 592,
+                                    "end": 635,
+                                    "left": {
+                                      "type": "BinaryExpression",
+                                      "start": 592,
+                                      "end": 602,
+                                      "left": {
+                                        "type": "Literal",
+                                        "start": 592,
+                                        "end": 594,
+                                        "value": "",
+                                        "raw": "\"\""
+                                      },
+                                      "operator": "+",
+                                      "right": {
+                                        "type": "Identifier",
+                                        "start": 597,
+                                        "end": 602,
+                                        "name": "value"
+                                      }
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "type": "Literal",
+                                      "start": 605,
+                                      "end": 635,
+                                      "value": " as locale was not rejected.",
+                                      "raw": "\" as locale was not rejected.\""
+                                    }
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

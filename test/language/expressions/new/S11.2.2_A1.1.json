@@ -1,0 +1,728 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1442,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 303,
+      "end": 395,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 307,
+        "end": 335,
+        "left": {
+          "type": "CallExpression",
+          "start": 307,
+          "end": 330,
+          "callee": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 311,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 312,
+              "end": 329,
+              "value": "new\tNumber",
+              "raw": "\"new\\u0009Number\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 334,
+          "end": 335,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 337,
+        "end": 395,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 341,
+            "end": 393,
+            "argument": {
+              "type": "NewExpression",
+              "start": 347,
+              "end": 392,
+              "callee": {
+                "type": "Identifier",
+                "start": 351,
+                "end": 363,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 364,
+                  "end": 391,
+                  "value": "#1: new\\u0009Number == 0",
+                  "raw": "'#1: new\\\\u0009Number == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 407,
+      "end": 501,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 411,
+        "end": 439,
+        "left": {
+          "type": "CallExpression",
+          "start": 411,
+          "end": 434,
+          "callee": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 415,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 416,
+              "end": 433,
+              "value": "new\u000bNumber",
+              "raw": "\"new\\u000BNumber\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 438,
+          "end": 439,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 441,
+        "end": 501,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 445,
+            "end": 497,
+            "argument": {
+              "type": "NewExpression",
+              "start": 451,
+              "end": 496,
+              "callee": {
+                "type": "Identifier",
+                "start": 455,
+                "end": 467,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 468,
+                  "end": 495,
+                  "value": "#2: new\\u000BNumber == 0",
+                  "raw": "'#2: new\\\\u000BNumber == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 513,
+      "end": 605,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 517,
+        "end": 545,
+        "left": {
+          "type": "CallExpression",
+          "start": 517,
+          "end": 540,
+          "callee": {
+            "type": "Identifier",
+            "start": 517,
+            "end": 521,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 522,
+              "end": 539,
+              "value": "new\fNumber",
+              "raw": "\"new\\u000CNumber\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 544,
+          "end": 545,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 547,
+        "end": 605,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 551,
+            "end": 603,
+            "argument": {
+              "type": "NewExpression",
+              "start": 557,
+              "end": 602,
+              "callee": {
+                "type": "Identifier",
+                "start": 561,
+                "end": 573,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 574,
+                  "end": 601,
+                  "value": "#3: new\\u000CNumber == 0",
+                  "raw": "'#3: new\\\\u000CNumber == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 617,
+      "end": 709,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 621,
+        "end": 649,
+        "left": {
+          "type": "CallExpression",
+          "start": 621,
+          "end": 644,
+          "callee": {
+            "type": "Identifier",
+            "start": 621,
+            "end": 625,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 626,
+              "end": 643,
+              "value": "new Number",
+              "raw": "\"new\\u0020Number\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 648,
+          "end": 649,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 651,
+        "end": 709,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 655,
+            "end": 707,
+            "argument": {
+              "type": "NewExpression",
+              "start": 661,
+              "end": 706,
+              "callee": {
+                "type": "Identifier",
+                "start": 665,
+                "end": 677,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 678,
+                  "end": 705,
+                  "value": "#4: new\\u0020Number == 0",
+                  "raw": "'#4: new\\\\u0020Number == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 721,
+      "end": 813,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 725,
+        "end": 753,
+        "left": {
+          "type": "CallExpression",
+          "start": 725,
+          "end": 748,
+          "callee": {
+            "type": "Identifier",
+            "start": 725,
+            "end": 729,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 730,
+              "end": 747,
+              "value": "new Number",
+              "raw": "\"new\\u00A0Number\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 752,
+          "end": 753,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 755,
+        "end": 813,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 759,
+            "end": 811,
+            "argument": {
+              "type": "NewExpression",
+              "start": 765,
+              "end": 810,
+              "callee": {
+                "type": "Identifier",
+                "start": 769,
+                "end": 781,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 782,
+                  "end": 809,
+                  "value": "#5: new\\u00A0Number == 0",
+                  "raw": "'#5: new\\\\u00A0Number == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 825,
+      "end": 919,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 829,
+        "end": 857,
+        "left": {
+          "type": "CallExpression",
+          "start": 829,
+          "end": 852,
+          "callee": {
+            "type": "Identifier",
+            "start": 829,
+            "end": 833,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 834,
+              "end": 851,
+              "value": "new\nNumber",
+              "raw": "\"new\\u000ANumber\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 856,
+          "end": 857,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 859,
+        "end": 919,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 863,
+            "end": 915,
+            "argument": {
+              "type": "NewExpression",
+              "start": 869,
+              "end": 914,
+              "callee": {
+                "type": "Identifier",
+                "start": 873,
+                "end": 885,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 886,
+                  "end": 913,
+                  "value": "#6: new\\u000ANumber == 0",
+                  "raw": "'#6: new\\\\u000ANumber == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 931,
+      "end": 1023,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 935,
+        "end": 963,
+        "left": {
+          "type": "CallExpression",
+          "start": 935,
+          "end": 958,
+          "callee": {
+            "type": "Identifier",
+            "start": 935,
+            "end": 939,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 940,
+              "end": 957,
+              "value": "new\rNumber",
+              "raw": "\"new\\u000DNumber\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 962,
+          "end": 963,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 965,
+        "end": 1023,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 969,
+            "end": 1021,
+            "argument": {
+              "type": "NewExpression",
+              "start": 975,
+              "end": 1020,
+              "callee": {
+                "type": "Identifier",
+                "start": 979,
+                "end": 991,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 992,
+                  "end": 1019,
+                  "value": "#7: new\\u000DNumber == 0",
+                  "raw": "'#7: new\\\\u000DNumber == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1035,
+      "end": 1127,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1039,
+        "end": 1067,
+        "left": {
+          "type": "CallExpression",
+          "start": 1039,
+          "end": 1062,
+          "callee": {
+            "type": "Identifier",
+            "start": 1039,
+            "end": 1043,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1044,
+              "end": 1061,
+              "value": "new Number",
+              "raw": "\"new\\u2028Number\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 1066,
+          "end": 1067,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1069,
+        "end": 1127,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1073,
+            "end": 1125,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1079,
+              "end": 1124,
+              "callee": {
+                "type": "Identifier",
+                "start": 1083,
+                "end": 1095,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1096,
+                  "end": 1123,
+                  "value": "#8: new\\u2028Number == 0",
+                  "raw": "'#8: new\\\\u2028Number == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1139,
+      "end": 1231,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1143,
+        "end": 1171,
+        "left": {
+          "type": "CallExpression",
+          "start": 1143,
+          "end": 1166,
+          "callee": {
+            "type": "Identifier",
+            "start": 1143,
+            "end": 1147,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1148,
+              "end": 1165,
+              "value": "new Number",
+              "raw": "\"new\\u2029Number\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 1170,
+          "end": 1171,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1173,
+        "end": 1231,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1177,
+            "end": 1229,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1183,
+              "end": 1228,
+              "callee": {
+                "type": "Identifier",
+                "start": 1187,
+                "end": 1199,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1200,
+                  "end": 1227,
+                  "value": "#9: new\\u2029Number == 0",
+                  "raw": "'#9: new\\\\u2029Number == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1244,
+      "end": 1441,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1248,
+        "end": 1324,
+        "left": {
+          "type": "CallExpression",
+          "start": 1248,
+          "end": 1319,
+          "callee": {
+            "type": "Identifier",
+            "start": 1248,
+            "end": 1252,
+            "name": "eval"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1253,
+              "end": 1318,
+              "value": "new\t\u000b\f  \n\r  Number",
+              "raw": "\"new\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029Number\""
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!=",
+        "right": {
+          "type": "Literal",
+          "start": 1323,
+          "end": 1324,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1326,
+        "end": 1441,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1330,
+            "end": 1439,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1336,
+              "end": 1438,
+              "callee": {
+                "type": "Identifier",
+                "start": 1340,
+                "end": 1352,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1353,
+                  "end": 1437,
+                  "value": "#10: new\\u0009\\u000B\\u000C\\u0020\\u00A0\\u000A\\u000D\\u2028\\u2029Number == 0",
+                  "raw": "'#10: new\\\\u0009\\\\u000B\\\\u000C\\\\u0020\\\\u00A0\\\\u000A\\\\u000D\\\\u2028\\\\u2029Number == 0'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

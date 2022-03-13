@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 354,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 259,
+      "end": 277,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 263,
+          "end": 276,
+          "id": {
+            "type": "Identifier",
+            "start": 263,
+            "end": 264,
+            "name": "s"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 267,
+            "end": 276,
+            "callee": {
+              "type": "Identifier",
+              "start": 271,
+              "end": 274,
+              "name": "Set"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 279,
+      "end": 353,
+      "expression": {
+        "type": "CallExpression",
+        "start": 279,
+        "end": 352,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 279,
+          "end": 295,
+          "object": {
+            "type": "Identifier",
+            "start": 279,
+            "end": 285,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 295,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 296,
+            "end": 305,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 296,
+              "end": 303,
+              "object": {
+                "type": "Identifier",
+                "start": 296,
+                "end": 297,
+                "name": "s"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 298,
+                "end": 303,
+                "name": "clear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 307,
+            "end": 316,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 318,
+            "end": 351,
+            "value": "`s.clear()` returns `undefined`",
+            "raw": "\"`s.clear()` returns `undefined`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

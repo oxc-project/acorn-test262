@@ -1,0 +1,341 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 541,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 268,
+      "end": 281,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 272,
+          "end": 280,
+          "id": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 275,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 278,
+            "end": 280,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 282,
+      "end": 320,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 286,
+          "end": 319,
+          "id": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 293,
+            "name": "tempObj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 296,
+            "end": 319,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 300,
+                "end": 317,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 300,
+                  "end": 312,
+                  "name": "testproperty"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 314,
+                  "end": 317,
+                  "value": 100,
+                  "raw": "100"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 322,
+      "end": 379,
+      "expression": {
+        "type": "CallExpression",
+        "start": 322,
+        "end": 378,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 322,
+          "end": 343,
+          "object": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 328,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 343,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 344,
+            "end": 347,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 349,
+            "end": 355,
+            "value": "prop",
+            "raw": "\"prop\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 357,
+            "end": 377,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 361,
+                "end": 375,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 361,
+                  "end": 366,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Identifier",
+                  "start": 368,
+                  "end": 375,
+                  "name": "tempObj"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 381,
+      "end": 437,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 385,
+          "end": 436,
+          "id": {
+            "type": "Identifier",
+            "start": 385,
+            "end": 389,
+            "name": "desc"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 392,
+            "end": 436,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 392,
+              "end": 423,
+              "object": {
+                "type": "Identifier",
+                "start": 392,
+                "end": 398,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 399,
+                "end": 423,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 424,
+                "end": 427,
+                "name": "obj"
+              },
+              {
+                "type": "Literal",
+                "start": 429,
+                "end": 435,
+                "value": "prop",
+                "raw": "\"prop\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 439,
+      "end": 487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 439,
+        "end": 486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 439,
+          "end": 455,
+          "object": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 445,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 455,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 456,
+            "end": 464,
+            "object": {
+              "type": "Identifier",
+              "start": 456,
+              "end": 459,
+              "name": "obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 460,
+              "end": 464,
+              "name": "prop"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 466,
+            "end": 473,
+            "name": "tempObj"
+          },
+          {
+            "type": "Literal",
+            "start": 475,
+            "end": 485,
+            "value": "obj.prop",
+            "raw": "'obj.prop'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 488,
+      "end": 540,
+      "expression": {
+        "type": "CallExpression",
+        "start": 488,
+        "end": 539,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 488,
+          "end": 504,
+          "object": {
+            "type": "Identifier",
+            "start": 488,
+            "end": 494,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 495,
+            "end": 504,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 505,
+            "end": 515,
+            "object": {
+              "type": "Identifier",
+              "start": 505,
+              "end": 509,
+              "name": "desc"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 510,
+              "end": 515,
+              "name": "value"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 517,
+            "end": 524,
+            "name": "tempObj"
+          },
+          {
+            "type": "Literal",
+            "start": 526,
+            "end": 538,
+            "value": "desc.value",
+            "raw": "'desc.value'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

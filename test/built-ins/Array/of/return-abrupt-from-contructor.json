@@ -1,0 +1,160 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 738,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 575,
+      "end": 619,
+      "id": {
+        "type": "Identifier",
+        "start": 584,
+        "end": 585,
+        "name": "T"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 588,
+        "end": 619,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 592,
+            "end": 617,
+            "argument": {
+              "type": "NewExpression",
+              "start": 598,
+              "end": 616,
+              "callee": {
+                "type": "Identifier",
+                "start": 602,
+                "end": 614,
+                "name": "Test262Error"
+              },
+              "arguments": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 621,
+      "end": 737,
+      "expression": {
+        "type": "CallExpression",
+        "start": 621,
+        "end": 736,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 621,
+          "end": 634,
+          "object": {
+            "type": "Identifier",
+            "start": 621,
+            "end": 627,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 628,
+            "end": 634,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 635,
+            "end": 647,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 649,
+            "end": 683,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 660,
+              "end": 683,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 664,
+                  "end": 681,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 664,
+                    "end": 680,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 664,
+                      "end": 677,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 664,
+                        "end": 672,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 664,
+                          "end": 669,
+                          "name": "Array"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 670,
+                          "end": 672,
+                          "name": "of"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 673,
+                        "end": 677,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 678,
+                        "end": 679,
+                        "name": "T"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 685,
+            "end": 735,
+            "value": "Array.of.call(T) throws a Test262Error exception",
+            "raw": "'Array.of.call(T) throws a Test262Error exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

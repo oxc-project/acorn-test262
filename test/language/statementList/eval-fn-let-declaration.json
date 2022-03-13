@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 901,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 812,
+      "end": 869,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 816,
+          "end": 868,
+          "id": {
+            "type": "Identifier",
+            "start": 816,
+            "end": 822,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 825,
+            "end": 868,
+            "callee": {
+              "type": "Identifier",
+              "start": 825,
+              "end": 829,
+              "name": "eval"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 830,
+                "end": 867,
+                "value": "function fn() {}let a, b = 42, c;b;",
+                "raw": "'function fn() {}let a, b = 42, c;b;'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 871,
+      "end": 900,
+      "expression": {
+        "type": "CallExpression",
+        "start": 871,
+        "end": 899,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 871,
+          "end": 887,
+          "object": {
+            "type": "Identifier",
+            "start": 871,
+            "end": 877,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 878,
+            "end": 887,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 888,
+            "end": 894,
+            "name": "result"
+          },
+          {
+            "type": "Literal",
+            "start": 896,
+            "end": 898,
+            "value": 42,
+            "raw": "42"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

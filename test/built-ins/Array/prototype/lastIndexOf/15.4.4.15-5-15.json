@@ -1,0 +1,233 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 501,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 302,
+      "end": 400,
+      "expression": {
+        "type": "CallExpression",
+        "start": 302,
+        "end": 399,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 302,
+          "end": 318,
+          "object": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 308,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 318,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 319,
+            "end": 355,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 319,
+              "end": 343,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 319,
+                "end": 331,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 320,
+                    "end": 321,
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 323,
+                    "end": 327,
+                    "value": "-2",
+                    "raw": "\"-2\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 329,
+                    "end": 330,
+                    "value": 2,
+                    "raw": "2"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 332,
+                "end": 343,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 344,
+                "end": 348,
+                "value": "-2",
+                "raw": "\"-2\""
+              },
+              {
+                "type": "Literal",
+                "start": 350,
+                "end": 354,
+                "value": "-2",
+                "raw": "\"-2\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 357,
+            "end": 358,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 398,
+            "value": "[0, \"-2\", 2].lastIndexOf(\"-2\", \"-2\")",
+            "raw": "'[0, \"-2\", 2].lastIndexOf(\"-2\", \"-2\")'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 401,
+      "end": 500,
+      "expression": {
+        "type": "CallExpression",
+        "start": 401,
+        "end": 499,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 401,
+          "end": 417,
+          "object": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 407,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 417,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 418,
+            "end": 454,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 418,
+              "end": 442,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 418,
+                "end": 430,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 419,
+                    "end": 420,
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 422,
+                    "end": 423,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 425,
+                    "end": 429,
+                    "value": "-2",
+                    "raw": "\"-2\""
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 431,
+                "end": 442,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 443,
+                "end": 447,
+                "value": "-2",
+                "raw": "\"-2\""
+              },
+              {
+                "type": "Literal",
+                "start": 449,
+                "end": 453,
+                "value": "-2",
+                "raw": "\"-2\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 456,
+            "end": 458,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 457,
+              "end": 458,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 460,
+            "end": 498,
+            "value": "[0, 2, \"-2\"].lastIndexOf(\"-2\", \"-2\")",
+            "raw": "'[0, 2, \"-2\"].lastIndexOf(\"-2\", \"-2\")'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

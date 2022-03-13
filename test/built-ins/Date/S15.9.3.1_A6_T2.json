@@ -1,0 +1,1409 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1699,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 368,
+      "end": 515,
+      "id": {
+        "type": "Identifier",
+        "start": 377,
+        "end": 386,
+        "name": "DateValue"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 387,
+          "end": 391,
+          "name": "year"
+        },
+        {
+          "type": "Identifier",
+          "start": 393,
+          "end": 398,
+          "name": "month"
+        },
+        {
+          "type": "Identifier",
+          "start": 400,
+          "end": 404,
+          "name": "date"
+        },
+        {
+          "type": "Identifier",
+          "start": 406,
+          "end": 411,
+          "name": "hours"
+        },
+        {
+          "type": "Identifier",
+          "start": 413,
+          "end": 420,
+          "name": "minutes"
+        },
+        {
+          "type": "Identifier",
+          "start": 422,
+          "end": 429,
+          "name": "seconds"
+        },
+        {
+          "type": "Identifier",
+          "start": 431,
+          "end": 433,
+          "name": "ms"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 435,
+        "end": 515,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 439,
+            "end": 513,
+            "argument": {
+              "type": "CallExpression",
+              "start": 446,
+              "end": 512,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 446,
+                "end": 510,
+                "object": {
+                  "type": "NewExpression",
+                  "start": 446,
+                  "end": 502,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 450,
+                    "end": 454,
+                    "name": "Date"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 455,
+                      "end": 459,
+                      "name": "year"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 461,
+                      "end": 466,
+                      "name": "month"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 468,
+                      "end": 472,
+                      "name": "date"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 474,
+                      "end": 479,
+                      "name": "hours"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 481,
+                      "end": 488,
+                      "name": "minutes"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 490,
+                      "end": 497,
+                      "name": "seconds"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 499,
+                      "end": 501,
+                      "name": "ms"
+                    }
+                  ]
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 503,
+                  "end": 510,
+                  "name": "valueOf"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 517,
+      "end": 523,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 521,
+          "end": 522,
+          "id": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 522,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 524,
+      "end": 552,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 524,
+        "end": 551,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 524,
+          "end": 525,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 528,
+          "end": 551,
+          "callee": {
+            "type": "Identifier",
+            "start": 528,
+            "end": 537,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 538,
+              "end": 542,
+              "value": 1899,
+              "raw": "1899"
+            },
+            {
+              "type": "Literal",
+              "start": 544,
+              "end": 546,
+              "value": 11,
+              "raw": "11"
+            },
+            {
+              "type": "Literal",
+              "start": 548,
+              "end": 550,
+              "value": 31,
+              "raw": "31"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 553,
+      "end": 621,
+      "expression": {
+        "type": "CallExpression",
+        "start": 553,
+        "end": 620,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 553,
+          "end": 569,
+          "object": {
+            "type": "Identifier",
+            "start": 553,
+            "end": 559,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 569,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 570,
+            "end": 571,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 573,
+            "end": 576,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 578,
+            "end": 619,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 623,
+      "end": 650,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 623,
+        "end": 649,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 623,
+          "end": 624,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 627,
+          "end": 649,
+          "callee": {
+            "type": "Identifier",
+            "start": 627,
+            "end": 636,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 637,
+              "end": 641,
+              "value": 1899,
+              "raw": "1899"
+            },
+            {
+              "type": "Literal",
+              "start": 643,
+              "end": 645,
+              "value": 12,
+              "raw": "12"
+            },
+            {
+              "type": "Literal",
+              "start": 647,
+              "end": 648,
+              "value": 1,
+              "raw": "1"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 719,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 718,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 651,
+          "end": 667,
+          "object": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 657,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 667,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 668,
+            "end": 669,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 671,
+            "end": 674,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 676,
+            "end": 717,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 721,
+      "end": 747,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 721,
+        "end": 746,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 721,
+          "end": 722,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 725,
+          "end": 746,
+          "callee": {
+            "type": "Identifier",
+            "start": 725,
+            "end": 734,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 735,
+              "end": 739,
+              "value": 1900,
+              "raw": "1900"
+            },
+            {
+              "type": "Literal",
+              "start": 741,
+              "end": 742,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 744,
+              "end": 745,
+              "value": 1,
+              "raw": "1"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 748,
+      "end": 816,
+      "expression": {
+        "type": "CallExpression",
+        "start": 748,
+        "end": 815,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 748,
+          "end": 764,
+          "object": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 754,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 755,
+            "end": 764,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 765,
+            "end": 766,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 768,
+            "end": 771,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 773,
+            "end": 814,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 818,
+      "end": 846,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 818,
+        "end": 845,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 818,
+          "end": 819,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 822,
+          "end": 845,
+          "callee": {
+            "type": "Identifier",
+            "start": 822,
+            "end": 831,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 832,
+              "end": 836,
+              "value": 1969,
+              "raw": "1969"
+            },
+            {
+              "type": "Literal",
+              "start": 838,
+              "end": 840,
+              "value": 11,
+              "raw": "11"
+            },
+            {
+              "type": "Literal",
+              "start": 842,
+              "end": 844,
+              "value": 31,
+              "raw": "31"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 847,
+      "end": 915,
+      "expression": {
+        "type": "CallExpression",
+        "start": 847,
+        "end": 914,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 847,
+          "end": 863,
+          "object": {
+            "type": "Identifier",
+            "start": 847,
+            "end": 853,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 854,
+            "end": 863,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 864,
+            "end": 865,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 867,
+            "end": 870,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 872,
+            "end": 913,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 917,
+      "end": 944,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 917,
+        "end": 943,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 917,
+          "end": 918,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 921,
+          "end": 943,
+          "callee": {
+            "type": "Identifier",
+            "start": 921,
+            "end": 930,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 931,
+              "end": 935,
+              "value": 1969,
+              "raw": "1969"
+            },
+            {
+              "type": "Literal",
+              "start": 937,
+              "end": 939,
+              "value": 12,
+              "raw": "12"
+            },
+            {
+              "type": "Literal",
+              "start": 941,
+              "end": 942,
+              "value": 1,
+              "raw": "1"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 945,
+      "end": 1013,
+      "expression": {
+        "type": "CallExpression",
+        "start": 945,
+        "end": 1012,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 945,
+          "end": 961,
+          "object": {
+            "type": "Identifier",
+            "start": 945,
+            "end": 951,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 952,
+            "end": 961,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 962,
+            "end": 963,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 965,
+            "end": 968,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 970,
+            "end": 1011,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1015,
+      "end": 1041,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1015,
+        "end": 1040,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1015,
+          "end": 1016,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1019,
+          "end": 1040,
+          "callee": {
+            "type": "Identifier",
+            "start": 1019,
+            "end": 1028,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1029,
+              "end": 1033,
+              "value": 1970,
+              "raw": "1970"
+            },
+            {
+              "type": "Literal",
+              "start": 1035,
+              "end": 1036,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 1038,
+              "end": 1039,
+              "value": 1,
+              "raw": "1"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1042,
+      "end": 1110,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1042,
+        "end": 1109,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1042,
+          "end": 1058,
+          "object": {
+            "type": "Identifier",
+            "start": 1042,
+            "end": 1048,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1049,
+            "end": 1058,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1059,
+            "end": 1060,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 1062,
+            "end": 1065,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1067,
+            "end": 1108,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1112,
+      "end": 1140,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1112,
+        "end": 1139,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1112,
+          "end": 1113,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1116,
+          "end": 1139,
+          "callee": {
+            "type": "Identifier",
+            "start": 1116,
+            "end": 1125,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1126,
+              "end": 1130,
+              "value": 1999,
+              "raw": "1999"
+            },
+            {
+              "type": "Literal",
+              "start": 1132,
+              "end": 1134,
+              "value": 11,
+              "raw": "11"
+            },
+            {
+              "type": "Literal",
+              "start": 1136,
+              "end": 1138,
+              "value": 31,
+              "raw": "31"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1141,
+      "end": 1209,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1141,
+        "end": 1208,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1141,
+          "end": 1157,
+          "object": {
+            "type": "Identifier",
+            "start": 1141,
+            "end": 1147,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1148,
+            "end": 1157,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1158,
+            "end": 1159,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 1161,
+            "end": 1164,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1166,
+            "end": 1207,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1211,
+      "end": 1238,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1211,
+        "end": 1237,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1211,
+          "end": 1212,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1215,
+          "end": 1237,
+          "callee": {
+            "type": "Identifier",
+            "start": 1215,
+            "end": 1224,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1225,
+              "end": 1229,
+              "value": 1999,
+              "raw": "1999"
+            },
+            {
+              "type": "Literal",
+              "start": 1231,
+              "end": 1233,
+              "value": 12,
+              "raw": "12"
+            },
+            {
+              "type": "Literal",
+              "start": 1235,
+              "end": 1236,
+              "value": 1,
+              "raw": "1"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1239,
+      "end": 1307,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1239,
+        "end": 1306,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1239,
+          "end": 1255,
+          "object": {
+            "type": "Identifier",
+            "start": 1239,
+            "end": 1245,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1246,
+            "end": 1255,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1256,
+            "end": 1257,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 1259,
+            "end": 1262,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1264,
+            "end": 1305,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1309,
+      "end": 1335,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1309,
+        "end": 1334,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1309,
+          "end": 1310,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1313,
+          "end": 1334,
+          "callee": {
+            "type": "Identifier",
+            "start": 1313,
+            "end": 1322,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1323,
+              "end": 1327,
+              "value": 2000,
+              "raw": "2000"
+            },
+            {
+              "type": "Literal",
+              "start": 1329,
+              "end": 1330,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 1332,
+              "end": 1333,
+              "value": 1,
+              "raw": "1"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1336,
+      "end": 1404,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1336,
+        "end": 1403,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1336,
+          "end": 1352,
+          "object": {
+            "type": "Identifier",
+            "start": 1336,
+            "end": 1342,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1343,
+            "end": 1352,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1353,
+            "end": 1354,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 1356,
+            "end": 1359,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1361,
+            "end": 1402,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1406,
+      "end": 1434,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1406,
+        "end": 1433,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1406,
+          "end": 1407,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1410,
+          "end": 1433,
+          "callee": {
+            "type": "Identifier",
+            "start": 1410,
+            "end": 1419,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1420,
+              "end": 1424,
+              "value": 2099,
+              "raw": "2099"
+            },
+            {
+              "type": "Literal",
+              "start": 1426,
+              "end": 1428,
+              "value": 11,
+              "raw": "11"
+            },
+            {
+              "type": "Literal",
+              "start": 1430,
+              "end": 1432,
+              "value": 31,
+              "raw": "31"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1435,
+      "end": 1503,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1435,
+        "end": 1502,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1435,
+          "end": 1451,
+          "object": {
+            "type": "Identifier",
+            "start": 1435,
+            "end": 1441,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1442,
+            "end": 1451,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1452,
+            "end": 1453,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 1455,
+            "end": 1458,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1460,
+            "end": 1501,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1505,
+      "end": 1532,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1505,
+        "end": 1531,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1505,
+          "end": 1506,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1509,
+          "end": 1531,
+          "callee": {
+            "type": "Identifier",
+            "start": 1509,
+            "end": 1518,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1519,
+              "end": 1523,
+              "value": 2099,
+              "raw": "2099"
+            },
+            {
+              "type": "Literal",
+              "start": 1525,
+              "end": 1527,
+              "value": 12,
+              "raw": "12"
+            },
+            {
+              "type": "Literal",
+              "start": 1529,
+              "end": 1530,
+              "value": 1,
+              "raw": "1"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1533,
+      "end": 1601,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1533,
+        "end": 1600,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1533,
+          "end": 1549,
+          "object": {
+            "type": "Identifier",
+            "start": 1533,
+            "end": 1539,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1540,
+            "end": 1549,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1550,
+            "end": 1551,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 1553,
+            "end": 1556,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1558,
+            "end": 1599,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1603,
+      "end": 1629,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1603,
+        "end": 1628,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1603,
+          "end": 1604,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1607,
+          "end": 1628,
+          "callee": {
+            "type": "Identifier",
+            "start": 1607,
+            "end": 1616,
+            "name": "DateValue"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1617,
+              "end": 1621,
+              "value": 2100,
+              "raw": "2100"
+            },
+            {
+              "type": "Literal",
+              "start": 1623,
+              "end": 1624,
+              "value": 0,
+              "raw": "0"
+            },
+            {
+              "type": "Literal",
+              "start": 1626,
+              "end": 1627,
+              "value": 1,
+              "raw": "1"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1630,
+      "end": 1698,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1630,
+        "end": 1697,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1630,
+          "end": 1646,
+          "object": {
+            "type": "Identifier",
+            "start": 1630,
+            "end": 1636,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1637,
+            "end": 1646,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1647,
+            "end": 1648,
+            "name": "x"
+          },
+          {
+            "type": "Identifier",
+            "start": 1650,
+            "end": 1653,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1655,
+            "end": 1696,
+            "value": "The value of x is expected to equal NaN",
+            "raw": "'The value of x is expected to equal NaN'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

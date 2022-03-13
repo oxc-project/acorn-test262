@@ -1,0 +1,144 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 347,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 223,
+      "end": 252,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 227,
+          "end": 251,
+          "id": {
+            "type": "Identifier",
+            "start": 227,
+            "end": 233,
+            "name": "strObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 236,
+            "end": 251,
+            "callee": {
+              "type": "Identifier",
+              "start": 240,
+              "end": 246,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 247,
+                "end": 250,
+                "value": "a",
+                "raw": "\"a\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 254,
+      "end": 276,
+      "expression": {
+        "type": "CallExpression",
+        "start": 254,
+        "end": 275,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 254,
+          "end": 267,
+          "object": {
+            "type": "Identifier",
+            "start": 254,
+            "end": 260,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 267,
+            "name": "freeze"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 268,
+            "end": 274,
+            "name": "strObj"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 278,
+      "end": 346,
+      "expression": {
+        "type": "CallExpression",
+        "start": 278,
+        "end": 345,
+        "callee": {
+          "type": "Identifier",
+          "start": 278,
+          "end": 284,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 285,
+            "end": 308,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 285,
+              "end": 300,
+              "object": {
+                "type": "Identifier",
+                "start": 285,
+                "end": 291,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 292,
+                "end": 300,
+                "name": "isFrozen"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 301,
+                "end": 307,
+                "name": "strObj"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 310,
+            "end": 344,
+            "value": "Object.isFrozen(strObj) !== true",
+            "raw": "'Object.isFrozen(strObj) !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

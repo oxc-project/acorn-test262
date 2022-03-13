@@ -1,0 +1,737 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 834,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 295,
+      "end": 312,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 299,
+          "end": 311,
+          "id": {
+            "type": "Identifier",
+            "start": 299,
+            "end": 307,
+            "name": "exponent"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 310,
+            "end": 311,
+            "value": 2,
+            "raw": "2"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 313,
+      "end": 359,
+      "expression": {
+        "type": "CallExpression",
+        "start": 313,
+        "end": 358,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 313,
+          "end": 329,
+          "object": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 319,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 329,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 330,
+            "end": 336,
+            "left": {
+              "type": "Literal",
+              "start": 330,
+              "end": 331,
+              "value": 2,
+              "raw": "2"
+            },
+            "operator": "**",
+            "right": {
+              "type": "Literal",
+              "start": 335,
+              "end": 336,
+              "value": 3,
+              "raw": "3"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 338,
+            "end": 339,
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "type": "Literal",
+            "start": 341,
+            "end": 357,
+            "value": "(2 ** 3) === 8",
+            "raw": "\"(2 ** 3) === 8\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 360,
+      "end": 416,
+      "expression": {
+        "type": "CallExpression",
+        "start": 360,
+        "end": 415,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 360,
+          "end": 376,
+          "object": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 366,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 376,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 377,
+            "end": 387,
+            "left": {
+              "type": "Literal",
+              "start": 377,
+              "end": 378,
+              "value": 3,
+              "raw": "3"
+            },
+            "operator": "*",
+            "right": {
+              "type": "BinaryExpression",
+              "start": 381,
+              "end": 387,
+              "left": {
+                "type": "Literal",
+                "start": 381,
+                "end": 382,
+                "value": 2,
+                "raw": "2"
+              },
+              "operator": "**",
+              "right": {
+                "type": "Literal",
+                "start": 386,
+                "end": 387,
+                "value": 3,
+                "raw": "3"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 389,
+            "end": 391,
+            "value": 24,
+            "raw": "24"
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 414,
+            "value": "(3 * 2 ** 3) === 24",
+            "raw": "\"(3 * 2 ** 3) === 24\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 417,
+      "end": 481,
+      "expression": {
+        "type": "CallExpression",
+        "start": 417,
+        "end": 480,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 417,
+          "end": 433,
+          "object": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 423,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 424,
+            "end": 433,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 434,
+            "end": 449,
+            "left": {
+              "type": "Literal",
+              "start": 434,
+              "end": 435,
+              "value": 2,
+              "raw": "2"
+            },
+            "operator": "**",
+            "right": {
+              "type": "UpdateExpression",
+              "start": 439,
+              "end": 449,
+              "operator": "++",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 441,
+                "end": 449,
+                "name": "exponent"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 452,
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "type": "Literal",
+            "start": 454,
+            "end": 479,
+            "value": "(2 ** ++exponent) === 8",
+            "raw": "\"(2 ** ++exponent) === 8\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 482,
+      "end": 538,
+      "expression": {
+        "type": "CallExpression",
+        "start": 482,
+        "end": 537,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 482,
+          "end": 498,
+          "object": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 488,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 498,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 499,
+            "end": 510,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 499,
+              "end": 506,
+              "left": {
+                "type": "Literal",
+                "start": 499,
+                "end": 500,
+                "value": 2,
+                "raw": "2"
+              },
+              "operator": "**",
+              "right": {
+                "type": "UnaryExpression",
+                "start": 504,
+                "end": 506,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 505,
+                  "end": 506,
+                  "value": 1,
+                  "raw": "1"
+                }
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "Literal",
+              "start": 509,
+              "end": 510,
+              "value": 2,
+              "raw": "2"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 512,
+            "end": 513,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 515,
+            "end": 536,
+            "value": "(2 ** -1 * 2) === 1",
+            "raw": "\"(2 ** -1 * 2) === 1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 539,
+      "end": 595,
+      "expression": {
+        "type": "CallExpression",
+        "start": 539,
+        "end": 594,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 539,
+          "end": 555,
+          "object": {
+            "type": "Identifier",
+            "start": 539,
+            "end": 545,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 546,
+            "end": 555,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 556,
+            "end": 566,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 556,
+              "end": 562,
+              "left": {
+                "type": "Literal",
+                "start": 556,
+                "end": 557,
+                "value": 2,
+                "raw": "2"
+              },
+              "operator": "**",
+              "right": {
+                "type": "Literal",
+                "start": 561,
+                "end": 562,
+                "value": 2,
+                "raw": "2"
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "Literal",
+              "start": 565,
+              "end": 566,
+              "value": 4,
+              "raw": "4"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 568,
+            "end": 570,
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "type": "Literal",
+            "start": 572,
+            "end": 593,
+            "value": "(2 ** 2 * 4) === 16",
+            "raw": "\"(2 ** 2 * 4) === 16\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 596,
+      "end": 650,
+      "expression": {
+        "type": "CallExpression",
+        "start": 596,
+        "end": 649,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 596,
+          "end": 612,
+          "object": {
+            "type": "Identifier",
+            "start": 596,
+            "end": 602,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 603,
+            "end": 612,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 613,
+            "end": 623,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 613,
+              "end": 619,
+              "left": {
+                "type": "Literal",
+                "start": 613,
+                "end": 614,
+                "value": 2,
+                "raw": "2"
+              },
+              "operator": "**",
+              "right": {
+                "type": "Literal",
+                "start": 618,
+                "end": 619,
+                "value": 2,
+                "raw": "2"
+              }
+            },
+            "operator": "/",
+            "right": {
+              "type": "Literal",
+              "start": 622,
+              "end": 623,
+              "value": 2,
+              "raw": "2"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 625,
+            "end": 626,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 628,
+            "end": 648,
+            "value": "(2 ** 2 / 2) === 2",
+            "raw": "\"(2 ** 2 / 2) === 2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 651,
+      "end": 715,
+      "expression": {
+        "type": "CallExpression",
+        "start": 651,
+        "end": 714,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 651,
+          "end": 667,
+          "object": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 657,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 667,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 668,
+            "end": 681,
+            "left": {
+              "type": "Literal",
+              "start": 668,
+              "end": 669,
+              "value": 2,
+              "raw": "2"
+            },
+            "operator": "**",
+            "right": {
+              "type": "ParenthesizedExpression",
+              "start": 673,
+              "end": 681,
+              "expression": {
+                "type": "BinaryExpression",
+                "start": 674,
+                "end": 680,
+                "left": {
+                  "type": "Literal",
+                  "start": 674,
+                  "end": 675,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "operator": "**",
+                "right": {
+                  "type": "Literal",
+                  "start": 679,
+                  "end": 680,
+                  "value": 2,
+                  "raw": "2"
+                }
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 683,
+            "end": 686,
+            "value": 512,
+            "raw": "512"
+          },
+          {
+            "type": "Literal",
+            "start": 688,
+            "end": 713,
+            "value": "(2 ** (3 ** 2)) === 512",
+            "raw": "\"(2 ** (3 ** 2)) === 512\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 716,
+      "end": 776,
+      "expression": {
+        "type": "CallExpression",
+        "start": 716,
+        "end": 775,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 716,
+          "end": 732,
+          "object": {
+            "type": "Identifier",
+            "start": 716,
+            "end": 722,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 723,
+            "end": 732,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 733,
+            "end": 744,
+            "left": {
+              "type": "Literal",
+              "start": 733,
+              "end": 734,
+              "value": 2,
+              "raw": "2"
+            },
+            "operator": "**",
+            "right": {
+              "type": "BinaryExpression",
+              "start": 738,
+              "end": 744,
+              "left": {
+                "type": "Literal",
+                "start": 738,
+                "end": 739,
+                "value": 3,
+                "raw": "3"
+              },
+              "operator": "**",
+              "right": {
+                "type": "Literal",
+                "start": 743,
+                "end": 744,
+                "value": 2,
+                "raw": "2"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 749,
+            "value": 512,
+            "raw": "512"
+          },
+          {
+            "type": "Literal",
+            "start": 751,
+            "end": 774,
+            "value": "(2 ** 3 ** 2) === 512",
+            "raw": "\"(2 ** 3 ** 2) === 512\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 777,
+      "end": 833,
+      "expression": {
+        "type": "CallExpression",
+        "start": 777,
+        "end": 832,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 777,
+          "end": 793,
+          "object": {
+            "type": "Identifier",
+            "start": 777,
+            "end": 783,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 784,
+            "end": 793,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 794,
+            "end": 805,
+            "left": {
+              "type": "Literal",
+              "start": 794,
+              "end": 796,
+              "value": 16,
+              "raw": "16"
+            },
+            "operator": "/",
+            "right": {
+              "type": "BinaryExpression",
+              "start": 799,
+              "end": 805,
+              "left": {
+                "type": "Literal",
+                "start": 799,
+                "end": 800,
+                "value": 2,
+                "raw": "2"
+              },
+              "operator": "**",
+              "right": {
+                "type": "Literal",
+                "start": 804,
+                "end": 805,
+                "value": 2,
+                "raw": "2"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 807,
+            "end": 808,
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "type": "Literal",
+            "start": 810,
+            "end": 831,
+            "value": "(16 / 2 ** 2) === 4",
+            "raw": "\"(16 / 2 ** 2) === 4\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

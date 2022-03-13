@@ -1,0 +1,228 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 717,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 511,
+      "end": 580,
+      "expression": {
+        "type": "CallExpression",
+        "start": 511,
+        "end": 579,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 511,
+          "end": 527,
+          "object": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 517,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 518,
+            "end": 527,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 528,
+            "end": 556,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 535,
+              "end": 556,
+              "object": {
+                "type": "MemberExpression",
+                "start": 535,
+                "end": 550,
+                "object": {
+                  "type": "Identifier",
+                  "start": 535,
+                  "end": 540,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 541,
+                  "end": 550,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 551,
+                "end": 556,
+                "name": "shift"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 558,
+            "end": 568,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 570,
+            "end": 578,
+            "value": "typeof",
+            "raw": "'typeof'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 582,
+      "end": 628,
+      "expression": {
+        "type": "CallExpression",
+        "start": 582,
+        "end": 627,
+        "callee": {
+          "type": "Identifier",
+          "start": 582,
+          "end": 601,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 602,
+            "end": 617,
+            "object": {
+              "type": "Identifier",
+              "start": 602,
+              "end": 607,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 608,
+              "end": 617,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 619,
+            "end": 626,
+            "value": "shift",
+            "raw": "\"shift\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 629,
+      "end": 670,
+      "expression": {
+        "type": "CallExpression",
+        "start": 629,
+        "end": 669,
+        "callee": {
+          "type": "Identifier",
+          "start": 629,
+          "end": 643,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 644,
+            "end": 659,
+            "object": {
+              "type": "Identifier",
+              "start": 644,
+              "end": 649,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 650,
+              "end": 659,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 661,
+            "end": 668,
+            "value": "shift",
+            "raw": "\"shift\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 671,
+      "end": 716,
+      "expression": {
+        "type": "CallExpression",
+        "start": 671,
+        "end": 715,
+        "callee": {
+          "type": "Identifier",
+          "start": 671,
+          "end": 689,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 690,
+            "end": 705,
+            "object": {
+              "type": "Identifier",
+              "start": 690,
+              "end": 695,
+              "name": "Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 696,
+              "end": 705,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 707,
+            "end": 714,
+            "value": "shift",
+            "raw": "\"shift\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

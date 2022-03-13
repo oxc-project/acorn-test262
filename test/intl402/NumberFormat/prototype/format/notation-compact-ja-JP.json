@@ -1,0 +1,2120 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1801,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 327,
+      "end": 429,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 333,
+          "end": 428,
+          "id": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 340,
+            "name": "nfShort"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 343,
+            "end": 428,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 347,
+              "end": 364,
+              "object": {
+                "type": "Identifier",
+                "start": 347,
+                "end": 351,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 352,
+                "end": 364,
+                "name": "NumberFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 365,
+                "end": 372,
+                "value": "ja-JP",
+                "raw": "\"ja-JP\""
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 374,
+                "end": 427,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 378,
+                    "end": 397,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 378,
+                      "end": 386,
+                      "name": "notation"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 388,
+                      "end": 397,
+                      "value": "compact",
+                      "raw": "\"compact\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 401,
+                    "end": 424,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 401,
+                      "end": 415,
+                      "name": "compactDisplay"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 417,
+                      "end": 424,
+                      "value": "short",
+                      "raw": "\"short\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 430,
+      "end": 482,
+      "expression": {
+        "type": "CallExpression",
+        "start": 430,
+        "end": 481,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 430,
+          "end": 446,
+          "object": {
+            "type": "Identifier",
+            "start": 430,
+            "end": 436,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 437,
+            "end": 446,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 447,
+            "end": 472,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 447,
+              "end": 461,
+              "object": {
+                "type": "Identifier",
+                "start": 447,
+                "end": 454,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 455,
+                "end": 461,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 462,
+                "end": 471,
+                "value": 987654321,
+                "raw": "987654321"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 474,
+            "end": 480,
+            "value": "9.9億",
+            "raw": "\"9.9億\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 483,
+      "end": 535,
+      "expression": {
+        "type": "CallExpression",
+        "start": 483,
+        "end": 534,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 483,
+          "end": 499,
+          "object": {
+            "type": "Identifier",
+            "start": 483,
+            "end": 489,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 499,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 500,
+            "end": 524,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 500,
+              "end": 514,
+              "object": {
+                "type": "Identifier",
+                "start": 500,
+                "end": 507,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 508,
+                "end": 514,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 515,
+                "end": 523,
+                "value": 98765432,
+                "raw": "98765432"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 526,
+            "end": 533,
+            "value": "9877万",
+            "raw": "\"9877万\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 536,
+      "end": 584,
+      "expression": {
+        "type": "CallExpression",
+        "start": 536,
+        "end": 583,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 536,
+          "end": 552,
+          "object": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 542,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 552,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 553,
+            "end": 574,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 553,
+              "end": 567,
+              "object": {
+                "type": "Identifier",
+                "start": 553,
+                "end": 560,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 561,
+                "end": 567,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 568,
+                "end": 573,
+                "value": 98765,
+                "raw": "98765"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 576,
+            "end": 582,
+            "value": "9.9万",
+            "raw": "\"9.9万\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 585,
+      "end": 632,
+      "expression": {
+        "type": "CallExpression",
+        "start": 585,
+        "end": 631,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 585,
+          "end": 601,
+          "object": {
+            "type": "Identifier",
+            "start": 585,
+            "end": 591,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 592,
+            "end": 601,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 602,
+            "end": 622,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 602,
+              "end": 616,
+              "object": {
+                "type": "Identifier",
+                "start": 602,
+                "end": 609,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 610,
+                "end": 616,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 617,
+                "end": 621,
+                "value": 9876,
+                "raw": "9876"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 624,
+            "end": 630,
+            "value": "9876",
+            "raw": "\"9876\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 633,
+      "end": 678,
+      "expression": {
+        "type": "CallExpression",
+        "start": 633,
+        "end": 677,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 633,
+          "end": 649,
+          "object": {
+            "type": "Identifier",
+            "start": 633,
+            "end": 639,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 640,
+            "end": 649,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 650,
+            "end": 669,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 650,
+              "end": 664,
+              "object": {
+                "type": "Identifier",
+                "start": 650,
+                "end": 657,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 658,
+                "end": 664,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 665,
+                "end": 668,
+                "value": 159,
+                "raw": "159"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 671,
+            "end": 676,
+            "value": "159",
+            "raw": "\"159\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 679,
+      "end": 724,
+      "expression": {
+        "type": "CallExpression",
+        "start": 679,
+        "end": 723,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 679,
+          "end": 695,
+          "object": {
+            "type": "Identifier",
+            "start": 679,
+            "end": 685,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 686,
+            "end": 695,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 696,
+            "end": 716,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 696,
+              "end": 710,
+              "object": {
+                "type": "Identifier",
+                "start": 696,
+                "end": 703,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 704,
+                "end": 710,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 711,
+                "end": 715,
+                "value": 15.9,
+                "raw": "15.9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 718,
+            "end": 722,
+            "value": "16",
+            "raw": "\"16\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 725,
+      "end": 771,
+      "expression": {
+        "type": "CallExpression",
+        "start": 725,
+        "end": 770,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 725,
+          "end": 741,
+          "object": {
+            "type": "Identifier",
+            "start": 725,
+            "end": 731,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 732,
+            "end": 741,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 742,
+            "end": 762,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 742,
+              "end": 756,
+              "object": {
+                "type": "Identifier",
+                "start": 742,
+                "end": 749,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 750,
+                "end": 756,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 757,
+                "end": 761,
+                "value": 1.59,
+                "raw": "1.59"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 764,
+            "end": 769,
+            "value": "1.6",
+            "raw": "\"1.6\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 772,
+      "end": 820,
+      "expression": {
+        "type": "CallExpression",
+        "start": 772,
+        "end": 819,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 772,
+          "end": 788,
+          "object": {
+            "type": "Identifier",
+            "start": 772,
+            "end": 778,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 779,
+            "end": 788,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 789,
+            "end": 810,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 789,
+              "end": 803,
+              "object": {
+                "type": "Identifier",
+                "start": 789,
+                "end": 796,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 797,
+                "end": 803,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 804,
+                "end": 809,
+                "value": 0.159,
+                "raw": "0.159"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 812,
+            "end": 818,
+            "value": "0.16",
+            "raw": "\"0.16\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 821,
+      "end": 871,
+      "expression": {
+        "type": "CallExpression",
+        "start": 821,
+        "end": 870,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 821,
+          "end": 837,
+          "object": {
+            "type": "Identifier",
+            "start": 821,
+            "end": 827,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 828,
+            "end": 837,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 838,
+            "end": 860,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 838,
+              "end": 852,
+              "object": {
+                "type": "Identifier",
+                "start": 838,
+                "end": 845,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 846,
+                "end": 852,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 853,
+                "end": 859,
+                "value": 0.0159,
+                "raw": "0.0159"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 862,
+            "end": 869,
+            "value": "0.016",
+            "raw": "\"0.016\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 872,
+      "end": 924,
+      "expression": {
+        "type": "CallExpression",
+        "start": 872,
+        "end": 923,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 872,
+          "end": 888,
+          "object": {
+            "type": "Identifier",
+            "start": 872,
+            "end": 878,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 879,
+            "end": 888,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 889,
+            "end": 912,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 889,
+              "end": 903,
+              "object": {
+                "type": "Identifier",
+                "start": 889,
+                "end": 896,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 897,
+                "end": 903,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 904,
+                "end": 911,
+                "value": 0.00159,
+                "raw": "0.00159"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 914,
+            "end": 922,
+            "value": "0.0016",
+            "raw": "\"0.0016\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 925,
+      "end": 975,
+      "expression": {
+        "type": "CallExpression",
+        "start": 925,
+        "end": 974,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 925,
+          "end": 941,
+          "object": {
+            "type": "Identifier",
+            "start": 925,
+            "end": 931,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 932,
+            "end": 941,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 942,
+            "end": 967,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 942,
+              "end": 956,
+              "object": {
+                "type": "Identifier",
+                "start": 942,
+                "end": 949,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 950,
+                "end": 956,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 957,
+                "end": 966,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 958,
+                  "end": 966,
+                  "name": "Infinity"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 969,
+            "end": 973,
+            "value": "-∞",
+            "raw": "\"-∞\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 976,
+      "end": 1024,
+      "expression": {
+        "type": "CallExpression",
+        "start": 976,
+        "end": 1023,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 976,
+          "end": 992,
+          "object": {
+            "type": "Identifier",
+            "start": 976,
+            "end": 982,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 983,
+            "end": 992,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 993,
+            "end": 1017,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 993,
+              "end": 1007,
+              "object": {
+                "type": "Identifier",
+                "start": 993,
+                "end": 1000,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1001,
+                "end": 1007,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1008,
+                "end": 1016,
+                "name": "Infinity"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1019,
+            "end": 1022,
+            "value": "∞",
+            "raw": "\"∞\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1025,
+      "end": 1070,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1025,
+        "end": 1069,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1025,
+          "end": 1041,
+          "object": {
+            "type": "Identifier",
+            "start": 1025,
+            "end": 1031,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1032,
+            "end": 1041,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1042,
+            "end": 1061,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1042,
+              "end": 1056,
+              "object": {
+                "type": "Identifier",
+                "start": 1042,
+                "end": 1049,
+                "name": "nfShort"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1050,
+                "end": 1056,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1057,
+                "end": 1060,
+                "name": "NaN"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1063,
+            "end": 1068,
+            "value": "NaN",
+            "raw": "\"NaN\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1072,
+      "end": 1172,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1078,
+          "end": 1171,
+          "id": {
+            "type": "Identifier",
+            "start": 1078,
+            "end": 1084,
+            "name": "nfLong"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1087,
+            "end": 1171,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1091,
+              "end": 1108,
+              "object": {
+                "type": "Identifier",
+                "start": 1091,
+                "end": 1095,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1096,
+                "end": 1108,
+                "name": "NumberFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1109,
+                "end": 1116,
+                "value": "ja-JP",
+                "raw": "\"ja-JP\""
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1118,
+                "end": 1170,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1122,
+                    "end": 1141,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1122,
+                      "end": 1130,
+                      "name": "notation"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1132,
+                      "end": 1141,
+                      "value": "compact",
+                      "raw": "\"compact\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1145,
+                    "end": 1167,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1145,
+                      "end": 1159,
+                      "name": "compactDisplay"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1161,
+                      "end": 1167,
+                      "value": "long",
+                      "raw": "\"long\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1173,
+      "end": 1224,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1173,
+        "end": 1223,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1173,
+          "end": 1189,
+          "object": {
+            "type": "Identifier",
+            "start": 1173,
+            "end": 1179,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1180,
+            "end": 1189,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1190,
+            "end": 1214,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1190,
+              "end": 1203,
+              "object": {
+                "type": "Identifier",
+                "start": 1190,
+                "end": 1196,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1197,
+                "end": 1203,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1204,
+                "end": 1213,
+                "value": 987654321,
+                "raw": "987654321"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1216,
+            "end": 1222,
+            "value": "9.9億",
+            "raw": "\"9.9億\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1225,
+      "end": 1276,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1225,
+        "end": 1275,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1225,
+          "end": 1241,
+          "object": {
+            "type": "Identifier",
+            "start": 1225,
+            "end": 1231,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1232,
+            "end": 1241,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1242,
+            "end": 1265,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1242,
+              "end": 1255,
+              "object": {
+                "type": "Identifier",
+                "start": 1242,
+                "end": 1248,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1249,
+                "end": 1255,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1256,
+                "end": 1264,
+                "value": 98765432,
+                "raw": "98765432"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1267,
+            "end": 1274,
+            "value": "9877万",
+            "raw": "\"9877万\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1277,
+      "end": 1324,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1277,
+        "end": 1323,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1277,
+          "end": 1293,
+          "object": {
+            "type": "Identifier",
+            "start": 1277,
+            "end": 1283,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1284,
+            "end": 1293,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1294,
+            "end": 1314,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1294,
+              "end": 1307,
+              "object": {
+                "type": "Identifier",
+                "start": 1294,
+                "end": 1300,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1301,
+                "end": 1307,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1308,
+                "end": 1313,
+                "value": 98765,
+                "raw": "98765"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1316,
+            "end": 1322,
+            "value": "9.9万",
+            "raw": "\"9.9万\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1325,
+      "end": 1371,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1325,
+        "end": 1370,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1325,
+          "end": 1341,
+          "object": {
+            "type": "Identifier",
+            "start": 1325,
+            "end": 1331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1332,
+            "end": 1341,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1342,
+            "end": 1361,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1342,
+              "end": 1355,
+              "object": {
+                "type": "Identifier",
+                "start": 1342,
+                "end": 1348,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1349,
+                "end": 1355,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1356,
+                "end": 1360,
+                "value": 9876,
+                "raw": "9876"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1363,
+            "end": 1369,
+            "value": "9876",
+            "raw": "\"9876\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1372,
+      "end": 1416,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1372,
+        "end": 1415,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1372,
+          "end": 1388,
+          "object": {
+            "type": "Identifier",
+            "start": 1372,
+            "end": 1378,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1379,
+            "end": 1388,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1389,
+            "end": 1407,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1389,
+              "end": 1402,
+              "object": {
+                "type": "Identifier",
+                "start": 1389,
+                "end": 1395,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1396,
+                "end": 1402,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1403,
+                "end": 1406,
+                "value": 159,
+                "raw": "159"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1409,
+            "end": 1414,
+            "value": "159",
+            "raw": "\"159\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1417,
+      "end": 1461,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1417,
+        "end": 1460,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1417,
+          "end": 1433,
+          "object": {
+            "type": "Identifier",
+            "start": 1417,
+            "end": 1423,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1424,
+            "end": 1433,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1434,
+            "end": 1453,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1434,
+              "end": 1447,
+              "object": {
+                "type": "Identifier",
+                "start": 1434,
+                "end": 1440,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1441,
+                "end": 1447,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1448,
+                "end": 1452,
+                "value": 15.9,
+                "raw": "15.9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1455,
+            "end": 1459,
+            "value": "16",
+            "raw": "\"16\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1462,
+      "end": 1507,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1462,
+        "end": 1506,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1462,
+          "end": 1478,
+          "object": {
+            "type": "Identifier",
+            "start": 1462,
+            "end": 1468,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1469,
+            "end": 1478,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1479,
+            "end": 1498,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1479,
+              "end": 1492,
+              "object": {
+                "type": "Identifier",
+                "start": 1479,
+                "end": 1485,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1486,
+                "end": 1492,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1493,
+                "end": 1497,
+                "value": 1.59,
+                "raw": "1.59"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1500,
+            "end": 1505,
+            "value": "1.6",
+            "raw": "\"1.6\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1508,
+      "end": 1555,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1508,
+        "end": 1554,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1508,
+          "end": 1524,
+          "object": {
+            "type": "Identifier",
+            "start": 1508,
+            "end": 1514,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1515,
+            "end": 1524,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1525,
+            "end": 1545,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1525,
+              "end": 1538,
+              "object": {
+                "type": "Identifier",
+                "start": 1525,
+                "end": 1531,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1532,
+                "end": 1538,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1539,
+                "end": 1544,
+                "value": 0.159,
+                "raw": "0.159"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1547,
+            "end": 1553,
+            "value": "0.16",
+            "raw": "\"0.16\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1556,
+      "end": 1605,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1556,
+        "end": 1604,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1556,
+          "end": 1572,
+          "object": {
+            "type": "Identifier",
+            "start": 1556,
+            "end": 1562,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1563,
+            "end": 1572,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1573,
+            "end": 1594,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1573,
+              "end": 1586,
+              "object": {
+                "type": "Identifier",
+                "start": 1573,
+                "end": 1579,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1580,
+                "end": 1586,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1587,
+                "end": 1593,
+                "value": 0.0159,
+                "raw": "0.0159"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1596,
+            "end": 1603,
+            "value": "0.016",
+            "raw": "\"0.016\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1606,
+      "end": 1657,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1606,
+        "end": 1656,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1606,
+          "end": 1622,
+          "object": {
+            "type": "Identifier",
+            "start": 1606,
+            "end": 1612,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1613,
+            "end": 1622,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1623,
+            "end": 1645,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1623,
+              "end": 1636,
+              "object": {
+                "type": "Identifier",
+                "start": 1623,
+                "end": 1629,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1630,
+                "end": 1636,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1637,
+                "end": 1644,
+                "value": 0.00159,
+                "raw": "0.00159"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1647,
+            "end": 1655,
+            "value": "0.0016",
+            "raw": "\"0.0016\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1658,
+      "end": 1707,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1658,
+        "end": 1706,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1658,
+          "end": 1674,
+          "object": {
+            "type": "Identifier",
+            "start": 1658,
+            "end": 1664,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1665,
+            "end": 1674,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1675,
+            "end": 1699,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1675,
+              "end": 1688,
+              "object": {
+                "type": "Identifier",
+                "start": 1675,
+                "end": 1681,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1682,
+                "end": 1688,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 1689,
+                "end": 1698,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1690,
+                  "end": 1698,
+                  "name": "Infinity"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1701,
+            "end": 1705,
+            "value": "-∞",
+            "raw": "\"-∞\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1708,
+      "end": 1755,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1708,
+        "end": 1754,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1708,
+          "end": 1724,
+          "object": {
+            "type": "Identifier",
+            "start": 1708,
+            "end": 1714,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1715,
+            "end": 1724,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1725,
+            "end": 1748,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1725,
+              "end": 1738,
+              "object": {
+                "type": "Identifier",
+                "start": 1725,
+                "end": 1731,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1732,
+                "end": 1738,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1739,
+                "end": 1747,
+                "name": "Infinity"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1750,
+            "end": 1753,
+            "value": "∞",
+            "raw": "\"∞\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1756,
+      "end": 1800,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1756,
+        "end": 1799,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1756,
+          "end": 1772,
+          "object": {
+            "type": "Identifier",
+            "start": 1756,
+            "end": 1762,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1763,
+            "end": 1772,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1773,
+            "end": 1791,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1773,
+              "end": 1786,
+              "object": {
+                "type": "Identifier",
+                "start": 1773,
+                "end": 1779,
+                "name": "nfLong"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1780,
+                "end": 1786,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1787,
+                "end": 1790,
+                "name": "NaN"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1793,
+            "end": 1798,
+            "value": "NaN",
+            "raw": "\"NaN\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

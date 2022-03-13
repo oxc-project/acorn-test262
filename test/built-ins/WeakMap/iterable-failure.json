@@ -1,0 +1,87 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 461,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 400,
+      "end": 460,
+      "expression": {
+        "type": "CallExpression",
+        "start": 400,
+        "end": 459,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 400,
+          "end": 413,
+          "object": {
+            "type": "Identifier",
+            "start": 400,
+            "end": 406,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 407,
+            "end": 413,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 414,
+            "end": 423,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 425,
+            "end": 458,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 436,
+              "end": 458,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 440,
+                  "end": 456,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 440,
+                    "end": 455,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 444,
+                      "end": 451,
+                      "name": "WeakMap"
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 452,
+                        "end": 454,
+                        "properties": []
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

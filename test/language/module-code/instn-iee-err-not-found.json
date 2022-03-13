@@ -1,0 +1,40 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 879,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 815,
+      "end": 878,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 824,
+          "end": 825,
+          "local": {
+            "type": "Identifier",
+            "start": 824,
+            "end": 825,
+            "name": "x"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 824,
+            "end": 825,
+            "name": "x"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 833,
+        "end": 877,
+        "value": "./instn-iee-err-not-found-empty_FIXTURE.js",
+        "raw": "'./instn-iee-err-not-found-empty_FIXTURE.js'"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

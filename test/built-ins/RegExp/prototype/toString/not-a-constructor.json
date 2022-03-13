@@ -1,0 +1,231 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 986,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 697,
+      "end": 833,
+      "expression": {
+        "type": "CallExpression",
+        "start": 697,
+        "end": 832,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 697,
+          "end": 713,
+          "object": {
+            "type": "Identifier",
+            "start": 697,
+            "end": 703,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 704,
+            "end": 713,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 717,
+            "end": 757,
+            "callee": {
+              "type": "Identifier",
+              "start": 717,
+              "end": 730,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 731,
+                "end": 756,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 731,
+                  "end": 747,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 731,
+                    "end": 737,
+                    "name": "RegExp"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 738,
+                    "end": 747,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 748,
+                  "end": 756,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 761,
+            "end": 766,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 770,
+            "end": 830,
+            "value": "isConstructor(RegExp.prototype.toString) must return false",
+            "raw": "'isConstructor(RegExp.prototype.toString) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 835,
+      "end": 984,
+      "expression": {
+        "type": "CallExpression",
+        "start": 835,
+        "end": 983,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 835,
+          "end": 848,
+          "object": {
+            "type": "Identifier",
+            "start": 835,
+            "end": 841,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 842,
+            "end": 848,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 849,
+            "end": 858,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 860,
+            "end": 915,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 866,
+              "end": 915,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 870,
+                  "end": 894,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 874,
+                      "end": 893,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 874,
+                        "end": 876,
+                        "name": "re"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 879,
+                        "end": 893,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 883,
+                          "end": 889,
+                          "name": "RegExp"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 890,
+                            "end": 892,
+                            "value": "",
+                            "raw": "''"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 895,
+                  "end": 913,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 895,
+                    "end": 912,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 899,
+                      "end": 910,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 899,
+                        "end": 901,
+                        "name": "re"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 902,
+                        "end": 910,
+                        "name": "toString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 917,
+            "end": 982,
+            "value": "`let re = new RegExp(''); new re.toString()` throws TypeError",
+            "raw": "'`let re = new RegExp(\\'\\'); new re.toString()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

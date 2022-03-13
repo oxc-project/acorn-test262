@@ -1,0 +1,1000 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2943,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 317,
+      "end": 354,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 321,
+          "end": 353,
+          "id": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 329,
+            "name": "__string"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 332,
+            "end": 353,
+            "value": "Boston, Mass. 02134",
+            "raw": "\"Boston, Mass. 02134\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 445,
+      "end": 702,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 449,
+        "end": 508,
+        "left": {
+          "type": "MemberExpression",
+          "start": 449,
+          "end": 496,
+          "object": {
+            "type": "CallExpression",
+            "start": 449,
+            "end": 493,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 449,
+              "end": 463,
+              "object": {
+                "type": "Identifier",
+                "start": 449,
+                "end": 457,
+                "name": "__string"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 458,
+                "end": 463,
+                "name": "match"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 464,
+                "end": 492,
+                "value": {},
+                "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                "regex": {
+                  "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 494,
+            "end": 495,
+            "value": 0,
+            "raw": "0"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 501,
+          "end": 508,
+          "value": "02134",
+          "raw": "\"02134\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 510,
+        "end": 702,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 514,
+            "end": 700,
+            "argument": {
+              "type": "NewExpression",
+              "start": 520,
+              "end": 699,
+              "callee": {
+                "type": "Identifier",
+                "start": 524,
+                "end": 536,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 537,
+                  "end": 698,
+                  "left": {
+                    "type": "Literal",
+                    "start": 537,
+                    "end": 648,
+                    "value": "#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/)[0]=== \"02134\". Actual: ",
+                    "raw": "'#1: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/)[0]=== \"02134\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 651,
+                    "end": 698,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 651,
+                      "end": 695,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 651,
+                        "end": 665,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 651,
+                          "end": 659,
+                          "name": "__string"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 660,
+                          "end": 665,
+                          "name": "match"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 666,
+                          "end": 694,
+                          "value": {},
+                          "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                          "regex": {
+                            "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                            "flags": ""
+                          }
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 696,
+                      "end": 697,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 875,
+      "end": 1132,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 879,
+        "end": 938,
+        "left": {
+          "type": "MemberExpression",
+          "start": 879,
+          "end": 926,
+          "object": {
+            "type": "CallExpression",
+            "start": 879,
+            "end": 923,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 879,
+              "end": 893,
+              "object": {
+                "type": "Identifier",
+                "start": 879,
+                "end": 887,
+                "name": "__string"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 888,
+                "end": 893,
+                "name": "match"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 894,
+                "end": 922,
+                "value": {},
+                "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                "regex": {
+                  "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 924,
+            "end": 925,
+            "value": 1,
+            "raw": "1"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 931,
+          "end": 938,
+          "value": "02134",
+          "raw": "\"02134\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 940,
+        "end": 1132,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 944,
+            "end": 1130,
+            "argument": {
+              "type": "NewExpression",
+              "start": 950,
+              "end": 1129,
+              "callee": {
+                "type": "Identifier",
+                "start": 954,
+                "end": 966,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 967,
+                  "end": 1128,
+                  "left": {
+                    "type": "Literal",
+                    "start": 967,
+                    "end": 1078,
+                    "value": "#2: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/)[1]=== \"02134\". Actual: ",
+                    "raw": "'#2: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/)[1]=== \"02134\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1081,
+                    "end": 1128,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 1081,
+                      "end": 1125,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1081,
+                        "end": 1095,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1081,
+                          "end": 1089,
+                          "name": "__string"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1090,
+                          "end": 1095,
+                          "name": "match"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1096,
+                          "end": 1124,
+                          "value": {},
+                          "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                          "regex": {
+                            "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                            "flags": ""
+                          }
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 1126,
+                      "end": 1127,
+                      "value": 1,
+                      "raw": "1"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1305,
+      "end": 1560,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1309,
+        "end": 1367,
+        "left": {
+          "type": "MemberExpression",
+          "start": 1309,
+          "end": 1356,
+          "object": {
+            "type": "CallExpression",
+            "start": 1309,
+            "end": 1353,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1309,
+              "end": 1323,
+              "object": {
+                "type": "Identifier",
+                "start": 1309,
+                "end": 1317,
+                "name": "__string"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1318,
+                "end": 1323,
+                "name": "match"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1324,
+                "end": 1352,
+                "value": {},
+                "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                "regex": {
+                  "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 1354,
+            "end": 1355,
+            "value": 2,
+            "raw": "2"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "UnaryExpression",
+          "start": 1361,
+          "end": 1367,
+          "operator": "void",
+          "prefix": true,
+          "argument": {
+            "type": "Literal",
+            "start": 1366,
+            "end": 1367,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1369,
+        "end": 1560,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1373,
+            "end": 1558,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1379,
+              "end": 1557,
+              "callee": {
+                "type": "Identifier",
+                "start": 1383,
+                "end": 1395,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1396,
+                  "end": 1556,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1396,
+                    "end": 1506,
+                    "value": "#3: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/)[2]=== void 0. Actual: ",
+                    "raw": "'#3: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/)[2]=== void 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1509,
+                    "end": 1556,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 1509,
+                      "end": 1553,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1509,
+                        "end": 1523,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1509,
+                          "end": 1517,
+                          "name": "__string"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1518,
+                          "end": 1523,
+                          "name": "match"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1524,
+                          "end": 1552,
+                          "value": {},
+                          "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                          "regex": {
+                            "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                            "flags": ""
+                          }
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 1554,
+                      "end": 1555,
+                      "value": 2,
+                      "raw": "2"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1733,
+      "end": 1990,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1737,
+        "end": 1794,
+        "left": {
+          "type": "MemberExpression",
+          "start": 1737,
+          "end": 1788,
+          "object": {
+            "type": "CallExpression",
+            "start": 1737,
+            "end": 1781,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1737,
+              "end": 1751,
+              "object": {
+                "type": "Identifier",
+                "start": 1737,
+                "end": 1745,
+                "name": "__string"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1746,
+                "end": 1751,
+                "name": "match"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1752,
+                "end": 1780,
+                "value": {},
+                "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                "regex": {
+                  "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1782,
+            "end": 1788,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1793,
+          "end": 1794,
+          "value": 3,
+          "raw": "3"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1796,
+        "end": 1990,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1800,
+            "end": 1988,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1806,
+              "end": 1987,
+              "callee": {
+                "type": "Identifier",
+                "start": 1810,
+                "end": 1822,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1823,
+                  "end": 1986,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1823,
+                    "end": 1932,
+                    "value": "#4: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/).length ===3. Actual: ",
+                    "raw": "'#4: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/).length ===3. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 1935,
+                    "end": 1986,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 1935,
+                      "end": 1979,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1935,
+                        "end": 1949,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1935,
+                          "end": 1943,
+                          "name": "__string"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1944,
+                          "end": 1949,
+                          "name": "match"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1950,
+                          "end": 1978,
+                          "value": {},
+                          "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                          "regex": {
+                            "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                            "flags": ""
+                          }
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1980,
+                      "end": 1986,
+                      "name": "length"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2163,
+      "end": 2419,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2167,
+        "end": 2224,
+        "left": {
+          "type": "MemberExpression",
+          "start": 2167,
+          "end": 2217,
+          "object": {
+            "type": "CallExpression",
+            "start": 2167,
+            "end": 2211,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2167,
+              "end": 2181,
+              "object": {
+                "type": "Identifier",
+                "start": 2167,
+                "end": 2175,
+                "name": "__string"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2176,
+                "end": 2181,
+                "name": "match"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2182,
+                "end": 2210,
+                "value": {},
+                "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                "regex": {
+                  "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2212,
+            "end": 2217,
+            "name": "index"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 2222,
+          "end": 2224,
+          "value": 14,
+          "raw": "14"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2226,
+        "end": 2419,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2230,
+            "end": 2417,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2236,
+              "end": 2416,
+              "callee": {
+                "type": "Identifier",
+                "start": 2240,
+                "end": 2252,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2253,
+                  "end": 2415,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2253,
+                    "end": 2362,
+                    "value": "#5: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/).index ===14. Actual: ",
+                    "raw": "'#5: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/).index ===14. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2365,
+                    "end": 2415,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 2365,
+                      "end": 2409,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 2365,
+                        "end": 2379,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 2365,
+                          "end": 2373,
+                          "name": "__string"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 2374,
+                          "end": 2379,
+                          "name": "match"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 2380,
+                          "end": 2408,
+                          "value": {},
+                          "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                          "regex": {
+                            "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                            "flags": ""
+                          }
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2410,
+                      "end": 2415,
+                      "name": "index"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2592,
+      "end": 2860,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2596,
+        "end": 2659,
+        "left": {
+          "type": "MemberExpression",
+          "start": 2596,
+          "end": 2646,
+          "object": {
+            "type": "CallExpression",
+            "start": 2596,
+            "end": 2640,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2596,
+              "end": 2610,
+              "object": {
+                "type": "Identifier",
+                "start": 2596,
+                "end": 2604,
+                "name": "__string"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2605,
+                "end": 2610,
+                "name": "match"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2611,
+                "end": 2639,
+                "value": {},
+                "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                "regex": {
+                  "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                  "flags": ""
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2641,
+            "end": 2646,
+            "name": "input"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 2651,
+          "end": 2659,
+          "name": "__string"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2661,
+        "end": 2860,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2665,
+            "end": 2858,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2671,
+              "end": 2857,
+              "callee": {
+                "type": "Identifier",
+                "start": 2675,
+                "end": 2687,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2688,
+                  "end": 2856,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2688,
+                    "end": 2803,
+                    "value": "#6: __string = \"Boston, Mass. 02134\"; __string.match(/([\\d]{5})([-\\ ]?[\\d]{4})?$/).input ===__string. Actual: ",
+                    "raw": "'#6: __string = \"Boston, Mass. 02134\"; __string.match(/([\\\\d]{5})([-\\\\ ]?[\\\\d]{4})?$/).input ===__string. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2806,
+                    "end": 2856,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 2806,
+                      "end": 2850,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 2806,
+                        "end": 2820,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 2806,
+                          "end": 2814,
+                          "name": "__string"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 2815,
+                          "end": 2820,
+                          "name": "match"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 2821,
+                          "end": 2849,
+                          "value": {},
+                          "raw": "/([\\d]{5})([-\\ ]?[\\d]{4})?$/",
+                          "regex": {
+                            "pattern": "([\\d]{5})([-\\ ]?[\\d]{4})?$",
+                            "flags": ""
+                          }
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2851,
+                      "end": 2856,
+                      "name": "input"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

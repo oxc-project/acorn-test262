@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 435,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 281,
+      "end": 434,
+      "expression": {
+        "type": "CallExpression",
+        "start": 281,
+        "end": 433,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 281,
+          "end": 297,
+          "object": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 287,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 297,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 301,
+            "end": 330,
+            "object": {
+              "type": "MemberExpression",
+              "start": 301,
+              "end": 318,
+              "object": {
+                "type": "Identifier",
+                "start": 301,
+                "end": 308,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 309,
+                "end": 318,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 319,
+              "end": 330,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 334,
+            "end": 341,
+            "name": "Promise"
+          },
+          {
+            "type": "Literal",
+            "start": 345,
+            "end": 431,
+            "value": "The value of Promise.prototype.constructor is expected to equal the value of Promise",
+            "raw": "'The value of Promise.prototype.constructor is expected to equal the value of Promise'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

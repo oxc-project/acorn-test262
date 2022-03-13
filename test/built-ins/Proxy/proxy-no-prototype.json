@@ -1,0 +1,100 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 441,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 368,
+      "end": 440,
+      "expression": {
+        "type": "CallExpression",
+        "start": 368,
+        "end": 439,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 368,
+          "end": 384,
+          "object": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 374,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 384,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 385,
+            "end": 431,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 385,
+              "end": 411,
+              "object": {
+                "type": "MemberExpression",
+                "start": 385,
+                "end": 406,
+                "object": {
+                  "type": "Identifier",
+                  "start": 385,
+                  "end": 391,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 392,
+                  "end": 406,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 407,
+                "end": 411,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 412,
+                "end": 417,
+                "name": "Proxy"
+              },
+              {
+                "type": "Literal",
+                "start": 419,
+                "end": 430,
+                "value": "prototype",
+                "raw": "'prototype'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 433,
+            "end": 438,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

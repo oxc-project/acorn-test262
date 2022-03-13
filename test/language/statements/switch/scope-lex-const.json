@@ -1,0 +1,67 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 864,
+  "body": [
+    {
+      "type": "SwitchStatement",
+      "start": 824,
+      "end": 860,
+      "discriminant": {
+        "type": "Literal",
+        "start": 832,
+        "end": 833,
+        "value": 0,
+        "raw": "0"
+      },
+      "cases": [
+        {
+          "type": "SwitchCase",
+          "start": 837,
+          "end": 858,
+          "consequent": [
+            {
+              "type": "VariableDeclaration",
+              "start": 846,
+              "end": 858,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 852,
+                  "end": 857,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 852,
+                    "end": 853,
+                    "name": "x"
+                  },
+                  "init": {
+                    "type": "Literal",
+                    "start": 856,
+                    "end": 857,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                }
+              ],
+              "kind": "const"
+            }
+          ],
+          "test": null
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 861,
+      "end": 863,
+      "expression": {
+        "type": "Identifier",
+        "start": 861,
+        "end": 862,
+        "name": "x"
+      }
+    }
+  ],
+  "sourceType": "script"
+}

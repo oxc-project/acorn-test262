@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 358,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 247,
+      "end": 280,
+      "expression": {
+        "type": "CallExpression",
+        "start": 247,
+        "end": 279,
+        "callee": {
+          "type": "Identifier",
+          "start": 247,
+          "end": 261,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 262,
+            "end": 268,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 270,
+            "end": 278,
+            "value": "assign",
+            "raw": "\"assign\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 281,
+      "end": 319,
+      "expression": {
+        "type": "CallExpression",
+        "start": 281,
+        "end": 318,
+        "callee": {
+          "type": "Identifier",
+          "start": 281,
+          "end": 300,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 301,
+            "end": 307,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 309,
+            "end": 317,
+            "value": "assign",
+            "raw": "\"assign\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 320,
+      "end": 357,
+      "expression": {
+        "type": "CallExpression",
+        "start": 320,
+        "end": 356,
+        "callee": {
+          "type": "Identifier",
+          "start": 320,
+          "end": 338,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 339,
+            "end": 345,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 347,
+            "end": 355,
+            "value": "assign",
+            "raw": "\"assign\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,92 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 791,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 582,
+      "end": 790,
+      "expression": {
+        "type": "CallExpression",
+        "start": 582,
+        "end": 789,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 582,
+          "end": 590,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 583,
+            "end": 589,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 583,
+                "end": 584,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 585,
+                "end": 589,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 594,
+            "end": 787,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 594,
+              "end": 723,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 594,
+                "end": 668,
+                "left": {
+                  "type": "Literal",
+                  "start": 594,
+                  "end": 651,
+                  "value": "assert.sameValue(f(), \"outer declaration\");switch (1) {",
+                  "raw": "'assert.sameValue(f(), \"outer declaration\");switch (1) {'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 656,
+                  "end": 668,
+                  "value": "  default:",
+                  "raw": "'  default:'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 673,
+                "end": 723,
+                "value": "    function f() { return \"inner declaration\"; }",
+                "raw": "'    function f() { return \"inner declaration\"; }'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 728,
+              "end": 787,
+              "value": "}  function f() {    return \"outer declaration\";  }",
+              "raw": "'}\\\n  function f() {\\\n    return \"outer declaration\";\\\n  }'"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

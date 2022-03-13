@@ -1,0 +1,93 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 381,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 311,
+      "end": 380,
+      "expression": {
+        "type": "CallExpression",
+        "start": 311,
+        "end": 379,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 311,
+          "end": 324,
+          "object": {
+            "type": "Identifier",
+            "start": 311,
+            "end": 317,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 324,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 325,
+            "end": 334,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 336,
+            "end": 378,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 347,
+              "end": 378,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 351,
+                  "end": 376,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 351,
+                    "end": 375,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 355,
+                      "end": 360,
+                      "name": "Proxy"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 361,
+                        "end": 370,
+                        "name": "undefined"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 372,
+                        "end": 374,
+                        "properties": []
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

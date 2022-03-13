@@ -1,0 +1,213 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 801,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 484,
+      "end": 643,
+      "expression": {
+        "type": "CallExpression",
+        "start": 484,
+        "end": 642,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 484,
+          "end": 500,
+          "object": {
+            "type": "Identifier",
+            "start": 484,
+            "end": 490,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 500,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 501,
+            "end": 550,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 508,
+              "end": 550,
+              "object": {
+                "type": "MemberExpression",
+                "start": 508,
+                "end": 531,
+                "object": {
+                  "type": "Identifier",
+                  "start": 508,
+                  "end": 512,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 513,
+                  "end": 531,
+                  "name": "RelativeTimeFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 532,
+                "end": 550,
+                "name": "supportedLocalesOf"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 552,
+            "end": 562,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 581,
+            "end": 641,
+            "value": "Should support Intl.RelativeTimeFormat.supportedLocalesOf.",
+            "raw": "\"Should support Intl.RelativeTimeFormat.supportedLocalesOf.\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 645,
+      "end": 800,
+      "expression": {
+        "type": "CallExpression",
+        "start": 645,
+        "end": 799,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 645,
+          "end": 658,
+          "object": {
+            "type": "Identifier",
+            "start": 645,
+            "end": 651,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 652,
+            "end": 658,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 659,
+            "end": 668,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 670,
+            "end": 740,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 681,
+              "end": 740,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 685,
+                  "end": 738,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 685,
+                    "end": 737,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 685,
+                      "end": 727,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 685,
+                        "end": 708,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 685,
+                          "end": 689,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 690,
+                          "end": 708,
+                          "name": "RelativeTimeFormat"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 709,
+                        "end": 727,
+                        "name": "supportedLocalesOf"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "start": 728,
+                        "end": 730,
+                        "elements": []
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 732,
+                        "end": 736,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 742,
+            "end": 798,
+            "value": "Should throw when passing null as the options argument",
+            "raw": "\"Should throw when passing null as the options argument\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

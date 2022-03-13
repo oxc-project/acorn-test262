@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 644,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 579,
+      "end": 590,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 583,
+          "end": 589,
+          "id": {
+            "type": "Identifier",
+            "start": 583,
+            "end": 589,
+            "name": "smoosh"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 591,
+      "end": 611,
+      "id": {
+        "type": "Identifier",
+        "start": 600,
+        "end": 606,
+        "name": "smoosh"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 609,
+        "end": 611,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 614,
+      "end": 643,
+      "expression": {
+        "type": "ImportExpression",
+        "start": 614,
+        "end": 642,
+        "source": {
+          "type": "Literal",
+          "start": 621,
+          "end": 641,
+          "value": "./empty_FIXTURE.js",
+          "raw": "'./empty_FIXTURE.js'"
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

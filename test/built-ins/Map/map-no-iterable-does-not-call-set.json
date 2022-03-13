@@ -1,0 +1,282 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 977,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 769,
+      "end": 797,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 773,
+          "end": 796,
+          "id": {
+            "type": "Identifier",
+            "start": 773,
+            "end": 776,
+            "name": "set"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 779,
+            "end": 796,
+            "object": {
+              "type": "MemberExpression",
+              "start": 779,
+              "end": 792,
+              "object": {
+                "type": "Identifier",
+                "start": 779,
+                "end": 782,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 783,
+                "end": 792,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 793,
+              "end": 796,
+              "name": "set"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 798,
+      "end": 814,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 802,
+          "end": 813,
+          "id": {
+            "type": "Identifier",
+            "start": 802,
+            "end": 809,
+            "name": "counter"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 812,
+            "end": 813,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 816,
+      "end": 894,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 816,
+        "end": 893,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 816,
+          "end": 833,
+          "object": {
+            "type": "MemberExpression",
+            "start": 816,
+            "end": 829,
+            "object": {
+              "type": "Identifier",
+              "start": 816,
+              "end": 819,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 820,
+              "end": 829,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 830,
+            "end": 833,
+            "name": "set"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 836,
+          "end": 893,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 845,
+              "end": 850,
+              "name": "value"
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 852,
+            "end": 893,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 856,
+                "end": 866,
+                "expression": {
+                  "type": "UpdateExpression",
+                  "start": 856,
+                  "end": 865,
+                  "operator": "++",
+                  "prefix": false,
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 856,
+                    "end": 863,
+                    "name": "counter"
+                  }
+                }
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 869,
+                "end": 891,
+                "expression": {
+                  "type": "CallExpression",
+                  "start": 869,
+                  "end": 890,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 869,
+                    "end": 877,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 869,
+                      "end": 872,
+                      "name": "set"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 873,
+                      "end": 877,
+                      "name": "call"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "ThisExpression",
+                      "start": 878,
+                      "end": 882
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 884,
+                      "end": 889,
+                      "name": "value"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 896,
+      "end": 906,
+      "expression": {
+        "type": "NewExpression",
+        "start": 896,
+        "end": 905,
+        "callee": {
+          "type": "Identifier",
+          "start": 900,
+          "end": 903,
+          "name": "Map"
+        },
+        "arguments": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 908,
+      "end": 976,
+      "expression": {
+        "type": "CallExpression",
+        "start": 908,
+        "end": 975,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 908,
+          "end": 924,
+          "object": {
+            "type": "Identifier",
+            "start": 908,
+            "end": 914,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 915,
+            "end": 924,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 925,
+            "end": 932,
+            "name": "counter"
+          },
+          {
+            "type": "Literal",
+            "start": 934,
+            "end": 935,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 937,
+            "end": 974,
+            "value": "`Map.prototype.set` was not called.",
+            "raw": "'`Map.prototype.set` was not called.'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

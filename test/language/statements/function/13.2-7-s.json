@@ -1,0 +1,137 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 477,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 313,
+      "end": 353,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 317,
+          "end": 352,
+          "id": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 320,
+            "name": "foo"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 323,
+            "end": 352,
+            "callee": {
+              "type": "Identifier",
+              "start": 327,
+              "end": 335,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 336,
+                "end": 351,
+                "value": "'use strict';",
+                "raw": "\"'use strict';\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForInStatement",
+      "start": 371,
+      "end": 476,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 376,
+        "end": 389,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 380,
+            "end": 389,
+            "id": {
+              "type": "Identifier",
+              "start": 380,
+              "end": 389,
+              "name": "tempIndex"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 393,
+        "end": 396,
+        "name": "foo"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 398,
+        "end": 476,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 412,
+            "end": 466,
+            "expression": {
+              "type": "CallExpression",
+              "start": 412,
+              "end": 465,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 412,
+                "end": 431,
+                "object": {
+                  "type": "Identifier",
+                  "start": 412,
+                  "end": 418,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 419,
+                  "end": 431,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 432,
+                  "end": 441,
+                  "name": "tempIndex"
+                },
+                {
+                  "type": "Literal",
+                  "start": 443,
+                  "end": 451,
+                  "value": "caller",
+                  "raw": "\"caller\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 453,
+                  "end": 464,
+                  "value": "tempIndex",
+                  "raw": "'tempIndex'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

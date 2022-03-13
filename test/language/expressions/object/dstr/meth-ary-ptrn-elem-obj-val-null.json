@@ -1,0 +1,202 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2028,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1927,
+      "end": 1962,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1931,
+          "end": 1961,
+          "id": {
+            "type": "Identifier",
+            "start": 1931,
+            "end": 1934,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1937,
+            "end": 1961,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1941,
+                "end": 1959,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1941,
+                  "end": 1947,
+                  "name": "method"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1947,
+                  "end": 1959,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "ArrayPattern",
+                      "start": 1948,
+                      "end": 1955,
+                      "elements": [
+                        {
+                          "type": "ObjectPattern",
+                          "start": 1949,
+                          "end": 1954,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 1951,
+                              "end": 1952,
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 1951,
+                                "end": 1952,
+                                "name": "x"
+                              },
+                              "kind": "init",
+                              "value": {
+                                "type": "Identifier",
+                                "start": 1951,
+                                "end": 1952,
+                                "name": "x"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1957,
+                    "end": 1959,
+                    "body": []
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1964,
+      "end": 2027,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1964,
+        "end": 2026,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1964,
+          "end": 1977,
+          "object": {
+            "type": "Identifier",
+            "start": 1964,
+            "end": 1970,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1971,
+            "end": 1977,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1978,
+            "end": 1987,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1989,
+            "end": 2025,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2000,
+              "end": 2025,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2004,
+                  "end": 2023,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2004,
+                    "end": 2022,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2004,
+                      "end": 2014,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2004,
+                        "end": 2007,
+                        "name": "obj"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2008,
+                        "end": 2014,
+                        "name": "method"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "start": 2015,
+                        "end": 2021,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 2016,
+                            "end": 2020,
+                            "value": null,
+                            "raw": "null"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

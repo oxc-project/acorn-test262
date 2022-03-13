@@ -1,0 +1,219 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 455,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 279,
+      "end": 295,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 283,
+          "end": 294,
+          "id": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 289,
+            "name": "target"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 292,
+            "end": 294,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 296,
+      "end": 380,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 300,
+          "end": 379,
+          "id": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 301,
+            "name": "p"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 304,
+            "end": 379,
+            "callee": {
+              "type": "Identifier",
+              "start": 308,
+              "end": 313,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 314,
+                "end": 320,
+                "name": "target"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 322,
+                "end": 378,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 326,
+                    "end": 376,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 326,
+                      "end": 343,
+                      "name": "preventExtensions"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 345,
+                      "end": 376,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 354,
+                          "end": 355,
+                          "name": "t"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 357,
+                        "end": 376,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 363,
+                            "end": 372,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 370,
+                              "end": 371,
+                              "value": 1,
+                              "raw": "1"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 382,
+      "end": 415,
+      "expression": {
+        "type": "CallExpression",
+        "start": 382,
+        "end": 414,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 382,
+          "end": 406,
+          "object": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 388,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 389,
+            "end": 406,
+            "name": "preventExtensions"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 407,
+            "end": 413,
+            "name": "target"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 417,
+      "end": 454,
+      "expression": {
+        "type": "CallExpression",
+        "start": 417,
+        "end": 453,
+        "callee": {
+          "type": "Identifier",
+          "start": 417,
+          "end": 423,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 424,
+            "end": 452,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 424,
+              "end": 449,
+              "object": {
+                "type": "Identifier",
+                "start": 424,
+                "end": 431,
+                "name": "Reflect"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 432,
+                "end": 449,
+                "name": "preventExtensions"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 450,
+                "end": 451,
+                "name": "p"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,228 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 967,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 590,
+      "end": 626,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 594,
+          "end": 625,
+          "id": {
+            "type": "Identifier",
+            "start": 594,
+            "end": 597,
+            "name": "dtf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 600,
+            "end": 625,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 604,
+              "end": 623,
+              "object": {
+                "type": "Identifier",
+                "start": 604,
+                "end": 608,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 609,
+                "end": 623,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 628,
+      "end": 676,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 632,
+          "end": 675,
+          "id": {
+            "type": "Identifier",
+            "start": 632,
+            "end": 646,
+            "name": "dateTimeString"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 649,
+            "end": 675,
+            "value": "2017-11-10T14:09:00.000Z",
+            "raw": "\"2017-11-10T14:09:00.000Z\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 740,
+      "end": 791,
+      "expression": {
+        "type": "CallExpression",
+        "start": 740,
+        "end": 790,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 740,
+          "end": 759,
+          "object": {
+            "type": "Identifier",
+            "start": 740,
+            "end": 746,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 747,
+            "end": 759,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 760,
+            "end": 784,
+            "callee": {
+              "type": "Identifier",
+              "start": 764,
+              "end": 768,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 769,
+                "end": 783,
+                "name": "dateTimeString"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 786,
+            "end": 789,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 892,
+      "end": 966,
+      "expression": {
+        "type": "CallExpression",
+        "start": 892,
+        "end": 965,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 892,
+          "end": 905,
+          "object": {
+            "type": "Identifier",
+            "start": 892,
+            "end": 898,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 899,
+            "end": 905,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 906,
+            "end": 916,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 918,
+            "end": 964,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 929,
+              "end": 964,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 935,
+                  "end": 962,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 935,
+                    "end": 961,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 935,
+                      "end": 945,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 935,
+                        "end": 938,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 939,
+                        "end": 945,
+                        "name": "format"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 946,
+                        "end": 960,
+                        "name": "dateTimeString"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

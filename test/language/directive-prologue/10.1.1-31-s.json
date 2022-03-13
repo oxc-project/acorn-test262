@@ -1,0 +1,176 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 560,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 354,
+      "end": 444,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 358,
+          "end": 443,
+          "id": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 364,
+            "name": "funObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 367,
+            "end": 443,
+            "callee": {
+              "type": "Identifier",
+              "start": 371,
+              "end": 379,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 380,
+                "end": 383,
+                "value": "a",
+                "raw": "\"a\""
+              },
+              {
+                "type": "Literal",
+                "start": 385,
+                "end": 442,
+                "value": "eval('public = 1;'); 'use strict'; anotherVariable = 2;",
+                "raw": "\"eval('public = 1;'); 'use strict'; anotherVariable = 2;\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 453,
+      "end": 462,
+      "expression": {
+        "type": "CallExpression",
+        "start": 453,
+        "end": 461,
+        "callee": {
+          "type": "Identifier",
+          "start": 453,
+          "end": 459,
+          "name": "funObj"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 464,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 464,
+        "end": 501,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 464,
+          "end": 480,
+          "object": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 470,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 471,
+            "end": 480,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 481,
+            "end": 487,
+            "name": "public"
+          },
+          {
+            "type": "Literal",
+            "start": 489,
+            "end": 490,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 492,
+            "end": 500,
+            "value": "public",
+            "raw": "'public'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 503,
+      "end": 559,
+      "expression": {
+        "type": "CallExpression",
+        "start": 503,
+        "end": 558,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 503,
+          "end": 519,
+          "object": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 509,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 519,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 520,
+            "end": 535,
+            "name": "anotherVariable"
+          },
+          {
+            "type": "Literal",
+            "start": 537,
+            "end": 538,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 540,
+            "end": 557,
+            "value": "anotherVariable",
+            "raw": "'anotherVariable'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

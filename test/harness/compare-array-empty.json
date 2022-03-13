@@ -1,0 +1,59 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 292,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 231,
+      "end": 291,
+      "expression": {
+        "type": "CallExpression",
+        "start": 231,
+        "end": 290,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 231,
+          "end": 250,
+          "object": {
+            "type": "Identifier",
+            "start": 231,
+            "end": 237,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 238,
+            "end": 250,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 251,
+            "end": 253,
+            "elements": []
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 255,
+            "end": 257,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 259,
+            "end": 289,
+            "value": "Empty arrays are equivalent.",
+            "raw": "'Empty arrays are equivalent.'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

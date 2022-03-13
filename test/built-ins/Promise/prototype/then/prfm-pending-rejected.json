@@ -1,0 +1,343 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1133,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 789,
+      "end": 804,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 793,
+          "end": 803,
+          "id": {
+            "type": "Identifier",
+            "start": 793,
+            "end": 798,
+            "name": "value"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 801,
+            "end": 803,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 805,
+      "end": 816,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 809,
+          "end": 815,
+          "id": {
+            "type": "Identifier",
+            "start": 809,
+            "end": 815,
+            "name": "reject"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 817,
+      "end": 883,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 821,
+          "end": 882,
+          "id": {
+            "type": "Identifier",
+            "start": 821,
+            "end": 822,
+            "name": "p"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 825,
+            "end": 882,
+            "callee": {
+              "type": "Identifier",
+              "start": 829,
+              "end": 836,
+              "name": "Promise"
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 837,
+                "end": 881,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 846,
+                    "end": 847,
+                    "name": "_"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 849,
+                    "end": 856,
+                    "name": "_reject"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 858,
+                  "end": 881,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 862,
+                      "end": 879,
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "start": 862,
+                        "end": 878,
+                        "operator": "=",
+                        "left": {
+                          "type": "Identifier",
+                          "start": 862,
+                          "end": 868,
+                          "name": "reject"
+                        },
+                        "right": {
+                          "type": "Identifier",
+                          "start": 871,
+                          "end": 878,
+                          "name": "_reject"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 885,
+      "end": 1116,
+      "expression": {
+        "type": "CallExpression",
+        "start": 885,
+        "end": 1115,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 885,
+          "end": 891,
+          "object": {
+            "type": "Identifier",
+            "start": 885,
+            "end": 886,
+            "name": "p"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 887,
+            "end": 891,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 892,
+            "end": 967,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 903,
+              "end": 967,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 907,
+                  "end": 965,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 907,
+                    "end": 964,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 907,
+                      "end": 912,
+                      "name": "$DONE"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 913,
+                        "end": 963,
+                        "value": "The `onFulfilled` handler should not be invoked.",
+                        "raw": "'The `onFulfilled` handler should not be invoked.'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 969,
+            "end": 1114,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 978,
+                "end": 979,
+                "name": "x"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 981,
+              "end": 1114,
+              "body": [
+                {
+                  "type": "IfStatement",
+                  "start": 985,
+                  "end": 1101,
+                  "test": {
+                    "type": "BinaryExpression",
+                    "start": 989,
+                    "end": 1000,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 989,
+                      "end": 990,
+                      "name": "x"
+                    },
+                    "operator": "!==",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 995,
+                      "end": 1000,
+                      "name": "value"
+                    }
+                  },
+                  "consequent": {
+                    "type": "BlockStatement",
+                    "start": 1002,
+                    "end": 1101,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 1008,
+                        "end": 1085,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 1008,
+                          "end": 1084,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 1008,
+                            "end": 1013,
+                            "name": "$DONE"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 1014,
+                              "end": 1083,
+                              "value": "The `onRejected` handler should be invoked with the promise result.",
+                              "raw": "'The `onRejected` handler should be invoked with the promise result.'"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 1090,
+                        "end": 1097,
+                        "argument": null
+                      }
+                    ]
+                  },
+                  "alternate": null
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1104,
+                  "end": 1112,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1104,
+                    "end": 1111,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1104,
+                      "end": 1109,
+                      "name": "$DONE"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1118,
+      "end": 1132,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1118,
+        "end": 1131,
+        "callee": {
+          "type": "Identifier",
+          "start": 1118,
+          "end": 1124,
+          "name": "reject"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1125,
+            "end": 1130,
+            "name": "value"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

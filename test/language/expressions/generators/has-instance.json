@@ -1,0 +1,94 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 360,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 265,
+      "end": 288,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 269,
+          "end": 287,
+          "id": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 270,
+            "name": "g"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 273,
+            "end": 287,
+            "id": null,
+            "expression": false,
+            "generator": true,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 285,
+              "end": 287,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 290,
+      "end": 359,
+      "expression": {
+        "type": "CallExpression",
+        "start": 290,
+        "end": 358,
+        "callee": {
+          "type": "Identifier",
+          "start": 290,
+          "end": 296,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 297,
+            "end": 313,
+            "left": {
+              "type": "CallExpression",
+              "start": 297,
+              "end": 300,
+              "callee": {
+                "type": "Identifier",
+                "start": 297,
+                "end": 298,
+                "name": "g"
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 312,
+              "end": 313,
+              "name": "g"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 315,
+            "end": 357,
+            "value": "Instance created via function invocation",
+            "raw": "'Instance created via function invocation'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

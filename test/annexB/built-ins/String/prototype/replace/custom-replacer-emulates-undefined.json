@@ -1,0 +1,343 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 879,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 587,
+      "end": 620,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 591,
+          "end": 619,
+          "id": {
+            "type": "Identifier",
+            "start": 591,
+            "end": 602,
+            "name": "searchValue"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 605,
+            "end": 619,
+            "object": {
+              "type": "Identifier",
+              "start": 605,
+              "end": 609,
+              "name": "$262"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 610,
+              "end": 619,
+              "name": "IsHTMLDDA"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 621,
+      "end": 642,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 625,
+          "end": 641,
+          "id": {
+            "type": "Identifier",
+            "start": 625,
+            "end": 637,
+            "name": "replacerGets"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 640,
+            "end": 641,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 643,
+      "end": 793,
+      "expression": {
+        "type": "CallExpression",
+        "start": 643,
+        "end": 792,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 643,
+          "end": 664,
+          "object": {
+            "type": "Identifier",
+            "start": 643,
+            "end": 649,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 650,
+            "end": 664,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 665,
+            "end": 676,
+            "name": "searchValue"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 678,
+            "end": 692,
+            "object": {
+              "type": "Identifier",
+              "start": 678,
+              "end": 684,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 685,
+              "end": 692,
+              "name": "replace"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 694,
+            "end": 791,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 698,
+                "end": 766,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 698,
+                  "end": 701,
+                  "name": "get"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 703,
+                  "end": 766,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 714,
+                    "end": 766,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 720,
+                        "end": 738,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 720,
+                          "end": 737,
+                          "operator": "+=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 720,
+                            "end": 732,
+                            "name": "replacerGets"
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "start": 736,
+                            "end": 737,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 743,
+                        "end": 762,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 750,
+                          "end": 761,
+                          "name": "searchValue"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 770,
+                "end": 788,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 770,
+                  "end": 782,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 784,
+                  "end": 788,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 795,
+      "end": 843,
+      "expression": {
+        "type": "CallExpression",
+        "start": 795,
+        "end": 842,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 795,
+          "end": 811,
+          "object": {
+            "type": "Identifier",
+            "start": 795,
+            "end": 801,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 802,
+            "end": 811,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 812,
+            "end": 835,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 812,
+              "end": 822,
+              "object": {
+                "type": "Literal",
+                "start": 812,
+                "end": 814,
+                "value": "",
+                "raw": "\"\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 815,
+                "end": 822,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 823,
+                "end": 834,
+                "name": "searchValue"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 837,
+            "end": 841,
+            "value": null,
+            "raw": "null"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 844,
+      "end": 878,
+      "expression": {
+        "type": "CallExpression",
+        "start": 844,
+        "end": 877,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 844,
+          "end": 860,
+          "object": {
+            "type": "Identifier",
+            "start": 844,
+            "end": 850,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 851,
+            "end": 860,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 861,
+            "end": 873,
+            "name": "replacerGets"
+          },
+          {
+            "type": "Literal",
+            "start": 875,
+            "end": 876,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

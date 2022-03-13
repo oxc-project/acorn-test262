@@ -1,0 +1,489 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 865,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 312,
+      "end": 406,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 318,
+          "end": 405,
+          "id": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 326,
+            "name": "expected"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 329,
+            "end": 405,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 333,
+                "end": 347,
+                "value": "get overflow",
+                "raw": "\"get overflow\""
+              },
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 374,
+                "value": "get overflow.toString",
+                "raw": "\"get overflow.toString\""
+              },
+              {
+                "type": "Literal",
+                "start": 378,
+                "end": 402,
+                "value": "call overflow.toString",
+                "raw": "\"call overflow.toString\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 407,
+      "end": 425,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 413,
+          "end": 424,
+          "id": {
+            "type": "Identifier",
+            "start": 413,
+            "end": 419,
+            "name": "actual"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 422,
+            "end": 424,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 426,
+      "end": 580,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 432,
+          "end": 579,
+          "id": {
+            "type": "Identifier",
+            "start": 432,
+            "end": 439,
+            "name": "options"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 442,
+            "end": 579,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 446,
+                "end": 577,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 450,
+                  "end": 458,
+                  "name": "overflow"
+                },
+                "kind": "get",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 458,
+                  "end": 577,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 461,
+                    "end": 577,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 467,
+                        "end": 495,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 467,
+                          "end": 494,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 467,
+                            "end": 478,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 467,
+                              "end": 473,
+                              "name": "actual"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 474,
+                              "end": 478,
+                              "name": "push"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 479,
+                              "end": 493,
+                              "value": "get overflow",
+                              "raw": "\"get overflow\""
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 500,
+                        "end": 573,
+                        "argument": {
+                          "type": "CallExpression",
+                          "start": 507,
+                          "end": 572,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 507,
+                            "end": 542,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 507,
+                              "end": 522,
+                              "name": "TemporalHelpers"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 523,
+                              "end": 542,
+                              "name": "toPrimitiveObserver"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 543,
+                              "end": 549,
+                              "name": "actual"
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 551,
+                              "end": 559,
+                              "value": "reject",
+                              "raw": "\"reject\""
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 561,
+                              "end": 571,
+                              "value": "overflow",
+                              "raw": "\"overflow\""
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 582,
+      "end": 649,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 588,
+          "end": 648,
+          "id": {
+            "type": "Identifier",
+            "start": 588,
+            "end": 594,
+            "name": "fields"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 597,
+            "end": 648,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 601,
+              "end": 623,
+              "object": {
+                "type": "Identifier",
+                "start": 601,
+                "end": 609,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 610,
+                "end": 623,
+                "name": "PlainMonthDay"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 624,
+                "end": 626,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 628,
+                "end": 630,
+                "value": 16,
+                "raw": "16"
+              },
+              {
+                "type": "Identifier",
+                "start": 632,
+                "end": 641,
+                "name": "undefined"
+              },
+              {
+                "type": "Literal",
+                "start": 643,
+                "end": 647,
+                "value": 1960,
+                "raw": "1960"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 650,
+      "end": 710,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 656,
+          "end": 709,
+          "id": {
+            "type": "Identifier",
+            "start": 656,
+            "end": 662,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 665,
+            "end": 709,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 665,
+              "end": 692,
+              "object": {
+                "type": "MemberExpression",
+                "start": 665,
+                "end": 687,
+                "object": {
+                  "type": "Identifier",
+                  "start": 665,
+                  "end": 673,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 674,
+                  "end": 687,
+                  "name": "PlainMonthDay"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 688,
+                "end": 692,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 693,
+                "end": 699,
+                "name": "fields"
+              },
+              {
+                "type": "Identifier",
+                "start": 701,
+                "end": 708,
+                "name": "options"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 711,
+      "end": 802,
+      "expression": {
+        "type": "CallExpression",
+        "start": 711,
+        "end": 801,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 711,
+          "end": 746,
+          "object": {
+            "type": "Identifier",
+            "start": 711,
+            "end": 726,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 746,
+            "name": "assertPlainMonthDay"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 747,
+            "end": 753,
+            "name": "result"
+          },
+          {
+            "type": "Literal",
+            "start": 755,
+            "end": 760,
+            "value": "M11",
+            "raw": "\"M11\""
+          },
+          {
+            "type": "Literal",
+            "start": 762,
+            "end": 764,
+            "value": 16,
+            "raw": "16"
+          },
+          {
+            "type": "Literal",
+            "start": 766,
+            "end": 794,
+            "value": "should copy reference year",
+            "raw": "\"should copy reference year\""
+          },
+          {
+            "type": "Literal",
+            "start": 796,
+            "end": 800,
+            "value": 1960,
+            "raw": "1960"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 803,
+      "end": 864,
+      "expression": {
+        "type": "CallExpression",
+        "start": 803,
+        "end": 863,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 803,
+          "end": 822,
+          "object": {
+            "type": "Identifier",
+            "start": 803,
+            "end": 809,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 810,
+            "end": 822,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 823,
+            "end": 829,
+            "name": "actual"
+          },
+          {
+            "type": "Identifier",
+            "start": 831,
+            "end": 839,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 841,
+            "end": 862,
+            "value": "Should get overflow",
+            "raw": "\"Should get overflow\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

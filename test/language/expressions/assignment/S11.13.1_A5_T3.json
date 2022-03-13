@@ -1,0 +1,402 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 963,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 615,
+      "end": 639,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 619,
+          "end": 638,
+          "id": {
+            "type": "Identifier",
+            "start": 619,
+            "end": 629,
+            "name": "outerScope"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 632,
+            "end": 638,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 633,
+                "end": 637,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 633,
+                  "end": 634,
+                  "name": "x"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 636,
+                  "end": 637,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 640,
+      "end": 664,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 644,
+          "end": 663,
+          "id": {
+            "type": "Identifier",
+            "start": 644,
+            "end": 654,
+            "name": "innerScope"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 657,
+            "end": 663,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 658,
+                "end": 662,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 658,
+                  "end": 659,
+                  "name": "x"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 661,
+                  "end": 662,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "WithStatement",
+      "start": 666,
+      "end": 747,
+      "object": {
+        "type": "Identifier",
+        "start": 672,
+        "end": 682,
+        "name": "outerScope"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 684,
+        "end": 747,
+        "body": [
+          {
+            "type": "WithStatement",
+            "start": 688,
+            "end": 745,
+            "object": {
+              "type": "Identifier",
+              "start": 694,
+              "end": 704,
+              "name": "innerScope"
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 706,
+              "end": 745,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 712,
+                  "end": 741,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 712,
+                    "end": 740,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 712,
+                      "end": 713,
+                      "name": "x"
+                    },
+                    "right": {
+                      "type": "ParenthesizedExpression",
+                      "start": 716,
+                      "end": 740,
+                      "expression": {
+                        "type": "SequenceExpression",
+                        "start": 717,
+                        "end": 739,
+                        "expressions": [
+                          {
+                            "type": "UnaryExpression",
+                            "start": 717,
+                            "end": 736,
+                            "operator": "delete",
+                            "prefix": true,
+                            "argument": {
+                              "type": "MemberExpression",
+                              "start": 724,
+                              "end": 736,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 724,
+                                "end": 734,
+                                "name": "innerScope"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 735,
+                                "end": 736,
+                                "name": "x"
+                              },
+                              "computed": false,
+                              "optional": false
+                            }
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 738,
+                            "end": 739,
+                            "value": 2,
+                            "raw": "2"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 749,
+      "end": 855,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 753,
+        "end": 771,
+        "left": {
+          "type": "MemberExpression",
+          "start": 753,
+          "end": 765,
+          "object": {
+            "type": "Identifier",
+            "start": 753,
+            "end": 763,
+            "name": "innerScope"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 764,
+            "end": 765,
+            "name": "x"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 770,
+          "end": 771,
+          "value": 2,
+          "raw": "2"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 773,
+        "end": 855,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 777,
+            "end": 853,
+            "argument": {
+              "type": "NewExpression",
+              "start": 783,
+              "end": 852,
+              "callee": {
+                "type": "Identifier",
+                "start": 787,
+                "end": 799,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 800,
+                  "end": 851,
+                  "left": {
+                    "type": "Literal",
+                    "start": 800,
+                    "end": 834,
+                    "value": "#1: innerScope.x === 2. Actual: ",
+                    "raw": "'#1: innerScope.x === 2. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 837,
+                    "end": 851,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 838,
+                      "end": 850,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 838,
+                        "end": 848,
+                        "name": "innerScope"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 849,
+                        "end": 850,
+                        "name": "x"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 856,
+      "end": 962,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 860,
+        "end": 878,
+        "left": {
+          "type": "MemberExpression",
+          "start": 860,
+          "end": 872,
+          "object": {
+            "type": "Identifier",
+            "start": 860,
+            "end": 870,
+            "name": "outerScope"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 871,
+            "end": 872,
+            "name": "x"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 877,
+          "end": 878,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 880,
+        "end": 962,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 884,
+            "end": 960,
+            "argument": {
+              "type": "NewExpression",
+              "start": 890,
+              "end": 959,
+              "callee": {
+                "type": "Identifier",
+                "start": 894,
+                "end": 906,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 907,
+                  "end": 958,
+                  "left": {
+                    "type": "Literal",
+                    "start": 907,
+                    "end": 941,
+                    "value": "#2: outerScope.x === 0. Actual: ",
+                    "raw": "'#2: outerScope.x === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 944,
+                    "end": 958,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 945,
+                      "end": 957,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 945,
+                        "end": 955,
+                        "name": "outerScope"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 956,
+                        "end": 957,
+                        "name": "x"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,227 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 657,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 438,
+      "end": 449,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 442,
+          "end": 448,
+          "id": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 443,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 446,
+            "end": 448,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 451,
+      "end": 550,
+      "expression": {
+        "type": "CallExpression",
+        "start": 451,
+        "end": 549,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 451,
+          "end": 472,
+          "object": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 457,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 472,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 473,
+            "end": 474,
+            "name": "a"
+          },
+          {
+            "type": "Literal",
+            "start": 476,
+            "end": 489,
+            "value": "constructor",
+            "raw": "'constructor'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 491,
+            "end": 548,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 495,
+                "end": 546,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 495,
+                  "end": 498,
+                  "name": "get"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 500,
+                  "end": 546,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 511,
+                    "end": 546,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 517,
+                        "end": 542,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 523,
+                          "end": 541,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 527,
+                            "end": 539,
+                            "name": "Test262Error"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 552,
+      "end": 656,
+      "expression": {
+        "type": "CallExpression",
+        "start": 552,
+        "end": 655,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 552,
+          "end": 565,
+          "object": {
+            "type": "Identifier",
+            "start": 552,
+            "end": 558,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 559,
+            "end": 565,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 566,
+            "end": 578,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 580,
+            "end": 608,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 591,
+              "end": 608,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 595,
+                  "end": 606,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 595,
+                    "end": 605,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 595,
+                      "end": 603,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 595,
+                        "end": 596,
+                        "name": "a"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 597,
+                        "end": 603,
+                        "name": "concat"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 610,
+            "end": 654,
+            "value": "a.concat() throws a Test262Error exception",
+            "raw": "'a.concat() throws a Test262Error exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

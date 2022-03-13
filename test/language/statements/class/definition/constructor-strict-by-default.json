@@ -1,0 +1,154 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 335,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 206,
+      "end": 325,
+      "id": {
+        "type": "Identifier",
+        "start": 212,
+        "end": 213,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 214,
+        "end": 325,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 218,
+            "end": 323,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 218,
+              "end": 229,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 229,
+              "end": 323,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 232,
+                "end": 323,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 238,
+                    "end": 319,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 238,
+                      "end": 318,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 238,
+                        "end": 251,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 238,
+                          "end": 244,
+                          "name": "assert"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 245,
+                          "end": 251,
+                          "name": "throws"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 252,
+                          "end": 266,
+                          "name": "ReferenceError"
+                        },
+                        {
+                          "type": "FunctionExpression",
+                          "start": 268,
+                          "end": 317,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 279,
+                            "end": 317,
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 287,
+                                "end": 311,
+                                "expression": {
+                                  "type": "AssignmentExpression",
+                                  "start": 287,
+                                  "end": 310,
+                                  "operator": "=",
+                                  "left": {
+                                    "type": "Identifier",
+                                    "start": 287,
+                                    "end": 305,
+                                    "name": "nonExistingBinding"
+                                  },
+                                  "right": {
+                                    "type": "Literal",
+                                    "start": 308,
+                                    "end": 310,
+                                    "value": 42,
+                                    "raw": "42"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 326,
+      "end": 334,
+      "expression": {
+        "type": "NewExpression",
+        "start": 326,
+        "end": 333,
+        "callee": {
+          "type": "Identifier",
+          "start": 330,
+          "end": 331,
+          "name": "C"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

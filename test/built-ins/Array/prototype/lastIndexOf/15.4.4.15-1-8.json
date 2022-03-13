@@ -1,0 +1,159 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 400,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 253,
+      "end": 287,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 257,
+          "end": 286,
+          "id": {
+            "type": "Identifier",
+            "start": 257,
+            "end": 260,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 263,
+            "end": 286,
+            "callee": {
+              "type": "Identifier",
+              "start": 267,
+              "end": 273,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 274,
+                "end": 285,
+                "value": "undefined",
+                "raw": "\"undefined\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 289,
+      "end": 399,
+      "expression": {
+        "type": "CallExpression",
+        "start": 289,
+        "end": 398,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 289,
+          "end": 305,
+          "object": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 295,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 296,
+            "end": 305,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 306,
+            "end": 348,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 306,
+              "end": 338,
+              "object": {
+                "type": "MemberExpression",
+                "start": 306,
+                "end": 333,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 306,
+                  "end": 321,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 306,
+                    "end": 311,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 312,
+                    "end": 321,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 322,
+                  "end": 333,
+                  "name": "lastIndexOf"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 334,
+                "end": 338,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 339,
+                "end": 342,
+                "name": "obj"
+              },
+              {
+                "type": "Literal",
+                "start": 344,
+                "end": 347,
+                "value": "f",
+                "raw": "\"f\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 350,
+            "end": 351,
+            "value": 4,
+            "raw": "4"
+          },
+          {
+            "type": "Literal",
+            "start": 353,
+            "end": 397,
+            "value": "Array.prototype.lastIndexOf.call(obj, \"f\")",
+            "raw": "'Array.prototype.lastIndexOf.call(obj, \"f\")'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

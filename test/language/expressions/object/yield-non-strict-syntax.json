@@ -1,0 +1,81 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 287,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 250,
+      "end": 264,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 254,
+          "end": 263,
+          "id": {
+            "type": "Identifier",
+            "start": 254,
+            "end": 259,
+            "name": "yield"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 262,
+            "end": 263,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 265,
+      "end": 286,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 269,
+          "end": 285,
+          "id": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 275,
+            "name": "object"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 278,
+            "end": 285,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 279,
+                "end": 284,
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 279,
+                  "end": 284,
+                  "name": "yield"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "Identifier",
+                  "start": 279,
+                  "end": 284,
+                  "name": "yield"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

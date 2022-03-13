@@ -1,0 +1,132 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 916,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 839,
+      "end": 862,
+      "id": {
+        "type": "Identifier",
+        "start": 848,
+        "end": 851,
+        "name": "fn1"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 852,
+          "end": 858,
+          "elements": [
+            {
+              "type": "Identifier",
+              "start": 853,
+              "end": 854,
+              "name": "a"
+            },
+            {
+              "type": "Identifier",
+              "start": 856,
+              "end": 857,
+              "name": "b"
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 860,
+        "end": 862,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 864,
+      "end": 888,
+      "id": {
+        "type": "Identifier",
+        "start": 873,
+        "end": 876,
+        "name": "fn2"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 877,
+          "end": 884,
+          "elements": [
+            {
+              "type": "Identifier",
+              "start": 878,
+              "end": 879,
+              "name": "a"
+            },
+            {
+              "type": "Identifier",
+              "start": 881,
+              "end": 882,
+              "name": "b"
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 886,
+        "end": 888,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 890,
+      "end": 915,
+      "id": {
+        "type": "Identifier",
+        "start": 899,
+        "end": 902,
+        "name": "fn3"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "ArrayPattern",
+          "start": 903,
+          "end": 911,
+          "elements": [
+            {
+              "type": "Identifier",
+              "start": 904,
+              "end": 905,
+              "name": "a"
+            },
+            null,
+            {
+              "type": "Identifier",
+              "start": 908,
+              "end": 909,
+              "name": "b"
+            }
+          ]
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 913,
+        "end": 915,
+        "body": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

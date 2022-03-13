@@ -1,0 +1,313 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 532,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 279,
+      "end": 306,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 283,
+          "end": 305,
+          "id": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 297,
+            "name": "calledForThree"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 300,
+            "end": 305,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 308,
+      "end": 418,
+      "id": {
+        "type": "Identifier",
+        "start": 317,
+        "end": 327,
+        "name": "callbackfn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 328,
+          "end": 331,
+          "name": "val"
+        },
+        {
+          "type": "Identifier",
+          "start": 333,
+          "end": 336,
+          "name": "Idx"
+        },
+        {
+          "type": "Identifier",
+          "start": 338,
+          "end": 341,
+          "name": "obj"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 343,
+        "end": 418,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 347,
+            "end": 358,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 347,
+              "end": 357,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 347,
+                "end": 353,
+                "object": {
+                  "type": "Identifier",
+                  "start": 347,
+                  "end": 350,
+                  "name": "arr"
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 351,
+                  "end": 352,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "computed": true,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 356,
+                "end": 357,
+                "value": 3,
+                "raw": "3"
+              }
+            }
+          },
+          {
+            "type": "IfStatement",
+            "start": 361,
+            "end": 401,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 365,
+              "end": 373,
+              "left": {
+                "type": "Identifier",
+                "start": 365,
+                "end": 368,
+                "name": "val"
+              },
+              "operator": "==",
+              "right": {
+                "type": "Literal",
+                "start": 372,
+                "end": 373,
+                "value": 3,
+                "raw": "3"
+              }
+            },
+            "consequent": {
+              "type": "ExpressionStatement",
+              "start": 379,
+              "end": 401,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 379,
+                "end": 400,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 379,
+                  "end": 393,
+                  "name": "calledForThree"
+                },
+                "right": {
+                  "type": "Literal",
+                  "start": 396,
+                  "end": 400,
+                  "value": true,
+                  "raw": "true"
+                }
+              }
+            },
+            "alternate": null
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 404,
+            "end": 416,
+            "argument": {
+              "type": "Literal",
+              "start": 411,
+              "end": 415,
+              "value": true,
+              "raw": "true"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 420,
+      "end": 445,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 424,
+          "end": 444,
+          "id": {
+            "type": "Identifier",
+            "start": 424,
+            "end": 427,
+            "name": "arr"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 430,
+            "end": 444,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 431,
+                "end": 432,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 434,
+                "end": 435,
+                "value": 2,
+                "raw": "2"
+              },
+              null,
+              {
+                "type": "Literal",
+                "start": 439,
+                "end": 440,
+                "value": 4,
+                "raw": "4"
+              },
+              {
+                "type": "Literal",
+                "start": 442,
+                "end": 443,
+                "value": 5,
+                "raw": "5"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 447,
+      "end": 479,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 451,
+          "end": 478,
+          "id": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 454,
+            "name": "res"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 457,
+            "end": 478,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 457,
+              "end": 466,
+              "object": {
+                "type": "Identifier",
+                "start": 457,
+                "end": 460,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 461,
+                "end": 466,
+                "name": "every"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 467,
+                "end": 477,
+                "name": "callbackfn"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 481,
+      "end": 531,
+      "expression": {
+        "type": "CallExpression",
+        "start": 481,
+        "end": 530,
+        "callee": {
+          "type": "Identifier",
+          "start": 481,
+          "end": 487,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 488,
+            "end": 502,
+            "name": "calledForThree"
+          },
+          {
+            "type": "Literal",
+            "start": 504,
+            "end": 529,
+            "value": "calledForThree !== true",
+            "raw": "'calledForThree !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 989,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 708,
+      "end": 850,
+      "expression": {
+        "type": "CallExpression",
+        "start": 708,
+        "end": 849,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 708,
+          "end": 724,
+          "object": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 714,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 724,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 728,
+            "end": 771,
+            "callee": {
+              "type": "Identifier",
+              "start": 728,
+              "end": 741,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 742,
+                "end": 770,
+                "object": {
+                  "type": "Identifier",
+                  "start": 742,
+                  "end": 748,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 749,
+                  "end": 770,
+                  "name": "getOwnPropertySymbols"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 775,
+            "end": 780,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 784,
+            "end": 847,
+            "value": "isConstructor(Object.getOwnPropertySymbols) must return false",
+            "raw": "'isConstructor(Object.getOwnPropertySymbols) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 852,
+      "end": 987,
+      "expression": {
+        "type": "CallExpression",
+        "start": 852,
+        "end": 986,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 852,
+          "end": 865,
+          "object": {
+            "type": "Identifier",
+            "start": 852,
+            "end": 858,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 859,
+            "end": 865,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 866,
+            "end": 875,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 877,
+            "end": 926,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 883,
+              "end": 926,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 887,
+                  "end": 924,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 887,
+                    "end": 923,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 891,
+                      "end": 919,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 891,
+                        "end": 897,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 898,
+                        "end": 919,
+                        "name": "getOwnPropertySymbols"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 920,
+                        "end": 922,
+                        "properties": []
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 928,
+            "end": 985,
+            "value": "`new Object.getOwnPropertySymbols({})` throws TypeError",
+            "raw": "'`new Object.getOwnPropertySymbols({})` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

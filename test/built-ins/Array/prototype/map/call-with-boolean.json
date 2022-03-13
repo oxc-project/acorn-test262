@@ -1,0 +1,250 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 533,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 263,
+      "end": 396,
+      "expression": {
+        "type": "CallExpression",
+        "start": 263,
+        "end": 395,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 263,
+          "end": 282,
+          "object": {
+            "type": "Identifier",
+            "start": 263,
+            "end": 269,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 270,
+            "end": 282,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 286,
+            "end": 326,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 286,
+              "end": 310,
+              "object": {
+                "type": "MemberExpression",
+                "start": 286,
+                "end": 305,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 286,
+                  "end": 301,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 286,
+                    "end": 291,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 292,
+                    "end": 301,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 302,
+                  "end": 305,
+                  "name": "map"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 306,
+                "end": 310,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 311,
+                "end": 315,
+                "value": true,
+                "raw": "true"
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 317,
+                "end": 325,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 323,
+                  "end": 325,
+                  "body": []
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 330,
+            "end": 332,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 336,
+            "end": 393,
+            "value": "Array.prototype.map.call(true, () => {}) must return []",
+            "raw": "'Array.prototype.map.call(true, () => {}) must return []'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 397,
+      "end": 532,
+      "expression": {
+        "type": "CallExpression",
+        "start": 397,
+        "end": 531,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 397,
+          "end": 416,
+          "object": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 403,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 404,
+            "end": 416,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 420,
+            "end": 461,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 420,
+              "end": 444,
+              "object": {
+                "type": "MemberExpression",
+                "start": 420,
+                "end": 439,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 420,
+                  "end": 435,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 420,
+                    "end": 425,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 426,
+                    "end": 435,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 436,
+                  "end": 439,
+                  "name": "map"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 440,
+                "end": 444,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 445,
+                "end": 450,
+                "value": false,
+                "raw": "false"
+              },
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 452,
+                "end": 460,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 458,
+                  "end": 460,
+                  "body": []
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 465,
+            "end": 467,
+            "elements": []
+          },
+          {
+            "type": "Literal",
+            "start": 471,
+            "end": 529,
+            "value": "Array.prototype.map.call(false, () => {}) must return []",
+            "raw": "'Array.prototype.map.call(false, () => {}) must return []'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

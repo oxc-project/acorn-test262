@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 559,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 421,
+      "end": 468,
+      "expression": {
+        "type": "CallExpression",
+        "start": 421,
+        "end": 467,
+        "callee": {
+          "type": "Identifier",
+          "start": 421,
+          "end": 440,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 441,
+            "end": 448,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 450,
+            "end": 466,
+            "value": "defineProperty",
+            "raw": "'defineProperty'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 469,
+      "end": 511,
+      "expression": {
+        "type": "CallExpression",
+        "start": 469,
+        "end": 510,
+        "callee": {
+          "type": "Identifier",
+          "start": 469,
+          "end": 483,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 484,
+            "end": 491,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 493,
+            "end": 509,
+            "value": "defineProperty",
+            "raw": "'defineProperty'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 512,
+      "end": 558,
+      "expression": {
+        "type": "CallExpression",
+        "start": 512,
+        "end": 557,
+        "callee": {
+          "type": "Identifier",
+          "start": 512,
+          "end": 530,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 531,
+            "end": 538,
+            "name": "Reflect"
+          },
+          {
+            "type": "Literal",
+            "start": 540,
+            "end": 556,
+            "value": "defineProperty",
+            "raw": "'defineProperty'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,216 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 872,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 647,
+      "end": 717,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 651,
+          "end": 716,
+          "id": {
+            "type": "Identifier",
+            "start": 651,
+            "end": 669,
+            "name": "ArrayIteratorProto"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 672,
+            "end": 716,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 672,
+              "end": 693,
+              "object": {
+                "type": "Identifier",
+                "start": 672,
+                "end": 678,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 679,
+                "end": 693,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 694,
+                "end": 715,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 694,
+                  "end": 713,
+                  "object": {
+                    "type": "ArrayExpression",
+                    "start": 694,
+                    "end": 696,
+                    "elements": []
+                  },
+                  "property": {
+                    "type": "MemberExpression",
+                    "start": 697,
+                    "end": 712,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 697,
+                      "end": 703,
+                      "name": "Symbol"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 704,
+                      "end": 712,
+                      "name": "iterator"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 718,
+      "end": 739,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 722,
+          "end": 738,
+          "id": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 726,
+            "name": "iter"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 729,
+            "end": 738,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 729,
+              "end": 736,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 729,
+                "end": 731,
+                "elements": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 732,
+                "end": 736,
+                "name": "keys"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 741,
+      "end": 871,
+      "expression": {
+        "type": "CallExpression",
+        "start": 741,
+        "end": 870,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 741,
+          "end": 757,
+          "object": {
+            "type": "Identifier",
+            "start": 741,
+            "end": 747,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 757,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 761,
+            "end": 788,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 761,
+              "end": 782,
+              "object": {
+                "type": "Identifier",
+                "start": 761,
+                "end": 767,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 768,
+                "end": 782,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 783,
+                "end": 787,
+                "name": "iter"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 790,
+            "end": 808,
+            "name": "ArrayIteratorProto"
+          },
+          {
+            "type": "Literal",
+            "start": 812,
+            "end": 868,
+            "value": "The prototype of [].keys() is %ArrayIteratorPrototype%",
+            "raw": "'The prototype of [].keys() is %ArrayIteratorPrototype%'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

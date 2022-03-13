@@ -1,0 +1,317 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 999,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 360,
+      "end": 476,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 364,
+          "end": 476,
+          "id": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 369,
+            "name": "__obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 372,
+            "end": 476,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 376,
+                "end": 386,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 376,
+                  "end": 383,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 385,
+                  "end": 386,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 390,
+                "end": 439,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 390,
+                  "end": 398,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 400,
+                  "end": 439,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 411,
+                    "end": 439,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 417,
+                        "end": 435,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 423,
+                          "end": 435,
+                          "value": "intostring",
+                          "raw": "'intostring'"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 443,
+                "end": 474,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 443,
+                  "end": 449,
+                  "name": "charAt"
+                },
+                "value": {
+                  "type": "MemberExpression",
+                  "start": 451,
+                  "end": 474,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 451,
+                    "end": 467,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 451,
+                      "end": 457,
+                      "name": "String"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 458,
+                      "end": 467,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 468,
+                    "end": 474,
+                    "name": "charAt"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 567,
+      "end": 916,
+      "block": {
+        "type": "BlockStatement",
+        "start": 571,
+        "end": 777,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 575,
+            "end": 598,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 579,
+                "end": 597,
+                "id": {
+                  "type": "Identifier",
+                  "start": 579,
+                  "end": 580,
+                  "name": "x"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 583,
+                  "end": 597,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 583,
+                    "end": 595,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 583,
+                      "end": 588,
+                      "name": "__obj"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 589,
+                      "end": 595,
+                      "name": "charAt"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 601,
+            "end": 775,
+            "argument": {
+              "type": "NewExpression",
+              "start": 607,
+              "end": 774,
+              "callee": {
+                "type": "Identifier",
+                "start": 611,
+                "end": 623,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 624,
+                  "end": 773,
+                  "value": "#1: __obj={valueOf:1,toString:function(){throw 'intostring'},charAt:String.prototype.charAt}; \"var x = __obj.charAt()\" lead to throwing exception",
+                  "raw": "'#1: __obj={valueOf:1,toString:function(){throw \\'intostring\\'},charAt:String.prototype.charAt}; \"var x = __obj.charAt()\" lead to throwing exception'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 778,
+        "end": 916,
+        "param": {
+          "type": "Identifier",
+          "start": 785,
+          "end": 786,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 788,
+          "end": 916,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 792,
+              "end": 914,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 796,
+                "end": 814,
+                "left": {
+                  "type": "Identifier",
+                  "start": 796,
+                  "end": 797,
+                  "name": "e"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 802,
+                  "end": 814,
+                  "value": "intostring",
+                  "raw": "'intostring'"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 816,
+                "end": 914,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 822,
+                    "end": 910,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 828,
+                      "end": 909,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 832,
+                        "end": 844,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 845,
+                          "end": 908,
+                          "left": {
+                            "type": "Literal",
+                            "start": 845,
+                            "end": 904,
+                            "value": "#1.1: Exception === 'intostring'. Actual: exception ===",
+                            "raw": "'#1.1: Exception === \\'intostring\\'. Actual: exception ==='"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "start": 907,
+                            "end": 908,
+                            "name": "e"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

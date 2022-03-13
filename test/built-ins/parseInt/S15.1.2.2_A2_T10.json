@@ -1,0 +1,710 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1092,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 266,
+      "end": 428,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 270,
+          "end": 427,
+          "id": {
+            "type": "Identifier",
+            "start": 270,
+            "end": 274,
+            "name": "uspU"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 277,
+            "end": 427,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 278,
+                "end": 286,
+                "value": " ",
+                "raw": "\"\\u1680\""
+              },
+              {
+                "type": "Literal",
+                "start": 288,
+                "end": 296,
+                "value": " ",
+                "raw": "\"\\u2000\""
+              },
+              {
+                "type": "Literal",
+                "start": 298,
+                "end": 306,
+                "value": " ",
+                "raw": "\"\\u2001\""
+              },
+              {
+                "type": "Literal",
+                "start": 308,
+                "end": 316,
+                "value": " ",
+                "raw": "\"\\u2002\""
+              },
+              {
+                "type": "Literal",
+                "start": 318,
+                "end": 326,
+                "value": " ",
+                "raw": "\"\\u2003\""
+              },
+              {
+                "type": "Literal",
+                "start": 328,
+                "end": 336,
+                "value": " ",
+                "raw": "\"\\u2004\""
+              },
+              {
+                "type": "Literal",
+                "start": 338,
+                "end": 346,
+                "value": " ",
+                "raw": "\"\\u2005\""
+              },
+              {
+                "type": "Literal",
+                "start": 348,
+                "end": 356,
+                "value": " ",
+                "raw": "\"\\u2006\""
+              },
+              {
+                "type": "Literal",
+                "start": 358,
+                "end": 366,
+                "value": " ",
+                "raw": "\"\\u2007\""
+              },
+              {
+                "type": "Literal",
+                "start": 368,
+                "end": 376,
+                "value": " ",
+                "raw": "\"\\u2008\""
+              },
+              {
+                "type": "Literal",
+                "start": 378,
+                "end": 386,
+                "value": " ",
+                "raw": "\"\\u2009\""
+              },
+              {
+                "type": "Literal",
+                "start": 388,
+                "end": 396,
+                "value": " ",
+                "raw": "\"\\u200A\""
+              },
+              {
+                "type": "Literal",
+                "start": 398,
+                "end": 406,
+                "value": " ",
+                "raw": "\"\\u202F\""
+              },
+              {
+                "type": "Literal",
+                "start": 408,
+                "end": 416,
+                "value": " ",
+                "raw": "\"\\u205F\""
+              },
+              {
+                "type": "Literal",
+                "start": 418,
+                "end": 426,
+                "value": "　",
+                "raw": "\"\\u3000\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 429,
+      "end": 561,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 433,
+          "end": 560,
+          "id": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 437,
+            "name": "uspS"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 440,
+            "end": 560,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 441,
+                "end": 447,
+                "value": "1680",
+                "raw": "\"1680\""
+              },
+              {
+                "type": "Literal",
+                "start": 449,
+                "end": 455,
+                "value": "2000",
+                "raw": "\"2000\""
+              },
+              {
+                "type": "Literal",
+                "start": 457,
+                "end": 463,
+                "value": "2001",
+                "raw": "\"2001\""
+              },
+              {
+                "type": "Literal",
+                "start": 465,
+                "end": 471,
+                "value": "2002",
+                "raw": "\"2002\""
+              },
+              {
+                "type": "Literal",
+                "start": 473,
+                "end": 479,
+                "value": "2003",
+                "raw": "\"2003\""
+              },
+              {
+                "type": "Literal",
+                "start": 481,
+                "end": 487,
+                "value": "2004",
+                "raw": "\"2004\""
+              },
+              {
+                "type": "Literal",
+                "start": 489,
+                "end": 495,
+                "value": "2005",
+                "raw": "\"2005\""
+              },
+              {
+                "type": "Literal",
+                "start": 497,
+                "end": 503,
+                "value": "2006",
+                "raw": "\"2006\""
+              },
+              {
+                "type": "Literal",
+                "start": 505,
+                "end": 511,
+                "value": "2007",
+                "raw": "\"2007\""
+              },
+              {
+                "type": "Literal",
+                "start": 513,
+                "end": 519,
+                "value": "2008",
+                "raw": "\"2008\""
+              },
+              {
+                "type": "Literal",
+                "start": 521,
+                "end": 527,
+                "value": "2009",
+                "raw": "\"2009\""
+              },
+              {
+                "type": "Literal",
+                "start": 529,
+                "end": 535,
+                "value": "200A",
+                "raw": "\"200A\""
+              },
+              {
+                "type": "Literal",
+                "start": 537,
+                "end": 543,
+                "value": "202F",
+                "raw": "\"202F\""
+              },
+              {
+                "type": "Literal",
+                "start": 545,
+                "end": 551,
+                "value": "205F",
+                "raw": "\"205F\""
+              },
+              {
+                "type": "Literal",
+                "start": 553,
+                "end": 559,
+                "value": "3000",
+                "raw": "\"3000\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 563,
+      "end": 1091,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 568,
+        "end": 581,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 572,
+            "end": 581,
+            "id": {
+              "type": "Identifier",
+              "start": 572,
+              "end": 577,
+              "name": "index"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 580,
+              "end": 581,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 583,
+        "end": 602,
+        "left": {
+          "type": "Identifier",
+          "start": 583,
+          "end": 588,
+          "name": "index"
+        },
+        "operator": "<",
+        "right": {
+          "type": "MemberExpression",
+          "start": 591,
+          "end": 602,
+          "object": {
+            "type": "Identifier",
+            "start": 591,
+            "end": 595,
+            "name": "uspU"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 596,
+            "end": 602,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 604,
+        "end": 611,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 604,
+          "end": 609,
+          "name": "index"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 613,
+        "end": 1091,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 617,
+            "end": 778,
+            "expression": {
+              "type": "CallExpression",
+              "start": 617,
+              "end": 777,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 617,
+                "end": 633,
+                "object": {
+                  "type": "Identifier",
+                  "start": 617,
+                  "end": 623,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 624,
+                  "end": 633,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 639,
+                  "end": 666,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 639,
+                    "end": 647,
+                    "name": "parseInt"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 648,
+                      "end": 665,
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 648,
+                        "end": 659,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 648,
+                          "end": 652,
+                          "name": "uspU"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 653,
+                          "end": 658,
+                          "name": "index"
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 662,
+                        "end": 665,
+                        "value": "1",
+                        "raw": "\"1\""
+                      }
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "CallExpression",
+                  "start": 672,
+                  "end": 685,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 672,
+                    "end": 680,
+                    "name": "parseInt"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 681,
+                      "end": 684,
+                      "value": "1",
+                      "raw": "\"1\""
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 691,
+                  "end": 773,
+                  "value": "parseInt(uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")",
+                  "raw": "'parseInt(uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 782,
+            "end": 999,
+            "expression": {
+              "type": "CallExpression",
+              "start": 782,
+              "end": 998,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 782,
+                "end": 798,
+                "object": {
+                  "type": "Identifier",
+                  "start": 782,
+                  "end": 788,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 789,
+                  "end": 798,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 804,
+                  "end": 859,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 804,
+                    "end": 812,
+                    "name": "parseInt"
+                  },
+                  "arguments": [
+                    {
+                      "type": "BinaryExpression",
+                      "start": 813,
+                      "end": 858,
+                      "left": {
+                        "type": "BinaryExpression",
+                        "start": 813,
+                        "end": 852,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 813,
+                          "end": 838,
+                          "left": {
+                            "type": "MemberExpression",
+                            "start": 813,
+                            "end": 824,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 813,
+                              "end": 817,
+                              "name": "uspU"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 818,
+                              "end": 823,
+                              "name": "index"
+                            },
+                            "computed": true,
+                            "optional": false
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "MemberExpression",
+                            "start": 827,
+                            "end": 838,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 827,
+                              "end": 831,
+                              "name": "uspU"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 832,
+                              "end": 837,
+                              "name": "index"
+                            },
+                            "computed": true,
+                            "optional": false
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "MemberExpression",
+                          "start": 841,
+                          "end": 852,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 841,
+                            "end": 845,
+                            "name": "uspU"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 846,
+                            "end": 851,
+                            "name": "index"
+                          },
+                          "computed": true,
+                          "optional": false
+                        }
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 855,
+                        "end": 858,
+                        "value": "1",
+                        "raw": "\"1\""
+                      }
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "CallExpression",
+                  "start": 865,
+                  "end": 878,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 865,
+                    "end": 873,
+                    "name": "parseInt"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 874,
+                      "end": 877,
+                      "value": "1",
+                      "raw": "\"1\""
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 884,
+                  "end": 994,
+                  "value": "parseInt(uspU[index] + uspU[index] + uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")",
+                  "raw": "'parseInt(uspU[index] + uspU[index] + uspU[index] + \"1\") must return the same value returned by parseInt(\"1\")'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1003,
+            "end": 1033,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1007,
+                "end": 1032,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1007,
+                  "end": 1008,
+                  "name": "n"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 1011,
+                  "end": 1032,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1011,
+                    "end": 1019,
+                    "name": "parseInt"
+                  },
+                  "arguments": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 1020,
+                      "end": 1031,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1020,
+                        "end": 1024,
+                        "name": "uspU"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1025,
+                        "end": 1030,
+                        "name": "index"
+                      },
+                      "computed": true,
+                      "optional": false
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1036,
+            "end": 1089,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1036,
+              "end": 1088,
+              "callee": {
+                "type": "Identifier",
+                "start": 1036,
+                "end": 1042,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1043,
+                  "end": 1050,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 1043,
+                    "end": 1044,
+                    "name": "n"
+                  },
+                  "operator": "!==",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 1049,
+                    "end": 1050,
+                    "name": "n"
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 1052,
+                  "end": 1087,
+                  "value": "The result of `(n !== n)` is true",
+                  "raw": "'The result of `(n !== n)` is true'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,177 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 965,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 772,
+      "end": 866,
+      "expression": {
+        "type": "CallExpression",
+        "start": 772,
+        "end": 865,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 772,
+          "end": 788,
+          "object": {
+            "type": "Identifier",
+            "start": 772,
+            "end": 778,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 779,
+            "end": 788,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 792,
+            "end": 814,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 792,
+              "end": 806,
+              "object": {
+                "type": "Literal",
+                "start": 792,
+                "end": 797,
+                "value": "web",
+                "raw": "'web'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 798,
+                "end": 806,
+                "name": "endsWith"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 807,
+                "end": 810,
+                "value": "w",
+                "raw": "'w'"
+              },
+              {
+                "type": "Literal",
+                "start": 812,
+                "end": 813,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 816,
+            "end": 821,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 825,
+            "end": 863,
+            "value": "\"web\".endsWith(\"w\", 0) returns false",
+            "raw": "'\"web\".endsWith(\"w\", 0) returns false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 868,
+      "end": 964,
+      "expression": {
+        "type": "CallExpression",
+        "start": 868,
+        "end": 963,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 868,
+          "end": 884,
+          "object": {
+            "type": "Identifier",
+            "start": 868,
+            "end": 874,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 875,
+            "end": 884,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 888,
+            "end": 911,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 888,
+              "end": 902,
+              "object": {
+                "type": "Literal",
+                "start": 888,
+                "end": 893,
+                "value": "Bob",
+                "raw": "'Bob'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 894,
+                "end": 902,
+                "name": "endsWith"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 903,
+                "end": 910,
+                "value": "  Bob",
+                "raw": "'  Bob'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 913,
+            "end": 918,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 922,
+            "end": 961,
+            "value": "\"Bob\".endsWith(\"  Bob\") returns false",
+            "raw": "'\"Bob\".endsWith(\"  Bob\") returns false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,151 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 442,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 354,
+      "end": 382,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 358,
+          "end": 381,
+          "id": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 361,
+            "name": "boc"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 364,
+            "end": 381,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 364,
+              "end": 375,
+              "object": {
+                "type": "Identifier",
+                "start": 364,
+                "end": 370,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 371,
+                "end": 375,
+                "name": "bind"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 376,
+                "end": 380,
+                "value": null,
+                "raw": "null"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 383,
+      "end": 399,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 387,
+          "end": 398,
+          "id": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 388,
+            "name": "o"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 391,
+            "end": 398,
+            "callee": {
+              "type": "Identifier",
+              "start": 391,
+              "end": 394,
+              "name": "boc"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 395,
+                "end": 397,
+                "value": 42,
+                "raw": "42"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 401,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 401,
+        "end": 440,
+        "callee": {
+          "type": "Identifier",
+          "start": 401,
+          "end": 407,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "ParenthesizedExpression",
+            "start": 408,
+            "end": 417,
+            "expression": {
+              "type": "BinaryExpression",
+              "start": 409,
+              "end": 416,
+              "left": {
+                "type": "Identifier",
+                "start": 409,
+                "end": 410,
+                "name": "o"
+              },
+              "operator": "==",
+              "right": {
+                "type": "Literal",
+                "start": 414,
+                "end": 416,
+                "value": 42,
+                "raw": "42"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 419,
+            "end": 439,
+            "value": "(o == 42) !== true",
+            "raw": "'(o == 42) !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

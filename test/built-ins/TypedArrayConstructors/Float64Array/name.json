@@ -1,0 +1,162 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1028,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 848,
+      "end": 900,
+      "expression": {
+        "type": "CallExpression",
+        "start": 848,
+        "end": 899,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 848,
+          "end": 864,
+          "object": {
+            "type": "Identifier",
+            "start": 848,
+            "end": 854,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 855,
+            "end": 864,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 865,
+            "end": 882,
+            "object": {
+              "type": "Identifier",
+              "start": 865,
+              "end": 877,
+              "name": "Float64Array"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 878,
+              "end": 882,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 884,
+            "end": 898,
+            "value": "Float64Array",
+            "raw": "\"Float64Array\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 902,
+      "end": 944,
+      "expression": {
+        "type": "CallExpression",
+        "start": 902,
+        "end": 943,
+        "callee": {
+          "type": "Identifier",
+          "start": 902,
+          "end": 921,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 922,
+            "end": 934,
+            "name": "Float64Array"
+          },
+          {
+            "type": "Literal",
+            "start": 936,
+            "end": 942,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 945,
+      "end": 985,
+      "expression": {
+        "type": "CallExpression",
+        "start": 945,
+        "end": 984,
+        "callee": {
+          "type": "Identifier",
+          "start": 945,
+          "end": 962,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 963,
+            "end": 975,
+            "name": "Float64Array"
+          },
+          {
+            "type": "Literal",
+            "start": 977,
+            "end": 983,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 986,
+      "end": 1027,
+      "expression": {
+        "type": "CallExpression",
+        "start": 986,
+        "end": 1026,
+        "callee": {
+          "type": "Identifier",
+          "start": 986,
+          "end": 1004,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1005,
+            "end": 1017,
+            "name": "Float64Array"
+          },
+          {
+            "type": "Literal",
+            "start": 1019,
+            "end": 1025,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

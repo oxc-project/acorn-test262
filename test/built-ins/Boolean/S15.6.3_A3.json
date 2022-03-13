@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 465,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 282,
+      "end": 376,
+      "expression": {
+        "type": "CallExpression",
+        "start": 282,
+        "end": 375,
+        "callee": {
+          "type": "Identifier",
+          "start": 282,
+          "end": 288,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 289,
+            "end": 321,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 289,
+              "end": 311,
+              "object": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 296,
+                "name": "Boolean"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 297,
+                "end": 311,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 312,
+                "end": 320,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 323,
+            "end": 374,
+            "value": "Boolean.hasOwnProperty(\"length\") must return true",
+            "raw": "'Boolean.hasOwnProperty(\"length\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 377,
+      "end": 464,
+      "expression": {
+        "type": "CallExpression",
+        "start": 377,
+        "end": 463,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 377,
+          "end": 393,
+          "object": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 383,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 393,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 394,
+            "end": 408,
+            "object": {
+              "type": "Identifier",
+              "start": 394,
+              "end": 401,
+              "name": "Boolean"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 402,
+              "end": 408,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 410,
+            "end": 411,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 413,
+            "end": 462,
+            "value": "The value of Boolean.length is expected to be 1",
+            "raw": "'The value of Boolean.length is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

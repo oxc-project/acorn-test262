@@ -1,0 +1,690 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1253,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 399,
+      "end": 437,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 405,
+          "end": 436,
+          "id": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 409,
+            "name": "enUS"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 412,
+            "end": 436,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 416,
+              "end": 427,
+              "object": {
+                "type": "Identifier",
+                "start": 416,
+                "end": 420,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 421,
+                "end": 427,
+                "name": "Locale"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 428,
+                "end": 435,
+                "value": "en-US",
+                "raw": "\"en-US\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 438,
+      "end": 489,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 444,
+          "end": 488,
+          "id": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 448,
+            "name": "enGB"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 451,
+            "end": 488,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 455,
+              "end": 466,
+              "object": {
+                "type": "Identifier",
+                "start": 455,
+                "end": 459,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 460,
+                "end": 466,
+                "name": "Locale"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 467,
+                "end": 471,
+                "name": "enUS"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 473,
+                "end": 487,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 474,
+                    "end": 486,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 474,
+                      "end": 480,
+                      "name": "region"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 482,
+                      "end": 486,
+                      "value": "GB",
+                      "raw": "\"GB\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 491,
+      "end": 569,
+      "expression": {
+        "type": "CallExpression",
+        "start": 491,
+        "end": 568,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 491,
+          "end": 507,
+          "object": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 497,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 498,
+            "end": 507,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 508,
+            "end": 523,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 508,
+              "end": 521,
+              "object": {
+                "type": "Identifier",
+                "start": 508,
+                "end": 512,
+                "name": "enUS"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 513,
+                "end": 521,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 525,
+            "end": 532,
+            "value": "en-US",
+            "raw": "\"en-US\""
+          },
+          {
+            "type": "Literal",
+            "start": 534,
+            "end": 567,
+            "value": "enUS.toString() returns \"en-US\"",
+            "raw": "'enUS.toString() returns \"en-US\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 570,
+      "end": 648,
+      "expression": {
+        "type": "CallExpression",
+        "start": 570,
+        "end": 647,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 570,
+          "end": 586,
+          "object": {
+            "type": "Identifier",
+            "start": 570,
+            "end": 576,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 577,
+            "end": 586,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 587,
+            "end": 602,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 587,
+              "end": 600,
+              "object": {
+                "type": "Identifier",
+                "start": 587,
+                "end": 591,
+                "name": "enGB"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 592,
+                "end": 600,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 604,
+            "end": 611,
+            "value": "en-GB",
+            "raw": "\"en-GB\""
+          },
+          {
+            "type": "Literal",
+            "start": 613,
+            "end": 646,
+            "value": "enGB.toString() returns \"en-GB\"",
+            "raw": "'enGB.toString() returns \"en-GB\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 716,
+      "end": 767,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 722,
+          "end": 766,
+          "id": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 730,
+            "name": "zhUnihan"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 733,
+            "end": 766,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 737,
+              "end": 748,
+              "object": {
+                "type": "Identifier",
+                "start": 737,
+                "end": 741,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 742,
+                "end": 748,
+                "name": "Locale"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 749,
+                "end": 765,
+                "value": "zh-u-co-unihan",
+                "raw": "\"zh-u-co-unihan\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 768,
+      "end": 834,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 774,
+          "end": 833,
+          "id": {
+            "type": "Identifier",
+            "start": 774,
+            "end": 782,
+            "name": "zhZhuyin"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 785,
+            "end": 833,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 789,
+              "end": 800,
+              "object": {
+                "type": "Identifier",
+                "start": 789,
+                "end": 793,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 794,
+                "end": 800,
+                "name": "Locale"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 801,
+                "end": 809,
+                "name": "zhUnihan"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 811,
+                "end": 832,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 812,
+                    "end": 831,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 812,
+                      "end": 821,
+                      "name": "collation"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 823,
+                      "end": 831,
+                      "value": "zhuyin",
+                      "raw": "\"zhuyin\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 836,
+      "end": 948,
+      "expression": {
+        "type": "CallExpression",
+        "start": 836,
+        "end": 947,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 836,
+          "end": 852,
+          "object": {
+            "type": "Identifier",
+            "start": 836,
+            "end": 842,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 843,
+            "end": 852,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 856,
+            "end": 875,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 856,
+              "end": 873,
+              "object": {
+                "type": "Identifier",
+                "start": 856,
+                "end": 864,
+                "name": "zhUnihan"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 865,
+                "end": 873,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 879,
+            "end": 895,
+            "value": "zh-u-co-unihan",
+            "raw": "\"zh-u-co-unihan\""
+          },
+          {
+            "type": "Literal",
+            "start": 899,
+            "end": 945,
+            "value": "zhUnihan.toString() returns \"zh-u-co-unihan\"",
+            "raw": "'zhUnihan.toString() returns \"zh-u-co-unihan\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 949,
+      "end": 1061,
+      "expression": {
+        "type": "CallExpression",
+        "start": 949,
+        "end": 1060,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 949,
+          "end": 965,
+          "object": {
+            "type": "Identifier",
+            "start": 949,
+            "end": 955,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 956,
+            "end": 965,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 969,
+            "end": 988,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 969,
+              "end": 986,
+              "object": {
+                "type": "Identifier",
+                "start": 969,
+                "end": 977,
+                "name": "zhZhuyin"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 978,
+                "end": 986,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 992,
+            "end": 1008,
+            "value": "zh-u-co-zhuyin",
+            "raw": "\"zh-u-co-zhuyin\""
+          },
+          {
+            "type": "Literal",
+            "start": 1012,
+            "end": 1058,
+            "value": "zhZhuyin.toString() returns \"zh-u-co-zhuyin\"",
+            "raw": "'zhZhuyin.toString() returns \"zh-u-co-zhuyin\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1063,
+      "end": 1157,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1063,
+        "end": 1156,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1063,
+          "end": 1079,
+          "object": {
+            "type": "Identifier",
+            "start": 1063,
+            "end": 1069,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1070,
+            "end": 1079,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1080,
+            "end": 1098,
+            "object": {
+              "type": "Identifier",
+              "start": 1080,
+              "end": 1088,
+              "name": "zhUnihan"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1089,
+              "end": 1098,
+              "name": "collation"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1100,
+            "end": 1108,
+            "value": "unihan",
+            "raw": "\"unihan\""
+          },
+          {
+            "type": "Literal",
+            "start": 1110,
+            "end": 1155,
+            "value": "The value of zhUnihan.collation is \"unihan\"",
+            "raw": "'The value of zhUnihan.collation is \"unihan\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1158,
+      "end": 1252,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1158,
+        "end": 1251,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1158,
+          "end": 1174,
+          "object": {
+            "type": "Identifier",
+            "start": 1158,
+            "end": 1164,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1165,
+            "end": 1174,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1175,
+            "end": 1193,
+            "object": {
+              "type": "Identifier",
+              "start": 1175,
+              "end": 1183,
+              "name": "zhZhuyin"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1184,
+              "end": 1193,
+              "name": "collation"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1195,
+            "end": 1203,
+            "value": "zhuyin",
+            "raw": "\"zhuyin\""
+          },
+          {
+            "type": "Literal",
+            "start": 1205,
+            "end": 1250,
+            "value": "The value of zhZhuyin.collation is \"zhuyin\"",
+            "raw": "'The value of zhZhuyin.collation is \"zhuyin\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,95 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 289,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 253,
+      "end": 288,
+      "expression": {
+        "type": "CallExpression",
+        "start": 253,
+        "end": 287,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 253,
+          "end": 269,
+          "object": {
+            "type": "Identifier",
+            "start": 253,
+            "end": 259,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 260,
+            "end": 269,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 270,
+            "end": 282,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 270,
+              "end": 278,
+              "object": {
+                "type": "Identifier",
+                "start": 270,
+                "end": 274,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 275,
+                "end": 278,
+                "name": "tan"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 279,
+                "end": 281,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 280,
+                  "end": 281,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 284,
+            "end": 286,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 285,
+              "end": 286,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

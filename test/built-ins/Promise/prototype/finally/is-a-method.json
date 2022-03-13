@@ -1,0 +1,151 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 459,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 286,
+      "end": 313,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 290,
+          "end": 312,
+          "id": {
+            "type": "Identifier",
+            "start": 290,
+            "end": 291,
+            "name": "p"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 294,
+            "end": 312,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 294,
+              "end": 309,
+              "object": {
+                "type": "Identifier",
+                "start": 294,
+                "end": 301,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 302,
+                "end": 309,
+                "name": "resolve"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 310,
+                "end": 311,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 315,
+      "end": 458,
+      "expression": {
+        "type": "CallExpression",
+        "start": 315,
+        "end": 457,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 315,
+          "end": 331,
+          "object": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 321,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 331,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 335,
+            "end": 344,
+            "object": {
+              "type": "Identifier",
+              "start": 335,
+              "end": 336,
+              "name": "p"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 337,
+              "end": 344,
+              "name": "finally"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 348,
+            "end": 373,
+            "object": {
+              "type": "MemberExpression",
+              "start": 348,
+              "end": 365,
+              "object": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 355,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 365,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 366,
+              "end": 373,
+              "name": "finally"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 377,
+            "end": 455,
+            "value": "Expected the `finally` method on a Promise to be `Promise.prototype.finally`",
+            "raw": "'Expected the `finally` method on a Promise to be `Promise.prototype.finally`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

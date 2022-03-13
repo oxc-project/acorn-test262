@@ -1,0 +1,151 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 982,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 877,
+      "end": 922,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 881,
+          "end": 921,
+          "id": {
+            "type": "Identifier",
+            "start": 881,
+            "end": 884,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 887,
+            "end": 921,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 891,
+                "end": 919,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 891,
+                  "end": 902,
+                  "name": "switch"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 902,
+                  "end": 919,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 905,
+                    "end": 919,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 907,
+                        "end": 917,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 914,
+                          "end": 916,
+                          "value": 42,
+                          "raw": "42"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 924,
+      "end": 981,
+      "expression": {
+        "type": "CallExpression",
+        "start": 924,
+        "end": 980,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 924,
+          "end": 940,
+          "object": {
+            "type": "Identifier",
+            "start": 924,
+            "end": 930,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 931,
+            "end": 940,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 941,
+            "end": 956,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 941,
+              "end": 954,
+              "object": {
+                "type": "Identifier",
+                "start": 941,
+                "end": 944,
+                "name": "obj"
+              },
+              "property": {
+                "type": "Literal",
+                "start": 945,
+                "end": 953,
+                "value": "switch",
+                "raw": "'switch'"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 958,
+            "end": 960,
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "type": "Literal",
+            "start": 962,
+            "end": 979,
+            "value": "property exists",
+            "raw": "'property exists'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

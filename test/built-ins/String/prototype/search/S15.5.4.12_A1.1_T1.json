@@ -1,0 +1,54 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 526,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 423,
+      "end": 443,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 427,
+          "end": 442,
+          "id": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 428,
+            "name": "x"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 431,
+            "end": 442,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 431,
+              "end": 440,
+              "object": {
+                "type": "Literal",
+                "start": 431,
+                "end": 433,
+                "value": "",
+                "raw": "\"\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 434,
+                "end": 440,
+                "name": "search"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

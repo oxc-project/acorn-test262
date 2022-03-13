@@ -1,0 +1,98 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 381,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 296,
+      "end": 329,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 300,
+          "end": 328,
+          "id": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 311,
+            "name": "newProperty"
+          },
+          "init": {
+            "type": "AssignmentExpression",
+            "start": 314,
+            "end": 328,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 314,
+              "end": 323,
+              "name": "undefined"
+            },
+            "right": {
+              "type": "Literal",
+              "start": 326,
+              "end": 328,
+              "value": 42,
+              "raw": "42"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 331,
+      "end": 380,
+      "expression": {
+        "type": "CallExpression",
+        "start": 331,
+        "end": 379,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 331,
+          "end": 347,
+          "object": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 337,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 347,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 348,
+            "end": 359,
+            "name": "newProperty"
+          },
+          {
+            "type": "Literal",
+            "start": 361,
+            "end": 363,
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "type": "Literal",
+            "start": 365,
+            "end": 378,
+            "value": "newProperty",
+            "raw": "'newProperty'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

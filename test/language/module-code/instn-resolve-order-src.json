@@ -1,0 +1,65 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 509,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 326,
+      "end": 343,
+      "expression": {
+        "type": "CallExpression",
+        "start": 326,
+        "end": 342,
+        "callee": {
+          "type": "Identifier",
+          "start": 326,
+          "end": 340,
+          "name": "$DONOTEVALUATE"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 345,
+      "end": 397,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 352,
+        "end": 396,
+        "value": "./instn-resolve-order-src-valid_FIXTURE.js",
+        "raw": "'./instn-resolve-order-src-valid_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 398,
+      "end": 454,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 405,
+        "end": 453,
+        "value": "./instn-resolve-order-src-reference_FIXTURE.js",
+        "raw": "'./instn-resolve-order-src-reference_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 455,
+      "end": 508,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 462,
+        "end": 507,
+        "value": "./instn-resolve-order-src-syntax_FIXTURE.js",
+        "raw": "'./instn-resolve-order-src-syntax_FIXTURE.js'"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

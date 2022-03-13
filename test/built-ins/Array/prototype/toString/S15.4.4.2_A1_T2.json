@@ -1,0 +1,1298 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1930,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 582,
+      "end": 612,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 586,
+          "end": 611,
+          "id": {
+            "type": "Identifier",
+            "start": 586,
+            "end": 587,
+            "name": "x"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 590,
+            "end": 611,
+            "callee": {
+              "type": "Identifier",
+              "start": 594,
+              "end": 599,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 600,
+                "end": 601,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 603,
+                "end": 604,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 606,
+                "end": 607,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 609,
+                "end": 610,
+                "value": 3,
+                "raw": "3"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 613,
+      "end": 923,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 617,
+        "end": 642,
+        "left": {
+          "type": "CallExpression",
+          "start": 617,
+          "end": 629,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 617,
+            "end": 627,
+            "object": {
+              "type": "Identifier",
+              "start": 617,
+              "end": 618,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 619,
+              "end": 627,
+              "name": "toString"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 634,
+          "end": 642,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 634,
+            "end": 640,
+            "object": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 635,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 636,
+              "end": 640,
+              "name": "join"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 644,
+        "end": 759,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 648,
+            "end": 757,
+            "argument": {
+              "type": "NewExpression",
+              "start": 654,
+              "end": 756,
+              "callee": {
+                "type": "Identifier",
+                "start": 658,
+                "end": 670,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 671,
+                  "end": 755,
+                  "left": {
+                    "type": "Literal",
+                    "start": 671,
+                    "end": 738,
+                    "value": "#1.1: x = new Array(0,1,2,3); x.toString() === x.join(). Actual: ",
+                    "raw": "'#1.1: x = new Array(0,1,2,3); x.toString() === x.join(). Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 741,
+                    "end": 755,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 742,
+                      "end": 754,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 742,
+                        "end": 752,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 742,
+                          "end": 743,
+                          "name": "x"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 744,
+                          "end": 752,
+                          "name": "toString"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 765,
+        "end": 923,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 769,
+            "end": 921,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 773,
+              "end": 799,
+              "left": {
+                "type": "CallExpression",
+                "start": 773,
+                "end": 785,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 773,
+                  "end": 783,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 773,
+                    "end": 774,
+                    "name": "x"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 775,
+                    "end": 783,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "start": 790,
+                "end": 799,
+                "value": "0,1,2,3",
+                "raw": "\"0,1,2,3\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 801,
+              "end": 921,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 807,
+                  "end": 917,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 813,
+                    "end": 916,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 817,
+                      "end": 829,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 830,
+                        "end": 915,
+                        "left": {
+                          "type": "Literal",
+                          "start": 830,
+                          "end": 898,
+                          "value": "#1.2: x = new Array(0,1,2,3); x.toString() === \"0,1,2,3\". Actual: ",
+                          "raw": "'#1.2: x = new Array(0,1,2,3); x.toString() === \"0,1,2,3\". Actual: '"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "ParenthesizedExpression",
+                          "start": 901,
+                          "end": 915,
+                          "expression": {
+                            "type": "CallExpression",
+                            "start": 902,
+                            "end": 914,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 902,
+                              "end": 912,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 902,
+                                "end": 903,
+                                "name": "x"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 904,
+                                "end": 912,
+                                "name": "toString"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [],
+                            "optional": false
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 925,
+      "end": 932,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 925,
+        "end": 931,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 925,
+          "end": 926,
+          "name": "x"
+        },
+        "right": {
+          "type": "ArrayExpression",
+          "start": 929,
+          "end": 931,
+          "elements": []
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 933,
+      "end": 942,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 933,
+        "end": 941,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 933,
+          "end": 937,
+          "object": {
+            "type": "Identifier",
+            "start": 933,
+            "end": 934,
+            "name": "x"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 935,
+            "end": 936,
+            "value": 0,
+            "raw": "0"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 940,
+          "end": 941,
+          "value": 0,
+          "raw": "0"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 943,
+      "end": 952,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 943,
+        "end": 951,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 943,
+          "end": 947,
+          "object": {
+            "type": "Identifier",
+            "start": 943,
+            "end": 944,
+            "name": "x"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 945,
+            "end": 946,
+            "value": 3,
+            "raw": "3"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 950,
+          "end": 951,
+          "value": 3,
+          "raw": "3"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 953,
+      "end": 1267,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 957,
+        "end": 982,
+        "left": {
+          "type": "CallExpression",
+          "start": 957,
+          "end": 969,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 957,
+            "end": 967,
+            "object": {
+              "type": "Identifier",
+              "start": 957,
+              "end": 958,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 959,
+              "end": 967,
+              "name": "toString"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 974,
+          "end": 982,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 974,
+            "end": 980,
+            "object": {
+              "type": "Identifier",
+              "start": 974,
+              "end": 975,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 976,
+              "end": 980,
+              "name": "join"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 984,
+        "end": 1103,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 988,
+            "end": 1101,
+            "argument": {
+              "type": "NewExpression",
+              "start": 994,
+              "end": 1100,
+              "callee": {
+                "type": "Identifier",
+                "start": 998,
+                "end": 1010,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1011,
+                  "end": 1099,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1011,
+                    "end": 1082,
+                    "value": "#2.1: x = []; x[0] = 0; x[3] = 3; x.toString() === x.join(). Actual: ",
+                    "raw": "'#2.1: x = []; x[0] = 0; x[3] = 3; x.toString() === x.join(). Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1085,
+                    "end": 1099,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1086,
+                      "end": 1098,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1086,
+                        "end": 1096,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1086,
+                          "end": 1087,
+                          "name": "x"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1088,
+                          "end": 1096,
+                          "name": "toString"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 1109,
+        "end": 1267,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 1113,
+            "end": 1265,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 1117,
+              "end": 1141,
+              "left": {
+                "type": "CallExpression",
+                "start": 1117,
+                "end": 1129,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1117,
+                  "end": 1127,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1117,
+                    "end": 1118,
+                    "name": "x"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1119,
+                    "end": 1127,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "start": 1134,
+                "end": 1141,
+                "value": "0,,,3",
+                "raw": "\"0,,,3\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 1143,
+              "end": 1265,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 1149,
+                  "end": 1261,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1155,
+                    "end": 1260,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1159,
+                      "end": 1171,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 1172,
+                        "end": 1259,
+                        "left": {
+                          "type": "Literal",
+                          "start": 1172,
+                          "end": 1242,
+                          "value": "#2.2: x = []; x[0] = 0; x[3] = 3; x.toString() === \"0,,,3\". Actual: ",
+                          "raw": "'#2.2: x = []; x[0] = 0; x[3] = 3; x.toString() === \"0,,,3\". Actual: '"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "ParenthesizedExpression",
+                          "start": 1245,
+                          "end": 1259,
+                          "expression": {
+                            "type": "CallExpression",
+                            "start": 1246,
+                            "end": 1258,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 1246,
+                              "end": 1256,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1246,
+                                "end": 1247,
+                                "name": "x"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1248,
+                                "end": 1256,
+                                "name": "toString"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [],
+                            "optional": false
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1269,
+      "end": 1302,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1269,
+        "end": 1301,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1269,
+          "end": 1270,
+          "name": "x"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1273,
+          "end": 1301,
+          "callee": {
+            "type": "Identifier",
+            "start": 1273,
+            "end": 1278,
+            "name": "Array"
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 1279,
+              "end": 1288,
+              "name": "undefined"
+            },
+            {
+              "type": "Literal",
+              "start": 1290,
+              "end": 1291,
+              "value": 1,
+              "raw": "1"
+            },
+            {
+              "type": "Literal",
+              "start": 1293,
+              "end": 1297,
+              "value": null,
+              "raw": "null"
+            },
+            {
+              "type": "Literal",
+              "start": 1299,
+              "end": 1300,
+              "value": 3,
+              "raw": "3"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1303,
+      "end": 1623,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1307,
+        "end": 1332,
+        "left": {
+          "type": "CallExpression",
+          "start": 1307,
+          "end": 1319,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1307,
+            "end": 1317,
+            "object": {
+              "type": "Identifier",
+              "start": 1307,
+              "end": 1308,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1309,
+              "end": 1317,
+              "name": "toString"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1324,
+          "end": 1332,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1324,
+            "end": 1330,
+            "object": {
+              "type": "Identifier",
+              "start": 1324,
+              "end": 1325,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1326,
+              "end": 1330,
+              "name": "join"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1334,
+        "end": 1456,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1338,
+            "end": 1454,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1344,
+              "end": 1453,
+              "callee": {
+                "type": "Identifier",
+                "start": 1348,
+                "end": 1360,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1361,
+                  "end": 1452,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1361,
+                    "end": 1435,
+                    "value": "#3.1: x = Array(undefined,1,null,3); x.toString() === x.join(). Actual: ",
+                    "raw": "'#3.1: x = Array(undefined,1,null,3); x.toString() === x.join(). Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1438,
+                    "end": 1452,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1439,
+                      "end": 1451,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1439,
+                        "end": 1449,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1439,
+                          "end": 1440,
+                          "name": "x"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1441,
+                          "end": 1449,
+                          "name": "toString"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 1462,
+        "end": 1623,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 1466,
+            "end": 1621,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 1470,
+              "end": 1494,
+              "left": {
+                "type": "CallExpression",
+                "start": 1470,
+                "end": 1482,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1470,
+                  "end": 1480,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1470,
+                    "end": 1471,
+                    "name": "x"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1472,
+                    "end": 1480,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "start": 1487,
+                "end": 1494,
+                "value": ",1,,3",
+                "raw": "\",1,,3\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 1496,
+              "end": 1621,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 1502,
+                  "end": 1617,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1508,
+                    "end": 1616,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1512,
+                      "end": 1524,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 1525,
+                        "end": 1615,
+                        "left": {
+                          "type": "Literal",
+                          "start": 1525,
+                          "end": 1598,
+                          "value": "#3.2: x = Array(undefined,1,null,3); x.toString() === \",1,,3\". Actual: ",
+                          "raw": "'#3.2: x = Array(undefined,1,null,3); x.toString() === \",1,,3\". Actual: '"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "ParenthesizedExpression",
+                          "start": 1601,
+                          "end": 1615,
+                          "expression": {
+                            "type": "CallExpression",
+                            "start": 1602,
+                            "end": 1614,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 1602,
+                              "end": 1612,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1602,
+                                "end": 1603,
+                                "name": "x"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1604,
+                                "end": 1612,
+                                "name": "toString"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [],
+                            "optional": false
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1625,
+      "end": 1632,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1625,
+        "end": 1631,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1625,
+          "end": 1626,
+          "name": "x"
+        },
+        "right": {
+          "type": "ArrayExpression",
+          "start": 1629,
+          "end": 1631,
+          "elements": []
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1633,
+      "end": 1642,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1633,
+        "end": 1641,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1633,
+          "end": 1637,
+          "object": {
+            "type": "Identifier",
+            "start": 1633,
+            "end": 1634,
+            "name": "x"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 1635,
+            "end": 1636,
+            "value": 0,
+            "raw": "0"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1640,
+          "end": 1641,
+          "value": 0,
+          "raw": "0"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1643,
+      "end": 1929,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1647,
+        "end": 1672,
+        "left": {
+          "type": "CallExpression",
+          "start": 1647,
+          "end": 1659,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1647,
+            "end": 1657,
+            "object": {
+              "type": "Identifier",
+              "start": 1647,
+              "end": 1648,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1649,
+              "end": 1657,
+              "name": "toString"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1664,
+          "end": 1672,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1664,
+            "end": 1670,
+            "object": {
+              "type": "Identifier",
+              "start": 1664,
+              "end": 1665,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1666,
+              "end": 1670,
+              "name": "join"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1674,
+        "end": 1783,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1678,
+            "end": 1781,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1684,
+              "end": 1780,
+              "callee": {
+                "type": "Identifier",
+                "start": 1688,
+                "end": 1700,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1701,
+                  "end": 1779,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1701,
+                    "end": 1762,
+                    "value": "#4.1: x = []; x[0] = 0; x.toString() === x.join(). Actual: ",
+                    "raw": "'#4.1: x = []; x[0] = 0; x.toString() === x.join(). Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1765,
+                    "end": 1779,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1766,
+                      "end": 1778,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1766,
+                        "end": 1776,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1766,
+                          "end": 1767,
+                          "name": "x"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1768,
+                          "end": 1776,
+                          "name": "toString"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 1789,
+        "end": 1929,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 1793,
+            "end": 1927,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 1797,
+              "end": 1817,
+              "left": {
+                "type": "CallExpression",
+                "start": 1797,
+                "end": 1809,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1797,
+                  "end": 1807,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1797,
+                    "end": 1798,
+                    "name": "x"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1799,
+                    "end": 1807,
+                    "name": "toString"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "start": 1814,
+                "end": 1817,
+                "value": "0",
+                "raw": "\"0\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 1819,
+              "end": 1927,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 1825,
+                  "end": 1923,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1831,
+                    "end": 1922,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1835,
+                      "end": 1847,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 1848,
+                        "end": 1921,
+                        "left": {
+                          "type": "Literal",
+                          "start": 1848,
+                          "end": 1904,
+                          "value": "#4.2: x = []; x[0] = 0; x.toString() === \"0\". Actual: ",
+                          "raw": "'#4.2: x = []; x[0] = 0; x.toString() === \"0\". Actual: '"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "ParenthesizedExpression",
+                          "start": 1907,
+                          "end": 1921,
+                          "expression": {
+                            "type": "CallExpression",
+                            "start": 1908,
+                            "end": 1920,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 1908,
+                              "end": 1918,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1908,
+                                "end": 1909,
+                                "name": "x"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1910,
+                                "end": 1918,
+                                "name": "toString"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [],
+                            "optional": false
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

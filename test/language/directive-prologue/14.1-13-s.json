@@ -1,0 +1,122 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 355,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 251,
+      "end": 324,
+      "id": {
+        "type": "Identifier",
+        "start": 260,
+        "end": 263,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 268,
+        "end": 324,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 274,
+            "end": 286,
+            "expression": {
+              "type": "Literal",
+              "start": 274,
+              "end": 286,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 292,
+            "end": 320,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 299,
+              "end": 319,
+              "expression": {
+                "type": "BinaryExpression",
+                "start": 300,
+                "end": 318,
+                "left": {
+                  "type": "ThisExpression",
+                  "start": 300,
+                  "end": 304
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Identifier",
+                  "start": 309,
+                  "end": 318,
+                  "name": "undefined"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 326,
+      "end": 354,
+      "expression": {
+        "type": "CallExpression",
+        "start": 326,
+        "end": 353,
+        "callee": {
+          "type": "Identifier",
+          "start": 326,
+          "end": 332,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 333,
+            "end": 352,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 333,
+              "end": 341,
+              "object": {
+                "type": "Identifier",
+                "start": 333,
+                "end": 336,
+                "name": "foo"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 341,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 342,
+                "end": 351,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

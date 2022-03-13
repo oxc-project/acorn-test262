@@ -1,0 +1,139 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 528,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 343,
+      "end": 527,
+      "expression": {
+        "type": "CallExpression",
+        "start": 343,
+        "end": 526,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 343,
+          "end": 356,
+          "object": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 349,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 356,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 357,
+            "end": 366,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 368,
+            "end": 439,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 379,
+              "end": 439,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 383,
+                  "end": 424,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 389,
+                      "end": 423,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 389,
+                        "end": 396,
+                        "name": "valueOf"
+                      },
+                      "init": {
+                        "type": "MemberExpression",
+                        "start": 399,
+                        "end": 423,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 399,
+                          "end": 415,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 399,
+                            "end": 405,
+                            "name": "Object"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 406,
+                            "end": 415,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 416,
+                          "end": 423,
+                          "name": "valueOf"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 427,
+                  "end": 437,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 427,
+                    "end": 436,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 427,
+                      "end": 434,
+                      "name": "valueOf"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 441,
+            "end": 525,
+            "value": "`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception",
+            "raw": "'`const valueOf = Object.prototype.valueOf; valueOf()` throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,182 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 487,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 320,
+      "end": 402,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 326,
+          "end": 401,
+          "id": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 334,
+            "name": "dateTime"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 337,
+            "end": 401,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 337,
+              "end": 364,
+              "object": {
+                "type": "MemberExpression",
+                "start": 337,
+                "end": 359,
+                "object": {
+                  "type": "Identifier",
+                  "start": 337,
+                  "end": 345,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 346,
+                  "end": 359,
+                  "name": "PlainDateTime"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 360,
+                "end": 364,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 365,
+                "end": 400,
+                "value": "2020-01-01T00:00:00+01:00[Custom]",
+                "raw": "\"2020-01-01T00:00:00+01:00[Custom]\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 403,
+      "end": 486,
+      "expression": {
+        "type": "CallExpression",
+        "start": 403,
+        "end": 485,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 403,
+          "end": 438,
+          "object": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 418,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 438,
+            "name": "assertPlainDateTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 439,
+            "end": 447,
+            "name": "dateTime"
+          },
+          {
+            "type": "Literal",
+            "start": 449,
+            "end": 453,
+            "value": 2020,
+            "raw": "2020"
+          },
+          {
+            "type": "Literal",
+            "start": 455,
+            "end": 456,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 458,
+            "end": 463,
+            "value": "M01",
+            "raw": "\"M01\""
+          },
+          {
+            "type": "Literal",
+            "start": 465,
+            "end": 466,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 468,
+            "end": 469,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 471,
+            "end": 472,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 474,
+            "end": 475,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 477,
+            "end": 478,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 480,
+            "end": 481,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 483,
+            "end": 484,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

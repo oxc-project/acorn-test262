@@ -1,0 +1,180 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 564,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 408,
+      "end": 472,
+      "id": {
+        "type": "Identifier",
+        "start": 417,
+        "end": 438,
+        "name": "BadPromiseConstructor"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 439,
+          "end": 440,
+          "name": "f"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 442,
+        "end": 472,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 446,
+            "end": 470,
+            "expression": {
+              "type": "CallExpression",
+              "start": 446,
+              "end": 469,
+              "callee": {
+                "type": "Identifier",
+                "start": 446,
+                "end": 447,
+                "name": "f"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 448,
+                  "end": 457,
+                  "name": "undefined"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 459,
+                  "end": 468,
+                  "name": "undefined"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 474,
+      "end": 563,
+      "expression": {
+        "type": "CallExpression",
+        "start": 474,
+        "end": 562,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 474,
+          "end": 487,
+          "object": {
+            "type": "Identifier",
+            "start": 474,
+            "end": 480,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 481,
+            "end": 487,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 488,
+            "end": 497,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 499,
+            "end": 561,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 510,
+              "end": 561,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 514,
+                  "end": 559,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 514,
+                    "end": 558,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 514,
+                      "end": 531,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 514,
+                        "end": 526,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 514,
+                          "end": 521,
+                          "name": "Promise"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 522,
+                          "end": 526,
+                          "name": "race"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 527,
+                        "end": 531,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 532,
+                        "end": 553,
+                        "name": "BadPromiseConstructor"
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "start": 555,
+                        "end": 557,
+                        "elements": []
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

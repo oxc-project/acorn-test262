@@ -1,0 +1,183 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 437,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 270,
+      "end": 330,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 274,
+          "end": 329,
+          "id": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 277,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 280,
+            "end": 329,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 284,
+                "end": 327,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 284,
+                  "end": 291,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 293,
+                  "end": 327,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 304,
+                    "end": 327,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 310,
+                        "end": 323,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 317,
+                          "end": 322,
+                          "value": "abc",
+                          "raw": "\"abc\""
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 332,
+      "end": 436,
+      "expression": {
+        "type": "CallExpression",
+        "start": 332,
+        "end": 435,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 332,
+          "end": 348,
+          "object": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 338,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 339,
+            "end": 348,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 349,
+            "end": 380,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 349,
+              "end": 375,
+              "object": {
+                "type": "MemberExpression",
+                "start": 349,
+                "end": 370,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 349,
+                  "end": 365,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 349,
+                    "end": 355,
+                    "name": "String"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 356,
+                    "end": 365,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 366,
+                  "end": 370,
+                  "name": "trim"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 371,
+                "end": 375,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 376,
+                "end": 379,
+                "name": "obj"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 382,
+            "end": 399,
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
+          },
+          {
+            "type": "Literal",
+            "start": 401,
+            "end": 434,
+            "value": "String.prototype.trim.call(obj)",
+            "raw": "'String.prototype.trim.call(obj)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

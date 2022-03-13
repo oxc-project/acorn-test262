@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 604,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 336,
+      "end": 444,
+      "id": {
+        "type": "Identifier",
+        "start": 353,
+        "end": 354,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 373,
+          "end": 374,
+          "name": "x"
+        },
+        {
+          "type": "Identifier",
+          "start": 393,
+          "end": 394,
+          "name": "y"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 413,
+        "end": 444,
+        "body": [
+          {
+            "type": "EmptyStatement",
+            "start": 423,
+            "end": 424
+          },
+          {
+            "type": "EmptyStatement",
+            "start": 433,
+            "end": 434
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 457,
+      "end": 603,
+      "expression": {
+        "type": "CallExpression",
+        "start": 457,
+        "end": 602,
+        "callee": {
+          "type": "Identifier",
+          "start": 457,
+          "end": 487,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 488,
+            "end": 489,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 491,
+            "end": 601,
+            "value": "function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }",
+            "raw": "\"function /* a */ f /* b */ ( /* c */ x /* d */ , /* e */ y /* f */ ) /* g */ { /* h */ ; /* i */ ; /* j */ }\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

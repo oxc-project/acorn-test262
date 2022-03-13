@@ -1,0 +1,25 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 852,
+  "body": [
+    {
+      "type": "ThrowStatement",
+      "start": 826,
+      "end": 851,
+      "argument": {
+        "type": "NewExpression",
+        "start": 832,
+        "end": 850,
+        "callee": {
+          "type": "Identifier",
+          "start": 836,
+          "end": 848,
+          "name": "Test262Error"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

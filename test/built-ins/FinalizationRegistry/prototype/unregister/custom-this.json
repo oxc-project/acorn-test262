@@ -1,0 +1,1172 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2521,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 995,
+      "end": 1018,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 999,
+          "end": 1017,
+          "id": {
+            "type": "Identifier",
+            "start": 999,
+            "end": 1001,
+            "name": "fn"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 1004,
+            "end": 1017,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1015,
+              "end": 1017,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1019,
+      "end": 1078,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1023,
+          "end": 1077,
+          "id": {
+            "type": "Identifier",
+            "start": 1023,
+            "end": 1033,
+            "name": "unregister"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 1036,
+            "end": 1077,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1036,
+              "end": 1066,
+              "object": {
+                "type": "Identifier",
+                "start": 1036,
+                "end": 1056,
+                "name": "FinalizationRegistry"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1057,
+                "end": 1066,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1067,
+              "end": 1077,
+              "name": "unregister"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1079,
+      "end": 1135,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1083,
+          "end": 1134,
+          "id": {
+            "type": "Identifier",
+            "start": 1083,
+            "end": 1103,
+            "name": "finalizationRegistry"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1106,
+            "end": 1134,
+            "callee": {
+              "type": "Identifier",
+              "start": 1110,
+              "end": 1130,
+              "name": "FinalizationRegistry"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1131,
+                "end": 1133,
+                "name": "fn"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1137,
+      "end": 1154,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1141,
+          "end": 1153,
+          "id": {
+            "type": "Identifier",
+            "start": 1141,
+            "end": 1148,
+            "name": "target1"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1151,
+            "end": 1153,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1155,
+      "end": 1172,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1159,
+          "end": 1171,
+          "id": {
+            "type": "Identifier",
+            "start": 1159,
+            "end": 1166,
+            "name": "target2"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1169,
+            "end": 1171,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1173,
+      "end": 1190,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1177,
+          "end": 1189,
+          "id": {
+            "type": "Identifier",
+            "start": 1177,
+            "end": 1184,
+            "name": "target3"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1187,
+            "end": 1189,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1191,
+      "end": 1207,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1195,
+          "end": 1206,
+          "id": {
+            "type": "Identifier",
+            "start": 1195,
+            "end": 1201,
+            "name": "token1"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1204,
+            "end": 1206,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1208,
+      "end": 1224,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1212,
+          "end": 1223,
+          "id": {
+            "type": "Identifier",
+            "start": 1212,
+            "end": 1218,
+            "name": "token2"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1221,
+            "end": 1223,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1226,
+      "end": 1353,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1226,
+        "end": 1352,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1226,
+          "end": 1242,
+          "object": {
+            "type": "Identifier",
+            "start": 1226,
+            "end": 1232,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1233,
+            "end": 1242,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1243,
+            "end": 1288,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1243,
+              "end": 1258,
+              "object": {
+                "type": "Identifier",
+                "start": 1243,
+                "end": 1253,
+                "name": "unregister"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1254,
+                "end": 1258,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1259,
+                "end": 1279,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 1281,
+                "end": 1287,
+                "name": "token1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1290,
+            "end": 1295,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1297,
+            "end": 1351,
+            "value": "unregistering token1 from empty finalizationRegistry",
+            "raw": "'unregistering token1 from empty finalizationRegistry'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1354,
+      "end": 1481,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1354,
+        "end": 1480,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1354,
+          "end": 1370,
+          "object": {
+            "type": "Identifier",
+            "start": 1354,
+            "end": 1360,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1361,
+            "end": 1370,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1371,
+            "end": 1416,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1371,
+              "end": 1386,
+              "object": {
+                "type": "Identifier",
+                "start": 1371,
+                "end": 1381,
+                "name": "unregister"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1382,
+                "end": 1386,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1387,
+                "end": 1407,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 1409,
+                "end": 1415,
+                "name": "token2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1418,
+            "end": 1423,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1425,
+            "end": 1479,
+            "value": "unregistering token2 from empty finalizationRegistry",
+            "raw": "'unregistering token2 from empty finalizationRegistry'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1483,
+      "end": 1541,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1483,
+        "end": 1540,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1483,
+          "end": 1512,
+          "object": {
+            "type": "Identifier",
+            "start": 1483,
+            "end": 1503,
+            "name": "finalizationRegistry"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1504,
+            "end": 1512,
+            "name": "register"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1513,
+            "end": 1520,
+            "name": "target1"
+          },
+          {
+            "type": "Identifier",
+            "start": 1522,
+            "end": 1531,
+            "name": "undefined"
+          },
+          {
+            "type": "Identifier",
+            "start": 1533,
+            "end": 1539,
+            "name": "token1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1542,
+      "end": 1600,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1542,
+        "end": 1599,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1542,
+          "end": 1571,
+          "object": {
+            "type": "Identifier",
+            "start": 1542,
+            "end": 1562,
+            "name": "finalizationRegistry"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1563,
+            "end": 1571,
+            "name": "register"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1572,
+            "end": 1579,
+            "name": "target2"
+          },
+          {
+            "type": "Identifier",
+            "start": 1581,
+            "end": 1590,
+            "name": "undefined"
+          },
+          {
+            "type": "Identifier",
+            "start": 1592,
+            "end": 1598,
+            "name": "token2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1601,
+      "end": 1659,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1601,
+        "end": 1658,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1601,
+          "end": 1630,
+          "object": {
+            "type": "Identifier",
+            "start": 1601,
+            "end": 1621,
+            "name": "finalizationRegistry"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1622,
+            "end": 1630,
+            "name": "register"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1631,
+            "end": 1638,
+            "name": "target3"
+          },
+          {
+            "type": "Identifier",
+            "start": 1640,
+            "end": 1649,
+            "name": "undefined"
+          },
+          {
+            "type": "Identifier",
+            "start": 1651,
+            "end": 1657,
+            "name": "token2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1661,
+      "end": 1779,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1661,
+        "end": 1778,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1661,
+          "end": 1677,
+          "object": {
+            "type": "Identifier",
+            "start": 1661,
+            "end": 1667,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1668,
+            "end": 1677,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1678,
+            "end": 1724,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1678,
+              "end": 1693,
+              "object": {
+                "type": "Identifier",
+                "start": 1678,
+                "end": 1688,
+                "name": "unregister"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1689,
+                "end": 1693,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1694,
+                "end": 1714,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 1716,
+                "end": 1723,
+                "name": "target1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1726,
+            "end": 1731,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1733,
+            "end": 1777,
+            "value": "own target does not work on unregister, #1",
+            "raw": "'own target does not work on unregister, #1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1780,
+      "end": 1898,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1780,
+        "end": 1897,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1780,
+          "end": 1796,
+          "object": {
+            "type": "Identifier",
+            "start": 1780,
+            "end": 1786,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1787,
+            "end": 1796,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1797,
+            "end": 1843,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1797,
+              "end": 1812,
+              "object": {
+                "type": "Identifier",
+                "start": 1797,
+                "end": 1807,
+                "name": "unregister"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1808,
+                "end": 1812,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1813,
+                "end": 1833,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 1835,
+                "end": 1842,
+                "name": "target2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1845,
+            "end": 1850,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1852,
+            "end": 1896,
+            "value": "own target does not work on unregister, #2",
+            "raw": "'own target does not work on unregister, #2'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1899,
+      "end": 2017,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1899,
+        "end": 2016,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1899,
+          "end": 1915,
+          "object": {
+            "type": "Identifier",
+            "start": 1899,
+            "end": 1905,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1906,
+            "end": 1915,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1916,
+            "end": 1962,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1916,
+              "end": 1931,
+              "object": {
+                "type": "Identifier",
+                "start": 1916,
+                "end": 1926,
+                "name": "unregister"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1927,
+                "end": 1931,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1932,
+                "end": 1952,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 1954,
+                "end": 1961,
+                "name": "target3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1964,
+            "end": 1969,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1971,
+            "end": 2015,
+            "value": "own target does not work on unregister, #3",
+            "raw": "'own target does not work on unregister, #3'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2019,
+      "end": 2139,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2019,
+        "end": 2138,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2019,
+          "end": 2035,
+          "object": {
+            "type": "Identifier",
+            "start": 2019,
+            "end": 2025,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2026,
+            "end": 2035,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2036,
+            "end": 2081,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2036,
+              "end": 2051,
+              "object": {
+                "type": "Identifier",
+                "start": 2036,
+                "end": 2046,
+                "name": "unregister"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2047,
+                "end": 2051,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2052,
+                "end": 2072,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 2074,
+                "end": 2080,
+                "name": "token1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2083,
+            "end": 2087,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 2089,
+            "end": 2137,
+            "value": "unregistering token1 from finalizationRegistry",
+            "raw": "'unregistering token1 from finalizationRegistry'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2140,
+      "end": 2267,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2140,
+        "end": 2266,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2140,
+          "end": 2156,
+          "object": {
+            "type": "Identifier",
+            "start": 2140,
+            "end": 2146,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2147,
+            "end": 2156,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2157,
+            "end": 2202,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2157,
+              "end": 2172,
+              "object": {
+                "type": "Identifier",
+                "start": 2157,
+                "end": 2167,
+                "name": "unregister"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2168,
+                "end": 2172,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2173,
+                "end": 2193,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 2195,
+                "end": 2201,
+                "name": "token1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2204,
+            "end": 2209,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 2211,
+            "end": 2265,
+            "value": "unregistering token1 again from finalizationRegistry",
+            "raw": "'unregistering token1 again from finalizationRegistry'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2268,
+      "end": 2392,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2268,
+        "end": 2391,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2268,
+          "end": 2284,
+          "object": {
+            "type": "Identifier",
+            "start": 2268,
+            "end": 2274,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2275,
+            "end": 2284,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2285,
+            "end": 2330,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2285,
+              "end": 2300,
+              "object": {
+                "type": "Identifier",
+                "start": 2285,
+                "end": 2295,
+                "name": "unregister"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2296,
+                "end": 2300,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2301,
+                "end": 2321,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 2323,
+                "end": 2329,
+                "name": "token2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2332,
+            "end": 2336,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 2338,
+            "end": 2390,
+            "value": "unregistering token2 to remove target2 and target3",
+            "raw": "'unregistering token2 to remove target2 and target3'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2393,
+      "end": 2520,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2393,
+        "end": 2519,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2393,
+          "end": 2409,
+          "object": {
+            "type": "Identifier",
+            "start": 2393,
+            "end": 2399,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2400,
+            "end": 2409,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2410,
+            "end": 2455,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2410,
+              "end": 2425,
+              "object": {
+                "type": "Identifier",
+                "start": 2410,
+                "end": 2420,
+                "name": "unregister"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2421,
+                "end": 2425,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2426,
+                "end": 2446,
+                "name": "finalizationRegistry"
+              },
+              {
+                "type": "Identifier",
+                "start": 2448,
+                "end": 2454,
+                "name": "token2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2457,
+            "end": 2462,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 2464,
+            "end": 2518,
+            "value": "unregistering token2 from empty finalizationRegistry",
+            "raw": "'unregistering token2 from empty finalizationRegistry'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

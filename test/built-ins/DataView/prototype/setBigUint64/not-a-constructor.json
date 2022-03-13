@@ -1,0 +1,259 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1079,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 726,
+      "end": 874,
+      "expression": {
+        "type": "CallExpression",
+        "start": 726,
+        "end": 873,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 726,
+          "end": 742,
+          "object": {
+            "type": "Identifier",
+            "start": 726,
+            "end": 732,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 733,
+            "end": 742,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 746,
+            "end": 792,
+            "callee": {
+              "type": "Identifier",
+              "start": 746,
+              "end": 759,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 760,
+                "end": 791,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 760,
+                  "end": 778,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 760,
+                    "end": 768,
+                    "name": "DataView"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 769,
+                    "end": 778,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 779,
+                  "end": 791,
+                  "name": "setBigUint64"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 796,
+            "end": 801,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 805,
+            "end": 871,
+            "value": "isConstructor(DataView.prototype.setBigUint64) must return false",
+            "raw": "'isConstructor(DataView.prototype.setBigUint64) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 876,
+      "end": 1077,
+      "expression": {
+        "type": "CallExpression",
+        "start": 876,
+        "end": 1076,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 876,
+          "end": 889,
+          "object": {
+            "type": "Identifier",
+            "start": 876,
+            "end": 882,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 883,
+            "end": 889,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 890,
+            "end": 899,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 901,
+            "end": 983,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 907,
+              "end": 983,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 911,
+                  "end": 954,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 915,
+                      "end": 953,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 915,
+                        "end": 917,
+                        "name": "dv"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 920,
+                        "end": 953,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 924,
+                          "end": 932,
+                          "name": "DataView"
+                        },
+                        "arguments": [
+                          {
+                            "type": "NewExpression",
+                            "start": 933,
+                            "end": 952,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 937,
+                              "end": 948,
+                              "name": "ArrayBuffer"
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "start": 949,
+                                "end": 951,
+                                "value": 16,
+                                "raw": "16"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 955,
+                  "end": 981,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 955,
+                    "end": 980,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 959,
+                      "end": 974,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 959,
+                        "end": 961,
+                        "name": "dv"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 962,
+                        "end": 974,
+                        "name": "setBigUint64"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 975,
+                        "end": 976,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 978,
+                        "end": 979,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 985,
+            "end": 1075,
+            "value": "`let dv = new DataView(new ArrayBuffer(16)); new dv.setBigUint64(0, 0)` throws TypeError",
+            "raw": "'`let dv = new DataView(new ArrayBuffer(16)); new dv.setBigUint64(0, 0)` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

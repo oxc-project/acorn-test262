@@ -1,0 +1,88 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1293,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1208,
+      "end": 1219,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1212,
+          "end": 1218,
+          "id": {
+            "type": "Identifier",
+            "start": 1212,
+            "end": 1218,
+            "name": "smoosh"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1220,
+      "end": 1240,
+      "id": {
+        "type": "Identifier",
+        "start": 1229,
+        "end": 1235,
+        "name": "smoosh"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1238,
+        "end": 1240,
+        "body": []
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1243,
+      "end": 1292,
+      "id": {
+        "type": "Identifier",
+        "start": 1252,
+        "end": 1254,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1257,
+        "end": 1292,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1261,
+            "end": 1290,
+            "expression": {
+              "type": "ImportExpression",
+              "start": 1261,
+              "end": 1289,
+              "source": {
+                "type": "Literal",
+                "start": 1268,
+                "end": 1288,
+                "value": "./empty_FIXTURE.js",
+                "raw": "'./empty_FIXTURE.js'"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

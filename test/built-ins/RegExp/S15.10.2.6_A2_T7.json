@@ -1,0 +1,105 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 503,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 388,
+      "end": 429,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 392,
+          "end": 428,
+          "id": {
+            "type": "Identifier",
+            "start": 392,
+            "end": 402,
+            "name": "__executed"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 405,
+            "end": 428,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 405,
+              "end": 417,
+              "object": {
+                "type": "Literal",
+                "start": 405,
+                "end": 412,
+                "value": {},
+                "raw": "/^..^e/",
+                "regex": {
+                  "pattern": "^..^e",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 413,
+                "end": 417,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 418,
+                "end": 427,
+                "value": "ab\ncde",
+                "raw": "\"ab\\ncde\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 431,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 431,
+        "end": 501,
+        "callee": {
+          "type": "Identifier",
+          "start": 431,
+          "end": 437,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 438,
+            "end": 449,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 439,
+              "end": 449,
+              "name": "__executed"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 500,
+            "value": "The value of !__executed is expected to be true",
+            "raw": "'The value of !__executed is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

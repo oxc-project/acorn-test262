@@ -1,0 +1,39 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1818,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 1753,
+      "end": 1817,
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 1762,
+          "end": 1768,
+          "imported": {
+            "type": "Identifier",
+            "start": 1762,
+            "end": 1763,
+            "name": "x"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 1767,
+            "end": 1768,
+            "name": "y"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 1776,
+        "end": 1816,
+        "value": "./instn-named-err-ambiguous_FIXTURE.js",
+        "raw": "'./instn-named-err-ambiguous_FIXTURE.js'"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

@@ -1,0 +1,125 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 388,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 282,
+      "end": 300,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 286,
+          "end": 299,
+          "id": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 287,
+            "name": "x"
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "start": 290,
+            "end": 299,
+            "operator": "+",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 291,
+              "end": 299,
+              "name": "Infinity"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 301,
+      "end": 387,
+      "expression": {
+        "type": "CallExpression",
+        "start": 301,
+        "end": 386,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 301,
+          "end": 317,
+          "object": {
+            "type": "Identifier",
+            "start": 301,
+            "end": 307,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 317,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 318,
+            "end": 329,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 318,
+              "end": 326,
+              "object": {
+                "type": "Identifier",
+                "start": 318,
+                "end": 322,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 326,
+                "name": "exp"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 327,
+                "end": 328,
+                "name": "x"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 331,
+            "end": 340,
+            "operator": "+",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 332,
+              "end": 340,
+              "name": "Infinity"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 342,
+            "end": 385,
+            "value": "Math.exp(+Infinity) must return +Infinity",
+            "raw": "'Math.exp(+Infinity) must return +Infinity'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

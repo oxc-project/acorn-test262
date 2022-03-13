@@ -1,0 +1,124 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 535,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 458,
+      "end": 489,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 462,
+          "end": 488,
+          "id": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 464,
+            "name": "lf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 467,
+            "end": 488,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 471,
+              "end": 486,
+              "object": {
+                "type": "Identifier",
+                "start": 471,
+                "end": 475,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 476,
+                "end": 486,
+                "name": "ListFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 491,
+      "end": 534,
+      "expression": {
+        "type": "CallExpression",
+        "start": 491,
+        "end": 533,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 491,
+          "end": 507,
+          "object": {
+            "type": "Identifier",
+            "start": 491,
+            "end": 497,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 498,
+            "end": 507,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 508,
+            "end": 510,
+            "value": "",
+            "raw": "\"\""
+          },
+          {
+            "type": "CallExpression",
+            "start": 512,
+            "end": 532,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 512,
+              "end": 521,
+              "object": {
+                "type": "Identifier",
+                "start": 512,
+                "end": 514,
+                "name": "lf"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 515,
+                "end": 521,
+                "name": "format"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 522,
+                "end": 531,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

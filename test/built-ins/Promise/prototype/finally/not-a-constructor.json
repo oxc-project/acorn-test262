@@ -1,0 +1,240 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1019,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 724,
+      "end": 860,
+      "expression": {
+        "type": "CallExpression",
+        "start": 724,
+        "end": 859,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 724,
+          "end": 740,
+          "object": {
+            "type": "Identifier",
+            "start": 724,
+            "end": 730,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 740,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 744,
+            "end": 784,
+            "callee": {
+              "type": "Identifier",
+              "start": 744,
+              "end": 757,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 758,
+                "end": 783,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 758,
+                  "end": 775,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 758,
+                    "end": 765,
+                    "name": "Promise"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 766,
+                    "end": 775,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 776,
+                  "end": 783,
+                  "name": "finally"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 788,
+            "end": 793,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 797,
+            "end": 857,
+            "value": "isConstructor(Promise.prototype.finally) must return false",
+            "raw": "'isConstructor(Promise.prototype.finally) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 862,
+      "end": 1017,
+      "expression": {
+        "type": "CallExpression",
+        "start": 862,
+        "end": 1016,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 862,
+          "end": 875,
+          "object": {
+            "type": "Identifier",
+            "start": 862,
+            "end": 868,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 869,
+            "end": 875,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 876,
+            "end": 885,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 887,
+            "end": 946,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 893,
+              "end": 946,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 897,
+                  "end": 927,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 901,
+                      "end": 926,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 901,
+                        "end": 902,
+                        "name": "p"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 905,
+                        "end": 926,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 909,
+                          "end": 916,
+                          "name": "Promise"
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrowFunctionExpression",
+                            "start": 917,
+                            "end": 925,
+                            "id": null,
+                            "expression": false,
+                            "generator": false,
+                            "async": false,
+                            "params": [],
+                            "body": {
+                              "type": "BlockStatement",
+                              "start": 923,
+                              "end": 925,
+                              "body": []
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 928,
+                  "end": 944,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 928,
+                    "end": 943,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 932,
+                      "end": 941,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 932,
+                        "end": 933,
+                        "name": "p"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 934,
+                        "end": 941,
+                        "name": "finally"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 948,
+            "end": 1015,
+            "value": "`let p = new Promise(() => {}); new p.finally()` throws TypeError",
+            "raw": "'`let p = new Promise(() => {}); new p.finally()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

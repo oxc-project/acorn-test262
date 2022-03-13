@@ -1,0 +1,2374 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3313,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 299,
+      "end": 504,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 303,
+        "end": 357,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 303,
+          "end": 342,
+          "left": {
+            "type": "ObjectExpression",
+            "start": 303,
+            "end": 336,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 304,
+                "end": 335,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 304,
+                  "end": 311,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 313,
+                  "end": 335,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 324,
+                    "end": 335,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 325,
+                        "end": 334,
+                        "argument": {
+                          "type": "UnaryExpression",
+                          "start": 332,
+                          "end": 334,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 333,
+                            "end": 334,
+                            "value": 4,
+                            "raw": "4"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          "operator": ">>>",
+          "right": {
+            "type": "Literal",
+            "start": 341,
+            "end": 342,
+            "value": 1,
+            "raw": "1"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 347,
+          "end": 357,
+          "value": 2147483646,
+          "raw": "2147483646"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 359,
+        "end": 504,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 363,
+            "end": 502,
+            "argument": {
+              "type": "NewExpression",
+              "start": 369,
+              "end": 501,
+              "callee": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 385,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 386,
+                  "end": 500,
+                  "left": {
+                    "type": "Literal",
+                    "start": 386,
+                    "end": 456,
+                    "value": "#1: {valueOf: function() {return -4}} >>> 1 === 2147483646. Actual: ",
+                    "raw": "'#1: {valueOf: function() {return -4}} >>> 1 === 2147483646. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 459,
+                    "end": 500,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 460,
+                      "end": 499,
+                      "left": {
+                        "type": "ObjectExpression",
+                        "start": 460,
+                        "end": 493,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 461,
+                            "end": 492,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 461,
+                              "end": 468,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 470,
+                              "end": 492,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 481,
+                                "end": 492,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 482,
+                                    "end": 491,
+                                    "argument": {
+                                      "type": "UnaryExpression",
+                                      "start": 489,
+                                      "end": 491,
+                                      "operator": "-",
+                                      "prefix": true,
+                                      "argument": {
+                                        "type": "Literal",
+                                        "start": 490,
+                                        "end": 491,
+                                        "value": 4,
+                                        "raw": "4"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      },
+                      "operator": ">>>",
+                      "right": {
+                        "type": "Literal",
+                        "start": 498,
+                        "end": 499,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 516,
+      "end": 820,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 520,
+        "end": 607,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 520,
+          "end": 592,
+          "left": {
+            "type": "ObjectExpression",
+            "start": 520,
+            "end": 586,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 521,
+                "end": 552,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 521,
+                  "end": 528,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 530,
+                  "end": 552,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 541,
+                    "end": 552,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 542,
+                        "end": 551,
+                        "argument": {
+                          "type": "UnaryExpression",
+                          "start": 549,
+                          "end": 551,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 550,
+                            "end": 551,
+                            "value": 4,
+                            "raw": "4"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 554,
+                "end": 585,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 554,
+                  "end": 562,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 564,
+                  "end": 585,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 575,
+                    "end": 585,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 576,
+                        "end": 584,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 583,
+                          "end": 584,
+                          "value": 0,
+                          "raw": "0"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          "operator": ">>>",
+          "right": {
+            "type": "Literal",
+            "start": 591,
+            "end": 592,
+            "value": 1,
+            "raw": "1"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 597,
+          "end": 607,
+          "value": 2147483646,
+          "raw": "2147483646"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 609,
+        "end": 820,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 613,
+            "end": 818,
+            "argument": {
+              "type": "NewExpression",
+              "start": 619,
+              "end": 817,
+              "callee": {
+                "type": "Identifier",
+                "start": 623,
+                "end": 635,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 636,
+                  "end": 816,
+                  "left": {
+                    "type": "Literal",
+                    "start": 636,
+                    "end": 739,
+                    "value": "#2: {valueOf: function() {return -4}, toString: function() {return 0}} >>> 1 === 2147483646. Actual: ",
+                    "raw": "'#2: {valueOf: function() {return -4}, toString: function() {return 0}} >>> 1 === 2147483646. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 742,
+                    "end": 816,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 743,
+                      "end": 815,
+                      "left": {
+                        "type": "ObjectExpression",
+                        "start": 743,
+                        "end": 809,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 744,
+                            "end": 775,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 744,
+                              "end": 751,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 753,
+                              "end": 775,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 764,
+                                "end": 775,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 765,
+                                    "end": 774,
+                                    "argument": {
+                                      "type": "UnaryExpression",
+                                      "start": 772,
+                                      "end": 774,
+                                      "operator": "-",
+                                      "prefix": true,
+                                      "argument": {
+                                        "type": "Literal",
+                                        "start": 773,
+                                        "end": 774,
+                                        "value": 4,
+                                        "raw": "4"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 777,
+                            "end": 808,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 777,
+                              "end": 785,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 787,
+                              "end": 808,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 798,
+                                "end": 808,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 799,
+                                    "end": 807,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 806,
+                                      "end": 807,
+                                      "value": 0,
+                                      "raw": "0"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      },
+                      "operator": ">>>",
+                      "right": {
+                        "type": "Literal",
+                        "start": 814,
+                        "end": 815,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 832,
+      "end": 1139,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 836,
+        "end": 924,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 836,
+          "end": 909,
+          "left": {
+            "type": "ObjectExpression",
+            "start": 836,
+            "end": 903,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 837,
+                "end": 868,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 837,
+                  "end": 844,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 846,
+                  "end": 868,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 857,
+                    "end": 868,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 858,
+                        "end": 867,
+                        "argument": {
+                          "type": "UnaryExpression",
+                          "start": 865,
+                          "end": 867,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 866,
+                            "end": 867,
+                            "value": 4,
+                            "raw": "4"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 870,
+                "end": 902,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 870,
+                  "end": 878,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 880,
+                  "end": 902,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 891,
+                    "end": 902,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 892,
+                        "end": 901,
+                        "argument": {
+                          "type": "ObjectExpression",
+                          "start": 899,
+                          "end": 901,
+                          "properties": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          "operator": ">>>",
+          "right": {
+            "type": "Literal",
+            "start": 908,
+            "end": 909,
+            "value": 1,
+            "raw": "1"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 914,
+          "end": 924,
+          "value": 2147483646,
+          "raw": "2147483646"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 926,
+        "end": 1139,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 930,
+            "end": 1137,
+            "argument": {
+              "type": "NewExpression",
+              "start": 936,
+              "end": 1136,
+              "callee": {
+                "type": "Identifier",
+                "start": 940,
+                "end": 952,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 953,
+                  "end": 1135,
+                  "left": {
+                    "type": "Literal",
+                    "start": 953,
+                    "end": 1057,
+                    "value": "#3: {valueOf: function() {return -4}, toString: function() {return {}}} >>> 1 === 2147483646. Actual: ",
+                    "raw": "'#3: {valueOf: function() {return -4}, toString: function() {return {}}} >>> 1 === 2147483646. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1060,
+                    "end": 1135,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 1061,
+                      "end": 1134,
+                      "left": {
+                        "type": "ObjectExpression",
+                        "start": 1061,
+                        "end": 1128,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 1062,
+                            "end": 1093,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1062,
+                              "end": 1069,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 1071,
+                              "end": 1093,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 1082,
+                                "end": 1093,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 1083,
+                                    "end": 1092,
+                                    "argument": {
+                                      "type": "UnaryExpression",
+                                      "start": 1090,
+                                      "end": 1092,
+                                      "operator": "-",
+                                      "prefix": true,
+                                      "argument": {
+                                        "type": "Literal",
+                                        "start": 1091,
+                                        "end": 1092,
+                                        "value": 4,
+                                        "raw": "4"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 1095,
+                            "end": 1127,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 1095,
+                              "end": 1103,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 1105,
+                              "end": 1127,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 1116,
+                                "end": 1127,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 1117,
+                                    "end": 1126,
+                                    "argument": {
+                                      "type": "ObjectExpression",
+                                      "start": 1124,
+                                      "end": 1126,
+                                      "properties": []
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      },
+                      "operator": ">>>",
+                      "right": {
+                        "type": "Literal",
+                        "start": 1133,
+                        "end": 1134,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "TryStatement",
+      "start": 1151,
+      "end": 1818,
+      "block": {
+        "type": "BlockStatement",
+        "start": 1155,
+        "end": 1486,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 1159,
+            "end": 1484,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 1163,
+              "end": 1255,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 1163,
+                "end": 1240,
+                "left": {
+                  "type": "ObjectExpression",
+                  "start": 1163,
+                  "end": 1234,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1164,
+                      "end": 1195,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1164,
+                        "end": 1171,
+                        "name": "valueOf"
+                      },
+                      "value": {
+                        "type": "FunctionExpression",
+                        "start": 1173,
+                        "end": 1195,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 1184,
+                          "end": 1195,
+                          "body": [
+                            {
+                              "type": "ReturnStatement",
+                              "start": 1185,
+                              "end": 1194,
+                              "argument": {
+                                "type": "UnaryExpression",
+                                "start": 1192,
+                                "end": 1194,
+                                "operator": "-",
+                                "prefix": true,
+                                "argument": {
+                                  "type": "Literal",
+                                  "start": 1193,
+                                  "end": 1194,
+                                  "value": 4,
+                                  "raw": "4"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 1197,
+                      "end": 1233,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1197,
+                        "end": 1205,
+                        "name": "toString"
+                      },
+                      "value": {
+                        "type": "FunctionExpression",
+                        "start": 1207,
+                        "end": 1233,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 1218,
+                          "end": 1233,
+                          "body": [
+                            {
+                              "type": "ThrowStatement",
+                              "start": 1219,
+                              "end": 1232,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 1225,
+                                "end": 1232,
+                                "value": "error",
+                                "raw": "\"error\""
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                },
+                "operator": ">>>",
+                "right": {
+                  "type": "Literal",
+                  "start": 1239,
+                  "end": 1240,
+                  "value": 1,
+                  "raw": "1"
+                }
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "start": 1245,
+                "end": 1255,
+                "value": 2147483646,
+                "raw": "2147483646"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 1257,
+              "end": 1484,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 1263,
+                  "end": 1480,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1269,
+                    "end": 1479,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1273,
+                      "end": 1285,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 1286,
+                        "end": 1478,
+                        "left": {
+                          "type": "Literal",
+                          "start": 1286,
+                          "end": 1396,
+                          "value": "#4.1: {valueOf: function() {return -4}, toString: function() {throw \"error\"}} >>> 1 === 2147483646. Actual: ",
+                          "raw": "'#4.1: {valueOf: function() {return -4}, toString: function() {throw \"error\"}} >>> 1 === 2147483646. Actual: '"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "ParenthesizedExpression",
+                          "start": 1399,
+                          "end": 1478,
+                          "expression": {
+                            "type": "BinaryExpression",
+                            "start": 1400,
+                            "end": 1477,
+                            "left": {
+                              "type": "ObjectExpression",
+                              "start": 1400,
+                              "end": 1471,
+                              "properties": [
+                                {
+                                  "type": "Property",
+                                  "start": 1401,
+                                  "end": 1432,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 1401,
+                                    "end": 1408,
+                                    "name": "valueOf"
+                                  },
+                                  "value": {
+                                    "type": "FunctionExpression",
+                                    "start": 1410,
+                                    "end": 1432,
+                                    "id": null,
+                                    "expression": false,
+                                    "generator": false,
+                                    "async": false,
+                                    "params": [],
+                                    "body": {
+                                      "type": "BlockStatement",
+                                      "start": 1421,
+                                      "end": 1432,
+                                      "body": [
+                                        {
+                                          "type": "ReturnStatement",
+                                          "start": 1422,
+                                          "end": 1431,
+                                          "argument": {
+                                            "type": "UnaryExpression",
+                                            "start": 1429,
+                                            "end": 1431,
+                                            "operator": "-",
+                                            "prefix": true,
+                                            "argument": {
+                                              "type": "Literal",
+                                              "start": 1430,
+                                              "end": 1431,
+                                              "value": 4,
+                                              "raw": "4"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "kind": "init"
+                                },
+                                {
+                                  "type": "Property",
+                                  "start": 1434,
+                                  "end": 1470,
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false,
+                                  "key": {
+                                    "type": "Identifier",
+                                    "start": 1434,
+                                    "end": 1442,
+                                    "name": "toString"
+                                  },
+                                  "value": {
+                                    "type": "FunctionExpression",
+                                    "start": 1444,
+                                    "end": 1470,
+                                    "id": null,
+                                    "expression": false,
+                                    "generator": false,
+                                    "async": false,
+                                    "params": [],
+                                    "body": {
+                                      "type": "BlockStatement",
+                                      "start": 1455,
+                                      "end": 1470,
+                                      "body": [
+                                        {
+                                          "type": "ThrowStatement",
+                                          "start": 1456,
+                                          "end": 1469,
+                                          "argument": {
+                                            "type": "Literal",
+                                            "start": 1462,
+                                            "end": 1469,
+                                            "value": "error",
+                                            "raw": "\"error\""
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "kind": "init"
+                                }
+                              ]
+                            },
+                            "operator": ">>>",
+                            "right": {
+                              "type": "Literal",
+                              "start": 1476,
+                              "end": 1477,
+                              "value": 1,
+                              "raw": "1"
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 1487,
+        "end": 1818,
+        "param": {
+          "type": "Identifier",
+          "start": 1494,
+          "end": 1495,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 1497,
+          "end": 1818,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 1501,
+              "end": 1816,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 1505,
+                "end": 1518,
+                "left": {
+                  "type": "Identifier",
+                  "start": 1505,
+                  "end": 1506,
+                  "name": "e"
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 1511,
+                  "end": 1518,
+                  "value": "error",
+                  "raw": "\"error\""
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 1520,
+                "end": 1658,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 1526,
+                    "end": 1654,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 1532,
+                      "end": 1653,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1536,
+                        "end": 1548,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1549,
+                          "end": 1652,
+                          "value": "#4.2: {valueOf: function() {return -4}, toString: function() {throw \"error\"}} >>> 1 not throw \"error\"",
+                          "raw": "'#4.2: {valueOf: function() {return -4}, toString: function() {throw \"error\"}} >>> 1 not throw \"error\"'"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": {
+                "type": "BlockStatement",
+                "start": 1664,
+                "end": 1816,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 1670,
+                    "end": 1812,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 1676,
+                      "end": 1811,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1680,
+                        "end": 1692,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 1693,
+                          "end": 1810,
+                          "left": {
+                            "type": "Literal",
+                            "start": 1693,
+                            "end": 1804,
+                            "value": "#4.3: {valueOf: function() {return -4}, toString: function() {throw \"error\"}} >>> 1 not throw Error. Actual: ",
+                            "raw": "'#4.3: {valueOf: function() {return -4}, toString: function() {throw \"error\"}} >>> 1 not throw Error. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 1807,
+                            "end": 1810,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 1808,
+                              "end": 1809,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1830,
+      "end": 2038,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1834,
+        "end": 1889,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 1834,
+          "end": 1874,
+          "left": {
+            "type": "UnaryExpression",
+            "start": 1834,
+            "end": 1836,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 1835,
+              "end": 1836,
+              "value": 4,
+              "raw": "4"
+            }
+          },
+          "operator": ">>>",
+          "right": {
+            "type": "ObjectExpression",
+            "start": 1841,
+            "end": 1874,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1842,
+                "end": 1873,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1842,
+                  "end": 1850,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1852,
+                  "end": 1873,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1863,
+                    "end": 1873,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 1864,
+                        "end": 1872,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 1871,
+                          "end": 1872,
+                          "value": 1,
+                          "raw": "1"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1879,
+          "end": 1889,
+          "value": 2147483646,
+          "raw": "2147483646"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1891,
+        "end": 2038,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1895,
+            "end": 2036,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1901,
+              "end": 2035,
+              "callee": {
+                "type": "Identifier",
+                "start": 1905,
+                "end": 1917,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1918,
+                  "end": 2034,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1918,
+                    "end": 1989,
+                    "value": "#5: -4 >>> {toString: function() {return 1}} === 2147483646. Actual: ",
+                    "raw": "'#5: -4 >>> {toString: function() {return 1}} === 2147483646. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1992,
+                    "end": 2034,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 1993,
+                      "end": 2033,
+                      "left": {
+                        "type": "UnaryExpression",
+                        "start": 1993,
+                        "end": 1995,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 1994,
+                          "end": 1995,
+                          "value": 4,
+                          "raw": "4"
+                        }
+                      },
+                      "operator": ">>>",
+                      "right": {
+                        "type": "ObjectExpression",
+                        "start": 2000,
+                        "end": 2033,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 2001,
+                            "end": 2032,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 2001,
+                              "end": 2009,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 2011,
+                              "end": 2032,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 2022,
+                                "end": 2032,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 2023,
+                                    "end": 2031,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 2030,
+                                      "end": 2031,
+                                      "value": 1,
+                                      "raw": "1"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2050,
+      "end": 2357,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2054,
+        "end": 2142,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 2054,
+          "end": 2127,
+          "left": {
+            "type": "UnaryExpression",
+            "start": 2054,
+            "end": 2056,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 2055,
+              "end": 2056,
+              "value": 4,
+              "raw": "4"
+            }
+          },
+          "operator": ">>>",
+          "right": {
+            "type": "ObjectExpression",
+            "start": 2061,
+            "end": 2127,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 2062,
+                "end": 2093,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 2062,
+                  "end": 2069,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 2071,
+                  "end": 2093,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 2082,
+                    "end": 2093,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 2083,
+                        "end": 2092,
+                        "argument": {
+                          "type": "ObjectExpression",
+                          "start": 2090,
+                          "end": 2092,
+                          "properties": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2095,
+                "end": 2126,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 2095,
+                  "end": 2103,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 2105,
+                  "end": 2126,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 2116,
+                    "end": 2126,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 2117,
+                        "end": 2125,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 2124,
+                          "end": 2125,
+                          "value": 1,
+                          "raw": "1"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 2132,
+          "end": 2142,
+          "value": 2147483646,
+          "raw": "2147483646"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2144,
+        "end": 2357,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2148,
+            "end": 2355,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2154,
+              "end": 2354,
+              "callee": {
+                "type": "Identifier",
+                "start": 2158,
+                "end": 2170,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2171,
+                  "end": 2353,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2171,
+                    "end": 2275,
+                    "value": "#6: -4 >>> {valueOf: function() {return {}}, toString: function() {return 1}} === 2147483646. Actual: ",
+                    "raw": "'#6: -4 >>> {valueOf: function() {return {}}, toString: function() {return 1}} === 2147483646. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 2278,
+                    "end": 2353,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 2279,
+                      "end": 2352,
+                      "left": {
+                        "type": "UnaryExpression",
+                        "start": 2279,
+                        "end": 2281,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 2280,
+                          "end": 2281,
+                          "value": 4,
+                          "raw": "4"
+                        }
+                      },
+                      "operator": ">>>",
+                      "right": {
+                        "type": "ObjectExpression",
+                        "start": 2286,
+                        "end": 2352,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 2287,
+                            "end": 2318,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 2287,
+                              "end": 2294,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 2296,
+                              "end": 2318,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 2307,
+                                "end": 2318,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 2308,
+                                    "end": 2317,
+                                    "argument": {
+                                      "type": "ObjectExpression",
+                                      "start": 2315,
+                                      "end": 2317,
+                                      "properties": []
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 2320,
+                            "end": 2351,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 2320,
+                              "end": 2328,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 2330,
+                              "end": 2351,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 2341,
+                                "end": 2351,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 2342,
+                                    "end": 2350,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 2349,
+                                      "end": 2350,
+                                      "value": 1,
+                                      "raw": "1"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "TryStatement",
+      "start": 2369,
+      "end": 2865,
+      "block": {
+        "type": "BlockStatement",
+        "start": 2373,
+        "end": 2676,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 2377,
+            "end": 2455,
+            "expression": {
+              "type": "BinaryExpression",
+              "start": 2377,
+              "end": 2454,
+              "left": {
+                "type": "UnaryExpression",
+                "start": 2377,
+                "end": 2379,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 2378,
+                  "end": 2379,
+                  "value": 4,
+                  "raw": "4"
+                }
+              },
+              "operator": ">>>",
+              "right": {
+                "type": "ObjectExpression",
+                "start": 2384,
+                "end": 2454,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2385,
+                    "end": 2420,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2385,
+                      "end": 2392,
+                      "name": "valueOf"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 2394,
+                      "end": 2420,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 2405,
+                        "end": 2420,
+                        "body": [
+                          {
+                            "type": "ThrowStatement",
+                            "start": 2406,
+                            "end": 2419,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 2412,
+                              "end": 2419,
+                              "value": "error",
+                              "raw": "\"error\""
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 2422,
+                    "end": 2453,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2422,
+                      "end": 2430,
+                      "name": "toString"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 2432,
+                      "end": 2453,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 2443,
+                        "end": 2453,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 2444,
+                            "end": 2452,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 2451,
+                              "end": 2452,
+                              "value": 1,
+                              "raw": "1"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 2458,
+            "end": 2674,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2464,
+              "end": 2673,
+              "callee": {
+                "type": "Identifier",
+                "start": 2468,
+                "end": 2480,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2481,
+                  "end": 2672,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2481,
+                    "end": 2590,
+                    "value": "#7.1: -4 >>> {valueOf: function() {throw \"error\"}, toString: function() {return 1}} throw \"error\". Actual: ",
+                    "raw": "'#7.1: -4 >>> {valueOf: function() {throw \"error\"}, toString: function() {return 1}} throw \"error\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 2593,
+                    "end": 2672,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 2594,
+                      "end": 2671,
+                      "left": {
+                        "type": "UnaryExpression",
+                        "start": 2594,
+                        "end": 2596,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 2595,
+                          "end": 2596,
+                          "value": 4,
+                          "raw": "4"
+                        }
+                      },
+                      "operator": ">>>",
+                      "right": {
+                        "type": "ObjectExpression",
+                        "start": 2601,
+                        "end": 2671,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 2602,
+                            "end": 2637,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 2602,
+                              "end": 2609,
+                              "name": "valueOf"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 2611,
+                              "end": 2637,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 2622,
+                                "end": 2637,
+                                "body": [
+                                  {
+                                    "type": "ThrowStatement",
+                                    "start": 2623,
+                                    "end": 2636,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 2629,
+                                      "end": 2636,
+                                      "value": "error",
+                                      "raw": "\"error\""
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          },
+                          {
+                            "type": "Property",
+                            "start": 2639,
+                            "end": 2670,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 2639,
+                              "end": 2647,
+                              "name": "toString"
+                            },
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 2649,
+                              "end": 2670,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 2660,
+                                "end": 2670,
+                                "body": [
+                                  {
+                                    "type": "ReturnStatement",
+                                    "start": 2661,
+                                    "end": 2669,
+                                    "argument": {
+                                      "type": "Literal",
+                                      "start": 2668,
+                                      "end": 2669,
+                                      "value": 1,
+                                      "raw": "1"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 2679,
+        "end": 2865,
+        "param": {
+          "type": "Identifier",
+          "start": 2686,
+          "end": 2687,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 2689,
+          "end": 2865,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 2693,
+              "end": 2862,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 2697,
+                "end": 2710,
+                "left": {
+                  "type": "Identifier",
+                  "start": 2697,
+                  "end": 2698,
+                  "name": "e"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 2703,
+                  "end": 2710,
+                  "value": "error",
+                  "raw": "\"error\""
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 2712,
+                "end": 2862,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 2718,
+                    "end": 2858,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 2724,
+                      "end": 2857,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 2728,
+                        "end": 2740,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 2741,
+                          "end": 2856,
+                          "left": {
+                            "type": "Literal",
+                            "start": 2741,
+                            "end": 2850,
+                            "value": "#7.2: -4 >>> {valueOf: function() {throw \"error\"}, toString: function() {return 1}} throw \"error\". Actual: ",
+                            "raw": "'#7.2: -4 >>> {valueOf: function() {throw \"error\"}, toString: function() {return 1}} throw \"error\". Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 2853,
+                            "end": 2856,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 2854,
+                              "end": 2855,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "TryStatement",
+      "start": 2877,
+      "end": 3312,
+      "block": {
+        "type": "BlockStatement",
+        "start": 2881,
+        "end": 3104,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 2885,
+            "end": 2960,
+            "expression": {
+              "type": "BinaryExpression",
+              "start": 2885,
+              "end": 2959,
+              "left": {
+                "type": "UnaryExpression",
+                "start": 2885,
+                "end": 2887,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 2886,
+                  "end": 2887,
+                  "value": 4,
+                  "raw": "4"
+                }
+              },
+              "operator": ">>>",
+              "right": {
+                "type": "ObjectExpression",
+                "start": 2892,
+                "end": 2959,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2893,
+                    "end": 2924,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2893,
+                      "end": 2900,
+                      "name": "valueOf"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 2902,
+                      "end": 2924,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 2913,
+                        "end": 2924,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 2914,
+                            "end": 2923,
+                            "argument": {
+                              "type": "ObjectExpression",
+                              "start": 2921,
+                              "end": 2923,
+                              "properties": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 2926,
+                    "end": 2958,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2926,
+                      "end": 2934,
+                      "name": "toString"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 2936,
+                      "end": 2958,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 2947,
+                        "end": 2958,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 2948,
+                            "end": 2957,
+                            "argument": {
+                              "type": "ObjectExpression",
+                              "start": 2955,
+                              "end": 2957,
+                              "properties": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 2963,
+            "end": 3102,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2969,
+              "end": 3101,
+              "callee": {
+                "type": "Identifier",
+                "start": 2973,
+                "end": 2985,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2986,
+                  "end": 3100,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2986,
+                    "end": 3094,
+                    "value": "#8.1: -4 >>> {valueOf: function() {return {}}, toString: function() {return {}}} throw TypeError. Actual: ",
+                    "raw": "'#8.1: -4 >>> {valueOf: function() {return {}}, toString: function() {return {}}} throw TypeError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 3097,
+                    "end": 3100,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 3098,
+                      "end": 3099,
+                      "name": "e"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 3107,
+        "end": 3312,
+        "param": {
+          "type": "Identifier",
+          "start": 3114,
+          "end": 3115,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 3117,
+          "end": 3312,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 3121,
+              "end": 3309,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 3125,
+                "end": 3158,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 3125,
+                  "end": 3149,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 3126,
+                    "end": 3148,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 3126,
+                      "end": 3127,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 3139,
+                      "end": 3148,
+                      "name": "TypeError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 3154,
+                  "end": 3158,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 3160,
+                "end": 3309,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 3166,
+                    "end": 3305,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 3172,
+                      "end": 3304,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 3176,
+                        "end": 3188,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 3189,
+                          "end": 3303,
+                          "left": {
+                            "type": "Literal",
+                            "start": 3189,
+                            "end": 3297,
+                            "value": "#8.2: -4 >>> {valueOf: function() {return {}}, toString: function() {return {}}} throw TypeError. Actual: ",
+                            "raw": "'#8.2: -4 >>> {valueOf: function() {return {}}, toString: function() {return {}}} throw TypeError. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 3300,
+                            "end": 3303,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 3301,
+                              "end": 3302,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

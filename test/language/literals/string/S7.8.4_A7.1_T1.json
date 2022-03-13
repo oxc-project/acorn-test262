@@ -1,0 +1,1368 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2425,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 344,
+      "end": 462,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 348,
+        "end": 385,
+        "left": {
+          "type": "Literal",
+          "start": 348,
+          "end": 356,
+          "value": "\u0000",
+          "raw": "\"\\u0000\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 361,
+          "end": 385,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 361,
+            "end": 380,
+            "object": {
+              "type": "Identifier",
+              "start": 361,
+              "end": 367,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 368,
+              "end": 380,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 381,
+              "end": 384,
+              "value": "0",
+              "raw": "\"0\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 387,
+        "end": 462,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 391,
+            "end": 460,
+            "argument": {
+              "type": "NewExpression",
+              "start": 397,
+              "end": 459,
+              "callee": {
+                "type": "Identifier",
+                "start": 401,
+                "end": 413,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 414,
+                  "end": 458,
+                  "value": "#0: \"\\u0000\" === String.fromCharCode(\"0\")",
+                  "raw": "'#0: \"\\\\u0000\" === String.fromCharCode(\"0\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 474,
+      "end": 592,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 478,
+        "end": 515,
+        "left": {
+          "type": "Literal",
+          "start": 478,
+          "end": 486,
+          "value": "\u0001",
+          "raw": "\"\\u0001\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 491,
+          "end": 515,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 491,
+            "end": 510,
+            "object": {
+              "type": "Identifier",
+              "start": 491,
+              "end": 497,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 498,
+              "end": 510,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 511,
+              "end": 514,
+              "value": "1",
+              "raw": "\"1\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 517,
+        "end": 592,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 521,
+            "end": 590,
+            "argument": {
+              "type": "NewExpression",
+              "start": 527,
+              "end": 589,
+              "callee": {
+                "type": "Identifier",
+                "start": 531,
+                "end": 543,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 544,
+                  "end": 588,
+                  "value": "#1: \"\\u0001\" === String.fromCharCode(\"1\")",
+                  "raw": "'#1: \"\\\\u0001\" === String.fromCharCode(\"1\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 604,
+      "end": 722,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 608,
+        "end": 645,
+        "left": {
+          "type": "Literal",
+          "start": 608,
+          "end": 616,
+          "value": "\u0002",
+          "raw": "\"\\u0002\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 621,
+          "end": 645,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 621,
+            "end": 640,
+            "object": {
+              "type": "Identifier",
+              "start": 621,
+              "end": 627,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 628,
+              "end": 640,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 641,
+              "end": 644,
+              "value": "2",
+              "raw": "\"2\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 647,
+        "end": 722,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 651,
+            "end": 720,
+            "argument": {
+              "type": "NewExpression",
+              "start": 657,
+              "end": 719,
+              "callee": {
+                "type": "Identifier",
+                "start": 661,
+                "end": 673,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 674,
+                  "end": 718,
+                  "value": "#2: \"\\u0002\" === String.fromCharCode(\"2\")",
+                  "raw": "'#2: \"\\\\u0002\" === String.fromCharCode(\"2\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 734,
+      "end": 852,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 738,
+        "end": 775,
+        "left": {
+          "type": "Literal",
+          "start": 738,
+          "end": 746,
+          "value": "\u0003",
+          "raw": "\"\\u0003\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 751,
+          "end": 775,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 751,
+            "end": 770,
+            "object": {
+              "type": "Identifier",
+              "start": 751,
+              "end": 757,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 758,
+              "end": 770,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 771,
+              "end": 774,
+              "value": "3",
+              "raw": "\"3\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 777,
+        "end": 852,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 781,
+            "end": 850,
+            "argument": {
+              "type": "NewExpression",
+              "start": 787,
+              "end": 849,
+              "callee": {
+                "type": "Identifier",
+                "start": 791,
+                "end": 803,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 804,
+                  "end": 848,
+                  "value": "#3: \"\\u0003\" === String.fromCharCode(\"3\")",
+                  "raw": "'#3: \"\\\\u0003\" === String.fromCharCode(\"3\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 864,
+      "end": 982,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 868,
+        "end": 905,
+        "left": {
+          "type": "Literal",
+          "start": 868,
+          "end": 876,
+          "value": "\u0004",
+          "raw": "\"\\u0004\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 881,
+          "end": 905,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 881,
+            "end": 900,
+            "object": {
+              "type": "Identifier",
+              "start": 881,
+              "end": 887,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 888,
+              "end": 900,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 901,
+              "end": 904,
+              "value": "4",
+              "raw": "\"4\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 907,
+        "end": 982,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 911,
+            "end": 980,
+            "argument": {
+              "type": "NewExpression",
+              "start": 917,
+              "end": 979,
+              "callee": {
+                "type": "Identifier",
+                "start": 921,
+                "end": 933,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 934,
+                  "end": 978,
+                  "value": "#4: \"\\u0004\" === String.fromCharCode(\"4\")",
+                  "raw": "'#4: \"\\\\u0004\" === String.fromCharCode(\"4\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 994,
+      "end": 1112,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 998,
+        "end": 1035,
+        "left": {
+          "type": "Literal",
+          "start": 998,
+          "end": 1006,
+          "value": "\u0005",
+          "raw": "\"\\u0005\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1011,
+          "end": 1035,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1011,
+            "end": 1030,
+            "object": {
+              "type": "Identifier",
+              "start": 1011,
+              "end": 1017,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1018,
+              "end": 1030,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1031,
+              "end": 1034,
+              "value": "5",
+              "raw": "\"5\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1037,
+        "end": 1112,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1041,
+            "end": 1110,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1047,
+              "end": 1109,
+              "callee": {
+                "type": "Identifier",
+                "start": 1051,
+                "end": 1063,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1064,
+                  "end": 1108,
+                  "value": "#5: \"\\u0005\" === String.fromCharCode(\"5\")",
+                  "raw": "'#5: \"\\\\u0005\" === String.fromCharCode(\"5\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1124,
+      "end": 1242,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1128,
+        "end": 1165,
+        "left": {
+          "type": "Literal",
+          "start": 1128,
+          "end": 1136,
+          "value": "\u0006",
+          "raw": "\"\\u0006\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1141,
+          "end": 1165,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1141,
+            "end": 1160,
+            "object": {
+              "type": "Identifier",
+              "start": 1141,
+              "end": 1147,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1148,
+              "end": 1160,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1161,
+              "end": 1164,
+              "value": "6",
+              "raw": "\"6\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1167,
+        "end": 1242,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1171,
+            "end": 1240,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1177,
+              "end": 1239,
+              "callee": {
+                "type": "Identifier",
+                "start": 1181,
+                "end": 1193,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1194,
+                  "end": 1238,
+                  "value": "#6: \"\\u0006\" === String.fromCharCode(\"6\")",
+                  "raw": "'#6: \"\\\\u0006\" === String.fromCharCode(\"6\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1254,
+      "end": 1372,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1258,
+        "end": 1295,
+        "left": {
+          "type": "Literal",
+          "start": 1258,
+          "end": 1266,
+          "value": "\u0007",
+          "raw": "\"\\u0007\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1271,
+          "end": 1295,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1271,
+            "end": 1290,
+            "object": {
+              "type": "Identifier",
+              "start": 1271,
+              "end": 1277,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1278,
+              "end": 1290,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1291,
+              "end": 1294,
+              "value": "7",
+              "raw": "\"7\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1297,
+        "end": 1372,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1301,
+            "end": 1370,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1307,
+              "end": 1369,
+              "callee": {
+                "type": "Identifier",
+                "start": 1311,
+                "end": 1323,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1324,
+                  "end": 1368,
+                  "value": "#7: \"\\u0007\" === String.fromCharCode(\"7\")",
+                  "raw": "'#7: \"\\\\u0007\" === String.fromCharCode(\"7\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1384,
+      "end": 1502,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1388,
+        "end": 1425,
+        "left": {
+          "type": "Literal",
+          "start": 1388,
+          "end": 1396,
+          "value": "\b",
+          "raw": "\"\\u0008\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1401,
+          "end": 1425,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1401,
+            "end": 1420,
+            "object": {
+              "type": "Identifier",
+              "start": 1401,
+              "end": 1407,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1408,
+              "end": 1420,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1421,
+              "end": 1424,
+              "value": "8",
+              "raw": "\"8\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1427,
+        "end": 1502,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1431,
+            "end": 1500,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1437,
+              "end": 1499,
+              "callee": {
+                "type": "Identifier",
+                "start": 1441,
+                "end": 1453,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1454,
+                  "end": 1498,
+                  "value": "#8: \"\\u0008\" === String.fromCharCode(\"8\")",
+                  "raw": "'#8: \"\\\\u0008\" === String.fromCharCode(\"8\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1514,
+      "end": 1632,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1518,
+        "end": 1555,
+        "left": {
+          "type": "Literal",
+          "start": 1518,
+          "end": 1526,
+          "value": "\t",
+          "raw": "\"\\u0009\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1531,
+          "end": 1555,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1531,
+            "end": 1550,
+            "object": {
+              "type": "Identifier",
+              "start": 1531,
+              "end": 1537,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1538,
+              "end": 1550,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1551,
+              "end": 1554,
+              "value": "9",
+              "raw": "\"9\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1557,
+        "end": 1632,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1561,
+            "end": 1630,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1567,
+              "end": 1629,
+              "callee": {
+                "type": "Identifier",
+                "start": 1571,
+                "end": 1583,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1584,
+                  "end": 1628,
+                  "value": "#9: \"\\u0009\" === String.fromCharCode(\"9\")",
+                  "raw": "'#9: \"\\\\u0009\" === String.fromCharCode(\"9\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1644,
+      "end": 1764,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1648,
+        "end": 1686,
+        "left": {
+          "type": "Literal",
+          "start": 1648,
+          "end": 1656,
+          "value": "\n",
+          "raw": "\"\\u000A\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1661,
+          "end": 1686,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1661,
+            "end": 1680,
+            "object": {
+              "type": "Identifier",
+              "start": 1661,
+              "end": 1667,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1668,
+              "end": 1680,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1681,
+              "end": 1685,
+              "value": "10",
+              "raw": "\"10\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1688,
+        "end": 1764,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1692,
+            "end": 1762,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1698,
+              "end": 1761,
+              "callee": {
+                "type": "Identifier",
+                "start": 1702,
+                "end": 1714,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1715,
+                  "end": 1760,
+                  "value": "#A: \"\\u000A\" === String.fromCharCode(\"10\")",
+                  "raw": "'#A: \"\\\\u000A\" === String.fromCharCode(\"10\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1776,
+      "end": 1896,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1780,
+        "end": 1818,
+        "left": {
+          "type": "Literal",
+          "start": 1780,
+          "end": 1788,
+          "value": "\u000b",
+          "raw": "\"\\u000B\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1793,
+          "end": 1818,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1793,
+            "end": 1812,
+            "object": {
+              "type": "Identifier",
+              "start": 1793,
+              "end": 1799,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1800,
+              "end": 1812,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1813,
+              "end": 1817,
+              "value": "11",
+              "raw": "\"11\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1820,
+        "end": 1896,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1824,
+            "end": 1894,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1830,
+              "end": 1893,
+              "callee": {
+                "type": "Identifier",
+                "start": 1834,
+                "end": 1846,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1847,
+                  "end": 1892,
+                  "value": "#B: \"\\u000B\" === String.fromCharCode(\"11\")",
+                  "raw": "'#B: \"\\\\u000B\" === String.fromCharCode(\"11\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1908,
+      "end": 2028,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1912,
+        "end": 1950,
+        "left": {
+          "type": "Literal",
+          "start": 1912,
+          "end": 1920,
+          "value": "\f",
+          "raw": "\"\\u000C\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 1925,
+          "end": 1950,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1925,
+            "end": 1944,
+            "object": {
+              "type": "Identifier",
+              "start": 1925,
+              "end": 1931,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1932,
+              "end": 1944,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1945,
+              "end": 1949,
+              "value": "12",
+              "raw": "\"12\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1952,
+        "end": 2028,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1956,
+            "end": 2026,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1962,
+              "end": 2025,
+              "callee": {
+                "type": "Identifier",
+                "start": 1966,
+                "end": 1978,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1979,
+                  "end": 2024,
+                  "value": "#C: \"\\u000C\" === String.fromCharCode(\"12\")",
+                  "raw": "'#C: \"\\\\u000C\" === String.fromCharCode(\"12\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2040,
+      "end": 2160,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2044,
+        "end": 2082,
+        "left": {
+          "type": "Literal",
+          "start": 2044,
+          "end": 2052,
+          "value": "\r",
+          "raw": "\"\\u000D\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 2057,
+          "end": 2082,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2057,
+            "end": 2076,
+            "object": {
+              "type": "Identifier",
+              "start": 2057,
+              "end": 2063,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2064,
+              "end": 2076,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2077,
+              "end": 2081,
+              "value": "13",
+              "raw": "\"13\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2084,
+        "end": 2160,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2088,
+            "end": 2158,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2094,
+              "end": 2157,
+              "callee": {
+                "type": "Identifier",
+                "start": 2098,
+                "end": 2110,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2111,
+                  "end": 2156,
+                  "value": "#D: \"\\u000D\" === String.fromCharCode(\"13\")",
+                  "raw": "'#D: \"\\\\u000D\" === String.fromCharCode(\"13\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2172,
+      "end": 2292,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2176,
+        "end": 2214,
+        "left": {
+          "type": "Literal",
+          "start": 2176,
+          "end": 2184,
+          "value": "\u000e",
+          "raw": "\"\\u000E\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 2189,
+          "end": 2214,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2189,
+            "end": 2208,
+            "object": {
+              "type": "Identifier",
+              "start": 2189,
+              "end": 2195,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2196,
+              "end": 2208,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2209,
+              "end": 2213,
+              "value": "14",
+              "raw": "\"14\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2216,
+        "end": 2292,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2220,
+            "end": 2290,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2226,
+              "end": 2289,
+              "callee": {
+                "type": "Identifier",
+                "start": 2230,
+                "end": 2242,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2243,
+                  "end": 2288,
+                  "value": "#E: \"\\u000E\" === String.fromCharCode(\"14\")",
+                  "raw": "'#E: \"\\\\u000E\" === String.fromCharCode(\"14\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2304,
+      "end": 2424,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 2308,
+        "end": 2346,
+        "left": {
+          "type": "Literal",
+          "start": 2308,
+          "end": 2316,
+          "value": "\u000f",
+          "raw": "\"\\u000F\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "CallExpression",
+          "start": 2321,
+          "end": 2346,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2321,
+            "end": 2340,
+            "object": {
+              "type": "Identifier",
+              "start": 2321,
+              "end": 2327,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2328,
+              "end": 2340,
+              "name": "fromCharCode"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 2341,
+              "end": 2345,
+              "value": "15",
+              "raw": "\"15\""
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2348,
+        "end": 2424,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2352,
+            "end": 2422,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2358,
+              "end": 2421,
+              "callee": {
+                "type": "Identifier",
+                "start": 2362,
+                "end": 2374,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2375,
+                  "end": 2420,
+                  "value": "#F: \"\\u000F\" === String.fromCharCode(\"15\")",
+                  "raw": "'#F: \"\\\\u000F\" === String.fromCharCode(\"15\")'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,94 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 373,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 311,
+      "end": 372,
+      "expression": {
+        "type": "CallExpression",
+        "start": 311,
+        "end": 371,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 311,
+          "end": 324,
+          "object": {
+            "type": "Identifier",
+            "start": 311,
+            "end": 317,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 324,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 325,
+            "end": 334,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 336,
+            "end": 370,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 347,
+              "end": 370,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 351,
+                  "end": 368,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 351,
+                    "end": 367,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 355,
+                      "end": 360,
+                      "name": "Proxy"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 361,
+                        "end": 362,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 364,
+                        "end": 366,
+                        "properties": []
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

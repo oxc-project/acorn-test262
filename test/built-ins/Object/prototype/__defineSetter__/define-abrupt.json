@@ -1,0 +1,262 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 624,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 394,
+      "end": 419,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 398,
+          "end": 418,
+          "id": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 402,
+            "name": "noop"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 405,
+            "end": 418,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 416,
+              "end": 418,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 420,
+      "end": 477,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 424,
+          "end": 476,
+          "id": {
+            "type": "Identifier",
+            "start": 424,
+            "end": 431,
+            "name": "thrower"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 434,
+            "end": 476,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 445,
+              "end": 476,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 449,
+                  "end": 474,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 455,
+                    "end": 473,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 459,
+                      "end": 471,
+                      "name": "Test262Error"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 478,
+      "end": 535,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 482,
+          "end": 534,
+          "id": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 489,
+            "name": "subject"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 492,
+            "end": 534,
+            "callee": {
+              "type": "Identifier",
+              "start": 496,
+              "end": 501,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 502,
+                "end": 504,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 506,
+                "end": 533,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 508,
+                    "end": 531,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 508,
+                      "end": 522,
+                      "name": "defineProperty"
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 524,
+                      "end": 531,
+                      "name": "thrower"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 537,
+      "end": 623,
+      "expression": {
+        "type": "CallExpression",
+        "start": 537,
+        "end": 622,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 537,
+          "end": 550,
+          "object": {
+            "type": "Identifier",
+            "start": 537,
+            "end": 543,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 544,
+            "end": 550,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 551,
+            "end": 563,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 565,
+            "end": 621,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 576,
+              "end": 621,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 580,
+                  "end": 619,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 580,
+                    "end": 618,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 580,
+                      "end": 604,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 580,
+                        "end": 587,
+                        "name": "subject"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 588,
+                        "end": 604,
+                        "name": "__defineSetter__"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 605,
+                        "end": 611,
+                        "value": "attr",
+                        "raw": "'attr'"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 613,
+                        "end": 617,
+                        "name": "noop"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

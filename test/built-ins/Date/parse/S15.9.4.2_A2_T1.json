@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 480,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 269,
+      "end": 385,
+      "expression": {
+        "type": "CallExpression",
+        "start": 269,
+        "end": 384,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 269,
+          "end": 285,
+          "object": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 275,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 285,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 286,
+            "end": 321,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 286,
+              "end": 311,
+              "object": {
+                "type": "MemberExpression",
+                "start": 286,
+                "end": 296,
+                "object": {
+                  "type": "Identifier",
+                  "start": 286,
+                  "end": 290,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 291,
+                  "end": 296,
+                  "name": "parse"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 297,
+                "end": 311,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 312,
+                "end": 320,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 323,
+            "end": 327,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 329,
+            "end": 383,
+            "value": "Date.parse.hasOwnProperty(\"length\") must return true",
+            "raw": "'Date.parse.hasOwnProperty(\"length\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 386,
+      "end": 479,
+      "expression": {
+        "type": "CallExpression",
+        "start": 386,
+        "end": 478,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 386,
+          "end": 402,
+          "object": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 392,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 393,
+            "end": 402,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 403,
+            "end": 420,
+            "object": {
+              "type": "MemberExpression",
+              "start": 403,
+              "end": 413,
+              "object": {
+                "type": "Identifier",
+                "start": 403,
+                "end": 407,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 408,
+                "end": 413,
+                "name": "parse"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 414,
+              "end": 420,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 423,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 425,
+            "end": 477,
+            "value": "The value of Date.parse.length is expected to be 1",
+            "raw": "'The value of Date.parse.length is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

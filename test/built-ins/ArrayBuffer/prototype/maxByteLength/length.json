@@ -1,0 +1,220 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1225,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1026,
+      "end": 1109,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1030,
+          "end": 1108,
+          "id": {
+            "type": "Identifier",
+            "start": 1030,
+            "end": 1034,
+            "name": "desc"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 1037,
+            "end": 1108,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1037,
+              "end": 1068,
+              "object": {
+                "type": "Identifier",
+                "start": 1037,
+                "end": 1043,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1044,
+                "end": 1068,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 1069,
+                "end": 1090,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1069,
+                  "end": 1080,
+                  "name": "ArrayBuffer"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1081,
+                  "end": 1090,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 1092,
+                "end": 1107,
+                "value": "maxByteLength",
+                "raw": "'maxByteLength'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1111,
+      "end": 1224,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1111,
+        "end": 1223,
+        "callee": {
+          "type": "Identifier",
+          "start": 1111,
+          "end": 1125,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1126,
+            "end": 1134,
+            "object": {
+              "type": "Identifier",
+              "start": 1126,
+              "end": 1130,
+              "name": "desc"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1131,
+              "end": 1134,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1136,
+            "end": 1144,
+            "value": "length",
+            "raw": "'length'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 1146,
+            "end": 1222,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1150,
+                "end": 1158,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1150,
+                  "end": 1155,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1157,
+                  "end": 1158,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1162,
+                "end": 1179,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1162,
+                  "end": 1172,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1174,
+                  "end": 1179,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1183,
+                "end": 1198,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1183,
+                  "end": 1191,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1193,
+                  "end": 1198,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1202,
+                "end": 1220,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1202,
+                  "end": 1214,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1216,
+                  "end": 1220,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

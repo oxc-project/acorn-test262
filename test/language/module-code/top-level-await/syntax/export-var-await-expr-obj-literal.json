@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2157,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2064,
+      "end": 2107,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 2071,
+        "end": 2107,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2075,
+            "end": 2106,
+            "id": {
+              "type": "Identifier",
+              "start": 2075,
+              "end": 2080,
+              "name": "name1"
+            },
+            "init": {
+              "type": "AwaitExpression",
+              "start": 2083,
+              "end": 2106,
+              "argument": {
+                "type": "ObjectExpression",
+                "start": 2089,
+                "end": 2106,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 2091,
+                    "end": 2104,
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 2091,
+                      "end": 2099,
+                      "name": "function"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 2099,
+                      "end": 2104,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 2102,
+                        "end": 2104,
+                        "body": []
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2108,
+      "end": 2156,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 2115,
+        "end": 2156,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2119,
+            "end": 2155,
+            "id": {
+              "type": "ObjectPattern",
+              "start": 2119,
+              "end": 2150,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 2121,
+                  "end": 2148,
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 2121,
+                    "end": 2122,
+                    "name": "x"
+                  },
+                  "kind": "init",
+                  "value": {
+                    "type": "AssignmentPattern",
+                    "start": 2121,
+                    "end": 2148,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 2121,
+                      "end": 2122,
+                      "name": "x"
+                    },
+                    "right": {
+                      "type": "AwaitExpression",
+                      "start": 2125,
+                      "end": 2148,
+                      "argument": {
+                        "type": "ObjectExpression",
+                        "start": 2131,
+                        "end": 2148,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 2133,
+                            "end": 2146,
+                            "method": true,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 2133,
+                              "end": 2141,
+                              "name": "function"
+                            },
+                            "kind": "init",
+                            "value": {
+                              "type": "FunctionExpression",
+                              "start": 2141,
+                              "end": 2146,
+                              "id": null,
+                              "expression": false,
+                              "generator": false,
+                              "async": false,
+                              "params": [],
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 2144,
+                                "end": 2146,
+                                "body": []
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "init": {
+              "type": "ObjectExpression",
+              "start": 2153,
+              "end": 2155,
+              "properties": []
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    }
+  ],
+  "sourceType": "module"
+}

@@ -1,0 +1,2047 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3958,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 578,
+      "end": 594,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 582,
+          "end": 593,
+          "id": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 593,
+            "name": "isLockFree1"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 595,
+      "end": 611,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 599,
+          "end": 610,
+          "id": {
+            "type": "Identifier",
+            "start": 599,
+            "end": 610,
+            "name": "isLockFree2"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 612,
+      "end": 628,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 616,
+          "end": 627,
+          "id": {
+            "type": "Identifier",
+            "start": 616,
+            "end": 627,
+            "name": "isLockFree8"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "BlockStatement",
+      "start": 630,
+      "end": 1162,
+      "body": [
+        {
+          "type": "ExpressionStatement",
+          "start": 634,
+          "end": 670,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 634,
+            "end": 669,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 645,
+              "name": "isLockFree1"
+            },
+            "right": {
+              "type": "CallExpression",
+              "start": 648,
+              "end": 669,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 648,
+                "end": 666,
+                "object": {
+                  "type": "Identifier",
+                  "start": 648,
+                  "end": 655,
+                  "name": "Atomics"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 656,
+                  "end": 666,
+                  "name": "isLockFree"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 667,
+                  "end": 668,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ],
+              "optional": false
+            }
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 730,
+          "end": 828,
+          "expression": {
+            "type": "CallExpression",
+            "start": 730,
+            "end": 827,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 730,
+              "end": 746,
+              "object": {
+                "type": "Identifier",
+                "start": 730,
+                "end": 736,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 737,
+                "end": 746,
+                "name": "sameValue"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 747,
+                "end": 765,
+                "operator": "typeof",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 754,
+                  "end": 765,
+                  "name": "isLockFree1"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 767,
+                "end": 776,
+                "value": "boolean",
+                "raw": "'boolean'"
+              },
+              {
+                "type": "Literal",
+                "start": 778,
+                "end": 826,
+                "value": "The value of `typeof isLockFree1` is \"boolean\"",
+                "raw": "'The value of `typeof isLockFree1` is \"boolean\"'"
+              }
+            ],
+            "optional": false
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 1007,
+          "end": 1160,
+          "expression": {
+            "type": "CallExpression",
+            "start": 1007,
+            "end": 1159,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1007,
+              "end": 1023,
+              "object": {
+                "type": "Identifier",
+                "start": 1007,
+                "end": 1013,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1014,
+                "end": 1023,
+                "name": "sameValue"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1029,
+                "end": 1050,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1029,
+                  "end": 1047,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1029,
+                    "end": 1036,
+                    "name": "Atomics"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1037,
+                    "end": 1047,
+                    "name": "isLockFree"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1048,
+                    "end": 1049,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 1056,
+                "end": 1067,
+                "name": "isLockFree1"
+              },
+              {
+                "type": "Literal",
+                "start": 1073,
+                "end": 1155,
+                "value": "Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))",
+                "raw": "'Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1162,
+      "end": 1163
+    },
+    {
+      "type": "BlockStatement",
+      "start": 1164,
+      "end": 1696,
+      "body": [
+        {
+          "type": "ExpressionStatement",
+          "start": 1168,
+          "end": 1204,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 1168,
+            "end": 1203,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 1168,
+              "end": 1179,
+              "name": "isLockFree2"
+            },
+            "right": {
+              "type": "CallExpression",
+              "start": 1182,
+              "end": 1203,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1182,
+                "end": 1200,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1182,
+                  "end": 1189,
+                  "name": "Atomics"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1190,
+                  "end": 1200,
+                  "name": "isLockFree"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1201,
+                  "end": 1202,
+                  "value": 2,
+                  "raw": "2"
+                }
+              ],
+              "optional": false
+            }
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 1264,
+          "end": 1362,
+          "expression": {
+            "type": "CallExpression",
+            "start": 1264,
+            "end": 1361,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1264,
+              "end": 1280,
+              "object": {
+                "type": "Identifier",
+                "start": 1264,
+                "end": 1270,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1271,
+                "end": 1280,
+                "name": "sameValue"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 1281,
+                "end": 1299,
+                "operator": "typeof",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1288,
+                  "end": 1299,
+                  "name": "isLockFree2"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 1301,
+                "end": 1310,
+                "value": "boolean",
+                "raw": "'boolean'"
+              },
+              {
+                "type": "Literal",
+                "start": 1312,
+                "end": 1360,
+                "value": "The value of `typeof isLockFree2` is \"boolean\"",
+                "raw": "'The value of `typeof isLockFree2` is \"boolean\"'"
+              }
+            ],
+            "optional": false
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 1541,
+          "end": 1694,
+          "expression": {
+            "type": "CallExpression",
+            "start": 1541,
+            "end": 1693,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1541,
+              "end": 1557,
+              "object": {
+                "type": "Identifier",
+                "start": 1541,
+                "end": 1547,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1548,
+                "end": 1557,
+                "name": "sameValue"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1563,
+                "end": 1584,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1563,
+                  "end": 1581,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1563,
+                    "end": 1570,
+                    "name": "Atomics"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1571,
+                    "end": 1581,
+                    "name": "isLockFree"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1582,
+                    "end": 1583,
+                    "value": 2,
+                    "raw": "2"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 1590,
+                "end": 1601,
+                "name": "isLockFree2"
+              },
+              {
+                "type": "Literal",
+                "start": 1607,
+                "end": 1689,
+                "value": "Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))",
+                "raw": "'Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1696,
+      "end": 1697
+    },
+    {
+      "type": "BlockStatement",
+      "start": 1698,
+      "end": 1965,
+      "body": [
+        {
+          "type": "VariableDeclaration",
+          "start": 1702,
+          "end": 1742,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 1706,
+              "end": 1741,
+              "id": {
+                "type": "Identifier",
+                "start": 1706,
+                "end": 1717,
+                "name": "isLockFree4"
+              },
+              "init": {
+                "type": "CallExpression",
+                "start": 1720,
+                "end": 1741,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1720,
+                  "end": 1738,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1720,
+                    "end": 1727,
+                    "name": "Atomics"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1728,
+                    "end": 1738,
+                    "name": "isLockFree"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1739,
+                    "end": 1740,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ],
+          "kind": "let"
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 1788,
+          "end": 1886,
+          "expression": {
+            "type": "CallExpression",
+            "start": 1788,
+            "end": 1885,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1788,
+              "end": 1804,
+              "object": {
+                "type": "Identifier",
+                "start": 1788,
+                "end": 1794,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1795,
+                "end": 1804,
+                "name": "sameValue"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 1805,
+                "end": 1823,
+                "operator": "typeof",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1812,
+                  "end": 1823,
+                  "name": "isLockFree4"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 1825,
+                "end": 1834,
+                "value": "boolean",
+                "raw": "'boolean'"
+              },
+              {
+                "type": "Literal",
+                "start": 1836,
+                "end": 1884,
+                "value": "The value of `typeof isLockFree4` is \"boolean\"",
+                "raw": "'The value of `typeof isLockFree4` is \"boolean\"'"
+              }
+            ],
+            "optional": false
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 1889,
+          "end": 1963,
+          "expression": {
+            "type": "CallExpression",
+            "start": 1889,
+            "end": 1962,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1889,
+              "end": 1905,
+              "object": {
+                "type": "Identifier",
+                "start": 1889,
+                "end": 1895,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1896,
+                "end": 1905,
+                "name": "sameValue"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1906,
+                "end": 1917,
+                "name": "isLockFree4"
+              },
+              {
+                "type": "Literal",
+                "start": 1919,
+                "end": 1923,
+                "value": true,
+                "raw": "true"
+              },
+              {
+                "type": "Literal",
+                "start": 1925,
+                "end": 1961,
+                "value": "The value of `isLockFree4` is true",
+                "raw": "'The value of `isLockFree4` is true'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1965,
+      "end": 1966
+    },
+    {
+      "type": "BlockStatement",
+      "start": 1968,
+      "end": 2500,
+      "body": [
+        {
+          "type": "ExpressionStatement",
+          "start": 1972,
+          "end": 2008,
+          "expression": {
+            "type": "AssignmentExpression",
+            "start": 1972,
+            "end": 2007,
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "start": 1972,
+              "end": 1983,
+              "name": "isLockFree8"
+            },
+            "right": {
+              "type": "CallExpression",
+              "start": 1986,
+              "end": 2007,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1986,
+                "end": 2004,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1986,
+                  "end": 1993,
+                  "name": "Atomics"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1994,
+                  "end": 2004,
+                  "name": "isLockFree"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2005,
+                  "end": 2006,
+                  "value": 8,
+                  "raw": "8"
+                }
+              ],
+              "optional": false
+            }
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 2068,
+          "end": 2166,
+          "expression": {
+            "type": "CallExpression",
+            "start": 2068,
+            "end": 2165,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2068,
+              "end": 2084,
+              "object": {
+                "type": "Identifier",
+                "start": 2068,
+                "end": 2074,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2075,
+                "end": 2084,
+                "name": "sameValue"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2085,
+                "end": 2103,
+                "operator": "typeof",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 2092,
+                  "end": 2103,
+                  "name": "isLockFree8"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 2105,
+                "end": 2114,
+                "value": "boolean",
+                "raw": "'boolean'"
+              },
+              {
+                "type": "Literal",
+                "start": 2116,
+                "end": 2164,
+                "value": "The value of `typeof isLockFree8` is \"boolean\"",
+                "raw": "'The value of `typeof isLockFree8` is \"boolean\"'"
+              }
+            ],
+            "optional": false
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 2345,
+          "end": 2498,
+          "expression": {
+            "type": "CallExpression",
+            "start": 2345,
+            "end": 2497,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2345,
+              "end": 2361,
+              "object": {
+                "type": "Identifier",
+                "start": 2345,
+                "end": 2351,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2352,
+                "end": 2361,
+                "name": "sameValue"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 2367,
+                "end": 2388,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2367,
+                  "end": 2385,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2367,
+                    "end": 2374,
+                    "name": "Atomics"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2375,
+                    "end": 2385,
+                    "name": "isLockFree"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 2386,
+                    "end": 2387,
+                    "value": 8,
+                    "raw": "8"
+                  }
+                ],
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 2394,
+                "end": 2405,
+                "name": "isLockFree8"
+              },
+              {
+                "type": "Literal",
+                "start": 2411,
+                "end": 2493,
+                "value": "Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))",
+                "raw": "'Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2500,
+      "end": 2501
+    },
+    {
+      "type": "BlockStatement",
+      "start": 2503,
+      "end": 2679,
+      "body": [
+        {
+          "type": "ForStatement",
+          "start": 2507,
+          "end": 2677,
+          "init": {
+            "type": "VariableDeclaration",
+            "start": 2512,
+            "end": 2521,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 2516,
+                "end": 2521,
+                "id": {
+                  "type": "Identifier",
+                  "start": 2516,
+                  "end": 2517,
+                  "name": "i"
+                },
+                "init": {
+                  "type": "Literal",
+                  "start": 2520,
+                  "end": 2521,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          "test": {
+            "type": "BinaryExpression",
+            "start": 2523,
+            "end": 2529,
+            "left": {
+              "type": "Identifier",
+              "start": 2523,
+              "end": 2524,
+              "name": "i"
+            },
+            "operator": "<",
+            "right": {
+              "type": "Literal",
+              "start": 2527,
+              "end": 2529,
+              "value": 12,
+              "raw": "12"
+            }
+          },
+          "update": {
+            "type": "UpdateExpression",
+            "start": 2531,
+            "end": 2534,
+            "operator": "++",
+            "prefix": false,
+            "argument": {
+              "type": "Identifier",
+              "start": 2531,
+              "end": 2532,
+              "name": "i"
+            }
+          },
+          "body": {
+            "type": "BlockStatement",
+            "start": 2536,
+            "end": 2677,
+            "body": [
+              {
+                "type": "IfStatement",
+                "start": 2542,
+                "end": 2673,
+                "test": {
+                  "type": "UnaryExpression",
+                  "start": 2546,
+                  "end": 2571,
+                  "operator": "!",
+                  "prefix": true,
+                  "argument": {
+                    "type": "CallExpression",
+                    "start": 2547,
+                    "end": 2571,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2547,
+                      "end": 2568,
+                      "object": {
+                        "type": "ArrayExpression",
+                        "start": 2547,
+                        "end": 2559,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 2548,
+                            "end": 2549,
+                            "value": 1,
+                            "raw": "1"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2551,
+                            "end": 2552,
+                            "value": 2,
+                            "raw": "2"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2554,
+                            "end": 2555,
+                            "value": 4,
+                            "raw": "4"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2557,
+                            "end": 2558,
+                            "value": 8,
+                            "raw": "8"
+                          }
+                        ]
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2560,
+                        "end": 2568,
+                        "name": "includes"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 2569,
+                        "end": 2570,
+                        "name": "i"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                "consequent": {
+                  "type": "BlockStatement",
+                  "start": 2573,
+                  "end": 2673,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 2581,
+                      "end": 2667,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 2581,
+                        "end": 2666,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 2581,
+                          "end": 2597,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2581,
+                            "end": 2587,
+                            "name": "assert"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2588,
+                            "end": 2597,
+                            "name": "sameValue"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "CallExpression",
+                            "start": 2598,
+                            "end": 2619,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 2598,
+                              "end": 2616,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 2598,
+                                "end": 2605,
+                                "name": "Atomics"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 2606,
+                                "end": 2616,
+                                "name": "isLockFree"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "start": 2617,
+                                "end": 2618,
+                                "name": "i"
+                              }
+                            ],
+                            "optional": false
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2621,
+                            "end": 2626,
+                            "value": false,
+                            "raw": "false"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 2628,
+                            "end": 2665,
+                            "value": "Atomics.isLockFree(i) returns false",
+                            "raw": "'Atomics.isLockFree(i) returns false'"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ]
+                },
+                "alternate": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2679,
+      "end": 2680
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2682,
+      "end": 2827,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2682,
+        "end": 2826,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2682,
+          "end": 2698,
+          "object": {
+            "type": "Identifier",
+            "start": 2682,
+            "end": 2688,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2689,
+            "end": 2698,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2702,
+            "end": 2723,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2702,
+              "end": 2720,
+              "object": {
+                "type": "Identifier",
+                "start": 2702,
+                "end": 2709,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2710,
+                "end": 2720,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2721,
+                "end": 2722,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 2727,
+            "end": 2738,
+            "name": "isLockFree1"
+          },
+          {
+            "type": "Literal",
+            "start": 2742,
+            "end": 2824,
+            "value": "Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))",
+            "raw": "'Atomics.isLockFree(1) returns the value of `isLockFree1` (Atomics.isLockFree(1))'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2828,
+      "end": 2973,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2828,
+        "end": 2972,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2828,
+          "end": 2844,
+          "object": {
+            "type": "Identifier",
+            "start": 2828,
+            "end": 2834,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2835,
+            "end": 2844,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2848,
+            "end": 2869,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2848,
+              "end": 2866,
+              "object": {
+                "type": "Identifier",
+                "start": 2848,
+                "end": 2855,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2856,
+                "end": 2866,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2867,
+                "end": 2868,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 2873,
+            "end": 2884,
+            "name": "isLockFree2"
+          },
+          {
+            "type": "Literal",
+            "start": 2888,
+            "end": 2970,
+            "value": "Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))",
+            "raw": "'Atomics.isLockFree(2) returns the value of `isLockFree2` (Atomics.isLockFree(2))'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2974,
+      "end": 3119,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2974,
+        "end": 3118,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2974,
+          "end": 2990,
+          "object": {
+            "type": "Identifier",
+            "start": 2974,
+            "end": 2980,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2981,
+            "end": 2990,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2994,
+            "end": 3015,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2994,
+              "end": 3012,
+              "object": {
+                "type": "Identifier",
+                "start": 2994,
+                "end": 3001,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3002,
+                "end": 3012,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3013,
+                "end": 3014,
+                "value": 8,
+                "raw": "8"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 3019,
+            "end": 3030,
+            "name": "isLockFree8"
+          },
+          {
+            "type": "Literal",
+            "start": 3034,
+            "end": 3116,
+            "value": "Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))",
+            "raw": "'Atomics.isLockFree(8) returns the value of `isLockFree8` (Atomics.isLockFree(8))'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3171,
+      "end": 3257,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3171,
+        "end": 3256,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3171,
+          "end": 3187,
+          "object": {
+            "type": "Identifier",
+            "start": 3171,
+            "end": 3177,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3178,
+            "end": 3187,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3188,
+            "end": 3209,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3188,
+              "end": 3206,
+              "object": {
+                "type": "Identifier",
+                "start": 3188,
+                "end": 3195,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3196,
+                "end": 3206,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3207,
+                "end": 3208,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3211,
+            "end": 3216,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 3218,
+            "end": 3255,
+            "value": "Atomics.isLockFree(3) returns false",
+            "raw": "'Atomics.isLockFree(3) returns false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3258,
+      "end": 3342,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3258,
+        "end": 3341,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3258,
+          "end": 3274,
+          "object": {
+            "type": "Identifier",
+            "start": 3258,
+            "end": 3264,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3265,
+            "end": 3274,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3275,
+            "end": 3296,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3275,
+              "end": 3293,
+              "object": {
+                "type": "Identifier",
+                "start": 3275,
+                "end": 3282,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3283,
+                "end": 3293,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3294,
+                "end": 3295,
+                "value": 4,
+                "raw": "4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3298,
+            "end": 3302,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 3304,
+            "end": 3340,
+            "value": "Atomics.isLockFree(4) returns true",
+            "raw": "'Atomics.isLockFree(4) returns true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3343,
+      "end": 3429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3343,
+        "end": 3428,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3343,
+          "end": 3359,
+          "object": {
+            "type": "Identifier",
+            "start": 3343,
+            "end": 3349,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3350,
+            "end": 3359,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3360,
+            "end": 3381,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3360,
+              "end": 3378,
+              "object": {
+                "type": "Identifier",
+                "start": 3360,
+                "end": 3367,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3368,
+                "end": 3378,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3379,
+                "end": 3380,
+                "value": 5,
+                "raw": "5"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3383,
+            "end": 3388,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 3390,
+            "end": 3427,
+            "value": "Atomics.isLockFree(5) returns false",
+            "raw": "'Atomics.isLockFree(5) returns false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3430,
+      "end": 3516,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3430,
+        "end": 3515,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3430,
+          "end": 3446,
+          "object": {
+            "type": "Identifier",
+            "start": 3430,
+            "end": 3436,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3437,
+            "end": 3446,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3447,
+            "end": 3468,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3447,
+              "end": 3465,
+              "object": {
+                "type": "Identifier",
+                "start": 3447,
+                "end": 3454,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3455,
+                "end": 3465,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3466,
+                "end": 3467,
+                "value": 6,
+                "raw": "6"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3470,
+            "end": 3475,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 3477,
+            "end": 3514,
+            "value": "Atomics.isLockFree(6) returns false",
+            "raw": "'Atomics.isLockFree(6) returns false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3517,
+      "end": 3603,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3517,
+        "end": 3602,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3517,
+          "end": 3533,
+          "object": {
+            "type": "Identifier",
+            "start": 3517,
+            "end": 3523,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3524,
+            "end": 3533,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3534,
+            "end": 3555,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3534,
+              "end": 3552,
+              "object": {
+                "type": "Identifier",
+                "start": 3534,
+                "end": 3541,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3542,
+                "end": 3552,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3553,
+                "end": 3554,
+                "value": 7,
+                "raw": "7"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3557,
+            "end": 3562,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 3564,
+            "end": 3601,
+            "value": "Atomics.isLockFree(7) returns false",
+            "raw": "'Atomics.isLockFree(7) returns false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3604,
+      "end": 3690,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3604,
+        "end": 3689,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3604,
+          "end": 3620,
+          "object": {
+            "type": "Identifier",
+            "start": 3604,
+            "end": 3610,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3611,
+            "end": 3620,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3621,
+            "end": 3642,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3621,
+              "end": 3639,
+              "object": {
+                "type": "Identifier",
+                "start": 3621,
+                "end": 3628,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3629,
+                "end": 3639,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3640,
+                "end": 3641,
+                "value": 9,
+                "raw": "9"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3644,
+            "end": 3649,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 3651,
+            "end": 3688,
+            "value": "Atomics.isLockFree(9) returns false",
+            "raw": "'Atomics.isLockFree(9) returns false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3691,
+      "end": 3779,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3691,
+        "end": 3778,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3691,
+          "end": 3707,
+          "object": {
+            "type": "Identifier",
+            "start": 3691,
+            "end": 3697,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3698,
+            "end": 3707,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3708,
+            "end": 3730,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3708,
+              "end": 3726,
+              "object": {
+                "type": "Identifier",
+                "start": 3708,
+                "end": 3715,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3716,
+                "end": 3726,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3727,
+                "end": 3729,
+                "value": 10,
+                "raw": "10"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3732,
+            "end": 3737,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 3739,
+            "end": 3777,
+            "value": "Atomics.isLockFree(10) returns false",
+            "raw": "'Atomics.isLockFree(10) returns false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3780,
+      "end": 3868,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3780,
+        "end": 3867,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3780,
+          "end": 3796,
+          "object": {
+            "type": "Identifier",
+            "start": 3780,
+            "end": 3786,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3787,
+            "end": 3796,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3797,
+            "end": 3819,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3797,
+              "end": 3815,
+              "object": {
+                "type": "Identifier",
+                "start": 3797,
+                "end": 3804,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3805,
+                "end": 3815,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3816,
+                "end": 3818,
+                "value": 11,
+                "raw": "11"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3821,
+            "end": 3826,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 3828,
+            "end": 3866,
+            "value": "Atomics.isLockFree(11) returns false",
+            "raw": "'Atomics.isLockFree(11) returns false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3869,
+      "end": 3957,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3869,
+        "end": 3956,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3869,
+          "end": 3885,
+          "object": {
+            "type": "Identifier",
+            "start": 3869,
+            "end": 3875,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3876,
+            "end": 3885,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 3886,
+            "end": 3908,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 3886,
+              "end": 3904,
+              "object": {
+                "type": "Identifier",
+                "start": 3886,
+                "end": 3893,
+                "name": "Atomics"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3894,
+                "end": 3904,
+                "name": "isLockFree"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3905,
+                "end": 3907,
+                "value": 12,
+                "raw": "12"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 3910,
+            "end": 3915,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 3917,
+            "end": 3955,
+            "value": "Atomics.isLockFree(12) returns false",
+            "raw": "'Atomics.isLockFree(12) returns false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 485,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 328,
+      "end": 484,
+      "expression": {
+        "type": "CallExpression",
+        "start": 328,
+        "end": 483,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 328,
+          "end": 344,
+          "object": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 334,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 335,
+            "end": 344,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 348,
+            "end": 399,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 348,
+              "end": 377,
+              "object": {
+                "type": "MemberExpression",
+                "start": 348,
+                "end": 362,
+                "object": {
+                  "type": "Identifier",
+                  "start": 348,
+                  "end": 352,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 353,
+                  "end": 362,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 363,
+                "end": 377,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 378,
+                "end": 398,
+                "value": "setUTCMilliseconds",
+                "raw": "\"setUTCMilliseconds\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 403,
+            "end": 407,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 411,
+            "end": 481,
+            "value": "Date.prototype.hasOwnProperty(\"setUTCMilliseconds\") must return true",
+            "raw": "'Date.prototype.hasOwnProperty(\"setUTCMilliseconds\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

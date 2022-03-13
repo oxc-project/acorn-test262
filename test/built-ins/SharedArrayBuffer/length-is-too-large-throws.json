@@ -1,0 +1,181 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 954,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 671,
+      "end": 831,
+      "expression": {
+        "type": "CallExpression",
+        "start": 671,
+        "end": 830,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 671,
+          "end": 684,
+          "object": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 677,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 678,
+            "end": 684,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 685,
+            "end": 695,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 697,
+            "end": 794,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 708,
+              "end": 794,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 752,
+                  "end": 792,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 752,
+                    "end": 791,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 756,
+                      "end": 773,
+                      "name": "SharedArrayBuffer"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 774,
+                        "end": 790,
+                        "value": 9007199254740992,
+                        "raw": "9007199254740992"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 796,
+            "end": 829,
+            "value": "`length` parameter is too large",
+            "raw": "\"`length` parameter is too large\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 833,
+      "end": 953,
+      "expression": {
+        "type": "CallExpression",
+        "start": 833,
+        "end": 952,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 833,
+          "end": 846,
+          "object": {
+            "type": "Identifier",
+            "start": 833,
+            "end": 839,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 840,
+            "end": 846,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 847,
+            "end": 857,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 859,
+            "end": 908,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 870,
+              "end": 908,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 874,
+                  "end": 906,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 874,
+                    "end": 905,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 878,
+                      "end": 895,
+                      "name": "SharedArrayBuffer"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 896,
+                        "end": 904,
+                        "name": "Infinity"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 910,
+            "end": 951,
+            "value": "`length` parameter is positive Infinity",
+            "raw": "\"`length` parameter is positive Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,181 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 669,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 486,
+      "end": 533,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 490,
+          "end": 532,
+          "id": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 509,
+            "name": "TypedArrayPrototype"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 512,
+            "end": 532,
+            "object": {
+              "type": "Identifier",
+              "start": 512,
+              "end": 522,
+              "name": "TypedArray"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 523,
+              "end": 532,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 534,
+      "end": 628,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 538,
+          "end": 627,
+          "id": {
+            "type": "Identifier",
+            "start": 538,
+            "end": 544,
+            "name": "getter"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 547,
+            "end": 627,
+            "object": {
+              "type": "CallExpression",
+              "start": 547,
+              "end": 623,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 547,
+                "end": 578,
+                "object": {
+                  "type": "Identifier",
+                  "start": 547,
+                  "end": 553,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 554,
+                  "end": 578,
+                  "name": "getOwnPropertyDescriptor"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 582,
+                  "end": 601,
+                  "name": "TypedArrayPrototype"
+                },
+                {
+                  "type": "MemberExpression",
+                  "start": 603,
+                  "end": 621,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 603,
+                    "end": 609,
+                    "name": "Symbol"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 610,
+                    "end": 621,
+                    "name": "toStringTag"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 624,
+              "end": 627,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 630,
+      "end": 668,
+      "expression": {
+        "type": "CallExpression",
+        "start": 630,
+        "end": 667,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 630,
+          "end": 646,
+          "object": {
+            "type": "Identifier",
+            "start": 630,
+            "end": 636,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 637,
+            "end": 646,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 647,
+            "end": 655,
+            "callee": {
+              "type": "Identifier",
+              "start": 647,
+              "end": 653,
+              "name": "getter"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 657,
+            "end": 666,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

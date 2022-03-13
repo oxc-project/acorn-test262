@@ -1,0 +1,1364 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2775,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 682,
+      "end": 780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 682,
+        "end": 779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 682,
+          "end": 698,
+          "object": {
+            "type": "Identifier",
+            "start": 682,
+            "end": 688,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 689,
+            "end": 698,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 699,
+            "end": 717,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MetaProperty",
+              "start": 706,
+              "end": 717,
+              "meta": {
+                "type": "Identifier",
+                "start": 706,
+                "end": 712,
+                "name": "import"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 713,
+                "end": 717,
+                "name": "meta"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 719,
+            "end": 727,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 778,
+            "value": "typeof import.meta is 'object'",
+            "raw": "\"typeof import.meta is 'object'\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 781,
+      "end": 904,
+      "expression": {
+        "type": "CallExpression",
+        "start": 781,
+        "end": 903,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 781,
+          "end": 800,
+          "object": {
+            "type": "Identifier",
+            "start": 781,
+            "end": 787,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 788,
+            "end": 800,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MetaProperty",
+            "start": 801,
+            "end": 812,
+            "meta": {
+              "type": "Identifier",
+              "start": 801,
+              "end": 807,
+              "name": "import"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 808,
+              "end": 812,
+              "name": "meta"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 814,
+            "end": 818,
+            "value": null,
+            "raw": "null"
+          },
+          {
+            "type": "Literal",
+            "start": 840,
+            "end": 902,
+            "value": "typeof import.meta is 'object' and import.meta isn't |null|.",
+            "raw": "\"typeof import.meta is 'object' and import.meta isn't |null|.\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 906,
+      "end": 997,
+      "expression": {
+        "type": "CallExpression",
+        "start": 906,
+        "end": 996,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 906,
+          "end": 919,
+          "object": {
+            "type": "Identifier",
+            "start": 906,
+            "end": 912,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 913,
+            "end": 919,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 920,
+            "end": 929,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 931,
+            "end": 964,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 942,
+              "end": 964,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 948,
+                  "end": 962,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 948,
+                    "end": 961,
+                    "callee": {
+                      "type": "MetaProperty",
+                      "start": 948,
+                      "end": 959,
+                      "meta": {
+                        "type": "Identifier",
+                        "start": 948,
+                        "end": 954,
+                        "name": "import"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 955,
+                        "end": 959,
+                        "name": "meta"
+                      }
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 966,
+            "end": 995,
+            "value": "import.meta is not callable",
+            "raw": "\"import.meta is not callable\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 999,
+      "end": 1099,
+      "expression": {
+        "type": "CallExpression",
+        "start": 999,
+        "end": 1098,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 999,
+          "end": 1012,
+          "object": {
+            "type": "Identifier",
+            "start": 999,
+            "end": 1005,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1006,
+            "end": 1012,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1013,
+            "end": 1022,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1024,
+            "end": 1061,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1035,
+              "end": 1061,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1041,
+                  "end": 1059,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 1041,
+                    "end": 1058,
+                    "callee": {
+                      "type": "MetaProperty",
+                      "start": 1045,
+                      "end": 1056,
+                      "meta": {
+                        "type": "Identifier",
+                        "start": 1045,
+                        "end": 1051,
+                        "name": "import"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1052,
+                        "end": 1056,
+                        "name": "meta"
+                      }
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1063,
+            "end": 1097,
+            "value": "import.meta is not a constructor",
+            "raw": "\"import.meta is not a constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1404,
+      "end": 2278,
+      "test": {
+        "type": "CallExpression",
+        "start": 1408,
+        "end": 1440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1408,
+          "end": 1427,
+          "object": {
+            "type": "Identifier",
+            "start": 1408,
+            "end": 1414,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1415,
+            "end": 1427,
+            "name": "isExtensible"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MetaProperty",
+            "start": 1428,
+            "end": 1439,
+            "meta": {
+              "type": "Identifier",
+              "start": 1428,
+              "end": 1434,
+              "name": "import"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1435,
+              "end": 1439,
+              "name": "meta"
+            }
+          }
+        ],
+        "optional": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1442,
+        "end": 2278,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1448,
+            "end": 1608,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1448,
+              "end": 1607,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1448,
+                "end": 1464,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1448,
+                  "end": 1454,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1455,
+                  "end": 1464,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 1465,
+                  "end": 1524,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 1465,
+                    "end": 1496,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1465,
+                      "end": 1471,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1472,
+                      "end": 1496,
+                      "name": "getOwnPropertyDescriptor"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "MetaProperty",
+                      "start": 1497,
+                      "end": 1508,
+                      "meta": {
+                        "type": "Identifier",
+                        "start": 1497,
+                        "end": 1503,
+                        "name": "import"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1504,
+                        "end": 1508,
+                        "name": "meta"
+                      }
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1510,
+                      "end": 1523,
+                      "value": "test262prop",
+                      "raw": "\"test262prop\""
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1526,
+                  "end": 1535,
+                  "name": "undefined"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1558,
+                  "end": 1606,
+                  "value": "test262 test property is not present initially",
+                  "raw": "\"test262 test property is not present initially\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1614,
+            "end": 1648,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1614,
+              "end": 1647,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1614,
+                "end": 1637,
+                "object": {
+                  "type": "MetaProperty",
+                  "start": 1614,
+                  "end": 1625,
+                  "meta": {
+                    "type": "Identifier",
+                    "start": 1614,
+                    "end": 1620,
+                    "name": "import"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1621,
+                    "end": 1625,
+                    "name": "meta"
+                  }
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1626,
+                  "end": 1637,
+                  "name": "test262prop"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 1640,
+                "end": 1647,
+                "value": "blubb",
+                "raw": "\"blubb\""
+              }
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1654,
+            "end": 1784,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1654,
+              "end": 1783,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1654,
+                "end": 1670,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1654,
+                  "end": 1660,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1661,
+                  "end": 1670,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 1671,
+                  "end": 1694,
+                  "object": {
+                    "type": "MetaProperty",
+                    "start": 1671,
+                    "end": 1682,
+                    "meta": {
+                      "type": "Identifier",
+                      "start": 1671,
+                      "end": 1677,
+                      "name": "import"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1678,
+                      "end": 1682,
+                      "name": "meta"
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1683,
+                    "end": 1694,
+                    "name": "test262prop"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 1696,
+                  "end": 1703,
+                  "value": "blubb",
+                  "raw": "\"blubb\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 1726,
+                  "end": 1782,
+                  "value": "Properties can be added and retrieved from import.meta",
+                  "raw": "\"Properties can be added and retrieved from import.meta\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1790,
+            "end": 1912,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1790,
+              "end": 1911,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1790,
+                "end": 1806,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1790,
+                  "end": 1796,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1797,
+                  "end": 1806,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 1807,
+                  "end": 1837,
+                  "operator": "delete",
+                  "prefix": true,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 1814,
+                    "end": 1837,
+                    "object": {
+                      "type": "MetaProperty",
+                      "start": 1814,
+                      "end": 1825,
+                      "meta": {
+                        "type": "Identifier",
+                        "start": 1814,
+                        "end": 1820,
+                        "name": "import"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1821,
+                        "end": 1825,
+                        "name": "meta"
+                      }
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1826,
+                      "end": 1837,
+                      "name": "test262prop"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "Literal",
+                  "start": 1839,
+                  "end": 1843,
+                  "value": true,
+                  "raw": "true"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1866,
+                  "end": 1910,
+                  "value": "Properties can be removed from import.meta",
+                  "raw": "\"Properties can be removed from import.meta\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1918,
+            "end": 2074,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1918,
+              "end": 2073,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1918,
+                "end": 1934,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1918,
+                  "end": 1924,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1925,
+                  "end": 1934,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 1935,
+                  "end": 1994,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 1935,
+                    "end": 1966,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 1935,
+                      "end": 1941,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1942,
+                      "end": 1966,
+                      "name": "getOwnPropertyDescriptor"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "MetaProperty",
+                      "start": 1967,
+                      "end": 1978,
+                      "meta": {
+                        "type": "Identifier",
+                        "start": 1967,
+                        "end": 1973,
+                        "name": "import"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1974,
+                        "end": 1978,
+                        "name": "meta"
+                      }
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 1980,
+                      "end": 1993,
+                      "value": "test262prop",
+                      "raw": "\"test262prop\""
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1996,
+                  "end": 2005,
+                  "name": "undefined"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2028,
+                  "end": 2072,
+                  "value": "test262 test property is no longer present",
+                  "raw": "\"test262 test property is no longer present\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 2080,
+            "end": 2095,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 2084,
+                "end": 2094,
+                "id": {
+                  "type": "Identifier",
+                  "start": 2084,
+                  "end": 2089,
+                  "name": "proto"
+                },
+                "init": {
+                  "type": "ObjectExpression",
+                  "start": 2092,
+                  "end": 2094,
+                  "properties": []
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 2100,
+            "end": 2142,
+            "expression": {
+              "type": "CallExpression",
+              "start": 2100,
+              "end": 2141,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2100,
+                "end": 2121,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2100,
+                  "end": 2106,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2107,
+                  "end": 2121,
+                  "name": "setPrototypeOf"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MetaProperty",
+                  "start": 2122,
+                  "end": 2133,
+                  "meta": {
+                    "type": "Identifier",
+                    "start": 2122,
+                    "end": 2128,
+                    "name": "import"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2129,
+                    "end": 2133,
+                    "name": "meta"
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "start": 2135,
+                  "end": 2140,
+                  "name": "proto"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 2148,
+            "end": 2276,
+            "expression": {
+              "type": "CallExpression",
+              "start": 2148,
+              "end": 2275,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 2148,
+                "end": 2164,
+                "object": {
+                  "type": "Identifier",
+                  "start": 2148,
+                  "end": 2154,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2155,
+                  "end": 2164,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 2165,
+                  "end": 2199,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 2165,
+                    "end": 2186,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2165,
+                      "end": 2171,
+                      "name": "Object"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2172,
+                      "end": 2186,
+                      "name": "getPrototypeOf"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "MetaProperty",
+                      "start": 2187,
+                      "end": 2198,
+                      "meta": {
+                        "type": "Identifier",
+                        "start": 2187,
+                        "end": 2193,
+                        "name": "import"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2194,
+                        "end": 2198,
+                        "name": "meta"
+                      }
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 2201,
+                  "end": 2206,
+                  "name": "proto"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2229,
+                  "end": 2274,
+                  "value": "[[Prototype]] of import.meta can be changed",
+                  "raw": "\"[[Prototype]] of import.meta can be changed\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2280,
+      "end": 2318,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2280,
+        "end": 2317,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2280,
+          "end": 2304,
+          "object": {
+            "type": "Identifier",
+            "start": 2280,
+            "end": 2286,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2287,
+            "end": 2304,
+            "name": "preventExtensions"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MetaProperty",
+            "start": 2305,
+            "end": 2316,
+            "meta": {
+              "type": "Identifier",
+              "start": 2305,
+              "end": 2311,
+              "name": "import"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2312,
+              "end": 2316,
+              "name": "meta"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2319,
+      "end": 2468,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2319,
+        "end": 2467,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2319,
+          "end": 2335,
+          "object": {
+            "type": "Identifier",
+            "start": 2319,
+            "end": 2325,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2326,
+            "end": 2335,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2336,
+            "end": 2368,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2336,
+              "end": 2355,
+              "object": {
+                "type": "Identifier",
+                "start": 2336,
+                "end": 2342,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2343,
+                "end": 2355,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MetaProperty",
+                "start": 2356,
+                "end": 2367,
+                "meta": {
+                  "type": "Identifier",
+                  "start": 2356,
+                  "end": 2362,
+                  "name": "import"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2363,
+                  "end": 2367,
+                  "name": "meta"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2370,
+            "end": 2375,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 2394,
+            "end": 2466,
+            "value": "import.meta is non-extensible after calling |Object.preventExtensions|",
+            "raw": "\"import.meta is non-extensible after calling |Object.preventExtensions|\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2470,
+      "end": 2495,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2470,
+        "end": 2494,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2470,
+          "end": 2481,
+          "object": {
+            "type": "Identifier",
+            "start": 2470,
+            "end": 2476,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2477,
+            "end": 2481,
+            "name": "seal"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MetaProperty",
+            "start": 2482,
+            "end": 2493,
+            "meta": {
+              "type": "Identifier",
+              "start": 2482,
+              "end": 2488,
+              "name": "import"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2489,
+              "end": 2493,
+              "name": "meta"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2496,
+      "end": 2619,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2496,
+        "end": 2618,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2496,
+          "end": 2512,
+          "object": {
+            "type": "Identifier",
+            "start": 2496,
+            "end": 2502,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2503,
+            "end": 2512,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2513,
+            "end": 2541,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2513,
+              "end": 2528,
+              "object": {
+                "type": "Identifier",
+                "start": 2513,
+                "end": 2519,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2520,
+                "end": 2528,
+                "name": "isSealed"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MetaProperty",
+                "start": 2529,
+                "end": 2540,
+                "meta": {
+                  "type": "Identifier",
+                  "start": 2529,
+                  "end": 2535,
+                  "name": "import"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2536,
+                  "end": 2540,
+                  "name": "meta"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2543,
+            "end": 2547,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 2566,
+            "end": 2617,
+            "value": "import.meta is sealed after calling |Object.seal|",
+            "raw": "\"import.meta is sealed after calling |Object.seal|\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2621,
+      "end": 2648,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2621,
+        "end": 2647,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2621,
+          "end": 2634,
+          "object": {
+            "type": "Identifier",
+            "start": 2621,
+            "end": 2627,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2628,
+            "end": 2634,
+            "name": "freeze"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MetaProperty",
+            "start": 2635,
+            "end": 2646,
+            "meta": {
+              "type": "Identifier",
+              "start": 2635,
+              "end": 2641,
+              "name": "import"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2642,
+              "end": 2646,
+              "name": "meta"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2649,
+      "end": 2774,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2649,
+        "end": 2773,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2649,
+          "end": 2665,
+          "object": {
+            "type": "Identifier",
+            "start": 2649,
+            "end": 2655,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2656,
+            "end": 2665,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2666,
+            "end": 2694,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2666,
+              "end": 2681,
+              "object": {
+                "type": "Identifier",
+                "start": 2666,
+                "end": 2672,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2673,
+                "end": 2681,
+                "name": "isFrozen"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MetaProperty",
+                "start": 2682,
+                "end": 2693,
+                "meta": {
+                  "type": "Identifier",
+                  "start": 2682,
+                  "end": 2688,
+                  "name": "import"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2689,
+                  "end": 2693,
+                  "name": "meta"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 2696,
+            "end": 2700,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 2719,
+            "end": 2772,
+            "value": "import.meta is frozen after calling |Object.freeze|",
+            "raw": "\"import.meta is frozen after calling |Object.freeze|\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

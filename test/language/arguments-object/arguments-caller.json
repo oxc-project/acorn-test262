@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 395,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 224,
+      "end": 271,
+      "id": {
+        "type": "Identifier",
+        "start": 233,
+        "end": 245,
+        "name": "getArguments"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 248,
+        "end": 271,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 252,
+            "end": 269,
+            "argument": {
+              "type": "Identifier",
+              "start": 259,
+              "end": 268,
+              "name": "arguments"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 272,
+      "end": 394,
+      "expression": {
+        "type": "CallExpression",
+        "start": 272,
+        "end": 393,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 272,
+          "end": 288,
+          "object": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 278,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 279,
+            "end": 288,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 289,
+            "end": 346,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 289,
+              "end": 320,
+              "object": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 295,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 296,
+                "end": 320,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 321,
+                "end": 335,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 321,
+                  "end": 333,
+                  "name": "getArguments"
+                },
+                "arguments": [],
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 337,
+                "end": 345,
+                "value": "caller",
+                "raw": "'caller'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 348,
+            "end": 357,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 359,
+            "end": 392,
+            "value": "arguments.caller does not exist",
+            "raw": "'arguments.caller does not exist'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

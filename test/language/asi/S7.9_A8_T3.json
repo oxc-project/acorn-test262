@@ -1,0 +1,28 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 335,
+  "body": [
+    {
+      "type": "EmptyStatement",
+      "start": 330,
+      "end": 331
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 331,
+      "end": 332
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 332,
+      "end": 333
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 333,
+      "end": 334
+    }
+  ],
+  "sourceType": "script"
+}

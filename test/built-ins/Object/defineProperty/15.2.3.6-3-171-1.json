@@ -1,0 +1,261 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 609,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 390,
+      "end": 403,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 394,
+          "end": 402,
+          "id": {
+            "type": "Identifier",
+            "start": 394,
+            "end": 397,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 400,
+            "end": 402,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 404,
+      "end": 608,
+      "block": {
+        "type": "BlockStatement",
+        "start": 408,
+        "end": 562,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 412,
+            "end": 443,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 412,
+              "end": 442,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 412,
+                "end": 435,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 412,
+                  "end": 426,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 412,
+                    "end": 416,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 417,
+                    "end": 426,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 427,
+                  "end": 435,
+                  "name": "writable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 438,
+                "end": 442,
+                "value": true,
+                "raw": "true"
+              }
+            }
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 447,
+            "end": 472,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 451,
+                "end": 471,
+                "id": {
+                  "type": "Identifier",
+                  "start": 451,
+                  "end": 458,
+                  "name": "dateObj"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 461,
+                  "end": 471,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 465,
+                    "end": 469,
+                    "name": "Date"
+                  },
+                  "arguments": []
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 476,
+            "end": 524,
+            "expression": {
+              "type": "CallExpression",
+              "start": 476,
+              "end": 523,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 476,
+                "end": 497,
+                "object": {
+                  "type": "Identifier",
+                  "start": 476,
+                  "end": 482,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 483,
+                  "end": 497,
+                  "name": "defineProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 498,
+                  "end": 501,
+                  "name": "obj"
+                },
+                {
+                  "type": "Literal",
+                  "start": 503,
+                  "end": 513,
+                  "value": "property",
+                  "raw": "\"property\""
+                },
+                {
+                  "type": "Identifier",
+                  "start": 515,
+                  "end": 522,
+                  "name": "dateObj"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 527,
+            "end": 559,
+            "expression": {
+              "type": "CallExpression",
+              "start": 527,
+              "end": 558,
+              "callee": {
+                "type": "Identifier",
+                "start": 527,
+                "end": 541,
+                "name": "verifyWritable"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 542,
+                  "end": 545,
+                  "name": "obj"
+                },
+                {
+                  "type": "Literal",
+                  "start": 547,
+                  "end": 557,
+                  "value": "property",
+                  "raw": "\"property\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "handler": null,
+      "finalizer": {
+        "type": "BlockStatement",
+        "start": 571,
+        "end": 608,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 575,
+            "end": 606,
+            "expression": {
+              "type": "UnaryExpression",
+              "start": 575,
+              "end": 605,
+              "operator": "delete",
+              "prefix": true,
+              "argument": {
+                "type": "MemberExpression",
+                "start": 582,
+                "end": 605,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 582,
+                  "end": 596,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 582,
+                    "end": 586,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 587,
+                    "end": 596,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 597,
+                  "end": 605,
+                  "name": "writable"
+                },
+                "computed": false,
+                "optional": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

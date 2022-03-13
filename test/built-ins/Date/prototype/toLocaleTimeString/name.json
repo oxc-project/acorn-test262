@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1046,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 776,
+      "end": 855,
+      "expression": {
+        "type": "CallExpression",
+        "start": 776,
+        "end": 854,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 776,
+          "end": 792,
+          "object": {
+            "type": "Identifier",
+            "start": 776,
+            "end": 782,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 783,
+            "end": 792,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 793,
+            "end": 831,
+            "object": {
+              "type": "MemberExpression",
+              "start": 793,
+              "end": 826,
+              "object": {
+                "type": "MemberExpression",
+                "start": 793,
+                "end": 807,
+                "object": {
+                  "type": "Identifier",
+                  "start": 793,
+                  "end": 797,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 798,
+                  "end": 807,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 808,
+                "end": 826,
+                "name": "toLocaleTimeString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 827,
+              "end": 831,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 833,
+            "end": 853,
+            "value": "toLocaleTimeString",
+            "raw": "\"toLocaleTimeString\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 857,
+      "end": 920,
+      "expression": {
+        "type": "CallExpression",
+        "start": 857,
+        "end": 919,
+        "callee": {
+          "type": "Identifier",
+          "start": 857,
+          "end": 876,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 877,
+            "end": 910,
+            "object": {
+              "type": "MemberExpression",
+              "start": 877,
+              "end": 891,
+              "object": {
+                "type": "Identifier",
+                "start": 877,
+                "end": 881,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 882,
+                "end": 891,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 892,
+              "end": 910,
+              "name": "toLocaleTimeString"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 912,
+            "end": 918,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 921,
+      "end": 982,
+      "expression": {
+        "type": "CallExpression",
+        "start": 921,
+        "end": 981,
+        "callee": {
+          "type": "Identifier",
+          "start": 921,
+          "end": 938,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 939,
+            "end": 972,
+            "object": {
+              "type": "MemberExpression",
+              "start": 939,
+              "end": 953,
+              "object": {
+                "type": "Identifier",
+                "start": 939,
+                "end": 943,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 944,
+                "end": 953,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 954,
+              "end": 972,
+              "name": "toLocaleTimeString"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 974,
+            "end": 980,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 983,
+      "end": 1045,
+      "expression": {
+        "type": "CallExpression",
+        "start": 983,
+        "end": 1044,
+        "callee": {
+          "type": "Identifier",
+          "start": 983,
+          "end": 1001,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1002,
+            "end": 1035,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1002,
+              "end": 1016,
+              "object": {
+                "type": "Identifier",
+                "start": 1002,
+                "end": 1006,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1007,
+                "end": 1016,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1017,
+              "end": 1035,
+              "name": "toLocaleTimeString"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1037,
+            "end": 1043,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

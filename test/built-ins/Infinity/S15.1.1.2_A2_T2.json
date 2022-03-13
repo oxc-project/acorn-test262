@@ -1,0 +1,96 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 430,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 267,
+      "end": 283,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 267,
+        "end": 282,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 267,
+          "end": 275,
+          "name": "Infinity"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 278,
+          "end": 282,
+          "value": true,
+          "raw": "true"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 284,
+      "end": 383,
+      "expression": {
+        "type": "CallExpression",
+        "start": 284,
+        "end": 382,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 284,
+          "end": 303,
+          "object": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 290,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 291,
+            "end": 303,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 304,
+            "end": 320,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 310,
+              "end": 320,
+              "expression": {
+                "type": "Identifier",
+                "start": 311,
+                "end": 319,
+                "name": "Infinity"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 322,
+            "end": 331,
+            "value": "boolean",
+            "raw": "\"boolean\""
+          },
+          {
+            "type": "Literal",
+            "start": 333,
+            "end": 381,
+            "value": "The value of typeof(Infinity) is not \"boolean\"",
+            "raw": "'The value of typeof(Infinity) is not \"boolean\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

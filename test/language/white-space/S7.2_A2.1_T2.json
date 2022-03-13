@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 398,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 267,
+      "end": 397,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 271,
+        "end": 313,
+        "left": {
+          "type": "Literal",
+          "start": 271,
+          "end": 282,
+          "value": "\tstr\ting\t",
+          "raw": "\"\tstr\ting\t\""
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 287,
+          "end": 313,
+          "value": "\tstr\ting\t",
+          "raw": "\"\\u0009str\\u0009ing\\u0009\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 315,
+        "end": 397,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 319,
+            "end": 395,
+            "argument": {
+              "type": "NewExpression",
+              "start": 325,
+              "end": 394,
+              "callee": {
+                "type": "Identifier",
+                "start": 329,
+                "end": 341,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 342,
+                  "end": 393,
+                  "value": "#1: \"\tstr\ting\t\" === \"\\u0009str\\u0009ing\\u0009\"",
+                  "raw": "'#1: \"\tstr\ting\t\" === \"\\\\u0009str\\\\u0009ing\\\\u0009\"'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

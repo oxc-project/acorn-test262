@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 870,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 811,
+      "end": 869,
+      "expression": {
+        "type": "CallExpression",
+        "start": 811,
+        "end": 868,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 811,
+          "end": 824,
+          "object": {
+            "type": "Identifier",
+            "start": 811,
+            "end": 817,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 818,
+            "end": 824,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 825,
+            "end": 834,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 836,
+            "end": 867,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 847,
+              "end": 867,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 851,
+                  "end": 865,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 855,
+                      "end": 864,
+                      "id": {
+                        "type": "ObjectPattern",
+                        "start": 855,
+                        "end": 857,
+                        "properties": []
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "start": 860,
+                        "end": 864,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

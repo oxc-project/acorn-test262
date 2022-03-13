@@ -1,0 +1,73 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 968,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 729,
+      "end": 967,
+      "expression": {
+        "type": "CallExpression",
+        "start": 729,
+        "end": 966,
+        "callee": {
+          "type": "Identifier",
+          "start": 729,
+          "end": 733,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 737,
+            "end": 964,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 737,
+              "end": 882,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 737,
+                "end": 854,
+                "left": {
+                  "type": "Literal",
+                  "start": 737,
+                  "end": 837,
+                  "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {",
+                  "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 842,
+                  "end": 854,
+                  "value": "  default:",
+                  "raw": "'  default:'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 859,
+                "end": 882,
+                "value": "    function f() {  }",
+                "raw": "'    function f() {  }'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 887,
+              "end": 964,
+              "value": "}  assert.sameValue(f, 123, \"value is not updated following evaluation\");",
+              "raw": "'}\\\n  assert.sameValue(f, 123, \"value is not updated following evaluation\");'"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

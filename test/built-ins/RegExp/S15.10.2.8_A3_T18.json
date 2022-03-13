@@ -1,0 +1,150 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 995,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 616,
+      "end": 789,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 620,
+          "end": 788,
+          "id": {
+            "type": "Identifier",
+            "start": 620,
+            "end": 630,
+            "name": "__replaced"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 633,
+            "end": 788,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 633,
+              "end": 699,
+              "object": {
+                "type": "Literal",
+                "start": 633,
+                "end": 691,
+                "value": "To sign up click |here|https:www.xxxx.org/subscribe.htm|",
+                "raw": "\"To sign up click |here|https:www.xxxx.org/subscribe.htm|\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 692,
+                "end": 699,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 700,
+                "end": 764,
+                "value": {},
+                "raw": "/(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)/ig",
+                "regex": {
+                  "pattern": "(\\|)([\\w\\x81-\\xff ]*)(\\|)([\\/a-z][\\w:\\/\\.]*\\.[a-z]{3,4})(\\|)",
+                  "flags": "ig"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 766,
+                "end": 787,
+                "value": "<a href=\"$4\">$2</a>",
+                "raw": "'<a href=\"$4\">$2</a>'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 791,
+      "end": 879,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 795,
+          "end": 878,
+          "id": {
+            "type": "Identifier",
+            "start": 795,
+            "end": 805,
+            "name": "__expected"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 808,
+            "end": 878,
+            "value": "To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>",
+            "raw": "'To sign up click <a href=\"https:www.xxxx.org/subscribe.htm\">here</a>'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 881,
+      "end": 994,
+      "expression": {
+        "type": "CallExpression",
+        "start": 881,
+        "end": 993,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 881,
+          "end": 897,
+          "object": {
+            "type": "Identifier",
+            "start": 881,
+            "end": 887,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 888,
+            "end": 897,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 898,
+            "end": 908,
+            "name": "__replaced"
+          },
+          {
+            "type": "Identifier",
+            "start": 910,
+            "end": 920,
+            "name": "__expected"
+          },
+          {
+            "type": "Literal",
+            "start": 922,
+            "end": 992,
+            "value": "The value of __replaced is expected to equal the value of __expected",
+            "raw": "'The value of __replaced is expected to equal the value of __expected'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

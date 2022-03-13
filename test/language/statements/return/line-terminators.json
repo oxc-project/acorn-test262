@@ -1,0 +1,356 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 993,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 329,
+      "end": 493,
+      "expression": {
+        "type": "CallExpression",
+        "start": 329,
+        "end": 492,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 329,
+          "end": 345,
+          "object": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 335,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 345,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 349,
+            "end": 374,
+            "callee": {
+              "type": "FunctionExpression",
+              "start": 349,
+              "end": 372,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 359,
+                "end": 372,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 361,
+                    "end": 367,
+                    "argument": null
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 368,
+                    "end": 370,
+                    "expression": {
+                      "type": "Literal",
+                      "start": 368,
+                      "end": 369,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 378,
+            "end": 387,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 391,
+            "end": 490,
+            "value": "#1: LineTerminator(U-000A) between return and Identifier_opt yields return without Identifier_opt",
+            "raw": "\"#1: LineTerminator(U-000A) between return and Identifier_opt yields return without Identifier_opt\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 495,
+      "end": 659,
+      "expression": {
+        "type": "CallExpression",
+        "start": 495,
+        "end": 658,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 495,
+          "end": 511,
+          "object": {
+            "type": "Identifier",
+            "start": 495,
+            "end": 501,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 502,
+            "end": 511,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 515,
+            "end": 540,
+            "callee": {
+              "type": "FunctionExpression",
+              "start": 515,
+              "end": 538,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 525,
+                "end": 538,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 527,
+                    "end": 533,
+                    "argument": null
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 534,
+                    "end": 536,
+                    "expression": {
+                      "type": "Literal",
+                      "start": 534,
+                      "end": 535,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 544,
+            "end": 553,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 557,
+            "end": 656,
+            "value": "#1: LineTerminator(U-000D) between return and Identifier_opt yields return without Identifier_opt",
+            "raw": "\"#1: LineTerminator(U-000D) between return and Identifier_opt yields return without Identifier_opt\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 662,
+      "end": 826,
+      "expression": {
+        "type": "CallExpression",
+        "start": 662,
+        "end": 825,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 662,
+          "end": 678,
+          "object": {
+            "type": "Identifier",
+            "start": 662,
+            "end": 668,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 678,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 682,
+            "end": 707,
+            "callee": {
+              "type": "FunctionExpression",
+              "start": 682,
+              "end": 705,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 692,
+                "end": 705,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 694,
+                    "end": 700,
+                    "argument": null
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 701,
+                    "end": 703,
+                    "expression": {
+                      "type": "Literal",
+                      "start": 701,
+                      "end": 702,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 711,
+            "end": 720,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 724,
+            "end": 823,
+            "value": "#1: LineTerminator(U-2028) between return and Identifier_opt yields return without Identifier_opt",
+            "raw": "\"#1: LineTerminator(U-2028) between return and Identifier_opt yields return without Identifier_opt\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 828,
+      "end": 992,
+      "expression": {
+        "type": "CallExpression",
+        "start": 828,
+        "end": 991,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 828,
+          "end": 844,
+          "object": {
+            "type": "Identifier",
+            "start": 828,
+            "end": 834,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 835,
+            "end": 844,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 848,
+            "end": 873,
+            "callee": {
+              "type": "FunctionExpression",
+              "start": 848,
+              "end": 871,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 858,
+                "end": 871,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 860,
+                    "end": 866,
+                    "argument": null
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 867,
+                    "end": 869,
+                    "expression": {
+                      "type": "Literal",
+                      "start": 867,
+                      "end": 868,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              }
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 877,
+            "end": 886,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 890,
+            "end": 989,
+            "value": "#1: LineTerminator(U-2029) between return and Identifier_opt yields return without Identifier_opt",
+            "raw": "\"#1: LineTerminator(U-2029) between return and Identifier_opt yields return without Identifier_opt\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

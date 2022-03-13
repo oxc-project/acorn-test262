@@ -1,0 +1,47 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 311,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 279,
+      "end": 310,
+      "expression": {
+        "type": "CallExpression",
+        "start": 279,
+        "end": 309,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 279,
+          "end": 303,
+          "object": {
+            "type": "Identifier",
+            "start": 279,
+            "end": 285,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 303,
+            "name": "preventExtensions"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 304,
+            "end": 308,
+            "value": true,
+            "raw": "true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

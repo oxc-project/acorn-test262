@@ -1,0 +1,615 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2125,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1332,
+      "end": 1674,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1338,
+          "end": 1673,
+          "id": {
+            "type": "Identifier",
+            "start": 1338,
+            "end": 1359,
+            "name": "validCollationOptions"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 1362,
+            "end": 1673,
+            "elements": [
+              {
+                "type": "ArrayExpression",
+                "start": 1366,
+                "end": 1388,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1367,
+                    "end": 1372,
+                    "value": "abc",
+                    "raw": "\"abc\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1374,
+                    "end": 1387,
+                    "value": "en-u-co-abc",
+                    "raw": "\"en-u-co-abc\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1392,
+                "end": 1416,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1393,
+                    "end": 1399,
+                    "value": "abcd",
+                    "raw": "\"abcd\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1401,
+                    "end": 1415,
+                    "value": "en-u-co-abcd",
+                    "raw": "\"en-u-co-abcd\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1420,
+                "end": 1446,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1421,
+                    "end": 1428,
+                    "value": "abcde",
+                    "raw": "\"abcde\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1430,
+                    "end": 1445,
+                    "value": "en-u-co-abcde",
+                    "raw": "\"en-u-co-abcde\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1450,
+                "end": 1478,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1451,
+                    "end": 1459,
+                    "value": "abcdef",
+                    "raw": "\"abcdef\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1461,
+                    "end": 1477,
+                    "value": "en-u-co-abcdef",
+                    "raw": "\"en-u-co-abcdef\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1482,
+                "end": 1512,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1483,
+                    "end": 1492,
+                    "value": "abcdefg",
+                    "raw": "\"abcdefg\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1494,
+                    "end": 1511,
+                    "value": "en-u-co-abcdefg",
+                    "raw": "\"en-u-co-abcdefg\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1516,
+                "end": 1548,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1517,
+                    "end": 1527,
+                    "value": "abcdefgh",
+                    "raw": "\"abcdefgh\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1529,
+                    "end": 1547,
+                    "value": "en-u-co-abcdefgh",
+                    "raw": "\"en-u-co-abcdefgh\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1552,
+                "end": 1584,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1553,
+                    "end": 1563,
+                    "value": "12345678",
+                    "raw": "\"12345678\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1565,
+                    "end": 1583,
+                    "value": "en-u-co-12345678",
+                    "raw": "\"en-u-co-12345678\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1588,
+                "end": 1620,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1589,
+                    "end": 1599,
+                    "value": "1234abcd",
+                    "raw": "\"1234abcd\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1601,
+                    "end": 1619,
+                    "value": "en-u-co-1234abcd",
+                    "raw": "\"en-u-co-1234abcd\""
+                  }
+                ]
+              },
+              {
+                "type": "ArrayExpression",
+                "start": 1624,
+                "end": 1670,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 1625,
+                    "end": 1642,
+                    "value": "1234abcd-abc123",
+                    "raw": "\"1234abcd-abc123\""
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 1644,
+                    "end": 1669,
+                    "value": "en-u-co-1234abcd-abc123",
+                    "raw": "\"en-u-co-1234abcd-abc123\""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 1675,
+      "end": 2124,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 1680,
+        "end": 1707,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 1686,
+            "end": 1707,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 1686,
+              "end": 1707,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 1687,
+                  "end": 1696,
+                  "name": "collation"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1698,
+                  "end": 1706,
+                  "name": "expected"
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 1711,
+        "end": 1732,
+        "name": "validCollationOptions"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 1734,
+        "end": 2124,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1738,
+            "end": 1915,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1738,
+              "end": 1914,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1738,
+                "end": 1754,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1738,
+                  "end": 1744,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1745,
+                  "end": 1754,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 1760,
+                  "end": 1805,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 1760,
+                    "end": 1803,
+                    "object": {
+                      "type": "NewExpression",
+                      "start": 1760,
+                      "end": 1794,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1764,
+                        "end": 1775,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1764,
+                          "end": 1768,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1769,
+                          "end": 1775,
+                          "name": "Locale"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1776,
+                          "end": 1780,
+                          "value": "en",
+                          "raw": "'en'"
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "start": 1782,
+                          "end": 1793,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 1783,
+                              "end": 1792,
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 1783,
+                                "end": 1792,
+                                "name": "collation"
+                              },
+                              "kind": "init",
+                              "value": {
+                                "type": "Identifier",
+                                "start": 1783,
+                                "end": 1792,
+                                "name": "collation"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1795,
+                      "end": 1803,
+                      "name": "toString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1811,
+                  "end": 1819,
+                  "name": "expected"
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 1825,
+                  "end": 1910,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1863,
+                      "end": 1872,
+                      "name": "collation"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1899,
+                      "end": 1907,
+                      "name": "expected"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 1826,
+                      "end": 1861,
+                      "value": {
+                        "raw": "new Intl.Locale('en', {collation: \"",
+                        "cooked": "new Intl.Locale('en', {collation: \""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1873,
+                      "end": 1897,
+                      "value": {
+                        "raw": "\"}).toString() returns \"",
+                        "cooked": "\"}).toString() returns \""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1908,
+                      "end": 1909,
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1919,
+            "end": 2122,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1919,
+              "end": 2121,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1919,
+                "end": 1935,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1919,
+                  "end": 1925,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1926,
+                  "end": 1935,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 1941,
+                  "end": 1999,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 1941,
+                    "end": 1997,
+                    "object": {
+                      "type": "NewExpression",
+                      "start": 1941,
+                      "end": 1988,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1945,
+                        "end": 1956,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1945,
+                          "end": 1949,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1950,
+                          "end": 1956,
+                          "name": "Locale"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1957,
+                          "end": 1974,
+                          "value": "en-u-co-gregory",
+                          "raw": "'en-u-co-gregory'"
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "start": 1976,
+                          "end": 1987,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 1977,
+                              "end": 1986,
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 1977,
+                                "end": 1986,
+                                "name": "collation"
+                              },
+                              "kind": "init",
+                              "value": {
+                                "type": "Identifier",
+                                "start": 1977,
+                                "end": 1986,
+                                "name": "collation"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1989,
+                      "end": 1997,
+                      "name": "toString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 2005,
+                  "end": 2013,
+                  "name": "expected"
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 2019,
+                  "end": 2117,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2070,
+                      "end": 2079,
+                      "name": "collation"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 2106,
+                      "end": 2114,
+                      "name": "expected"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 2020,
+                      "end": 2068,
+                      "value": {
+                        "raw": "new Intl.Locale('en-u-co-gregory', {collation: \"",
+                        "cooked": "new Intl.Locale('en-u-co-gregory', {collation: \""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 2080,
+                      "end": 2104,
+                      "value": {
+                        "raw": "\"}).toString() returns \"",
+                        "cooked": "\"}).toString() returns \""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 2115,
+                      "end": 2116,
+                      "value": {
+                        "raw": "\"",
+                        "cooked": "\""
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,216 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 969,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 783,
+      "end": 802,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 787,
+          "end": 801,
+          "id": {
+            "type": "Identifier",
+            "start": 787,
+            "end": 794,
+            "name": "initial"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 797,
+            "end": 801,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 804,
+      "end": 841,
+      "expression": {
+        "type": "CallExpression",
+        "start": 804,
+        "end": 840,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 804,
+          "end": 813,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 805,
+            "end": 812,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 805,
+                "end": 806,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 808,
+                "end": 812,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 814,
+            "end": 839,
+            "value": "initial = x; var x = 9;",
+            "raw": "'initial = x; var x = 9;'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 843,
+      "end": 871,
+      "expression": {
+        "type": "CallExpression",
+        "start": 843,
+        "end": 870,
+        "callee": {
+          "type": "Identifier",
+          "start": 843,
+          "end": 859,
+          "name": "verifyEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 860,
+            "end": 864
+          },
+          {
+            "type": "Literal",
+            "start": 866,
+            "end": 869,
+            "value": "x",
+            "raw": "'x'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 872,
+      "end": 898,
+      "expression": {
+        "type": "CallExpression",
+        "start": 872,
+        "end": 897,
+        "callee": {
+          "type": "Identifier",
+          "start": 872,
+          "end": 886,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 887,
+            "end": 891
+          },
+          {
+            "type": "Literal",
+            "start": 893,
+            "end": 896,
+            "value": "x",
+            "raw": "'x'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 899,
+      "end": 929,
+      "expression": {
+        "type": "CallExpression",
+        "start": 899,
+        "end": 928,
+        "callee": {
+          "type": "Identifier",
+          "start": 899,
+          "end": 917,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 918,
+            "end": 922
+          },
+          {
+            "type": "Literal",
+            "start": 924,
+            "end": 927,
+            "value": "x",
+            "raw": "'x'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 931,
+      "end": 968,
+      "expression": {
+        "type": "CallExpression",
+        "start": 931,
+        "end": 967,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 931,
+          "end": 947,
+          "object": {
+            "type": "Identifier",
+            "start": 931,
+            "end": 937,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 938,
+            "end": 947,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 948,
+            "end": 955,
+            "name": "initial"
+          },
+          {
+            "type": "Identifier",
+            "start": 957,
+            "end": 966,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

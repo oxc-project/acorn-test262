@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 805,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 747,
+      "end": 804,
+      "expression": {
+        "type": "CallExpression",
+        "start": 747,
+        "end": 803,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 747,
+          "end": 760,
+          "object": {
+            "type": "Identifier",
+            "start": 747,
+            "end": 753,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 754,
+            "end": 760,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 761,
+            "end": 770,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 772,
+            "end": 802,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 783,
+              "end": 802,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 787,
+                  "end": 800,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 787,
+                    "end": 799,
+                    "expressions": [
+                      {
+                        "type": "Literal",
+                        "start": 787,
+                        "end": 788,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "AssignmentExpression",
+                        "start": 790,
+                        "end": 799,
+                        "operator": "=",
+                        "left": {
+                          "type": "ObjectPattern",
+                          "start": 790,
+                          "end": 792,
+                          "properties": []
+                        },
+                        "right": {
+                          "type": "Literal",
+                          "start": 795,
+                          "end": 799,
+                          "value": null,
+                          "raw": "null"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

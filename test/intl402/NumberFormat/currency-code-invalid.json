@@ -1,0 +1,349 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 692,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 252,
+      "end": 373,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 256,
+          "end": 372,
+          "id": {
+            "type": "Identifier",
+            "start": 256,
+            "end": 276,
+            "name": "invalidCurrencyCodes"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 279,
+            "end": 372,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 285,
+                "end": 287,
+                "value": "",
+                "raw": "\"\""
+              },
+              {
+                "type": "Literal",
+                "start": 293,
+                "end": 296,
+                "value": "€",
+                "raw": "\"€\""
+              },
+              {
+                "type": "Literal",
+                "start": 302,
+                "end": 305,
+                "value": "$",
+                "raw": "\"$\""
+              },
+              {
+                "type": "Literal",
+                "start": 311,
+                "end": 317,
+                "value": "SFr.",
+                "raw": "\"SFr.\""
+              },
+              {
+                "type": "Literal",
+                "start": 323,
+                "end": 327,
+                "value": "DM",
+                "raw": "\"DM\""
+              },
+              {
+                "type": "Literal",
+                "start": 333,
+                "end": 338,
+                "value": "KR₩",
+                "raw": "\"KR₩\""
+              },
+              {
+                "type": "Literal",
+                "start": 344,
+                "end": 349,
+                "value": "702",
+                "raw": "\"702\""
+              },
+              {
+                "type": "Literal",
+                "start": 355,
+                "end": 359,
+                "value": "ßP",
+                "raw": "\"ßP\""
+              },
+              {
+                "type": "Literal",
+                "start": 365,
+                "end": 370,
+                "value": "ınr",
+                "raw": "\"ınr\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 375,
+      "end": 691,
+      "expression": {
+        "type": "CallExpression",
+        "start": 375,
+        "end": 690,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 375,
+          "end": 403,
+          "object": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 395,
+            "name": "invalidCurrencyCodes"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 403,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 404,
+            "end": 689,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 414,
+                "end": 418,
+                "name": "code"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 420,
+              "end": 689,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 491,
+                  "end": 687,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 491,
+                    "end": 686,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 491,
+                      "end": 504,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 491,
+                        "end": 497,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 498,
+                        "end": 504,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 505,
+                        "end": 515,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 517,
+                        "end": 627,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 528,
+                          "end": 627,
+                          "body": [
+                            {
+                              "type": "VariableDeclaration",
+                              "start": 538,
+                              "end": 621,
+                              "declarations": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "start": 542,
+                                  "end": 620,
+                                  "id": {
+                                    "type": "Identifier",
+                                    "start": 542,
+                                    "end": 548,
+                                    "name": "format"
+                                  },
+                                  "init": {
+                                    "type": "NewExpression",
+                                    "start": 551,
+                                    "end": 620,
+                                    "callee": {
+                                      "type": "MemberExpression",
+                                      "start": 555,
+                                      "end": 572,
+                                      "object": {
+                                        "type": "Identifier",
+                                        "start": 555,
+                                        "end": 559,
+                                        "name": "Intl"
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "start": 560,
+                                        "end": 572,
+                                        "name": "NumberFormat"
+                                      },
+                                      "computed": false,
+                                      "optional": false
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "ArrayExpression",
+                                        "start": 573,
+                                        "end": 582,
+                                        "elements": [
+                                          {
+                                            "type": "Literal",
+                                            "start": 574,
+                                            "end": 581,
+                                            "value": "de-de",
+                                            "raw": "\"de-de\""
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "ObjectExpression",
+                                        "start": 584,
+                                        "end": 619,
+                                        "properties": [
+                                          {
+                                            "type": "Property",
+                                            "start": 585,
+                                            "end": 602,
+                                            "method": false,
+                                            "shorthand": false,
+                                            "computed": false,
+                                            "key": {
+                                              "type": "Identifier",
+                                              "start": 585,
+                                              "end": 590,
+                                              "name": "style"
+                                            },
+                                            "value": {
+                                              "type": "Literal",
+                                              "start": 592,
+                                              "end": 602,
+                                              "value": "currency",
+                                              "raw": "\"currency\""
+                                            },
+                                            "kind": "init"
+                                          },
+                                          {
+                                            "type": "Property",
+                                            "start": 604,
+                                            "end": 618,
+                                            "method": false,
+                                            "shorthand": false,
+                                            "computed": false,
+                                            "key": {
+                                              "type": "Identifier",
+                                              "start": 604,
+                                              "end": 612,
+                                              "name": "currency"
+                                            },
+                                            "value": {
+                                              "type": "Identifier",
+                                              "start": 614,
+                                              "end": 618,
+                                              "name": "code"
+                                            },
+                                            "kind": "init"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "kind": "var"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "BinaryExpression",
+                        "start": 629,
+                        "end": 685,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 629,
+                          "end": 661,
+                          "left": {
+                            "type": "Literal",
+                            "start": 629,
+                            "end": 654,
+                            "value": "Invalid currency code '",
+                            "raw": "\"Invalid currency code '\""
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "start": 657,
+                            "end": 661,
+                            "name": "code"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 664,
+                          "end": 685,
+                          "value": "' was not rejected.",
+                          "raw": "\"' was not rejected.\""
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

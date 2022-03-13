@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 595,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 484,
+      "end": 522,
+      "expression": {
+        "type": "CallExpression",
+        "start": 484,
+        "end": 521,
+        "callee": {
+          "type": "Identifier",
+          "start": 484,
+          "end": 503,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 504,
+            "end": 508
+          },
+          {
+            "type": "Literal",
+            "start": 510,
+            "end": 520,
+            "value": "URIError",
+            "raw": "\"URIError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 523,
+      "end": 556,
+      "expression": {
+        "type": "CallExpression",
+        "start": 523,
+        "end": 555,
+        "callee": {
+          "type": "Identifier",
+          "start": 523,
+          "end": 537,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 538,
+            "end": 542
+          },
+          {
+            "type": "Literal",
+            "start": 544,
+            "end": 554,
+            "value": "URIError",
+            "raw": "\"URIError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 557,
+      "end": 594,
+      "expression": {
+        "type": "CallExpression",
+        "start": 557,
+        "end": 593,
+        "callee": {
+          "type": "Identifier",
+          "start": 557,
+          "end": 575,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 576,
+            "end": 580
+          },
+          {
+            "type": "Literal",
+            "start": 582,
+            "end": 592,
+            "value": "URIError",
+            "raw": "\"URIError\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

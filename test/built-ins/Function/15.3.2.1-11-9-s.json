@@ -1,0 +1,68 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 465,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 407,
+      "end": 464,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 411,
+          "end": 463,
+          "id": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 414,
+            "name": "foo"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 417,
+            "end": 463,
+            "callee": {
+              "type": "Identifier",
+              "start": 421,
+              "end": 429,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 430,
+                "end": 435,
+                "value": "baz",
+                "raw": "\"baz\""
+              },
+              {
+                "type": "Literal",
+                "start": 437,
+                "end": 442,
+                "value": "baz",
+                "raw": "\"baz\""
+              },
+              {
+                "type": "Literal",
+                "start": 444,
+                "end": 449,
+                "value": "baz",
+                "raw": "\"baz\""
+              },
+              {
+                "type": "Literal",
+                "start": 451,
+                "end": 462,
+                "value": "return 0;",
+                "raw": "\"return 0;\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

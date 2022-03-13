@@ -1,0 +1,597 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1606,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 917,
+      "end": 934,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 921,
+          "end": 933,
+          "id": {
+            "type": "Identifier",
+            "start": 921,
+            "end": 927,
+            "name": "regexp"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 930,
+            "end": 933,
+            "value": {},
+            "raw": "/./",
+            "regex": {
+              "pattern": ".",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 935,
+      "end": 963,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 939,
+          "end": 962,
+          "id": {
+            "type": "Identifier",
+            "start": 939,
+            "end": 957,
+            "name": "speciesConstructor"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 960,
+            "end": 962,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 964,
+      "end": 1004,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 964,
+        "end": 1003,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 964,
+          "end": 982,
+          "object": {
+            "type": "Identifier",
+            "start": 964,
+            "end": 970,
+            "name": "regexp"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 971,
+            "end": 982,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 985,
+          "end": 1003,
+          "name": "speciesConstructor"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1006,
+      "end": 1070,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1010,
+          "end": 1070,
+          "id": {
+            "type": "Identifier",
+            "start": 1010,
+            "end": 1022,
+            "name": "callMatchAll"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 1025,
+            "end": 1070,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1036,
+              "end": 1070,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1040,
+                  "end": 1068,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1040,
+                    "end": 1067,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1040,
+                      "end": 1063,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1040,
+                        "end": 1046,
+                        "name": "regexp"
+                      },
+                      "property": {
+                        "type": "MemberExpression",
+                        "start": 1047,
+                        "end": 1062,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1047,
+                          "end": 1053,
+                          "name": "Symbol"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1054,
+                          "end": 1062,
+                          "name": "matchAll"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "computed": true,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1064,
+                        "end": 1066,
+                        "value": "",
+                        "raw": "''"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1072,
+      "end": 1114,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1072,
+        "end": 1113,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1072,
+          "end": 1106,
+          "object": {
+            "type": "Identifier",
+            "start": 1072,
+            "end": 1090,
+            "name": "speciesConstructor"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 1091,
+            "end": 1105,
+            "object": {
+              "type": "Identifier",
+              "start": 1091,
+              "end": 1097,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1098,
+              "end": 1105,
+              "name": "species"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1109,
+          "end": 1113,
+          "value": true,
+          "raw": "true"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1115,
+      "end": 1204,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1115,
+        "end": 1203,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1115,
+          "end": 1128,
+          "object": {
+            "type": "Identifier",
+            "start": 1115,
+            "end": 1121,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1122,
+            "end": 1128,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1129,
+            "end": 1138,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 1140,
+            "end": 1152,
+            "name": "callMatchAll"
+          },
+          {
+            "type": "Literal",
+            "start": 1154,
+            "end": 1202,
+            "value": "`constructor[Symbol.species]` value is Boolean",
+            "raw": "\"`constructor[Symbol.species]` value is Boolean\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1206,
+      "end": 1245,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1206,
+        "end": 1244,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1206,
+          "end": 1240,
+          "object": {
+            "type": "Identifier",
+            "start": 1206,
+            "end": 1224,
+            "name": "speciesConstructor"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 1225,
+            "end": 1239,
+            "object": {
+              "type": "Identifier",
+              "start": 1225,
+              "end": 1231,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1232,
+              "end": 1239,
+              "name": "species"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1243,
+          "end": 1244,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1246,
+      "end": 1334,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1246,
+        "end": 1333,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1246,
+          "end": 1259,
+          "object": {
+            "type": "Identifier",
+            "start": 1246,
+            "end": 1252,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1253,
+            "end": 1259,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1260,
+            "end": 1269,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 1271,
+            "end": 1283,
+            "name": "callMatchAll"
+          },
+          {
+            "type": "Literal",
+            "start": 1285,
+            "end": 1332,
+            "value": "`constructor[Symbol.species]` value is Number",
+            "raw": "\"`constructor[Symbol.species]` value is Number\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1336,
+      "end": 1382,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1336,
+        "end": 1381,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1336,
+          "end": 1370,
+          "object": {
+            "type": "Identifier",
+            "start": 1336,
+            "end": 1354,
+            "name": "speciesConstructor"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 1355,
+            "end": 1369,
+            "object": {
+              "type": "Identifier",
+              "start": 1355,
+              "end": 1361,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1362,
+              "end": 1369,
+              "name": "species"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1373,
+          "end": 1381,
+          "callee": {
+            "type": "Identifier",
+            "start": 1373,
+            "end": 1379,
+            "name": "Symbol"
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1383,
+      "end": 1471,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1383,
+        "end": 1470,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1383,
+          "end": 1396,
+          "object": {
+            "type": "Identifier",
+            "start": 1383,
+            "end": 1389,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1390,
+            "end": 1396,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1397,
+            "end": 1406,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 1408,
+            "end": 1420,
+            "name": "callMatchAll"
+          },
+          {
+            "type": "Literal",
+            "start": 1422,
+            "end": 1469,
+            "value": "`constructor[Symbol.species]` value is Symbol",
+            "raw": "\"`constructor[Symbol.species]` value is Symbol\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1473,
+      "end": 1515,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1473,
+        "end": 1514,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1473,
+          "end": 1507,
+          "object": {
+            "type": "Identifier",
+            "start": 1473,
+            "end": 1491,
+            "name": "speciesConstructor"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 1492,
+            "end": 1506,
+            "object": {
+              "type": "Identifier",
+              "start": 1492,
+              "end": 1498,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1499,
+              "end": 1506,
+              "name": "species"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1510,
+          "end": 1514,
+          "value": true,
+          "raw": "true"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1516,
+      "end": 1605,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1516,
+        "end": 1604,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1516,
+          "end": 1529,
+          "object": {
+            "type": "Identifier",
+            "start": 1516,
+            "end": 1522,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1523,
+            "end": 1529,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1530,
+            "end": 1539,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 1541,
+            "end": 1553,
+            "name": "callMatchAll"
+          },
+          {
+            "type": "Literal",
+            "start": 1555,
+            "end": 1603,
+            "value": "`constructor[Symbol.species]` value is Boolean",
+            "raw": "\"`constructor[Symbol.species]` value is Boolean\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

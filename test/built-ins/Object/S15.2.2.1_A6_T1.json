@@ -1,0 +1,281 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 735,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 352,
+      "end": 382,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 356,
+          "end": 381,
+          "id": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 359,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 362,
+            "end": 381,
+            "callee": {
+              "type": "Identifier",
+              "start": 366,
+              "end": 372,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 373,
+                "end": 374,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 376,
+                "end": 377,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 379,
+                "end": 380,
+                "value": 3,
+                "raw": "3"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 384,
+      "end": 499,
+      "expression": {
+        "type": "CallExpression",
+        "start": 384,
+        "end": 498,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 384,
+          "end": 400,
+          "object": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 390,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 400,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 401,
+            "end": 416,
+            "object": {
+              "type": "Identifier",
+              "start": 401,
+              "end": 404,
+              "name": "obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 405,
+              "end": 416,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 418,
+            "end": 424,
+            "name": "Number"
+          },
+          {
+            "type": "Literal",
+            "start": 426,
+            "end": 497,
+            "value": "The value of obj.constructor is expected to equal the value of Number",
+            "raw": "'The value of obj.constructor is expected to equal the value of Number'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 500,
+      "end": 595,
+      "expression": {
+        "type": "CallExpression",
+        "start": 500,
+        "end": 594,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 500,
+          "end": 516,
+          "object": {
+            "type": "Identifier",
+            "start": 500,
+            "end": 506,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 507,
+            "end": 516,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 517,
+            "end": 527,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 524,
+              "end": 527,
+              "name": "obj"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 529,
+            "end": 537,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 539,
+            "end": 593,
+            "value": "The value of `typeof obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof obj` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 596,
+      "end": 675,
+      "expression": {
+        "type": "CallExpression",
+        "start": 596,
+        "end": 674,
+        "callee": {
+          "type": "Identifier",
+          "start": 596,
+          "end": 602,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 603,
+            "end": 611,
+            "left": {
+              "type": "Identifier",
+              "start": 603,
+              "end": 606,
+              "name": "obj"
+            },
+            "operator": "==",
+            "right": {
+              "type": "Literal",
+              "start": 610,
+              "end": 611,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 613,
+            "end": 673,
+            "value": "The result of evaluating (obj == 1) is expected to be true",
+            "raw": "'The result of evaluating (obj == 1) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 676,
+      "end": 733,
+      "expression": {
+        "type": "CallExpression",
+        "start": 676,
+        "end": 732,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 676,
+          "end": 695,
+          "object": {
+            "type": "Identifier",
+            "start": 676,
+            "end": 682,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 683,
+            "end": 695,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 696,
+            "end": 699,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 701,
+            "end": 702,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 704,
+            "end": 731,
+            "value": "The value of obj is not 1",
+            "raw": "'The value of obj is not 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

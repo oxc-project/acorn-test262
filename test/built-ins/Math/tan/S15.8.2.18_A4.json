@@ -1,0 +1,79 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 305,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 262,
+      "end": 304,
+      "expression": {
+        "type": "CallExpression",
+        "start": 262,
+        "end": 303,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 262,
+          "end": 278,
+          "object": {
+            "type": "Identifier",
+            "start": 262,
+            "end": 268,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 278,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 279,
+            "end": 297,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 279,
+              "end": 287,
+              "object": {
+                "type": "Identifier",
+                "start": 279,
+                "end": 283,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 284,
+                "end": 287,
+                "name": "tan"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 288,
+                "end": 296,
+                "name": "Infinity"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 299,
+            "end": 302,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

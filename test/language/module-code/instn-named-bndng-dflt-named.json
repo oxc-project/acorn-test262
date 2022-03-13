@@ -1,0 +1,206 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 673,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 479,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 479,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 479,
+          "end": 492,
+          "object": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 485,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 486,
+            "end": 492,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 493,
+            "end": 507,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 509,
+            "end": 535,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 520,
+              "end": 535,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 524,
+                  "end": 533,
+                  "expression": {
+                    "type": "UnaryExpression",
+                    "start": 524,
+                    "end": 532,
+                    "operator": "typeof",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 531,
+                      "end": 532,
+                      "name": "x"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 539,
+      "end": 570,
+      "expression": {
+        "type": "CallExpression",
+        "start": 539,
+        "end": 569,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 539,
+          "end": 555,
+          "object": {
+            "type": "Identifier",
+            "start": 539,
+            "end": 545,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 546,
+            "end": 555,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 556,
+            "end": 557,
+            "name": "y"
+          },
+          {
+            "type": "Identifier",
+            "start": 559,
+            "end": 568,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 572,
+      "end": 589,
+      "declaration": {
+        "type": "Literal",
+        "start": 587,
+        "end": 588,
+        "value": 3,
+        "raw": "3"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 590,
+      "end": 606,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 597,
+        "end": 606,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 601,
+            "end": 605,
+            "id": {
+              "type": "Identifier",
+              "start": 601,
+              "end": 605,
+              "name": "attr"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 607,
+      "end": 672,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 614,
+          "end": 615,
+          "local": {
+            "type": "Identifier",
+            "start": 614,
+            "end": 615,
+            "name": "x"
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 619,
+          "end": 628,
+          "imported": {
+            "type": "Identifier",
+            "start": 619,
+            "end": 623,
+            "name": "attr"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 627,
+            "end": 628,
+            "name": "y"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 636,
+        "end": 671,
+        "value": "./instn-named-bndng-dflt-named.js",
+        "raw": "'./instn-named-bndng-dflt-named.js'"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

@@ -1,0 +1,172 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1151,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 1039,
+      "end": 1089,
+      "id": {
+        "type": "Identifier",
+        "start": 1045,
+        "end": 1046,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 1047,
+        "end": 1089,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 1051,
+            "end": 1087,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 1051,
+              "end": 1053,
+              "name": "x"
+            },
+            "value": {
+              "type": "CallExpression",
+              "start": 1056,
+              "end": 1086,
+              "callee": {
+                "type": "ParenthesizedExpression",
+                "start": 1056,
+                "end": 1065,
+                "expression": {
+                  "type": "SequenceExpression",
+                  "start": 1057,
+                  "end": 1064,
+                  "expressions": [
+                    {
+                      "type": "Literal",
+                      "start": 1057,
+                      "end": 1058,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1060,
+                      "end": 1064,
+                      "name": "eval"
+                    }
+                  ]
+                }
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1066,
+                  "end": 1085,
+                  "value": "() => new.target;",
+                  "raw": "'() => new.target;'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1091,
+      "end": 1149,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1091,
+        "end": 1148,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1091,
+          "end": 1104,
+          "object": {
+            "type": "Identifier",
+            "start": 1091,
+            "end": 1097,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1098,
+            "end": 1104,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1105,
+            "end": 1116,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1118,
+            "end": 1147,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1129,
+              "end": 1147,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1133,
+                  "end": 1145,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1133,
+                    "end": 1144,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1133,
+                      "end": 1142,
+                      "object": {
+                        "type": "NewExpression",
+                        "start": 1133,
+                        "end": 1140,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1137,
+                          "end": 1138,
+                          "name": "C"
+                        },
+                        "arguments": []
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1141,
+                        "end": 1142,
+                        "name": "x"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

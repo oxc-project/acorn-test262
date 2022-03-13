@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 659,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 463,
+      "end": 604,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 467,
+          "end": 603,
+          "id": {
+            "type": "Identifier",
+            "start": 467,
+            "end": 468,
+            "name": "P"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 471,
+            "end": 603,
+            "callee": {
+              "type": "Identifier",
+              "start": 475,
+              "end": 480,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 481,
+                "end": 552,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 492,
+                  "end": 552,
+                  "body": [
+                    {
+                      "type": "ThrowStatement",
+                      "start": 496,
+                      "end": 550,
+                      "argument": {
+                        "type": "NewExpression",
+                        "start": 502,
+                        "end": 549,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 506,
+                          "end": 518,
+                          "name": "Test262Error"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 519,
+                            "end": 548,
+                            "value": "target should not be called",
+                            "raw": "'target should not be called'"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 554,
+                "end": 602,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 558,
+                    "end": 600,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 558,
+                      "end": 567,
+                      "name": "construct"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 569,
+                      "end": 600,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 580,
+                        "end": 600,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 586,
+                            "end": 596,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 593,
+                              "end": 595,
+                              "value": "",
+                              "raw": "\"\""
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 606,
+      "end": 658,
+      "expression": {
+        "type": "CallExpression",
+        "start": 606,
+        "end": 657,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 606,
+          "end": 619,
+          "object": {
+            "type": "Identifier",
+            "start": 606,
+            "end": 612,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 619,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 620,
+            "end": 629,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 631,
+            "end": 656,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 642,
+              "end": 656,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 646,
+                  "end": 654,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 646,
+                    "end": 653,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 650,
+                      "end": 651,
+                      "name": "P"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

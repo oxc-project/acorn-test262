@@ -1,0 +1,51 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 290,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 281,
+      "end": 287,
+      "body": [
+        {
+          "type": "ExpressionStatement",
+          "start": 282,
+          "end": 283,
+          "expression": {
+            "type": "Literal",
+            "start": 282,
+            "end": 283,
+            "value": 1,
+            "raw": "1"
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 285,
+          "end": 286,
+          "expression": {
+            "type": "Literal",
+            "start": 285,
+            "end": 286,
+            "value": 2,
+            "raw": "2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 288,
+      "end": 289,
+      "expression": {
+        "type": "Literal",
+        "start": 288,
+        "end": 289,
+        "value": 3,
+        "raw": "3"
+      }
+    }
+  ],
+  "sourceType": "script"
+}

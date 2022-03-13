@@ -1,0 +1,119 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 600,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 371,
+      "end": 491,
+      "block": {
+        "type": "BlockStatement",
+        "start": 375,
+        "end": 384,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 378,
+            "end": 382,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 378,
+              "end": 381,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 379,
+                "name": "x"
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 380,
+                "end": 381,
+                "name": "x"
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 385,
+        "end": 491,
+        "param": {
+          "type": "Identifier",
+          "start": 392,
+          "end": 393,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 395,
+          "end": 491,
+          "body": [
+            {
+              "type": "ThrowStatement",
+              "start": 398,
+              "end": 489,
+              "argument": {
+                "type": "NewExpression",
+                "start": 404,
+                "end": 488,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 408,
+                  "end": 420,
+                  "name": "Test262Error"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 421,
+                    "end": 487,
+                    "value": "#1: Declaration variable inside \"do-while\" statement is admitted",
+                    "raw": "'#1: Declaration variable inside \"do-while\" statement is admitted'"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "DoWhileStatement",
+      "start": 575,
+      "end": 599,
+      "body": {
+        "type": "VariableDeclaration",
+        "start": 578,
+        "end": 584,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 582,
+            "end": 583,
+            "id": {
+              "type": "Identifier",
+              "start": 582,
+              "end": 583,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "Literal",
+        "start": 592,
+        "end": 597,
+        "value": false,
+        "raw": "false"
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,137 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 379,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 232,
+      "end": 259,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 236,
+          "end": 258,
+          "id": {
+            "type": "Identifier",
+            "start": 236,
+            "end": 237,
+            "name": "p"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 240,
+            "end": 258,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 240,
+              "end": 255,
+              "object": {
+                "type": "Identifier",
+                "start": 240,
+                "end": 247,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 248,
+                "end": 255,
+                "name": "resolve"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 256,
+                "end": 257,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 261,
+      "end": 378,
+      "expression": {
+        "type": "CallExpression",
+        "start": 261,
+        "end": 377,
+        "callee": {
+          "type": "Identifier",
+          "start": 261,
+          "end": 267,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 271,
+            "end": 302,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 272,
+              "end": 302,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 273,
+                "end": 302,
+                "expression": {
+                  "type": "BinaryExpression",
+                  "start": 274,
+                  "end": 301,
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 274,
+                    "end": 281,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 274,
+                      "end": 275,
+                      "name": "p"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 276,
+                      "end": 281,
+                      "name": "catch"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "operator": "instanceof",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 293,
+                    "end": 301,
+                    "name": "Function"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 306,
+            "end": 375,
+            "value": "The value of !!(p.catch instanceof Function) is expected to be true",
+            "raw": "'The value of !!(p.catch instanceof Function) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

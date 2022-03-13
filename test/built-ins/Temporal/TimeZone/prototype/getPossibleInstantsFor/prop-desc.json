@@ -1,0 +1,237 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 638,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 335,
+      "end": 499,
+      "expression": {
+        "type": "CallExpression",
+        "start": 335,
+        "end": 498,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 335,
+          "end": 351,
+          "object": {
+            "type": "Identifier",
+            "start": 335,
+            "end": 341,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 342,
+            "end": 351,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 355,
+            "end": 412,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 362,
+              "end": 412,
+              "object": {
+                "type": "MemberExpression",
+                "start": 362,
+                "end": 389,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 362,
+                  "end": 379,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 362,
+                    "end": 370,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 371,
+                    "end": 379,
+                    "name": "TimeZone"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 380,
+                  "end": 389,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 390,
+                "end": 412,
+                "name": "getPossibleInstantsFor"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 416,
+            "end": 426,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 430,
+            "end": 496,
+            "value": "`typeof TimeZone.prototype.getPossibleInstantsFor` is `function`",
+            "raw": "\"`typeof TimeZone.prototype.getPossibleInstantsFor` is `function`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 501,
+      "end": 637,
+      "expression": {
+        "type": "CallExpression",
+        "start": 501,
+        "end": 636,
+        "callee": {
+          "type": "Identifier",
+          "start": 501,
+          "end": 515,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 516,
+            "end": 543,
+            "object": {
+              "type": "MemberExpression",
+              "start": 516,
+              "end": 533,
+              "object": {
+                "type": "Identifier",
+                "start": 516,
+                "end": 524,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 533,
+                "name": "TimeZone"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 534,
+              "end": 543,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 545,
+            "end": 569,
+            "value": "getPossibleInstantsFor",
+            "raw": "\"getPossibleInstantsFor\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 571,
+            "end": 635,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 575,
+                "end": 589,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 575,
+                  "end": 583,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 585,
+                  "end": 589,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 593,
+                "end": 610,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 593,
+                  "end": 603,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 605,
+                  "end": 610,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 614,
+                "end": 632,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 614,
+                  "end": 626,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 628,
+                  "end": 632,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

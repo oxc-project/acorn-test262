@@ -1,0 +1,177 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 788,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 448,
+      "end": 705,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 452,
+        "end": 527,
+        "left": {
+          "type": "CallExpression",
+          "start": 452,
+          "end": 512,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 452,
+            "end": 510,
+            "object": {
+              "type": "CallExpression",
+              "start": 452,
+              "end": 492,
+              "callee": {
+                "type": "FunctionExpression",
+                "start": 452,
+                "end": 490,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 463,
+                  "end": 490,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 469,
+                      "end": 486,
+                      "argument": {
+                        "type": "Literal",
+                        "start": 476,
+                        "end": 486,
+                        "value": "GnulLuNa",
+                        "raw": "\"GnulLuNa\""
+                      }
+                    }
+                  ]
+                }
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 493,
+              "end": 510,
+              "name": "toLocaleLowerCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 517,
+          "end": 527,
+          "value": "gnulluna",
+          "raw": "\"gnulluna\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 529,
+        "end": 705,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 533,
+            "end": 703,
+            "argument": {
+              "type": "NewExpression",
+              "start": 539,
+              "end": 702,
+              "callee": {
+                "type": "Identifier",
+                "start": 543,
+                "end": 555,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 556,
+                  "end": 701,
+                  "left": {
+                    "type": "Literal",
+                    "start": 556,
+                    "end": 638,
+                    "value": "#1: function(){return \"GnulLuNa\"}().toLocaleLowerCase() === \"gnulluna\". Actual: ",
+                    "raw": "'#1: function(){return \"GnulLuNa\"}().toLocaleLowerCase() === \"gnulluna\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 641,
+                    "end": 701,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 641,
+                      "end": 699,
+                      "object": {
+                        "type": "CallExpression",
+                        "start": 641,
+                        "end": 681,
+                        "callee": {
+                          "type": "FunctionExpression",
+                          "start": 641,
+                          "end": 679,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 652,
+                            "end": 679,
+                            "body": [
+                              {
+                                "type": "ReturnStatement",
+                                "start": 658,
+                                "end": 675,
+                                "argument": {
+                                  "type": "Literal",
+                                  "start": 665,
+                                  "end": 675,
+                                  "value": "GnulLuNa",
+                                  "raw": "\"GnulLuNa\""
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        "arguments": [],
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 682,
+                        "end": 699,
+                        "name": "toLocaleLowerCase"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

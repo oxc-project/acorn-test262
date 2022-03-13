@@ -1,0 +1,156 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 614,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 388,
+      "end": 431,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 392,
+          "end": 430,
+          "id": {
+            "type": "Identifier",
+            "start": 392,
+            "end": 395,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 398,
+            "end": 430,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 402,
+              "end": 419,
+              "object": {
+                "type": "Identifier",
+                "start": 402,
+                "end": 410,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 411,
+                "end": 419,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 420,
+                "end": 429,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 433,
+      "end": 613,
+      "expression": {
+        "type": "CallExpression",
+        "start": 433,
+        "end": 612,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 433,
+          "end": 446,
+          "object": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 439,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 440,
+            "end": 446,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 447,
+            "end": 457,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 463,
+            "end": 521,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 469,
+              "end": 521,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 469,
+                "end": 480,
+                "object": {
+                  "type": "Identifier",
+                  "start": 469,
+                  "end": 472,
+                  "name": "cal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 473,
+                  "end": 480,
+                  "name": "dateAdd"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 481,
+                  "end": 493,
+                  "value": "2020-02-03",
+                  "raw": "\"2020-02-03\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 495,
+                  "end": 520,
+                  "value": "invalid duration string",
+                  "raw": "\"invalid duration string\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 527,
+            "end": 611,
+            "value": "cal.dateAdd(\"2020-02-03\", \"invalid duration string\") throws a RangeError exception",
+            "raw": "'cal.dateAdd(\"2020-02-03\", \"invalid duration string\") throws a RangeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

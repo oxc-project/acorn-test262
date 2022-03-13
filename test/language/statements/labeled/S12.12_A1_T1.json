@@ -1,0 +1,269 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 585,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 353,
+      "end": 381,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 357,
+          "end": 380,
+          "id": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 363,
+            "name": "object"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 366,
+            "end": 380,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 367,
+                "end": 372,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 367,
+                  "end": 369,
+                  "name": "p1"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 371,
+                  "end": 372,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 374,
+                "end": 379,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 374,
+                  "end": 376,
+                  "name": "p2"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 378,
+                  "end": 379,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 382,
+      "end": 397,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 386,
+          "end": 396,
+          "id": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 392,
+            "name": "result"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 395,
+            "end": 396,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "LabeledStatement",
+      "start": 398,
+      "end": 462,
+      "body": {
+        "type": "ForInStatement",
+        "start": 403,
+        "end": 462,
+        "left": {
+          "type": "VariableDeclaration",
+          "start": 407,
+          "end": 412,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 411,
+              "end": 412,
+              "id": {
+                "type": "Identifier",
+                "start": 411,
+                "end": 412,
+                "name": "i"
+              },
+              "init": null
+            }
+          ],
+          "kind": "var"
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 416,
+          "end": 422,
+          "name": "object"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 423,
+          "end": 462,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 427,
+              "end": 447,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 427,
+                "end": 446,
+                "operator": "+=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 427,
+                  "end": 433,
+                  "name": "result"
+                },
+                "right": {
+                  "type": "MemberExpression",
+                  "start": 437,
+                  "end": 446,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 437,
+                    "end": 443,
+                    "name": "object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 444,
+                    "end": 445,
+                    "name": "i"
+                  },
+                  "computed": true,
+                  "optional": false
+                }
+              }
+            },
+            {
+              "type": "BreakStatement",
+              "start": 450,
+              "end": 460,
+              "label": {
+                "type": "Identifier",
+                "start": 456,
+                "end": 459,
+                "name": "lbl"
+              }
+            }
+          ]
+        }
+      },
+      "label": {
+        "type": "Identifier",
+        "start": 398,
+        "end": 401,
+        "name": "lbl"
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 464,
+      "end": 584,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 467,
+        "end": 482,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 468,
+          "end": 482,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 469,
+            "end": 481,
+            "left": {
+              "type": "Identifier",
+              "start": 469,
+              "end": 475,
+              "name": "result"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 480,
+              "end": 481,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 483,
+        "end": 584,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 487,
+            "end": 582,
+            "argument": {
+              "type": "NewExpression",
+              "start": 493,
+              "end": 581,
+              "callee": {
+                "type": "Identifier",
+                "start": 497,
+                "end": 509,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 510,
+                  "end": 580,
+                  "value": "'break label' should break execution of labelled iteration statement",
+                  "raw": "\"'break label' should break execution of labelled iteration statement\""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

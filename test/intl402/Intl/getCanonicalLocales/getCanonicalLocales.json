@@ -1,0 +1,176 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 655,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 509,
+      "expression": {
+        "type": "CallExpression",
+        "start": 388,
+        "end": 508,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 388,
+          "end": 404,
+          "object": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 394,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 404,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 408,
+            "end": 439,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 415,
+              "end": 439,
+              "object": {
+                "type": "Identifier",
+                "start": 415,
+                "end": 419,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 439,
+                "name": "getCanonicalLocales"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 443,
+            "end": 453,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 457,
+            "end": 506,
+            "value": "`typeof Intl.getCanonicalLocales` is `function`",
+            "raw": "'`typeof Intl.getCanonicalLocales` is `function`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 511,
+      "end": 560,
+      "expression": {
+        "type": "CallExpression",
+        "start": 511,
+        "end": 559,
+        "callee": {
+          "type": "Identifier",
+          "start": 511,
+          "end": 530,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 531,
+            "end": 535,
+            "name": "Intl"
+          },
+          {
+            "type": "Literal",
+            "start": 537,
+            "end": 558,
+            "value": "getCanonicalLocales",
+            "raw": "'getCanonicalLocales'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 561,
+      "end": 605,
+      "expression": {
+        "type": "CallExpression",
+        "start": 561,
+        "end": 604,
+        "callee": {
+          "type": "Identifier",
+          "start": 561,
+          "end": 575,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 576,
+            "end": 580,
+            "name": "Intl"
+          },
+          {
+            "type": "Literal",
+            "start": 582,
+            "end": 603,
+            "value": "getCanonicalLocales",
+            "raw": "'getCanonicalLocales'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 606,
+      "end": 654,
+      "expression": {
+        "type": "CallExpression",
+        "start": 606,
+        "end": 653,
+        "callee": {
+          "type": "Identifier",
+          "start": 606,
+          "end": 624,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 625,
+            "end": 629,
+            "name": "Intl"
+          },
+          {
+            "type": "Literal",
+            "start": 631,
+            "end": 652,
+            "value": "getCanonicalLocales",
+            "raw": "'getCanonicalLocales'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

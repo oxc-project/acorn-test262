@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 849,
+  "body": [
+    {
+      "type": "ForStatement",
+      "start": 789,
+      "end": 818,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 794,
+        "end": 805,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 798,
+            "end": 805,
+            "id": {
+              "type": "Identifier",
+              "start": 798,
+              "end": 805,
+              "name": "test262"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "Literal",
+        "start": 807,
+        "end": 812,
+        "value": false,
+        "raw": "false"
+      },
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 816,
+        "end": 818,
+        "body": []
+      }
+    },
+    {
+      "type": "ForStatement",
+      "start": 819,
+      "end": 848,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 824,
+        "end": 835,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 828,
+            "end": 835,
+            "id": {
+              "type": "Identifier",
+              "start": 828,
+              "end": 835,
+              "name": "test262"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "test": {
+        "type": "Literal",
+        "start": 837,
+        "end": 842,
+        "value": false,
+        "raw": "false"
+      },
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 846,
+        "end": 848,
+        "body": []
+      }
+    }
+  ],
+  "sourceType": "module"
+}

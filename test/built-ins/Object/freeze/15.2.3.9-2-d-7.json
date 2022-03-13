@@ -1,0 +1,136 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 344,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 223,
+      "end": 249,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 227,
+          "end": 248,
+          "id": {
+            "type": "Identifier",
+            "start": 227,
+            "end": 233,
+            "name": "regObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 236,
+            "end": 248,
+            "callee": {
+              "type": "Identifier",
+              "start": 240,
+              "end": 246,
+              "name": "RegExp"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 251,
+      "end": 273,
+      "expression": {
+        "type": "CallExpression",
+        "start": 251,
+        "end": 272,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 251,
+          "end": 264,
+          "object": {
+            "type": "Identifier",
+            "start": 251,
+            "end": 257,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 258,
+            "end": 264,
+            "name": "freeze"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 265,
+            "end": 271,
+            "name": "regObj"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 275,
+      "end": 343,
+      "expression": {
+        "type": "CallExpression",
+        "start": 275,
+        "end": 342,
+        "callee": {
+          "type": "Identifier",
+          "start": 275,
+          "end": 281,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 282,
+            "end": 305,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 282,
+              "end": 297,
+              "object": {
+                "type": "Identifier",
+                "start": 282,
+                "end": 288,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 297,
+                "name": "isFrozen"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 298,
+                "end": 304,
+                "name": "regObj"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 307,
+            "end": 341,
+            "value": "Object.isFrozen(regObj) !== true",
+            "raw": "'Object.isFrozen(regObj) !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,115 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 736,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 662,
+      "end": 735,
+      "expression": {
+        "type": "CallExpression",
+        "start": 662,
+        "end": 734,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 662,
+          "end": 675,
+          "object": {
+            "type": "Identifier",
+            "start": 662,
+            "end": 668,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 669,
+            "end": 675,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 676,
+            "end": 685,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 687,
+            "end": 733,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 693,
+              "end": 733,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 697,
+                  "end": 731,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 697,
+                    "end": 730,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 697,
+                      "end": 718,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 697,
+                        "end": 703,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 704,
+                        "end": 718,
+                        "name": "defineProperty"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 719,
+                        "end": 721,
+                        "properties": []
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 723,
+                        "end": 726,
+                        "value": "a",
+                        "raw": "'a'"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 728,
+                        "end": 729,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

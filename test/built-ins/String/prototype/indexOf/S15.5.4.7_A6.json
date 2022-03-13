@@ -1,0 +1,154 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 638,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 369,
+      "end": 555,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 373,
+        "end": 421,
+        "left": {
+          "type": "MemberExpression",
+          "start": 373,
+          "end": 407,
+          "object": {
+            "type": "MemberExpression",
+            "start": 373,
+            "end": 397,
+            "object": {
+              "type": "MemberExpression",
+              "start": 373,
+              "end": 389,
+              "object": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 379,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 380,
+                "end": 389,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 390,
+              "end": 397,
+              "name": "indexOf"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 407,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 412,
+          "end": 421,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 423,
+        "end": 555,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 427,
+            "end": 553,
+            "argument": {
+              "type": "NewExpression",
+              "start": 433,
+              "end": 552,
+              "callee": {
+                "type": "Identifier",
+                "start": 437,
+                "end": 449,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 450,
+                  "end": 551,
+                  "left": {
+                    "type": "Literal",
+                    "start": 450,
+                    "end": 514,
+                    "value": "#1: String.prototype.indexOf.prototype === undefined. Actual: ",
+                    "raw": "'#1: String.prototype.indexOf.prototype === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 517,
+                    "end": 551,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 517,
+                      "end": 541,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 517,
+                        "end": 533,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 517,
+                          "end": 523,
+                          "name": "String"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 524,
+                          "end": 533,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 534,
+                        "end": 541,
+                        "name": "indexOf"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 542,
+                      "end": 551,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,106 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 930,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 829,
+      "end": 929,
+      "expression": {
+        "type": "CallExpression",
+        "start": 829,
+        "end": 928,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 829,
+          "end": 845,
+          "object": {
+            "type": "Identifier",
+            "start": 829,
+            "end": 835,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 836,
+            "end": 845,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 846,
+            "end": 862,
+            "callee": {
+              "type": "Identifier",
+              "start": 846,
+              "end": 852,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 853,
+                "end": 861,
+                "value": "᠎",
+                "raw": "'\\u180E'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 864,
+            "end": 867,
+            "name": "NaN"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 869,
+            "end": 927,
+            "left": {
+              "type": "Literal",
+              "start": 869,
+              "end": 906,
+              "value": "Number(\"\\u180E\") === NaN. Actual: ",
+              "raw": "'Number(\"\\\\u180E\") === NaN. Actual: '"
+            },
+            "operator": "+",
+            "right": {
+              "type": "ParenthesizedExpression",
+              "start": 909,
+              "end": 927,
+              "expression": {
+                "type": "CallExpression",
+                "start": 910,
+                "end": 926,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 910,
+                  "end": 916,
+                  "name": "Number"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 917,
+                    "end": 925,
+                    "value": "᠎",
+                    "raw": "\"\\u180E\""
+                  }
+                ],
+                "optional": false
+              }
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

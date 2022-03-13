@@ -1,0 +1,75 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 830,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 703,
+      "end": 829,
+      "expression": {
+        "type": "CallExpression",
+        "start": 703,
+        "end": 828,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 703,
+          "end": 719,
+          "object": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 709,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 719,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 723,
+            "end": 742,
+            "callee": {
+              "type": "Identifier",
+              "start": 723,
+              "end": 729,
+              "name": "escape"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 730,
+                "end": 741,
+                "value": "𐐁",
+                "raw": "'\\u{10401}'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 744,
+            "end": 758,
+            "value": "%uD801%uDC01",
+            "raw": "'%uD801%uDC01'"
+          },
+          {
+            "type": "Literal",
+            "start": 760,
+            "end": 826,
+            "value": "\\u{10401} => \\uD801\\uDC01 (surrogate pairs encoded in string)",
+            "raw": "'\\\\u{10401} => \\\\uD801\\\\uDC01 (surrogate pairs encoded in string)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

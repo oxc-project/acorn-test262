@@ -1,0 +1,1046 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1718,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 516,
+      "end": 559,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 520,
+          "end": 558,
+          "id": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 523,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 526,
+            "end": 558,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 530,
+              "end": 547,
+              "object": {
+                "type": "Identifier",
+                "start": 530,
+                "end": 538,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 539,
+                "end": 547,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 548,
+                "end": 557,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 561,
+      "end": 621,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 565,
+          "end": 620,
+          "id": {
+            "type": "Identifier",
+            "start": 565,
+            "end": 567,
+            "name": "dt"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 570,
+            "end": 620,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 574,
+              "end": 596,
+              "object": {
+                "type": "Identifier",
+                "start": 574,
+                "end": 582,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 583,
+                "end": 596,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 597,
+                "end": 601,
+                "value": 1997,
+                "raw": "1997"
+              },
+              {
+                "type": "Literal",
+                "start": 603,
+                "end": 604,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 606,
+                "end": 608,
+                "value": 23,
+                "raw": "23"
+              },
+              {
+                "type": "Literal",
+                "start": 610,
+                "end": 611,
+                "value": 5,
+                "raw": "5"
+              },
+              {
+                "type": "Literal",
+                "start": 613,
+                "end": 615,
+                "value": 30,
+                "raw": "30"
+              },
+              {
+                "type": "Literal",
+                "start": 617,
+                "end": 619,
+                "value": 13,
+                "raw": "13"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 622,
+      "end": 754,
+      "expression": {
+        "type": "CallExpression",
+        "start": 622,
+        "end": 753,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 622,
+          "end": 638,
+          "object": {
+            "type": "Identifier",
+            "start": 622,
+            "end": 628,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 629,
+            "end": 638,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 642,
+            "end": 659,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 642,
+              "end": 655,
+              "object": {
+                "type": "Identifier",
+                "start": 642,
+                "end": 645,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 646,
+                "end": 655,
+                "name": "dayOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 656,
+                "end": 658,
+                "name": "dt"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 663,
+            "end": 665,
+            "value": 23,
+            "raw": "23"
+          },
+          {
+            "type": "Literal",
+            "start": 669,
+            "end": 751,
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 1, 23, 5, 30, 13)) must return 23",
+            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1997, 1, 23, 5, 30, 13)) must return 23'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 756,
+      "end": 812,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 756,
+        "end": 811,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 756,
+          "end": 758,
+          "name": "dt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 761,
+          "end": 811,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 765,
+            "end": 787,
+            "object": {
+              "type": "Identifier",
+              "start": 765,
+              "end": 773,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 774,
+              "end": 787,
+              "name": "PlainDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 788,
+              "end": 792,
+              "value": 1997,
+              "raw": "1997"
+            },
+            {
+              "type": "Literal",
+              "start": 794,
+              "end": 795,
+              "value": 2,
+              "raw": "2"
+            },
+            {
+              "type": "Literal",
+              "start": 797,
+              "end": 799,
+              "value": 23,
+              "raw": "23"
+            },
+            {
+              "type": "Literal",
+              "start": 801,
+              "end": 802,
+              "value": 5,
+              "raw": "5"
+            },
+            {
+              "type": "Literal",
+              "start": 804,
+              "end": 806,
+              "value": 30,
+              "raw": "30"
+            },
+            {
+              "type": "Literal",
+              "start": 808,
+              "end": 810,
+              "value": 13,
+              "raw": "13"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 813,
+      "end": 945,
+      "expression": {
+        "type": "CallExpression",
+        "start": 813,
+        "end": 944,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 813,
+          "end": 829,
+          "object": {
+            "type": "Identifier",
+            "start": 813,
+            "end": 819,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 820,
+            "end": 829,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 833,
+            "end": 850,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 833,
+              "end": 846,
+              "object": {
+                "type": "Identifier",
+                "start": 833,
+                "end": 836,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 837,
+                "end": 846,
+                "name": "dayOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 847,
+                "end": 849,
+                "name": "dt"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 854,
+            "end": 856,
+            "value": 54,
+            "raw": "54"
+          },
+          {
+            "type": "Literal",
+            "start": 860,
+            "end": 942,
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 2, 23, 5, 30, 13)) must return 54",
+            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1997, 2, 23, 5, 30, 13)) must return 54'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 947,
+      "end": 1003,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 947,
+        "end": 1002,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 947,
+          "end": 949,
+          "name": "dt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 952,
+          "end": 1002,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 956,
+            "end": 978,
+            "object": {
+              "type": "Identifier",
+              "start": 956,
+              "end": 964,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 965,
+              "end": 978,
+              "name": "PlainDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 979,
+              "end": 983,
+              "value": 1996,
+              "raw": "1996"
+            },
+            {
+              "type": "Literal",
+              "start": 985,
+              "end": 986,
+              "value": 3,
+              "raw": "3"
+            },
+            {
+              "type": "Literal",
+              "start": 988,
+              "end": 990,
+              "value": 23,
+              "raw": "23"
+            },
+            {
+              "type": "Literal",
+              "start": 992,
+              "end": 993,
+              "value": 5,
+              "raw": "5"
+            },
+            {
+              "type": "Literal",
+              "start": 995,
+              "end": 997,
+              "value": 30,
+              "raw": "30"
+            },
+            {
+              "type": "Literal",
+              "start": 999,
+              "end": 1001,
+              "value": 13,
+              "raw": "13"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1004,
+      "end": 1136,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1004,
+        "end": 1135,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1004,
+          "end": 1020,
+          "object": {
+            "type": "Identifier",
+            "start": 1004,
+            "end": 1010,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1011,
+            "end": 1020,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1024,
+            "end": 1041,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1024,
+              "end": 1037,
+              "object": {
+                "type": "Identifier",
+                "start": 1024,
+                "end": 1027,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1028,
+                "end": 1037,
+                "name": "dayOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1038,
+                "end": 1040,
+                "name": "dt"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1045,
+            "end": 1047,
+            "value": 83,
+            "raw": "83"
+          },
+          {
+            "type": "Literal",
+            "start": 1051,
+            "end": 1133,
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1996, 3, 23, 5, 30, 13)) must return 83",
+            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1996, 3, 23, 5, 30, 13)) must return 83'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1138,
+      "end": 1194,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1138,
+        "end": 1193,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1138,
+          "end": 1140,
+          "name": "dt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 1143,
+          "end": 1193,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1147,
+            "end": 1169,
+            "object": {
+              "type": "Identifier",
+              "start": 1147,
+              "end": 1155,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1156,
+              "end": 1169,
+              "name": "PlainDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1170,
+              "end": 1174,
+              "value": 1997,
+              "raw": "1997"
+            },
+            {
+              "type": "Literal",
+              "start": 1176,
+              "end": 1177,
+              "value": 3,
+              "raw": "3"
+            },
+            {
+              "type": "Literal",
+              "start": 1179,
+              "end": 1181,
+              "value": 23,
+              "raw": "23"
+            },
+            {
+              "type": "Literal",
+              "start": 1183,
+              "end": 1184,
+              "value": 5,
+              "raw": "5"
+            },
+            {
+              "type": "Literal",
+              "start": 1186,
+              "end": 1188,
+              "value": 30,
+              "raw": "30"
+            },
+            {
+              "type": "Literal",
+              "start": 1190,
+              "end": 1192,
+              "value": 13,
+              "raw": "13"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1195,
+      "end": 1327,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1195,
+        "end": 1326,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1195,
+          "end": 1211,
+          "object": {
+            "type": "Identifier",
+            "start": 1195,
+            "end": 1201,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1202,
+            "end": 1211,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1215,
+            "end": 1232,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1215,
+              "end": 1228,
+              "object": {
+                "type": "Identifier",
+                "start": 1215,
+                "end": 1218,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1219,
+                "end": 1228,
+                "name": "dayOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1229,
+                "end": 1231,
+                "name": "dt"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1236,
+            "end": 1238,
+            "value": 82,
+            "raw": "82"
+          },
+          {
+            "type": "Literal",
+            "start": 1242,
+            "end": 1324,
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 3, 23, 5, 30, 13)) must return 82",
+            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1997, 3, 23, 5, 30, 13)) must return 82'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1329,
+      "end": 1386,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1329,
+        "end": 1385,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1329,
+          "end": 1331,
+          "name": "dt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 1334,
+          "end": 1385,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1338,
+            "end": 1360,
+            "object": {
+              "type": "Identifier",
+              "start": 1338,
+              "end": 1346,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1347,
+              "end": 1360,
+              "name": "PlainDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1361,
+              "end": 1365,
+              "value": 1997,
+              "raw": "1997"
+            },
+            {
+              "type": "Literal",
+              "start": 1367,
+              "end": 1369,
+              "value": 12,
+              "raw": "12"
+            },
+            {
+              "type": "Literal",
+              "start": 1371,
+              "end": 1373,
+              "value": 31,
+              "raw": "31"
+            },
+            {
+              "type": "Literal",
+              "start": 1375,
+              "end": 1376,
+              "value": 5,
+              "raw": "5"
+            },
+            {
+              "type": "Literal",
+              "start": 1378,
+              "end": 1380,
+              "value": 30,
+              "raw": "30"
+            },
+            {
+              "type": "Literal",
+              "start": 1382,
+              "end": 1384,
+              "value": 13,
+              "raw": "13"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1387,
+      "end": 1522,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1387,
+        "end": 1521,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1387,
+          "end": 1403,
+          "object": {
+            "type": "Identifier",
+            "start": 1387,
+            "end": 1393,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1394,
+            "end": 1403,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1407,
+            "end": 1424,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1407,
+              "end": 1420,
+              "object": {
+                "type": "Identifier",
+                "start": 1407,
+                "end": 1410,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1411,
+                "end": 1420,
+                "name": "dayOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1421,
+                "end": 1423,
+                "name": "dt"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1428,
+            "end": 1431,
+            "value": 365,
+            "raw": "365"
+          },
+          {
+            "type": "Literal",
+            "start": 1435,
+            "end": 1519,
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1997, 12, 31, 5, 30, 13)) must return 365",
+            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1997, 12, 31, 5, 30, 13)) must return 365'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1524,
+      "end": 1581,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1524,
+        "end": 1580,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1524,
+          "end": 1526,
+          "name": "dt"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 1529,
+          "end": 1580,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1533,
+            "end": 1555,
+            "object": {
+              "type": "Identifier",
+              "start": 1533,
+              "end": 1541,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1542,
+              "end": 1555,
+              "name": "PlainDateTime"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 1556,
+              "end": 1560,
+              "value": 1996,
+              "raw": "1996"
+            },
+            {
+              "type": "Literal",
+              "start": 1562,
+              "end": 1564,
+              "value": 12,
+              "raw": "12"
+            },
+            {
+              "type": "Literal",
+              "start": 1566,
+              "end": 1568,
+              "value": 31,
+              "raw": "31"
+            },
+            {
+              "type": "Literal",
+              "start": 1570,
+              "end": 1571,
+              "value": 5,
+              "raw": "5"
+            },
+            {
+              "type": "Literal",
+              "start": 1573,
+              "end": 1575,
+              "value": 30,
+              "raw": "30"
+            },
+            {
+              "type": "Literal",
+              "start": 1577,
+              "end": 1579,
+              "value": 13,
+              "raw": "13"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1582,
+      "end": 1717,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1582,
+        "end": 1716,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1582,
+          "end": 1598,
+          "object": {
+            "type": "Identifier",
+            "start": 1582,
+            "end": 1588,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1589,
+            "end": 1598,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1602,
+            "end": 1619,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1602,
+              "end": 1615,
+              "object": {
+                "type": "Identifier",
+                "start": 1602,
+                "end": 1605,
+                "name": "cal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1606,
+                "end": 1615,
+                "name": "dayOfYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1616,
+                "end": 1618,
+                "name": "dt"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1623,
+            "end": 1626,
+            "value": 366,
+            "raw": "366"
+          },
+          {
+            "type": "Literal",
+            "start": 1630,
+            "end": 1714,
+            "value": "cal.dayOfYear(new Temporal.PlainDateTime(1996, 12, 31, 5, 30, 13)) must return 366",
+            "raw": "'cal.dayOfYear(new Temporal.PlainDateTime(1996, 12, 31, 5, 30, 13)) must return 366'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

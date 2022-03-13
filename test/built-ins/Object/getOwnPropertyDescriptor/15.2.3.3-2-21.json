@@ -1,0 +1,181 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 428,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 295,
+      "end": 322,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 299,
+          "end": 321,
+          "id": {
+            "type": "Identifier",
+            "start": 299,
+            "end": 302,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 305,
+            "end": 321,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 309,
+                "end": 319,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 309,
+                  "end": 316,
+                  "value": "1e+22",
+                  "raw": "\"1e+22\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 318,
+                  "end": 319,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 324,
+      "end": 379,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 328,
+          "end": 378,
+          "id": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 332,
+            "name": "desc"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 335,
+            "end": 378,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 335,
+              "end": 366,
+              "object": {
+                "type": "Identifier",
+                "start": 335,
+                "end": 341,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 366,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 367,
+                "end": 370,
+                "name": "obj"
+              },
+              {
+                "type": "Literal",
+                "start": 372,
+                "end": 377,
+                "value": 1e+22,
+                "raw": "1e+22"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 381,
+      "end": 427,
+      "expression": {
+        "type": "CallExpression",
+        "start": 381,
+        "end": 426,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 381,
+          "end": 397,
+          "object": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 387,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 397,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 398,
+            "end": 408,
+            "object": {
+              "type": "Identifier",
+              "start": 398,
+              "end": 402,
+              "name": "desc"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 403,
+              "end": 408,
+              "name": "value"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 410,
+            "end": 411,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 413,
+            "end": 425,
+            "value": "desc.value",
+            "raw": "'desc.value'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

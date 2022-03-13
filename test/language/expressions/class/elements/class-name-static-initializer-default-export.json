@@ -1,0 +1,140 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 707,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 585,
+      "end": 599,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 589,
+          "end": 598,
+          "id": {
+            "type": "Identifier",
+            "start": 589,
+            "end": 598,
+            "name": "className"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 601,
+      "end": 665,
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 616,
+        "end": 665,
+        "id": null,
+        "superClass": null,
+        "body": {
+          "type": "ClassBody",
+          "start": 622,
+          "end": 665,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 628,
+              "end": 663,
+              "static": true,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 635,
+                "end": 636,
+                "name": "f"
+              },
+              "value": {
+                "type": "ParenthesizedExpression",
+                "start": 639,
+                "end": 662,
+                "expression": {
+                  "type": "AssignmentExpression",
+                  "start": 640,
+                  "end": 661,
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 640,
+                    "end": 649,
+                    "name": "className"
+                  },
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 652,
+                    "end": 661,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 652,
+                      "end": 656
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 657,
+                      "end": 661,
+                      "name": "name"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 667,
+      "end": 706,
+      "expression": {
+        "type": "CallExpression",
+        "start": 667,
+        "end": 705,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 667,
+          "end": 683,
+          "object": {
+            "type": "Identifier",
+            "start": 667,
+            "end": 673,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 674,
+            "end": 683,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 684,
+            "end": 693,
+            "name": "className"
+          },
+          {
+            "type": "Literal",
+            "start": 695,
+            "end": 704,
+            "value": "default",
+            "raw": "\"default\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

@@ -1,0 +1,57 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 498,
+  "body": [
+    {
+      "type": "ForStatement",
+      "start": 464,
+      "end": 483,
+      "init": null,
+      "test": {
+        "type": "Literal",
+        "start": 471,
+        "end": 476,
+        "value": false,
+        "raw": "false"
+      },
+      "update": null,
+      "body": {
+        "type": "ExpressionStatement",
+        "start": 480,
+        "end": 483,
+        "expression": {
+          "type": "Identifier",
+          "start": 480,
+          "end": 483,
+          "name": "let"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 491,
+      "end": 497,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 491,
+        "end": 496,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 491,
+          "end": 492,
+          "name": "x"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 495,
+          "end": 496,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

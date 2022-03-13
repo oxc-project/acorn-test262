@@ -1,0 +1,154 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 847,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 739,
+      "end": 764,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 739,
+        "end": 763,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 739,
+          "end": 756,
+          "object": {
+            "type": "MemberExpression",
+            "start": 739,
+            "end": 752,
+            "object": {
+              "type": "Identifier",
+              "start": 739,
+              "end": 742,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 743,
+              "end": 752,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 753,
+            "end": 756,
+            "name": "set"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 759,
+          "end": 763,
+          "value": null,
+          "raw": "null"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 766,
+      "end": 784,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 770,
+          "end": 783,
+          "id": {
+            "type": "Identifier",
+            "start": 770,
+            "end": 771,
+            "name": "m"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 774,
+            "end": 783,
+            "callee": {
+              "type": "Identifier",
+              "start": 778,
+              "end": 781,
+              "name": "Map"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 786,
+      "end": 846,
+      "expression": {
+        "type": "CallExpression",
+        "start": 786,
+        "end": 845,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 786,
+          "end": 802,
+          "object": {
+            "type": "Identifier",
+            "start": 786,
+            "end": 792,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 793,
+            "end": 802,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 803,
+            "end": 809,
+            "object": {
+              "type": "Identifier",
+              "start": 803,
+              "end": 804,
+              "name": "m"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 805,
+              "end": 809,
+              "name": "size"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 811,
+            "end": 812,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 814,
+            "end": 844,
+            "value": "The value of `m.size` is `0`",
+            "raw": "'The value of `m.size` is `0`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

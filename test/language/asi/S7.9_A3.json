@@ -1,0 +1,209 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 589,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 288,
+      "end": 317,
+      "id": {
+        "type": "Identifier",
+        "start": 297,
+        "end": 299,
+        "name": "f1"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 302,
+        "end": 317,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 306,
+            "end": 315,
+            "argument": {
+              "type": "Literal",
+              "start": 313,
+              "end": 314,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 318,
+      "end": 427,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 322,
+        "end": 332,
+        "left": {
+          "type": "CallExpression",
+          "start": 322,
+          "end": 326,
+          "callee": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 324,
+            "name": "f1"
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 331,
+          "end": 332,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 334,
+        "end": 427,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 338,
+            "end": 425,
+            "argument": {
+              "type": "NewExpression",
+              "start": 344,
+              "end": 424,
+              "callee": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 360,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 361,
+                  "end": 423,
+                  "value": "#1: Check return statement for automatic semicolon insertion",
+                  "raw": "'#1: Check return statement for automatic semicolon insertion'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 439,
+      "end": 470,
+      "id": {
+        "type": "Identifier",
+        "start": 448,
+        "end": 450,
+        "name": "f2"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 453,
+        "end": 470,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 457,
+            "end": 463,
+            "argument": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 466,
+            "end": 468,
+            "expression": {
+              "type": "Literal",
+              "start": 466,
+              "end": 467,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 471,
+      "end": 588,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 475,
+        "end": 493,
+        "left": {
+          "type": "CallExpression",
+          "start": 475,
+          "end": 479,
+          "callee": {
+            "type": "Identifier",
+            "start": 475,
+            "end": 477,
+            "name": "f2"
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 484,
+          "end": 493,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 495,
+        "end": 588,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 499,
+            "end": 586,
+            "argument": {
+              "type": "NewExpression",
+              "start": 505,
+              "end": 585,
+              "callee": {
+                "type": "Identifier",
+                "start": 509,
+                "end": 521,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 522,
+                  "end": 584,
+                  "value": "#2: Check return statement for automatic semicolon insertion",
+                  "raw": "'#2: Check return statement for automatic semicolon insertion'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 534,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 387,
+      "end": 404,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 391,
+          "end": 403,
+          "id": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 392,
+            "name": "x"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 395,
+            "end": 403,
+            "callee": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 400,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 401,
+                "end": 402,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 406,
+      "end": 473,
+      "expression": {
+        "type": "CallExpression",
+        "start": 406,
+        "end": 472,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 406,
+          "end": 425,
+          "object": {
+            "type": "Identifier",
+            "start": 406,
+            "end": 412,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 413,
+            "end": 425,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 426,
+            "end": 434,
+            "object": {
+              "type": "Identifier",
+              "start": 426,
+              "end": 427,
+              "name": "x"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 428,
+              "end": 434,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 436,
+            "end": 437,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 439,
+            "end": 471,
+            "value": "The value of x.length is not 1",
+            "raw": "'The value of x.length is not 1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 474,
+      "end": 533,
+      "expression": {
+        "type": "CallExpression",
+        "start": 474,
+        "end": 532,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 474,
+          "end": 493,
+          "object": {
+            "type": "Identifier",
+            "start": 474,
+            "end": 480,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 481,
+            "end": 493,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 494,
+            "end": 498,
+            "object": {
+              "type": "Identifier",
+              "start": 494,
+              "end": 495,
+              "name": "x"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 496,
+              "end": 497,
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 500,
+            "end": 501,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 503,
+            "end": 531,
+            "value": "The value of x[0] is not 2",
+            "raw": "'The value of x[0] is not 2'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

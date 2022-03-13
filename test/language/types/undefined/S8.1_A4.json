@@ -1,0 +1,129 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 441,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 276,
+      "end": 440,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 280,
+        "end": 320,
+        "left": {
+          "type": "MemberExpression",
+          "start": 280,
+          "end": 306,
+          "object": {
+            "type": "ParenthesizedExpression",
+            "start": 280,
+            "end": 294,
+            "expression": {
+              "type": "NewExpression",
+              "start": 281,
+              "end": 293,
+              "callee": {
+                "type": "Identifier",
+                "start": 285,
+                "end": 291,
+                "name": "Object"
+              },
+              "arguments": []
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 306,
+            "name": "newProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 311,
+          "end": 320,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 322,
+        "end": 440,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 326,
+            "end": 438,
+            "argument": {
+              "type": "NewExpression",
+              "start": 332,
+              "end": 437,
+              "callee": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 348,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 349,
+                  "end": 436,
+                  "left": {
+                    "type": "Literal",
+                    "start": 349,
+                    "end": 405,
+                    "value": "#1: (new Object()).newProperty === undefined. Actual: ",
+                    "raw": "'#1: (new Object()).newProperty === undefined. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 408,
+                    "end": 436,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 409,
+                      "end": 435,
+                      "object": {
+                        "type": "ParenthesizedExpression",
+                        "start": 409,
+                        "end": 423,
+                        "expression": {
+                          "type": "NewExpression",
+                          "start": 410,
+                          "end": 422,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 414,
+                            "end": 420,
+                            "name": "Object"
+                          },
+                          "arguments": []
+                        }
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 424,
+                        "end": 435,
+                        "name": "newProperty"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

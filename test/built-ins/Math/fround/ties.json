@@ -1,0 +1,1380 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2142,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1120,
+      "end": 1133,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1124,
+          "end": 1132,
+          "id": {
+            "type": "Identifier",
+            "start": 1124,
+            "end": 1126,
+            "name": "a0"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1129,
+            "end": 1132,
+            "value": 1,
+            "raw": "1.0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1134,
+      "end": 1162,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1138,
+          "end": 1161,
+          "id": {
+            "type": "Identifier",
+            "start": 1138,
+            "end": 1140,
+            "name": "a1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1143,
+            "end": 1161,
+            "value": 1.0000000596046448,
+            "raw": "1.0000000596046448"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1163,
+      "end": 1191,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1167,
+          "end": 1190,
+          "id": {
+            "type": "Identifier",
+            "start": 1167,
+            "end": 1169,
+            "name": "a2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1172,
+            "end": 1190,
+            "value": 1.0000001192092896,
+            "raw": "1.0000001192092896"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1192,
+      "end": 1220,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1196,
+          "end": 1219,
+          "id": {
+            "type": "Identifier",
+            "start": 1196,
+            "end": 1198,
+            "name": "a3"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1201,
+            "end": 1219,
+            "value": 1.0000001788139343,
+            "raw": "1.0000001788139343"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1221,
+      "end": 1248,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1225,
+          "end": 1247,
+          "id": {
+            "type": "Identifier",
+            "start": 1225,
+            "end": 1227,
+            "name": "a4"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1230,
+            "end": 1247,
+            "value": 1.000000238418579,
+            "raw": "1.000000238418579"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1249,
+      "end": 1277,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1253,
+          "end": 1276,
+          "id": {
+            "type": "Identifier",
+            "start": 1253,
+            "end": 1255,
+            "name": "a5"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1258,
+            "end": 1276,
+            "value": 1.0000002980232239,
+            "raw": "1.0000002980232239"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1278,
+      "end": 1306,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1282,
+          "end": 1305,
+          "id": {
+            "type": "Identifier",
+            "start": 1282,
+            "end": 1284,
+            "name": "a6"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1287,
+            "end": 1305,
+            "value": 1.0000003576278687,
+            "raw": "1.0000003576278687"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1308,
+      "end": 1365,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1308,
+        "end": 1364,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1308,
+          "end": 1324,
+          "object": {
+            "type": "Identifier",
+            "start": 1308,
+            "end": 1314,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1315,
+            "end": 1324,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1325,
+            "end": 1340,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1325,
+              "end": 1336,
+              "object": {
+                "type": "Identifier",
+                "start": 1325,
+                "end": 1329,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1330,
+                "end": 1336,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1337,
+                "end": 1339,
+                "name": "a0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1342,
+            "end": 1344,
+            "name": "a0"
+          },
+          {
+            "type": "Literal",
+            "start": 1346,
+            "end": 1363,
+            "value": "Math.fround(a0)",
+            "raw": "'Math.fround(a0)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1366,
+      "end": 1423,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1366,
+        "end": 1422,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1366,
+          "end": 1382,
+          "object": {
+            "type": "Identifier",
+            "start": 1366,
+            "end": 1372,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1373,
+            "end": 1382,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1383,
+            "end": 1398,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1383,
+              "end": 1394,
+              "object": {
+                "type": "Identifier",
+                "start": 1383,
+                "end": 1387,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1388,
+                "end": 1394,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1395,
+                "end": 1397,
+                "name": "a1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1400,
+            "end": 1402,
+            "name": "a0"
+          },
+          {
+            "type": "Literal",
+            "start": 1404,
+            "end": 1421,
+            "value": "Math.fround(a1)",
+            "raw": "'Math.fround(a1)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1424,
+      "end": 1481,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1424,
+        "end": 1480,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1424,
+          "end": 1440,
+          "object": {
+            "type": "Identifier",
+            "start": 1424,
+            "end": 1430,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1431,
+            "end": 1440,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1441,
+            "end": 1456,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1441,
+              "end": 1452,
+              "object": {
+                "type": "Identifier",
+                "start": 1441,
+                "end": 1445,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1446,
+                "end": 1452,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1453,
+                "end": 1455,
+                "name": "a2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1458,
+            "end": 1460,
+            "name": "a2"
+          },
+          {
+            "type": "Literal",
+            "start": 1462,
+            "end": 1479,
+            "value": "Math.fround(a2)",
+            "raw": "'Math.fround(a2)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1482,
+      "end": 1539,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1482,
+        "end": 1538,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1482,
+          "end": 1498,
+          "object": {
+            "type": "Identifier",
+            "start": 1482,
+            "end": 1488,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1489,
+            "end": 1498,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1499,
+            "end": 1514,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1499,
+              "end": 1510,
+              "object": {
+                "type": "Identifier",
+                "start": 1499,
+                "end": 1503,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1504,
+                "end": 1510,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1511,
+                "end": 1513,
+                "name": "a3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1516,
+            "end": 1518,
+            "name": "a4"
+          },
+          {
+            "type": "Literal",
+            "start": 1520,
+            "end": 1537,
+            "value": "Math.fround(a3)",
+            "raw": "'Math.fround(a3)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1540,
+      "end": 1597,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1540,
+        "end": 1596,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1540,
+          "end": 1556,
+          "object": {
+            "type": "Identifier",
+            "start": 1540,
+            "end": 1546,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1547,
+            "end": 1556,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1557,
+            "end": 1572,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1557,
+              "end": 1568,
+              "object": {
+                "type": "Identifier",
+                "start": 1557,
+                "end": 1561,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1562,
+                "end": 1568,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1569,
+                "end": 1571,
+                "name": "a4"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1574,
+            "end": 1576,
+            "name": "a4"
+          },
+          {
+            "type": "Literal",
+            "start": 1578,
+            "end": 1595,
+            "value": "Math.fround(a4)",
+            "raw": "'Math.fround(a4)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1598,
+      "end": 1655,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1598,
+        "end": 1654,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1598,
+          "end": 1614,
+          "object": {
+            "type": "Identifier",
+            "start": 1598,
+            "end": 1604,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1605,
+            "end": 1614,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1615,
+            "end": 1630,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1615,
+              "end": 1626,
+              "object": {
+                "type": "Identifier",
+                "start": 1615,
+                "end": 1619,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1620,
+                "end": 1626,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1627,
+                "end": 1629,
+                "name": "a5"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1632,
+            "end": 1634,
+            "name": "a4"
+          },
+          {
+            "type": "Literal",
+            "start": 1636,
+            "end": 1653,
+            "value": "Math.fround(a5)",
+            "raw": "'Math.fround(a5)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1656,
+      "end": 1713,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1656,
+        "end": 1712,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1656,
+          "end": 1672,
+          "object": {
+            "type": "Identifier",
+            "start": 1656,
+            "end": 1662,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1663,
+            "end": 1672,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1673,
+            "end": 1688,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1673,
+              "end": 1684,
+              "object": {
+                "type": "Identifier",
+                "start": 1673,
+                "end": 1677,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1678,
+                "end": 1684,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1685,
+                "end": 1687,
+                "name": "a6"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1690,
+            "end": 1692,
+            "name": "a6"
+          },
+          {
+            "type": "Literal",
+            "start": 1694,
+            "end": 1711,
+            "value": "Math.fround(a6)",
+            "raw": "'Math.fround(a6)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1715,
+      "end": 1775,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1715,
+        "end": 1774,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1715,
+          "end": 1731,
+          "object": {
+            "type": "Identifier",
+            "start": 1715,
+            "end": 1721,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1722,
+            "end": 1731,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1732,
+            "end": 1748,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1732,
+              "end": 1743,
+              "object": {
+                "type": "Identifier",
+                "start": 1732,
+                "end": 1736,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1737,
+                "end": 1743,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 1744,
+                "end": 1747,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1745,
+                  "end": 1747,
+                  "name": "a0"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 1750,
+            "end": 1753,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1751,
+              "end": 1753,
+              "name": "a0"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1755,
+            "end": 1773,
+            "value": "Math.fround(-a0)",
+            "raw": "'Math.fround(-a0)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1776,
+      "end": 1836,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1776,
+        "end": 1835,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1776,
+          "end": 1792,
+          "object": {
+            "type": "Identifier",
+            "start": 1776,
+            "end": 1782,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1783,
+            "end": 1792,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1793,
+            "end": 1809,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1793,
+              "end": 1804,
+              "object": {
+                "type": "Identifier",
+                "start": 1793,
+                "end": 1797,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1798,
+                "end": 1804,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 1805,
+                "end": 1808,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1806,
+                  "end": 1808,
+                  "name": "a1"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 1811,
+            "end": 1814,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1812,
+              "end": 1814,
+              "name": "a0"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1816,
+            "end": 1834,
+            "value": "Math.fround(-a1)",
+            "raw": "'Math.fround(-a1)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1837,
+      "end": 1897,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1837,
+        "end": 1896,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1837,
+          "end": 1853,
+          "object": {
+            "type": "Identifier",
+            "start": 1837,
+            "end": 1843,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1844,
+            "end": 1853,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1854,
+            "end": 1870,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1854,
+              "end": 1865,
+              "object": {
+                "type": "Identifier",
+                "start": 1854,
+                "end": 1858,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1859,
+                "end": 1865,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 1866,
+                "end": 1869,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1867,
+                  "end": 1869,
+                  "name": "a2"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 1872,
+            "end": 1875,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1873,
+              "end": 1875,
+              "name": "a2"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1877,
+            "end": 1895,
+            "value": "Math.fround(-a2)",
+            "raw": "'Math.fround(-a2)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1898,
+      "end": 1958,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1898,
+        "end": 1957,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1898,
+          "end": 1914,
+          "object": {
+            "type": "Identifier",
+            "start": 1898,
+            "end": 1904,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1905,
+            "end": 1914,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1915,
+            "end": 1931,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1915,
+              "end": 1926,
+              "object": {
+                "type": "Identifier",
+                "start": 1915,
+                "end": 1919,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1920,
+                "end": 1926,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 1927,
+                "end": 1930,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1928,
+                  "end": 1930,
+                  "name": "a3"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 1933,
+            "end": 1936,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1934,
+              "end": 1936,
+              "name": "a4"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1938,
+            "end": 1956,
+            "value": "Math.fround(-a3)",
+            "raw": "'Math.fround(-a3)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1959,
+      "end": 2019,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1959,
+        "end": 2018,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1959,
+          "end": 1975,
+          "object": {
+            "type": "Identifier",
+            "start": 1959,
+            "end": 1965,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1966,
+            "end": 1975,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1976,
+            "end": 1992,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1976,
+              "end": 1987,
+              "object": {
+                "type": "Identifier",
+                "start": 1976,
+                "end": 1980,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1981,
+                "end": 1987,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 1988,
+                "end": 1991,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1989,
+                  "end": 1991,
+                  "name": "a4"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 1994,
+            "end": 1997,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1995,
+              "end": 1997,
+              "name": "a4"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1999,
+            "end": 2017,
+            "value": "Math.fround(-a4)",
+            "raw": "'Math.fround(-a4)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2020,
+      "end": 2080,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2020,
+        "end": 2079,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2020,
+          "end": 2036,
+          "object": {
+            "type": "Identifier",
+            "start": 2020,
+            "end": 2026,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2027,
+            "end": 2036,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2037,
+            "end": 2053,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2037,
+              "end": 2048,
+              "object": {
+                "type": "Identifier",
+                "start": 2037,
+                "end": 2041,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2042,
+                "end": 2048,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2049,
+                "end": 2052,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 2050,
+                  "end": 2052,
+                  "name": "a5"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 2055,
+            "end": 2058,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 2056,
+              "end": 2058,
+              "name": "a4"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2060,
+            "end": 2078,
+            "value": "Math.fround(-a5)",
+            "raw": "'Math.fround(-a5)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2081,
+      "end": 2141,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2081,
+        "end": 2140,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2081,
+          "end": 2097,
+          "object": {
+            "type": "Identifier",
+            "start": 2081,
+            "end": 2087,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2088,
+            "end": 2097,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2098,
+            "end": 2114,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2098,
+              "end": 2109,
+              "object": {
+                "type": "Identifier",
+                "start": 2098,
+                "end": 2102,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2103,
+                "end": 2109,
+                "name": "fround"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 2110,
+                "end": 2113,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 2111,
+                  "end": 2113,
+                  "name": "a6"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 2116,
+            "end": 2119,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 2117,
+              "end": 2119,
+              "name": "a6"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2121,
+            "end": 2139,
+            "value": "Math.fround(-a6)",
+            "raw": "'Math.fround(-a6)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

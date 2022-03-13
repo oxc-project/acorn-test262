@@ -1,0 +1,250 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 990,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 739,
+      "end": 777,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 743,
+          "end": 776,
+          "id": {
+            "type": "Identifier",
+            "start": 743,
+            "end": 749,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 752,
+            "end": 776,
+            "callee": {
+              "type": "Identifier",
+              "start": 756,
+              "end": 773,
+              "name": "SharedArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 774,
+                "end": 775,
+                "value": 8,
+                "raw": "8"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 778,
+      "end": 857,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 782,
+          "end": 856,
+          "id": {
+            "type": "Identifier",
+            "start": 782,
+            "end": 792,
+            "name": "byteOffset"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 795,
+            "end": 856,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 799,
+                "end": 854,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 799,
+                  "end": 806,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 808,
+                  "end": 854,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 819,
+                    "end": 854,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 825,
+                        "end": 850,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 831,
+                          "end": 849,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 835,
+                            "end": 847,
+                            "name": "Test262Error"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 859,
+      "end": 989,
+      "expression": {
+        "type": "CallExpression",
+        "start": 859,
+        "end": 988,
+        "callee": {
+          "type": "Identifier",
+          "start": 859,
+          "end": 889,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 890,
+            "end": 987,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 899,
+                "end": 901,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 903,
+              "end": 987,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 907,
+                  "end": 985,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 907,
+                    "end": 984,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 907,
+                      "end": 920,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 907,
+                        "end": 913,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 914,
+                        "end": 920,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 921,
+                        "end": 933,
+                        "name": "Test262Error"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 935,
+                        "end": 983,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 946,
+                          "end": 983,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 952,
+                              "end": 979,
+                              "expression": {
+                                "type": "NewExpression",
+                                "start": 952,
+                                "end": 978,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 956,
+                                  "end": 958,
+                                  "name": "TA"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 959,
+                                    "end": 965,
+                                    "name": "buffer"
+                                  },
+                                  {
+                                    "type": "Identifier",
+                                    "start": 967,
+                                    "end": 977,
+                                    "name": "byteOffset"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

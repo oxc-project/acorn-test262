@@ -1,0 +1,276 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 713,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 391,
+      "end": 439,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 395,
+          "end": 438,
+          "id": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 403,
+            "name": "SetProto"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 406,
+            "end": 438,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 406,
+              "end": 427,
+              "object": {
+                "type": "Identifier",
+                "start": 406,
+                "end": 412,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 413,
+                "end": 427,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 428,
+                "end": 437,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 432,
+                  "end": 435,
+                  "name": "Set"
+                },
+                "arguments": []
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 441,
+      "end": 561,
+      "expression": {
+        "type": "CallExpression",
+        "start": 441,
+        "end": 560,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 441,
+          "end": 457,
+          "object": {
+            "type": "Identifier",
+            "start": 441,
+            "end": 447,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 448,
+            "end": 457,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 461,
+            "end": 489,
+            "object": {
+              "type": "Identifier",
+              "start": 461,
+              "end": 469,
+              "name": "SetProto"
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 470,
+              "end": 488,
+              "object": {
+                "type": "Identifier",
+                "start": 470,
+                "end": 476,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 477,
+                "end": 488,
+                "name": "toStringTag"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 493,
+            "end": 498,
+            "value": "Set",
+            "raw": "'Set'"
+          },
+          {
+            "type": "Literal",
+            "start": 502,
+            "end": 558,
+            "value": "The value of `SetProto[Symbol.toStringTag]` is `'Set'`",
+            "raw": "\"The value of `SetProto[Symbol.toStringTag]` is `'Set'`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 563,
+      "end": 613,
+      "expression": {
+        "type": "CallExpression",
+        "start": 563,
+        "end": 612,
+        "callee": {
+          "type": "Identifier",
+          "start": 563,
+          "end": 582,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 583,
+            "end": 591,
+            "name": "SetProto"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 593,
+            "end": 611,
+            "object": {
+              "type": "Identifier",
+              "start": 593,
+              "end": 599,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 600,
+              "end": 611,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 614,
+      "end": 662,
+      "expression": {
+        "type": "CallExpression",
+        "start": 614,
+        "end": 661,
+        "callee": {
+          "type": "Identifier",
+          "start": 614,
+          "end": 631,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 632,
+            "end": 640,
+            "name": "SetProto"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 642,
+            "end": 660,
+            "object": {
+              "type": "Identifier",
+              "start": 642,
+              "end": 648,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 649,
+              "end": 660,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 663,
+      "end": 712,
+      "expression": {
+        "type": "CallExpression",
+        "start": 663,
+        "end": 711,
+        "callee": {
+          "type": "Identifier",
+          "start": 663,
+          "end": 681,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 682,
+            "end": 690,
+            "name": "SetProto"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 692,
+            "end": 710,
+            "object": {
+              "type": "Identifier",
+              "start": 692,
+              "end": 698,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 699,
+              "end": 710,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

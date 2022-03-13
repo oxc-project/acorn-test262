@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1023,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 750,
+      "end": 829,
+      "expression": {
+        "type": "CallExpression",
+        "start": 750,
+        "end": 828,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 750,
+          "end": 766,
+          "object": {
+            "type": "Identifier",
+            "start": 750,
+            "end": 756,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 757,
+            "end": 766,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 767,
+            "end": 806,
+            "object": {
+              "type": "MemberExpression",
+              "start": 767,
+              "end": 801,
+              "object": {
+                "type": "MemberExpression",
+                "start": 767,
+                "end": 783,
+                "object": {
+                  "type": "Identifier",
+                  "start": 767,
+                  "end": 773,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 774,
+                  "end": 783,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 784,
+                "end": 801,
+                "name": "toLocaleUpperCase"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 802,
+              "end": 806,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 808,
+            "end": 827,
+            "value": "toLocaleUpperCase",
+            "raw": "\"toLocaleUpperCase\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 831,
+      "end": 895,
+      "expression": {
+        "type": "CallExpression",
+        "start": 831,
+        "end": 894,
+        "callee": {
+          "type": "Identifier",
+          "start": 831,
+          "end": 850,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 851,
+            "end": 885,
+            "object": {
+              "type": "MemberExpression",
+              "start": 851,
+              "end": 867,
+              "object": {
+                "type": "Identifier",
+                "start": 851,
+                "end": 857,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 858,
+                "end": 867,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 868,
+              "end": 885,
+              "name": "toLocaleUpperCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 887,
+            "end": 893,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 896,
+      "end": 958,
+      "expression": {
+        "type": "CallExpression",
+        "start": 896,
+        "end": 957,
+        "callee": {
+          "type": "Identifier",
+          "start": 896,
+          "end": 913,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 914,
+            "end": 948,
+            "object": {
+              "type": "MemberExpression",
+              "start": 914,
+              "end": 930,
+              "object": {
+                "type": "Identifier",
+                "start": 914,
+                "end": 920,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 921,
+                "end": 930,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 931,
+              "end": 948,
+              "name": "toLocaleUpperCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 950,
+            "end": 956,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 959,
+      "end": 1022,
+      "expression": {
+        "type": "CallExpression",
+        "start": 959,
+        "end": 1021,
+        "callee": {
+          "type": "Identifier",
+          "start": 959,
+          "end": 977,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 978,
+            "end": 1012,
+            "object": {
+              "type": "MemberExpression",
+              "start": 978,
+              "end": 994,
+              "object": {
+                "type": "Identifier",
+                "start": 978,
+                "end": 984,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 985,
+                "end": 994,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 995,
+              "end": 1012,
+              "name": "toLocaleUpperCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1014,
+            "end": 1020,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

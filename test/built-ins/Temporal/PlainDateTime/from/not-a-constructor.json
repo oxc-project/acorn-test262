@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 766,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 548,
+      "end": 647,
+      "expression": {
+        "type": "CallExpression",
+        "start": 548,
+        "end": 646,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 548,
+          "end": 561,
+          "object": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 554,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 555,
+            "end": 561,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 562,
+            "end": 571,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 573,
+            "end": 619,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 579,
+              "end": 619,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 583,
+                  "end": 617,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 583,
+                    "end": 616,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 587,
+                      "end": 614,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 587,
+                        "end": 609,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 587,
+                          "end": 595,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 596,
+                          "end": 609,
+                          "name": "PlainDateTime"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 610,
+                        "end": 614,
+                        "name": "from"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 621,
+            "end": 645,
+            "value": "Calling as constructor",
+            "raw": "\"Calling as constructor\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 649,
+      "end": 765,
+      "expression": {
+        "type": "CallExpression",
+        "start": 649,
+        "end": 764,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 649,
+          "end": 665,
+          "object": {
+            "type": "Identifier",
+            "start": 649,
+            "end": 655,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 656,
+            "end": 665,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 666,
+            "end": 708,
+            "callee": {
+              "type": "Identifier",
+              "start": 666,
+              "end": 679,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 680,
+                "end": 707,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 680,
+                  "end": 702,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 680,
+                    "end": 688,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 689,
+                    "end": 702,
+                    "name": "PlainDateTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 703,
+                  "end": 707,
+                  "name": "from"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 710,
+            "end": 715,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 719,
+            "end": 763,
+            "value": "isConstructor(Temporal.PlainDateTime.from)",
+            "raw": "\"isConstructor(Temporal.PlainDateTime.from)\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

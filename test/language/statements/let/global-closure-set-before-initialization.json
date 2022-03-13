@@ -1,0 +1,147 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 349,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 262,
+      "end": 285,
+      "id": {
+        "type": "Identifier",
+        "start": 271,
+        "end": 272,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 275,
+        "end": 285,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 277,
+            "end": 283,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 277,
+              "end": 282,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 277,
+                "end": 278,
+                "name": "x"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 281,
+                "end": 282,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 287,
+      "end": 340,
+      "expression": {
+        "type": "CallExpression",
+        "start": 287,
+        "end": 339,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 287,
+          "end": 300,
+          "object": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 293,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 300,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 301,
+            "end": 315,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 317,
+            "end": 338,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 328,
+              "end": 338,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 332,
+                  "end": 336,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 332,
+                    "end": 335,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 332,
+                      "end": 333,
+                      "name": "f"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 342,
+      "end": 348,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 346,
+          "end": 347,
+          "id": {
+            "type": "Identifier",
+            "start": 346,
+            "end": 347,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "let"
+    }
+  ],
+  "sourceType": "script"
+}

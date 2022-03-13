@@ -1,0 +1,68 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1846,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1206,
+      "end": 1845,
+      "expression": {
+        "type": "ParenthesizedExpression",
+        "start": 1206,
+        "end": 1844,
+        "expression": {
+          "type": "CallExpression",
+          "start": 1207,
+          "end": 1843,
+          "callee": {
+            "type": "FunctionExpression",
+            "start": 1207,
+            "end": 1841,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1218,
+              "end": 1841,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1222,
+                  "end": 1839,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1222,
+                    "end": 1838,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1222,
+                      "end": 1226,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1232,
+                        "end": 1834,
+                        "value": "assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created prior to evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created prior to evaluation\"    );        for (let f of [0]) {if (false) ; else function f() {  }}        assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created following evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created following evaluation\"    );",
+                        "raw": "'assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created prior to evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created prior to evaluation\"\\\n    );\\\n    \\\n    for (let f of [0]) {if (false) ; else function f() {  }}\\\n    \\\n    assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created following evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created following evaluation\"\\\n    );'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

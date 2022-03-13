@@ -1,0 +1,131 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 700,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 497,
+      "end": 617,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 501,
+        "end": 524,
+        "left": {
+          "type": "CallExpression",
+          "start": 501,
+          "end": 517,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 501,
+            "end": 515,
+            "object": {
+              "type": "Literal",
+              "start": 501,
+              "end": 503,
+              "value": "",
+              "raw": "\"\""
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 504,
+              "end": 515,
+              "name": "lastIndexOf"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "UnaryExpression",
+          "start": 522,
+          "end": 524,
+          "operator": "-",
+          "prefix": true,
+          "argument": {
+            "type": "Literal",
+            "start": 523,
+            "end": 524,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 526,
+        "end": 617,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 530,
+            "end": 615,
+            "argument": {
+              "type": "NewExpression",
+              "start": 536,
+              "end": 614,
+              "callee": {
+                "type": "Identifier",
+                "start": 540,
+                "end": 552,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 553,
+                  "end": 613,
+                  "left": {
+                    "type": "Literal",
+                    "start": 553,
+                    "end": 592,
+                    "value": "#1: \"\".lastIndexOf() === -1. Actual: ",
+                    "raw": "'#1: \"\".lastIndexOf() === -1. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 595,
+                    "end": 613,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 596,
+                      "end": 612,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 596,
+                        "end": 610,
+                        "object": {
+                          "type": "Literal",
+                          "start": 596,
+                          "end": 598,
+                          "value": "",
+                          "raw": "\"\""
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 599,
+                          "end": 610,
+                          "name": "lastIndexOf"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

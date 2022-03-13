@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 383,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 320,
+      "end": 342,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 324,
+          "end": 341,
+          "id": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 325,
+            "name": "s"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 328,
+            "end": 341,
+            "callee": {
+              "type": "Identifier",
+              "start": 332,
+              "end": 339,
+              "name": "WeakSet"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 344,
+      "end": 382,
+      "expression": {
+        "type": "CallExpression",
+        "start": 344,
+        "end": 381,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 344,
+          "end": 360,
+          "object": {
+            "type": "Identifier",
+            "start": 344,
+            "end": 350,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 360,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 361,
+            "end": 373,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 361,
+              "end": 369,
+              "object": {
+                "type": "Identifier",
+                "start": 361,
+                "end": 362,
+                "name": "s"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 363,
+                "end": 369,
+                "name": "delete"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 370,
+                "end": 372,
+                "properties": []
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 375,
+            "end": 380,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

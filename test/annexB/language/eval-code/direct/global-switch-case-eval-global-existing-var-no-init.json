@@ -1,0 +1,73 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 682,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 559,
+      "end": 681,
+      "expression": {
+        "type": "CallExpression",
+        "start": 559,
+        "end": 680,
+        "callee": {
+          "type": "Identifier",
+          "start": 559,
+          "end": 563,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 567,
+            "end": 678,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 567,
+              "end": 666,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 567,
+                "end": 638,
+                "left": {
+                  "type": "Literal",
+                  "start": 567,
+                  "end": 622,
+                  "value": "var f = 123;  assert.sameValue(f, 123);switch (1) {",
+                  "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);switch (1) {'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 627,
+                  "end": 638,
+                  "value": "  case 1:",
+                  "raw": "'  case 1:'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 643,
+                "end": 666,
+                "value": "    function f() {  }",
+                "raw": "'    function f() {  }'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 671,
+              "end": 678,
+              "value": "}  ",
+              "raw": "'}\\\n  '"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

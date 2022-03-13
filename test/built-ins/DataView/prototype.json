@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 642,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 510,
+      "end": 553,
+      "expression": {
+        "type": "CallExpression",
+        "start": 510,
+        "end": 552,
+        "callee": {
+          "type": "Identifier",
+          "start": 510,
+          "end": 529,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 530,
+            "end": 538,
+            "name": "DataView"
+          },
+          {
+            "type": "Literal",
+            "start": 540,
+            "end": 551,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 554,
+      "end": 595,
+      "expression": {
+        "type": "CallExpression",
+        "start": 554,
+        "end": 594,
+        "callee": {
+          "type": "Identifier",
+          "start": 554,
+          "end": 571,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 572,
+            "end": 580,
+            "name": "DataView"
+          },
+          {
+            "type": "Literal",
+            "start": 582,
+            "end": 593,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 596,
+      "end": 641,
+      "expression": {
+        "type": "CallExpression",
+        "start": 596,
+        "end": 640,
+        "callee": {
+          "type": "Identifier",
+          "start": 596,
+          "end": 617,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 618,
+            "end": 626,
+            "name": "DataView"
+          },
+          {
+            "type": "Literal",
+            "start": 628,
+            "end": 639,
+            "value": "prototype",
+            "raw": "\"prototype\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

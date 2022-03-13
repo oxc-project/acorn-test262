@@ -1,0 +1,111 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 522,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 429,
+      "end": 463,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 433,
+          "end": 462,
+          "id": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 434,
+            "name": "s"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 437,
+            "end": 462,
+            "callee": {
+              "type": "Identifier",
+              "start": 441,
+              "end": 447,
+              "name": "String"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 448,
+                "end": 461,
+                "value": "hello world",
+                "raw": "\"hello world\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 465,
+      "end": 521,
+      "expression": {
+        "type": "CallExpression",
+        "start": 465,
+        "end": 520,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 465,
+          "end": 481,
+          "object": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 471,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 481,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 482,
+            "end": 493,
+            "object": {
+              "type": "Identifier",
+              "start": 482,
+              "end": 483,
+              "name": "s"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 484,
+              "end": 492,
+              "name": "Infinity"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 495,
+            "end": 504,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 506,
+            "end": 519,
+            "value": "s[Infinity]",
+            "raw": "'s[Infinity]'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 315,
+  "body": [
+    {
+      "type": "ForStatement",
+      "start": 283,
+      "end": 314,
+      "init": null,
+      "test": null,
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 302,
+        "end": 314,
+        "body": [
+          {
+            "type": "BreakStatement",
+            "start": 306,
+            "end": 312,
+            "label": null
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

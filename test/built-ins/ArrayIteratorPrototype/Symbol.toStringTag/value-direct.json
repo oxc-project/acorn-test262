@@ -1,0 +1,164 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 505,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 357,
+      "end": 427,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 361,
+          "end": 426,
+          "id": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 379,
+            "name": "ArrayIteratorProto"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 382,
+            "end": 426,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 382,
+              "end": 403,
+              "object": {
+                "type": "Identifier",
+                "start": 382,
+                "end": 388,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 403,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 404,
+                "end": 425,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 404,
+                  "end": 423,
+                  "object": {
+                    "type": "ArrayExpression",
+                    "start": 404,
+                    "end": 406,
+                    "elements": []
+                  },
+                  "property": {
+                    "type": "MemberExpression",
+                    "start": 407,
+                    "end": 422,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 407,
+                      "end": 413,
+                      "name": "Symbol"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 414,
+                      "end": 422,
+                      "name": "iterator"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 429,
+      "end": 504,
+      "expression": {
+        "type": "CallExpression",
+        "start": 429,
+        "end": 503,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 429,
+          "end": 445,
+          "object": {
+            "type": "Identifier",
+            "start": 429,
+            "end": 435,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 436,
+            "end": 445,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 446,
+            "end": 462,
+            "value": "Array Iterator",
+            "raw": "\"Array Iterator\""
+          },
+          {
+            "type": "MemberExpression",
+            "start": 464,
+            "end": 502,
+            "object": {
+              "type": "Identifier",
+              "start": 464,
+              "end": 482,
+              "name": "ArrayIteratorProto"
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 483,
+              "end": 501,
+              "object": {
+                "type": "Identifier",
+                "start": 483,
+                "end": 489,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 490,
+                "end": 501,
+                "name": "toStringTag"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

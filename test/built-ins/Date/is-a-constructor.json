@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 808,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 708,
+      "end": 792,
+      "expression": {
+        "type": "CallExpression",
+        "start": 708,
+        "end": 791,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 708,
+          "end": 724,
+          "object": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 714,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 715,
+            "end": 724,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 725,
+            "end": 744,
+            "callee": {
+              "type": "Identifier",
+              "start": 725,
+              "end": 738,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 739,
+                "end": 743,
+                "name": "Date"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 750,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 752,
+            "end": 790,
+            "value": "isConstructor(Date) must return true",
+            "raw": "'isConstructor(Date) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 793,
+      "end": 804,
+      "expression": {
+        "type": "NewExpression",
+        "start": 793,
+        "end": 803,
+        "callee": {
+          "type": "Identifier",
+          "start": 797,
+          "end": 801,
+          "name": "Date"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

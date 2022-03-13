@@ -1,0 +1,88 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 289,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 236,
+      "end": 288,
+      "expression": {
+        "type": "CallExpression",
+        "start": 236,
+        "end": 287,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 236,
+          "end": 252,
+          "object": {
+            "type": "Identifier",
+            "start": 236,
+            "end": 242,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 252,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 253,
+            "end": 266,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 253,
+              "end": 263,
+              "object": {
+                "type": "Identifier",
+                "start": 253,
+                "end": 257,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 258,
+                "end": 263,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 264,
+                "end": 265,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 268,
+            "end": 269,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 271,
+            "end": 286,
+            "value": "Math.trunc(0)",
+            "raw": "'Math.trunc(0)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

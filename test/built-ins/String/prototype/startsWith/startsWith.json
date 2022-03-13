@@ -1,0 +1,228 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 650,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 368,
+      "end": 495,
+      "expression": {
+        "type": "CallExpression",
+        "start": 368,
+        "end": 494,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 368,
+          "end": 384,
+          "object": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 374,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 384,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 388,
+            "end": 422,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 395,
+              "end": 422,
+              "object": {
+                "type": "MemberExpression",
+                "start": 395,
+                "end": 411,
+                "object": {
+                  "type": "Identifier",
+                  "start": 395,
+                  "end": 401,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 402,
+                  "end": 411,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 412,
+                "end": 422,
+                "name": "startsWith"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 426,
+            "end": 436,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 440,
+            "end": 492,
+            "value": "`typeof String.prototype.startsWith` is `function`",
+            "raw": "'`typeof String.prototype.startsWith` is `function`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 497,
+      "end": 549,
+      "expression": {
+        "type": "CallExpression",
+        "start": 497,
+        "end": 548,
+        "callee": {
+          "type": "Identifier",
+          "start": 497,
+          "end": 516,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 517,
+            "end": 533,
+            "object": {
+              "type": "Identifier",
+              "start": 517,
+              "end": 523,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 524,
+              "end": 533,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 535,
+            "end": 547,
+            "value": "startsWith",
+            "raw": "'startsWith'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 550,
+      "end": 597,
+      "expression": {
+        "type": "CallExpression",
+        "start": 550,
+        "end": 596,
+        "callee": {
+          "type": "Identifier",
+          "start": 550,
+          "end": 564,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 565,
+            "end": 581,
+            "object": {
+              "type": "Identifier",
+              "start": 565,
+              "end": 571,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 572,
+              "end": 581,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 583,
+            "end": 595,
+            "value": "startsWith",
+            "raw": "'startsWith'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 598,
+      "end": 649,
+      "expression": {
+        "type": "CallExpression",
+        "start": 598,
+        "end": 648,
+        "callee": {
+          "type": "Identifier",
+          "start": 598,
+          "end": 616,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 617,
+            "end": 633,
+            "object": {
+              "type": "Identifier",
+              "start": 617,
+              "end": 623,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 624,
+              "end": 633,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 635,
+            "end": 647,
+            "value": "startsWith",
+            "raw": "'startsWith'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

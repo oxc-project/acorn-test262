@@ -1,0 +1,28 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 254,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 240,
+      "end": 253,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 244,
+          "end": 252,
+          "id": {
+            "type": "Identifier",
+            "start": 244,
+            "end": 252,
+            "name": "Infinity"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

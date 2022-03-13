@@ -1,0 +1,255 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 815,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 510,
+      "end": 605,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 516,
+          "end": 604,
+          "id": {
+            "type": "Identifier",
+            "start": 516,
+            "end": 520,
+            "name": "i64a"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 523,
+            "end": 604,
+            "callee": {
+              "type": "Identifier",
+              "start": 527,
+              "end": 540,
+              "name": "BigInt64Array"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 544,
+                "end": 602,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 548,
+                  "end": 565,
+                  "name": "SharedArrayBuffer"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 566,
+                    "end": 601,
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 566,
+                      "end": 597,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 566,
+                        "end": 579,
+                        "name": "BigInt64Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 580,
+                        "end": 597,
+                        "name": "BYTES_PER_ELEMENT"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "operator": "*",
+                    "right": {
+                      "type": "Literal",
+                      "start": 600,
+                      "end": 601,
+                      "value": 8,
+                      "raw": "8"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 607,
+      "end": 814,
+      "expression": {
+        "type": "CallExpression",
+        "start": 607,
+        "end": 813,
+        "callee": {
+          "type": "Identifier",
+          "start": 607,
+          "end": 640,
+          "name": "testWithAtomicsOutOfBoundsIndices"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 641,
+            "end": 812,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 650,
+                "end": 656,
+                "name": "IdxGen"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 658,
+              "end": 812,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 662,
+                  "end": 810,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 662,
+                    "end": 809,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 662,
+                      "end": 675,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 662,
+                        "end": 668,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 669,
+                        "end": 675,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 676,
+                        "end": 686,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 688,
+                        "end": 747,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 699,
+                          "end": 747,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 705,
+                              "end": 743,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 705,
+                                "end": 742,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 705,
+                                  "end": 719,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 705,
+                                    "end": 712,
+                                    "name": "Atomics"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 713,
+                                    "end": 719,
+                                    "name": "notify"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 720,
+                                    "end": 724,
+                                    "name": "i64a"
+                                  },
+                                  {
+                                    "type": "CallExpression",
+                                    "start": 726,
+                                    "end": 738,
+                                    "callee": {
+                                      "type": "Identifier",
+                                      "start": 726,
+                                      "end": 732,
+                                      "name": "IdxGen"
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 733,
+                                        "end": 737,
+                                        "name": "i64a"
+                                      }
+                                    ],
+                                    "optional": false
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 740,
+                                    "end": 741,
+                                    "value": 0,
+                                    "raw": "0"
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 749,
+                        "end": 808,
+                        "value": "`Atomics.notify(i64a, IdxGen(i64a), 0)` throws RangeError",
+                        "raw": "'`Atomics.notify(i64a, IdxGen(i64a), 0)` throws RangeError'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

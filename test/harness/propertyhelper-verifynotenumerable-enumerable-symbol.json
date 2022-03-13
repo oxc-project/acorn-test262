@@ -1,0 +1,435 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 784,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 307,
+      "end": 325,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 311,
+          "end": 324,
+          "id": {
+            "type": "Identifier",
+            "start": 311,
+            "end": 316,
+            "name": "threw"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 319,
+            "end": 324,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 326,
+      "end": 339,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 330,
+          "end": 338,
+          "id": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 333,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 336,
+            "end": 338,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 340,
+      "end": 360,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 344,
+          "end": 359,
+          "id": {
+            "type": "Identifier",
+            "start": 344,
+            "end": 345,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 348,
+            "end": 359,
+            "callee": {
+              "type": "Identifier",
+              "start": 348,
+              "end": 354,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 355,
+                "end": 358,
+                "value": "1",
+                "raw": "'1'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 361,
+      "end": 415,
+      "expression": {
+        "type": "CallExpression",
+        "start": 361,
+        "end": 414,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 361,
+          "end": 382,
+          "object": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 367,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 382,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 383,
+            "end": 386,
+            "name": "obj"
+          },
+          {
+            "type": "Identifier",
+            "start": 388,
+            "end": 389,
+            "name": "s"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 391,
+            "end": 413,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 395,
+                "end": 411,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 395,
+                  "end": 405,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 407,
+                  "end": 411,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "TryStatement",
+      "start": 417,
+      "end": 655,
+      "block": {
+        "type": "BlockStatement",
+        "start": 421,
+        "end": 455,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 425,
+            "end": 453,
+            "expression": {
+              "type": "CallExpression",
+              "start": 425,
+              "end": 452,
+              "callee": {
+                "type": "Identifier",
+                "start": 425,
+                "end": 444,
+                "name": "verifyNotEnumerable"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 445,
+                  "end": 448,
+                  "name": "obj"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 450,
+                  "end": 451,
+                  "name": "s"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 456,
+        "end": 655,
+        "param": {
+          "type": "Identifier",
+          "start": 462,
+          "end": 465,
+          "name": "err"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 467,
+          "end": 655,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 471,
+              "end": 484,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 471,
+                "end": 483,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 471,
+                  "end": 476,
+                  "name": "threw"
+                },
+                "right": {
+                  "type": "Literal",
+                  "start": 479,
+                  "end": 483,
+                  "value": true,
+                  "raw": "true"
+                }
+              }
+            },
+            {
+              "type": "IfStatement",
+              "start": 487,
+              "end": 653,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 491,
+                "end": 523,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 491,
+                  "end": 506,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 491,
+                    "end": 494,
+                    "name": "err"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 495,
+                    "end": 506,
+                    "name": "constructor"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Identifier",
+                  "start": 511,
+                  "end": 523,
+                  "name": "Test262Error"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 525,
+                "end": 653,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 531,
+                    "end": 649,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 537,
+                      "end": 648,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 541,
+                        "end": 553,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 561,
+                          "end": 642,
+                          "left": {
+                            "type": "BinaryExpression",
+                            "start": 561,
+                            "end": 618,
+                            "left": {
+                              "type": "Literal",
+                              "start": 561,
+                              "end": 595,
+                              "value": "Expected a Test262Error, but a \"",
+                              "raw": "'Expected a Test262Error, but a \"'"
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "MemberExpression",
+                              "start": 598,
+                              "end": 618,
+                              "object": {
+                                "type": "MemberExpression",
+                                "start": 598,
+                                "end": 613,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 598,
+                                  "end": 601,
+                                  "name": "err"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 602,
+                                  "end": 613,
+                                  "name": "constructor"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 614,
+                                "end": 618,
+                                "name": "name"
+                              },
+                              "computed": false,
+                              "optional": false
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 627,
+                            "end": 642,
+                            "value": "\" was thrown.",
+                            "raw": "'\" was thrown.'"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 657,
+      "end": 783,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 661,
+        "end": 676,
+        "left": {
+          "type": "Identifier",
+          "start": 661,
+          "end": 666,
+          "name": "threw"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 671,
+          "end": 676,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 678,
+        "end": 783,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 682,
+            "end": 781,
+            "argument": {
+              "type": "NewExpression",
+              "start": 688,
+              "end": 780,
+              "callee": {
+                "type": "Identifier",
+                "start": 692,
+                "end": 704,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 710,
+                  "end": 776,
+                  "value": "Expected a Test262Error, but no error was thrown for symbol key.",
+                  "raw": "'Expected a Test262Error, but no error was thrown for symbol key.'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

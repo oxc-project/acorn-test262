@@ -1,0 +1,156 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 471,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 305,
+      "end": 324,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 309,
+          "end": 323,
+          "id": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 313,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 316,
+            "end": 323,
+            "value": {},
+            "raw": "/nd|ne/",
+            "regex": {
+              "pattern": "nd|ne",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 326,
+      "end": 470,
+      "expression": {
+        "type": "CallExpression",
+        "start": 326,
+        "end": 469,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 326,
+          "end": 342,
+          "object": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 332,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 342,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 346,
+            "end": 366,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 346,
+              "end": 355,
+              "object": {
+                "type": "Identifier",
+                "start": 346,
+                "end": 350,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 351,
+                "end": 355,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 356,
+                "end": 365,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 370,
+            "end": 399,
+            "left": {
+              "type": "CallExpression",
+              "start": 370,
+              "end": 390,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 370,
+                "end": 379,
+                "object": {
+                  "type": "Identifier",
+                  "start": 370,
+                  "end": 374,
+                  "name": "__re"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 375,
+                  "end": 379,
+                  "name": "exec"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 380,
+                  "end": 389,
+                  "name": "undefined"
+                }
+              ],
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 395,
+              "end": 399,
+              "value": null,
+              "raw": "null"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 403,
+            "end": 467,
+            "value": "__re.test(undefined) must return __re.exec(undefined) !== null",
+            "raw": "'__re.test(undefined) must return __re.exec(undefined) !== null'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

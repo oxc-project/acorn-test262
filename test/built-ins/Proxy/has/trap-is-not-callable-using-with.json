@@ -1,0 +1,188 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 658,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 528,
+      "end": 544,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 532,
+          "end": 543,
+          "id": {
+            "type": "Identifier",
+            "start": 532,
+            "end": 538,
+            "name": "target"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 541,
+            "end": 543,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 545,
+      "end": 586,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 549,
+          "end": 585,
+          "id": {
+            "type": "Identifier",
+            "start": 549,
+            "end": 550,
+            "name": "p"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 553,
+            "end": 585,
+            "callee": {
+              "type": "Identifier",
+              "start": 557,
+              "end": 562,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 563,
+                "end": 569,
+                "name": "target"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 571,
+                "end": 584,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 575,
+                    "end": 582,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 575,
+                      "end": 578,
+                      "name": "has"
+                    },
+                    "value": {
+                      "type": "ObjectExpression",
+                      "start": 580,
+                      "end": 582,
+                      "properties": []
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 588,
+      "end": 657,
+      "expression": {
+        "type": "CallExpression",
+        "start": 588,
+        "end": 656,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 588,
+          "end": 601,
+          "object": {
+            "type": "Identifier",
+            "start": 588,
+            "end": 594,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 595,
+            "end": 601,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 602,
+            "end": 611,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 613,
+            "end": 655,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 624,
+              "end": 655,
+              "body": [
+                {
+                  "type": "WithStatement",
+                  "start": 628,
+                  "end": 653,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 633,
+                    "end": 634,
+                    "name": "p"
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 636,
+                    "end": 653,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 642,
+                        "end": 649,
+                        "expression": {
+                          "type": "ParenthesizedExpression",
+                          "start": 642,
+                          "end": 648,
+                          "expression": {
+                            "type": "Identifier",
+                            "start": 643,
+                            "end": 647,
+                            "name": "attr"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

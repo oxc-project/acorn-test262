@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 836,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 546,
+      "end": 644,
+      "id": {
+        "type": "Identifier",
+        "start": 562,
+        "end": 563,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 580,
+          "end": 581,
+          "name": "x"
+        },
+        {
+          "type": "Identifier",
+          "start": 598,
+          "end": 599,
+          "name": "y"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 616,
+        "end": 644,
+        "body": [
+          {
+            "type": "EmptyStatement",
+            "start": 625,
+            "end": 626
+          },
+          {
+            "type": "EmptyStatement",
+            "start": 634,
+            "end": 635
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 658,
+      "end": 834,
+      "expression": {
+        "type": "CallExpression",
+        "start": 658,
+        "end": 833,
+        "callee": {
+          "type": "Identifier",
+          "start": 658,
+          "end": 688,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 689,
+            "end": 690,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 692,
+            "end": 832,
+            "value": "function\r\n// a\r\nf\r\n// b\r\n(\r\n// c\r\nx\r\n// d\r\n,\r\n// e\r\ny\r\n// f\r\n)\r\n// g\r\n{\r\n// h\r\n;\r\n// i\r\n;\r\n// j\r\n}",
+            "raw": "\"function\\r\\n// a\\r\\nf\\r\\n// b\\r\\n(\\r\\n// c\\r\\nx\\r\\n// d\\r\\n,\\r\\n// e\\r\\ny\\r\\n// f\\r\\n)\\r\\n// g\\r\\n{\\r\\n// h\\r\\n;\\r\\n// i\\r\\n;\\r\\n// j\\r\\n}\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

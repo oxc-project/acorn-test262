@@ -1,0 +1,96 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 390,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 313,
+      "end": 389,
+      "expression": {
+        "type": "CallExpression",
+        "start": 313,
+        "end": 388,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 313,
+          "end": 329,
+          "object": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 319,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 329,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 330,
+            "end": 353,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 330,
+              "end": 345,
+              "object": {
+                "type": "Literal",
+                "start": 330,
+                "end": 336,
+                "value": "word",
+                "raw": "'word'"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 345,
+                "name": "endsWith"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 346,
+                "end": 349,
+                "value": "d",
+                "raw": "'d'"
+              },
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 352,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 355,
+            "end": 360,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 362,
+            "end": 387,
+            "value": "\"word\".endsWith(\"d\", 3)",
+            "raw": "'\"word\".endsWith(\"d\", 3)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,207 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 655,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 475,
+      "end": 547,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 479,
+          "end": 546,
+          "id": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 482,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 485,
+            "end": 546,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 489,
+                "end": 544,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 489,
+                  "end": 496,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 498,
+                  "end": 544,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 509,
+                    "end": 544,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 515,
+                        "end": 540,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 521,
+                          "end": 539,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 525,
+                            "end": 537,
+                            "name": "Test262Error"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 549,
+      "end": 583,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 553,
+          "end": 582,
+          "id": {
+            "type": "Identifier",
+            "start": 553,
+            "end": 555,
+            "name": "ab"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 558,
+            "end": 582,
+            "callee": {
+              "type": "Identifier",
+              "start": 562,
+              "end": 579,
+              "name": "SharedArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 580,
+                "end": 581,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 585,
+      "end": 654,
+      "expression": {
+        "type": "CallExpression",
+        "start": 585,
+        "end": 653,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 585,
+          "end": 598,
+          "object": {
+            "type": "Identifier",
+            "start": 585,
+            "end": 591,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 592,
+            "end": 598,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 599,
+            "end": 611,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 613,
+            "end": 652,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 624,
+              "end": 652,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 628,
+                  "end": 650,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 628,
+                    "end": 649,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 632,
+                      "end": 640,
+                      "name": "DataView"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 641,
+                        "end": 643,
+                        "name": "ab"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 645,
+                        "end": 648,
+                        "name": "obj"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,243 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 974,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 742,
+      "end": 767,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 746,
+          "end": 766,
+          "id": {
+            "type": "Identifier",
+            "start": 746,
+            "end": 761,
+            "name": "targetPrototype"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 764,
+            "end": 766,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 768,
+      "end": 871,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 772,
+          "end": 870,
+          "id": {
+            "type": "Identifier",
+            "start": 772,
+            "end": 778,
+            "name": "target"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 781,
+            "end": 870,
+            "callee": {
+              "type": "Identifier",
+              "start": 785,
+              "end": 790,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 791,
+                "end": 793,
+                "properties": []
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 795,
+                "end": 869,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 799,
+                    "end": 866,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 799,
+                      "end": 813,
+                      "name": "getPrototypeOf"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 815,
+                      "end": 866,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 824,
+                          "end": 831,
+                          "name": "_target"
+                        }
+                      ],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 833,
+                        "end": 866,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 839,
+                            "end": 862,
+                            "argument": {
+                              "type": "Identifier",
+                              "start": 846,
+                              "end": 861,
+                              "name": "targetPrototype"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 873,
+      "end": 907,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 877,
+          "end": 906,
+          "id": {
+            "type": "Identifier",
+            "start": 877,
+            "end": 882,
+            "name": "proxy"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 885,
+            "end": 906,
+            "callee": {
+              "type": "Identifier",
+              "start": 889,
+              "end": 894,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 895,
+                "end": 901,
+                "name": "target"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 903,
+                "end": 905,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 909,
+      "end": 973,
+      "expression": {
+        "type": "CallExpression",
+        "start": 909,
+        "end": 972,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 909,
+          "end": 925,
+          "object": {
+            "type": "Identifier",
+            "start": 909,
+            "end": 915,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 916,
+            "end": 925,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 926,
+            "end": 954,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 926,
+              "end": 947,
+              "object": {
+                "type": "Identifier",
+                "start": 926,
+                "end": 932,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 933,
+                "end": 947,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 948,
+                "end": 953,
+                "name": "proxy"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 956,
+            "end": 971,
+            "name": "targetPrototype"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

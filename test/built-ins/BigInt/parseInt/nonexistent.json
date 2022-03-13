@@ -1,0 +1,68 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 265,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 221,
+      "end": 264,
+      "expression": {
+        "type": "CallExpression",
+        "start": 221,
+        "end": 263,
+        "callee": {
+          "type": "Identifier",
+          "start": 221,
+          "end": 227,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 228,
+            "end": 262,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 229,
+              "end": 262,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 229,
+                "end": 250,
+                "object": {
+                  "type": "Identifier",
+                  "start": 229,
+                  "end": 235,
+                  "name": "BigInt"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 236,
+                  "end": 250,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 251,
+                  "end": 261,
+                  "value": "parseInt",
+                  "raw": "\"parseInt\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,153 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 767,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 629,
+      "end": 652,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 633,
+          "end": 651,
+          "id": {
+            "type": "Identifier",
+            "start": 633,
+            "end": 642,
+            "name": "regExpObj"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 645,
+            "end": 651,
+            "value": {},
+            "raw": "/(?:)/",
+            "regex": {
+              "pattern": "(?:)",
+              "flags": ""
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 653,
+      "end": 685,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 653,
+        "end": 684,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 653,
+          "end": 676,
+          "object": {
+            "type": "Identifier",
+            "start": 653,
+            "end": 662,
+            "name": "regExpObj"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 663,
+            "end": 675,
+            "object": {
+              "type": "Identifier",
+              "start": 663,
+              "end": 669,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 670,
+              "end": 675,
+              "name": "match"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 679,
+          "end": 684,
+          "value": false,
+          "raw": "false"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 687,
+      "end": 766,
+      "expression": {
+        "type": "CallExpression",
+        "start": 687,
+        "end": 765,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 687,
+          "end": 706,
+          "object": {
+            "type": "Identifier",
+            "start": 687,
+            "end": 693,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 694,
+            "end": 706,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 707,
+            "end": 724,
+            "callee": {
+              "type": "Identifier",
+              "start": 707,
+              "end": 713,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 714,
+                "end": 723,
+                "name": "regExpObj"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 726,
+            "end": 735,
+            "name": "regExpObj"
+          },
+          {
+            "type": "Literal",
+            "start": 737,
+            "end": 764,
+            "value": "RegExp returns new object",
+            "raw": "\"RegExp returns new object\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

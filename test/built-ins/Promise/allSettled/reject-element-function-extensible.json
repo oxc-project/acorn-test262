@@ -1,0 +1,383 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 816,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 480,
+      "end": 506,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 484,
+          "end": 505,
+          "id": {
+            "type": "Identifier",
+            "start": 484,
+            "end": 505,
+            "name": "rejectElementFunction"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 507,
+      "end": 586,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 511,
+          "end": 585,
+          "id": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 519,
+            "name": "thenable"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 522,
+            "end": 585,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 526,
+                "end": 583,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 526,
+                  "end": 530,
+                  "name": "then"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 530,
+                  "end": 583,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 531,
+                      "end": 532,
+                      "name": "_"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 534,
+                      "end": 540,
+                      "name": "reject"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 542,
+                    "end": 583,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 548,
+                        "end": 579,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 548,
+                          "end": 578,
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 548,
+                            "end": 569,
+                            "name": "rejectElementFunction"
+                          },
+                          "right": {
+                            "type": "Identifier",
+                            "start": 572,
+                            "end": 578,
+                            "name": "reject"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 588,
+      "end": 663,
+      "id": {
+        "type": "Identifier",
+        "start": 597,
+        "end": 607,
+        "name": "NotPromise"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 608,
+          "end": 616,
+          "name": "executor"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 618,
+        "end": 663,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 622,
+            "end": 661,
+            "expression": {
+              "type": "CallExpression",
+              "start": 622,
+              "end": 660,
+              "callee": {
+                "type": "Identifier",
+                "start": 622,
+                "end": 630,
+                "name": "executor"
+              },
+              "arguments": [
+                {
+                  "type": "FunctionExpression",
+                  "start": 631,
+                  "end": 644,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 642,
+                    "end": 644,
+                    "body": []
+                  }
+                },
+                {
+                  "type": "FunctionExpression",
+                  "start": 646,
+                  "end": 659,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 657,
+                    "end": 659,
+                    "body": []
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 664,
+      "end": 713,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 664,
+        "end": 712,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 664,
+          "end": 682,
+          "object": {
+            "type": "Identifier",
+            "start": 664,
+            "end": 674,
+            "name": "NotPromise"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 675,
+            "end": 682,
+            "name": "resolve"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 685,
+          "end": 712,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 694,
+              "end": 695,
+              "name": "v"
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 697,
+            "end": 712,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 701,
+                "end": 710,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 708,
+                  "end": 709,
+                  "name": "v"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 714,
+      "end": 762,
+      "expression": {
+        "type": "CallExpression",
+        "start": 714,
+        "end": 761,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 714,
+          "end": 737,
+          "object": {
+            "type": "MemberExpression",
+            "start": 714,
+            "end": 732,
+            "object": {
+              "type": "Identifier",
+              "start": 714,
+              "end": 721,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 722,
+              "end": 732,
+              "name": "allSettled"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 733,
+            "end": 737,
+            "name": "call"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 738,
+            "end": 748,
+            "name": "NotPromise"
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 750,
+            "end": 760,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 751,
+                "end": 759,
+                "name": "thenable"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 764,
+      "end": 815,
+      "expression": {
+        "type": "CallExpression",
+        "start": 764,
+        "end": 814,
+        "callee": {
+          "type": "Identifier",
+          "start": 764,
+          "end": 770,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 771,
+            "end": 813,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 771,
+              "end": 790,
+              "object": {
+                "type": "Identifier",
+                "start": 771,
+                "end": 777,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 778,
+                "end": 790,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 791,
+                "end": 812,
+                "name": "rejectElementFunction"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

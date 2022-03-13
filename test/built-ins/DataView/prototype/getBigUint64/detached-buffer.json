@@ -1,0 +1,206 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 526,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 332,
+      "end": 364,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 336,
+          "end": 363,
+          "id": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 342,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 345,
+            "end": 363,
+            "callee": {
+              "type": "Identifier",
+              "start": 349,
+              "end": 360,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 361,
+                "end": 362,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 365,
+      "end": 402,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 369,
+          "end": 401,
+          "id": {
+            "type": "Identifier",
+            "start": 369,
+            "end": 375,
+            "name": "sample"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 378,
+            "end": 401,
+            "callee": {
+              "type": "Identifier",
+              "start": 382,
+              "end": 390,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 391,
+                "end": 397,
+                "name": "buffer"
+              },
+              {
+                "type": "Literal",
+                "start": 399,
+                "end": 400,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 404,
+      "end": 426,
+      "expression": {
+        "type": "CallExpression",
+        "start": 404,
+        "end": 425,
+        "callee": {
+          "type": "Identifier",
+          "start": 404,
+          "end": 417,
+          "name": "$DETACHBUFFER"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 418,
+            "end": 424,
+            "name": "buffer"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 427,
+      "end": 525,
+      "expression": {
+        "type": "CallExpression",
+        "start": 427,
+        "end": 524,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 427,
+          "end": 440,
+          "object": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 433,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 440,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 441,
+            "end": 450,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 452,
+            "end": 480,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 458,
+              "end": 480,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 458,
+                "end": 477,
+                "object": {
+                  "type": "Identifier",
+                  "start": 458,
+                  "end": 464,
+                  "name": "sample"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 465,
+                  "end": 477,
+                  "name": "getBigUint64"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 478,
+                  "end": 479,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 484,
+            "end": 523,
+            "value": "detached DataView access should throw",
+            "raw": "\"detached DataView access should throw\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 507,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 276,
+      "end": 322,
+      "expression": {
+        "type": "CallExpression",
+        "start": 276,
+        "end": 321,
+        "callee": {
+          "type": "Identifier",
+          "start": 276,
+          "end": 282,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 283,
+            "end": 303,
+            "left": {
+              "type": "Identifier",
+              "start": 283,
+              "end": 289,
+              "name": "Symbol"
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "start": 294,
+              "end": 303,
+              "name": "undefined"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 305,
+            "end": 320,
+            "value": "Symbol exists",
+            "raw": "\"Symbol exists\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 385,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 384,
+        "callee": {
+          "type": "Identifier",
+          "start": 323,
+          "end": 329,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 330,
+            "end": 358,
+            "left": {
+              "type": "MemberExpression",
+              "start": 330,
+              "end": 344,
+              "object": {
+                "type": "Identifier",
+                "start": 330,
+                "end": 336,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 344,
+                "name": "species"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "start": 349,
+              "end": 358,
+              "name": "undefined"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 383,
+            "value": "Symbol.species exists",
+            "raw": "\"Symbol.species exists\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 387,
+      "end": 424,
+      "expression": {
+        "type": "CallExpression",
+        "start": 387,
+        "end": 423,
+        "callee": {
+          "type": "Identifier",
+          "start": 387,
+          "end": 404,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 405,
+            "end": 411,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 413,
+            "end": 422,
+            "value": "species",
+            "raw": "\"species\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 425,
+      "end": 464,
+      "expression": {
+        "type": "CallExpression",
+        "start": 425,
+        "end": 463,
+        "callee": {
+          "type": "Identifier",
+          "start": 425,
+          "end": 444,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 445,
+            "end": 451,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 453,
+            "end": 462,
+            "value": "species",
+            "raw": "\"species\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 465,
+      "end": 506,
+      "expression": {
+        "type": "CallExpression",
+        "start": 465,
+        "end": 505,
+        "callee": {
+          "type": "Identifier",
+          "start": 465,
+          "end": 486,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 487,
+            "end": 493,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 495,
+            "end": 504,
+            "value": "species",
+            "raw": "\"species\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

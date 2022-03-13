@@ -1,0 +1,53 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1448,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1163,
+      "end": 1447,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1163,
+        "end": 1446,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 1163,
+          "end": 1171,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 1164,
+            "end": 1170,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 1164,
+                "end": 1165,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 1166,
+                "end": 1170,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1175,
+            "end": 1444,
+            "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });if (true) function f() {  } else function _f() {}",
+            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });if (true) function f() {  } else function _f() {}'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

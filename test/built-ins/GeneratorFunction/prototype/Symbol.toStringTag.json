@@ -1,0 +1,273 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 889,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 520,
+      "end": 591,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 524,
+          "end": 590,
+          "id": {
+            "type": "Identifier",
+            "start": 524,
+            "end": 550,
+            "name": "GeneratorFunctionPrototype"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 553,
+            "end": 590,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 553,
+              "end": 574,
+              "object": {
+                "type": "Identifier",
+                "start": 553,
+                "end": 559,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 560,
+                "end": 574,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 575,
+                "end": 589,
+                "id": null,
+                "expression": false,
+                "generator": true,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 587,
+                  "end": 589,
+                  "body": []
+                }
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 593,
+      "end": 683,
+      "expression": {
+        "type": "CallExpression",
+        "start": 593,
+        "end": 682,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 593,
+          "end": 609,
+          "object": {
+            "type": "Identifier",
+            "start": 593,
+            "end": 599,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 600,
+            "end": 609,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 613,
+            "end": 659,
+            "object": {
+              "type": "Identifier",
+              "start": 613,
+              "end": 639,
+              "name": "GeneratorFunctionPrototype"
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 640,
+              "end": 658,
+              "object": {
+                "type": "Identifier",
+                "start": 640,
+                "end": 646,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 647,
+                "end": 658,
+                "name": "toStringTag"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 661,
+            "end": 680,
+            "value": "GeneratorFunction",
+            "raw": "'GeneratorFunction'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 685,
+      "end": 753,
+      "expression": {
+        "type": "CallExpression",
+        "start": 685,
+        "end": 752,
+        "callee": {
+          "type": "Identifier",
+          "start": 685,
+          "end": 704,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 705,
+            "end": 731,
+            "name": "GeneratorFunctionPrototype"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 733,
+            "end": 751,
+            "object": {
+              "type": "Identifier",
+              "start": 733,
+              "end": 739,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 740,
+              "end": 751,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 754,
+      "end": 820,
+      "expression": {
+        "type": "CallExpression",
+        "start": 754,
+        "end": 819,
+        "callee": {
+          "type": "Identifier",
+          "start": 754,
+          "end": 771,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 772,
+            "end": 798,
+            "name": "GeneratorFunctionPrototype"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 800,
+            "end": 818,
+            "object": {
+              "type": "Identifier",
+              "start": 800,
+              "end": 806,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 807,
+              "end": 818,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 821,
+      "end": 888,
+      "expression": {
+        "type": "CallExpression",
+        "start": 821,
+        "end": 887,
+        "callee": {
+          "type": "Identifier",
+          "start": 821,
+          "end": 839,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 840,
+            "end": 866,
+            "name": "GeneratorFunctionPrototype"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 868,
+            "end": 886,
+            "object": {
+              "type": "Identifier",
+              "start": 868,
+              "end": 874,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 875,
+              "end": 886,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

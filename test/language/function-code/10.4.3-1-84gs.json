@@ -1,0 +1,155 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 502,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 335,
+      "end": 375,
+      "id": {
+        "type": "Identifier",
+        "start": 344,
+        "end": 345,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 348,
+        "end": 375,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 350,
+            "end": 374,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 357,
+              "end": 373,
+              "left": {
+                "type": "ThisExpression",
+                "start": 357,
+                "end": 361
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Identifier",
+                "start": 364,
+                "end": 373,
+                "name": "undefined"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 375,
+      "end": 376
+    },
+    {
+      "type": "IfStatement",
+      "start": 377,
+      "end": 501,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 381,
+        "end": 455,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 383,
+          "end": 455,
+          "expression": {
+            "type": "CallExpression",
+            "start": 384,
+            "end": 454,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 384,
+              "end": 452,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 385,
+                "end": 451,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 397,
+                  "end": 451,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 398,
+                      "end": 450,
+                      "argument": {
+                        "type": "CallExpression",
+                        "start": 405,
+                        "end": 449,
+                        "callee": {
+                          "type": "NewExpression",
+                          "start": 405,
+                          "end": 447,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 409,
+                            "end": 417,
+                            "name": "Function"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 418,
+                              "end": 446,
+                              "value": "\"use strict\";return f();",
+                              "raw": "\"\\\"use strict\\\";return f();\""
+                            }
+                          ]
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 457,
+        "end": 501,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 463,
+            "end": 499,
+            "argument": {
+              "type": "Literal",
+              "start": 469,
+              "end": 498,
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

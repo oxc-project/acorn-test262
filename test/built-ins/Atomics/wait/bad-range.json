@@ -1,0 +1,262 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 815,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 514,
+      "end": 603,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 520,
+          "end": 602,
+          "id": {
+            "type": "Identifier",
+            "start": 520,
+            "end": 524,
+            "name": "i32a"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 527,
+            "end": 602,
+            "callee": {
+              "type": "Identifier",
+              "start": 531,
+              "end": 541,
+              "name": "Int32Array"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 545,
+                "end": 600,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 549,
+                  "end": 566,
+                  "name": "SharedArrayBuffer"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 567,
+                    "end": 599,
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 567,
+                      "end": 595,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 567,
+                        "end": 577,
+                        "name": "Int32Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 578,
+                        "end": 595,
+                        "name": "BYTES_PER_ELEMENT"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "operator": "*",
+                    "right": {
+                      "type": "Literal",
+                      "start": 598,
+                      "end": 599,
+                      "value": 8,
+                      "raw": "8"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 605,
+      "end": 814,
+      "expression": {
+        "type": "CallExpression",
+        "start": 605,
+        "end": 813,
+        "callee": {
+          "type": "Identifier",
+          "start": 605,
+          "end": 638,
+          "name": "testWithAtomicsOutOfBoundsIndices"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 639,
+            "end": 812,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 648,
+                "end": 654,
+                "name": "IdxGen"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 656,
+              "end": 812,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 660,
+                  "end": 810,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 660,
+                    "end": 809,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 660,
+                      "end": 673,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 660,
+                        "end": 666,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 667,
+                        "end": 673,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 674,
+                        "end": 684,
+                        "name": "RangeError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 686,
+                        "end": 746,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 697,
+                          "end": 746,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 703,
+                              "end": 742,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 703,
+                                "end": 741,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 703,
+                                  "end": 715,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 703,
+                                    "end": 710,
+                                    "name": "Atomics"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 711,
+                                    "end": 715,
+                                    "name": "wait"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 716,
+                                    "end": 720,
+                                    "name": "i32a"
+                                  },
+                                  {
+                                    "type": "CallExpression",
+                                    "start": 722,
+                                    "end": 734,
+                                    "callee": {
+                                      "type": "Identifier",
+                                      "start": 722,
+                                      "end": 728,
+                                      "name": "IdxGen"
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 729,
+                                        "end": 733,
+                                        "name": "i32a"
+                                      }
+                                    ],
+                                    "optional": false
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 736,
+                                    "end": 737,
+                                    "value": 0,
+                                    "raw": "0"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 739,
+                                    "end": 740,
+                                    "value": 0,
+                                    "raw": "0"
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 748,
+                        "end": 808,
+                        "value": "`Atomics.wait(i32a, IdxGen(i32a), 0, 0)` throws RangeError",
+                        "raw": "'`Atomics.wait(i32a, IdxGen(i32a), 0, 0)` throws RangeError'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

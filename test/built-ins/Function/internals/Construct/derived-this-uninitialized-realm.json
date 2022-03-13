@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 756,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 589,
+      "end": 696,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 593,
+          "end": 695,
+          "id": {
+            "type": "Identifier",
+            "start": 593,
+            "end": 594,
+            "name": "C"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 597,
+            "end": 695,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 597,
+              "end": 627,
+              "object": {
+                "type": "MemberExpression",
+                "start": 597,
+                "end": 622,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 597,
+                  "end": 615,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 597,
+                    "end": 613,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 597,
+                      "end": 601,
+                      "name": "$262"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 602,
+                      "end": 613,
+                      "name": "createRealm"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 616,
+                  "end": 622,
+                  "name": "global"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 623,
+                "end": 627,
+                "name": "eval"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 631,
+                "end": 693,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 631,
+                  "end": 683,
+                  "left": {
+                    "type": "Literal",
+                    "start": 631,
+                    "end": 658,
+                    "value": "(class C extends Object {",
+                    "raw": "'(class C extends Object {'"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 663,
+                    "end": 683,
+                    "value": "  constructor() {}",
+                    "raw": "'  constructor() {}'"
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 688,
+                  "end": 693,
+                  "value": "});",
+                  "raw": "'});'"
+                }
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 698,
+      "end": 755,
+      "expression": {
+        "type": "CallExpression",
+        "start": 698,
+        "end": 754,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 698,
+          "end": 711,
+          "object": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 704,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 705,
+            "end": 711,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 712,
+            "end": 726,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 728,
+            "end": 753,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 739,
+              "end": 753,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 743,
+                  "end": 751,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 743,
+                    "end": 750,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 747,
+                      "end": 748,
+                      "name": "C"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

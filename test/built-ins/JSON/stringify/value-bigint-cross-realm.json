@@ -1,0 +1,416 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 679,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 276,
+      "end": 314,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 280,
+          "end": 313,
+          "id": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 285,
+            "name": "other"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 288,
+            "end": 313,
+            "object": {
+              "type": "CallExpression",
+              "start": 288,
+              "end": 306,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 288,
+                "end": 304,
+                "object": {
+                  "type": "Identifier",
+                  "start": 288,
+                  "end": 292,
+                  "name": "$262"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 293,
+                  "end": 304,
+                  "name": "createRealm"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 307,
+              "end": 313,
+              "name": "global"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 315,
+      "end": 361,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 319,
+          "end": 360,
+          "id": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 326,
+            "name": "wrapped"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 329,
+            "end": 360,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 329,
+              "end": 341,
+              "object": {
+                "type": "Identifier",
+                "start": 329,
+                "end": 334,
+                "name": "other"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 335,
+                "end": 341,
+                "name": "Object"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 342,
+                "end": 359,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 342,
+                  "end": 354,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 342,
+                    "end": 347,
+                    "name": "other"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 348,
+                    "end": 354,
+                    "name": "BigInt"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 355,
+                    "end": 358,
+                    "value": 100,
+                    "raw": "100"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 363,
+      "end": 484,
+      "expression": {
+        "type": "CallExpression",
+        "start": 363,
+        "end": 483,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 363,
+          "end": 376,
+          "object": {
+            "type": "Identifier",
+            "start": 363,
+            "end": 369,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 376,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 377,
+            "end": 386,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 388,
+            "end": 417,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 394,
+              "end": 417,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 394,
+                "end": 408,
+                "object": {
+                  "type": "Identifier",
+                  "start": 394,
+                  "end": 398,
+                  "name": "JSON"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 399,
+                  "end": 408,
+                  "name": "stringify"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 409,
+                  "end": 416,
+                  "name": "wrapped"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 433,
+            "end": 482,
+            "value": "cross-realm BigInt object without toJSON method",
+            "raw": "\"cross-realm BigInt object without toJSON method\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 486,
+      "end": 558,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 486,
+        "end": 557,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 486,
+          "end": 515,
+          "object": {
+            "type": "MemberExpression",
+            "start": 486,
+            "end": 508,
+            "object": {
+              "type": "MemberExpression",
+              "start": 486,
+              "end": 498,
+              "object": {
+                "type": "Identifier",
+                "start": 486,
+                "end": 491,
+                "name": "other"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 492,
+                "end": 498,
+                "name": "BigInt"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 499,
+              "end": 508,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 515,
+            "name": "toJSON"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 518,
+          "end": 557,
+          "id": null,
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 530,
+            "end": 557,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 532,
+                "end": 555,
+                "argument": {
+                  "type": "CallExpression",
+                  "start": 539,
+                  "end": 554,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 539,
+                    "end": 552,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 539,
+                      "end": 543
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 544,
+                      "end": 552,
+                      "name": "toString"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 560,
+      "end": 678,
+      "expression": {
+        "type": "CallExpression",
+        "start": 560,
+        "end": 677,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 560,
+          "end": 576,
+          "object": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 566,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 576,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 577,
+            "end": 600,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 577,
+              "end": 591,
+              "object": {
+                "type": "Identifier",
+                "start": 577,
+                "end": 581,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 582,
+                "end": 591,
+                "name": "stringify"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 592,
+                "end": 599,
+                "name": "wrapped"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 602,
+            "end": 611,
+            "value": "\"100\"",
+            "raw": "\"\\\"100\\\"\""
+          },
+          {
+            "type": "Literal",
+            "start": 630,
+            "end": 676,
+            "value": "cross-realm BigInt object with toJSON method",
+            "raw": "\"cross-realm BigInt object with toJSON method\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

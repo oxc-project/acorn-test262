@@ -1,0 +1,396 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 883,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 502,
+      "end": 882,
+      "expression": {
+        "type": "CallExpression",
+        "start": 502,
+        "end": 881,
+        "callee": {
+          "type": "Identifier",
+          "start": 502,
+          "end": 532,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 533,
+            "end": 880,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 542,
+                "end": 544,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 546,
+              "end": 880,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 550,
+                  "end": 592,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 554,
+                      "end": 591,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 554,
+                        "end": 560,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 563,
+                        "end": 591,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 567,
+                          "end": 569,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "ArrayExpression",
+                            "start": 570,
+                            "end": 590,
+                            "elements": [
+                              {
+                                "type": "Literal",
+                                "start": 571,
+                                "end": 573,
+                                "value": 42,
+                                "raw": "42"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 575,
+                                "end": 577,
+                                "value": 44,
+                                "raw": "44"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 579,
+                                "end": 581,
+                                "value": 46,
+                                "raw": "46"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 583,
+                                "end": 585,
+                                "value": 43,
+                                "raw": "43"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 587,
+                                "end": 589,
+                                "value": 45,
+                                "raw": "45"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 595,
+                  "end": 633,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 599,
+                      "end": 632,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 599,
+                        "end": 607,
+                        "name": "explicit"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 610,
+                        "end": 632,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 610,
+                          "end": 621,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 610,
+                            "end": 616,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 617,
+                            "end": 621,
+                            "name": "sort"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 622,
+                            "end": 631,
+                            "name": "undefined"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 636,
+                  "end": 665,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 640,
+                      "end": 664,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 640,
+                        "end": 648,
+                        "name": "implicit"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 651,
+                        "end": 664,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 651,
+                          "end": 662,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 651,
+                            "end": 657,
+                            "name": "sample"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 658,
+                            "end": 662,
+                            "name": "sort"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 669,
+                  "end": 772,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 669,
+                    "end": 771,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 669,
+                      "end": 688,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 669,
+                        "end": 675,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 676,
+                        "end": 688,
+                        "name": "compareArray"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 689,
+                        "end": 697,
+                        "name": "explicit"
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "start": 699,
+                        "end": 719,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 700,
+                            "end": 702,
+                            "value": 42,
+                            "raw": "42"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 704,
+                            "end": 706,
+                            "value": 43,
+                            "raw": "43"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 708,
+                            "end": 710,
+                            "value": 44,
+                            "raw": "44"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 712,
+                            "end": 714,
+                            "value": 45,
+                            "raw": "45"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 716,
+                            "end": 718,
+                            "value": 46,
+                            "raw": "46"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 721,
+                        "end": 770,
+                        "value": "The value of `explicit` is [42, 43, 44, 45, 46]",
+                        "raw": "'The value of `explicit` is [42, 43, 44, 45, 46]'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 775,
+                  "end": 878,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 775,
+                    "end": 877,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 775,
+                      "end": 794,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 775,
+                        "end": 781,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 782,
+                        "end": 794,
+                        "name": "compareArray"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 795,
+                        "end": 803,
+                        "name": "implicit"
+                      },
+                      {
+                        "type": "ArrayExpression",
+                        "start": 805,
+                        "end": 825,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 806,
+                            "end": 808,
+                            "value": 42,
+                            "raw": "42"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 810,
+                            "end": 812,
+                            "value": 43,
+                            "raw": "43"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 814,
+                            "end": 816,
+                            "value": 44,
+                            "raw": "44"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 818,
+                            "end": 820,
+                            "value": 45,
+                            "raw": "45"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 822,
+                            "end": 824,
+                            "value": 46,
+                            "raw": "46"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 827,
+                        "end": 876,
+                        "value": "The value of `implicit` is [42, 43, 44, 45, 46]",
+                        "raw": "'The value of `implicit` is [42, 43, 44, 45, 46]'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

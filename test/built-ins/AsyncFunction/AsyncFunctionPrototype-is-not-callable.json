@@ -1,0 +1,329 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 909,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 573,
+      "end": 645,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 577,
+          "end": 644,
+          "id": {
+            "type": "Identifier",
+            "start": 577,
+            "end": 599,
+            "name": "AsyncFunctionPrototype"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 602,
+            "end": 644,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 602,
+              "end": 623,
+              "object": {
+                "type": "Identifier",
+                "start": 602,
+                "end": 608,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 609,
+                "end": 623,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 624,
+                "end": 643,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": true,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 641,
+                  "end": 643,
+                  "body": []
+                }
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 647,
+      "end": 705,
+      "expression": {
+        "type": "CallExpression",
+        "start": 647,
+        "end": 704,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 647,
+          "end": 663,
+          "object": {
+            "type": "Identifier",
+            "start": 647,
+            "end": 653,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 654,
+            "end": 663,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 664,
+            "end": 693,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 671,
+              "end": 693,
+              "name": "AsyncFunctionPrototype"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 695,
+            "end": 703,
+            "value": "object",
+            "raw": "\"object\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 706,
+      "end": 775,
+      "expression": {
+        "type": "CallExpression",
+        "start": 706,
+        "end": 774,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 706,
+          "end": 719,
+          "object": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 712,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 713,
+            "end": 719,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 720,
+            "end": 729,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 731,
+            "end": 773,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 742,
+              "end": 773,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 746,
+                  "end": 771,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 746,
+                    "end": 770,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 746,
+                      "end": 768,
+                      "name": "AsyncFunctionPrototype"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 777,
+      "end": 844,
+      "expression": {
+        "type": "CallExpression",
+        "start": 777,
+        "end": 843,
+        "callee": {
+          "type": "Identifier",
+          "start": 777,
+          "end": 783,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 784,
+            "end": 832,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 785,
+              "end": 832,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 785,
+                "end": 822,
+                "object": {
+                  "type": "Identifier",
+                  "start": 785,
+                  "end": 807,
+                  "name": "AsyncFunctionPrototype"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 808,
+                  "end": 822,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 823,
+                  "end": 831,
+                  "value": "length",
+                  "raw": "\"length\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 834,
+            "end": 842,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 845,
+      "end": 908,
+      "expression": {
+        "type": "CallExpression",
+        "start": 845,
+        "end": 907,
+        "callee": {
+          "type": "Identifier",
+          "start": 845,
+          "end": 851,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 852,
+            "end": 898,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 853,
+              "end": 898,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 853,
+                "end": 890,
+                "object": {
+                  "type": "Identifier",
+                  "start": 853,
+                  "end": 875,
+                  "name": "AsyncFunctionPrototype"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 876,
+                  "end": 890,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 891,
+                  "end": 897,
+                  "value": "name",
+                  "raw": "\"name\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 900,
+            "end": 906,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

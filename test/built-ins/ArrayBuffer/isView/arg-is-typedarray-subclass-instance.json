@@ -1,0 +1,157 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 647,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 503,
+      "end": 646,
+      "expression": {
+        "type": "CallExpression",
+        "start": 503,
+        "end": 645,
+        "callee": {
+          "type": "Identifier",
+          "start": 503,
+          "end": 533,
+          "name": "testWithTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 534,
+            "end": 644,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 543,
+                "end": 547,
+                "name": "ctor"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 549,
+              "end": 644,
+              "body": [
+                {
+                  "type": "ClassDeclaration",
+                  "start": 553,
+                  "end": 577,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 559,
+                    "end": 561,
+                    "name": "TA"
+                  },
+                  "superClass": {
+                    "type": "Identifier",
+                    "start": 570,
+                    "end": 574,
+                    "name": "ctor"
+                  },
+                  "body": {
+                    "type": "ClassBody",
+                    "start": 575,
+                    "end": 577,
+                    "body": []
+                  }
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 581,
+                  "end": 603,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 585,
+                      "end": 602,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 585,
+                        "end": 591,
+                        "name": "sample"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 594,
+                        "end": 602,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 598,
+                          "end": 600,
+                          "name": "TA"
+                        },
+                        "arguments": []
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 607,
+                  "end": 642,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 607,
+                    "end": 641,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 607,
+                      "end": 613,
+                      "name": "assert"
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 614,
+                        "end": 640,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 614,
+                          "end": 632,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 614,
+                            "end": 625,
+                            "name": "ArrayBuffer"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 626,
+                            "end": 632,
+                            "name": "isView"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 633,
+                            "end": 639,
+                            "name": "sample"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

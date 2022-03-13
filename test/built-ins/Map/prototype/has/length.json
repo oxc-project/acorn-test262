@@ -1,0 +1,273 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 604,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 353,
+      "end": 455,
+      "expression": {
+        "type": "CallExpression",
+        "start": 353,
+        "end": 454,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 353,
+          "end": 369,
+          "object": {
+            "type": "Identifier",
+            "start": 353,
+            "end": 359,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 369,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 373,
+            "end": 397,
+            "object": {
+              "type": "MemberExpression",
+              "start": 373,
+              "end": 390,
+              "object": {
+                "type": "MemberExpression",
+                "start": 373,
+                "end": 386,
+                "object": {
+                  "type": "Identifier",
+                  "start": 373,
+                  "end": 376,
+                  "name": "Map"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 377,
+                  "end": 386,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 387,
+                "end": 390,
+                "name": "has"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 391,
+              "end": 397,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 399,
+            "end": 400,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 404,
+            "end": 452,
+            "value": "The value of `Map.prototype.has.length` is `1`",
+            "raw": "'The value of `Map.prototype.has.length` is `1`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 457,
+      "end": 506,
+      "expression": {
+        "type": "CallExpression",
+        "start": 457,
+        "end": 505,
+        "callee": {
+          "type": "Identifier",
+          "start": 457,
+          "end": 476,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 477,
+            "end": 494,
+            "object": {
+              "type": "MemberExpression",
+              "start": 477,
+              "end": 490,
+              "object": {
+                "type": "Identifier",
+                "start": 477,
+                "end": 480,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 481,
+                "end": 490,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 491,
+              "end": 494,
+              "name": "has"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 496,
+            "end": 504,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 507,
+      "end": 554,
+      "expression": {
+        "type": "CallExpression",
+        "start": 507,
+        "end": 553,
+        "callee": {
+          "type": "Identifier",
+          "start": 507,
+          "end": 524,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 525,
+            "end": 542,
+            "object": {
+              "type": "MemberExpression",
+              "start": 525,
+              "end": 538,
+              "object": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 528,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 529,
+                "end": 538,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 539,
+              "end": 542,
+              "name": "has"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 544,
+            "end": 552,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 555,
+      "end": 603,
+      "expression": {
+        "type": "CallExpression",
+        "start": 555,
+        "end": 602,
+        "callee": {
+          "type": "Identifier",
+          "start": 555,
+          "end": 573,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 574,
+            "end": 591,
+            "object": {
+              "type": "MemberExpression",
+              "start": 574,
+              "end": 587,
+              "object": {
+                "type": "Identifier",
+                "start": 574,
+                "end": 577,
+                "name": "Map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 578,
+                "end": 587,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 588,
+              "end": 591,
+              "name": "has"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 593,
+            "end": 601,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

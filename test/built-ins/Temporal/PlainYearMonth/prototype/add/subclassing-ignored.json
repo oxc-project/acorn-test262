@@ -1,0 +1,194 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 509,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 321,
+      "end": 508,
+      "expression": {
+        "type": "CallExpression",
+        "start": 321,
+        "end": 507,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 321,
+          "end": 360,
+          "object": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 336,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 337,
+            "end": 360,
+            "name": "checkSubclassingIgnored"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 364,
+            "end": 387,
+            "object": {
+              "type": "Identifier",
+              "start": 364,
+              "end": 372,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 373,
+              "end": 387,
+              "name": "PlainYearMonth"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 391,
+            "end": 400,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 392,
+                "end": 396,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 398,
+                "end": 399,
+                "value": 5,
+                "raw": "5"
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 404,
+            "end": 409,
+            "value": "add",
+            "raw": "\"add\""
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 413,
+            "end": 428,
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "start": 414,
+                "end": 427,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 416,
+                    "end": 425,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 416,
+                      "end": 422,
+                      "name": "months"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 424,
+                      "end": 425,
+                      "value": 1,
+                      "raw": "1"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 432,
+            "end": 504,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 433,
+                "end": 439,
+                "name": "result"
+              }
+            ],
+            "body": {
+              "type": "CallExpression",
+              "start": 444,
+              "end": 504,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 444,
+                "end": 480,
+                "object": {
+                  "type": "Identifier",
+                  "start": 444,
+                  "end": 459,
+                  "name": "TemporalHelpers"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 460,
+                  "end": 480,
+                  "name": "assertPlainYearMonth"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 481,
+                  "end": 487,
+                  "name": "result"
+                },
+                {
+                  "type": "Literal",
+                  "start": 489,
+                  "end": 493,
+                  "value": 2000,
+                  "raw": "2000"
+                },
+                {
+                  "type": "Literal",
+                  "start": 495,
+                  "end": 496,
+                  "value": 6,
+                  "raw": "6"
+                },
+                {
+                  "type": "Literal",
+                  "start": 498,
+                  "end": 503,
+                  "value": "M06",
+                  "raw": "\"M06\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

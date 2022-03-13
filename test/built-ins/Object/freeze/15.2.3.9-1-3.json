@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 318,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 275,
+      "end": 296,
+      "expression": {
+        "type": "CallExpression",
+        "start": 275,
+        "end": 295,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 275,
+          "end": 288,
+          "object": {
+            "type": "Identifier",
+            "start": 275,
+            "end": 281,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 288,
+            "name": "freeze"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 289,
+            "end": 294,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 297,
+      "end": 317,
+      "expression": {
+        "type": "CallExpression",
+        "start": 297,
+        "end": 316,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 297,
+          "end": 310,
+          "object": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 303,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 310,
+            "name": "freeze"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 311,
+            "end": 315,
+            "value": true,
+            "raw": "true"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

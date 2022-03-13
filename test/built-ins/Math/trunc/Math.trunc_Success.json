@@ -1,0 +1,88 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 322,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 246,
+      "end": 321,
+      "expression": {
+        "type": "CallExpression",
+        "start": 246,
+        "end": 320,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 246,
+          "end": 262,
+          "object": {
+            "type": "Identifier",
+            "start": 246,
+            "end": 252,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 253,
+            "end": 262,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 263,
+            "end": 286,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 263,
+              "end": 273,
+              "object": {
+                "type": "Identifier",
+                "start": 263,
+                "end": 267,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 268,
+                "end": 273,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 274,
+                "end": 285,
+                "value": 4578.584949,
+                "raw": "4578.584949"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 288,
+            "end": 292,
+            "value": 4578,
+            "raw": "4578"
+          },
+          {
+            "type": "Literal",
+            "start": 294,
+            "end": 319,
+            "value": "Math.trunc(4578.584949)",
+            "raw": "'Math.trunc(4578.584949)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

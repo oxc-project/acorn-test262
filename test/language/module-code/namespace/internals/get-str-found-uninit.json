@@ -1,0 +1,478 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 969,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 518,
+      "end": 566,
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 525,
+          "end": 532,
+          "local": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 532,
+            "name": "ns"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 538,
+        "end": 565,
+        "value": "./get-str-found-uninit.js",
+        "raw": "'./get-str-found-uninit.js'"
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 568,
+      "end": 627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 568,
+        "end": 626,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 568,
+          "end": 581,
+          "object": {
+            "type": "Identifier",
+            "start": 568,
+            "end": 574,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 575,
+            "end": 581,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 582,
+            "end": 596,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 598,
+            "end": 625,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 609,
+              "end": 625,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 613,
+                  "end": 623,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 613,
+                    "end": 622,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 613,
+                      "end": 615,
+                      "name": "ns"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 616,
+                      "end": 622,
+                      "name": "local1"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 628,
+      "end": 688,
+      "expression": {
+        "type": "CallExpression",
+        "start": 628,
+        "end": 687,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 628,
+          "end": 641,
+          "object": {
+            "type": "Identifier",
+            "start": 628,
+            "end": 634,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 635,
+            "end": 641,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 642,
+            "end": 656,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 658,
+            "end": 686,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 669,
+              "end": 686,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 673,
+                  "end": 684,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 673,
+                    "end": 683,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 673,
+                      "end": 675,
+                      "name": "ns"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 676,
+                      "end": 683,
+                      "name": "renamed"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 689,
+      "end": 750,
+      "expression": {
+        "type": "CallExpression",
+        "start": 689,
+        "end": 749,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 689,
+          "end": 702,
+          "object": {
+            "type": "Identifier",
+            "start": 689,
+            "end": 695,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 702,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 703,
+            "end": 717,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 719,
+            "end": 748,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 730,
+              "end": 748,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 734,
+                  "end": 746,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 734,
+                    "end": 745,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 734,
+                      "end": 736,
+                      "name": "ns"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 737,
+                      "end": 745,
+                      "name": "indirect"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 751,
+      "end": 811,
+      "expression": {
+        "type": "CallExpression",
+        "start": 751,
+        "end": 810,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 751,
+          "end": 764,
+          "object": {
+            "type": "Identifier",
+            "start": 751,
+            "end": 757,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 758,
+            "end": 764,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 765,
+            "end": 779,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 781,
+            "end": 809,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 792,
+              "end": 809,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 796,
+                  "end": 807,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 796,
+                    "end": 806,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 796,
+                      "end": 798,
+                      "name": "ns"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 799,
+                      "end": 806,
+                      "name": "default"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 813,
+      "end": 836,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 820,
+        "end": 836,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 824,
+            "end": 835,
+            "id": {
+              "type": "Identifier",
+              "start": 824,
+              "end": 830,
+              "name": "local1"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 833,
+              "end": 835,
+              "value": 23,
+              "raw": "23"
+            }
+          }
+        ],
+        "kind": "let"
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 837,
+      "end": 853,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 841,
+          "end": 852,
+          "id": {
+            "type": "Identifier",
+            "start": 841,
+            "end": 847,
+            "name": "local2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 850,
+            "end": 852,
+            "value": 45,
+            "raw": "45"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 854,
+      "end": 883,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 863,
+          "end": 880,
+          "local": {
+            "type": "Identifier",
+            "start": 863,
+            "end": 869,
+            "name": "local2"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 873,
+            "end": 880,
+            "name": "renamed"
+          }
+        }
+      ],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 884,
+      "end": 947,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 893,
+          "end": 911,
+          "local": {
+            "type": "Identifier",
+            "start": 893,
+            "end": 899,
+            "name": "local1"
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 903,
+            "end": 911,
+            "name": "indirect"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 919,
+        "end": 946,
+        "value": "./get-str-found-uninit.js",
+        "raw": "'./get-str-found-uninit.js'"
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 948,
+      "end": 968,
+      "declaration": {
+        "type": "Literal",
+        "start": 963,
+        "end": 967,
+        "value": null,
+        "raw": "null"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

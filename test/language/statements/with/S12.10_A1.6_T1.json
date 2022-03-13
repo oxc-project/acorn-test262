@@ -1,0 +1,2877 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3585,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 416,
+      "end": 428,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 416,
+        "end": 427,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 416,
+          "end": 423,
+          "object": {
+            "type": "ThisExpression",
+            "start": 416,
+            "end": 420
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 421,
+            "end": 423,
+            "name": "p1"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 426,
+          "end": 427,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 429,
+      "end": 441,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 429,
+        "end": 440,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 429,
+          "end": 436,
+          "object": {
+            "type": "ThisExpression",
+            "start": 429,
+            "end": 433
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 436,
+            "name": "p2"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 439,
+          "end": 440,
+          "value": 2,
+          "raw": "2"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 442,
+      "end": 454,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 442,
+        "end": 453,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 442,
+          "end": 449,
+          "object": {
+            "type": "ThisExpression",
+            "start": 442,
+            "end": 446
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 447,
+            "end": 449,
+            "name": "p3"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 452,
+          "end": 453,
+          "value": 3,
+          "raw": "3"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 455,
+      "end": 477,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 459,
+          "end": 476,
+          "id": {
+            "type": "Identifier",
+            "start": 459,
+            "end": 465,
+            "name": "result"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 468,
+            "end": 476,
+            "value": "result",
+            "raw": "\"result\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 478,
+      "end": 1010,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 482,
+          "end": 1010,
+          "id": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 487,
+            "name": "myObj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 490,
+            "end": 1010,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 491,
+                "end": 498,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 491,
+                  "end": 493,
+                  "name": "p1"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 495,
+                  "end": 498,
+                  "value": "a",
+                  "raw": "'a'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 514,
+                "end": 521,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 514,
+                  "end": 516,
+                  "name": "p2"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 518,
+                  "end": 521,
+                  "value": "b",
+                  "raw": "'b'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 537,
+                "end": 544,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 537,
+                  "end": 539,
+                  "name": "p3"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 541,
+                  "end": 544,
+                  "value": "c",
+                  "raw": "'c'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 559,
+                "end": 579,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 559,
+                  "end": 564,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 566,
+                  "end": 579,
+                  "value": "myObj_value",
+                  "raw": "'myObj_value'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 594,
+                "end": 637,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 594,
+                  "end": 601,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 604,
+                  "end": 637,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 614,
+                    "end": 637,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 615,
+                        "end": 636,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 622,
+                          "end": 635,
+                          "value": "obj_valueOf",
+                          "raw": "'obj_valueOf'"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 652,
+                "end": 697,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 652,
+                  "end": 660,
+                  "name": "parseInt"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 663,
+                  "end": 697,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 673,
+                    "end": 697,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 674,
+                        "end": 696,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 681,
+                          "end": 695,
+                          "value": "obj_parseInt",
+                          "raw": "'obj_parseInt'"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 712,
+                "end": 727,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 712,
+                  "end": 715,
+                  "name": "NaN"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 718,
+                  "end": 727,
+                  "value": "obj_NaN",
+                  "raw": "'obj_NaN'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 742,
+                "end": 767,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 742,
+                  "end": 750,
+                  "name": "Infinity"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 753,
+                  "end": 767,
+                  "value": "obj_Infinity",
+                  "raw": "'obj_Infinity'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 782,
+                "end": 823,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 782,
+                  "end": 786,
+                  "name": "eval"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 793,
+                  "end": 823,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 803,
+                    "end": 823,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 804,
+                        "end": 822,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 811,
+                          "end": 821,
+                          "value": "obj_eval",
+                          "raw": "'obj_eval'"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 838,
+                "end": 887,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 838,
+                  "end": 848,
+                  "name": "parseFloat"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 851,
+                  "end": 887,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 861,
+                    "end": 887,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 862,
+                        "end": 886,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 869,
+                          "end": 885,
+                          "value": "obj_parseFloat",
+                          "raw": "'obj_parseFloat'"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 902,
+                "end": 946,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 902,
+                  "end": 907,
+                  "name": "isNaN"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 915,
+                  "end": 946,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 925,
+                    "end": 946,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 926,
+                        "end": 945,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 933,
+                          "end": 944,
+                          "value": "obj_isNaN",
+                          "raw": "'obj_isNaN'"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 961,
+                "end": 1008,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 961,
+                  "end": 969,
+                  "name": "isFinite"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 974,
+                  "end": 1008,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 984,
+                    "end": 1008,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 985,
+                        "end": 1007,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 992,
+                          "end": 1006,
+                          "value": "obj_isFinite",
+                          "raw": "'obj_isFinite'"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1011,
+      "end": 1019,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1015,
+          "end": 1018,
+          "id": {
+            "type": "Identifier",
+            "start": 1015,
+            "end": 1018,
+            "name": "del"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1020,
+      "end": 1037,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1024,
+          "end": 1036,
+          "id": {
+            "type": "Identifier",
+            "start": 1024,
+            "end": 1029,
+            "name": "st_p1"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1032,
+            "end": 1036,
+            "value": "p1",
+            "raw": "\"p1\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1038,
+      "end": 1055,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1042,
+          "end": 1054,
+          "id": {
+            "type": "Identifier",
+            "start": 1042,
+            "end": 1047,
+            "name": "st_p2"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1050,
+            "end": 1054,
+            "value": "p2",
+            "raw": "\"p2\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1056,
+      "end": 1073,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1060,
+          "end": 1072,
+          "id": {
+            "type": "Identifier",
+            "start": 1060,
+            "end": 1065,
+            "name": "st_p3"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1068,
+            "end": 1072,
+            "value": "p3",
+            "raw": "\"p3\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1074,
+      "end": 1103,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1078,
+          "end": 1102,
+          "id": {
+            "type": "Identifier",
+            "start": 1078,
+            "end": 1089,
+            "name": "st_parseInt"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1092,
+            "end": 1102,
+            "value": "parseInt",
+            "raw": "\"parseInt\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1104,
+      "end": 1123,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1108,
+          "end": 1122,
+          "id": {
+            "type": "Identifier",
+            "start": 1108,
+            "end": 1114,
+            "name": "st_NaN"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1117,
+            "end": 1122,
+            "value": "NaN",
+            "raw": "\"NaN\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1124,
+      "end": 1153,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1128,
+          "end": 1152,
+          "id": {
+            "type": "Identifier",
+            "start": 1128,
+            "end": 1139,
+            "name": "st_Infinity"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1142,
+            "end": 1152,
+            "value": "Infinity",
+            "raw": "\"Infinity\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1154,
+      "end": 1175,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1158,
+          "end": 1174,
+          "id": {
+            "type": "Identifier",
+            "start": 1158,
+            "end": 1165,
+            "name": "st_eval"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1168,
+            "end": 1174,
+            "value": "eval",
+            "raw": "\"eval\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1176,
+      "end": 1209,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1180,
+          "end": 1208,
+          "id": {
+            "type": "Identifier",
+            "start": 1180,
+            "end": 1193,
+            "name": "st_parseFloat"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1196,
+            "end": 1208,
+            "value": "parseFloat",
+            "raw": "\"parseFloat\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1210,
+      "end": 1233,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1214,
+          "end": 1232,
+          "id": {
+            "type": "Identifier",
+            "start": 1214,
+            "end": 1222,
+            "name": "st_isNaN"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1225,
+            "end": 1232,
+            "value": "isNaN",
+            "raw": "\"isNaN\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1234,
+      "end": 1263,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1238,
+          "end": 1262,
+          "id": {
+            "type": "Identifier",
+            "start": 1238,
+            "end": 1249,
+            "name": "st_isFinite"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1252,
+            "end": 1262,
+            "value": "isFinite",
+            "raw": "\"isFinite\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "WithStatement",
+      "start": 1265,
+      "end": 1637,
+      "object": {
+        "type": "Identifier",
+        "start": 1270,
+        "end": 1275,
+        "name": "myObj"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 1276,
+        "end": 1637,
+        "body": [
+          {
+            "type": "WithStatement",
+            "start": 1280,
+            "end": 1635,
+            "object": {
+              "type": "Identifier",
+              "start": 1285,
+              "end": 1290,
+              "name": "myObj"
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 1291,
+              "end": 1635,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1297,
+                  "end": 1308,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1297,
+                    "end": 1307,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1297,
+                      "end": 1302,
+                      "name": "st_p1"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1305,
+                      "end": 1307,
+                      "name": "p1"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1313,
+                  "end": 1324,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1313,
+                    "end": 1323,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1313,
+                      "end": 1318,
+                      "name": "st_p2"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1321,
+                      "end": 1323,
+                      "name": "p2"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1329,
+                  "end": 1340,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1329,
+                    "end": 1339,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1329,
+                      "end": 1334,
+                      "name": "st_p3"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1337,
+                      "end": 1339,
+                      "name": "p3"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1345,
+                  "end": 1368,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1345,
+                    "end": 1367,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1345,
+                      "end": 1356,
+                      "name": "st_parseInt"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1359,
+                      "end": 1367,
+                      "name": "parseInt"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1373,
+                  "end": 1386,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1373,
+                    "end": 1385,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1373,
+                      "end": 1379,
+                      "name": "st_NaN"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1382,
+                      "end": 1385,
+                      "name": "NaN"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1391,
+                  "end": 1414,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1391,
+                    "end": 1413,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1391,
+                      "end": 1402,
+                      "name": "st_Infinity"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1405,
+                      "end": 1413,
+                      "name": "Infinity"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1419,
+                  "end": 1434,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1419,
+                    "end": 1433,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1419,
+                      "end": 1426,
+                      "name": "st_eval"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1429,
+                      "end": 1433,
+                      "name": "eval"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1439,
+                  "end": 1466,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1439,
+                    "end": 1465,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1439,
+                      "end": 1452,
+                      "name": "st_parseFloat"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1455,
+                      "end": 1465,
+                      "name": "parseFloat"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1471,
+                  "end": 1488,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1471,
+                    "end": 1487,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1471,
+                      "end": 1479,
+                      "name": "st_isNaN"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1482,
+                      "end": 1487,
+                      "name": "isNaN"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1493,
+                  "end": 1516,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1493,
+                    "end": 1515,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1493,
+                      "end": 1504,
+                      "name": "st_isFinite"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1507,
+                      "end": 1515,
+                      "name": "isFinite"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1521,
+                  "end": 1531,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1521,
+                    "end": 1530,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1521,
+                      "end": 1523,
+                      "name": "p1"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 1526,
+                      "end": 1530,
+                      "value": "x1",
+                      "raw": "'x1'"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1536,
+                  "end": 1551,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1536,
+                    "end": 1550,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 1536,
+                      "end": 1543,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 1536,
+                        "end": 1540
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1541,
+                        "end": 1543,
+                        "name": "p2"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 1546,
+                      "end": 1550,
+                      "value": "x2",
+                      "raw": "'x2'"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1556,
+                  "end": 1572,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1556,
+                    "end": 1571,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1556,
+                      "end": 1559,
+                      "name": "del"
+                    },
+                    "right": {
+                      "type": "UnaryExpression",
+                      "start": 1562,
+                      "end": 1571,
+                      "operator": "delete",
+                      "prefix": true,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 1569,
+                        "end": 1571,
+                        "name": "p3"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 1577,
+                  "end": 1591,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 1581,
+                      "end": 1590,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 1581,
+                        "end": 1583,
+                        "name": "p4"
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "start": 1586,
+                        "end": 1590,
+                        "value": "x4",
+                        "raw": "'x4'"
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1596,
+                  "end": 1606,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 1596,
+                    "end": 1605,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1596,
+                      "end": 1598,
+                      "name": "p5"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 1601,
+                      "end": 1605,
+                      "value": "x5",
+                      "raw": "'x5'"
+                    }
+                  }
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 1611,
+                  "end": 1631,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 1615,
+                      "end": 1630,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 1615,
+                        "end": 1620,
+                        "name": "value"
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "start": 1623,
+                        "end": 1630,
+                        "value": "value",
+                        "raw": "'value'"
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1639,
+      "end": 1722,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 1642,
+        "end": 1653,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 1643,
+          "end": 1653,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 1644,
+            "end": 1652,
+            "left": {
+              "type": "Identifier",
+              "start": 1644,
+              "end": 1646,
+              "name": "p1"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 1651,
+              "end": 1652,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1654,
+        "end": 1722,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1658,
+            "end": 1720,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1664,
+              "end": 1719,
+              "callee": {
+                "type": "Identifier",
+                "start": 1668,
+                "end": 1680,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1681,
+                  "end": 1716,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1681,
+                    "end": 1712,
+                    "value": "#1: p1 === 1. Actual:  p1 ===",
+                    "raw": "'#1: p1 === 1. Actual:  p1 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 1714,
+                    "end": 1716,
+                    "name": "p1"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1724,
+      "end": 1813,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 1727,
+        "end": 1741,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 1728,
+          "end": 1741,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 1729,
+            "end": 1740,
+            "left": {
+              "type": "Identifier",
+              "start": 1729,
+              "end": 1731,
+              "name": "p2"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 1736,
+              "end": 1740,
+              "value": "x2",
+              "raw": "\"x2\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1742,
+        "end": 1813,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1746,
+            "end": 1811,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1752,
+              "end": 1810,
+              "callee": {
+                "type": "Identifier",
+                "start": 1756,
+                "end": 1768,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1769,
+                  "end": 1807,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1769,
+                    "end": 1803,
+                    "value": "#2: p2 === \"x2\". Actual:  p2 ===",
+                    "raw": "'#2: p2 === \"x2\". Actual:  p2 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 1805,
+                    "end": 1807,
+                    "name": "p2"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1815,
+      "end": 1898,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 1818,
+        "end": 1829,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 1819,
+          "end": 1829,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 1820,
+            "end": 1828,
+            "left": {
+              "type": "Identifier",
+              "start": 1820,
+              "end": 1822,
+              "name": "p3"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 1827,
+              "end": 1828,
+              "value": 3,
+              "raw": "3"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1830,
+        "end": 1898,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1834,
+            "end": 1896,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1840,
+              "end": 1895,
+              "callee": {
+                "type": "Identifier",
+                "start": 1844,
+                "end": 1856,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1857,
+                  "end": 1892,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1857,
+                    "end": 1888,
+                    "value": "#3: p3 === 3. Actual:  p3 ===",
+                    "raw": "'#3: p3 === 3. Actual:  p3 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 1890,
+                    "end": 1892,
+                    "name": "p3"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1900,
+      "end": 1989,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 1903,
+        "end": 1917,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 1904,
+          "end": 1917,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 1905,
+            "end": 1916,
+            "left": {
+              "type": "Identifier",
+              "start": 1905,
+              "end": 1907,
+              "name": "p4"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 1912,
+              "end": 1916,
+              "value": "x4",
+              "raw": "\"x4\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1918,
+        "end": 1989,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1922,
+            "end": 1987,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1928,
+              "end": 1986,
+              "callee": {
+                "type": "Identifier",
+                "start": 1932,
+                "end": 1944,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1945,
+                  "end": 1983,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1945,
+                    "end": 1979,
+                    "value": "#4: p4 === \"x4\". Actual:  p4 ===",
+                    "raw": "'#4: p4 === \"x4\". Actual:  p4 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 1981,
+                    "end": 1983,
+                    "name": "p4"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 1991,
+      "end": 2080,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 1994,
+        "end": 2008,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 1995,
+          "end": 2008,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 1996,
+            "end": 2007,
+            "left": {
+              "type": "Identifier",
+              "start": 1996,
+              "end": 1998,
+              "name": "p5"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 2003,
+              "end": 2007,
+              "value": "x5",
+              "raw": "\"x5\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2009,
+        "end": 2080,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2013,
+            "end": 2078,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2019,
+              "end": 2077,
+              "callee": {
+                "type": "Identifier",
+                "start": 2023,
+                "end": 2035,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2036,
+                  "end": 2074,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2036,
+                    "end": 2070,
+                    "value": "#5: p5 === \"x5\". Actual:  p5 ===",
+                    "raw": "'#5: p5 === \"x5\". Actual:  p5 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 2072,
+                    "end": 2074,
+                    "name": "p5"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2082,
+      "end": 2195,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2085,
+        "end": 2105,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 2086,
+          "end": 2105,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 2087,
+            "end": 2104,
+            "left": {
+              "type": "MemberExpression",
+              "start": 2087,
+              "end": 2095,
+              "object": {
+                "type": "Identifier",
+                "start": 2087,
+                "end": 2092,
+                "name": "myObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2093,
+                "end": 2095,
+                "name": "p1"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 2100,
+              "end": 2104,
+              "value": "x1",
+              "raw": "\"x1\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2106,
+        "end": 2195,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2110,
+            "end": 2193,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2116,
+              "end": 2192,
+              "callee": {
+                "type": "Identifier",
+                "start": 2120,
+                "end": 2132,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2133,
+                  "end": 2189,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2133,
+                    "end": 2179,
+                    "value": "#6: myObj.p1 === \"x1\". Actual:  myObj.p1 ===",
+                    "raw": "'#6: myObj.p1 === \"x1\". Actual:  myObj.p1 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2181,
+                    "end": 2189,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2181,
+                      "end": 2186,
+                      "name": "myObj"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2187,
+                      "end": 2189,
+                      "name": "p1"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2197,
+      "end": 2308,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2200,
+        "end": 2219,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 2201,
+          "end": 2219,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 2202,
+            "end": 2218,
+            "left": {
+              "type": "MemberExpression",
+              "start": 2202,
+              "end": 2210,
+              "object": {
+                "type": "Identifier",
+                "start": 2202,
+                "end": 2207,
+                "name": "myObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2208,
+                "end": 2210,
+                "name": "p2"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 2215,
+              "end": 2218,
+              "value": "b",
+              "raw": "\"b\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2220,
+        "end": 2308,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2224,
+            "end": 2306,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2230,
+              "end": 2305,
+              "callee": {
+                "type": "Identifier",
+                "start": 2234,
+                "end": 2246,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2247,
+                  "end": 2302,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2247,
+                    "end": 2292,
+                    "value": "#7: myObj.p2 === \"b\". Actual:  myObj.p2 ===",
+                    "raw": "'#7: myObj.p2 === \"b\". Actual:  myObj.p2 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2294,
+                    "end": 2302,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2294,
+                      "end": 2299,
+                      "name": "myObj"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2300,
+                      "end": 2302,
+                      "name": "p2"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2310,
+      "end": 2433,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2313,
+        "end": 2338,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 2314,
+          "end": 2338,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 2315,
+            "end": 2337,
+            "left": {
+              "type": "MemberExpression",
+              "start": 2315,
+              "end": 2323,
+              "object": {
+                "type": "Identifier",
+                "start": 2315,
+                "end": 2320,
+                "name": "myObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2321,
+                "end": 2323,
+                "name": "p3"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "===",
+            "right": {
+              "type": "Identifier",
+              "start": 2328,
+              "end": 2337,
+              "name": "undefined"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2339,
+        "end": 2433,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2343,
+            "end": 2431,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2349,
+              "end": 2430,
+              "callee": {
+                "type": "Identifier",
+                "start": 2353,
+                "end": 2365,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2366,
+                  "end": 2427,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2366,
+                    "end": 2417,
+                    "value": "#8: myObj.p3 === undefined. Actual:  myObj.p3 ===",
+                    "raw": "'#8: myObj.p3 === undefined. Actual:  myObj.p3 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2419,
+                    "end": 2427,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2419,
+                      "end": 2424,
+                      "name": "myObj"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2425,
+                      "end": 2427,
+                      "name": "p3"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2435,
+      "end": 2558,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2438,
+        "end": 2463,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 2439,
+          "end": 2463,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 2440,
+            "end": 2462,
+            "left": {
+              "type": "MemberExpression",
+              "start": 2440,
+              "end": 2448,
+              "object": {
+                "type": "Identifier",
+                "start": 2440,
+                "end": 2445,
+                "name": "myObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2446,
+                "end": 2448,
+                "name": "p4"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "===",
+            "right": {
+              "type": "Identifier",
+              "start": 2453,
+              "end": 2462,
+              "name": "undefined"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2464,
+        "end": 2558,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2468,
+            "end": 2556,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2474,
+              "end": 2555,
+              "callee": {
+                "type": "Identifier",
+                "start": 2478,
+                "end": 2490,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2491,
+                  "end": 2552,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2491,
+                    "end": 2542,
+                    "value": "#9: myObj.p4 === undefined. Actual:  myObj.p4 ===",
+                    "raw": "'#9: myObj.p4 === undefined. Actual:  myObj.p4 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2544,
+                    "end": 2552,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2544,
+                      "end": 2549,
+                      "name": "myObj"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2550,
+                      "end": 2552,
+                      "name": "p4"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2560,
+      "end": 2684,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2563,
+        "end": 2588,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 2564,
+          "end": 2588,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 2565,
+            "end": 2587,
+            "left": {
+              "type": "MemberExpression",
+              "start": 2565,
+              "end": 2573,
+              "object": {
+                "type": "Identifier",
+                "start": 2565,
+                "end": 2570,
+                "name": "myObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2571,
+                "end": 2573,
+                "name": "p5"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "===",
+            "right": {
+              "type": "Identifier",
+              "start": 2578,
+              "end": 2587,
+              "name": "undefined"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2589,
+        "end": 2684,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2593,
+            "end": 2682,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2599,
+              "end": 2681,
+              "callee": {
+                "type": "Identifier",
+                "start": 2603,
+                "end": 2615,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2616,
+                  "end": 2678,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2616,
+                    "end": 2668,
+                    "value": "#10: myObj.p5 === undefined. Actual:  myObj.p5 ===",
+                    "raw": "'#10: myObj.p5 === undefined. Actual:  myObj.p5 ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 2670,
+                    "end": 2678,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 2670,
+                      "end": 2675,
+                      "name": "myObj"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 2676,
+                      "end": 2678,
+                      "name": "p5"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2686,
+      "end": 2782,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2689,
+        "end": 2716,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 2690,
+          "end": 2716,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 2691,
+            "end": 2715,
+            "left": {
+              "type": "Identifier",
+              "start": 2691,
+              "end": 2702,
+              "name": "st_parseInt"
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "start": 2707,
+              "end": 2715,
+              "name": "parseInt"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2717,
+        "end": 2782,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2721,
+            "end": 2780,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2727,
+              "end": 2779,
+              "callee": {
+                "type": "Identifier",
+                "start": 2731,
+                "end": 2743,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2744,
+                  "end": 2778,
+                  "value": "#11: myObj.parseInt !== parseInt",
+                  "raw": "'#11: myObj.parseInt !== parseInt'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2784,
+      "end": 2866,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2787,
+        "end": 2810,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 2788,
+          "end": 2810,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 2789,
+            "end": 2809,
+            "left": {
+              "type": "Identifier",
+              "start": 2789,
+              "end": 2795,
+              "name": "st_NaN"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 2800,
+              "end": 2809,
+              "value": "obj_NaN",
+              "raw": "\"obj_NaN\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2811,
+        "end": 2866,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2815,
+            "end": 2864,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2821,
+              "end": 2863,
+              "callee": {
+                "type": "Identifier",
+                "start": 2825,
+                "end": 2837,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2838,
+                  "end": 2862,
+                  "value": "#12: myObj.NaN !== NaN",
+                  "raw": "'#12: myObj.NaN !== NaN'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2868,
+      "end": 2964,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2871,
+        "end": 2898,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 2872,
+          "end": 2898,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 2873,
+            "end": 2897,
+            "left": {
+              "type": "Identifier",
+              "start": 2873,
+              "end": 2884,
+              "name": "st_Infinity"
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "start": 2889,
+              "end": 2897,
+              "name": "Infinity"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2899,
+        "end": 2964,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2903,
+            "end": 2962,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2909,
+              "end": 2961,
+              "callee": {
+                "type": "Identifier",
+                "start": 2913,
+                "end": 2925,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2926,
+                  "end": 2960,
+                  "value": "#13: myObj.Infinity !== Infinity",
+                  "raw": "'#13: myObj.Infinity !== Infinity'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 2966,
+      "end": 3046,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2969,
+        "end": 2988,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 2970,
+          "end": 2988,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 2971,
+            "end": 2987,
+            "left": {
+              "type": "Identifier",
+              "start": 2971,
+              "end": 2978,
+              "name": "st_eval"
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "start": 2983,
+              "end": 2987,
+              "name": "eval"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2989,
+        "end": 3046,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2993,
+            "end": 3044,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2999,
+              "end": 3043,
+              "callee": {
+                "type": "Identifier",
+                "start": 3003,
+                "end": 3015,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 3016,
+                  "end": 3042,
+                  "value": "#14: myObj.eval !== eval",
+                  "raw": "'#14: myObj.eval !== eval'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 3048,
+      "end": 3152,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 3051,
+        "end": 3082,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 3052,
+          "end": 3082,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 3053,
+            "end": 3081,
+            "left": {
+              "type": "Identifier",
+              "start": 3053,
+              "end": 3066,
+              "name": "st_parseFloat"
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "start": 3071,
+              "end": 3081,
+              "name": "parseFloat"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 3083,
+        "end": 3152,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 3087,
+            "end": 3150,
+            "argument": {
+              "type": "NewExpression",
+              "start": 3093,
+              "end": 3149,
+              "callee": {
+                "type": "Identifier",
+                "start": 3097,
+                "end": 3109,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 3110,
+                  "end": 3148,
+                  "value": "#15: myObj.parseFloat !== parseFloat",
+                  "raw": "'#15: myObj.parseFloat !== parseFloat'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 3154,
+      "end": 3238,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 3157,
+        "end": 3178,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 3158,
+          "end": 3178,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 3159,
+            "end": 3177,
+            "left": {
+              "type": "Identifier",
+              "start": 3159,
+              "end": 3167,
+              "name": "st_isNaN"
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "start": 3172,
+              "end": 3177,
+              "name": "isNaN"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 3179,
+        "end": 3238,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 3183,
+            "end": 3236,
+            "argument": {
+              "type": "NewExpression",
+              "start": 3189,
+              "end": 3235,
+              "callee": {
+                "type": "Identifier",
+                "start": 3193,
+                "end": 3205,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 3206,
+                  "end": 3234,
+                  "value": "#16: myObj.isNaN !== isNaN",
+                  "raw": "'#16: myObj.isNaN !== isNaN'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 3240,
+      "end": 3336,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 3243,
+        "end": 3270,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 3244,
+          "end": 3270,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 3245,
+            "end": 3269,
+            "left": {
+              "type": "Identifier",
+              "start": 3245,
+              "end": 3256,
+              "name": "st_isFinite"
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Identifier",
+              "start": 3261,
+              "end": 3269,
+              "name": "isFinite"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 3271,
+        "end": 3336,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 3275,
+            "end": 3334,
+            "argument": {
+              "type": "NewExpression",
+              "start": 3281,
+              "end": 3333,
+              "callee": {
+                "type": "Identifier",
+                "start": 3285,
+                "end": 3297,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 3298,
+                  "end": 3332,
+                  "value": "#17: myObj.isFinite !== isFinite",
+                  "raw": "'#17: myObj.isFinite !== isFinite'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 3338,
+      "end": 3450,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 3341,
+        "end": 3363,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 3342,
+          "end": 3363,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 3343,
+            "end": 3362,
+            "left": {
+              "type": "Identifier",
+              "start": 3343,
+              "end": 3348,
+              "name": "value"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Identifier",
+              "start": 3353,
+              "end": 3362,
+              "name": "undefined"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 3364,
+        "end": 3450,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 3368,
+            "end": 3448,
+            "argument": {
+              "type": "NewExpression",
+              "start": 3374,
+              "end": 3447,
+              "callee": {
+                "type": "Identifier",
+                "start": 3378,
+                "end": 3390,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 3391,
+                  "end": 3444,
+                  "left": {
+                    "type": "Literal",
+                    "start": 3391,
+                    "end": 3437,
+                    "value": "#18: value === undefined. Actual:  value ===",
+                    "raw": "'#18: value === undefined. Actual:  value ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 3439,
+                    "end": 3444,
+                    "name": "value"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 3452,
+      "end": 3584,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 3455,
+        "end": 3481,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 3456,
+          "end": 3481,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 3457,
+            "end": 3480,
+            "left": {
+              "type": "MemberExpression",
+              "start": 3457,
+              "end": 3468,
+              "object": {
+                "type": "Identifier",
+                "start": 3457,
+                "end": 3462,
+                "name": "myObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 3463,
+                "end": 3468,
+                "name": "value"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 3473,
+              "end": 3480,
+              "value": "value",
+              "raw": "\"value\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 3482,
+        "end": 3584,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 3486,
+            "end": 3582,
+            "argument": {
+              "type": "NewExpression",
+              "start": 3492,
+              "end": 3581,
+              "callee": {
+                "type": "Identifier",
+                "start": 3496,
+                "end": 3508,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 3509,
+                  "end": 3578,
+                  "left": {
+                    "type": "Literal",
+                    "start": 3509,
+                    "end": 3565,
+                    "value": "#19: myObj.value === \"value\". Actual:  myObj.value ===",
+                    "raw": "'#19: myObj.value === \"value\". Actual:  myObj.value ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 3567,
+                    "end": 3578,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 3567,
+                      "end": 3572,
+                      "name": "myObj"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 3573,
+                      "end": 3578,
+                      "name": "value"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

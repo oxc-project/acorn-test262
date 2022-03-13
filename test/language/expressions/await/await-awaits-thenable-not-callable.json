@@ -1,0 +1,203 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 489,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 342,
+      "end": 460,
+      "id": {
+        "type": "Identifier",
+        "start": 357,
+        "end": 360,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 363,
+        "end": 460,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 367,
+            "end": 395,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 371,
+                "end": 394,
+                "id": {
+                  "type": "Identifier",
+                  "start": 371,
+                  "end": 379,
+                  "name": "thenable"
+                },
+                "init": {
+                  "type": "ObjectExpression",
+                  "start": 382,
+                  "end": 394,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 384,
+                      "end": 392,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 384,
+                        "end": 388,
+                        "name": "then"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 390,
+                        "end": 392,
+                        "value": 42,
+                        "raw": "42"
+                      },
+                      "kind": "init"
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 398,
+            "end": 423,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 402,
+                "end": 422,
+                "id": {
+                  "type": "Identifier",
+                  "start": 402,
+                  "end": 405,
+                  "name": "res"
+                },
+                "init": {
+                  "type": "AwaitExpression",
+                  "start": 408,
+                  "end": 422,
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 414,
+                    "end": 422,
+                    "name": "thenable"
+                  }
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 426,
+            "end": 458,
+            "expression": {
+              "type": "CallExpression",
+              "start": 426,
+              "end": 457,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 426,
+                "end": 442,
+                "object": {
+                  "type": "Identifier",
+                  "start": 426,
+                  "end": 432,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 433,
+                  "end": 442,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 443,
+                  "end": 446,
+                  "name": "res"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 448,
+                  "end": 456,
+                  "name": "thenable"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 462,
+      "end": 487,
+      "expression": {
+        "type": "CallExpression",
+        "start": 462,
+        "end": 486,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 462,
+          "end": 472,
+          "object": {
+            "type": "CallExpression",
+            "start": 462,
+            "end": 467,
+            "callee": {
+              "type": "Identifier",
+              "start": 462,
+              "end": 465,
+              "name": "foo"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 468,
+            "end": 472,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 473,
+            "end": 478,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 480,
+            "end": 485,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

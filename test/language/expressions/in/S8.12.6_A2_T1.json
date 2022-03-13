@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 757,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 474,
+      "end": 487,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 478,
+          "end": 486,
+          "id": {
+            "type": "Identifier",
+            "start": 478,
+            "end": 483,
+            "name": "__obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 484,
+            "end": 486,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 578,
+      "end": 674,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 582,
+        "end": 603,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 583,
+          "end": 603,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 584,
+            "end": 602,
+            "left": {
+              "type": "Literal",
+              "start": 584,
+              "end": 593,
+              "value": "valueOf",
+              "raw": "\"valueOf\""
+            },
+            "operator": "in",
+            "right": {
+              "type": "Identifier",
+              "start": 597,
+              "end": 602,
+              "name": "__obj"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 605,
+        "end": 674,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 609,
+            "end": 672,
+            "argument": {
+              "type": "NewExpression",
+              "start": 615,
+              "end": 671,
+              "callee": {
+                "type": "Identifier",
+                "start": 619,
+                "end": 631,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 632,
+                  "end": 670,
+                  "value": "#1: var __obj={}; \"valueOf\" in __obj",
+                  "raw": "'#1: var __obj={}; \"valueOf\" in __obj'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

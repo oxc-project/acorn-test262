@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 667,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 330,
+      "end": 497,
+      "expression": {
+        "type": "CallExpression",
+        "start": 330,
+        "end": 496,
+        "callee": {
+          "type": "Identifier",
+          "start": 330,
+          "end": 336,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 340,
+            "end": 395,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 341,
+              "end": 395,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 341,
+                "end": 376,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 341,
+                  "end": 355,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 341,
+                    "end": 345,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 346,
+                    "end": 355,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 356,
+                  "end": 376,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 377,
+                  "end": 394,
+                  "value": "getMilliseconds",
+                  "raw": "'getMilliseconds'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 399,
+            "end": 494,
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getMilliseconds') is expected to be true",
+            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getMilliseconds\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 499,
+      "end": 620,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 504,
+        "end": 509,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 508,
+            "end": 509,
+            "id": {
+              "type": "Identifier",
+              "start": 508,
+              "end": 509,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 513,
+        "end": 527,
+        "object": {
+          "type": "Identifier",
+          "start": 513,
+          "end": 517,
+          "name": "Date"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 518,
+          "end": 527,
+          "name": "prototype"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 529,
+        "end": 620,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 533,
+            "end": 618,
+            "expression": {
+              "type": "CallExpression",
+              "start": 533,
+              "end": 617,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 533,
+                "end": 552,
+                "object": {
+                  "type": "Identifier",
+                  "start": 533,
+                  "end": 539,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 540,
+                  "end": 552,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 553,
+                  "end": 554,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 556,
+                  "end": 573,
+                  "value": "getMilliseconds",
+                  "raw": "\"getMilliseconds\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 575,
+                  "end": 616,
+                  "value": "The value of x is not \"getMilliseconds\"",
+                  "raw": "'The value of x is not \"getMilliseconds\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 619,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 267,
+      "end": 292,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 271,
+          "end": 291,
+          "id": {
+            "type": "Identifier",
+            "start": 271,
+            "end": 283,
+            "name": "__10_4_2_1_5"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 286,
+            "end": 291,
+            "value": "str",
+            "raw": "\"str\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 293,
+      "end": 606,
+      "id": {
+        "type": "Identifier",
+        "start": 302,
+        "end": 310,
+        "name": "testcase"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 313,
+        "end": 606,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 327,
+            "end": 353,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 331,
+                "end": 352,
+                "id": {
+                  "type": "Identifier",
+                  "start": 331,
+                  "end": 343,
+                  "name": "__10_4_2_1_5"
+                },
+                "init": {
+                  "type": "Literal",
+                  "start": 346,
+                  "end": 352,
+                  "value": "str1",
+                  "raw": "\"str1\""
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 366,
+            "end": 577,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 370,
+                "end": 576,
+                "id": {
+                  "type": "Identifier",
+                  "start": 370,
+                  "end": 371,
+                  "name": "r"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 374,
+                  "end": 576,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 374,
+                    "end": 378,
+                    "name": "eval"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 379,
+                      "end": 575,
+                      "value": "                          var _eval = eval;                           var __10_4_2_1_5 = 'str2';                           _eval(\"'str' === __10_4_2_1_5 \")                         ",
+                      "raw": "\"\\\n                          var _eval = eval; \\\n                          var __10_4_2_1_5 = \\'str2\\'; \\\n                          _eval(\\\"\\'str\\' === __10_4_2_1_5 \\\") \\\n                        \""
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 590,
+            "end": 600,
+            "expression": {
+              "type": "CallExpression",
+              "start": 590,
+              "end": 599,
+              "callee": {
+                "type": "Identifier",
+                "start": 590,
+                "end": 596,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 597,
+                  "end": 598,
+                  "name": "r"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 607,
+      "end": 618,
+      "expression": {
+        "type": "CallExpression",
+        "start": 607,
+        "end": 617,
+        "callee": {
+          "type": "Identifier",
+          "start": 607,
+          "end": 615,
+          "name": "testcase"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

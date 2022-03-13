@@ -1,0 +1,68 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 379,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 280,
+      "end": 378,
+      "expression": {
+        "type": "CallExpression",
+        "start": 280,
+        "end": 377,
+        "callee": {
+          "type": "Identifier",
+          "start": 280,
+          "end": 286,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 287,
+            "end": 321,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 287,
+              "end": 308,
+              "object": {
+                "type": "Identifier",
+                "start": 287,
+                "end": 293,
+                "name": "Number"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 294,
+                "end": 308,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 309,
+                "end": 320,
+                "value": "MAX_VALUE",
+                "raw": "\"MAX_VALUE\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 323,
+            "end": 376,
+            "value": "Number.hasOwnProperty(\"MAX_VALUE\") must return true",
+            "raw": "'Number.hasOwnProperty(\"MAX_VALUE\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

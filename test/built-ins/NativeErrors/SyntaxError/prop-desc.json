@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 610,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 490,
+      "end": 531,
+      "expression": {
+        "type": "CallExpression",
+        "start": 490,
+        "end": 530,
+        "callee": {
+          "type": "Identifier",
+          "start": 490,
+          "end": 509,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 510,
+            "end": 514
+          },
+          {
+            "type": "Literal",
+            "start": 516,
+            "end": 529,
+            "value": "SyntaxError",
+            "raw": "\"SyntaxError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 532,
+      "end": 568,
+      "expression": {
+        "type": "CallExpression",
+        "start": 532,
+        "end": 567,
+        "callee": {
+          "type": "Identifier",
+          "start": 532,
+          "end": 546,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 547,
+            "end": 551
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 566,
+            "value": "SyntaxError",
+            "raw": "\"SyntaxError\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 569,
+      "end": 609,
+      "expression": {
+        "type": "CallExpression",
+        "start": 569,
+        "end": 608,
+        "callee": {
+          "type": "Identifier",
+          "start": 569,
+          "end": 587,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "ThisExpression",
+            "start": 588,
+            "end": 592
+          },
+          {
+            "type": "Literal",
+            "start": 594,
+            "end": 607,
+            "value": "SyntaxError",
+            "raw": "\"SyntaxError\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

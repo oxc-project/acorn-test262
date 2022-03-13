@@ -1,0 +1,67 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 391,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 314,
+      "end": 390,
+      "expression": {
+        "type": "CallExpression",
+        "start": 314,
+        "end": 389,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 314,
+          "end": 330,
+          "object": {
+            "type": "Identifier",
+            "start": 314,
+            "end": 320,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 330,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 331,
+            "end": 350,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 338,
+              "end": 350,
+              "name": "unresolvable"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 352,
+            "end": 356,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 358,
+            "end": 388,
+            "value": "delete unresolvable === true",
+            "raw": "'delete unresolvable === true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

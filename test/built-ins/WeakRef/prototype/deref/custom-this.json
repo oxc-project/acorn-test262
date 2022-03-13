@@ -1,0 +1,434 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 903,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 526,
+      "end": 542,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 530,
+          "end": 541,
+          "id": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 536,
+            "name": "target"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 539,
+            "end": 541,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 543,
+      "end": 579,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 547,
+          "end": 578,
+          "id": {
+            "type": "Identifier",
+            "start": 547,
+            "end": 552,
+            "name": "deref"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 555,
+            "end": 578,
+            "object": {
+              "type": "MemberExpression",
+              "start": 555,
+              "end": 572,
+              "object": {
+                "type": "Identifier",
+                "start": 555,
+                "end": 562,
+                "name": "WeakRef"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 563,
+                "end": 572,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 573,
+              "end": 578,
+              "name": "deref"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 580,
+      "end": 611,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 584,
+          "end": 610,
+          "id": {
+            "type": "Identifier",
+            "start": 584,
+            "end": 588,
+            "name": "wref"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 591,
+            "end": 610,
+            "callee": {
+              "type": "Identifier",
+              "start": 595,
+              "end": 602,
+              "name": "WeakRef"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 603,
+                "end": 609,
+                "name": "target"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 613,
+      "end": 674,
+      "expression": {
+        "type": "CallExpression",
+        "start": 613,
+        "end": 673,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 613,
+          "end": 629,
+          "object": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 619,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 620,
+            "end": 629,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 630,
+            "end": 646,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 630,
+              "end": 640,
+              "object": {
+                "type": "Identifier",
+                "start": 630,
+                "end": 635,
+                "name": "deref"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 636,
+                "end": 640,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 641,
+                "end": 645,
+                "name": "wref"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 648,
+            "end": 654,
+            "name": "target"
+          },
+          {
+            "type": "Literal",
+            "start": 656,
+            "end": 672,
+            "value": "returns target",
+            "raw": "'returns target'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 675,
+      "end": 750,
+      "expression": {
+        "type": "CallExpression",
+        "start": 675,
+        "end": 749,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 675,
+          "end": 691,
+          "object": {
+            "type": "Identifier",
+            "start": 675,
+            "end": 681,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 682,
+            "end": 691,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 692,
+            "end": 708,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 692,
+              "end": 702,
+              "object": {
+                "type": "Identifier",
+                "start": 692,
+                "end": 697,
+                "name": "deref"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 698,
+                "end": 702,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 703,
+                "end": 707,
+                "name": "wref"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 710,
+            "end": 716,
+            "name": "target"
+          },
+          {
+            "type": "Literal",
+            "start": 718,
+            "end": 748,
+            "value": "[[Target]] is not emptied #1",
+            "raw": "'[[Target]] is not emptied #1'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 751,
+      "end": 826,
+      "expression": {
+        "type": "CallExpression",
+        "start": 751,
+        "end": 825,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 751,
+          "end": 767,
+          "object": {
+            "type": "Identifier",
+            "start": 751,
+            "end": 757,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 758,
+            "end": 767,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 768,
+            "end": 784,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 768,
+              "end": 778,
+              "object": {
+                "type": "Identifier",
+                "start": 768,
+                "end": 773,
+                "name": "deref"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 774,
+                "end": 778,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 779,
+                "end": 783,
+                "name": "wref"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 786,
+            "end": 792,
+            "name": "target"
+          },
+          {
+            "type": "Literal",
+            "start": 794,
+            "end": 824,
+            "value": "[[Target]] is not emptied #2",
+            "raw": "'[[Target]] is not emptied #2'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 827,
+      "end": 902,
+      "expression": {
+        "type": "CallExpression",
+        "start": 827,
+        "end": 901,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 827,
+          "end": 843,
+          "object": {
+            "type": "Identifier",
+            "start": 827,
+            "end": 833,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 834,
+            "end": 843,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 844,
+            "end": 860,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 844,
+              "end": 854,
+              "object": {
+                "type": "Identifier",
+                "start": 844,
+                "end": 849,
+                "name": "deref"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 850,
+                "end": 854,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 855,
+                "end": 859,
+                "name": "wref"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 862,
+            "end": 868,
+            "name": "target"
+          },
+          {
+            "type": "Literal",
+            "start": 870,
+            "end": 900,
+            "value": "[[Target]] is not emptied #3",
+            "raw": "'[[Target]] is not emptied #3'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

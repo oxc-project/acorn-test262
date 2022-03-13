@@ -1,0 +1,544 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1135,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 288,
+      "end": 306,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 294,
+          "end": 305,
+          "id": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 300,
+            "name": "actual"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 303,
+            "end": 305,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 307,
+      "end": 327,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 313,
+          "end": 326,
+          "id": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 321,
+            "name": "expected"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 324,
+            "end": 326,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 329,
+      "end": 467,
+      "expression": {
+        "type": "CallExpression",
+        "start": 329,
+        "end": 466,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 329,
+          "end": 350,
+          "object": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 335,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 350,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 351,
+            "end": 368,
+            "object": {
+              "type": "Identifier",
+              "start": 351,
+              "end": 359,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 360,
+              "end": 368,
+              "name": "TimeZone"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 370,
+            "end": 376,
+            "value": "from",
+            "raw": "\"from\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 378,
+            "end": 465,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 382,
+                "end": 462,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 382,
+                  "end": 385,
+                  "name": "get"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 385,
+                  "end": 462,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 388,
+                    "end": 462,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 394,
+                        "end": 436,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 394,
+                          "end": 435,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 394,
+                            "end": 405,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 394,
+                              "end": 400,
+                              "name": "actual"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 401,
+                              "end": 405,
+                              "name": "push"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 406,
+                              "end": 434,
+                              "value": "get Temporal.TimeZone.from",
+                              "raw": "\"get Temporal.TimeZone.from\""
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "ReturnStatement",
+                        "start": 441,
+                        "end": 458,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 448,
+                          "end": 457,
+                          "name": "undefined"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 469,
+      "end": 533,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 475,
+          "end": 532,
+          "id": {
+            "type": "Identifier",
+            "start": 475,
+            "end": 489,
+            "name": "resultExplicit"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 492,
+            "end": 532,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 492,
+              "end": 521,
+              "object": {
+                "type": "MemberExpression",
+                "start": 492,
+                "end": 504,
+                "object": {
+                  "type": "Identifier",
+                  "start": 492,
+                  "end": 500,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 501,
+                  "end": 504,
+                  "name": "Now"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 505,
+                "end": 521,
+                "name": "plainDateTimeISO"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 522,
+                "end": 531,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 534,
+      "end": 699,
+      "expression": {
+        "type": "CallExpression",
+        "start": 534,
+        "end": 698,
+        "callee": {
+          "type": "Identifier",
+          "start": 534,
+          "end": 540,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 544,
+            "end": 592,
+            "left": {
+              "type": "Identifier",
+              "start": 544,
+              "end": 558,
+              "name": "resultExplicit"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "start": 570,
+              "end": 592,
+              "object": {
+                "type": "Identifier",
+                "start": 570,
+                "end": 578,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 579,
+                "end": 592,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 596,
+            "end": 696,
+            "value": "The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true",
+            "raw": "'The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 805,
+      "expression": {
+        "type": "CallExpression",
+        "start": 701,
+        "end": 804,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 701,
+          "end": 720,
+          "object": {
+            "type": "Identifier",
+            "start": 701,
+            "end": 707,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 720,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 721,
+            "end": 727,
+            "name": "actual"
+          },
+          {
+            "type": "Identifier",
+            "start": 729,
+            "end": 737,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 739,
+            "end": 803,
+            "value": "The value of actual is expected to equal the value of expected",
+            "raw": "'The value of actual is expected to equal the value of expected'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 807,
+      "end": 862,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 813,
+          "end": 861,
+          "id": {
+            "type": "Identifier",
+            "start": 813,
+            "end": 827,
+            "name": "resultImplicit"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 830,
+            "end": 861,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 830,
+              "end": 859,
+              "object": {
+                "type": "MemberExpression",
+                "start": 830,
+                "end": 842,
+                "object": {
+                  "type": "Identifier",
+                  "start": 830,
+                  "end": 838,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 839,
+                  "end": 842,
+                  "name": "Now"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 843,
+                "end": 859,
+                "name": "plainDateTimeISO"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 863,
+      "end": 1028,
+      "expression": {
+        "type": "CallExpression",
+        "start": 863,
+        "end": 1027,
+        "callee": {
+          "type": "Identifier",
+          "start": 863,
+          "end": 869,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 873,
+            "end": 921,
+            "left": {
+              "type": "Identifier",
+              "start": 873,
+              "end": 887,
+              "name": "resultImplicit"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "start": 899,
+              "end": 921,
+              "object": {
+                "type": "Identifier",
+                "start": 899,
+                "end": 907,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 908,
+                "end": 921,
+                "name": "PlainDateTime"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 925,
+            "end": 1025,
+            "value": "The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true",
+            "raw": "'The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1030,
+      "end": 1134,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1030,
+        "end": 1133,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1030,
+          "end": 1049,
+          "object": {
+            "type": "Identifier",
+            "start": 1030,
+            "end": 1036,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1037,
+            "end": 1049,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1050,
+            "end": 1056,
+            "name": "actual"
+          },
+          {
+            "type": "Identifier",
+            "start": 1058,
+            "end": 1066,
+            "name": "expected"
+          },
+          {
+            "type": "Literal",
+            "start": 1068,
+            "end": 1132,
+            "value": "The value of actual is expected to equal the value of expected",
+            "raw": "'The value of actual is expected to equal the value of expected'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

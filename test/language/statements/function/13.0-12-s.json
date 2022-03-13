@@ -1,0 +1,72 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 571,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 496,
+      "end": 546,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 500,
+          "end": 545,
+          "id": {
+            "type": "Identifier",
+            "start": 500,
+            "end": 512,
+            "name": "_13_0_12_fun"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 515,
+            "end": 545,
+            "callee": {
+              "type": "Identifier",
+              "start": 519,
+              "end": 527,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 528,
+                "end": 531,
+                "value": " ",
+                "raw": "\" \""
+              },
+              {
+                "type": "Literal",
+                "start": 532,
+                "end": 544,
+                "value": "eval = 42;",
+                "raw": "\"eval = 42;\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 555,
+      "end": 570,
+      "expression": {
+        "type": "CallExpression",
+        "start": 555,
+        "end": 569,
+        "callee": {
+          "type": "Identifier",
+          "start": 555,
+          "end": 567,
+          "name": "_13_0_12_fun"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

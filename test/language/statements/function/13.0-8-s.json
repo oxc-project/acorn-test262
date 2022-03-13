@@ -1,0 +1,107 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 641,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 505,
+      "end": 640,
+      "expression": {
+        "type": "CallExpression",
+        "start": 505,
+        "end": 639,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 505,
+          "end": 518,
+          "object": {
+            "type": "Identifier",
+            "start": 505,
+            "end": 511,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 518,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 519,
+            "end": 530,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 532,
+            "end": 638,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 543,
+              "end": 638,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 557,
+                  "end": 609,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 557,
+                    "end": 608,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 557,
+                      "end": 561,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 562,
+                        "end": 607,
+                        "value": "var _13_0_8_fun = function () {eval = 42;};",
+                        "raw": "\"var _13_0_8_fun = function () {eval = 42;};\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 622,
+                  "end": 636,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 622,
+                    "end": 635,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 622,
+                      "end": 633,
+                      "name": "_13_0_8_fun"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,135 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2334,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2249,
+      "end": 2288,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 2256,
+        "end": 2288,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2260,
+            "end": 2287,
+            "id": {
+              "type": "Identifier",
+              "start": 2260,
+              "end": 2265,
+              "name": "name1"
+            },
+            "init": {
+              "type": "AwaitExpression",
+              "start": 2268,
+              "end": 2287,
+              "argument": {
+                "type": "FunctionExpression",
+                "start": 2274,
+                "end": 2287,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 2285,
+                  "end": 2287,
+                  "body": []
+                }
+              }
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2289,
+      "end": 2333,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 2296,
+        "end": 2333,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2300,
+            "end": 2332,
+            "id": {
+              "type": "ObjectPattern",
+              "start": 2300,
+              "end": 2327,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 2302,
+                  "end": 2325,
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 2302,
+                    "end": 2303,
+                    "name": "x"
+                  },
+                  "kind": "init",
+                  "value": {
+                    "type": "AssignmentPattern",
+                    "start": 2302,
+                    "end": 2325,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 2302,
+                      "end": 2303,
+                      "name": "x"
+                    },
+                    "right": {
+                      "type": "AwaitExpression",
+                      "start": 2306,
+                      "end": 2325,
+                      "argument": {
+                        "type": "FunctionExpression",
+                        "start": 2312,
+                        "end": 2325,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 2323,
+                          "end": 2325,
+                          "body": []
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "init": {
+              "type": "ObjectExpression",
+              "start": 2330,
+              "end": 2332,
+              "properties": []
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    }
+  ],
+  "sourceType": "module"
+}

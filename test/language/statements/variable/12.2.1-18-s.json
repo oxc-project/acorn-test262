@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 366,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 294,
+      "end": 365,
+      "expression": {
+        "type": "CallExpression",
+        "start": 294,
+        "end": 364,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 294,
+          "end": 307,
+          "object": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 300,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 301,
+            "end": 307,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 308,
+            "end": 319,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 321,
+            "end": 363,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 332,
+              "end": 363,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 338,
+                  "end": 361,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 338,
+                    "end": 360,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 338,
+                      "end": 342,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 343,
+                        "end": 359,
+                        "value": "var arguments;",
+                        "raw": "'var arguments;'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

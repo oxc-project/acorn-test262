@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 484,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 382,
+      "end": 483,
+      "expression": {
+        "type": "CallExpression",
+        "start": 382,
+        "end": 482,
+        "callee": {
+          "type": "Identifier",
+          "start": 382,
+          "end": 392,
+          "name": "testOption"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 393,
+            "end": 406,
+            "object": {
+              "type": "Identifier",
+              "start": 393,
+              "end": 397,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 398,
+              "end": 406,
+              "name": "Collator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 408,
+            "end": 421,
+            "value": "sensitivity",
+            "raw": "\"sensitivity\""
+          },
+          {
+            "type": "Literal",
+            "start": 423,
+            "end": 431,
+            "value": "string",
+            "raw": "\"string\""
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 433,
+            "end": 470,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 434,
+                "end": 440,
+                "value": "base",
+                "raw": "\"base\""
+              },
+              {
+                "type": "Literal",
+                "start": 442,
+                "end": 450,
+                "value": "accent",
+                "raw": "\"accent\""
+              },
+              {
+                "type": "Literal",
+                "start": 452,
+                "end": 458,
+                "value": "case",
+                "raw": "\"case\""
+              },
+              {
+                "type": "Literal",
+                "start": 460,
+                "end": 469,
+                "value": "variant",
+                "raw": "\"variant\""
+              }
+            ]
+          },
+          {
+            "type": "Literal",
+            "start": 472,
+            "end": 481,
+            "value": "variant",
+            "raw": "\"variant\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

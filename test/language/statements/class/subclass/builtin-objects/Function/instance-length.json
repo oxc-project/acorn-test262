@@ -1,0 +1,238 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 986,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 777,
+      "end": 805,
+      "id": {
+        "type": "Identifier",
+        "start": 783,
+        "end": 785,
+        "name": "Fn"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 794,
+        "end": 802,
+        "name": "Function"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 803,
+        "end": 805,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 807,
+      "end": 849,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 811,
+          "end": 848,
+          "id": {
+            "type": "Identifier",
+            "start": 811,
+            "end": 813,
+            "name": "fn"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 816,
+            "end": 848,
+            "callee": {
+              "type": "Identifier",
+              "start": 820,
+              "end": 822,
+              "name": "Fn"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 823,
+                "end": 826,
+                "value": "a",
+                "raw": "'a'"
+              },
+              {
+                "type": "Literal",
+                "start": 828,
+                "end": 831,
+                "value": "b",
+                "raw": "'b'"
+              },
+              {
+                "type": "Literal",
+                "start": 833,
+                "end": 847,
+                "value": "return a + b",
+                "raw": "'return a + b'"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 851,
+      "end": 882,
+      "expression": {
+        "type": "CallExpression",
+        "start": 851,
+        "end": 881,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 851,
+          "end": 867,
+          "object": {
+            "type": "Identifier",
+            "start": 851,
+            "end": 857,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 858,
+            "end": 867,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 868,
+            "end": 877,
+            "object": {
+              "type": "Identifier",
+              "start": 868,
+              "end": 870,
+              "name": "fn"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 871,
+              "end": 877,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 879,
+            "end": 880,
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 884,
+      "end": 918,
+      "expression": {
+        "type": "CallExpression",
+        "start": 884,
+        "end": 917,
+        "callee": {
+          "type": "Identifier",
+          "start": 884,
+          "end": 903,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 904,
+            "end": 906,
+            "name": "fn"
+          },
+          {
+            "type": "Literal",
+            "start": 908,
+            "end": 916,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 919,
+      "end": 951,
+      "expression": {
+        "type": "CallExpression",
+        "start": 919,
+        "end": 950,
+        "callee": {
+          "type": "Identifier",
+          "start": 919,
+          "end": 936,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 937,
+            "end": 939,
+            "name": "fn"
+          },
+          {
+            "type": "Literal",
+            "start": 941,
+            "end": 949,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 952,
+      "end": 985,
+      "expression": {
+        "type": "CallExpression",
+        "start": 952,
+        "end": 984,
+        "callee": {
+          "type": "Identifier",
+          "start": 952,
+          "end": 970,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 971,
+            "end": 973,
+            "name": "fn"
+          },
+          {
+            "type": "Literal",
+            "start": 975,
+            "end": 983,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

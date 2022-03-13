@@ -1,0 +1,509 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 716,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 281,
+      "end": 337,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 287,
+          "end": 336,
+          "id": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 296,
+            "name": "plainDate"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 299,
+            "end": 336,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 299,
+              "end": 322,
+              "object": {
+                "type": "MemberExpression",
+                "start": 299,
+                "end": 317,
+                "object": {
+                  "type": "Identifier",
+                  "start": 299,
+                  "end": 307,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 308,
+                  "end": 317,
+                  "name": "PlainDate"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 318,
+                "end": 322,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 323,
+                "end": 335,
+                "value": "1976-11-18",
+                "raw": "\"1976-11-18\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 338,
+      "end": 401,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 344,
+          "end": 400,
+          "id": {
+            "type": "Identifier",
+            "start": 344,
+            "end": 358,
+            "name": "plainYearMonth"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 361,
+            "end": 400,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 361,
+              "end": 389,
+              "object": {
+                "type": "MemberExpression",
+                "start": 361,
+                "end": 384,
+                "object": {
+                  "type": "Identifier",
+                  "start": 361,
+                  "end": 369,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 370,
+                  "end": 384,
+                  "name": "PlainYearMonth"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 385,
+                "end": 389,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 390,
+                "end": 399,
+                "name": "plainDate"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 402,
+      "end": 472,
+      "expression": {
+        "type": "CallExpression",
+        "start": 402,
+        "end": 471,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 402,
+          "end": 438,
+          "object": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 417,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 438,
+            "name": "assertPlainYearMonth"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 439,
+            "end": 453,
+            "name": "plainYearMonth"
+          },
+          {
+            "type": "Literal",
+            "start": 455,
+            "end": 459,
+            "value": 1976,
+            "raw": "1976"
+          },
+          {
+            "type": "Literal",
+            "start": 461,
+            "end": 463,
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "type": "Literal",
+            "start": 465,
+            "end": 470,
+            "value": "M11",
+            "raw": "\"M11\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 473,
+      "end": 518,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 479,
+          "end": 517,
+          "id": {
+            "type": "Identifier",
+            "start": 479,
+            "end": 485,
+            "name": "fields"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 488,
+            "end": 517,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 488,
+              "end": 515,
+              "object": {
+                "type": "Identifier",
+                "start": 488,
+                "end": 502,
+                "name": "plainYearMonth"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 515,
+                "name": "getISOFields"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 519,
+      "end": 567,
+      "expression": {
+        "type": "CallExpression",
+        "start": 519,
+        "end": 566,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 519,
+          "end": 535,
+          "object": {
+            "type": "Identifier",
+            "start": 519,
+            "end": 525,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 526,
+            "end": 535,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 536,
+            "end": 554,
+            "object": {
+              "type": "MemberExpression",
+              "start": 536,
+              "end": 551,
+              "object": {
+                "type": "Identifier",
+                "start": 536,
+                "end": 542,
+                "name": "fields"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 543,
+                "end": 551,
+                "name": "calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 552,
+              "end": 554,
+              "name": "id"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 556,
+            "end": 565,
+            "value": "iso8601",
+            "raw": "\"iso8601\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 568,
+      "end": 613,
+      "expression": {
+        "type": "CallExpression",
+        "start": 568,
+        "end": 612,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 568,
+          "end": 584,
+          "object": {
+            "type": "Identifier",
+            "start": 568,
+            "end": 574,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 575,
+            "end": 584,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 585,
+            "end": 598,
+            "object": {
+              "type": "Identifier",
+              "start": 585,
+              "end": 591,
+              "name": "fields"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 592,
+              "end": 598,
+              "name": "isoDay"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 600,
+            "end": 601,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 603,
+            "end": 611,
+            "value": "isoDay",
+            "raw": "\"isoDay\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 614,
+      "end": 664,
+      "expression": {
+        "type": "CallExpression",
+        "start": 614,
+        "end": 663,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 614,
+          "end": 630,
+          "object": {
+            "type": "Identifier",
+            "start": 614,
+            "end": 620,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 621,
+            "end": 630,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 631,
+            "end": 646,
+            "object": {
+              "type": "Identifier",
+              "start": 631,
+              "end": 637,
+              "name": "fields"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 638,
+              "end": 646,
+              "name": "isoMonth"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 648,
+            "end": 650,
+            "value": 11,
+            "raw": "11"
+          },
+          {
+            "type": "Literal",
+            "start": 652,
+            "end": 662,
+            "value": "isoMonth",
+            "raw": "\"isoMonth\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 665,
+      "end": 715,
+      "expression": {
+        "type": "CallExpression",
+        "start": 665,
+        "end": 714,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 665,
+          "end": 681,
+          "object": {
+            "type": "Identifier",
+            "start": 665,
+            "end": 671,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 672,
+            "end": 681,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 682,
+            "end": 696,
+            "object": {
+              "type": "Identifier",
+              "start": 682,
+              "end": 688,
+              "name": "fields"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 689,
+              "end": 696,
+              "name": "isoYear"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 698,
+            "end": 702,
+            "value": 1976,
+            "raw": "1976"
+          },
+          {
+            "type": "Literal",
+            "start": 704,
+            "end": 713,
+            "value": "isoYear",
+            "raw": "\"isoYear\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

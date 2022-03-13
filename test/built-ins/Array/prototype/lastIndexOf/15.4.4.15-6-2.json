@@ -1,0 +1,117 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 381,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 300,
+      "end": 380,
+      "expression": {
+        "type": "CallExpression",
+        "start": 300,
+        "end": 379,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 300,
+          "end": 316,
+          "object": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 306,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 316,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 317,
+            "end": 344,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 317,
+              "end": 338,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 317,
+                "end": 326,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 318,
+                    "end": 319,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 321,
+                    "end": 322,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 324,
+                    "end": 325,
+                    "value": 3,
+                    "raw": "3"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 327,
+                "end": 338,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 339,
+                "end": 340,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "Literal",
+                "start": 342,
+                "end": 343,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 346,
+            "end": 347,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 349,
+            "end": 378,
+            "value": "[1, 2, 3].lastIndexOf(3, 2)",
+            "raw": "'[1, 2, 3].lastIndexOf(3, 2)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

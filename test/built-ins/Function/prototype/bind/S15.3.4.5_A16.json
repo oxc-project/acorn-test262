@@ -1,0 +1,341 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 837,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 419,
+      "end": 434,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 423,
+          "end": 433,
+          "id": {
+            "type": "Identifier",
+            "start": 423,
+            "end": 425,
+            "name": "re"
+          },
+          "init": {
+            "type": "ParenthesizedExpression",
+            "start": 428,
+            "end": 433,
+            "expression": {
+              "type": "Literal",
+              "start": 429,
+              "end": 432,
+              "value": {},
+              "raw": "/x/",
+              "regex": {
+                "pattern": "x",
+                "flags": ""
+              }
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 435,
+      "end": 836,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 439,
+        "end": 463,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 439,
+          "end": 448,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 448,
+            "name": "re"
+          }
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 453,
+          "end": 463,
+          "value": "function",
+          "raw": "'function'"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 465,
+        "end": 515,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 469,
+            "end": 513,
+            "expression": {
+              "type": "CallExpression",
+              "start": 469,
+              "end": 512,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 469,
+                "end": 497,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 469,
+                  "end": 492,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 469,
+                    "end": 487,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 469,
+                      "end": 477,
+                      "name": "Function"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 478,
+                      "end": 487,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 488,
+                    "end": 492,
+                    "name": "bind"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 493,
+                  "end": 497,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 498,
+                  "end": 500,
+                  "name": "re"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 502,
+                  "end": 511,
+                  "name": "undefined"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 521,
+        "end": 836,
+        "body": [
+          {
+            "type": "TryStatement",
+            "start": 525,
+            "end": 834,
+            "block": {
+              "type": "BlockStatement",
+              "start": 529,
+              "end": 706,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 535,
+                  "end": 579,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 535,
+                    "end": 578,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 535,
+                      "end": 563,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 535,
+                        "end": 558,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 535,
+                          "end": 553,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 535,
+                            "end": 543,
+                            "name": "Function"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 544,
+                            "end": 553,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 554,
+                          "end": 558,
+                          "name": "bind"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 559,
+                        "end": 563,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 564,
+                        "end": 566,
+                        "name": "re"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 568,
+                        "end": 577,
+                        "name": "undefined"
+                      }
+                    ],
+                    "optional": false
+                  }
+                },
+                {
+                  "type": "ThrowStatement",
+                  "start": 584,
+                  "end": 702,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 590,
+                    "end": 701,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 594,
+                      "end": 606,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 607,
+                        "end": 700,
+                        "left": {
+                          "type": "Literal",
+                          "start": 607,
+                          "end": 643,
+                          "value": "#1: If IsCallable(func) is false, ",
+                          "raw": "'#1: If IsCallable(func) is false, '"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 652,
+                          "end": 700,
+                          "value": "then (bind should) throw a TypeError exception",
+                          "raw": "'then (bind should) throw a TypeError exception'"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "start": 707,
+              "end": 834,
+              "param": {
+                "type": "Identifier",
+                "start": 714,
+                "end": 715,
+                "name": "e"
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 717,
+                "end": 834,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 723,
+                    "end": 830,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 723,
+                      "end": 829,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 723,
+                        "end": 729,
+                        "name": "assert"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 730,
+                          "end": 752,
+                          "left": {
+                            "type": "Identifier",
+                            "start": 730,
+                            "end": 731,
+                            "name": "e"
+                          },
+                          "operator": "instanceof",
+                          "right": {
+                            "type": "Identifier",
+                            "start": 743,
+                            "end": 752,
+                            "name": "TypeError"
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "start": 754,
+                          "end": 828,
+                          "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
+                          "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            },
+            "finalizer": null
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

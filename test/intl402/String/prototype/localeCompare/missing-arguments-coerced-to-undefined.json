@@ -1,0 +1,427 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 869,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 328,
+      "end": 420,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 332,
+          "end": 419,
+          "id": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 342,
+            "name": "thisValues"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 345,
+            "end": 419,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 346,
+                "end": 349,
+                "value": "a",
+                "raw": "\"a\""
+              },
+              {
+                "type": "Literal",
+                "start": 351,
+                "end": 354,
+                "value": "t",
+                "raw": "\"t\""
+              },
+              {
+                "type": "Literal",
+                "start": 356,
+                "end": 359,
+                "value": "u",
+                "raw": "\"u\""
+              },
+              {
+                "type": "Literal",
+                "start": 361,
+                "end": 372,
+                "value": "undefined",
+                "raw": "\"undefined\""
+              },
+              {
+                "type": "Literal",
+                "start": 374,
+                "end": 385,
+                "value": "UNDEFINED",
+                "raw": "\"UNDEFINED\""
+              },
+              {
+                "type": "Literal",
+                "start": 387,
+                "end": 404,
+                "value": "nicht definiert",
+                "raw": "\"nicht definiert\""
+              },
+              {
+                "type": "Literal",
+                "start": 406,
+                "end": 411,
+                "value": "xyz",
+                "raw": "\"xyz\""
+              },
+              {
+                "type": "Literal",
+                "start": 413,
+                "end": 418,
+                "value": "未定义",
+                "raw": "\"未定义\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 422,
+      "end": 428,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 426,
+          "end": 427,
+          "id": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 427,
+            "name": "i"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 429,
+      "end": 868,
+      "init": {
+        "type": "AssignmentExpression",
+        "start": 434,
+        "end": 439,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 434,
+          "end": 435,
+          "name": "i"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 438,
+          "end": 439,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 441,
+        "end": 462,
+        "left": {
+          "type": "Identifier",
+          "start": 441,
+          "end": 442,
+          "name": "i"
+        },
+        "operator": "<",
+        "right": {
+          "type": "MemberExpression",
+          "start": 445,
+          "end": 462,
+          "object": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 455,
+            "name": "thisValues"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 456,
+            "end": 462,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "start": 464,
+        "end": 467,
+        "operator": "++",
+        "prefix": false,
+        "argument": {
+          "type": "Identifier",
+          "start": 464,
+          "end": 465,
+          "name": "i"
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 469,
+        "end": 868,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 475,
+            "end": 505,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 479,
+                "end": 504,
+                "id": {
+                  "type": "Identifier",
+                  "start": 479,
+                  "end": 488,
+                  "name": "thisValue"
+                },
+                "init": {
+                  "type": "MemberExpression",
+                  "start": 491,
+                  "end": 504,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 491,
+                    "end": 501,
+                    "name": "thisValues"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 502,
+                    "end": 503,
+                    "name": "i"
+                  },
+                  "computed": true,
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 510,
+            "end": 677,
+            "expression": {
+              "type": "CallExpression",
+              "start": 510,
+              "end": 676,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 510,
+                "end": 526,
+                "object": {
+                  "type": "Identifier",
+                  "start": 510,
+                  "end": 516,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 517,
+                  "end": 526,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 527,
+                  "end": 552,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 527,
+                    "end": 550,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 527,
+                      "end": 536,
+                      "name": "thisValue"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 537,
+                      "end": 550,
+                      "name": "localeCompare"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                {
+                  "type": "CallExpression",
+                  "start": 554,
+                  "end": 588,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 554,
+                    "end": 577,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 554,
+                      "end": 563,
+                      "name": "thisValue"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 564,
+                      "end": 577,
+                      "name": "localeCompare"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 578,
+                      "end": 587,
+                      "name": "undefined"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 590,
+                  "end": 675,
+                  "value": "String.prototype.localeCompare does not treat missing 'that' argument as undefined.",
+                  "raw": "\"String.prototype.localeCompare does not treat missing 'that' argument as undefined.\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 682,
+            "end": 866,
+            "expression": {
+              "type": "CallExpression",
+              "start": 682,
+              "end": 865,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 682,
+                "end": 698,
+                "object": {
+                  "type": "Identifier",
+                  "start": 682,
+                  "end": 688,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 689,
+                  "end": 698,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 699,
+                  "end": 733,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 699,
+                    "end": 722,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 699,
+                      "end": 708,
+                      "name": "thisValue"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 709,
+                      "end": 722,
+                      "name": "localeCompare"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 723,
+                      "end": 732,
+                      "name": "undefined"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "CallExpression",
+                  "start": 735,
+                  "end": 771,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 735,
+                    "end": 758,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 735,
+                      "end": 744,
+                      "name": "thisValue"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 745,
+                      "end": 758,
+                      "name": "localeCompare"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 759,
+                      "end": 770,
+                      "value": "undefined",
+                      "raw": "\"undefined\""
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 773,
+                  "end": 864,
+                  "value": "String.prototype.localeCompare does not treat undefined 'that' argument as \"undefined\".",
+                  "raw": "\"String.prototype.localeCompare does not treat undefined 'that' argument as \\\"undefined\\\".\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

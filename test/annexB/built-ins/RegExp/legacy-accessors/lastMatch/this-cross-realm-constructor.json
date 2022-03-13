@@ -1,0 +1,318 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 974,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 617,
+      "end": 657,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 623,
+          "end": 656,
+          "id": {
+            "type": "Identifier",
+            "start": 623,
+            "end": 628,
+            "name": "other"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 631,
+            "end": 656,
+            "object": {
+              "type": "CallExpression",
+              "start": 631,
+              "end": 649,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 631,
+                "end": 647,
+                "object": {
+                  "type": "Identifier",
+                  "start": 631,
+                  "end": 635,
+                  "name": "$262"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 636,
+                  "end": 647,
+                  "name": "createRealm"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 650,
+              "end": 656,
+              "name": "global"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 659,
+      "end": 822,
+      "expression": {
+        "type": "CallExpression",
+        "start": 659,
+        "end": 821,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 659,
+          "end": 672,
+          "object": {
+            "type": "Identifier",
+            "start": 659,
+            "end": 665,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 666,
+            "end": 672,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 676,
+            "end": 685,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 689,
+            "end": 758,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 701,
+              "end": 758,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 707,
+                  "end": 754,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 707,
+                    "end": 753,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 707,
+                      "end": 718,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 707,
+                        "end": 714,
+                        "name": "Reflect"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 715,
+                        "end": 718,
+                        "name": "get"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 719,
+                        "end": 725,
+                        "name": "RegExp"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 727,
+                        "end": 738,
+                        "value": "lastMatch",
+                        "raw": "\"lastMatch\""
+                      },
+                      {
+                        "type": "MemberExpression",
+                        "start": 740,
+                        "end": 752,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 740,
+                          "end": 745,
+                          "name": "other"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 746,
+                          "end": 752,
+                          "name": "RegExp"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 762,
+            "end": 819,
+            "value": "RegExp.lastMatch getter throws for cross-realm receiver",
+            "raw": "\"RegExp.lastMatch getter throws for cross-realm receiver\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 824,
+      "end": 973,
+      "expression": {
+        "type": "CallExpression",
+        "start": 824,
+        "end": 972,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 824,
+          "end": 837,
+          "object": {
+            "type": "Identifier",
+            "start": 824,
+            "end": 830,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 831,
+            "end": 837,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 841,
+            "end": 850,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 854,
+            "end": 916,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 866,
+              "end": 916,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 872,
+                  "end": 912,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 872,
+                    "end": 911,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 872,
+                      "end": 883,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 872,
+                        "end": 879,
+                        "name": "Reflect"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 880,
+                        "end": 883,
+                        "name": "get"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 884,
+                        "end": 890,
+                        "name": "RegExp"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 892,
+                        "end": 896,
+                        "value": "$&",
+                        "raw": "\"$&\""
+                      },
+                      {
+                        "type": "MemberExpression",
+                        "start": 898,
+                        "end": 910,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 898,
+                          "end": 903,
+                          "name": "other"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 904,
+                          "end": 910,
+                          "name": "RegExp"
+                        },
+                        "computed": false,
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 920,
+            "end": 970,
+            "value": "RegExp.$& getter throws for cross-realm receiver",
+            "raw": "\"RegExp.$& getter throws for cross-realm receiver\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

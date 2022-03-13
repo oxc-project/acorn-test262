@@ -1,0 +1,158 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 410,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 274,
+      "end": 292,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 278,
+          "end": 291,
+          "id": {
+            "type": "Identifier",
+            "start": 278,
+            "end": 279,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 282,
+            "end": 291,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 283,
+                "end": 284,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 286,
+                "end": 287,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 289,
+                "end": 290,
+                "value": 2,
+                "raw": "2"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 293,
+      "end": 332,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 293,
+        "end": 331,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 293,
+          "end": 306,
+          "object": {
+            "type": "Identifier",
+            "start": 293,
+            "end": 294,
+            "name": "a"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 295,
+            "end": 305,
+            "value": 4294967295,
+            "raw": "4294967295"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 309,
+          "end": 331,
+          "value": "not an array element",
+          "raw": "\"not an array element\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 334,
+      "end": 409,
+      "expression": {
+        "type": "CallExpression",
+        "start": 334,
+        "end": 408,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 334,
+          "end": 350,
+          "object": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 340,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 350,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 351,
+            "end": 359,
+            "object": {
+              "type": "Identifier",
+              "start": 351,
+              "end": 352,
+              "name": "a"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 353,
+              "end": 359,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 361,
+            "end": 362,
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "type": "Literal",
+            "start": 364,
+            "end": 407,
+            "value": "The value of a.length is expected to be 3",
+            "raw": "'The value of a.length is expected to be 3'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

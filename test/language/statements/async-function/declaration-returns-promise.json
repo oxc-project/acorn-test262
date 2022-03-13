@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 370,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 255,
+      "end": 279,
+      "id": {
+        "type": "Identifier",
+        "start": 270,
+        "end": 273,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 276,
+        "end": 279,
+        "body": []
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 279,
+      "end": 280
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 281,
+      "end": 295,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 285,
+          "end": 294,
+          "id": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 286,
+            "name": "p"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 289,
+            "end": 294,
+            "callee": {
+              "type": "Identifier",
+              "start": 289,
+              "end": 292,
+              "name": "foo"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 296,
+      "end": 369,
+      "expression": {
+        "type": "CallExpression",
+        "start": 296,
+        "end": 368,
+        "callee": {
+          "type": "Identifier",
+          "start": 296,
+          "end": 302,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 303,
+            "end": 323,
+            "left": {
+              "type": "Identifier",
+              "start": 303,
+              "end": 304,
+              "name": "p"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 316,
+              "end": 323,
+              "name": "Promise"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 325,
+            "end": 367,
+            "value": "async functions return promise instances",
+            "raw": "\"async functions return promise instances\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,232 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 740,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 494,
+      "end": 661,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 498,
+          "end": 660,
+          "id": {
+            "type": "Identifier",
+            "start": 498,
+            "end": 501,
+            "name": "arg"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 504,
+            "end": 660,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 508,
+                "end": 599,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 508,
+                  "end": 515,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 517,
+                  "end": 599,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 528,
+                    "end": 599,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 534,
+                        "end": 595,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 540,
+                          "end": 594,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 544,
+                            "end": 556,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 557,
+                              "end": 593,
+                              "value": "This method should not be invoked.",
+                              "raw": "'This method should not be invoked.'"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 603,
+                "end": 658,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 603,
+                  "end": 611,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 613,
+                  "end": 658,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 624,
+                    "end": 658,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 630,
+                        "end": 654,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 637,
+                          "end": 653,
+                          "value": "toString value",
+                          "raw": "'toString value'"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 663,
+      "end": 739,
+      "expression": {
+        "type": "CallExpression",
+        "start": 663,
+        "end": 738,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 663,
+          "end": 679,
+          "object": {
+            "type": "Identifier",
+            "start": 663,
+            "end": 669,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 670,
+            "end": 679,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 680,
+            "end": 714,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 680,
+              "end": 699,
+              "object": {
+                "type": "Literal",
+                "start": 680,
+                "end": 683,
+                "value": {},
+                "raw": "/./",
+                "regex": {
+                  "pattern": ".",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "MemberExpression",
+                "start": 684,
+                "end": 698,
+                "object": {
+                  "type": "Identifier",
+                  "start": 684,
+                  "end": 690,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 691,
+                  "end": 698,
+                  "name": "replace"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "computed": true,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 700,
+                "end": 708,
+                "value": "string",
+                "raw": "'string'"
+              },
+              {
+                "type": "Identifier",
+                "start": 710,
+                "end": 713,
+                "name": "arg"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 716,
+            "end": 737,
+            "value": "toString valuetring",
+            "raw": "'toString valuetring'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

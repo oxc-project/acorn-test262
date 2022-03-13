@@ -1,0 +1,176 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 675,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 470,
+      "end": 478,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 474,
+          "end": 477,
+          "id": {
+            "type": "Identifier",
+            "start": 474,
+            "end": 477,
+            "name": "err"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 480,
+      "end": 567,
+      "expression": {
+        "type": "CallExpression",
+        "start": 480,
+        "end": 566,
+        "callee": {
+          "type": "Identifier",
+          "start": 480,
+          "end": 484,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 485,
+            "end": 565,
+            "value": "  \"use strict\";  switch (1) {    case 1:      function f() {  }  }",
+            "raw": "'\\\n  \"use strict\";\\\n  switch (1) {\\\n    case 1:\\\n      function f() {  }\\\n  }\\\n'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "TryStatement",
+      "start": 569,
+      "end": 622,
+      "block": {
+        "type": "BlockStatement",
+        "start": 573,
+        "end": 581,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 577,
+            "end": 579,
+            "expression": {
+              "type": "Identifier",
+              "start": 577,
+              "end": 578,
+              "name": "f"
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 582,
+        "end": 622,
+        "param": {
+          "type": "Identifier",
+          "start": 589,
+          "end": 598,
+          "name": "exception"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 600,
+          "end": 622,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 604,
+              "end": 620,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 604,
+                "end": 619,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 604,
+                  "end": 607,
+                  "name": "err"
+                },
+                "right": {
+                  "type": "Identifier",
+                  "start": 610,
+                  "end": 619,
+                  "name": "exception"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 624,
+      "end": 674,
+      "expression": {
+        "type": "CallExpression",
+        "start": 624,
+        "end": 673,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 624,
+          "end": 640,
+          "object": {
+            "type": "Identifier",
+            "start": 624,
+            "end": 630,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 631,
+            "end": 640,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 641,
+            "end": 656,
+            "object": {
+              "type": "Identifier",
+              "start": 641,
+              "end": 644,
+              "name": "err"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 645,
+              "end": 656,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 658,
+            "end": 672,
+            "name": "ReferenceError"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

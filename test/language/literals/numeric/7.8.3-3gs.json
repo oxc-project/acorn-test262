@@ -1,0 +1,109 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 405,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 327,
+      "end": 333,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 331,
+          "end": 332,
+          "id": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 332,
+            "name": "a"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 334,
+      "end": 404,
+      "expression": {
+        "type": "CallExpression",
+        "start": 334,
+        "end": 403,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 334,
+          "end": 347,
+          "object": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 340,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 347,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 348,
+            "end": 359,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 361,
+            "end": 402,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 372,
+              "end": 402,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 376,
+                  "end": 400,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 376,
+                    "end": 399,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 376,
+                      "end": 380,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 381,
+                        "end": 398,
+                        "value": "a = 0x1;a = 01;",
+                        "raw": "\"a = 0x1;a = 01;\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

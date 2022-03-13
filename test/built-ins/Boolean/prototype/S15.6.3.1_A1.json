@@ -1,0 +1,267 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 713,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 310,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 310,
+        "end": 440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 310,
+          "end": 326,
+          "object": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 316,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 326,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 330,
+            "end": 354,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 337,
+              "end": 354,
+              "object": {
+                "type": "Identifier",
+                "start": 337,
+                "end": 344,
+                "name": "Boolean"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 345,
+                "end": 354,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 358,
+            "end": 366,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 370,
+            "end": 438,
+            "value": "The value of `typeof Boolean.prototype` is expected to be \"object\"",
+            "raw": "'The value of `typeof Boolean.prototype` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 443,
+      "end": 536,
+      "expression": {
+        "type": "CallExpression",
+        "start": 443,
+        "end": 535,
+        "callee": {
+          "type": "Identifier",
+          "start": 443,
+          "end": 449,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 450,
+            "end": 476,
+            "left": {
+              "type": "MemberExpression",
+              "start": 450,
+              "end": 467,
+              "object": {
+                "type": "Identifier",
+                "start": 450,
+                "end": 457,
+                "name": "Boolean"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 458,
+                "end": 467,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "operator": "==",
+            "right": {
+              "type": "Literal",
+              "start": 471,
+              "end": 476,
+              "value": false,
+              "raw": "false"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 478,
+            "end": 534,
+            "value": "The value of Boolean.prototype is expected to be false",
+            "raw": "'The value of Boolean.prototype is expected to be false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 538,
+      "end": 572,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 538,
+        "end": 571,
+        "operator": "delete",
+        "prefix": true,
+        "argument": {
+          "type": "MemberExpression",
+          "start": 545,
+          "end": 571,
+          "object": {
+            "type": "MemberExpression",
+            "start": 545,
+            "end": 562,
+            "object": {
+              "type": "Identifier",
+              "start": 545,
+              "end": 552,
+              "name": "Boolean"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 553,
+              "end": 562,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 563,
+            "end": 571,
+            "name": "toString"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 574,
+      "end": 712,
+      "expression": {
+        "type": "CallExpression",
+        "start": 574,
+        "end": 711,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 574,
+          "end": 590,
+          "object": {
+            "type": "Identifier",
+            "start": 574,
+            "end": 580,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 581,
+            "end": 590,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 594,
+            "end": 622,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 594,
+              "end": 620,
+              "object": {
+                "type": "MemberExpression",
+                "start": 594,
+                "end": 611,
+                "object": {
+                  "type": "Identifier",
+                  "start": 594,
+                  "end": 601,
+                  "name": "Boolean"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 602,
+                  "end": 611,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 612,
+                "end": 620,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 626,
+            "end": 644,
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
+          },
+          {
+            "type": "Literal",
+            "start": 648,
+            "end": 709,
+            "value": "Boolean.prototype.toString() must return \"[object Boolean]\"",
+            "raw": "'Boolean.prototype.toString() must return \"[object Boolean]\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

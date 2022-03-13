@@ -1,0 +1,98 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 476,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 475,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 474,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 323,
+          "end": 339,
+          "object": {
+            "type": "Identifier",
+            "start": 323,
+            "end": 329,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 330,
+            "end": 339,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 343,
+            "end": 376,
+            "object": {
+              "type": "MemberExpression",
+              "start": 343,
+              "end": 366,
+              "object": {
+                "type": "MemberExpression",
+                "start": 343,
+                "end": 361,
+                "object": {
+                  "type": "Identifier",
+                  "start": 343,
+                  "end": 351,
+                  "name": "Function"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 352,
+                  "end": 361,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 362,
+                "end": 366,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 367,
+              "end": 376,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 380,
+            "end": 389,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 472,
+            "value": "The value of Function.prototype.call.prototype is expected to equal undefined",
+            "raw": "'The value of Function.prototype.call.prototype is expected to equal undefined'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,237 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 917,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 344,
+      "end": 472,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 348,
+          "end": 460,
+          "id": {
+            "type": "Identifier",
+            "start": 348,
+            "end": 349,
+            "name": "f"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 364,
+            "end": 460,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": true,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 388,
+                "end": 389,
+                "name": "a"
+              },
+              {
+                "type": "Identifier",
+                "start": 408,
+                "end": 409,
+                "name": "b"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 439,
+              "end": 460,
+              "body": [
+                {
+                  "type": "EmptyStatement",
+                  "start": 449,
+                  "end": 450
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 473,
+      "end": 551,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 477,
+          "end": 539,
+          "id": {
+            "type": "Identifier",
+            "start": 477,
+            "end": 478,
+            "name": "g"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 493,
+            "end": 539,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": true,
+            "params": [],
+            "body": {
+              "type": "Literal",
+              "start": 538,
+              "end": 539,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 552,
+      "end": 620,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 556,
+          "end": 608,
+          "id": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 557,
+            "name": "h"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 572,
+            "end": 608,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": true,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 586,
+                "end": 587,
+                "name": "a"
+              }
+            ],
+            "body": {
+              "type": "Literal",
+              "start": 607,
+              "end": 608,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 622,
+      "end": 756,
+      "expression": {
+        "type": "CallExpression",
+        "start": 622,
+        "end": 755,
+        "callee": {
+          "type": "Identifier",
+          "start": 622,
+          "end": 652,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 653,
+            "end": 654,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 656,
+            "end": 754,
+            "value": "async /* a */ ( /* b */ a /* c */ , /* d */ b /* e */ ) /* f */ => /* g */ { /* h */ ; /* i */ }",
+            "raw": "\"async /* a */ ( /* b */ a /* c */ , /* d */ b /* e */ ) /* f */ => /* g */ { /* h */ ; /* i */ }\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 757,
+      "end": 841,
+      "expression": {
+        "type": "CallExpression",
+        "start": 757,
+        "end": 840,
+        "callee": {
+          "type": "Identifier",
+          "start": 757,
+          "end": 787,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 788,
+            "end": 789,
+            "name": "g"
+          },
+          {
+            "type": "Literal",
+            "start": 791,
+            "end": 839,
+            "value": "async /* a */ ( /* b */ ) /* c */ => /* d */ 0",
+            "raw": "\"async /* a */ ( /* b */ ) /* c */ => /* d */ 0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 842,
+      "end": 916,
+      "expression": {
+        "type": "CallExpression",
+        "start": 842,
+        "end": 915,
+        "callee": {
+          "type": "Identifier",
+          "start": 842,
+          "end": 872,
+          "name": "assertToStringOrNativeFunction"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 873,
+            "end": 874,
+            "name": "h"
+          },
+          {
+            "type": "Literal",
+            "start": 876,
+            "end": 914,
+            "value": "async /* a */ a /* b */ => /* c */ 0",
+            "raw": "\"async /* a */ a /* b */ => /* c */ 0\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

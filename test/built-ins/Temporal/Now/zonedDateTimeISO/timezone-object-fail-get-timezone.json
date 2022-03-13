@@ -1,0 +1,196 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 528,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 290,
+      "end": 363,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 294,
+          "end": 362,
+          "id": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 302,
+            "name": "timeZone"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 305,
+            "end": 362,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 309,
+                "end": 359,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 313,
+                  "end": 321,
+                  "name": "timeZone"
+                },
+                "kind": "get",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 321,
+                  "end": 359,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 324,
+                    "end": 359,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 330,
+                        "end": 355,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 336,
+                          "end": 354,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 340,
+                            "end": 352,
+                            "name": "Test262Error"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 365,
+      "end": 527,
+      "expression": {
+        "type": "CallExpression",
+        "start": 365,
+        "end": 526,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 365,
+          "end": 378,
+          "object": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 371,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 378,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 379,
+            "end": 391,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 393,
+            "end": 450,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 404,
+              "end": 450,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 408,
+                  "end": 448,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 408,
+                    "end": 447,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 408,
+                      "end": 437,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 408,
+                        "end": 420,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 408,
+                          "end": 416,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 417,
+                          "end": 420,
+                          "name": "Now"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 421,
+                        "end": 437,
+                        "name": "zonedDateTimeISO"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 438,
+                        "end": 446,
+                        "name": "timeZone"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 452,
+            "end": 525,
+            "value": "Temporal.Now.zonedDateTimeISO(timeZone) throws a Test262Error exception",
+            "raw": "'Temporal.Now.zonedDateTimeISO(timeZone) throws a Test262Error exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

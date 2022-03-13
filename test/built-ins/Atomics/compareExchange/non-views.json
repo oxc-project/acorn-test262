@@ -1,0 +1,172 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 578,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 377,
+      "end": 577,
+      "expression": {
+        "type": "CallExpression",
+        "start": 377,
+        "end": 576,
+        "callee": {
+          "type": "Identifier",
+          "start": 377,
+          "end": 405,
+          "name": "testWithAtomicsNonViewValues"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 406,
+            "end": 575,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 415,
+                "end": 419,
+                "name": "view"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 421,
+              "end": 575,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 425,
+                  "end": 573,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 425,
+                    "end": 572,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 425,
+                      "end": 438,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 425,
+                        "end": 431,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 432,
+                        "end": 438,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 439,
+                        "end": 448,
+                        "name": "TypeError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 450,
+                        "end": 510,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 461,
+                          "end": 510,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 467,
+                              "end": 506,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 467,
+                                "end": 505,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 467,
+                                  "end": 490,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 467,
+                                    "end": 474,
+                                    "name": "Atomics"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 475,
+                                    "end": 490,
+                                    "name": "compareExchange"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 491,
+                                    "end": 495,
+                                    "name": "view"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 497,
+                                    "end": 498,
+                                    "value": 0,
+                                    "raw": "0"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 500,
+                                    "end": 501,
+                                    "value": 0,
+                                    "raw": "0"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 503,
+                                    "end": 504,
+                                    "value": 0,
+                                    "raw": "0"
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 512,
+                        "end": 571,
+                        "value": "`Atomics.compareExchange(view, 0, 0, 0)` throws TypeError",
+                        "raw": "'`Atomics.compareExchange(view, 0, 0, 0)` throws TypeError'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

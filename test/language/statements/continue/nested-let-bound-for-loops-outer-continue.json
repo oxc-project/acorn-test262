@@ -1,0 +1,262 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 402,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 224,
+      "end": 238,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 228,
+          "end": 237,
+          "id": {
+            "type": "Identifier",
+            "start": 228,
+            "end": 233,
+            "name": "count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 236,
+            "end": 237,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 239,
+      "end": 340,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 244,
+        "end": 253,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 248,
+            "end": 253,
+            "id": {
+              "type": "Identifier",
+              "start": 248,
+              "end": 249,
+              "name": "x"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 252,
+              "end": 253,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "let"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 255,
+        "end": 261,
+        "left": {
+          "type": "Identifier",
+          "start": 255,
+          "end": 256,
+          "name": "x"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "start": 259,
+          "end": 261,
+          "value": 10,
+          "raw": "10"
+        }
+      },
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 264,
+        "end": 340,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 268,
+            "end": 272,
+            "expression": {
+              "type": "UpdateExpression",
+              "start": 268,
+              "end": 271,
+              "operator": "++",
+              "prefix": false,
+              "argument": {
+                "type": "Identifier",
+                "start": 268,
+                "end": 269,
+                "name": "x"
+              }
+            }
+          },
+          {
+            "type": "ForStatement",
+            "start": 275,
+            "end": 326,
+            "init": {
+              "type": "VariableDeclaration",
+              "start": 280,
+              "end": 289,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 284,
+                  "end": 289,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 284,
+                    "end": 285,
+                    "name": "y"
+                  },
+                  "init": {
+                    "type": "Literal",
+                    "start": 288,
+                    "end": 289,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                }
+              ],
+              "kind": "let"
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "start": 291,
+              "end": 296,
+              "left": {
+                "type": "Identifier",
+                "start": 291,
+                "end": 292,
+                "name": "y"
+              },
+              "operator": "<",
+              "right": {
+                "type": "Literal",
+                "start": 295,
+                "end": 296,
+                "value": 2,
+                "raw": "2"
+              }
+            },
+            "update": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 299,
+              "end": 326,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 305,
+                  "end": 309,
+                  "expression": {
+                    "type": "UpdateExpression",
+                    "start": 305,
+                    "end": 308,
+                    "operator": "++",
+                    "prefix": false,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 305,
+                      "end": 306,
+                      "name": "y"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 314,
+                  "end": 322,
+                  "expression": {
+                    "type": "UpdateExpression",
+                    "start": 314,
+                    "end": 321,
+                    "operator": "++",
+                    "prefix": false,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 314,
+                      "end": 319,
+                      "name": "count"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "ContinueStatement",
+            "start": 329,
+            "end": 338,
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 341,
+      "end": 401,
+      "expression": {
+        "type": "CallExpression",
+        "start": 341,
+        "end": 400,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 341,
+          "end": 357,
+          "object": {
+            "type": "Identifier",
+            "start": 341,
+            "end": 347,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 348,
+            "end": 357,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 358,
+            "end": 363,
+            "name": "count"
+          },
+          {
+            "type": "Literal",
+            "start": 365,
+            "end": 367,
+            "value": 20,
+            "raw": "20"
+          },
+          {
+            "type": "Literal",
+            "start": 369,
+            "end": 399,
+            "value": "The value of `count` is `20`",
+            "raw": "\"The value of `count` is `20`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

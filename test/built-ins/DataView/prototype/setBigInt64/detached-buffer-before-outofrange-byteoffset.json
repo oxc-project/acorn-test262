@@ -1,0 +1,243 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 558,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 340,
+      "end": 351,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 344,
+          "end": 350,
+          "id": {
+            "type": "Identifier",
+            "start": 344,
+            "end": 350,
+            "name": "sample"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 352,
+      "end": 385,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 356,
+          "end": 384,
+          "id": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 362,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 365,
+            "end": 384,
+            "callee": {
+              "type": "Identifier",
+              "start": 369,
+              "end": 380,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 381,
+                "end": 383,
+                "value": 12,
+                "raw": "12"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 387,
+      "end": 420,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 387,
+        "end": 419,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 387,
+          "end": 393,
+          "name": "sample"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 396,
+          "end": 419,
+          "callee": {
+            "type": "Identifier",
+            "start": 400,
+            "end": 408,
+            "name": "DataView"
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 409,
+              "end": 415,
+              "name": "buffer"
+            },
+            {
+              "type": "Literal",
+              "start": 417,
+              "end": 418,
+              "value": 0,
+              "raw": "0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 422,
+      "end": 444,
+      "expression": {
+        "type": "CallExpression",
+        "start": 422,
+        "end": 443,
+        "callee": {
+          "type": "Identifier",
+          "start": 422,
+          "end": 435,
+          "name": "$DETACHBUFFER"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 436,
+            "end": 442,
+            "name": "buffer"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 446,
+      "end": 557,
+      "expression": {
+        "type": "CallExpression",
+        "start": 446,
+        "end": 556,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 446,
+          "end": 459,
+          "object": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 452,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 453,
+            "end": 459,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 460,
+            "end": 469,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 471,
+            "end": 514,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 482,
+              "end": 514,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 486,
+                  "end": 512,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 486,
+                    "end": 511,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 486,
+                      "end": 504,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 486,
+                        "end": 492,
+                        "name": "sample"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 493,
+                        "end": 504,
+                        "name": "setBigInt64"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 505,
+                        "end": 507,
+                        "value": 13,
+                        "raw": "13"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 509,
+                        "end": 510,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 516,
+            "end": 555,
+            "value": "detached DataView access should throw",
+            "raw": "\"detached DataView access should throw\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 351,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 262,
+      "end": 350,
+      "expression": {
+        "type": "CallExpression",
+        "start": 262,
+        "end": 349,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 262,
+          "end": 278,
+          "object": {
+            "type": "Identifier",
+            "start": 262,
+            "end": 268,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 278,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 279,
+            "end": 310,
+            "object": {
+              "type": "MemberExpression",
+              "start": 279,
+              "end": 303,
+              "object": {
+                "type": "Identifier",
+                "start": 279,
+                "end": 285,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 286,
+                "end": 303,
+                "name": "preventExtensions"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 304,
+              "end": 310,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 312,
+            "end": 313,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 315,
+            "end": 348,
+            "value": "Object.preventExtensions.length",
+            "raw": "'Object.preventExtensions.length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

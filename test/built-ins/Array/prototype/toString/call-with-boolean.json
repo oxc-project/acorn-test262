@@ -1,0 +1,220 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 553,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 245,
+      "end": 397,
+      "expression": {
+        "type": "CallExpression",
+        "start": 245,
+        "end": 396,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 245,
+          "end": 261,
+          "object": {
+            "type": "Identifier",
+            "start": 245,
+            "end": 251,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 261,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 265,
+            "end": 300,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 265,
+              "end": 294,
+              "object": {
+                "type": "MemberExpression",
+                "start": 265,
+                "end": 289,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 265,
+                  "end": 280,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 265,
+                    "end": 270,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 271,
+                    "end": 280,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 281,
+                  "end": 289,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 290,
+                "end": 294,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 295,
+                "end": 299,
+                "value": true,
+                "raw": "true"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 304,
+            "end": 322,
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
+          },
+          {
+            "type": "Literal",
+            "start": 326,
+            "end": 394,
+            "value": "Array.prototype.toString.call(true) must return \"[object Boolean]\"",
+            "raw": "'Array.prototype.toString.call(true) must return \"[object Boolean]\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 398,
+      "end": 552,
+      "expression": {
+        "type": "CallExpression",
+        "start": 398,
+        "end": 551,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 398,
+          "end": 414,
+          "object": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 404,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 414,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 418,
+            "end": 454,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 418,
+              "end": 447,
+              "object": {
+                "type": "MemberExpression",
+                "start": 418,
+                "end": 442,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 418,
+                  "end": 433,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 418,
+                    "end": 423,
+                    "name": "Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 424,
+                    "end": 433,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 434,
+                  "end": 442,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 443,
+                "end": 447,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 448,
+                "end": 453,
+                "value": false,
+                "raw": "false"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 458,
+            "end": 476,
+            "value": "[object Boolean]",
+            "raw": "\"[object Boolean]\""
+          },
+          {
+            "type": "Literal",
+            "start": 480,
+            "end": 549,
+            "value": "Array.prototype.toString.call(false) must return \"[object Boolean]\"",
+            "raw": "'Array.prototype.toString.call(false) must return \"[object Boolean]\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

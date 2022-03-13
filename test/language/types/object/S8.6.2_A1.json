@@ -1,0 +1,1257 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 3172,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 489,
+      "end": 502,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 493,
+          "end": 501,
+          "id": {
+            "type": "Identifier",
+            "start": 493,
+            "end": 498,
+            "name": "__obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 499,
+            "end": 501,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 503,
+      "end": 657,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 507,
+        "end": 545,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "CallExpression",
+          "start": 508,
+          "end": 545,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 508,
+            "end": 538,
+            "object": {
+              "type": "MemberExpression",
+              "start": 508,
+              "end": 524,
+              "object": {
+                "type": "Identifier",
+                "start": 508,
+                "end": 514,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 515,
+                "end": 524,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 525,
+              "end": 538,
+              "name": "isPrototypeOf"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 539,
+              "end": 544,
+              "name": "__obj"
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 546,
+        "end": 657,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 550,
+            "end": 655,
+            "argument": {
+              "type": "NewExpression",
+              "start": 556,
+              "end": 654,
+              "callee": {
+                "type": "Identifier",
+                "start": 560,
+                "end": 572,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 573,
+                  "end": 653,
+                  "value": "#1: Native ECMAScript objects have an internal property called [[Prototype]]. ",
+                  "raw": "'#1: Native ECMAScript objects have an internal property called [[Prototype]]. '"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 657,
+      "end": 658
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 803,
+      "end": 819,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 807,
+          "end": 818,
+          "id": {
+            "type": "Identifier",
+            "start": 807,
+            "end": 815,
+            "name": "protoObj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 816,
+            "end": 818,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 843,
+      "end": 862,
+      "id": {
+        "type": "Identifier",
+        "start": 852,
+        "end": 858,
+        "name": "FooObj"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 860,
+        "end": 862,
+        "body": []
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 862,
+      "end": 863
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 987,
+      "end": 1009,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 991,
+          "end": 1008,
+          "id": {
+            "type": "Identifier",
+            "start": 991,
+            "end": 996,
+            "name": "obj__"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 998,
+            "end": 1008,
+            "callee": {
+              "type": "Identifier",
+              "start": 1002,
+              "end": 1008,
+              "name": "FooObj"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 1011,
+      "end": 1248,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 1015,
+        "end": 1053,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "CallExpression",
+          "start": 1016,
+          "end": 1053,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1016,
+            "end": 1046,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1016,
+              "end": 1032,
+              "object": {
+                "type": "Identifier",
+                "start": 1016,
+                "end": 1022,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1023,
+                "end": 1032,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1033,
+              "end": 1046,
+              "name": "isPrototypeOf"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 1047,
+              "end": 1052,
+              "name": "obj__"
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1054,
+        "end": 1248,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1058,
+            "end": 1246,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1064,
+              "end": 1245,
+              "callee": {
+                "type": "Identifier",
+                "start": 1068,
+                "end": 1080,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1081,
+                  "end": 1244,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1081,
+                    "end": 1202,
+                    "value": "#2.1: protoObj={}; function FooObj(){}; var obj__= new FooObj; Object.prototype.isPrototypeOf(obj__) === true. Actual: ",
+                    "raw": "'#2.1: protoObj={}; function FooObj(){}; var obj__= new FooObj; Object.prototype.isPrototypeOf(obj__) === true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1205,
+                    "end": 1244,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1206,
+                      "end": 1243,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1206,
+                        "end": 1236,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 1206,
+                          "end": 1222,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1206,
+                            "end": 1212,
+                            "name": "Object"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1213,
+                            "end": 1222,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1223,
+                          "end": 1236,
+                          "name": "isPrototypeOf"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 1237,
+                          "end": 1242,
+                          "name": "obj__"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1248,
+      "end": 1249
+    },
+    {
+      "type": "IfStatement",
+      "start": 1251,
+      "end": 1488,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 1255,
+        "end": 1293,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "CallExpression",
+          "start": 1256,
+          "end": 1293,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1256,
+            "end": 1286,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1256,
+              "end": 1272,
+              "object": {
+                "type": "Identifier",
+                "start": 1256,
+                "end": 1262,
+                "name": "FooObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1263,
+                "end": 1272,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1273,
+              "end": 1286,
+              "name": "isPrototypeOf"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 1287,
+              "end": 1292,
+              "name": "obj__"
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1294,
+        "end": 1488,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1298,
+            "end": 1486,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1304,
+              "end": 1485,
+              "callee": {
+                "type": "Identifier",
+                "start": 1308,
+                "end": 1320,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1321,
+                  "end": 1484,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1321,
+                    "end": 1442,
+                    "value": "#2.2: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype.isPrototypeOf(obj__) === true. Actual: ",
+                    "raw": "'#2.2: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype.isPrototypeOf(obj__) === true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1445,
+                    "end": 1484,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1446,
+                      "end": 1483,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1446,
+                        "end": 1476,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 1446,
+                          "end": 1462,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1446,
+                            "end": 1452,
+                            "name": "FooObj"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 1453,
+                            "end": 1462,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1463,
+                          "end": 1476,
+                          "name": "isPrototypeOf"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 1477,
+                          "end": 1482,
+                          "name": "obj__"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1488,
+      "end": 1489
+    },
+    {
+      "type": "IfStatement",
+      "start": 1491,
+      "end": 1704,
+      "test": {
+        "type": "CallExpression",
+        "start": 1495,
+        "end": 1524,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1495,
+          "end": 1517,
+          "object": {
+            "type": "Identifier",
+            "start": 1495,
+            "end": 1503,
+            "name": "protoObj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1504,
+            "end": 1517,
+            "name": "isPrototypeOf"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1518,
+            "end": 1523,
+            "name": "obj__"
+          }
+        ],
+        "optional": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1525,
+        "end": 1704,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1529,
+            "end": 1702,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1535,
+              "end": 1701,
+              "callee": {
+                "type": "Identifier",
+                "start": 1539,
+                "end": 1551,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1552,
+                  "end": 1700,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1552,
+                    "end": 1666,
+                    "value": "#2.3: protoObj={}; function FooObj(){}; var obj__= new FooObj; protoObj.isPrototypeOf(obj__) === false. Actual: ",
+                    "raw": "'#2.3: protoObj={}; function FooObj(){}; var obj__= new FooObj; protoObj.isPrototypeOf(obj__) === false. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1669,
+                    "end": 1700,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1670,
+                      "end": 1699,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1670,
+                        "end": 1692,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1670,
+                          "end": 1678,
+                          "name": "protoObj"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1679,
+                          "end": 1692,
+                          "name": "isPrototypeOf"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 1693,
+                          "end": 1698,
+                          "name": "obj__"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1704,
+      "end": 1705
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1749,
+      "end": 1775,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1749,
+        "end": 1774,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 1749,
+          "end": 1765,
+          "object": {
+            "type": "Identifier",
+            "start": 1749,
+            "end": 1755,
+            "name": "FooObj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1756,
+            "end": 1765,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 1766,
+          "end": 1774,
+          "name": "protoObj"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1777,
+      "end": 2017,
+      "test": {
+        "type": "CallExpression",
+        "start": 1781,
+        "end": 1810,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1781,
+          "end": 1803,
+          "object": {
+            "type": "Identifier",
+            "start": 1781,
+            "end": 1789,
+            "name": "protoObj"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1790,
+            "end": 1803,
+            "name": "isPrototypeOf"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1804,
+            "end": 1809,
+            "name": "obj__"
+          }
+        ],
+        "optional": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1811,
+        "end": 2017,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 1815,
+            "end": 2015,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1821,
+              "end": 2014,
+              "callee": {
+                "type": "Identifier",
+                "start": 1825,
+                "end": 1837,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 1838,
+                  "end": 2013,
+                  "left": {
+                    "type": "Literal",
+                    "start": 1838,
+                    "end": 1979,
+                    "value": "#2.4: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype=protoObj; protoObj.isPrototypeOf(obj__) === false. Actual: ",
+                    "raw": "'#2.4: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype=protoObj; protoObj.isPrototypeOf(obj__) === false. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 1982,
+                    "end": 2013,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 1983,
+                      "end": 2012,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1983,
+                        "end": 2005,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1983,
+                          "end": 1991,
+                          "name": "protoObj"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1992,
+                          "end": 2005,
+                          "name": "isPrototypeOf"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 2006,
+                          "end": 2011,
+                          "name": "obj__"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2017,
+      "end": 2018
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2225,
+      "end": 2246,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2229,
+          "end": 2245,
+          "id": {
+            "type": "Identifier",
+            "start": 2229,
+            "end": 2234,
+            "name": "__foo"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2235,
+            "end": 2245,
+            "callee": {
+              "type": "Identifier",
+              "start": 2239,
+              "end": 2245,
+              "name": "FooObj"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 2248,
+      "end": 2534,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2252,
+        "end": 2290,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "CallExpression",
+          "start": 2253,
+          "end": 2290,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2253,
+            "end": 2283,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2253,
+              "end": 2269,
+              "object": {
+                "type": "Identifier",
+                "start": 2253,
+                "end": 2259,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2260,
+                "end": 2269,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2270,
+              "end": 2283,
+              "name": "isPrototypeOf"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 2284,
+              "end": 2289,
+              "name": "__foo"
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2291,
+        "end": 2534,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2295,
+            "end": 2532,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2301,
+              "end": 2531,
+              "callee": {
+                "type": "Identifier",
+                "start": 2305,
+                "end": 2317,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2318,
+                  "end": 2530,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2318,
+                    "end": 2488,
+                    "value": "#3.1: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype=protoObj; var __foo=new FooObj; Object.prototype.isPrototypeOf(__foo) === true. Actual: ",
+                    "raw": "'#3.1: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype=protoObj; var __foo=new FooObj; Object.prototype.isPrototypeOf(__foo) === true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 2491,
+                    "end": 2530,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 2492,
+                      "end": 2529,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 2492,
+                        "end": 2522,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 2492,
+                          "end": 2508,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2492,
+                            "end": 2498,
+                            "name": "Object"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2499,
+                            "end": 2508,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 2509,
+                          "end": 2522,
+                          "name": "isPrototypeOf"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 2523,
+                          "end": 2528,
+                          "name": "__foo"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2534,
+      "end": 2535
+    },
+    {
+      "type": "IfStatement",
+      "start": 2537,
+      "end": 2823,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2541,
+        "end": 2579,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "CallExpression",
+          "start": 2542,
+          "end": 2579,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2542,
+            "end": 2572,
+            "object": {
+              "type": "MemberExpression",
+              "start": 2542,
+              "end": 2558,
+              "object": {
+                "type": "Identifier",
+                "start": 2542,
+                "end": 2548,
+                "name": "FooObj"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2549,
+                "end": 2558,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2559,
+              "end": 2572,
+              "name": "isPrototypeOf"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 2573,
+              "end": 2578,
+              "name": "__foo"
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2580,
+        "end": 2823,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2584,
+            "end": 2821,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2590,
+              "end": 2820,
+              "callee": {
+                "type": "Identifier",
+                "start": 2594,
+                "end": 2606,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2607,
+                  "end": 2819,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2607,
+                    "end": 2777,
+                    "value": "#3.2: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype=protoObj; var __foo=new FooObj; FooObj.prototype.isPrototypeOf(__foo) === true. Actual: ",
+                    "raw": "'#3.2: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype=protoObj; var __foo=new FooObj; FooObj.prototype.isPrototypeOf(__foo) === true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 2780,
+                    "end": 2819,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 2781,
+                      "end": 2818,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 2781,
+                        "end": 2811,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 2781,
+                          "end": 2797,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 2781,
+                            "end": 2787,
+                            "name": "FooObj"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 2788,
+                            "end": 2797,
+                            "name": "prototype"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 2798,
+                          "end": 2811,
+                          "name": "isPrototypeOf"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 2812,
+                          "end": 2817,
+                          "name": "__foo"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2823,
+      "end": 2824
+    },
+    {
+      "type": "IfStatement",
+      "start": 2826,
+      "end": 3088,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 2830,
+        "end": 2860,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "CallExpression",
+          "start": 2831,
+          "end": 2860,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 2831,
+            "end": 2853,
+            "object": {
+              "type": "Identifier",
+              "start": 2831,
+              "end": 2839,
+              "name": "protoObj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 2840,
+              "end": 2853,
+              "name": "isPrototypeOf"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 2854,
+              "end": 2859,
+              "name": "__foo"
+            }
+          ],
+          "optional": false
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 2861,
+        "end": 3088,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 2865,
+            "end": 3086,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2871,
+              "end": 3085,
+              "callee": {
+                "type": "Identifier",
+                "start": 2875,
+                "end": 2887,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2888,
+                  "end": 3084,
+                  "left": {
+                    "type": "Literal",
+                    "start": 2888,
+                    "end": 3050,
+                    "value": "#3.3: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype=protoObj; var __foo=new FooObj; protoObj.isPrototypeOf(__foo) === true. Actual: ",
+                    "raw": "'#3.3: protoObj={}; function FooObj(){}; var obj__= new FooObj; FooObj.prototype=protoObj; var __foo=new FooObj; protoObj.isPrototypeOf(__foo) === true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 3053,
+                    "end": 3084,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 3054,
+                      "end": 3083,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 3054,
+                        "end": 3076,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 3054,
+                          "end": 3062,
+                          "name": "protoObj"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 3063,
+                          "end": 3076,
+                          "name": "isPrototypeOf"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 3077,
+                          "end": 3082,
+                          "name": "__foo"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 3088,
+      "end": 3089
+    }
+  ],
+  "sourceType": "script"
+}

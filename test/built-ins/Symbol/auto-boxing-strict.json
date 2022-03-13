@@ -1,0 +1,419 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 505,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 249,
+      "end": 329,
+      "expression": {
+        "type": "CallExpression",
+        "start": 249,
+        "end": 328,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 249,
+          "end": 262,
+          "object": {
+            "type": "Identifier",
+            "start": 249,
+            "end": 255,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 256,
+            "end": 262,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 263,
+            "end": 272,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 274,
+            "end": 327,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 285,
+              "end": 327,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 289,
+                  "end": 312,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 293,
+                      "end": 311,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 293,
+                        "end": 296,
+                        "name": "sym"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 299,
+                        "end": 311,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 299,
+                          "end": 305,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 306,
+                            "end": 310,
+                            "value": "66",
+                            "raw": "'66'"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 315,
+                  "end": 325,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 315,
+                    "end": 324,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 315,
+                      "end": 320,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 315,
+                        "end": 318,
+                        "name": "sym"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 319,
+                        "end": 320,
+                        "name": "a"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 323,
+                      "end": 324,
+                      "value": 0,
+                      "raw": "0"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 331,
+      "end": 420,
+      "expression": {
+        "type": "CallExpression",
+        "start": 331,
+        "end": 419,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 331,
+          "end": 344,
+          "object": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 337,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 344,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 345,
+            "end": 354,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 356,
+            "end": 418,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 367,
+              "end": 418,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 371,
+                  "end": 394,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 375,
+                      "end": 393,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 375,
+                        "end": 378,
+                        "name": "sym"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 381,
+                        "end": 393,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 381,
+                          "end": 387,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 388,
+                            "end": 392,
+                            "value": "66",
+                            "raw": "'66'"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 397,
+                  "end": 416,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 397,
+                    "end": 415,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 397,
+                      "end": 411,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 397,
+                        "end": 400,
+                        "name": "sym"
+                      },
+                      "property": {
+                        "type": "BinaryExpression",
+                        "start": 401,
+                        "end": 410,
+                        "left": {
+                          "type": "Literal",
+                          "start": 401,
+                          "end": 404,
+                          "value": "a",
+                          "raw": "'a'"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 407,
+                          "end": 410,
+                          "value": "b",
+                          "raw": "'b'"
+                        }
+                      },
+                      "computed": true,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 414,
+                      "end": 415,
+                      "value": 0,
+                      "raw": "0"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 422,
+      "end": 504,
+      "expression": {
+        "type": "CallExpression",
+        "start": 422,
+        "end": 503,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 422,
+          "end": 435,
+          "object": {
+            "type": "Identifier",
+            "start": 422,
+            "end": 428,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 429,
+            "end": 435,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 436,
+            "end": 445,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 447,
+            "end": 502,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 458,
+              "end": 502,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 462,
+                  "end": 485,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 466,
+                      "end": 484,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 466,
+                        "end": 469,
+                        "name": "sym"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 472,
+                        "end": 484,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 472,
+                          "end": 478,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 479,
+                            "end": 483,
+                            "value": "66",
+                            "raw": "'66'"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 488,
+                  "end": 500,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 488,
+                    "end": 499,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 488,
+                      "end": 495,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 488,
+                        "end": 491,
+                        "name": "sym"
+                      },
+                      "property": {
+                        "type": "Literal",
+                        "start": 492,
+                        "end": 494,
+                        "value": 62,
+                        "raw": "62"
+                      },
+                      "computed": true,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 498,
+                      "end": 499,
+                      "value": 0,
+                      "raw": "0"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

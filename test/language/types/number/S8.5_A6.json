@@ -1,0 +1,250 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 782,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 242,
+      "end": 258,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 246,
+          "end": 257,
+          "id": {
+            "type": "Identifier",
+            "start": 246,
+            "end": 247,
+            "name": "x"
+          },
+          "init": {
+            "type": "UnaryExpression",
+            "start": 248,
+            "end": 257,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 249,
+              "end": 257,
+              "name": "Infinity"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 327,
+      "end": 454,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 331,
+        "end": 353,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 331,
+          "end": 340,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 337,
+            "end": 340,
+            "expression": {
+              "type": "Identifier",
+              "start": 338,
+              "end": 339,
+              "name": "x"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 345,
+          "end": 353,
+          "value": "number",
+          "raw": "\"number\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 354,
+        "end": 454,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 358,
+            "end": 452,
+            "argument": {
+              "type": "NewExpression",
+              "start": 364,
+              "end": 451,
+              "callee": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 380,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 381,
+                  "end": 450,
+                  "left": {
+                    "type": "Literal",
+                    "start": 381,
+                    "end": 436,
+                    "value": "#1: var x=-Infinity; typeof(x) === \"number\". Actual: ",
+                    "raw": "'#1: var x=-Infinity; typeof(x) === \"number\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 439,
+                    "end": 450,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 440,
+                      "end": 449,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "ParenthesizedExpression",
+                        "start": 446,
+                        "end": 449,
+                        "expression": {
+                          "type": "Identifier",
+                          "start": 447,
+                          "end": 448,
+                          "name": "x"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 585,
+      "end": 719,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 589,
+        "end": 619,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 589,
+          "end": 606,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 595,
+            "end": 606,
+            "expression": {
+              "type": "UnaryExpression",
+              "start": 596,
+              "end": 605,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 597,
+                "end": 605,
+                "name": "Infinity"
+              }
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 611,
+          "end": 619,
+          "value": "number",
+          "raw": "\"number\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 620,
+        "end": 719,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 624,
+            "end": 717,
+            "argument": {
+              "type": "NewExpression",
+              "start": 630,
+              "end": 716,
+              "callee": {
+                "type": "Identifier",
+                "start": 634,
+                "end": 646,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 647,
+                  "end": 715,
+                  "left": {
+                    "type": "Literal",
+                    "start": 647,
+                    "end": 693,
+                    "value": "#2: typeof(-Infinity) === \"number\". Actual: ",
+                    "raw": "'#2: typeof(-Infinity) === \"number\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 696,
+                    "end": 715,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 697,
+                      "end": 714,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "ParenthesizedExpression",
+                        "start": 703,
+                        "end": 714,
+                        "expression": {
+                          "type": "UnaryExpression",
+                          "start": 704,
+                          "end": 713,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Identifier",
+                            "start": 705,
+                            "end": 713,
+                            "name": "Infinity"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

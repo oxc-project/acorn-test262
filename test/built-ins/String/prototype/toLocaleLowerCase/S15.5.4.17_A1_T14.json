@@ -1,0 +1,218 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 792,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 278,
+      "end": 308,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 282,
+          "end": 307,
+          "id": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 287,
+            "name": "__reg"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 290,
+            "end": 307,
+            "callee": {
+              "type": "Identifier",
+              "start": 294,
+              "end": 300,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 301,
+                "end": 306,
+                "value": "ABC",
+                "raw": "\"ABC\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 309,
+      "end": 370,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 309,
+        "end": 369,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 309,
+          "end": 332,
+          "object": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 314,
+            "name": "__reg"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 332,
+            "name": "toLocaleLowerCase"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 335,
+          "end": 369,
+          "object": {
+            "type": "MemberExpression",
+            "start": 335,
+            "end": 351,
+            "object": {
+              "type": "Identifier",
+              "start": 335,
+              "end": 341,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 342,
+              "end": 351,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 369,
+            "name": "toLocaleLowerCase"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 461,
+      "end": 709,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 465,
+        "end": 502,
+        "left": {
+          "type": "CallExpression",
+          "start": 465,
+          "end": 490,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 465,
+            "end": 488,
+            "object": {
+              "type": "Identifier",
+              "start": 465,
+              "end": 470,
+              "name": "__reg"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 471,
+              "end": 488,
+              "name": "toLocaleLowerCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 495,
+          "end": 502,
+          "value": "/abc/",
+          "raw": "\"/abc/\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 504,
+        "end": 709,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 508,
+            "end": 707,
+            "argument": {
+              "type": "NewExpression",
+              "start": 514,
+              "end": 706,
+              "callee": {
+                "type": "Identifier",
+                "start": 518,
+                "end": 530,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 531,
+                  "end": 705,
+                  "left": {
+                    "type": "Literal",
+                    "start": 531,
+                    "end": 677,
+                    "value": "#1: var __reg = new RegExp(\"ABC\"); __reg.toLocaleLowerCase = String.prototype.toLocaleLowerCase; __reg.toLocaleLowerCase() === \"/abc/\". Actual: ",
+                    "raw": "'#1: var __reg = new RegExp(\"ABC\"); __reg.toLocaleLowerCase = String.prototype.toLocaleLowerCase; __reg.toLocaleLowerCase() === \"/abc/\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 680,
+                    "end": 705,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 680,
+                      "end": 703,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 680,
+                        "end": 685,
+                        "name": "__reg"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 686,
+                        "end": 703,
+                        "name": "toLocaleLowerCase"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

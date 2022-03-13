@@ -1,0 +1,282 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2049,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1557,
+      "end": 1594,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1561,
+          "end": 1570,
+          "id": {
+            "type": "Identifier",
+            "start": 1561,
+            "end": 1570,
+            "name": "initialBV"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 1572,
+          "end": 1581,
+          "id": {
+            "type": "Identifier",
+            "start": 1572,
+            "end": 1581,
+            "name": "currentBV"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 1583,
+          "end": 1593,
+          "id": {
+            "type": "Identifier",
+            "start": 1583,
+            "end": 1593,
+            "name": "varBinding"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1596,
+      "end": 1748,
+      "expression": {
+        "type": "ParenthesizedExpression",
+        "start": 1596,
+        "end": 1747,
+        "expression": {
+          "type": "CallExpression",
+          "start": 1597,
+          "end": 1746,
+          "callee": {
+            "type": "FunctionExpression",
+            "start": 1597,
+            "end": 1744,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1608,
+              "end": 1744,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1612,
+                  "end": 1742,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1612,
+                    "end": 1741,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1612,
+                      "end": 1616,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1622,
+                        "end": 1737,
+                        "value": "if (false) ; else function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }varBinding = f;    f();",
+                        "raw": "'if (false) ; else function f() { initialBV = f; f = 123; currentBV = f; return \"decl\"; }varBinding = f;\\\n    f();'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          "arguments": [],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1751,
+      "end": 1864,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1751,
+        "end": 1863,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1751,
+          "end": 1767,
+          "object": {
+            "type": "Identifier",
+            "start": 1751,
+            "end": 1757,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1758,
+            "end": 1767,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1771,
+            "end": 1782,
+            "callee": {
+              "type": "Identifier",
+              "start": 1771,
+              "end": 1780,
+              "name": "initialBV"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1786,
+            "end": 1792,
+            "value": "decl",
+            "raw": "'decl'"
+          },
+          {
+            "type": "Literal",
+            "start": 1796,
+            "end": 1861,
+            "value": "Block-scoped binding value is function object at execution time",
+            "raw": "'Block-scoped binding value is function object at execution time'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1865,
+      "end": 1933,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1865,
+        "end": 1932,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1865,
+          "end": 1881,
+          "object": {
+            "type": "Identifier",
+            "start": 1865,
+            "end": 1871,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1872,
+            "end": 1881,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1882,
+            "end": 1891,
+            "name": "currentBV"
+          },
+          {
+            "type": "Literal",
+            "start": 1893,
+            "end": 1896,
+            "value": 123,
+            "raw": "123"
+          },
+          {
+            "type": "Literal",
+            "start": 1898,
+            "end": 1931,
+            "value": "Block-scoped binding is mutable",
+            "raw": "'Block-scoped binding is mutable'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1934,
+      "end": 2048,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1934,
+        "end": 2047,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1934,
+          "end": 1950,
+          "object": {
+            "type": "Identifier",
+            "start": 1934,
+            "end": 1940,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1941,
+            "end": 1950,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1954,
+            "end": 1966,
+            "callee": {
+              "type": "Identifier",
+              "start": 1954,
+              "end": 1964,
+              "name": "varBinding"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1970,
+            "end": 1976,
+            "value": "decl",
+            "raw": "'decl'"
+          },
+          {
+            "type": "Literal",
+            "start": 1980,
+            "end": 2045,
+            "value": "Block-scoped binding is independent of outer var-scoped binding",
+            "raw": "'Block-scoped binding is independent of outer var-scoped binding'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

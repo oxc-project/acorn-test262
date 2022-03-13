@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 453,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 221,
+      "end": 349,
+      "expression": {
+        "type": "CallExpression",
+        "start": 221,
+        "end": 348,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 221,
+          "end": 237,
+          "object": {
+            "type": "Identifier",
+            "start": 221,
+            "end": 227,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 228,
+            "end": 237,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 241,
+            "end": 268,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 241,
+              "end": 266,
+              "object": {
+                "type": "MemberExpression",
+                "start": 241,
+                "end": 257,
+                "object": {
+                  "type": "Identifier",
+                  "start": 241,
+                  "end": 247,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 248,
+                  "end": 257,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 258,
+                "end": 266,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 272,
+            "end": 289,
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
+          },
+          {
+            "type": "Literal",
+            "start": 293,
+            "end": 346,
+            "value": "Object.prototype.toString() returns [object Object]",
+            "raw": "\"Object.prototype.toString() returns [object Object]\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 350,
+      "end": 452,
+      "expression": {
+        "type": "CallExpression",
+        "start": 350,
+        "end": 451,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 350,
+          "end": 366,
+          "object": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 356,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 366,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 370,
+            "end": 383,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 370,
+              "end": 381,
+              "object": {
+                "type": "ObjectExpression",
+                "start": 370,
+                "end": 372,
+                "properties": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 381,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 387,
+            "end": 404,
+            "value": "[object Object]",
+            "raw": "\"[object Object]\""
+          },
+          {
+            "type": "Literal",
+            "start": 408,
+            "end": 449,
+            "value": "({}).toString() returns [object Object]",
+            "raw": "\"({}).toString() returns [object Object]\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

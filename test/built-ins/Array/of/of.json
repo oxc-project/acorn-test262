@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 418,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 322,
+      "end": 355,
+      "expression": {
+        "type": "CallExpression",
+        "start": 322,
+        "end": 354,
+        "callee": {
+          "type": "Identifier",
+          "start": 322,
+          "end": 341,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 342,
+            "end": 347,
+            "name": "Array"
+          },
+          {
+            "type": "Literal",
+            "start": 349,
+            "end": 353,
+            "value": "of",
+            "raw": "'of'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 356,
+      "end": 384,
+      "expression": {
+        "type": "CallExpression",
+        "start": 356,
+        "end": 383,
+        "callee": {
+          "type": "Identifier",
+          "start": 356,
+          "end": 370,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 371,
+            "end": 376,
+            "name": "Array"
+          },
+          {
+            "type": "Literal",
+            "start": 378,
+            "end": 382,
+            "value": "of",
+            "raw": "'of'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 385,
+      "end": 417,
+      "expression": {
+        "type": "CallExpression",
+        "start": 385,
+        "end": 416,
+        "callee": {
+          "type": "Identifier",
+          "start": 385,
+          "end": 403,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 404,
+            "end": 409,
+            "name": "Array"
+          },
+          {
+            "type": "Literal",
+            "start": 411,
+            "end": 415,
+            "value": "of",
+            "raw": "'of'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,259 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1064,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 723,
+      "end": 865,
+      "expression": {
+        "type": "CallExpression",
+        "start": 723,
+        "end": 864,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 723,
+          "end": 739,
+          "object": {
+            "type": "Identifier",
+            "start": 723,
+            "end": 729,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 739,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 743,
+            "end": 786,
+            "callee": {
+              "type": "Identifier",
+              "start": 743,
+              "end": 756,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 757,
+                "end": 785,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 757,
+                  "end": 775,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 757,
+                    "end": 765,
+                    "name": "DataView"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 766,
+                    "end": 775,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 776,
+                  "end": 785,
+                  "name": "setUint16"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 790,
+            "end": 795,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 799,
+            "end": 862,
+            "value": "isConstructor(DataView.prototype.setUint16) must return false",
+            "raw": "'isConstructor(DataView.prototype.setUint16) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 867,
+      "end": 1062,
+      "expression": {
+        "type": "CallExpression",
+        "start": 867,
+        "end": 1061,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 867,
+          "end": 880,
+          "object": {
+            "type": "Identifier",
+            "start": 867,
+            "end": 873,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 874,
+            "end": 880,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 881,
+            "end": 890,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 892,
+            "end": 971,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 898,
+              "end": 971,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 902,
+                  "end": 945,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 906,
+                      "end": 944,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 906,
+                        "end": 908,
+                        "name": "dv"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 911,
+                        "end": 944,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 915,
+                          "end": 923,
+                          "name": "DataView"
+                        },
+                        "arguments": [
+                          {
+                            "type": "NewExpression",
+                            "start": 924,
+                            "end": 943,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 928,
+                              "end": 939,
+                              "name": "ArrayBuffer"
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "start": 940,
+                                "end": 942,
+                                "value": 16,
+                                "raw": "16"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 946,
+                  "end": 969,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 946,
+                    "end": 968,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 950,
+                      "end": 962,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 950,
+                        "end": 952,
+                        "name": "dv"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 953,
+                        "end": 962,
+                        "name": "setUint16"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 963,
+                        "end": 964,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 966,
+                        "end": 967,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 973,
+            "end": 1060,
+            "value": "`let dv = new DataView(new ArrayBuffer(16)); new dv.setUint16(0, 0)` throws TypeError",
+            "raw": "'`let dv = new DataView(new ArrayBuffer(16)); new dv.setUint16(0, 0)` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

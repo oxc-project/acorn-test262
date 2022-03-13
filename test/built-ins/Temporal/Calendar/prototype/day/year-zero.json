@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 471,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 281,
+      "end": 309,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 287,
+          "end": 308,
+          "id": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 290,
+            "name": "arg"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 293,
+            "end": 308,
+            "value": "-000000-10-31",
+            "raw": "\"-000000-10-31\""
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 310,
+      "end": 360,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 316,
+          "end": 359,
+          "id": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 324,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 327,
+            "end": 359,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 331,
+              "end": 348,
+              "object": {
+                "type": "Identifier",
+                "start": 331,
+                "end": 339,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 340,
+                "end": 348,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 349,
+                "end": 358,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 362,
+      "end": 470,
+      "expression": {
+        "type": "CallExpression",
+        "start": 362,
+        "end": 469,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 362,
+          "end": 375,
+          "object": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 368,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 369,
+            "end": 375,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 381,
+            "end": 391,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 397,
+            "end": 425,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 403,
+              "end": 425,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 405,
+                  "end": 423,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 405,
+                    "end": 422,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 405,
+                      "end": 417,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 405,
+                        "end": 413,
+                        "name": "instance"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 414,
+                        "end": 417,
+                        "name": "day"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 418,
+                        "end": 421,
+                        "name": "arg"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 431,
+            "end": 467,
+            "value": "reject minus zero as extended year",
+            "raw": "\"reject minus zero as extended year\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

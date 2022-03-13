@@ -1,0 +1,199 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 504,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 322,
+      "end": 344,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 326,
+          "end": 343,
+          "id": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 330,
+            "name": "__re"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 333,
+            "end": 343,
+            "callee": {
+              "type": "Identifier",
+              "start": 337,
+              "end": 343,
+              "name": "RegExp"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 345,
+      "end": 387,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 345,
+        "end": 386,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 345,
+          "end": 358,
+          "object": {
+            "type": "Identifier",
+            "start": 345,
+            "end": 349,
+            "name": "__re"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 358,
+            "name": "toString"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 361,
+          "end": 386,
+          "object": {
+            "type": "MemberExpression",
+            "start": 361,
+            "end": 377,
+            "object": {
+              "type": "Identifier",
+              "start": 361,
+              "end": 367,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 368,
+              "end": 377,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 378,
+            "end": 386,
+            "name": "toString"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 389,
+      "end": 503,
+      "expression": {
+        "type": "CallExpression",
+        "start": 389,
+        "end": 502,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 389,
+          "end": 405,
+          "object": {
+            "type": "Identifier",
+            "start": 389,
+            "end": 395,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 405,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 406,
+            "end": 421,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 406,
+              "end": 419,
+              "object": {
+                "type": "Identifier",
+                "start": 406,
+                "end": 410,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 411,
+                "end": 419,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 423,
+            "end": 446,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 423,
+              "end": 442,
+              "left": {
+                "type": "Literal",
+                "start": 423,
+                "end": 433,
+                "value": "[object ",
+                "raw": "\"[object \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 434,
+                "end": 442,
+                "value": "RegExp",
+                "raw": "\"RegExp\""
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 443,
+              "end": 446,
+              "value": "]",
+              "raw": "\"]\""
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 448,
+            "end": 501,
+            "value": "__re.toString() must return \"[object \"+\"RegExp\"+\"]\"",
+            "raw": "'__re.toString() must return \"[object \"+\"RegExp\"+\"]\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

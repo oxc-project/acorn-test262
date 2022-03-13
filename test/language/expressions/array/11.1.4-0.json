@@ -1,0 +1,100 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 318,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 261,
+      "end": 273,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 265,
+          "end": 272,
+          "id": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 266,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 269,
+            "end": 272,
+            "elements": [
+              null
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 275,
+      "end": 317,
+      "expression": {
+        "type": "CallExpression",
+        "start": 275,
+        "end": 316,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 275,
+          "end": 291,
+          "object": {
+            "type": "Identifier",
+            "start": 275,
+            "end": 281,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 282,
+            "end": 291,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 292,
+            "end": 300,
+            "object": {
+              "type": "Identifier",
+              "start": 292,
+              "end": 293,
+              "name": "a"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 294,
+              "end": 300,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 302,
+            "end": 303,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 305,
+            "end": 315,
+            "value": "a.length",
+            "raw": "'a.length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

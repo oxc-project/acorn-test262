@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 364,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 253,
+      "end": 286,
+      "expression": {
+        "type": "CallExpression",
+        "start": 253,
+        "end": 285,
+        "callee": {
+          "type": "Identifier",
+          "start": 253,
+          "end": 267,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 268,
+            "end": 273,
+            "name": "Array"
+          },
+          {
+            "type": "Literal",
+            "start": 275,
+            "end": 284,
+            "value": "isArray",
+            "raw": "\"isArray\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 287,
+      "end": 325,
+      "expression": {
+        "type": "CallExpression",
+        "start": 287,
+        "end": 324,
+        "callee": {
+          "type": "Identifier",
+          "start": 287,
+          "end": 306,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 307,
+            "end": 312,
+            "name": "Array"
+          },
+          {
+            "type": "Literal",
+            "start": 314,
+            "end": 323,
+            "value": "isArray",
+            "raw": "\"isArray\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 326,
+      "end": 363,
+      "expression": {
+        "type": "CallExpression",
+        "start": 326,
+        "end": 362,
+        "callee": {
+          "type": "Identifier",
+          "start": 326,
+          "end": 344,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 345,
+            "end": 350,
+            "name": "Array"
+          },
+          {
+            "type": "Literal",
+            "start": 352,
+            "end": 361,
+            "value": "isArray",
+            "raw": "\"isArray\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

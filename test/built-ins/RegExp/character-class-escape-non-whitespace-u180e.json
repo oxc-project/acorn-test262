@@ -1,0 +1,152 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 653,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 508,
+      "end": 546,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 512,
+          "end": 545,
+          "id": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 515,
+            "name": "str"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 518,
+            "end": 545,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 518,
+              "end": 537,
+              "object": {
+                "type": "Identifier",
+                "start": 518,
+                "end": 524,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 525,
+                "end": 537,
+                "name": "fromCharCode"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 538,
+                "end": 544,
+                "value": 6158,
+                "raw": "0x180E"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 547,
+      "end": 652,
+      "expression": {
+        "type": "CallExpression",
+        "start": 547,
+        "end": 651,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 547,
+          "end": 563,
+          "object": {
+            "type": "Identifier",
+            "start": 547,
+            "end": 553,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 563,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 567,
+            "end": 597,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 567,
+              "end": 578,
+              "object": {
+                "type": "Identifier",
+                "start": 567,
+                "end": 570,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 571,
+                "end": 578,
+                "name": "replace"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 579,
+                "end": 585,
+                "value": {},
+                "raw": "/\\S+/g",
+                "regex": {
+                  "pattern": "\\S+",
+                  "flags": "g"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 587,
+                "end": 596,
+                "value": "test262",
+                "raw": "\"test262\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 601,
+            "end": 610,
+            "value": "test262",
+            "raw": "\"test262\""
+          },
+          {
+            "type": "Literal",
+            "start": 614,
+            "end": 649,
+            "value": "Non WhiteSpace character: \\u180E",
+            "raw": "\"Non WhiteSpace character: \\\\u180E\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

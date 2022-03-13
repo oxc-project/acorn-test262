@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 361,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 265,
+      "end": 360,
+      "expression": {
+        "type": "CallExpression",
+        "start": 265,
+        "end": 359,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 265,
+          "end": 281,
+          "object": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 271,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 281,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 282,
+            "end": 309,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 282,
+              "end": 303,
+              "object": {
+                "type": "Identifier",
+                "start": 282,
+                "end": 288,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 289,
+                "end": 303,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 304,
+                "end": 308,
+                "name": "JSON"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 311,
+            "end": 327,
+            "object": {
+              "type": "Identifier",
+              "start": 311,
+              "end": 317,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 318,
+              "end": 327,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 329,
+            "end": 358,
+            "value": "Object.getPrototypeOf(JSON)",
+            "raw": "'Object.getPrototypeOf(JSON)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

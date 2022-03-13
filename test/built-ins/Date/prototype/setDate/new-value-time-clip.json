@@ -1,0 +1,226 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 831,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 671,
+      "end": 700,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 675,
+          "end": 699,
+          "id": {
+            "type": "Identifier",
+            "start": 675,
+            "end": 679,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 682,
+            "end": 699,
+            "callee": {
+              "type": "Identifier",
+              "start": 686,
+              "end": 690,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 691,
+                "end": 698,
+                "value": 8640000000000000,
+                "raw": "8.64e15"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 701,
+      "end": 717,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 705,
+          "end": 716,
+          "id": {
+            "type": "Identifier",
+            "start": 705,
+            "end": 716,
+            "name": "returnValue"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 719,
+      "end": 760,
+      "expression": {
+        "type": "CallExpression",
+        "start": 719,
+        "end": 759,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 719,
+          "end": 738,
+          "object": {
+            "type": "Identifier",
+            "start": 719,
+            "end": 725,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 726,
+            "end": 738,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 739,
+            "end": 753,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 739,
+              "end": 751,
+              "object": {
+                "type": "Identifier",
+                "start": 739,
+                "end": 743,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 744,
+                "end": 751,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 755,
+            "end": 758,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 762,
+      "end": 793,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 762,
+        "end": 792,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 762,
+          "end": 773,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 776,
+          "end": 792,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 776,
+            "end": 788,
+            "object": {
+              "type": "Identifier",
+              "start": 776,
+              "end": 780,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 781,
+              "end": 788,
+              "name": "setDate"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 789,
+              "end": 791,
+              "value": 28,
+              "raw": "28"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 795,
+      "end": 830,
+      "expression": {
+        "type": "CallExpression",
+        "start": 795,
+        "end": 829,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 795,
+          "end": 811,
+          "object": {
+            "type": "Identifier",
+            "start": 795,
+            "end": 801,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 802,
+            "end": 811,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 812,
+            "end": 823,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 825,
+            "end": 828,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

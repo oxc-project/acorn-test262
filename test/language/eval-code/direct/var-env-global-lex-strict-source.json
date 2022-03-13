@@ -1,0 +1,54 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 367,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 329,
+      "end": 335,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 333,
+          "end": 334,
+          "id": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 334,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 337,
+      "end": 366,
+      "expression": {
+        "type": "CallExpression",
+        "start": 337,
+        "end": 365,
+        "callee": {
+          "type": "Identifier",
+          "start": 337,
+          "end": 341,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 342,
+            "end": 364,
+            "value": "\"use strict\"; var x;",
+            "raw": "'\"use strict\"; var x;'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

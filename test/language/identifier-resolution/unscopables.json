@@ -1,0 +1,150 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 647,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 568,
+      "end": 579,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 572,
+          "end": 578,
+          "id": {
+            "type": "Identifier",
+            "start": 572,
+            "end": 573,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 576,
+            "end": 578,
+            "value": 86,
+            "raw": "86"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 580,
+      "end": 621,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 580,
+        "end": 620,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 580,
+          "end": 604,
+          "object": {
+            "type": "ThisExpression",
+            "start": 580,
+            "end": 584
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 585,
+            "end": 603,
+            "object": {
+              "type": "Identifier",
+              "start": 585,
+              "end": 591,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 592,
+              "end": 603,
+              "name": "unscopables"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 607,
+          "end": 620,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 611,
+              "end": 618,
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 611,
+                "end": 612,
+                "name": "x"
+              },
+              "value": {
+                "type": "Literal",
+                "start": 614,
+                "end": 618,
+                "value": true,
+                "raw": "true"
+              },
+              "kind": "init"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 622,
+      "end": 646,
+      "expression": {
+        "type": "CallExpression",
+        "start": 622,
+        "end": 645,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 622,
+          "end": 638,
+          "object": {
+            "type": "Identifier",
+            "start": 622,
+            "end": 628,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 629,
+            "end": 638,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 639,
+            "end": 640,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 642,
+            "end": 644,
+            "value": 86,
+            "raw": "86"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

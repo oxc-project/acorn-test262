@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 675,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 254,
+      "end": 314,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 254,
+        "end": 313,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 254,
+          "end": 282,
+          "object": {
+            "type": "MemberExpression",
+            "start": 254,
+            "end": 270,
+            "object": {
+              "type": "Identifier",
+              "start": 254,
+              "end": 260,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 261,
+              "end": 270,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 271,
+            "end": 282,
+            "name": "toUpperCase"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 285,
+          "end": 313,
+          "object": {
+            "type": "MemberExpression",
+            "start": 285,
+            "end": 301,
+            "object": {
+              "type": "Identifier",
+              "start": 285,
+              "end": 291,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 292,
+              "end": 301,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 313,
+            "name": "toUpperCase"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 405,
+      "end": 592,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 409,
+        "end": 436,
+        "left": {
+          "type": "CallExpression",
+          "start": 409,
+          "end": 426,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 409,
+            "end": 424,
+            "object": {
+              "type": "Identifier",
+              "start": 409,
+              "end": 412,
+              "name": "NaN"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 413,
+              "end": 424,
+              "name": "toUpperCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 431,
+          "end": 436,
+          "value": "NAN",
+          "raw": "\"NAN\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 438,
+        "end": 592,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 442,
+            "end": 590,
+            "argument": {
+              "type": "NewExpression",
+              "start": 448,
+              "end": 589,
+              "callee": {
+                "type": "Identifier",
+                "start": 452,
+                "end": 464,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 465,
+                  "end": 588,
+                  "left": {
+                    "type": "Literal",
+                    "start": 465,
+                    "end": 568,
+                    "value": "#1: Number.prototype.toUpperCase = String.prototype.toUpperCase; NaN.toUpperCase()=== \"NAN\". Actual: ",
+                    "raw": "'#1: Number.prototype.toUpperCase = String.prototype.toUpperCase; NaN.toUpperCase()=== \"NAN\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 571,
+                    "end": 588,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 571,
+                      "end": 586,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 571,
+                        "end": 574,
+                        "name": "NaN"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 575,
+                        "end": 586,
+                        "name": "toUpperCase"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

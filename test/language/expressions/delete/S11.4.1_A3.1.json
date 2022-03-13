@@ -1,0 +1,380 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 922,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 334,
+      "end": 344,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 338,
+          "end": 343,
+          "id": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 339,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 342,
+            "end": 343,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 345,
+      "end": 435,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 349,
+        "end": 367,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 349,
+          "end": 357,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 357,
+            "name": "x"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 362,
+          "end": 367,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 369,
+        "end": 435,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 373,
+            "end": 433,
+            "argument": {
+              "type": "NewExpression",
+              "start": 379,
+              "end": 432,
+              "callee": {
+                "type": "Identifier",
+                "start": 383,
+                "end": 395,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 396,
+                  "end": 431,
+                  "value": "#1: var x = 1; delete x === false",
+                  "raw": "'#1: var x = 1; delete x === false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 447,
+      "end": 457,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 451,
+          "end": 456,
+          "id": {
+            "type": "Identifier",
+            "start": 451,
+            "end": 452,
+            "name": "y"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 455,
+            "end": 456,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 458,
+      "end": 558,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 462,
+        "end": 485,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 462,
+          "end": 475,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 469,
+            "end": 475,
+            "object": {
+              "type": "ThisExpression",
+              "start": 469,
+              "end": 473
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 474,
+              "end": 475,
+              "name": "y"
+            },
+            "computed": false,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 480,
+          "end": 485,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 487,
+        "end": 558,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 491,
+            "end": 556,
+            "argument": {
+              "type": "NewExpression",
+              "start": 497,
+              "end": 555,
+              "callee": {
+                "type": "Identifier",
+                "start": 501,
+                "end": 513,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 514,
+                  "end": 554,
+                  "value": "#2: var y = 1; delete this.y === false",
+                  "raw": "'#2: var y = 1; delete this.y === false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 570,
+      "end": 594,
+      "id": {
+        "type": "Identifier",
+        "start": 579,
+        "end": 589,
+        "name": "MyFunction"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 592,
+        "end": 594,
+        "body": []
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 595,
+      "end": 717,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 599,
+        "end": 626,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 599,
+          "end": 616,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 606,
+            "end": 616,
+            "name": "MyFunction"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 621,
+          "end": 626,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 628,
+        "end": 717,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 632,
+            "end": 715,
+            "argument": {
+              "type": "NewExpression",
+              "start": 638,
+              "end": 714,
+              "callee": {
+                "type": "Identifier",
+                "start": 642,
+                "end": 654,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 655,
+                  "end": 713,
+                  "value": "#3: function MyFunction(){}; delete MyFunction === false",
+                  "raw": "'#3: function MyFunction(){}; delete MyFunction === false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 729,
+      "end": 761,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 733,
+          "end": 760,
+          "id": {
+            "type": "Identifier",
+            "start": 733,
+            "end": 741,
+            "name": "MyObject"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 744,
+            "end": 760,
+            "callee": {
+              "type": "Identifier",
+              "start": 748,
+              "end": 758,
+              "name": "MyFunction"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 762,
+      "end": 921,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 766,
+        "end": 791,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 766,
+          "end": 781,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 773,
+            "end": 781,
+            "name": "MyObject"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 786,
+          "end": 791,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 793,
+        "end": 921,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 797,
+            "end": 919,
+            "argument": {
+              "type": "NewExpression",
+              "start": 803,
+              "end": 918,
+              "callee": {
+                "type": "Identifier",
+                "start": 807,
+                "end": 819,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 825,
+                  "end": 914,
+                  "value": "#4: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject === false",
+                  "raw": "'#4: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject === false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

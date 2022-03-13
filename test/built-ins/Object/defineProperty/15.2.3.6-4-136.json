@@ -1,0 +1,161 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 500,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 375,
+      "end": 391,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 379,
+          "end": 390,
+          "id": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 385,
+            "name": "arrObj"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 388,
+            "end": 390,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 392,
+      "end": 499,
+      "expression": {
+        "type": "CallExpression",
+        "start": 392,
+        "end": 498,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 392,
+          "end": 405,
+          "object": {
+            "type": "Identifier",
+            "start": 392,
+            "end": 398,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 399,
+            "end": 405,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 406,
+            "end": 416,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 418,
+            "end": 497,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 429,
+              "end": 497,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 433,
+                  "end": 495,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 433,
+                    "end": 494,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 433,
+                      "end": 454,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 433,
+                        "end": 439,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 440,
+                        "end": 454,
+                        "name": "defineProperty"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 455,
+                        "end": 461,
+                        "name": "arrObj"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 463,
+                        "end": 471,
+                        "value": "length",
+                        "raw": "\"length\""
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "start": 473,
+                        "end": 493,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 479,
+                            "end": 489,
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "key": {
+                              "type": "Identifier",
+                              "start": 479,
+                              "end": 484,
+                              "name": "value"
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "start": 486,
+                              "end": 489,
+                              "name": "NaN"
+                            },
+                            "kind": "init"
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

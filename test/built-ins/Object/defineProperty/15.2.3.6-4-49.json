@@ -1,0 +1,286 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 685,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 422,
+      "end": 435,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 426,
+          "end": 434,
+          "id": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 429,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 432,
+            "end": 434,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 437,
+      "end": 535,
+      "expression": {
+        "type": "CallExpression",
+        "start": 437,
+        "end": 534,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 437,
+          "end": 458,
+          "object": {
+            "type": "Identifier",
+            "start": 437,
+            "end": 443,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 444,
+            "end": 458,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 459,
+            "end": 462,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 464,
+            "end": 474,
+            "value": "property",
+            "raw": "\"property\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 476,
+            "end": 533,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 480,
+                "end": 491,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 480,
+                  "end": 485,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 487,
+                  "end": 491,
+                  "value": 1001,
+                  "raw": "1001"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 495,
+                "end": 509,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 495,
+                  "end": 503,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 505,
+                  "end": 509,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 513,
+                "end": 531,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 513,
+                  "end": 525,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 527,
+                  "end": 531,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 536,
+      "end": 573,
+      "expression": {
+        "type": "CallExpression",
+        "start": 536,
+        "end": 572,
+        "callee": {
+          "type": "Identifier",
+          "start": 536,
+          "end": 549,
+          "name": "verifyEqualTo"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 550,
+            "end": 553,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 555,
+            "end": 565,
+            "value": "property",
+            "raw": "\"property\""
+          },
+          {
+            "type": "Literal",
+            "start": 567,
+            "end": 571,
+            "value": 1001,
+            "raw": "1001"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 575,
+      "end": 607,
+      "expression": {
+        "type": "CallExpression",
+        "start": 575,
+        "end": 606,
+        "callee": {
+          "type": "Identifier",
+          "start": 575,
+          "end": 589,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 590,
+            "end": 593,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 595,
+            "end": 605,
+            "value": "property",
+            "raw": "\"property\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 609,
+      "end": 646,
+      "expression": {
+        "type": "CallExpression",
+        "start": 609,
+        "end": 645,
+        "callee": {
+          "type": "Identifier",
+          "start": 609,
+          "end": 628,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 629,
+            "end": 632,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 634,
+            "end": 644,
+            "value": "property",
+            "raw": "\"property\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 648,
+      "end": 684,
+      "expression": {
+        "type": "CallExpression",
+        "start": 648,
+        "end": 683,
+        "callee": {
+          "type": "Identifier",
+          "start": 648,
+          "end": 666,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 667,
+            "end": 670,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 672,
+            "end": 682,
+            "value": "property",
+            "raw": "\"property\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

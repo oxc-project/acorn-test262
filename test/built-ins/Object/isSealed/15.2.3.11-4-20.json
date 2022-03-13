@@ -1,0 +1,125 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 343,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 267,
+      "end": 308,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 271,
+          "end": 307,
+          "id": {
+            "type": "Identifier",
+            "start": 271,
+            "end": 272,
+            "name": "b"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 275,
+            "end": 307,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 275,
+              "end": 290,
+              "object": {
+                "type": "Identifier",
+                "start": 275,
+                "end": 281,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 282,
+                "end": 290,
+                "name": "isSealed"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 291,
+                "end": 306,
+                "object": {
+                  "type": "Identifier",
+                  "start": 291,
+                  "end": 296,
+                  "name": "Error"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 297,
+                  "end": 306,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 310,
+      "end": 342,
+      "expression": {
+        "type": "CallExpression",
+        "start": 310,
+        "end": 341,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 310,
+          "end": 326,
+          "object": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 316,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 326,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 327,
+            "end": 328,
+            "name": "b"
+          },
+          {
+            "type": "Literal",
+            "start": 330,
+            "end": 335,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 337,
+            "end": 340,
+            "value": "b",
+            "raw": "'b'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

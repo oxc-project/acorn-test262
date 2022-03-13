@@ -1,0 +1,207 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 493,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 285,
+      "end": 347,
+      "expression": {
+        "type": "CallExpression",
+        "start": 285,
+        "end": 346,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 285,
+          "end": 301,
+          "object": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 291,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 301,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 302,
+            "end": 313,
+            "callee": {
+              "type": "Identifier",
+              "start": 302,
+              "end": 308,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 309,
+                "end": 312,
+                "value": "0",
+                "raw": "\"0\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 315,
+            "end": 316,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 318,
+            "end": 345,
+            "value": "Number(\"0\") must return 0",
+            "raw": "'Number(\"0\") must return 0'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 348,
+      "end": 425,
+      "expression": {
+        "type": "CallExpression",
+        "start": 348,
+        "end": 424,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 348,
+          "end": 364,
+          "object": {
+            "type": "Identifier",
+            "start": 348,
+            "end": 354,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 355,
+            "end": 364,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 365,
+            "end": 373,
+            "operator": "+",
+            "prefix": true,
+            "argument": {
+              "type": "ParenthesizedExpression",
+              "start": 366,
+              "end": 373,
+              "expression": {
+                "type": "Literal",
+                "start": 367,
+                "end": 372,
+                "value": "0x0",
+                "raw": "\"0x0\""
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 375,
+            "end": 376,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 378,
+            "end": 423,
+            "value": "The value of `+(\"0x0\")` is expected to be 0",
+            "raw": "'The value of `+(\"0x0\")` is expected to be 0'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 426,
+      "end": 492,
+      "expression": {
+        "type": "CallExpression",
+        "start": 426,
+        "end": 491,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 426,
+          "end": 442,
+          "object": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 432,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 442,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 443,
+            "end": 456,
+            "callee": {
+              "type": "Identifier",
+              "start": 443,
+              "end": 449,
+              "name": "Number"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 450,
+                "end": 455,
+                "value": "0X0",
+                "raw": "\"0X0\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 458,
+            "end": 459,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 461,
+            "end": 490,
+            "value": "Number(\"0X0\") must return 0",
+            "raw": "'Number(\"0X0\") must return 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

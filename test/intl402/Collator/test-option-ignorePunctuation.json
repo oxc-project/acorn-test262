@@ -1,0 +1,73 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 465,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 464,
+      "expression": {
+        "type": "CallExpression",
+        "start": 388,
+        "end": 463,
+        "callee": {
+          "type": "Identifier",
+          "start": 388,
+          "end": 398,
+          "name": "testOption"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 399,
+            "end": 412,
+            "object": {
+              "type": "Identifier",
+              "start": 399,
+              "end": 403,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 404,
+              "end": 412,
+              "name": "Collator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 414,
+            "end": 433,
+            "value": "ignorePunctuation",
+            "raw": "\"ignorePunctuation\""
+          },
+          {
+            "type": "Literal",
+            "start": 435,
+            "end": 444,
+            "value": "boolean",
+            "raw": "\"boolean\""
+          },
+          {
+            "type": "Identifier",
+            "start": 446,
+            "end": 455,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 457,
+            "end": 462,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

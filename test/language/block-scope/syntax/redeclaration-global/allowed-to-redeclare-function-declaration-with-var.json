@@ -1,0 +1,49 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 285,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 261,
+      "end": 276,
+      "id": {
+        "type": "Identifier",
+        "start": 270,
+        "end": 271,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 274,
+        "end": 276,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 277,
+      "end": 283,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 281,
+          "end": 282,
+          "id": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 282,
+            "name": "f"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

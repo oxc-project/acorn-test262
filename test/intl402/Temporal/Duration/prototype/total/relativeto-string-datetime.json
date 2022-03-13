@@ -1,0 +1,762 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1259,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 348,
+      "end": 403,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 354,
+          "end": 402,
+          "id": {
+            "type": "Identifier",
+            "start": 354,
+            "end": 362,
+            "name": "instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 365,
+            "end": 402,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 369,
+              "end": 386,
+              "object": {
+                "type": "Identifier",
+                "start": 369,
+                "end": 377,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 386,
+                "name": "Duration"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 387,
+                "end": 388,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 390,
+                "end": 391,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 393,
+                "end": 394,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 396,
+                "end": 397,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 399,
+                "end": 401,
+                "value": 24,
+                "raw": "24"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 405,
+      "end": 460,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 409,
+          "end": 459,
+          "id": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 419,
+            "name": "relativeTo"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 422,
+            "end": 459,
+            "value": "2019-11-01T00:00[America/Vancouver]",
+            "raw": "\"2019-11-01T00:00[America/Vancouver]\""
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 461,
+      "end": 522,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 467,
+          "end": 521,
+          "id": {
+            "type": "Identifier",
+            "start": 467,
+            "end": 474,
+            "name": "result4"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 477,
+            "end": 521,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 477,
+              "end": 491,
+              "object": {
+                "type": "Identifier",
+                "start": 477,
+                "end": 485,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 486,
+                "end": 491,
+                "name": "total"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 492,
+                "end": 520,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 494,
+                    "end": 506,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 494,
+                      "end": 498,
+                      "name": "unit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 500,
+                      "end": 506,
+                      "value": "days",
+                      "raw": "\"days\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 508,
+                    "end": 518,
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 508,
+                      "end": 518,
+                      "name": "relativeTo"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "Identifier",
+                      "start": 508,
+                      "end": 518,
+                      "name": "relativeTo"
+                    }
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 523,
+      "end": 610,
+      "expression": {
+        "type": "CallExpression",
+        "start": 523,
+        "end": 609,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 523,
+          "end": 539,
+          "object": {
+            "type": "Identifier",
+            "start": 523,
+            "end": 529,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 539,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 540,
+            "end": 547,
+            "name": "result4"
+          },
+          {
+            "type": "Literal",
+            "start": 549,
+            "end": 555,
+            "value": 366.96,
+            "raw": "366.96"
+          },
+          {
+            "type": "Literal",
+            "start": 557,
+            "end": 608,
+            "value": "date-time + IANA annotation is a zoned relativeTo",
+            "raw": "\"date-time + IANA annotation is a zoned relativeTo\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 612,
+      "end": 664,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 612,
+        "end": 663,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 612,
+          "end": 622,
+          "name": "relativeTo"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 625,
+          "end": 663,
+          "value": "2019-11-01T00:00Z[America/Vancouver]",
+          "raw": "\"2019-11-01T00:00Z[America/Vancouver]\""
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 665,
+      "end": 726,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 671,
+          "end": 725,
+          "id": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 678,
+            "name": "result5"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 681,
+            "end": 725,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 681,
+              "end": 695,
+              "object": {
+                "type": "Identifier",
+                "start": 681,
+                "end": 689,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 690,
+                "end": 695,
+                "name": "total"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 696,
+                "end": 724,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 698,
+                    "end": 710,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 698,
+                      "end": 702,
+                      "name": "unit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 704,
+                      "end": 710,
+                      "value": "days",
+                      "raw": "\"days\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 712,
+                    "end": 722,
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 712,
+                      "end": 722,
+                      "name": "relativeTo"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "Identifier",
+                      "start": 712,
+                      "end": 722,
+                      "name": "relativeTo"
+                    }
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 727,
+      "end": 818,
+      "expression": {
+        "type": "CallExpression",
+        "start": 727,
+        "end": 817,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 727,
+          "end": 743,
+          "object": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 733,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 734,
+            "end": 743,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 744,
+            "end": 751,
+            "name": "result5"
+          },
+          {
+            "type": "Literal",
+            "start": 753,
+            "end": 759,
+            "value": 366.96,
+            "raw": "366.96"
+          },
+          {
+            "type": "Literal",
+            "start": 761,
+            "end": 816,
+            "value": "date-time + Z + IANA annotation is a zoned relativeTo",
+            "raw": "\"date-time + Z + IANA annotation is a zoned relativeTo\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 820,
+      "end": 877,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 820,
+        "end": 876,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 820,
+          "end": 830,
+          "name": "relativeTo"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 833,
+          "end": 876,
+          "value": "2019-11-01T00:00-07:00[America/Vancouver]",
+          "raw": "\"2019-11-01T00:00-07:00[America/Vancouver]\""
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 878,
+      "end": 939,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 884,
+          "end": 938,
+          "id": {
+            "type": "Identifier",
+            "start": 884,
+            "end": 891,
+            "name": "result6"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 894,
+            "end": 938,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 894,
+              "end": 908,
+              "object": {
+                "type": "Identifier",
+                "start": 894,
+                "end": 902,
+                "name": "instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 903,
+                "end": 908,
+                "name": "total"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 909,
+                "end": 937,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 911,
+                    "end": 923,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 911,
+                      "end": 915,
+                      "name": "unit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 917,
+                      "end": 923,
+                      "value": "days",
+                      "raw": "\"days\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 925,
+                    "end": 935,
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 925,
+                      "end": 935,
+                      "name": "relativeTo"
+                    },
+                    "kind": "init",
+                    "value": {
+                      "type": "Identifier",
+                      "start": 925,
+                      "end": 935,
+                      "name": "relativeTo"
+                    }
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 940,
+      "end": 1036,
+      "expression": {
+        "type": "CallExpression",
+        "start": 940,
+        "end": 1035,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 940,
+          "end": 956,
+          "object": {
+            "type": "Identifier",
+            "start": 940,
+            "end": 946,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 947,
+            "end": 956,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 957,
+            "end": 964,
+            "name": "result6"
+          },
+          {
+            "type": "Literal",
+            "start": 966,
+            "end": 972,
+            "value": 366.96,
+            "raw": "366.96"
+          },
+          {
+            "type": "Literal",
+            "start": 974,
+            "end": 1034,
+            "value": "date-time + offset + IANA annotation is a zoned relativeTo",
+            "raw": "\"date-time + offset + IANA annotation is a zoned relativeTo\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1038,
+      "end": 1095,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1038,
+        "end": 1094,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1038,
+          "end": 1048,
+          "name": "relativeTo"
+        },
+        "right": {
+          "type": "Literal",
+          "start": 1051,
+          "end": 1094,
+          "value": "2019-11-01T00:00+04:15[America/Vancouver]",
+          "raw": "\"2019-11-01T00:00+04:15[America/Vancouver]\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1096,
+      "end": 1258,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1096,
+        "end": 1257,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1096,
+          "end": 1109,
+          "object": {
+            "type": "Identifier",
+            "start": 1096,
+            "end": 1102,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1103,
+            "end": 1109,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1110,
+            "end": 1120,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 1122,
+            "end": 1172,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 1128,
+              "end": 1172,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1128,
+                "end": 1142,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1128,
+                  "end": 1136,
+                  "name": "instance"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1137,
+                  "end": 1142,
+                  "name": "total"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 1143,
+                  "end": 1171,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 1145,
+                      "end": 1157,
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1145,
+                        "end": 1149,
+                        "name": "unit"
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "start": 1151,
+                        "end": 1157,
+                        "value": "days",
+                        "raw": "\"days\""
+                      },
+                      "kind": "init"
+                    },
+                    {
+                      "type": "Property",
+                      "start": 1159,
+                      "end": 1169,
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 1159,
+                        "end": 1169,
+                        "name": "relativeTo"
+                      },
+                      "kind": "init",
+                      "value": {
+                        "type": "Identifier",
+                        "start": 1159,
+                        "end": 1169,
+                        "name": "relativeTo"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1174,
+            "end": 1256,
+            "value": "date-time + offset + IANA annotation throws if wall time and exact time mismatch",
+            "raw": "\"date-time + offset + IANA annotation throws if wall time and exact time mismatch\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

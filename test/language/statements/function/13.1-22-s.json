@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 709,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 586,
+      "end": 708,
+      "expression": {
+        "type": "CallExpression",
+        "start": 586,
+        "end": 707,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 586,
+          "end": 599,
+          "object": {
+            "type": "Identifier",
+            "start": 586,
+            "end": 592,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 593,
+            "end": 599,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 600,
+            "end": 611,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 613,
+            "end": 706,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 624,
+              "end": 706,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 638,
+                  "end": 704,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 638,
+                    "end": 703,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 638,
+                      "end": 642,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 643,
+                        "end": 702,
+                        "value": "var _13_1_22_fun = function (arguments) { 'use strict'; }",
+                        "raw": "\"var _13_1_22_fun = function (arguments) { 'use strict'; }\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

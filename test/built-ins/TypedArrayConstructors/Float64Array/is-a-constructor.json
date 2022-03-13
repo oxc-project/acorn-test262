@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 852,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 728,
+      "end": 828,
+      "expression": {
+        "type": "CallExpression",
+        "start": 728,
+        "end": 827,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 728,
+          "end": 744,
+          "object": {
+            "type": "Identifier",
+            "start": 728,
+            "end": 734,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 735,
+            "end": 744,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 745,
+            "end": 772,
+            "callee": {
+              "type": "Identifier",
+              "start": 745,
+              "end": 758,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 759,
+                "end": 771,
+                "name": "Float64Array"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 774,
+            "end": 778,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 780,
+            "end": 826,
+            "value": "isConstructor(Float64Array) must return true",
+            "raw": "'isConstructor(Float64Array) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 829,
+      "end": 848,
+      "expression": {
+        "type": "NewExpression",
+        "start": 829,
+        "end": 847,
+        "callee": {
+          "type": "Identifier",
+          "start": 833,
+          "end": 845,
+          "name": "Float64Array"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,151 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 539,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 398,
+      "end": 418,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 402,
+          "end": 417,
+          "id": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 417,
+            "name": "resolveFunction"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 419,
+      "end": 491,
+      "expression": {
+        "type": "NewExpression",
+        "start": 419,
+        "end": 490,
+        "callee": {
+          "type": "Identifier",
+          "start": 423,
+          "end": 430,
+          "name": "Promise"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 431,
+            "end": 489,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 440,
+                "end": 447,
+                "name": "resolve"
+              },
+              {
+                "type": "Identifier",
+                "start": 449,
+                "end": 455,
+                "name": "reject"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 457,
+              "end": 489,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 461,
+                  "end": 487,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 461,
+                    "end": 486,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 461,
+                      "end": 476,
+                      "name": "resolveFunction"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 479,
+                      "end": 486,
+                      "name": "resolve"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 493,
+      "end": 538,
+      "expression": {
+        "type": "CallExpression",
+        "start": 493,
+        "end": 537,
+        "callee": {
+          "type": "Identifier",
+          "start": 493,
+          "end": 499,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 500,
+            "end": 536,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 500,
+              "end": 519,
+              "object": {
+                "type": "Identifier",
+                "start": 500,
+                "end": 506,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 507,
+                "end": 519,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 520,
+                "end": 535,
+                "name": "resolveFunction"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

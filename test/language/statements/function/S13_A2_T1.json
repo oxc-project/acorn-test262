@@ -1,0 +1,239 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 881,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 271,
+      "end": 317,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 275,
+          "end": 316,
+          "id": {
+            "type": "Identifier",
+            "start": 275,
+            "end": 276,
+            "name": "x"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 279,
+            "end": 316,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 279,
+              "end": 313,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 280,
+                "end": 312,
+                "id": {
+                  "type": "Identifier",
+                  "start": 289,
+                  "end": 295,
+                  "name": "__func"
+                },
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 296,
+                    "end": 299,
+                    "name": "arg"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 300,
+                  "end": 312,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 301,
+                      "end": 311,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 308,
+                        "end": 311,
+                        "name": "arg"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 314,
+                "end": 315,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 408,
+      "end": 481,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 412,
+        "end": 419,
+        "left": {
+          "type": "Identifier",
+          "start": 412,
+          "end": 413,
+          "name": "x"
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 418,
+          "end": 419,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 421,
+        "end": 481,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 424,
+            "end": 479,
+            "argument": {
+              "type": "NewExpression",
+              "start": 430,
+              "end": 478,
+              "callee": {
+                "type": "Identifier",
+                "start": 434,
+                "end": 446,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 447,
+                  "end": 477,
+                  "left": {
+                    "type": "Literal",
+                    "start": 447,
+                    "end": 475,
+                    "value": "#1: x === 1. Actual: x ===",
+                    "raw": "'#1: x === 1. Actual: x ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 476,
+                    "end": 477,
+                    "name": "x"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 655,
+      "end": 798,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 659,
+        "end": 688,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 659,
+          "end": 672,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 666,
+            "end": 672,
+            "name": "__func"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 677,
+          "end": 688,
+          "value": "undefined",
+          "raw": "'undefined'"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 690,
+        "end": 798,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 693,
+            "end": 796,
+            "argument": {
+              "type": "NewExpression",
+              "start": 699,
+              "end": 795,
+              "callee": {
+                "type": "Identifier",
+                "start": 703,
+                "end": 715,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 716,
+                  "end": 794,
+                  "left": {
+                    "type": "Literal",
+                    "start": 716,
+                    "end": 780,
+                    "value": "#2: typeof __func === 'undefined'. Actual: typeof __func ===",
+                    "raw": "'#2: typeof __func === \\'undefined\\'. Actual: typeof __func ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "UnaryExpression",
+                    "start": 781,
+                    "end": 794,
+                    "operator": "typeof",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 788,
+                      "end": 794,
+                      "name": "__func"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

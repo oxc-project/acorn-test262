@@ -1,0 +1,118 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 346,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 257,
+      "end": 275,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 261,
+          "end": 274,
+          "id": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 262,
+            "name": "s"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 265,
+            "end": 274,
+            "callee": {
+              "type": "Identifier",
+              "start": 269,
+              "end": 272,
+              "name": "Set"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 277,
+      "end": 345,
+      "expression": {
+        "type": "CallExpression",
+        "start": 277,
+        "end": 344,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 277,
+          "end": 293,
+          "object": {
+            "type": "Identifier",
+            "start": 277,
+            "end": 283,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 293,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 294,
+            "end": 304,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 294,
+              "end": 299,
+              "object": {
+                "type": "Identifier",
+                "start": 294,
+                "end": 295,
+                "name": "s"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 296,
+                "end": 299,
+                "name": "has"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 300,
+                "end": 303,
+                "name": "NaN"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 306,
+            "end": 311,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 313,
+            "end": 343,
+            "value": "`s.has(NaN)` returns `false`",
+            "raw": "\"`s.has(NaN)` returns `false`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

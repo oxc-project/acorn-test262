@@ -1,0 +1,452 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 910,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 441,
+      "end": 468,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 445,
+          "end": 467,
+          "id": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 449,
+            "name": "__re"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 452,
+            "end": 467,
+            "value": {},
+            "raw": "/(?:ab|cd)\\d?/g",
+            "regex": {
+              "pattern": "(?:ab|cd)\\d?",
+              "flags": "g"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 469,
+      "end": 487,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 469,
+        "end": 486,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 469,
+          "end": 483,
+          "object": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 473,
+            "name": "__re"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 474,
+            "end": 483,
+            "name": "lastIndex"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "UnaryExpression",
+          "start": 484,
+          "end": 486,
+          "operator": "-",
+          "prefix": true,
+          "argument": {
+            "type": "Literal",
+            "start": 485,
+            "end": 486,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 488,
+      "end": 526,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 492,
+          "end": 525,
+          "id": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 502,
+            "name": "__executed"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 505,
+            "end": 525,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 505,
+              "end": 514,
+              "object": {
+                "type": "Identifier",
+                "start": 505,
+                "end": 509,
+                "name": "__re"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 510,
+                "end": 514,
+                "name": "test"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 515,
+                "end": 524,
+                "value": "aacd22 ",
+                "raw": "\"aacd22 \""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 528,
+      "end": 601,
+      "expression": {
+        "type": "CallExpression",
+        "start": 528,
+        "end": 600,
+        "callee": {
+          "type": "Identifier",
+          "start": 528,
+          "end": 534,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 535,
+            "end": 547,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 536,
+              "end": 547,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 537,
+                "end": 547,
+                "name": "__executed"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 549,
+            "end": 599,
+            "value": "The value of !!__executed is expected to be true",
+            "raw": "'The value of !!__executed is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 602,
+      "end": 689,
+      "expression": {
+        "type": "CallExpression",
+        "start": 602,
+        "end": 688,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 602,
+          "end": 618,
+          "object": {
+            "type": "Identifier",
+            "start": 602,
+            "end": 608,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 609,
+            "end": 618,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 619,
+            "end": 633,
+            "object": {
+              "type": "Identifier",
+              "start": 619,
+              "end": 623,
+              "name": "__re"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 624,
+              "end": 633,
+              "name": "lastIndex"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 635,
+            "end": 636,
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "type": "Literal",
+            "start": 638,
+            "end": 687,
+            "value": "The value of __re.lastIndex is expected to be 5",
+            "raw": "'The value of __re.lastIndex is expected to be 5'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 691,
+      "end": 711,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 691,
+        "end": 710,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 691,
+          "end": 705,
+          "object": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 695,
+            "name": "__re"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 696,
+            "end": 705,
+            "name": "lastIndex"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "UnaryExpression",
+          "start": 706,
+          "end": 710,
+          "operator": "-",
+          "prefix": true,
+          "argument": {
+            "type": "Literal",
+            "start": 707,
+            "end": 710,
+            "value": 100,
+            "raw": "100"
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 712,
+      "end": 746,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 712,
+        "end": 745,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 712,
+          "end": 722,
+          "name": "__executed"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 725,
+          "end": 745,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 725,
+            "end": 734,
+            "object": {
+              "type": "Identifier",
+              "start": 725,
+              "end": 729,
+              "name": "__re"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 730,
+              "end": 734,
+              "name": "test"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 735,
+              "end": 744,
+              "value": "aacd22 ",
+              "raw": "\"aacd22 \""
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 748,
+      "end": 821,
+      "expression": {
+        "type": "CallExpression",
+        "start": 748,
+        "end": 820,
+        "callee": {
+          "type": "Identifier",
+          "start": 748,
+          "end": 754,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 755,
+            "end": 767,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 756,
+              "end": 767,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 757,
+                "end": 767,
+                "name": "__executed"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 769,
+            "end": 819,
+            "value": "The value of !!__executed is expected to be true",
+            "raw": "'The value of !!__executed is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 822,
+      "end": 909,
+      "expression": {
+        "type": "CallExpression",
+        "start": 822,
+        "end": 908,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 822,
+          "end": 838,
+          "object": {
+            "type": "Identifier",
+            "start": 822,
+            "end": 828,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 829,
+            "end": 838,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 839,
+            "end": 853,
+            "object": {
+              "type": "Identifier",
+              "start": 839,
+              "end": 843,
+              "name": "__re"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 844,
+              "end": 853,
+              "name": "lastIndex"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 855,
+            "end": 856,
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "type": "Literal",
+            "start": 858,
+            "end": 907,
+            "value": "The value of __re.lastIndex is expected to be 5",
+            "raw": "'The value of __re.lastIndex is expected to be 5'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

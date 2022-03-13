@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1145,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 934,
+      "end": 984,
+      "expression": {
+        "type": "CallExpression",
+        "start": 934,
+        "end": 983,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 934,
+          "end": 950,
+          "object": {
+            "type": "Identifier",
+            "start": 934,
+            "end": 940,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 941,
+            "end": 950,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 951,
+            "end": 979,
+            "object": {
+              "type": "MemberExpression",
+              "start": 951,
+              "end": 972,
+              "object": {
+                "type": "MemberExpression",
+                "start": 951,
+                "end": 966,
+                "object": {
+                  "type": "Identifier",
+                  "start": 951,
+                  "end": 956,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 957,
+                  "end": 966,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 967,
+                "end": 972,
+                "name": "shift"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 973,
+              "end": 979,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 981,
+            "end": 982,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 986,
+      "end": 1039,
+      "expression": {
+        "type": "CallExpression",
+        "start": 986,
+        "end": 1038,
+        "callee": {
+          "type": "Identifier",
+          "start": 986,
+          "end": 1005,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1006,
+            "end": 1027,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1006,
+              "end": 1021,
+              "object": {
+                "type": "Identifier",
+                "start": 1006,
+                "end": 1011,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1012,
+                "end": 1021,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1022,
+              "end": 1027,
+              "name": "shift"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1029,
+            "end": 1037,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1040,
+      "end": 1091,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1040,
+        "end": 1090,
+        "callee": {
+          "type": "Identifier",
+          "start": 1040,
+          "end": 1057,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1058,
+            "end": 1079,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1058,
+              "end": 1073,
+              "object": {
+                "type": "Identifier",
+                "start": 1058,
+                "end": 1063,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1064,
+                "end": 1073,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1074,
+              "end": 1079,
+              "name": "shift"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1081,
+            "end": 1089,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1092,
+      "end": 1144,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1092,
+        "end": 1143,
+        "callee": {
+          "type": "Identifier",
+          "start": 1092,
+          "end": 1110,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1111,
+            "end": 1132,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1111,
+              "end": 1126,
+              "object": {
+                "type": "Identifier",
+                "start": 1111,
+                "end": 1116,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1117,
+                "end": 1126,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1127,
+              "end": 1132,
+              "name": "shift"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1134,
+            "end": 1142,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

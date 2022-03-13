@@ -1,0 +1,349 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 916,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 352,
+      "end": 379,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 356,
+          "end": 378,
+          "id": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 359,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 362,
+            "end": 378,
+            "value": "Obi-Wan Kenobi",
+            "raw": "'Obi-Wan Kenobi'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 381,
+      "end": 476,
+      "expression": {
+        "type": "CallExpression",
+        "start": 381,
+        "end": 475,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 381,
+          "end": 397,
+          "object": {
+            "type": "Identifier",
+            "start": 381,
+            "end": 387,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 397,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 398,
+            "end": 408,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 405,
+              "end": 408,
+              "name": "str"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 410,
+            "end": 418,
+            "value": "string",
+            "raw": "'string'"
+          },
+          {
+            "type": "Literal",
+            "start": 420,
+            "end": 474,
+            "value": "The value of `typeof str` is expected to be \"string\"",
+            "raw": "'The value of `typeof str` is expected to be \"string\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 479,
+      "end": 507,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 483,
+          "end": 506,
+          "id": {
+            "type": "Identifier",
+            "start": 483,
+            "end": 488,
+            "name": "n_obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 491,
+            "end": 506,
+            "callee": {
+              "type": "Identifier",
+              "start": 495,
+              "end": 501,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 502,
+                "end": 505,
+                "name": "str"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 509,
+      "end": 628,
+      "expression": {
+        "type": "CallExpression",
+        "start": 509,
+        "end": 627,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 509,
+          "end": 525,
+          "object": {
+            "type": "Identifier",
+            "start": 509,
+            "end": 515,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 516,
+            "end": 525,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 526,
+            "end": 543,
+            "object": {
+              "type": "Identifier",
+              "start": 526,
+              "end": 531,
+              "name": "n_obj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 532,
+              "end": 543,
+              "name": "constructor"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 545,
+            "end": 551,
+            "name": "String"
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 626,
+            "value": "The value of n_obj.constructor is expected to equal the value of String",
+            "raw": "'The value of n_obj.constructor is expected to equal the value of String'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 629,
+      "end": 728,
+      "expression": {
+        "type": "CallExpression",
+        "start": 629,
+        "end": 727,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 629,
+          "end": 645,
+          "object": {
+            "type": "Identifier",
+            "start": 629,
+            "end": 635,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 636,
+            "end": 645,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 646,
+            "end": 658,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 653,
+              "end": 658,
+              "name": "n_obj"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 660,
+            "end": 668,
+            "value": "object",
+            "raw": "'object'"
+          },
+          {
+            "type": "Literal",
+            "start": 670,
+            "end": 726,
+            "value": "The value of `typeof n_obj` is expected to be \"object\"",
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 729,
+      "end": 816,
+      "expression": {
+        "type": "CallExpression",
+        "start": 729,
+        "end": 815,
+        "callee": {
+          "type": "Identifier",
+          "start": 729,
+          "end": 735,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 736,
+            "end": 748,
+            "left": {
+              "type": "Identifier",
+              "start": 736,
+              "end": 741,
+              "name": "n_obj"
+            },
+            "operator": "==",
+            "right": {
+              "type": "Identifier",
+              "start": 745,
+              "end": 748,
+              "name": "str"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 750,
+            "end": 814,
+            "value": "The result of evaluating (n_obj == str) is expected to be true",
+            "raw": "'The result of evaluating (n_obj == str) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 817,
+      "end": 915,
+      "expression": {
+        "type": "CallExpression",
+        "start": 817,
+        "end": 914,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 817,
+          "end": 836,
+          "object": {
+            "type": "Identifier",
+            "start": 817,
+            "end": 823,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 824,
+            "end": 836,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 837,
+            "end": 842,
+            "name": "n_obj"
+          },
+          {
+            "type": "Identifier",
+            "start": 844,
+            "end": 847,
+            "name": "str"
+          },
+          {
+            "type": "Literal",
+            "start": 849,
+            "end": 913,
+            "value": "The value of n_obj is expected to not equal the value of `str`",
+            "raw": "'The value of n_obj is expected to not equal the value of `str`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

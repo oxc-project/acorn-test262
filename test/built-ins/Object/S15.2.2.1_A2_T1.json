@@ -1,0 +1,211 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 607,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 375,
+      "end": 399,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 379,
+          "end": 398,
+          "id": {
+            "type": "Identifier",
+            "start": 379,
+            "end": 382,
+            "name": "obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 385,
+            "end": 398,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 389,
+                "end": 396,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 389,
+                  "end": 393,
+                  "name": "prop"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 395,
+                  "end": 396,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 401,
+      "end": 429,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 405,
+          "end": 428,
+          "id": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 410,
+            "name": "n_obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 413,
+            "end": 428,
+            "callee": {
+              "type": "Identifier",
+              "start": 417,
+              "end": 423,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 424,
+                "end": 427,
+                "name": "obj"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 431,
+      "end": 520,
+      "expression": {
+        "type": "CallExpression",
+        "start": 431,
+        "end": 519,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 431,
+          "end": 447,
+          "object": {
+            "type": "Identifier",
+            "start": 431,
+            "end": 437,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 438,
+            "end": 447,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 448,
+            "end": 453,
+            "name": "n_obj"
+          },
+          {
+            "type": "Identifier",
+            "start": 455,
+            "end": 458,
+            "name": "obj"
+          },
+          {
+            "type": "Literal",
+            "start": 460,
+            "end": 518,
+            "value": "The value of n_obj is expected to equal the value of obj",
+            "raw": "'The value of n_obj is expected to equal the value of obj'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 521,
+      "end": 606,
+      "expression": {
+        "type": "CallExpression",
+        "start": 521,
+        "end": 605,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 521,
+          "end": 537,
+          "object": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 527,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 528,
+            "end": 537,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 538,
+            "end": 551,
+            "object": {
+              "type": "Identifier",
+              "start": 538,
+              "end": 543,
+              "name": "n_obj"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 544,
+              "end": 550,
+              "value": "prop",
+              "raw": "'prop'"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 554,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 556,
+            "end": 604,
+            "value": "The value of n_obj[\"prop\"] is expected to be 1",
+            "raw": "'The value of n_obj[\"prop\"] is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

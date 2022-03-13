@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1375,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 1232,
+      "end": 1373,
+      "body": [
+        {
+          "type": "ExpressionStatement",
+          "start": 1236,
+          "end": 1371,
+          "expression": {
+            "type": "CallExpression",
+            "start": 1236,
+            "end": 1370,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1236,
+              "end": 1356,
+              "object": {
+                "type": "CallExpression",
+                "start": 1236,
+                "end": 1351,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1236,
+                  "end": 1281,
+                  "object": {
+                    "type": "ImportExpression",
+                    "start": 1236,
+                    "end": 1275,
+                    "source": {
+                      "type": "Literal",
+                      "start": 1243,
+                      "end": 1274,
+                      "value": "./THIS_FILE_DOES_NOT_EXIST.js",
+                      "raw": "'./THIS_FILE_DOES_NOT_EXIST.js'"
+                    }
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1276,
+                    "end": 1281,
+                    "name": "catch"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "ArrowFunctionExpression",
+                    "start": 1282,
+                    "end": 1350,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 1282,
+                        "end": 1287,
+                        "name": "error"
+                      }
+                    ],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 1291,
+                      "end": 1350,
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "start": 1298,
+                          "end": 1345,
+                          "expression": {
+                            "type": "CallExpression",
+                            "start": 1298,
+                            "end": 1344,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 1298,
+                              "end": 1317,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 1298,
+                                "end": 1304,
+                                "name": "assert"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 1305,
+                                "end": 1317,
+                                "name": "notSameValue"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "UnaryExpression",
+                                "start": 1318,
+                                "end": 1330,
+                                "operator": "typeof",
+                                "prefix": true,
+                                "argument": {
+                                  "type": "Identifier",
+                                  "start": 1325,
+                                  "end": 1330,
+                                  "name": "error"
+                                }
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 1332,
+                                "end": 1343,
+                                "value": "undefined",
+                                "raw": "'undefined'"
+                              }
+                            ],
+                            "optional": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1352,
+                "end": 1356,
+                "name": "then"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1357,
+                "end": 1362,
+                "name": "$DONE"
+              },
+              {
+                "type": "Identifier",
+                "start": 1364,
+                "end": 1369,
+                "name": "$DONE"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 1373,
+      "end": 1374
+    }
+  ],
+  "sourceType": "script"
+}

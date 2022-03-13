@@ -1,0 +1,88 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 350,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 280,
+      "end": 349,
+      "expression": {
+        "type": "CallExpression",
+        "start": 280,
+        "end": 348,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 280,
+          "end": 296,
+          "object": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 286,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 296,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 297,
+            "end": 316,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 297,
+              "end": 307,
+              "object": {
+                "type": "Identifier",
+                "start": 297,
+                "end": 301,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 302,
+                "end": 307,
+                "name": "parse"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 308,
+                "end": 315,
+                "value": "\"\\r\"",
+                "raw": "'\"\\\\r\"'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 318,
+            "end": 322,
+            "value": "\r",
+            "raw": "'\\r'"
+          },
+          {
+            "type": "Literal",
+            "start": 324,
+            "end": 347,
+            "value": "JSON.parse('\"\\r\"')",
+            "raw": "'JSON.parse(\\'\"\\\\r\"\\')'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

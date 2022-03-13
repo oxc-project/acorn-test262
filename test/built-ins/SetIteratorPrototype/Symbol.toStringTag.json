@@ -1,0 +1,309 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 918,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 526,
+      "end": 601,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 530,
+          "end": 600,
+          "id": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 546,
+            "name": "SetIteratorProto"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 549,
+            "end": 600,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 549,
+              "end": 570,
+              "object": {
+                "type": "Identifier",
+                "start": 549,
+                "end": 555,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 556,
+                "end": 570,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 571,
+                "end": 599,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 571,
+                  "end": 597,
+                  "object": {
+                    "type": "NewExpression",
+                    "start": 571,
+                    "end": 580,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 575,
+                      "end": 578,
+                      "name": "Set"
+                    },
+                    "arguments": []
+                  },
+                  "property": {
+                    "type": "MemberExpression",
+                    "start": 581,
+                    "end": 596,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 581,
+                      "end": 587,
+                      "name": "Symbol"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 588,
+                      "end": 596,
+                      "name": "iterator"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 603,
+      "end": 742,
+      "expression": {
+        "type": "CallExpression",
+        "start": 603,
+        "end": 741,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 603,
+          "end": 619,
+          "object": {
+            "type": "Identifier",
+            "start": 603,
+            "end": 609,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 610,
+            "end": 619,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 623,
+            "end": 637,
+            "value": "Set Iterator",
+            "raw": "'Set Iterator'"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 641,
+            "end": 677,
+            "object": {
+              "type": "Identifier",
+              "start": 641,
+              "end": 657,
+              "name": "SetIteratorProto"
+            },
+            "property": {
+              "type": "MemberExpression",
+              "start": 658,
+              "end": 676,
+              "object": {
+                "type": "Identifier",
+                "start": 658,
+                "end": 664,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 665,
+                "end": 676,
+                "name": "toStringTag"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 681,
+            "end": 739,
+            "value": "`Set Iterator` is `SetIteratorProto[Symbol.toStringTag]`",
+            "raw": "'`Set Iterator` is `SetIteratorProto[Symbol.toStringTag]`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 744,
+      "end": 802,
+      "expression": {
+        "type": "CallExpression",
+        "start": 744,
+        "end": 801,
+        "callee": {
+          "type": "Identifier",
+          "start": 744,
+          "end": 763,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 764,
+            "end": 780,
+            "name": "SetIteratorProto"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 782,
+            "end": 800,
+            "object": {
+              "type": "Identifier",
+              "start": 782,
+              "end": 788,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 789,
+              "end": 800,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 803,
+      "end": 859,
+      "expression": {
+        "type": "CallExpression",
+        "start": 803,
+        "end": 858,
+        "callee": {
+          "type": "Identifier",
+          "start": 803,
+          "end": 820,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 821,
+            "end": 837,
+            "name": "SetIteratorProto"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 839,
+            "end": 857,
+            "object": {
+              "type": "Identifier",
+              "start": 839,
+              "end": 845,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 846,
+              "end": 857,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 860,
+      "end": 917,
+      "expression": {
+        "type": "CallExpression",
+        "start": 860,
+        "end": 916,
+        "callee": {
+          "type": "Identifier",
+          "start": 860,
+          "end": 878,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 879,
+            "end": 895,
+            "name": "SetIteratorProto"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 897,
+            "end": 915,
+            "object": {
+              "type": "Identifier",
+              "start": 897,
+              "end": 903,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 904,
+              "end": 915,
+              "name": "toStringTag"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

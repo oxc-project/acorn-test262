@@ -1,0 +1,127 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 574,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 492,
+      "end": 513,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 496,
+          "end": 512,
+          "id": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 497,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 500,
+            "end": 512,
+            "callee": {
+              "type": "Identifier",
+              "start": 500,
+              "end": 506,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 507,
+                "end": 511,
+                "value": "66",
+                "raw": "'66'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 515,
+      "end": 573,
+      "expression": {
+        "type": "CallExpression",
+        "start": 515,
+        "end": 572,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 515,
+          "end": 528,
+          "object": {
+            "type": "Identifier",
+            "start": 515,
+            "end": 521,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 522,
+            "end": 528,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 529,
+            "end": 538,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 540,
+            "end": 571,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 551,
+              "end": 571,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 555,
+                  "end": 569,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 555,
+                    "end": 568,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 559,
+                      "end": 565,
+                      "name": "String"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 566,
+                        "end": 567,
+                        "name": "s"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

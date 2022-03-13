@@ -1,0 +1,85 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 420,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 281,
+      "end": 419,
+      "expression": {
+        "type": "CallExpression",
+        "start": 281,
+        "end": 418,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 281,
+          "end": 297,
+          "object": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 287,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 297,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 301,
+            "end": 327,
+            "object": {
+              "type": "MemberExpression",
+              "start": 301,
+              "end": 317,
+              "object": {
+                "type": "Identifier",
+                "start": 301,
+                "end": 307,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 308,
+                "end": 317,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 318,
+              "end": 327,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 331,
+            "end": 340,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 344,
+            "end": 416,
+            "value": "The value of Object.prototype.prototype is expected to equal undefined",
+            "raw": "'The value of Object.prototype.prototype is expected to equal undefined'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

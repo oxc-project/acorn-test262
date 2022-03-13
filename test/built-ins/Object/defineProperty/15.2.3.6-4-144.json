@@ -1,0 +1,172 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 519,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 383,
+      "end": 399,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 387,
+          "end": 398,
+          "id": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 393,
+            "name": "arrObj"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 396,
+            "end": 398,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 401,
+      "end": 464,
+      "expression": {
+        "type": "CallExpression",
+        "start": 401,
+        "end": 463,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 401,
+          "end": 422,
+          "object": {
+            "type": "Identifier",
+            "start": 401,
+            "end": 407,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 422,
+            "name": "defineProperty"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 423,
+            "end": 429,
+            "name": "arrObj"
+          },
+          {
+            "type": "Literal",
+            "start": 431,
+            "end": 439,
+            "value": "length",
+            "raw": "\"length\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 441,
+            "end": 462,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 445,
+                "end": 460,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 445,
+                  "end": 450,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 452,
+                  "end": 460,
+                  "value": "0002.0",
+                  "raw": "\"0002.0\""
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 466,
+      "end": 518,
+      "expression": {
+        "type": "CallExpression",
+        "start": 466,
+        "end": 517,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 466,
+          "end": 482,
+          "object": {
+            "type": "Identifier",
+            "start": 466,
+            "end": 472,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 482,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 483,
+            "end": 496,
+            "object": {
+              "type": "Identifier",
+              "start": 483,
+              "end": 489,
+              "name": "arrObj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 490,
+              "end": 496,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 498,
+            "end": 499,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 501,
+            "end": 516,
+            "value": "arrObj.length",
+            "raw": "'arrObj.length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

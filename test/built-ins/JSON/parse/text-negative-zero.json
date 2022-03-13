@@ -1,0 +1,408 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 760,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 545,
+      "end": 584,
+      "expression": {
+        "type": "CallExpression",
+        "start": 545,
+        "end": 583,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 545,
+          "end": 561,
+          "object": {
+            "type": "Identifier",
+            "start": 545,
+            "end": 551,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 552,
+            "end": 561,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 562,
+            "end": 578,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 562,
+              "end": 572,
+              "object": {
+                "type": "Identifier",
+                "start": 562,
+                "end": 566,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 567,
+                "end": 572,
+                "name": "parse"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 573,
+                "end": 577,
+                "value": "-0",
+                "raw": "'-0'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 580,
+            "end": 582,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 581,
+              "end": 582,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 585,
+      "end": 627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 585,
+        "end": 626,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 585,
+          "end": 601,
+          "object": {
+            "type": "Identifier",
+            "start": 585,
+            "end": 591,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 592,
+            "end": 601,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 602,
+            "end": 621,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 602,
+              "end": 612,
+              "object": {
+                "type": "Identifier",
+                "start": 602,
+                "end": 606,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 607,
+                "end": 612,
+                "name": "parse"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 613,
+                "end": 620,
+                "value": " \n-0",
+                "raw": "' \\n-0'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 623,
+            "end": 625,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 624,
+              "end": 625,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 628,
+      "end": 671,
+      "expression": {
+        "type": "CallExpression",
+        "start": 628,
+        "end": 670,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 628,
+          "end": 644,
+          "object": {
+            "type": "Identifier",
+            "start": 628,
+            "end": 634,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 635,
+            "end": 644,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 645,
+            "end": 665,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 645,
+              "end": 655,
+              "object": {
+                "type": "Identifier",
+                "start": 645,
+                "end": 649,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 650,
+                "end": 655,
+                "name": "parse"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 656,
+                "end": 664,
+                "value": "-0  \t",
+                "raw": "'-0  \\t'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 667,
+            "end": 669,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 668,
+              "end": 669,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 672,
+      "end": 721,
+      "expression": {
+        "type": "CallExpression",
+        "start": 672,
+        "end": 720,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 672,
+          "end": 688,
+          "object": {
+            "type": "Identifier",
+            "start": 672,
+            "end": 678,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 679,
+            "end": 688,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 689,
+            "end": 715,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 689,
+              "end": 699,
+              "object": {
+                "type": "Identifier",
+                "start": 689,
+                "end": 693,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 694,
+                "end": 699,
+                "name": "parse"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 700,
+                "end": 714,
+                "value": "\n\t -0\n   ",
+                "raw": "'\\n\\t -0\\n   '"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 717,
+            "end": 719,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 718,
+              "end": 719,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 723,
+      "end": 759,
+      "expression": {
+        "type": "CallExpression",
+        "start": 723,
+        "end": 758,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 723,
+          "end": 739,
+          "object": {
+            "type": "Identifier",
+            "start": 723,
+            "end": 729,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 739,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 740,
+            "end": 754,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 740,
+              "end": 750,
+              "object": {
+                "type": "Identifier",
+                "start": 740,
+                "end": 744,
+                "name": "JSON"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 745,
+                "end": 750,
+                "name": "parse"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 751,
+                "end": 753,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 752,
+                  "end": 753,
+                  "value": 0,
+                  "raw": "0"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 756,
+            "end": 757,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

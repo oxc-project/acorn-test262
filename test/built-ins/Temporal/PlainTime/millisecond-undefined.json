@@ -1,0 +1,327 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 569,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 283,
+      "end": 309,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 289,
+          "end": 308,
+          "id": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 293,
+            "name": "args"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 296,
+            "end": 308,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 297,
+                "end": 299,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 301,
+                "end": 303,
+                "value": 34,
+                "raw": "34"
+              },
+              {
+                "type": "Literal",
+                "start": 305,
+                "end": 307,
+                "value": 56,
+                "raw": "56"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 311,
+      "end": 371,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 317,
+          "end": 370,
+          "id": {
+            "type": "Identifier",
+            "start": 317,
+            "end": 325,
+            "name": "explicit"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 328,
+            "end": 370,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 332,
+              "end": 350,
+              "object": {
+                "type": "Identifier",
+                "start": 332,
+                "end": 340,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 350,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "SpreadElement",
+                "start": 351,
+                "end": 358,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 354,
+                  "end": 358,
+                  "name": "args"
+                }
+              },
+              {
+                "type": "Identifier",
+                "start": 360,
+                "end": 369,
+                "name": "undefined"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 372,
+      "end": 444,
+      "expression": {
+        "type": "CallExpression",
+        "start": 372,
+        "end": 443,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 372,
+          "end": 403,
+          "object": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 387,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 403,
+            "name": "assertPlainTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 404,
+            "end": 412,
+            "name": "explicit"
+          },
+          {
+            "type": "SpreadElement",
+            "start": 414,
+            "end": 421,
+            "argument": {
+              "type": "Identifier",
+              "start": 417,
+              "end": 421,
+              "name": "args"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 423,
+            "end": 424,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 426,
+            "end": 427,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 429,
+            "end": 430,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 432,
+            "end": 442,
+            "value": "explicit",
+            "raw": "\"explicit\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 446,
+      "end": 495,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 452,
+          "end": 494,
+          "id": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 460,
+            "name": "implicit"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 463,
+            "end": 494,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 467,
+              "end": 485,
+              "object": {
+                "type": "Identifier",
+                "start": 467,
+                "end": 475,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 476,
+                "end": 485,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "SpreadElement",
+                "start": 486,
+                "end": 493,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 489,
+                  "end": 493,
+                  "name": "args"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 496,
+      "end": 568,
+      "expression": {
+        "type": "CallExpression",
+        "start": 496,
+        "end": 567,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 496,
+          "end": 527,
+          "object": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 511,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 527,
+            "name": "assertPlainTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 528,
+            "end": 536,
+            "name": "implicit"
+          },
+          {
+            "type": "SpreadElement",
+            "start": 538,
+            "end": 545,
+            "argument": {
+              "type": "Identifier",
+              "start": 541,
+              "end": 545,
+              "name": "args"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 547,
+            "end": 548,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 550,
+            "end": 551,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 554,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 556,
+            "end": 566,
+            "value": "implicit",
+            "raw": "\"implicit\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

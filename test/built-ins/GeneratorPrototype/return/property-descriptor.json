@@ -1,0 +1,190 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 607,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 381,
+      "end": 397,
+      "id": {
+        "type": "Identifier",
+        "start": 391,
+        "end": 392,
+        "name": "g"
+      },
+      "expression": false,
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 395,
+        "end": 397,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 398,
+      "end": 458,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 402,
+          "end": 457,
+          "id": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 420,
+            "name": "GeneratorPrototype"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 423,
+            "end": 457,
+            "object": {
+              "type": "CallExpression",
+              "start": 423,
+              "end": 447,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 423,
+                "end": 444,
+                "object": {
+                  "type": "Identifier",
+                  "start": 423,
+                  "end": 429,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 430,
+                  "end": 444,
+                  "name": "getPrototypeOf"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 445,
+                  "end": 446,
+                  "name": "g"
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 448,
+              "end": 457,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 460,
+      "end": 510,
+      "expression": {
+        "type": "CallExpression",
+        "start": 460,
+        "end": 509,
+        "callee": {
+          "type": "Identifier",
+          "start": 460,
+          "end": 479,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 480,
+            "end": 498,
+            "name": "GeneratorPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 500,
+            "end": 508,
+            "value": "return",
+            "raw": "'return'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 511,
+      "end": 556,
+      "expression": {
+        "type": "CallExpression",
+        "start": 511,
+        "end": 555,
+        "callee": {
+          "type": "Identifier",
+          "start": 511,
+          "end": 525,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 526,
+            "end": 544,
+            "name": "GeneratorPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 546,
+            "end": 554,
+            "value": "return",
+            "raw": "'return'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 557,
+      "end": 606,
+      "expression": {
+        "type": "CallExpression",
+        "start": 557,
+        "end": 605,
+        "callee": {
+          "type": "Identifier",
+          "start": 557,
+          "end": 575,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 576,
+            "end": 594,
+            "name": "GeneratorPrototype"
+          },
+          {
+            "type": "Literal",
+            "start": 596,
+            "end": 604,
+            "value": "return",
+            "raw": "'return'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

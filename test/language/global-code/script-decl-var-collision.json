@@ -1,0 +1,1214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2073,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 420,
+      "end": 435,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 424,
+          "end": 434,
+          "id": {
+            "type": "Identifier",
+            "start": 424,
+            "end": 434,
+            "name": "test262Var"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 436,
+      "end": 451,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 440,
+          "end": 450,
+          "id": {
+            "type": "Identifier",
+            "start": 440,
+            "end": 450,
+            "name": "test262Let"
+          },
+          "init": null
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 452,
+      "end": 478,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 458,
+          "end": 477,
+          "id": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 470,
+            "name": "test262Const"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 473,
+            "end": 477,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 479,
+      "end": 500,
+      "id": {
+        "type": "Identifier",
+        "start": 485,
+        "end": 497,
+        "name": "test262Class"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 498,
+        "end": 500,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 502,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 502,
+        "end": 536,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 502,
+          "end": 517,
+          "object": {
+            "type": "Identifier",
+            "start": 502,
+            "end": 506,
+            "name": "$262"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 507,
+            "end": 517,
+            "name": "evalScript"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 518,
+            "end": 535,
+            "value": "var test262Var;",
+            "raw": "'var test262Var;'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 538,
+      "end": 582,
+      "expression": {
+        "type": "CallExpression",
+        "start": 538,
+        "end": 581,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 538,
+          "end": 553,
+          "object": {
+            "type": "Identifier",
+            "start": 538,
+            "end": 542,
+            "name": "$262"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 553,
+            "name": "evalScript"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 554,
+            "end": 580,
+            "value": "function test262Var() {}",
+            "raw": "'function test262Var() {}'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 584,
+      "end": 698,
+      "expression": {
+        "type": "CallExpression",
+        "start": 584,
+        "end": 697,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 584,
+          "end": 597,
+          "object": {
+            "type": "Identifier",
+            "start": 584,
+            "end": 590,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 591,
+            "end": 597,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 598,
+            "end": 609,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 611,
+            "end": 670,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 622,
+              "end": 670,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 626,
+                  "end": 668,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 626,
+                    "end": 667,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 626,
+                      "end": 641,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 626,
+                        "end": 630,
+                        "name": "$262"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 631,
+                        "end": 641,
+                        "name": "evalScript"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 642,
+                        "end": 666,
+                        "value": "var x; var test262Let;",
+                        "raw": "'var x; var test262Let;'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 672,
+            "end": 696,
+            "value": "`var` on `let` binding",
+            "raw": "'`var` on `let` binding'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 699,
+      "end": 819,
+      "expression": {
+        "type": "CallExpression",
+        "start": 699,
+        "end": 818,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 699,
+          "end": 712,
+          "object": {
+            "type": "Identifier",
+            "start": 699,
+            "end": 705,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 706,
+            "end": 712,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 713,
+            "end": 727,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 729,
+            "end": 748,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 740,
+              "end": 748,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 744,
+                  "end": 746,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 744,
+                    "end": 745,
+                    "name": "x"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 750,
+            "end": 817,
+            "value": "no bindings created (script declaring a `var` on a `let` binding)",
+            "raw": "'no bindings created (script declaring a `var` on a `let` binding)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 821,
+      "end": 939,
+      "expression": {
+        "type": "CallExpression",
+        "start": 821,
+        "end": 938,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 821,
+          "end": 834,
+          "object": {
+            "type": "Identifier",
+            "start": 821,
+            "end": 827,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 828,
+            "end": 834,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 835,
+            "end": 846,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 848,
+            "end": 909,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 859,
+              "end": 909,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 863,
+                  "end": 907,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 863,
+                    "end": 906,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 863,
+                      "end": 878,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 863,
+                        "end": 867,
+                        "name": "$262"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 868,
+                        "end": 878,
+                        "name": "evalScript"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 879,
+                        "end": 905,
+                        "value": "var x; var test262Const;",
+                        "raw": "'var x; var test262Const;'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 911,
+            "end": 937,
+            "value": "`var` on `const` binding",
+            "raw": "'`var` on `const` binding'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 940,
+      "end": 1062,
+      "expression": {
+        "type": "CallExpression",
+        "start": 940,
+        "end": 1061,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 940,
+          "end": 953,
+          "object": {
+            "type": "Identifier",
+            "start": 940,
+            "end": 946,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 947,
+            "end": 953,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 954,
+            "end": 968,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 970,
+            "end": 989,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 981,
+              "end": 989,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 985,
+                  "end": 987,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 985,
+                    "end": 986,
+                    "name": "x"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 991,
+            "end": 1060,
+            "value": "no bindings created (script declaring a `var` on a `const` binding)",
+            "raw": "'no bindings created (script declaring a `var` on a `const` binding)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1064,
+      "end": 1182,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1064,
+        "end": 1181,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1064,
+          "end": 1077,
+          "object": {
+            "type": "Identifier",
+            "start": 1064,
+            "end": 1070,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1071,
+            "end": 1077,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1078,
+            "end": 1089,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1091,
+            "end": 1152,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1102,
+              "end": 1152,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1106,
+                  "end": 1150,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1106,
+                    "end": 1149,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1106,
+                      "end": 1121,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1106,
+                        "end": 1110,
+                        "name": "$262"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1111,
+                        "end": 1121,
+                        "name": "evalScript"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1122,
+                        "end": 1148,
+                        "value": "var x; var test262Class;",
+                        "raw": "'var x; var test262Class;'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1154,
+            "end": 1180,
+            "value": "`var` on `class` binding",
+            "raw": "'`var` on `class` binding'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1183,
+      "end": 1305,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1183,
+        "end": 1304,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1183,
+          "end": 1196,
+          "object": {
+            "type": "Identifier",
+            "start": 1183,
+            "end": 1189,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1190,
+            "end": 1196,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1197,
+            "end": 1211,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1213,
+            "end": 1232,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1224,
+              "end": 1232,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1228,
+                  "end": 1230,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 1228,
+                    "end": 1229,
+                    "name": "x"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1234,
+            "end": 1303,
+            "value": "no bindings created (script declaring a `var` on a `class` binding)",
+            "raw": "'no bindings created (script declaring a `var` on a `class` binding)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1307,
+      "end": 1433,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1307,
+        "end": 1432,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1307,
+          "end": 1320,
+          "object": {
+            "type": "Identifier",
+            "start": 1307,
+            "end": 1313,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1314,
+            "end": 1320,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1321,
+            "end": 1332,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1334,
+            "end": 1402,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1345,
+              "end": 1402,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1349,
+                  "end": 1400,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1349,
+                    "end": 1399,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1349,
+                      "end": 1364,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1349,
+                        "end": 1353,
+                        "name": "$262"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1354,
+                        "end": 1364,
+                        "name": "evalScript"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1365,
+                        "end": 1398,
+                        "value": "var x; function test262Let() {}",
+                        "raw": "'var x; function test262Let() {}'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1404,
+            "end": 1431,
+            "value": "function on `let` binding",
+            "raw": "'function on `let` binding'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1434,
+      "end": 1557,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1434,
+        "end": 1556,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1434,
+          "end": 1447,
+          "object": {
+            "type": "Identifier",
+            "start": 1434,
+            "end": 1440,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1441,
+            "end": 1447,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1448,
+            "end": 1462,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1464,
+            "end": 1483,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1475,
+              "end": 1483,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1479,
+                  "end": 1481,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 1479,
+                    "end": 1480,
+                    "name": "x"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1485,
+            "end": 1555,
+            "value": "no bindings created (script declaring a function on a `let` binding)",
+            "raw": "'no bindings created (script declaring a function on a `let` binding)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1559,
+      "end": 1689,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1559,
+        "end": 1688,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1559,
+          "end": 1572,
+          "object": {
+            "type": "Identifier",
+            "start": 1559,
+            "end": 1565,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1566,
+            "end": 1572,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1573,
+            "end": 1584,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1586,
+            "end": 1656,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1597,
+              "end": 1656,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1601,
+                  "end": 1654,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1601,
+                    "end": 1653,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1601,
+                      "end": 1616,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1601,
+                        "end": 1605,
+                        "name": "$262"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1606,
+                        "end": 1616,
+                        "name": "evalScript"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1617,
+                        "end": 1652,
+                        "value": "var x; function test262Const() {}",
+                        "raw": "'var x; function test262Const() {}'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1658,
+            "end": 1687,
+            "value": "function on `const` binding",
+            "raw": "'function on `const` binding'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1690,
+      "end": 1815,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1690,
+        "end": 1814,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1690,
+          "end": 1703,
+          "object": {
+            "type": "Identifier",
+            "start": 1690,
+            "end": 1696,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1697,
+            "end": 1703,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1704,
+            "end": 1718,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1720,
+            "end": 1739,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1731,
+              "end": 1739,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1735,
+                  "end": 1737,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 1735,
+                    "end": 1736,
+                    "name": "x"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1741,
+            "end": 1813,
+            "value": "no bindings created (script declaring a function on a `const` binding)",
+            "raw": "'no bindings created (script declaring a function on a `const` binding)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1817,
+      "end": 1948,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1817,
+        "end": 1947,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1817,
+          "end": 1830,
+          "object": {
+            "type": "Identifier",
+            "start": 1817,
+            "end": 1823,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1824,
+            "end": 1830,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1831,
+            "end": 1842,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1844,
+            "end": 1914,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1855,
+              "end": 1914,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1859,
+                  "end": 1912,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1859,
+                    "end": 1911,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1859,
+                      "end": 1874,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1859,
+                        "end": 1863,
+                        "name": "$262"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1864,
+                        "end": 1874,
+                        "name": "evalScript"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 1875,
+                        "end": 1910,
+                        "value": "var x; function test262Class() {}",
+                        "raw": "'var x; function test262Class() {}'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1917,
+            "end": 1946,
+            "value": "function on `class` binding",
+            "raw": "'function on `class` binding'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1949,
+      "end": 2072,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1949,
+        "end": 2071,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1949,
+          "end": 1962,
+          "object": {
+            "type": "Identifier",
+            "start": 1949,
+            "end": 1955,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1956,
+            "end": 1962,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1963,
+            "end": 1977,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1979,
+            "end": 1998,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1990,
+              "end": 1998,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1994,
+                  "end": 1996,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 1994,
+                    "end": 1995,
+                    "name": "x"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2000,
+            "end": 2070,
+            "value": "no bindings created (script declaring a function on a class binding)",
+            "raw": "'no bindings created (script declaring a function on a class binding)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

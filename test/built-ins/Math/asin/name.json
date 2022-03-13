@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 818,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 658,
+      "end": 699,
+      "expression": {
+        "type": "CallExpression",
+        "start": 658,
+        "end": 698,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 658,
+          "end": 674,
+          "object": {
+            "type": "Identifier",
+            "start": 658,
+            "end": 664,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 665,
+            "end": 674,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 675,
+            "end": 689,
+            "object": {
+              "type": "MemberExpression",
+              "start": 675,
+              "end": 684,
+              "object": {
+                "type": "Identifier",
+                "start": 675,
+                "end": 679,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 680,
+                "end": 684,
+                "name": "asin"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 685,
+              "end": 689,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 691,
+            "end": 697,
+            "value": "asin",
+            "raw": "\"asin\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 740,
+      "expression": {
+        "type": "CallExpression",
+        "start": 701,
+        "end": 739,
+        "callee": {
+          "type": "Identifier",
+          "start": 701,
+          "end": 720,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 721,
+            "end": 730,
+            "object": {
+              "type": "Identifier",
+              "start": 721,
+              "end": 725,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 726,
+              "end": 730,
+              "name": "asin"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 732,
+            "end": 738,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 741,
+      "end": 778,
+      "expression": {
+        "type": "CallExpression",
+        "start": 741,
+        "end": 777,
+        "callee": {
+          "type": "Identifier",
+          "start": 741,
+          "end": 758,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 759,
+            "end": 768,
+            "object": {
+              "type": "Identifier",
+              "start": 759,
+              "end": 763,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 764,
+              "end": 768,
+              "name": "asin"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 770,
+            "end": 776,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 779,
+      "end": 817,
+      "expression": {
+        "type": "CallExpression",
+        "start": 779,
+        "end": 816,
+        "callee": {
+          "type": "Identifier",
+          "start": 779,
+          "end": 797,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 798,
+            "end": 807,
+            "object": {
+              "type": "Identifier",
+              "start": 798,
+              "end": 802,
+              "name": "Math"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 803,
+              "end": 807,
+              "name": "asin"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 809,
+            "end": 815,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

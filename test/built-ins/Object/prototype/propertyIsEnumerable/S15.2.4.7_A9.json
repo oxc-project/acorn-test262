@@ -1,0 +1,200 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 778,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 385,
+      "end": 568,
+      "expression": {
+        "type": "CallExpression",
+        "start": 385,
+        "end": 567,
+        "callee": {
+          "type": "Identifier",
+          "start": 385,
+          "end": 391,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 395,
+            "end": 459,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 396,
+              "end": 459,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "CallExpression",
+                "start": 397,
+                "end": 459,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 397,
+                  "end": 449,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 397,
+                    "end": 434,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 397,
+                      "end": 413,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 397,
+                        "end": 403,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 404,
+                        "end": 413,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 414,
+                      "end": 434,
+                      "name": "propertyIsEnumerable"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 435,
+                    "end": 449,
+                    "name": "hasOwnProperty"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 450,
+                    "end": 458,
+                    "value": "length",
+                    "raw": "'length'"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 463,
+            "end": 565,
+            "value": "The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true",
+            "raw": "'The value of !!Object.prototype.propertyIsEnumerable.hasOwnProperty(\"length\") is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 570,
+      "end": 731,
+      "expression": {
+        "type": "CallExpression",
+        "start": 570,
+        "end": 730,
+        "callee": {
+          "type": "Identifier",
+          "start": 570,
+          "end": 576,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 580,
+            "end": 633,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 581,
+              "end": 633,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "UnaryExpression",
+                "start": 582,
+                "end": 633,
+                "operator": "delete",
+                "prefix": true,
+                "argument": {
+                  "type": "MemberExpression",
+                  "start": 589,
+                  "end": 633,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 589,
+                    "end": 626,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 589,
+                      "end": 605,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 589,
+                        "end": 595,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 596,
+                        "end": 605,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 606,
+                      "end": 626,
+                      "name": "propertyIsEnumerable"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 627,
+                    "end": 633,
+                    "name": "length"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 637,
+            "end": 728,
+            "value": "The value of !!delete Object.prototype.propertyIsEnumerable.length is expected to be true",
+            "raw": "'The value of !!delete Object.prototype.propertyIsEnumerable.length is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

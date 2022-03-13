@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 605,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 390,
+      "end": 451,
+      "expression": {
+        "type": "CallExpression",
+        "start": 390,
+        "end": 450,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 390,
+          "end": 406,
+          "object": {
+            "type": "Identifier",
+            "start": 390,
+            "end": 396,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 406,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 407,
+            "end": 439,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 414,
+              "end": 439,
+              "object": {
+                "type": "Identifier",
+                "start": 414,
+                "end": 420,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 421,
+                "end": 439,
+                "name": "isConcatSpreadable"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 441,
+            "end": 449,
+            "value": "symbol",
+            "raw": "'symbol'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 452,
+      "end": 502,
+      "expression": {
+        "type": "CallExpression",
+        "start": 452,
+        "end": 501,
+        "callee": {
+          "type": "Identifier",
+          "start": 452,
+          "end": 471,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 472,
+            "end": 478,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 480,
+            "end": 500,
+            "value": "isConcatSpreadable",
+            "raw": "'isConcatSpreadable'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 503,
+      "end": 551,
+      "expression": {
+        "type": "CallExpression",
+        "start": 503,
+        "end": 550,
+        "callee": {
+          "type": "Identifier",
+          "start": 503,
+          "end": 520,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 521,
+            "end": 527,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 529,
+            "end": 549,
+            "value": "isConcatSpreadable",
+            "raw": "'isConcatSpreadable'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 552,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 552,
+        "end": 603,
+        "callee": {
+          "type": "Identifier",
+          "start": 552,
+          "end": 573,
+          "name": "verifyNotConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 574,
+            "end": 580,
+            "name": "Symbol"
+          },
+          {
+            "type": "Literal",
+            "start": 582,
+            "end": 602,
+            "value": "isConcatSpreadable",
+            "raw": "'isConcatSpreadable'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

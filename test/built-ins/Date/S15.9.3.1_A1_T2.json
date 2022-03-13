@@ -1,0 +1,4592 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 6642,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 373,
+      "end": 514,
+      "expression": {
+        "type": "CallExpression",
+        "start": 373,
+        "end": 513,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 373,
+          "end": 389,
+          "object": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 379,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 380,
+            "end": 389,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 393,
+            "end": 422,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 400,
+              "end": 422,
+              "callee": {
+                "type": "Identifier",
+                "start": 404,
+                "end": 408,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 409,
+                  "end": 413,
+                  "value": 1899,
+                  "raw": "1899"
+                },
+                {
+                  "type": "Literal",
+                  "start": 415,
+                  "end": 417,
+                  "value": 11,
+                  "raw": "11"
+                },
+                {
+                  "type": "Literal",
+                  "start": 419,
+                  "end": 421,
+                  "value": 31,
+                  "raw": "31"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 426,
+            "end": 434,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 438,
+            "end": 511,
+            "value": "The value of `typeof new Date(1899, 11, 31)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(1899, 11, 31)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 516,
+      "end": 636,
+      "expression": {
+        "type": "CallExpression",
+        "start": 516,
+        "end": 635,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 516,
+          "end": 535,
+          "object": {
+            "type": "Identifier",
+            "start": 516,
+            "end": 522,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 523,
+            "end": 535,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 536,
+            "end": 558,
+            "callee": {
+              "type": "Identifier",
+              "start": 540,
+              "end": 544,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 545,
+                "end": 549,
+                "value": 1899,
+                "raw": "1899"
+              },
+              {
+                "type": "Literal",
+                "start": 551,
+                "end": 553,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 555,
+                "end": 557,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 560,
+            "end": 569,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 571,
+            "end": 634,
+            "value": "new Date(1899, 11, 31) is expected to not equal ``undefined``",
+            "raw": "'new Date(1899, 11, 31) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 638,
+      "end": 671,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 642,
+          "end": 670,
+          "id": {
+            "type": "Identifier",
+            "start": 642,
+            "end": 645,
+            "name": "x13"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 648,
+            "end": 670,
+            "callee": {
+              "type": "Identifier",
+              "start": 652,
+              "end": 656,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 657,
+                "end": 661,
+                "value": 1899,
+                "raw": "1899"
+              },
+              {
+                "type": "Literal",
+                "start": 663,
+                "end": 665,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 667,
+                "end": 669,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 672,
+      "end": 767,
+      "expression": {
+        "type": "CallExpression",
+        "start": 672,
+        "end": 766,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 672,
+          "end": 688,
+          "object": {
+            "type": "Identifier",
+            "start": 672,
+            "end": 678,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 679,
+            "end": 688,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 689,
+            "end": 699,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 696,
+              "end": 699,
+              "name": "x13"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 701,
+            "end": 709,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 711,
+            "end": 765,
+            "value": "The value of `typeof x13` is expected to be \"object\"",
+            "raw": "'The value of `typeof x13` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 769,
+      "end": 802,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 773,
+          "end": 801,
+          "id": {
+            "type": "Identifier",
+            "start": 773,
+            "end": 776,
+            "name": "x14"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 779,
+            "end": 801,
+            "callee": {
+              "type": "Identifier",
+              "start": 783,
+              "end": 787,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 788,
+                "end": 792,
+                "value": 1899,
+                "raw": "1899"
+              },
+              {
+                "type": "Literal",
+                "start": 794,
+                "end": 796,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 798,
+                "end": 800,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 803,
+      "end": 898,
+      "expression": {
+        "type": "CallExpression",
+        "start": 803,
+        "end": 897,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 803,
+          "end": 822,
+          "object": {
+            "type": "Identifier",
+            "start": 803,
+            "end": 809,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 810,
+            "end": 822,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 823,
+            "end": 826,
+            "name": "x14"
+          },
+          {
+            "type": "Identifier",
+            "start": 828,
+            "end": 837,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 839,
+            "end": 896,
+            "value": "The value of x14 is expected to not equal ``undefined``",
+            "raw": "'The value of x14 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 900,
+      "end": 1039,
+      "expression": {
+        "type": "CallExpression",
+        "start": 900,
+        "end": 1038,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 900,
+          "end": 916,
+          "object": {
+            "type": "Identifier",
+            "start": 900,
+            "end": 906,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 907,
+            "end": 916,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 920,
+            "end": 948,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 927,
+              "end": 948,
+              "callee": {
+                "type": "Identifier",
+                "start": 931,
+                "end": 935,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 936,
+                  "end": 940,
+                  "value": 1899,
+                  "raw": "1899"
+                },
+                {
+                  "type": "Literal",
+                  "start": 942,
+                  "end": 944,
+                  "value": 12,
+                  "raw": "12"
+                },
+                {
+                  "type": "Literal",
+                  "start": 946,
+                  "end": 947,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 952,
+            "end": 960,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 964,
+            "end": 1036,
+            "value": "The value of `typeof new Date(1899, 12, 1)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(1899, 12, 1)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1041,
+      "end": 1159,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1041,
+        "end": 1158,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1041,
+          "end": 1060,
+          "object": {
+            "type": "Identifier",
+            "start": 1041,
+            "end": 1047,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1048,
+            "end": 1060,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 1061,
+            "end": 1082,
+            "callee": {
+              "type": "Identifier",
+              "start": 1065,
+              "end": 1069,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1070,
+                "end": 1074,
+                "value": 1899,
+                "raw": "1899"
+              },
+              {
+                "type": "Literal",
+                "start": 1076,
+                "end": 1078,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 1080,
+                "end": 1081,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1084,
+            "end": 1093,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1095,
+            "end": 1157,
+            "value": "new Date(1899, 12, 1) is expected to not equal ``undefined``",
+            "raw": "'new Date(1899, 12, 1) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1161,
+      "end": 1193,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1165,
+          "end": 1192,
+          "id": {
+            "type": "Identifier",
+            "start": 1165,
+            "end": 1168,
+            "name": "x23"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1171,
+            "end": 1192,
+            "callee": {
+              "type": "Identifier",
+              "start": 1175,
+              "end": 1179,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1180,
+                "end": 1184,
+                "value": 1899,
+                "raw": "1899"
+              },
+              {
+                "type": "Literal",
+                "start": 1186,
+                "end": 1188,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 1190,
+                "end": 1191,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1194,
+      "end": 1289,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1194,
+        "end": 1288,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1194,
+          "end": 1210,
+          "object": {
+            "type": "Identifier",
+            "start": 1194,
+            "end": 1200,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1201,
+            "end": 1210,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1211,
+            "end": 1221,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1218,
+              "end": 1221,
+              "name": "x23"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1223,
+            "end": 1231,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 1233,
+            "end": 1287,
+            "value": "The value of `typeof x23` is expected to be \"object\"",
+            "raw": "'The value of `typeof x23` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1291,
+      "end": 1323,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1295,
+          "end": 1322,
+          "id": {
+            "type": "Identifier",
+            "start": 1295,
+            "end": 1298,
+            "name": "x24"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1301,
+            "end": 1322,
+            "callee": {
+              "type": "Identifier",
+              "start": 1305,
+              "end": 1309,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1310,
+                "end": 1314,
+                "value": 1899,
+                "raw": "1899"
+              },
+              {
+                "type": "Literal",
+                "start": 1316,
+                "end": 1318,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 1320,
+                "end": 1321,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1324,
+      "end": 1419,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1324,
+        "end": 1418,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1324,
+          "end": 1343,
+          "object": {
+            "type": "Identifier",
+            "start": 1324,
+            "end": 1330,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1331,
+            "end": 1343,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1344,
+            "end": 1347,
+            "name": "x24"
+          },
+          {
+            "type": "Identifier",
+            "start": 1349,
+            "end": 1358,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1360,
+            "end": 1417,
+            "value": "The value of x24 is expected to not equal ``undefined``",
+            "raw": "'The value of x24 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1421,
+      "end": 1558,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1421,
+        "end": 1557,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1421,
+          "end": 1437,
+          "object": {
+            "type": "Identifier",
+            "start": 1421,
+            "end": 1427,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1428,
+            "end": 1437,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1441,
+            "end": 1468,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1448,
+              "end": 1468,
+              "callee": {
+                "type": "Identifier",
+                "start": 1452,
+                "end": 1456,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1457,
+                  "end": 1461,
+                  "value": 1900,
+                  "raw": "1900"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1463,
+                  "end": 1464,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1466,
+                  "end": 1467,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1472,
+            "end": 1480,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 1484,
+            "end": 1555,
+            "value": "The value of `typeof new Date(1900, 0, 1)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(1900, 0, 1)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1560,
+      "end": 1676,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1560,
+        "end": 1675,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1560,
+          "end": 1579,
+          "object": {
+            "type": "Identifier",
+            "start": 1560,
+            "end": 1566,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1567,
+            "end": 1579,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 1580,
+            "end": 1600,
+            "callee": {
+              "type": "Identifier",
+              "start": 1584,
+              "end": 1588,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1589,
+                "end": 1593,
+                "value": 1900,
+                "raw": "1900"
+              },
+              {
+                "type": "Literal",
+                "start": 1595,
+                "end": 1596,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 1598,
+                "end": 1599,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 1602,
+            "end": 1611,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1613,
+            "end": 1674,
+            "value": "new Date(1900, 0, 1) is expected to not equal ``undefined``",
+            "raw": "'new Date(1900, 0, 1) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1678,
+      "end": 1709,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1682,
+          "end": 1708,
+          "id": {
+            "type": "Identifier",
+            "start": 1682,
+            "end": 1685,
+            "name": "x33"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1688,
+            "end": 1708,
+            "callee": {
+              "type": "Identifier",
+              "start": 1692,
+              "end": 1696,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1697,
+                "end": 1701,
+                "value": 1900,
+                "raw": "1900"
+              },
+              {
+                "type": "Literal",
+                "start": 1703,
+                "end": 1704,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 1706,
+                "end": 1707,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1710,
+      "end": 1805,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1710,
+        "end": 1804,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1710,
+          "end": 1726,
+          "object": {
+            "type": "Identifier",
+            "start": 1710,
+            "end": 1716,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1717,
+            "end": 1726,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1727,
+            "end": 1737,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1734,
+              "end": 1737,
+              "name": "x33"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1739,
+            "end": 1747,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 1749,
+            "end": 1803,
+            "value": "The value of `typeof x33` is expected to be \"object\"",
+            "raw": "'The value of `typeof x33` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1807,
+      "end": 1838,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1811,
+          "end": 1837,
+          "id": {
+            "type": "Identifier",
+            "start": 1811,
+            "end": 1814,
+            "name": "x34"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1817,
+            "end": 1837,
+            "callee": {
+              "type": "Identifier",
+              "start": 1821,
+              "end": 1825,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 1826,
+                "end": 1830,
+                "value": 1900,
+                "raw": "1900"
+              },
+              {
+                "type": "Literal",
+                "start": 1832,
+                "end": 1833,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 1835,
+                "end": 1836,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1839,
+      "end": 1934,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1839,
+        "end": 1933,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1839,
+          "end": 1858,
+          "object": {
+            "type": "Identifier",
+            "start": 1839,
+            "end": 1845,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1846,
+            "end": 1858,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1859,
+            "end": 1862,
+            "name": "x34"
+          },
+          {
+            "type": "Identifier",
+            "start": 1864,
+            "end": 1873,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 1875,
+            "end": 1932,
+            "value": "The value of x34 is expected to not equal ``undefined``",
+            "raw": "'The value of x34 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1936,
+      "end": 2077,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1936,
+        "end": 2076,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1936,
+          "end": 1952,
+          "object": {
+            "type": "Identifier",
+            "start": 1936,
+            "end": 1942,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1943,
+            "end": 1952,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1956,
+            "end": 1985,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1963,
+              "end": 1985,
+              "callee": {
+                "type": "Identifier",
+                "start": 1967,
+                "end": 1971,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1972,
+                  "end": 1976,
+                  "value": 1969,
+                  "raw": "1969"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1978,
+                  "end": 1980,
+                  "value": 11,
+                  "raw": "11"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1982,
+                  "end": 1984,
+                  "value": 31,
+                  "raw": "31"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1989,
+            "end": 1997,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 2001,
+            "end": 2074,
+            "value": "The value of `typeof new Date(1969, 11, 31)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(1969, 11, 31)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2079,
+      "end": 2199,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2079,
+        "end": 2198,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2079,
+          "end": 2098,
+          "object": {
+            "type": "Identifier",
+            "start": 2079,
+            "end": 2085,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2086,
+            "end": 2098,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 2099,
+            "end": 2121,
+            "callee": {
+              "type": "Identifier",
+              "start": 2103,
+              "end": 2107,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2108,
+                "end": 2112,
+                "value": 1969,
+                "raw": "1969"
+              },
+              {
+                "type": "Literal",
+                "start": 2114,
+                "end": 2116,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 2118,
+                "end": 2120,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 2123,
+            "end": 2132,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 2134,
+            "end": 2197,
+            "value": "new Date(1969, 11, 31) is expected to not equal ``undefined``",
+            "raw": "'new Date(1969, 11, 31) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2201,
+      "end": 2234,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2205,
+          "end": 2233,
+          "id": {
+            "type": "Identifier",
+            "start": 2205,
+            "end": 2208,
+            "name": "x43"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2211,
+            "end": 2233,
+            "callee": {
+              "type": "Identifier",
+              "start": 2215,
+              "end": 2219,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2220,
+                "end": 2224,
+                "value": 1969,
+                "raw": "1969"
+              },
+              {
+                "type": "Literal",
+                "start": 2226,
+                "end": 2228,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 2230,
+                "end": 2232,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2235,
+      "end": 2330,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2235,
+        "end": 2329,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2235,
+          "end": 2251,
+          "object": {
+            "type": "Identifier",
+            "start": 2235,
+            "end": 2241,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2242,
+            "end": 2251,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 2252,
+            "end": 2262,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 2259,
+              "end": 2262,
+              "name": "x43"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2264,
+            "end": 2272,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 2274,
+            "end": 2328,
+            "value": "The value of `typeof x43` is expected to be \"object\"",
+            "raw": "'The value of `typeof x43` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2332,
+      "end": 2365,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2336,
+          "end": 2364,
+          "id": {
+            "type": "Identifier",
+            "start": 2336,
+            "end": 2339,
+            "name": "x44"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2342,
+            "end": 2364,
+            "callee": {
+              "type": "Identifier",
+              "start": 2346,
+              "end": 2350,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2351,
+                "end": 2355,
+                "value": 1969,
+                "raw": "1969"
+              },
+              {
+                "type": "Literal",
+                "start": 2357,
+                "end": 2359,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 2361,
+                "end": 2363,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2366,
+      "end": 2461,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2366,
+        "end": 2460,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2366,
+          "end": 2385,
+          "object": {
+            "type": "Identifier",
+            "start": 2366,
+            "end": 2372,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2373,
+            "end": 2385,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2386,
+            "end": 2389,
+            "name": "x44"
+          },
+          {
+            "type": "Identifier",
+            "start": 2391,
+            "end": 2400,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 2402,
+            "end": 2459,
+            "value": "The value of x44 is expected to not equal ``undefined``",
+            "raw": "'The value of x44 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2463,
+      "end": 2602,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2463,
+        "end": 2601,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2463,
+          "end": 2479,
+          "object": {
+            "type": "Identifier",
+            "start": 2463,
+            "end": 2469,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2470,
+            "end": 2479,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 2483,
+            "end": 2511,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 2490,
+              "end": 2511,
+              "callee": {
+                "type": "Identifier",
+                "start": 2494,
+                "end": 2498,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 2499,
+                  "end": 2503,
+                  "value": 1969,
+                  "raw": "1969"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2505,
+                  "end": 2507,
+                  "value": 12,
+                  "raw": "12"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2509,
+                  "end": 2510,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2515,
+            "end": 2523,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 2527,
+            "end": 2599,
+            "value": "The value of `typeof new Date(1969, 12, 1)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(1969, 12, 1)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2604,
+      "end": 2722,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2604,
+        "end": 2721,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2604,
+          "end": 2623,
+          "object": {
+            "type": "Identifier",
+            "start": 2604,
+            "end": 2610,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2611,
+            "end": 2623,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 2624,
+            "end": 2645,
+            "callee": {
+              "type": "Identifier",
+              "start": 2628,
+              "end": 2632,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2633,
+                "end": 2637,
+                "value": 1969,
+                "raw": "1969"
+              },
+              {
+                "type": "Literal",
+                "start": 2639,
+                "end": 2641,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 2643,
+                "end": 2644,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 2647,
+            "end": 2656,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 2658,
+            "end": 2720,
+            "value": "new Date(1969, 12, 1) is expected to not equal ``undefined``",
+            "raw": "'new Date(1969, 12, 1) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2724,
+      "end": 2756,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2728,
+          "end": 2755,
+          "id": {
+            "type": "Identifier",
+            "start": 2728,
+            "end": 2731,
+            "name": "x53"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2734,
+            "end": 2755,
+            "callee": {
+              "type": "Identifier",
+              "start": 2738,
+              "end": 2742,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2743,
+                "end": 2747,
+                "value": 1969,
+                "raw": "1969"
+              },
+              {
+                "type": "Literal",
+                "start": 2749,
+                "end": 2751,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 2753,
+                "end": 2754,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2757,
+      "end": 2852,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2757,
+        "end": 2851,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2757,
+          "end": 2773,
+          "object": {
+            "type": "Identifier",
+            "start": 2757,
+            "end": 2763,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2764,
+            "end": 2773,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 2774,
+            "end": 2784,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 2781,
+              "end": 2784,
+              "name": "x53"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2786,
+            "end": 2794,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 2796,
+            "end": 2850,
+            "value": "The value of `typeof x53` is expected to be \"object\"",
+            "raw": "'The value of `typeof x53` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 2854,
+      "end": 2886,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 2858,
+          "end": 2885,
+          "id": {
+            "type": "Identifier",
+            "start": 2858,
+            "end": 2861,
+            "name": "x54"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 2864,
+            "end": 2885,
+            "callee": {
+              "type": "Identifier",
+              "start": 2868,
+              "end": 2872,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2873,
+                "end": 2877,
+                "value": 1969,
+                "raw": "1969"
+              },
+              {
+                "type": "Literal",
+                "start": 2879,
+                "end": 2881,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 2883,
+                "end": 2884,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2887,
+      "end": 2982,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2887,
+        "end": 2981,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2887,
+          "end": 2906,
+          "object": {
+            "type": "Identifier",
+            "start": 2887,
+            "end": 2893,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2894,
+            "end": 2906,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2907,
+            "end": 2910,
+            "name": "x54"
+          },
+          {
+            "type": "Identifier",
+            "start": 2912,
+            "end": 2921,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 2923,
+            "end": 2980,
+            "value": "The value of x54 is expected to not equal ``undefined``",
+            "raw": "'The value of x54 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2984,
+      "end": 3121,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2984,
+        "end": 3120,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2984,
+          "end": 3000,
+          "object": {
+            "type": "Identifier",
+            "start": 2984,
+            "end": 2990,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2991,
+            "end": 3000,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 3004,
+            "end": 3031,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 3011,
+              "end": 3031,
+              "callee": {
+                "type": "Identifier",
+                "start": 3015,
+                "end": 3019,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 3020,
+                  "end": 3024,
+                  "value": 1970,
+                  "raw": "1970"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3026,
+                  "end": 3027,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3029,
+                  "end": 3030,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3035,
+            "end": 3043,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 3047,
+            "end": 3118,
+            "value": "The value of `typeof new Date(1970, 0, 1)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(1970, 0, 1)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3123,
+      "end": 3239,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3123,
+        "end": 3238,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3123,
+          "end": 3142,
+          "object": {
+            "type": "Identifier",
+            "start": 3123,
+            "end": 3129,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3130,
+            "end": 3142,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 3143,
+            "end": 3163,
+            "callee": {
+              "type": "Identifier",
+              "start": 3147,
+              "end": 3151,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3152,
+                "end": 3156,
+                "value": 1970,
+                "raw": "1970"
+              },
+              {
+                "type": "Literal",
+                "start": 3158,
+                "end": 3159,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 3161,
+                "end": 3162,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 3165,
+            "end": 3174,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 3176,
+            "end": 3237,
+            "value": "new Date(1970, 0, 1) is expected to not equal ``undefined``",
+            "raw": "'new Date(1970, 0, 1) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 3241,
+      "end": 3272,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 3245,
+          "end": 3271,
+          "id": {
+            "type": "Identifier",
+            "start": 3245,
+            "end": 3248,
+            "name": "x63"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 3251,
+            "end": 3271,
+            "callee": {
+              "type": "Identifier",
+              "start": 3255,
+              "end": 3259,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3260,
+                "end": 3264,
+                "value": 1970,
+                "raw": "1970"
+              },
+              {
+                "type": "Literal",
+                "start": 3266,
+                "end": 3267,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 3269,
+                "end": 3270,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3273,
+      "end": 3368,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3273,
+        "end": 3367,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3273,
+          "end": 3289,
+          "object": {
+            "type": "Identifier",
+            "start": 3273,
+            "end": 3279,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3280,
+            "end": 3289,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 3290,
+            "end": 3300,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 3297,
+              "end": 3300,
+              "name": "x63"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3302,
+            "end": 3310,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 3312,
+            "end": 3366,
+            "value": "The value of `typeof x63` is expected to be \"object\"",
+            "raw": "'The value of `typeof x63` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 3370,
+      "end": 3401,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 3374,
+          "end": 3400,
+          "id": {
+            "type": "Identifier",
+            "start": 3374,
+            "end": 3377,
+            "name": "x64"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 3380,
+            "end": 3400,
+            "callee": {
+              "type": "Identifier",
+              "start": 3384,
+              "end": 3388,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3389,
+                "end": 3393,
+                "value": 1970,
+                "raw": "1970"
+              },
+              {
+                "type": "Literal",
+                "start": 3395,
+                "end": 3396,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 3398,
+                "end": 3399,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3402,
+      "end": 3497,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3402,
+        "end": 3496,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3402,
+          "end": 3421,
+          "object": {
+            "type": "Identifier",
+            "start": 3402,
+            "end": 3408,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3409,
+            "end": 3421,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3422,
+            "end": 3425,
+            "name": "x64"
+          },
+          {
+            "type": "Identifier",
+            "start": 3427,
+            "end": 3436,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 3438,
+            "end": 3495,
+            "value": "The value of x64 is expected to not equal ``undefined``",
+            "raw": "'The value of x64 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3499,
+      "end": 3640,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3499,
+        "end": 3639,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3499,
+          "end": 3515,
+          "object": {
+            "type": "Identifier",
+            "start": 3499,
+            "end": 3505,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3506,
+            "end": 3515,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 3519,
+            "end": 3548,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 3526,
+              "end": 3548,
+              "callee": {
+                "type": "Identifier",
+                "start": 3530,
+                "end": 3534,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 3535,
+                  "end": 3539,
+                  "value": 1999,
+                  "raw": "1999"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3541,
+                  "end": 3543,
+                  "value": 11,
+                  "raw": "11"
+                },
+                {
+                  "type": "Literal",
+                  "start": 3545,
+                  "end": 3547,
+                  "value": 31,
+                  "raw": "31"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3552,
+            "end": 3560,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 3564,
+            "end": 3637,
+            "value": "The value of `typeof new Date(1999, 11, 31)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(1999, 11, 31)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3642,
+      "end": 3762,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3642,
+        "end": 3761,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3642,
+          "end": 3661,
+          "object": {
+            "type": "Identifier",
+            "start": 3642,
+            "end": 3648,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3649,
+            "end": 3661,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 3662,
+            "end": 3684,
+            "callee": {
+              "type": "Identifier",
+              "start": 3666,
+              "end": 3670,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3671,
+                "end": 3675,
+                "value": 1999,
+                "raw": "1999"
+              },
+              {
+                "type": "Literal",
+                "start": 3677,
+                "end": 3679,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 3681,
+                "end": 3683,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 3686,
+            "end": 3695,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 3697,
+            "end": 3760,
+            "value": "new Date(1999, 11, 31) is expected to not equal ``undefined``",
+            "raw": "'new Date(1999, 11, 31) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 3764,
+      "end": 3797,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 3768,
+          "end": 3796,
+          "id": {
+            "type": "Identifier",
+            "start": 3768,
+            "end": 3771,
+            "name": "x73"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 3774,
+            "end": 3796,
+            "callee": {
+              "type": "Identifier",
+              "start": 3778,
+              "end": 3782,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3783,
+                "end": 3787,
+                "value": 1999,
+                "raw": "1999"
+              },
+              {
+                "type": "Literal",
+                "start": 3789,
+                "end": 3791,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 3793,
+                "end": 3795,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3798,
+      "end": 3893,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3798,
+        "end": 3892,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3798,
+          "end": 3814,
+          "object": {
+            "type": "Identifier",
+            "start": 3798,
+            "end": 3804,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3805,
+            "end": 3814,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 3815,
+            "end": 3825,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 3822,
+              "end": 3825,
+              "name": "x73"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 3827,
+            "end": 3835,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 3837,
+            "end": 3891,
+            "value": "The value of `typeof x73` is expected to be \"object\"",
+            "raw": "'The value of `typeof x73` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 3895,
+      "end": 3928,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 3899,
+          "end": 3927,
+          "id": {
+            "type": "Identifier",
+            "start": 3899,
+            "end": 3902,
+            "name": "x74"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 3905,
+            "end": 3927,
+            "callee": {
+              "type": "Identifier",
+              "start": 3909,
+              "end": 3913,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 3914,
+                "end": 3918,
+                "value": 1999,
+                "raw": "1999"
+              },
+              {
+                "type": "Literal",
+                "start": 3920,
+                "end": 3922,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 3924,
+                "end": 3926,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 3929,
+      "end": 4024,
+      "expression": {
+        "type": "CallExpression",
+        "start": 3929,
+        "end": 4023,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 3929,
+          "end": 3948,
+          "object": {
+            "type": "Identifier",
+            "start": 3929,
+            "end": 3935,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 3936,
+            "end": 3948,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 3949,
+            "end": 3952,
+            "name": "x74"
+          },
+          {
+            "type": "Identifier",
+            "start": 3954,
+            "end": 3963,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 3965,
+            "end": 4022,
+            "value": "The value of x74 is expected to not equal ``undefined``",
+            "raw": "'The value of x74 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4026,
+      "end": 4165,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4026,
+        "end": 4164,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4026,
+          "end": 4042,
+          "object": {
+            "type": "Identifier",
+            "start": 4026,
+            "end": 4032,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4033,
+            "end": 4042,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 4046,
+            "end": 4074,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 4053,
+              "end": 4074,
+              "callee": {
+                "type": "Identifier",
+                "start": 4057,
+                "end": 4061,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 4062,
+                  "end": 4066,
+                  "value": 1999,
+                  "raw": "1999"
+                },
+                {
+                  "type": "Literal",
+                  "start": 4068,
+                  "end": 4070,
+                  "value": 12,
+                  "raw": "12"
+                },
+                {
+                  "type": "Literal",
+                  "start": 4072,
+                  "end": 4073,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4078,
+            "end": 4086,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 4090,
+            "end": 4162,
+            "value": "The value of `typeof new Date(1999, 12, 1)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(1999, 12, 1)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4167,
+      "end": 4285,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4167,
+        "end": 4284,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4167,
+          "end": 4186,
+          "object": {
+            "type": "Identifier",
+            "start": 4167,
+            "end": 4173,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4174,
+            "end": 4186,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 4187,
+            "end": 4208,
+            "callee": {
+              "type": "Identifier",
+              "start": 4191,
+              "end": 4195,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 4196,
+                "end": 4200,
+                "value": 1999,
+                "raw": "1999"
+              },
+              {
+                "type": "Literal",
+                "start": 4202,
+                "end": 4204,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 4206,
+                "end": 4207,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 4210,
+            "end": 4219,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 4221,
+            "end": 4283,
+            "value": "new Date(1999, 12, 1) is expected to not equal ``undefined``",
+            "raw": "'new Date(1999, 12, 1) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 4287,
+      "end": 4319,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4291,
+          "end": 4318,
+          "id": {
+            "type": "Identifier",
+            "start": 4291,
+            "end": 4294,
+            "name": "x83"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 4297,
+            "end": 4318,
+            "callee": {
+              "type": "Identifier",
+              "start": 4301,
+              "end": 4305,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 4306,
+                "end": 4310,
+                "value": 1999,
+                "raw": "1999"
+              },
+              {
+                "type": "Literal",
+                "start": 4312,
+                "end": 4314,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 4316,
+                "end": 4317,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4320,
+      "end": 4415,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4320,
+        "end": 4414,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4320,
+          "end": 4336,
+          "object": {
+            "type": "Identifier",
+            "start": 4320,
+            "end": 4326,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4327,
+            "end": 4336,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 4337,
+            "end": 4347,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 4344,
+              "end": 4347,
+              "name": "x83"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4349,
+            "end": 4357,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 4359,
+            "end": 4413,
+            "value": "The value of `typeof x83` is expected to be \"object\"",
+            "raw": "'The value of `typeof x83` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 4417,
+      "end": 4449,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4421,
+          "end": 4448,
+          "id": {
+            "type": "Identifier",
+            "start": 4421,
+            "end": 4424,
+            "name": "x84"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 4427,
+            "end": 4448,
+            "callee": {
+              "type": "Identifier",
+              "start": 4431,
+              "end": 4435,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 4436,
+                "end": 4440,
+                "value": 1999,
+                "raw": "1999"
+              },
+              {
+                "type": "Literal",
+                "start": 4442,
+                "end": 4444,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 4446,
+                "end": 4447,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4450,
+      "end": 4545,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4450,
+        "end": 4544,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4450,
+          "end": 4469,
+          "object": {
+            "type": "Identifier",
+            "start": 4450,
+            "end": 4456,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4457,
+            "end": 4469,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4470,
+            "end": 4473,
+            "name": "x84"
+          },
+          {
+            "type": "Identifier",
+            "start": 4475,
+            "end": 4484,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 4486,
+            "end": 4543,
+            "value": "The value of x84 is expected to not equal ``undefined``",
+            "raw": "'The value of x84 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4547,
+      "end": 4684,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4547,
+        "end": 4683,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4547,
+          "end": 4563,
+          "object": {
+            "type": "Identifier",
+            "start": 4547,
+            "end": 4553,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4554,
+            "end": 4563,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 4567,
+            "end": 4594,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 4574,
+              "end": 4594,
+              "callee": {
+                "type": "Identifier",
+                "start": 4578,
+                "end": 4582,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 4583,
+                  "end": 4587,
+                  "value": 2000,
+                  "raw": "2000"
+                },
+                {
+                  "type": "Literal",
+                  "start": 4589,
+                  "end": 4590,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 4592,
+                  "end": 4593,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4598,
+            "end": 4606,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 4610,
+            "end": 4681,
+            "value": "The value of `typeof new Date(2000, 0, 1)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(2000, 0, 1)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4686,
+      "end": 4802,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4686,
+        "end": 4801,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4686,
+          "end": 4705,
+          "object": {
+            "type": "Identifier",
+            "start": 4686,
+            "end": 4692,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4693,
+            "end": 4705,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 4706,
+            "end": 4726,
+            "callee": {
+              "type": "Identifier",
+              "start": 4710,
+              "end": 4714,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 4715,
+                "end": 4719,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 4721,
+                "end": 4722,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 4724,
+                "end": 4725,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 4728,
+            "end": 4737,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 4739,
+            "end": 4800,
+            "value": "new Date(2000, 0, 1) is expected to not equal ``undefined``",
+            "raw": "'new Date(2000, 0, 1) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 4804,
+      "end": 4835,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4808,
+          "end": 4834,
+          "id": {
+            "type": "Identifier",
+            "start": 4808,
+            "end": 4811,
+            "name": "x93"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 4814,
+            "end": 4834,
+            "callee": {
+              "type": "Identifier",
+              "start": 4818,
+              "end": 4822,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 4823,
+                "end": 4827,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 4829,
+                "end": 4830,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 4832,
+                "end": 4833,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4836,
+      "end": 4931,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4836,
+        "end": 4930,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4836,
+          "end": 4852,
+          "object": {
+            "type": "Identifier",
+            "start": 4836,
+            "end": 4842,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4843,
+            "end": 4852,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 4853,
+            "end": 4863,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 4860,
+              "end": 4863,
+              "name": "x93"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 4865,
+            "end": 4873,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 4875,
+            "end": 4929,
+            "value": "The value of `typeof x93` is expected to be \"object\"",
+            "raw": "'The value of `typeof x93` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 4933,
+      "end": 4964,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4937,
+          "end": 4963,
+          "id": {
+            "type": "Identifier",
+            "start": 4937,
+            "end": 4940,
+            "name": "x94"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 4943,
+            "end": 4963,
+            "callee": {
+              "type": "Identifier",
+              "start": 4947,
+              "end": 4951,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 4952,
+                "end": 4956,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 4958,
+                "end": 4959,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 4961,
+                "end": 4962,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 4965,
+      "end": 5060,
+      "expression": {
+        "type": "CallExpression",
+        "start": 4965,
+        "end": 5059,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4965,
+          "end": 4984,
+          "object": {
+            "type": "Identifier",
+            "start": 4965,
+            "end": 4971,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4972,
+            "end": 4984,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4985,
+            "end": 4988,
+            "name": "x94"
+          },
+          {
+            "type": "Identifier",
+            "start": 4990,
+            "end": 4999,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 5001,
+            "end": 5058,
+            "value": "The value of x94 is expected to not equal ``undefined``",
+            "raw": "'The value of x94 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5062,
+      "end": 5203,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5062,
+        "end": 5202,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5062,
+          "end": 5078,
+          "object": {
+            "type": "Identifier",
+            "start": 5062,
+            "end": 5068,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5069,
+            "end": 5078,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 5082,
+            "end": 5111,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 5089,
+              "end": 5111,
+              "callee": {
+                "type": "Identifier",
+                "start": 5093,
+                "end": 5097,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 5098,
+                  "end": 5102,
+                  "value": 2099,
+                  "raw": "2099"
+                },
+                {
+                  "type": "Literal",
+                  "start": 5104,
+                  "end": 5106,
+                  "value": 11,
+                  "raw": "11"
+                },
+                {
+                  "type": "Literal",
+                  "start": 5108,
+                  "end": 5110,
+                  "value": 31,
+                  "raw": "31"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 5115,
+            "end": 5123,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 5127,
+            "end": 5200,
+            "value": "The value of `typeof new Date(2099, 11, 31)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(2099, 11, 31)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5205,
+      "end": 5325,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5205,
+        "end": 5324,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5205,
+          "end": 5224,
+          "object": {
+            "type": "Identifier",
+            "start": 5205,
+            "end": 5211,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5212,
+            "end": 5224,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 5225,
+            "end": 5247,
+            "callee": {
+              "type": "Identifier",
+              "start": 5229,
+              "end": 5233,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 5234,
+                "end": 5238,
+                "value": 2099,
+                "raw": "2099"
+              },
+              {
+                "type": "Literal",
+                "start": 5240,
+                "end": 5242,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 5244,
+                "end": 5246,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 5249,
+            "end": 5258,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 5260,
+            "end": 5323,
+            "value": "new Date(2099, 11, 31) is expected to not equal ``undefined``",
+            "raw": "'new Date(2099, 11, 31) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 5327,
+      "end": 5361,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 5331,
+          "end": 5360,
+          "id": {
+            "type": "Identifier",
+            "start": 5331,
+            "end": 5335,
+            "name": "x103"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 5338,
+            "end": 5360,
+            "callee": {
+              "type": "Identifier",
+              "start": 5342,
+              "end": 5346,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 5347,
+                "end": 5351,
+                "value": 2099,
+                "raw": "2099"
+              },
+              {
+                "type": "Literal",
+                "start": 5353,
+                "end": 5355,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 5357,
+                "end": 5359,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5362,
+      "end": 5459,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5362,
+        "end": 5458,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5362,
+          "end": 5378,
+          "object": {
+            "type": "Identifier",
+            "start": 5362,
+            "end": 5368,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5369,
+            "end": 5378,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 5379,
+            "end": 5390,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 5386,
+              "end": 5390,
+              "name": "x103"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 5392,
+            "end": 5400,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 5402,
+            "end": 5457,
+            "value": "The value of `typeof x103` is expected to be \"object\"",
+            "raw": "'The value of `typeof x103` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 5461,
+      "end": 5495,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 5465,
+          "end": 5494,
+          "id": {
+            "type": "Identifier",
+            "start": 5465,
+            "end": 5469,
+            "name": "x104"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 5472,
+            "end": 5494,
+            "callee": {
+              "type": "Identifier",
+              "start": 5476,
+              "end": 5480,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 5481,
+                "end": 5485,
+                "value": 2099,
+                "raw": "2099"
+              },
+              {
+                "type": "Literal",
+                "start": 5487,
+                "end": 5489,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 5491,
+                "end": 5493,
+                "value": 31,
+                "raw": "31"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5496,
+      "end": 5593,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5496,
+        "end": 5592,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5496,
+          "end": 5515,
+          "object": {
+            "type": "Identifier",
+            "start": 5496,
+            "end": 5502,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5503,
+            "end": 5515,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 5516,
+            "end": 5520,
+            "name": "x104"
+          },
+          {
+            "type": "Identifier",
+            "start": 5522,
+            "end": 5531,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 5533,
+            "end": 5591,
+            "value": "The value of x104 is expected to not equal ``undefined``",
+            "raw": "'The value of x104 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5595,
+      "end": 5734,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5595,
+        "end": 5733,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5595,
+          "end": 5611,
+          "object": {
+            "type": "Identifier",
+            "start": 5595,
+            "end": 5601,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5602,
+            "end": 5611,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 5615,
+            "end": 5643,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 5622,
+              "end": 5643,
+              "callee": {
+                "type": "Identifier",
+                "start": 5626,
+                "end": 5630,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 5631,
+                  "end": 5635,
+                  "value": 2099,
+                  "raw": "2099"
+                },
+                {
+                  "type": "Literal",
+                  "start": 5637,
+                  "end": 5639,
+                  "value": 12,
+                  "raw": "12"
+                },
+                {
+                  "type": "Literal",
+                  "start": 5641,
+                  "end": 5642,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 5647,
+            "end": 5655,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 5659,
+            "end": 5731,
+            "value": "The value of `typeof new Date(2099, 12, 1)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(2099, 12, 1)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5736,
+      "end": 5854,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5736,
+        "end": 5853,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5736,
+          "end": 5755,
+          "object": {
+            "type": "Identifier",
+            "start": 5736,
+            "end": 5742,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5743,
+            "end": 5755,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 5756,
+            "end": 5777,
+            "callee": {
+              "type": "Identifier",
+              "start": 5760,
+              "end": 5764,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 5765,
+                "end": 5769,
+                "value": 2099,
+                "raw": "2099"
+              },
+              {
+                "type": "Literal",
+                "start": 5771,
+                "end": 5773,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 5775,
+                "end": 5776,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 5779,
+            "end": 5788,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 5790,
+            "end": 5852,
+            "value": "new Date(2099, 12, 1) is expected to not equal ``undefined``",
+            "raw": "'new Date(2099, 12, 1) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 5856,
+      "end": 5889,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 5860,
+          "end": 5888,
+          "id": {
+            "type": "Identifier",
+            "start": 5860,
+            "end": 5864,
+            "name": "x113"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 5867,
+            "end": 5888,
+            "callee": {
+              "type": "Identifier",
+              "start": 5871,
+              "end": 5875,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 5876,
+                "end": 5880,
+                "value": 2099,
+                "raw": "2099"
+              },
+              {
+                "type": "Literal",
+                "start": 5882,
+                "end": 5884,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 5886,
+                "end": 5887,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 5890,
+      "end": 5987,
+      "expression": {
+        "type": "CallExpression",
+        "start": 5890,
+        "end": 5986,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 5890,
+          "end": 5906,
+          "object": {
+            "type": "Identifier",
+            "start": 5890,
+            "end": 5896,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 5897,
+            "end": 5906,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 5907,
+            "end": 5918,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 5914,
+              "end": 5918,
+              "name": "x113"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 5920,
+            "end": 5928,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 5930,
+            "end": 5985,
+            "value": "The value of `typeof x113` is expected to be \"object\"",
+            "raw": "'The value of `typeof x113` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 5989,
+      "end": 6022,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 5993,
+          "end": 6021,
+          "id": {
+            "type": "Identifier",
+            "start": 5993,
+            "end": 5997,
+            "name": "x114"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 6000,
+            "end": 6021,
+            "callee": {
+              "type": "Identifier",
+              "start": 6004,
+              "end": 6008,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 6009,
+                "end": 6013,
+                "value": 2099,
+                "raw": "2099"
+              },
+              {
+                "type": "Literal",
+                "start": 6015,
+                "end": 6017,
+                "value": 12,
+                "raw": "12"
+              },
+              {
+                "type": "Literal",
+                "start": 6019,
+                "end": 6020,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6023,
+      "end": 6120,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6023,
+        "end": 6119,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6023,
+          "end": 6042,
+          "object": {
+            "type": "Identifier",
+            "start": 6023,
+            "end": 6029,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6030,
+            "end": 6042,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 6043,
+            "end": 6047,
+            "name": "x114"
+          },
+          {
+            "type": "Identifier",
+            "start": 6049,
+            "end": 6058,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 6060,
+            "end": 6118,
+            "value": "The value of x114 is expected to not equal ``undefined``",
+            "raw": "'The value of x114 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6122,
+      "end": 6259,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6122,
+        "end": 6258,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6122,
+          "end": 6138,
+          "object": {
+            "type": "Identifier",
+            "start": 6122,
+            "end": 6128,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6129,
+            "end": 6138,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 6142,
+            "end": 6169,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "NewExpression",
+              "start": 6149,
+              "end": 6169,
+              "callee": {
+                "type": "Identifier",
+                "start": 6153,
+                "end": 6157,
+                "name": "Date"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 6158,
+                  "end": 6162,
+                  "value": 2100,
+                  "raw": "2100"
+                },
+                {
+                  "type": "Literal",
+                  "start": 6164,
+                  "end": 6165,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 6167,
+                  "end": 6168,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 6173,
+            "end": 6181,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 6185,
+            "end": 6256,
+            "value": "The value of `typeof new Date(2100, 0, 1)` is expected to be \"object\"",
+            "raw": "'The value of `typeof new Date(2100, 0, 1)` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6261,
+      "end": 6377,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6261,
+        "end": 6376,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6261,
+          "end": 6280,
+          "object": {
+            "type": "Identifier",
+            "start": 6261,
+            "end": 6267,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6268,
+            "end": 6280,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 6281,
+            "end": 6301,
+            "callee": {
+              "type": "Identifier",
+              "start": 6285,
+              "end": 6289,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 6290,
+                "end": 6294,
+                "value": 2100,
+                "raw": "2100"
+              },
+              {
+                "type": "Literal",
+                "start": 6296,
+                "end": 6297,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 6299,
+                "end": 6300,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 6303,
+            "end": 6312,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 6314,
+            "end": 6375,
+            "value": "new Date(2100, 0, 1) is expected to not equal ``undefined``",
+            "raw": "'new Date(2100, 0, 1) is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 6379,
+      "end": 6411,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 6383,
+          "end": 6410,
+          "id": {
+            "type": "Identifier",
+            "start": 6383,
+            "end": 6387,
+            "name": "x123"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 6390,
+            "end": 6410,
+            "callee": {
+              "type": "Identifier",
+              "start": 6394,
+              "end": 6398,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 6399,
+                "end": 6403,
+                "value": 2100,
+                "raw": "2100"
+              },
+              {
+                "type": "Literal",
+                "start": 6405,
+                "end": 6406,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 6408,
+                "end": 6409,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6412,
+      "end": 6509,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6412,
+        "end": 6508,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6412,
+          "end": 6428,
+          "object": {
+            "type": "Identifier",
+            "start": 6412,
+            "end": 6418,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6419,
+            "end": 6428,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 6429,
+            "end": 6440,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 6436,
+              "end": 6440,
+              "name": "x123"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 6442,
+            "end": 6450,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 6452,
+            "end": 6507,
+            "value": "The value of `typeof x123` is expected to be \"object\"",
+            "raw": "'The value of `typeof x123` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 6511,
+      "end": 6543,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 6515,
+          "end": 6542,
+          "id": {
+            "type": "Identifier",
+            "start": 6515,
+            "end": 6519,
+            "name": "x124"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 6522,
+            "end": 6542,
+            "callee": {
+              "type": "Identifier",
+              "start": 6526,
+              "end": 6530,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 6531,
+                "end": 6535,
+                "value": 2100,
+                "raw": "2100"
+              },
+              {
+                "type": "Literal",
+                "start": 6537,
+                "end": 6538,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 6540,
+                "end": 6541,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 6544,
+      "end": 6641,
+      "expression": {
+        "type": "CallExpression",
+        "start": 6544,
+        "end": 6640,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 6544,
+          "end": 6563,
+          "object": {
+            "type": "Identifier",
+            "start": 6544,
+            "end": 6550,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 6551,
+            "end": 6563,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 6564,
+            "end": 6568,
+            "name": "x124"
+          },
+          {
+            "type": "Identifier",
+            "start": 6570,
+            "end": 6579,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 6581,
+            "end": 6639,
+            "value": "The value of x124 is expected to not equal ``undefined``",
+            "raw": "'The value of x124 is expected to not equal ``undefined``'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

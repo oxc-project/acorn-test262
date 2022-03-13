@@ -1,0 +1,728 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2166,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 550,
+      "end": 1941,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 554,
+          "end": 1940,
+          "id": {
+            "type": "Identifier",
+            "start": 554,
+            "end": 562,
+            "name": "testData"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 565,
+            "end": 1940,
+            "elements": [
+              {
+                "type": "ObjectExpression",
+                "start": 571,
+                "end": 622,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 581,
+                    "end": 590,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 581,
+                      "end": 584,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 586,
+                      "end": 590,
+                      "value": "mo",
+                      "raw": "\"mo\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 600,
+                    "end": 615,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 600,
+                      "end": 609,
+                      "name": "canonical"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 611,
+                      "end": 615,
+                      "value": "ro",
+                      "raw": "\"ro\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 628,
+                "end": 665,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 638,
+                    "end": 658,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 638,
+                      "end": 641,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 643,
+                      "end": 658,
+                      "value": "es-ES-preeuro",
+                      "raw": "\"es-ES-preeuro\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 671,
+                "end": 709,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 681,
+                    "end": 702,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 681,
+                      "end": 684,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 686,
+                      "end": 702,
+                      "value": "uz-UZ-cyrillic",
+                      "raw": "\"uz-UZ-cyrillic\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 715,
+                "end": 744,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 725,
+                    "end": 737,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 725,
+                      "end": 728,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 730,
+                      "end": 737,
+                      "value": "posix",
+                      "raw": "\"posix\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 750,
+                "end": 783,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 760,
+                    "end": 776,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 760,
+                      "end": 763,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 765,
+                      "end": 776,
+                      "value": "hi-direct",
+                      "raw": "\"hi-direct\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 789,
+                "end": 822,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 799,
+                    "end": 815,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 799,
+                      "end": 802,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 804,
+                      "end": 815,
+                      "value": "zh-pinyin",
+                      "raw": "\"zh-pinyin\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 828,
+                "end": 861,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 838,
+                    "end": 854,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 838,
+                      "end": 841,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 843,
+                      "end": 854,
+                      "value": "zh-stroke",
+                      "raw": "\"zh-stroke\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 867,
+                "end": 1171,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 877,
+                    "end": 897,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 877,
+                      "end": 880,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 882,
+                      "end": 897,
+                      "value": "aar-x-private",
+                      "raw": "\"aar-x-private\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1138,
+                    "end": 1163,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1138,
+                      "end": 1147,
+                      "name": "canonical"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1149,
+                      "end": 1163,
+                      "value": "aa-x-private",
+                      "raw": "\"aa-x-private\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1177,
+                "end": 1480,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1187,
+                    "end": 1207,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1187,
+                      "end": 1190,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1192,
+                      "end": 1207,
+                      "value": "heb-x-private",
+                      "raw": "\"heb-x-private\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1448,
+                    "end": 1473,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1448,
+                      "end": 1457,
+                      "name": "canonical"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1459,
+                      "end": 1473,
+                      "value": "he-x-private",
+                      "raw": "\"he-x-private\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1486,
+                "end": 1517,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1496,
+                    "end": 1510,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1496,
+                      "end": 1499,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1501,
+                      "end": 1510,
+                      "value": "de-u-kf",
+                      "raw": "\"de-u-kf\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1523,
+                "end": 1806,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1533,
+                    "end": 1543,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1533,
+                      "end": 1536,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1538,
+                      "end": 1543,
+                      "value": "ces",
+                      "raw": "\"ces\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1784,
+                    "end": 1799,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1784,
+                      "end": 1793,
+                      "name": "canonical"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1795,
+                      "end": 1799,
+                      "value": "cs",
+                      "raw": "\"cs\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1812,
+                "end": 1871,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1822,
+                    "end": 1839,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1822,
+                      "end": 1825,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1827,
+                      "end": 1839,
+                      "value": "hy-arevela",
+                      "raw": "\"hy-arevela\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1849,
+                    "end": 1864,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1849,
+                      "end": 1858,
+                      "name": "canonical"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1860,
+                      "end": 1864,
+                      "value": "hy",
+                      "raw": "\"hy\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 1877,
+                "end": 1937,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 1887,
+                    "end": 1904,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1887,
+                      "end": 1890,
+                      "name": "tag"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1892,
+                      "end": 1904,
+                      "value": "hy-arevmda",
+                      "raw": "\"hy-arevmda\""
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 1914,
+                    "end": 1930,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 1914,
+                      "end": 1923,
+                      "name": "canonical"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 1925,
+                      "end": 1930,
+                      "value": "hyw",
+                      "raw": "\"hyw\""
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 1943,
+      "end": 2165,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 1948,
+        "end": 1976,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 1954,
+            "end": 1976,
+            "id": {
+              "type": "ObjectPattern",
+              "start": 1954,
+              "end": 1976,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 1955,
+                  "end": 1958,
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 1955,
+                    "end": 1958,
+                    "name": "tag"
+                  },
+                  "kind": "init",
+                  "value": {
+                    "type": "Identifier",
+                    "start": 1955,
+                    "end": 1958,
+                    "name": "tag"
+                  }
+                },
+                {
+                  "type": "Property",
+                  "start": 1960,
+                  "end": 1975,
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 1960,
+                    "end": 1969,
+                    "name": "canonical"
+                  },
+                  "kind": "init",
+                  "value": {
+                    "type": "AssignmentPattern",
+                    "start": 1960,
+                    "end": 1975,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1960,
+                      "end": 1969,
+                      "name": "canonical"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1972,
+                      "end": 1975,
+                      "name": "tag"
+                    }
+                  }
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 1980,
+        "end": 1988,
+        "name": "testData"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 1990,
+        "end": 2165,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 1996,
+            "end": 2163,
+            "expression": {
+              "type": "CallExpression",
+              "start": 1996,
+              "end": 2162,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1996,
+                "end": 2012,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1996,
+                  "end": 2002,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 2003,
+                  "end": 2012,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 2020,
+                  "end": 2052,
+                  "object": {
+                    "type": "CallExpression",
+                    "start": 2020,
+                    "end": 2049,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2020,
+                      "end": 2044,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2020,
+                        "end": 2024,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2025,
+                        "end": 2044,
+                        "name": "getCanonicalLocales"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 2045,
+                        "end": 2048,
+                        "name": "tag"
+                      }
+                    ],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Literal",
+                    "start": 2050,
+                    "end": 2051,
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 2060,
+                  "end": 2069,
+                  "name": "canonical"
+                },
+                {
+                  "type": "Literal",
+                  "start": 2077,
+                  "end": 2156,
+                  "value": "The value of Intl.getCanonicalLocales(tag)[0] equals the value of `canonical`",
+                  "raw": "'The value of Intl.getCanonicalLocales(tag)[0] equals the value of `canonical`'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

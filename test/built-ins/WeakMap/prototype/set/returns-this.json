@@ -1,0 +1,124 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 433,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 334,
+      "end": 358,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 338,
+          "end": 357,
+          "id": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 341,
+            "name": "map"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 344,
+            "end": 357,
+            "callee": {
+              "type": "Identifier",
+              "start": 348,
+              "end": 355,
+              "name": "WeakMap"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 360,
+      "end": 432,
+      "expression": {
+        "type": "CallExpression",
+        "start": 360,
+        "end": 431,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 360,
+          "end": 376,
+          "object": {
+            "type": "Identifier",
+            "start": 360,
+            "end": 366,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 376,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 377,
+            "end": 391,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 377,
+              "end": 384,
+              "object": {
+                "type": "Identifier",
+                "start": 377,
+                "end": 380,
+                "name": "map"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 381,
+                "end": 384,
+                "name": "set"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 385,
+                "end": 387,
+                "properties": []
+              },
+              {
+                "type": "Literal",
+                "start": 389,
+                "end": 390,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 393,
+            "end": 396,
+            "name": "map"
+          },
+          {
+            "type": "Literal",
+            "start": 398,
+            "end": 430,
+            "value": "`map.set({}, 1)` returns `map`",
+            "raw": "'`map.set({}, 1)` returns `map`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,139 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2134,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2071,
+      "end": 2099,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 2078,
+        "end": 2099,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2082,
+            "end": 2098,
+            "id": {
+              "type": "Identifier",
+              "start": 2082,
+              "end": 2087,
+              "name": "name1"
+            },
+            "init": {
+              "type": "AwaitExpression",
+              "start": 2090,
+              "end": 2098,
+              "argument": {
+                "type": "TemplateLiteral",
+                "start": 2096,
+                "end": 2098,
+                "expressions": [],
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 2097,
+                    "end": 2097,
+                    "value": {
+                      "raw": "",
+                      "cooked": ""
+                    },
+                    "tail": true
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2100,
+      "end": 2133,
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 2107,
+        "end": 2133,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 2111,
+            "end": 2132,
+            "id": {
+              "type": "ObjectPattern",
+              "start": 2111,
+              "end": 2127,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 2113,
+                  "end": 2125,
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 2113,
+                    "end": 2114,
+                    "name": "x"
+                  },
+                  "kind": "init",
+                  "value": {
+                    "type": "AssignmentPattern",
+                    "start": 2113,
+                    "end": 2125,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 2113,
+                      "end": 2114,
+                      "name": "x"
+                    },
+                    "right": {
+                      "type": "AwaitExpression",
+                      "start": 2117,
+                      "end": 2125,
+                      "argument": {
+                        "type": "TemplateLiteral",
+                        "start": 2123,
+                        "end": 2125,
+                        "expressions": [],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 2124,
+                            "end": 2124,
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "init": {
+              "type": "ObjectExpression",
+              "start": 2130,
+              "end": 2132,
+              "properties": []
+            }
+          }
+        ],
+        "kind": "var"
+      },
+      "specifiers": [],
+      "source": null
+    }
+  ],
+  "sourceType": "module"
+}

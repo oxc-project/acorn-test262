@@ -1,0 +1,135 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 325,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 251,
+      "end": 290,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 255,
+          "end": 289,
+          "id": {
+            "type": "Identifier",
+            "start": 255,
+            "end": 262,
+            "name": "plusOne"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 265,
+            "end": 289,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 265,
+                "end": 266,
+                "name": "v"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 270,
+              "end": 289,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 274,
+                  "end": 287,
+                  "argument": {
+                    "type": "BinaryExpression",
+                    "start": 281,
+                    "end": 286,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 281,
+                      "end": 282,
+                      "name": "v"
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Literal",
+                      "start": 285,
+                      "end": 286,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 292,
+      "end": 324,
+      "expression": {
+        "type": "CallExpression",
+        "start": 292,
+        "end": 323,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 292,
+          "end": 308,
+          "object": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 298,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 299,
+            "end": 308,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 309,
+            "end": 319,
+            "callee": {
+              "type": "Identifier",
+              "start": 309,
+              "end": 316,
+              "name": "plusOne"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 317,
+                "end": 318,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 321,
+            "end": 322,
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

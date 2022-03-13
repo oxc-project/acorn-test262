@@ -1,0 +1,459 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 911,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 629,
+      "end": 685,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 633,
+          "end": 684,
+          "id": {
+            "type": "Identifier",
+            "start": 633,
+            "end": 636,
+            "name": "sum"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 639,
+            "end": 684,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 648,
+                "end": 649,
+                "name": "a"
+              },
+              {
+                "type": "Identifier",
+                "start": 651,
+                "end": 652,
+                "name": "b"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 654,
+              "end": 684,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 658,
+                  "end": 682,
+                  "argument": {
+                    "type": "BinaryExpression",
+                    "start": 665,
+                    "end": 681,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 665,
+                      "end": 677,
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 665,
+                        "end": 673,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 665,
+                          "end": 669
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 670,
+                          "end": 673,
+                          "name": "foo"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 676,
+                        "end": 677,
+                        "name": "a"
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 680,
+                      "end": 681,
+                      "name": "b"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 687,
+      "end": 725,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 691,
+          "end": 724,
+          "id": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 699,
+            "name": "sumBound"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 702,
+            "end": 724,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 702,
+              "end": 710,
+              "object": {
+                "type": "Identifier",
+                "start": 702,
+                "end": 705,
+                "name": "sum"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 706,
+                "end": 710,
+                "name": "bind"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 711,
+                "end": 720,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 712,
+                    "end": 719,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 712,
+                      "end": 715,
+                      "name": "foo"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 717,
+                      "end": 719,
+                      "value": 10,
+                      "raw": "10"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "Literal",
+                "start": 722,
+                "end": 723,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 726,
+      "end": 766,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 730,
+          "end": 765,
+          "id": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 739,
+            "name": "sumTarget"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 742,
+            "end": 765,
+            "callee": {
+              "type": "Identifier",
+              "start": 746,
+              "end": 751,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 752,
+                "end": 760,
+                "name": "sumBound"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 762,
+                "end": 764,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 767,
+      "end": 823,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 771,
+          "end": 822,
+          "id": {
+            "type": "Identifier",
+            "start": 771,
+            "end": 779,
+            "name": "sumProxy"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 782,
+            "end": 822,
+            "callee": {
+              "type": "Identifier",
+              "start": 786,
+              "end": 791,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 792,
+                "end": 801,
+                "name": "sumTarget"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 803,
+                "end": 821,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 807,
+                    "end": 818,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 807,
+                      "end": 812,
+                      "name": "apply"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 814,
+                      "end": 818,
+                      "value": null,
+                      "raw": "null"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 825,
+      "end": 859,
+      "expression": {
+        "type": "CallExpression",
+        "start": 825,
+        "end": 858,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 825,
+          "end": 841,
+          "object": {
+            "type": "Identifier",
+            "start": 825,
+            "end": 831,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 832,
+            "end": 841,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 842,
+            "end": 853,
+            "callee": {
+              "type": "Identifier",
+              "start": 842,
+              "end": 850,
+              "name": "sumProxy"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 851,
+                "end": 852,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 855,
+            "end": 857,
+            "value": 13,
+            "raw": "13"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 860,
+      "end": 910,
+      "expression": {
+        "type": "CallExpression",
+        "start": 860,
+        "end": 909,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 860,
+          "end": 876,
+          "object": {
+            "type": "Identifier",
+            "start": 860,
+            "end": 866,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 867,
+            "end": 876,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 877,
+            "end": 904,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 877,
+              "end": 890,
+              "object": {
+                "type": "Identifier",
+                "start": 877,
+                "end": 885,
+                "name": "sumProxy"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 886,
+                "end": 890,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 891,
+                "end": 900,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 892,
+                    "end": 899,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 892,
+                      "end": 895,
+                      "name": "foo"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 897,
+                      "end": 899,
+                      "value": 20,
+                      "raw": "20"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              {
+                "type": "Literal",
+                "start": 902,
+                "end": 903,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 906,
+            "end": 908,
+            "value": 14,
+            "raw": "14"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

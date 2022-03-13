@@ -1,0 +1,273 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 671,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 375,
+      "end": 495,
+      "expression": {
+        "type": "CallExpression",
+        "start": 375,
+        "end": 494,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 375,
+          "end": 391,
+          "object": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 381,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 391,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 395,
+            "end": 428,
+            "object": {
+              "type": "MemberExpression",
+              "start": 395,
+              "end": 421,
+              "object": {
+                "type": "MemberExpression",
+                "start": 395,
+                "end": 411,
+                "object": {
+                  "type": "Identifier",
+                  "start": 395,
+                  "end": 401,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 402,
+                  "end": 411,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 412,
+                "end": 421,
+                "name": "normalize"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 422,
+              "end": 428,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 430,
+            "end": 431,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 435,
+            "end": 492,
+            "value": "The value of `String.prototype.normalize.length` is `0`",
+            "raw": "'The value of `String.prototype.normalize.length` is `0`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 497,
+      "end": 555,
+      "expression": {
+        "type": "CallExpression",
+        "start": 497,
+        "end": 554,
+        "callee": {
+          "type": "Identifier",
+          "start": 497,
+          "end": 516,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 517,
+            "end": 543,
+            "object": {
+              "type": "MemberExpression",
+              "start": 517,
+              "end": 533,
+              "object": {
+                "type": "Identifier",
+                "start": 517,
+                "end": 523,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 524,
+                "end": 533,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 534,
+              "end": 543,
+              "name": "normalize"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 545,
+            "end": 553,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 556,
+      "end": 612,
+      "expression": {
+        "type": "CallExpression",
+        "start": 556,
+        "end": 611,
+        "callee": {
+          "type": "Identifier",
+          "start": 556,
+          "end": 573,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 574,
+            "end": 600,
+            "object": {
+              "type": "MemberExpression",
+              "start": 574,
+              "end": 590,
+              "object": {
+                "type": "Identifier",
+                "start": 574,
+                "end": 580,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 581,
+                "end": 590,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 591,
+              "end": 600,
+              "name": "normalize"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 602,
+            "end": 610,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 613,
+      "end": 670,
+      "expression": {
+        "type": "CallExpression",
+        "start": 613,
+        "end": 669,
+        "callee": {
+          "type": "Identifier",
+          "start": 613,
+          "end": 631,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 632,
+            "end": 658,
+            "object": {
+              "type": "MemberExpression",
+              "start": 632,
+              "end": 648,
+              "object": {
+                "type": "Identifier",
+                "start": 632,
+                "end": 638,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 639,
+                "end": 648,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 649,
+              "end": 658,
+              "name": "normalize"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 660,
+            "end": 668,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

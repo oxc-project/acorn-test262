@@ -1,0 +1,58 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2754,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 2638,
+      "end": 2698,
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "start": 2645,
+          "end": 2648,
+          "local": {
+            "type": "Identifier",
+            "start": 2645,
+            "end": 2648,
+            "name": "foo"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 2654,
+        "end": 2697,
+        "value": "./module-import-rejection-body_FIXTURE.js",
+        "raw": "'./module-import-rejection-body_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ThrowStatement",
+      "start": 2700,
+      "end": 2753,
+      "argument": {
+        "type": "NewExpression",
+        "start": 2706,
+        "end": 2752,
+        "callee": {
+          "type": "Identifier",
+          "start": 2710,
+          "end": 2722,
+          "name": "Test262Error"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 2723,
+            "end": 2751,
+            "value": "this should be unreachable",
+            "raw": "'this should be unreachable'"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "module"
+}

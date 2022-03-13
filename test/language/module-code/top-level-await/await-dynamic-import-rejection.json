@@ -1,0 +1,55 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2020,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 1906,
+      "end": 1964,
+      "expression": {
+        "type": "AwaitExpression",
+        "start": 1906,
+        "end": 1963,
+        "argument": {
+          "type": "ImportExpression",
+          "start": 1912,
+          "end": 1963,
+          "source": {
+            "type": "Literal",
+            "start": 1919,
+            "end": 1962,
+            "value": "./module-import-rejection-body_FIXTURE.js",
+            "raw": "'./module-import-rejection-body_FIXTURE.js'"
+          }
+        }
+      }
+    },
+    {
+      "type": "ThrowStatement",
+      "start": 1966,
+      "end": 2019,
+      "argument": {
+        "type": "NewExpression",
+        "start": 1972,
+        "end": 2018,
+        "callee": {
+          "type": "Identifier",
+          "start": 1976,
+          "end": 1988,
+          "name": "Test262Error"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 1989,
+            "end": 2017,
+            "value": "this should be unreachable",
+            "raw": "'this should be unreachable'"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "module"
+}

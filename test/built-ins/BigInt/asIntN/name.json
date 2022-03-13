@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 454,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 330,
+      "end": 453,
+      "expression": {
+        "type": "CallExpression",
+        "start": 330,
+        "end": 452,
+        "callee": {
+          "type": "Identifier",
+          "start": 330,
+          "end": 344,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 345,
+            "end": 358,
+            "object": {
+              "type": "Identifier",
+              "start": 345,
+              "end": 351,
+              "name": "BigInt"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 352,
+              "end": 358,
+              "name": "asIntN"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 366,
+            "value": "name",
+            "raw": "\"name\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 368,
+            "end": 451,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 372,
+                "end": 387,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 372,
+                  "end": 377,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 379,
+                  "end": 387,
+                  "value": "asIntN",
+                  "raw": "\"asIntN\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 391,
+                "end": 408,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 391,
+                  "end": 401,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 403,
+                  "end": 408,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 412,
+                "end": 427,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 412,
+                  "end": 420,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 422,
+                  "end": 427,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 431,
+                "end": 449,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 431,
+                  "end": 443,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 445,
+                  "end": 449,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

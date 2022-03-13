@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 844,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 727,
+      "end": 817,
+      "expression": {
+        "type": "CallExpression",
+        "start": 727,
+        "end": 816,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 727,
+          "end": 743,
+          "object": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 733,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 734,
+            "end": 743,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 744,
+            "end": 766,
+            "callee": {
+              "type": "Identifier",
+              "start": 744,
+              "end": 757,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 758,
+                "end": 765,
+                "name": "Promise"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 768,
+            "end": 772,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 774,
+            "end": 815,
+            "value": "isConstructor(Promise) must return true",
+            "raw": "'isConstructor(Promise) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 818,
+      "end": 840,
+      "expression": {
+        "type": "NewExpression",
+        "start": 818,
+        "end": 839,
+        "callee": {
+          "type": "Identifier",
+          "start": 822,
+          "end": 829,
+          "name": "Promise"
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 830,
+            "end": 838,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 836,
+              "end": 838,
+              "body": []
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,171 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 781,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 699,
+      "end": 714,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 705,
+          "end": 713,
+          "id": {
+            "type": "Identifier",
+            "start": 705,
+            "end": 706,
+            "name": "c"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 709,
+            "end": 713,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 716,
+      "end": 780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 716,
+        "end": 779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 716,
+          "end": 729,
+          "object": {
+            "type": "Identifier",
+            "start": 716,
+            "end": 722,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 723,
+            "end": 729,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 730,
+            "end": 739,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 741,
+            "end": 778,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 752,
+              "end": 778,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 756,
+                  "end": 776,
+                  "expression": {
+                    "type": "SequenceExpression",
+                    "start": 756,
+                    "end": 775,
+                    "expressions": [
+                      {
+                        "type": "Literal",
+                        "start": 756,
+                        "end": 757,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "AssignmentExpression",
+                        "start": 759,
+                        "end": 775,
+                        "operator": "=",
+                        "left": {
+                          "type": "ObjectPattern",
+                          "start": 759,
+                          "end": 764,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 761,
+                              "end": 762,
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 761,
+                                "end": 762,
+                                "name": "c"
+                              },
+                              "kind": "init",
+                              "value": {
+                                "type": "Identifier",
+                                "start": 761,
+                                "end": 762,
+                                "name": "c"
+                              }
+                            }
+                          ]
+                        },
+                        "right": {
+                          "type": "ObjectExpression",
+                          "start": 767,
+                          "end": 775,
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "start": 769,
+                              "end": 773,
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 769,
+                                "end": 770,
+                                "name": "c"
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "start": 772,
+                                "end": 773,
+                                "value": 1,
+                                "raw": "1"
+                              },
+                              "kind": "init"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

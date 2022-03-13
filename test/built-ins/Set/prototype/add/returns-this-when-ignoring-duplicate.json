@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 498,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 418,
+      "end": 439,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 422,
+          "end": 438,
+          "id": {
+            "type": "Identifier",
+            "start": 422,
+            "end": 423,
+            "name": "s"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 426,
+            "end": 438,
+            "callee": {
+              "type": "Identifier",
+              "start": 430,
+              "end": 433,
+              "name": "Set"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 434,
+                "end": 437,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 435,
+                    "end": 436,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 441,
+      "end": 497,
+      "expression": {
+        "type": "CallExpression",
+        "start": 441,
+        "end": 496,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 441,
+          "end": 457,
+          "object": {
+            "type": "Identifier",
+            "start": 441,
+            "end": 447,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 448,
+            "end": 457,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 458,
+            "end": 466,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 458,
+              "end": 463,
+              "object": {
+                "type": "Identifier",
+                "start": 458,
+                "end": 459,
+                "name": "s"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 460,
+                "end": 463,
+                "name": "add"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 464,
+                "end": 465,
+                "value": 1,
+                "raw": "1"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 468,
+            "end": 469,
+            "name": "s"
+          },
+          {
+            "type": "Literal",
+            "start": 471,
+            "end": 495,
+            "value": "`s.add(1)` returns `s`",
+            "raw": "\"`s.add(1)` returns `s`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

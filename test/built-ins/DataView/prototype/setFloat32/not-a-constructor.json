@@ -1,0 +1,259 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1069,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 724,
+      "end": 868,
+      "expression": {
+        "type": "CallExpression",
+        "start": 724,
+        "end": 867,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 724,
+          "end": 740,
+          "object": {
+            "type": "Identifier",
+            "start": 724,
+            "end": 730,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 740,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 744,
+            "end": 788,
+            "callee": {
+              "type": "Identifier",
+              "start": 744,
+              "end": 757,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 758,
+                "end": 787,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 758,
+                  "end": 776,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 758,
+                    "end": 766,
+                    "name": "DataView"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 767,
+                    "end": 776,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 777,
+                  "end": 787,
+                  "name": "setFloat32"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 792,
+            "end": 797,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 801,
+            "end": 865,
+            "value": "isConstructor(DataView.prototype.setFloat32) must return false",
+            "raw": "'isConstructor(DataView.prototype.setFloat32) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 870,
+      "end": 1067,
+      "expression": {
+        "type": "CallExpression",
+        "start": 870,
+        "end": 1066,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 870,
+          "end": 883,
+          "object": {
+            "type": "Identifier",
+            "start": 870,
+            "end": 876,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 877,
+            "end": 883,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 884,
+            "end": 893,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 895,
+            "end": 975,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 901,
+              "end": 975,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 905,
+                  "end": 948,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 909,
+                      "end": 947,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 909,
+                        "end": 911,
+                        "name": "dv"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 914,
+                        "end": 947,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 918,
+                          "end": 926,
+                          "name": "DataView"
+                        },
+                        "arguments": [
+                          {
+                            "type": "NewExpression",
+                            "start": 927,
+                            "end": 946,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 931,
+                              "end": 942,
+                              "name": "ArrayBuffer"
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "start": 943,
+                                "end": 945,
+                                "value": 16,
+                                "raw": "16"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "let"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 949,
+                  "end": 973,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 949,
+                    "end": 972,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 953,
+                      "end": 966,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 953,
+                        "end": 955,
+                        "name": "dv"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 956,
+                        "end": 966,
+                        "name": "setFloat32"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 967,
+                        "end": 968,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 970,
+                        "end": 971,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 977,
+            "end": 1065,
+            "value": "`let dv = new DataView(new ArrayBuffer(16)); new dv.setFloat32(0, 0)` throws TypeError",
+            "raw": "'`let dv = new DataView(new ArrayBuffer(16)); new dv.setFloat32(0, 0)` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

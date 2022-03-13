@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 699,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 572,
+      "end": 698,
+      "expression": {
+        "type": "CallExpression",
+        "start": 572,
+        "end": 697,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 572,
+          "end": 585,
+          "object": {
+            "type": "Identifier",
+            "start": 572,
+            "end": 578,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 585,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 586,
+            "end": 597,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 599,
+            "end": 696,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 610,
+              "end": 696,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 624,
+                  "end": 694,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 624,
+                    "end": 693,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 624,
+                      "end": 628,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 629,
+                        "end": 692,
+                        "value": "'use strict'; var _13_1_29_fun = function (param, param) { };",
+                        "raw": "\"'use strict'; var _13_1_29_fun = function (param, param) { };\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

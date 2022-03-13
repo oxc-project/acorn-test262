@@ -1,0 +1,242 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 796,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 407,
+      "end": 618,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 413,
+          "end": 617,
+          "id": {
+            "type": "Identifier",
+            "start": 413,
+            "end": 432,
+            "name": "invalidLanguageTags"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 435,
+            "end": 617,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 486,
+                "end": 492,
+                "value": "da-u",
+                "raw": "\"da-u\""
+              },
+              {
+                "type": "Literal",
+                "start": 496,
+                "end": 503,
+                "value": "da-u-",
+                "raw": "\"da-u-\""
+              },
+              {
+                "type": "Literal",
+                "start": 507,
+                "end": 515,
+                "value": "da-u--",
+                "raw": "\"da-u--\""
+              },
+              {
+                "type": "Literal",
+                "start": 519,
+                "end": 532,
+                "value": "da-u-t-latn",
+                "raw": "\"da-u-t-latn\""
+              },
+              {
+                "type": "Literal",
+                "start": 536,
+                "end": 549,
+                "value": "da-u-x-priv",
+                "raw": "\"da-u-x-priv\""
+              },
+              {
+                "type": "Literal",
+                "start": 584,
+                "end": 615,
+                "value": "da-u-ca-gregory-u-ca-buddhist",
+                "raw": "\"da-u-ca-gregory-u-ca-buddhist\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 620,
+      "end": 795,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 625,
+        "end": 638,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 631,
+            "end": 638,
+            "id": {
+              "type": "Identifier",
+              "start": 631,
+              "end": 638,
+              "name": "langtag"
+            },
+            "init": null
+          }
+        ],
+        "kind": "const"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 642,
+        "end": 661,
+        "name": "invalidLanguageTags"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 663,
+        "end": 795,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 667,
+            "end": 793,
+            "expression": {
+              "type": "CallExpression",
+              "start": 667,
+              "end": 792,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 667,
+                "end": 680,
+                "object": {
+                  "type": "Identifier",
+                  "start": 667,
+                  "end": 673,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 674,
+                  "end": 680,
+                  "name": "throws"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 681,
+                  "end": 691,
+                  "name": "RangeError"
+                },
+                {
+                  "type": "FunctionExpression",
+                  "start": 693,
+                  "end": 738,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 704,
+                    "end": 738,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 710,
+                        "end": 734,
+                        "expression": {
+                          "type": "NewExpression",
+                          "start": 710,
+                          "end": 734,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 714,
+                            "end": 725,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 714,
+                              "end": 718,
+                              "name": "Intl"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 719,
+                              "end": 725,
+                              "name": "Locale"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "arguments": [
+                            {
+                              "type": "Identifier",
+                              "start": 726,
+                              "end": 733,
+                              "name": "langtag"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "TemplateLiteral",
+                  "start": 742,
+                  "end": 791,
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 762,
+                      "end": 769,
+                      "name": "langtag"
+                    }
+                  ],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 743,
+                      "end": 760,
+                      "value": {
+                        "raw": "new Intl.Locale(\"",
+                        "cooked": "new Intl.Locale(\""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 770,
+                      "end": 790,
+                      "value": {
+                        "raw": "\") throws RangeError",
+                        "cooked": "\") throws RangeError"
+                      },
+                      "tail": true
+                    }
+                  ]
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

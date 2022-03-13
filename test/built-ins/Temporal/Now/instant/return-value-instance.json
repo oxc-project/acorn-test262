@@ -1,0 +1,116 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 331,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 246,
+      "end": 285,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 252,
+          "end": 284,
+          "id": {
+            "type": "Identifier",
+            "start": 252,
+            "end": 259,
+            "name": "instant"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 262,
+            "end": 284,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 262,
+              "end": 282,
+              "object": {
+                "type": "MemberExpression",
+                "start": 262,
+                "end": 274,
+                "object": {
+                  "type": "Identifier",
+                  "start": 262,
+                  "end": 270,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 271,
+                  "end": 274,
+                  "name": "Now"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 275,
+                "end": 282,
+                "name": "instant"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 286,
+      "end": 330,
+      "expression": {
+        "type": "CallExpression",
+        "start": 286,
+        "end": 329,
+        "callee": {
+          "type": "Identifier",
+          "start": 286,
+          "end": 292,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 293,
+            "end": 328,
+            "left": {
+              "type": "Identifier",
+              "start": 293,
+              "end": 300,
+              "name": "instant"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "start": 312,
+              "end": 328,
+              "object": {
+                "type": "Identifier",
+                "start": 312,
+                "end": 320,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 321,
+                "end": 328,
+                "name": "Instant"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

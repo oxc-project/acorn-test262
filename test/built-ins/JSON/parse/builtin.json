@@ -1,0 +1,440 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 948,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 304,
+      "end": 327,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 308,
+          "end": 326,
+          "id": {
+            "type": "Identifier",
+            "start": 308,
+            "end": 313,
+            "name": "parse"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 316,
+            "end": 326,
+            "object": {
+              "type": "Identifier",
+              "start": 316,
+              "end": 320,
+              "name": "JSON"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 321,
+              "end": 326,
+              "name": "parse"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 328,
+      "end": 410,
+      "expression": {
+        "type": "CallExpression",
+        "start": 328,
+        "end": 409,
+        "callee": {
+          "type": "Identifier",
+          "start": 328,
+          "end": 334,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 335,
+            "end": 361,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 335,
+              "end": 354,
+              "object": {
+                "type": "Identifier",
+                "start": 335,
+                "end": 341,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 354,
+                "name": "isExtensible"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 355,
+                "end": 360,
+                "name": "parse"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 363,
+            "end": 408,
+            "value": "Object.isExtensible(parse) must return true",
+            "raw": "'Object.isExtensible(parse) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 411,
+      "end": 499,
+      "expression": {
+        "type": "CallExpression",
+        "start": 411,
+        "end": 498,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 411,
+          "end": 427,
+          "object": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 417,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 427,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 428,
+            "end": 440,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 435,
+              "end": 440,
+              "name": "parse"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 442,
+            "end": 452,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 454,
+            "end": 497,
+            "value": "The value of `typeof parse` is \"function\"",
+            "raw": "'The value of `typeof parse` is \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 500,
+      "end": 665,
+      "expression": {
+        "type": "CallExpression",
+        "start": 500,
+        "end": 664,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 500,
+          "end": 516,
+          "object": {
+            "type": "Identifier",
+            "start": 500,
+            "end": 506,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 507,
+            "end": 516,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 520,
+            "end": 557,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 520,
+              "end": 550,
+              "object": {
+                "type": "MemberExpression",
+                "start": 520,
+                "end": 545,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 520,
+                  "end": 536,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 520,
+                    "end": 526,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 527,
+                    "end": 536,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 537,
+                  "end": 545,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 546,
+                "end": 550,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 551,
+                "end": 556,
+                "name": "parse"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 561,
+            "end": 580,
+            "value": "[object Function]",
+            "raw": "'[object Function]'"
+          },
+          {
+            "type": "Literal",
+            "start": 584,
+            "end": 662,
+            "value": "Object.prototype.toString.call(\"JSON.parse\") must return \"[object Function]\"",
+            "raw": "'Object.prototype.toString.call(\"JSON.parse\") must return \"[object Function]\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 666,
+      "end": 824,
+      "expression": {
+        "type": "CallExpression",
+        "start": 666,
+        "end": 823,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 666,
+          "end": 682,
+          "object": {
+            "type": "Identifier",
+            "start": 666,
+            "end": 672,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 673,
+            "end": 682,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 686,
+            "end": 714,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 686,
+              "end": 707,
+              "object": {
+                "type": "Identifier",
+                "start": 686,
+                "end": 692,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 693,
+                "end": 707,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 708,
+                "end": 713,
+                "name": "parse"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 718,
+            "end": 736,
+            "object": {
+              "type": "Identifier",
+              "start": 718,
+              "end": 726,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 727,
+              "end": 736,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 740,
+            "end": 821,
+            "value": "Object.getPrototypeOf(\"JSON.parse\") must return the value of Function.prototype",
+            "raw": "'Object.getPrototypeOf(\"JSON.parse\") must return the value of Function.prototype'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 825,
+      "end": 947,
+      "expression": {
+        "type": "CallExpression",
+        "start": 825,
+        "end": 946,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 825,
+          "end": 841,
+          "object": {
+            "type": "Identifier",
+            "start": 825,
+            "end": 831,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 832,
+            "end": 841,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 845,
+            "end": 878,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 845,
+              "end": 865,
+              "object": {
+                "type": "Identifier",
+                "start": 845,
+                "end": 850,
+                "name": "parse"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 851,
+                "end": 865,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 866,
+                "end": 877,
+                "value": "prototype",
+                "raw": "'prototype'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 882,
+            "end": 887,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 891,
+            "end": 944,
+            "value": "parse.hasOwnProperty(\"prototype\") must return false",
+            "raw": "'parse.hasOwnProperty(\"prototype\") must return false'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,37 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 302,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 287,
+      "end": 301,
+      "expression": {
+        "type": "BinaryExpression",
+        "start": 287,
+        "end": 301,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 287,
+          "end": 297,
+          "expression": {
+            "type": "ObjectExpression",
+            "start": 293,
+            "end": 295,
+            "properties": []
+          }
+        },
+        "operator": "*",
+        "right": {
+          "type": "Literal",
+          "start": 300,
+          "end": 301,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}

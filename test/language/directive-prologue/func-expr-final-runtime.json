@@ -1,0 +1,123 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 518,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 364,
+      "end": 517,
+      "expression": {
+        "type": "CallExpression",
+        "start": 364,
+        "end": 516,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 364,
+          "end": 513,
+          "expression": {
+            "type": "FunctionExpression",
+            "start": 365,
+            "end": 512,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 377,
+              "end": 512,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 391,
+                  "end": 418,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 391,
+                    "end": 417,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 391,
+                      "end": 410,
+                      "name": "test262unresolvable"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 413,
+                      "end": 417,
+                      "value": null,
+                      "raw": "null"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 431,
+                  "end": 444,
+                  "expression": {
+                    "type": "Literal",
+                    "start": 431,
+                    "end": 443,
+                    "value": "use strict",
+                    "raw": "\"use strict\""
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 458,
+                  "end": 502,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 458,
+                    "end": 501,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 458,
+                      "end": 474,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 458,
+                        "end": 464,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 465,
+                        "end": 474,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 475,
+                        "end": 494,
+                        "name": "test262unresolvable"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 496,
+                        "end": 500,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

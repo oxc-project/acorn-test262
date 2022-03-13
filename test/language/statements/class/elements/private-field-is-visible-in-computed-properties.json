@@ -1,0 +1,166 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1745,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1548,
+      "end": 1566,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1554,
+          "end": 1565,
+          "id": {
+            "type": "Identifier",
+            "start": 1554,
+            "end": 1558,
+            "name": "self"
+          },
+          "init": {
+            "type": "ThisExpression",
+            "start": 1561,
+            "end": 1565
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1567,
+      "end": 1743,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1567,
+        "end": 1742,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1567,
+          "end": 1580,
+          "object": {
+            "type": "Identifier",
+            "start": 1567,
+            "end": 1573,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1574,
+            "end": 1580,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1581,
+            "end": 1590,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1592,
+            "end": 1665,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1603,
+              "end": 1665,
+              "body": [
+                {
+                  "type": "ClassDeclaration",
+                  "start": 1607,
+                  "end": 1663,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 1613,
+                    "end": 1614,
+                    "name": "C"
+                  },
+                  "superClass": null,
+                  "body": {
+                    "type": "ClassBody",
+                    "start": 1615,
+                    "end": 1663,
+                    "body": [
+                      {
+                        "type": "PropertyDefinition",
+                        "start": 1621,
+                        "end": 1643,
+                        "static": false,
+                        "computed": true,
+                        "key": {
+                          "type": "MemberExpression",
+                          "start": 1622,
+                          "end": 1629,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 1622,
+                            "end": 1626,
+                            "name": "self"
+                          },
+                          "property": {
+                            "type": "PrivateIdentifier",
+                            "start": 1627,
+                            "end": 1629,
+                            "name": "f"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "value": {
+                          "type": "Literal",
+                          "start": 1633,
+                          "end": 1642,
+                          "value": "Test262",
+                          "raw": "'Test262'"
+                        }
+                      },
+                      {
+                        "type": "PropertyDefinition",
+                        "start": 1648,
+                        "end": 1659,
+                        "static": false,
+                        "computed": false,
+                        "key": {
+                          "type": "PrivateIdentifier",
+                          "start": 1648,
+                          "end": 1650,
+                          "name": "f"
+                        },
+                        "value": {
+                          "type": "Literal",
+                          "start": 1653,
+                          "end": 1658,
+                          "value": "foo",
+                          "raw": "'foo'"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1667,
+            "end": 1741,
+            "value": "access to a not defined private field in object should throw a TypeError",
+            "raw": "'access to a not defined private field in object should throw a TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

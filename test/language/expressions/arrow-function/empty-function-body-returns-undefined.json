@@ -1,0 +1,94 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 281,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 221,
+      "end": 242,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 225,
+          "end": 241,
+          "id": {
+            "type": "Identifier",
+            "start": 225,
+            "end": 230,
+            "name": "empty"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 233,
+            "end": 241,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 239,
+              "end": 241,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 243,
+      "end": 280,
+      "expression": {
+        "type": "CallExpression",
+        "start": 243,
+        "end": 279,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 243,
+          "end": 259,
+          "object": {
+            "type": "Identifier",
+            "start": 243,
+            "end": 249,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 250,
+            "end": 259,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 260,
+            "end": 267,
+            "callee": {
+              "type": "Identifier",
+              "start": 260,
+              "end": 265,
+              "name": "empty"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 269,
+            "end": 278,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

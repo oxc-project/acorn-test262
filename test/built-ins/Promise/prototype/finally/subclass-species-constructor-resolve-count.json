@@ -1,0 +1,303 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 565,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 310,
+      "end": 403,
+      "id": {
+        "type": "Identifier",
+        "start": 316,
+        "end": 326,
+        "name": "FooPromise"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 335,
+        "end": 342,
+        "name": "Promise"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 343,
+        "end": 403,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 347,
+            "end": 401,
+            "static": true,
+            "computed": true,
+            "key": {
+              "type": "MemberExpression",
+              "start": 358,
+              "end": 372,
+              "object": {
+                "type": "Identifier",
+                "start": 358,
+                "end": 364,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 365,
+                "end": 372,
+                "name": "species"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "kind": "get",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 373,
+              "end": 401,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 376,
+                "end": 401,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 382,
+                    "end": 397,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 389,
+                      "end": 396,
+                      "name": "Promise"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 405,
+      "end": 467,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 409,
+          "end": 466,
+          "id": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 410,
+            "name": "p"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 413,
+            "end": 466,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 413,
+              "end": 438,
+              "object": {
+                "type": "CallExpression",
+                "start": 413,
+                "end": 430,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 413,
+                  "end": 428,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 413,
+                    "end": 420,
+                    "name": "Promise"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 421,
+                    "end": 428,
+                    "name": "resolve"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 431,
+                "end": 438,
+                "name": "finally"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ArrowFunctionExpression",
+                "start": 439,
+                "end": 465,
+                "id": null,
+                "expression": true,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "CallExpression",
+                  "start": 445,
+                  "end": 465,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 445,
+                    "end": 463,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 445,
+                      "end": 455,
+                      "name": "FooPromise"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 456,
+                      "end": 463,
+                      "name": "resolve"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 469,
+      "end": 514,
+      "expression": {
+        "type": "CallExpression",
+        "start": 469,
+        "end": 513,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 469,
+          "end": 485,
+          "object": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 475,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 476,
+            "end": 485,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 486,
+            "end": 506,
+            "left": {
+              "type": "Identifier",
+              "start": 486,
+              "end": 487,
+              "name": "p"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 499,
+              "end": 506,
+              "name": "Promise"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 508,
+            "end": 512,
+            "value": true,
+            "raw": "true"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 515,
+      "end": 564,
+      "expression": {
+        "type": "CallExpression",
+        "start": 515,
+        "end": 563,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 515,
+          "end": 531,
+          "object": {
+            "type": "Identifier",
+            "start": 515,
+            "end": 521,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 522,
+            "end": 531,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 532,
+            "end": 555,
+            "left": {
+              "type": "Identifier",
+              "start": 532,
+              "end": 533,
+              "name": "p"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 545,
+              "end": 555,
+              "name": "FooPromise"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 557,
+            "end": 562,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

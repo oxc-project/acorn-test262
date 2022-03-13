@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 427,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 295,
+      "end": 426,
+      "expression": {
+        "type": "CallExpression",
+        "start": 295,
+        "end": 425,
+        "callee": {
+          "type": "Identifier",
+          "start": 295,
+          "end": 309,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 310,
+            "end": 327,
+            "object": {
+              "type": "Identifier",
+              "start": 310,
+              "end": 317,
+              "name": "Atomics"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 318,
+              "end": 327,
+              "name": "waitAsync"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 329,
+            "end": 335,
+            "value": "name",
+            "raw": "'name'"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 337,
+            "end": 424,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 341,
+                "end": 359,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 341,
+                  "end": 346,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 348,
+                  "end": 359,
+                  "value": "waitAsync",
+                  "raw": "'waitAsync'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 363,
+                "end": 380,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 363,
+                  "end": 373,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 375,
+                  "end": 380,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 384,
+                "end": 399,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 384,
+                  "end": 392,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 394,
+                  "end": 399,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 403,
+                "end": 421,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 403,
+                  "end": 415,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 417,
+                  "end": 421,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

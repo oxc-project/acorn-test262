@@ -1,0 +1,137 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 749,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 658,
+      "end": 689,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 662,
+          "end": 688,
+          "id": {
+            "type": "Identifier",
+            "start": 662,
+            "end": 671,
+            "name": "IsHTMLDDA"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 674,
+            "end": 688,
+            "object": {
+              "type": "Identifier",
+              "start": 674,
+              "end": 678,
+              "name": "$262"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 679,
+              "end": 688,
+              "name": "IsHTMLDDA"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 691,
+      "end": 710,
+      "expression": {
+        "type": "CallExpression",
+        "start": 691,
+        "end": 709,
+        "callee": {
+          "type": "Identifier",
+          "start": 691,
+          "end": 697,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 698,
+            "end": 708,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 699,
+              "end": 708,
+              "name": "IsHTMLDDA"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 711,
+      "end": 748,
+      "expression": {
+        "type": "CallExpression",
+        "start": 711,
+        "end": 747,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 711,
+          "end": 727,
+          "object": {
+            "type": "Identifier",
+            "start": 711,
+            "end": 717,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 718,
+            "end": 727,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 728,
+            "end": 739,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 729,
+              "end": 739,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 730,
+                "end": 739,
+                "name": "IsHTMLDDA"
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 741,
+            "end": 746,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

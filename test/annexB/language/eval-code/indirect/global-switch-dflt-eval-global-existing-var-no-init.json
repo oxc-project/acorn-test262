@@ -1,0 +1,92 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 711,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 583,
+      "end": 710,
+      "expression": {
+        "type": "CallExpression",
+        "start": 583,
+        "end": 709,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 583,
+          "end": 591,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 584,
+            "end": 590,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 584,
+                "end": 585,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 586,
+                "end": 590,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 595,
+            "end": 707,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 595,
+              "end": 695,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 595,
+                "end": 667,
+                "left": {
+                  "type": "Literal",
+                  "start": 595,
+                  "end": 650,
+                  "value": "var f = 123;  assert.sameValue(f, 123);switch (1) {",
+                  "raw": "'var f = 123;\\\n  assert.sameValue(f, 123);switch (1) {'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 655,
+                  "end": 667,
+                  "value": "  default:",
+                  "raw": "'  default:'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 672,
+                "end": 695,
+                "value": "    function f() {  }",
+                "raw": "'    function f() {  }'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 700,
+              "end": 707,
+              "value": "}  ",
+              "raw": "'}\\\n  '"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

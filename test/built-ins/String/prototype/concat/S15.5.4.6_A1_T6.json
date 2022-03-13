@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 801,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 523,
+      "end": 710,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 527,
+        "end": 575,
+        "left": {
+          "type": "CallExpression",
+          "start": 527,
+          "end": 555,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 527,
+            "end": 552,
+            "object": {
+              "type": "NewExpression",
+              "start": 527,
+              "end": 545,
+              "callee": {
+                "type": "Identifier",
+                "start": 531,
+                "end": 537,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 538,
+                  "end": 544,
+                  "value": "lego",
+                  "raw": "\"lego\""
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 546,
+              "end": 552,
+              "name": "concat"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 553,
+              "end": 554,
+              "name": "x"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 560,
+          "end": 575,
+          "value": "legoundefined",
+          "raw": "\"legoundefined\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 577,
+        "end": 710,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 581,
+            "end": 708,
+            "argument": {
+              "type": "NewExpression",
+              "start": 587,
+              "end": 707,
+              "callee": {
+                "type": "Identifier",
+                "start": 591,
+                "end": 603,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 604,
+                  "end": 706,
+                  "left": {
+                    "type": "Literal",
+                    "start": 604,
+                    "end": 675,
+                    "value": "#1: var x; new String(\"lego\").concat(x) === \"legoundefined\". Actual: ",
+                    "raw": "'#1: var x; new String(\"lego\").concat(x) === \"legoundefined\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 678,
+                    "end": 706,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 678,
+                      "end": 703,
+                      "object": {
+                        "type": "NewExpression",
+                        "start": 678,
+                        "end": 696,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 682,
+                          "end": 688,
+                          "name": "String"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 689,
+                            "end": 695,
+                            "value": "lego",
+                            "raw": "\"lego\""
+                          }
+                        ]
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 697,
+                        "end": 703,
+                        "name": "concat"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 704,
+                        "end": 705,
+                        "name": "x"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 794,
+      "end": 800,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 798,
+          "end": 799,
+          "id": {
+            "type": "Identifier",
+            "start": 798,
+            "end": 799,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

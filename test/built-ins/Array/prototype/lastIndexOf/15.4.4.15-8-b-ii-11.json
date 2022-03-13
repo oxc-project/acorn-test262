@@ -1,0 +1,175 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 460,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 325,
+      "end": 339,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 329,
+          "end": 338,
+          "id": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 333,
+            "name": "obj1"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 336,
+            "end": 338,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 340,
+      "end": 354,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 344,
+          "end": 353,
+          "id": {
+            "type": "Identifier",
+            "start": 344,
+            "end": 348,
+            "name": "obj2"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 351,
+            "end": 353,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 355,
+      "end": 371,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 359,
+          "end": 370,
+          "id": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 363,
+            "name": "obj3"
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 370,
+            "name": "obj2"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 373,
+      "end": 459,
+      "expression": {
+        "type": "CallExpression",
+        "start": 373,
+        "end": 458,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 373,
+          "end": 389,
+          "object": {
+            "type": "Identifier",
+            "start": 373,
+            "end": 379,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 380,
+            "end": 389,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 390,
+            "end": 420,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 390,
+              "end": 414,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 390,
+                "end": 402,
+                "elements": [
+                  {
+                    "type": "Identifier",
+                    "start": 391,
+                    "end": 395,
+                    "name": "obj2"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 397,
+                    "end": 401,
+                    "name": "obj1"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 403,
+                "end": 414,
+                "name": "lastIndexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 415,
+                "end": 419,
+                "name": "obj3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 423,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 425,
+            "end": 457,
+            "value": "[obj2, obj1].lastIndexOf(obj3)",
+            "raw": "'[obj2, obj1].lastIndexOf(obj3)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

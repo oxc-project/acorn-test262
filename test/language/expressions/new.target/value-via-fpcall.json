@@ -1,0 +1,172 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 466,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 346,
+      "end": 367,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 350,
+          "end": 366,
+          "id": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 359,
+            "name": "newTarget"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 362,
+            "end": 366,
+            "value": null,
+            "raw": "null"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 369,
+      "end": 411,
+      "id": {
+        "type": "Identifier",
+        "start": 378,
+        "end": 379,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 382,
+        "end": 411,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 386,
+            "end": 409,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 386,
+              "end": 408,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 386,
+                "end": 395,
+                "name": "newTarget"
+              },
+              "right": {
+                "type": "MetaProperty",
+                "start": 398,
+                "end": 408,
+                "meta": {
+                  "type": "Identifier",
+                  "start": 398,
+                  "end": 401,
+                  "name": "new"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 402,
+                  "end": 408,
+                  "name": "target"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 413,
+      "end": 424,
+      "expression": {
+        "type": "CallExpression",
+        "start": 413,
+        "end": 423,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 413,
+          "end": 419,
+          "object": {
+            "type": "Identifier",
+            "start": 413,
+            "end": 414,
+            "name": "f"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 415,
+            "end": 419,
+            "name": "call"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ObjectExpression",
+            "start": 420,
+            "end": 422,
+            "properties": []
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 426,
+      "end": 465,
+      "expression": {
+        "type": "CallExpression",
+        "start": 426,
+        "end": 464,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 426,
+          "end": 442,
+          "object": {
+            "type": "Identifier",
+            "start": 426,
+            "end": 432,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 442,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 443,
+            "end": 452,
+            "name": "newTarget"
+          },
+          {
+            "type": "Identifier",
+            "start": 454,
+            "end": 463,
+            "name": "undefined"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

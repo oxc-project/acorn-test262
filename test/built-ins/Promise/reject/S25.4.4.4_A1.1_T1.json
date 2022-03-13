@@ -1,0 +1,80 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 342,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 212,
+      "end": 341,
+      "expression": {
+        "type": "CallExpression",
+        "start": 212,
+        "end": 340,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 212,
+          "end": 228,
+          "object": {
+            "type": "Identifier",
+            "start": 212,
+            "end": 218,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 219,
+            "end": 228,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 232,
+            "end": 253,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 239,
+              "end": 253,
+              "object": {
+                "type": "Identifier",
+                "start": 239,
+                "end": 246,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 247,
+                "end": 253,
+                "name": "reject"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 257,
+            "end": 267,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 271,
+            "end": 338,
+            "value": "The value of `typeof Promise.reject` is expected to be \"function\"",
+            "raw": "'The value of `typeof Promise.reject` is expected to be \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

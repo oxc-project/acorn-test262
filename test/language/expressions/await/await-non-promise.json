@@ -1,0 +1,565 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 921,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 376,
+      "end": 392,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 382,
+          "end": 391,
+          "id": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 387,
+            "name": "value"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 390,
+            "end": 391,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 394,
+      "end": 412,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 400,
+          "end": 411,
+          "id": {
+            "type": "Identifier",
+            "start": 400,
+            "end": 406,
+            "name": "actual"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 409,
+            "end": 411,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 413,
+      "end": 480,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 419,
+          "end": 479,
+          "id": {
+            "type": "Identifier",
+            "start": 419,
+            "end": 427,
+            "name": "expected"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 430,
+            "end": 479,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 434,
+                "end": 444,
+                "value": "Await: 1",
+                "raw": "'Await: 1'"
+              },
+              {
+                "type": "Literal",
+                "start": 448,
+                "end": 460,
+                "value": "Promise: 1",
+                "raw": "'Promise: 1'"
+              },
+              {
+                "type": "Literal",
+                "start": 464,
+                "end": 476,
+                "value": "Promise: 2",
+                "raw": "'Promise: 2'"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 482,
+      "end": 549,
+      "id": {
+        "type": "Identifier",
+        "start": 491,
+        "end": 504,
+        "name": "pushAwaitSync"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 505,
+          "end": 510,
+          "name": "value"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 512,
+        "end": 549,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 516,
+            "end": 547,
+            "expression": {
+              "type": "CallExpression",
+              "start": 516,
+              "end": 546,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 516,
+                "end": 527,
+                "object": {
+                  "type": "Identifier",
+                  "start": 516,
+                  "end": 522,
+                  "name": "actual"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 523,
+                  "end": 527,
+                  "name": "push"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 528,
+                  "end": 545,
+                  "left": {
+                    "type": "Literal",
+                    "start": 528,
+                    "end": 537,
+                    "value": "Await: ",
+                    "raw": "'Await: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 540,
+                    "end": 545,
+                    "name": "value"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 551,
+      "end": 609,
+      "id": {
+        "type": "Identifier",
+        "start": 566,
+        "end": 573,
+        "name": "trigger"
+      },
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 576,
+        "end": 609,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 580,
+            "end": 607,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 580,
+              "end": 606,
+              "argument": {
+                "type": "CallExpression",
+                "start": 586,
+                "end": 606,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 586,
+                  "end": 599,
+                  "name": "pushAwaitSync"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 600,
+                    "end": 605,
+                    "name": "value"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 611,
+      "end": 736,
+      "id": {
+        "type": "Identifier",
+        "start": 620,
+        "end": 635,
+        "name": "checkAssertions"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 638,
+        "end": 736,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 642,
+            "end": 734,
+            "expression": {
+              "type": "CallExpression",
+              "start": 642,
+              "end": 733,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 642,
+                "end": 661,
+                "object": {
+                  "type": "Identifier",
+                  "start": 642,
+                  "end": 648,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 649,
+                  "end": 661,
+                  "name": "compareArray"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 662,
+                  "end": 668,
+                  "name": "actual"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 670,
+                  "end": 678,
+                  "name": "expected"
+                },
+                {
+                  "type": "Literal",
+                  "start": 684,
+                  "end": 732,
+                  "value": "Async/await and promises should be interleaved",
+                  "raw": "'Async/await and promises should be interleaved'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 738,
+      "end": 789,
+      "expression": {
+        "type": "CallExpression",
+        "start": 738,
+        "end": 788,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 738,
+          "end": 774,
+          "object": {
+            "type": "CallExpression",
+            "start": 738,
+            "end": 769,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 738,
+              "end": 752,
+              "object": {
+                "type": "CallExpression",
+                "start": 738,
+                "end": 747,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 738,
+                  "end": 745,
+                  "name": "trigger"
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 748,
+                "end": 752,
+                "name": "then"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 753,
+                "end": 768,
+                "name": "checkAssertions"
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 770,
+            "end": 774,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 775,
+            "end": 780,
+            "name": "$DONE"
+          },
+          {
+            "type": "Identifier",
+            "start": 782,
+            "end": 787,
+            "name": "$DONE"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 791,
+      "end": 920,
+      "expression": {
+        "type": "CallExpression",
+        "start": 791,
+        "end": 919,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 791,
+          "end": 873,
+          "object": {
+            "type": "NewExpression",
+            "start": 791,
+            "end": 868,
+            "callee": {
+              "type": "Identifier",
+              "start": 795,
+              "end": 802,
+              "name": "Promise"
+            },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 803,
+                "end": 867,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 813,
+                    "end": 820,
+                    "name": "resolve"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 822,
+                  "end": 867,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 826,
+                      "end": 852,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 826,
+                        "end": 851,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 826,
+                          "end": 837,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 826,
+                            "end": 832,
+                            "name": "actual"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 833,
+                            "end": 837,
+                            "name": "push"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 838,
+                            "end": 850,
+                            "value": "Promise: 1",
+                            "raw": "'Promise: 1'"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 855,
+                      "end": 865,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 855,
+                        "end": 864,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 855,
+                          "end": 862,
+                          "name": "resolve"
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 869,
+            "end": 873,
+            "name": "then"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 874,
+            "end": 918,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 886,
+              "end": 918,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 890,
+                  "end": 916,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 890,
+                    "end": 915,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 890,
+                      "end": 901,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 890,
+                        "end": 896,
+                        "name": "actual"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 897,
+                        "end": 901,
+                        "name": "push"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 902,
+                        "end": 914,
+                        "value": "Promise: 2",
+                        "raw": "'Promise: 2'"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

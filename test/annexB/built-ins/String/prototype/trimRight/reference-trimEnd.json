@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 575,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 503,
+      "end": 574,
+      "expression": {
+        "type": "CallExpression",
+        "start": 503,
+        "end": 573,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 503,
+          "end": 519,
+          "object": {
+            "type": "Identifier",
+            "start": 503,
+            "end": 509,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 519,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 520,
+            "end": 546,
+            "object": {
+              "type": "MemberExpression",
+              "start": 520,
+              "end": 536,
+              "object": {
+                "type": "Identifier",
+                "start": 520,
+                "end": 526,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 527,
+                "end": 536,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 537,
+              "end": 546,
+              "name": "trimRight"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 548,
+            "end": 572,
+            "object": {
+              "type": "MemberExpression",
+              "start": 548,
+              "end": 564,
+              "object": {
+                "type": "Identifier",
+                "start": 548,
+                "end": 554,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 555,
+                "end": 564,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 565,
+              "end": 572,
+              "name": "trimEnd"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

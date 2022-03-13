@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 471,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 281,
+      "end": 306,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 285,
+          "end": 305,
+          "id": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 288,
+            "name": "str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 291,
+            "end": 305,
+            "value": "Hello World!",
+            "raw": "\"Hello World!\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 315,
+      "end": 348,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 319,
+          "end": 347,
+          "id": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 325,
+            "name": "regObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 328,
+            "end": 347,
+            "callee": {
+              "type": "Identifier",
+              "start": 332,
+              "end": 338,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 339,
+                "end": 346,
+                "value": "World",
+                "raw": "\"World\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 357,
+      "end": 376,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 361,
+          "end": 375,
+          "id": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 367,
+            "name": "result"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 370,
+            "end": 375,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 385,
+      "end": 434,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 385,
+        "end": 433,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 385,
+          "end": 391,
+          "name": "result"
+        },
+        "right": {
+          "type": "BinaryExpression",
+          "start": 394,
+          "end": 433,
+          "left": {
+            "type": "CallExpression",
+            "start": 394,
+            "end": 421,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 394,
+              "end": 419,
+              "object": {
+                "type": "CallExpression",
+                "start": 394,
+                "end": 410,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 394,
+                  "end": 405,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 394,
+                    "end": 400,
+                    "name": "regObj"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 401,
+                    "end": 405,
+                    "name": "exec"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 406,
+                    "end": 409,
+                    "name": "str"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 411,
+                "end": 419,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          "operator": "===",
+          "right": {
+            "type": "Literal",
+            "start": 426,
+            "end": 433,
+            "value": "World",
+            "raw": "\"World\""
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 436,
+      "end": 470,
+      "expression": {
+        "type": "CallExpression",
+        "start": 436,
+        "end": 469,
+        "callee": {
+          "type": "Identifier",
+          "start": 436,
+          "end": 442,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 443,
+            "end": 449,
+            "name": "result"
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 468,
+            "value": "result !== true",
+            "raw": "'result !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

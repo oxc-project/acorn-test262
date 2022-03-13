@@ -1,0 +1,82 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 388,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 335,
+      "end": 387,
+      "expression": {
+        "type": "CallExpression",
+        "start": 335,
+        "end": 386,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 335,
+          "end": 348,
+          "object": {
+            "type": "Identifier",
+            "start": 335,
+            "end": 341,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 342,
+            "end": 348,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 349,
+            "end": 358,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 360,
+            "end": 385,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 366,
+              "end": 385,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 366,
+                "end": 383,
+                "object": {
+                  "type": "Identifier",
+                  "start": 366,
+                  "end": 374,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 375,
+                  "end": 383,
+                  "name": "Duration"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

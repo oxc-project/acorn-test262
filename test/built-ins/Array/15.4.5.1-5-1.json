@@ -1,0 +1,137 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 442,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 261,
+      "end": 272,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 265,
+          "end": 271,
+          "id": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 266,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 269,
+            "end": 271,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 273,
+      "end": 312,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 273,
+        "end": 311,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 273,
+          "end": 286,
+          "object": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 274,
+            "name": "a"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 275,
+            "end": 285,
+            "value": 4294967295,
+            "raw": "4294967295"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 289,
+          "end": 311,
+          "value": "not an array element",
+          "raw": "\"not an array element\""
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 314,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 314,
+        "end": 440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 314,
+          "end": 330,
+          "object": {
+            "type": "Identifier",
+            "start": 314,
+            "end": 320,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 330,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 331,
+            "end": 344,
+            "object": {
+              "type": "Identifier",
+              "start": 331,
+              "end": 332,
+              "name": "a"
+            },
+            "property": {
+              "type": "Literal",
+              "start": 333,
+              "end": 343,
+              "value": 4294967295,
+              "raw": "4294967295"
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 346,
+            "end": 368,
+            "value": "not an array element",
+            "raw": "\"not an array element\""
+          },
+          {
+            "type": "Literal",
+            "start": 370,
+            "end": 439,
+            "value": "The value of a[4294967295] is expected to be \"not an array element\"",
+            "raw": "'The value of a[4294967295] is expected to be \"not an array element\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,81 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 356,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 273,
+      "end": 355,
+      "expression": {
+        "type": "CallExpression",
+        "start": 273,
+        "end": 354,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 273,
+          "end": 289,
+          "object": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 279,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 289,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 290,
+            "end": 316,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 290,
+              "end": 314,
+              "object": {
+                "type": "Literal",
+                "start": 290,
+                "end": 309,
+                "value": " \tabc \t",
+                "raw": "\" \\u0009abc \\u0009\""
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 310,
+                "end": 314,
+                "name": "trim"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 318,
+            "end": 323,
+            "value": "abc",
+            "raw": "\"abc\""
+          },
+          {
+            "type": "Literal",
+            "start": 325,
+            "end": 353,
+            "value": "\" \tabc \t\".trim()",
+            "raw": "'\" \\u0009abc \\u0009\".trim()'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

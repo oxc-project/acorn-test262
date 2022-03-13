@@ -1,0 +1,384 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1056,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 424,
+      "end": 445,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 428,
+          "end": 444,
+          "id": {
+            "type": "Identifier",
+            "start": 428,
+            "end": 437,
+            "name": "__pattern"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 440,
+            "end": 444,
+            "value": {},
+            "raw": "/./i",
+            "regex": {
+              "pattern": ".",
+              "flags": "i"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 446,
+      "end": 479,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 450,
+          "end": 478,
+          "id": {
+            "type": "Identifier",
+            "start": 450,
+            "end": 454,
+            "name": "__re"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 457,
+            "end": 478,
+            "callee": {
+              "type": "Identifier",
+              "start": 461,
+              "end": 467,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 468,
+                "end": 477,
+                "name": "__pattern"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 481,
+      "end": 616,
+      "expression": {
+        "type": "CallExpression",
+        "start": 481,
+        "end": 615,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 481,
+          "end": 497,
+          "object": {
+            "type": "Identifier",
+            "start": 481,
+            "end": 487,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 488,
+            "end": 497,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 501,
+            "end": 512,
+            "object": {
+              "type": "Identifier",
+              "start": 501,
+              "end": 505,
+              "name": "__re"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 506,
+              "end": 512,
+              "name": "source"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 516,
+            "end": 532,
+            "object": {
+              "type": "Identifier",
+              "start": 516,
+              "end": 525,
+              "name": "__pattern"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 526,
+              "end": 532,
+              "name": "source"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 536,
+            "end": 613,
+            "value": "The value of __re.source is expected to equal the value of __pattern.source",
+            "raw": "'The value of __re.source is expected to equal the value of __pattern.source'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 618,
+      "end": 765,
+      "expression": {
+        "type": "CallExpression",
+        "start": 618,
+        "end": 764,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 618,
+          "end": 634,
+          "object": {
+            "type": "Identifier",
+            "start": 618,
+            "end": 624,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 625,
+            "end": 634,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 638,
+            "end": 652,
+            "object": {
+              "type": "Identifier",
+              "start": 638,
+              "end": 642,
+              "name": "__re"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 643,
+              "end": 652,
+              "name": "multiline"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 656,
+            "end": 675,
+            "object": {
+              "type": "Identifier",
+              "start": 656,
+              "end": 665,
+              "name": "__pattern"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 666,
+              "end": 675,
+              "name": "multiline"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 679,
+            "end": 762,
+            "value": "The value of __re.multiline is expected to equal the value of __pattern.multiline",
+            "raw": "'The value of __re.multiline is expected to equal the value of __pattern.multiline'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 767,
+      "end": 902,
+      "expression": {
+        "type": "CallExpression",
+        "start": 767,
+        "end": 901,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 767,
+          "end": 783,
+          "object": {
+            "type": "Identifier",
+            "start": 767,
+            "end": 773,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 774,
+            "end": 783,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 787,
+            "end": 798,
+            "object": {
+              "type": "Identifier",
+              "start": 787,
+              "end": 791,
+              "name": "__re"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 792,
+              "end": 798,
+              "name": "global"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 802,
+            "end": 818,
+            "object": {
+              "type": "Identifier",
+              "start": 802,
+              "end": 811,
+              "name": "__pattern"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 812,
+              "end": 818,
+              "name": "global"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 822,
+            "end": 899,
+            "value": "The value of __re.global is expected to equal the value of __pattern.global",
+            "raw": "'The value of __re.global is expected to equal the value of __pattern.global'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 904,
+      "end": 1055,
+      "expression": {
+        "type": "CallExpression",
+        "start": 904,
+        "end": 1054,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 904,
+          "end": 920,
+          "object": {
+            "type": "Identifier",
+            "start": 904,
+            "end": 910,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 911,
+            "end": 920,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 924,
+            "end": 939,
+            "object": {
+              "type": "Identifier",
+              "start": 924,
+              "end": 928,
+              "name": "__re"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 929,
+              "end": 939,
+              "name": "ignoreCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 943,
+            "end": 963,
+            "object": {
+              "type": "Identifier",
+              "start": 943,
+              "end": 952,
+              "name": "__pattern"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 953,
+              "end": 963,
+              "name": "ignoreCase"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 967,
+            "end": 1052,
+            "value": "The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase",
+            "raw": "'The value of __re.ignoreCase is expected to equal the value of __pattern.ignoreCase'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

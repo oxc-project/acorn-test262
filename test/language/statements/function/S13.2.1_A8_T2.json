@@ -1,0 +1,288 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 864,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 493,
+      "end": 524,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 497,
+          "end": 523,
+          "id": {
+            "type": "Identifier",
+            "start": 497,
+            "end": 516,
+            "name": "CATCH_ME_IF_YOU_CAN"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 519,
+            "end": 523,
+            "value": true,
+            "raw": "true"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 526,
+      "end": 609,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 530,
+          "end": 609,
+          "id": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 536,
+            "name": "__func"
+          },
+          "init": {
+            "type": "FunctionExpression",
+            "start": 539,
+            "end": 609,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 549,
+                "end": 556,
+                "name": "message"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 557,
+              "end": 609,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 563,
+                  "end": 573,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 567,
+                      "end": 572,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 567,
+                        "end": 568,
+                        "name": "x"
+                      },
+                      "init": {
+                        "type": "Literal",
+                        "start": 571,
+                        "end": 572,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ThrowStatement",
+                  "start": 578,
+                  "end": 593,
+                  "argument": {
+                    "type": "ParenthesizedExpression",
+                    "start": 584,
+                    "end": 593,
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 585,
+                      "end": 592,
+                      "name": "message"
+                    }
+                  }
+                },
+                {
+                  "type": "ReturnStatement",
+                  "start": 598,
+                  "end": 607,
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 605,
+                    "end": 606,
+                    "name": "x"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 611,
+      "end": 863,
+      "block": {
+        "type": "BlockStatement",
+        "start": 614,
+        "end": 751,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 620,
+            "end": 653,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 624,
+                "end": 653,
+                "id": {
+                  "type": "Identifier",
+                  "start": 624,
+                  "end": 625,
+                  "name": "x"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 626,
+                  "end": 653,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 626,
+                    "end": 632,
+                    "name": "__func"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 633,
+                      "end": 652,
+                      "name": "CATCH_ME_IF_YOU_CAN"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 658,
+            "end": 749,
+            "argument": {
+              "type": "NewExpression",
+              "start": 664,
+              "end": 748,
+              "callee": {
+                "type": "Identifier",
+                "start": 668,
+                "end": 680,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 681,
+                  "end": 747,
+                  "value": "#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception",
+                  "raw": "'#0: var x=__func(CATCH_ME_IF_YOU_CAN) lead to throwing exception'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 752,
+        "end": 863,
+        "param": {
+          "type": "Identifier",
+          "start": 758,
+          "end": 759,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 760,
+          "end": 863,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 766,
+              "end": 861,
+              "test": {
+                "type": "UnaryExpression",
+                "start": 770,
+                "end": 772,
+                "operator": "!",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 771,
+                  "end": 772,
+                  "name": "e"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 774,
+                "end": 861,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 781,
+                    "end": 855,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 787,
+                      "end": 854,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 791,
+                        "end": 803,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 804,
+                          "end": 853,
+                          "left": {
+                            "type": "Literal",
+                            "start": 804,
+                            "end": 851,
+                            "value": "#1: Exception === true. Actual: exception ===",
+                            "raw": "'#1: Exception === true. Actual: exception ==='"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "start": 852,
+                            "end": 853,
+                            "name": "e"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

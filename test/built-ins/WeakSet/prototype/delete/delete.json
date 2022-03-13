@@ -1,0 +1,228 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 632,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 367,
+      "end": 486,
+      "expression": {
+        "type": "CallExpression",
+        "start": 367,
+        "end": 485,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 367,
+          "end": 383,
+          "object": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 373,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 383,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 387,
+            "end": 418,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 394,
+              "end": 418,
+              "object": {
+                "type": "MemberExpression",
+                "start": 394,
+                "end": 411,
+                "object": {
+                  "type": "Identifier",
+                  "start": 394,
+                  "end": 401,
+                  "name": "WeakSet"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 402,
+                  "end": 411,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 412,
+                "end": 418,
+                "name": "delete"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 432,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 436,
+            "end": 483,
+            "value": "typeof WeakSet.prototype.delete is \"function\"",
+            "raw": "'typeof WeakSet.prototype.delete is \"function\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 488,
+      "end": 537,
+      "expression": {
+        "type": "CallExpression",
+        "start": 488,
+        "end": 536,
+        "callee": {
+          "type": "Identifier",
+          "start": 488,
+          "end": 507,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 508,
+            "end": 525,
+            "object": {
+              "type": "Identifier",
+              "start": 508,
+              "end": 515,
+              "name": "WeakSet"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 516,
+              "end": 525,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 527,
+            "end": 535,
+            "value": "delete",
+            "raw": "'delete'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 538,
+      "end": 582,
+      "expression": {
+        "type": "CallExpression",
+        "start": 538,
+        "end": 581,
+        "callee": {
+          "type": "Identifier",
+          "start": 538,
+          "end": 552,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 553,
+            "end": 570,
+            "object": {
+              "type": "Identifier",
+              "start": 553,
+              "end": 560,
+              "name": "WeakSet"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 561,
+              "end": 570,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 572,
+            "end": 580,
+            "value": "delete",
+            "raw": "'delete'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 583,
+      "end": 631,
+      "expression": {
+        "type": "CallExpression",
+        "start": 583,
+        "end": 630,
+        "callee": {
+          "type": "Identifier",
+          "start": 583,
+          "end": 601,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 602,
+            "end": 619,
+            "object": {
+              "type": "Identifier",
+              "start": 602,
+              "end": 609,
+              "name": "WeakSet"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 610,
+              "end": 619,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 621,
+            "end": 629,
+            "value": "delete",
+            "raw": "'delete'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,230 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 861,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 560,
+      "end": 701,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 564,
+        "end": 597,
+        "left": {
+          "type": "CallExpression",
+          "start": 564,
+          "end": 581,
+          "callee": {
+            "type": "Identifier",
+            "start": 564,
+            "end": 570,
+            "name": "String"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 571,
+              "end": 580,
+              "value": 1.0000001,
+              "raw": "1.0000001"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 586,
+          "end": 597,
+          "value": "1.0000001",
+          "raw": "\"1.0000001\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 599,
+        "end": 701,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 603,
+            "end": 699,
+            "argument": {
+              "type": "NewExpression",
+              "start": 609,
+              "end": 698,
+              "callee": {
+                "type": "Identifier",
+                "start": 613,
+                "end": 625,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 626,
+                  "end": 697,
+                  "left": {
+                    "type": "Literal",
+                    "start": 626,
+                    "end": 675,
+                    "value": "#1: String(1.0000001) === \"1.0000001\". Actual: ",
+                    "raw": "'#1: String(1.0000001) === \"1.0000001\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 678,
+                    "end": 697,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 679,
+                      "end": 696,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 679,
+                        "end": 685,
+                        "name": "String"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 686,
+                          "end": 695,
+                          "value": 1.0000001,
+                          "raw": "1.0000001"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 714,
+      "end": 860,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 718,
+        "end": 753,
+        "left": {
+          "type": "CallExpression",
+          "start": 718,
+          "end": 736,
+          "callee": {
+            "type": "Identifier",
+            "start": 718,
+            "end": 724,
+            "name": "String"
+          },
+          "arguments": [
+            {
+              "type": "UnaryExpression",
+              "start": 725,
+              "end": 735,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 726,
+                "end": 735,
+                "value": 1.0000001,
+                "raw": "1.0000001"
+              }
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 741,
+          "end": 753,
+          "value": "-1.0000001",
+          "raw": "\"-1.0000001\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 755,
+        "end": 860,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 759,
+            "end": 858,
+            "argument": {
+              "type": "NewExpression",
+              "start": 765,
+              "end": 857,
+              "callee": {
+                "type": "Identifier",
+                "start": 769,
+                "end": 781,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 782,
+                  "end": 856,
+                  "left": {
+                    "type": "Literal",
+                    "start": 782,
+                    "end": 833,
+                    "value": "#2: String(-1.0000001) === \"-1.0000001\". Actual: ",
+                    "raw": "'#2: String(-1.0000001) === \"-1.0000001\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 836,
+                    "end": 856,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 837,
+                      "end": 855,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 837,
+                        "end": 843,
+                        "name": "String"
+                      },
+                      "arguments": [
+                        {
+                          "type": "UnaryExpression",
+                          "start": 844,
+                          "end": 854,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 845,
+                            "end": 854,
+                            "value": 1.0000001,
+                            "raw": "1.0000001"
+                          }
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

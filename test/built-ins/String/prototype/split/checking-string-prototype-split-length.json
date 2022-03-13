@@ -1,0 +1,185 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 505,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 270,
+      "end": 400,
+      "expression": {
+        "type": "CallExpression",
+        "start": 270,
+        "end": 399,
+        "callee": {
+          "type": "Identifier",
+          "start": 270,
+          "end": 276,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 280,
+            "end": 327,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 280,
+              "end": 317,
+              "object": {
+                "type": "MemberExpression",
+                "start": 280,
+                "end": 302,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 280,
+                  "end": 296,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 280,
+                    "end": 286,
+                    "name": "String"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 287,
+                    "end": 296,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 297,
+                  "end": 302,
+                  "name": "split"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 303,
+                "end": 317,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 318,
+                "end": 326,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 331,
+            "end": 397,
+            "value": "String.prototype.split.hasOwnProperty(\"length\") must return true",
+            "raw": "'String.prototype.split.hasOwnProperty(\"length\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 402,
+      "end": 504,
+      "expression": {
+        "type": "CallExpression",
+        "start": 402,
+        "end": 503,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 402,
+          "end": 418,
+          "object": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 408,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 418,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 419,
+            "end": 448,
+            "object": {
+              "type": "MemberExpression",
+              "start": 419,
+              "end": 441,
+              "object": {
+                "type": "MemberExpression",
+                "start": 419,
+                "end": 435,
+                "object": {
+                  "type": "Identifier",
+                  "start": 419,
+                  "end": 425,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 426,
+                  "end": 435,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 436,
+                "end": 441,
+                "name": "split"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 442,
+              "end": 448,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 450,
+            "end": 451,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 453,
+            "end": 502,
+            "value": "The value of String.prototype.split.length is 2",
+            "raw": "'The value of String.prototype.split.length is 2'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

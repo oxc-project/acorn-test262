@@ -1,0 +1,188 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 607,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 460,
+      "end": 494,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 460,
+        "end": 493,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 460,
+          "end": 481,
+          "object": {
+            "type": "MemberExpression",
+            "start": 460,
+            "end": 476,
+            "object": {
+              "type": "Identifier",
+              "start": 460,
+              "end": 466,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 467,
+              "end": 476,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 477,
+            "end": 481,
+            "name": "type"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 484,
+          "end": 493,
+          "value": "ordinal",
+          "raw": "\"ordinal\""
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 495,
+      "end": 540,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 499,
+          "end": 539,
+          "id": {
+            "type": "Identifier",
+            "start": 499,
+            "end": 510,
+            "name": "pluralRules"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 513,
+            "end": 539,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 517,
+              "end": 533,
+              "object": {
+                "type": "Identifier",
+                "start": 517,
+                "end": 521,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 522,
+                "end": 533,
+                "name": "PluralRules"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 534,
+                "end": 538,
+                "value": "en",
+                "raw": "\"en\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 541,
+      "end": 606,
+      "expression": {
+        "type": "CallExpression",
+        "start": 541,
+        "end": 605,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 541,
+          "end": 557,
+          "object": {
+            "type": "Identifier",
+            "start": 541,
+            "end": 547,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 557,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 558,
+            "end": 592,
+            "object": {
+              "type": "CallExpression",
+              "start": 558,
+              "end": 587,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 558,
+                "end": 585,
+                "object": {
+                  "type": "Identifier",
+                  "start": 558,
+                  "end": 569,
+                  "name": "pluralRules"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 570,
+                  "end": 585,
+                  "name": "resolvedOptions"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 588,
+              "end": 592,
+              "name": "type"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 594,
+            "end": 604,
+            "value": "cardinal",
+            "raw": "\"cardinal\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

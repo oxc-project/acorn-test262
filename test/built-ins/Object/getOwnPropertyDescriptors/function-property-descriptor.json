@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 507,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 339,
+      "end": 396,
+      "expression": {
+        "type": "CallExpression",
+        "start": 339,
+        "end": 395,
+        "callee": {
+          "type": "Identifier",
+          "start": 339,
+          "end": 358,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 359,
+            "end": 365,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 367,
+            "end": 394,
+            "value": "getOwnPropertyDescriptors",
+            "raw": "'getOwnPropertyDescriptors'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 397,
+      "end": 449,
+      "expression": {
+        "type": "CallExpression",
+        "start": 397,
+        "end": 448,
+        "callee": {
+          "type": "Identifier",
+          "start": 397,
+          "end": 411,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 412,
+            "end": 418,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 420,
+            "end": 447,
+            "value": "getOwnPropertyDescriptors",
+            "raw": "'getOwnPropertyDescriptors'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 450,
+      "end": 506,
+      "expression": {
+        "type": "CallExpression",
+        "start": 450,
+        "end": 505,
+        "callee": {
+          "type": "Identifier",
+          "start": 450,
+          "end": 468,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 469,
+            "end": 475,
+            "name": "Object"
+          },
+          {
+            "type": "Literal",
+            "start": 477,
+            "end": 504,
+            "value": "getOwnPropertyDescriptors",
+            "raw": "'getOwnPropertyDescriptors'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

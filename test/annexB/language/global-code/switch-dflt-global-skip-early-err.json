@@ -1,0 +1,181 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 906,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 701,
+      "end": 713,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 705,
+          "end": 712,
+          "id": {
+            "type": "Identifier",
+            "start": 705,
+            "end": 706,
+            "name": "f"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 709,
+            "end": 712,
+            "value": 123,
+            "raw": "123"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 714,
+      "end": 784,
+      "expression": {
+        "type": "CallExpression",
+        "start": 714,
+        "end": 783,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 714,
+          "end": 730,
+          "object": {
+            "type": "Identifier",
+            "start": 714,
+            "end": 720,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 721,
+            "end": 730,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 731,
+            "end": 732,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 734,
+            "end": 737,
+            "value": 123,
+            "raw": "123"
+          },
+          {
+            "type": "Literal",
+            "start": 739,
+            "end": 782,
+            "value": "binding is not initialized to `undefined`",
+            "raw": "'binding is not initialized to `undefined`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "SwitchStatement",
+      "start": 786,
+      "end": 833,
+      "discriminant": {
+        "type": "Literal",
+        "start": 794,
+        "end": 795,
+        "value": 1,
+        "raw": "1"
+      },
+      "cases": [
+        {
+          "type": "SwitchCase",
+          "start": 801,
+          "end": 831,
+          "consequent": [
+            {
+              "type": "FunctionDeclaration",
+              "start": 814,
+              "end": 831,
+              "id": {
+                "type": "Identifier",
+                "start": 823,
+                "end": 824,
+                "name": "f"
+              },
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 827,
+                "end": 831,
+                "body": []
+              }
+            }
+          ],
+          "test": null
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 835,
+      "end": 905,
+      "expression": {
+        "type": "CallExpression",
+        "start": 835,
+        "end": 904,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 835,
+          "end": 851,
+          "object": {
+            "type": "Identifier",
+            "start": 835,
+            "end": 841,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 842,
+            "end": 851,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 852,
+            "end": 853,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 855,
+            "end": 858,
+            "value": 123,
+            "raw": "123"
+          },
+          {
+            "type": "Literal",
+            "start": 860,
+            "end": 903,
+            "value": "value is not updated following evaluation",
+            "raw": "'value is not updated following evaluation'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

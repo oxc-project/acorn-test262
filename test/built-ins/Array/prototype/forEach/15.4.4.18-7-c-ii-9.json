@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 403,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 277,
+      "end": 292,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 281,
+          "end": 291,
+          "id": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 287,
+            "name": "called"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 290,
+            "end": 291,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 294,
+      "end": 331,
+      "id": {
+        "type": "Identifier",
+        "start": 303,
+        "end": 313,
+        "name": "callbackfn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 316,
+        "end": 331,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 320,
+            "end": 329,
+            "expression": {
+              "type": "UpdateExpression",
+              "start": 320,
+              "end": 328,
+              "operator": "++",
+              "prefix": false,
+              "argument": {
+                "type": "Identifier",
+                "start": 320,
+                "end": 326,
+                "name": "called"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 333,
+      "end": 362,
+      "expression": {
+        "type": "CallExpression",
+        "start": 333,
+        "end": 361,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 333,
+          "end": 349,
+          "object": {
+            "type": "ArrayExpression",
+            "start": 333,
+            "end": 341,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 334,
+                "end": 336,
+                "value": 11,
+                "raw": "11"
+              },
+              {
+                "type": "Literal",
+                "start": 338,
+                "end": 340,
+                "value": 12,
+                "raw": "12"
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 342,
+            "end": 349,
+            "name": "forEach"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 350,
+            "end": 360,
+            "name": "callbackfn"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 364,
+      "end": 402,
+      "expression": {
+        "type": "CallExpression",
+        "start": 364,
+        "end": 401,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 364,
+          "end": 380,
+          "object": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 370,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 371,
+            "end": 380,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 381,
+            "end": 387,
+            "name": "called"
+          },
+          {
+            "type": "Literal",
+            "start": 389,
+            "end": 390,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 392,
+            "end": 400,
+            "value": "called",
+            "raw": "'called'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

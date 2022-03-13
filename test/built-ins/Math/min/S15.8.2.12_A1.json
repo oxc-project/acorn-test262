@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 355,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 278,
+      "end": 354,
+      "expression": {
+        "type": "CallExpression",
+        "start": 278,
+        "end": 353,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 278,
+          "end": 294,
+          "object": {
+            "type": "Identifier",
+            "start": 278,
+            "end": 284,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 294,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 295,
+            "end": 305,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 295,
+              "end": 303,
+              "object": {
+                "type": "Identifier",
+                "start": 295,
+                "end": 299,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 300,
+                "end": 303,
+                "name": "min"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 307,
+            "end": 316,
+            "operator": "+",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 308,
+              "end": 316,
+              "name": "Infinity"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 318,
+            "end": 352,
+            "value": "Math.min() must return +Infinity",
+            "raw": "'Math.min() must return +Infinity'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

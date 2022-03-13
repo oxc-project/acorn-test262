@@ -1,0 +1,290 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 774,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 503,
+      "end": 551,
+      "id": {
+        "type": "Identifier",
+        "start": 509,
+        "end": 512,
+        "name": "Bln"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 521,
+        "end": 528,
+        "name": "Boolean"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 529,
+        "end": 551,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 533,
+            "end": 549,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 533,
+              "end": 544,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 544,
+              "end": 549,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 547,
+                "end": 549,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 594,
+      "end": 654,
+      "expression": {
+        "type": "CallExpression",
+        "start": 594,
+        "end": 653,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 594,
+          "end": 607,
+          "object": {
+            "type": "Identifier",
+            "start": 594,
+            "end": 600,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 601,
+            "end": 607,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 608,
+            "end": 622,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 624,
+            "end": 652,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 635,
+              "end": 652,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 639,
+                  "end": 650,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 639,
+                    "end": 649,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 643,
+                      "end": 646,
+                      "name": "Bln"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 647,
+                        "end": 648,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 656,
+      "end": 721,
+      "id": {
+        "type": "Identifier",
+        "start": 662,
+        "end": 666,
+        "name": "Bln2"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 675,
+        "end": 682,
+        "name": "Boolean"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 683,
+        "end": 721,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 687,
+            "end": 719,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 687,
+              "end": 698,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 698,
+              "end": 719,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 701,
+                "end": 719,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 707,
+                    "end": 715,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 707,
+                      "end": 714,
+                      "callee": {
+                        "type": "Super",
+                        "start": 707,
+                        "end": 712
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 723,
+      "end": 743,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 727,
+          "end": 742,
+          "id": {
+            "type": "Identifier",
+            "start": 727,
+            "end": 728,
+            "name": "b"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 731,
+            "end": 742,
+            "callee": {
+              "type": "Identifier",
+              "start": 735,
+              "end": 739,
+              "name": "Bln2"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 740,
+                "end": 741,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 744,
+      "end": 773,
+      "expression": {
+        "type": "CallExpression",
+        "start": 744,
+        "end": 772,
+        "callee": {
+          "type": "Identifier",
+          "start": 744,
+          "end": 750,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 751,
+            "end": 771,
+            "left": {
+              "type": "Identifier",
+              "start": 751,
+              "end": 752,
+              "name": "b"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 764,
+              "end": 771,
+              "name": "Boolean"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

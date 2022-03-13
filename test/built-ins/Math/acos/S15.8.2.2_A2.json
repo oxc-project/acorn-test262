@@ -1,0 +1,244 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 459,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 287,
+      "end": 360,
+      "expression": {
+        "type": "CallExpression",
+        "start": 287,
+        "end": 359,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 287,
+          "end": 303,
+          "object": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 293,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 303,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 304,
+            "end": 332,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 304,
+              "end": 313,
+              "object": {
+                "type": "Identifier",
+                "start": 304,
+                "end": 308,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 309,
+                "end": 313,
+                "name": "acos"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 314,
+                "end": 331,
+                "value": 1.000000000000001,
+                "raw": "1.000000000000001"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 334,
+            "end": 337,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 339,
+            "end": 358,
+            "value": "1.000000000000001",
+            "raw": "\"1.000000000000001\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 361,
+      "end": 402,
+      "expression": {
+        "type": "CallExpression",
+        "start": 361,
+        "end": 401,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 361,
+          "end": 377,
+          "object": {
+            "type": "Identifier",
+            "start": 361,
+            "end": 367,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 377,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 378,
+            "end": 390,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 378,
+              "end": 387,
+              "object": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 382,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 383,
+                "end": 387,
+                "name": "acos"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 388,
+                "end": 389,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 392,
+            "end": 395,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 397,
+            "end": 400,
+            "value": "2",
+            "raw": "\"2\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 403,
+      "end": 458,
+      "expression": {
+        "type": "CallExpression",
+        "start": 403,
+        "end": 457,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 403,
+          "end": 419,
+          "object": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 409,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 419,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 420,
+            "end": 439,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 420,
+              "end": 429,
+              "object": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 424,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 425,
+                "end": 429,
+                "name": "acos"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 430,
+                "end": 438,
+                "name": "Infinity"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 441,
+            "end": 444,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 446,
+            "end": 456,
+            "value": "Infinity",
+            "raw": "\"Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

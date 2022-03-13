@@ -1,0 +1,309 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 449,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 262,
+      "end": 448,
+      "expression": {
+        "type": "CallExpression",
+        "start": 262,
+        "end": 447,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 262,
+          "end": 275,
+          "object": {
+            "type": "Identifier",
+            "start": 262,
+            "end": 268,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 269,
+            "end": 275,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 276,
+            "end": 286,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 288,
+            "end": 446,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 294,
+              "end": 446,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 298,
+                  "end": 311,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 302,
+                      "end": 310,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 302,
+                        "end": 305,
+                        "name": "obj"
+                      },
+                      "init": {
+                        "type": "ObjectExpression",
+                        "start": 308,
+                        "end": 310,
+                        "properties": []
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 314,
+                  "end": 348,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 314,
+                    "end": 347,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 314,
+                      "end": 323,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 314,
+                        "end": 317,
+                        "name": "obj"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 318,
+                        "end": 323,
+                        "name": "slice"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "MemberExpression",
+                      "start": 326,
+                      "end": 347,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 326,
+                        "end": 341,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 326,
+                          "end": 331,
+                          "name": "Array"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 332,
+                          "end": 341,
+                          "name": "prototype"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 342,
+                        "end": 347,
+                        "name": "slice"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 351,
+                  "end": 364,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 351,
+                    "end": 363,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 351,
+                      "end": 357,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 351,
+                        "end": 354,
+                        "name": "obj"
+                      },
+                      "property": {
+                        "type": "Literal",
+                        "start": 355,
+                        "end": 356,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      "computed": true,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 360,
+                      "end": 363,
+                      "value": "x",
+                      "raw": "\"x\""
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 367,
+                  "end": 389,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 367,
+                    "end": 388,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 367,
+                      "end": 382,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 367,
+                        "end": 370,
+                        "name": "obj"
+                      },
+                      "property": {
+                        "type": "Literal",
+                        "start": 371,
+                        "end": 381,
+                        "value": 4294967296,
+                        "raw": "4294967296"
+                      },
+                      "computed": true,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 385,
+                      "end": 388,
+                      "value": "y",
+                      "raw": "\"y\""
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 392,
+                  "end": 416,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 392,
+                    "end": 415,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 392,
+                      "end": 402,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 392,
+                        "end": 395,
+                        "name": "obj"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 396,
+                        "end": 402,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 405,
+                      "end": 415,
+                      "value": 4294967297,
+                      "raw": "4294967297"
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 419,
+                  "end": 444,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 419,
+                    "end": 443,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 419,
+                      "end": 428,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 419,
+                        "end": 422,
+                        "name": "obj"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 423,
+                        "end": 428,
+                        "name": "slice"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 429,
+                        "end": 430,
+                        "value": 0,
+                        "raw": "0"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 432,
+                        "end": 442,
+                        "value": 4294967297,
+                        "raw": "4294967297"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

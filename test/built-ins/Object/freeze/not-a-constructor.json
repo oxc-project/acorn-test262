@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 898,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 685,
+      "end": 789,
+      "expression": {
+        "type": "CallExpression",
+        "start": 685,
+        "end": 788,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 685,
+          "end": 701,
+          "object": {
+            "type": "Identifier",
+            "start": 685,
+            "end": 691,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 692,
+            "end": 701,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 702,
+            "end": 730,
+            "callee": {
+              "type": "Identifier",
+              "start": 702,
+              "end": 715,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 716,
+                "end": 729,
+                "object": {
+                  "type": "Identifier",
+                  "start": 716,
+                  "end": 722,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 723,
+                  "end": 729,
+                  "name": "freeze"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 732,
+            "end": 737,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 739,
+            "end": 787,
+            "value": "isConstructor(Object.freeze) must return false",
+            "raw": "'isConstructor(Object.freeze) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 791,
+      "end": 896,
+      "expression": {
+        "type": "CallExpression",
+        "start": 791,
+        "end": 895,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 791,
+          "end": 804,
+          "object": {
+            "type": "Identifier",
+            "start": 791,
+            "end": 797,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 798,
+            "end": 804,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 805,
+            "end": 814,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 816,
+            "end": 850,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 822,
+              "end": 850,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 826,
+                  "end": 848,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 826,
+                    "end": 847,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 830,
+                      "end": 843,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 830,
+                        "end": 836,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 837,
+                        "end": 843,
+                        "name": "freeze"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ObjectExpression",
+                        "start": 844,
+                        "end": 846,
+                        "properties": []
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 852,
+            "end": 894,
+            "value": "`new Object.freeze({})` throws TypeError",
+            "raw": "'`new Object.freeze({})` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

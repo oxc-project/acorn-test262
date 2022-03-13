@@ -1,0 +1,164 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 299,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 199,
+      "end": 270,
+      "id": {
+        "type": "Identifier",
+        "start": 208,
+        "end": 210,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 213,
+        "end": 270,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 217,
+            "end": 227,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 221,
+                "end": 226,
+                "id": {
+                  "type": "Identifier",
+                  "start": 221,
+                  "end": 222,
+                  "name": "x"
+                },
+                "init": {
+                  "type": "Literal",
+                  "start": 225,
+                  "end": 226,
+                  "value": 3,
+                  "raw": "3"
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "BlockStatement",
+            "start": 230,
+            "end": 268,
+            "body": [
+              {
+                "type": "VariableDeclaration",
+                "start": 236,
+                "end": 246,
+                "declarations": [
+                  {
+                    "type": "VariableDeclarator",
+                    "start": 240,
+                    "end": 245,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 240,
+                      "end": 241,
+                      "name": "y"
+                    },
+                    "init": {
+                      "type": "Literal",
+                      "start": 244,
+                      "end": 245,
+                      "value": 6,
+                      "raw": "6"
+                    }
+                  }
+                ],
+                "kind": "let"
+              },
+              {
+                "type": "ReturnStatement",
+                "start": 251,
+                "end": 264,
+                "argument": {
+                  "type": "BinaryExpression",
+                  "start": 258,
+                  "end": 263,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 258,
+                    "end": 259,
+                    "name": "x"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 262,
+                    "end": 263,
+                    "name": "y"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 271,
+      "end": 297,
+      "expression": {
+        "type": "CallExpression",
+        "start": 271,
+        "end": 296,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 271,
+          "end": 287,
+          "object": {
+            "type": "Identifier",
+            "start": 271,
+            "end": 277,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 278,
+            "end": 287,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 288,
+            "end": 292,
+            "callee": {
+              "type": "Identifier",
+              "start": 288,
+              "end": 290,
+              "name": "fn"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 294,
+            "end": 295,
+            "value": 9,
+            "raw": "9"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

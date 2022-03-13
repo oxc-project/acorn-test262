@@ -1,0 +1,187 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 380,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 256,
+      "end": 294,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 262,
+          "end": 293,
+          "id": {
+            "type": "Identifier",
+            "start": 262,
+            "end": 263,
+            "name": "t"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 266,
+            "end": 293,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 266,
+              "end": 291,
+              "object": {
+                "type": "MemberExpression",
+                "start": 266,
+                "end": 278,
+                "object": {
+                  "type": "Identifier",
+                  "start": 266,
+                  "end": 274,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 275,
+                  "end": 278,
+                  "name": "Now"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 279,
+                "end": 291,
+                "name": "plainTimeISO"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 295,
+      "end": 335,
+      "expression": {
+        "type": "CallExpression",
+        "start": 295,
+        "end": 334,
+        "callee": {
+          "type": "Identifier",
+          "start": 295,
+          "end": 301,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 302,
+            "end": 333,
+            "left": {
+              "type": "Identifier",
+              "start": 302,
+              "end": 303,
+              "name": "t"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "start": 315,
+              "end": 333,
+              "object": {
+                "type": "Identifier",
+                "start": 315,
+                "end": 323,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 324,
+                "end": 333,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 336,
+      "end": 379,
+      "expression": {
+        "type": "CallExpression",
+        "start": 336,
+        "end": 378,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 336,
+          "end": 352,
+          "object": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 342,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 352,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 353,
+            "end": 366,
+            "object": {
+              "type": "MemberExpression",
+              "start": 353,
+              "end": 363,
+              "object": {
+                "type": "Identifier",
+                "start": 353,
+                "end": 354,
+                "name": "t"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 355,
+                "end": 363,
+                "name": "calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 364,
+              "end": 366,
+              "name": "id"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 368,
+            "end": 377,
+            "value": "iso8601",
+            "raw": "\"iso8601\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,466 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 749,
+  "body": [
+    {
+      "type": "ForOfStatement",
+      "start": 351,
+      "end": 748,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 356,
+        "end": 385,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 360,
+            "end": 385,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 360,
+              "end": 385,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 361,
+                  "end": 376,
+                  "name": "numberingSystem"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 378,
+                  "end": 384,
+                  "name": "digits"
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "let"
+      },
+      "right": {
+        "type": "CallExpression",
+        "start": 389,
+        "end": 426,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 389,
+          "end": 403,
+          "object": {
+            "type": "Identifier",
+            "start": 389,
+            "end": 395,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 403,
+            "name": "entries"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 404,
+            "end": 425,
+            "name": "numberingSystemDigits"
+          }
+        ],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 428,
+        "end": 748,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 434,
+            "end": 462,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 438,
+                "end": 461,
+                "id": {
+                  "type": "Identifier",
+                  "start": 438,
+                  "end": 447,
+                  "name": "digitList"
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "start": 450,
+                  "end": 461,
+                  "elements": [
+                    {
+                      "type": "SpreadElement",
+                      "start": 451,
+                      "end": 460,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 454,
+                        "end": 460,
+                        "name": "digits"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 467,
+            "end": 506,
+            "expression": {
+              "type": "CallExpression",
+              "start": 467,
+              "end": 505,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 467,
+                "end": 483,
+                "object": {
+                  "type": "Identifier",
+                  "start": 467,
+                  "end": 473,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 474,
+                  "end": 483,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 484,
+                  "end": 500,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 484,
+                    "end": 493,
+                    "name": "digitList"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 494,
+                    "end": 500,
+                    "name": "length"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 502,
+                  "end": 504,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 512,
+            "end": 573,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 516,
+                "end": 572,
+                "id": {
+                  "type": "Identifier",
+                  "start": 516,
+                  "end": 518,
+                  "name": "nf"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 521,
+                  "end": 572,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 525,
+                    "end": 542,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 525,
+                      "end": 529,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 530,
+                      "end": 542,
+                      "name": "NumberFormat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 543,
+                      "end": 552,
+                      "name": "undefined"
+                    },
+                    {
+                      "type": "ObjectExpression",
+                      "start": 554,
+                      "end": 571,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 555,
+                          "end": 570,
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 555,
+                            "end": 570,
+                            "name": "numberingSystem"
+                          },
+                          "kind": "init",
+                          "value": {
+                            "type": "Identifier",
+                            "start": 555,
+                            "end": 570,
+                            "name": "numberingSystem"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "ForStatement",
+            "start": 579,
+            "end": 746,
+            "init": {
+              "type": "VariableDeclaration",
+              "start": 584,
+              "end": 593,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 588,
+                  "end": 593,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 588,
+                    "end": 589,
+                    "name": "i"
+                  },
+                  "init": {
+                    "type": "Literal",
+                    "start": 592,
+                    "end": 593,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                }
+              ],
+              "kind": "let"
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "start": 595,
+              "end": 601,
+              "left": {
+                "type": "Identifier",
+                "start": 595,
+                "end": 596,
+                "name": "i"
+              },
+              "operator": "<=",
+              "right": {
+                "type": "Literal",
+                "start": 600,
+                "end": 601,
+                "value": 9,
+                "raw": "9"
+              }
+            },
+            "update": {
+              "type": "UpdateExpression",
+              "start": 603,
+              "end": 606,
+              "operator": "++",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 605,
+                "end": 606,
+                "name": "i"
+              }
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 608,
+              "end": 746,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 618,
+                  "end": 740,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 618,
+                    "end": 739,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 618,
+                      "end": 634,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 618,
+                        "end": 624,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 625,
+                        "end": 634,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 635,
+                        "end": 647,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 635,
+                          "end": 644,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 635,
+                            "end": 637,
+                            "name": "nf"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 638,
+                            "end": 644,
+                            "name": "format"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 645,
+                            "end": 646,
+                            "name": "i"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "MemberExpression",
+                        "start": 649,
+                        "end": 661,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 649,
+                          "end": 658,
+                          "name": "digitList"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 659,
+                          "end": 660,
+                          "name": "i"
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 688,
+                        "end": 738,
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 708,
+                            "end": 723,
+                            "name": "numberingSystem"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 735,
+                            "end": 736,
+                            "name": "i"
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 689,
+                            "end": 706,
+                            "value": {
+                              "raw": "numberingSystem: ",
+                              "cooked": "numberingSystem: "
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 724,
+                            "end": 733,
+                            "value": {
+                              "raw": ", digit: ",
+                              "cooked": ", digit: "
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 737,
+                            "end": 737,
+                            "value": {
+                              "raw": "",
+                              "cooked": ""
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

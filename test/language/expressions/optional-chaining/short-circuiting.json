@@ -1,0 +1,328 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 575,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 358,
+      "end": 378,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 364,
+          "end": 377,
+          "id": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 365,
+            "name": "a"
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 368,
+            "end": 377,
+            "name": "undefined"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 379,
+      "end": 389,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 383,
+          "end": 388,
+          "id": {
+            "type": "Identifier",
+            "start": 383,
+            "end": 384,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 387,
+            "end": 388,
+            "value": 1,
+            "raw": "1"
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 391,
+      "end": 399,
+      "expression": {
+        "type": "ChainExpression",
+        "start": 391,
+        "end": 399,
+        "expression": {
+          "type": "MemberExpression",
+          "start": 391,
+          "end": 399,
+          "object": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 392,
+            "name": "a"
+          },
+          "property": {
+            "type": "UpdateExpression",
+            "start": 395,
+            "end": 398,
+            "operator": "++",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 397,
+              "end": 398,
+              "name": "x"
+            }
+          },
+          "computed": true,
+          "optional": true
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 421,
+      "end": 435,
+      "expression": {
+        "type": "ChainExpression",
+        "start": 421,
+        "end": 434,
+        "expression": {
+          "type": "MemberExpression",
+          "start": 421,
+          "end": 434,
+          "object": {
+            "type": "CallExpression",
+            "start": 421,
+            "end": 432,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 421,
+              "end": 427,
+              "object": {
+                "type": "MemberExpression",
+                "start": 421,
+                "end": 425,
+                "object": {
+                  "type": "Identifier",
+                  "start": 421,
+                  "end": 422,
+                  "name": "a"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 424,
+                  "end": 425,
+                  "name": "b"
+                },
+                "computed": false,
+                "optional": true
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 426,
+                "end": 427,
+                "name": "c"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UpdateExpression",
+                "start": 428,
+                "end": 431,
+                "operator": "++",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 430,
+                  "end": 431,
+                  "name": "x"
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 433,
+            "end": 434,
+            "name": "d"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 463,
+      "end": 479,
+      "expression": {
+        "type": "ChainExpression",
+        "start": 463,
+        "end": 479,
+        "expression": {
+          "type": "MemberExpression",
+          "start": 463,
+          "end": 479,
+          "object": {
+            "type": "Identifier",
+            "start": 463,
+            "end": 472,
+            "name": "undefined"
+          },
+          "property": {
+            "type": "UpdateExpression",
+            "start": 475,
+            "end": 478,
+            "operator": "++",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 477,
+              "end": 478,
+              "name": "x"
+            }
+          },
+          "computed": true,
+          "optional": true
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 501,
+      "end": 523,
+      "expression": {
+        "type": "ChainExpression",
+        "start": 501,
+        "end": 522,
+        "expression": {
+          "type": "MemberExpression",
+          "start": 501,
+          "end": 522,
+          "object": {
+            "type": "CallExpression",
+            "start": 501,
+            "end": 520,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 501,
+              "end": 515,
+              "object": {
+                "type": "MemberExpression",
+                "start": 501,
+                "end": 513,
+                "object": {
+                  "type": "Identifier",
+                  "start": 501,
+                  "end": 510,
+                  "name": "undefined"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 512,
+                  "end": 513,
+                  "name": "b"
+                },
+                "computed": false,
+                "optional": true
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 514,
+                "end": 515,
+                "name": "c"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UpdateExpression",
+                "start": 516,
+                "end": 519,
+                "operator": "++",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 518,
+                  "end": 519,
+                  "name": "x"
+                }
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 521,
+            "end": 522,
+            "name": "d"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 551,
+      "end": 574,
+      "expression": {
+        "type": "CallExpression",
+        "start": 551,
+        "end": 573,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 551,
+          "end": 567,
+          "object": {
+            "type": "Identifier",
+            "start": 551,
+            "end": 557,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 558,
+            "end": 567,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 568,
+            "end": 569,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Identifier",
+            "start": 571,
+            "end": 572,
+            "name": "x"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

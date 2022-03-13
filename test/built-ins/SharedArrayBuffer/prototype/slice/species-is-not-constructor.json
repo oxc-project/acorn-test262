@@ -1,0 +1,374 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 856,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 403,
+      "end": 431,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 407,
+          "end": 430,
+          "id": {
+            "type": "Identifier",
+            "start": 407,
+            "end": 425,
+            "name": "speciesConstructor"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 428,
+            "end": 430,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 433,
+      "end": 476,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 437,
+          "end": 475,
+          "id": {
+            "type": "Identifier",
+            "start": 437,
+            "end": 448,
+            "name": "arrayBuffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 451,
+            "end": 475,
+            "callee": {
+              "type": "Identifier",
+              "start": 455,
+              "end": 472,
+              "name": "SharedArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 473,
+                "end": 474,
+                "value": 8,
+                "raw": "8"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 477,
+      "end": 522,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 477,
+        "end": 521,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 477,
+          "end": 500,
+          "object": {
+            "type": "Identifier",
+            "start": 477,
+            "end": 488,
+            "name": "arrayBuffer"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 500,
+            "name": "constructor"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 503,
+          "end": 521,
+          "name": "speciesConstructor"
+        }
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 524,
+      "end": 571,
+      "id": {
+        "type": "Identifier",
+        "start": 533,
+        "end": 542,
+        "name": "callSlice"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 545,
+        "end": 571,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 549,
+            "end": 569,
+            "expression": {
+              "type": "CallExpression",
+              "start": 549,
+              "end": 568,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 549,
+                "end": 566,
+                "object": {
+                  "type": "Identifier",
+                  "start": 549,
+                  "end": 560,
+                  "name": "arrayBuffer"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 561,
+                  "end": 566,
+                  "name": "slice"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 573,
+      "end": 613,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 573,
+        "end": 612,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 573,
+          "end": 607,
+          "object": {
+            "type": "Identifier",
+            "start": 573,
+            "end": 591,
+            "name": "speciesConstructor"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 592,
+            "end": 606,
+            "object": {
+              "type": "Identifier",
+              "start": 592,
+              "end": 598,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 599,
+              "end": 606,
+              "name": "species"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 610,
+          "end": 612,
+          "properties": []
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 614,
+      "end": 699,
+      "expression": {
+        "type": "CallExpression",
+        "start": 614,
+        "end": 698,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 614,
+          "end": 627,
+          "object": {
+            "type": "Identifier",
+            "start": 614,
+            "end": 620,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 621,
+            "end": 627,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 628,
+            "end": 637,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 639,
+            "end": 648,
+            "name": "callSlice"
+          },
+          {
+            "type": "Literal",
+            "start": 650,
+            "end": 697,
+            "value": "`constructor[Symbol.species]` value is Object",
+            "raw": "\"`constructor[Symbol.species]` value is Object\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 757,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 701,
+        "end": 756,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 701,
+          "end": 735,
+          "object": {
+            "type": "Identifier",
+            "start": 701,
+            "end": 719,
+            "name": "speciesConstructor"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 720,
+            "end": 734,
+            "object": {
+              "type": "Identifier",
+              "start": 720,
+              "end": 726,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 727,
+              "end": 734,
+              "name": "species"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 738,
+          "end": 756,
+          "object": {
+            "type": "Identifier",
+            "start": 738,
+            "end": 746,
+            "name": "Function"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 747,
+            "end": 756,
+            "name": "prototype"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 758,
+      "end": 855,
+      "expression": {
+        "type": "CallExpression",
+        "start": 758,
+        "end": 854,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 758,
+          "end": 771,
+          "object": {
+            "type": "Identifier",
+            "start": 758,
+            "end": 764,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 765,
+            "end": 771,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 772,
+            "end": 781,
+            "name": "TypeError"
+          },
+          {
+            "type": "Identifier",
+            "start": 783,
+            "end": 792,
+            "name": "callSlice"
+          },
+          {
+            "type": "Literal",
+            "start": 794,
+            "end": 853,
+            "value": "`constructor[Symbol.species]` value is Function.prototype",
+            "raw": "\"`constructor[Symbol.species]` value is Function.prototype\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 792,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 723,
+      "end": 791,
+      "expression": {
+        "type": "CallExpression",
+        "start": 723,
+        "end": 790,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 723,
+          "end": 736,
+          "object": {
+            "type": "Identifier",
+            "start": 723,
+            "end": 729,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 730,
+            "end": 736,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 737,
+            "end": 751,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 753,
+            "end": 789,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 764,
+              "end": 789,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 768,
+                  "end": 787,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 768,
+                    "end": 786,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 768,
+                      "end": 772,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 773,
+                        "end": 785,
+                        "name": "unresolvable"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,100 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 395,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 288,
+      "end": 394,
+      "expression": {
+        "type": "CallExpression",
+        "start": 288,
+        "end": 393,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 288,
+          "end": 304,
+          "object": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 294,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 295,
+            "end": 304,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 305,
+            "end": 335,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 305,
+              "end": 318,
+              "object": {
+                "type": "Identifier",
+                "start": 305,
+                "end": 310,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 311,
+                "end": 318,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 319,
+                "end": 334,
+                "object": {
+                  "type": "Identifier",
+                  "start": 319,
+                  "end": 324,
+                  "name": "Array"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 325,
+                  "end": 334,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 337,
+            "end": 341,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 343,
+            "end": 392,
+            "value": "Array.isArray(Array.prototype) must return true",
+            "raw": "'Array.isArray(Array.prototype) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

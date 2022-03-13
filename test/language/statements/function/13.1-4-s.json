@@ -1,0 +1,89 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 665,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 556,
+      "end": 664,
+      "expression": {
+        "type": "CallExpression",
+        "start": 556,
+        "end": 663,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 556,
+          "end": 569,
+          "object": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 562,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 563,
+            "end": 569,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 570,
+            "end": 581,
+            "name": "SyntaxError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 583,
+            "end": 662,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 594,
+              "end": 662,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 608,
+                  "end": 660,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 608,
+                    "end": 659,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 608,
+                      "end": 612,
+                      "name": "eval"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 613,
+                        "end": 658,
+                        "value": "var _13_1_4_fun = function (arguments) { };",
+                        "raw": "\"var _13_1_4_fun = function (arguments) { };\""
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

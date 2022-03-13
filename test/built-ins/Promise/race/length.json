@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 940,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 765,
+      "end": 806,
+      "expression": {
+        "type": "CallExpression",
+        "start": 765,
+        "end": 805,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 765,
+          "end": 781,
+          "object": {
+            "type": "Identifier",
+            "start": 765,
+            "end": 771,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 772,
+            "end": 781,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 782,
+            "end": 801,
+            "object": {
+              "type": "MemberExpression",
+              "start": 782,
+              "end": 794,
+              "object": {
+                "type": "Identifier",
+                "start": 782,
+                "end": 789,
+                "name": "Promise"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 790,
+                "end": 794,
+                "name": "race"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 795,
+              "end": 801,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 803,
+            "end": 804,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 808,
+      "end": 852,
+      "expression": {
+        "type": "CallExpression",
+        "start": 808,
+        "end": 851,
+        "callee": {
+          "type": "Identifier",
+          "start": 808,
+          "end": 827,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 828,
+            "end": 840,
+            "object": {
+              "type": "Identifier",
+              "start": 828,
+              "end": 835,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 836,
+              "end": 840,
+              "name": "race"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 842,
+            "end": 850,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 853,
+      "end": 895,
+      "expression": {
+        "type": "CallExpression",
+        "start": 853,
+        "end": 894,
+        "callee": {
+          "type": "Identifier",
+          "start": 853,
+          "end": 870,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 871,
+            "end": 883,
+            "object": {
+              "type": "Identifier",
+              "start": 871,
+              "end": 878,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 879,
+              "end": 883,
+              "name": "race"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 885,
+            "end": 893,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 896,
+      "end": 939,
+      "expression": {
+        "type": "CallExpression",
+        "start": 896,
+        "end": 938,
+        "callee": {
+          "type": "Identifier",
+          "start": 896,
+          "end": 914,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 915,
+            "end": 927,
+            "object": {
+              "type": "Identifier",
+              "start": 915,
+              "end": 922,
+              "name": "Promise"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 923,
+              "end": 927,
+              "name": "race"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 929,
+            "end": 937,
+            "value": "length",
+            "raw": "'length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

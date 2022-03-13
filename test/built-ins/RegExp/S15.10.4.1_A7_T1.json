@@ -1,0 +1,154 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 617,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 473,
+      "end": 495,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 477,
+          "end": 494,
+          "id": {
+            "type": "Identifier",
+            "start": 477,
+            "end": 481,
+            "name": "__re"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 484,
+            "end": 494,
+            "callee": {
+              "type": "Identifier",
+              "start": 488,
+              "end": 494,
+              "name": "RegExp"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 496,
+      "end": 527,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 496,
+        "end": 526,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 496,
+          "end": 522,
+          "object": {
+            "type": "MemberExpression",
+            "start": 496,
+            "end": 512,
+            "object": {
+              "type": "Identifier",
+              "start": 496,
+              "end": 502,
+              "name": "RegExp"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 503,
+              "end": 512,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 513,
+            "end": 522,
+            "name": "indicator"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 525,
+          "end": 526,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 529,
+      "end": 616,
+      "expression": {
+        "type": "CallExpression",
+        "start": 529,
+        "end": 615,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 529,
+          "end": 545,
+          "object": {
+            "type": "Identifier",
+            "start": 529,
+            "end": 535,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 545,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 546,
+            "end": 560,
+            "object": {
+              "type": "Identifier",
+              "start": 546,
+              "end": 550,
+              "name": "__re"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 551,
+              "end": 560,
+              "name": "indicator"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 562,
+            "end": 563,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 565,
+            "end": 614,
+            "value": "The value of __re.indicator is expected to be 1",
+            "raw": "'The value of __re.indicator is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

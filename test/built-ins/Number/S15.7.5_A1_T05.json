@@ -1,0 +1,200 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 633,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 321,
+      "end": 457,
+      "expression": {
+        "type": "CallExpression",
+        "start": 321,
+        "end": 456,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 321,
+          "end": 337,
+          "object": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 327,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 328,
+            "end": 337,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 341,
+            "end": 381,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 341,
+              "end": 370,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 341,
+                "end": 355,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 342,
+                  "end": 354,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 346,
+                    "end": 352,
+                    "name": "Number"
+                  },
+                  "arguments": []
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 356,
+                "end": 370,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 380,
+                "value": "toFixed",
+                "raw": "\"toFixed\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 385,
+            "end": 390,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 394,
+            "end": 454,
+            "value": "(new Number()).hasOwnProperty(\"toFixed\") must return false",
+            "raw": "'(new Number()).hasOwnProperty(\"toFixed\") must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 459,
+      "end": 632,
+      "expression": {
+        "type": "CallExpression",
+        "start": 459,
+        "end": 631,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 459,
+          "end": 475,
+          "object": {
+            "type": "Identifier",
+            "start": 459,
+            "end": 465,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 466,
+            "end": 475,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 479,
+            "end": 501,
+            "object": {
+              "type": "ParenthesizedExpression",
+              "start": 479,
+              "end": 493,
+              "expression": {
+                "type": "NewExpression",
+                "start": 480,
+                "end": 492,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 484,
+                  "end": 490,
+                  "name": "Number"
+                },
+                "arguments": []
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 494,
+              "end": 501,
+              "name": "toFixed"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 505,
+            "end": 529,
+            "object": {
+              "type": "MemberExpression",
+              "start": 505,
+              "end": 521,
+              "object": {
+                "type": "Identifier",
+                "start": 505,
+                "end": 511,
+                "name": "Number"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 512,
+                "end": 521,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 522,
+              "end": 529,
+              "name": "toFixed"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 533,
+            "end": 629,
+            "value": "The value of (new Number()).toFixed is expected to equal the value of Number.prototype.toFixed",
+            "raw": "'The value of (new Number()).toFixed is expected to equal the value of Number.prototype.toFixed'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

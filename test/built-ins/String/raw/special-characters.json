@@ -1,0 +1,202 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 527,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 309,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 309,
+        "end": 440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 309,
+          "end": 325,
+          "object": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 315,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 316,
+            "end": 325,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TaggedTemplateExpression",
+            "start": 329,
+            "end": 371,
+            "tag": {
+              "type": "MemberExpression",
+              "start": 329,
+              "end": 339,
+              "object": {
+                "type": "Identifier",
+                "start": 329,
+                "end": 335,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 339,
+                "name": "raw"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "quasi": {
+              "type": "TemplateLiteral",
+              "start": 339,
+              "end": 371,
+              "expressions": [
+                {
+                  "type": "Literal",
+                  "start": 358,
+                  "end": 364,
+                  "value": "test",
+                  "raw": "'test'"
+                }
+              ],
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 340,
+                  "end": 356,
+                  "value": {
+                    "raw": "\\u0065\\`\\r\\r\\n\\n",
+                    "cooked": "e`\r\r\n\n"
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 365,
+                  "end": 370,
+                  "value": {
+                    "raw": "check",
+                    "cooked": "check"
+                  },
+                  "tail": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 375,
+            "end": 408,
+            "value": "\\u0065\\`\\r\\r\\n\\ntestcheck",
+            "raw": "'\\\\u0065\\\\`\\\\r\\\\r\\\\n\\\\ntestcheck'"
+          },
+          {
+            "type": "Literal",
+            "start": 412,
+            "end": 438,
+            "value": "Unicode escape sequences",
+            "raw": "'Unicode escape sequences'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 442,
+      "end": 526,
+      "expression": {
+        "type": "CallExpression",
+        "start": 442,
+        "end": 525,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 442,
+          "end": 458,
+          "object": {
+            "type": "Identifier",
+            "start": 442,
+            "end": 448,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 449,
+            "end": 458,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "TaggedTemplateExpression",
+            "start": 462,
+            "end": 481,
+            "tag": {
+              "type": "MemberExpression",
+              "start": 462,
+              "end": 472,
+              "object": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 468,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 469,
+                "end": 472,
+                "name": "raw"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "quasi": {
+              "type": "TemplateLiteral",
+              "start": 472,
+              "end": 481,
+              "expressions": [],
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 473,
+                  "end": 480,
+                  "value": {
+                    "raw": "\\\n\\\n\\\n",
+                    "cooked": ""
+                  },
+                  "tail": true
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 485,
+            "end": 499,
+            "value": "\\\n\\\n\\\n",
+            "raw": "'\\\\\\n\\\\\\n\\\\\\n'"
+          },
+          {
+            "type": "Literal",
+            "start": 503,
+            "end": 523,
+            "value": "Literal characters",
+            "raw": "'Literal characters'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

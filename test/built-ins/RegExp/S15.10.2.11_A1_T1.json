@@ -1,0 +1,436 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 798,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 380,
+      "end": 410,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 384,
+          "end": 409,
+          "id": {
+            "type": "Identifier",
+            "start": 384,
+            "end": 387,
+            "name": "arr"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 390,
+            "end": 409,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 390,
+              "end": 399,
+              "object": {
+                "type": "Literal",
+                "start": 390,
+                "end": 394,
+                "value": {},
+                "raw": "/\\0/",
+                "regex": {
+                  "pattern": "\\0",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 395,
+                "end": 399,
+                "name": "exec"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 400,
+                "end": 408,
+                "value": "\u0000",
+                "raw": "\"\\u0000\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 412,
+      "end": 573,
+      "test": {
+        "type": "LogicalExpression",
+        "start": 416,
+        "end": 455,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 416,
+          "end": 430,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 417,
+            "end": 429,
+            "left": {
+              "type": "Identifier",
+              "start": 417,
+              "end": 420,
+              "name": "arr"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 425,
+              "end": 429,
+              "value": null,
+              "raw": "null"
+            }
+          }
+        },
+        "operator": "||",
+        "right": {
+          "type": "ParenthesizedExpression",
+          "start": 434,
+          "end": 455,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 435,
+            "end": 454,
+            "left": {
+              "type": "MemberExpression",
+              "start": 435,
+              "end": 441,
+              "object": {
+                "type": "Identifier",
+                "start": 435,
+                "end": 438,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Literal",
+                "start": 439,
+                "end": 440,
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 446,
+              "end": 454,
+              "value": "\u0000",
+              "raw": "\"\\u0000\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 457,
+        "end": 573,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 461,
+            "end": 571,
+            "argument": {
+              "type": "NewExpression",
+              "start": 467,
+              "end": 570,
+              "callee": {
+                "type": "Identifier",
+                "start": 471,
+                "end": 483,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 484,
+                  "end": 569,
+                  "left": {
+                    "type": "Literal",
+                    "start": 484,
+                    "end": 551,
+                    "value": "#1: var arr = /\\0/.exec(\\u0000); arr[0] === \"\\u0000\". Actual. ",
+                    "raw": "'#1: var arr = /\\\\0/.exec(\\\\u0000); arr[0] === \"\\\\u0000\". Actual. '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 554,
+                    "end": 569,
+                    "expression": {
+                      "type": "LogicalExpression",
+                      "start": 555,
+                      "end": 568,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 555,
+                        "end": 558,
+                        "name": "arr"
+                      },
+                      "operator": "&&",
+                      "right": {
+                        "type": "MemberExpression",
+                        "start": 562,
+                        "end": 568,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 562,
+                          "end": 565,
+                          "name": "arr"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 566,
+                          "end": 567,
+                          "value": 0,
+                          "raw": "0"
+                        },
+                        "computed": true,
+                        "optional": false
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 575,
+      "end": 620,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 579,
+          "end": 619,
+          "id": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 582,
+            "name": "arr"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 585,
+            "end": 619,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 585,
+              "end": 609,
+              "object": {
+                "type": "ParenthesizedExpression",
+                "start": 585,
+                "end": 604,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 586,
+                  "end": 603,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 590,
+                    "end": 596,
+                    "name": "RegExp"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 597,
+                      "end": 602,
+                      "value": "\\0",
+                      "raw": "\"\\\\0\""
+                    }
+                  ]
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 605,
+                "end": 609,
+                "name": "exec"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 610,
+                "end": 618,
+                "value": "\u0000",
+                "raw": "\"\\u0000\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 622,
+      "end": 797,
+      "test": {
+        "type": "LogicalExpression",
+        "start": 626,
+        "end": 665,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 626,
+          "end": 640,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 627,
+            "end": 639,
+            "left": {
+              "type": "Identifier",
+              "start": 627,
+              "end": 630,
+              "name": "arr"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 635,
+              "end": 639,
+              "value": null,
+              "raw": "null"
+            }
+          }
+        },
+        "operator": "||",
+        "right": {
+          "type": "ParenthesizedExpression",
+          "start": 644,
+          "end": 665,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 645,
+            "end": 664,
+            "left": {
+              "type": "MemberExpression",
+              "start": 645,
+              "end": 651,
+              "object": {
+                "type": "Identifier",
+                "start": 645,
+                "end": 648,
+                "name": "arr"
+              },
+              "property": {
+                "type": "Literal",
+                "start": 649,
+                "end": 650,
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "operator": "!==",
+            "right": {
+              "type": "Literal",
+              "start": 656,
+              "end": 664,
+              "value": "\u0000",
+              "raw": "\"\\u0000\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 667,
+        "end": 797,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 671,
+            "end": 795,
+            "argument": {
+              "type": "NewExpression",
+              "start": 677,
+              "end": 794,
+              "callee": {
+                "type": "Identifier",
+                "start": 681,
+                "end": 693,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 694,
+                  "end": 793,
+                  "left": {
+                    "type": "Literal",
+                    "start": 694,
+                    "end": 775,
+                    "value": "#2: var arr = (new RegExp(\"\\0\")).exec(\\u0000); arr[0] === \"\\u0000\". Actual. ",
+                    "raw": "'#2: var arr = (new RegExp(\"\\\\0\")).exec(\\\\u0000); arr[0] === \"\\\\u0000\". Actual. '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 778,
+                    "end": 793,
+                    "expression": {
+                      "type": "LogicalExpression",
+                      "start": 779,
+                      "end": 792,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 779,
+                        "end": 782,
+                        "name": "arr"
+                      },
+                      "operator": "&&",
+                      "right": {
+                        "type": "MemberExpression",
+                        "start": 786,
+                        "end": 792,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 786,
+                          "end": 789,
+                          "name": "arr"
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 790,
+                          "end": 791,
+                          "value": 0,
+                          "raw": "0"
+                        },
+                        "computed": true,
+                        "optional": false
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

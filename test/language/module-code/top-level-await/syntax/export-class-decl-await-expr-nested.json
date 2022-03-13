@@ -1,0 +1,176 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2225,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 2013,
+      "end": 2054,
+      "id": {
+        "type": "Identifier",
+        "start": 2022,
+        "end": 2024,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 2027,
+        "end": 2054,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 2031,
+            "end": 2052,
+            "argument": {
+              "type": "FunctionExpression",
+              "start": 2038,
+              "end": 2051,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2049,
+                "end": 2051,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2096,
+      "end": 2223,
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 2103,
+        "end": 2223,
+        "id": {
+          "type": "Identifier",
+          "start": 2109,
+          "end": 2110,
+          "name": "C"
+        },
+        "superClass": {
+          "type": "CallExpression",
+          "start": 2119,
+          "end": 2220,
+          "callee": {
+            "type": "Identifier",
+            "start": 2119,
+            "end": 2121,
+            "name": "fn"
+          },
+          "arguments": [
+            {
+              "type": "AwaitExpression",
+              "start": 2122,
+              "end": 2219,
+              "argument": {
+                "type": "AwaitExpression",
+                "start": 2128,
+                "end": 2219,
+                "argument": {
+                  "type": "AwaitExpression",
+                  "start": 2134,
+                  "end": 2219,
+                  "argument": {
+                    "type": "AwaitExpression",
+                    "start": 2140,
+                    "end": 2219,
+                    "argument": {
+                      "type": "AwaitExpression",
+                      "start": 2146,
+                      "end": 2219,
+                      "argument": {
+                        "type": "AwaitExpression",
+                        "start": 2152,
+                        "end": 2219,
+                        "argument": {
+                          "type": "AwaitExpression",
+                          "start": 2158,
+                          "end": 2219,
+                          "argument": {
+                            "type": "AwaitExpression",
+                            "start": 2164,
+                            "end": 2219,
+                            "argument": {
+                              "type": "AwaitExpression",
+                              "start": 2170,
+                              "end": 2219,
+                              "argument": {
+                                "type": "AwaitExpression",
+                                "start": 2176,
+                                "end": 2219,
+                                "argument": {
+                                  "type": "AwaitExpression",
+                                  "start": 2182,
+                                  "end": 2219,
+                                  "argument": {
+                                    "type": "AwaitExpression",
+                                    "start": 2188,
+                                    "end": 2219,
+                                    "argument": {
+                                      "type": "AwaitExpression",
+                                      "start": 2194,
+                                      "end": 2219,
+                                      "argument": {
+                                        "type": "AwaitExpression",
+                                        "start": 2200,
+                                        "end": 2219,
+                                        "argument": {
+                                          "type": "AwaitExpression",
+                                          "start": 2206,
+                                          "end": 2219,
+                                          "argument": {
+                                            "type": "Literal",
+                                            "start": 2212,
+                                            "end": 2219,
+                                            "value": "await",
+                                            "raw": "'await'"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "optional": false
+        },
+        "body": {
+          "type": "ClassBody",
+          "start": 2221,
+          "end": 2223,
+          "body": []
+        }
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2223,
+      "end": 2224
+    }
+  ],
+  "sourceType": "module"
+}

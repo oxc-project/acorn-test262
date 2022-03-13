@@ -1,0 +1,266 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 965,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 729,
+      "end": 792,
+      "expression": {
+        "type": "CallExpression",
+        "start": 729,
+        "end": 791,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 729,
+          "end": 745,
+          "object": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 735,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 736,
+            "end": 745,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 746,
+            "end": 778,
+            "object": {
+              "type": "MemberExpression",
+              "start": 746,
+              "end": 773,
+              "object": {
+                "type": "MemberExpression",
+                "start": 746,
+                "end": 764,
+                "object": {
+                  "type": "Identifier",
+                  "start": 746,
+                  "end": 754,
+                  "name": "DataView"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 755,
+                  "end": 764,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 765,
+                "end": 773,
+                "name": "getUint8"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 774,
+              "end": 778,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 780,
+            "end": 790,
+            "value": "getUint8",
+            "raw": "\"getUint8\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 794,
+      "end": 851,
+      "expression": {
+        "type": "CallExpression",
+        "start": 794,
+        "end": 850,
+        "callee": {
+          "type": "Identifier",
+          "start": 794,
+          "end": 813,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 814,
+            "end": 841,
+            "object": {
+              "type": "MemberExpression",
+              "start": 814,
+              "end": 832,
+              "object": {
+                "type": "Identifier",
+                "start": 814,
+                "end": 822,
+                "name": "DataView"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 823,
+                "end": 832,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 833,
+              "end": 841,
+              "name": "getUint8"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 843,
+            "end": 849,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 852,
+      "end": 907,
+      "expression": {
+        "type": "CallExpression",
+        "start": 852,
+        "end": 906,
+        "callee": {
+          "type": "Identifier",
+          "start": 852,
+          "end": 869,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 870,
+            "end": 897,
+            "object": {
+              "type": "MemberExpression",
+              "start": 870,
+              "end": 888,
+              "object": {
+                "type": "Identifier",
+                "start": 870,
+                "end": 878,
+                "name": "DataView"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 879,
+                "end": 888,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 889,
+              "end": 897,
+              "name": "getUint8"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 899,
+            "end": 905,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 908,
+      "end": 964,
+      "expression": {
+        "type": "CallExpression",
+        "start": 908,
+        "end": 963,
+        "callee": {
+          "type": "Identifier",
+          "start": 908,
+          "end": 926,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 927,
+            "end": 954,
+            "object": {
+              "type": "MemberExpression",
+              "start": 927,
+              "end": 945,
+              "object": {
+                "type": "Identifier",
+                "start": 927,
+                "end": 935,
+                "name": "DataView"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 936,
+                "end": 945,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 946,
+              "end": 954,
+              "name": "getUint8"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 956,
+            "end": 962,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

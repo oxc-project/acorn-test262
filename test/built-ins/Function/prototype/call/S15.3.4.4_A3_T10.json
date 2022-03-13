@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 501,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 373,
+      "end": 415,
+      "expression": {
+        "type": "CallExpression",
+        "start": 373,
+        "end": 414,
+        "callee": {
+          "type": "Identifier",
+          "start": 373,
+          "end": 377,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 378,
+            "end": 413,
+            "value": " (function(){this.feat=1}).call()",
+            "raw": "\" (function(){this.feat=1}).call()\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 417,
+      "end": 500,
+      "expression": {
+        "type": "CallExpression",
+        "start": 417,
+        "end": 499,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 417,
+          "end": 433,
+          "object": {
+            "type": "Identifier",
+            "start": 417,
+            "end": 423,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 424,
+            "end": 433,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 434,
+            "end": 446,
+            "object": {
+              "type": "ThisExpression",
+              "start": 434,
+              "end": 438
+            },
+            "property": {
+              "type": "Literal",
+              "start": 439,
+              "end": 445,
+              "value": "feat",
+              "raw": "\"feat\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 448,
+            "end": 449,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 498,
+            "value": "The value of this[\"feat\"] is expected to be 1",
+            "raw": "'The value of this[\"feat\"] is expected to be 1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,138 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1138,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 994,
+      "end": 1049,
+      "specifiers": [
+        {
+          "type": "ImportNamespaceSpecifier",
+          "start": 1000,
+          "end": 1009,
+          "local": {
+            "type": "Identifier",
+            "start": 1005,
+            "end": 1009,
+            "name": "self"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 1015,
+        "end": 1048,
+        "value": "./object-keys-binding-uninit.js",
+        "raw": "\"./object-keys-binding-uninit.js\""
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1051,
+      "end": 1118,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1051,
+        "end": 1117,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1051,
+          "end": 1064,
+          "object": {
+            "type": "Identifier",
+            "start": 1051,
+            "end": 1057,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1058,
+            "end": 1064,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1065,
+            "end": 1079,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1081,
+            "end": 1116,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1092,
+              "end": 1116,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1096,
+                  "end": 1114,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1096,
+                    "end": 1113,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1096,
+                      "end": 1107,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1096,
+                        "end": 1102,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1103,
+                        "end": 1107,
+                        "name": "keys"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1108,
+                        "end": 1112,
+                        "name": "self"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 1120,
+      "end": 1137,
+      "declaration": {
+        "type": "Literal",
+        "start": 1135,
+        "end": 1136,
+        "value": 0,
+        "raw": "0"
+      }
+    }
+  ],
+  "sourceType": "module"
+}

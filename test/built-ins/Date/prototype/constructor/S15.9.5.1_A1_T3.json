@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 620,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 299,
+      "end": 458,
+      "expression": {
+        "type": "CallExpression",
+        "start": 299,
+        "end": 457,
+        "callee": {
+          "type": "Identifier",
+          "start": 299,
+          "end": 305,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 309,
+            "end": 360,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 310,
+              "end": 360,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 310,
+                "end": 345,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 310,
+                  "end": 324,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 310,
+                    "end": 314,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 315,
+                    "end": 324,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 325,
+                  "end": 345,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 346,
+                  "end": 359,
+                  "value": "constructor",
+                  "raw": "'constructor'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 364,
+            "end": 455,
+            "value": "The value of !Date.prototype.propertyIsEnumerable('constructor') is expected to be true",
+            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'constructor\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 460,
+      "end": 573,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 465,
+        "end": 470,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 469,
+            "end": 470,
+            "id": {
+              "type": "Identifier",
+              "start": 469,
+              "end": 470,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 474,
+        "end": 488,
+        "object": {
+          "type": "Identifier",
+          "start": 474,
+          "end": 478,
+          "name": "Date"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 479,
+          "end": 488,
+          "name": "prototype"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 490,
+        "end": 573,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 494,
+            "end": 571,
+            "expression": {
+              "type": "CallExpression",
+              "start": 494,
+              "end": 570,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 494,
+                "end": 513,
+                "object": {
+                  "type": "Identifier",
+                  "start": 494,
+                  "end": 500,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 501,
+                  "end": 513,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 514,
+                  "end": 515,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 517,
+                  "end": 530,
+                  "value": "constructor",
+                  "raw": "\"constructor\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 532,
+                  "end": 569,
+                  "value": "The value of x is not \"constructor\"",
+                  "raw": "'The value of x is not \"constructor\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

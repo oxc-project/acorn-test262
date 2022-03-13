@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 550,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 436,
+      "end": 464,
+      "id": {
+        "type": "Identifier",
+        "start": 445,
+        "end": 447,
+        "name": "f1"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 449,
+        "end": 464,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 453,
+            "end": 462,
+            "argument": {
+              "type": "Literal",
+              "start": 460,
+              "end": 461,
+              "value": 1,
+              "raw": "1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 465,
+      "end": 549,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 468,
+        "end": 491,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 468,
+          "end": 478,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 474,
+            "end": 478,
+            "expression": {
+              "type": "Identifier",
+              "start": 475,
+              "end": 477,
+              "name": "f1"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 481,
+          "end": 491,
+          "value": "function",
+          "raw": "\"function\""
+        }
+      },
+      "consequent": {
+        "type": "ThrowStatement",
+        "start": 495,
+        "end": 549,
+        "argument": {
+          "type": "NewExpression",
+          "start": 501,
+          "end": 548,
+          "callee": {
+            "type": "Identifier",
+            "start": 505,
+            "end": 517,
+            "name": "Test262Error"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 518,
+              "end": 547,
+              "value": "#1: typeof(f1)!==\"function\"",
+              "raw": "'#1: typeof(f1)!==\"function\"'"
+            }
+          ]
+        }
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

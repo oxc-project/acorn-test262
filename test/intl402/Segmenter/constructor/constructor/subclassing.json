@@ -1,0 +1,1339 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2032,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 451,
+      "end": 536,
+      "id": {
+        "type": "Identifier",
+        "start": 460,
+        "end": 468,
+        "name": "segments"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 469,
+          "end": 477,
+          "name": "iterator"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 479,
+        "end": 536,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 483,
+            "end": 534,
+            "argument": {
+              "type": "CallExpression",
+              "start": 490,
+              "end": 533,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 490,
+                "end": 507,
+                "object": {
+                  "type": "ArrayExpression",
+                  "start": 490,
+                  "end": 503,
+                  "elements": [
+                    {
+                      "type": "SpreadElement",
+                      "start": 491,
+                      "end": 502,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 494,
+                        "end": 502,
+                        "name": "iterator"
+                      }
+                    }
+                  ]
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 504,
+                  "end": 507,
+                  "name": "map"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 508,
+                  "end": 532,
+                  "id": null,
+                  "expression": true,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 508,
+                      "end": 514,
+                      "name": "result"
+                    }
+                  ],
+                  "body": {
+                    "type": "MemberExpression",
+                    "start": 518,
+                    "end": 532,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 518,
+                      "end": 524,
+                      "name": "result"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 525,
+                      "end": 532,
+                      "name": "segment"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 538,
+      "end": 679,
+      "id": {
+        "type": "Identifier",
+        "start": 544,
+        "end": 559,
+        "name": "CustomSegmenter"
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 568,
+        "end": 582,
+        "object": {
+          "type": "Identifier",
+          "start": 568,
+          "end": 572,
+          "name": "Intl"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 573,
+          "end": 582,
+          "name": "Segmenter"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 583,
+        "end": 679,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 587,
+            "end": 677,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 587,
+              "end": 598,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 598,
+              "end": 677,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 599,
+                  "end": 606,
+                  "name": "locales"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 608,
+                  "end": 615,
+                  "name": "options"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 617,
+                "end": 677,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 623,
+                    "end": 647,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 623,
+                      "end": 646,
+                      "callee": {
+                        "type": "Super",
+                        "start": 623,
+                        "end": 628
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 629,
+                          "end": 636,
+                          "name": "locales"
+                        },
+                        {
+                          "type": "Identifier",
+                          "start": 638,
+                          "end": 645,
+                          "name": "options"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 652,
+                    "end": 673,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 652,
+                      "end": 672,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 652,
+                        "end": 665,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 652,
+                          "end": 656
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 657,
+                          "end": 665,
+                          "name": "isCustom"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 668,
+                        "end": 672,
+                        "value": true,
+                        "raw": "true"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 681,
+      "end": 701,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 687,
+          "end": 700,
+          "id": {
+            "type": "Identifier",
+            "start": 687,
+            "end": 693,
+            "name": "locale"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 696,
+            "end": 700,
+            "value": "de",
+            "raw": "\"de\""
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 702,
+      "end": 724,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 708,
+          "end": 723,
+          "id": {
+            "type": "Identifier",
+            "start": 708,
+            "end": 713,
+            "name": "value"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 716,
+            "end": 723,
+            "value": "Hello",
+            "raw": "\"Hello\""
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 726,
+      "end": 776,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 732,
+          "end": 775,
+          "id": {
+            "type": "Identifier",
+            "start": 732,
+            "end": 746,
+            "name": "real_segmenter"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 749,
+            "end": 775,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 753,
+              "end": 767,
+              "object": {
+                "type": "Identifier",
+                "start": 753,
+                "end": 757,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 758,
+                "end": 767,
+                "name": "Segmenter"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 768,
+                "end": 774,
+                "name": "locale"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 777,
+      "end": 849,
+      "expression": {
+        "type": "CallExpression",
+        "start": 777,
+        "end": 848,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 777,
+          "end": 793,
+          "object": {
+            "type": "Identifier",
+            "start": 777,
+            "end": 783,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 784,
+            "end": 793,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 794,
+            "end": 817,
+            "object": {
+              "type": "Identifier",
+              "start": 794,
+              "end": 808,
+              "name": "real_segmenter"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 809,
+              "end": 817,
+              "name": "isCustom"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 819,
+            "end": 828,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 830,
+            "end": 847,
+            "value": "Custom property",
+            "raw": "\"Custom property\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 851,
+      "end": 904,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 857,
+          "end": 903,
+          "id": {
+            "type": "Identifier",
+            "start": 857,
+            "end": 873,
+            "name": "custom_segmenter"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 876,
+            "end": 903,
+            "callee": {
+              "type": "Identifier",
+              "start": 880,
+              "end": 895,
+              "name": "CustomSegmenter"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 896,
+                "end": 902,
+                "name": "locale"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 905,
+      "end": 974,
+      "expression": {
+        "type": "CallExpression",
+        "start": 905,
+        "end": 973,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 905,
+          "end": 921,
+          "object": {
+            "type": "Identifier",
+            "start": 905,
+            "end": 911,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 912,
+            "end": 921,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 922,
+            "end": 947,
+            "object": {
+              "type": "Identifier",
+              "start": 922,
+              "end": 938,
+              "name": "custom_segmenter"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 939,
+              "end": 947,
+              "name": "isCustom"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 949,
+            "end": 953,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 955,
+            "end": 972,
+            "value": "Custom property",
+            "raw": "\"Custom property\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 976,
+      "end": 1135,
+      "expression": {
+        "type": "CallExpression",
+        "start": 976,
+        "end": 1134,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 976,
+          "end": 995,
+          "object": {
+            "type": "Identifier",
+            "start": 976,
+            "end": 982,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 983,
+            "end": 995,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 996,
+            "end": 1037,
+            "callee": {
+              "type": "Identifier",
+              "start": 996,
+              "end": 1004,
+              "name": "segments"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1005,
+                "end": 1036,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1005,
+                  "end": 1029,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1005,
+                    "end": 1021,
+                    "name": "custom_segmenter"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1022,
+                    "end": 1029,
+                    "name": "segment"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1030,
+                    "end": 1035,
+                    "name": "value"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 1059,
+            "end": 1098,
+            "callee": {
+              "type": "Identifier",
+              "start": 1059,
+              "end": 1067,
+              "name": "segments"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1068,
+                "end": 1097,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1068,
+                  "end": 1090,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1068,
+                    "end": 1082,
+                    "name": "real_segmenter"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1083,
+                    "end": 1090,
+                    "name": "segment"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1091,
+                    "end": 1096,
+                    "name": "value"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1120,
+            "end": 1133,
+            "value": "Direct call",
+            "raw": "\"Direct call\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1137,
+      "end": 1360,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1137,
+        "end": 1359,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1137,
+          "end": 1156,
+          "object": {
+            "type": "Identifier",
+            "start": 1137,
+            "end": 1143,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1144,
+            "end": 1156,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1157,
+            "end": 1229,
+            "callee": {
+              "type": "Identifier",
+              "start": 1157,
+              "end": 1165,
+              "name": "segments"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1166,
+                "end": 1228,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1166,
+                  "end": 1203,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 1166,
+                    "end": 1198,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 1166,
+                      "end": 1190,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 1166,
+                        "end": 1180,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1166,
+                          "end": 1170,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1171,
+                          "end": 1180,
+                          "name": "Segmenter"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1181,
+                        "end": 1190,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1191,
+                      "end": 1198,
+                      "name": "segment"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1199,
+                    "end": 1203,
+                    "name": "call"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1204,
+                    "end": 1220,
+                    "name": "custom_segmenter"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 1222,
+                    "end": 1227,
+                    "name": "value"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "CallExpression",
+            "start": 1251,
+            "end": 1321,
+            "callee": {
+              "type": "Identifier",
+              "start": 1251,
+              "end": 1259,
+              "name": "segments"
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 1260,
+                "end": 1320,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1260,
+                  "end": 1297,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 1260,
+                    "end": 1292,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 1260,
+                      "end": 1284,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 1260,
+                        "end": 1274,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1260,
+                          "end": 1264,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1265,
+                          "end": 1274,
+                          "name": "Segmenter"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1275,
+                        "end": 1284,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1285,
+                      "end": 1292,
+                      "name": "segment"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1293,
+                    "end": 1297,
+                    "name": "call"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1298,
+                    "end": 1312,
+                    "name": "real_segmenter"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 1314,
+                    "end": 1319,
+                    "name": "value"
+                  }
+                ],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1343,
+            "end": 1358,
+            "value": "Indirect call",
+            "raw": "\"Indirect call\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1362,
+      "end": 1460,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1362,
+        "end": 1459,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1362,
+          "end": 1378,
+          "object": {
+            "type": "Identifier",
+            "start": 1362,
+            "end": 1368,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1369,
+            "end": 1378,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1379,
+            "end": 1418,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1379,
+              "end": 1400,
+              "object": {
+                "type": "Identifier",
+                "start": 1379,
+                "end": 1385,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1386,
+                "end": 1400,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1401,
+                "end": 1417,
+                "name": "custom_segmenter"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1420,
+            "end": 1445,
+            "object": {
+              "type": "Identifier",
+              "start": 1420,
+              "end": 1435,
+              "name": "CustomSegmenter"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1436,
+              "end": 1445,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1447,
+            "end": 1458,
+            "value": "Prototype",
+            "raw": "\"Prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1461,
+      "end": 1616,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1461,
+        "end": 1615,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1461,
+          "end": 1477,
+          "object": {
+            "type": "Identifier",
+            "start": 1461,
+            "end": 1467,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1468,
+            "end": 1477,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1478,
+            "end": 1516,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1478,
+              "end": 1499,
+              "object": {
+                "type": "Identifier",
+                "start": 1478,
+                "end": 1484,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1485,
+                "end": 1499,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1500,
+                "end": 1515,
+                "name": "CustomSegmenter"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1518,
+            "end": 1532,
+            "object": {
+              "type": "Identifier",
+              "start": 1518,
+              "end": 1522,
+              "name": "Intl"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1523,
+              "end": 1532,
+              "name": "Segmenter"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1551,
+            "end": 1614,
+            "value": "Object.getPrototypeOf(CustomSegmenter) returns Intl.Segmenter",
+            "raw": "\"Object.getPrototypeOf(CustomSegmenter) returns Intl.Segmenter\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1617,
+      "end": 1812,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1617,
+        "end": 1811,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1617,
+          "end": 1633,
+          "object": {
+            "type": "Identifier",
+            "start": 1617,
+            "end": 1623,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1624,
+            "end": 1633,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1634,
+            "end": 1682,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1634,
+              "end": 1655,
+              "object": {
+                "type": "Identifier",
+                "start": 1634,
+                "end": 1640,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1641,
+                "end": 1655,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 1656,
+                "end": 1681,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1656,
+                  "end": 1671,
+                  "name": "CustomSegmenter"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1672,
+                  "end": 1681,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 1684,
+            "end": 1708,
+            "object": {
+              "type": "MemberExpression",
+              "start": 1684,
+              "end": 1698,
+              "object": {
+                "type": "Identifier",
+                "start": 1684,
+                "end": 1688,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1689,
+                "end": 1698,
+                "name": "Segmenter"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1699,
+              "end": 1708,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1727,
+            "end": 1810,
+            "value": "Object.getPrototypeOf(CustomSegmenter.prototype) returns Intl.Segmenter.prototype",
+            "raw": "\"Object.getPrototypeOf(CustomSegmenter.prototype) returns Intl.Segmenter.prototype\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1813,
+      "end": 1967,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1813,
+        "end": 1966,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1813,
+          "end": 1829,
+          "object": {
+            "type": "Identifier",
+            "start": 1813,
+            "end": 1819,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1820,
+            "end": 1829,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 1830,
+            "end": 1872,
+            "left": {
+              "type": "Identifier",
+              "start": 1830,
+              "end": 1846,
+              "name": "custom_segmenter"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "start": 1858,
+              "end": 1872,
+              "object": {
+                "type": "Identifier",
+                "start": 1858,
+                "end": 1862,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1863,
+                "end": 1872,
+                "name": "Segmenter"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1874,
+            "end": 1878,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 1897,
+            "end": 1965,
+            "value": "The result of `custom_segmenter instanceof Intl.Segmenter` is true",
+            "raw": "\"The result of `custom_segmenter instanceof Intl.Segmenter` is true\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1969,
+      "end": 2031,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1969,
+        "end": 2030,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1969,
+          "end": 1982,
+          "object": {
+            "type": "Identifier",
+            "start": 1969,
+            "end": 1975,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1976,
+            "end": 1982,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1983,
+            "end": 1992,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1994,
+            "end": 2029,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2005,
+              "end": 2029,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2009,
+                  "end": 2027,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2009,
+                    "end": 2026,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 2009,
+                      "end": 2024,
+                      "name": "CustomSegmenter"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

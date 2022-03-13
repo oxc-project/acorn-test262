@@ -1,0 +1,262 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 742,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 262,
+      "end": 296,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 266,
+          "end": 295,
+          "id": {
+            "type": "Identifier",
+            "start": 266,
+            "end": 276,
+            "name": "__instance"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 279,
+            "end": 295,
+            "callee": {
+              "type": "Identifier",
+              "start": 283,
+              "end": 289,
+              "name": "Object"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 290,
+                "end": 294,
+                "value": true,
+                "raw": "true"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 298,
+      "end": 340,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 298,
+        "end": 339,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 298,
+          "end": 314,
+          "object": {
+            "type": "Identifier",
+            "start": 298,
+            "end": 308,
+            "name": "__instance"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 309,
+            "end": 314,
+            "name": "match"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "MemberExpression",
+          "start": 317,
+          "end": 339,
+          "object": {
+            "type": "MemberExpression",
+            "start": 317,
+            "end": 333,
+            "object": {
+              "type": "Identifier",
+              "start": 317,
+              "end": 323,
+              "name": "String"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 324,
+              "end": 333,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 334,
+            "end": 339,
+            "name": "match"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 431,
+      "end": 659,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 435,
+        "end": 471,
+        "left": {
+          "type": "MemberExpression",
+          "start": 435,
+          "end": 460,
+          "object": {
+            "type": "CallExpression",
+            "start": 435,
+            "end": 457,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 435,
+              "end": 451,
+              "object": {
+                "type": "Identifier",
+                "start": 435,
+                "end": 445,
+                "name": "__instance"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 446,
+                "end": 451,
+                "name": "match"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 452,
+                "end": 456,
+                "value": true,
+                "raw": "true"
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 458,
+            "end": 459,
+            "value": 0,
+            "raw": "0"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 465,
+          "end": 471,
+          "value": "true",
+          "raw": "\"true\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 473,
+        "end": 659,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 477,
+            "end": 657,
+            "argument": {
+              "type": "NewExpression",
+              "start": 483,
+              "end": 656,
+              "callee": {
+                "type": "Identifier",
+                "start": 487,
+                "end": 499,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 500,
+                  "end": 655,
+                  "left": {
+                    "type": "Literal",
+                    "start": 500,
+                    "end": 627,
+                    "value": "#1: __instance = new Object(true); __instance.match = String.prototype.match;  __instance.match(true)[0] === \"true\". Actual: ",
+                    "raw": "'#1: __instance = new Object(true); __instance.match = String.prototype.match;  __instance.match(true)[0] === \"true\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 630,
+                    "end": 655,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 630,
+                      "end": 652,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 630,
+                        "end": 646,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 630,
+                          "end": 640,
+                          "name": "__instance"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 641,
+                          "end": 646,
+                          "name": "match"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 647,
+                          "end": 651,
+                          "value": true,
+                          "raw": "true"
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 653,
+                      "end": 654,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "computed": true,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,524 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 818,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 202,
+      "end": 296,
+      "expression": {
+        "type": "CallExpression",
+        "start": 202,
+        "end": 295,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 202,
+          "end": 218,
+          "object": {
+            "type": "Identifier",
+            "start": 202,
+            "end": 208,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 209,
+            "end": 218,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 219,
+            "end": 233,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 219,
+              "end": 228,
+              "object": {
+                "type": "Identifier",
+                "start": 219,
+                "end": 223,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 224,
+                "end": 228,
+                "name": "cbrt"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 229,
+                "end": 232,
+                "name": "NaN"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 235,
+            "end": 245,
+            "object": {
+              "type": "Identifier",
+              "start": 235,
+              "end": 241,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 242,
+              "end": 245,
+              "name": "NaN"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 249,
+            "end": 294,
+            "value": "Math.cbrt produces incorrect output for NaN",
+            "raw": "\"Math.cbrt produces incorrect output for NaN\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 297,
+      "end": 454,
+      "expression": {
+        "type": "CallExpression",
+        "start": 297,
+        "end": 453,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 297,
+          "end": 313,
+          "object": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 303,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 313,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 314,
+            "end": 349,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 314,
+              "end": 323,
+              "object": {
+                "type": "Identifier",
+                "start": 314,
+                "end": 318,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 319,
+                "end": 323,
+                "name": "cbrt"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 324,
+                "end": 348,
+                "object": {
+                  "type": "Identifier",
+                  "start": 324,
+                  "end": 330,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 331,
+                  "end": 348,
+                  "name": "NEGATIVE_INFINITY"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 351,
+            "end": 375,
+            "object": {
+              "type": "Identifier",
+              "start": 351,
+              "end": 357,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 358,
+              "end": 375,
+              "name": "NEGATIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 379,
+            "end": 452,
+            "value": "Math.cbrt should produce negative infinity for Number.NEGATIVE_INFINITY",
+            "raw": "\"Math.cbrt should produce negative infinity for Number.NEGATIVE_INFINITY\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 455,
+      "end": 612,
+      "expression": {
+        "type": "CallExpression",
+        "start": 455,
+        "end": 611,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 455,
+          "end": 471,
+          "object": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 461,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 471,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 472,
+            "end": 507,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 472,
+              "end": 481,
+              "object": {
+                "type": "Identifier",
+                "start": 472,
+                "end": 476,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 477,
+                "end": 481,
+                "name": "cbrt"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 482,
+                "end": 506,
+                "object": {
+                  "type": "Identifier",
+                  "start": 482,
+                  "end": 488,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 489,
+                  "end": 506,
+                  "name": "POSITIVE_INFINITY"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 509,
+            "end": 533,
+            "object": {
+              "type": "Identifier",
+              "start": 509,
+              "end": 515,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 516,
+              "end": 533,
+              "name": "POSITIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 537,
+            "end": 610,
+            "value": "Math.cbrt should produce positive infinity for Number.POSITIVE_INFINITY",
+            "raw": "\"Math.cbrt should produce positive infinity for Number.POSITIVE_INFINITY\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 613,
+      "end": 715,
+      "expression": {
+        "type": "CallExpression",
+        "start": 613,
+        "end": 714,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 613,
+          "end": 629,
+          "object": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 619,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 620,
+            "end": 629,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 630,
+            "end": 647,
+            "left": {
+              "type": "Literal",
+              "start": 630,
+              "end": 631,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 634,
+              "end": 647,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 634,
+                "end": 643,
+                "object": {
+                  "type": "Identifier",
+                  "start": 634,
+                  "end": 638,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 639,
+                  "end": 643,
+                  "name": "cbrt"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "UnaryExpression",
+                  "start": 644,
+                  "end": 646,
+                  "operator": "-",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 645,
+                    "end": 646,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 649,
+            "end": 673,
+            "object": {
+              "type": "Identifier",
+              "start": 649,
+              "end": 655,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 656,
+              "end": 673,
+              "name": "NEGATIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 677,
+            "end": 713,
+            "value": "Math.cbrt should produce -0 for -0",
+            "raw": "\"Math.cbrt should produce -0 for -0\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 716,
+      "end": 817,
+      "expression": {
+        "type": "CallExpression",
+        "start": 716,
+        "end": 816,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 716,
+          "end": 732,
+          "object": {
+            "type": "Identifier",
+            "start": 716,
+            "end": 722,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 723,
+            "end": 732,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 733,
+            "end": 749,
+            "left": {
+              "type": "Literal",
+              "start": 733,
+              "end": 734,
+              "value": 1,
+              "raw": "1"
+            },
+            "operator": "/",
+            "right": {
+              "type": "CallExpression",
+              "start": 737,
+              "end": 749,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 737,
+                "end": 746,
+                "object": {
+                  "type": "Identifier",
+                  "start": 737,
+                  "end": 741,
+                  "name": "Math"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 742,
+                  "end": 746,
+                  "name": "cbrt"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 747,
+                  "end": 748,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "start": 751,
+            "end": 775,
+            "object": {
+              "type": "Identifier",
+              "start": 751,
+              "end": 757,
+              "name": "Number"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 758,
+              "end": 775,
+              "name": "POSITIVE_INFINITY"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 779,
+            "end": 815,
+            "value": "Math.cbrt should produce +0 for +0",
+            "raw": "\"Math.cbrt should produce +0 for +0\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

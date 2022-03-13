@@ -1,0 +1,181 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 456,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 321,
+      "end": 335,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 325,
+          "end": 334,
+          "id": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 329,
+            "name": "obj1"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 332,
+            "end": 334,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 336,
+      "end": 350,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 340,
+          "end": 349,
+          "id": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 344,
+            "name": "obj2"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 347,
+            "end": 349,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 351,
+      "end": 367,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 355,
+          "end": 366,
+          "id": {
+            "type": "Identifier",
+            "start": 355,
+            "end": 359,
+            "name": "obj3"
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 366,
+            "name": "obj2"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 369,
+      "end": 455,
+      "expression": {
+        "type": "CallExpression",
+        "start": 369,
+        "end": 454,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 369,
+          "end": 385,
+          "object": {
+            "type": "Identifier",
+            "start": 369,
+            "end": 375,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 376,
+            "end": 385,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 386,
+            "end": 416,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 386,
+              "end": 410,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 386,
+                "end": 402,
+                "elements": [
+                  {
+                    "type": "ObjectExpression",
+                    "start": 387,
+                    "end": 389,
+                    "properties": []
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 391,
+                    "end": 395,
+                    "name": "obj1"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 397,
+                    "end": 401,
+                    "name": "obj2"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 403,
+                "end": 410,
+                "name": "indexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 411,
+                "end": 415,
+                "name": "obj3"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 418,
+            "end": 419,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 421,
+            "end": 453,
+            "value": "[{}, obj1, obj2].indexOf(obj3)",
+            "raw": "'[{}, obj1, obj2].indexOf(obj3)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

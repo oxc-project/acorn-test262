@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 558,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 462,
+      "end": 495,
+      "expression": {
+        "type": "CallExpression",
+        "start": 462,
+        "end": 494,
+        "callee": {
+          "type": "Identifier",
+          "start": 462,
+          "end": 481,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 482,
+            "end": 486,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 488,
+            "end": 493,
+            "value": "tan",
+            "raw": "\"tan\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 496,
+      "end": 524,
+      "expression": {
+        "type": "CallExpression",
+        "start": 496,
+        "end": 523,
+        "callee": {
+          "type": "Identifier",
+          "start": 496,
+          "end": 510,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 511,
+            "end": 515,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 517,
+            "end": 522,
+            "value": "tan",
+            "raw": "\"tan\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 525,
+      "end": 557,
+      "expression": {
+        "type": "CallExpression",
+        "start": 525,
+        "end": 556,
+        "callee": {
+          "type": "Identifier",
+          "start": 525,
+          "end": 543,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 544,
+            "end": 548,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 550,
+            "end": 555,
+            "value": "tan",
+            "raw": "\"tan\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

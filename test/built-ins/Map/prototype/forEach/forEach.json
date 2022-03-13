@@ -1,0 +1,228 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 616,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 364,
+      "end": 479,
+      "expression": {
+        "type": "CallExpression",
+        "start": 364,
+        "end": 478,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 364,
+          "end": 380,
+          "object": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 370,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 371,
+            "end": 380,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 384,
+            "end": 412,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 391,
+              "end": 412,
+              "object": {
+                "type": "MemberExpression",
+                "start": 391,
+                "end": 404,
+                "object": {
+                  "type": "Identifier",
+                  "start": 391,
+                  "end": 394,
+                  "name": "Map"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 395,
+                  "end": 404,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 405,
+                "end": 412,
+                "name": "forEach"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 416,
+            "end": 426,
+            "value": "function",
+            "raw": "'function'"
+          },
+          {
+            "type": "Literal",
+            "start": 430,
+            "end": 476,
+            "value": "`typeof Map.prototype.forEach` is `function`",
+            "raw": "'`typeof Map.prototype.forEach` is `function`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 481,
+      "end": 527,
+      "expression": {
+        "type": "CallExpression",
+        "start": 481,
+        "end": 526,
+        "callee": {
+          "type": "Identifier",
+          "start": 481,
+          "end": 500,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 501,
+            "end": 514,
+            "object": {
+              "type": "Identifier",
+              "start": 501,
+              "end": 504,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 505,
+              "end": 514,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 516,
+            "end": 525,
+            "value": "forEach",
+            "raw": "'forEach'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 528,
+      "end": 569,
+      "expression": {
+        "type": "CallExpression",
+        "start": 528,
+        "end": 568,
+        "callee": {
+          "type": "Identifier",
+          "start": 528,
+          "end": 542,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 543,
+            "end": 556,
+            "object": {
+              "type": "Identifier",
+              "start": 543,
+              "end": 546,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 547,
+              "end": 556,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 558,
+            "end": 567,
+            "value": "forEach",
+            "raw": "'forEach'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 570,
+      "end": 615,
+      "expression": {
+        "type": "CallExpression",
+        "start": 570,
+        "end": 614,
+        "callee": {
+          "type": "Identifier",
+          "start": 570,
+          "end": 588,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 589,
+            "end": 602,
+            "object": {
+              "type": "Identifier",
+              "start": 589,
+              "end": 592,
+              "name": "Map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 593,
+              "end": 602,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 604,
+            "end": 613,
+            "value": "forEach",
+            "raw": "'forEach'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

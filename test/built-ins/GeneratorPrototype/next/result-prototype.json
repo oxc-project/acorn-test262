@@ -1,0 +1,323 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 626,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 344,
+      "end": 360,
+      "id": {
+        "type": "Identifier",
+        "start": 354,
+        "end": 355,
+        "name": "g"
+      },
+      "expression": false,
+      "generator": true,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 358,
+        "end": 360,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 361,
+      "end": 385,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 365,
+          "end": 384,
+          "id": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 371,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 374,
+            "end": 384,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 374,
+              "end": 382,
+              "object": {
+                "type": "CallExpression",
+                "start": 374,
+                "end": 377,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 374,
+                  "end": 375,
+                  "name": "g"
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 382,
+                "name": "next"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 387,
+      "end": 473,
+      "expression": {
+        "type": "CallExpression",
+        "start": 387,
+        "end": 472,
+        "callee": {
+          "type": "Identifier",
+          "start": 387,
+          "end": 393,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 397,
+            "end": 440,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 397,
+              "end": 423,
+              "object": {
+                "type": "MemberExpression",
+                "start": 397,
+                "end": 418,
+                "object": {
+                  "type": "Identifier",
+                  "start": 397,
+                  "end": 403,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 404,
+                  "end": 418,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 419,
+                "end": 423,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 424,
+                "end": 430,
+                "name": "result"
+              },
+              {
+                "type": "Literal",
+                "start": 432,
+                "end": 439,
+                "value": "value",
+                "raw": "'value'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 442,
+            "end": 470,
+            "value": "Has \"own\" property `value`",
+            "raw": "'Has \"own\" property `value`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 474,
+      "end": 558,
+      "expression": {
+        "type": "CallExpression",
+        "start": 474,
+        "end": 557,
+        "callee": {
+          "type": "Identifier",
+          "start": 474,
+          "end": 480,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 484,
+            "end": 526,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 484,
+              "end": 510,
+              "object": {
+                "type": "MemberExpression",
+                "start": 484,
+                "end": 505,
+                "object": {
+                  "type": "Identifier",
+                  "start": 484,
+                  "end": 490,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 491,
+                  "end": 505,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 506,
+                "end": 510,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 511,
+                "end": 517,
+                "name": "result"
+              },
+              {
+                "type": "Literal",
+                "start": 519,
+                "end": 525,
+                "value": "done",
+                "raw": "'done'"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 528,
+            "end": 555,
+            "value": "Has \"own\" property `done`",
+            "raw": "'Has \"own\" property `done`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 559,
+      "end": 625,
+      "expression": {
+        "type": "CallExpression",
+        "start": 559,
+        "end": 624,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 559,
+          "end": 575,
+          "object": {
+            "type": "Identifier",
+            "start": 559,
+            "end": 565,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 566,
+            "end": 575,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 576,
+            "end": 605,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 576,
+              "end": 597,
+              "object": {
+                "type": "Identifier",
+                "start": 576,
+                "end": 582,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 583,
+                "end": 597,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 598,
+                "end": 604,
+                "name": "result"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 607,
+            "end": 623,
+            "object": {
+              "type": "Identifier",
+              "start": 607,
+              "end": 613,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 614,
+              "end": 623,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

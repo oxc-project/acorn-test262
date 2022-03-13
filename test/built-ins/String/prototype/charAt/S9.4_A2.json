@@ -1,0 +1,286 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 642,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 375,
+      "end": 500,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 379,
+        "end": 404,
+        "left": {
+          "type": "CallExpression",
+          "start": 379,
+          "end": 396,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 379,
+            "end": 391,
+            "object": {
+              "type": "Literal",
+              "start": 379,
+              "end": 384,
+              "value": "abc",
+              "raw": "\"abc\""
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 385,
+              "end": 391,
+              "name": "charAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 392,
+              "end": 395,
+              "value": 0,
+              "raw": "0.0"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 401,
+          "end": 404,
+          "value": "a",
+          "raw": "\"a\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 406,
+        "end": 500,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 410,
+            "end": 498,
+            "argument": {
+              "type": "NewExpression",
+              "start": 416,
+              "end": 497,
+              "callee": {
+                "type": "Identifier",
+                "start": 420,
+                "end": 432,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 433,
+                  "end": 496,
+                  "left": {
+                    "type": "Literal",
+                    "start": 433,
+                    "end": 474,
+                    "value": "#1: \"abc\".charAt(0.0) === \"a\". Actual: ",
+                    "raw": "'#1: \"abc\".charAt(0.0) === \"a\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 477,
+                    "end": 496,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 478,
+                      "end": 495,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 478,
+                        "end": 490,
+                        "object": {
+                          "type": "Literal",
+                          "start": 478,
+                          "end": 483,
+                          "value": "abc",
+                          "raw": "\"abc\""
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 484,
+                          "end": 490,
+                          "name": "charAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 491,
+                          "end": 494,
+                          "value": 0,
+                          "raw": "0.0"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 513,
+      "end": 641,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 517,
+        "end": 543,
+        "left": {
+          "type": "CallExpression",
+          "start": 517,
+          "end": 535,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 517,
+            "end": 529,
+            "object": {
+              "type": "Literal",
+              "start": 517,
+              "end": 522,
+              "value": "abc",
+              "raw": "\"abc\""
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 523,
+              "end": 529,
+              "name": "charAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "UnaryExpression",
+              "start": 530,
+              "end": 534,
+              "operator": "-",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 531,
+                "end": 534,
+                "value": 0,
+                "raw": "0.0"
+              }
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 540,
+          "end": 543,
+          "value": "a",
+          "raw": "\"a\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 545,
+        "end": 641,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 549,
+            "end": 639,
+            "argument": {
+              "type": "NewExpression",
+              "start": 555,
+              "end": 638,
+              "callee": {
+                "type": "Identifier",
+                "start": 559,
+                "end": 571,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 572,
+                  "end": 637,
+                  "left": {
+                    "type": "Literal",
+                    "start": 572,
+                    "end": 614,
+                    "value": "#2: \"abc\".charAt(-0.0) === \"a\". Actual: ",
+                    "raw": "'#2: \"abc\".charAt(-0.0) === \"a\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 617,
+                    "end": 637,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 618,
+                      "end": 636,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 618,
+                        "end": 630,
+                        "object": {
+                          "type": "Literal",
+                          "start": 618,
+                          "end": 623,
+                          "value": "abc",
+                          "raw": "\"abc\""
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 624,
+                          "end": 630,
+                          "name": "charAt"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "UnaryExpression",
+                          "start": 631,
+                          "end": 635,
+                          "operator": "-",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 632,
+                            "end": 635,
+                            "value": 0,
+                            "raw": "0.0"
+                          }
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 746,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 481,
+      "end": 655,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 485,
+        "end": 524,
+        "left": {
+          "type": "CallExpression",
+          "start": 485,
+          "end": 518,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 485,
+            "end": 515,
+            "object": {
+              "type": "NewExpression",
+              "start": 485,
+              "end": 508,
+              "callee": {
+                "type": "Identifier",
+                "start": 489,
+                "end": 495,
+                "name": "String"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 496,
+                  "end": 507,
+                  "value": "undefined",
+                  "raw": "\"undefined\""
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 509,
+              "end": 515,
+              "name": "search"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 516,
+              "end": 517,
+              "name": "x"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 523,
+          "end": 524,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 526,
+        "end": 655,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 530,
+            "end": 653,
+            "argument": {
+              "type": "NewExpression",
+              "start": 536,
+              "end": 652,
+              "callee": {
+                "type": "Identifier",
+                "start": 540,
+                "end": 552,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 553,
+                  "end": 651,
+                  "left": {
+                    "type": "Literal",
+                    "start": 553,
+                    "end": 615,
+                    "value": "#1: var x; new String(\"undefined\").search(x) === 0. Actual: ",
+                    "raw": "'#1: var x; new String(\"undefined\").search(x) === 0. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 618,
+                    "end": 651,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 618,
+                      "end": 648,
+                      "object": {
+                        "type": "NewExpression",
+                        "start": 618,
+                        "end": 641,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 622,
+                          "end": 628,
+                          "name": "String"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 629,
+                            "end": 640,
+                            "value": "undefined",
+                            "raw": "\"undefined\""
+                          }
+                        ]
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 642,
+                        "end": 648,
+                        "name": "search"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 649,
+                        "end": 650,
+                        "name": "x"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 739,
+      "end": 745,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 743,
+          "end": 744,
+          "id": {
+            "type": "Identifier",
+            "start": 743,
+            "end": 744,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,339 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 676,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 334,
+      "end": 367,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 338,
+          "end": 366,
+          "id": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 344,
+            "name": "buffer"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 347,
+            "end": 366,
+            "callee": {
+              "type": "Identifier",
+              "start": 351,
+              "end": 362,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 363,
+                "end": 365,
+                "value": 12,
+                "raw": "12"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 368,
+      "end": 405,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 372,
+          "end": 404,
+          "id": {
+            "type": "Identifier",
+            "start": 372,
+            "end": 378,
+            "name": "sample"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 381,
+            "end": 404,
+            "callee": {
+              "type": "Identifier",
+              "start": 385,
+              "end": 393,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 394,
+                "end": 400,
+                "name": "buffer"
+              },
+              {
+                "type": "Literal",
+                "start": 402,
+                "end": 403,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 407,
+      "end": 429,
+      "expression": {
+        "type": "CallExpression",
+        "start": 407,
+        "end": 428,
+        "callee": {
+          "type": "Identifier",
+          "start": 407,
+          "end": 420,
+          "name": "$DETACHBUFFER"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 421,
+            "end": 427,
+            "name": "buffer"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 431,
+      "end": 558,
+      "expression": {
+        "type": "CallExpression",
+        "start": 431,
+        "end": 557,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 431,
+          "end": 444,
+          "object": {
+            "type": "Identifier",
+            "start": 431,
+            "end": 437,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 438,
+            "end": 444,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 445,
+            "end": 455,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 457,
+            "end": 506,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 468,
+              "end": 506,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 472,
+                  "end": 504,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 472,
+                    "end": 503,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 472,
+                      "end": 490,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 472,
+                        "end": 478,
+                        "name": "sample"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 479,
+                        "end": 490,
+                        "name": "setBigInt64"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 491,
+                        "end": 499,
+                        "name": "Infinity"
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 501,
+                        "end": 502,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 508,
+            "end": 556,
+            "value": "DataView access at index Infinity should throw",
+            "raw": "\"DataView access at index Infinity should throw\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 560,
+      "end": 675,
+      "expression": {
+        "type": "CallExpression",
+        "start": 560,
+        "end": 674,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 560,
+          "end": 573,
+          "object": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 566,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 573,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 574,
+            "end": 584,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 586,
+            "end": 629,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 597,
+              "end": 629,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 601,
+                  "end": 627,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 601,
+                    "end": 626,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 601,
+                      "end": 619,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 601,
+                        "end": 607,
+                        "name": "sample"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 608,
+                        "end": 619,
+                        "name": "setBigInt64"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 620,
+                        "end": 622,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 621,
+                          "end": 622,
+                          "value": 1,
+                          "raw": "1"
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 624,
+                        "end": 625,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 631,
+            "end": 673,
+            "value": "DataView access at index -1 should throw",
+            "raw": "\"DataView access at index -1 should throw\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 908,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 420,
+      "end": 472,
+      "expression": {
+        "type": "CallExpression",
+        "start": 420,
+        "end": 471,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 420,
+          "end": 433,
+          "object": {
+            "type": "Identifier",
+            "start": 420,
+            "end": 426,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 433,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 434,
+            "end": 448,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 450,
+            "end": 470,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 461,
+              "end": 470,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 464,
+                  "end": 468,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 464,
+                    "end": 467,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 464,
+                      "end": 465,
+                      "name": "x"
+                    },
+                    "right": {
+                      "type": "Identifier",
+                      "start": 466,
+                      "end": 467,
+                      "name": "x"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 556,
+      "end": 570,
+      "expression": {
+        "type": "CallExpression",
+        "start": 556,
+        "end": 569,
+        "callee": {
+          "type": "Identifier",
+          "start": 556,
+          "end": 560,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 561,
+            "end": 568,
+            "value": "var x",
+            "raw": "\"var x\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "TryStatement",
+      "start": 661,
+      "end": 824,
+      "block": {
+        "type": "BlockStatement",
+        "start": 664,
+        "end": 673,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 667,
+            "end": 671,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 667,
+              "end": 670,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 667,
+                "end": 668,
+                "name": "x"
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 669,
+                "end": 670,
+                "name": "x"
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 673,
+        "end": 824,
+        "param": {
+          "type": "Identifier",
+          "start": 679,
+          "end": 680,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 681,
+          "end": 824,
+          "body": [
+            {
+              "type": "ThrowStatement",
+              "start": 684,
+              "end": 822,
+              "argument": {
+                "type": "NewExpression",
+                "start": 690,
+                "end": 821,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 694,
+                  "end": 706,
+                  "name": "Test262Error"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 707,
+                    "end": 820,
+                    "left": {
+                      "type": "Literal",
+                      "start": 707,
+                      "end": 810,
+                      "value": "#2: VariableDeclaration inside Eval statement is initialized when program reaches the eval statement ",
+                      "raw": "'#2: VariableDeclaration inside Eval statement is initialized when program reaches the eval statement '"
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "MemberExpression",
+                      "start": 811,
+                      "end": 820,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 811,
+                        "end": 812,
+                        "name": "e"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 813,
+                        "end": 820,
+                        "name": "message"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 824,
+      "end": 825
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 475,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 317,
+      "end": 348,
+      "id": {
+        "type": "Identifier",
+        "start": 326,
+        "end": 329,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 333,
+        "end": 348,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 334,
+            "end": 347,
+            "expression": {
+              "type": "Literal",
+              "start": 334,
+              "end": 346,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 366,
+      "end": 474,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 371,
+        "end": 384,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 375,
+            "end": 384,
+            "id": {
+              "type": "Identifier",
+              "start": 375,
+              "end": 384,
+              "name": "tempIndex"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 388,
+        "end": 391,
+        "name": "foo"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 393,
+        "end": 474,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 407,
+            "end": 464,
+            "expression": {
+              "type": "CallExpression",
+              "start": 407,
+              "end": 463,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 407,
+                "end": 426,
+                "object": {
+                  "type": "Identifier",
+                  "start": 407,
+                  "end": 413,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 414,
+                  "end": 426,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 427,
+                  "end": 436,
+                  "name": "tempIndex"
+                },
+                {
+                  "type": "Literal",
+                  "start": 438,
+                  "end": 449,
+                  "value": "arguments",
+                  "raw": "\"arguments\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 451,
+                  "end": 462,
+                  "value": "tempIndex",
+                  "raw": "'tempIndex'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

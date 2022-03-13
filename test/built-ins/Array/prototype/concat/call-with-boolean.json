@@ -1,0 +1,272 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 639,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 241,
+      "end": 438,
+      "expression": {
+        "type": "CallExpression",
+        "start": 241,
+        "end": 437,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 241,
+          "end": 257,
+          "object": {
+            "type": "Identifier",
+            "start": 241,
+            "end": 247,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 248,
+            "end": 257,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 261,
+            "end": 316,
+            "left": {
+              "type": "MemberExpression",
+              "start": 261,
+              "end": 297,
+              "object": {
+                "type": "CallExpression",
+                "start": 261,
+                "end": 294,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 261,
+                  "end": 288,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 261,
+                    "end": 283,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 261,
+                      "end": 276,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 261,
+                        "end": 266,
+                        "name": "Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 267,
+                        "end": 276,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 277,
+                      "end": 283,
+                      "name": "concat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 284,
+                    "end": 288,
+                    "name": "call"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 289,
+                    "end": 293,
+                    "value": true,
+                    "raw": "true"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Literal",
+                "start": 295,
+                "end": 296,
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 309,
+              "end": 316,
+              "name": "Boolean"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 320,
+            "end": 324,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 328,
+            "end": 435,
+            "value": "The result of evaluating (Array.prototype.concat.call(true)[0] instanceof Boolean) is expected to be true",
+            "raw": "'The result of evaluating (Array.prototype.concat.call(true)[0] instanceof Boolean) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 439,
+      "end": 638,
+      "expression": {
+        "type": "CallExpression",
+        "start": 439,
+        "end": 637,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 439,
+          "end": 455,
+          "object": {
+            "type": "Identifier",
+            "start": 439,
+            "end": 445,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 455,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 459,
+            "end": 515,
+            "left": {
+              "type": "MemberExpression",
+              "start": 459,
+              "end": 496,
+              "object": {
+                "type": "CallExpression",
+                "start": 459,
+                "end": 493,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 459,
+                  "end": 486,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 459,
+                    "end": 481,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 459,
+                      "end": 474,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 459,
+                        "end": 464,
+                        "name": "Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 465,
+                        "end": 474,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 475,
+                      "end": 481,
+                      "name": "concat"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 482,
+                    "end": 486,
+                    "name": "call"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 487,
+                    "end": 492,
+                    "value": false,
+                    "raw": "false"
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Literal",
+                "start": 494,
+                "end": 495,
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 508,
+              "end": 515,
+              "name": "Boolean"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 519,
+            "end": 523,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 527,
+            "end": 635,
+            "value": "The result of evaluating (Array.prototype.concat.call(false)[0] instanceof Boolean) is expected to be true",
+            "raw": "'The result of evaluating (Array.prototype.concat.call(false)[0] instanceof Boolean) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

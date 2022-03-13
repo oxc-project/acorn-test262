@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 346,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 244,
+      "end": 279,
+      "expression": {
+        "type": "CallExpression",
+        "start": 244,
+        "end": 278,
+        "callee": {
+          "type": "Identifier",
+          "start": 244,
+          "end": 263,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 264,
+            "end": 268,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 270,
+            "end": 277,
+            "value": "acosh",
+            "raw": "\"acosh\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 280,
+      "end": 310,
+      "expression": {
+        "type": "CallExpression",
+        "start": 280,
+        "end": 309,
+        "callee": {
+          "type": "Identifier",
+          "start": 280,
+          "end": 294,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 295,
+            "end": 299,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 301,
+            "end": 308,
+            "value": "acosh",
+            "raw": "\"acosh\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 311,
+      "end": 345,
+      "expression": {
+        "type": "CallExpression",
+        "start": 311,
+        "end": 344,
+        "callee": {
+          "type": "Identifier",
+          "start": 311,
+          "end": 329,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 330,
+            "end": 334,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 336,
+            "end": 343,
+            "value": "acosh",
+            "raw": "\"acosh\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

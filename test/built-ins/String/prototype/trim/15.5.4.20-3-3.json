@@ -1,0 +1,169 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 605,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 281,
+      "end": 333,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 285,
+          "end": 332,
+          "id": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 303,
+            "name": "lineTerminatorsStr"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 306,
+            "end": 332,
+            "value": "\n\r  ",
+            "raw": "\"\\u000A\\u000D\\u2028\\u2029\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 334,
+      "end": 508,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 338,
+          "end": 507,
+          "id": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 352,
+            "name": "whiteSpacesStr"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 355,
+            "end": 507,
+            "value": "\t\n\u000b\f\r                  　﻿",
+            "raw": "\"\\u0009\\u000A\\u000B\\u000C\\u000D\\u0020\\u00A0\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u2028\\u2029\\u202F\\u205F\\u3000\\uFEFF\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 509,
+      "end": 555,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 513,
+          "end": 554,
+          "id": {
+            "type": "Identifier",
+            "start": 513,
+            "end": 516,
+            "name": "str"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 519,
+            "end": 554,
+            "left": {
+              "type": "Identifier",
+              "start": 519,
+              "end": 533,
+              "name": "whiteSpacesStr"
+            },
+            "operator": "+",
+            "right": {
+              "type": "Identifier",
+              "start": 536,
+              "end": 554,
+              "name": "lineTerminatorsStr"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 557,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 557,
+        "end": 603,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 557,
+          "end": 573,
+          "object": {
+            "type": "Identifier",
+            "start": 557,
+            "end": 563,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 564,
+            "end": 573,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 574,
+            "end": 584,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 574,
+              "end": 582,
+              "object": {
+                "type": "Identifier",
+                "start": 574,
+                "end": 577,
+                "name": "str"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 578,
+                "end": 582,
+                "name": "trim"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 586,
+            "end": 588,
+            "value": "",
+            "raw": "\"\""
+          },
+          {
+            "type": "Literal",
+            "start": 590,
+            "end": 602,
+            "value": "str.trim()",
+            "raw": "'str.trim()'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,227 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 708,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 261,
+      "end": 319,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 265,
+          "end": 319,
+          "id": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 270,
+            "name": "__obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 273,
+            "end": 319,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 277,
+                "end": 317,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 277,
+                  "end": 285,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 287,
+                  "end": 317,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 298,
+                    "end": 317,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 304,
+                        "end": 313,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 311,
+                          "end": 312,
+                          "value": 1,
+                          "raw": "1"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 320,
+      "end": 339,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 324,
+          "end": 338,
+          "id": {
+            "type": "Identifier",
+            "start": 324,
+            "end": 329,
+            "name": "__str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 332,
+            "end": 338,
+            "value": "lego",
+            "raw": "\"lego\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 430,
+      "end": 625,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 434,
+        "end": 461,
+        "left": {
+          "type": "CallExpression",
+          "start": 434,
+          "end": 453,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 434,
+            "end": 446,
+            "object": {
+              "type": "Identifier",
+              "start": 434,
+              "end": 439,
+              "name": "__str"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 440,
+              "end": 446,
+              "name": "charAt"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 447,
+              "end": 452,
+              "name": "__obj"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 458,
+          "end": 461,
+          "value": "e",
+          "raw": "\"e\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 463,
+        "end": 625,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 467,
+            "end": 623,
+            "argument": {
+              "type": "NewExpression",
+              "start": 473,
+              "end": 622,
+              "callee": {
+                "type": "Identifier",
+                "start": 477,
+                "end": 489,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 490,
+                  "end": 621,
+                  "left": {
+                    "type": "Literal",
+                    "start": 490,
+                    "end": 599,
+                    "value": "#1: var __obj = {toString:function(){return 1;}}; var __str = \"lego\"; __str.charAt(__obj) === \"e\". Actual: ",
+                    "raw": "'#1: var __obj = {toString:function(){return 1;}}; var __str = \"lego\"; __str.charAt(__obj) === \"e\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 602,
+                    "end": 621,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 602,
+                      "end": 614,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 602,
+                        "end": 607,
+                        "name": "__str"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 608,
+                        "end": 614,
+                        "name": "charAt"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 615,
+                        "end": 620,
+                        "name": "__obj"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

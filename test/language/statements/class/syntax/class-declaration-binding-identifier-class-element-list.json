@@ -1,0 +1,282 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 750,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 554,
+      "end": 604,
+      "id": {
+        "type": "Identifier",
+        "start": 560,
+        "end": 561,
+        "name": "A"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 562,
+        "end": 604,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 566,
+            "end": 577,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 566,
+              "end": 572,
+              "name": "method"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 572,
+              "end": 577,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 575,
+                "end": 577,
+                "body": []
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 580,
+            "end": 598,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 587,
+              "end": 593,
+              "name": "method"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 593,
+              "end": 598,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 596,
+                "end": 598,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 606,
+      "end": 645,
+      "expression": {
+        "type": "CallExpression",
+        "start": 606,
+        "end": 644,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 606,
+          "end": 622,
+          "object": {
+            "type": "Identifier",
+            "start": 606,
+            "end": 612,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 613,
+            "end": 622,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 623,
+            "end": 631,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 630,
+              "end": 631,
+              "name": "A"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 633,
+            "end": 643,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 646,
+      "end": 702,
+      "expression": {
+        "type": "CallExpression",
+        "start": 646,
+        "end": 701,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 646,
+          "end": 662,
+          "object": {
+            "type": "Identifier",
+            "start": 646,
+            "end": 652,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 653,
+            "end": 662,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 663,
+            "end": 688,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 670,
+              "end": 688,
+              "object": {
+                "type": "MemberExpression",
+                "start": 670,
+                "end": 681,
+                "object": {
+                  "type": "Identifier",
+                  "start": 670,
+                  "end": 671,
+                  "name": "A"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 672,
+                  "end": 681,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 682,
+                "end": 688,
+                "name": "method"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 690,
+            "end": 700,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 703,
+      "end": 749,
+      "expression": {
+        "type": "CallExpression",
+        "start": 703,
+        "end": 748,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 703,
+          "end": 719,
+          "object": {
+            "type": "Identifier",
+            "start": 703,
+            "end": 709,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 710,
+            "end": 719,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 720,
+            "end": 735,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 727,
+              "end": 735,
+              "object": {
+                "type": "Identifier",
+                "start": 727,
+                "end": 728,
+                "name": "A"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 729,
+                "end": 735,
+                "name": "method"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 737,
+            "end": 747,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

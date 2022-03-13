@@ -1,0 +1,206 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 716,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 502,
+      "end": 529,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 506,
+          "end": 528,
+          "id": {
+            "type": "Identifier",
+            "start": 506,
+            "end": 513,
+            "name": "message"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 516,
+            "end": 528,
+            "value": "my-message",
+            "raw": "\"my-message\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 530,
+      "end": 561,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 534,
+          "end": 560,
+          "id": {
+            "type": "Identifier",
+            "start": 534,
+            "end": 539,
+            "name": "error"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 542,
+            "end": 560,
+            "callee": {
+              "type": "Identifier",
+              "start": 546,
+              "end": 551,
+              "name": "Error"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 552,
+                "end": 559,
+                "name": "message"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 563,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 563,
+        "end": 603,
+        "callee": {
+          "type": "Identifier",
+          "start": 563,
+          "end": 576,
+          "name": "verifyEqualTo"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 577,
+            "end": 582,
+            "name": "error"
+          },
+          {
+            "type": "Literal",
+            "start": 584,
+            "end": 593,
+            "value": "message",
+            "raw": "\"message\""
+          },
+          {
+            "type": "Identifier",
+            "start": 595,
+            "end": 602,
+            "name": "message"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 605,
+      "end": 643,
+      "expression": {
+        "type": "CallExpression",
+        "start": 605,
+        "end": 642,
+        "callee": {
+          "type": "Identifier",
+          "start": 605,
+          "end": 624,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 625,
+            "end": 630,
+            "name": "error"
+          },
+          {
+            "type": "Literal",
+            "start": 632,
+            "end": 641,
+            "value": "message",
+            "raw": "\"message\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 644,
+      "end": 677,
+      "expression": {
+        "type": "CallExpression",
+        "start": 644,
+        "end": 676,
+        "callee": {
+          "type": "Identifier",
+          "start": 644,
+          "end": 658,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 659,
+            "end": 664,
+            "name": "error"
+          },
+          {
+            "type": "Literal",
+            "start": 666,
+            "end": 675,
+            "value": "message",
+            "raw": "\"message\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 678,
+      "end": 715,
+      "expression": {
+        "type": "CallExpression",
+        "start": 678,
+        "end": 714,
+        "callee": {
+          "type": "Identifier",
+          "start": 678,
+          "end": 696,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 697,
+            "end": 702,
+            "name": "error"
+          },
+          {
+            "type": "Literal",
+            "start": 704,
+            "end": 713,
+            "value": "message",
+            "raw": "\"message\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

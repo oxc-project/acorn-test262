@@ -1,0 +1,56 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2088,
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 2048,
+      "end": 2087,
+      "declaration": {
+        "type": "AwaitExpression",
+        "start": 2063,
+        "end": 2086,
+        "argument": {
+          "type": "ObjectExpression",
+          "start": 2069,
+          "end": 2086,
+          "properties": [
+            {
+              "type": "Property",
+              "start": 2071,
+              "end": 2084,
+              "method": true,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 2071,
+                "end": 2079,
+                "name": "function"
+              },
+              "kind": "init",
+              "value": {
+                "type": "FunctionExpression",
+                "start": 2079,
+                "end": 2084,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 2082,
+                  "end": 2084,
+                  "body": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sourceType": "module"
+}

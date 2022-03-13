@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 557,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 461,
+      "end": 494,
+      "expression": {
+        "type": "CallExpression",
+        "start": 461,
+        "end": 493,
+        "callee": {
+          "type": "Identifier",
+          "start": 461,
+          "end": 480,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 481,
+            "end": 485,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 487,
+            "end": 492,
+            "value": "abs",
+            "raw": "\"abs\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 495,
+      "end": 523,
+      "expression": {
+        "type": "CallExpression",
+        "start": 495,
+        "end": 522,
+        "callee": {
+          "type": "Identifier",
+          "start": 495,
+          "end": 509,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 510,
+            "end": 514,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 516,
+            "end": 521,
+            "value": "abs",
+            "raw": "\"abs\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 524,
+      "end": 556,
+      "expression": {
+        "type": "CallExpression",
+        "start": 524,
+        "end": 555,
+        "callee": {
+          "type": "Identifier",
+          "start": 524,
+          "end": 542,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 543,
+            "end": 547,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 549,
+            "end": 554,
+            "value": "abs",
+            "raw": "\"abs\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

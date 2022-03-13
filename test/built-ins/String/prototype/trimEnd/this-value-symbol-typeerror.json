@@ -1,0 +1,269 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 711,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 462,
+      "end": 524,
+      "expression": {
+        "type": "CallExpression",
+        "start": 462,
+        "end": 523,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 462,
+          "end": 478,
+          "object": {
+            "type": "Identifier",
+            "start": 462,
+            "end": 468,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 478,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 479,
+            "end": 510,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 486,
+              "end": 510,
+              "object": {
+                "type": "MemberExpression",
+                "start": 486,
+                "end": 502,
+                "object": {
+                  "type": "Identifier",
+                  "start": 486,
+                  "end": 492,
+                  "name": "String"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 493,
+                  "end": 502,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 510,
+                "name": "trimEnd"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 512,
+            "end": 522,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 526,
+      "end": 565,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 530,
+          "end": 564,
+          "id": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 537,
+            "name": "trimEnd"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 540,
+            "end": 564,
+            "object": {
+              "type": "MemberExpression",
+              "start": 540,
+              "end": 556,
+              "object": {
+                "type": "Identifier",
+                "start": 540,
+                "end": 546,
+                "name": "String"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 547,
+                "end": 556,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 557,
+              "end": 564,
+              "name": "trimEnd"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 566,
+      "end": 588,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 570,
+          "end": 587,
+          "id": {
+            "type": "Identifier",
+            "start": 570,
+            "end": 576,
+            "name": "symbol"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 579,
+            "end": 587,
+            "callee": {
+              "type": "Identifier",
+              "start": 579,
+              "end": 585,
+              "name": "Symbol"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 590,
+      "end": 710,
+      "expression": {
+        "type": "CallExpression",
+        "start": 590,
+        "end": 709,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 590,
+          "end": 603,
+          "object": {
+            "type": "Identifier",
+            "start": 590,
+            "end": 596,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 597,
+            "end": 603,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 607,
+            "end": 616,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 620,
+            "end": 662,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 631,
+              "end": 662,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 637,
+                  "end": 658,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 637,
+                    "end": 657,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 637,
+                      "end": 649,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 637,
+                        "end": 644,
+                        "name": "trimEnd"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 645,
+                        "end": 649,
+                        "name": "call"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 650,
+                        "end": 656,
+                        "name": "symbol"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 666,
+            "end": 707,
+            "value": "String.prototype.trimEnd.call(Symbol())",
+            "raw": "'String.prototype.trimEnd.call(Symbol())'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

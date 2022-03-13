@@ -1,0 +1,373 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 578,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 282,
+      "end": 331,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 288,
+          "end": 330,
+          "id": {
+            "type": "Identifier",
+            "start": 288,
+            "end": 297,
+            "name": "calendar1"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 300,
+            "end": 330,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 302,
+                "end": 328,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 302,
+                  "end": 310,
+                  "name": "toString"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 310,
+                  "end": 328,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 313,
+                    "end": 328,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 315,
+                        "end": 326,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 322,
+                          "end": 325,
+                          "value": "A",
+                          "raw": "\"A\""
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 332,
+      "end": 381,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 338,
+          "end": 380,
+          "id": {
+            "type": "Identifier",
+            "start": 338,
+            "end": 347,
+            "name": "calendar2"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 350,
+            "end": 380,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 352,
+                "end": 378,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 352,
+                  "end": 360,
+                  "name": "toString"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 360,
+                  "end": 378,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 363,
+                    "end": 378,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 365,
+                        "end": 376,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 372,
+                          "end": 375,
+                          "value": "B",
+                          "raw": "\"B\""
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 383,
+      "end": 448,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 389,
+          "end": 447,
+          "id": {
+            "type": "Identifier",
+            "start": 389,
+            "end": 399,
+            "name": "plainDate1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 402,
+            "end": 447,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 406,
+              "end": 424,
+              "object": {
+                "type": "Identifier",
+                "start": 406,
+                "end": 414,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 415,
+                "end": 424,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 425,
+                "end": 429,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 431,
+                "end": 432,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 434,
+                "end": 435,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Identifier",
+                "start": 437,
+                "end": 446,
+                "name": "calendar1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 449,
+      "end": 514,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 455,
+          "end": 513,
+          "id": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 465,
+            "name": "plainDate2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 468,
+            "end": 513,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 472,
+              "end": 490,
+              "object": {
+                "type": "Identifier",
+                "start": 472,
+                "end": 480,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 481,
+                "end": 490,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 491,
+                "end": 495,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 497,
+                "end": 498,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 500,
+                "end": 501,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Identifier",
+                "start": 503,
+                "end": 512,
+                "name": "calendar2"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 515,
+      "end": 577,
+      "expression": {
+        "type": "CallExpression",
+        "start": 515,
+        "end": 576,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 515,
+          "end": 528,
+          "object": {
+            "type": "Identifier",
+            "start": 515,
+            "end": 521,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 522,
+            "end": 528,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 529,
+            "end": 539,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 541,
+            "end": 575,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 547,
+              "end": 575,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 547,
+                "end": 563,
+                "object": {
+                  "type": "Identifier",
+                  "start": 547,
+                  "end": 557,
+                  "name": "plainDate1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 558,
+                  "end": 563,
+                  "name": "until"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 564,
+                  "end": 574,
+                  "name": "plainDate2"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 401,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 299,
+      "end": 356,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 303,
+          "end": 355,
+          "id": {
+            "type": "Identifier",
+            "start": 303,
+            "end": 304,
+            "name": "f"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 307,
+            "end": 355,
+            "callee": {
+              "type": "Identifier",
+              "start": 307,
+              "end": 315,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 316,
+                "end": 354,
+                "value": "\"use strict\";\nreturn typeof this;",
+                "raw": "\"\\\"use strict\\\";\\nreturn typeof this;\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 358,
+      "end": 400,
+      "expression": {
+        "type": "CallExpression",
+        "start": 358,
+        "end": 399,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 358,
+          "end": 374,
+          "object": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 364,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 374,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 375,
+            "end": 378,
+            "callee": {
+              "type": "Identifier",
+              "start": 375,
+              "end": 376,
+              "name": "f"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 380,
+            "end": 391,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          },
+          {
+            "type": "Literal",
+            "start": 393,
+            "end": 398,
+            "value": "f()",
+            "raw": "'f()'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

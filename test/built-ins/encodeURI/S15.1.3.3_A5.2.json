@@ -1,0 +1,368 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 873,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 307,
+      "end": 487,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 311,
+        "end": 354,
+        "left": {
+          "type": "CallExpression",
+          "start": 311,
+          "end": 345,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 311,
+            "end": 335,
+            "object": {
+              "type": "Identifier",
+              "start": 311,
+              "end": 320,
+              "name": "encodeURI"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 321,
+              "end": 335,
+              "name": "hasOwnProperty"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 336,
+              "end": 344,
+              "value": "length",
+              "raw": "'length'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 350,
+          "end": 354,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 356,
+        "end": 487,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 360,
+            "end": 485,
+            "argument": {
+              "type": "NewExpression",
+              "start": 366,
+              "end": 484,
+              "callee": {
+                "type": "Identifier",
+                "start": 370,
+                "end": 382,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 383,
+                  "end": 483,
+                  "left": {
+                    "type": "Literal",
+                    "start": 383,
+                    "end": 444,
+                    "value": "#1: encodeURI.hasOwnProperty('length') === true. Actual: ",
+                    "raw": "'#1: encodeURI.hasOwnProperty(\\'length\\') === true. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 447,
+                    "end": 483,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 448,
+                      "end": 482,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 448,
+                        "end": 472,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 448,
+                          "end": 457,
+                          "name": "encodeURI"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 458,
+                          "end": 472,
+                          "name": "hasOwnProperty"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 473,
+                          "end": 481,
+                          "value": "length",
+                          "raw": "'length'"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 489,
+      "end": 513,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 489,
+        "end": 512,
+        "operator": "delete",
+        "prefix": true,
+        "argument": {
+          "type": "MemberExpression",
+          "start": 496,
+          "end": 512,
+          "object": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 505,
+            "name": "encodeURI"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 506,
+            "end": 512,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 525,
+      "end": 732,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 529,
+        "end": 573,
+        "left": {
+          "type": "CallExpression",
+          "start": 529,
+          "end": 563,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 529,
+            "end": 553,
+            "object": {
+              "type": "Identifier",
+              "start": 529,
+              "end": 538,
+              "name": "encodeURI"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 539,
+              "end": 553,
+              "name": "hasOwnProperty"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 554,
+              "end": 562,
+              "value": "length",
+              "raw": "'length'"
+            }
+          ],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 568,
+          "end": 573,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 575,
+        "end": 732,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 579,
+            "end": 730,
+            "argument": {
+              "type": "NewExpression",
+              "start": 585,
+              "end": 729,
+              "callee": {
+                "type": "Identifier",
+                "start": 589,
+                "end": 601,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 602,
+                  "end": 728,
+                  "left": {
+                    "type": "Literal",
+                    "start": 602,
+                    "end": 689,
+                    "value": "#2: delete encodeURI.length; encodeURI.hasOwnProperty('length') === false. Actual: ",
+                    "raw": "'#2: delete encodeURI.length; encodeURI.hasOwnProperty(\\'length\\') === false. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 692,
+                    "end": 728,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 693,
+                      "end": 727,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 693,
+                        "end": 717,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 693,
+                          "end": 702,
+                          "name": "encodeURI"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 703,
+                          "end": 717,
+                          "name": "hasOwnProperty"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 718,
+                          "end": 726,
+                          "value": "length",
+                          "raw": "'length'"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 744,
+      "end": 872,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 748,
+        "end": 778,
+        "left": {
+          "type": "MemberExpression",
+          "start": 748,
+          "end": 764,
+          "object": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 757,
+            "name": "encodeURI"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 758,
+            "end": 764,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "===",
+        "right": {
+          "type": "Identifier",
+          "start": 769,
+          "end": 778,
+          "name": "undefined"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 780,
+        "end": 872,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 784,
+            "end": 870,
+            "argument": {
+              "type": "NewExpression",
+              "start": 790,
+              "end": 869,
+              "callee": {
+                "type": "Identifier",
+                "start": 794,
+                "end": 806,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 807,
+                  "end": 868,
+                  "value": "#3: delete encodeURI.length; encodeURI.length !== undefined",
+                  "raw": "'#3: delete encodeURI.length; encodeURI.length !== undefined'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,720 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 4395,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1440,
+      "end": 4007,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1446,
+          "end": 4006,
+          "id": {
+            "type": "Identifier",
+            "start": 1446,
+            "end": 1454,
+            "name": "testData"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1457,
+            "end": 4006,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1949,
+                "end": 1965,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 1949,
+                  "end": 1956,
+                  "value": "ru-SU",
+                  "raw": "\"ru-SU\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1958,
+                  "end": 1965,
+                  "value": "ru-RU",
+                  "raw": "\"ru-RU\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1969,
+                "end": 1986,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 1969,
+                  "end": 1977,
+                  "value": "ru-810",
+                  "raw": "\"ru-810\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1979,
+                  "end": 1986,
+                  "value": "ru-RU",
+                  "raw": "\"ru-RU\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 1990,
+                "end": 2006,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 1990,
+                  "end": 1997,
+                  "value": "en-SU",
+                  "raw": "\"en-SU\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 1999,
+                  "end": 2006,
+                  "value": "en-RU",
+                  "raw": "\"en-RU\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2010,
+                "end": 2027,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2010,
+                  "end": 2018,
+                  "value": "en-810",
+                  "raw": "\"en-810\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2020,
+                  "end": 2027,
+                  "value": "en-RU",
+                  "raw": "\"en-RU\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2031,
+                "end": 2049,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2031,
+                  "end": 2039,
+                  "value": "und-SU",
+                  "raw": "\"und-SU\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2041,
+                  "end": 2049,
+                  "value": "und-RU",
+                  "raw": "\"und-RU\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2053,
+                "end": 2072,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2053,
+                  "end": 2062,
+                  "value": "und-810",
+                  "raw": "\"und-810\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2064,
+                  "end": 2072,
+                  "value": "und-RU",
+                  "raw": "\"und-RU\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2076,
+                "end": 2104,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2076,
+                  "end": 2089,
+                  "value": "und-Latn-SU",
+                  "raw": "\"und-Latn-SU\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2091,
+                  "end": 2104,
+                  "value": "und-Latn-RU",
+                  "raw": "\"und-Latn-RU\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2108,
+                "end": 2137,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2108,
+                  "end": 2122,
+                  "value": "und-Latn-810",
+                  "raw": "\"und-Latn-810\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2124,
+                  "end": 2137,
+                  "value": "und-Latn-RU",
+                  "raw": "\"und-Latn-RU\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2366,
+                "end": 2382,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2366,
+                  "end": 2373,
+                  "value": "hy-SU",
+                  "raw": "\"hy-SU\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2375,
+                  "end": 2382,
+                  "value": "hy-AM",
+                  "raw": "\"hy-AM\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2386,
+                "end": 2403,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2386,
+                  "end": 2394,
+                  "value": "hy-810",
+                  "raw": "\"hy-810\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2396,
+                  "end": 2403,
+                  "value": "hy-AM",
+                  "raw": "\"hy-AM\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2407,
+                "end": 2435,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2407,
+                  "end": 2420,
+                  "value": "und-Armn-SU",
+                  "raw": "\"und-Armn-SU\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2422,
+                  "end": 2435,
+                  "value": "und-Armn-AM",
+                  "raw": "\"und-Armn-AM\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2439,
+                "end": 2468,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2439,
+                  "end": 2453,
+                  "value": "und-Armn-810",
+                  "raw": "\"und-Armn-810\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2455,
+                  "end": 2468,
+                  "value": "und-Armn-AM",
+                  "raw": "\"und-Armn-AM\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2976,
+                "end": 2992,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2976,
+                  "end": 2983,
+                  "value": "sr-CS",
+                  "raw": "\"sr-CS\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 2985,
+                  "end": 2992,
+                  "value": "sr-RS",
+                  "raw": "\"sr-RS\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 2996,
+                "end": 3022,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 2996,
+                  "end": 3008,
+                  "value": "sr-Latn-CS",
+                  "raw": "\"sr-Latn-CS\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 3010,
+                  "end": 3022,
+                  "value": "sr-Latn-RS",
+                  "raw": "\"sr-Latn-RS\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 3026,
+                "end": 3052,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 3026,
+                  "end": 3038,
+                  "value": "sr-Cyrl-CS",
+                  "raw": "\"sr-Cyrl-CS\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 3040,
+                  "end": 3052,
+                  "value": "sr-Cyrl-RS",
+                  "raw": "\"sr-Cyrl-RS\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 3987,
+                "end": 4003,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 3987,
+                  "end": 3994,
+                  "value": "az-NT",
+                  "raw": "\"az-NT\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 3996,
+                  "end": 4003,
+                  "value": "az-SA",
+                  "raw": "\"az-SA\""
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ForOfStatement",
+      "start": 4009,
+      "end": 4394,
+      "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 4014,
+        "end": 4034,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 4018,
+            "end": 4034,
+            "id": {
+              "type": "ArrayPattern",
+              "start": 4018,
+              "end": 4034,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 4019,
+                  "end": 4022,
+                  "name": "tag"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 4024,
+                  "end": 4033,
+                  "name": "canonical"
+                }
+              ]
+            },
+            "init": null
+          }
+        ],
+        "kind": "let"
+      },
+      "right": {
+        "type": "CallExpression",
+        "start": 4038,
+        "end": 4062,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 4038,
+          "end": 4052,
+          "object": {
+            "type": "Identifier",
+            "start": 4038,
+            "end": 4044,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 4045,
+            "end": 4052,
+            "name": "entries"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 4053,
+            "end": 4061,
+            "name": "testData"
+          }
+        ],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 4064,
+        "end": 4394,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 4109,
+            "end": 4265,
+            "expression": {
+              "type": "CallExpression",
+              "start": 4109,
+              "end": 4264,
+              "callee": {
+                "type": "Identifier",
+                "start": 4109,
+                "end": 4115,
+                "name": "assert"
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 4121,
+                  "end": 4175,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 4121,
+                    "end": 4164,
+                    "name": "isCanonicalizedStructurallyValidLanguageTag"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 4165,
+                      "end": 4174,
+                      "name": "canonical"
+                    }
+                  ],
+                  "optional": false
+                },
+                {
+                  "type": "BinaryExpression",
+                  "start": 4181,
+                  "end": 4260,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 4181,
+                    "end": 4197,
+                    "left": {
+                      "type": "Literal",
+                      "start": 4181,
+                      "end": 4185,
+                      "value": "\"",
+                      "raw": "\"\\\"\""
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 4188,
+                      "end": 4197,
+                      "name": "canonical"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 4200,
+                    "end": 4260,
+                    "value": "\" is a canonicalized and structurally valid language tag.",
+                    "raw": "\"\\\" is a canonicalized and structurally valid language tag.\""
+                  }
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 4269,
+            "end": 4312,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 4273,
+                "end": 4311,
+                "id": {
+                  "type": "Identifier",
+                  "start": 4273,
+                  "end": 4279,
+                  "name": "result"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 4282,
+                  "end": 4311,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 4282,
+                    "end": 4306,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 4282,
+                      "end": 4286,
+                      "name": "Intl"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 4287,
+                      "end": 4306,
+                      "name": "getCanonicalLocales"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 4307,
+                      "end": 4310,
+                      "name": "tag"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "let"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4315,
+            "end": 4350,
+            "expression": {
+              "type": "CallExpression",
+              "start": 4315,
+              "end": 4349,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 4315,
+                "end": 4331,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4315,
+                  "end": 4321,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 4322,
+                  "end": 4331,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 4332,
+                  "end": 4345,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 4332,
+                    "end": 4338,
+                    "name": "result"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 4339,
+                    "end": 4345,
+                    "name": "length"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 4347,
+                  "end": 4348,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4353,
+            "end": 4392,
+            "expression": {
+              "type": "CallExpression",
+              "start": 4353,
+              "end": 4391,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 4353,
+                "end": 4369,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4353,
+                  "end": 4359,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 4360,
+                  "end": 4369,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 4370,
+                  "end": 4379,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 4370,
+                    "end": 4376,
+                    "name": "result"
+                  },
+                  "property": {
+                    "type": "Literal",
+                    "start": 4377,
+                    "end": 4378,
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  "computed": true,
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 4381,
+                  "end": 4390,
+                  "name": "canonical"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1269,
+  "body": [
+    {
+      "type": "WhileStatement",
+      "start": 1240,
+      "end": 1268,
+      "test": {
+        "type": "AwaitExpression",
+        "start": 1247,
+        "end": 1256,
+        "argument": {
+          "type": "Literal",
+          "start": 1253,
+          "end": 1256,
+          "value": {},
+          "raw": "/1/",
+          "regex": {
+            "pattern": "1",
+            "flags": ""
+          }
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 1258,
+        "end": 1268,
+        "body": [
+          {
+            "type": "BreakStatement",
+            "start": 1260,
+            "end": 1266,
+            "label": null
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "module"
+}

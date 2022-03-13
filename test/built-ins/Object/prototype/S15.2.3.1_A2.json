@@ -1,0 +1,241 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 636,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 298,
+      "end": 435,
+      "expression": {
+        "type": "CallExpression",
+        "start": 298,
+        "end": 434,
+        "callee": {
+          "type": "Identifier",
+          "start": 298,
+          "end": 304,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 308,
+            "end": 349,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 309,
+              "end": 349,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 309,
+                "end": 336,
+                "object": {
+                  "type": "Identifier",
+                  "start": 309,
+                  "end": 315,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 316,
+                  "end": 336,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 337,
+                  "end": 348,
+                  "value": "prototype",
+                  "raw": "'prototype'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 353,
+            "end": 432,
+            "value": "The value of !Object.propertyIsEnumerable(\"prototype\") is expected to be true",
+            "raw": "'The value of !Object.propertyIsEnumerable(\"prototype\") is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 437,
+      "end": 450,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 441,
+          "end": 449,
+          "id": {
+            "type": "Identifier",
+            "start": 441,
+            "end": 445,
+            "name": "cout"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 448,
+            "end": 449,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForInStatement",
+      "start": 452,
+      "end": 520,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 457,
+        "end": 462,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 461,
+            "end": 462,
+            "id": {
+              "type": "Identifier",
+              "start": 461,
+              "end": 462,
+              "name": "p"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 466,
+        "end": 472,
+        "name": "Object"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 474,
+        "end": 520,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 478,
+            "end": 518,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 482,
+              "end": 499,
+              "left": {
+                "type": "Identifier",
+                "start": 482,
+                "end": 483,
+                "name": "p"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 488,
+                "end": 499,
+                "value": "prototype",
+                "raw": "\"prototype\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 501,
+              "end": 518,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 507,
+                  "end": 514,
+                  "expression": {
+                    "type": "UpdateExpression",
+                    "start": 507,
+                    "end": 513,
+                    "operator": "++",
+                    "prefix": false,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 507,
+                      "end": 511,
+                      "name": "cout"
+                    }
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 522,
+      "end": 589,
+      "expression": {
+        "type": "CallExpression",
+        "start": 522,
+        "end": 588,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 522,
+          "end": 538,
+          "object": {
+            "type": "Identifier",
+            "start": 522,
+            "end": 528,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 529,
+            "end": 538,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 539,
+            "end": 543,
+            "name": "cout"
+          },
+          {
+            "type": "Literal",
+            "start": 545,
+            "end": 546,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 548,
+            "end": 587,
+            "value": "The value of cout is expected to be 0",
+            "raw": "'The value of cout is expected to be 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

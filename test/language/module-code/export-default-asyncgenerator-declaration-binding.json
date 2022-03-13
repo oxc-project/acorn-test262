@@ -1,0 +1,71 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 514,
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 461,
+      "end": 500,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 476,
+        "end": 500,
+        "id": {
+          "type": "Identifier",
+          "start": 493,
+          "end": 495,
+          "name": "AG"
+        },
+        "expression": false,
+        "generator": true,
+        "async": true,
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "start": 498,
+          "end": 500,
+          "body": []
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 501,
+      "end": 513,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 501,
+        "end": 512,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 501,
+          "end": 507,
+          "object": {
+            "type": "Identifier",
+            "start": 501,
+            "end": 503,
+            "name": "AG"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 504,
+            "end": 507,
+            "name": "foo"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 510,
+          "end": 512,
+          "value": "",
+          "raw": "''"
+        }
+      }
+    }
+  ],
+  "sourceType": "module"
+}

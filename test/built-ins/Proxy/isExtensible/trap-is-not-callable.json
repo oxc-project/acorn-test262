@@ -1,0 +1,192 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 742,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 605,
+      "end": 621,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 609,
+          "end": 620,
+          "id": {
+            "type": "Identifier",
+            "start": 609,
+            "end": 615,
+            "name": "target"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 618,
+            "end": 620,
+            "properties": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 622,
+      "end": 672,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 626,
+          "end": 671,
+          "id": {
+            "type": "Identifier",
+            "start": 626,
+            "end": 627,
+            "name": "p"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 630,
+            "end": 671,
+            "callee": {
+              "type": "Identifier",
+              "start": 634,
+              "end": 639,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 640,
+                "end": 646,
+                "name": "target"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 648,
+                "end": 670,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 652,
+                    "end": 668,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 652,
+                      "end": 664,
+                      "name": "isExtensible"
+                    },
+                    "value": {
+                      "type": "ObjectExpression",
+                      "start": 666,
+                      "end": 668,
+                      "properties": []
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 674,
+      "end": 741,
+      "expression": {
+        "type": "CallExpression",
+        "start": 674,
+        "end": 740,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 674,
+          "end": 687,
+          "object": {
+            "type": "Identifier",
+            "start": 674,
+            "end": 680,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 681,
+            "end": 687,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 688,
+            "end": 697,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 699,
+            "end": 739,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 710,
+              "end": 739,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 714,
+                  "end": 737,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 714,
+                    "end": 736,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 714,
+                      "end": 733,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 714,
+                        "end": 720,
+                        "name": "Object"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 721,
+                        "end": 733,
+                        "name": "isExtensible"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 734,
+                        "end": 735,
+                        "name": "p"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

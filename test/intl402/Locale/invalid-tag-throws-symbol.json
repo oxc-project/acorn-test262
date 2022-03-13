@@ -1,0 +1,179 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 561,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 403,
+      "end": 452,
+      "expression": {
+        "type": "CallExpression",
+        "start": 403,
+        "end": 451,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 403,
+          "end": 419,
+          "object": {
+            "type": "Identifier",
+            "start": 403,
+            "end": 409,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 419,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 420,
+            "end": 438,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 427,
+              "end": 438,
+              "object": {
+                "type": "Identifier",
+                "start": 427,
+                "end": 431,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 432,
+                "end": 438,
+                "name": "Locale"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 440,
+            "end": 450,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 454,
+      "end": 560,
+      "expression": {
+        "type": "CallExpression",
+        "start": 454,
+        "end": 559,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 454,
+          "end": 467,
+          "object": {
+            "type": "Identifier",
+            "start": 454,
+            "end": 460,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 461,
+            "end": 467,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 468,
+            "end": 477,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 479,
+            "end": 522,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 490,
+              "end": 522,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 494,
+                  "end": 520,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 494,
+                    "end": 519,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 498,
+                      "end": 509,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 498,
+                        "end": 502,
+                        "name": "Intl"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 503,
+                        "end": 509,
+                        "name": "Locale"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 510,
+                        "end": 518,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 510,
+                          "end": 516,
+                          "name": "Symbol"
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 524,
+            "end": 558,
+            "value": "Symbol() is an invalid tag value",
+            "raw": "\"Symbol() is an invalid tag value\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

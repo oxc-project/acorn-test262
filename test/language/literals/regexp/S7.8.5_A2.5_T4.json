@@ -1,0 +1,239 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 905,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 518,
+      "end": 904,
+      "block": {
+        "type": "BlockStatement",
+        "start": 522,
+        "end": 710,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 527,
+            "end": 554,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 527,
+              "end": 553,
+              "object": {
+                "type": "CallExpression",
+                "start": 527,
+                "end": 546,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 527,
+                  "end": 531,
+                  "name": "eval"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 532,
+                    "end": 545,
+                    "value": "/a\\\r/",
+                    "raw": "\"/a\\\\\\u000D/\""
+                  }
+                ],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 547,
+                "end": 553,
+                "name": "source"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 558,
+            "end": 708,
+            "argument": {
+              "type": "NewExpression",
+              "start": 564,
+              "end": 707,
+              "callee": {
+                "type": "Identifier",
+                "start": 568,
+                "end": 580,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 581,
+                  "end": 706,
+                  "left": {
+                    "type": "Literal",
+                    "start": 581,
+                    "end": 675,
+                    "value": "#1.1: RegularExpressionChar :: BackslashSequence :: \\Carriage Return is incorrect. Actual: ",
+                    "raw": "'#1.1: RegularExpressionChar :: BackslashSequence :: \\\\Carriage Return is incorrect. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 678,
+                    "end": 706,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 679,
+                      "end": 705,
+                      "object": {
+                        "type": "CallExpression",
+                        "start": 679,
+                        "end": 698,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 679,
+                          "end": 683,
+                          "name": "eval"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 684,
+                            "end": 697,
+                            "value": "/a\\\r/",
+                            "raw": "\"/a\\\\\\u000D/\""
+                          }
+                        ],
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 699,
+                        "end": 705,
+                        "name": "source"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 711,
+        "end": 904,
+        "param": {
+          "type": "Identifier",
+          "start": 718,
+          "end": 719,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 721,
+          "end": 904,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 725,
+              "end": 902,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 729,
+                "end": 764,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 729,
+                  "end": 755,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 730,
+                    "end": 754,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 730,
+                      "end": 731,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 743,
+                      "end": 754,
+                      "name": "SyntaxError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 760,
+                  "end": 764,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 766,
+                "end": 902,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 773,
+                    "end": 898,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 779,
+                      "end": 897,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 783,
+                        "end": 795,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 796,
+                          "end": 896,
+                          "left": {
+                            "type": "Literal",
+                            "start": 796,
+                            "end": 890,
+                            "value": "#1.2: RegularExpressionChar :: BackslashSequence :: \\Carriage Return is incorrect. Actual: ",
+                            "raw": "'#1.2: RegularExpressionChar :: BackslashSequence :: \\\\Carriage Return is incorrect. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 893,
+                            "end": 896,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 894,
+                              "end": 895,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

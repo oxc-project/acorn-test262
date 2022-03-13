@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 356,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 294,
+      "end": 321,
+      "id": {
+        "type": "Identifier",
+        "start": 309,
+        "end": 312,
+        "name": "foo"
+      },
+      "expression": false,
+      "generator": false,
+      "async": true,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 315,
+        "end": 321,
+        "body": []
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 355,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 354,
+        "callee": {
+          "type": "Identifier",
+          "start": 323,
+          "end": 329,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 330,
+            "end": 353,
+            "left": {
+              "type": "Identifier",
+              "start": 330,
+              "end": 333,
+              "name": "foo"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 345,
+              "end": 353,
+              "name": "Function"
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

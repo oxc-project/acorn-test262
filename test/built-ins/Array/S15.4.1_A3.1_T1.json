@@ -1,0 +1,145 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 581,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 340,
+      "end": 443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 340,
+        "end": 442,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 340,
+          "end": 356,
+          "object": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 346,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 356,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 357,
+            "end": 371,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 364,
+              "end": 371,
+              "callee": {
+                "type": "Identifier",
+                "start": 364,
+                "end": 369,
+                "name": "Array"
+              },
+              "arguments": [],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 373,
+            "end": 381,
+            "value": "object",
+            "raw": "\"object\""
+          },
+          {
+            "type": "Literal",
+            "start": 383,
+            "end": 441,
+            "value": "The value of `typeof Array()` is expected to be \"object\"",
+            "raw": "'The value of `typeof Array()` is expected to be \"object\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 445,
+      "end": 580,
+      "expression": {
+        "type": "CallExpression",
+        "start": 445,
+        "end": 579,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 445,
+          "end": 461,
+          "object": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 451,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 461,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 465,
+            "end": 489,
+            "left": {
+              "type": "CallExpression",
+              "start": 465,
+              "end": 472,
+              "callee": {
+                "type": "Identifier",
+                "start": 465,
+                "end": 470,
+                "name": "Array"
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 484,
+              "end": 489,
+              "name": "Array"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 493,
+            "end": 497,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 501,
+            "end": 577,
+            "value": "The result of evaluating (Array() instanceof Array) is expected to be true",
+            "raw": "'The result of evaluating (Array() instanceof Array) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

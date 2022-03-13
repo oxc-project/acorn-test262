@@ -1,0 +1,258 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 858,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 669,
+      "end": 682,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 673,
+          "end": 681,
+          "id": {
+            "type": "Identifier",
+            "start": 673,
+            "end": 676,
+            "name": "log"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 679,
+            "end": 681,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 684,
+      "end": 778,
+      "expression": {
+        "type": "CallExpression",
+        "start": 684,
+        "end": 777,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 684,
+          "end": 695,
+          "object": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 690,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 695,
+            "name": "keys"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 696,
+            "end": 776,
+            "callee": {
+              "type": "Identifier",
+              "start": 700,
+              "end": 705,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "ArrayExpression",
+                "start": 706,
+                "end": 708,
+                "elements": []
+              },
+              {
+                "type": "NewExpression",
+                "start": 710,
+                "end": 775,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 714,
+                  "end": 719,
+                  "name": "Proxy"
+                },
+                "arguments": [
+                  {
+                    "type": "ObjectExpression",
+                    "start": 720,
+                    "end": 722,
+                    "properties": []
+                  },
+                  {
+                    "type": "ObjectExpression",
+                    "start": 723,
+                    "end": 774,
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "start": 729,
+                        "end": 772,
+                        "method": true,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
+                          "type": "Identifier",
+                          "start": 729,
+                          "end": 732,
+                          "name": "get"
+                        },
+                        "kind": "init",
+                        "value": {
+                          "type": "FunctionExpression",
+                          "start": 732,
+                          "end": 772,
+                          "id": null,
+                          "expression": false,
+                          "generator": false,
+                          "async": false,
+                          "params": [
+                            {
+                              "type": "Identifier",
+                              "start": 733,
+                              "end": 734,
+                              "name": "t"
+                            },
+                            {
+                              "type": "Identifier",
+                              "start": 736,
+                              "end": 738,
+                              "name": "pk"
+                            },
+                            {
+                              "type": "Identifier",
+                              "start": 740,
+                              "end": 741,
+                              "name": "r"
+                            }
+                          ],
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 743,
+                            "end": 772,
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 753,
+                                "end": 766,
+                                "expression": {
+                                  "type": "CallExpression",
+                                  "start": 753,
+                                  "end": 765,
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "start": 753,
+                                    "end": 761,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "start": 753,
+                                      "end": 756,
+                                      "name": "log"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 757,
+                                      "end": 761,
+                                      "name": "push"
+                                    },
+                                    "computed": false,
+                                    "optional": false
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "Identifier",
+                                      "start": 762,
+                                      "end": 764,
+                                      "name": "pk"
+                                    }
+                                  ],
+                                  "optional": false
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 780,
+      "end": 857,
+      "expression": {
+        "type": "CallExpression",
+        "start": 780,
+        "end": 856,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 780,
+          "end": 799,
+          "object": {
+            "type": "Identifier",
+            "start": 780,
+            "end": 786,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 787,
+            "end": 799,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 800,
+            "end": 850,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 806,
+                "end": 815,
+                "value": "ownKeys",
+                "raw": "\"ownKeys\""
+              },
+              {
+                "type": "Literal",
+                "start": 821,
+                "end": 847,
+                "value": "getOwnPropertyDescriptor",
+                "raw": "\"getOwnPropertyDescriptor\""
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 852,
+            "end": 855,
+            "name": "log"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

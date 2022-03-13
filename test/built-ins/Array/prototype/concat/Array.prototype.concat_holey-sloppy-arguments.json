@@ -1,0 +1,319 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 628,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 343,
+      "end": 401,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 347,
+          "end": 400,
+          "id": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 351,
+            "name": "args"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 354,
+            "end": 400,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 354,
+              "end": 391,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 355,
+                "end": 390,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 364,
+                    "end": 365,
+                    "name": "a"
+                  }
+                ],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 367,
+                  "end": 390,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 371,
+                      "end": 388,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 378,
+                        "end": 387,
+                        "name": "arguments"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 392,
+                "end": 393,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "Literal",
+                "start": 395,
+                "end": 396,
+                "value": 2,
+                "raw": "2"
+              },
+              {
+                "type": "Literal",
+                "start": 398,
+                "end": 399,
+                "value": 3,
+                "raw": "3"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 402,
+      "end": 417,
+      "expression": {
+        "type": "UnaryExpression",
+        "start": 402,
+        "end": 416,
+        "operator": "delete",
+        "prefix": true,
+        "argument": {
+          "type": "MemberExpression",
+          "start": 409,
+          "end": 416,
+          "object": {
+            "type": "Identifier",
+            "start": 409,
+            "end": 413,
+            "name": "args"
+          },
+          "property": {
+            "type": "Literal",
+            "start": 414,
+            "end": 415,
+            "value": 1,
+            "raw": "1"
+          },
+          "computed": true,
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 418,
+      "end": 457,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 418,
+        "end": 456,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 418,
+          "end": 449,
+          "object": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 422,
+            "name": "args"
+          },
+          "property": {
+            "type": "MemberExpression",
+            "start": 423,
+            "end": 448,
+            "object": {
+              "type": "Identifier",
+              "start": 423,
+              "end": 429,
+              "name": "Symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 430,
+              "end": 448,
+              "name": "isConcatSpreadable"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 452,
+          "end": 456,
+          "value": true,
+          "raw": "true"
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 458,
+      "end": 627,
+      "expression": {
+        "type": "CallExpression",
+        "start": 458,
+        "end": 626,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 458,
+          "end": 477,
+          "object": {
+            "type": "Identifier",
+            "start": 458,
+            "end": 464,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 477,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "ArrayExpression",
+            "start": 478,
+            "end": 506,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 479,
+                "end": 480,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 482,
+                "end": 488,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 487,
+                  "end": 488,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 490,
+                "end": 491,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "Literal",
+                "start": 493,
+                "end": 494,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "UnaryExpression",
+                "start": 496,
+                "end": 502,
+                "operator": "void",
+                "prefix": true,
+                "argument": {
+                  "type": "Literal",
+                  "start": 501,
+                  "end": 502,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 504,
+                "end": 505,
+                "value": 3,
+                "raw": "3"
+              }
+            ]
+          },
+          {
+            "type": "CallExpression",
+            "start": 508,
+            "end": 529,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 508,
+              "end": 517,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 508,
+                "end": 510,
+                "elements": []
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 511,
+                "end": 517,
+                "name": "concat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 518,
+                "end": 522,
+                "name": "args"
+              },
+              {
+                "type": "Identifier",
+                "start": 524,
+                "end": 528,
+                "name": "args"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 533,
+            "end": 624,
+            "value": "[1, void 0, 3, 1, void 0, 3] must return the same value returned by [].concat(args, args)",
+            "raw": "'[1, void 0, 3, 1, void 0, 3] must return the same value returned by [].concat(args, args)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

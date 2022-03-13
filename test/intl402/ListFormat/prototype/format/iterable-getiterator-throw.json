@@ -1,0 +1,254 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 795,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 541,
+      "end": 566,
+      "id": {
+        "type": "Identifier",
+        "start": 550,
+        "end": 561,
+        "name": "CustomError"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 564,
+        "end": 566,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 568,
+      "end": 599,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 572,
+          "end": 598,
+          "id": {
+            "type": "Identifier",
+            "start": 572,
+            "end": 574,
+            "name": "lf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 577,
+            "end": 598,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 581,
+              "end": 596,
+              "object": {
+                "type": "Identifier",
+                "start": 581,
+                "end": 585,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 586,
+                "end": 596,
+                "name": "ListFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 626,
+      "end": 718,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 630,
+          "end": 717,
+          "id": {
+            "type": "Identifier",
+            "start": 630,
+            "end": 654,
+            "name": "get_iterator_throw_error"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 657,
+            "end": 717,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 661,
+                "end": 715,
+                "method": true,
+                "shorthand": false,
+                "computed": true,
+                "key": {
+                  "type": "MemberExpression",
+                  "start": 662,
+                  "end": 677,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 662,
+                    "end": 668,
+                    "name": "Symbol"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 669,
+                    "end": 677,
+                    "name": "iterator"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 678,
+                  "end": 715,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 681,
+                    "end": 715,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 687,
+                        "end": 711,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 693,
+                          "end": 710,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 697,
+                            "end": 708,
+                            "name": "CustomError"
+                          },
+                          "arguments": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 719,
+      "end": 794,
+      "expression": {
+        "type": "CallExpression",
+        "start": 719,
+        "end": 793,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 719,
+          "end": 732,
+          "object": {
+            "type": "Identifier",
+            "start": 719,
+            "end": 725,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 726,
+            "end": 732,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 733,
+            "end": 744,
+            "name": "CustomError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 750,
+            "end": 792,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 755,
+              "end": 792,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 756,
+                  "end": 791,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 756,
+                    "end": 791,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 756,
+                      "end": 765,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 756,
+                        "end": 758,
+                        "name": "lf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 759,
+                        "end": 765,
+                        "name": "format"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 766,
+                        "end": 790,
+                        "name": "get_iterator_throw_error"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

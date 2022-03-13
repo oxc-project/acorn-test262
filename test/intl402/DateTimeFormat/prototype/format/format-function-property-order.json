@@ -1,0 +1,151 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 435,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 300,
+      "end": 348,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 304,
+          "end": 347,
+          "id": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 312,
+            "name": "formatFn"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 315,
+            "end": 347,
+            "object": {
+              "type": "NewExpression",
+              "start": 315,
+              "end": 340,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 319,
+                "end": 338,
+                "object": {
+                  "type": "Identifier",
+                  "start": 319,
+                  "end": 323,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 324,
+                  "end": 338,
+                  "name": "DateTimeFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": []
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 341,
+              "end": 347,
+              "name": "format"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 350,
+      "end": 434,
+      "expression": {
+        "type": "CallExpression",
+        "start": 350,
+        "end": 433,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 350,
+          "end": 369,
+          "object": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 356,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 357,
+            "end": 369,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 373,
+            "end": 409,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 373,
+              "end": 399,
+              "object": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 379,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 380,
+                "end": 399,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 400,
+                "end": 408,
+                "name": "formatFn"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 413,
+            "end": 431,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 414,
+                "end": 422,
+                "value": "length",
+                "raw": "'length'"
+              },
+              {
+                "type": "Literal",
+                "start": 424,
+                "end": 430,
+                "value": "name",
+                "raw": "'name'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

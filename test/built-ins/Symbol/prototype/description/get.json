@@ -1,0 +1,417 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 939,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 415,
+      "end": 445,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 421,
+          "end": 444,
+          "id": {
+            "type": "Identifier",
+            "start": 421,
+            "end": 427,
+            "name": "symbol"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 430,
+            "end": 444,
+            "callee": {
+              "type": "Identifier",
+              "start": 430,
+              "end": 436,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 437,
+                "end": 443,
+                "value": "test",
+                "raw": "'test'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 446,
+      "end": 544,
+      "expression": {
+        "type": "CallExpression",
+        "start": 446,
+        "end": 543,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 446,
+          "end": 462,
+          "object": {
+            "type": "Identifier",
+            "start": 446,
+            "end": 452,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 453,
+            "end": 462,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 466,
+            "end": 484,
+            "object": {
+              "type": "Identifier",
+              "start": 466,
+              "end": 472,
+              "name": "symbol"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 473,
+              "end": 484,
+              "name": "description"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 488,
+            "end": 494,
+            "value": "test",
+            "raw": "'test'"
+          },
+          {
+            "type": "Literal",
+            "start": 498,
+            "end": 541,
+            "value": "The value of symbol.description is \"test\"",
+            "raw": "'The value of symbol.description is \"test\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 546,
+      "end": 569,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 552,
+          "end": 568,
+          "id": {
+            "type": "Identifier",
+            "start": 552,
+            "end": 557,
+            "name": "empty"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 560,
+            "end": 568,
+            "callee": {
+              "type": "Identifier",
+              "start": 560,
+              "end": 566,
+              "name": "Symbol"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 570,
+      "end": 674,
+      "expression": {
+        "type": "CallExpression",
+        "start": 570,
+        "end": 673,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 570,
+          "end": 586,
+          "object": {
+            "type": "Identifier",
+            "start": 570,
+            "end": 576,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 577,
+            "end": 586,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 590,
+            "end": 607,
+            "object": {
+              "type": "Identifier",
+              "start": 590,
+              "end": 595,
+              "name": "empty"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 596,
+              "end": 607,
+              "name": "description"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 611,
+            "end": 620,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 624,
+            "end": 671,
+            "value": "The value of empty.description is `undefined`",
+            "raw": "'The value of empty.description is `undefined`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 676,
+      "end": 708,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 682,
+          "end": 707,
+          "id": {
+            "type": "Identifier",
+            "start": 682,
+            "end": 687,
+            "name": "undef"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 690,
+            "end": 707,
+            "callee": {
+              "type": "Identifier",
+              "start": 690,
+              "end": 696,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 697,
+                "end": 706,
+                "name": "undefined"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 709,
+      "end": 813,
+      "expression": {
+        "type": "CallExpression",
+        "start": 709,
+        "end": 812,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 709,
+          "end": 725,
+          "object": {
+            "type": "Identifier",
+            "start": 709,
+            "end": 715,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 716,
+            "end": 725,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 729,
+            "end": 746,
+            "object": {
+              "type": "Identifier",
+              "start": 729,
+              "end": 734,
+              "name": "undef"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 735,
+              "end": 746,
+              "name": "description"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 750,
+            "end": 759,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 763,
+            "end": 810,
+            "value": "The value of undef.description is `undefined`",
+            "raw": "'The value of undef.description is `undefined`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 815,
+      "end": 843,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 821,
+          "end": 842,
+          "id": {
+            "type": "Identifier",
+            "start": 821,
+            "end": 829,
+            "name": "emptyStr"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 832,
+            "end": 842,
+            "callee": {
+              "type": "Identifier",
+              "start": 832,
+              "end": 838,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 839,
+                "end": 841,
+                "value": "",
+                "raw": "''"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 844,
+      "end": 938,
+      "expression": {
+        "type": "CallExpression",
+        "start": 844,
+        "end": 937,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 844,
+          "end": 860,
+          "object": {
+            "type": "Identifier",
+            "start": 844,
+            "end": 850,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 851,
+            "end": 860,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 864,
+            "end": 884,
+            "object": {
+              "type": "Identifier",
+              "start": 864,
+              "end": 872,
+              "name": "emptyStr"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 873,
+              "end": 884,
+              "name": "description"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 888,
+            "end": 890,
+            "value": "",
+            "raw": "''"
+          },
+          {
+            "type": "Literal",
+            "start": 894,
+            "end": 935,
+            "value": "The value of emptyStr.description is \"\"",
+            "raw": "'The value of emptyStr.description is \"\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

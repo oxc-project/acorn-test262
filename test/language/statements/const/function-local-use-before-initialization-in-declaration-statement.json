@@ -1,0 +1,135 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 377,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 285,
+      "end": 376,
+      "expression": {
+        "type": "CallExpression",
+        "start": 285,
+        "end": 375,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 285,
+          "end": 298,
+          "object": {
+            "type": "Identifier",
+            "start": 285,
+            "end": 291,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 298,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 299,
+            "end": 313,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 315,
+            "end": 374,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 326,
+              "end": 374,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 330,
+                  "end": 372,
+                  "expression": {
+                    "type": "ParenthesizedExpression",
+                    "start": 330,
+                    "end": 371,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 331,
+                      "end": 370,
+                      "callee": {
+                        "type": "FunctionExpression",
+                        "start": 331,
+                        "end": 368,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 342,
+                          "end": 368,
+                          "body": [
+                            {
+                              "type": "VariableDeclaration",
+                              "start": 348,
+                              "end": 364,
+                              "declarations": [
+                                {
+                                  "type": "VariableDeclarator",
+                                  "start": 354,
+                                  "end": 363,
+                                  "id": {
+                                    "type": "Identifier",
+                                    "start": 354,
+                                    "end": 355,
+                                    "name": "x"
+                                  },
+                                  "init": {
+                                    "type": "BinaryExpression",
+                                    "start": 358,
+                                    "end": 363,
+                                    "left": {
+                                      "type": "Identifier",
+                                      "start": 358,
+                                      "end": 359,
+                                      "name": "x"
+                                    },
+                                    "operator": "+",
+                                    "right": {
+                                      "type": "Literal",
+                                      "start": 362,
+                                      "end": 363,
+                                      "value": 1,
+                                      "raw": "1"
+                                    }
+                                  }
+                                }
+                              ],
+                              "kind": "const"
+                            }
+                          ]
+                        }
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 549,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 395,
+      "end": 548,
+      "expression": {
+        "type": "CallExpression",
+        "start": 395,
+        "end": 547,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 395,
+          "end": 411,
+          "object": {
+            "type": "Identifier",
+            "start": 395,
+            "end": 401,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 411,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 415,
+            "end": 445,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 415,
+              "end": 436,
+              "object": {
+                "type": "Identifier",
+                "start": 415,
+                "end": 421,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 422,
+                "end": 436,
+                "name": "getPrototypeOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 437,
+                "end": 444,
+                "name": "WeakRef"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "MemberExpression",
+            "start": 449,
+            "end": 467,
+            "object": {
+              "type": "Identifier",
+              "start": 449,
+              "end": 457,
+              "name": "Function"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 458,
+              "end": 467,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 471,
+            "end": 545,
+            "value": "Object.getPrototypeOf(WeakRef) returns the value of `Function.prototype`",
+            "raw": "'Object.getPrototypeOf(WeakRef) returns the value of `Function.prototype`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

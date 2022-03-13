@@ -1,0 +1,344 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 654,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 361,
+      "end": 400,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 365,
+          "end": 399,
+          "id": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 371,
+            "name": "object"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 374,
+            "end": 399,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 378,
+              "end": 397,
+              "object": {
+                "type": "Identifier",
+                "start": 378,
+                "end": 382,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 383,
+                "end": 397,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 401,
+      "end": 450,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 405,
+          "end": 449,
+          "id": {
+            "type": "Identifier",
+            "start": 405,
+            "end": 414,
+            "name": "newObject"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 417,
+            "end": 449,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 417,
+              "end": 441,
+              "object": {
+                "type": "MemberExpression",
+                "start": 417,
+                "end": 436,
+                "object": {
+                  "type": "Identifier",
+                  "start": 417,
+                  "end": 421,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 422,
+                  "end": 436,
+                  "name": "DateTimeFormat"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 437,
+                "end": 441,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 442,
+                "end": 448,
+                "name": "object"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 451,
+      "end": 505,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 455,
+          "end": 504,
+          "id": {
+            "type": "Identifier",
+            "start": 455,
+            "end": 462,
+            "name": "symbols"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 465,
+            "end": 504,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 465,
+              "end": 493,
+              "object": {
+                "type": "Identifier",
+                "start": 465,
+                "end": 471,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 472,
+                "end": 493,
+                "name": "getOwnPropertySymbols"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 494,
+                "end": 503,
+                "name": "newObject"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "IfStatement",
+      "start": 506,
+      "end": 653,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 510,
+        "end": 530,
+        "left": {
+          "type": "MemberExpression",
+          "start": 510,
+          "end": 524,
+          "object": {
+            "type": "Identifier",
+            "start": 510,
+            "end": 517,
+            "name": "symbols"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 518,
+            "end": 524,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 529,
+          "end": 530,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 532,
+        "end": 653,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 538,
+            "end": 574,
+            "expression": {
+              "type": "CallExpression",
+              "start": 538,
+              "end": 573,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 538,
+                "end": 554,
+                "object": {
+                  "type": "Identifier",
+                  "start": 538,
+                  "end": 544,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 545,
+                  "end": 554,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 555,
+                  "end": 569,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 555,
+                    "end": 562,
+                    "name": "symbols"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 563,
+                    "end": 569,
+                    "name": "length"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 571,
+                  "end": 572,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 579,
+            "end": 651,
+            "expression": {
+              "type": "CallExpression",
+              "start": 579,
+              "end": 650,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 579,
+                "end": 595,
+                "object": {
+                  "type": "Identifier",
+                  "start": 579,
+                  "end": 585,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 586,
+                  "end": 595,
+                  "name": "sameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 596,
+                  "end": 618,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 596,
+                    "end": 606,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 596,
+                      "end": 603,
+                      "name": "symbols"
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 604,
+                      "end": 605,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "computed": true,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 607,
+                    "end": 618,
+                    "name": "description"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 620,
+                  "end": 649,
+                  "value": "IntlLegacyConstructedSymbol",
+                  "raw": "\"IntlLegacyConstructedSymbol\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

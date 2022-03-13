@@ -1,0 +1,137 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 443,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 323,
+      "end": 442,
+      "expression": {
+        "type": "CallExpression",
+        "start": 323,
+        "end": 441,
+        "callee": {
+          "type": "Identifier",
+          "start": 323,
+          "end": 359,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 360,
+            "end": 440,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 369,
+                "end": 371,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 373,
+              "end": 440,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 377,
+                  "end": 438,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 377,
+                    "end": 437,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 377,
+                      "end": 393,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 377,
+                        "end": 383,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 384,
+                        "end": 393,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 394,
+                        "end": 429,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 394,
+                          "end": 421,
+                          "object": {
+                            "type": "MemberExpression",
+                            "start": 394,
+                            "end": 406,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 394,
+                              "end": 396,
+                              "name": "TA"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 397,
+                              "end": 406,
+                              "name": "prototype"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 407,
+                            "end": 421,
+                            "name": "hasOwnProperty"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 422,
+                            "end": 428,
+                            "value": "sort",
+                            "raw": "\"sort\""
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 431,
+                        "end": 436,
+                        "value": false,
+                        "raw": "false"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,129 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 585,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 452,
+      "end": 584,
+      "expression": {
+        "type": "CallExpression",
+        "start": 452,
+        "end": 583,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 452,
+          "end": 465,
+          "object": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 458,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 459,
+            "end": 465,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 466,
+            "end": 475,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 477,
+            "end": 522,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 488,
+              "end": 522,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 492,
+                  "end": 520,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 492,
+                    "end": 519,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 492,
+                      "end": 502,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 492,
+                        "end": 497,
+                        "name": "Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 498,
+                        "end": 502,
+                        "name": "from"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "start": 503,
+                        "end": 505,
+                        "elements": []
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 507,
+                        "end": 518,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 507,
+                          "end": 513,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 514,
+                            "end": 517,
+                            "value": "1",
+                            "raw": "'1'"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 524,
+            "end": 582,
+            "value": "Array.from([], Symbol(\"1\")) throws a TypeError exception",
+            "raw": "'Array.from([], Symbol(\"1\")) throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

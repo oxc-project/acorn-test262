@@ -1,0 +1,308 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 615,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 325,
+      "end": 614,
+      "expression": {
+        "type": "CallExpression",
+        "start": 325,
+        "end": 613,
+        "callee": {
+          "type": "Identifier",
+          "start": 325,
+          "end": 373,
+          "name": "testWithNonAtomicsFriendlyTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 374,
+            "end": 612,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 374,
+                "end": 376,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 380,
+              "end": 612,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 384,
+                  "end": 441,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 390,
+                      "end": 440,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 390,
+                        "end": 396,
+                        "name": "buffer"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 399,
+                        "end": 440,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 403,
+                          "end": 414,
+                          "name": "ArrayBuffer"
+                        },
+                        "arguments": [
+                          {
+                            "type": "BinaryExpression",
+                            "start": 415,
+                            "end": 439,
+                            "left": {
+                              "type": "MemberExpression",
+                              "start": 415,
+                              "end": 435,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 415,
+                                "end": 417,
+                                "name": "TA"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 418,
+                                "end": 435,
+                                "name": "BYTES_PER_ELEMENT"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "operator": "*",
+                            "right": {
+                              "type": "Literal",
+                              "start": 438,
+                              "end": 439,
+                              "value": 4,
+                              "raw": "4"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 444,
+                  "end": 472,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 450,
+                      "end": 471,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 450,
+                        "end": 454,
+                        "name": "view"
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "start": 457,
+                        "end": 471,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 461,
+                          "end": 463,
+                          "name": "TA"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 464,
+                            "end": 470,
+                            "name": "buffer"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "const"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 476,
+                  "end": 610,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 476,
+                    "end": 609,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 476,
+                      "end": 489,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 476,
+                        "end": 482,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 483,
+                        "end": 489,
+                        "name": "throws"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 490,
+                        "end": 499,
+                        "name": "TypeError"
+                      },
+                      {
+                        "type": "FunctionExpression",
+                        "start": 501,
+                        "end": 546,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 512,
+                          "end": 546,
+                          "body": [
+                            {
+                              "type": "ExpressionStatement",
+                              "start": 518,
+                              "end": 542,
+                              "expression": {
+                                "type": "CallExpression",
+                                "start": 518,
+                                "end": 541,
+                                "callee": {
+                                  "type": "MemberExpression",
+                                  "start": 518,
+                                  "end": 529,
+                                  "object": {
+                                    "type": "Identifier",
+                                    "start": 518,
+                                    "end": 525,
+                                    "name": "Atomics"
+                                  },
+                                  "property": {
+                                    "type": "Identifier",
+                                    "start": 526,
+                                    "end": 529,
+                                    "name": "add"
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 530,
+                                    "end": 534,
+                                    "name": "view"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 536,
+                                    "end": 537,
+                                    "value": 0,
+                                    "raw": "0"
+                                  },
+                                  {
+                                    "type": "Literal",
+                                    "start": 539,
+                                    "end": 540,
+                                    "value": 1,
+                                    "raw": "1"
+                                  }
+                                ],
+                                "optional": false
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "TemplateLiteral",
+                        "start": 548,
+                        "end": 608,
+                        "expressions": [
+                          {
+                            "type": "MemberExpression",
+                            "start": 567,
+                            "end": 574,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 567,
+                              "end": 569,
+                              "name": "TA"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 570,
+                              "end": 574,
+                              "name": "name"
+                            },
+                            "computed": false,
+                            "optional": false
+                          }
+                        ],
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 549,
+                            "end": 565,
+                            "value": {
+                              "raw": "Atomics.add(new ",
+                              "cooked": "Atomics.add(new "
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 575,
+                            "end": 607,
+                            "value": {
+                              "raw": "(buffer), 0, 1) throws TypeError",
+                              "cooked": "(buffer), 0, 1) throws TypeError"
+                            },
+                            "tail": true
+                          }
+                        ]
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

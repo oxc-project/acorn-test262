@@ -1,0 +1,174 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 590,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 324,
+      "end": 348,
+      "id": {
+        "type": "Identifier",
+        "start": 333,
+        "end": 343,
+        "name": "MyFunction"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 346,
+        "end": 348,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 349,
+      "end": 381,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 353,
+          "end": 380,
+          "id": {
+            "type": "Identifier",
+            "start": 353,
+            "end": 361,
+            "name": "MyObject"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 364,
+            "end": 380,
+            "callee": {
+              "type": "Identifier",
+              "start": 368,
+              "end": 378,
+              "name": "MyFunction"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 382,
+      "end": 400,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 382,
+        "end": 399,
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "start": 382,
+          "end": 395,
+          "object": {
+            "type": "Identifier",
+            "start": 382,
+            "end": 390,
+            "name": "MyObject"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 395,
+            "name": "prop"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "right": {
+          "type": "Literal",
+          "start": 398,
+          "end": 399,
+          "value": 1,
+          "raw": "1"
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 401,
+      "end": 589,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 405,
+        "end": 434,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 405,
+          "end": 425,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "MemberExpression",
+            "start": 412,
+            "end": 425,
+            "object": {
+              "type": "Identifier",
+              "start": 412,
+              "end": 420,
+              "name": "MyObject"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 421,
+              "end": 425,
+              "name": "prop"
+            },
+            "computed": false,
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 430,
+          "end": 434,
+          "value": true,
+          "raw": "true"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 436,
+        "end": 589,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 440,
+            "end": 587,
+            "argument": {
+              "type": "NewExpression",
+              "start": 446,
+              "end": 586,
+              "callee": {
+                "type": "Identifier",
+                "start": 450,
+                "end": 462,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 468,
+                  "end": 582,
+                  "value": "#1: function MyFunction(){}; var MyObject = new MyFunction(); MyFunction.prop = 1; delete MyObject.prop === true",
+                  "raw": "'#1: function MyFunction(){}; var MyObject = new MyFunction(); MyFunction.prop = 1; delete MyObject.prop === true'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

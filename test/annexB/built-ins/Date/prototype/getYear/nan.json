@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 390,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 325,
+      "end": 349,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 329,
+          "end": 348,
+          "id": {
+            "type": "Identifier",
+            "start": 329,
+            "end": 333,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 336,
+            "end": 348,
+            "callee": {
+              "type": "Identifier",
+              "start": 340,
+              "end": 344,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 345,
+                "end": 347,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 351,
+      "end": 389,
+      "expression": {
+        "type": "CallExpression",
+        "start": 351,
+        "end": 388,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 351,
+          "end": 367,
+          "object": {
+            "type": "Identifier",
+            "start": 351,
+            "end": 357,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 367,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 368,
+            "end": 382,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 368,
+              "end": 380,
+              "object": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 372,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 380,
+                "name": "getYear"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 384,
+            "end": 387,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

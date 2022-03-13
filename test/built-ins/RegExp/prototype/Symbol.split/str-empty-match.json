@@ -1,0 +1,189 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 505,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 398,
+      "end": 436,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 402,
+          "end": 435,
+          "id": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 408,
+            "name": "result"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 411,
+            "end": 435,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 411,
+              "end": 431,
+              "object": {
+                "type": "Literal",
+                "start": 411,
+                "end": 417,
+                "value": {},
+                "raw": "/(?:)/",
+                "regex": {
+                  "pattern": "(?:)",
+                  "flags": ""
+                }
+              },
+              "property": {
+                "type": "MemberExpression",
+                "start": 418,
+                "end": 430,
+                "object": {
+                  "type": "Identifier",
+                  "start": 418,
+                  "end": 424,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 425,
+                  "end": 430,
+                  "name": "split"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "computed": true,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 432,
+                "end": 434,
+                "value": "",
+                "raw": "''"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 438,
+      "end": 468,
+      "expression": {
+        "type": "CallExpression",
+        "start": 438,
+        "end": 467,
+        "callee": {
+          "type": "Identifier",
+          "start": 438,
+          "end": 444,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 445,
+            "end": 466,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 445,
+              "end": 458,
+              "object": {
+                "type": "Identifier",
+                "start": 445,
+                "end": 450,
+                "name": "Array"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 451,
+                "end": 458,
+                "name": "isArray"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 459,
+                "end": 465,
+                "name": "result"
+              }
+            ],
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 469,
+      "end": 504,
+      "expression": {
+        "type": "CallExpression",
+        "start": 469,
+        "end": 503,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 469,
+          "end": 485,
+          "object": {
+            "type": "Identifier",
+            "start": 469,
+            "end": 475,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 476,
+            "end": 485,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 486,
+            "end": 499,
+            "object": {
+              "type": "Identifier",
+              "start": 486,
+              "end": 492,
+              "name": "result"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 493,
+              "end": 499,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 501,
+            "end": 502,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

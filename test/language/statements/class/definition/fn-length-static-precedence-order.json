@@ -1,0 +1,957 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2360,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 1092,
+      "end": 1323,
+      "id": {
+        "type": "Identifier",
+        "start": 1098,
+        "end": 1099,
+        "name": "A"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 1100,
+        "end": 1323,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 1104,
+            "end": 1211,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 1111,
+              "end": 1117,
+              "name": "method"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1117,
+              "end": 1211,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1120,
+                "end": 1211,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 1126,
+                    "end": 1207,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 1132,
+                      "end": 1206,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1136,
+                        "end": 1148,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1149,
+                          "end": 1205,
+                          "value": "Static method should not be executed during definition",
+                          "raw": "'Static method should not be executed during definition'"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 1214,
+            "end": 1321,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 1221,
+              "end": 1227,
+              "name": "length"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1227,
+              "end": 1321,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1230,
+                "end": 1321,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 1236,
+                    "end": 1317,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 1242,
+                      "end": 1316,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1246,
+                        "end": 1258,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1259,
+                          "end": 1315,
+                          "value": "Static method should not be executed during definition",
+                          "raw": "'Static method should not be executed during definition'"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1325,
+      "end": 1418,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1325,
+        "end": 1418,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1325,
+          "end": 1344,
+          "object": {
+            "type": "Identifier",
+            "start": 1325,
+            "end": 1331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1332,
+            "end": 1344,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1345,
+            "end": 1374,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1345,
+              "end": 1371,
+              "object": {
+                "type": "Identifier",
+                "start": 1345,
+                "end": 1351,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1352,
+                "end": 1371,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1372,
+                "end": 1373,
+                "name": "A"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 1376,
+            "end": 1417,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1377,
+                "end": 1385,
+                "value": "length",
+                "raw": "'length'"
+              },
+              {
+                "type": "Literal",
+                "start": 1387,
+                "end": 1393,
+                "value": "name",
+                "raw": "'name'"
+              },
+              {
+                "type": "Literal",
+                "start": 1395,
+                "end": 1406,
+                "value": "prototype",
+                "raw": "'prototype'"
+              },
+              {
+                "type": "Literal",
+                "start": 1408,
+                "end": 1416,
+                "value": "method",
+                "raw": "'method'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1420,
+      "end": 1440,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1424,
+          "end": 1439,
+          "id": {
+            "type": "Identifier",
+            "start": 1424,
+            "end": 1428,
+            "name": "attr"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 1431,
+            "end": 1439,
+            "value": "length",
+            "raw": "'length'"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 1441,
+      "end": 1615,
+      "id": {
+        "type": "Identifier",
+        "start": 1447,
+        "end": 1448,
+        "name": "B"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 1449,
+        "end": 1615,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 1453,
+            "end": 1613,
+            "static": true,
+            "computed": true,
+            "key": {
+              "type": "Identifier",
+              "start": 1461,
+              "end": 1465,
+              "name": "attr"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1466,
+              "end": 1613,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1469,
+                "end": 1613,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 1475,
+                    "end": 1609,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 1481,
+                      "end": 1608,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1485,
+                        "end": 1497,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 1505,
+                          "end": 1602,
+                          "left": {
+                            "type": "Literal",
+                            "start": 1505,
+                            "end": 1574,
+                            "value": "Static method defined via computed property should not be executed ",
+                            "raw": "'Static method defined via computed property should not be executed '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Literal",
+                            "start": 1583,
+                            "end": 1602,
+                            "value": "during definition",
+                            "raw": "'during definition'"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1617,
+      "end": 1700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1617,
+        "end": 1700,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1617,
+          "end": 1636,
+          "object": {
+            "type": "Identifier",
+            "start": 1617,
+            "end": 1623,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1624,
+            "end": 1636,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1637,
+            "end": 1666,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1637,
+              "end": 1663,
+              "object": {
+                "type": "Identifier",
+                "start": 1637,
+                "end": 1643,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1644,
+                "end": 1663,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1664,
+                "end": 1665,
+                "name": "B"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 1668,
+            "end": 1699,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1669,
+                "end": 1677,
+                "value": "length",
+                "raw": "'length'"
+              },
+              {
+                "type": "Literal",
+                "start": 1679,
+                "end": 1685,
+                "value": "name",
+                "raw": "'name'"
+              },
+              {
+                "type": "Literal",
+                "start": 1687,
+                "end": 1698,
+                "value": "prototype",
+                "raw": "'prototype'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 1702,
+      "end": 1835,
+      "id": {
+        "type": "Identifier",
+        "start": 1708,
+        "end": 1709,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 1710,
+        "end": 1835,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 1714,
+            "end": 1833,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 1725,
+              "end": 1731,
+              "name": "length"
+            },
+            "kind": "get",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1731,
+              "end": 1833,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1734,
+                "end": 1833,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 1740,
+                    "end": 1829,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 1746,
+                      "end": 1828,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1750,
+                        "end": 1762,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1763,
+                          "end": 1827,
+                          "value": "Static `get` accessor should not be executed during definition",
+                          "raw": "'Static `get` accessor should not be executed during definition'"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1837,
+      "end": 1920,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1837,
+        "end": 1920,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1837,
+          "end": 1856,
+          "object": {
+            "type": "Identifier",
+            "start": 1837,
+            "end": 1843,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1844,
+            "end": 1856,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1857,
+            "end": 1886,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1857,
+              "end": 1883,
+              "object": {
+                "type": "Identifier",
+                "start": 1857,
+                "end": 1863,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1864,
+                "end": 1883,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 1884,
+                "end": 1885,
+                "name": "C"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 1888,
+            "end": 1919,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 1889,
+                "end": 1897,
+                "value": "length",
+                "raw": "'length'"
+              },
+              {
+                "type": "Literal",
+                "start": 1899,
+                "end": 1905,
+                "value": "name",
+                "raw": "'name'"
+              },
+              {
+                "type": "Literal",
+                "start": 1907,
+                "end": 1918,
+                "value": "prototype",
+                "raw": "'prototype'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 1922,
+      "end": 2056,
+      "id": {
+        "type": "Identifier",
+        "start": 1928,
+        "end": 1929,
+        "name": "D"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 1930,
+        "end": 2056,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 1934,
+            "end": 2054,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 1945,
+              "end": 1951,
+              "name": "length"
+            },
+            "kind": "set",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 1951,
+              "end": 2054,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 1952,
+                  "end": 1953,
+                  "name": "_"
+                }
+              ],
+              "body": {
+                "type": "BlockStatement",
+                "start": 1955,
+                "end": 2054,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 1961,
+                    "end": 2050,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 1967,
+                      "end": 2049,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1971,
+                        "end": 1983,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 1984,
+                          "end": 2048,
+                          "value": "Static `set` accessor should not be executed during definition",
+                          "raw": "'Static `set` accessor should not be executed during definition'"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2058,
+      "end": 2141,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2058,
+        "end": 2141,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2058,
+          "end": 2077,
+          "object": {
+            "type": "Identifier",
+            "start": 2058,
+            "end": 2064,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2065,
+            "end": 2077,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2078,
+            "end": 2107,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2078,
+              "end": 2104,
+              "object": {
+                "type": "Identifier",
+                "start": 2078,
+                "end": 2084,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2085,
+                "end": 2104,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2105,
+                "end": 2106,
+                "name": "D"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 2109,
+            "end": 2140,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 2110,
+                "end": 2118,
+                "value": "length",
+                "raw": "'length'"
+              },
+              {
+                "type": "Literal",
+                "start": 2120,
+                "end": 2126,
+                "value": "name",
+                "raw": "'name'"
+              },
+              {
+                "type": "Literal",
+                "start": 2128,
+                "end": 2139,
+                "value": "prototype",
+                "raw": "'prototype'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 2143,
+      "end": 2274,
+      "id": {
+        "type": "Identifier",
+        "start": 2149,
+        "end": 2150,
+        "name": "E"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 2151,
+        "end": 2274,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 2155,
+            "end": 2272,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 2163,
+              "end": 2169,
+              "name": "length"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 2169,
+              "end": 2272,
+              "id": null,
+              "expression": false,
+              "generator": true,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2172,
+                "end": 2272,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 2178,
+                    "end": 2268,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 2184,
+                      "end": 2267,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 2188,
+                        "end": 2200,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 2201,
+                          "end": 2266,
+                          "value": "Static GeneratorMethod should not be executed during definition",
+                          "raw": "'Static GeneratorMethod should not be executed during definition'"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2276,
+      "end": 2359,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2276,
+        "end": 2359,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2276,
+          "end": 2295,
+          "object": {
+            "type": "Identifier",
+            "start": 2276,
+            "end": 2282,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2283,
+            "end": 2295,
+            "name": "compareArray"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 2296,
+            "end": 2325,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 2296,
+              "end": 2322,
+              "object": {
+                "type": "Identifier",
+                "start": 2296,
+                "end": 2302,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 2303,
+                "end": 2322,
+                "name": "getOwnPropertyNames"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 2323,
+                "end": 2324,
+                "name": "E"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 2327,
+            "end": 2358,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 2328,
+                "end": 2336,
+                "value": "length",
+                "raw": "'length'"
+              },
+              {
+                "type": "Literal",
+                "start": 2338,
+                "end": 2344,
+                "value": "name",
+                "raw": "'name'"
+              },
+              {
+                "type": "Literal",
+                "start": 2346,
+                "end": 2357,
+                "value": "prototype",
+                "raw": "'prototype'"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

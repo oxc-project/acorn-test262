@@ -1,0 +1,199 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 689,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 336,
+      "end": 485,
+      "expression": {
+        "type": "CallExpression",
+        "start": 336,
+        "end": 484,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 336,
+          "end": 352,
+          "object": {
+            "type": "Identifier",
+            "start": 336,
+            "end": 342,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 352,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 356,
+            "end": 393,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 363,
+              "end": 393,
+              "object": {
+                "type": "MemberExpression",
+                "start": 363,
+                "end": 386,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 363,
+                  "end": 377,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 363,
+                    "end": 367,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 368,
+                    "end": 377,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 378,
+                  "end": 386,
+                  "name": "setHours"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 387,
+                "end": 393,
+                "name": "length"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 397,
+            "end": 401,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 405,
+            "end": 482,
+            "value": "The value of `delete Date.prototype.setHours.length` is expected to be true",
+            "raw": "'The value of `delete Date.prototype.setHours.length` is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 487,
+      "end": 642,
+      "expression": {
+        "type": "CallExpression",
+        "start": 487,
+        "end": 641,
+        "callee": {
+          "type": "Identifier",
+          "start": 487,
+          "end": 493,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 497,
+            "end": 546,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 498,
+              "end": 546,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 498,
+                "end": 536,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 498,
+                  "end": 521,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 498,
+                    "end": 512,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 498,
+                      "end": 502,
+                      "name": "Date"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 503,
+                      "end": 512,
+                      "name": "prototype"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 513,
+                    "end": 521,
+                    "name": "setHours"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 522,
+                  "end": 536,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 537,
+                  "end": 545,
+                  "value": "length",
+                  "raw": "'length'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 550,
+            "end": 639,
+            "value": "The value of !Date.prototype.setHours.hasOwnProperty('length') is expected to be true",
+            "raw": "'The value of !Date.prototype.setHours.hasOwnProperty(\\'length\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

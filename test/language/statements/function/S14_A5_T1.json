@@ -1,0 +1,208 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 850,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 457,
+      "end": 572,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 461,
+        "end": 480,
+        "left": {
+          "type": "CallExpression",
+          "start": 461,
+          "end": 469,
+          "callee": {
+            "type": "Identifier",
+            "start": 461,
+            "end": 467,
+            "name": "__func"
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 474,
+          "end": 480,
+          "value": "both",
+          "raw": "\"both\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 482,
+        "end": 572,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 485,
+            "end": 570,
+            "argument": {
+              "type": "NewExpression",
+              "start": 491,
+              "end": 569,
+              "callee": {
+                "type": "Identifier",
+                "start": 495,
+                "end": 507,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 508,
+                  "end": 566,
+                  "left": {
+                    "type": "Literal",
+                    "start": 508,
+                    "end": 556,
+                    "value": "#1: __func() === \"both\". Actual:  __func() ===",
+                    "raw": "'#1: __func() === \"both\". Actual:  __func() ==='"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "CallExpression",
+                    "start": 558,
+                    "end": 566,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 558,
+                      "end": 564,
+                      "name": "__func"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 656,
+      "end": 689,
+      "id": {
+        "type": "Identifier",
+        "start": 665,
+        "end": 671,
+        "name": "__func"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 673,
+        "end": 689,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 674,
+            "end": 688,
+            "argument": {
+              "type": "Literal",
+              "start": 681,
+              "end": 688,
+              "value": "ascii",
+              "raw": "\"ascii\""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 689,
+      "end": 690
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 691,
+      "end": 756,
+      "id": {
+        "type": "Identifier",
+        "start": 700,
+        "end": 736,
+        "name": "__func"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 738,
+        "end": 756,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 739,
+            "end": 755,
+            "argument": {
+              "type": "Literal",
+              "start": 746,
+              "end": 755,
+              "value": "unicode",
+              "raw": "\"unicode\""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 756,
+      "end": 757
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 777,
+      "end": 829,
+      "id": {
+        "type": "Identifier",
+        "start": 786,
+        "end": 812,
+        "name": "__func"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 814,
+        "end": 829,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 815,
+            "end": 828,
+            "argument": {
+              "type": "Literal",
+              "start": 822,
+              "end": 828,
+              "value": "both",
+              "raw": "\"both\""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 829,
+      "end": 830
+    }
+  ],
+  "sourceType": "script"
+}

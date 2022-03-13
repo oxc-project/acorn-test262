@@ -1,0 +1,252 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 700,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 461,
+      "end": 510,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 467,
+          "end": 509,
+          "id": {
+            "type": "Identifier",
+            "start": 467,
+            "end": 470,
+            "name": "rtf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 473,
+            "end": 509,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 477,
+              "end": 500,
+              "object": {
+                "type": "Identifier",
+                "start": 477,
+                "end": 481,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 482,
+                "end": 500,
+                "name": "RelativeTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 501,
+                "end": 508,
+                "value": "en-US",
+                "raw": "\"en-US\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 512,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 512,
+        "end": 603,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 512,
+          "end": 528,
+          "object": {
+            "type": "Identifier",
+            "start": 512,
+            "end": 518,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 519,
+            "end": 528,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 529,
+            "end": 553,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 536,
+              "end": 553,
+              "object": {
+                "type": "Identifier",
+                "start": 536,
+                "end": 539,
+                "name": "rtf"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 540,
+                "end": 553,
+                "name": "formatToParts"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 555,
+            "end": 565,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 567,
+            "end": 602,
+            "value": "formatToParts should be supported",
+            "raw": "\"formatToParts should be supported\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 606,
+      "end": 630,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 612,
+          "end": 629,
+          "id": {
+            "type": "Identifier",
+            "start": 612,
+            "end": 618,
+            "name": "symbol"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 621,
+            "end": 629,
+            "callee": {
+              "type": "Identifier",
+              "start": 621,
+              "end": 627,
+              "name": "Symbol"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 631,
+      "end": 699,
+      "expression": {
+        "type": "CallExpression",
+        "start": 631,
+        "end": 698,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 631,
+          "end": 644,
+          "object": {
+            "type": "Identifier",
+            "start": 631,
+            "end": 637,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 638,
+            "end": 644,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 645,
+            "end": 654,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 656,
+            "end": 697,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 662,
+              "end": 697,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 662,
+                "end": 679,
+                "object": {
+                  "type": "Identifier",
+                  "start": 662,
+                  "end": 665,
+                  "name": "rtf"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 666,
+                  "end": 679,
+                  "name": "formatToParts"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 680,
+                  "end": 686,
+                  "name": "symbol"
+                },
+                {
+                  "type": "Literal",
+                  "start": 688,
+                  "end": 696,
+                  "value": "second",
+                  "raw": "\"second\""
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

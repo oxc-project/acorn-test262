@@ -1,0 +1,252 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 535,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 281,
+      "end": 310,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 287,
+          "end": 309,
+          "id": {
+            "type": "ObjectPattern",
+            "start": 287,
+            "end": 298,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 289,
+                "end": 296,
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 289,
+                  "end": 296,
+                  "name": "Instant"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "Identifier",
+                  "start": 289,
+                  "end": 296,
+                  "name": "Instant"
+                }
+              }
+            ]
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 301,
+            "end": 309,
+            "name": "Temporal"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 312,
+      "end": 360,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 318,
+          "end": 359,
+          "id": {
+            "type": "Identifier",
+            "start": 318,
+            "end": 327,
+            "name": "isoString"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 330,
+            "end": 359,
+            "value": "2020-01-01T23:58:57.012034Z",
+            "raw": "'2020-01-01T23:58:57.012034Z'"
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 361,
+      "end": 401,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 367,
+          "end": 400,
+          "id": {
+            "type": "Identifier",
+            "start": 367,
+            "end": 374,
+            "name": "instant"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 377,
+            "end": 400,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 377,
+              "end": 389,
+              "object": {
+                "type": "Identifier",
+                "start": 377,
+                "end": 384,
+                "name": "Instant"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 385,
+                "end": 389,
+                "name": "from"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 390,
+                "end": 399,
+                "name": "isoString"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 402,
+      "end": 483,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 408,
+          "end": 482,
+          "id": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 427,
+            "name": "instantIsoStrMicros"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 430,
+            "end": 482,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 430,
+              "end": 446,
+              "object": {
+                "type": "Identifier",
+                "start": 430,
+                "end": 437,
+                "name": "instant"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 438,
+                "end": 446,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 447,
+                "end": 481,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 451,
+                    "end": 479,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 451,
+                      "end": 463,
+                      "name": "smallestUnit"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 465,
+                      "end": 479,
+                      "value": "microseconds",
+                      "raw": "'microseconds'"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 485,
+      "end": 534,
+      "expression": {
+        "type": "CallExpression",
+        "start": 485,
+        "end": 533,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 485,
+          "end": 501,
+          "object": {
+            "type": "Identifier",
+            "start": 485,
+            "end": 491,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 501,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 502,
+            "end": 521,
+            "name": "instantIsoStrMicros"
+          },
+          {
+            "type": "Identifier",
+            "start": 523,
+            "end": 532,
+            "name": "isoString"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

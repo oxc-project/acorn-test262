@@ -1,0 +1,966 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1061,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 278,
+      "end": 338,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 284,
+          "end": 337,
+          "id": {
+            "type": "Identifier",
+            "start": 284,
+            "end": 295,
+            "name": "mergeFields"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 298,
+            "end": 337,
+            "object": {
+              "type": "MemberExpression",
+              "start": 298,
+              "end": 325,
+              "object": {
+                "type": "MemberExpression",
+                "start": 298,
+                "end": 315,
+                "object": {
+                  "type": "Identifier",
+                  "start": 298,
+                  "end": 306,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 307,
+                  "end": 315,
+                  "name": "Calendar"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 316,
+                "end": 325,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 326,
+              "end": 337,
+              "name": "mergeFields"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 340,
+      "end": 389,
+      "expression": {
+        "type": "CallExpression",
+        "start": 340,
+        "end": 388,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 340,
+          "end": 356,
+          "object": {
+            "type": "Identifier",
+            "start": 340,
+            "end": 346,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 347,
+            "end": 356,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 357,
+            "end": 375,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 364,
+              "end": 375,
+              "name": "mergeFields"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 377,
+            "end": 387,
+            "value": "function",
+            "raw": "\"function\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 391,
+      "end": 464,
+      "expression": {
+        "type": "CallExpression",
+        "start": 391,
+        "end": 463,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 391,
+          "end": 404,
+          "object": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 397,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 398,
+            "end": 404,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 405,
+            "end": 414,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 416,
+            "end": 449,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 422,
+              "end": 449,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 422,
+                "end": 438,
+                "object": {
+                  "type": "Identifier",
+                  "start": 422,
+                  "end": 433,
+                  "name": "mergeFields"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 434,
+                  "end": 438,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 439,
+                  "end": 448,
+                  "name": "undefined"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 451,
+            "end": 462,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 465,
+      "end": 528,
+      "expression": {
+        "type": "CallExpression",
+        "start": 465,
+        "end": 527,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 465,
+          "end": 478,
+          "object": {
+            "type": "Identifier",
+            "start": 465,
+            "end": 471,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 472,
+            "end": 478,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 479,
+            "end": 488,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 490,
+            "end": 518,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 496,
+              "end": 518,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 496,
+                "end": 512,
+                "object": {
+                  "type": "Identifier",
+                  "start": 496,
+                  "end": 507,
+                  "name": "mergeFields"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 508,
+                  "end": 512,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 513,
+                  "end": 517,
+                  "value": null,
+                  "raw": "null"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 520,
+            "end": 526,
+            "value": "null",
+            "raw": "\"null\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 529,
+      "end": 592,
+      "expression": {
+        "type": "CallExpression",
+        "start": 529,
+        "end": 591,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 529,
+          "end": 542,
+          "object": {
+            "type": "Identifier",
+            "start": 529,
+            "end": 535,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 536,
+            "end": 542,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 543,
+            "end": 552,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 554,
+            "end": 582,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 560,
+              "end": 582,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 560,
+                "end": 576,
+                "object": {
+                  "type": "Identifier",
+                  "start": 560,
+                  "end": 571,
+                  "name": "mergeFields"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 572,
+                  "end": 576,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 577,
+                  "end": 581,
+                  "value": true,
+                  "raw": "true"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 584,
+            "end": 590,
+            "value": "true",
+            "raw": "\"true\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 593,
+      "end": 662,
+      "expression": {
+        "type": "CallExpression",
+        "start": 593,
+        "end": 661,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 593,
+          "end": 606,
+          "object": {
+            "type": "Identifier",
+            "start": 593,
+            "end": 599,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 600,
+            "end": 606,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 607,
+            "end": 616,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 618,
+            "end": 644,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 624,
+              "end": 644,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 624,
+                "end": 640,
+                "object": {
+                  "type": "Identifier",
+                  "start": 624,
+                  "end": 635,
+                  "name": "mergeFields"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 636,
+                  "end": 640,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 641,
+                  "end": 643,
+                  "value": "",
+                  "raw": "\"\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 646,
+            "end": 660,
+            "value": "empty string",
+            "raw": "\"empty string\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 663,
+      "end": 732,
+      "expression": {
+        "type": "CallExpression",
+        "start": 663,
+        "end": 731,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 663,
+          "end": 676,
+          "object": {
+            "type": "Identifier",
+            "start": 663,
+            "end": 669,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 670,
+            "end": 676,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 677,
+            "end": 686,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 688,
+            "end": 720,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 694,
+              "end": 720,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 694,
+                "end": 710,
+                "object": {
+                  "type": "Identifier",
+                  "start": 694,
+                  "end": 705,
+                  "name": "mergeFields"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 706,
+                  "end": 710,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 711,
+                  "end": 719,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 711,
+                    "end": 717,
+                    "name": "Symbol"
+                  },
+                  "arguments": [],
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 722,
+            "end": 730,
+            "value": "symbol",
+            "raw": "\"symbol\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 733,
+      "end": 790,
+      "expression": {
+        "type": "CallExpression",
+        "start": 733,
+        "end": 789,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 733,
+          "end": 746,
+          "object": {
+            "type": "Identifier",
+            "start": 733,
+            "end": 739,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 740,
+            "end": 746,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 747,
+            "end": 756,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 758,
+            "end": 783,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 764,
+              "end": 783,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 764,
+                "end": 780,
+                "object": {
+                  "type": "Identifier",
+                  "start": 764,
+                  "end": 775,
+                  "name": "mergeFields"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 776,
+                  "end": 780,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 781,
+                  "end": 782,
+                  "value": 1,
+                  "raw": "1"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 785,
+            "end": 788,
+            "value": "1",
+            "raw": "\"1\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 791,
+      "end": 860,
+      "expression": {
+        "type": "CallExpression",
+        "start": 791,
+        "end": 859,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 791,
+          "end": 804,
+          "object": {
+            "type": "Identifier",
+            "start": 791,
+            "end": 797,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 798,
+            "end": 804,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 805,
+            "end": 814,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 816,
+            "end": 842,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 822,
+              "end": 842,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 822,
+                "end": 838,
+                "object": {
+                  "type": "Identifier",
+                  "start": 822,
+                  "end": 833,
+                  "name": "mergeFields"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 834,
+                  "end": 838,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "ObjectExpression",
+                  "start": 839,
+                  "end": 841,
+                  "properties": []
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 844,
+            "end": 858,
+            "value": "plain object",
+            "raw": "\"plain object\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 861,
+      "end": 950,
+      "expression": {
+        "type": "CallExpression",
+        "start": 861,
+        "end": 949,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 861,
+          "end": 874,
+          "object": {
+            "type": "Identifier",
+            "start": 861,
+            "end": 867,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 868,
+            "end": 874,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 875,
+            "end": 884,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 886,
+            "end": 927,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 892,
+              "end": 927,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 892,
+                "end": 908,
+                "object": {
+                  "type": "Identifier",
+                  "start": 892,
+                  "end": 903,
+                  "name": "mergeFields"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 904,
+                  "end": 908,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 909,
+                  "end": 926,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 909,
+                    "end": 917,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 918,
+                    "end": 926,
+                    "name": "Calendar"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 929,
+            "end": 948,
+            "value": "Temporal.Calendar",
+            "raw": "\"Temporal.Calendar\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 951,
+      "end": 1060,
+      "expression": {
+        "type": "CallExpression",
+        "start": 951,
+        "end": 1059,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 951,
+          "end": 964,
+          "object": {
+            "type": "Identifier",
+            "start": 951,
+            "end": 957,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 958,
+            "end": 964,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 965,
+            "end": 974,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 976,
+            "end": 1027,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 982,
+              "end": 1027,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 982,
+                "end": 998,
+                "object": {
+                  "type": "Identifier",
+                  "start": 982,
+                  "end": 993,
+                  "name": "mergeFields"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 994,
+                  "end": 998,
+                  "name": "call"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "MemberExpression",
+                  "start": 999,
+                  "end": 1026,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 999,
+                    "end": 1016,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 999,
+                      "end": 1007,
+                      "name": "Temporal"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1008,
+                      "end": 1016,
+                      "name": "Calendar"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1017,
+                    "end": 1026,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1029,
+            "end": 1058,
+            "value": "Temporal.Calendar.prototype",
+            "raw": "\"Temporal.Calendar.prototype\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

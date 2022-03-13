@@ -1,0 +1,162 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 836,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 671,
+      "end": 717,
+      "expression": {
+        "type": "CallExpression",
+        "start": 671,
+        "end": 716,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 671,
+          "end": 687,
+          "object": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 677,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 678,
+            "end": 687,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 688,
+            "end": 702,
+            "object": {
+              "type": "Identifier",
+              "start": 688,
+              "end": 697,
+              "name": "encodeURI"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 698,
+              "end": 702,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 704,
+            "end": 715,
+            "value": "encodeURI",
+            "raw": "\"encodeURI\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 719,
+      "end": 758,
+      "expression": {
+        "type": "CallExpression",
+        "start": 719,
+        "end": 757,
+        "callee": {
+          "type": "Identifier",
+          "start": 719,
+          "end": 738,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 739,
+            "end": 748,
+            "name": "encodeURI"
+          },
+          {
+            "type": "Literal",
+            "start": 750,
+            "end": 756,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 759,
+      "end": 796,
+      "expression": {
+        "type": "CallExpression",
+        "start": 759,
+        "end": 795,
+        "callee": {
+          "type": "Identifier",
+          "start": 759,
+          "end": 776,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 777,
+            "end": 786,
+            "name": "encodeURI"
+          },
+          {
+            "type": "Literal",
+            "start": 788,
+            "end": 794,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 797,
+      "end": 835,
+      "expression": {
+        "type": "CallExpression",
+        "start": 797,
+        "end": 834,
+        "callee": {
+          "type": "Identifier",
+          "start": 797,
+          "end": 815,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 816,
+            "end": 825,
+            "name": "encodeURI"
+          },
+          {
+            "type": "Literal",
+            "start": 827,
+            "end": 833,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

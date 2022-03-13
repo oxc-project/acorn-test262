@@ -1,0 +1,102 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 554,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 480,
+      "end": 553,
+      "expression": {
+        "type": "CallExpression",
+        "start": 480,
+        "end": 552,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 480,
+          "end": 493,
+          "object": {
+            "type": "Identifier",
+            "start": 480,
+            "end": 486,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 487,
+            "end": 493,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 494,
+            "end": 508,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 510,
+            "end": 551,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 521,
+              "end": 551,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 525,
+                  "end": 530,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 525,
+                    "end": 530,
+                    "name": "async"
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 533,
+                  "end": 549,
+                  "expression": {
+                    "type": "ArrowFunctionExpression",
+                    "start": 533,
+                    "end": 549,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 533,
+                        "end": 543,
+                        "name": "identifier"
+                      }
+                    ],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 547,
+                      "end": 549,
+                      "body": []
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

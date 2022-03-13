@@ -1,0 +1,216 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 742,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 605,
+      "end": 630,
+      "id": {
+        "type": "Identifier",
+        "start": 611,
+        "end": 612,
+        "name": "N"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 621,
+        "end": 627,
+        "name": "Number"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 628,
+        "end": 630,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 632,
+      "end": 650,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 636,
+          "end": 649,
+          "id": {
+            "type": "Identifier",
+            "start": 636,
+            "end": 637,
+            "name": "n"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 640,
+            "end": 649,
+            "callee": {
+              "type": "Identifier",
+              "start": 644,
+              "end": 645,
+              "name": "N"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 646,
+                "end": 648,
+                "value": 42,
+                "raw": "42"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 652,
+      "end": 692,
+      "expression": {
+        "type": "CallExpression",
+        "start": 652,
+        "end": 691,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 652,
+          "end": 668,
+          "object": {
+            "type": "Identifier",
+            "start": 652,
+            "end": 658,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 659,
+            "end": 668,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 669,
+            "end": 681,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 669,
+              "end": 678,
+              "object": {
+                "type": "Identifier",
+                "start": 669,
+                "end": 670,
+                "name": "n"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 671,
+                "end": 678,
+                "name": "toFixed"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 679,
+                "end": 680,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 683,
+            "end": 690,
+            "value": "42.00",
+            "raw": "'42.00'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 693,
+      "end": 741,
+      "expression": {
+        "type": "CallExpression",
+        "start": 693,
+        "end": 740,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 693,
+          "end": 709,
+          "object": {
+            "type": "Identifier",
+            "start": 693,
+            "end": 699,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 700,
+            "end": 709,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 710,
+            "end": 728,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 710,
+              "end": 725,
+              "object": {
+                "type": "Identifier",
+                "start": 710,
+                "end": 711,
+                "name": "n"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 712,
+                "end": 725,
+                "name": "toExponential"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 726,
+                "end": 727,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 730,
+            "end": 739,
+            "value": "4.20e+1",
+            "raw": "'4.20e+1'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

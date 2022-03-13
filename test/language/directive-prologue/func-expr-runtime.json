@@ -1,0 +1,100 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 473,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 358,
+      "end": 472,
+      "expression": {
+        "type": "CallExpression",
+        "start": 358,
+        "end": 471,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 358,
+          "end": 371,
+          "object": {
+            "type": "Identifier",
+            "start": 358,
+            "end": 364,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 365,
+            "end": 371,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 372,
+            "end": 386,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 388,
+            "end": 470,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 400,
+              "end": 470,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 414,
+                  "end": 427,
+                  "expression": {
+                    "type": "Literal",
+                    "start": 414,
+                    "end": 426,
+                    "value": "use strict",
+                    "raw": "\"use strict\""
+                  },
+                  "directive": "use strict"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 441,
+                  "end": 468,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 441,
+                    "end": 467,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 441,
+                      "end": 460,
+                      "name": "test262unresolvable"
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 463,
+                      "end": 467,
+                      "value": null,
+                      "raw": "null"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

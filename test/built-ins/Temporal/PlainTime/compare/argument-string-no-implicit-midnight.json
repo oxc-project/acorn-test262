@@ -1,0 +1,292 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 709,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 301,
+      "end": 326,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 307,
+          "end": 325,
+          "id": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 310,
+            "name": "arg"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 313,
+            "end": 325,
+            "value": "2019-10-01",
+            "raw": "\"2019-10-01\""
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 327,
+      "end": 369,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 333,
+          "end": 368,
+          "id": {
+            "type": "Identifier",
+            "start": 333,
+            "end": 341,
+            "name": "midnight"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 344,
+            "end": 368,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 348,
+              "end": 366,
+              "object": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 356,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 357,
+                "end": 366,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 370,
+      "end": 538,
+      "expression": {
+        "type": "CallExpression",
+        "start": 370,
+        "end": 537,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 370,
+          "end": 383,
+          "object": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 376,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 383,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 387,
+            "end": 397,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 401,
+            "end": 448,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 407,
+              "end": 448,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 407,
+                "end": 433,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 407,
+                  "end": 425,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 407,
+                    "end": 415,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 416,
+                    "end": 425,
+                    "name": "PlainTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 426,
+                  "end": 433,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 434,
+                  "end": 437,
+                  "name": "arg"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 439,
+                  "end": 447,
+                  "name": "midnight"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 452,
+            "end": 535,
+            "value": "Date-only string throws, does not implicitly convert to midnight (first argument)",
+            "raw": "\"Date-only string throws, does not implicitly convert to midnight (first argument)\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 539,
+      "end": 708,
+      "expression": {
+        "type": "CallExpression",
+        "start": 539,
+        "end": 707,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 539,
+          "end": 552,
+          "object": {
+            "type": "Identifier",
+            "start": 539,
+            "end": 545,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 546,
+            "end": 552,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 556,
+            "end": 566,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 570,
+            "end": 617,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 576,
+              "end": 617,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 576,
+                "end": 602,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 576,
+                  "end": 594,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 576,
+                    "end": 584,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 585,
+                    "end": 594,
+                    "name": "PlainTime"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 595,
+                  "end": 602,
+                  "name": "compare"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 603,
+                  "end": 611,
+                  "name": "midnight"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 613,
+                  "end": 616,
+                  "name": "arg"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 621,
+            "end": 705,
+            "value": "Date-only string throws, does not implicitly convert to midnight (second argument)",
+            "raw": "\"Date-only string throws, does not implicitly convert to midnight (second argument)\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

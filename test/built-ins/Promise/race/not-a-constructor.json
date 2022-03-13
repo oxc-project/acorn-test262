@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 893,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 684,
+      "end": 786,
+      "expression": {
+        "type": "CallExpression",
+        "start": 684,
+        "end": 785,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 684,
+          "end": 700,
+          "object": {
+            "type": "Identifier",
+            "start": 684,
+            "end": 690,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 691,
+            "end": 700,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 701,
+            "end": 728,
+            "callee": {
+              "type": "Identifier",
+              "start": 701,
+              "end": 714,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 715,
+                "end": 727,
+                "object": {
+                  "type": "Identifier",
+                  "start": 715,
+                  "end": 722,
+                  "name": "Promise"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 723,
+                  "end": 727,
+                  "name": "race"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 730,
+            "end": 735,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 737,
+            "end": 784,
+            "value": "isConstructor(Promise.race) must return false",
+            "raw": "'isConstructor(Promise.race) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 788,
+      "end": 891,
+      "expression": {
+        "type": "CallExpression",
+        "start": 788,
+        "end": 890,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 788,
+          "end": 801,
+          "object": {
+            "type": "Identifier",
+            "start": 788,
+            "end": 794,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 795,
+            "end": 801,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 802,
+            "end": 811,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 813,
+            "end": 846,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 819,
+              "end": 846,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 823,
+                  "end": 844,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 823,
+                    "end": 843,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 827,
+                      "end": 839,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 827,
+                        "end": 834,
+                        "name": "Promise"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 835,
+                        "end": 839,
+                        "name": "race"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "ArrayExpression",
+                        "start": 840,
+                        "end": 842,
+                        "elements": []
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 848,
+            "end": 889,
+            "value": "`new Promise.race([])` throws TypeError",
+            "raw": "'`new Promise.race([])` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

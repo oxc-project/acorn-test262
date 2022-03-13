@@ -1,0 +1,323 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 637,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 287,
+      "end": 416,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 291,
+        "end": 327,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 292,
+          "end": 327,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 293,
+            "end": 326,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 293,
+              "end": 310,
+              "operator": "typeof",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 299,
+                "end": 310,
+                "expression": {
+                  "type": "Identifier",
+                  "start": 300,
+                  "end": 309,
+                  "name": "undefined"
+                }
+              }
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 315,
+              "end": 326,
+              "value": "undefined",
+              "raw": "\"undefined\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 329,
+        "end": 416,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 333,
+            "end": 412,
+            "expression": {
+              "type": "CallExpression",
+              "start": 333,
+              "end": 411,
+              "callee": {
+                "type": "Identifier",
+                "start": 333,
+                "end": 338,
+                "name": "ERROR"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 339,
+                  "end": 410,
+                  "left": {
+                    "type": "Literal",
+                    "start": 339,
+                    "end": 388,
+                    "value": "#1: typeof(undefined) === \"undefined\". Actual: ",
+                    "raw": "'#1: typeof(undefined) === \"undefined\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 391,
+                    "end": 410,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 392,
+                      "end": 409,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "ParenthesizedExpression",
+                        "start": 398,
+                        "end": 409,
+                        "expression": {
+                          "type": "Identifier",
+                          "start": 399,
+                          "end": 408,
+                          "name": "undefined"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 430,
+      "end": 551,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 434,
+        "end": 467,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 435,
+          "end": 467,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 436,
+            "end": 466,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 436,
+              "end": 450,
+              "operator": "typeof",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 442,
+                "end": 450,
+                "expression": {
+                  "type": "UnaryExpression",
+                  "start": 443,
+                  "end": 449,
+                  "operator": "void",
+                  "prefix": true,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 448,
+                    "end": 449,
+                    "value": 0,
+                    "raw": "0"
+                  }
+                }
+              }
+            },
+            "operator": "===",
+            "right": {
+              "type": "Literal",
+              "start": 455,
+              "end": 466,
+              "value": "undefined",
+              "raw": "\"undefined\""
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 469,
+        "end": 551,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 474,
+            "end": 547,
+            "expression": {
+              "type": "CallExpression",
+              "start": 474,
+              "end": 546,
+              "callee": {
+                "type": "Identifier",
+                "start": 474,
+                "end": 479,
+                "name": "ERROR"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 480,
+                  "end": 545,
+                  "left": {
+                    "type": "Literal",
+                    "start": 480,
+                    "end": 526,
+                    "value": "#2: typeof(void 0) === \"undefined\". Actual: ",
+                    "raw": "'#2: typeof(void 0) === \"undefined\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 529,
+                    "end": 545,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 530,
+                      "end": 544,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "ParenthesizedExpression",
+                        "start": 536,
+                        "end": 544,
+                        "expression": {
+                          "type": "UnaryExpression",
+                          "start": 537,
+                          "end": 543,
+                          "operator": "void",
+                          "prefix": true,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 542,
+                            "end": 543,
+                            "value": 0,
+                            "raw": "0"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 564,
+      "end": 636,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 568,
+        "end": 591,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 569,
+          "end": 591,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 570,
+            "end": 590,
+            "left": {
+              "type": "Identifier",
+              "start": 570,
+              "end": 579,
+              "name": "undefined"
+            },
+            "operator": "===",
+            "right": {
+              "type": "UnaryExpression",
+              "start": 584,
+              "end": 590,
+              "operator": "void",
+              "prefix": true,
+              "argument": {
+                "type": "Literal",
+                "start": 589,
+                "end": 590,
+                "value": 0,
+                "raw": "0"
+              }
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 593,
+        "end": 636,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 598,
+            "end": 632,
+            "expression": {
+              "type": "CallExpression",
+              "start": 598,
+              "end": 631,
+              "callee": {
+                "type": "Identifier",
+                "start": 598,
+                "end": 603,
+                "name": "ERROR"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 604,
+                  "end": 630,
+                  "value": "#3: undefined === void 0",
+                  "raw": "'#3: undefined === void 0'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

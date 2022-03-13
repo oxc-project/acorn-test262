@@ -1,0 +1,195 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 689,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 383,
+      "end": 688,
+      "block": {
+        "type": "BlockStatement",
+        "start": 387,
+        "end": 533,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 391,
+            "end": 416,
+            "expression": {
+              "type": "NewExpression",
+              "start": 391,
+              "end": 415,
+              "callee": {
+                "type": "Identifier",
+                "start": 395,
+                "end": 413,
+                "name": "encodeURIComponent"
+              },
+              "arguments": []
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 419,
+            "end": 531,
+            "argument": {
+              "type": "NewExpression",
+              "start": 425,
+              "end": 530,
+              "callee": {
+                "type": "Identifier",
+                "start": 429,
+                "end": 441,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 442,
+                  "end": 529,
+                  "left": {
+                    "type": "Literal",
+                    "start": 442,
+                    "end": 500,
+                    "value": "#1.1: new encodeURIComponent() throw TypeError. Actual: ",
+                    "raw": "'#1.1: new encodeURIComponent() throw TypeError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 503,
+                    "end": 529,
+                    "expression": {
+                      "type": "NewExpression",
+                      "start": 504,
+                      "end": 528,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 508,
+                        "end": 526,
+                        "name": "encodeURIComponent"
+                      },
+                      "arguments": []
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 534,
+        "end": 688,
+        "param": {
+          "type": "Identifier",
+          "start": 541,
+          "end": 542,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 544,
+          "end": 688,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 548,
+              "end": 686,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 552,
+                "end": 585,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 552,
+                  "end": 576,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 553,
+                    "end": 575,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 553,
+                      "end": 554,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 566,
+                      "end": 575,
+                      "name": "TypeError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 581,
+                  "end": 585,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 587,
+                "end": 686,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 593,
+                    "end": 682,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 599,
+                      "end": 681,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 603,
+                        "end": 615,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 616,
+                          "end": 680,
+                          "left": {
+                            "type": "Literal",
+                            "start": 616,
+                            "end": 674,
+                            "value": "#1.2: new encodeURIComponent() throw TypeError. Actual: ",
+                            "raw": "'#1.2: new encodeURIComponent() throw TypeError. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 677,
+                            "end": 680,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 678,
+                              "end": 679,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

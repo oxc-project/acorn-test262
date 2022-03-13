@@ -1,0 +1,368 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 866,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 381,
+      "end": 502,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 385,
+          "end": 501,
+          "id": {
+            "type": "Identifier",
+            "start": 385,
+            "end": 399,
+            "name": "ThrowTypeError"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 402,
+            "end": 501,
+            "object": {
+              "type": "CallExpression",
+              "start": 402,
+              "end": 497,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 402,
+                "end": 433,
+                "object": {
+                  "type": "Identifier",
+                  "start": 402,
+                  "end": 408,
+                  "name": "Object"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 409,
+                  "end": 433,
+                  "name": "getOwnPropertyDescriptor"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "CallExpression",
+                  "start": 434,
+                  "end": 486,
+                  "callee": {
+                    "type": "FunctionExpression",
+                    "start": 434,
+                    "end": 484,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 445,
+                      "end": 484,
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "start": 449,
+                          "end": 462,
+                          "expression": {
+                            "type": "Literal",
+                            "start": 449,
+                            "end": 461,
+                            "value": "use strict",
+                            "raw": "\"use strict\""
+                          },
+                          "directive": "use strict"
+                        },
+                        {
+                          "type": "ReturnStatement",
+                          "start": 465,
+                          "end": 482,
+                          "argument": {
+                            "type": "Identifier",
+                            "start": 472,
+                            "end": 481,
+                            "name": "arguments"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 488,
+                  "end": 496,
+                  "value": "callee",
+                  "raw": "\"callee\""
+                }
+              ],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 498,
+              "end": 501,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 590,
+      "end": 639,
+      "id": {
+        "type": "Identifier",
+        "start": 599,
+        "end": 608,
+        "name": "nonSimple"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "AssignmentPattern",
+          "start": 609,
+          "end": 614,
+          "left": {
+            "type": "Identifier",
+            "start": 609,
+            "end": 610,
+            "name": "a"
+          },
+          "right": {
+            "type": "Literal",
+            "start": 613,
+            "end": 614,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 616,
+        "end": 639,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 620,
+            "end": 637,
+            "argument": {
+              "type": "Identifier",
+              "start": 627,
+              "end": 636,
+              "name": "arguments"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 640,
+      "end": 720,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 644,
+          "end": 719,
+          "id": {
+            "type": "Identifier",
+            "start": 644,
+            "end": 662,
+            "name": "unmappedCalleeDesc"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 665,
+            "end": 719,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 665,
+              "end": 696,
+              "object": {
+                "type": "Identifier",
+                "start": 665,
+                "end": 671,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 672,
+                "end": 696,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 697,
+                "end": 708,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 697,
+                  "end": 706,
+                  "name": "nonSimple"
+                },
+                "arguments": [],
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 710,
+                "end": 718,
+                "value": "callee",
+                "raw": "\"callee\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 722,
+      "end": 793,
+      "expression": {
+        "type": "CallExpression",
+        "start": 722,
+        "end": 792,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 722,
+          "end": 738,
+          "object": {
+            "type": "Identifier",
+            "start": 722,
+            "end": 728,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 738,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 739,
+            "end": 753,
+            "name": "ThrowTypeError"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 755,
+            "end": 777,
+            "object": {
+              "type": "Identifier",
+              "start": 755,
+              "end": 773,
+              "name": "unmappedCalleeDesc"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 774,
+              "end": 777,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 779,
+            "end": 791,
+            "value": "callee.get",
+            "raw": "\"callee.get\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 794,
+      "end": 865,
+      "expression": {
+        "type": "CallExpression",
+        "start": 794,
+        "end": 864,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 794,
+          "end": 810,
+          "object": {
+            "type": "Identifier",
+            "start": 794,
+            "end": 800,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 801,
+            "end": 810,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 811,
+            "end": 825,
+            "name": "ThrowTypeError"
+          },
+          {
+            "type": "MemberExpression",
+            "start": 827,
+            "end": 849,
+            "object": {
+              "type": "Identifier",
+              "start": 827,
+              "end": 845,
+              "name": "unmappedCalleeDesc"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 846,
+              "end": 849,
+              "name": "set"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 851,
+            "end": 863,
+            "value": "callee.set",
+            "raw": "\"callee.set\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,52 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 470,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 438,
+      "end": 469,
+      "id": {
+        "type": "Identifier",
+        "start": 447,
+        "end": 448,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 451,
+        "end": 469,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 455,
+            "end": 467,
+            "expression": {
+              "type": "MetaProperty",
+              "start": 455,
+              "end": 466,
+              "meta": {
+                "type": "Identifier",
+                "start": 455,
+                "end": 461,
+                "name": "import"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 466,
+                "name": "meta"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "module"
+}

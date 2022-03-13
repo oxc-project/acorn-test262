@@ -1,0 +1,177 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 390,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 235,
+      "end": 254,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 239,
+          "end": 253,
+          "id": {
+            "type": "Identifier",
+            "start": 239,
+            "end": 242,
+            "name": "sym"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 245,
+            "end": 253,
+            "callee": {
+              "type": "Identifier",
+              "start": 245,
+              "end": 251,
+              "name": "Symbol"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 256,
+      "end": 319,
+      "expression": {
+        "type": "CallExpression",
+        "start": 256,
+        "end": 318,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 256,
+          "end": 272,
+          "object": {
+            "type": "Identifier",
+            "start": 256,
+            "end": 262,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 263,
+            "end": 272,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "LogicalExpression",
+            "start": 273,
+            "end": 284,
+            "left": {
+              "type": "Identifier",
+              "start": 273,
+              "end": 276,
+              "name": "sym"
+            },
+            "operator": "&&",
+            "right": {
+              "type": "Literal",
+              "start": 280,
+              "end": 284,
+              "value": true,
+              "raw": "true"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 286,
+            "end": 290,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 292,
+            "end": 317,
+            "value": "`sym && true` is `true`",
+            "raw": "\"`sym && true` is `true`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 320,
+      "end": 389,
+      "expression": {
+        "type": "CallExpression",
+        "start": 320,
+        "end": 388,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 320,
+          "end": 336,
+          "object": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 326,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 327,
+            "end": 336,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "LogicalExpression",
+            "start": 337,
+            "end": 350,
+            "left": {
+              "type": "UnaryExpression",
+              "start": 337,
+              "end": 341,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 338,
+                "end": 341,
+                "name": "sym"
+              }
+            },
+            "operator": "&&",
+            "right": {
+              "type": "Literal",
+              "start": 345,
+              "end": 350,
+              "value": false,
+              "raw": "false"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 352,
+            "end": 357,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 359,
+            "end": 387,
+            "value": "`!sym && false` is `false`",
+            "raw": "\"`!sym && false` is `false`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

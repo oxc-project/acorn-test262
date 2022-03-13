@@ -1,0 +1,100 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 564,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 489,
+      "end": 563,
+      "expression": {
+        "type": "CallExpression",
+        "start": 489,
+        "end": 562,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 489,
+          "end": 502,
+          "object": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 495,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 502,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 503,
+            "end": 512,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 514,
+            "end": 561,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 525,
+              "end": 561,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 529,
+                  "end": 559,
+                  "expression": {
+                    "type": "MemberExpression",
+                    "start": 529,
+                    "end": 558,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 529,
+                      "end": 551,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 529,
+                        "end": 541,
+                        "name": "Float64Array"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 542,
+                        "end": 551,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 552,
+                      "end": 558,
+                      "name": "buffer"
+                    },
+                    "computed": false,
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

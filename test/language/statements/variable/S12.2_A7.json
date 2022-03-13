@@ -1,0 +1,133 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 616,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 365,
+      "end": 489,
+      "block": {
+        "type": "BlockStatement",
+        "start": 368,
+        "end": 395,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 371,
+            "end": 393,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 371,
+              "end": 392,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 371,
+                "end": 380,
+                "name": "infor_var"
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 383,
+                "end": 392,
+                "name": "infor_var"
+              }
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 395,
+        "end": 489,
+        "param": {
+          "type": "Identifier",
+          "start": 401,
+          "end": 402,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 403,
+          "end": 489,
+          "body": [
+            {
+              "type": "ThrowStatement",
+              "start": 406,
+              "end": 487,
+              "argument": {
+                "type": "NewExpression",
+                "start": 412,
+                "end": 486,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 416,
+                  "end": 428,
+                  "name": "Test262Error"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 429,
+                    "end": 485,
+                    "value": "#1: Variable declaration inside \"for\" loop is admitted",
+                    "raw": "'#1: Variable declaration inside \"for\" loop is admitted'"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 489,
+      "end": 490
+    },
+    {
+      "type": "ForStatement",
+      "start": 574,
+      "end": 615,
+      "init": null,
+      "test": null,
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 582,
+        "end": 615,
+        "body": [
+          {
+            "type": "BreakStatement",
+            "start": 588,
+            "end": 594,
+            "label": null
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 599,
+            "end": 613,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 603,
+                "end": 612,
+                "id": {
+                  "type": "Identifier",
+                  "start": 603,
+                  "end": 612,
+                  "name": "infor_var"
+                },
+                "init": null
+              }
+            ],
+            "kind": "var"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

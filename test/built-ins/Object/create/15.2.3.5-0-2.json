@@ -1,0 +1,86 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 308,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 241,
+      "end": 307,
+      "expression": {
+        "type": "CallExpression",
+        "start": 241,
+        "end": 306,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 241,
+          "end": 257,
+          "object": {
+            "type": "Identifier",
+            "start": 241,
+            "end": 247,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 248,
+            "end": 257,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 258,
+            "end": 278,
+            "object": {
+              "type": "MemberExpression",
+              "start": 258,
+              "end": 271,
+              "object": {
+                "type": "Identifier",
+                "start": 258,
+                "end": 264,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 265,
+                "end": 271,
+                "name": "create"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 272,
+              "end": 278,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 280,
+            "end": 281,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 283,
+            "end": 305,
+            "value": "Object.create.length",
+            "raw": "'Object.create.length'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

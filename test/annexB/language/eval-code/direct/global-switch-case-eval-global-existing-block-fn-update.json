@@ -1,0 +1,218 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1332,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 1078,
+      "end": 1134,
+      "body": [
+        {
+          "type": "FunctionDeclaration",
+          "start": 1082,
+          "end": 1132,
+          "id": {
+            "type": "Identifier",
+            "start": 1091,
+            "end": 1092,
+            "name": "f"
+          },
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 1095,
+            "end": 1132,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 1101,
+                "end": 1128,
+                "argument": {
+                  "type": "Literal",
+                  "start": 1108,
+                  "end": 1127,
+                  "value": "first declaration",
+                  "raw": "'first declaration'"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1136,
+      "end": 1245,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1136,
+        "end": 1244,
+        "callee": {
+          "type": "Identifier",
+          "start": 1136,
+          "end": 1140,
+          "name": "eval"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 1144,
+            "end": 1242,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 1144,
+              "end": 1230,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 1144,
+                "end": 1174,
+                "left": {
+                  "type": "Literal",
+                  "start": 1144,
+                  "end": 1158,
+                  "value": "switch (1) {",
+                  "raw": "'switch (1) {'"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 1163,
+                  "end": 1174,
+                  "value": "  case 1:",
+                  "raw": "'  case 1:'"
+                }
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 1179,
+                "end": 1230,
+                "value": "    function f() { return \"second declaration\"; }",
+                "raw": "'    function f() { return \"second declaration\"; }'"
+              }
+            },
+            "operator": "+",
+            "right": {
+              "type": "Literal",
+              "start": 1235,
+              "end": 1242,
+              "value": "}  ",
+              "raw": "'}\\\n  '"
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1247,
+      "end": 1286,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1247,
+        "end": 1285,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1247,
+          "end": 1263,
+          "object": {
+            "type": "Identifier",
+            "start": 1247,
+            "end": 1253,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1254,
+            "end": 1263,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 1264,
+            "end": 1272,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 1271,
+              "end": 1272,
+              "name": "f"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1274,
+            "end": 1284,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1287,
+      "end": 1331,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1287,
+        "end": 1330,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1287,
+          "end": 1303,
+          "object": {
+            "type": "Identifier",
+            "start": 1287,
+            "end": 1293,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1294,
+            "end": 1303,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1304,
+            "end": 1307,
+            "callee": {
+              "type": "Identifier",
+              "start": 1304,
+              "end": 1305,
+              "name": "f"
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1309,
+            "end": 1329,
+            "value": "second declaration",
+            "raw": "'second declaration'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

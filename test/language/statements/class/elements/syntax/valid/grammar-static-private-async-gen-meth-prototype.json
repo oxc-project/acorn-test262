@@ -1,0 +1,57 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 671,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 626,
+      "end": 670,
+      "id": {
+        "type": "Identifier",
+        "start": 632,
+        "end": 633,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 634,
+        "end": 670,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 638,
+            "end": 668,
+            "static": true,
+            "computed": false,
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 653,
+              "end": 663,
+              "name": "prototype"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 663,
+              "end": 668,
+              "id": null,
+              "expression": false,
+              "generator": true,
+              "async": true,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 666,
+                "end": 668,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

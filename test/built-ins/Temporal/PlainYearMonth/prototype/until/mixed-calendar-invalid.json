@@ -1,0 +1,362 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 613,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 258,
+      "end": 403,
+      "id": {
+        "type": "Identifier",
+        "start": 264,
+        "end": 273,
+        "name": "customCal"
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 282,
+        "end": 299,
+        "object": {
+          "type": "Identifier",
+          "start": 282,
+          "end": 290,
+          "name": "Temporal"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 291,
+          "end": 299,
+          "name": "Calendar"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 300,
+        "end": 403,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 304,
+            "end": 346,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 304,
+              "end": 315,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 316,
+              "end": 346,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 319,
+                "end": 346,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 325,
+                    "end": 342,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 325,
+                      "end": 341,
+                      "callee": {
+                        "type": "Super",
+                        "start": 325,
+                        "end": 330
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 331,
+                          "end": 340,
+                          "value": "iso8601",
+                          "raw": "'iso8601'"
+                        }
+                      ],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 352,
+            "end": 401,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 352,
+              "end": 360,
+              "name": "toString"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 360,
+              "end": 401,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 363,
+                "end": 401,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 369,
+                    "end": 397,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 376,
+                      "end": 396,
+                      "value": "I am a secret cal.",
+                      "raw": "\"I am a secret cal.\""
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 405,
+      "end": 454,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 411,
+          "end": 453,
+          "id": {
+            "type": "Identifier",
+            "start": 411,
+            "end": 414,
+            "name": "ym1"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 417,
+            "end": 453,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 421,
+              "end": 444,
+              "object": {
+                "type": "Identifier",
+                "start": 421,
+                "end": 429,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 430,
+                "end": 444,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 445,
+                "end": 449,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 451,
+                "end": 452,
+                "value": 1,
+                "raw": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 455,
+      "end": 521,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 461,
+          "end": 520,
+          "id": {
+            "type": "Identifier",
+            "start": 461,
+            "end": 464,
+            "name": "ym2"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 467,
+            "end": 520,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 471,
+              "end": 494,
+              "object": {
+                "type": "Identifier",
+                "start": 471,
+                "end": 479,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 480,
+                "end": 494,
+                "name": "PlainYearMonth"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 495,
+                "end": 499,
+                "value": 2000,
+                "raw": "2000"
+              },
+              {
+                "type": "Literal",
+                "start": 501,
+                "end": 502,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "NewExpression",
+                "start": 504,
+                "end": 519,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 508,
+                  "end": 517,
+                  "name": "customCal"
+                },
+                "arguments": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 523,
+      "end": 612,
+      "expression": {
+        "type": "CallExpression",
+        "start": 523,
+        "end": 611,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 523,
+          "end": 536,
+          "object": {
+            "type": "Identifier",
+            "start": 523,
+            "end": 529,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 530,
+            "end": 536,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 537,
+            "end": 547,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 549,
+            "end": 569,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 555,
+              "end": 569,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 555,
+                "end": 564,
+                "object": {
+                  "type": "Identifier",
+                  "start": 555,
+                  "end": 558,
+                  "name": "ym1"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 559,
+                  "end": 564,
+                  "name": "until"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 565,
+                  "end": 568,
+                  "name": "ym2"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 571,
+            "end": 610,
+            "value": "until throws with different calendars",
+            "raw": "'until throws with different calendars'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

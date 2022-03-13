@@ -1,0 +1,221 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 583,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 371,
+      "end": 502,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 375,
+          "end": 501,
+          "id": {
+            "type": "Identifier",
+            "start": 375,
+            "end": 394,
+            "name": "poisonedToStringTag"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 397,
+            "end": 501,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 397,
+              "end": 418,
+              "object": {
+                "type": "Identifier",
+                "start": 397,
+                "end": 403,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 404,
+                "end": 418,
+                "name": "defineProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 419,
+                "end": 421,
+                "properties": []
+              },
+              {
+                "type": "MemberExpression",
+                "start": 423,
+                "end": 441,
+                "object": {
+                  "type": "Identifier",
+                  "start": 423,
+                  "end": 429,
+                  "name": "Symbol"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 430,
+                  "end": 441,
+                  "name": "toStringTag"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 443,
+                "end": 500,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 447,
+                    "end": 498,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 447,
+                      "end": 450,
+                      "name": "get"
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 452,
+                      "end": 498,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
+                      "params": [],
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 463,
+                        "end": 498,
+                        "body": [
+                          {
+                            "type": "ThrowStatement",
+                            "start": 469,
+                            "end": 494,
+                            "argument": {
+                              "type": "NewExpression",
+                              "start": 475,
+                              "end": 493,
+                              "callee": {
+                                "type": "Identifier",
+                                "start": 479,
+                                "end": 491,
+                                "name": "Test262Error"
+                              },
+                              "arguments": []
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 504,
+      "end": 582,
+      "expression": {
+        "type": "CallExpression",
+        "start": 504,
+        "end": 581,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 504,
+          "end": 517,
+          "object": {
+            "type": "Identifier",
+            "start": 504,
+            "end": 510,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 517,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 518,
+            "end": 530,
+            "name": "Test262Error"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 532,
+            "end": 580,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 543,
+              "end": 580,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 547,
+                  "end": 578,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 547,
+                    "end": 577,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 547,
+                      "end": 575,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 547,
+                        "end": 566,
+                        "name": "poisonedToStringTag"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 567,
+                        "end": 575,
+                        "name": "toString"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

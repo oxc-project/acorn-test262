@@ -1,0 +1,157 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 980,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 877,
+      "end": 883,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 881,
+          "end": 882,
+          "id": {
+            "type": "Identifier",
+            "start": 881,
+            "end": 882,
+            "name": "f"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 884,
+      "end": 929,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 884,
+        "end": 928,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 884,
+          "end": 885,
+          "name": "f"
+        },
+        "right": {
+          "type": "FunctionExpression",
+          "start": 888,
+          "end": 928,
+          "id": {
+            "type": "Identifier",
+            "start": 904,
+            "end": 905,
+            "name": "h"
+          },
+          "expression": false,
+          "generator": true,
+          "async": true,
+          "params": [
+            {
+              "type": "AssignmentPattern",
+              "start": 906,
+              "end": 920,
+              "left": {
+                "type": "ObjectPattern",
+                "start": 906,
+                "end": 908,
+                "properties": []
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 911,
+                "end": 920,
+                "name": "undefined"
+              }
+            }
+          ],
+          "body": {
+            "type": "BlockStatement",
+            "start": 922,
+            "end": 928,
+            "body": []
+          }
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 931,
+      "end": 979,
+      "expression": {
+        "type": "CallExpression",
+        "start": 931,
+        "end": 978,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 931,
+          "end": 944,
+          "object": {
+            "type": "Identifier",
+            "start": 931,
+            "end": 937,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 938,
+            "end": 944,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 945,
+            "end": 954,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 956,
+            "end": 977,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 967,
+              "end": 977,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 971,
+                  "end": 975,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 971,
+                    "end": 974,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 971,
+                      "end": 972,
+                      "name": "f"
+                    },
+                    "arguments": [],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

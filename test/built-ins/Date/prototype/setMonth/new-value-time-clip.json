@@ -1,0 +1,478 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1286,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 896,
+      "end": 916,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 900,
+          "end": 915,
+          "id": {
+            "type": "Identifier",
+            "start": 900,
+            "end": 905,
+            "name": "maxMs"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 908,
+            "end": 915,
+            "value": 8640000000000000,
+            "raw": "8.64e15"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 917,
+      "end": 934,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 921,
+          "end": 933,
+          "id": {
+            "type": "Identifier",
+            "start": 921,
+            "end": 928,
+            "name": "maxDate"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 931,
+            "end": 933,
+            "value": 12,
+            "raw": "12"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 935,
+      "end": 952,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 939,
+          "end": 951,
+          "id": {
+            "type": "Identifier",
+            "start": 939,
+            "end": 947,
+            "name": "maxMonth"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 950,
+            "end": 951,
+            "value": 8,
+            "raw": "8"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 953,
+      "end": 980,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 957,
+          "end": 979,
+          "id": {
+            "type": "Identifier",
+            "start": 957,
+            "end": 961,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 964,
+            "end": 979,
+            "callee": {
+              "type": "Identifier",
+              "start": 968,
+              "end": 972,
+              "name": "Date"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 973,
+                "end": 978,
+                "name": "maxMs"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 981,
+      "end": 997,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 985,
+          "end": 996,
+          "id": {
+            "type": "Identifier",
+            "start": 985,
+            "end": 996,
+            "name": "returnValue"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 999,
+      "end": 1040,
+      "expression": {
+        "type": "CallExpression",
+        "start": 999,
+        "end": 1039,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 999,
+          "end": 1018,
+          "object": {
+            "type": "Identifier",
+            "start": 999,
+            "end": 1005,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1006,
+            "end": 1018,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1019,
+            "end": 1033,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1019,
+              "end": 1031,
+              "object": {
+                "type": "Identifier",
+                "start": 1019,
+                "end": 1023,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1024,
+                "end": 1031,
+                "name": "getTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 1035,
+            "end": 1038,
+            "name": "NaN"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1042,
+      "end": 1084,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1042,
+        "end": 1083,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1042,
+          "end": 1053,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1056,
+          "end": 1083,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1056,
+            "end": 1069,
+            "object": {
+              "type": "Identifier",
+              "start": 1056,
+              "end": 1060,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1061,
+              "end": 1069,
+              "name": "setMonth"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "BinaryExpression",
+              "start": 1070,
+              "end": 1082,
+              "left": {
+                "type": "Identifier",
+                "start": 1070,
+                "end": 1078,
+                "name": "maxMonth"
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 1081,
+                "end": 1082,
+                "value": 1,
+                "raw": "1"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1086,
+      "end": 1146,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1086,
+        "end": 1145,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1086,
+          "end": 1102,
+          "object": {
+            "type": "Identifier",
+            "start": 1086,
+            "end": 1092,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1093,
+            "end": 1102,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1103,
+            "end": 1114,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 1116,
+            "end": 1119,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1121,
+            "end": 1144,
+            "value": "overflow due to month",
+            "raw": "'overflow due to month'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1148,
+      "end": 1171,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1148,
+        "end": 1170,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1148,
+          "end": 1152,
+          "name": "date"
+        },
+        "right": {
+          "type": "NewExpression",
+          "start": 1155,
+          "end": 1170,
+          "callee": {
+            "type": "Identifier",
+            "start": 1159,
+            "end": 1163,
+            "name": "Date"
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 1164,
+              "end": 1169,
+              "name": "maxMs"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1173,
+      "end": 1224,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 1173,
+        "end": 1223,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 1173,
+          "end": 1184,
+          "name": "returnValue"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 1187,
+          "end": 1223,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 1187,
+            "end": 1200,
+            "object": {
+              "type": "Identifier",
+              "start": 1187,
+              "end": 1191,
+              "name": "date"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1192,
+              "end": 1200,
+              "name": "setMonth"
+            },
+            "computed": false,
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 1201,
+              "end": 1209,
+              "name": "maxMonth"
+            },
+            {
+              "type": "BinaryExpression",
+              "start": 1211,
+              "end": 1222,
+              "left": {
+                "type": "Identifier",
+                "start": 1211,
+                "end": 1218,
+                "name": "maxDate"
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 1221,
+                "end": 1222,
+                "value": 2,
+                "raw": "2"
+              }
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1226,
+      "end": 1285,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1226,
+        "end": 1284,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1226,
+          "end": 1242,
+          "object": {
+            "type": "Identifier",
+            "start": 1226,
+            "end": 1232,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1233,
+            "end": 1242,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1243,
+            "end": 1254,
+            "name": "returnValue"
+          },
+          {
+            "type": "Identifier",
+            "start": 1256,
+            "end": 1259,
+            "name": "NaN"
+          },
+          {
+            "type": "Literal",
+            "start": 1261,
+            "end": 1283,
+            "value": "overflow due to date",
+            "raw": "'overflow due to date'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

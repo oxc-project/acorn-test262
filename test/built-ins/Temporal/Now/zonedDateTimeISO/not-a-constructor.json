@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 634,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 352,
+      "end": 488,
+      "expression": {
+        "type": "CallExpression",
+        "start": 352,
+        "end": 487,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 352,
+          "end": 368,
+          "object": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 358,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 368,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 369,
+            "end": 413,
+            "callee": {
+              "type": "Identifier",
+              "start": 369,
+              "end": 382,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 383,
+                "end": 412,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 383,
+                  "end": 395,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 383,
+                    "end": 391,
+                    "name": "Temporal"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 392,
+                    "end": 395,
+                    "name": "Now"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 396,
+                  "end": 412,
+                  "name": "zonedDateTimeISO"
+                },
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 415,
+            "end": 420,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 422,
+            "end": 486,
+            "value": "isConstructor(Temporal.Now.zonedDateTimeISO) must return false",
+            "raw": "'isConstructor(Temporal.Now.zonedDateTimeISO) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 490,
+      "end": 633,
+      "expression": {
+        "type": "CallExpression",
+        "start": 490,
+        "end": 632,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 490,
+          "end": 503,
+          "object": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 496,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 497,
+            "end": 503,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 504,
+            "end": 513,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 515,
+            "end": 563,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 521,
+              "end": 563,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 525,
+                  "end": 561,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 525,
+                    "end": 560,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 529,
+                      "end": 558,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 529,
+                        "end": 541,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 529,
+                          "end": 537,
+                          "name": "Temporal"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 538,
+                          "end": 541,
+                          "name": "Now"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 542,
+                        "end": 558,
+                        "name": "zonedDateTimeISO"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 565,
+            "end": 631,
+            "value": "new Temporal.Now.zonedDateTimeISO() throws a TypeError exception",
+            "raw": "'new Temporal.Now.zonedDateTimeISO() throws a TypeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

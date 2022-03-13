@@ -1,0 +1,48 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 309,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 278,
+      "end": 308,
+      "expression": {
+        "type": "CallExpression",
+        "start": 278,
+        "end": 307,
+        "callee": {
+          "type": "Identifier",
+          "start": 278,
+          "end": 286,
+          "name": "Function"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 287,
+            "end": 290,
+            "value": "a",
+            "raw": "'a'"
+          },
+          {
+            "type": "Literal",
+            "start": 292,
+            "end": 295,
+            "value": "a",
+            "raw": "'a'"
+          },
+          {
+            "type": "Literal",
+            "start": 297,
+            "end": 306,
+            "value": "return;",
+            "raw": "'return;'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

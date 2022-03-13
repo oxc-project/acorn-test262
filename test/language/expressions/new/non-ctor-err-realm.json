@@ -1,0 +1,297 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 920,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 614,
+      "end": 669,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 618,
+          "end": 668,
+          "id": {
+            "type": "Identifier",
+            "start": 618,
+            "end": 631,
+            "name": "otherParseInt"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 634,
+            "end": 668,
+            "object": {
+              "type": "MemberExpression",
+              "start": 634,
+              "end": 659,
+              "object": {
+                "type": "CallExpression",
+                "start": 634,
+                "end": 652,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 634,
+                  "end": 650,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 634,
+                    "end": 638,
+                    "name": "$262"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 639,
+                    "end": 650,
+                    "name": "createRealm"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 653,
+                "end": 659,
+                "name": "global"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 660,
+              "end": 668,
+              "name": "parseInt"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 671,
+      "end": 722,
+      "expression": {
+        "type": "CallExpression",
+        "start": 671,
+        "end": 721,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 671,
+          "end": 687,
+          "object": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 677,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 678,
+            "end": 687,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 688,
+            "end": 708,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 695,
+              "end": 708,
+              "name": "otherParseInt"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 710,
+            "end": 720,
+            "value": "function",
+            "raw": "'function'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 724,
+      "end": 823,
+      "expression": {
+        "type": "CallExpression",
+        "start": 724,
+        "end": 822,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 724,
+          "end": 737,
+          "object": {
+            "type": "Identifier",
+            "start": 724,
+            "end": 730,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 731,
+            "end": 737,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 738,
+            "end": 747,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 749,
+            "end": 787,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 760,
+              "end": 787,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 764,
+                  "end": 785,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 764,
+                    "end": 784,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 768,
+                      "end": 781,
+                      "name": "otherParseInt"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 782,
+                        "end": 783,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 789,
+            "end": 821,
+            "value": "production including Arguments",
+            "raw": "'production including Arguments'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 825,
+      "end": 919,
+      "expression": {
+        "type": "CallExpression",
+        "start": 825,
+        "end": 918,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 825,
+          "end": 838,
+          "object": {
+            "type": "Identifier",
+            "start": 825,
+            "end": 831,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 832,
+            "end": 838,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 839,
+            "end": 848,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 850,
+            "end": 885,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 861,
+              "end": 885,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 865,
+                  "end": 883,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 865,
+                    "end": 882,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 869,
+                      "end": 882,
+                      "name": "otherParseInt"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 887,
+            "end": 917,
+            "value": "production eliding Arguments",
+            "raw": "'production eliding Arguments'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,148 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 422,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 288,
+      "end": 421,
+      "expression": {
+        "type": "CallExpression",
+        "start": 288,
+        "end": 420,
+        "callee": {
+          "type": "Identifier",
+          "start": 288,
+          "end": 302,
+          "name": "verifyProperty"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 303,
+            "end": 321,
+            "object": {
+              "type": "Identifier",
+              "start": 303,
+              "end": 309,
+              "name": "Object"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 310,
+              "end": 321,
+              "name": "fromEntries"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 323,
+            "end": 329,
+            "value": "name",
+            "raw": "\"name\""
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 331,
+            "end": 419,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 335,
+                "end": 355,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 335,
+                  "end": 340,
+                  "name": "value"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 342,
+                  "end": 355,
+                  "value": "fromEntries",
+                  "raw": "\"fromEntries\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 359,
+                "end": 376,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 359,
+                  "end": 369,
+                  "name": "enumerable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 371,
+                  "end": 376,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 380,
+                "end": 395,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 380,
+                  "end": 388,
+                  "name": "writable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 390,
+                  "end": 395,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 399,
+                "end": 417,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 399,
+                  "end": 411,
+                  "name": "configurable"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 413,
+                  "end": 417,
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

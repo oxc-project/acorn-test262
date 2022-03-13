@@ -1,0 +1,149 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 566,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 434,
+      "end": 565,
+      "expression": {
+        "type": "CallExpression",
+        "start": 434,
+        "end": 564,
+        "callee": {
+          "type": "Identifier",
+          "start": 434,
+          "end": 470,
+          "name": "testWithBigIntTypedArrayConstructors"
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 471,
+            "end": 563,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 480,
+                "end": 482,
+                "name": "TA"
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 484,
+              "end": 563,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 488,
+                  "end": 561,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 488,
+                    "end": 560,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 488,
+                      "end": 504,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 488,
+                        "end": 494,
+                        "name": "assert"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 495,
+                        "end": 504,
+                        "name": "sameValue"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 505,
+                        "end": 552,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 505,
+                          "end": 532,
+                          "object": {
+                            "type": "MemberExpression",
+                            "start": 505,
+                            "end": 517,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 505,
+                              "end": 507,
+                              "name": "TA"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 508,
+                              "end": 517,
+                              "name": "prototype"
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 518,
+                            "end": 532,
+                            "name": "hasOwnProperty"
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "start": 533,
+                            "end": 551,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 533,
+                              "end": 539,
+                              "name": "Symbol"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 540,
+                              "end": 551,
+                              "name": "toStringTag"
+                            },
+                            "computed": false,
+                            "optional": false
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 554,
+                        "end": 559,
+                        "value": false,
+                        "raw": "false"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

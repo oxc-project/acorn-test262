@@ -1,0 +1,356 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 810,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 384,
+      "end": 483,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 388,
+          "end": 482,
+          "id": {
+            "type": "Identifier",
+            "start": 388,
+            "end": 395,
+            "name": "locales"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 398,
+            "end": 482,
+            "elements": [
+              {
+                "type": "MemberExpression",
+                "start": 404,
+                "end": 452,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 404,
+                  "end": 445,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 404,
+                    "end": 443,
+                    "object": {
+                      "type": "NewExpression",
+                      "start": 404,
+                      "end": 427,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 408,
+                        "end": 425,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 408,
+                          "end": 412,
+                          "name": "Intl"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 413,
+                          "end": 425,
+                          "name": "NumberFormat"
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": []
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 428,
+                      "end": 443,
+                      "name": "resolvedOptions"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 446,
+                  "end": 452,
+                  "name": "locale"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 458,
+                "end": 462,
+                "value": "ar",
+                "raw": "\"ar\""
+              },
+              {
+                "type": "Literal",
+                "start": 464,
+                "end": 468,
+                "value": "de",
+                "raw": "\"de\""
+              },
+              {
+                "type": "Literal",
+                "start": 470,
+                "end": 474,
+                "value": "th",
+                "raw": "\"th\""
+              },
+              {
+                "type": "Literal",
+                "start": 476,
+                "end": 480,
+                "value": "ja",
+                "raw": "\"ja\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 484,
+      "end": 561,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 488,
+          "end": 560,
+          "id": {
+            "type": "Identifier",
+            "start": 488,
+            "end": 504,
+            "name": "numberingSystems"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 507,
+            "end": 560,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 513,
+                "end": 519,
+                "value": "arab",
+                "raw": "\"arab\""
+              },
+              {
+                "type": "Literal",
+                "start": 525,
+                "end": 531,
+                "value": "latn",
+                "raw": "\"latn\""
+              },
+              {
+                "type": "Literal",
+                "start": 537,
+                "end": 543,
+                "value": "thai",
+                "raw": "\"thai\""
+              },
+              {
+                "type": "Literal",
+                "start": 549,
+                "end": 558,
+                "value": "hanidec",
+                "raw": "\"hanidec\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 562,
+      "end": 665,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 566,
+          "end": 664,
+          "id": {
+            "type": "Identifier",
+            "start": 566,
+            "end": 574,
+            "name": "testData"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 577,
+            "end": 664,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 611,
+                "end": 632,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 611,
+                  "end": 622,
+                  "value": "123.44500",
+                  "raw": "\"123.44500\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 624,
+                  "end": 632,
+                  "value": "123.45",
+                  "raw": "\"123.45\""
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 638,
+                "end": 661,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Literal",
+                  "start": 638,
+                  "end": 650,
+                  "value": "-123.44500",
+                  "raw": "\"-123.44500\""
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 652,
+                  "end": 661,
+                  "value": "-123.45",
+                  "raw": "\"-123.45\""
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 667,
+      "end": 809,
+      "expression": {
+        "type": "CallExpression",
+        "start": 667,
+        "end": 808,
+        "callee": {
+          "type": "Identifier",
+          "start": 667,
+          "end": 683,
+          "name": "testNumberFormat"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 684,
+            "end": 691,
+            "name": "locales"
+          },
+          {
+            "type": "Identifier",
+            "start": 693,
+            "end": 709,
+            "name": "numberingSystems"
+          },
+          {
+            "type": "ObjectExpression",
+            "start": 715,
+            "end": 793,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 716,
+                "end": 734,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 716,
+                  "end": 727,
+                  "name": "useGrouping"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 729,
+                  "end": 734,
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 736,
+                "end": 763,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 736,
+                  "end": 760,
+                  "name": "minimumSignificantDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 762,
+                  "end": 763,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "start": 765,
+                "end": 792,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 765,
+                  "end": 789,
+                  "name": "maximumSignificantDigits"
+                },
+                "value": {
+                  "type": "Literal",
+                  "start": 791,
+                  "end": 792,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "Identifier",
+            "start": 799,
+            "end": 807,
+            "name": "testData"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,357 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 765,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 460,
+      "end": 480,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 464,
+          "end": 479,
+          "id": {
+            "type": "Identifier",
+            "start": 464,
+            "end": 467,
+            "name": "map"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 470,
+            "end": 479,
+            "callee": {
+              "type": "Identifier",
+              "start": 474,
+              "end": 477,
+              "name": "Map"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 482,
+      "end": 546,
+      "expression": {
+        "type": "CallExpression",
+        "start": 482,
+        "end": 545,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 482,
+          "end": 498,
+          "object": {
+            "type": "Identifier",
+            "start": 482,
+            "end": 488,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 489,
+            "end": 498,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 499,
+            "end": 507,
+            "object": {
+              "type": "Identifier",
+              "start": 499,
+              "end": 502,
+              "name": "map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 503,
+              "end": 507,
+              "name": "size"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 509,
+            "end": 510,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 512,
+            "end": 544,
+            "value": "The value of `map.size` is `0`",
+            "raw": "'The value of `map.size` is `0`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 548,
+      "end": 562,
+      "expression": {
+        "type": "CallExpression",
+        "start": 548,
+        "end": 561,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 548,
+          "end": 555,
+          "object": {
+            "type": "Identifier",
+            "start": 548,
+            "end": 551,
+            "name": "map"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 552,
+            "end": 555,
+            "name": "set"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 556,
+            "end": 557,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 559,
+            "end": 560,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 563,
+      "end": 577,
+      "expression": {
+        "type": "CallExpression",
+        "start": 563,
+        "end": 576,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 563,
+          "end": 570,
+          "object": {
+            "type": "Identifier",
+            "start": 563,
+            "end": 566,
+            "name": "map"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 570,
+            "name": "set"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 571,
+            "end": 572,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 574,
+            "end": 575,
+            "value": 2,
+            "raw": "2"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 578,
+      "end": 648,
+      "expression": {
+        "type": "CallExpression",
+        "start": 578,
+        "end": 647,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 578,
+          "end": 594,
+          "object": {
+            "type": "Identifier",
+            "start": 578,
+            "end": 584,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 585,
+            "end": 594,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 598,
+            "end": 606,
+            "object": {
+              "type": "Identifier",
+              "start": 598,
+              "end": 601,
+              "name": "map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 602,
+              "end": 606,
+              "name": "size"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 608,
+            "end": 609,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 613,
+            "end": 645,
+            "value": "The value of `map.size` is `2`",
+            "raw": "'The value of `map.size` is `2`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 650,
+      "end": 662,
+      "expression": {
+        "type": "CallExpression",
+        "start": 650,
+        "end": 661,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 650,
+          "end": 659,
+          "object": {
+            "type": "Identifier",
+            "start": 650,
+            "end": 653,
+            "name": "map"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 654,
+            "end": 659,
+            "name": "clear"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 663,
+      "end": 764,
+      "expression": {
+        "type": "CallExpression",
+        "start": 663,
+        "end": 763,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 663,
+          "end": 679,
+          "object": {
+            "type": "Identifier",
+            "start": 663,
+            "end": 669,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 670,
+            "end": 679,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 683,
+            "end": 691,
+            "object": {
+              "type": "Identifier",
+              "start": 683,
+              "end": 686,
+              "name": "map"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 687,
+              "end": 691,
+              "name": "size"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 693,
+            "end": 694,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 698,
+            "end": 761,
+            "value": "The value of `map.size` is `0`, after executing `map.clear()`",
+            "raw": "'The value of `map.size` is `0`, after executing `map.clear()`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,223 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 804,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 618,
+      "end": 665,
+      "id": {
+        "type": "Identifier",
+        "start": 624,
+        "end": 627,
+        "name": "RE1"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 636,
+        "end": 642,
+        "name": "RegExp"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 643,
+        "end": 665,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 647,
+            "end": 663,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 647,
+              "end": 658,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 658,
+              "end": 663,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 661,
+                "end": 663,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 667,
+      "end": 726,
+      "expression": {
+        "type": "CallExpression",
+        "start": 667,
+        "end": 725,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 667,
+          "end": 680,
+          "object": {
+            "type": "Identifier",
+            "start": 667,
+            "end": 673,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 674,
+            "end": 680,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 681,
+            "end": 695,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 697,
+            "end": 724,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 708,
+              "end": 724,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 712,
+                  "end": 722,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 712,
+                    "end": 721,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 716,
+                      "end": 719,
+                      "name": "RE1"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 728,
+      "end": 791,
+      "id": {
+        "type": "Identifier",
+        "start": 734,
+        "end": 737,
+        "name": "RE2"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 746,
+        "end": 752,
+        "name": "RegExp"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 753,
+        "end": 791,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 757,
+            "end": 789,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 757,
+              "end": 768,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 768,
+              "end": 789,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 771,
+                "end": 789,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 777,
+                    "end": 785,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 777,
+                      "end": 784,
+                      "callee": {
+                        "type": "Super",
+                        "start": 777,
+                        "end": 782
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 793,
+      "end": 803,
+      "expression": {
+        "type": "NewExpression",
+        "start": 793,
+        "end": 802,
+        "callee": {
+          "type": "Identifier",
+          "start": 797,
+          "end": 800,
+          "name": "RE2"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

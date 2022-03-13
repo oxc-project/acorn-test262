@@ -1,0 +1,597 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1123,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 518,
+      "end": 569,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 522,
+          "end": 568,
+          "id": {
+            "type": "Identifier",
+            "start": 522,
+            "end": 530,
+            "name": "dataView"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 533,
+            "end": 568,
+            "callee": {
+              "type": "Identifier",
+              "start": 537,
+              "end": 545,
+              "name": "DataView"
+            },
+            "arguments": [
+              {
+                "type": "NewExpression",
+                "start": 546,
+                "end": 564,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 550,
+                  "end": 561,
+                  "name": "ArrayBuffer"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 562,
+                    "end": 563,
+                    "value": 8,
+                    "raw": "8"
+                  }
+                ]
+              },
+              {
+                "type": "Literal",
+                "start": 566,
+                "end": 567,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 571,
+      "end": 664,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 575,
+          "end": 663,
+          "id": {
+            "type": "Identifier",
+            "start": 575,
+            "end": 583,
+            "name": "poisoned"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 586,
+            "end": 663,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 590,
+                "end": 661,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 590,
+                  "end": 597,
+                  "name": "valueOf"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 599,
+                  "end": 661,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 610,
+                    "end": 661,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 616,
+                        "end": 657,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 622,
+                          "end": 656,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 626,
+                            "end": 638,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 639,
+                              "end": 655,
+                              "value": "valueOf called",
+                              "raw": "\"valueOf called\""
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 666,
+      "end": 775,
+      "expression": {
+        "type": "CallExpression",
+        "start": 666,
+        "end": 774,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 666,
+          "end": 679,
+          "object": {
+            "type": "Identifier",
+            "start": 666,
+            "end": 672,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 673,
+            "end": 679,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 680,
+            "end": 690,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 692,
+            "end": 744,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 703,
+              "end": 744,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 707,
+                  "end": 742,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 707,
+                    "end": 741,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 707,
+                      "end": 725,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 707,
+                        "end": 715,
+                        "name": "dataView"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 716,
+                        "end": 725,
+                        "name": "setUint16"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 726,
+                        "end": 730,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 727,
+                          "end": 730,
+                          "value": 1.5,
+                          "raw": "1.5"
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 732,
+                        "end": 740,
+                        "name": "poisoned"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 746,
+            "end": 773,
+            "value": "setUint16(-1.5, poisoned)",
+            "raw": "\"setUint16(-1.5, poisoned)\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 777,
+      "end": 882,
+      "expression": {
+        "type": "CallExpression",
+        "start": 777,
+        "end": 881,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 777,
+          "end": 790,
+          "object": {
+            "type": "Identifier",
+            "start": 777,
+            "end": 783,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 784,
+            "end": 790,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 791,
+            "end": 801,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 803,
+            "end": 853,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 814,
+              "end": 853,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 818,
+                  "end": 851,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 818,
+                    "end": 850,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 818,
+                      "end": 836,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 818,
+                        "end": 826,
+                        "name": "dataView"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 827,
+                        "end": 836,
+                        "name": "setUint16"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 837,
+                        "end": 839,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 838,
+                          "end": 839,
+                          "value": 1,
+                          "raw": "1"
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 841,
+                        "end": 849,
+                        "name": "poisoned"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 855,
+            "end": 880,
+            "value": "setUint16(-1, poisoned)",
+            "raw": "\"setUint16(-1, poisoned)\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 884,
+      "end": 1003,
+      "expression": {
+        "type": "CallExpression",
+        "start": 884,
+        "end": 1002,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 884,
+          "end": 897,
+          "object": {
+            "type": "Identifier",
+            "start": 884,
+            "end": 890,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 891,
+            "end": 897,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 898,
+            "end": 908,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 910,
+            "end": 967,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 921,
+              "end": 967,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 925,
+                  "end": 965,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 925,
+                    "end": 964,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 925,
+                      "end": 943,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 925,
+                        "end": 933,
+                        "name": "dataView"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 934,
+                        "end": 943,
+                        "name": "setUint16"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 944,
+                        "end": 953,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 945,
+                          "end": 953,
+                          "name": "Infinity"
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 955,
+                        "end": 963,
+                        "name": "poisoned"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 969,
+            "end": 1001,
+            "value": "setUint16(-Infinity, poisoned)",
+            "raw": "\"setUint16(-Infinity, poisoned)\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1005,
+      "end": 1122,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1005,
+        "end": 1121,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1005,
+          "end": 1018,
+          "object": {
+            "type": "Identifier",
+            "start": 1005,
+            "end": 1011,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1012,
+            "end": 1018,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1019,
+            "end": 1029,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1031,
+            "end": 1087,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1042,
+              "end": 1087,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1046,
+                  "end": 1085,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1046,
+                    "end": 1084,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1046,
+                      "end": 1064,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1046,
+                        "end": 1054,
+                        "name": "dataView"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1055,
+                        "end": 1064,
+                        "name": "setUint16"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1065,
+                        "end": 1073,
+                        "name": "Infinity"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1075,
+                        "end": 1083,
+                        "name": "poisoned"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1089,
+            "end": 1120,
+            "value": "setUint16(Infinity, poisoned)",
+            "raw": "\"setUint16(Infinity, poisoned)\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

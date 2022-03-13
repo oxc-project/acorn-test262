@@ -1,0 +1,193 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 605,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 297,
+      "end": 443,
+      "expression": {
+        "type": "CallExpression",
+        "start": 297,
+        "end": 442,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 297,
+          "end": 313,
+          "object": {
+            "type": "Identifier",
+            "start": 297,
+            "end": 303,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 313,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 317,
+            "end": 364,
+            "callee": {
+              "type": "CallExpression",
+              "start": 317,
+              "end": 362,
+              "callee": {
+                "type": "Identifier",
+                "start": 317,
+                "end": 325,
+                "name": "Function"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 326,
+                  "end": 361,
+                  "value": "var x =1; this.y=2;return \"OK\";",
+                  "raw": "\"var x =1; this.y=2;return \\\"OK\\\";\""
+                }
+              ],
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 368,
+            "end": 372,
+            "value": "OK",
+            "raw": "\"OK\""
+          },
+          {
+            "type": "Literal",
+            "start": 376,
+            "end": 440,
+            "value": "Function(\"var x =1; this.y=2;return \"OK\";\")() must return \"OK\"",
+            "raw": "'Function(\"var x =1; this.y=2;return \"OK\";\")() must return \"OK\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 445,
+      "end": 542,
+      "expression": {
+        "type": "CallExpression",
+        "start": 445,
+        "end": 541,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 445,
+          "end": 461,
+          "object": {
+            "type": "Identifier",
+            "start": 445,
+            "end": 451,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 452,
+            "end": 461,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 462,
+            "end": 470,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 469,
+              "end": 470,
+              "name": "x"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 472,
+            "end": 483,
+            "value": "undefined",
+            "raw": "\"undefined\""
+          },
+          {
+            "type": "Literal",
+            "start": 485,
+            "end": 540,
+            "value": "The value of `typeof x` is expected to be \"undefined\"",
+            "raw": "'The value of `typeof x` is expected to be \"undefined\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 543,
+      "end": 604,
+      "expression": {
+        "type": "CallExpression",
+        "start": 543,
+        "end": 603,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 543,
+          "end": 559,
+          "object": {
+            "type": "Identifier",
+            "start": 543,
+            "end": 549,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 559,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 560,
+            "end": 561,
+            "name": "y"
+          },
+          {
+            "type": "Literal",
+            "start": 563,
+            "end": 564,
+            "value": 2,
+            "raw": "2"
+          },
+          {
+            "type": "Literal",
+            "start": 566,
+            "end": 602,
+            "value": "The value of y is expected to be 2",
+            "raw": "'The value of y is expected to be 2'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

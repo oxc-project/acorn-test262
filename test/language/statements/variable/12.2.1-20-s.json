@@ -1,0 +1,59 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 309,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 272,
+      "end": 285,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 276,
+          "end": 284,
+          "id": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 277,
+            "name": "s"
+          },
+          "init": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 284,
+            "name": "eval"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 288,
+      "end": 308,
+      "expression": {
+        "type": "CallExpression",
+        "start": 288,
+        "end": 307,
+        "callee": {
+          "type": "Identifier",
+          "start": 288,
+          "end": 289,
+          "name": "s"
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 290,
+            "end": 306,
+            "value": "var arguments;",
+            "raw": "'var arguments;'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

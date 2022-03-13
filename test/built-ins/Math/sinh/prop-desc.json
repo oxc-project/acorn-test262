@@ -1,0 +1,104 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 343,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 244,
+      "end": 278,
+      "expression": {
+        "type": "CallExpression",
+        "start": 244,
+        "end": 277,
+        "callee": {
+          "type": "Identifier",
+          "start": 244,
+          "end": 263,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 264,
+            "end": 268,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 270,
+            "end": 276,
+            "value": "sinh",
+            "raw": "\"sinh\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 279,
+      "end": 308,
+      "expression": {
+        "type": "CallExpression",
+        "start": 279,
+        "end": 307,
+        "callee": {
+          "type": "Identifier",
+          "start": 279,
+          "end": 293,
+          "name": "verifyWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 294,
+            "end": 298,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 300,
+            "end": 306,
+            "value": "sinh",
+            "raw": "\"sinh\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 309,
+      "end": 342,
+      "expression": {
+        "type": "CallExpression",
+        "start": 309,
+        "end": 341,
+        "callee": {
+          "type": "Identifier",
+          "start": 309,
+          "end": 327,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 328,
+            "end": 332,
+            "name": "Math"
+          },
+          {
+            "type": "Literal",
+            "start": 334,
+            "end": 340,
+            "value": "sinh",
+            "raw": "\"sinh\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

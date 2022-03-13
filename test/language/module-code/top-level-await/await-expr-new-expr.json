@@ -1,0 +1,164 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 932,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 826,
+      "end": 891,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 830,
+          "end": 890,
+          "id": {
+            "type": "Identifier",
+            "start": 830,
+            "end": 835,
+            "name": "value"
+          },
+          "init": {
+            "type": "AwaitExpression",
+            "start": 838,
+            "end": 890,
+            "argument": {
+              "type": "NewExpression",
+              "start": 844,
+              "end": 890,
+              "callee": {
+                "type": "Identifier",
+                "start": 848,
+                "end": 855,
+                "name": "Promise"
+              },
+              "arguments": [
+                {
+                  "type": "FunctionExpression",
+                  "start": 856,
+                  "end": 889,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 865,
+                      "end": 868,
+                      "name": "res"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 870,
+                      "end": 873,
+                      "name": "rej"
+                    }
+                  ],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 875,
+                    "end": 889,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 879,
+                        "end": 887,
+                        "expression": {
+                          "type": "CallExpression",
+                          "start": 879,
+                          "end": 886,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 879,
+                            "end": 882,
+                            "name": "res"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 883,
+                              "end": 885,
+                              "value": 42,
+                              "raw": "42"
+                            }
+                          ],
+                          "optional": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 893,
+      "end": 921,
+      "expression": {
+        "type": "CallExpression",
+        "start": 893,
+        "end": 920,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 893,
+          "end": 909,
+          "object": {
+            "type": "Identifier",
+            "start": 893,
+            "end": 899,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 900,
+            "end": 909,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 910,
+            "end": 915,
+            "name": "value"
+          },
+          {
+            "type": "Literal",
+            "start": 917,
+            "end": 919,
+            "value": 42,
+            "raw": "42"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 923,
+      "end": 931,
+      "expression": {
+        "type": "CallExpression",
+        "start": 923,
+        "end": 930,
+        "callee": {
+          "type": "Identifier",
+          "start": 923,
+          "end": 928,
+          "name": "$DONE"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

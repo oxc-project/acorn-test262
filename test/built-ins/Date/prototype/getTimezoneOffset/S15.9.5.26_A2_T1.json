@@ -1,0 +1,205 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 631,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 315,
+      "end": 483,
+      "expression": {
+        "type": "CallExpression",
+        "start": 315,
+        "end": 482,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 315,
+          "end": 331,
+          "object": {
+            "type": "Identifier",
+            "start": 315,
+            "end": 321,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 331,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 335,
+            "end": 392,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 335,
+              "end": 382,
+              "object": {
+                "type": "MemberExpression",
+                "start": 335,
+                "end": 367,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 335,
+                  "end": 349,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 335,
+                    "end": 339,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 340,
+                    "end": 349,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 350,
+                  "end": 367,
+                  "name": "getTimezoneOffset"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 382,
+                "name": "hasOwnProperty"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 383,
+                "end": 391,
+                "value": "length",
+                "raw": "\"length\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 396,
+            "end": 400,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 404,
+            "end": 480,
+            "value": "Date.prototype.getTimezoneOffset.hasOwnProperty(\"length\") must return true",
+            "raw": "'Date.prototype.getTimezoneOffset.hasOwnProperty(\"length\") must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 485,
+      "end": 630,
+      "expression": {
+        "type": "CallExpression",
+        "start": 485,
+        "end": 629,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 485,
+          "end": 501,
+          "object": {
+            "type": "Identifier",
+            "start": 485,
+            "end": 491,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 492,
+            "end": 501,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 505,
+            "end": 544,
+            "object": {
+              "type": "MemberExpression",
+              "start": 505,
+              "end": 537,
+              "object": {
+                "type": "MemberExpression",
+                "start": 505,
+                "end": 519,
+                "object": {
+                  "type": "Identifier",
+                  "start": 505,
+                  "end": 509,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 510,
+                  "end": 519,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 520,
+                "end": 537,
+                "name": "getTimezoneOffset"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 538,
+              "end": 544,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 548,
+            "end": 549,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 627,
+            "value": "The value of Date.prototype.getTimezoneOffset.length is expected to be 0",
+            "raw": "'The value of Date.prototype.getTimezoneOffset.length is expected to be 0'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

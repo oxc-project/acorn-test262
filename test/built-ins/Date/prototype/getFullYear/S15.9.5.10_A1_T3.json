@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 643,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 322,
+      "end": 481,
+      "expression": {
+        "type": "CallExpression",
+        "start": 322,
+        "end": 480,
+        "callee": {
+          "type": "Identifier",
+          "start": 322,
+          "end": 328,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 332,
+            "end": 383,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 333,
+              "end": 383,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 333,
+                "end": 368,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 333,
+                  "end": 347,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 333,
+                    "end": 337,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 338,
+                    "end": 347,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 348,
+                  "end": 368,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 369,
+                  "end": 382,
+                  "value": "getFullYear",
+                  "raw": "'getFullYear'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 387,
+            "end": 478,
+            "value": "The value of !Date.prototype.propertyIsEnumerable('getFullYear') is expected to be true",
+            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'getFullYear\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 483,
+      "end": 596,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 488,
+        "end": 493,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 492,
+            "end": 493,
+            "id": {
+              "type": "Identifier",
+              "start": 492,
+              "end": 493,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 497,
+        "end": 511,
+        "object": {
+          "type": "Identifier",
+          "start": 497,
+          "end": 501,
+          "name": "Date"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 502,
+          "end": 511,
+          "name": "prototype"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 513,
+        "end": 596,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 517,
+            "end": 594,
+            "expression": {
+              "type": "CallExpression",
+              "start": 517,
+              "end": 593,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 517,
+                "end": 536,
+                "object": {
+                  "type": "Identifier",
+                  "start": 517,
+                  "end": 523,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 524,
+                  "end": 536,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 537,
+                  "end": 538,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 540,
+                  "end": 553,
+                  "value": "getFullYear",
+                  "raw": "\"getFullYear\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 555,
+                  "end": 592,
+                  "value": "The value of x is not \"getFullYear\"",
+                  "raw": "'The value of x is not \"getFullYear\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

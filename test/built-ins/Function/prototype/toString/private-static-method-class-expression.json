@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 544,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 306,
+      "end": 486,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 310,
+          "end": 485,
+          "id": {
+            "type": "Identifier",
+            "start": 310,
+            "end": 311,
+            "name": "C"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 314,
+            "end": 485,
+            "id": null,
+            "superClass": null,
+            "body": {
+              "type": "ClassBody",
+              "start": 320,
+              "end": 485,
+              "body": [
+                {
+                  "type": "MethodDefinition",
+                  "start": 336,
+                  "end": 385,
+                  "static": true,
+                  "computed": false,
+                  "key": {
+                    "type": "PrivateIdentifier",
+                    "start": 343,
+                    "end": 345,
+                    "name": "f"
+                  },
+                  "kind": "method",
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 354,
+                    "end": 385,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 374,
+                      "end": 385,
+                      "body": []
+                    }
+                  }
+                },
+                {
+                  "type": "MethodDefinition",
+                  "start": 399,
+                  "end": 483,
+                  "static": true,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 406,
+                    "end": 412,
+                    "name": "assert"
+                  },
+                  "kind": "method",
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 412,
+                    "end": 483,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 413,
+                        "end": 421,
+                        "name": "expected"
+                      }
+                    ],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 423,
+                      "end": 483,
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "start": 429,
+                          "end": 479,
+                          "expression": {
+                            "type": "CallExpression",
+                            "start": 429,
+                            "end": 478,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 429,
+                              "end": 459,
+                              "name": "assertToStringOrNativeFunction"
+                            },
+                            "arguments": [
+                              {
+                                "type": "MemberExpression",
+                                "start": 460,
+                                "end": 467,
+                                "object": {
+                                  "type": "ThisExpression",
+                                  "start": 460,
+                                  "end": 464
+                                },
+                                "property": {
+                                  "type": "PrivateIdentifier",
+                                  "start": 465,
+                                  "end": 467,
+                                  "name": "f"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              {
+                                "type": "Identifier",
+                                "start": 469,
+                                "end": 477,
+                                "name": "expected"
+                              }
+                            ],
+                            "optional": false
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 488,
+      "end": 543,
+      "expression": {
+        "type": "CallExpression",
+        "start": 488,
+        "end": 542,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 488,
+          "end": 496,
+          "object": {
+            "type": "Identifier",
+            "start": 488,
+            "end": 489,
+            "name": "C"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 496,
+            "name": "assert"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 497,
+            "end": 541,
+            "value": "#f /* a */ ( /* b */ ) /* c */ { /* d */ }",
+            "raw": "\"#f /* a */ ( /* b */ ) /* c */ { /* d */ }\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,90 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 840,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 804,
+      "end": 820,
+      "id": {
+        "type": "Identifier",
+        "start": 813,
+        "end": 815,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 818,
+        "end": 820,
+        "body": []
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 820,
+      "end": 837,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 824,
+          "end": 825,
+          "id": {
+            "type": "Identifier",
+            "start": 824,
+            "end": 825,
+            "name": "a"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 827,
+          "end": 833,
+          "id": {
+            "type": "Identifier",
+            "start": 827,
+            "end": 828,
+            "name": "b"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 831,
+            "end": 833,
+            "value": 42,
+            "raw": "42"
+          }
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 835,
+          "end": 836,
+          "id": {
+            "type": "Identifier",
+            "start": 835,
+            "end": 836,
+            "name": "c"
+          },
+          "init": null
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 837,
+      "end": 839,
+      "expression": {
+        "type": "Identifier",
+        "start": 837,
+        "end": 838,
+        "name": "b"
+      }
+    }
+  ],
+  "sourceType": "script"
+}

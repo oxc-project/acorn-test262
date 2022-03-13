@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 564,
+  "body": [
+    {
+      "type": "ForInStatement",
+      "start": 275,
+      "end": 376,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 280,
+        "end": 285,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 284,
+            "end": 285,
+            "id": {
+              "type": "Identifier",
+              "start": 284,
+              "end": 285,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 289,
+        "end": 295,
+        "name": "Number"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 297,
+        "end": 376,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 301,
+            "end": 374,
+            "expression": {
+              "type": "CallExpression",
+              "start": 301,
+              "end": 373,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 301,
+                "end": 320,
+                "object": {
+                  "type": "Identifier",
+                  "start": 301,
+                  "end": 307,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 308,
+                  "end": 320,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 321,
+                  "end": 322,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 324,
+                  "end": 335,
+                  "value": "MAX_VALUE",
+                  "raw": "\"MAX_VALUE\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 337,
+                  "end": 372,
+                  "value": "The value of x is not \"MAX_VALUE\"",
+                  "raw": "'The value of x is not \"MAX_VALUE\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 378,
+      "end": 517,
+      "expression": {
+        "type": "CallExpression",
+        "start": 378,
+        "end": 516,
+        "callee": {
+          "type": "Identifier",
+          "start": 378,
+          "end": 384,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 388,
+            "end": 429,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 389,
+              "end": 429,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 389,
+                "end": 416,
+                "object": {
+                  "type": "Identifier",
+                  "start": 389,
+                  "end": 395,
+                  "name": "Number"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 396,
+                  "end": 416,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 417,
+                  "end": 428,
+                  "value": "MAX_VALUE",
+                  "raw": "'MAX_VALUE'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 433,
+            "end": 514,
+            "value": "The value of !Number.propertyIsEnumerable('MAX_VALUE') is expected to be true",
+            "raw": "'The value of !Number.propertyIsEnumerable(\\'MAX_VALUE\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

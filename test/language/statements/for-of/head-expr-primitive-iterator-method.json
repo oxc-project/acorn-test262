@@ -1,0 +1,188 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 420,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 286,
+      "end": 292,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 290,
+          "end": 291,
+          "id": {
+            "type": "Identifier",
+            "start": 290,
+            "end": 291,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 294,
+      "end": 357,
+      "expression": {
+        "type": "CallExpression",
+        "start": 294,
+        "end": 356,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 294,
+          "end": 307,
+          "object": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 300,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 301,
+            "end": 307,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 308,
+            "end": 317,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 319,
+            "end": 355,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 330,
+              "end": 355,
+              "body": [
+                {
+                  "type": "ForOfStatement",
+                  "start": 334,
+                  "end": 353,
+                  "await": false,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 339,
+                    "end": 340,
+                    "name": "x"
+                  },
+                  "right": {
+                    "type": "Literal",
+                    "start": 344,
+                    "end": 349,
+                    "value": false,
+                    "raw": "false"
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 351,
+                    "end": 353,
+                    "body": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 359,
+      "end": 419,
+      "expression": {
+        "type": "CallExpression",
+        "start": 359,
+        "end": 418,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 359,
+          "end": 372,
+          "object": {
+            "type": "Identifier",
+            "start": 359,
+            "end": 365,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 366,
+            "end": 372,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 373,
+            "end": 382,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 384,
+            "end": 417,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 395,
+              "end": 417,
+              "body": [
+                {
+                  "type": "ForOfStatement",
+                  "start": 399,
+                  "end": 415,
+                  "await": false,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 404,
+                    "end": 405,
+                    "name": "x"
+                  },
+                  "right": {
+                    "type": "Literal",
+                    "start": 409,
+                    "end": 411,
+                    "value": 37,
+                    "raw": "37"
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 413,
+                    "end": 415,
+                    "body": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

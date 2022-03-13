@@ -1,0 +1,282 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 688,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 336,
+      "end": 378,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 342,
+          "end": 377,
+          "id": {
+            "type": "Identifier",
+            "start": 342,
+            "end": 350,
+            "name": "midnight"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 353,
+            "end": 377,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 357,
+              "end": 375,
+              "object": {
+                "type": "Identifier",
+                "start": 357,
+                "end": 365,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 366,
+                "end": 375,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 380,
+      "end": 533,
+      "expression": {
+        "type": "CallExpression",
+        "start": 380,
+        "end": 532,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 380,
+          "end": 411,
+          "object": {
+            "type": "Identifier",
+            "start": 380,
+            "end": 395,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 411,
+            "name": "assertPlainTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 412,
+            "end": 443,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 412,
+              "end": 429,
+              "object": {
+                "type": "Identifier",
+                "start": 412,
+                "end": 420,
+                "name": "midnight"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 421,
+                "end": 429,
+                "name": "subtract"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 430,
+                "end": 442,
+                "value": "PT1.03125H",
+                "raw": "\"PT1.03125H\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 445,
+            "end": 447,
+            "value": 22,
+            "raw": "22"
+          },
+          {
+            "type": "Literal",
+            "start": 449,
+            "end": 451,
+            "value": 58,
+            "raw": "58"
+          },
+          {
+            "type": "Literal",
+            "start": 453,
+            "end": 454,
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "type": "Literal",
+            "start": 456,
+            "end": 459,
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "type": "Literal",
+            "start": 461,
+            "end": 462,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 464,
+            "end": 465,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 469,
+            "end": 531,
+            "value": "positive fractional units rounded with correct rounding mode",
+            "raw": "\"positive fractional units rounded with correct rounding mode\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 534,
+      "end": 687,
+      "expression": {
+        "type": "CallExpression",
+        "start": 534,
+        "end": 686,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 534,
+          "end": 565,
+          "object": {
+            "type": "Identifier",
+            "start": 534,
+            "end": 549,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 550,
+            "end": 565,
+            "name": "assertPlainTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 566,
+            "end": 598,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 566,
+              "end": 583,
+              "object": {
+                "type": "Identifier",
+                "start": 566,
+                "end": 574,
+                "name": "midnight"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 575,
+                "end": 583,
+                "name": "subtract"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 584,
+                "end": 597,
+                "value": "-PT1.03125H",
+                "raw": "\"-PT1.03125H\""
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 600,
+            "end": 601,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 603,
+            "end": 604,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 606,
+            "end": 608,
+            "value": 52,
+            "raw": "52"
+          },
+          {
+            "type": "Literal",
+            "start": 610,
+            "end": 613,
+            "value": 500,
+            "raw": "500"
+          },
+          {
+            "type": "Literal",
+            "start": 615,
+            "end": 616,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 618,
+            "end": 619,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 623,
+            "end": 685,
+            "value": "negative fractional units rounded with correct rounding mode",
+            "raw": "\"negative fractional units rounded with correct rounding mode\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,281 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 861,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 348,
+      "end": 413,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 352,
+          "end": 413,
+          "id": {
+            "type": "Identifier",
+            "start": 352,
+            "end": 357,
+            "name": "__obj"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 360,
+            "end": 413,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 364,
+                "end": 411,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 364,
+                  "end": 372,
+                  "name": "toString"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 374,
+                  "end": 411,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 385,
+                    "end": 411,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 391,
+                        "end": 407,
+                        "argument": {
+                          "type": "Literal",
+                          "start": 397,
+                          "end": 406,
+                          "value": "intostr",
+                          "raw": "\"intostr\""
+                        }
+                      }
+                    ]
+                  }
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 414,
+      "end": 443,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 418,
+          "end": 442,
+          "id": {
+            "type": "Identifier",
+            "start": 418,
+            "end": 423,
+            "name": "__str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 426,
+            "end": 442,
+            "value": "ABBABABAB",
+            "raw": "\"ABB\\u0041BABAB\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 534,
+      "end": 778,
+      "block": {
+        "type": "BlockStatement",
+        "start": 538,
+        "end": 660,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 542,
+            "end": 569,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 546,
+                "end": 568,
+                "id": {
+                  "type": "Identifier",
+                  "start": 546,
+                  "end": 547,
+                  "name": "x"
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 550,
+                  "end": 568,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 550,
+                    "end": 561,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 550,
+                      "end": 555,
+                      "name": "__str"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 556,
+                      "end": 561,
+                      "name": "match"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 562,
+                      "end": 567,
+                      "name": "__obj"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 572,
+            "end": 658,
+            "argument": {
+              "type": "NewExpression",
+              "start": 578,
+              "end": 657,
+              "callee": {
+                "type": "Identifier",
+                "start": 582,
+                "end": 594,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 595,
+                  "end": 656,
+                  "value": "#1: \"var x = __str.match(__obj)\" lead to throwing exception",
+                  "raw": "'#1: \"var x = __str.match(__obj)\" lead to throwing exception'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 661,
+        "end": 778,
+        "param": {
+          "type": "Identifier",
+          "start": 668,
+          "end": 669,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 671,
+          "end": 778,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 675,
+              "end": 776,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 679,
+                "end": 694,
+                "left": {
+                  "type": "Identifier",
+                  "start": 679,
+                  "end": 680,
+                  "name": "e"
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 685,
+                  "end": 694,
+                  "value": "intostr",
+                  "raw": "\"intostr\""
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 696,
+                "end": 776,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 702,
+                    "end": 772,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 708,
+                      "end": 771,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 712,
+                        "end": 724,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 725,
+                          "end": 770,
+                          "left": {
+                            "type": "Literal",
+                            "start": 725,
+                            "end": 766,
+                            "value": "#1.1: Exception === \"intostr\". Actual: ",
+                            "raw": "'#1.1: Exception === \"intostr\". Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "start": 769,
+                            "end": 770,
+                            "name": "e"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

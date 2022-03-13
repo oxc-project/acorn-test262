@@ -1,0 +1,103 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 718,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 534,
+      "end": 652,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 538,
+        "end": 563,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 538,
+          "end": 550,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "ParenthesizedExpression",
+            "start": 544,
+            "end": 550,
+            "expression": {
+              "type": "Literal",
+              "start": 545,
+              "end": 549,
+              "value": null,
+              "raw": "null"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 555,
+          "end": 563,
+          "value": "object",
+          "raw": "\"object\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 565,
+        "end": 652,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 569,
+            "end": 650,
+            "argument": {
+              "type": "NewExpression",
+              "start": 575,
+              "end": 649,
+              "callee": {
+                "type": "Identifier",
+                "start": 579,
+                "end": 591,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 592,
+                  "end": 648,
+                  "left": {
+                    "type": "Literal",
+                    "start": 592,
+                    "end": 632,
+                    "value": "#1: typeof null === \"object\". Actual: ",
+                    "raw": "'#1: typeof null === \"object\". Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 635,
+                    "end": 648,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 636,
+                      "end": 647,
+                      "operator": "typeof",
+                      "prefix": true,
+                      "argument": {
+                        "type": "Literal",
+                        "start": 643,
+                        "end": 647,
+                        "value": null,
+                        "raw": "null"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

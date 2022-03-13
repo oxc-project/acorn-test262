@@ -1,0 +1,214 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 891,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 693,
+      "end": 745,
+      "expression": {
+        "type": "CallExpression",
+        "start": 693,
+        "end": 744,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 693,
+          "end": 709,
+          "object": {
+            "type": "Identifier",
+            "start": 693,
+            "end": 699,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 700,
+            "end": 709,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 710,
+            "end": 733,
+            "object": {
+              "type": "MemberExpression",
+              "start": 710,
+              "end": 728,
+              "object": {
+                "type": "Identifier",
+                "start": 710,
+                "end": 721,
+                "name": "ArrayBuffer"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 722,
+                "end": 728,
+                "name": "isView"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 729,
+              "end": 733,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 735,
+            "end": 743,
+            "value": "isView",
+            "raw": "\"isView\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 747,
+      "end": 795,
+      "expression": {
+        "type": "CallExpression",
+        "start": 747,
+        "end": 794,
+        "callee": {
+          "type": "Identifier",
+          "start": 747,
+          "end": 766,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 767,
+            "end": 785,
+            "object": {
+              "type": "Identifier",
+              "start": 767,
+              "end": 778,
+              "name": "ArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 779,
+              "end": 785,
+              "name": "isView"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 787,
+            "end": 793,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 796,
+      "end": 842,
+      "expression": {
+        "type": "CallExpression",
+        "start": 796,
+        "end": 841,
+        "callee": {
+          "type": "Identifier",
+          "start": 796,
+          "end": 813,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 814,
+            "end": 832,
+            "object": {
+              "type": "Identifier",
+              "start": 814,
+              "end": 825,
+              "name": "ArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 826,
+              "end": 832,
+              "name": "isView"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 834,
+            "end": 840,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 843,
+      "end": 890,
+      "expression": {
+        "type": "CallExpression",
+        "start": 843,
+        "end": 889,
+        "callee": {
+          "type": "Identifier",
+          "start": 843,
+          "end": 861,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 862,
+            "end": 880,
+            "object": {
+              "type": "Identifier",
+              "start": 862,
+              "end": 873,
+              "name": "ArrayBuffer"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 874,
+              "end": 880,
+              "name": "isView"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 882,
+            "end": 888,
+            "value": "name",
+            "raw": "\"name\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

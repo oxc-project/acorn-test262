@@ -1,0 +1,147 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 540,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 298,
+      "end": 387,
+      "expression": {
+        "type": "CallExpression",
+        "start": 298,
+        "end": 386,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 298,
+          "end": 317,
+          "object": {
+            "type": "Identifier",
+            "start": 298,
+            "end": 304,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 317,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 318,
+            "end": 333,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 325,
+              "end": 333,
+              "object": {
+                "type": "Identifier",
+                "start": 325,
+                "end": 329,
+                "name": "Date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 330,
+                "end": 333,
+                "name": "UTC"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 335,
+            "end": 340,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 342,
+            "end": 385,
+            "value": "The value of delete Date.UTC is not false",
+            "raw": "'The value of delete Date.UTC is not false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 388,
+      "end": 493,
+      "expression": {
+        "type": "CallExpression",
+        "start": 388,
+        "end": 492,
+        "callee": {
+          "type": "Identifier",
+          "start": 388,
+          "end": 394,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 395,
+            "end": 422,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 396,
+              "end": 422,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 396,
+                "end": 415,
+                "object": {
+                  "type": "Identifier",
+                  "start": 396,
+                  "end": 400,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 401,
+                  "end": 415,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 416,
+                  "end": 421,
+                  "value": "UTC",
+                  "raw": "'UTC'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 424,
+            "end": 491,
+            "value": "The value of !Date.hasOwnProperty('UTC') is expected to be true",
+            "raw": "'The value of !Date.hasOwnProperty(\\'UTC\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

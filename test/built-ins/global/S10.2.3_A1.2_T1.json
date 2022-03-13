@@ -1,0 +1,219 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 650,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 339,
+      "end": 640,
+      "id": {
+        "type": "Identifier",
+        "start": 348,
+        "end": 352,
+        "name": "test"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 355,
+        "end": 640,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 371,
+            "end": 442,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 375,
+              "end": 387,
+              "left": {
+                "type": "Identifier",
+                "start": 375,
+                "end": 378,
+                "name": "NaN"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 383,
+                "end": 387,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 389,
+              "end": 442,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 395,
+                  "end": 438,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 401,
+                    "end": 437,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 405,
+                      "end": 417,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 418,
+                        "end": 436,
+                        "value": "#1: NaN === null",
+                        "raw": "\"#1: NaN === null\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          },
+          {
+            "type": "IfStatement",
+            "start": 458,
+            "end": 539,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 462,
+              "end": 479,
+              "left": {
+                "type": "Identifier",
+                "start": 462,
+                "end": 470,
+                "name": "Infinity"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 475,
+                "end": 479,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 481,
+              "end": 539,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 487,
+                  "end": 535,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 493,
+                    "end": 534,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 497,
+                      "end": 509,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 510,
+                        "end": 533,
+                        "value": "#2: Infinity === null",
+                        "raw": "\"#2: Infinity === null\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          },
+          {
+            "type": "IfStatement",
+            "start": 555,
+            "end": 638,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 559,
+              "end": 577,
+              "left": {
+                "type": "Identifier",
+                "start": 559,
+                "end": 568,
+                "name": "undefined"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 573,
+                "end": 577,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 579,
+              "end": 638,
+              "body": [
+                {
+                  "type": "ThrowStatement",
+                  "start": 585,
+                  "end": 634,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 591,
+                    "end": 633,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 595,
+                      "end": 607,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 608,
+                        "end": 632,
+                        "value": "#3: undefined === null",
+                        "raw": "\"#3: undefined === null\""
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 642,
+      "end": 649,
+      "expression": {
+        "type": "CallExpression",
+        "start": 642,
+        "end": 648,
+        "callee": {
+          "type": "Identifier",
+          "start": 642,
+          "end": 646,
+          "name": "test"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

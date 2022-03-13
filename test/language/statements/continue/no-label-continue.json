@@ -1,0 +1,186 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 336,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 200,
+      "end": 214,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 204,
+          "end": 213,
+          "id": {
+            "type": "Identifier",
+            "start": 204,
+            "end": 209,
+            "name": "count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 212,
+            "end": 213,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ForStatement",
+      "start": 215,
+      "end": 273,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 220,
+        "end": 229,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 224,
+            "end": 229,
+            "id": {
+              "type": "Identifier",
+              "start": 224,
+              "end": 225,
+              "name": "x"
+            },
+            "init": {
+              "type": "Literal",
+              "start": 228,
+              "end": 229,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        ],
+        "kind": "let"
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "start": 231,
+        "end": 237,
+        "left": {
+          "type": "Identifier",
+          "start": 231,
+          "end": 232,
+          "name": "x"
+        },
+        "operator": "<",
+        "right": {
+          "type": "Literal",
+          "start": 235,
+          "end": 237,
+          "value": 10,
+          "raw": "10"
+        }
+      },
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 240,
+        "end": 273,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 244,
+            "end": 248,
+            "expression": {
+              "type": "UpdateExpression",
+              "start": 244,
+              "end": 247,
+              "operator": "++",
+              "prefix": false,
+              "argument": {
+                "type": "Identifier",
+                "start": 244,
+                "end": 245,
+                "name": "x"
+              }
+            }
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 251,
+            "end": 259,
+            "expression": {
+              "type": "UpdateExpression",
+              "start": 251,
+              "end": 258,
+              "operator": "++",
+              "prefix": false,
+              "argument": {
+                "type": "Identifier",
+                "start": 251,
+                "end": 256,
+                "name": "count"
+              }
+            }
+          },
+          {
+            "type": "ContinueStatement",
+            "start": 262,
+            "end": 271,
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 274,
+      "end": 334,
+      "expression": {
+        "type": "CallExpression",
+        "start": 274,
+        "end": 333,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 274,
+          "end": 290,
+          "object": {
+            "type": "Identifier",
+            "start": 274,
+            "end": 280,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 281,
+            "end": 290,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 291,
+            "end": 296,
+            "name": "count"
+          },
+          {
+            "type": "Literal",
+            "start": 298,
+            "end": 300,
+            "value": 10,
+            "raw": "10"
+          },
+          {
+            "type": "Literal",
+            "start": 302,
+            "end": 332,
+            "value": "The value of `count` is `10`",
+            "raw": "\"The value of `count` is `10`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

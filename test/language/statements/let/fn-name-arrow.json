@@ -1,0 +1,197 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 770,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 603,
+      "end": 624,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 607,
+          "end": 623,
+          "id": {
+            "type": "Identifier",
+            "start": 607,
+            "end": 612,
+            "name": "arrow"
+          },
+          "init": {
+            "type": "ArrowFunctionExpression",
+            "start": 615,
+            "end": 623,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 621,
+              "end": 623,
+              "body": []
+            }
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 626,
+      "end": 664,
+      "expression": {
+        "type": "CallExpression",
+        "start": 626,
+        "end": 663,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 626,
+          "end": 642,
+          "object": {
+            "type": "Identifier",
+            "start": 626,
+            "end": 632,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 633,
+            "end": 642,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 643,
+            "end": 653,
+            "object": {
+              "type": "Identifier",
+              "start": 643,
+              "end": 648,
+              "name": "arrow"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 649,
+              "end": 653,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 655,
+            "end": 662,
+            "value": "arrow",
+            "raw": "'arrow'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 665,
+      "end": 700,
+      "expression": {
+        "type": "CallExpression",
+        "start": 665,
+        "end": 699,
+        "callee": {
+          "type": "Identifier",
+          "start": 665,
+          "end": 684,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 685,
+            "end": 690,
+            "name": "arrow"
+          },
+          {
+            "type": "Literal",
+            "start": 692,
+            "end": 698,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 701,
+      "end": 734,
+      "expression": {
+        "type": "CallExpression",
+        "start": 701,
+        "end": 733,
+        "callee": {
+          "type": "Identifier",
+          "start": 701,
+          "end": 718,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 719,
+            "end": 724,
+            "name": "arrow"
+          },
+          {
+            "type": "Literal",
+            "start": 726,
+            "end": 732,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 735,
+      "end": 769,
+      "expression": {
+        "type": "CallExpression",
+        "start": 735,
+        "end": 768,
+        "callee": {
+          "type": "Identifier",
+          "start": 735,
+          "end": 753,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 754,
+            "end": 759,
+            "name": "arrow"
+          },
+          {
+            "type": "Literal",
+            "start": 761,
+            "end": 767,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

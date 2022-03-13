@@ -1,0 +1,273 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 602,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 337,
+      "end": 441,
+      "expression": {
+        "type": "CallExpression",
+        "start": 337,
+        "end": 440,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 337,
+          "end": 353,
+          "object": {
+            "type": "Identifier",
+            "start": 337,
+            "end": 343,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 344,
+            "end": 353,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 354,
+            "end": 382,
+            "object": {
+              "type": "MemberExpression",
+              "start": 354,
+              "end": 375,
+              "object": {
+                "type": "MemberExpression",
+                "start": 354,
+                "end": 367,
+                "object": {
+                  "type": "Identifier",
+                  "start": 354,
+                  "end": 357,
+                  "name": "Set"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 358,
+                  "end": 367,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 368,
+                "end": 375,
+                "name": "forEach"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 376,
+              "end": 382,
+              "name": "length"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 384,
+            "end": 385,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 387,
+            "end": 439,
+            "value": "The value of `Set.prototype.forEach.length` is `1`",
+            "raw": "\"The value of `Set.prototype.forEach.length` is `1`\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 443,
+      "end": 496,
+      "expression": {
+        "type": "CallExpression",
+        "start": 443,
+        "end": 495,
+        "callee": {
+          "type": "Identifier",
+          "start": 443,
+          "end": 462,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 463,
+            "end": 484,
+            "object": {
+              "type": "MemberExpression",
+              "start": 463,
+              "end": 476,
+              "object": {
+                "type": "Identifier",
+                "start": 463,
+                "end": 466,
+                "name": "Set"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 467,
+                "end": 476,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 477,
+              "end": 484,
+              "name": "forEach"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 486,
+            "end": 494,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 497,
+      "end": 548,
+      "expression": {
+        "type": "CallExpression",
+        "start": 497,
+        "end": 547,
+        "callee": {
+          "type": "Identifier",
+          "start": 497,
+          "end": 514,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 515,
+            "end": 536,
+            "object": {
+              "type": "MemberExpression",
+              "start": 515,
+              "end": 528,
+              "object": {
+                "type": "Identifier",
+                "start": 515,
+                "end": 518,
+                "name": "Set"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 519,
+                "end": 528,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 529,
+              "end": 536,
+              "name": "forEach"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 538,
+            "end": 546,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 549,
+      "end": 601,
+      "expression": {
+        "type": "CallExpression",
+        "start": 549,
+        "end": 600,
+        "callee": {
+          "type": "Identifier",
+          "start": 549,
+          "end": 567,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 568,
+            "end": 589,
+            "object": {
+              "type": "MemberExpression",
+              "start": 568,
+              "end": 581,
+              "object": {
+                "type": "Identifier",
+                "start": 568,
+                "end": 571,
+                "name": "Set"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 572,
+                "end": 581,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 582,
+              "end": 589,
+              "name": "forEach"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 591,
+            "end": 599,
+            "value": "length",
+            "raw": "\"length\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

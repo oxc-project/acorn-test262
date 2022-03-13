@@ -1,0 +1,73 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 435,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 398,
+      "end": 404,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 402,
+          "end": 403,
+          "id": {
+            "type": "Identifier",
+            "start": 402,
+            "end": 403,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 405,
+      "end": 434,
+      "expression": {
+        "type": "CallExpression",
+        "start": 405,
+        "end": 433,
+        "callee": {
+          "type": "ParenthesizedExpression",
+          "start": 405,
+          "end": 413,
+          "expression": {
+            "type": "SequenceExpression",
+            "start": 406,
+            "end": 412,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 406,
+                "end": 407,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Identifier",
+                "start": 408,
+                "end": 412,
+                "name": "eval"
+              }
+            ]
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 414,
+            "end": 432,
+            "value": "x = 1; x\n++",
+            "raw": "\"x = 1; x\\u000A++\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

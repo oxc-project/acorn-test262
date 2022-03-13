@@ -1,0 +1,251 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 533,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 276,
+      "end": 297,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 280,
+          "end": 296,
+          "id": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 288,
+            "name": "accessed"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 291,
+            "end": 296,
+            "value": false,
+            "raw": "false"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 298,
+      "end": 316,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 302,
+          "end": 315,
+          "id": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 310,
+            "name": "objArray"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 313,
+            "end": 315,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 318,
+      "end": 403,
+      "id": {
+        "type": "Identifier",
+        "start": 327,
+        "end": 337,
+        "name": "callbackfn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 338,
+          "end": 341,
+          "name": "val"
+        },
+        {
+          "type": "Identifier",
+          "start": 343,
+          "end": 346,
+          "name": "idx"
+        },
+        {
+          "type": "Identifier",
+          "start": 348,
+          "end": 351,
+          "name": "obj"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 353,
+        "end": 403,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 357,
+            "end": 373,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 357,
+              "end": 372,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 357,
+                "end": 365,
+                "name": "accessed"
+              },
+              "right": {
+                "type": "Literal",
+                "start": 368,
+                "end": 372,
+                "value": true,
+                "raw": "true"
+              }
+            }
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 376,
+            "end": 401,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 383,
+              "end": 400,
+              "left": {
+                "type": "ThisExpression",
+                "start": 383,
+                "end": 387
+              },
+              "operator": "===",
+              "right": {
+                "type": "Identifier",
+                "start": 392,
+                "end": 400,
+                "name": "objArray"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 407,
+      "end": 493,
+      "expression": {
+        "type": "CallExpression",
+        "start": 407,
+        "end": 492,
+        "callee": {
+          "type": "Identifier",
+          "start": 407,
+          "end": 413,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 414,
+            "end": 446,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 414,
+              "end": 424,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 414,
+                "end": 418,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 415,
+                    "end": 417,
+                    "value": 11,
+                    "raw": "11"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 419,
+                "end": 424,
+                "name": "every"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 425,
+                "end": 435,
+                "name": "callbackfn"
+              },
+              {
+                "type": "Identifier",
+                "start": 437,
+                "end": 445,
+                "name": "objArray"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 448,
+            "end": 491,
+            "value": "[11].every(callbackfn, objArray) !== true",
+            "raw": "'[11].every(callbackfn, objArray) !== true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 494,
+      "end": 532,
+      "expression": {
+        "type": "CallExpression",
+        "start": 494,
+        "end": 531,
+        "callee": {
+          "type": "Identifier",
+          "start": 494,
+          "end": 500,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 501,
+            "end": 509,
+            "name": "accessed"
+          },
+          {
+            "type": "Literal",
+            "start": 511,
+            "end": 530,
+            "value": "accessed !== true",
+            "raw": "'accessed !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

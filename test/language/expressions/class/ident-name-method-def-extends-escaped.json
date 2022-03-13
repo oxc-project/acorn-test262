@@ -1,0 +1,188 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1034,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 904,
+      "end": 953,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 908,
+          "end": 953,
+          "id": {
+            "type": "Identifier",
+            "start": 908,
+            "end": 909,
+            "name": "C"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 912,
+            "end": 953,
+            "id": null,
+            "superClass": null,
+            "body": {
+              "type": "ClassBody",
+              "start": 918,
+              "end": 953,
+              "body": [
+                {
+                  "type": "MethodDefinition",
+                  "start": 922,
+                  "end": 951,
+                  "static": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 922,
+                    "end": 934,
+                    "name": "extends"
+                  },
+                  "kind": "method",
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 934,
+                    "end": 951,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
+                    "params": [],
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 937,
+                      "end": 951,
+                      "body": [
+                        {
+                          "type": "ReturnStatement",
+                          "start": 939,
+                          "end": 949,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 946,
+                            "end": 948,
+                            "value": 42,
+                            "raw": "42"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 955,
+      "end": 973,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 959,
+          "end": 972,
+          "id": {
+            "type": "Identifier",
+            "start": 959,
+            "end": 962,
+            "name": "obj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 965,
+            "end": 972,
+            "callee": {
+              "type": "Identifier",
+              "start": 969,
+              "end": 970,
+              "name": "C"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 975,
+      "end": 1033,
+      "expression": {
+        "type": "CallExpression",
+        "start": 975,
+        "end": 1032,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 975,
+          "end": 991,
+          "object": {
+            "type": "Identifier",
+            "start": 975,
+            "end": 981,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 982,
+            "end": 991,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 992,
+            "end": 1008,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 992,
+              "end": 1006,
+              "object": {
+                "type": "Identifier",
+                "start": 992,
+                "end": 995,
+                "name": "obj"
+              },
+              "property": {
+                "type": "Literal",
+                "start": 996,
+                "end": 1005,
+                "value": "extends",
+                "raw": "'extends'"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1010,
+            "end": 1012,
+            "value": 42,
+            "raw": "42"
+          },
+          {
+            "type": "Literal",
+            "start": 1014,
+            "end": 1031,
+            "value": "property exists",
+            "raw": "'property exists'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

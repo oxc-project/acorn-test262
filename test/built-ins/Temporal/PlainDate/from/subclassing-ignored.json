@@ -1,0 +1,158 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 463,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 289,
+      "end": 462,
+      "expression": {
+        "type": "CallExpression",
+        "start": 289,
+        "end": 461,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 289,
+          "end": 334,
+          "object": {
+            "type": "Identifier",
+            "start": 289,
+            "end": 304,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 305,
+            "end": 334,
+            "name": "checkSubclassingIgnoredStatic"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 338,
+            "end": 356,
+            "object": {
+              "type": "Identifier",
+              "start": 338,
+              "end": 346,
+              "name": "Temporal"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 347,
+              "end": 356,
+              "name": "PlainDate"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 366,
+            "value": "from",
+            "raw": "\"from\""
+          },
+          {
+            "type": "ArrayExpression",
+            "start": 370,
+            "end": 384,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 371,
+                "end": 383,
+                "value": "2000-05-02",
+                "raw": "\"2000-05-02\""
+              }
+            ]
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 388,
+            "end": 458,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 389,
+                "end": 395,
+                "name": "result"
+              }
+            ],
+            "body": {
+              "type": "CallExpression",
+              "start": 400,
+              "end": 458,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 400,
+                "end": 431,
+                "object": {
+                  "type": "Identifier",
+                  "start": 400,
+                  "end": 415,
+                  "name": "TemporalHelpers"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 416,
+                  "end": 431,
+                  "name": "assertPlainDate"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 432,
+                  "end": 438,
+                  "name": "result"
+                },
+                {
+                  "type": "Literal",
+                  "start": 440,
+                  "end": 444,
+                  "value": 2000,
+                  "raw": "2000"
+                },
+                {
+                  "type": "Literal",
+                  "start": 446,
+                  "end": 447,
+                  "value": 5,
+                  "raw": "5"
+                },
+                {
+                  "type": "Literal",
+                  "start": 449,
+                  "end": 454,
+                  "value": "M05",
+                  "raw": "\"M05\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 456,
+                  "end": 457,
+                  "value": 2,
+                  "raw": "2"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

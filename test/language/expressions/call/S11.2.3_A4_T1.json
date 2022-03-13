@@ -1,0 +1,453 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 927,
+  "body": [
+    {
+      "type": "TryStatement",
+      "start": 319,
+      "end": 608,
+      "block": {
+        "type": "BlockStatement",
+        "start": 323,
+        "end": 456,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 327,
+            "end": 347,
+            "expression": {
+              "type": "CallExpression",
+              "start": 327,
+              "end": 346,
+              "callee": {
+                "type": "NewExpression",
+                "start": 327,
+                "end": 344,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 331,
+                  "end": 338,
+                  "name": "Boolean"
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 339,
+                    "end": 343,
+                    "value": true,
+                    "raw": "true"
+                  }
+                ]
+              },
+              "arguments": [],
+              "optional": false
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 350,
+            "end": 452,
+            "argument": {
+              "type": "NewExpression",
+              "start": 356,
+              "end": 451,
+              "callee": {
+                "type": "Identifier",
+                "start": 360,
+                "end": 372,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 373,
+                  "end": 450,
+                  "left": {
+                    "type": "Literal",
+                    "start": 373,
+                    "end": 426,
+                    "value": "#1.1: new Boolean(true)() throw TypeError. Actual: ",
+                    "raw": "'#1.1: new Boolean(true)() throw TypeError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 429,
+                    "end": 450,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 430,
+                      "end": 449,
+                      "callee": {
+                        "type": "NewExpression",
+                        "start": 430,
+                        "end": 447,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 434,
+                          "end": 441,
+                          "name": "Boolean"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 442,
+                            "end": 446,
+                            "value": true,
+                            "raw": "true"
+                          }
+                        ]
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 457,
+        "end": 608,
+        "param": {
+          "type": "Identifier",
+          "start": 464,
+          "end": 465,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 467,
+          "end": 608,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 471,
+              "end": 606,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 475,
+                "end": 508,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 475,
+                  "end": 499,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 476,
+                    "end": 498,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 476,
+                      "end": 477,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 489,
+                      "end": 498,
+                      "name": "TypeError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 504,
+                  "end": 508,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 510,
+                "end": 606,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 516,
+                    "end": 600,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 522,
+                      "end": 599,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 526,
+                        "end": 538,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 539,
+                          "end": 598,
+                          "left": {
+                            "type": "Literal",
+                            "start": 539,
+                            "end": 592,
+                            "value": "#1.2: new Boolean(true)() throw TypeError. Actual: ",
+                            "raw": "'#1.2: new Boolean(true)() throw TypeError. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 595,
+                            "end": 598,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 596,
+                              "end": 597,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    },
+    {
+      "type": "TryStatement",
+      "start": 620,
+      "end": 926,
+      "block": {
+        "type": "BlockStatement",
+        "start": 624,
+        "end": 764,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 628,
+            "end": 654,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 632,
+                "end": 653,
+                "id": {
+                  "type": "Identifier",
+                  "start": 632,
+                  "end": 633,
+                  "name": "x"
+                },
+                "init": {
+                  "type": "NewExpression",
+                  "start": 636,
+                  "end": 653,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 640,
+                    "end": 647,
+                    "name": "Boolean"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 648,
+                      "end": 652,
+                      "value": true,
+                      "raw": "true"
+                    }
+                  ]
+                }
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 657,
+            "end": 661,
+            "expression": {
+              "type": "CallExpression",
+              "start": 657,
+              "end": 660,
+              "callee": {
+                "type": "Identifier",
+                "start": 657,
+                "end": 658,
+                "name": "x"
+              },
+              "arguments": [],
+              "optional": false
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 664,
+            "end": 761,
+            "argument": {
+              "type": "NewExpression",
+              "start": 670,
+              "end": 760,
+              "callee": {
+                "type": "Identifier",
+                "start": 674,
+                "end": 686,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 687,
+                  "end": 759,
+                  "left": {
+                    "type": "Literal",
+                    "start": 687,
+                    "end": 751,
+                    "value": "#2.1: var x = new Boolean(true); x() throw TypeError. Actual: ",
+                    "raw": "'#2.1: var x = new Boolean(true); x() throw TypeError. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 754,
+                    "end": 759,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 755,
+                      "end": 758,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 755,
+                        "end": 756,
+                        "name": "x"
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 765,
+        "end": 926,
+        "param": {
+          "type": "Identifier",
+          "start": 772,
+          "end": 773,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 775,
+          "end": 926,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 779,
+              "end": 924,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 783,
+                "end": 816,
+                "left": {
+                  "type": "ParenthesizedExpression",
+                  "start": 783,
+                  "end": 807,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 784,
+                    "end": 806,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 784,
+                      "end": 785,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 797,
+                      "end": 806,
+                      "name": "TypeError"
+                    }
+                  }
+                },
+                "operator": "!==",
+                "right": {
+                  "type": "Literal",
+                  "start": 812,
+                  "end": 816,
+                  "value": true,
+                  "raw": "true"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 818,
+                "end": 924,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 824,
+                    "end": 919,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 830,
+                      "end": 918,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 834,
+                        "end": 846,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "BinaryExpression",
+                          "start": 847,
+                          "end": 917,
+                          "left": {
+                            "type": "Literal",
+                            "start": 847,
+                            "end": 911,
+                            "value": "#2.2: var x = new Boolean(true); x() throw TypeError. Actual: ",
+                            "raw": "'#2.2: var x = new Boolean(true); x() throw TypeError. Actual: '"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 914,
+                            "end": 917,
+                            "expression": {
+                              "type": "Identifier",
+                              "start": 915,
+                              "end": 916,
+                              "name": "e"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

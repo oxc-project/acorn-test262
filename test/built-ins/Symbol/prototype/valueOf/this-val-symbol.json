@@ -1,0 +1,170 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 436,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 318,
+      "end": 357,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 322,
+          "end": 356,
+          "id": {
+            "type": "Identifier",
+            "start": 322,
+            "end": 329,
+            "name": "valueOf"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 332,
+            "end": 356,
+            "object": {
+              "type": "MemberExpression",
+              "start": 332,
+              "end": 348,
+              "object": {
+                "type": "Identifier",
+                "start": 332,
+                "end": 338,
+                "name": "Symbol"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 339,
+                "end": 348,
+                "name": "prototype"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 349,
+              "end": 356,
+              "name": "valueOf"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 358,
+      "end": 384,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 362,
+          "end": 383,
+          "id": {
+            "type": "Identifier",
+            "start": 362,
+            "end": 369,
+            "name": "subject"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 372,
+            "end": 383,
+            "callee": {
+              "type": "Identifier",
+              "start": 372,
+              "end": 378,
+              "name": "Symbol"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 379,
+                "end": 382,
+                "value": "s",
+                "raw": "'s'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 386,
+      "end": 435,
+      "expression": {
+        "type": "CallExpression",
+        "start": 386,
+        "end": 434,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 386,
+          "end": 402,
+          "object": {
+            "type": "Identifier",
+            "start": 386,
+            "end": 392,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 393,
+            "end": 402,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 403,
+            "end": 424,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 403,
+              "end": 415,
+              "object": {
+                "type": "Identifier",
+                "start": 403,
+                "end": 410,
+                "name": "valueOf"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 411,
+                "end": 415,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 416,
+                "end": 423,
+                "name": "subject"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 426,
+            "end": 433,
+            "name": "subject"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

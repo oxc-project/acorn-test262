@@ -1,0 +1,167 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 701,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 387,
+      "end": 399,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 391,
+          "end": 398,
+          "id": {
+            "type": "Identifier",
+            "start": 391,
+            "end": 398,
+            "name": "FACTORY"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 400,
+      "end": 445,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 400,
+        "end": 444,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 400,
+          "end": 407,
+          "name": "FACTORY"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 410,
+          "end": 444,
+          "callee": {
+            "type": "Identifier",
+            "start": 410,
+            "end": 418,
+            "name": "Function"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 419,
+              "end": 425,
+              "value": "name",
+              "raw": "\"name\""
+            },
+            {
+              "type": "Literal",
+              "start": 426,
+              "end": 443,
+              "value": "this.name=name;",
+              "raw": "\"this.name=name;\""
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 457,
+      "end": 692,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 461,
+        "end": 492,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 461,
+          "end": 484,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 462,
+            "end": 483,
+            "left": {
+              "type": "Identifier",
+              "start": 462,
+              "end": 463,
+              "name": "x"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "Identifier",
+              "start": 476,
+              "end": 483,
+              "name": "FACTORY"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 487,
+          "end": 492,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 494,
+        "end": 692,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 498,
+            "end": 690,
+            "argument": {
+              "type": "NewExpression",
+              "start": 504,
+              "end": 689,
+              "callee": {
+                "type": "Identifier",
+                "start": 508,
+                "end": 520,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 521,
+                  "end": 688,
+                  "value": "#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false",
+                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 694,
+      "end": 700,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 698,
+          "end": 699,
+          "id": {
+            "type": "Identifier",
+            "start": 698,
+            "end": 699,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}

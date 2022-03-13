@@ -1,0 +1,223 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 885,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 697,
+      "end": 745,
+      "id": {
+        "type": "Identifier",
+        "start": 703,
+        "end": 706,
+        "name": "WS1"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 715,
+        "end": 722,
+        "name": "WeakSet"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 723,
+        "end": 745,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 727,
+            "end": 743,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 727,
+              "end": 738,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 738,
+              "end": 743,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 741,
+                "end": 743,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 747,
+      "end": 806,
+      "expression": {
+        "type": "CallExpression",
+        "start": 747,
+        "end": 805,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 747,
+          "end": 760,
+          "object": {
+            "type": "Identifier",
+            "start": 747,
+            "end": 753,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 754,
+            "end": 760,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 761,
+            "end": 775,
+            "name": "ReferenceError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 777,
+            "end": 804,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 788,
+              "end": 804,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 792,
+                  "end": 802,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 792,
+                    "end": 801,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 796,
+                      "end": 799,
+                      "name": "WS1"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 808,
+      "end": 872,
+      "id": {
+        "type": "Identifier",
+        "start": 814,
+        "end": 817,
+        "name": "WS2"
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 826,
+        "end": 833,
+        "name": "WeakSet"
+      },
+      "body": {
+        "type": "ClassBody",
+        "start": 834,
+        "end": 872,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 838,
+            "end": 870,
+            "static": false,
+            "computed": false,
+            "key": {
+              "type": "Identifier",
+              "start": 838,
+              "end": 849,
+              "name": "constructor"
+            },
+            "kind": "constructor",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 849,
+              "end": 870,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 852,
+                "end": 870,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 858,
+                    "end": 866,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 858,
+                      "end": 865,
+                      "callee": {
+                        "type": "Super",
+                        "start": 858,
+                        "end": 863
+                      },
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 874,
+      "end": 884,
+      "expression": {
+        "type": "NewExpression",
+        "start": 874,
+        "end": 883,
+        "callee": {
+          "type": "Identifier",
+          "start": 878,
+          "end": 881,
+          "name": "WS2"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

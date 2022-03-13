@@ -1,0 +1,64 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 357,
+  "body": [
+    {
+      "type": "EmptyStatement",
+      "start": 347,
+      "end": 348
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 348,
+      "end": 349
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 349,
+      "end": 351,
+      "expression": {
+        "type": "Literal",
+        "start": 349,
+        "end": 350,
+        "value": 1,
+        "raw": "1"
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 351,
+      "end": 352
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 352,
+      "end": 354,
+      "expression": {
+        "type": "Literal",
+        "start": 352,
+        "end": 353,
+        "value": 1,
+        "raw": "1"
+      }
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 354,
+      "end": 355
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 355,
+      "end": 356,
+      "expression": {
+        "type": "Literal",
+        "start": 355,
+        "end": 356,
+        "value": 1,
+        "raw": "1"
+      }
+    }
+  ],
+  "sourceType": "script"
+}

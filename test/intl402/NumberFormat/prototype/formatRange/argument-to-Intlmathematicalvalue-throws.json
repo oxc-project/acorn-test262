@@ -1,0 +1,282 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 742,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 488,
+      "end": 523,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 494,
+          "end": 522,
+          "id": {
+            "type": "Identifier",
+            "start": 494,
+            "end": 496,
+            "name": "nf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 499,
+            "end": 522,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 503,
+              "end": 520,
+              "object": {
+                "type": "Identifier",
+                "start": 503,
+                "end": 507,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 508,
+                "end": 520,
+                "name": "NumberFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 603,
+      "end": 672,
+      "expression": {
+        "type": "CallExpression",
+        "start": 603,
+        "end": 671,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 603,
+          "end": 616,
+          "object": {
+            "type": "Identifier",
+            "start": 603,
+            "end": 609,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 610,
+            "end": 616,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 617,
+            "end": 626,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 628,
+            "end": 670,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 634,
+              "end": 670,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 636,
+                  "end": 668,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 636,
+                    "end": 668,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 636,
+                      "end": 650,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 636,
+                        "end": 638,
+                        "name": "nf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 639,
+                        "end": 650,
+                        "name": "formatRange"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "CallExpression",
+                        "start": 651,
+                        "end": 662,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 651,
+                          "end": 657,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 658,
+                            "end": 661,
+                            "value": 102,
+                            "raw": "102"
+                          }
+                        ],
+                        "optional": false
+                      },
+                      {
+                        "type": "Literal",
+                        "start": 664,
+                        "end": 667,
+                        "value": 201,
+                        "raw": "201"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 673,
+      "end": 741,
+      "expression": {
+        "type": "CallExpression",
+        "start": 673,
+        "end": 740,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 673,
+          "end": 686,
+          "object": {
+            "type": "Identifier",
+            "start": 673,
+            "end": 679,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 680,
+            "end": 686,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 687,
+            "end": 696,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 698,
+            "end": 739,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 704,
+              "end": 739,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 706,
+                  "end": 737,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 706,
+                    "end": 737,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 706,
+                      "end": 720,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 706,
+                        "end": 708,
+                        "name": "nf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 709,
+                        "end": 720,
+                        "name": "formatRange"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 721,
+                        "end": 724,
+                        "value": 102,
+                        "raw": "102"
+                      },
+                      {
+                        "type": "CallExpression",
+                        "start": 725,
+                        "end": 736,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 725,
+                          "end": 731,
+                          "name": "Symbol"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "start": 732,
+                            "end": 735,
+                            "value": 201,
+                            "raw": "201"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

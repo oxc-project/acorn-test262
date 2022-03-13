@@ -1,0 +1,152 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 491,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 321,
+      "end": 342,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 325,
+          "end": 341,
+          "id": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 326,
+            "name": "x"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 329,
+            "end": 341,
+            "callee": {
+              "type": "Identifier",
+              "start": 333,
+              "end": 338,
+              "name": "Array"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 339,
+                "end": 340,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 343,
+      "end": 490,
+      "expression": {
+        "type": "CallExpression",
+        "start": 343,
+        "end": 489,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 343,
+          "end": 359,
+          "object": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 349,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 350,
+            "end": 359,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 360,
+            "end": 393,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 360,
+              "end": 390,
+              "object": {
+                "type": "MemberExpression",
+                "start": 360,
+                "end": 385,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 360,
+                  "end": 376,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 360,
+                    "end": 366,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 367,
+                    "end": 376,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 377,
+                  "end": 385,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 386,
+                "end": 390,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 391,
+                "end": 392,
+                "name": "x"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 395,
+            "end": 411,
+            "value": "[object Array]",
+            "raw": "\"[object Array]\""
+          },
+          {
+            "type": "Literal",
+            "start": 413,
+            "end": 488,
+            "value": "Object.prototype.toString.call(new Array(0)) must return \"[object Array]\"",
+            "raw": "'Object.prototype.toString.call(new Array(0)) must return \"[object Array]\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

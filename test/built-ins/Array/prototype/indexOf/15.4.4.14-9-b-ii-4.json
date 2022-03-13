@@ -1,0 +1,127 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 332,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 244,
+      "end": 331,
+      "expression": {
+        "type": "CallExpression",
+        "start": 244,
+        "end": 330,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 244,
+          "end": 260,
+          "object": {
+            "type": "Identifier",
+            "start": 244,
+            "end": 250,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 251,
+            "end": 260,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 261,
+            "end": 291,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 261,
+              "end": 286,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 261,
+                "end": 278,
+                "elements": [
+                  {
+                    "type": "UnaryExpression",
+                    "start": 262,
+                    "end": 266,
+                    "operator": "+",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 263,
+                      "end": 266,
+                      "name": "NaN"
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 268,
+                    "end": 271,
+                    "name": "NaN"
+                  },
+                  {
+                    "type": "UnaryExpression",
+                    "start": 273,
+                    "end": 277,
+                    "operator": "-",
+                    "prefix": true,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 274,
+                      "end": 277,
+                      "name": "NaN"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 279,
+                "end": 286,
+                "name": "indexOf"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 287,
+                "end": 290,
+                "name": "NaN"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 293,
+            "end": 295,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 294,
+              "end": 295,
+              "value": 1,
+              "raw": "1"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 297,
+            "end": 329,
+            "value": "[+NaN, NaN, -NaN].indexOf(NaN)",
+            "raw": "'[+NaN, NaN, -NaN].indexOf(NaN)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

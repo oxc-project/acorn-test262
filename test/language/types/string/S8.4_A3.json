@@ -1,0 +1,134 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 583,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 257,
+      "end": 280,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 261,
+          "end": 279,
+          "id": {
+            "type": "Identifier",
+            "start": 261,
+            "end": 266,
+            "name": "__str"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 269,
+            "end": 279,
+            "value": "ABCDEFGH",
+            "raw": "\"ABCDEFGH\""
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 370,
+      "end": 500,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 374,
+        "end": 392,
+        "left": {
+          "type": "MemberExpression",
+          "start": 374,
+          "end": 386,
+          "object": {
+            "type": "Identifier",
+            "start": 374,
+            "end": 379,
+            "name": "__str"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 380,
+            "end": 386,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 391,
+          "end": 392,
+          "value": 8,
+          "raw": "8"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 394,
+        "end": 500,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 398,
+            "end": 498,
+            "argument": {
+              "type": "NewExpression",
+              "start": 404,
+              "end": 497,
+              "callee": {
+                "type": "Identifier",
+                "start": 408,
+                "end": 420,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 421,
+                  "end": 496,
+                  "left": {
+                    "type": "Literal",
+                    "start": 421,
+                    "end": 479,
+                    "value": "#1: var __str = \"ABCDEFGH\"; __str.length === 8. Actual: ",
+                    "raw": "'#1: var __str = \"ABCDEFGH\"; __str.length === 8. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 482,
+                    "end": 496,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 483,
+                      "end": 495,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 483,
+                        "end": 488,
+                        "name": "__str"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 489,
+                        "end": 495,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

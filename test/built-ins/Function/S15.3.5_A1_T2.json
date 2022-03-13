@@ -1,0 +1,145 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 456,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 275,
+      "end": 294,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 279,
+          "end": 293,
+          "id": {
+            "type": "Identifier",
+            "start": 279,
+            "end": 280,
+            "name": "f"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 283,
+            "end": 293,
+            "callee": {
+              "type": "Identifier",
+              "start": 283,
+              "end": 291,
+              "name": "Function"
+            },
+            "arguments": [],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 296,
+      "end": 455,
+      "expression": {
+        "type": "CallExpression",
+        "start": 296,
+        "end": 454,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 296,
+          "end": 312,
+          "object": {
+            "type": "Identifier",
+            "start": 296,
+            "end": 302,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 303,
+            "end": 312,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 316,
+            "end": 349,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 316,
+              "end": 346,
+              "object": {
+                "type": "MemberExpression",
+                "start": 316,
+                "end": 341,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 316,
+                  "end": 332,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 316,
+                    "end": 322,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 323,
+                    "end": 332,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 333,
+                  "end": 341,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 346,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 347,
+                "end": 348,
+                "name": "f"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 353,
+            "end": 372,
+            "value": "[object Function]",
+            "raw": "\"[object Function]\""
+          },
+          {
+            "type": "Literal",
+            "start": 376,
+            "end": 452,
+            "value": "Object.prototype.toString.call(Function()) must return \"[object Function]\"",
+            "raw": "'Object.prototype.toString.call(Function()) must return \"[object Function]\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

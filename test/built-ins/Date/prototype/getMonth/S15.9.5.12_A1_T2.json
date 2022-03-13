@@ -1,0 +1,173 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 615,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 306,
+      "end": 425,
+      "expression": {
+        "type": "CallExpression",
+        "start": 306,
+        "end": 424,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 306,
+          "end": 325,
+          "object": {
+            "type": "Identifier",
+            "start": 306,
+            "end": 312,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 313,
+            "end": 325,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 326,
+            "end": 356,
+            "operator": "delete",
+            "prefix": true,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 333,
+              "end": 356,
+              "object": {
+                "type": "MemberExpression",
+                "start": 333,
+                "end": 347,
+                "object": {
+                  "type": "Identifier",
+                  "start": 333,
+                  "end": 337,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 338,
+                  "end": 347,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 348,
+                "end": 356,
+                "name": "getMonth"
+              },
+              "computed": false,
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 358,
+            "end": 363,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 365,
+            "end": 423,
+            "value": "The value of delete Date.prototype.getMonth is not false",
+            "raw": "'The value of delete Date.prototype.getMonth is not false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 427,
+      "end": 568,
+      "expression": {
+        "type": "CallExpression",
+        "start": 427,
+        "end": 567,
+        "callee": {
+          "type": "Identifier",
+          "start": 427,
+          "end": 433,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 437,
+            "end": 479,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 438,
+              "end": 479,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 438,
+                "end": 467,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 438,
+                  "end": 452,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 438,
+                    "end": 442,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 443,
+                    "end": 452,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 453,
+                  "end": 467,
+                  "name": "hasOwnProperty"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 468,
+                  "end": 478,
+                  "value": "getMonth",
+                  "raw": "'getMonth'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 483,
+            "end": 565,
+            "value": "The value of !Date.prototype.hasOwnProperty('getMonth') is expected to be true",
+            "raw": "'The value of !Date.prototype.hasOwnProperty(\\'getMonth\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

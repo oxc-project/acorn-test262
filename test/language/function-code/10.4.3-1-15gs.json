@@ -1,0 +1,98 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 430,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 315,
+      "end": 359,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 319,
+          "end": 358,
+          "id": {
+            "type": "Identifier",
+            "start": 319,
+            "end": 320,
+            "name": "f"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 323,
+            "end": 358,
+            "callee": {
+              "type": "Identifier",
+              "start": 327,
+              "end": 335,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 336,
+                "end": 357,
+                "value": "return typeof this;",
+                "raw": "\"return typeof this;\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "IfStatement",
+      "start": 360,
+      "end": 429,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 364,
+        "end": 383,
+        "left": {
+          "type": "CallExpression",
+          "start": 364,
+          "end": 367,
+          "callee": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 365,
+            "name": "f"
+          },
+          "arguments": [],
+          "optional": false
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 372,
+          "end": 383,
+          "value": "undefined",
+          "raw": "\"undefined\""
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 385,
+        "end": 429,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 391,
+            "end": 427,
+            "argument": {
+              "type": "Literal",
+              "start": 397,
+              "end": 426,
+              "value": "'this' had incorrect value!",
+              "raw": "\"'this' had incorrect value!\""
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

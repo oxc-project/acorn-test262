@@ -1,0 +1,58 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 289,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 252,
+      "end": 288,
+      "id": {
+        "type": "Identifier",
+        "start": 258,
+        "end": 260,
+        "name": "C4"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 261,
+        "end": 288,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 265,
+            "end": 286,
+            "static": false,
+            "computed": true,
+            "key": {
+              "type": "Literal",
+              "start": 267,
+              "end": 280,
+              "value": "constructor",
+              "raw": "'constructor'"
+            },
+            "kind": "method",
+            "value": {
+              "type": "FunctionExpression",
+              "start": 281,
+              "end": 286,
+              "id": null,
+              "expression": false,
+              "generator": true,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 284,
+                "end": 286,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,280 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 659,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 294,
+      "end": 362,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 300,
+          "end": 361,
+          "id": {
+            "type": "Identifier",
+            "start": 300,
+            "end": 306,
+            "name": "nonsab"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 309,
+            "end": 361,
+            "callee": {
+              "type": "Identifier",
+              "start": 313,
+              "end": 324,
+              "name": "ArrayBuffer"
+            },
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 325,
+                "end": 360,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 325,
+                  "end": 356,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 325,
+                    "end": 338,
+                    "name": "BigInt64Array"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 339,
+                    "end": 356,
+                    "name": "BYTES_PER_ELEMENT"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "operator": "*",
+                "right": {
+                  "type": "Literal",
+                  "start": 359,
+                  "end": 360,
+                  "value": 8,
+                  "raw": "8"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 364,
+      "end": 464,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 370,
+          "end": 463,
+          "id": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 378,
+            "name": "poisoned"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 381,
+            "end": 463,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 385,
+                "end": 461,
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 385,
+                  "end": 392,
+                  "name": "valueOf"
+                },
+                "kind": "init",
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 392,
+                  "end": 461,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 395,
+                    "end": 461,
+                    "body": [
+                      {
+                        "type": "ThrowStatement",
+                        "start": 401,
+                        "end": 457,
+                        "argument": {
+                          "type": "NewExpression",
+                          "start": 407,
+                          "end": 456,
+                          "callee": {
+                            "type": "Identifier",
+                            "start": 411,
+                            "end": 423,
+                            "name": "Test262Error"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "start": 424,
+                              "end": 455,
+                              "value": "should not evaluate this code",
+                              "raw": "'should not evaluate this code'"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 466,
+      "end": 658,
+      "expression": {
+        "type": "CallExpression",
+        "start": 466,
+        "end": 657,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 466,
+          "end": 479,
+          "object": {
+            "type": "Identifier",
+            "start": 466,
+            "end": 472,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 479,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 480,
+            "end": 489,
+            "name": "TypeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 491,
+            "end": 571,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 502,
+              "end": 571,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 506,
+                  "end": 569,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 506,
+                    "end": 568,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 506,
+                      "end": 520,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 506,
+                        "end": 513,
+                        "name": "Atomics"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 514,
+                        "end": 520,
+                        "name": "notify"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "NewExpression",
+                        "start": 521,
+                        "end": 547,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 525,
+                          "end": 539,
+                          "name": "BigUint64Array"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 540,
+                            "end": 546,
+                            "name": "nonsab"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 549,
+                        "end": 557,
+                        "name": "poisoned"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 559,
+                        "end": 567,
+                        "name": "poisoned"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 573,
+            "end": 656,
+            "value": "`Atomics.notify(new BigUint64Array(nonsab), poisoned, poisoned)` throws TypeError",
+            "raw": "'`Atomics.notify(new BigUint64Array(nonsab), poisoned, poisoned)` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

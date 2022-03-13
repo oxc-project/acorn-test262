@@ -1,0 +1,178 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 391,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 240,
+      "end": 313,
+      "expression": {
+        "type": "CallExpression",
+        "start": 240,
+        "end": 312,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 240,
+          "end": 256,
+          "object": {
+            "type": "Identifier",
+            "start": 240,
+            "end": 246,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 247,
+            "end": 256,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 257,
+            "end": 277,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 257,
+              "end": 267,
+              "object": {
+                "type": "Identifier",
+                "start": 257,
+                "end": 261,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 262,
+                "end": 267,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 268,
+                "end": 276,
+                "name": "Infinity"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 279,
+            "end": 287,
+            "name": "Infinity"
+          },
+          {
+            "type": "Literal",
+            "start": 289,
+            "end": 311,
+            "value": "Math.trunc(Infinity)",
+            "raw": "'Math.trunc(Infinity)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 314,
+      "end": 390,
+      "expression": {
+        "type": "CallExpression",
+        "start": 314,
+        "end": 389,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 314,
+          "end": 330,
+          "object": {
+            "type": "Identifier",
+            "start": 314,
+            "end": 320,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 330,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 331,
+            "end": 352,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 331,
+              "end": 341,
+              "object": {
+                "type": "Identifier",
+                "start": 331,
+                "end": 335,
+                "name": "Math"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 341,
+                "name": "trunc"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "UnaryExpression",
+                "start": 342,
+                "end": 351,
+                "operator": "-",
+                "prefix": true,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 343,
+                  "end": 351,
+                  "name": "Infinity"
+                }
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "UnaryExpression",
+            "start": 354,
+            "end": 363,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 355,
+              "end": 363,
+              "name": "Infinity"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 365,
+            "end": 388,
+            "value": "Math.trunc(-Infinity)",
+            "raw": "'Math.trunc(-Infinity)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

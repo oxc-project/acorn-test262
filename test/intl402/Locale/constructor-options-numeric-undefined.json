@@ -1,0 +1,363 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1882,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1340,
+      "end": 1379,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1346,
+          "end": 1378,
+          "id": {
+            "type": "Identifier",
+            "start": 1346,
+            "end": 1353,
+            "name": "options"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1356,
+            "end": 1378,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1358,
+                "end": 1376,
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 1358,
+                  "end": 1365,
+                  "name": "numeric"
+                },
+                "value": {
+                  "type": "Identifier",
+                  "start": 1367,
+                  "end": 1376,
+                  "name": "undefined"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1380,
+      "end": 1525,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1380,
+        "end": 1524,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1380,
+          "end": 1396,
+          "object": {
+            "type": "Identifier",
+            "start": 1380,
+            "end": 1386,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1387,
+            "end": 1396,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1400,
+            "end": 1441,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1400,
+              "end": 1439,
+              "object": {
+                "type": "NewExpression",
+                "start": 1400,
+                "end": 1430,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1404,
+                  "end": 1415,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1404,
+                    "end": 1408,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1409,
+                    "end": 1415,
+                    "name": "Locale"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1416,
+                    "end": 1420,
+                    "value": "en",
+                    "raw": "'en'"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 1422,
+                    "end": 1429,
+                    "name": "options"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1431,
+                "end": 1439,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1445,
+            "end": 1449,
+            "value": "en",
+            "raw": "\"en\""
+          },
+          {
+            "type": "Literal",
+            "start": 1453,
+            "end": 1522,
+            "value": "new Intl.Locale(\"en\", {numeric: undefined}).toString() returns \"en\"",
+            "raw": "'new Intl.Locale(\"en\", {numeric: undefined}).toString() returns \"en\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1527,
+      "end": 1702,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1527,
+        "end": 1701,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1527,
+          "end": 1543,
+          "object": {
+            "type": "Identifier",
+            "start": 1527,
+            "end": 1533,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1534,
+            "end": 1543,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1547,
+            "end": 1598,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1547,
+              "end": 1596,
+              "object": {
+                "type": "NewExpression",
+                "start": 1547,
+                "end": 1587,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1551,
+                  "end": 1562,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1551,
+                    "end": 1555,
+                    "name": "Intl"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1556,
+                    "end": 1562,
+                    "name": "Locale"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 1563,
+                    "end": 1577,
+                    "value": "en-u-kn-true",
+                    "raw": "'en-u-kn-true'"
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 1579,
+                    "end": 1586,
+                    "name": "options"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1588,
+                "end": 1596,
+                "name": "toString"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1602,
+            "end": 1611,
+            "value": "en-u-kn",
+            "raw": "\"en-u-kn\""
+          },
+          {
+            "type": "Literal",
+            "start": 1615,
+            "end": 1699,
+            "value": "new Intl.Locale(\"en-u-kn-true\", {numeric: undefined}).toString() returns \"en-u-kn\"",
+            "raw": "'new Intl.Locale(\"en-u-kn-true\", {numeric: undefined}).toString() returns \"en-u-kn\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1704,
+      "end": 1881,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1704,
+        "end": 1880,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1704,
+          "end": 1720,
+          "object": {
+            "type": "Identifier",
+            "start": 1704,
+            "end": 1710,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1711,
+            "end": 1720,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 1724,
+            "end": 1773,
+            "object": {
+              "type": "NewExpression",
+              "start": 1724,
+              "end": 1765,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 1728,
+                "end": 1739,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1728,
+                  "end": 1732,
+                  "name": "Intl"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 1733,
+                  "end": 1739,
+                  "name": "Locale"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1740,
+                  "end": 1755,
+                  "value": "en-u-kf-lower",
+                  "raw": "'en-u-kf-lower'"
+                },
+                {
+                  "type": "Identifier",
+                  "start": 1757,
+                  "end": 1764,
+                  "name": "options"
+                }
+              ]
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 1766,
+              "end": 1773,
+              "name": "numeric"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1777,
+            "end": 1782,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 1786,
+            "end": 1878,
+            "value": "The value of new Intl.Locale(\"en-u-kf-lower\", {numeric: undefined}).numeric equals `false`",
+            "raw": "'The value of new Intl.Locale(\"en-u-kf-lower\", {numeric: undefined}).numeric equals `false`'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

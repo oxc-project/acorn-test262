@@ -1,0 +1,97 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 395,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 245,
+      "end": 394,
+      "expression": {
+        "type": "CallExpression",
+        "start": 245,
+        "end": 393,
+        "callee": {
+          "type": "Identifier",
+          "start": 245,
+          "end": 251,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 255,
+            "end": 302,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 256,
+              "end": 302,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "ParenthesizedExpression",
+                "start": 257,
+                "end": 302,
+                "expression": {
+                  "type": "BinaryExpression",
+                  "start": 258,
+                  "end": 301,
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 258,
+                    "end": 281,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 258,
+                      "end": 275,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 258,
+                        "end": 265,
+                        "name": "Promise"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 266,
+                        "end": 275,
+                        "name": "prototype"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 276,
+                      "end": 281,
+                      "name": "catch"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "operator": "instanceof",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 293,
+                    "end": 301,
+                    "name": "Function"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 306,
+            "end": 391,
+            "value": "The value of !!(Promise.prototype.catch instanceof Function) is expected to be true",
+            "raw": "'The value of !!(Promise.prototype.catch instanceof Function) is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,175 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 446,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 254,
+      "end": 285,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 258,
+          "end": 284,
+          "id": {
+            "type": "Identifier",
+            "start": 258,
+            "end": 268,
+            "name": "objBoolean"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 271,
+            "end": 284,
+            "callee": {
+              "type": "Identifier",
+              "start": 275,
+              "end": 282,
+              "name": "Boolean"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 287,
+      "end": 355,
+      "id": {
+        "type": "Identifier",
+        "start": 296,
+        "end": 306,
+        "name": "callbackfn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 307,
+          "end": 310,
+          "name": "val"
+        },
+        {
+          "type": "Identifier",
+          "start": 312,
+          "end": 315,
+          "name": "idx"
+        },
+        {
+          "type": "Identifier",
+          "start": 317,
+          "end": 320,
+          "name": "obj"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 322,
+        "end": 355,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 326,
+            "end": 353,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 333,
+              "end": 352,
+              "left": {
+                "type": "ThisExpression",
+                "start": 333,
+                "end": 337
+              },
+              "operator": "===",
+              "right": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 352,
+                "name": "objBoolean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 357,
+      "end": 445,
+      "expression": {
+        "type": "CallExpression",
+        "start": 357,
+        "end": 444,
+        "callee": {
+          "type": "Identifier",
+          "start": 357,
+          "end": 363,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 364,
+            "end": 397,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 364,
+              "end": 373,
+              "object": {
+                "type": "ArrayExpression",
+                "start": 364,
+                "end": 368,
+                "elements": [
+                  {
+                    "type": "Literal",
+                    "start": 365,
+                    "end": 367,
+                    "value": 11,
+                    "raw": "11"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 369,
+                "end": 373,
+                "name": "some"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 374,
+                "end": 384,
+                "name": "callbackfn"
+              },
+              {
+                "type": "Identifier",
+                "start": 386,
+                "end": 396,
+                "name": "objBoolean"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 399,
+            "end": 443,
+            "value": "[11].some(callbackfn, objBoolean) !== true",
+            "raw": "'[11].some(callbackfn, objBoolean) !== true'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

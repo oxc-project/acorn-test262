@@ -1,0 +1,203 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 789,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 585,
+      "end": 616,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 589,
+          "end": 615,
+          "id": {
+            "type": "Identifier",
+            "start": 589,
+            "end": 598,
+            "name": "IsHTMLDDA"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 601,
+            "end": 615,
+            "object": {
+              "type": "Identifier",
+              "start": 601,
+              "end": 605,
+              "name": "$262"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 606,
+              "end": 615,
+              "name": "IsHTMLDDA"
+            },
+            "computed": false,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 618,
+      "end": 788,
+      "expression": {
+        "type": "CallExpression",
+        "start": 618,
+        "end": 787,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 618,
+          "end": 634,
+          "object": {
+            "type": "Identifier",
+            "start": 618,
+            "end": 624,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 625,
+            "end": 634,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 638,
+            "end": 780,
+            "callee": {
+              "type": "ParenthesizedExpression",
+              "start": 638,
+              "end": 778,
+              "expression": {
+                "type": "FunctionExpression",
+                "start": 639,
+                "end": 777,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 650,
+                  "end": 777,
+                  "body": [
+                    {
+                      "type": "SwitchStatement",
+                      "start": 656,
+                      "end": 773,
+                      "discriminant": {
+                        "type": "Identifier",
+                        "start": 664,
+                        "end": 673,
+                        "name": "IsHTMLDDA"
+                      },
+                      "cases": [
+                        {
+                          "type": "SwitchCase",
+                          "start": 683,
+                          "end": 708,
+                          "consequent": [
+                            {
+                              "type": "ReturnStatement",
+                              "start": 699,
+                              "end": 708,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 706,
+                                "end": 707,
+                                "value": 1,
+                                "raw": "1"
+                              }
+                            }
+                          ],
+                          "test": {
+                            "type": "Identifier",
+                            "start": 688,
+                            "end": 697,
+                            "name": "undefined"
+                          }
+                        },
+                        {
+                          "type": "SwitchCase",
+                          "start": 715,
+                          "end": 735,
+                          "consequent": [
+                            {
+                              "type": "ReturnStatement",
+                              "start": 726,
+                              "end": 735,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 733,
+                                "end": 734,
+                                "value": 2,
+                                "raw": "2"
+                              }
+                            }
+                          ],
+                          "test": {
+                            "type": "Literal",
+                            "start": 720,
+                            "end": 724,
+                            "value": null,
+                            "raw": "null"
+                          }
+                        },
+                        {
+                          "type": "SwitchCase",
+                          "start": 742,
+                          "end": 767,
+                          "consequent": [
+                            {
+                              "type": "ReturnStatement",
+                              "start": 758,
+                              "end": 767,
+                              "argument": {
+                                "type": "Literal",
+                                "start": 765,
+                                "end": 766,
+                                "value": 3,
+                                "raw": "3"
+                              }
+                            }
+                          ],
+                          "test": {
+                            "type": "Identifier",
+                            "start": 747,
+                            "end": 756,
+                            "name": "IsHTMLDDA"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 784,
+            "end": 785,
+            "value": 3,
+            "raw": "3"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

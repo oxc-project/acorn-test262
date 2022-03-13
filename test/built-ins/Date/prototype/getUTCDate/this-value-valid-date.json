@@ -1,0 +1,905 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1175,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 339,
+      "end": 365,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 343,
+          "end": 364,
+          "id": {
+            "type": "Identifier",
+            "start": 343,
+            "end": 348,
+            "name": "july6"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 351,
+            "end": 364,
+            "value": 1467763200000,
+            "raw": "1467763200000"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 366,
+      "end": 392,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 370,
+          "end": 391,
+          "id": {
+            "type": "Identifier",
+            "start": 370,
+            "end": 375,
+            "name": "feb29"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 378,
+            "end": 391,
+            "value": 1456704000000,
+            "raw": "1456704000000"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 393,
+      "end": 425,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 397,
+          "end": 424,
+          "id": {
+            "type": "Identifier",
+            "start": 397,
+            "end": 402,
+            "name": "dayMs"
+          },
+          "init": {
+            "type": "BinaryExpression",
+            "start": 405,
+            "end": 424,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 405,
+              "end": 417,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 405,
+                "end": 412,
+                "left": {
+                  "type": "Literal",
+                  "start": 405,
+                  "end": 407,
+                  "value": 24,
+                  "raw": "24"
+                },
+                "operator": "*",
+                "right": {
+                  "type": "Literal",
+                  "start": 410,
+                  "end": 412,
+                  "value": 60,
+                  "raw": "60"
+                }
+              },
+              "operator": "*",
+              "right": {
+                "type": "Literal",
+                "start": 415,
+                "end": 417,
+                "value": 60,
+                "raw": "60"
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "Literal",
+              "start": 420,
+              "end": 424,
+              "value": 1000,
+              "raw": "1000"
+            }
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 427,
+      "end": 498,
+      "expression": {
+        "type": "CallExpression",
+        "start": 427,
+        "end": 497,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 427,
+          "end": 443,
+          "object": {
+            "type": "Identifier",
+            "start": 427,
+            "end": 433,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 434,
+            "end": 443,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 444,
+            "end": 472,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 444,
+              "end": 470,
+              "object": {
+                "type": "NewExpression",
+                "start": 444,
+                "end": 459,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 448,
+                  "end": 452,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 453,
+                    "end": 458,
+                    "name": "july6"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 460,
+                "end": 470,
+                "name": "getUTCDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 474,
+            "end": 475,
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "type": "Literal",
+            "start": 477,
+            "end": 496,
+            "value": "first millisecond",
+            "raw": "'first millisecond'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 499,
+      "end": 581,
+      "expression": {
+        "type": "CallExpression",
+        "start": 499,
+        "end": 580,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 499,
+          "end": 515,
+          "object": {
+            "type": "Identifier",
+            "start": 499,
+            "end": 505,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 506,
+            "end": 515,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 519,
+            "end": 551,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 519,
+              "end": 549,
+              "object": {
+                "type": "NewExpression",
+                "start": 519,
+                "end": 538,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 523,
+                  "end": 527,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 528,
+                    "end": 537,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 528,
+                      "end": 533,
+                      "name": "july6"
+                    },
+                    "operator": "-",
+                    "right": {
+                      "type": "Literal",
+                      "start": 536,
+                      "end": 537,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 539,
+                "end": 549,
+                "name": "getUTCDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 553,
+            "end": 554,
+            "value": 5,
+            "raw": "5"
+          },
+          {
+            "type": "Literal",
+            "start": 556,
+            "end": 578,
+            "value": "previous millisecond",
+            "raw": "'previous millisecond'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 582,
+      "end": 669,
+      "expression": {
+        "type": "CallExpression",
+        "start": 582,
+        "end": 668,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 582,
+          "end": 598,
+          "object": {
+            "type": "Identifier",
+            "start": 582,
+            "end": 588,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 589,
+            "end": 598,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 602,
+            "end": 642,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 602,
+              "end": 640,
+              "object": {
+                "type": "NewExpression",
+                "start": 602,
+                "end": 629,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 606,
+                  "end": 610,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 611,
+                    "end": 628,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 611,
+                      "end": 624,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 611,
+                        "end": 616,
+                        "name": "july6"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 619,
+                        "end": 624,
+                        "name": "dayMs"
+                      }
+                    },
+                    "operator": "-",
+                    "right": {
+                      "type": "Literal",
+                      "start": 627,
+                      "end": 628,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 630,
+                "end": 640,
+                "name": "getUTCDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 644,
+            "end": 645,
+            "value": 6,
+            "raw": "6"
+          },
+          {
+            "type": "Literal",
+            "start": 647,
+            "end": 666,
+            "value": "final millisecond",
+            "raw": "'final millisecond'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 670,
+      "end": 758,
+      "expression": {
+        "type": "CallExpression",
+        "start": 670,
+        "end": 757,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 670,
+          "end": 686,
+          "object": {
+            "type": "Identifier",
+            "start": 670,
+            "end": 676,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 677,
+            "end": 686,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 690,
+            "end": 726,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 690,
+              "end": 724,
+              "object": {
+                "type": "NewExpression",
+                "start": 690,
+                "end": 713,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 694,
+                  "end": 698,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 699,
+                    "end": 712,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 699,
+                      "end": 704,
+                      "name": "july6"
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 707,
+                      "end": 712,
+                      "name": "dayMs"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 714,
+                "end": 724,
+                "name": "getUTCDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 728,
+            "end": 729,
+            "value": 7,
+            "raw": "7"
+          },
+          {
+            "type": "Literal",
+            "start": 731,
+            "end": 755,
+            "value": "subsequent millisecond",
+            "raw": "'subsequent millisecond'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 760,
+      "end": 853,
+      "expression": {
+        "type": "CallExpression",
+        "start": 760,
+        "end": 852,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 760,
+          "end": 776,
+          "object": {
+            "type": "Identifier",
+            "start": 760,
+            "end": 766,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 767,
+            "end": 776,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 780,
+            "end": 808,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 780,
+              "end": 806,
+              "object": {
+                "type": "NewExpression",
+                "start": 780,
+                "end": 795,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 784,
+                  "end": 788,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 789,
+                    "end": 794,
+                    "name": "feb29"
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 796,
+                "end": 806,
+                "name": "getUTCDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 810,
+            "end": 812,
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "type": "Literal",
+            "start": 814,
+            "end": 850,
+            "value": "first millisecond (month boundary)",
+            "raw": "'first millisecond (month boundary)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 854,
+      "end": 954,
+      "expression": {
+        "type": "CallExpression",
+        "start": 854,
+        "end": 953,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 854,
+          "end": 870,
+          "object": {
+            "type": "Identifier",
+            "start": 854,
+            "end": 860,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 861,
+            "end": 870,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 874,
+            "end": 906,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 874,
+              "end": 904,
+              "object": {
+                "type": "NewExpression",
+                "start": 874,
+                "end": 893,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 878,
+                  "end": 882,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 883,
+                    "end": 892,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 883,
+                      "end": 888,
+                      "name": "feb29"
+                    },
+                    "operator": "-",
+                    "right": {
+                      "type": "Literal",
+                      "start": 891,
+                      "end": 892,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 894,
+                "end": 904,
+                "name": "getUTCDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 908,
+            "end": 910,
+            "value": 28,
+            "raw": "28"
+          },
+          {
+            "type": "Literal",
+            "start": 912,
+            "end": 951,
+            "value": "previous millisecond (month boundary)",
+            "raw": "'previous millisecond (month boundary)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 955,
+      "end": 1064,
+      "expression": {
+        "type": "CallExpression",
+        "start": 955,
+        "end": 1063,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 955,
+          "end": 971,
+          "object": {
+            "type": "Identifier",
+            "start": 955,
+            "end": 961,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 962,
+            "end": 971,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 975,
+            "end": 1015,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 975,
+              "end": 1013,
+              "object": {
+                "type": "NewExpression",
+                "start": 975,
+                "end": 1002,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 979,
+                  "end": 983,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 984,
+                    "end": 1001,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 984,
+                      "end": 997,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 984,
+                        "end": 989,
+                        "name": "feb29"
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 992,
+                        "end": 997,
+                        "name": "dayMs"
+                      }
+                    },
+                    "operator": "-",
+                    "right": {
+                      "type": "Literal",
+                      "start": 1000,
+                      "end": 1001,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1003,
+                "end": 1013,
+                "name": "getUTCDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1019,
+            "end": 1021,
+            "value": 29,
+            "raw": "29"
+          },
+          {
+            "type": "Literal",
+            "start": 1025,
+            "end": 1061,
+            "value": "final millisecond (month boundary)",
+            "raw": "'final millisecond (month boundary)'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1065,
+      "end": 1174,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1065,
+        "end": 1173,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1065,
+          "end": 1081,
+          "object": {
+            "type": "Identifier",
+            "start": 1065,
+            "end": 1071,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1072,
+            "end": 1081,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 1085,
+            "end": 1121,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1085,
+              "end": 1119,
+              "object": {
+                "type": "NewExpression",
+                "start": 1085,
+                "end": 1108,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1089,
+                  "end": 1093,
+                  "name": "Date"
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 1094,
+                    "end": 1107,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 1094,
+                      "end": 1099,
+                      "name": "feb29"
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 1102,
+                      "end": 1107,
+                      "name": "dayMs"
+                    }
+                  }
+                ]
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1109,
+                "end": 1119,
+                "name": "getUTCDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 1125,
+            "end": 1126,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 1130,
+            "end": 1171,
+            "value": "subsequent millisecond (month boundary)",
+            "raw": "'subsequent millisecond (month boundary)'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

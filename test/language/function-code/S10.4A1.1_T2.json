@@ -1,0 +1,336 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 545,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 259,
+      "end": 265,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 263,
+          "end": 264,
+          "id": {
+            "type": "Identifier",
+            "start": 263,
+            "end": 264,
+            "name": "y"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 267,
+      "end": 423,
+      "id": {
+        "type": "Identifier",
+        "start": 276,
+        "end": 277,
+        "name": "f"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 278,
+          "end": 279,
+          "name": "a"
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "start": 280,
+        "end": 423,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 284,
+            "end": 290,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 288,
+                "end": 289,
+                "id": {
+                  "type": "Identifier",
+                  "start": 288,
+                  "end": 289,
+                  "name": "x"
+                },
+                "init": null
+              }
+            ],
+            "kind": "var"
+          },
+          {
+            "type": "IfStatement",
+            "start": 294,
+            "end": 421,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 298,
+              "end": 305,
+              "left": {
+                "type": "Identifier",
+                "start": 298,
+                "end": 299,
+                "name": "a"
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 304,
+                "end": 305,
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "consequent": {
+              "type": "ReturnStatement",
+              "start": 311,
+              "end": 320,
+              "argument": {
+                "type": "Identifier",
+                "start": 318,
+                "end": 319,
+                "name": "x"
+              }
+            },
+            "alternate": {
+              "type": "BlockStatement",
+              "start": 328,
+              "end": 421,
+              "body": [
+                {
+                  "type": "IfStatement",
+                  "start": 334,
+                  "end": 400,
+                  "test": {
+                    "type": "BinaryExpression",
+                    "start": 337,
+                    "end": 352,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 337,
+                      "end": 338,
+                      "name": "x"
+                    },
+                    "operator": "===",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 343,
+                      "end": 352,
+                      "name": "undefined"
+                    }
+                  },
+                  "consequent": {
+                    "type": "BlockStatement",
+                    "start": 354,
+                    "end": 374,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 362,
+                        "end": 368,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 362,
+                          "end": 367,
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 362,
+                            "end": 363,
+                            "name": "x"
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "start": 366,
+                            "end": 367,
+                            "value": 0,
+                            "raw": "0"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "alternate": {
+                    "type": "BlockStatement",
+                    "start": 380,
+                    "end": 400,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 388,
+                        "end": 394,
+                        "expression": {
+                          "type": "AssignmentExpression",
+                          "start": 388,
+                          "end": 393,
+                          "operator": "=",
+                          "left": {
+                            "type": "Identifier",
+                            "start": 388,
+                            "end": 389,
+                            "name": "x"
+                          },
+                          "right": {
+                            "type": "Literal",
+                            "start": 392,
+                            "end": 393,
+                            "value": 1,
+                            "raw": "1"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "ReturnStatement",
+                  "start": 405,
+                  "end": 417,
+                  "argument": {
+                    "type": "CallExpression",
+                    "start": 412,
+                    "end": 416,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 412,
+                      "end": 413,
+                      "name": "f"
+                    },
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 414,
+                        "end": 415,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 425,
+      "end": 434,
+      "expression": {
+        "type": "AssignmentExpression",
+        "start": 425,
+        "end": 433,
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "start": 425,
+          "end": 426,
+          "name": "y"
+        },
+        "right": {
+          "type": "CallExpression",
+          "start": 429,
+          "end": 433,
+          "callee": {
+            "type": "Identifier",
+            "start": 429,
+            "end": 430,
+            "name": "f"
+          },
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 431,
+              "end": 432,
+              "value": 0,
+              "raw": "0"
+            }
+          ],
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 436,
+      "end": 544,
+      "test": {
+        "type": "UnaryExpression",
+        "start": 439,
+        "end": 457,
+        "operator": "!",
+        "prefix": true,
+        "argument": {
+          "type": "ParenthesizedExpression",
+          "start": 440,
+          "end": 457,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 441,
+            "end": 456,
+            "left": {
+              "type": "Identifier",
+              "start": 441,
+              "end": 442,
+              "name": "y"
+            },
+            "operator": "===",
+            "right": {
+              "type": "Identifier",
+              "start": 447,
+              "end": 456,
+              "name": "undefined"
+            }
+          }
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 458,
+        "end": 544,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 462,
+            "end": 542,
+            "argument": {
+              "type": "NewExpression",
+              "start": 468,
+              "end": 541,
+              "callee": {
+                "type": "Identifier",
+                "start": 472,
+                "end": 484,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 485,
+                  "end": 540,
+                  "value": "#1: Recursive function calls shares execution context",
+                  "raw": "\"#1: Recursive function calls shares execution context\""
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

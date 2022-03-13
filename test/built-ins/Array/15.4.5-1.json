@@ -1,0 +1,163 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 372,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 224,
+      "end": 235,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 228,
+          "end": 234,
+          "id": {
+            "type": "Identifier",
+            "start": 228,
+            "end": 229,
+            "name": "a"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 232,
+            "end": 234,
+            "elements": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 236,
+      "end": 278,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 240,
+          "end": 277,
+          "id": {
+            "type": "Identifier",
+            "start": 240,
+            "end": 241,
+            "name": "s"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 244,
+            "end": 277,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 244,
+              "end": 274,
+              "object": {
+                "type": "MemberExpression",
+                "start": 244,
+                "end": 269,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 244,
+                  "end": 260,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 244,
+                    "end": 250,
+                    "name": "Object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 251,
+                    "end": 260,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 261,
+                  "end": 269,
+                  "name": "toString"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 270,
+                "end": 274,
+                "name": "call"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 275,
+                "end": 276,
+                "name": "a"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 280,
+      "end": 371,
+      "expression": {
+        "type": "CallExpression",
+        "start": 280,
+        "end": 370,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 280,
+          "end": 296,
+          "object": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 286,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 287,
+            "end": 296,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 297,
+            "end": 298,
+            "name": "s"
+          },
+          {
+            "type": "Literal",
+            "start": 300,
+            "end": 316,
+            "value": "[object Array]",
+            "raw": "'[object Array]'"
+          },
+          {
+            "type": "Literal",
+            "start": 318,
+            "end": 369,
+            "value": "The value of s is expected to be \"[object Array]\"",
+            "raw": "'The value of s is expected to be \"[object Array]\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,67 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 388,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 314,
+      "end": 387,
+      "expression": {
+        "type": "CallExpression",
+        "start": 314,
+        "end": 386,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 314,
+          "end": 330,
+          "object": {
+            "type": "Identifier",
+            "start": 314,
+            "end": 320,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 330,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 331,
+            "end": 341,
+            "operator": "typeof",
+            "prefix": true,
+            "argument": {
+              "type": "Identifier",
+              "start": 338,
+              "end": 341,
+              "name": "Set"
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 343,
+            "end": 353,
+            "value": "function",
+            "raw": "\"function\""
+          },
+          {
+            "type": "Literal",
+            "start": 355,
+            "end": 385,
+            "value": "`typeof Set` is `'function'`",
+            "raw": "\"`typeof Set` is `'function'`\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

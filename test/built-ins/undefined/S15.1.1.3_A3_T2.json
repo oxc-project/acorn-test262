@@ -1,0 +1,96 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 380,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 253,
+      "end": 379,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 257,
+        "end": 283,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 257,
+          "end": 273,
+          "operator": "delete",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 264,
+            "end": 273,
+            "name": "undefined"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 278,
+          "end": 283,
+          "value": false,
+          "raw": "false"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 285,
+        "end": 379,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 289,
+            "end": 377,
+            "argument": {
+              "type": "NewExpression",
+              "start": 295,
+              "end": 376,
+              "callee": {
+                "type": "Identifier",
+                "start": 299,
+                "end": 311,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 312,
+                  "end": 375,
+                  "left": {
+                    "type": "Literal",
+                    "start": 312,
+                    "end": 354,
+                    "value": "#1: delete undefined === false. Actual: ",
+                    "raw": "'#1: delete undefined === false. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 357,
+                    "end": 375,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 358,
+                      "end": 374,
+                      "operator": "delete",
+                      "prefix": true,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 365,
+                        "end": 374,
+                        "name": "undefined"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

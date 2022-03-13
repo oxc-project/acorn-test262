@@ -1,0 +1,165 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 544,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 285,
+      "end": 408,
+      "expression": {
+        "type": "CallExpression",
+        "start": 285,
+        "end": 407,
+        "callee": {
+          "type": "Identifier",
+          "start": 285,
+          "end": 291,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 295,
+            "end": 328,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 296,
+              "end": 328,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 296,
+                "end": 321,
+                "object": {
+                  "type": "Identifier",
+                  "start": 296,
+                  "end": 300,
+                  "name": "Date"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 301,
+                  "end": 321,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 322,
+                  "end": 327,
+                  "value": "UTC",
+                  "raw": "'UTC'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 332,
+            "end": 405,
+            "value": "The value of !Date.propertyIsEnumerable('UTC') is expected to be true",
+            "raw": "'The value of !Date.propertyIsEnumerable(\\'UTC\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 410,
+      "end": 497,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 415,
+        "end": 420,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 419,
+            "end": 420,
+            "id": {
+              "type": "Identifier",
+              "start": 419,
+              "end": 420,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "Identifier",
+        "start": 424,
+        "end": 428,
+        "name": "Date"
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 430,
+        "end": 497,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 434,
+            "end": 495,
+            "expression": {
+              "type": "CallExpression",
+              "start": 434,
+              "end": 494,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 434,
+                "end": 453,
+                "object": {
+                  "type": "Identifier",
+                  "start": 434,
+                  "end": 440,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 441,
+                  "end": 453,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 454,
+                  "end": 455,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 457,
+                  "end": 462,
+                  "value": "UTC",
+                  "raw": "\"UTC\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 464,
+                  "end": 493,
+                  "value": "The value of x is not \"UTC\"",
+                  "raw": "'The value of x is not \"UTC\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

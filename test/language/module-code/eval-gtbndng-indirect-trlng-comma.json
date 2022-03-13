@@ -1,0 +1,84 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 815,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 720,
+      "end": 789,
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 729,
+          "end": 730,
+          "imported": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 730,
+            "name": "x"
+          },
+          "local": {
+            "type": "Identifier",
+            "start": 729,
+            "end": 730,
+            "name": "x"
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 740,
+        "end": 788,
+        "value": "./eval-gtbndng-indirect-trlng-comma_FIXTURE.js",
+        "raw": "'./eval-gtbndng-indirect-trlng-comma_FIXTURE.js'"
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 791,
+      "end": 814,
+      "expression": {
+        "type": "CallExpression",
+        "start": 791,
+        "end": 813,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 791,
+          "end": 807,
+          "object": {
+            "type": "Identifier",
+            "start": 791,
+            "end": 797,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 798,
+            "end": 807,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 808,
+            "end": 809,
+            "name": "x"
+          },
+          {
+            "type": "Literal",
+            "start": 811,
+            "end": 812,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}

@@ -1,0 +1,973 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2141,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1206,
+      "end": 1242,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1210,
+          "end": 1241,
+          "id": {
+            "type": "Identifier",
+            "start": 1210,
+            "end": 1213,
+            "name": "dtf"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1216,
+            "end": 1241,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 1220,
+              "end": 1239,
+              "object": {
+                "type": "Identifier",
+                "start": 1220,
+                "end": 1224,
+                "name": "Intl"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 1225,
+                "end": 1239,
+                "name": "DateTimeFormat"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1244,
+      "end": 1266,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1248,
+          "end": 1265,
+          "id": {
+            "type": "Identifier",
+            "start": 1248,
+            "end": 1252,
+            "name": "date"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 1255,
+            "end": 1265,
+            "callee": {
+              "type": "Identifier",
+              "start": 1259,
+              "end": 1263,
+              "name": "Date"
+            },
+            "arguments": []
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1268,
+      "end": 1370,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1268,
+        "end": 1369,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1268,
+          "end": 1281,
+          "object": {
+            "type": "Identifier",
+            "start": 1268,
+            "end": 1274,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1275,
+            "end": 1281,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1282,
+            "end": 1292,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1294,
+            "end": 1350,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1305,
+              "end": 1350,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1309,
+                  "end": 1348,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1309,
+                    "end": 1347,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1309,
+                      "end": 1331,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1309,
+                        "end": 1312,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1313,
+                        "end": 1331,
+                        "name": "formatRangeToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1332,
+                        "end": 1340,
+                        "name": "Infinity"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1342,
+                        "end": 1346,
+                        "name": "date"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1352,
+            "end": 1368,
+            "value": "+Infinity/date",
+            "raw": "\"+Infinity/date\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1372,
+      "end": 1475,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1372,
+        "end": 1474,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1372,
+          "end": 1385,
+          "object": {
+            "type": "Identifier",
+            "start": 1372,
+            "end": 1378,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1379,
+            "end": 1385,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1386,
+            "end": 1396,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1398,
+            "end": 1455,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1409,
+              "end": 1455,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1413,
+                  "end": 1453,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1413,
+                    "end": 1452,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1413,
+                      "end": 1435,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1413,
+                        "end": 1416,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1417,
+                        "end": 1435,
+                        "name": "formatRangeToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 1436,
+                        "end": 1445,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 1437,
+                          "end": 1445,
+                          "name": "Infinity"
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1447,
+                        "end": 1451,
+                        "name": "date"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1457,
+            "end": 1473,
+            "value": "-Infinity/date",
+            "raw": "\"-Infinity/date\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1477,
+      "end": 1579,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1477,
+        "end": 1578,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1477,
+          "end": 1490,
+          "object": {
+            "type": "Identifier",
+            "start": 1477,
+            "end": 1483,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1484,
+            "end": 1490,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1491,
+            "end": 1501,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1503,
+            "end": 1559,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1514,
+              "end": 1559,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1518,
+                  "end": 1557,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1518,
+                    "end": 1556,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1518,
+                      "end": 1540,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1518,
+                        "end": 1521,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1522,
+                        "end": 1540,
+                        "name": "formatRangeToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1541,
+                        "end": 1545,
+                        "name": "date"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1547,
+                        "end": 1555,
+                        "name": "Infinity"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1561,
+            "end": 1577,
+            "value": "date/+Infinity",
+            "raw": "\"date/+Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1581,
+      "end": 1684,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1581,
+        "end": 1683,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1581,
+          "end": 1594,
+          "object": {
+            "type": "Identifier",
+            "start": 1581,
+            "end": 1587,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1588,
+            "end": 1594,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1595,
+            "end": 1605,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1607,
+            "end": 1664,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1618,
+              "end": 1664,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1622,
+                  "end": 1662,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1622,
+                    "end": 1661,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1622,
+                      "end": 1644,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1622,
+                        "end": 1625,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1626,
+                        "end": 1644,
+                        "name": "formatRangeToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1645,
+                        "end": 1649,
+                        "name": "date"
+                      },
+                      {
+                        "type": "UnaryExpression",
+                        "start": 1651,
+                        "end": 1660,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 1652,
+                          "end": 1660,
+                          "name": "Infinity"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1666,
+            "end": 1682,
+            "value": "date/-Infinity",
+            "raw": "\"date/-Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1686,
+      "end": 1797,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1686,
+        "end": 1796,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1686,
+          "end": 1699,
+          "object": {
+            "type": "Identifier",
+            "start": 1686,
+            "end": 1692,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1693,
+            "end": 1699,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1700,
+            "end": 1710,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1712,
+            "end": 1772,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1723,
+              "end": 1772,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1727,
+                  "end": 1770,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1727,
+                    "end": 1769,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1727,
+                      "end": 1749,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1727,
+                        "end": 1730,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1731,
+                        "end": 1749,
+                        "name": "formatRangeToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1750,
+                        "end": 1758,
+                        "name": "Infinity"
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 1760,
+                        "end": 1768,
+                        "name": "Infinity"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1774,
+            "end": 1795,
+            "value": "+Infinity/+Infinity",
+            "raw": "\"+Infinity/+Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1799,
+      "end": 1912,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1799,
+        "end": 1911,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1799,
+          "end": 1812,
+          "object": {
+            "type": "Identifier",
+            "start": 1799,
+            "end": 1805,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1806,
+            "end": 1812,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1813,
+            "end": 1823,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1825,
+            "end": 1887,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1836,
+              "end": 1887,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1840,
+                  "end": 1885,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1840,
+                    "end": 1884,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1840,
+                      "end": 1862,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1840,
+                        "end": 1843,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1844,
+                        "end": 1862,
+                        "name": "formatRangeToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 1863,
+                        "end": 1872,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 1864,
+                          "end": 1872,
+                          "name": "Infinity"
+                        }
+                      },
+                      {
+                        "type": "UnaryExpression",
+                        "start": 1874,
+                        "end": 1883,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 1875,
+                          "end": 1883,
+                          "name": "Infinity"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 1889,
+            "end": 1910,
+            "value": "-Infinity/-Infinity",
+            "raw": "\"-Infinity/-Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 1914,
+      "end": 2026,
+      "expression": {
+        "type": "CallExpression",
+        "start": 1914,
+        "end": 2025,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1914,
+          "end": 1927,
+          "object": {
+            "type": "Identifier",
+            "start": 1914,
+            "end": 1920,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 1921,
+            "end": 1927,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 1928,
+            "end": 1938,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 1940,
+            "end": 2001,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 1951,
+              "end": 2001,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 1955,
+                  "end": 1999,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 1955,
+                    "end": 1998,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 1955,
+                      "end": 1977,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1955,
+                        "end": 1958,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1959,
+                        "end": 1977,
+                        "name": "formatRangeToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 1978,
+                        "end": 1986,
+                        "name": "Infinity"
+                      },
+                      {
+                        "type": "UnaryExpression",
+                        "start": 1988,
+                        "end": 1997,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 1989,
+                          "end": 1997,
+                          "name": "Infinity"
+                        }
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2003,
+            "end": 2024,
+            "value": "+Infinity/-Infinity",
+            "raw": "\"+Infinity/-Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 2028,
+      "end": 2140,
+      "expression": {
+        "type": "CallExpression",
+        "start": 2028,
+        "end": 2139,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 2028,
+          "end": 2041,
+          "object": {
+            "type": "Identifier",
+            "start": 2028,
+            "end": 2034,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 2035,
+            "end": 2041,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 2042,
+            "end": 2052,
+            "name": "RangeError"
+          },
+          {
+            "type": "FunctionExpression",
+            "start": 2054,
+            "end": 2115,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 2065,
+              "end": 2115,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 2069,
+                  "end": 2113,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 2069,
+                    "end": 2112,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 2069,
+                      "end": 2091,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 2069,
+                        "end": 2072,
+                        "name": "dtf"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 2073,
+                        "end": 2091,
+                        "name": "formatRangeToParts"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "UnaryExpression",
+                        "start": 2092,
+                        "end": 2101,
+                        "operator": "-",
+                        "prefix": true,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 2093,
+                          "end": 2101,
+                          "name": "Infinity"
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 2103,
+                        "end": 2111,
+                        "name": "Infinity"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 2117,
+            "end": 2138,
+            "value": "-Infinity/+Infinity",
+            "raw": "\"-Infinity/+Infinity\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

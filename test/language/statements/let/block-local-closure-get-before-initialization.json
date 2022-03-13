@@ -1,0 +1,154 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 375,
+  "body": [
+    {
+      "type": "BlockStatement",
+      "start": 267,
+      "end": 374,
+      "body": [
+        {
+          "type": "FunctionDeclaration",
+          "start": 271,
+          "end": 301,
+          "id": {
+            "type": "Identifier",
+            "start": 280,
+            "end": 281,
+            "name": "f"
+          },
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 284,
+            "end": 301,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 286,
+                "end": 299,
+                "argument": {
+                  "type": "BinaryExpression",
+                  "start": 293,
+                  "end": 298,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 293,
+                    "end": 294,
+                    "name": "x"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 297,
+                    "end": 298,
+                    "value": 1,
+                    "raw": "1"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "ExpressionStatement",
+          "start": 305,
+          "end": 362,
+          "expression": {
+            "type": "CallExpression",
+            "start": 305,
+            "end": 361,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 305,
+              "end": 318,
+              "object": {
+                "type": "Identifier",
+                "start": 305,
+                "end": 311,
+                "name": "assert"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 312,
+                "end": 318,
+                "name": "throws"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 319,
+                "end": 333,
+                "name": "ReferenceError"
+              },
+              {
+                "type": "FunctionExpression",
+                "start": 335,
+                "end": 360,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 346,
+                  "end": 360,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 352,
+                      "end": 356,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 352,
+                        "end": 355,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 352,
+                          "end": 353,
+                          "name": "f"
+                        },
+                        "arguments": [],
+                        "optional": false
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "optional": false
+          }
+        },
+        {
+          "type": "VariableDeclaration",
+          "start": 366,
+          "end": 372,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 370,
+              "end": 371,
+              "id": {
+                "type": "Identifier",
+                "start": 370,
+                "end": 371,
+                "name": "x"
+              },
+              "init": null
+            }
+          ],
+          "kind": "let"
+        }
+      ]
+    }
+  ],
+  "sourceType": "script"
+}

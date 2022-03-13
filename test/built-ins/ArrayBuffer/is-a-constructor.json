@@ -1,0 +1,91 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 849,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 728,
+      "end": 826,
+      "expression": {
+        "type": "CallExpression",
+        "start": 728,
+        "end": 825,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 728,
+          "end": 744,
+          "object": {
+            "type": "Identifier",
+            "start": 728,
+            "end": 734,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 735,
+            "end": 744,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 745,
+            "end": 771,
+            "callee": {
+              "type": "Identifier",
+              "start": 745,
+              "end": 758,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 759,
+                "end": 770,
+                "name": "ArrayBuffer"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 773,
+            "end": 777,
+            "value": true,
+            "raw": "true"
+          },
+          {
+            "type": "Literal",
+            "start": 779,
+            "end": 824,
+            "value": "isConstructor(ArrayBuffer) must return true",
+            "raw": "'isConstructor(ArrayBuffer) must return true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 827,
+      "end": 845,
+      "expression": {
+        "type": "NewExpression",
+        "start": 827,
+        "end": 844,
+        "callee": {
+          "type": "Identifier",
+          "start": 831,
+          "end": 842,
+          "name": "ArrayBuffer"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "sourceType": "script"
+}

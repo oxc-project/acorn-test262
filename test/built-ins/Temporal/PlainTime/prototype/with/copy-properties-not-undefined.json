@@ -1,0 +1,232 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 816,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 573,
+      "end": 625,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 579,
+          "end": 624,
+          "id": {
+            "type": "Identifier",
+            "start": 579,
+            "end": 588,
+            "name": "plainTime"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 591,
+            "end": 624,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 595,
+              "end": 613,
+              "object": {
+                "type": "Identifier",
+                "start": 595,
+                "end": 603,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 604,
+                "end": 613,
+                "name": "PlainTime"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 614,
+                "end": 615,
+                "value": 9,
+                "raw": "9"
+              },
+              {
+                "type": "Literal",
+                "start": 617,
+                "end": 619,
+                "value": 45,
+                "raw": "45"
+              },
+              {
+                "type": "Literal",
+                "start": 621,
+                "end": 623,
+                "value": 55,
+                "raw": "55"
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 627,
+      "end": 815,
+      "expression": {
+        "type": "CallExpression",
+        "start": 627,
+        "end": 814,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 627,
+          "end": 658,
+          "object": {
+            "type": "Identifier",
+            "start": 627,
+            "end": 642,
+            "name": "TemporalHelpers"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 643,
+            "end": 658,
+            "name": "assertPlainTime"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 659,
+            "end": 705,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 659,
+              "end": 673,
+              "object": {
+                "type": "Identifier",
+                "start": 659,
+                "end": 668,
+                "name": "plainTime"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 669,
+                "end": 673,
+                "name": "with"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "ObjectExpression",
+                "start": 674,
+                "end": 704,
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 676,
+                    "end": 683,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 676,
+                      "end": 680,
+                      "name": "hour"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "start": 682,
+                      "end": 683,
+                      "value": 8,
+                      "raw": "8"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "start": 685,
+                    "end": 702,
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 685,
+                      "end": 691,
+                      "name": "second"
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 693,
+                      "end": 702,
+                      "name": "undefined"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 709,
+            "end": 710,
+            "value": 8,
+            "raw": "8"
+          },
+          {
+            "type": "Literal",
+            "start": 712,
+            "end": 714,
+            "value": 45,
+            "raw": "45"
+          },
+          {
+            "type": "Literal",
+            "start": 716,
+            "end": 718,
+            "value": 55,
+            "raw": "55"
+          },
+          {
+            "type": "Literal",
+            "start": 720,
+            "end": 721,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 723,
+            "end": 724,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 726,
+            "end": 727,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 731,
+            "end": 812,
+            "value": "only the properties that are present and defined in the plain object are copied",
+            "raw": "\"only the properties that are present and defined in the plain object are copied\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

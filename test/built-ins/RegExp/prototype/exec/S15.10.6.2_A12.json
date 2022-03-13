@@ -1,0 +1,241 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 513,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 275,
+      "end": 297,
+      "expression": {
+        "type": "CallExpression",
+        "start": 275,
+        "end": 296,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 275,
+          "end": 287,
+          "object": {
+            "type": "ParenthesizedExpression",
+            "start": 275,
+            "end": 282,
+            "expression": {
+              "type": "Literal",
+              "start": 276,
+              "end": 281,
+              "value": {},
+              "raw": "/foo/",
+              "regex": {
+                "pattern": "foo",
+                "flags": ""
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 283,
+            "end": 287,
+            "name": "test"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 288,
+            "end": 295,
+            "value": "xfoox",
+            "raw": "'xfoox'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 298,
+      "end": 348,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 302,
+          "end": 347,
+          "id": {
+            "type": "Identifier",
+            "start": 302,
+            "end": 307,
+            "name": "match"
+          },
+          "init": {
+            "type": "MemberExpression",
+            "start": 310,
+            "end": 347,
+            "object": {
+              "type": "CallExpression",
+              "start": 310,
+              "end": 344,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 310,
+                "end": 342,
+                "object": {
+                  "type": "NewExpression",
+                  "start": 310,
+                  "end": 337,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 314,
+                    "end": 320,
+                    "name": "RegExp"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 321,
+                      "end": 333,
+                      "value": "(.|\r|\n)*",
+                      "raw": "'(.|\\r|\\n)*'"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 334,
+                      "end": 336,
+                      "value": "",
+                      "raw": "''"
+                    }
+                  ]
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 338,
+                  "end": 342,
+                  "name": "exec"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Literal",
+              "start": 345,
+              "end": 346,
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 349,
+      "end": 422,
+      "expression": {
+        "type": "CallExpression",
+        "start": 349,
+        "end": 421,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 349,
+          "end": 368,
+          "object": {
+            "type": "Identifier",
+            "start": 349,
+            "end": 355,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 356,
+            "end": 368,
+            "name": "notSameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 369,
+            "end": 374,
+            "name": "match"
+          },
+          {
+            "type": "Literal",
+            "start": 376,
+            "end": 383,
+            "value": "xfoox",
+            "raw": "'xfoox'"
+          },
+          {
+            "type": "Literal",
+            "start": 385,
+            "end": 420,
+            "value": "The value of match is not \"xfoox\"",
+            "raw": "'The value of match is not \"xfoox\"'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 423,
+      "end": 512,
+      "expression": {
+        "type": "CallExpression",
+        "start": 423,
+        "end": 511,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 423,
+          "end": 439,
+          "object": {
+            "type": "Identifier",
+            "start": 423,
+            "end": 429,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 430,
+            "end": 439,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 440,
+            "end": 445,
+            "name": "match"
+          },
+          {
+            "type": "Literal",
+            "start": 447,
+            "end": 458,
+            "value": "undefined",
+            "raw": "'undefined'"
+          },
+          {
+            "type": "Literal",
+            "start": 460,
+            "end": 510,
+            "value": "The value of match is expected to be \"undefined\"",
+            "raw": "'The value of match is expected to be \"undefined\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

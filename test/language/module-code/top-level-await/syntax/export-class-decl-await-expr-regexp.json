@@ -1,0 +1,110 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2157,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 2033,
+      "end": 2074,
+      "id": {
+        "type": "Identifier",
+        "start": 2042,
+        "end": 2044,
+        "name": "fn"
+      },
+      "expression": false,
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 2047,
+        "end": 2074,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 2051,
+            "end": 2072,
+            "argument": {
+              "type": "FunctionExpression",
+              "start": 2058,
+              "end": 2071,
+              "id": null,
+              "expression": false,
+              "generator": false,
+              "async": false,
+              "params": [],
+              "body": {
+                "type": "BlockStatement",
+                "start": 2069,
+                "end": 2071,
+                "body": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 2116,
+      "end": 2155,
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 2123,
+        "end": 2155,
+        "id": {
+          "type": "Identifier",
+          "start": 2129,
+          "end": 2130,
+          "name": "C"
+        },
+        "superClass": {
+          "type": "CallExpression",
+          "start": 2139,
+          "end": 2152,
+          "callee": {
+            "type": "Identifier",
+            "start": 2139,
+            "end": 2141,
+            "name": "fn"
+          },
+          "arguments": [
+            {
+              "type": "AwaitExpression",
+              "start": 2142,
+              "end": 2151,
+              "argument": {
+                "type": "Literal",
+                "start": 2148,
+                "end": 2151,
+                "value": {},
+                "raw": "/1/",
+                "regex": {
+                  "pattern": "1",
+                  "flags": ""
+                }
+              }
+            }
+          ],
+          "optional": false
+        },
+        "body": {
+          "type": "ClassBody",
+          "start": 2153,
+          "end": 2155,
+          "body": []
+        }
+      },
+      "specifiers": [],
+      "source": null
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 2155,
+      "end": 2156
+    }
+  ],
+  "sourceType": "module"
+}

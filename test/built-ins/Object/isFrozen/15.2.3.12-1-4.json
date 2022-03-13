@@ -1,0 +1,47 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 296,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 272,
+      "end": 295,
+      "expression": {
+        "type": "CallExpression",
+        "start": 272,
+        "end": 294,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 272,
+          "end": 287,
+          "object": {
+            "type": "Identifier",
+            "start": 272,
+            "end": 278,
+            "name": "Object"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 279,
+            "end": 287,
+            "name": "isFrozen"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 288,
+            "end": 293,
+            "value": "abc",
+            "raw": "\"abc\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

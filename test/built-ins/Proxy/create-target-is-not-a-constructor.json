@@ -1,0 +1,215 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 998,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 747,
+      "end": 779,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 751,
+          "end": 778,
+          "id": {
+            "type": "Identifier",
+            "start": 751,
+            "end": 756,
+            "name": "proxy"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 759,
+            "end": 778,
+            "callee": {
+              "type": "Identifier",
+              "start": 763,
+              "end": 768,
+              "name": "Proxy"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 769,
+                "end": 773,
+                "name": "eval"
+              },
+              {
+                "type": "ObjectExpression",
+                "start": 775,
+                "end": 777,
+                "properties": []
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 781,
+      "end": 789,
+      "expression": {
+        "type": "CallExpression",
+        "start": 781,
+        "end": 788,
+        "callee": {
+          "type": "Identifier",
+          "start": 781,
+          "end": 786,
+          "name": "proxy"
+        },
+        "arguments": [],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 823,
+      "end": 911,
+      "expression": {
+        "type": "CallExpression",
+        "start": 823,
+        "end": 910,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 823,
+          "end": 839,
+          "object": {
+            "type": "Identifier",
+            "start": 823,
+            "end": 829,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 830,
+            "end": 839,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 840,
+            "end": 860,
+            "callee": {
+              "type": "Identifier",
+              "start": 840,
+              "end": 853,
+              "name": "isConstructor"
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 854,
+                "end": 859,
+                "name": "proxy"
+              }
+            ],
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 862,
+            "end": 867,
+            "value": false,
+            "raw": "false"
+          },
+          {
+            "type": "Literal",
+            "start": 869,
+            "end": 909,
+            "value": "isConstructor(proxy) must return false",
+            "raw": "'isConstructor(proxy) must return false'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 912,
+      "end": 997,
+      "expression": {
+        "type": "CallExpression",
+        "start": 912,
+        "end": 996,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 912,
+          "end": 925,
+          "object": {
+            "type": "Identifier",
+            "start": 912,
+            "end": 918,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 919,
+            "end": 925,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 926,
+            "end": 935,
+            "name": "TypeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 937,
+            "end": 961,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 943,
+              "end": 961,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 947,
+                  "end": 959,
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 947,
+                    "end": 958,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 951,
+                      "end": 956,
+                      "name": "proxy"
+                    },
+                    "arguments": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 963,
+            "end": 995,
+            "value": "`new proxy()` throws TypeError",
+            "raw": "'`new proxy()` throws TypeError'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

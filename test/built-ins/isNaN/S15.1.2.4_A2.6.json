@@ -1,0 +1,72 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 367,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 258,
+      "end": 366,
+      "expression": {
+        "type": "CallExpression",
+        "start": 258,
+        "end": 365,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 258,
+          "end": 274,
+          "object": {
+            "type": "Identifier",
+            "start": 258,
+            "end": 264,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 265,
+            "end": 274,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 275,
+            "end": 290,
+            "object": {
+              "type": "Identifier",
+              "start": 275,
+              "end": 280,
+              "name": "isNaN"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 281,
+              "end": 290,
+              "name": "prototype"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 292,
+            "end": 301,
+            "name": "undefined"
+          },
+          {
+            "type": "Literal",
+            "start": 303,
+            "end": 364,
+            "value": "The value of isNaN.prototype is expected to equal undefined",
+            "raw": "'The value of isNaN.prototype is expected to equal undefined'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

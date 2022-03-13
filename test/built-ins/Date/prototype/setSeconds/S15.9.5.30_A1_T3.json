@@ -1,0 +1,191 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 614,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 297,
+      "end": 454,
+      "expression": {
+        "type": "CallExpression",
+        "start": 297,
+        "end": 453,
+        "callee": {
+          "type": "Identifier",
+          "start": 297,
+          "end": 303,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 307,
+            "end": 357,
+            "operator": "!",
+            "prefix": true,
+            "argument": {
+              "type": "CallExpression",
+              "start": 308,
+              "end": 357,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 308,
+                "end": 343,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 308,
+                  "end": 322,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 308,
+                    "end": 312,
+                    "name": "Date"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 313,
+                    "end": 322,
+                    "name": "prototype"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 323,
+                  "end": 343,
+                  "name": "propertyIsEnumerable"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 344,
+                  "end": 356,
+                  "value": "setSeconds",
+                  "raw": "'setSeconds'"
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 361,
+            "end": 451,
+            "value": "The value of !Date.prototype.propertyIsEnumerable('setSeconds') is expected to be true",
+            "raw": "'The value of !Date.prototype.propertyIsEnumerable(\\'setSeconds\\') is expected to be true'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ForInStatement",
+      "start": 456,
+      "end": 567,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 461,
+        "end": 466,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 465,
+            "end": 466,
+            "id": {
+              "type": "Identifier",
+              "start": 465,
+              "end": 466,
+              "name": "x"
+            },
+            "init": null
+          }
+        ],
+        "kind": "var"
+      },
+      "right": {
+        "type": "MemberExpression",
+        "start": 470,
+        "end": 484,
+        "object": {
+          "type": "Identifier",
+          "start": 470,
+          "end": 474,
+          "name": "Date"
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 475,
+          "end": 484,
+          "name": "prototype"
+        },
+        "computed": false,
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 486,
+        "end": 567,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 490,
+            "end": 565,
+            "expression": {
+              "type": "CallExpression",
+              "start": 490,
+              "end": 564,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 490,
+                "end": 509,
+                "object": {
+                  "type": "Identifier",
+                  "start": 490,
+                  "end": 496,
+                  "name": "assert"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 497,
+                  "end": 509,
+                  "name": "notSameValue"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 510,
+                  "end": 511,
+                  "name": "x"
+                },
+                {
+                  "type": "Literal",
+                  "start": 513,
+                  "end": 525,
+                  "value": "setSeconds",
+                  "raw": "\"setSeconds\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 527,
+                  "end": 563,
+                  "value": "The value of x is not \"setSeconds\"",
+                  "raw": "'The value of x is not \"setSeconds\"'"
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}

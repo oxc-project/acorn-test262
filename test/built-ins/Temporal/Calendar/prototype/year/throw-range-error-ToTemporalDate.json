@@ -1,0 +1,149 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 781,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 611,
+      "end": 654,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 615,
+          "end": 653,
+          "id": {
+            "type": "Identifier",
+            "start": 615,
+            "end": 618,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 621,
+            "end": 653,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 625,
+              "end": 642,
+              "object": {
+                "type": "Identifier",
+                "start": 625,
+                "end": 633,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 634,
+                "end": 642,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 643,
+                "end": 652,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 656,
+      "end": 780,
+      "expression": {
+        "type": "CallExpression",
+        "start": 656,
+        "end": 779,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 656,
+          "end": 669,
+          "object": {
+            "type": "Identifier",
+            "start": 656,
+            "end": 662,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 663,
+            "end": 669,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 670,
+            "end": 680,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 682,
+            "end": 714,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 688,
+              "end": 714,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 688,
+                "end": 696,
+                "object": {
+                  "type": "Identifier",
+                  "start": 688,
+                  "end": 691,
+                  "name": "cal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 692,
+                  "end": 696,
+                  "name": "year"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 697,
+                  "end": 713,
+                  "value": "invalid string",
+                  "raw": "\"invalid string\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 720,
+            "end": 778,
+            "value": "cal.year(\"invalid string\") throws a RangeError exception",
+            "raw": "'cal.year(\"invalid string\") throws a RangeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

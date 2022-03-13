@@ -1,0 +1,402 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 619,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 301,
+      "end": 408,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 305,
+        "end": 326,
+        "left": {
+          "type": "BinaryExpression",
+          "start": 305,
+          "end": 313,
+          "left": {
+            "type": "Literal",
+            "start": 305,
+            "end": 311,
+            "value": 1e+308,
+            "raw": "1e+308"
+          },
+          "operator": "*",
+          "right": {
+            "type": "Literal",
+            "start": 312,
+            "end": 313,
+            "value": 2,
+            "raw": "2"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 318,
+          "end": 326,
+          "name": "Infinity"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 327,
+        "end": 408,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 331,
+            "end": 406,
+            "argument": {
+              "type": "NewExpression",
+              "start": 337,
+              "end": 405,
+              "callee": {
+                "type": "Identifier",
+                "start": 341,
+                "end": 353,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 354,
+                  "end": 404,
+                  "left": {
+                    "type": "Literal",
+                    "start": 354,
+                    "end": 391,
+                    "value": "#1: 1e+308*2 === Infinity. Actual: ",
+                    "raw": "'#1: 1e+308*2 === Infinity. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 394,
+                    "end": 404,
+                    "expression": {
+                      "type": "BinaryExpression",
+                      "start": 395,
+                      "end": 403,
+                      "left": {
+                        "type": "Literal",
+                        "start": 395,
+                        "end": 401,
+                        "value": 1e+308,
+                        "raw": "1e+308"
+                      },
+                      "operator": "*",
+                      "right": {
+                        "type": "Literal",
+                        "start": 402,
+                        "end": 403,
+                        "value": 2,
+                        "raw": "2"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    },
+    {
+      "type": "IfStatement",
+      "start": 421,
+      "end": 618,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 425,
+        "end": 476,
+        "left": {
+          "type": "ParenthesizedExpression",
+          "start": 425,
+          "end": 463,
+          "expression": {
+            "type": "BinaryExpression",
+            "start": 426,
+            "end": 462,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 426,
+              "end": 444,
+              "left": {
+                "type": "Literal",
+                "start": 426,
+                "end": 427,
+                "value": 1,
+                "raw": "1"
+              },
+              "operator": "*",
+              "right": {
+                "type": "ParenthesizedExpression",
+                "start": 428,
+                "end": 444,
+                "expression": {
+                  "type": "CallExpression",
+                  "start": 429,
+                  "end": 443,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 429,
+                    "end": 437,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 429,
+                      "end": 433,
+                      "name": "Math"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 434,
+                      "end": 437,
+                      "name": "pow"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 438,
+                      "end": 439,
+                      "value": 2,
+                      "raw": "2"
+                    },
+                    {
+                      "type": "Literal",
+                      "start": 440,
+                      "end": 442,
+                      "value": 53,
+                      "raw": "53"
+                    }
+                  ],
+                  "optional": false
+                }
+              }
+            },
+            "operator": "*",
+            "right": {
+              "type": "ParenthesizedExpression",
+              "start": 445,
+              "end": 462,
+              "expression": {
+                "type": "CallExpression",
+                "start": 446,
+                "end": 461,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 446,
+                  "end": 454,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 446,
+                    "end": 450,
+                    "name": "Math"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 451,
+                    "end": 454,
+                    "name": "pow"
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 455,
+                    "end": 456,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 457,
+                    "end": 460,
+                    "value": 971,
+                    "raw": "971"
+                  }
+                ],
+                "optional": false
+              }
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Identifier",
+          "start": 468,
+          "end": 476,
+          "name": "Infinity"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 477,
+        "end": 618,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 481,
+            "end": 616,
+            "argument": {
+              "type": "NewExpression",
+              "start": 487,
+              "end": 615,
+              "callee": {
+                "type": "Identifier",
+                "start": 491,
+                "end": 503,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 504,
+                  "end": 614,
+                  "left": {
+                    "type": "Literal",
+                    "start": 504,
+                    "end": 571,
+                    "value": "#2: (1*(Math.pow(2,53))*(Math.pow(2,971))) === Infinity. Actual: ",
+                    "raw": "'#2: (1*(Math.pow(2,53))*(Math.pow(2,971))) === Infinity. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 574,
+                    "end": 614,
+                    "expression": {
+                      "type": "ParenthesizedExpression",
+                      "start": 575,
+                      "end": 613,
+                      "expression": {
+                        "type": "BinaryExpression",
+                        "start": 576,
+                        "end": 612,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 576,
+                          "end": 594,
+                          "left": {
+                            "type": "Literal",
+                            "start": 576,
+                            "end": 577,
+                            "value": 1,
+                            "raw": "1"
+                          },
+                          "operator": "*",
+                          "right": {
+                            "type": "ParenthesizedExpression",
+                            "start": 578,
+                            "end": 594,
+                            "expression": {
+                              "type": "CallExpression",
+                              "start": 579,
+                              "end": 593,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 579,
+                                "end": 587,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 579,
+                                  "end": 583,
+                                  "name": "Math"
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 584,
+                                  "end": 587,
+                                  "name": "pow"
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
+                              "arguments": [
+                                {
+                                  "type": "Literal",
+                                  "start": 588,
+                                  "end": 589,
+                                  "value": 2,
+                                  "raw": "2"
+                                },
+                                {
+                                  "type": "Literal",
+                                  "start": 590,
+                                  "end": 592,
+                                  "value": 53,
+                                  "raw": "53"
+                                }
+                              ],
+                              "optional": false
+                            }
+                          }
+                        },
+                        "operator": "*",
+                        "right": {
+                          "type": "ParenthesizedExpression",
+                          "start": 595,
+                          "end": 612,
+                          "expression": {
+                            "type": "CallExpression",
+                            "start": 596,
+                            "end": 611,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 596,
+                              "end": 604,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 596,
+                                "end": 600,
+                                "name": "Math"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 601,
+                                "end": 604,
+                                "name": "pow"
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "Literal",
+                                "start": 605,
+                                "end": 606,
+                                "value": 2,
+                                "raw": "2"
+                              },
+                              {
+                                "type": "Literal",
+                                "start": 607,
+                                "end": 610,
+                                "value": 971,
+                                "raw": "971"
+                              }
+                            ],
+                            "optional": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,1868 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2079,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 383,
+      "end": 758,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 387,
+          "end": 757,
+          "id": {
+            "type": "Identifier",
+            "start": 387,
+            "end": 399,
+            "name": "uriUnescaped"
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 402,
+            "end": 757,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 403,
+                "end": 406,
+                "value": "-",
+                "raw": "\"-\""
+              },
+              {
+                "type": "Literal",
+                "start": 408,
+                "end": 411,
+                "value": "_",
+                "raw": "\"_\""
+              },
+              {
+                "type": "Literal",
+                "start": 413,
+                "end": 416,
+                "value": ".",
+                "raw": "\".\""
+              },
+              {
+                "type": "Literal",
+                "start": 418,
+                "end": 421,
+                "value": "!",
+                "raw": "\"!\""
+              },
+              {
+                "type": "Literal",
+                "start": 423,
+                "end": 426,
+                "value": "~",
+                "raw": "\"~\""
+              },
+              {
+                "type": "Literal",
+                "start": 428,
+                "end": 431,
+                "value": "*",
+                "raw": "\"*\""
+              },
+              {
+                "type": "Literal",
+                "start": 433,
+                "end": 436,
+                "value": "'",
+                "raw": "\"'\""
+              },
+              {
+                "type": "Literal",
+                "start": 438,
+                "end": 441,
+                "value": "(",
+                "raw": "\"(\""
+              },
+              {
+                "type": "Literal",
+                "start": 443,
+                "end": 446,
+                "value": ")",
+                "raw": "\")\""
+              },
+              {
+                "type": "Literal",
+                "start": 448,
+                "end": 451,
+                "value": "A",
+                "raw": "\"A\""
+              },
+              {
+                "type": "Literal",
+                "start": 453,
+                "end": 456,
+                "value": "B",
+                "raw": "\"B\""
+              },
+              {
+                "type": "Literal",
+                "start": 458,
+                "end": 461,
+                "value": "C",
+                "raw": "\"C\""
+              },
+              {
+                "type": "Literal",
+                "start": 463,
+                "end": 466,
+                "value": "D",
+                "raw": "\"D\""
+              },
+              {
+                "type": "Literal",
+                "start": 468,
+                "end": 471,
+                "value": "E",
+                "raw": "\"E\""
+              },
+              {
+                "type": "Literal",
+                "start": 473,
+                "end": 476,
+                "value": "F",
+                "raw": "\"F\""
+              },
+              {
+                "type": "Literal",
+                "start": 478,
+                "end": 481,
+                "value": "G",
+                "raw": "\"G\""
+              },
+              {
+                "type": "Literal",
+                "start": 483,
+                "end": 486,
+                "value": "H",
+                "raw": "\"H\""
+              },
+              {
+                "type": "Literal",
+                "start": 488,
+                "end": 491,
+                "value": "I",
+                "raw": "\"I\""
+              },
+              {
+                "type": "Literal",
+                "start": 493,
+                "end": 496,
+                "value": "J",
+                "raw": "\"J\""
+              },
+              {
+                "type": "Literal",
+                "start": 498,
+                "end": 501,
+                "value": "K",
+                "raw": "\"K\""
+              },
+              {
+                "type": "Literal",
+                "start": 503,
+                "end": 506,
+                "value": "L",
+                "raw": "\"L\""
+              },
+              {
+                "type": "Literal",
+                "start": 508,
+                "end": 511,
+                "value": "M",
+                "raw": "\"M\""
+              },
+              {
+                "type": "Literal",
+                "start": 513,
+                "end": 516,
+                "value": "N",
+                "raw": "\"N\""
+              },
+              {
+                "type": "Literal",
+                "start": 518,
+                "end": 521,
+                "value": "O",
+                "raw": "\"O\""
+              },
+              {
+                "type": "Literal",
+                "start": 523,
+                "end": 526,
+                "value": "P",
+                "raw": "\"P\""
+              },
+              {
+                "type": "Literal",
+                "start": 528,
+                "end": 531,
+                "value": "Q",
+                "raw": "\"Q\""
+              },
+              {
+                "type": "Literal",
+                "start": 533,
+                "end": 536,
+                "value": "R",
+                "raw": "\"R\""
+              },
+              {
+                "type": "Literal",
+                "start": 538,
+                "end": 541,
+                "value": "S",
+                "raw": "\"S\""
+              },
+              {
+                "type": "Literal",
+                "start": 543,
+                "end": 546,
+                "value": "T",
+                "raw": "\"T\""
+              },
+              {
+                "type": "Literal",
+                "start": 548,
+                "end": 551,
+                "value": "U",
+                "raw": "\"U\""
+              },
+              {
+                "type": "Literal",
+                "start": 553,
+                "end": 556,
+                "value": "V",
+                "raw": "\"V\""
+              },
+              {
+                "type": "Literal",
+                "start": 558,
+                "end": 561,
+                "value": "W",
+                "raw": "\"W\""
+              },
+              {
+                "type": "Literal",
+                "start": 563,
+                "end": 566,
+                "value": "X",
+                "raw": "\"X\""
+              },
+              {
+                "type": "Literal",
+                "start": 568,
+                "end": 571,
+                "value": "Y",
+                "raw": "\"Y\""
+              },
+              {
+                "type": "Literal",
+                "start": 573,
+                "end": 576,
+                "value": "Z",
+                "raw": "\"Z\""
+              },
+              {
+                "type": "Literal",
+                "start": 578,
+                "end": 581,
+                "value": "a",
+                "raw": "\"a\""
+              },
+              {
+                "type": "Literal",
+                "start": 583,
+                "end": 586,
+                "value": "b",
+                "raw": "\"b\""
+              },
+              {
+                "type": "Literal",
+                "start": 588,
+                "end": 591,
+                "value": "c",
+                "raw": "\"c\""
+              },
+              {
+                "type": "Literal",
+                "start": 593,
+                "end": 596,
+                "value": "d",
+                "raw": "\"d\""
+              },
+              {
+                "type": "Literal",
+                "start": 598,
+                "end": 601,
+                "value": "e",
+                "raw": "\"e\""
+              },
+              {
+                "type": "Literal",
+                "start": 603,
+                "end": 606,
+                "value": "f",
+                "raw": "\"f\""
+              },
+              {
+                "type": "Literal",
+                "start": 608,
+                "end": 611,
+                "value": "g",
+                "raw": "\"g\""
+              },
+              {
+                "type": "Literal",
+                "start": 613,
+                "end": 616,
+                "value": "h",
+                "raw": "\"h\""
+              },
+              {
+                "type": "Literal",
+                "start": 618,
+                "end": 621,
+                "value": "i",
+                "raw": "\"i\""
+              },
+              {
+                "type": "Literal",
+                "start": 623,
+                "end": 626,
+                "value": "j",
+                "raw": "\"j\""
+              },
+              {
+                "type": "Literal",
+                "start": 628,
+                "end": 631,
+                "value": "k",
+                "raw": "\"k\""
+              },
+              {
+                "type": "Literal",
+                "start": 633,
+                "end": 636,
+                "value": "l",
+                "raw": "\"l\""
+              },
+              {
+                "type": "Literal",
+                "start": 638,
+                "end": 641,
+                "value": "m",
+                "raw": "\"m\""
+              },
+              {
+                "type": "Literal",
+                "start": 643,
+                "end": 646,
+                "value": "n",
+                "raw": "\"n\""
+              },
+              {
+                "type": "Literal",
+                "start": 648,
+                "end": 651,
+                "value": "o",
+                "raw": "\"o\""
+              },
+              {
+                "type": "Literal",
+                "start": 653,
+                "end": 656,
+                "value": "p",
+                "raw": "\"p\""
+              },
+              {
+                "type": "Literal",
+                "start": 658,
+                "end": 661,
+                "value": "q",
+                "raw": "\"q\""
+              },
+              {
+                "type": "Literal",
+                "start": 663,
+                "end": 666,
+                "value": "r",
+                "raw": "\"r\""
+              },
+              {
+                "type": "Literal",
+                "start": 668,
+                "end": 671,
+                "value": "s",
+                "raw": "\"s\""
+              },
+              {
+                "type": "Literal",
+                "start": 673,
+                "end": 676,
+                "value": "t",
+                "raw": "\"t\""
+              },
+              {
+                "type": "Literal",
+                "start": 678,
+                "end": 681,
+                "value": "u",
+                "raw": "\"u\""
+              },
+              {
+                "type": "Literal",
+                "start": 683,
+                "end": 686,
+                "value": "v",
+                "raw": "\"v\""
+              },
+              {
+                "type": "Literal",
+                "start": 688,
+                "end": 691,
+                "value": "w",
+                "raw": "\"w\""
+              },
+              {
+                "type": "Literal",
+                "start": 693,
+                "end": 696,
+                "value": "x",
+                "raw": "\"x\""
+              },
+              {
+                "type": "Literal",
+                "start": 698,
+                "end": 701,
+                "value": "y",
+                "raw": "\"y\""
+              },
+              {
+                "type": "Literal",
+                "start": 703,
+                "end": 706,
+                "value": "z",
+                "raw": "\"z\""
+              },
+              {
+                "type": "Literal",
+                "start": 708,
+                "end": 711,
+                "value": "0",
+                "raw": "\"0\""
+              },
+              {
+                "type": "Literal",
+                "start": 713,
+                "end": 716,
+                "value": "1",
+                "raw": "\"1\""
+              },
+              {
+                "type": "Literal",
+                "start": 718,
+                "end": 721,
+                "value": "2",
+                "raw": "\"2\""
+              },
+              {
+                "type": "Literal",
+                "start": 723,
+                "end": 726,
+                "value": "3",
+                "raw": "\"3\""
+              },
+              {
+                "type": "Literal",
+                "start": 728,
+                "end": 731,
+                "value": "4",
+                "raw": "\"4\""
+              },
+              {
+                "type": "Literal",
+                "start": 733,
+                "end": 736,
+                "value": "5",
+                "raw": "\"5\""
+              },
+              {
+                "type": "Literal",
+                "start": 738,
+                "end": 741,
+                "value": "6",
+                "raw": "\"6\""
+              },
+              {
+                "type": "Literal",
+                "start": 743,
+                "end": 746,
+                "value": "7",
+                "raw": "\"7\""
+              },
+              {
+                "type": "Literal",
+                "start": 748,
+                "end": 751,
+                "value": "8",
+                "raw": "\"8\""
+              },
+              {
+                "type": "Literal",
+                "start": 753,
+                "end": 756,
+                "value": "9",
+                "raw": "\"9\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 759,
+      "end": 778,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 763,
+          "end": 777,
+          "id": {
+            "type": "Identifier",
+            "start": 763,
+            "end": 773,
+            "name": "errorCount"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 776,
+            "end": 777,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 779,
+      "end": 793,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 783,
+          "end": 792,
+          "id": {
+            "type": "Identifier",
+            "start": 783,
+            "end": 788,
+            "name": "count"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 791,
+            "end": 792,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 794,
+      "end": 805,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 798,
+          "end": 804,
+          "id": {
+            "type": "Identifier",
+            "start": 798,
+            "end": 804,
+            "name": "indexP"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 806,
+      "end": 821,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 810,
+          "end": 820,
+          "id": {
+            "type": "Identifier",
+            "start": 810,
+            "end": 816,
+            "name": "indexO"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 819,
+            "end": 820,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "LabeledStatement",
+      "start": 823,
+      "end": 1670,
+      "body": {
+        "type": "ForStatement",
+        "start": 828,
+        "end": 1670,
+        "init": {
+          "type": "VariableDeclaration",
+          "start": 833,
+          "end": 851,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 837,
+              "end": 851,
+              "id": {
+                "type": "Identifier",
+                "start": 837,
+                "end": 842,
+                "name": "index"
+              },
+              "init": {
+                "type": "Literal",
+                "start": 845,
+                "end": 851,
+                "value": 0,
+                "raw": "0x0000"
+              }
+            }
+          ],
+          "kind": "var"
+        },
+        "test": {
+          "type": "BinaryExpression",
+          "start": 853,
+          "end": 868,
+          "left": {
+            "type": "Identifier",
+            "start": 853,
+            "end": 858,
+            "name": "index"
+          },
+          "operator": "<=",
+          "right": {
+            "type": "Literal",
+            "start": 862,
+            "end": 868,
+            "value": 127,
+            "raw": "0x007F"
+          }
+        },
+        "update": {
+          "type": "UpdateExpression",
+          "start": 870,
+          "end": 877,
+          "operator": "++",
+          "prefix": false,
+          "argument": {
+            "type": "Identifier",
+            "start": 870,
+            "end": 875,
+            "name": "index"
+          }
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 879,
+          "end": 1670,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 885,
+              "end": 893,
+              "expression": {
+                "type": "UpdateExpression",
+                "start": 885,
+                "end": 892,
+                "operator": "++",
+                "prefix": false,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 885,
+                  "end": 890,
+                  "name": "count"
+                }
+              }
+            },
+            {
+              "type": "VariableDeclaration",
+              "start": 898,
+              "end": 935,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 902,
+                  "end": 934,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 902,
+                    "end": 905,
+                    "name": "str"
+                  },
+                  "init": {
+                    "type": "CallExpression",
+                    "start": 908,
+                    "end": 934,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 908,
+                      "end": 927,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 908,
+                        "end": 914,
+                        "name": "String"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 915,
+                        "end": 927,
+                        "name": "fromCharCode"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 928,
+                        "end": 933,
+                        "name": "index"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ],
+              "kind": "var"
+            },
+            {
+              "type": "ForStatement",
+              "start": 940,
+              "end": 1060,
+              "init": {
+                "type": "VariableDeclaration",
+                "start": 945,
+                "end": 959,
+                "declarations": [
+                  {
+                    "type": "VariableDeclarator",
+                    "start": 949,
+                    "end": 959,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 949,
+                      "end": 955,
+                      "name": "indexC"
+                    },
+                    "init": {
+                      "type": "Literal",
+                      "start": 958,
+                      "end": 959,
+                      "value": 0,
+                      "raw": "0"
+                    }
+                  }
+                ],
+                "kind": "var"
+              },
+              "test": {
+                "type": "BinaryExpression",
+                "start": 961,
+                "end": 989,
+                "left": {
+                  "type": "Identifier",
+                  "start": 961,
+                  "end": 967,
+                  "name": "indexC"
+                },
+                "operator": "<",
+                "right": {
+                  "type": "MemberExpression",
+                  "start": 970,
+                  "end": 989,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 970,
+                    "end": 982,
+                    "name": "uriUnescaped"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 983,
+                    "end": 989,
+                    "name": "length"
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              },
+              "update": {
+                "type": "UpdateExpression",
+                "start": 991,
+                "end": 999,
+                "operator": "++",
+                "prefix": false,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 991,
+                  "end": 997,
+                  "name": "indexC"
+                }
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 1001,
+                "end": 1060,
+                "body": [
+                  {
+                    "type": "IfStatement",
+                    "start": 1009,
+                    "end": 1054,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 1013,
+                      "end": 1041,
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 1013,
+                        "end": 1033,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1013,
+                          "end": 1025,
+                          "name": "uriUnescaped"
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1026,
+                          "end": 1032,
+                          "name": "indexC"
+                        },
+                        "computed": true,
+                        "optional": false
+                      },
+                      "operator": "===",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 1038,
+                        "end": 1041,
+                        "name": "str"
+                      }
+                    },
+                    "consequent": {
+                      "type": "ContinueStatement",
+                      "start": 1043,
+                      "end": 1054,
+                      "label": {
+                        "type": "Identifier",
+                        "start": 1052,
+                        "end": 1053,
+                        "name": "l"
+                      }
+                    },
+                    "alternate": null
+                  }
+                ]
+              }
+            },
+            {
+              "type": "IfStatement",
+              "start": 1065,
+              "end": 1156,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 1069,
+                "end": 1143,
+                "left": {
+                  "type": "CallExpression",
+                  "start": 1069,
+                  "end": 1106,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 1069,
+                    "end": 1104,
+                    "object": {
+                      "type": "CallExpression",
+                      "start": 1069,
+                      "end": 1092,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1069,
+                        "end": 1087,
+                        "name": "encodeURIComponent"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 1088,
+                          "end": 1091,
+                          "name": "str"
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 1093,
+                      "end": 1104,
+                      "name": "toUpperCase"
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [],
+                  "optional": false
+                },
+                "operator": "===",
+                "right": {
+                  "type": "CallExpression",
+                  "start": 1111,
+                  "end": 1143,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1111,
+                    "end": 1136,
+                    "name": "decimalToPercentHexString"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 1137,
+                      "end": 1142,
+                      "name": "index"
+                    }
+                  ],
+                  "optional": false
+                }
+              },
+              "consequent": {
+                "type": "ContinueStatement",
+                "start": 1145,
+                "end": 1156,
+                "label": {
+                  "type": "Identifier",
+                  "start": 1154,
+                  "end": 1155,
+                  "name": "l"
+                }
+              },
+              "alternate": null
+            },
+            {
+              "type": "IfStatement",
+              "start": 1162,
+              "end": 1628,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 1166,
+                "end": 1178,
+                "left": {
+                  "type": "Identifier",
+                  "start": 1166,
+                  "end": 1172,
+                  "name": "indexO"
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 1177,
+                  "end": 1178,
+                  "value": 0,
+                  "raw": "0"
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 1180,
+                "end": 1209,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 1188,
+                    "end": 1203,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 1188,
+                      "end": 1202,
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "start": 1188,
+                        "end": 1194,
+                        "name": "indexO"
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 1197,
+                        "end": 1202,
+                        "name": "index"
+                      }
+                    }
+                  }
+                ]
+              },
+              "alternate": {
+                "type": "BlockStatement",
+                "start": 1215,
+                "end": 1628,
+                "body": [
+                  {
+                    "type": "IfStatement",
+                    "start": 1223,
+                    "end": 1622,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 1227,
+                      "end": 1249,
+                      "left": {
+                        "type": "ParenthesizedExpression",
+                        "start": 1227,
+                        "end": 1243,
+                        "expression": {
+                          "type": "BinaryExpression",
+                          "start": 1228,
+                          "end": 1242,
+                          "left": {
+                            "type": "Identifier",
+                            "start": 1228,
+                            "end": 1233,
+                            "name": "index"
+                          },
+                          "operator": "-",
+                          "right": {
+                            "type": "Identifier",
+                            "start": 1236,
+                            "end": 1242,
+                            "name": "indexP"
+                          }
+                        }
+                      },
+                      "operator": "!==",
+                      "right": {
+                        "type": "Literal",
+                        "start": 1248,
+                        "end": 1249,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    },
+                    "consequent": {
+                      "type": "BlockStatement",
+                      "start": 1251,
+                      "end": 1622,
+                      "body": [
+                        {
+                          "type": "IfStatement",
+                          "start": 1261,
+                          "end": 1590,
+                          "test": {
+                            "type": "BinaryExpression",
+                            "start": 1265,
+                            "end": 1288,
+                            "left": {
+                              "type": "ParenthesizedExpression",
+                              "start": 1265,
+                              "end": 1282,
+                              "expression": {
+                                "type": "BinaryExpression",
+                                "start": 1266,
+                                "end": 1281,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 1266,
+                                  "end": 1272,
+                                  "name": "indexP"
+                                },
+                                "operator": "-",
+                                "right": {
+                                  "type": "Identifier",
+                                  "start": 1275,
+                                  "end": 1281,
+                                  "name": "indexO"
+                                }
+                              }
+                            },
+                            "operator": "!==",
+                            "right": {
+                              "type": "Literal",
+                              "start": 1287,
+                              "end": 1288,
+                              "value": 0,
+                              "raw": "0"
+                            }
+                          },
+                          "consequent": {
+                            "type": "BlockStatement",
+                            "start": 1290,
+                            "end": 1464,
+                            "body": [
+                              {
+                                "type": "VariableDeclaration",
+                                "start": 1302,
+                                "end": 1340,
+                                "declarations": [
+                                  {
+                                    "type": "VariableDeclarator",
+                                    "start": 1306,
+                                    "end": 1339,
+                                    "id": {
+                                      "type": "Identifier",
+                                      "start": 1306,
+                                      "end": 1310,
+                                      "name": "hexP"
+                                    },
+                                    "init": {
+                                      "type": "CallExpression",
+                                      "start": 1313,
+                                      "end": 1339,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 1313,
+                                        "end": 1331,
+                                        "name": "decimalToHexString"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Identifier",
+                                          "start": 1332,
+                                          "end": 1338,
+                                          "name": "indexP"
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  }
+                                ],
+                                "kind": "var"
+                              },
+                              {
+                                "type": "VariableDeclaration",
+                                "start": 1351,
+                                "end": 1389,
+                                "declarations": [
+                                  {
+                                    "type": "VariableDeclarator",
+                                    "start": 1355,
+                                    "end": 1388,
+                                    "id": {
+                                      "type": "Identifier",
+                                      "start": 1355,
+                                      "end": 1359,
+                                      "name": "hexO"
+                                    },
+                                    "init": {
+                                      "type": "CallExpression",
+                                      "start": 1362,
+                                      "end": 1388,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 1362,
+                                        "end": 1380,
+                                        "name": "decimalToHexString"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Identifier",
+                                          "start": 1381,
+                                          "end": 1387,
+                                          "name": "indexO"
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  }
+                                ],
+                                "kind": "var"
+                              },
+                              {
+                                "type": "ThrowStatement",
+                                "start": 1400,
+                                "end": 1454,
+                                "argument": {
+                                  "type": "NewExpression",
+                                  "start": 1406,
+                                  "end": 1453,
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 1410,
+                                    "end": 1422,
+                                    "name": "Test262Error"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "BinaryExpression",
+                                      "start": 1423,
+                                      "end": 1452,
+                                      "left": {
+                                        "type": "BinaryExpression",
+                                        "start": 1423,
+                                        "end": 1446,
+                                        "left": {
+                                          "type": "BinaryExpression",
+                                          "start": 1423,
+                                          "end": 1439,
+                                          "left": {
+                                            "type": "BinaryExpression",
+                                            "start": 1423,
+                                            "end": 1433,
+                                            "left": {
+                                              "type": "Literal",
+                                              "start": 1423,
+                                              "end": 1426,
+                                              "value": "#",
+                                              "raw": "'#'"
+                                            },
+                                            "operator": "+",
+                                            "right": {
+                                              "type": "Identifier",
+                                              "start": 1429,
+                                              "end": 1433,
+                                              "name": "hexO"
+                                            }
+                                          },
+                                          "operator": "+",
+                                          "right": {
+                                            "type": "Literal",
+                                            "start": 1436,
+                                            "end": 1439,
+                                            "value": "-",
+                                            "raw": "'-'"
+                                          }
+                                        },
+                                        "operator": "+",
+                                        "right": {
+                                          "type": "Identifier",
+                                          "start": 1442,
+                                          "end": 1446,
+                                          "name": "hexP"
+                                        }
+                                      },
+                                      "operator": "+",
+                                      "right": {
+                                        "type": "Literal",
+                                        "start": 1449,
+                                        "end": 1452,
+                                        "value": " ",
+                                        "raw": "' '"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          "alternate": {
+                            "type": "BlockStatement",
+                            "start": 1478,
+                            "end": 1590,
+                            "body": [
+                              {
+                                "type": "VariableDeclaration",
+                                "start": 1490,
+                                "end": 1528,
+                                "declarations": [
+                                  {
+                                    "type": "VariableDeclarator",
+                                    "start": 1494,
+                                    "end": 1527,
+                                    "id": {
+                                      "type": "Identifier",
+                                      "start": 1494,
+                                      "end": 1498,
+                                      "name": "hexP"
+                                    },
+                                    "init": {
+                                      "type": "CallExpression",
+                                      "start": 1501,
+                                      "end": 1527,
+                                      "callee": {
+                                        "type": "Identifier",
+                                        "start": 1501,
+                                        "end": 1519,
+                                        "name": "decimalToHexString"
+                                      },
+                                      "arguments": [
+                                        {
+                                          "type": "Identifier",
+                                          "start": 1520,
+                                          "end": 1526,
+                                          "name": "indexP"
+                                        }
+                                      ],
+                                      "optional": false
+                                    }
+                                  }
+                                ],
+                                "kind": "var"
+                              },
+                              {
+                                "type": "ThrowStatement",
+                                "start": 1539,
+                                "end": 1580,
+                                "argument": {
+                                  "type": "NewExpression",
+                                  "start": 1545,
+                                  "end": 1579,
+                                  "callee": {
+                                    "type": "Identifier",
+                                    "start": 1549,
+                                    "end": 1561,
+                                    "name": "Test262Error"
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "BinaryExpression",
+                                      "start": 1562,
+                                      "end": 1578,
+                                      "left": {
+                                        "type": "BinaryExpression",
+                                        "start": 1562,
+                                        "end": 1572,
+                                        "left": {
+                                          "type": "Literal",
+                                          "start": 1562,
+                                          "end": 1565,
+                                          "value": "#",
+                                          "raw": "'#'"
+                                        },
+                                        "operator": "+",
+                                        "right": {
+                                          "type": "Identifier",
+                                          "start": 1568,
+                                          "end": 1572,
+                                          "name": "hexP"
+                                        }
+                                      },
+                                      "operator": "+",
+                                      "right": {
+                                        "type": "Literal",
+                                        "start": 1575,
+                                        "end": 1578,
+                                        "value": " ",
+                                        "raw": "' '"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "ExpressionStatement",
+                          "start": 1599,
+                          "end": 1614,
+                          "expression": {
+                            "type": "AssignmentExpression",
+                            "start": 1599,
+                            "end": 1613,
+                            "operator": "=",
+                            "left": {
+                              "type": "Identifier",
+                              "start": 1599,
+                              "end": 1605,
+                              "name": "indexO"
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "start": 1608,
+                              "end": 1613,
+                              "name": "index"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "alternate": null
+                  }
+                ]
+              }
+            },
+            {
+              "type": "ExpressionStatement",
+              "start": 1633,
+              "end": 1648,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 1633,
+                "end": 1647,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 1633,
+                  "end": 1639,
+                  "name": "indexP"
+                },
+                "right": {
+                  "type": "Identifier",
+                  "start": 1642,
+                  "end": 1647,
+                  "name": "index"
+                }
+              }
+            },
+            {
+              "type": "ExpressionStatement",
+              "start": 1653,
+              "end": 1666,
+              "expression": {
+                "type": "UpdateExpression",
+                "start": 1653,
+                "end": 1665,
+                "operator": "++",
+                "prefix": false,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 1653,
+                  "end": 1663,
+                  "name": "errorCount"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "label": {
+        "type": "Identifier",
+        "start": 823,
+        "end": 824,
+        "name": "l"
+      }
+    },
+    {
+      "type": "IfStatement",
+      "start": 1672,
+      "end": 2078,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1676,
+        "end": 1690,
+        "left": {
+          "type": "Identifier",
+          "start": 1676,
+          "end": 1686,
+          "name": "errorCount"
+        },
+        "operator": ">",
+        "right": {
+          "type": "Literal",
+          "start": 1689,
+          "end": 1690,
+          "value": 0,
+          "raw": "0"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 1692,
+        "end": 2078,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 1696,
+            "end": 1975,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 1700,
+              "end": 1723,
+              "left": {
+                "type": "ParenthesizedExpression",
+                "start": 1700,
+                "end": 1717,
+                "expression": {
+                  "type": "BinaryExpression",
+                  "start": 1701,
+                  "end": 1716,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 1701,
+                    "end": 1707,
+                    "name": "indexP"
+                  },
+                  "operator": "-",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 1710,
+                    "end": 1716,
+                    "name": "indexO"
+                  }
+                }
+              },
+              "operator": "!==",
+              "right": {
+                "type": "Literal",
+                "start": 1722,
+                "end": 1723,
+                "value": 0,
+                "raw": "0"
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 1725,
+              "end": 1875,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 1731,
+                  "end": 1769,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 1735,
+                      "end": 1768,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 1735,
+                        "end": 1739,
+                        "name": "hexP"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 1742,
+                        "end": 1768,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1742,
+                          "end": 1760,
+                          "name": "decimalToHexString"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 1761,
+                            "end": 1767,
+                            "name": "indexP"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 1774,
+                  "end": 1812,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 1778,
+                      "end": 1811,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 1778,
+                        "end": 1782,
+                        "name": "hexO"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 1785,
+                        "end": 1811,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1785,
+                          "end": 1803,
+                          "name": "decimalToHexString"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 1804,
+                            "end": 1810,
+                            "name": "indexO"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ThrowStatement",
+                  "start": 1817,
+                  "end": 1871,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1823,
+                    "end": 1870,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1827,
+                      "end": 1839,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 1840,
+                        "end": 1869,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 1840,
+                          "end": 1863,
+                          "left": {
+                            "type": "BinaryExpression",
+                            "start": 1840,
+                            "end": 1856,
+                            "left": {
+                              "type": "BinaryExpression",
+                              "start": 1840,
+                              "end": 1850,
+                              "left": {
+                                "type": "Literal",
+                                "start": 1840,
+                                "end": 1843,
+                                "value": "#",
+                                "raw": "'#'"
+                              },
+                              "operator": "+",
+                              "right": {
+                                "type": "Identifier",
+                                "start": 1846,
+                                "end": 1850,
+                                "name": "hexO"
+                              }
+                            },
+                            "operator": "+",
+                            "right": {
+                              "type": "Literal",
+                              "start": 1853,
+                              "end": 1856,
+                              "value": "-",
+                              "raw": "'-'"
+                            }
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "start": 1859,
+                            "end": 1863,
+                            "name": "hexP"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 1866,
+                          "end": 1869,
+                          "value": " ",
+                          "raw": "' '"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "alternate": {
+              "type": "BlockStatement",
+              "start": 1881,
+              "end": 1975,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 1887,
+                  "end": 1925,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 1891,
+                      "end": 1924,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 1891,
+                        "end": 1895,
+                        "name": "hexP"
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "start": 1898,
+                        "end": 1924,
+                        "callee": {
+                          "type": "Identifier",
+                          "start": 1898,
+                          "end": 1916,
+                          "name": "decimalToHexString"
+                        },
+                        "arguments": [
+                          {
+                            "type": "Identifier",
+                            "start": 1917,
+                            "end": 1923,
+                            "name": "indexP"
+                          }
+                        ],
+                        "optional": false
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ThrowStatement",
+                  "start": 1930,
+                  "end": 1971,
+                  "argument": {
+                    "type": "NewExpression",
+                    "start": 1936,
+                    "end": 1970,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 1940,
+                      "end": 1952,
+                      "name": "Test262Error"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "start": 1953,
+                        "end": 1969,
+                        "left": {
+                          "type": "BinaryExpression",
+                          "start": 1953,
+                          "end": 1963,
+                          "left": {
+                            "type": "Literal",
+                            "start": 1953,
+                            "end": 1956,
+                            "value": "#",
+                            "raw": "'#'"
+                          },
+                          "operator": "+",
+                          "right": {
+                            "type": "Identifier",
+                            "start": 1959,
+                            "end": 1963,
+                            "name": "hexP"
+                          }
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 1966,
+                          "end": 1969,
+                          "value": " ",
+                          "raw": "' '"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 1978,
+            "end": 2076,
+            "argument": {
+              "type": "NewExpression",
+              "start": 1984,
+              "end": 2075,
+              "callee": {
+                "type": "Identifier",
+                "start": 1988,
+                "end": 2000,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 2001,
+                  "end": 2074,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 2001,
+                    "end": 2068,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 2001,
+                      "end": 2060,
+                      "left": {
+                        "type": "BinaryExpression",
+                        "start": 2001,
+                        "end": 2029,
+                        "left": {
+                          "type": "Literal",
+                          "start": 2001,
+                          "end": 2016,
+                          "value": "Total error: ",
+                          "raw": "'Total error: '"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 2019,
+                          "end": 2029,
+                          "name": "errorCount"
+                        }
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 2032,
+                        "end": 2060,
+                        "value": " bad Unicode character in ",
+                        "raw": "' bad Unicode character in '"
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 2063,
+                      "end": 2068,
+                      "name": "count"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Literal",
+                    "start": 2071,
+                    "end": 2074,
+                    "value": " ",
+                    "raw": "' '"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}

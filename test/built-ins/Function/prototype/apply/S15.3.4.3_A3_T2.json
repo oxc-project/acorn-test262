@@ -1,0 +1,127 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 476,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 331,
+      "end": 376,
+      "expression": {
+        "type": "CallExpression",
+        "start": 331,
+        "end": 375,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 331,
+          "end": 369,
+          "object": {
+            "type": "CallExpression",
+            "start": 331,
+            "end": 363,
+            "callee": {
+              "type": "Identifier",
+              "start": 331,
+              "end": 339,
+              "name": "Function"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 340,
+                "end": 362,
+                "value": "this.field=\"green\"",
+                "raw": "\"this.field=\\\"green\\\"\""
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 364,
+            "end": 369,
+            "name": "apply"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 370,
+            "end": 374,
+            "value": null,
+            "raw": "null"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 378,
+      "end": 475,
+      "expression": {
+        "type": "CallExpression",
+        "start": 378,
+        "end": 474,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 378,
+          "end": 394,
+          "object": {
+            "type": "Identifier",
+            "start": 378,
+            "end": 384,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 385,
+            "end": 394,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 395,
+            "end": 408,
+            "object": {
+              "type": "ThisExpression",
+              "start": 395,
+              "end": 399
+            },
+            "property": {
+              "type": "Literal",
+              "start": 400,
+              "end": 407,
+              "value": "field",
+              "raw": "\"field\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 410,
+            "end": 417,
+            "value": "green",
+            "raw": "\"green\""
+          },
+          {
+            "type": "Literal",
+            "start": 419,
+            "end": 473,
+            "value": "The value of this[\"field\"] is expected to be \"green\"",
+            "raw": "'The value of this[\"field\"] is expected to be \"green\"'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

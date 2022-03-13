@@ -1,0 +1,252 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 816,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 445,
+      "end": 488,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 449,
+          "end": 487,
+          "id": {
+            "type": "Identifier",
+            "start": 449,
+            "end": 452,
+            "name": "cal"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 455,
+            "end": 487,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 459,
+              "end": 476,
+              "object": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 467,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 468,
+                "end": 476,
+                "name": "Calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 477,
+                "end": 486,
+                "value": "iso8601",
+                "raw": "\"iso8601\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "let"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 490,
+      "end": 652,
+      "expression": {
+        "type": "CallExpression",
+        "start": 490,
+        "end": 651,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 490,
+          "end": 503,
+          "object": {
+            "type": "Identifier",
+            "start": 490,
+            "end": 496,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 497,
+            "end": 503,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 504,
+            "end": 514,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 516,
+            "end": 566,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 522,
+              "end": 566,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 522,
+                "end": 535,
+                "object": {
+                  "type": "Identifier",
+                  "start": 522,
+                  "end": 525,
+                  "name": "cal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 526,
+                  "end": 535,
+                  "name": "dateUntil"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 536,
+                  "end": 548,
+                  "value": "2021-07-16",
+                  "raw": "\"2021-07-16\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 550,
+                  "end": 565,
+                  "value": "invalide date",
+                  "raw": "\"invalide date\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 574,
+            "end": 650,
+            "value": "cal.dateUntil(\"2021-07-16\", \"invalide date\") throws a RangeError exception",
+            "raw": "'cal.dateUntil(\"2021-07-16\", \"invalide date\") throws a RangeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 653,
+      "end": 815,
+      "expression": {
+        "type": "CallExpression",
+        "start": 653,
+        "end": 814,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 653,
+          "end": 666,
+          "object": {
+            "type": "Identifier",
+            "start": 653,
+            "end": 659,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 660,
+            "end": 666,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 667,
+            "end": 677,
+            "name": "RangeError"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 679,
+            "end": 729,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "CallExpression",
+              "start": 685,
+              "end": 729,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 685,
+                "end": 698,
+                "object": {
+                  "type": "Identifier",
+                  "start": 685,
+                  "end": 688,
+                  "name": "cal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 689,
+                  "end": 698,
+                  "name": "dateUntil"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 699,
+                  "end": 714,
+                  "value": "invalide date",
+                  "raw": "\"invalide date\""
+                },
+                {
+                  "type": "Literal",
+                  "start": 716,
+                  "end": 728,
+                  "value": "2021-07-16",
+                  "raw": "\"2021-07-16\""
+                }
+              ],
+              "optional": false
+            }
+          },
+          {
+            "type": "Literal",
+            "start": 737,
+            "end": 813,
+            "value": "cal.dateUntil(\"invalide date\", \"2021-07-16\") throws a RangeError exception",
+            "raw": "'cal.dateUntil(\"invalide date\", \"2021-07-16\") throws a RangeError exception'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

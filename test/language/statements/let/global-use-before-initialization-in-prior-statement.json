@@ -1,0 +1,39 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 329,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 319,
+      "end": 321,
+      "expression": {
+        "type": "Identifier",
+        "start": 319,
+        "end": 320,
+        "name": "x"
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 322,
+      "end": 328,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 326,
+          "end": 327,
+          "id": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 327,
+            "name": "x"
+          },
+          "init": null
+        }
+      ],
+      "kind": "let"
+    }
+  ],
+  "sourceType": "script"
+}

@@ -1,0 +1,207 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 418,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 266,
+      "end": 417,
+      "expression": {
+        "type": "CallExpression",
+        "start": 266,
+        "end": 416,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 266,
+          "end": 279,
+          "object": {
+            "type": "Identifier",
+            "start": 266,
+            "end": 272,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 273,
+            "end": 279,
+            "name": "throws"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 280,
+            "end": 292,
+            "name": "Test262Error"
+          },
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 294,
+            "end": 415,
+            "id": null,
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 300,
+              "end": 415,
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "start": 304,
+                  "end": 372,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 308,
+                      "end": 372,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 308,
+                        "end": 319,
+                        "name": "myComparefn"
+                      },
+                      "init": {
+                        "type": "FunctionExpression",
+                        "start": 322,
+                        "end": 372,
+                        "id": null,
+                        "expression": false,
+                        "generator": false,
+                        "async": false,
+                        "params": [
+                          {
+                            "type": "Identifier",
+                            "start": 331,
+                            "end": 332,
+                            "name": "x"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 334,
+                            "end": 335,
+                            "name": "y"
+                          }
+                        ],
+                        "body": {
+                          "type": "BlockStatement",
+                          "start": 337,
+                          "end": 372,
+                          "body": [
+                            {
+                              "type": "ThrowStatement",
+                              "start": 343,
+                              "end": 368,
+                              "argument": {
+                                "type": "NewExpression",
+                                "start": 349,
+                                "end": 367,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 353,
+                                  "end": 365,
+                                  "name": "Test262Error"
+                                },
+                                "arguments": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "start": 375,
+                  "end": 390,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 379,
+                      "end": 389,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 379,
+                        "end": 380,
+                        "name": "x"
+                      },
+                      "init": {
+                        "type": "ArrayExpression",
+                        "start": 383,
+                        "end": 389,
+                        "elements": [
+                          {
+                            "type": "Literal",
+                            "start": 384,
+                            "end": 385,
+                            "value": 1,
+                            "raw": "1"
+                          },
+                          {
+                            "type": "Literal",
+                            "start": 387,
+                            "end": 388,
+                            "value": 0,
+                            "raw": "0"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "kind": "var"
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "start": 393,
+                  "end": 413,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 393,
+                    "end": 412,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 393,
+                      "end": 399,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 393,
+                        "end": 394,
+                        "name": "x"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 395,
+                        "end": 399,
+                        "name": "sort"
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 400,
+                        "end": 411,
+                        "name": "myComparefn"
+                      }
+                    ],
+                    "optional": false
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

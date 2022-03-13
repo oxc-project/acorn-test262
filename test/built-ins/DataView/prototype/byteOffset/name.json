@@ -1,0 +1,293 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 816,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 471,
+      "end": 558,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 475,
+          "end": 557,
+          "id": {
+            "type": "Identifier",
+            "start": 475,
+            "end": 485,
+            "name": "descriptor"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 488,
+            "end": 557,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 488,
+              "end": 519,
+              "object": {
+                "type": "Identifier",
+                "start": 488,
+                "end": 494,
+                "name": "Object"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 495,
+                "end": 519,
+                "name": "getOwnPropertyDescriptor"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "MemberExpression",
+                "start": 523,
+                "end": 541,
+                "object": {
+                  "type": "Identifier",
+                  "start": 523,
+                  "end": 531,
+                  "name": "DataView"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 532,
+                  "end": 541,
+                  "name": "prototype"
+                },
+                "computed": false,
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 543,
+                "end": 555,
+                "value": "byteOffset",
+                "raw": "'byteOffset'"
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 560,
+      "end": 682,
+      "expression": {
+        "type": "CallExpression",
+        "start": 560,
+        "end": 681,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 560,
+          "end": 576,
+          "object": {
+            "type": "Identifier",
+            "start": 560,
+            "end": 566,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 567,
+            "end": 576,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 580,
+            "end": 599,
+            "object": {
+              "type": "MemberExpression",
+              "start": 580,
+              "end": 594,
+              "object": {
+                "type": "Identifier",
+                "start": 580,
+                "end": 590,
+                "name": "descriptor"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 591,
+                "end": 594,
+                "name": "get"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 595,
+              "end": 599,
+              "name": "name"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 601,
+            "end": 617,
+            "value": "get byteOffset",
+            "raw": "'get byteOffset'"
+          },
+          {
+            "type": "Literal",
+            "start": 621,
+            "end": 679,
+            "value": "The value of `descriptor.get.name` is `\"get byteOffset\"`",
+            "raw": "'The value of `descriptor.get.name` is `\"get byteOffset\"`'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 684,
+      "end": 728,
+      "expression": {
+        "type": "CallExpression",
+        "start": 684,
+        "end": 727,
+        "callee": {
+          "type": "Identifier",
+          "start": 684,
+          "end": 703,
+          "name": "verifyNotEnumerable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 704,
+            "end": 718,
+            "object": {
+              "type": "Identifier",
+              "start": 704,
+              "end": 714,
+              "name": "descriptor"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 715,
+              "end": 718,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 720,
+            "end": 726,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 729,
+      "end": 771,
+      "expression": {
+        "type": "CallExpression",
+        "start": 729,
+        "end": 770,
+        "callee": {
+          "type": "Identifier",
+          "start": 729,
+          "end": 746,
+          "name": "verifyNotWritable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 747,
+            "end": 761,
+            "object": {
+              "type": "Identifier",
+              "start": 747,
+              "end": 757,
+              "name": "descriptor"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 758,
+              "end": 761,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 763,
+            "end": 769,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 772,
+      "end": 815,
+      "expression": {
+        "type": "CallExpression",
+        "start": 772,
+        "end": 814,
+        "callee": {
+          "type": "Identifier",
+          "start": 772,
+          "end": 790,
+          "name": "verifyConfigurable"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 791,
+            "end": 805,
+            "object": {
+              "type": "Identifier",
+              "start": 791,
+              "end": 801,
+              "name": "descriptor"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 802,
+              "end": 805,
+              "name": "get"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 807,
+            "end": 813,
+            "value": "name",
+            "raw": "'name'"
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

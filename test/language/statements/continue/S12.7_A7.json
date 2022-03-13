@@ -1,0 +1,268 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 876,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 327,
+      "end": 339,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 331,
+          "end": 334,
+          "id": {
+            "type": "Identifier",
+            "start": 331,
+            "end": 332,
+            "name": "x"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 333,
+            "end": 334,
+            "value": 0,
+            "raw": "0"
+          }
+        },
+        {
+          "type": "VariableDeclarator",
+          "start": 335,
+          "end": 338,
+          "id": {
+            "type": "Identifier",
+            "start": 335,
+            "end": 336,
+            "name": "y"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 337,
+            "end": 338,
+            "value": 0,
+            "raw": "0"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "TryStatement",
+      "start": 430,
+      "end": 793,
+      "block": {
+        "type": "BlockStatement",
+        "start": 433,
+        "end": 618,
+        "body": [
+          {
+            "type": "LabeledStatement",
+            "start": 436,
+            "end": 524,
+            "body": {
+              "type": "DoWhileStatement",
+              "start": 445,
+              "end": 524,
+              "body": {
+                "type": "BlockStatement",
+                "start": 448,
+                "end": 514,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 458,
+                    "end": 462,
+                    "expression": {
+                      "type": "UpdateExpression",
+                      "start": 458,
+                      "end": 461,
+                      "operator": "++",
+                      "prefix": false,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 458,
+                        "end": 459,
+                        "name": "x"
+                      }
+                    }
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 471,
+                    "end": 495,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 471,
+                      "end": 494,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 471,
+                        "end": 475,
+                        "name": "eval"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 476,
+                          "end": 493,
+                          "value": "continue LABEL1",
+                          "raw": "\"continue LABEL1\""
+                        }
+                      ],
+                      "optional": false
+                    }
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 504,
+                    "end": 508,
+                    "expression": {
+                      "type": "UpdateExpression",
+                      "start": 504,
+                      "end": 507,
+                      "operator": "++",
+                      "prefix": false,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 504,
+                        "end": 505,
+                        "name": "y"
+                      }
+                    }
+                  }
+                ]
+              },
+              "test": {
+                "type": "Literal",
+                "start": 521,
+                "end": 522,
+                "value": 0,
+                "raw": "0"
+              }
+            },
+            "label": {
+              "type": "Identifier",
+              "start": 436,
+              "end": 442,
+              "name": "LABEL1"
+            }
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 526,
+            "end": 616,
+            "argument": {
+              "type": "NewExpression",
+              "start": 532,
+              "end": 615,
+              "callee": {
+                "type": "Identifier",
+                "start": 536,
+                "end": 548,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 549,
+                  "end": 614,
+                  "value": "#1: eval(\"continue LABEL1\") does not lead to throwing exception",
+                  "raw": "'#1: eval(\"continue LABEL1\") does not lead to throwing exception'"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 619,
+        "end": 793,
+        "param": {
+          "type": "Identifier",
+          "start": 625,
+          "end": 626,
+          "name": "e"
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 627,
+          "end": 793,
+          "body": [
+            {
+              "type": "IfStatement",
+              "start": 630,
+              "end": 791,
+              "test": {
+                "type": "UnaryExpression",
+                "start": 633,
+                "end": 660,
+                "operator": "!",
+                "prefix": true,
+                "argument": {
+                  "type": "ParenthesizedExpression",
+                  "start": 634,
+                  "end": 660,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 635,
+                    "end": 659,
+                    "left": {
+                      "type": "Identifier",
+                      "start": 635,
+                      "end": 636,
+                      "name": "e"
+                    },
+                    "operator": "instanceof",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 648,
+                      "end": 659,
+                      "name": "SyntaxError"
+                    }
+                  }
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 661,
+                "end": 791,
+                "body": [
+                  {
+                    "type": "ThrowStatement",
+                    "start": 665,
+                    "end": 788,
+                    "argument": {
+                      "type": "NewExpression",
+                      "start": 671,
+                      "end": 787,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 675,
+                        "end": 687,
+                        "name": "Test262Error"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 688,
+                          "end": 786,
+                          "value": "1.1: Appearing of continue within eval statement inside of IterationStatement yields SyntaxError",
+                          "raw": "\"1.1: Appearing of continue within eval statement inside of IterationStatement yields SyntaxError\""
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "alternate": null
+            }
+          ]
+        }
+      },
+      "finalizer": null
+    }
+  ],
+  "sourceType": "script"
+}

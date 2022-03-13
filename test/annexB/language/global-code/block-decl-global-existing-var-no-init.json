@@ -1,0 +1,107 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 722,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 658,
+      "end": 670,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 662,
+          "end": 669,
+          "id": {
+            "type": "Identifier",
+            "start": 662,
+            "end": 663,
+            "name": "f"
+          },
+          "init": {
+            "type": "Literal",
+            "start": 666,
+            "end": 669,
+            "value": 123,
+            "raw": "123"
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 671,
+      "end": 696,
+      "expression": {
+        "type": "CallExpression",
+        "start": 671,
+        "end": 695,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 671,
+          "end": 687,
+          "object": {
+            "type": "Identifier",
+            "start": 671,
+            "end": 677,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 678,
+            "end": 687,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 688,
+            "end": 689,
+            "name": "f"
+          },
+          {
+            "type": "Literal",
+            "start": 691,
+            "end": 694,
+            "value": 123,
+            "raw": "123"
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "BlockStatement",
+      "start": 698,
+      "end": 721,
+      "body": [
+        {
+          "type": "FunctionDeclaration",
+          "start": 702,
+          "end": 719,
+          "id": {
+            "type": "Identifier",
+            "start": 711,
+            "end": 712,
+            "name": "f"
+          },
+          "expression": false,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "BlockStatement",
+            "start": 715,
+            "end": 719,
+            "body": []
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "script"
+}

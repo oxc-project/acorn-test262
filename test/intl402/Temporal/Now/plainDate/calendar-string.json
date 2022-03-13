@@ -1,0 +1,195 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 372,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 233,
+      "end": 280,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 239,
+          "end": 279,
+          "id": {
+            "type": "Identifier",
+            "start": 239,
+            "end": 243,
+            "name": "date"
+          },
+          "init": {
+            "type": "CallExpression",
+            "start": 246,
+            "end": 279,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 246,
+              "end": 268,
+              "object": {
+                "type": "MemberExpression",
+                "start": 246,
+                "end": 258,
+                "object": {
+                  "type": "Identifier",
+                  "start": 246,
+                  "end": 254,
+                  "name": "Temporal"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 255,
+                  "end": 258,
+                  "name": "Now"
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 259,
+                "end": 268,
+                "name": "plainDate"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 269,
+                "end": 278,
+                "value": "gregory",
+                "raw": "\"gregory\""
+              }
+            ],
+            "optional": false
+          }
+        }
+      ],
+      "kind": "const"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 281,
+      "end": 324,
+      "expression": {
+        "type": "CallExpression",
+        "start": 281,
+        "end": 323,
+        "callee": {
+          "type": "Identifier",
+          "start": 281,
+          "end": 287,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 288,
+            "end": 322,
+            "left": {
+              "type": "Identifier",
+              "start": 288,
+              "end": 292,
+              "name": "date"
+            },
+            "operator": "instanceof",
+            "right": {
+              "type": "MemberExpression",
+              "start": 304,
+              "end": 322,
+              "object": {
+                "type": "Identifier",
+                "start": 304,
+                "end": 312,
+                "name": "Temporal"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 313,
+                "end": 322,
+                "name": "PlainDate"
+              },
+              "computed": false,
+              "optional": false
+            }
+          }
+        ],
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 325,
+      "end": 371,
+      "expression": {
+        "type": "CallExpression",
+        "start": 325,
+        "end": 370,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 325,
+          "end": 341,
+          "object": {
+            "type": "Identifier",
+            "start": 325,
+            "end": 331,
+            "name": "assert"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 332,
+            "end": 341,
+            "name": "sameValue"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 342,
+            "end": 358,
+            "object": {
+              "type": "MemberExpression",
+              "start": 342,
+              "end": 355,
+              "object": {
+                "type": "Identifier",
+                "start": 342,
+                "end": 346,
+                "name": "date"
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 347,
+                "end": 355,
+                "name": "calendar"
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 356,
+              "end": 358,
+              "name": "id"
+            },
+            "computed": false,
+            "optional": false
+          },
+          {
+            "type": "Literal",
+            "start": 360,
+            "end": 369,
+            "value": "gregory",
+            "raw": "\"gregory\""
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

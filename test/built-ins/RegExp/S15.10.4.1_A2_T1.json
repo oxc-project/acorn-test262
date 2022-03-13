@@ -1,0 +1,96 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 470,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 396,
+      "end": 439,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 400,
+          "end": 438,
+          "id": {
+            "type": "Identifier",
+            "start": 400,
+            "end": 409,
+            "name": "regExpObj"
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 412,
+            "end": 438,
+            "callee": {
+              "type": "Identifier",
+              "start": 416,
+              "end": 422,
+              "name": "RegExp"
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 423,
+                "end": 432,
+                "value": {},
+                "raw": "/\\u0042/i",
+                "regex": {
+                  "pattern": "\\u0042",
+                  "flags": "i"
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 434,
+                "end": 437,
+                "value": "i",
+                "raw": "\"i\""
+              }
+            ]
+          }
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 440,
+      "end": 469,
+      "expression": {
+        "type": "CallExpression",
+        "start": 440,
+        "end": 468,
+        "callee": {
+          "type": "Identifier",
+          "start": 440,
+          "end": 446,
+          "name": "assert"
+        },
+        "arguments": [
+          {
+            "type": "MemberExpression",
+            "start": 447,
+            "end": 467,
+            "object": {
+              "type": "Identifier",
+              "start": 447,
+              "end": 456,
+              "name": "regExpObj"
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 457,
+              "end": 467,
+              "name": "ignoreCase"
+            },
+            "computed": false,
+            "optional": false
+          }
+        ],
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}

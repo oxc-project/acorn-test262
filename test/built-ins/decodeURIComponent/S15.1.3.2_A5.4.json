@@ -1,0 +1,108 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 449,
+  "body": [
+    {
+      "type": "IfStatement",
+      "start": 303,
+      "end": 448,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 307,
+        "end": 338,
+        "left": {
+          "type": "MemberExpression",
+          "start": 307,
+          "end": 332,
+          "object": {
+            "type": "Identifier",
+            "start": 307,
+            "end": 325,
+            "name": "decodeURIComponent"
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 332,
+            "name": "length"
+          },
+          "computed": false,
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 337,
+          "end": 338,
+          "value": 1,
+          "raw": "1"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 340,
+        "end": 448,
+        "body": [
+          {
+            "type": "ThrowStatement",
+            "start": 344,
+            "end": 446,
+            "argument": {
+              "type": "NewExpression",
+              "start": 350,
+              "end": 445,
+              "callee": {
+                "type": "Identifier",
+                "start": 354,
+                "end": 366,
+                "name": "Test262Error"
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 367,
+                  "end": 444,
+                  "left": {
+                    "type": "Literal",
+                    "start": 367,
+                    "end": 414,
+                    "value": "#1: decodeURIComponent.length === 1. Actual: ",
+                    "raw": "'#1: decodeURIComponent.length === 1. Actual: '"
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "ParenthesizedExpression",
+                    "start": 417,
+                    "end": 444,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 418,
+                      "end": 443,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 418,
+                        "end": 436,
+                        "name": "decodeURIComponent"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 437,
+                        "end": 443,
+                        "name": "length"
+                      },
+                      "computed": false,
+                      "optional": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "alternate": null
+    }
+  ],
+  "sourceType": "script"
+}
