@@ -24,17 +24,18 @@ for await (const p of walk("./test262/test")) {
   const module = preamble.flags?.includes("module");
 
   const negative =
-    preamble.negative?.phase === "parse" && preamble.negative?.type === "SyntaxError";
+    preamble.negative?.phase === "parse" &&
+    preamble.negative?.type === "SyntaxError";
   if (negative) {
     continue;
   }
 
   const writePath = path.parse(path.join("./", p.replace(/^test262\//, "")));
-  const writeFile = writePath.dir + "/" + writePath.name + ".json"
+  const writeFile = writePath.dir + "/" + writePath.name + ".json";
 
   if (!fs.existsSync(writePath.dir)) {
     fs.mkdirSync(writePath.dir, {
-      recursive: true
+      recursive: true,
     });
   }
 
@@ -47,8 +48,8 @@ for await (const p of walk("./test262/test")) {
     });
 
     await fs.promises.writeFile(writeFile, JSON.stringify(astJson, null, 2));
-  } catch(err) {
-    console.log(p)
-    console.log(err.message)
+  } catch (err) {
+    console.log(p);
+    console.log(err.message);
   }
 }
