@@ -1,0 +1,15 @@
+{
+  "name": "acorn-test262",
+  "version": "1.0.0",
+  "author": "Boshen",
+  "license": "MIT",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.mjs"
+  },
+  "devDependencies": {
+    "acorn": "^8.7.0",
+    "yaml": "^1.10.2"
+  }
+}
