@@ -13,6 +13,8 @@ Files produce the following errors are ignored:
 * Invalid regular expression flag
 * Unexpected token (possibility a stage 3 feature)
 
+Literal.raw is deleted, it is useless for test comparisons
+
 ## Maintainance
 
 ```bash

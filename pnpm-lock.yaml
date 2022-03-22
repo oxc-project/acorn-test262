@@ -3,10 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   acorn: ^8.7.0
   acorn-stage3: ^4.0.0
+  acorn-walk: ^8.2.0
   yaml: ^1.10.2
 
 dependencies:
   acorn-stage3: 4.0.0_acorn@8.7.0
+  acorn-walk: 8.2.0
 
 devDependencies:
   acorn: 8.7.0
@@ -63,6 +65,11 @@ packages:
     dependencies:
       acorn: 8.7.0
       acorn-private-class-elements: 0.2.7_acorn@8.7.0
+    dev: false
+
+  /acorn-walk/8.2.0:
+    resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==}
+    engines: {node: '>=0.4.0'}
     dev: false
 
   /acorn/8.7.0:

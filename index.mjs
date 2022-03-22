@@ -3,17 +3,8 @@ import fs from "fs";
 import path from "path";
 import YAML from "yaml";
 import stage3 from 'acorn-stage3'
+import * as acornWalk from "acorn-walk"
 
-// omit the raw field, which is useless for comparisons
-function omitRaw(Parser) {
-  return class extends Parser {
-    parseLiteral(value) {
-      const node = super.parseLiteral(value);
-      delete node.raw
-      return node
-    }
-  }
-}
 
 async function* walk(dir) {
   for await (const d of await fs.promises.opendir(dir)) {
@@ -52,12 +43,19 @@ for await (const p of walk("./test262/test")) {
   }
 
   try {
-    const astJson = Parser.extend(stage3).extend(omitRaw).parse(code, {
+    const astJson = Parser.extend(stage3).parse(code, {
       ecmaVersion: "latest",
       preserveParens: true,
       sourceType: module ? "module" : "script",
       allowHashBang: true,
     });
+
+    // omit the raw field, which is useless for test comparisons
+    acornWalk.simple(astJson, {
+      Literal(node) {
+        delete node.raw
+      }
+    })
 
     await fs.promises.writeFile(writeFile, JSON.stringify(astJson, null, 2));
   } catch (err) {
