@@ -4,6 +4,17 @@ import path from "path";
 import YAML from "yaml";
 import stage3 from 'acorn-stage3'
 
+// omit the raw field, which is useless for comparisons
+function omitRaw(Parser) {
+  return class extends Parser {
+    parseLiteral(value) {
+      const node = super.parseLiteral(value);
+      delete node.raw
+      return node
+    }
+  }
+}
+
 async function* walk(dir) {
   for await (const d of await fs.promises.opendir(dir)) {
     const entry = path.join(dir, d.name);
@@ -41,7 +52,7 @@ for await (const p of walk("./test262/test")) {
   }
 
   try {
-    const astJson = Parser.extend(stage3).parse(code, {
+    const astJson = Parser.extend(stage3).extend(omitRaw).parse(code, {
       ecmaVersion: "latest",
       preserveParens: true,
       sourceType: module ? "module" : "script",
