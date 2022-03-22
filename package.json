@@ -11,5 +11,8 @@
   "devDependencies": {
     "acorn": "^8.7.0",
     "yaml": "^1.10.2"
+  },
+  "dependencies": {
+    "acorn-stage3": "^4.0.0"
   }
 }
